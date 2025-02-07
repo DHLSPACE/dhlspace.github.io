@@ -1,24 +1,42 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的第一个网页</title>
+    <title>令人难忘的网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 50px;
+            animation: bgAnimation 5s infinite alternate;
+        }
+        @keyframes bgAnimation {
+            0% { background-color: #000; }
+            100% { background-color: #ff0000; }
+        }
+        .highlight {
+            font-size: 32px;
+            font-weight: bold;
+            color: yellow;
+            text-transform: uppercase;
+            animation: pulse 1s infinite alternate;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; }
+            100% { transform: scale(1.2); opacity: 0.7; }
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>欢迎来到我的网页！</h1>
-    <p>这是一个非常简单的网页。</p>
-    <h2>关于我</h2>
-    <p>我是一名开发者，喜欢编写代码。</p>
-    <h2>我的兴趣</h2>
-    <ul>
-        <li>编程</li>
-        <li>阅读</li>
-        <li>旅行</li>
-    </ul>
-    <h2>我的照片</h2>
-    <img src="E:\system\Pictures\Saved Pictures\pinterest\001.jpg" alt="我的照片">
-    <h2>联系我</h2>
-    <a href="https://www.example.com">访问我的博客</a>
+    <h1 class="highlight">欢迎来到这个令人难忘的网页！</h1>
+    <p class="message">你一定会记住这次访问，因为这里充满了动感和视觉冲击！</p>
 </body>
 </html>
