@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff7f2" />
+    <meta
+      name="description"
+      content="一份认真又有点调皮的出游邀请。选个时间，我们一起出去玩吧。"
+    />
+    <title>一起出去玩吧</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="petals" id="petals" aria-hidden="true"></div>
+
+    <main class="app-shell">
+      <header class="topbar">
+        <button class="icon-button" id="restartButton" type="button" aria-label="重新开始" title="重新开始">
+          ↻
+        </button>
+      </header>
+
+      <div class="progress" id="progress" aria-label="邀请进度">
+        <span class="progress-dot is-active"></span>
+        <span class="progress-dot"></span>
+        <span class="progress-dot"></span>
+        <span class="progress-dot"></span>
+      </div>
+
+      <section class="card" id="appCard" aria-live="polite">
+        <div class="screen is-active" data-screen="invite">
+          <div class="sticker" aria-hidden="true">
+            <div class="sticker-sun"></div>
+            <div class="sticker-face">ʕ•ᴥ•ʔ</div>
+            <span class="sticker-star star-one">✦</span>
+            <span class="sticker-star star-two">✧</span>
+          </div>
+
+          <p class="eyebrow">一份很认真的邀请</p>
+          <h1 tabindex="-1"><span id="inviteeName">你</span>，要不要<br />和我出去玩？</h1>
+          <p class="lead" id="introCopy">天气、路线和小惊喜我来准备，你只需要负责出现。</p>
+
+          <div class="button-playground" id="buttonPlayground">
+            <button class="button button-primary" id="yesButton" type="button">
+              <span class="yes-label">好呀，出发</span> <span class="yes-icon" id="yesIcon" aria-hidden="true">→</span>
+            </button>
+            <button class="button button-secondary dodge-button" id="noButton" type="button">这次不了</button>
+          </div>
+          <button class="honest-exit" id="honestExit" type="button">认真说：这次不方便</button>
+          <p class="tiny-note" id="teaseMessage" aria-live="assertive">拒绝按钮偶尔会有自己的想法。</p>
+        </div>
+
+        <div class="screen" data-screen="reaction">
+          <div class="reaction-orbit" aria-hidden="true">
+            <span>✦</span><span>♡</span><span>✿</span>
+            <div class="reaction-emoji">🥹</div>
+          </div>
+          <p class="eyebrow">等一下，是真的诶</p>
+          <h2 tabindex="-1">你真的答应啦？</h2>
+          <p class="lead">我已经偷偷开心了三遍。接下来只需要做几个轻松的小选择。</p>
+          <button class="button button-primary button-wide" data-next="schedule" type="button">
+            嗯，开始安排吧 <span aria-hidden="true">→</span>
+          </button>
+        </div>
+
+        <div class="screen" data-screen="schedule">
+          <div class="step-icon" aria-hidden="true">🗓️</div>
+          <p class="eyebrow">第一件小事</p>
+          <h2 tabindex="-1">什么时候见？</h2>
+          <p class="lead compact">先圈个日子，计划才有机会从聊天框里跑出来。</p>
+
+          <form id="scheduleForm" novalidate>
+            <fieldset>
+              <legend class="field-label">挑一天</legend>
+              <div class="shortcut-grid" id="dateShortcuts">
+                <button class="shortcut-button" type="button" data-date-shortcut="today" aria-pressed="false"><strong>今天</strong><small></small></button>
+                <button class="shortcut-button" type="button" data-date-shortcut="tomorrow" aria-pressed="false"><strong>明天</strong><small></small></button>
+                <button class="shortcut-button" type="button" data-date-shortcut="this-weekend" aria-pressed="false"><strong>本周末</strong><small></small></button>
+                <button class="shortcut-button" type="button" data-date-shortcut="next-weekend" aria-pressed="false"><strong>下周末</strong><small></small></button>
+              </div>
+            </fieldset>
+
+            <label class="field-label" for="dateInput">或者自选日期</label>
+            <div class="input-wrap">
+              <input id="dateInput" name="date" type="date" />
+              <span aria-hidden="true">☼</span>
+            </div>
+
+            <label class="pending-choice">
+              <input id="datePending" type="checkbox" />
+              <span><strong>日期还没确定</strong><small>可以之后再慢慢商量</small></span>
+            </label>
+            <p class="selection-status" id="dateSelectionStatus">还没有选择日期</p>
+
+            <fieldset>
+              <legend class="field-label">几点比较舒服？</legend>
+              <div class="choice-grid time-grid" id="timeChoices">
+                <label class="choice-chip"><input type="radio" name="timeChoice" value="15:00" /><span><small>下午</small><br />15:00</span></label>
+                <label class="choice-chip"><input type="radio" name="timeChoice" value="17:30" /><span><small>傍晚</small><br />17:30</span></label>
+                <label class="choice-chip"><input type="radio" name="timeChoice" value="19:30" /><span><small>晚上</small><br />19:30</span></label>
+              </div>
+            </fieldset>
+
+            <div class="time-extras">
+              <label class="time-extra" for="customTimeChoice">
+                <input id="customTimeChoice" type="radio" name="timeChoice" value="custom" />
+                <span>自定义时间</span>
+              </label>
+              <input id="customTimeInput" class="time-input" type="time" aria-label="自定义时间" />
+              <label class="time-extra pending-time" for="timePending">
+                <input id="timePending" type="radio" name="timeChoice" value="pending" />
+                <span>时间待定</span>
+              </label>
+            </div>
+
+            <p class="form-error" id="scheduleError" role="alert"></p>
+            <button class="button button-primary button-wide" type="submit">确认日期和时间 <span aria-hidden="true">→</span></button>
+          </form>
+        </div>
+
+        <div class="screen" data-screen="activity">
+          <div class="step-icon" aria-hidden="true">🧺</div>
+          <p class="eyebrow">再选一个</p>
+          <h2 tabindex="-1">今天想怎么玩？</h2>
+          <p class="lead compact">没有标准答案，凭第一感觉点一个就好。</p>
+
+          <form id="activityForm" novalidate>
+            <div class="activity-grid">
+              <label class="activity-card"><input type="radio" name="activity" value="探店吃饭" /><span class="activity-emoji">🍜</span><strong>探店吃饭</strong><small>找一家收藏很久的店</small></label>
+              <label class="activity-card"><input type="radio" name="activity" value="散步看展" /><span class="activity-emoji">🖼️</span><strong>散步看展</strong><small>边走边聊，不赶时间</small></label>
+              <label class="activity-card"><input type="radio" name="activity" value="公园野餐" /><span class="activity-emoji">🧺</span><strong>公园野餐</strong><small>带上零食和一块好天气</small></label>
+              <label class="activity-card"><input type="radio" name="activity" value="看场电影" /><span class="activity-emoji">🎬</span><strong>看场电影</strong><small>散场后交换观后感</small></label>
+              <label class="activity-card"><input type="radio" name="activity" value="咖啡闲聊" /><span class="activity-emoji">☕</span><strong>咖啡闲聊</strong><small>把最近的故事慢慢讲完</small></label>
+              <label class="activity-card"><input type="radio" name="activity" value="交给你安排" /><span class="activity-emoji">🎁</span><strong>交给你安排</strong><small>保留一点神秘感</small></label>
+            </div>
+            <p class="form-error" id="activityError" role="alert"></p>
+            <div class="form-navigation">
+              <button class="text-button" id="backToScheduleButton" type="button">← 返回修改时间</button>
+              <button class="button button-primary" type="submit">就是它了 <span aria-hidden="true">→</span></button>
+            </div>
+          </form>
+        </div>
+
+        <div class="screen" data-screen="final">
+          <div class="final-badge" aria-hidden="true">✓</div>
+          <p class="eyebrow">约会企划已生成</p>
+          <h2 tabindex="-1">那就说定啦</h2>
+          <p class="lead" id="finalMessage">到时候见。</p>
+
+          <div class="ticket">
+            <div class="ticket-stub">
+              <span>ADMIT TWO</span>
+              <strong>一起出去玩</strong>
+            </div>
+            <dl class="ticket-details">
+              <div><dt>日期</dt><dd id="summaryDate">待定</dd></div>
+              <div><dt>时间</dt><dd id="summaryTime">17:30</dd></div>
+              <div><dt>安排</dt><dd id="summaryActivity">探店吃饭</dd></div>
+            </dl>
+          </div>
+
+          <div class="final-actions">
+            <button class="button button-primary" id="copyPlanButton" type="button">复制约会小票</button>
+            <button class="button button-secondary" id="shareButton" type="button">分享这个邀请</button>
+          </div>
+          <div class="edit-actions" aria-label="修改约会企划">
+            <button class="text-button" id="editScheduleButton" type="button">修改日期/时间</button>
+            <span aria-hidden="true">·</span>
+            <button class="text-button" id="editActivityButton" type="button">修改活动</button>
+          </div>
+          <p class="tiny-note" id="copyStatus" aria-live="polite">截图也可以，仪式感不能少。</p>
+        </div>
+
+        <div class="screen" data-screen="decline">
+          <div class="step-icon" aria-hidden="true">🌙</div>
+          <p class="eyebrow">收到，不勉强</p>
+          <h2 tabindex="-1">没关系呀</h2>
+          <p class="lead">谢谢你认真回应。舒服和尊重，比一次约会更重要。</p>
+          <button class="button button-secondary button-wide" id="backButton" type="button">返回看看</button>
+        </div>
+      </section>
+
+      <footer>
+        <span>made with care</span><span aria-hidden="true">✦</span><span id="senderName">一个想见你的人</span>
+      </footer>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
