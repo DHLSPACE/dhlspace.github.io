@@ -1,16 +1,13 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import { HeroVisual } from '../components/HeroVisual'
 import SiteHeader from '../components/SiteHeader'
-import { useMouseScrubVideo } from '../hooks/useMouseScrubVideo'
 import { useTypewriter } from '../hooks/useTypewriter'
 import { HOME_ACTIONS } from '../site'
 
-// TEMPORARY REFERENCE VIDEO — replace with the final 162383.xyz chameleon video later.
-const VIDEO_URL = '/temporary-reference-video.mp4'
 const TYPEWRITER_TEXT = 'A personal space for projects, notes, links, and experiments.'
 
 function HomePage() {
-  const videoRef = useMouseScrubVideo()
   const [actionsVisible, setActionsVisible] = useState(false)
   const { displayed, done } = useTypewriter(TYPEWRITER_TEXT)
 
@@ -22,16 +19,7 @@ function HomePage() {
 
   return (
     <main className="relative h-screen w-full overflow-hidden bg-white">
-      <video
-        ref={videoRef}
-        className="fixed inset-0 z-0 h-full w-full object-cover object-[70%_center]"
-        src={VIDEO_URL}
-        poster="/chameleon-poster.webp"
-        muted
-        playsInline
-        preload="auto"
-        aria-hidden="true"
-      />
+      <HeroVisual />
 
       <SiteHeader />
 

@@ -1,12 +1,14 @@
 import { useEffect, useRef } from 'react'
+import { usePointerTracker } from '../pointer/PointerTracker'
 
 const SENSITIVITY = 0.8
 
-export function useMouseScrubVideo() {
+export function usePointerScrubVideo() {
   const videoRef = useRef<HTMLVideoElement>(null)
-  const previousXRef = useRef<number | null>(null)
   const targetTimeRef = useRef(0)
   const seekInProgressRef = useRef(false)
+  const hasReceivedFirstPointerFrame = useRef(false)
+  const { subscribe } = usePointerTracker()
 
   useEffect(() => {
     const video = videoRef.current
@@ -25,20 +27,23 @@ export function useMouseScrubVideo() {
       video.currentTime = targetTimeRef.current
     }
 
-    const handleMouseMove = (event: MouseEvent) => {
-      const previousX = previousXRef.current
-      previousXRef.current = event.clientX
+    const unsubscribe = subscribe((frame) => {
+      if (!frame.isFine || !frame.isActive || !Number.isFinite(video.duration)) return
 
-      if (previousX === null || !Number.isFinite(video.duration)) return
+      if (!hasReceivedFirstPointerFrame.current) {
+        hasReceivedFirstPointerFrame.current = true
+        return
+      }
 
-      const delta = event.clientX - previousX
-      const timeOffset = (delta / window.innerWidth) * SENSITIVITY * video.duration
+      if (frame.deltaX === 0) return
+
+      const timeOffset = (frame.deltaX / frame.viewportWidth) * SENSITIVITY * video.duration
       targetTimeRef.current = Math.min(
         video.duration,
         Math.max(0, targetTimeRef.current + timeOffset),
       )
       requestSeek()
-    }
+    })
 
     const handleSeeked = () => {
       seekInProgressRef.current = false
@@ -49,16 +54,15 @@ export function useMouseScrubVideo() {
       targetTimeRef.current = Math.min(video.currentTime, video.duration)
     }
 
-    window.addEventListener('mousemove', handleMouseMove)
     video.addEventListener('seeked', handleSeeked)
     video.addEventListener('loadedmetadata', handleLoadedMetadata)
 
     return () => {
-      window.removeEventListener('mousemove', handleMouseMove)
+      unsubscribe()
       video.removeEventListener('seeked', handleSeeked)
       video.removeEventListener('loadedmetadata', handleLoadedMetadata)
     }
-  }, [])
+  }, [subscribe])
 
   return videoRef
 }
