@@ -1,77 +1,32 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>令人难忘的网页</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #000;
-            color: #fff;
-            margin: 0;
-            padding: 50px;
-            animation: bgAnimation 5s infinite alternate;
-        }
-        @keyframes bgAnimation {
-            0% { background-color: #000; }
-            100% { background-color: #ff0000; }
-        }
-        .highlight {
-            font-size: 32px;
-            font-weight: bold;
-            color: yellow;
-            text-transform: uppercase;
-            animation: pulse 1s infinite alternate;
-        }
-        @keyframes pulse {
-            0% { transform: scale(1); opacity: 1; }
-            100% { transform: scale(1.2); opacity: 0.7; }
-        }
-        .message {
-            margin-top: 20px;
-            font-size: 20px;
-        }
-        .profile {
-            margin-top: 40px;
-        }
-        .profile img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 3px solid #fff;
-        }
-        .profile h2 {
-            margin-top: 10px;
-        }
-        .gallery {
-            margin-top: 30px;
-        }
-        .gallery img {
-            width: 200px;
-            height: auto;
-            margin: 10px;
-            border: 2px solid #fff;
-        }
-    </style>
-</head>
-<body>
-    <h1 class="highlight">欢迎来到这个令人难忘的网页！</h1>
-    <p class="message">你一定会记住这次访问，因为这里充满了动感和视觉冲击！</p>
-    
-    <div class="profile">
-        <img src="profile.jpg" alt="用户照片">
-        <h2>你的名称</h2>
-        <p>你的个性签名</p>
-    </div>
-    
-    <div class="gallery">
-        <h3>我喜欢的照片</h3>
-        <img src="photo1.jpg" alt="照片1">
-        <img src="photo2.jpg" alt="照片2">
-        <img src="photo3.jpg" alt="照片3">
-    </div>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="162383.xyz — a personal homepage for projects, links, notes, and experiments."
+    />
+    <script>
+      ;(() => {
+        const route = new URLSearchParams(window.location.search).get('__route')
+        if (route) window.history.replaceState(null, '', route)
+      })()
+    </script>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="stylesheet"
+      href="https://db.onlinewebfonts.com/c/5ac3fe7c6abd2f62067f266d89671492?family=HelveticaNowDisplay-Medium"
+    />
+    <link
+      rel="stylesheet"
+      href="https://db.onlinewebfonts.com/c/1aa3377e489837a26d019bba501e779d?family=HelveticaNowDisplayW01-Rg"
+    />
+    <title>162383.xyz</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
-
