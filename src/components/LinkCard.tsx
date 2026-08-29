@@ -5,6 +5,7 @@ type LinkCardProps = {
   description: string
   href?: string
   external?: boolean
+  document?: boolean
 }
 
 const classes =
@@ -22,7 +23,7 @@ function CardContent({ title, description, external }: Omit<LinkCardProps, 'href
   )
 }
 
-function LinkCard({ title, description, href, external = false }: LinkCardProps) {
+function LinkCard({ title, description, href, external = false, document = false }: LinkCardProps) {
   if (!href) {
     return (
       <article className={classes}>
@@ -31,10 +32,15 @@ function LinkCard({ title, description, href, external = false }: LinkCardProps)
     )
   }
 
-  if (external) {
+  if (external || document) {
     return (
-      <a href={href} target="_blank" rel="noreferrer" className={classes}>
-        <CardContent title={title} description={description} external />
+      <a
+        href={href}
+        target={external ? '_blank' : undefined}
+        rel={external ? 'noreferrer' : undefined}
+        className={classes}
+      >
+        <CardContent title={title} description={description} external={external} />
       </a>
     )
   }

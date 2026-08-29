@@ -72,7 +72,29 @@ button { -webkit-tap-highlight-color: transparent; }
   align-items: center;
 }
 
-.topbar { justify-content: flex-end; min-height: 38px; }
+.topbar { justify-content: space-between; min-height: 38px; }
+
+.hm-return-link {
+  display: inline-flex;
+  min-height: 38px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  align-items: center;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.52);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: transform 180ms ease, background 180ms ease;
+}
+
+.hm-return-link:hover,
+.hm-return-link:focus-visible {
+  background: white;
+  transform: translateY(-2px);
+}
 
 .icon-button {
   width: 38px;

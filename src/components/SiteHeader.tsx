@@ -14,17 +14,17 @@ function NavigationLink({ item, mobile = false, menuOpen = false, onNavigate }: 
     ? 'rounded-full px-4 py-2 transition-colors duration-200 hover:bg-black hover:text-white'
     : 'rounded-full px-3 py-1.5 transition-colors duration-200 hover:bg-black/10 focus-visible:bg-black/10'
 
-  if (item.external) {
+  if (item.external || item.document) {
     return (
       <a
         href={item.href}
-        target="_blank"
-        rel="noreferrer"
+        target={item.external ? '_blank' : undefined}
+        rel={item.external ? 'noreferrer' : undefined}
         className={baseClassName}
         tabIndex={mobile && !menuOpen ? -1 : undefined}
         onClick={onNavigate}
       >
-        {item.label}<span aria-hidden="true" className="ml-1 text-[0.7em]">↗</span>
+        {item.label}{item.external && <span aria-hidden="true" className="ml-1 text-[0.7em]">↗</span>}
       </a>
     )
   }

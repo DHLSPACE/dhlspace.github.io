@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import AboutPage from './pages/AboutPage'
 import { InsectCursor } from './components/InsectCursor'
 import HomePage from './pages/HomePage'
+import HmPage from './pages/HmPage'
 import LinksPage from './pages/LinksPage'
 import NotFoundPage from './pages/NotFoundPage'
 import ProjectsPage from './pages/ProjectsPage'
@@ -13,6 +14,7 @@ function App() {
       <div className="custom-cursor-zone min-h-screen">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/hm" element={<HmPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/links" element={<LinksPage />} />

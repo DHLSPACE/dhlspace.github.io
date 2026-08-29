@@ -67,8 +67,14 @@ function HomePage() {
                 </>
               )
 
-              return action.external ? (
-                <a key={action.label} href={action.href} target="_blank" rel="noreferrer" className={className}>
+              return action.external || action.document ? (
+                <a
+                  key={action.label}
+                  href={action.href}
+                  target={action.external ? '_blank' : undefined}
+                  rel={action.external ? 'noreferrer' : undefined}
+                  className={className}
+                >
                   {content}
                 </a>
               ) : (
