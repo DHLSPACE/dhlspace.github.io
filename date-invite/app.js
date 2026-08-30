@@ -30,6 +30,10 @@ function motionIsReduced() {
   return reducedMotionQuery.matches;
 }
 
+function blossomMarkup() {
+  return '<svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#sakuraBlossom" xlink:href="#sakuraBlossom"></use></svg>';
+}
+
 function showScreen(name) {
   screens.forEach((screen) => screen.classList.toggle("is-active", screen.dataset.screen === name));
   const progressIndex = { invite: 0, reaction: 0, schedule: 1, activity: 2, final: 3, decline: 0 }[name] ?? 0;
@@ -44,19 +48,98 @@ function showScreen(name) {
   }, motionIsReduced() ? 0 : 80);
 }
 
+let backgroundPetalsStarted = false;
+
 function makePetals() {
-  if (motionIsReduced()) return;
+  if (motionIsReduced() || backgroundPetalsStarted) return;
+  backgroundPetalsStarted = true;
   const container = document.getElementById("petals");
-  for (let i = 0; i < 18; i += 1) {
+  const petalCount = window.matchMedia("(max-width: 620px)").matches ? 9 : 16;
+  for (let i = 0; i < petalCount; i += 1) {
     const petal = document.createElement("span");
     petal.className = "petal";
+    petal.innerHTML = blossomMarkup();
     petal.style.left = `${Math.random() * 100}%`;
-    petal.style.opacity = `${0.25 + Math.random() * 0.45}`;
+    petal.style.setProperty("--petal-size", `${14 + Math.random() * 13}px`);
+    petal.style.setProperty("--petal-opacity", `${0.22 + Math.random() * 0.38}`);
     petal.style.animationDuration = `${10 + Math.random() * 12}s`;
     petal.style.animationDelay = `${-Math.random() * 18}s`;
-    petal.style.setProperty("--drift", `${-80 + Math.random() * 160}px`);
+    petal.style.setProperty("--drift", `${-10 + Math.random() * 20}vw`);
+    const startRotation = -120 + Math.random() * 240;
+    petal.style.setProperty("--start-rotation", `${startRotation}deg`);
+    petal.style.setProperty("--end-rotation", `${startRotation + 360 + Math.random() * 360}deg`);
     container.appendChild(petal);
   }
+}
+
+function makeIntroPetals() {
+  if (motionIsReduced()) return;
+  const container = document.getElementById("introPetals");
+  const petalCount = window.matchMedia("(max-width: 620px)").matches ? 9 : 16;
+  for (let index = 0; index < petalCount; index += 1) {
+    const angle = (360 / petalCount) * index + (-8 + Math.random() * 16);
+    const petal = document.createElement("span");
+    petal.className = "intro-petal";
+    petal.innerHTML = blossomMarkup();
+    petal.style.setProperty("--intro-angle", `${angle}deg`);
+    petal.style.setProperty("--intro-angle-inverse", `${-angle}deg`);
+    petal.style.setProperty("--intro-size", `clamp(${22 + Math.random() * 4}px, ${3.8 + Math.random() * 0.8}vw, ${46 + Math.random() * 8}px)`);
+    petal.style.setProperty("--start-radius", `calc(clamp(62vw, 78vmax, 112vmax) + ${Math.random() * 26}px)`);
+    petal.style.setProperty("--gather-radius", `clamp(${42 + Math.random() * 12}px, ${6.2 + Math.random() * 1.6}vw, ${94 + Math.random() * 18}px)`);
+    petal.style.setProperty("--exit-radius", `calc(clamp(68vw, 84vmax, 120vmax) + ${Math.random() * 34}px)`);
+    petal.style.setProperty("--intro-delay", `${Math.random() * 70}ms`);
+    petal.style.setProperty("--start-rotation", `${-160 + Math.random() * 320}deg`);
+    petal.style.setProperty("--gather-rotation", `${-25 + Math.random() * 50}deg`);
+    petal.style.setProperty("--exit-rotation", `${180 + Math.random() * 360}deg`);
+    petal.addEventListener("animationend", (event) => {
+      if (event.animationName === "introScatter") petal.classList.add("is-settled");
+    });
+    container.appendChild(petal);
+  }
+}
+
+function startIntro() {
+  const overlay = document.getElementById("introOverlay");
+  if (!overlay) {
+    makePetals();
+    return;
+  }
+
+  let introFinished = false;
+  const timers = [];
+  const finishIntro = (skipped = false) => {
+    if (introFinished) return;
+    introFinished = true;
+    timers.forEach((timer) => window.clearTimeout(timer));
+    makePetals();
+    overlay.querySelectorAll(".intro-petal").forEach((petal) => {
+      petal.style.willChange = "auto";
+    });
+    if (skipped) overlay.classList.add("is-skipped");
+    window.setTimeout(() => overlay.remove(), skipped ? 420 : 40);
+  };
+
+  const skipIntro = (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    event.stopImmediatePropagation?.();
+    finishIntro(true);
+  };
+
+  overlay.addEventListener("pointerdown", skipIntro, true);
+  overlay.addEventListener("touchstart", skipIntro, { capture: true, passive: false });
+  overlay.addEventListener("click", skipIntro, true);
+
+  if (motionIsReduced()) {
+    overlay.classList.add("is-reduced");
+    timers.push(window.setTimeout(() => finishIntro(false), 380));
+    return;
+  }
+
+  makeIntroPetals();
+  // The ambient fall starts 150ms before the intro scatter finishes.
+  timers.push(window.setTimeout(makePetals, 1750));
+  timers.push(window.setTimeout(() => finishIntro(false), 2020));
 }
 
 function heartBurst(origin) {
@@ -486,4 +569,4 @@ document.getElementById("restartButton").addEventListener("click", () => {
   showScreen("invite");
 });
 
-makePetals();
+startIntro();
