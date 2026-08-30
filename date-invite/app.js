@@ -6,6 +6,7 @@ const emptyState = {
   activity: "",
   dodgeCount: 0,
   touchNoCount: 0,
+  playfulStep: 0,
 };
 
 const state = { ...emptyState };
@@ -30,22 +31,58 @@ function motionIsReduced() {
   return reducedMotionQuery.matches;
 }
 
+function replayMotionClass(element, className) {
+  if (!element || motionIsReduced()) return;
+  element.classList.remove(className);
+  window.requestAnimationFrame(() => {
+    window.requestAnimationFrame(() => {
+      element.classList.add(className);
+      element.addEventListener("animationend", () => element.classList.remove(className), { once: true });
+    });
+  });
+}
+
 function blossomMarkup() {
   return '<svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#sakuraBlossom" xlink:href="#sakuraBlossom"></use></svg>';
 }
 
+let screenTransitionToken = 0;
+
 function showScreen(name) {
-  screens.forEach((screen) => screen.classList.toggle("is-active", screen.dataset.screen === name));
+  const nextScreen = screens.find((screen) => screen.dataset.screen === name);
+  if (!nextScreen) return;
+  const currentScreen = screens.find((screen) => screen.classList.contains("is-active"));
+  const transitionToken = ++screenTransitionToken;
+
+  const activateNextScreen = () => {
+    if (transitionToken !== screenTransitionToken) return;
+    screens.forEach((screen) => {
+      screen.classList.remove("is-exiting");
+      screen.classList.toggle("is-active", screen === nextScreen);
+    });
+    updateScreenChrome(name);
+    window.scrollTo({ top: 0, behavior: motionIsReduced() ? "auto" : "smooth" });
+    window.setTimeout(() => {
+      nextScreen.querySelector("h1, h2")?.focus({ preventScroll: true });
+    }, motionIsReduced() ? 0 : 80);
+  };
+
+  if (currentScreen && currentScreen !== nextScreen && !motionIsReduced()) {
+    currentScreen.classList.add("is-exiting");
+    window.setTimeout(activateNextScreen, 170);
+    return;
+  }
+
+  activateNextScreen();
+}
+
+function updateScreenChrome(name) {
   const progressIndex = { invite: 0, reaction: 0, schedule: 1, activity: 2, final: 3, decline: 0 }[name] ?? 0;
   progressDots.forEach((dot, index) => {
     dot.classList.toggle("is-active", index === progressIndex);
     dot.classList.toggle("is-complete", index < progressIndex);
   });
   document.getElementById("progress").hidden = name === "decline";
-  window.scrollTo({ top: 0, behavior: motionIsReduced() ? "auto" : "smooth" });
-  window.setTimeout(() => {
-    document.querySelector(`[data-screen="${name}"] h1, [data-screen="${name}"] h2`)?.focus({ preventScroll: true });
-  }, motionIsReduced() ? 0 : 80);
 }
 
 let backgroundPetalsStarted = false;
@@ -115,6 +152,7 @@ function startIntro() {
     overlay.querySelectorAll(".intro-petal").forEach((petal) => {
       petal.style.willChange = "auto";
     });
+    document.documentElement.classList.add("intro-complete");
     if (skipped) overlay.classList.add("is-skipped");
     window.setTimeout(() => overlay.remove(), skipped ? 420 : 40);
   };
@@ -176,9 +214,28 @@ const dodgeReplies = [
 const yesIcons = ["→", "♡", "✦", "🚀", "💗", "🌷"];
 
 let lastDodgeAt = 0;
+let lastPlayfulRoundAt = Number.NEGATIVE_INFINITY;
 let lastPointerType = "";
 let suppressClickUntil = 0;
 let previousNoPosition = null;
+
+function applyPlayfulScale(step) {
+  const cappedStep = Math.max(0, Math.min(6, step));
+  state.playfulStep = cappedStep;
+  const noScale = Math.max(0.8, 1 - cappedStep * 0.04);
+  const yesScale = Math.min(1.3, 1 + cappedStep * 0.055);
+  noButton.style.setProperty("--no-scale", noScale.toFixed(3));
+  yesButton.style.setProperty("--yes-scale", yesScale.toFixed(3));
+  yesIcon.textContent = yesIcons[Math.min(cappedStep, yesIcons.length - 1)];
+  yesButton.classList.toggle("is-glowing", cappedStep >= 2);
+}
+
+function advanceDesktopPlayfulness() {
+  const now = performance.now();
+  if (now - lastPlayfulRoundAt < 800) return;
+  lastPlayfulRoundAt = now;
+  if (state.playfulStep < 6) applyPlayfulScale(state.playfulStep + 1);
+}
 
 function isDesktopMouse(event) {
   return event?.pointerType === "mouse" && desktopPointerQuery.matches;
@@ -269,17 +326,15 @@ function handleTouchNo() {
   }
   state.touchNoCount += 1;
   noButton.dataset.touchCount = String(state.touchNoCount);
-  const noScale = Math.max(0.86, 1 - state.touchNoCount * 0.035);
-  const yesScale = Math.min(1.24, 1 + state.touchNoCount * 0.055);
-  noButton.style.setProperty("--no-scale", noScale.toFixed(3));
-  yesButton.style.setProperty("--yes-scale", yesScale.toFixed(3));
-  yesIcon.textContent = yesIcons[Math.min(state.touchNoCount, yesIcons.length - 1)];
+  if (state.playfulStep < 6) applyPlayfulScale(state.playfulStep + 1);
   teaseMessage.textContent = dodgeReplies[(state.touchNoCount - 1) % dodgeReplies.length];
+  if (typeof navigator.vibrate === "function") navigator.vibrate(12);
   moveNoButton("touch");
 }
 
 noButton.addEventListener("pointerenter", (event) => {
   lastPointerType = event.pointerType;
+  if (isDesktopMouse(event) && !motionIsReduced()) advanceDesktopPlayfulness();
   dodgeDesktop(event);
 });
 
@@ -338,6 +393,12 @@ const customTimeChoice = document.getElementById("customTimeChoice");
 const customTimeInput = document.getElementById("customTimeInput");
 let draftDate = { mode: "", value: "", shortcut: "" };
 
+document.querySelectorAll(".choice-chip input, .activity-card input").forEach((input) => {
+  input.addEventListener("change", () => {
+    if (input.checked) replayMotionClass(input.closest(".choice-chip, .activity-card"), "is-pulsing");
+  });
+});
+
 function dateToISO(date) {
   return new Date(date.getTime() - date.getTimezoneOffset() * 60000).toISOString().split("T")[0];
 }
@@ -382,6 +443,7 @@ shortcutButtons.forEach((button) => {
   button.querySelector("small").textContent = formatShortDate(date);
   button.addEventListener("click", () => {
     selectDate({ mode: "date", value: button.dataset.dateValue, shortcut: button.dataset.dateShortcut });
+    replayMotionClass(button, "is-bouncing");
   });
 });
 
@@ -547,16 +609,20 @@ function showToast(message) {
 function resetInviteButtons() {
   state.dodgeCount = 0;
   state.touchNoCount = 0;
+  state.playfulStep = 0;
+  lastPlayfulRoundAt = Number.NEGATIVE_INFINITY;
   previousNoPosition = null;
   noButton.className = "button button-secondary dodge-button";
   noButton.removeAttribute("style");
   noButton.removeAttribute("data-touch-count");
+  yesButton.classList.remove("is-glowing");
   yesButton.removeAttribute("style");
   yesIcon.textContent = yesIcons[0];
   teaseMessage.textContent = "拒绝按钮偶尔会有自己的想法。";
 }
 
-document.getElementById("restartButton").addEventListener("click", () => {
+document.getElementById("restartButton").addEventListener("click", (event) => {
+  replayMotionClass(event.currentTarget, "is-spinning");
   Object.assign(state, emptyState);
   scheduleForm.reset();
   activityForm.reset();
