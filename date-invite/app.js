@@ -16,12 +16,21 @@ const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)")
 const desktopPointerQuery = window.matchMedia("(any-hover: hover) and (any-pointer: fine)");
 
 const params = new URLSearchParams(window.location.search);
+const supportedThemes = new Set(["rose", "lavender", "sage"]);
+const requestedTheme = params.get("theme")?.trim().toLowerCase();
 const config = {
   to: params.get("to")?.trim().slice(0, 16) || "你",
   from: params.get("from")?.trim().slice(0, 20) || "一个想见你的人",
   intro: params.get("intro")?.trim().slice(0, 80) || "天气、路线和小惊喜我来准备，你只需要负责出现。",
+  theme: supportedThemes.has(requestedTheme) ? requestedTheme : "rose",
 };
 
+document.documentElement.dataset.theme = config.theme;
+document.querySelector('meta[name="theme-color"]')?.setAttribute("content", {
+  rose: "#fff7f2",
+  lavender: "#f8f4ff",
+  sage: "#f4f8f3",
+}[config.theme]);
 document.getElementById("inviteeName").textContent = config.to;
 document.getElementById("senderName")?.replaceChildren(config.from);
 document.getElementById("introCopy").textContent = config.intro;
@@ -61,6 +70,7 @@ function showScreen(name) {
       screen.classList.toggle("is-active", screen === nextScreen);
     });
     updateScreenChrome(name);
+    if (name === "final") enterFinalScreen();
     window.scrollTo({ top: 0, behavior: motionIsReduced() ? "auto" : "smooth" });
     window.setTimeout(() => {
       nextScreen.querySelector("h1, h2")?.focus({ preventScroll: true });
@@ -196,6 +206,46 @@ function heartBurst(origin) {
     document.body.appendChild(heart);
     window.setTimeout(() => heart.remove(), 950);
   }
+}
+
+let celebrationPlayed = false;
+
+function celebrationBurst() {
+  if (celebrationPlayed) return;
+  celebrationPlayed = true;
+  if (motionIsReduced()) return;
+
+  const ticket = document.querySelector(".ticket");
+  const rect = ticket?.getBoundingClientRect();
+  if (!rect) return;
+  const isCompact = window.matchMedia("(max-width: 620px)").matches;
+  const pieceCount = isCompact ? 28 : 38;
+  const palette = ["var(--accent)", "var(--accent-dark)", "var(--lavender)", "var(--peach)", "var(--sage)"];
+
+  for (let index = 0; index < pieceCount; index += 1) {
+    const angle = (Math.PI * 2 * index) / pieceCount + (-0.12 + Math.random() * 0.24);
+    const distance = (isCompact ? 105 : 155) + Math.random() * (isCompact ? 105 : 175);
+    const piece = document.createElement("span");
+    const shape = index % 5;
+    piece.className = `celebration-piece shape-${shape}`;
+    piece.style.left = `${rect.left + rect.width / 2}px`;
+    piece.style.top = `${rect.top + rect.height / 2}px`;
+    piece.style.setProperty("--burst-x", `${Math.cos(angle) * distance}px`);
+    piece.style.setProperty("--burst-y", `${Math.sin(angle) * distance - Math.random() * 78}px`);
+    piece.style.setProperty("--burst-rotation", `${-240 + Math.random() * 720}deg`);
+    piece.style.setProperty("--piece-color", palette[index % palette.length]);
+    piece.style.animationDelay = `${Math.random() * 90}ms`;
+    if (shape >= 3) piece.textContent = shape === 3 ? "✦" : "♥";
+    document.body.appendChild(piece);
+    window.setTimeout(() => piece.remove(), 1350);
+  }
+}
+
+function enterFinalScreen() {
+  const ticket = document.querySelector(".ticket");
+  if (!ticket || celebrationPlayed) return;
+  ticket.classList.add("is-shining");
+  celebrationBurst();
 }
 
 const yesButton = document.getElementById("yesButton");
@@ -567,22 +617,50 @@ function getPlanText() {
 }
 
 async function copyText(text, successMessage) {
+  let copied = false;
   try {
     await navigator.clipboard.writeText(text);
+    copied = true;
   } catch {
     const textarea = document.createElement("textarea");
-    textarea.value = text;
-    textarea.style.position = "fixed";
-    textarea.style.opacity = "0";
-    document.body.appendChild(textarea);
-    textarea.select();
-    document.execCommand("copy");
-    textarea.remove();
+    try {
+      textarea.value = text;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      textarea.setAttribute("readonly", "");
+      document.body.appendChild(textarea);
+      textarea.select();
+      copied = document.execCommand("copy");
+    } catch {
+      copied = false;
+    } finally {
+      textarea.remove();
+    }
+  }
+  if (!copied) {
+    showToast("复制没有成功，再试一次吧");
+    return false;
   }
   showToast(successMessage);
+  return true;
 }
 
-document.getElementById("copyPlanButton").addEventListener("click", () => copyText(getPlanText(), "约会小票已复制"));
+const copyPlanButton = document.getElementById("copyPlanButton");
+let copyFeedbackTimer;
+copyPlanButton.addEventListener("click", async () => {
+  const copied = await copyText(getPlanText(), "约会小票已复制");
+  if (!copied) return;
+  const defaultLabel = copyPlanButton.dataset.defaultLabel || copyPlanButton.textContent;
+  copyPlanButton.dataset.defaultLabel = defaultLabel;
+  copyPlanButton.textContent = "已复制 ✓";
+  copyPlanButton.classList.add("is-copied");
+  replayMotionClass(copyPlanButton, "is-confirming");
+  window.clearTimeout(copyFeedbackTimer);
+  copyFeedbackTimer = window.setTimeout(() => {
+    copyPlanButton.textContent = defaultLabel;
+    copyPlanButton.classList.remove("is-copied");
+  }, 1500);
+});
 
 document.getElementById("shareButton").addEventListener("click", async () => {
   const shareData = { title: document.title, text: `${config.to}，这里有一份给你的邀请 ✿`, url: window.location.href };
@@ -624,6 +702,12 @@ function resetInviteButtons() {
 document.getElementById("restartButton").addEventListener("click", (event) => {
   replayMotionClass(event.currentTarget, "is-spinning");
   Object.assign(state, emptyState);
+  celebrationPlayed = false;
+  document.querySelector(".ticket")?.classList.remove("is-shining");
+  document.querySelectorAll(".celebration-piece").forEach((piece) => piece.remove());
+  window.clearTimeout(copyFeedbackTimer);
+  copyPlanButton.textContent = copyPlanButton.dataset.defaultLabel || "复制约会小票";
+  copyPlanButton.classList.remove("is-copied", "is-confirming");
   scheduleForm.reset();
   activityForm.reset();
   customTimeInput.value = "";
