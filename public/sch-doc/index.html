@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="化工方向研招资料站：官方招生通知、推免与考研资料、历史原件及个人准备笔记。">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'">
+  <title>研招资料站 · 2028 化工方向</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到主要内容</a>
+  <aside class="sidebar">
+    <a class="brand" href="./"><span>研</span><div>研招资料站<small>CHEMICAL ENGINEERING</small></div></a>
+    <p class="eyebrow">你的升学工作台</p>
+    <nav aria-label="资料分类">
+      <a href="#overview" data-tab="overview">概览与准备路线</a>
+      <a href="#research" data-tab="research">首批研究笔记</a>
+      <a href="#notices" data-tab="notices">通知与变更</a>
+      <a href="#archives" data-tab="archives">原件归档</a>
+      <a href="#sources" data-tab="sources">监控来源</a>
+      <a href="#personal" data-tab="personal">我的笔记</a>
+    </nav>
+    <div class="side-bottom"><span class="dot"></span> 云端定时采集<p>面向 2028 年入学<br>南昌大学 → 化工相关方向</p><a href="/">← 返回个人网站</a></div>
+  </aside>
+  <main id="main">
+    <header><div><p class="eyebrow">先保存原文，再判断和准备</p><h1 id="page-title">概览与准备路线</h1></div><button id="refresh" class="primary">刷新云端资料</button></header>
+    <p id="status" role="status">正在读取资料…</p>
+    <section id="overview" class="page active">
+      <div class="hero"><div><span class="pill">2028 年入学 · 化工 / 化学 / 材料</span><h2>让信息有出处，<br>让准备有方向。</h2><p>关注华南理工、重庆大学与中科院研究所。<br>把公告、数字的口径和原件一起留下。</p><a class="light-button" href="#research">查看首批研究笔记 ↗</a></div><span class="hero-number" aria-hidden="true">28</span></div>
+      <div id="metrics" class="metrics"></div>
+      <div class="columns"><article class="card"><p class="eyebrow">从现在开始</p><h2>保研与考研同步准备</h2><ol class="timeline"><li><b>现在 · 确认本校资格规则</b><p>向本科教务核对排名、计分与推荐名额；缺少官方材料的数字保留待核实。</p></li><li><b>2027 春夏 · 关注 2028 届通知</b><p>积累成绩单、简历与项目材料，保存夏令营、预推免和专业目录。</p></li><li><b>2027 秋至 2028 春 · 依当届公告办理</b><p>按正式时间完成申请、报名和考试；往年日期只作准备参考。</p></li></ol><a href="./准备路线.md" download>下载完整准备路线与询问模板 ↓</a></article><article class="card"><p class="eyebrow">用资料前先看口径</p><h2>三个数字要分别记录</h2><ul class="plain-list"><li><b>本科推荐资格</b><p>本校推荐你免试的名额。</p></li><li><b>研究生接收计划</b><p>目标院校计划招收多少人。</p></li><li><b>拟录取与实际录取</b><p>公示结果须核对专业、专项和最终调整。</p></li></ul><p class="hint">公开信息不会自动变成录取概率。2026、2027 届资料不代表你的 2028 届政策。</p></article></div>
+      <article class="card cloud-card"><h2>关掉电脑，云端也会检查</h2><p>每天北京时间 09:23、21:23 触发，按各来源间隔检查。任务可能排队，网站限制也可能导致个别来源失败。</p><div class="actions"><a class="button" id="cloud-run" target="_blank" rel="noopener">打开云端检查任务 ↗</a><a href="#sources">查看各来源的实际结果 →</a></div><p class="hint">需要立即检查时，在任务页登录你的 GitHub，点击 Run workflow。这里的“刷新”只读取最近已发布的数据。</p></article>
+    </section>
+    <section id="browser" class="page">
+      <div id="section-intro" class="intro"></div>
+      <div id="personal-actions" class="actions hidden"><button id="new-note" class="primary">新增笔记</button><button id="backup">导出我的备份</button><label class="button file-label">导入备份<input id="import-notes" type="file" accept=".json,application/json"></label></div>
+      <div class="filters"><label>搜索<input id="query" type="search" placeholder="学校、专业代码、标题或关键词"></label><label>学校<select id="school"><option value="">全部学校</option></select></label><label>年份<input id="year" inputmode="numeric" placeholder="全部年份" maxlength="4"></label><button id="reset">清空筛选</button></div>
+      <div class="section-head"><p id="count"></p><button id="export-csv">导出当前研究笔记 CSV</button></div>
+      <div id="list"></div><button id="more" class="hidden">再显示 40 条</button>
+    </section>
+    <footer><span>SCH DOC · 每条记录都留有出处</span><a href="./使用说明.md" download>下载网页版使用说明</a></footer>
+  </main>
+  <dialog id="editor"><form id="note-form"><div class="section-head"><h2 id="editor-title">新增笔记</h2><button id="cancel-note" type="button" aria-label="关闭编辑">×</button></div><label>学校 / 研究所<input name="school" required maxlength="100"></label><div class="form-row"><label>入学年份<input name="year" inputmode="numeric" maxlength="4" value="2028"></label><label>统计口径<select name="category"><option>个人准备</option><option>推荐资格名额</option><option>统考招生计划</option><option>拟录取情况</option><option>复试要求</option><option>报名截止</option><option>其他</option></select></label></div><label>标题<input name="title" required maxlength="200"></label><label>关键数值<input name="value" maxlength="300" placeholder="不知道就留空"></label><label>正文 / 待核实事项<textarea name="body" rows="6" maxlength="15000"></textarea></label><label>来源网址<input name="url" type="url" placeholder="https://…"></label><div class="form-row"><label>截止日期<input name="deadline" type="date"></label><label>证据状态<select name="verified"><option>待核实</option><option>官网已核对</option><option>官方数据推算</option><option>第三方线索</option></select></label></div><p class="hint">笔记仅保存在当前浏览器。换设备请先导出，再在另一设备导入；清理浏览器数据会删除本地笔记。</p><p id="form-error" role="alert"></p><button type="submit" class="primary">保存到当前浏览器</button></form></dialog>
+  <div id="toast" role="status" class="hidden"></div>
+</body></html>

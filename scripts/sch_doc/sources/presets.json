@@ -1,0 +1,182 @@
+[
+  {
+    "name": "南昌大学化学化工学院 · 研究生招生",
+    "url": "https://chem.ncu.edu.cn/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1311",
+    "kind": "list",
+    "parser": "ncu",
+    "interval_hours": 24,
+    "pages": 2,
+    "note": "招生接收侧，包含2027预报名；不同于本院本科推荐资格。",
+    "enabled": 1
+  },
+  {
+    "name": "南昌大学化学化工学院 · 通知公告",
+    "url": "https://chem.ncu.edu.cn/list1.jsp?urltype=tree.TreeTempUrl&wbtreeid=1381",
+    "kind": "list",
+    "parser": "ncu",
+    "interval_hours": 24,
+    "pages": 2,
+    "note": "同时留意本科推免通知。2026-09-15网页检索可读；首页展示较旧公告，不代表学院没有其他通知渠道。",
+    "enabled": 1
+  },
+  {
+    "name": "南昌大学教务处 · 通知公告",
+    "url": "https://jwc.ncu.edu.cn/Notices.jsp?urltype=tree.TreeTempUrl&wbtreeid=1541",
+    "kind": "list",
+    "parser": "ncu",
+    "interval_hours": 24,
+    "pages": 2,
+    "note": "本科推荐资格、校级分配文件的候选发布入口；尚未找到历年教育部下达配额原件。",
+    "enabled": 1
+  },
+  {
+    "name": "南昌大学研究生院 · 硕士招生",
+    "url": "https://yjsy.ncu.edu.cn/zsgz/sszs.htm",
+    "kind": "list",
+    "parser": "ncu",
+    "interval_hours": 24,
+    "pages": 2,
+    "note": "",
+    "enabled": 1
+  },
+  {
+    "name": "南昌大学研究生院 · 推免工作",
+    "url": "https://yjsy.ncu.edu.cn/zsgz/tmgz.htm",
+    "kind": "list",
+    "parser": "ncu",
+    "interval_hours": 24,
+    "pages": 2,
+    "note": "这里主要是接收推免，不是本校本科生推荐名额。",
+    "enabled": 1
+  },
+  {
+    "name": "华南理工大学 · 硕士招生",
+    "url": "https://yz.scut.edu.cn/sszs/list.htm",
+    "kind": "list",
+    "parser": "scut",
+    "interval_hours": 24,
+    "pages": 2,
+    "note": "比招生网首页更适合作为持续监控入口。",
+    "enabled": 1
+  },
+  {
+    "name": "华南理工大学化学与化工学院 · 硕士招生",
+    "url": "https://www2.scut.edu.cn/ce/ssszs/list.htm",
+    "kind": "list",
+    "parser": "scut",
+    "interval_hours": 24,
+    "pages": 2,
+    "note": "2026统考拟录取通知正文年份存在矛盾，统计须核对附件及校级最终公示。",
+    "enabled": 1
+  },
+  {
+    "name": "重庆大学 · 硕士通知",
+    "url": "https://yz.cqu.edu.cn/ss_news.html",
+    "kind": "list",
+    "parser": "cqu",
+    "interval_hours": 24,
+    "pages": 2,
+    "note": "",
+    "enabled": 1
+  },
+  {
+    "name": "重庆大学 · 学院复试细则",
+    "url": "https://yz.cqu.edu.cn/ss_fsxz.html",
+    "kind": "list",
+    "parser": "cqu",
+    "interval_hours": 24,
+    "pages": 2,
+    "note": "在通知列表搜索“化学化工学院”；与校级通知交叉检查。",
+    "enabled": 1
+  },
+  {
+    "name": "重庆大学化学化工学院 · 官网",
+    "url": "https://hgxy.cqu.edu.cn/",
+    "kind": "list",
+    "parser": "cqu",
+    "interval_hours": 24,
+    "pages": 2,
+    "note": "官网地址由学院2026预报名通知确认；本次网页检索曾返回412，具体招生列表未验证，不声称可自动采集。",
+    "enabled": 1
+  },
+  {
+    "name": "中科院过程工程研究所 · 招生信息",
+    "url": "https://edu.ipe.ac.cn/zsxx/",
+    "kind": "list",
+    "parser": "cas",
+    "interval_hours": 24,
+    "pages": 2,
+    "note": "候选研究所：过程工程、能源化工、生化工程等；根目录公开首页有2027推免简章，本次列表入口请求不稳定。",
+    "enabled": 1
+  },
+  {
+    "name": "中科院大连化学物理研究所 · 硕士招生",
+    "url": "https://gsc.dicp.ac.cn/zs/sszs.htm",
+    "kind": "list",
+    "parser": "cas",
+    "interval_hours": 24,
+    "pages": 2,
+    "note": "候选研究所；录取名单、招生章程和目录入口已检索到。",
+    "enabled": 1
+  },
+  {
+    "name": "北京化工大学 · 招生工作",
+    "url": "https://graduate.buct.edu.cn/zsgz/index.psp",
+    "kind": "list",
+    "parser": "auto",
+    "interval_hours": 24,
+    "pages": 2,
+    "note": "扩展关注，可在笔记查看化学工程学院2026目录计划。",
+    "enabled": 1
+  },
+  {
+    "name": "华东理工大学 · 硕士招生",
+    "url": "https://gschool.ecust.edu.cn/12708/list.htm",
+    "kind": "list",
+    "parser": "auto",
+    "interval_hours": 24,
+    "pages": 2,
+    "note": "扩展关注；化工学院和化学与分子工程学院须分别统计。",
+    "enabled": 1
+  },
+  {
+    "name": "教育部 · 高校学生司公开入口",
+    "url": "https://www.moe.gov.cn/s78/A15/",
+    "kind": "list",
+    "parser": "auto",
+    "interval_hours": 168,
+    "pages": 2,
+    "note": "政策入口，不保证公开逐校配额附件；本次访问超时或重定向失败。可手动打开教育部网站站内检索“推免”。",
+    "enabled": 1
+  },
+  {
+    "name": "江西省教育厅 · 官方入口",
+    "url": "https://jyt.jiangxi.gov.cn/",
+    "kind": "list",
+    "parser": "auto",
+    "interval_hours": 168,
+    "pages": 2,
+    "note": "低频政策候选入口，来自南昌大学教务处官方链接。本次未确认名额专栏，默认暂停，找到具体列表后编辑启用。",
+    "enabled": 0
+  },
+  {
+    "name": "华南理工大学 · 2026统考可用计划PDF",
+    "url": "https://yz.scut.edu.cn/_upload/article/files/0b/d9/43e7703b4eaebe14b226586e7c86/cc120187-bd15-42c4-bacf-64b4cff337f3.pdf",
+    "kind": "file",
+    "parser": "auto",
+    "interval_hours": 168,
+    "pages": 2,
+    "note": "全日制化工学硕28、材料与化工55；均为该版本统考可用计划。",
+    "enabled": 1
+  },
+  {
+    "name": "重庆大学化学化工学院 · 2026复试细则",
+    "url": "https://yz.cqu.edu.cn/news/2026-03/2505.html",
+    "kind": "page",
+    "parser": "auto",
+    "interval_hours": 168,
+    "pages": 2,
+    "note": "",
+    "enabled": 1
+  }
+]
