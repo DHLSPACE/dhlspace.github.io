@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <title>研究生考试</title>
+    <meta name="keywords" content="研究生考试"/>
+    <meta name="description" content="研究生考试"/>
+	<meta name="viewport" content="width=device-width">
+	<link href="//www.jseea.cn/webfile/assets/css/common.css" rel="stylesheet">
+	<link href="//www.jseea.cn/webfile/assets/css/style.css?v5" rel="stylesheet">
+	<script src="//www.jseea.cn/webfile/assets/js/jquery-3.5.0.min.js"></script>
+	<link href="//www.jseea.cn/webfile/assets/swiper/swiper.min.css" rel="stylesheet">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e41be4f9a560294fcec44da0590ced5d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script> 
+	<script src="//www.jseea.cn/webfile/assets/js/common.js"></script>
+	<!--[if lte IE 9]>
+		<link href="//www.jseea.cn/webfile/assets/css/ie9.css" rel="stylesheet">
+		<link href="//www.jseea.cn/webfile/assets/swiper/idangerous.swiper.css" rel="stylesheet">
+		<script src="//www.jseea.cn/webfile/assets/js/respond.min.js"></script>
+		<script src="//www.jseea.cn/webfile/assets/js/classList.js"></script>
+	<![endif]--> 
+</head>
+<body>
+<header>
+	<div class="header">
+		<div class="container clearfix-after">
+			<div class="logo float-left">
+				<a  href="//www.jseea.cn/webfile/"><img src="//www.jseea.cn/webfile/assets/images/logo.png" alt="首页"></a>
+			</div>
+			<div class="search-box float-right noprint">
+				<form action="//www.jseea.cn/search/" method="GET">
+					<input name="wd" type="text" placeholder="站内搜索">
+					<input type="submit" value="搜索">
+				</form>
+			</div>
+		</div>
+	</div>
+<nav class="clearfix-after noprint">
+	<ul class="container">
+		<li data-id="home"><a href="//www.jseea.cn/webfile/">首页</a></li>
+		<li data-id="1">
+			<a href="//www.jseea.cn/webfile/news/">新闻中心</a>
+		</li>
+		<li data-id="2">
+			<a href="//www.jseea.cn/webfile/organization/">机构设置</a>
+		</li>
+		<li data-id="3">
+			招考业务
+				<ul>
+						<li><a  href="//www.jseea.cn/webfile/examination/highschool/">普通高考</a></li>	
+						<li><a  href="//www.jseea.cn/webfile/examination/graduateenrollment/">研究生考试</a></li>	
+						<li><a  href="//www.jseea.cn/webfile/examination/selflearning/">自学考试</a></li>	
+						<li><a  href="//www.jseea.cn/webfile/examination/adulthighschool/">成人高校招生</a></li>	
+						<li><a  href="//www.jseea.cn/webfile/examination/juniorcollege/">普通高校专转本</a></li>	
+						<li><a  href="//www.jseea.cn/webfile/examination/seniorhighschoollevel/">学业水平考试</a></li>	
+						<li><a  href="//www.jseea.cn/webfile/examination/certificateexamination/">非学历证书考试</a></li>	
+				</ul>
+		</li>
+		<li data-id="4">
+			<a href="//www.jseea.cn/webfile/business/">网上办事</a>
+				<ul>
+						<li><a target="_blank" href="https://cxzx.jseea.cn">查询中心</a></li>	
+						<li><a target="_blank" href="https://zmcx.jseea.cn">证明开具</a></li>	
+				</ul>
+		</li>
+		<li data-id="5">
+			<a href="//www.jseea.cn/webfile/research/">科研评价</a>
+				<ul>
+						<li><a  href="//www.jseea.cn/webfile/research/research_infomation/">动态信息</a></li>	
+						<li><a  href="//www.jseea.cn/webfile/research/research_file/">政策文件</a></li>	
+						<li><a  href="//www.jseea.cn/webfile/research/research_appraise/">考试评价</a></li>	
+						<li><a  href="//www.jseea.cn/webfile/research/research_forum/">招考论坛</a></li>	
+						<li><a  href="//www.jseea.cn/webfile/research/research_result/">成果分享</a></li>	
+						<li><a  href="//www.jseea.cn/webfile/research/research_monthly_magazine/">科研月报</a></li>	
+				</ul>
+		</li>
+		<li data-id="6">
+			<a href="//www.jseea.cn/webfile/jyfl/education_law/">资料文献</a>
+				<ul>
+						<li><a  href="//www.jseea.cn/webfile/jyfl/education_law/">文献资料</a></li>	
+						<li><a  href="//www.jseea.cn/webfile/zkzl/gaokao/">招考资料</a></li>	
+				</ul>
+		</li>
+	</ul>
+</nav> 
+</header> 
+    <main class="container clearfix-after examination ">
+		<div id="exam-focus" class="container">
+	<div class="swiper-container" id="yjstest">
+		<div class="swiper-wrapper">
+						<div class="swiper-slide">
+					<a href="#" target="_blank" referrerpolicy="no-referrer"><img src="//www.jseea.cn/webfile/upload/2021/12-07/09-35-5807621558919174.png" alt="#"></a>
+				</div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+</div> 
+<div class=" content-navigation">
+	<a href="//www.jseea.cn/webfile/"><img src="//www.jseea.cn/webfile/assets/images/icon-home.png" alt="首页"> 首页</a> 
+	&gt; <a href="#">招考业务</a>
+        &gt; 
+            <a class="last" href="//www.jseea.cn/webfile/examination/graduateenrollment/">研究生考试</a>
+</div>		<div class="examination-left">
+			<a class="entrance-center-button" style="background-image:url('//www.jseea.cn/webfile//upload/2021/01-22/09-41-560366559293053.png');background-size:cover" href="https://yz.chsi.com.cn/"  target="_blank" referrerpolicy="no-referrer"><span class="cn center"> </span></a>
+<div class="schedule">
+	<div class="title">考试日程</div>
+	<div class="content">
+		<div id="schedule-body"></div>
+	</div>
+</div>
+<script>
+		var schedules=[
+			{"startDate":"2026-05-17","endDate":"2026-05-17","title":"2026年同等学力人员申请硕士学位外国语水平和学科综合水平全国统一考试","url":"#",
+				"startDateStr":"2026年05月17日","endDateStr":"2026年05月17日"
+			 },
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		];
+	for(var i=0;i<schedules.length;i++){
+			var a=schedules[i];
+			a.startDate=new Date(a.startDate);
+			if(a.endDate!=""){
+				a.endDate=new Date(a.endDate);	
+			}else{
+				a.endDate=a.startDate
+			}
+	}
+	schedules.sort(function(a,b){
+		if(a.startDate.getTime()-b.startDate.getTime()==0){
+		   	return a.endDate.getTime()-b.endDate.getTime();
+		}
+		else{
+			return a.startDate.getTime()-b.startDate.getTime();
+		}
+	});
+	 var changeNum = ['零', '一', '二', '三', '四', '五', '六', '七', '八', '九']; 
+	function numToChinese(num){
+		var str='';
+		var chars=num.toString().split('');
+		for(var i=0;i<chars.length;i++){
+			str+=changeNum[chars[i]];
+		}
+	}
+	function numToChinese2(num){
+		switch(num){
+			case 1:
+				return '一';
+			case 2:
+				return '二';
+			case 3:
+				return '三';
+			case 4:
+				return '四';
+			case 5:
+				return '五';
+			case 6:
+				return '六';
+			case 7:
+				return '七';
+			case 8:
+				return '八';
+			case 9:
+				return '九';
+			case 10:
+				return '十';
+			case 11:
+				return '十一';
+			case 12:
+				return '十二';
+		}
+	}
+	
+	$(function(){
+		var $schedule=$('#schedule-body');
+		var lastMonth,a,year,month,html='';
+		var date = new Date();
+		var thisYear = date .getYear();
+		for(var i=0;i<schedules.length;i++){
+			a=schedules[i];
+			year=a.startDate.getYear();
+			if(thisYear == year){
+				month=a.startDate.getMonth()+1;
+			}else{
+				month= 1;
+			}
+			if(month!=lastMonth){
+				html+='<div class="month">'+numToChinese2(month)+'月</div>';
+				lastMonth=month;
+			}
+			html+='<a class="exam-date"  target="_blank" referrerpolicy="no-referrer" href="'+a.url+'"><div class="title"><div class="dot"></div>'+a.title+'</div>';
+			html+='<div class="date">'+a.startDateStr;
+			if(a.endDateStr){
+				html+='-'+a.endDateStr;
+			}
+			html+='</div></a>'
+		}
+		$schedule.append(html);
+	});
+</script>		</div>
+		<div class="examination-right">
+			<div class="navtab3 has-arrow">
+				<ul>
+					<li data-code="graduateenrollment_ss" class="selectable">硕士研究生</li>
+					<li data-code="graduateenrollment_tdxl" class="selectable">同等学力申硕全国统考</li>
+				</ul>
+				<div class="tabcontents">
+					<div class="tab" data-code="graduateenrollment_ss">
+						  <div class="navtab">
+                            <ul class="clearfix-after">
+                                <li class="tabhead"><a href="//www.jseea.cn/webfile/graduateenrollment_ss/graduateenrollment_ss_zkxx/" target="_blank" referrerpolicy="no-referrer">招考信息</a></li>
+                                <li class="tabhead"><a href="//www.jseea.cn/webfile/graduateenrollment_ss/graduateenrollment_ss_zcwj/" target="_blank" referrerpolicy="no-referrer">政策文件</a></li>
+                                <li class="more float-right"><a href="javascript:void(0);">更多&gt;</a></li>
+                            </ul>
+                            <div class="tabcontents">
+								<div>
+								<ul class="news-list">
+									<li><span>2026-02-26</span><a href="//www.jseea.cn/webfile/index/index_zkxx/2026-02-26/7432610855830687744.html" target="_blank" referrerpolicy="no-referrer">江苏省2026年全国硕士研究生初试成绩发布预告</a></li>
+									<li><span>2025-12-21</span><a href="//www.jseea.cn/webfile/index/index_zkyw/2025-12-21/7408685872268185600.html" target="_blank" referrerpolicy="no-referrer">我省2026年研考顺利结束</a></li>
+									<li><span>2025-12-21</span><a href="//www.jseea.cn/webfile/index/index_zkyw/2025-12-21/7408685417014235136.html" target="_blank" referrerpolicy="no-referrer">副省长赵岩检查2026年硕士研究生招生考试工作</a></li>
+									<li><span>2025-12-20</span><a href="https://mp.weixin.qq.com/s/gRZXShC0D1UiQkxPm-Wdhg" target="_blank" referrerpolicy="no-referrer">我省2026年研考首日安全平稳顺利  </a></li>
+									<li><span>2025-12-15</span><a href="//www.jseea.cn/webfile/index/index_zkxx/2025-12-15/7406161285454237696.html" target="_blank" referrerpolicy="no-referrer">江苏省2026年全国硕士研究生招生考试（初试）应试须知</a></li>
+									<li><span>2025-11-04</span><a href="//www.jseea.cn/webfile/index/index_zkxx/2025-11-04/7391295366538203136.html" target="_blank" referrerpolicy="no-referrer">江苏省2026年全国硕士研究生招生考试网上确认即将结束</a></li>
+									<li><span>2025-10-28</span><a href="//www.jseea.cn/webfile/index/index_zkxx/2025-10-28/7388765798359109632.html" target="_blank" referrerpolicy="no-referrer">江苏省2026年全国硕士研究生招生考试网上确认提醒</a></li>
+									<li><span>2025-10-24</span><a href="//www.jseea.cn/webfile/index/index_zkxx/2025-10-24/7386988994065600512.html" target="_blank" referrerpolicy="no-referrer">​2026年全国硕士研究生招生考试网上报名将于10月27日结束 </a></li>
+									<li><span>2025-10-09</span><a href="//www.jseea.cn/webfile/index/index_zkxx/2025-10-09/7381881155659763712.html" target="_blank" referrerpolicy="no-referrer">江苏省2026年全国硕士研究生招生考试网上报名公告 </a></li>
+								</ul>
+								</div>
+								<div>
+								<ul class="news-list">
+									<li><span>2021-08-31</span><a href="http://www.moe.gov.cn/srcsite/A15/moe_778/s3261/202109/t20210903_558663.html" target="_blank" referrerpolicy="no-referrer">教育部关于印发《2022年全国硕士研究生招生工作管理规定》的通知</a></li>
+									<li><span>2018-08-27</span><a href="//www.jseea.cn/webfile/graduateenrollment_ss_zcwj/2018-08-27/3488.html" target="_blank" referrerpolicy="no-referrer">教育部关于印发《2019年全国硕士研究生招生工作管理规定》的通知</a></li>
+									<li><span>2010-04-09</span><a href="//www.jseea.cn/webfile/graduateenrollment_ss_zcwj/2010-04-09/3487.html" target="_blank" referrerpolicy="no-referrer">关于做好2010年全省研究生录取工作的通知</a></li>
+									<li><span>2009-10-16</span><a href="//www.jseea.cn/webfile/graduateenrollment_ss_zcwj/2009-10-16/3486.html" target="_blank" referrerpolicy="no-referrer">关于做好2010年江苏省硕士研究生招生考试报名工作的通知</a></li>
+									<li><span>2009-03-23</span><a href="//www.jseea.cn/webfile/graduateenrollment_ss_zcwj/2009-03-23/3485.html" target="_blank" referrerpolicy="no-referrer">教育部、国家发展改革委下达2009年全国研究生招生计划</a></li>
+									<li><span>2007-05-24</span><a href="//www.jseea.cn/webfile/graduateenrollment_ss_zcwj/2007-05-24/3484.html" target="_blank" referrerpolicy="no-referrer">2006年硕士研究生考试将建立考生诚信档案</a></li>
+								</ul>
+								</div>
+                            </div>
+                        </div>
+					</div>
+					<div class="tab" data-code="graduateenrollment_tdxl">
+						  <div class="navtab">
+                            <ul class="clearfix-after">
+                                <li class="tabhead"><a href="//www.jseea.cn/webfile/graduateenrollment_tdxl/graduateenrollment_tdxl_zkxx/" target="_blank" referrerpolicy="no-referrer">招考信息</a></li>
+                                <li class="tabhead"><a href="//www.jseea.cn/webfile/graduateenrollment_tdxl/graduateenrollment_tdxl_zcwj/" target="_blank" referrerpolicy="no-referrer">政策文件</a></li>
+                                <li class="more float-right"><a href="javascript:void(0);">更多&gt;</a></li>
+                            </ul>
+                            <div class="tabcontents">
+								<div>
+								<ul class="news-list">
+									<li><span>2026-05-11</span><a href="//www.jseea.cn/webfile/index/index_zkxx/2026-05-11/7459417555678007296.html" target="_blank" referrerpolicy="no-referrer">江苏省2026年同等学力人员申请硕士学位外国语水平和学科综合水平全国统一考试考前提醒 </a></li>
+									<li><span>2022-08-11</span><a href="//www.jseea.cn/webfile/index/index_zkxx/2022-08-11/6963421170288824320.html" target="_blank" referrerpolicy="no-referrer">江苏省2022年同等学力人员申请硕士学位全国统考温馨提示</a></li>
+									<li><span>2022-07-30</span><a href="//www.jseea.cn/webfile/index/index_zkxx/2022-07-30/6959047744765825024.html" target="_blank" referrerpolicy="no-referrer">江苏省2022年同等学力人员申请硕士学位全国统考考生健康应试须知</a></li>
+									<li><span>2021-05-07</span><a href="//www.jseea.cn/webfile/index/index_zkxx/2021-05-07/23197.html" target="_blank" referrerpolicy="no-referrer">江苏省2021年同等学力人员申请硕士学位全国统考考生健康应试须知</a></li>
+									<li><span>2020-10-10</span><a href="//www.jseea.cn/webfile/graduateenrollment_tdxl_zkxx/2020-10-10/4155.html" target="_blank" referrerpolicy="no-referrer">江苏省2020年同等学力人员申请硕士学位全国统考考生健康应试须知</a></li>
+								</ul>
+								</div>
+								<div>
+								<ul class="news-list">
+									<li><span>2022-05-06</span><a href="http://www.moe.gov.cn/srcsite/A22/moe_826/202204/t20220429_623354.html" target="_blank" referrerpolicy="no-referrer">关于延期举行2022年同等学力人员申请硕士学位外国语水平和学科综合水平全国统一考试的通知</a></li>
+									<li><span>2021-04-30</span><a href="//www.jseea.cn/webfile/graduateenrollment_tdxl_zcwj/2021-04-30/25681.html" target="_blank" referrerpolicy="no-referrer">关于做好2021年同等学力人员申请硕士学位全国统一考试安全和防疫工作的通知</a></li>
+								</ul>
+								</div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </main>
+<div class="examination-banner noprint">
+	<ul class="container">
+		<li><a href="//www.jseea.cn/webfile/examination/highschool/"  target="_blank" referrerpolicy="no-referrer"><img src="//www.jseea.cn/webfile/assets/images/icon-highschool.png" alt="普通高考">普通高考</a></li>
+		<li><a href="//www.jseea.cn/webfile/examination/graduateenrollment/"  target="_blank" referrerpolicy="no-referrer"><img src="//www.jseea.cn/webfile/assets/images/icon-graduateenrollment.png" alt="研究生考试">研究生考试</a></li>
+		<li><a href="//www.jseea.cn/webfile/examination/selflearning/"  target="_blank" referrerpolicy="no-referrer"><img src="//www.jseea.cn/webfile/assets/images/icon-selflearning.png" alt="自学考试">自学考试</a></li>
+		<li><a href="//www.jseea.cn/webfile/examination/adulthighschool/"  target="_blank" referrerpolicy="no-referrer"><img src="//www.jseea.cn/webfile/assets/images/icon-adulthighschool.png" alt="成人高校招生">成人高校招生</a></li>
+		<li><a href="//www.jseea.cn/webfile/examination/juniorcollege/"  target="_blank" referrerpolicy="no-referrer"><img src="//www.jseea.cn/webfile/assets/images/icon-juniorcollege.png" alt="普通高校专转本">普通高校专转本</a></li>
+		<li><a href="//www.jseea.cn/webfile/examination/seniorhighschoollevel/"  target="_blank" referrerpolicy="no-referrer"><img src="//www.jseea.cn/webfile/assets/images/icon-academicproficiencytest.png" alt="学业水平考试">学业水平考试</a></li>
+		<li><a href="//www.jseea.cn/webfile/examination/certificateexamination/"  target="_blank" referrerpolicy="no-referrer"><img src="//www.jseea.cn/webfile/assets/images/icon-certificateexamination.png" alt="非学历证书考试">非学历证书考试</a></li>
+	</ul>
+</div>
+<footer>
+	<div class="frend-link noprint">
+		<ul class="container clearfix-after">
+			<li class="title">
+				<a href="javascript:void(0)">相关链接</a>
+<div class="link w">
+    <ul class="container clearfix-after">
+        <li>
+              <a href="http://www.moe.gov.cn/" target="_blank" referrerpolicy="no-referrer">中华人民共和国教育部</a>
+        </li>
+        <li>
+              <a href="http://jyt.jiangsu.gov.cn/" target="_blank" referrerpolicy="no-referrer">江苏省教育厅</a>
+        </li>
+        <li>
+              <a href="http://www.neea.edu.cn/" target="_blank" referrerpolicy="no-referrer">教育部教育考试院</a>
+        </li>
+        <li>
+              <a href="https://www.chsi.com.cn/" target="_blank" referrerpolicy="no-referrer">中国高等教育学生信息网</a>
+        </li>
+        <li>
+              <a href="https://gaokao.chsi.com.cn/" target="_blank" referrerpolicy="no-referrer">阳光高考平台</a>
+        </li>
+        <li>
+              <a href="http://www.edu.cn/" target="_blank" referrerpolicy="no-referrer">中国教育科研网</a>
+        </li>
+        <li>
+              <a href="http://www.jkzwh.com/" target="_blank" referrerpolicy="no-referrer">中国教育发展战略学会教育考试专业委员会</a>
+        </li>
+    </ul>
+</div>
+ 
+			</li>
+			<li class="title">
+				<a href="javascript:void(0)">各市招考机构</a>
+<div class="link">
+    <ul class="container clearfix-after">
+        <li>
+              <a href="http://edu.nanjing.gov.cn/" target="_blank" referrerpolicy="no-referrer">南京市</a>
+        </li>
+        <li>
+              <a href="http://www.wxjy.com.cn/" target="_blank" referrerpolicy="no-referrer">无锡市</a>
+        </li>
+        <li>
+              <a href="http://www.xzszb.net/" target="_blank" referrerpolicy="no-referrer">徐州市</a>
+        </li>
+        <li>
+              <a href="http://jyj.changzhou.gov.cn/" target="_blank" referrerpolicy="no-referrer">常州市</a>
+        </li>
+        <li>
+              <a href="http://www.szjyksy.com/" target="_blank" referrerpolicy="no-referrer">苏州市</a>
+        </li>
+        <li>
+              <a href="http://www.ntzk.com/" target="_blank" referrerpolicy="no-referrer">南通市</a>
+        </li>
+        <li>
+              <a href="http://www.lygzsks.cn/" target="_blank" referrerpolicy="no-referrer">连云港市</a>
+        </li>
+        <li>
+              <a href="http://www.haseea.com/" target="_blank" referrerpolicy="no-referrer">淮安市</a>
+        </li>
+        <li>
+              <a href="https://jyj.yangzhou.gov.cn/" target="_blank" referrerpolicy="no-referrer">扬州市</a>
+        </li>
+        <li>
+              <a href="http://jyj.taizhou.gov.cn/" target="_blank" referrerpolicy="no-referrer">泰州市</a>
+        </li>
+        <li>
+              <a href="https://zkb.zje.net.cn/ecloud_zz_ksy/" target="_blank" referrerpolicy="no-referrer">镇江市</a>
+        </li>
+        <li>
+              <a href="http://jyj.suqian.gov.cn/" target="_blank" referrerpolicy="no-referrer">宿迁市</a>
+        </li>
+    </ul>
+</div>
+ 
+			</li>
+		</ul>
+	</div>
+	<div class="container copyright">
+		<img src="//www.jseea.cn/webfile/assets/images/icon-institution.png" alt="事业单位">
+		<p class="b">Copyright  ©  2026  版权所有：江苏省教育考试院 <a href="https://beian.miit.gov.cn"  target="_blank" referrerpolicy="no-referrer">网站备案号：苏ICP备16056254号-1 </a></p>
+		<p class="address">地址：江苏省南京市北京西路15-2号</p>
+		<p class="link"><a href="javascript:addfavorite();">收藏本站</a> | <a href="//www.jseea.cn/webfile/">返回首页</a> | <a href="//www.jseea.cn/webfile/contactus/"  target="_blank" referrerpolicy="no-referrer">联系我们</a></p>
+	</div>
+</footer>
+<div class="global-sidebar">
+    <ul>
+		<li>
+			<a href="javascript:void(0)"><img src="//www.jseea.cn/webfile/assets/images/icon-wechat.png" alt="微信"></a>
+			<div class="info-box text-center">
+				<h3>关注微信公众号</h3>
+				<p class=" center">
+					获取最新动态<br>
+					<img src="//www.jseea.cn/webfile/assets/images/resource-wechat2.png" alt="微信"/><br>
+					微信扫一扫关注<br>
+					或微信搜索关注： <a>江苏招生考试</a>
+				</p>
+			</div>
+		</li>
+		<li>
+			<a href="javascript:void(0)"><img src="//www.jseea.cn/webfile/assets/images/icon-app.png" alt="APP"></a>
+			<div class="info-box text-center">
+				<p class=" center">
+					<img src="//www.jseea.cn/webfile/assets/images/resource-wx.jpg" alt="APP"/>
+				</p>
+				<p class=" center">
+					微信扫码二维码关注<br>
+					“江苏招生考试”视频号 
+				</p>
+			</div>
+		</li>
+		<li>
+			<a href="javascript:void(0)"><img src="//www.jseea.cn/webfile/assets/images/icon-phone.png" alt="phone"></a>
+			<div class="info-box">
+				<h4>
+					<img src="//www.jseea.cn/webfile/assets/images/icon-mini-phone.png" alt="phone"/>
+					咨询电话
+				</h4>
+				<p>
+					<br>
+					025-83235898、83235998（信访）<br>
+					工作日：8:30-11:30，14:00-17:30<br>
+					025-66000114 （24小时）
+				</p>
+			</div> 
+		</li>
+		<li class="gototop" id="gototop">
+			<a href="javascript:void(0)"><img src="//www.jseea.cn/webfile/assets/images/icon-top.png" alt="gototop"></a>
+		</li>
+    </ul>
+</div>
+<div class="dialog tip">
+	<div class="box">
+		<div class="content">
+			<h3 class="title">搜索失败</h3>
+			<p class="message">搜索内容不能为空</p>
+		</div>
+		<div class="button"><a href="javascript:void(0)" class="close">确定</a></div>
+	</div>
+</div>
+<script src="//www.jseea.cn/webfile/assets/swiper/swiper.min.js"></script>
+<script src="//www.jseea.cn/webfile/assets/swiper/idangerous.swiper.min.js"></script>
+<script src="//www.jseea.cn/webfile/assets/js/app.js"></script> 
+	<script>
+		$('nav>ul>li[data-id=3]').addClass('selected');
+		$.getJSON('//www.jseea.cn/api/categoryClick?id=8', function(data){
+        });
+	</script>
+</body>
+</html>

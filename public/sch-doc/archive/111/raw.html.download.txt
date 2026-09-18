@@ -1,0 +1,684 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>南昌大学2026年招收攻读硕士学位研究生复试录取工作办法-南昌大学研究生院</title><meta name="pageType" content="3">
+<meta name="pageTitle" content="南昌大学2026年招收攻读硕士学位研究生复试录取工作办法">
+<META Name="keywords" Content="南昌大学研究生院,通知公告,研究生,硕士,学位,复试,攻读,招收,录取,工作,大学,南昌,办法" />
+<META Name="description" Content="根据教育部《2026年全国硕士研究生招生工作管理规定》（教学〔2025〕2号）《关于做好2026年全国硕士研究生复试录取工作的通知》（教学司〔2026〕3号）《关于进一步规范全国硕士研究生招生调剂工作的通知》（教学司〔2025〕5号），结合《南昌大学2026年硕士研究生招生简章》，为切实做好我校2026年硕士研究生复试录取工作，特制定本工作办法。一、工作原则1.坚持综合评价，提升招生质量。坚持德智体美劳全面衡量，以德为先，把考生思想品德考核作为复试的重要内容和录取的重要依据。..." />
+
+    <link rel="stylesheet" href="../../style/ny.css">
+    <link rel="stylesheet" href="../../style/public.css">
+    <link rel="stylesheet" href="../../style/slick.css">
+    <link rel="stylesheet" href="../../style/slick-theme.css">
+
+<!--Announced by Visual SiteBuilder 9-->
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307775465753515742000300024f56 -->
+<link rel="stylesheet" type="text/css" href="../../content.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1012,'/content.jsp',47146,2125996941)</script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="head px1400">
+             <div>
+                    <div class="dh"><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script><UL>
+    <li>
+        <a href="../../glyfw/yzxx.htm" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 114514)">院长信箱</a>
+    </li>
+    <li>
+        <a href="../../index.htm" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97947)">网站首页</a>
+    </li>
+    <li>
+        <a href="https://www.ncu.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97946)">南昌大学</a>
+    </li>
+</UL></div>
+                    <div class="seach"><!-- 3.1.3版本 -->
+
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script><script language="javascript" src="/system/resource/vue/vue.js"></script><script language="javascript" src="/system/resource/vue/bluebird.min.js"></script><script language="javascript" src="/system/resource/vue/axios.js"></script><script language="javascript" src="/system/resource/vue/polyfill.js"></script><script language="javascript" src="/system/resource/vue/token.js"></script><LINK href="/system/resource/vue/static/element/index.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/vue/static/element/index.js"></script><script language="javascript" src="/system/resource/vue/static/public.js"></script><script language="javascript" src="/system/resource/openapp/search/js/containsHtmlTags.js"></script><script language="javascript" src="/system/resource/openapp/search/layui/layui.js"></script><div id="divu1"></div>
+<script type="text/html" id="htmlu1">
+    <div id="appu1">
+        <div v-if="!isError">
+
+<input type="text" class="qwss" placeholder="请输入关键字.." v-model=query.keyWord @keyup.enter="onSubmit">
+<div class="ser_img">
+<input type="image" class="tj" src="../../image/seach.png" v-on:click="onSubmit()">
+</div>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu1").html($("#htmlu1").text());
+</script>
+<script>
+    var appOwner = "2125996941";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu1",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script>
+
+<script>
+   var appElementu1 = document.querySelector("#appu1");
+   if (appElementu1 && appElementu1.__vue__) {
+
+   } else {
+      $("#divu1").html($("#htmlu1").text());
+      var appOwner = "2125996941";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou1 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu1(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu1();
+        }
+      };
+
+      function onSubmitu1(e) {
+        queryInfou1.query.keyWord= $("#appu1  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou1.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+</script></div>
+                </div>
+        </div>
+        <div id="ft-link">
+            <div class="ft-link wp"><span>快速访问</span>
+ <a href="https://gmsadm.ncu.edu.cn/navigation/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112876)">研究生教育管理系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22176.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112877)">博士研究生招生简章</a>
+ <a href="https://gsas.ncu.edu.cn/logon" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112878)">博士网报系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22166.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112879)">硕士研究生招生简章</a>
+ <a href="https://ygb.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112880)">党委研究生工作部</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/bszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112882)">博士招生</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/sszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112883)">硕士招生</a>
+ <a href="https://teacher.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112884)">教师个人主页</a>
+ <a href="https://yjsy.ncu.edu.cn/yygk/ryjdh.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112885)">联系方式</a>
+</div>
+        </div>
+    </div>
+    <div id="logo">
+        <div class="px1400" id="nav">
+                <div class="logo">
+<a href="../../index.htm"><img src="../../images/LOGO.png" alt=""></a>
+</div>
+                <div class="nav"><ul>
+<li>
+    <a href="../../index.htm">网站首页</a>
+</li>  
+<li>
+    <a href="../../yygk/yyjj.htm">研院概况</a>
+    <ul>
+       
+            <li><a href="../../yygk/yyjj.htm">研院简介</a></li>
+       
+            <li><a href="../../yygk/jgsz.htm">机构设置</a></li>
+       
+            <li><a href="../../yygk/glzn.htm">管理职能</a></li>
+       
+            <li><a href="../../yygk/ryjdh.htm">人员及电话</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../zsgz/zsjz.htm">招生工作</a>
+    <ul>
+       
+            <li><a href="../../zsgz/zsjz.htm">招生简章</a></li>
+       
+            <li><a href="../../zsgz/sszs.htm">硕士招生</a></li>
+       
+            <li><a href="../../zsgz/bszs.htm">博士招生</a></li>
+       
+            <li><a href="../../zsgz/tmgz.htm">推免工作</a></li>
+       
+            <li><a href="../../zsgz/gatyz.htm">港澳台研招</a></li>
+       
+            <li><a href="../../zsgz/gzzd.htm">规章制度</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../pygz/gzzd.htm">培养工作</a>
+    <ul>
+       
+            <li><a href="../../pygz/gzzd.htm">规章制度</a></li>
+       
+            <li><a href="../../pygz/gzlc.htm">工作流程</a></li>
+       
+            <li><a href="../../pygz/pydt.htm">培养动态</a></li>
+       
+            <li><a href="../../pygz/zyxw.htm">专业学位</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../xwgz/xwgzzz.htm">学位工作</a>
+    <ul>
+       
+            <li><a href="../../xwgz/xwgzzz.htm">学位工作组织</a></li>
+       
+            <li><a href="../../xwgz/sqxwwj.htm">申请学位文件</a></li>
+       
+            <li><a href="../../xwgz/sqxwlc.htm">申请学位流程</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../xwdjs/xwsqd.htm">学位点建设</a>
+    <ul>
+       
+            <li><a href="../../xwdjs/xwsqd.htm">学位授权点</a></li>
+       
+            <li><a href="../../xwdjs/xwdsb.htm">学位点申报</a></li>
+       
+            <li><a href="../../xwdjs/ejxkzzsz.htm">二级学科自主设置</a></li>
+       
+            <li><a href="../../xwdjs/xwdpg_hy_.htm">学位点评估（核验）</a></li>
+       
+            <li><a href="../../xwdjs/xwddtdz_yh_.htm">学位点动态调整（优化）</a></li>
+       
+            <li><a href="../../xwdjs/gjxksz.htm">国家学科设置</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../zgxy/zgxyjj.htm">卓工学院</a>
+    <ul>
+       
+            <li><a href="../../zgxy/zgxyjj.htm">卓工学院简介</a></li>
+       
+            <li><a href="../../zgxy/zsdt.htm">招生动态</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../glyfw/bszn.htm">管理与服务</a>
+    <ul>
+       
+            <li><a href="../../glyfw/bszn.htm">办事指南</a></li>
+       
+            <li><a href="../../glyfw/yzxx.htm">院长信箱</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../xzzx.htm">下载中心</a>
+</li>  
+</ul></div>
+            </div>
+    </div>
+    <div class="banner">
+        <div><a href="#">
+    <img src="../../images/nandaban1.jpg" alt="">
+</a></div>
+    </div>
+    <!-- 移动端top -->
+    <div class="top">
+        <div class="wap wap-menu">
+            <img src="../../image/menu.png" class="menu" alt="">
+            <img src="../../image/close.png" class="close-menu" alt="">
+        </div>
+    </div>
+    <div class="wap m-head">
+            <div class="m-logo">        <a href="../../index.htm" onclick="_addDynClicks(&#34;wbimage&#34;, 2125996941, 1024740)"><img src="../../images/yunnandaxuelogoshouji.png" alt=""></a>           
+</div>
+            <div class="m-nav">
+                <div class="m-tlink">
+    <a href="../../index.htm" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97954)">网站首页</a>    
+    <a href="https://www.ncu.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97955)">南昌大学</a>    
+</div>
+                
+                         <div class="yddtblj"><span>快速访问</span>
+ <a href="https://gmsadm.ncu.edu.cn/navigation/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112876)">研究生教育管理系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22176.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112877)">博士研究生招生简章</a>
+ <a href="https://gsas.ncu.edu.cn/logon" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112878)">博士网报系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22166.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112879)">硕士研究生招生简章</a>
+ <a href="https://ygb.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112880)">党委研究生工作部</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/bszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112882)">博士招生</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/sszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112883)">硕士招生</a>
+ <a href="https://teacher.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112884)">教师个人主页</a>
+ <a href="https://yjsy.ncu.edu.cn/yygk/ryjdh.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112885)">联系方式</a>
+</div>
+                <div class="m-search"><!-- 3.1.3版本 -->
+
+
+
+<div id="divu9"></div>
+<script type="text/html" id="htmlu9">
+    <div id="appu9">
+               <div v-if="!isError">
+
+<input type="text" class="qwss" placeholder="请输入内容" v-model=query.keyWord @keyup.enter="onSubmit">
+<input type="image" class="tj" src="../../image/seach.png" v-on:click="onSubmit()">
+</div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu9").html($("#htmlu9").text());
+</script>
+<script>
+    var appOwner = "2125996941";
+    var token = gettoken(10);
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu9",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script>
+
+<script>
+   var appElementu9 = document.querySelector("#appu9");
+   if (appElementu9 && appElementu9.__vue__) {
+
+   } else {
+      $("#divu9").html($("#htmlu9").text());
+      var appOwner = "2125996941";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou9 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu9(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu9();
+        }
+      };
+
+      function onSubmitu9(e) {
+        queryInfou9.query.keyWord= $("#appu9  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou9.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+</script></div>
+                <ul class=""><li>
+    <a href="../../index.htm">网站首页</a>
+    <span></span>
+    <ul>
+            <a href="../../index/zxdt.htm">最新动态</a>        
+            <a href="../../index/tzgg.htm">通知公告</a>        
+            <a href="../../index/zsgz.htm">招生工作</a>        
+            <a href="../../index/gszl.htm">公示专栏</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../yygk/yyjj.htm">研院概况</a>
+    <span></span>
+    <ul>
+            <a href="../../yygk/yyjj.htm">研院简介</a>        
+            <a href="../../yygk/jgsz.htm">机构设置</a>        
+            <a href="../../yygk/glzn.htm">管理职能</a>        
+            <a href="../../yygk/ryjdh.htm">人员及电话</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../zsgz/zsjz.htm">招生工作</a>
+    <span></span>
+    <ul>
+            <a href="../../zsgz/zsjz.htm">招生简章</a>        
+            <a href="../../zsgz/sszs.htm">硕士招生</a>        
+            <a href="../../zsgz/bszs.htm">博士招生</a>        
+            <a href="../../zsgz/tmgz.htm">推免工作</a>        
+            <a href="../../zsgz/gatyz.htm">港澳台研招</a>        
+            <a href="../../zsgz/gzzd.htm">规章制度</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../pygz/gzzd.htm">培养工作</a>
+    <span></span>
+    <ul>
+            <a href="../../pygz/gzzd.htm">规章制度</a>        
+            <a href="../../pygz/gzlc.htm">工作流程</a>        
+            <a href="../../pygz/pydt.htm">培养动态</a>        
+            <a href="../../pygz/zyxw.htm">专业学位</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../xwgz/xwgzzz.htm">学位工作</a>
+    <span></span>
+    <ul>
+            <a href="../../xwgz/xwgzzz.htm">学位工作组织</a>        
+            <a href="../../xwgz/sqxwwj.htm">申请学位文件</a>        
+            <a href="../../xwgz/sqxwlc.htm">申请学位流程</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../xwdjs/xwsqd.htm">学位点建设</a>
+    <span></span>
+    <ul>
+            <a href="../../xwdjs/xwsqd.htm">学位授权点</a>        
+            <a href="../../xwdjs/xwdsb.htm">学位点申报</a>        
+            <a href="../../xwdjs/ejxkzzsz.htm">二级学科自主设置</a>        
+            <a href="../../xwdjs/xwdpg_hy_.htm">学位点评估（核验）</a>        
+            <a href="../../xwdjs/xwddtdz_yh_.htm">学位点动态调整（优化）</a>        
+            <a href="../../xwdjs/gjxksz.htm">国家学科设置</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../zgxy/zgxyjj.htm">卓工学院</a>
+    <span></span>
+    <ul>
+            <a href="../../zgxy/zgxyjj.htm">卓工学院简介</a>        
+            <a href="../../zgxy/zsdt.htm">招生动态</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../glyfw/bszn.htm">管理与服务</a>
+    <span></span>
+    <ul>
+            <a href="../../glyfw/bszn.htm">办事指南</a>        
+            <a href="../../glyfw/yzxx.htm">院长信箱</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../xzzx.htm">下载中心</a>
+    </li>
+</ul>
+            </div>
+        </div>
+    <div class="nymain">
+        <div class="px1400">
+            <div class="channl-menu leftNav">
+                <h2>
+网站首页<span></span></h2>
+                <ul>
+<li>
+    <a href="../../index/zxdt.htm">最新动态</a><span></span>
+</li>
+
+
+<li class="active on">
+    <a href="../../index/tzgg.htm">通知公告</a><span></span>
+</li>
+
+
+<li>
+    <a href="../../index/zsgz.htm">招生工作</a><span></span>
+</li>
+
+
+<li>
+    <a href="../../index/gszl.htm">公示专栏</a><span></span>
+</li>
+
+</ul>
+            </div>
+            <div class="ny-right">
+                <div class="position">
+                    <div class="">
+                        <h3>
+通知公告</h3>
+                        <img src="../../image/weizhi.png" alt=""><span>当前位置：</span>
+                <a href="../../index.htm">网站首页</a>                
+                <span>-></span>
+                <a href="../../index/tzgg.htm">通知公告</a>                
+                <span>-></span>
+                <span>正文</span>
+
+                    </div>
+                </div>
+                <div class="art-main">
+
+<script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname">
+<div class="art-tit cont-tit">
+    <h3>南昌大学2026年招收攻读硕士学位研究生复试录取工作办法</h3>
+    <p>
+        <span>信息来源：
+    </span>
+        <span>发布日期：2026-03-23</span>
+         <span>访问量：<script>_showDynClicks("wbnews", 2125996941, 47146)</script></span>
+    </p>
+</div>
+    <div id="vsb_content" class="art-body"><div class="v_news_content">
+<style><!--         p.MsoNormal, li.MsoNormal, div.MsoNormal{ mso-style-update:auto; mso-style-parent:""; margin-top:0.0pt; margin-bottom:0.0pt; text-align:left; margin-left:0.0pt; text-indent:0.0pt; line-height:normal; vsb_temp-mode:char; text-autospace:none; vertical-align:baseline; font-size:10.5pt; font-family:Arial; color:#000000; vsb_temp-mode:line; font-weight:normal;}                  h1{ mso-style-update:auto; mso-style-next:"正文"; margin-top:0.0pt; margin-bottom:0.0pt; text-align:left; margin-left:38.9pt; text-indent:0.0pt; line-height:20.4pt; vsb_temp-mode:char; text-autospace:none; vertical-align:baseline; font-size:16.0pt; font-family:黑体; color:#000000; vsb_temp-mode:line;}                  p.MsoFooter, li.MsoFooter, div.MsoFooter{ mso-style-update:auto; margin-top:0.0pt; margin-bottom:0.0pt; text-align:left; margin-left:0.0pt; text-indent:0.0pt; line-height:normal; vsb_temp-mode:char; text-autospace:none; vertical-align:baseline; tab-stops:center Blank 207.65pt right Blank 415.3pt ; font-size:9.0pt; font-family:Arial; color:#000000; vsb_temp-mode:line; font-weight:normal;}                  p{ mso-style-update:auto; text-align:left; margin-left:0.0pt; text-indent:0.0pt; line-height:normal; vsb_temp-mode:char; text-autospace:none; vertical-align:baseline; font-size:12.0pt; font-family:Arial; color:#000000; vsb_temp-mode:line; font-weight:normal;}                  strong{ mso-style-update:auto; font-weight:bold;}                  a:link, span.MsoHyperlink{ mso-style-update:auto; color:#0000FF; text-decoration:underline; text-underline:single;}                  @list l0{ mso-list-id:268435337; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l0:level1{ mso-level-number-format:bullet; mso-level-style-link:"列表项目符号"; mso-level-text:"●"; mso-level-tab-stop:18.0pt; mso-level-number-position:left; margin-left:18.0pt; text-indent:-18.0pt; font-family:Dialog;}                  @list l1{ mso-list-id:268435336; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l1:level1{ mso-level-style-link:"列表编号"; mso-level-text:"%1."; mso-level-tab-stop:18.0pt; mso-level-number-position:left; margin-left:18.0pt; text-indent:-18.0pt;}                  @list l2{ mso-list-id:268435331; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l2:level1{ mso-level-number-format:bullet; mso-level-style-link:"列表项目符号 2"; mso-level-text:"●"; mso-level-tab-stop:39.0pt; mso-level-number-position:left; margin-left:39.0pt; text-indent:-18.0pt; font-family:Dialog;}                  @list l3{ mso-list-id:268435330; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l3:level1{ mso-level-number-format:bullet; mso-level-style-link:"列表项目符号 3"; mso-level-text:"●"; mso-level-tab-stop:60.0pt; mso-level-number-position:left; margin-left:60.0pt; text-indent:-18.0pt; font-family:Dialog;}                  @list l4{ mso-list-id:268435329; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l4:level1{ mso-level-number-format:bullet; mso-level-style-link:"列表项目符号 4"; mso-level-text:"●"; mso-level-tab-stop:81.0pt; mso-level-number-position:left; margin-left:81.0pt; text-indent:-18.0pt; font-family:Dialog;}                  @list l5{ mso-list-id:268435328; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l5:level1{ mso-level-number-format:bullet; mso-level-style-link:"列表项目符号 5"; mso-level-text:"●"; mso-level-tab-stop:102.0pt; mso-level-number-position:left; margin-left:102.0pt; text-indent:-18.0pt; font-family:Dialog;}                  @list l6{ mso-list-id:268435327; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l6:level1{ mso-level-style-link:"列表编号 2"; mso-level-text:"%1."; mso-level-tab-stop:39.0pt; mso-level-number-position:left; margin-left:39.0pt; text-indent:-18.0pt;}                  @list l7{ mso-list-id:268435326; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l7:level1{ mso-level-style-link:"列表编号 3"; mso-level-text:"%1."; mso-level-tab-stop:60.0pt; mso-level-number-position:left; margin-left:60.0pt; text-indent:-18.0pt;}                  @list l8{ mso-list-id:268435325; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l8:level1{ mso-level-style-link:"列表编号 4"; mso-level-text:"%1."; mso-level-tab-stop:81.0pt; mso-level-number-position:left; margin-left:81.0pt; text-indent:-18.0pt;}                  @list l9{ mso-list-id:268435324; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l9:level1{ mso-level-style-link:"列表编号 5"; mso-level-text:"%1."; mso-level-tab-stop:102.0pt; mso-level-number-position:left; margin-left:102.0pt; text-indent:-18.0pt;}                  @page{}                  @page Section1{ size:595.35pt 841.95pt; margin:104.9pt 72.7pt 99.2pt 79.35pt; padding:24.0pt 24.0pt 24.0pt 24.0pt;}                  div.Section1{ page:Section1;}                  @font-face{ font-family:仿宋_GB2312; panose-1:2 1 6 9 3 1 1 1 1 1; mso-font-alt:Dialog; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:1 135135232 0 0 262144 0;}                  @font-face{ font-family:黑体; panose-1:2 1 6 9 6 1 1 1 1 1; mso-font-alt:Dialog; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:-2147482945 953122042 22 0 262145 0;}                  @font-face{ font-family:Dialog; panose-1:0 0 0 0 0 0 0 0 0 0; mso-font-charset:0; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:0 0 0 0 0 0;}                  @font-face{ font-family:仿宋; panose-1:2 1 6 9 6 1 1 1 1 1; mso-font-alt:Dialog; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:-2147482945 953122042 22 0 262145 0;}                  @font-face{ font-family:楷体; panose-1:2 1 6 9 6 1 1 1 1 1; mso-font-alt:Dialog; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:-2147482945 953122042 22 0 262145 0;}                  @font-face{ font-family:方正仿宋_GB2312; panose-1:2 0 0 0 0 0 0 0 0 0; mso-font-alt:Dialog; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:-1610612033 407858426 18 0 262145 0;}                  @font-face{ font-family:宋体; panose-1:2 1 6 0 3 1 1 1 1 1; mso-font-alt:Dialog; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:515 680460288 6 0 262145 0;}                  @font-face{ font-family:Arial; panose-1:2 11 6 4 2 2 2 2 2 4; mso-font-alt:Lucida Sans; mso-font-charset:1; mso-generic-font-family:swiss; mso-font-pitch:variable; mso-font-signature:-536858881 -1073711013 9 0 1073742335 -65536;}                --></style><div class="Section1"><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">根据</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">教育部</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">《202</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">6</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">年全国硕士研究生招生工作管理规定》（教学〔202</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">5</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">〕</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">2</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">号）《关于做好202</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">6</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">年全国硕士研究生复试录取工作的通知》（教学司〔202</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">6</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">〕</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">3</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">号）《关</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">于</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">进一步规范全国硕士研究生招生调剂工作的通知》（教学司〔2025〕5号）</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; mso-font-kerning:0.0pt">，</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; mso-font-kerning:0.0pt">结合《南昌大学2026年硕士研究生招生简章》，</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; mso-font-kerning:0.0pt">为切实做好我校202</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; mso-font-kerning:0.0pt">6</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; mso-font-kerning:0.0pt">年硕士研究生复试录取工作，</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; mso-font-kerning:0.0pt">特制定本工作办法</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; mso-font-kerning:0.0pt">。</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">一、</strong><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">工作原则</strong></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; font-weight:normal">1.坚持综合评价，提升招生质量。坚持德智体美劳全面衡量，以德为先，把考生思想品德考核作为复试的重要内容和录取的重要依据。加强对考生的全面考查和综合评价，深化学术型与专业型研究生的分类考核，促进高层次拔尖创新人才脱颖而出。</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; font-weight:normal">2.坚持严格管理，确保公平公正。严格按照教育部有关文件精神，政策透明，信息公开，程序公平，结果公正，监督机制健全。</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; font-weight:normal">3.坚持以人为本，优化考生服务。增强服务意识，强化人性化安排和个性化关怀，确保咨询畅通，维护考生的合法权益。</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; font-weight:normal">4.加强组织领导，确保安全平稳。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><strong style="font-size:16.0pt; font-family:黑体; letter-spacing:0.0pt; mso-font-kerning:22.0pt; font-weight:bold">二、组织管理</strong></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">复试工作在校研究生招生委员会统一领导下进行，研究生院全面负责硕士研究生招生复试</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">、</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">调剂</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">和录取的各项工作</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">。</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">各招生学院研究生招生工作小组负责本学院的硕士研究生复试</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">调剂</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">）</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">工作，根据本办法制定本学院“硕士研究生复试录取工作细则”(如有调剂还应制定调剂细则)及确定复试名单。</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">各招生学院按照学科(专业)成立由5名以上教师组成的复试小组。复试小组负责确定考生面试和实践能力考核的具体内容、评分标准、程序，并具体组织实施。复试小组成员必须现场独立评分；并当场给出评语和分数。</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">三</strong><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">、复试基本要求</strong></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">考生应符合《2026年全国硕士研究生招生考试考生进入复试的初试成绩基本要求》中A类考生的初试成绩基本要求，以下简称国家线。</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">各学院须明确各专业招生计划数（含已录取的推免生）。复试应采取差额形式，对于一志愿上线生源充足的专业，复试比例不低于120%；上线生源超过计划数但未达120%的，按实际比例复试。我校不破格复试录取未达国家线（含单科线）考生，上线生源不足的专业可进行调剂。</span></p><p style="text-align: justify; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">“退役大学生士兵专项计划”和“少数民族高层次骨干人才计划”的分数线和各专业的名额，由学校研究生招生委员会统一划定，相关部门及我校审核通过的“立功表彰退役军人免试生”，由相关学院具体组织复试工作。</span></p><p style="text-align: justify; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><strong style="font-family: 黑体; font-size: 16pt; text-align: left; text-indent: 32pt; letter-spacing: 0pt;">四、复试安排</strong></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">（</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">一</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">）资格审查</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">（</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">复审</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">）</strong></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">在复试前，由研究生招生办公室统一组织，各招生学院具体实施，按照招生简章和专业目录的要求，对拟复试的考生报考资格进行审查（复审），并逐一签订《考生诚信复试承诺书》。拟复试的考生需提供以下材料：</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">1.与报考信息一致且在有效期内的身份证件原件及复印件（原件查验，复印件留存）；</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">2.初试准考证；</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">3.《南昌大学2026年研究生招生思想政治品德考核表》原件（需审查盖章）；</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">4.往届考生毕业（结业）证书原件及复印件（原件查验，复印件留存）、有效期内的学历证书电子注册备案表（或中国高等教育学历认证报告、教育部留学中心《国（境）外学历学位认证书》）；如获得相应学位，需提供学位证书原件及复印件（原件查验，复印件留存）、有效期内的中国高等教育学位在线验证报告，专升本考生还需提供录取名册（复印件上需盖有红章）；</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">5.应届毕业生学生证原件及复印件（原件查验，复印件留存），有效期内的学籍在线验证报告，全日制应届本科毕业生证明（需加盖学籍管理部门公章）；复试时尚未取得本科毕业证书的自考和网络教育考生，须凭颁发毕业证书的省级高等教育自学考试办公室或网络教育高校出具的相关证明方可参加复试；</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">6.同等学力考生专科毕业证或本科结业证或成人高校应届本科生证明原件及复印件（原件查验，复印件留存），有效期内的学历证书电子注册备案表，自考C类考生应提交相应的业绩材料原件及复印件（原件查验，复印件留存）；</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">7.报考“退役大学生士兵”专项计划的考生应提交本人《入伍批准书》《退出现役证》原件及复印件（原件查验，复印件留存）；</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">8.报考“少数民族高层次骨干人才”专项计划的考生请通过研招网“</span><span style="font-size:16.0pt; font-family:仿宋_GB2312">少数民族高层次骨干人才计划管理平台</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">”下载并打印《少数民族高层次骨干人才计划考生登记表》；</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">9.享受加分政策的考生应提交相应的加分证明材料原件及复印件（原件查验，复印件留存）；</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">10.各招生学院要求的大学阶段成绩单、科研成果、英语水平、获奖证书等证明学术才能的相关材料。</span></p><p style="text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">资格审查（复审）未通过的考生，不予复试，不得录取。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt; font-weight:bold">（</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt; font-weight:bold">二</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt; font-weight:bold">）复试形式</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt; font-weight:bold">及</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt; font-weight:bold">内容</strong></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">1.我校202</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">6</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">年硕士研究生复试原则上采取线下复试的形式；复试包括</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">专业考核</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">、</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">综合</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">面试和</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">外国语</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">听力与口语</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">水平</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">测试。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">专业考核</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">：</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">可采取笔试或技能考核等形式，</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">满分为100分</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">；</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">笔试时间为2.5小时</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">，</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">技能考核时长根据考核要求确定，</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">由各学院自行命题并组织考试</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">或考核</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">综合</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">面试：满分为100分，每名考生综合面试时间一般不少于20分钟。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">外国语听力与口语水平测试：满分为50分，可由学位点安排教师进行，也可申请委托外国语学院教师进行。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">2.加试</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">同等学力考生在复试期间除参加本专业上述各项内容的复试外，还须参加两门本专业指定的业务课(本科主干课程)的加试，加试科目不得与初试科目相同，难易程度应按本科教学大纲的要求掌握，考试时间每门为2小时，考试形式为笔试，每门满分为100分。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">招生简章（目录）已注明部分跨专业考生也需加试，加试要求与</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">同等学力加试</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">相同。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">加试</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">由学院统一组织，负责组织阅卷并上报成绩及相关复试材料。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">（</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">三</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">）成绩计算</strong></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">1.复试成绩总分为250分。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">专业</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">考核</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">、综合面试及格分均为60分。任一科目不及格者不予录取。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">2.加试业务课成绩，只设合格线(60分)，不及格者不予录取，不计入复试总成绩。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">3.复试总成绩和加试成绩合格者，将复试总成绩和初试成绩按权重计算后相加，得出考生入学考试总成绩。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">一志愿考生：(初试分数/初试总分值)*60+(复试总分/250)*40</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">；</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">调剂志愿考生：(初试分数/初试总分值)*50+(复试总分/250)*50。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">4.学院认为有必要时，可依程序对考生再次组织复试。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">注：初试总分值即考生初试各科目满分值相加。</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">管理类联考类初试总分值300</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">，</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">其他类别</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">初试总分值500</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">）</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">所有成绩均只保留小数点后2位，四舍五入。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><strong style="font-size:16.0pt; font-family:黑体; letter-spacing:0.0pt">五、</strong><strong style="font-size:16.0pt; font-family:黑体; letter-spacing:0.0pt">调剂</strong></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">（</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">一</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">）</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">调剂基本要求</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt"></strong></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">1.</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">初试成绩符合第一志愿报考专业在A</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">类地</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">区的初试成绩基本要求且符合我校202</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">6</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">年招生简章中规定的调入专业的报考条件。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">2.</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">调入专业与第一志愿报考专业相同或相近，即考生初试科目应与调入专业初试科目相同或相近，其中统考科目原则上应相同。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">3.</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">第一志愿报考工商管理、公共管理、工程管理、旅游管理、会计、图书情报、审计专业的考生可以相互调剂，但不得调入其他专业；其他专业考生也不得调入以上7个专业。第一志愿报考法律硕士(非法学)专业的考生不得调入其他专业，其他专业的考生也不得调入该专业。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">4.</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">第一志愿报考照顾专业的考生若调剂出本类照顾专业，其初试成绩必须达到调入地区该照顾专业所在学科门类的全国初试成绩基本要求。报考非照顾专业的考生若调入照顾专业，其初试成绩必须符合调入地区对应的非照顾专业所在学科门类的全国初试成绩基本要求。工学照顾专业之间，体育学与体育硕士之间调剂，按本类照顾专业全国初试成绩基本要求执行。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">5.</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">调剂非全日制硕士研究生</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">须为</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">在职定向就业人员。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">6.符合国家规定以及相关学院的其他调剂要求。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">（</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">二</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">）</strong><strong style="font-size:16.0pt; font-family:楷体; letter-spacing:0.0pt">调剂程序</strong></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">调剂工作由研究生招生办公室归口管理并统一办理相关手续。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">1.考生填写调剂信息。符合调剂条件的考生在中国研究生招生信息网（以下简称研招网）的硕士研究生调剂服务系统(</span><a href="http://yz.chsi.com.cn/"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt; text-underline:none; text-decoration:none">http://yz.chsi.com.cn</span></a><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">)中按要求填报调剂我校相关专业志愿。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">2.学院遴选调剂考生。各学院根据调剂细则择优遴选调剂考生，拟调剂复试考生名单汇总后报研究生院审核。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">3.学院发出调剂复试通知。学院拟调剂复试考生名单经研究生院招生办公室审核通过后，在研招网调剂系统中向调剂考生发出调剂复试通知。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">4.考生接受复试通知。调剂考生须在规定时间内在调剂系统中点击“接受复试通知”，逾期视为放弃复试资格。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">六</strong><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">、体检</strong></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">所有复试考生均需参加体检，由南昌大学校医院统一安排。校医院根据教育部、卫生部、中国残联印发的《普通高等学校招生体检工作指导意见》(教学〔2003〕3号)、《教育部办公厅卫生部办公厅关于普通高等学校招生学生入学身体检查取消乙肝项目检测有关问题的通知》(教学厅〔2010〕2号)以及《南昌大学研究生招生体检标准（修订）》（昌大校发〔2003〕22号文）等文件要求，结合体检结果，给出录取建议。如有必要，可进行二次体检。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">七</strong><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">、录取工作</strong></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（一）复试合格的考生应以综合成绩排名为主要依据（同分者依次按照初试总成绩、初试业务课总成绩、初试外国语成绩、复试笔试成绩、复试面试成绩决出排序），学院根据招生计划、复试录取细则以及考生的思想政治表现和身心健康状况等确定拟录取名单（录取顺序为一志愿考生、调剂考生）；同一专业全日制和非全日制根据招生计划分别排名录取；“专项计划”考生、“立功表彰退役军人免试生”的录取由学校统筹。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（二）凡有以下情况之一者，不予录取：</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">1.思想政治素质和道德品质考核不合格者；</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">2.未通过复试资格审查者；</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">3.未参加外国语口语及听力测试者；专业考核、综合面试以及同等学力加试任一项不及格者；</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">4.体检结论为不宜录取者；未参加体检或弄虚作假者；</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">5.已在研招网录取系统中接受其他招生单位“待录取”者；</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">6.其他不符合国家规定的情况。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（三）所有全日制学生须全脱产在校学习，其中全日制定向考生须在录取前提供所在单位人事部门同意脱产学习的证明。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">所有定向生(含全日制定向、非全日制定向)须于录取前签订相关定向培养协议。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（四）非全日制学生在从事其他职业或者社会实践的同时，采取多种方式和灵活时间安排进行非脱产学习，培养期间不享受助学金、学业奖学金和国家奖学金；毕业证书上注明“非全日制”学习方式；非全日制学生的具体学习方式由各学院安排，非全日制学生学校不提供住宿。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（五）调档、政审：考生的调档和政审工作由各学院组织。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（六）我校仅接受因公需要（如支教、入伍等）办理保留入学资格申请，原则上不接受因个人原因申请保留入学资格。保留入学资格申请应于录取报盘前提交学校审核，录取报盘结束后按教育部规定不再予以办理。录取为保留入学资格考生纳入招生单位当年的招生计划。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（七）考生确认的报考信息在录取阶段一律不作修改，对报考资格不符合规定者不予录取；不得将未通过或未完成学历(学籍)审核的考生列入拟录取名单公示或上报。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">八</strong><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">、信息公开制度</strong></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">学校根据《教育部办公厅关于进一步规范和加强研究生考试招生工作的通知》要求，健全研究生招生录取信息公开机制，确保研究生招生录取工作规范透明，增强招生录取工作公信力。对于应公开的招生录取信息，严格按照规定准确、规范、充分、及时予以公开，并做好对所公开信息的审核把关和解释说明工作。我校复试（调剂）录取相关信息以南昌大学研究生院网站（<a href="http://yjsy.ncu.edu.cn）及各招生学院网站发布的消息为准。" _src="http://yjsy.ncu.edu.cn）及各招生学院网站发布的消息为准。">http://yjsy.ncu.edu.cn）及各招生学院网站发布的消息为准。</a></span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt"> </span><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">九</strong><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">、回避制度</strong></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">复试及录取工作实行回避制度，本年度凡有直系亲属参与复试或有其他原因可能影响公正的相关人员应主动申请回避，不得参与相关学科专业的复试工作。对违反规定的单位和当事人，将视情节轻重给予批评教育或纪律处分，直至追究法律责任。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">十</strong><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">、复试的监督和复议</strong></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（一）实行全程监督制度。学校纪检、监察部门对复试工作进行全面、有效监督。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">咨询电话：0791-83969340</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">监督电话：0791-83969054（不作政策咨询用）</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（二）实行巡视制度。研究生院将派有关工作人员到复试现场巡视，加强监督和管理。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（三）实行责任制度和责任追究制度。学院要建立健全复试工作规章制度，所有参与复试的工作人员都要认真负责，严格保密，切实维护复试工作的公平公正，对徇私舞弊的工作人员要追究责任。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（四）实行复议制度。为及时处理复试中出现的争议，在公示有关信息的同时，必须保证考生咨询、申诉、监督渠道的畅通。各学院(部)研究生招生工作小组对本单位考生复试结果负责，</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">向考生公布监督电话，并及时答复考生提出的质疑。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">十</strong><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">一</strong><strong style="font-family: 黑体; font-size: 16pt; text-indent: 32pt; letter-spacing: 0pt;">、其他事项</strong></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（一）复试具体时间和注意事项将在南昌大学研究生院网站(</span><a href="http://yjsy.ncu.edu.cn/"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt; text-underline:none; text-decoration:none">http://yjsy.ncu.edu.cn</span></a><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">)发布。关于各专业复试阶段专业课笔试、同等学力考生加试的科目及参考书目、《南昌大学研究生招生体检标准(修订)》等有关信息请登录南昌大学研究生院网站查阅。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（二）复试办法若有新的补充规定，将另行公告。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（三）拟录取结果将于4月28日后在全国研究生招生信息公开平台公示。</span></p><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; letter-spacing:0.0pt">（四）各招生学院的复试工作细则及其实施过程中涉及的相关问题，由各学院研究生招生工作小组负责解释。本办法由研究生院招生办公室负责解释。未尽事宜由学校研究生招生委员会研究决定。</span></p><p style="text-align: left; text-indent: 21pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-family:Arial"><br></span></p><p style="text-align: right; text-indent: 21pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-family:Arial"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#000000; letter-spacing:0.0pt; mso-font-kerning:0.0pt; vsb_temp-mode:line"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>南昌大学研究生院</span></p><p style="text-align: right; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; vertical-align: baseline; word-break: normal; direction: ltr; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#000000; letter-spacing:0.0pt; mso-font-kerning:0.0pt; vsb_temp-mode:line"><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>2026年3月23日</span></p></div>
+</div></div><div id="div_vote_id"></div>
+        <div class="art-info">
+    <div class="pnext">
+                            <p>
+        上一条：<a href="47186.htm">2026年硕士研究生一志愿考生体检须知</a>
+        </p>
+        <p>
+        下一条：<a href="47026.htm">南昌大学2026年硕士研究生入学考试（初试）享受加分政策考生名单公示</a>
+    </p>
+    </div>   
+    </div>
+
+</form>
+</div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="footer">
+            <div class="foot px1400">
+                <div class="foot-l">
+                    <div class="ft-top">    <div class="ft-top">
+<a href="https://www.ncu.edu.cn/?from=edurank.org" onclick="_addDynClicks(&#34;wbimage&#34;, 2125996941, 1024367)"><img src="../../images/logo-nandibu.png" alt=""></a>                  
+</div>
+</div>
+                    <p><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>南昌大学研究生院　版权所有&nbsp;</p></p>
+                </div>
+                <div class="foot-m"><script language="javascript" src="/system/resource/js/news/mp4video.js"></script>
+<h2 style="text-align: left;">联系我们</h2>
+<p><img src="/__local/2/CB/60/DCE0F10B1A419BA38671F3A39EB_1054C582_13A.png?e=.png" alt="" vsbhref="vurl" vurl="/_vsl/2CB60DCE0F10B1A419BA38671F3A39EB/1054C582/13A?e=.png" vheight="" vwidth="" orisrc="/__local/2/CB/60/DCE0F10B1A419BA38671F3A39EB_1054C582_13A.png" class="img_vsb_content"><span style="font-family: 宋体, SimSun;">E-mail：yjsy@ncu.edu.cn</span></p>
+<p><img src="/__local/A/E2/C6/2BFBDAF9B340CAAAE2FFBB36BD8_2EE15AA2_1FB.png?e=.png" alt="" vsbhref="vurl" vurl="/_vsl/AE2C62BFBDAF9B340CAAAE2FFBB36BD8/2EE15AA2/1FB?e=.png" vheight="" vwidth="" orisrc="/__local/A/E2/C6/2BFBDAF9B340CAAAE2FFBB36BD8_2EE15AA2_1FB.png" class="img_vsb_content"><span style="font-family: 宋体, SimSun;">电话：0791-83969337&nbsp;</span><span style="font-family: 宋体, SimSun;">邮编：330031</span></p>
+<p><img src="/__local/2/D0/6D/0970123C91FE76B1619D6287E03_BE47C9E0_22F.png?e=.png" alt="" vsbhref="vurl" vurl="/_vsl/2D06D0970123C91FE76B1619D6287E03/BE47C9E0/22F?e=.png" vheight="" vwidth="" orisrc="/__local/2/D0/6D/0970123C91FE76B1619D6287E03_BE47C9E0_22F.png" class="img_vsb_content"><span style="font-family: 宋体, SimSun;">地址：江西省南昌市红谷滩区学府大道999号研究生楼</span></p></div>
+                <div class="foot-r">
+                    <div class="rwm">    
+</div>
+                </div>
+            </div>
+        </div>
+</body>
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/slick.js"></script>
+    <script src="../../js/public.js"></script>
+</html>
+
+
+
+
+

@@ -1,0 +1,1260 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>南昌大学研究生院</title><meta name="pageType" content="1">
+<meta name="pageTitle" content="南昌大学研究生院">
+<META Name="keywords" Content="南昌大学研究生院" />
+
+    <!-- 改用本地slick样式文件 -->
+    <link rel="stylesheet" href="style/slick.css">
+    <link rel="stylesheet" href="style/slick-theme.css">
+    <link rel="stylesheet" href="style/public.css">
+    <link rel="stylesheet" href="style/index.css">
+    <script src="https://robot.360eol.com/inc/robot.js?schoolId=MQ%2FU9%2BYU1jY%3D&type=2"></script>
+    <style type="text/css">
+        #browser-modal{width:100%;height:100%;top:0;left:0;text-align:center;color:#303233;position:fixed;z-index:9999;display: none;}
+        #browser-modal .browser-modal-cover{position:fixed;left:0;top:0;height:100%;width:100%;background-color:#111;opacity:.9;z-index:-1;}
+        #browser-modal .browser-content{width:700px;margin-top:120px;margin-left:auto;margin-right:auto;padding-bottom:80px;padding-top:30px;background-color:#fff;border-radius:5px;}
+        #browser-modal .browser-content .browser-dpc-logo img{height:62px;margin:45px auto 30px;}
+        #browser-modal .browser-content .browser-text-title{text-transform:uppercase;font-size:24px;}
+        #browser-modal .browser-content .browser-text-desc{margin-top:30px;margin-bottom:40px;font-size:14px;}
+        #browser-modal .browser-content .browser-list{width:600px;margin:40px auto;height:130px;}
+        #browser-modal .browser-content .browser-item{float:left;width:150px;padding-top:20px;padding-bottom:20px;margin-left:auto;margin-right:auto;}
+        #browser-modal .browser-content .browser-item .iconfont{width:100px;height:100px;margin:0 auto;font-size:80px;line-height:80px;margin-bottom:30px;}
+        #browser-modal .browser-content .browser-item a{color:#921041;cursor:pointer;display:block;}
+        #browser-modal .browser-content .browser-item a img{display:block;margin:0 auto;max-width:100px;width:100px;height:100px;}
+        #browser-modal .browser-content .browser-item a h4{text-align:center;margin-top:20px;font-size:18px;font-weight:700;}
+        .fixedok .banner {opacity:0;}
+
+        #browser-modal .browser-content .browser-item .iconchrome{background:url(images/bro.png) no-repeat 0 0;}
+        #browser-modal .browser-content .browser-item .iconfirefox{background:url(images/bro.png) no-repeat 0 -100px;}
+        #browser-modal .browser-content .browser-item .iconopera{background:url(images/bro.png) no-repeat 0 -200px;}
+        #browser-modal .browser-content .browser-item .iconEdge{background:url(images/bro.png) no-repeat 0 -300px;}
+    </style>
+<!--Announced by Visual SiteBuilder 9-->
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307775465753515742000300024f56 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,2125996941)</script>
+</head>
+<body>  
+
+  
+    <div class="header">
+        <div class="head px1400">
+            <div>
+                <div class="dh"><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script><UL>
+    <li>
+        <a href="glyfw/yzxx.htm" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 114514)">院长信箱</a>
+    </li>
+    <li>
+        <a href="index.htm" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97947)">网站首页</a>
+    </li>
+    <li>
+        <a href="https://www.ncu.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97946)">南昌大学</a>
+    </li>
+</UL></div>
+                <div class="seach"><!-- 3.1.3版本 -->
+
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script><script language="javascript" src="/system/resource/vue/vue.js"></script><script language="javascript" src="/system/resource/vue/bluebird.min.js"></script><script language="javascript" src="/system/resource/vue/axios.js"></script><script language="javascript" src="/system/resource/vue/polyfill.js"></script><script language="javascript" src="/system/resource/vue/token.js"></script><LINK href="/system/resource/vue/static/element/index.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/vue/static/element/index.js"></script><script language="javascript" src="/system/resource/vue/static/public.js"></script><script language="javascript" src="/system/resource/openapp/search/js/containsHtmlTags.js"></script><script language="javascript" src="/system/resource/openapp/search/layui/layui.js"></script><div id="divu1"></div>
+<script type="text/html" id="htmlu1">
+    <div id="appu1">
+        <div v-if="!isError">
+
+<input type="text" class="qwss" placeholder="请输入关键字.." v-model=query.keyWord @keyup.enter="onSubmit">
+<div class="ser_img">
+<input type="image" class="tj" src="image/seach.png" v-on:click="onSubmit()">
+</div>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu1").html($("#htmlu1").text());
+</script>
+<script>
+    var appOwner = "2125996941";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu1",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script>
+
+<script>
+   var appElementu1 = document.querySelector("#appu1");
+   if (appElementu1 && appElementu1.__vue__) {
+
+   } else {
+      $("#divu1").html($("#htmlu1").text());
+      var appOwner = "2125996941";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou1 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu1(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu1();
+        }
+      };
+
+      function onSubmitu1(e) {
+        queryInfou1.query.keyWord= $("#appu1  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou1.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+</script></div>
+            </div>
+        </div>
+        <div id="ft-link">
+            <div class="ft-link wp"><span>快速访问</span>
+ <a href="https://gmsadm.ncu.edu.cn/navigation/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112876)">研究生教育管理系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22176.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112877)">博士研究生招生简章</a>
+ <a href="https://gsas.ncu.edu.cn/logon" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112878)">博士网报系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22166.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112879)">硕士研究生招生简章</a>
+ <a href="https://ygb.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112880)">党委研究生工作部</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/bszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112882)">博士招生</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/sszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112883)">硕士招生</a>
+ <a href="https://teacher.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112884)">教师个人主页</a>
+ <a href="https://yjsy.ncu.edu.cn/yygk/ryjdh.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112885)">联系方式</a>
+</div>
+        </div>
+    </div>
+    <div id="logo">
+        <div class="px1400" id="nav">
+            <div class="logo">
+<a href="index.htm"><img src="images/LOGO.png" alt=""></a>
+</div>
+            <div class="nav"><ul>
+<li>
+    <a href="index.htm">网站首页</a>
+</li>  
+<li>
+    <a href="yygk/yyjj.htm">研院概况</a>
+    <ul>
+       
+            <li><a href="yygk/yyjj.htm">研院简介</a></li>
+       
+            <li><a href="yygk/jgsz.htm">机构设置</a></li>
+       
+            <li><a href="yygk/glzn.htm">管理职能</a></li>
+       
+            <li><a href="yygk/ryjdh.htm">人员及电话</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="zsgz/zsjz.htm">招生工作</a>
+    <ul>
+       
+            <li><a href="zsgz/zsjz.htm">招生简章</a></li>
+       
+            <li><a href="zsgz/sszs.htm">硕士招生</a></li>
+       
+            <li><a href="zsgz/bszs.htm">博士招生</a></li>
+       
+            <li><a href="zsgz/tmgz.htm">推免工作</a></li>
+       
+            <li><a href="zsgz/gatyz.htm">港澳台研招</a></li>
+       
+            <li><a href="zsgz/gzzd.htm">规章制度</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="pygz/gzzd.htm">培养工作</a>
+    <ul>
+       
+            <li><a href="pygz/gzzd.htm">规章制度</a></li>
+       
+            <li><a href="pygz/gzlc.htm">工作流程</a></li>
+       
+            <li><a href="pygz/pydt.htm">培养动态</a></li>
+       
+            <li><a href="pygz/zyxw.htm">专业学位</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="xwgz/xwgzzz.htm">学位工作</a>
+    <ul>
+       
+            <li><a href="xwgz/xwgzzz.htm">学位工作组织</a></li>
+       
+            <li><a href="xwgz/sqxwwj.htm">申请学位文件</a></li>
+       
+            <li><a href="xwgz/sqxwlc.htm">申请学位流程</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="xwdjs/xwsqd.htm">学位点建设</a>
+    <ul>
+       
+            <li><a href="xwdjs/xwsqd.htm">学位授权点</a></li>
+       
+            <li><a href="xwdjs/xwdsb.htm">学位点申报</a></li>
+       
+            <li><a href="xwdjs/ejxkzzsz.htm">二级学科自主设置</a></li>
+       
+            <li><a href="xwdjs/xwdpg_hy_.htm">学位点评估（核验）</a></li>
+       
+            <li><a href="xwdjs/xwddtdz_yh_.htm">学位点动态调整（优化）</a></li>
+       
+            <li><a href="xwdjs/gjxksz.htm">国家学科设置</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="zgxy/zgxyjj.htm">卓工学院</a>
+    <ul>
+       
+            <li><a href="zgxy/zgxyjj.htm">卓工学院简介</a></li>
+       
+            <li><a href="zgxy/zsdt.htm">招生动态</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="glyfw/bszn.htm">管理与服务</a>
+    <ul>
+       
+            <li><a href="glyfw/bszn.htm">办事指南</a></li>
+       
+            <li><a href="glyfw/yzxx.htm">院长信箱</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="xzzx.htm">下载中心</a>
+</li>  
+</ul></div>
+        </div>
+    </div>
+    <div class="banner">        <div>
+        <a href="index.htm" onclick="_addDynClicks(&#34;wbimage&#34;, 2125996941, 1024771)">
+            <img src="images/nandaban1.jpg" alt="">
+        </a>
+    </div>
+    <div>
+        <a href="index.htm" onclick="_addDynClicks(&#34;wbimage&#34;, 2125996941, 1024772)">
+            <img src="images/nanchangdaxueban1222.jpg" alt="">
+        </a>
+    </div>
+    <div>
+        <a href="index.htm" onclick="_addDynClicks(&#34;wbimage&#34;, 2125996941, 1024770)">
+            <img src="images/nanchangban1221.jpg" alt="">
+        </a>
+    </div>
+    <div>
+        <a href="" onclick="_addDynClicks(&#34;wbimage&#34;, 2125996941, 1026481)">
+            <img src="images/4.png" alt="">
+        </a>
+    </div>
+    <div>
+        <a href="" onclick="_addDynClicks(&#34;wbimage&#34;, 2125996941, 1026482)">
+            <img src="images/1920bi980.png" alt="">
+        </a>
+    </div>
+</div>
+    <!-- 移动端top -->
+    <div class="top">
+        <div class="wap wap-menu">
+            <img src="image/menu.png" class="menu" alt="">
+            <img src="image/close.png" class="close-menu" alt="">
+        </div>
+    </div>
+    <div class="wap m-head">
+        <div class="m-logo">        <a href="index.htm" onclick="_addDynClicks(&#34;wbimage&#34;, 2125996941, 1024740)"><img src="images/yunnandaxuelogoshouji.png" alt=""></a>           
+</div>
+        <div class="m-nav">
+            <div class="m-tlink">
+    <a href="index.htm" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97954)">网站首页</a>    
+    <a href="https://www.ncu.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97955)">南昌大学</a>    
+</div>
+            
+            <div class="yddtblj"><span>快速访问</span>
+ <a href="https://gmsadm.ncu.edu.cn/navigation/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112876)">研究生教育管理系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22176.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112877)">博士研究生招生简章</a>
+ <a href="https://gsas.ncu.edu.cn/logon" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112878)">博士网报系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22166.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112879)">硕士研究生招生简章</a>
+ <a href="https://ygb.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112880)">党委研究生工作部</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/bszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112882)">博士招生</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/sszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112883)">硕士招生</a>
+ <a href="https://teacher.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112884)">教师个人主页</a>
+ <a href="https://yjsy.ncu.edu.cn/yygk/ryjdh.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112885)">联系方式</a>
+</div>
+            
+            <div class="m-search"><!-- 3.1.3版本 -->
+
+
+
+<div id="divu9"></div>
+<script type="text/html" id="htmlu9">
+    <div id="appu9">
+               <div v-if="!isError">
+
+<input type="text" class="qwss" placeholder="请输入内容" v-model=query.keyWord @keyup.enter="onSubmit">
+<input type="image" class="tj" src="image/seach.png" v-on:click="onSubmit()">
+</div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu9").html($("#htmlu9").text());
+</script>
+<script>
+    var appOwner = "2125996941";
+    var token = gettoken(10);
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu9",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script>
+
+<script>
+   var appElementu9 = document.querySelector("#appu9");
+   if (appElementu9 && appElementu9.__vue__) {
+
+   } else {
+      $("#divu9").html($("#htmlu9").text());
+      var appOwner = "2125996941";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou9 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu9(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu9();
+        }
+      };
+
+      function onSubmitu9(e) {
+        queryInfou9.query.keyWord= $("#appu9  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou9.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+</script></div>
+            <ul class=""><li>
+    <a href="index.htm">网站首页</a>
+    <span></span>
+    <ul>
+            <a href="index/zxdt.htm">最新动态</a>        
+            <a href="index/tzgg.htm">通知公告</a>        
+            <a href="index/zsgz.htm">招生工作</a>        
+            <a href="index/gszl.htm">公示专栏</a>        
+    </ul>
+</li>
+<li>
+    <a href="yygk/yyjj.htm">研院概况</a>
+    <span></span>
+    <ul>
+            <a href="yygk/yyjj.htm">研院简介</a>        
+            <a href="yygk/jgsz.htm">机构设置</a>        
+            <a href="yygk/glzn.htm">管理职能</a>        
+            <a href="yygk/ryjdh.htm">人员及电话</a>        
+    </ul>
+</li>
+<li>
+    <a href="zsgz/zsjz.htm">招生工作</a>
+    <span></span>
+    <ul>
+            <a href="zsgz/zsjz.htm">招生简章</a>        
+            <a href="zsgz/sszs.htm">硕士招生</a>        
+            <a href="zsgz/bszs.htm">博士招生</a>        
+            <a href="zsgz/tmgz.htm">推免工作</a>        
+            <a href="zsgz/gatyz.htm">港澳台研招</a>        
+            <a href="zsgz/gzzd.htm">规章制度</a>        
+    </ul>
+</li>
+<li>
+    <a href="pygz/gzzd.htm">培养工作</a>
+    <span></span>
+    <ul>
+            <a href="pygz/gzzd.htm">规章制度</a>        
+            <a href="pygz/gzlc.htm">工作流程</a>        
+            <a href="pygz/pydt.htm">培养动态</a>        
+            <a href="pygz/zyxw.htm">专业学位</a>        
+    </ul>
+</li>
+<li>
+    <a href="xwgz/xwgzzz.htm">学位工作</a>
+    <span></span>
+    <ul>
+            <a href="xwgz/xwgzzz.htm">学位工作组织</a>        
+            <a href="xwgz/sqxwwj.htm">申请学位文件</a>        
+            <a href="xwgz/sqxwlc.htm">申请学位流程</a>        
+    </ul>
+</li>
+<li>
+    <a href="xwdjs/xwsqd.htm">学位点建设</a>
+    <span></span>
+    <ul>
+            <a href="xwdjs/xwsqd.htm">学位授权点</a>        
+            <a href="xwdjs/xwdsb.htm">学位点申报</a>        
+            <a href="xwdjs/ejxkzzsz.htm">二级学科自主设置</a>        
+            <a href="xwdjs/xwdpg_hy_.htm">学位点评估（核验）</a>        
+            <a href="xwdjs/xwddtdz_yh_.htm">学位点动态调整（优化）</a>        
+            <a href="xwdjs/gjxksz.htm">国家学科设置</a>        
+    </ul>
+</li>
+<li>
+    <a href="zgxy/zgxyjj.htm">卓工学院</a>
+    <span></span>
+    <ul>
+            <a href="zgxy/zgxyjj.htm">卓工学院简介</a>        
+            <a href="zgxy/zsdt.htm">招生动态</a>        
+    </ul>
+</li>
+<li>
+    <a href="glyfw/bszn.htm">管理与服务</a>
+    <span></span>
+    <ul>
+            <a href="glyfw/bszn.htm">办事指南</a>        
+            <a href="glyfw/yzxx.htm">院长信箱</a>        
+    </ul>
+</li>
+<li>
+    <a href="xzzx.htm">下载中心</a>
+    </li>
+</ul>
+        </div>
+    </div>
+    <div id="main">
+        <div class="section1">
+            <div class="sect1 px1400">
+                
+
+<script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><div class="sect1-l">
+<div>
+    <a href="info/1011/47736.htm">
+        <div class="se1">
+            <img src="/__local/9/94/74/F529597E9F633307302B2438E89_1FF77AE0_26118.jpeg" alt="">
+        </div>
+        <div class="text1">
+            <div class="time">
+                <h2>09</h2>
+                <span>2026-09</span>
+            </div>
+            <p>我校召开新学期研究生工作布置会暨研究生秘书工作培训会</p>
+        </div>
+    </a>
+</div>
+<div>
+    <a href="info/1011/47546.htm">
+        <div class="se1">
+            <img src="/__local/5/6D/B6/4B311D068E1D09E9BD0AAA7C0CF_09CB56BB_1A954.jpeg" alt="">
+        </div>
+        <div class="text1">
+            <div class="time">
+                <h2>11</h2>
+                <span>2026-06</span>
+            </div>
+            <p>格局智慧行动，致力致知致远——南昌大学开展“香樟导辅学堂...</p>
+        </div>
+    </a>
+</div>
+<div>
+    <a href="info/1011/47446.htm">
+        <div class="se1">
+            <img src="/__local/0/DE/58/D191C243C2DB3AB0F3F2686ABC4_F340088D_1E57A.png" alt="">
+        </div>
+        <div class="text1">
+            <div class="time">
+                <h2>15</h2>
+                <span>2026-05</span>
+            </div>
+            <p>研究生院召开2026年研究生培养方案修订工作会议</p>
+        </div>
+    </a>
+</div>
+</div><script>_showDynClickBatch(['dynclicks_u11_47736','dynclicks_u11_47546','dynclicks_u11_47446'],[47736,47546,47446],"wbnews", 2125996941)</script>
+
+                <div class="sect1-r">
+                    <div class="title">
+                        <div class="topic">
+                            <h2>最新动态</h2>
+                            <p>Latest News</p>
+                        </div>
+                        <a href="index/zxdt.htm">
+                            <p>更多</p>
+                            <span>+</span>
+                        </a>
+                    </div>
+                    
+
+<ul>
+<li>
+    <a href="info/1011/47736.htm">
+        <h5>09</h5>
+        <span>2026.09</span>
+        <h2>我校召开新学期研究生工作布...</h2>
+        <p>本网讯 9月8日，我校新学期研究生工作布置会暨研究生秘书工作培训会召开。校党委常委、副校长...</p>
+    </a>
+</li>
+<li>
+    <a href="info/1011/47546.htm">
+        <h5>11</h5>
+        <span>2026.06</span>
+        <h2>格局智慧行动，致力致知致远...</h2>
+        <p>2026年6月9日，南昌大学“香樟导辅学堂”第四期专题培训在理生楼进行。本期培训以“导学关系...</p>
+    </a>
+</li>
+<li>
+    <a href="info/1011/47446.htm">
+        <h5>15</h5>
+        <span>2026.05</span>
+        <h2>研究生院召开2026年研究生培...</h2>
+        <p>5月14日下午，研究生院召开2026年研究生培养方案修订工作会议。研究生院相关负责人、各培养单...</p>
+    </a>
+</li>
+<li>
+    <a href="https://news.ncu.edu.cn//ndyw/54f7a6bee35a4b26920528f7b5e8d052_mobile.htm">
+        <h5>21</h5>
+        <span>2026.04</span>
+        <h2>我校法学院行业导师杨峰入选...</h2>
+        <p></p>
+    </a>
+</li>
+</ul><script>_showDynClickBatch(['dynclicks_u12_47736','dynclicks_u12_47546','dynclicks_u12_47446','dynclicks_u12_47296'],[47736,47546,47446,47296],"wbnews", 2125996941)</script>
+
+                </div>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="sect2 px1400">
+                <div class="title1">
+                    <h2>通知公告</h2>
+                    <p>Notice</p>
+                </div>
+                <div class="tzgg-show">
+                    <ul class="tzgg">
+
+ 
+        <li>
+            <a href="info/1012/47686.htm">
+                <div class="time1">
+                    <h2>23</h2>
+                    <div>
+                        <p>2026.07</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>关于公布南昌大学2026年省级研究生教学成果奖获奖项...</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+
+        <li>
+            <a href="info/1012/47666.htm">
+                <div class="time1">
+                    <h2>07</h2>
+                    <div>
+                        <p>2026.07</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>关于发放2026级研究生录取通知书的通知</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+
+        <li>
+            <a href="info/1012/47656.htm">
+                <div class="time1">
+                    <h2>02</h2>
+                    <div>
+                        <p>2026.07</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>转发江西省人才发展集团《关于2026“未来科学家”研...</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+
+        <li>
+            <a href="info/1012/47596.htm">
+                <div class="time1">
+                    <h2>29</h2>
+                    <div>
+                        <p>2026.06</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>南昌大学2026年拟录取博士研究生调档、签订定向协议...</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+
+        <li>
+            <a href="info/1012/47556.htm">
+                <div class="time1">
+                    <h2>18</h2>
+                    <div>
+                        <p>2026.06</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>关于修改2026级硕士研究生录取通知书邮寄地址的通知</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+
+        <li>
+            <a href="info/1012/47526.htm">
+                <div class="time1">
+                    <h2>02</h2>
+                    <div>
+                        <p>2026.06</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>关于公布南昌大学2026年第二批次博士研究生招生英语...</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+<script>_showDynClickBatch(['dynclicks_u13_47686','dynclicks_u13_47666','dynclicks_u13_47656','dynclicks_u13_47596','dynclicks_u13_47556','dynclicks_u13_47526'],[47686,47666,47656,47596,47556,47526],"wbnews", 2125996941)</script>
+</ul>
+                    <ul class="tzgg">
+
+ 
+        <li>
+            <a href="info/1012/47686.htm">
+                <div class="time1">
+                    <h2>23</h2>
+                    <div>
+                        <p>2026.07</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>关于公布南昌大学2026年省级研究生教学成果奖获奖项...</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+
+        <li>
+            <a href="info/1012/47666.htm">
+                <div class="time1">
+                    <h2>07</h2>
+                    <div>
+                        <p>2026.07</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>关于发放2026级研究生录取通知书的通知</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+
+        <li>
+            <a href="info/1012/47656.htm">
+                <div class="time1">
+                    <h2>02</h2>
+                    <div>
+                        <p>2026.07</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>转发江西省人才发展集团《关于2026“未来科学家”研...</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+
+        <li>
+            <a href="info/1012/47596.htm">
+                <div class="time1">
+                    <h2>29</h2>
+                    <div>
+                        <p>2026.06</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>南昌大学2026年拟录取博士研究生调档、签订定向协议...</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+
+        <li>
+            <a href="info/1012/47556.htm">
+                <div class="time1">
+                    <h2>18</h2>
+                    <div>
+                        <p>2026.06</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>关于修改2026级硕士研究生录取通知书邮寄地址的通知</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+
+        <li>
+            <a href="info/1012/47526.htm">
+                <div class="time1">
+                    <h2>02</h2>
+                    <div>
+                        <p>2026.06</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>关于公布南昌大学2026年第二批次博士研究生招生英语...</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+<script>_showDynClickBatch(['dynclicks_u14_47686','dynclicks_u14_47666','dynclicks_u14_47656','dynclicks_u14_47596','dynclicks_u14_47556','dynclicks_u14_47526'],[47686,47666,47656,47596,47556,47526],"wbnews", 2125996941)</script>
+</ul>
+                    <ul class="tzgg">
+
+ 
+        <li>
+            <a href="info/1012/47686.htm">
+                <div class="time1">
+                    <h2>23</h2>
+                    <div>
+                        <p>2026.07</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>关于公布南昌大学2026年省级研究生教学成果奖获奖项...</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+
+        <li>
+            <a href="info/1012/47666.htm">
+                <div class="time1">
+                    <h2>07</h2>
+                    <div>
+                        <p>2026.07</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>关于发放2026级研究生录取通知书的通知</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+
+        <li>
+            <a href="info/1012/47656.htm">
+                <div class="time1">
+                    <h2>02</h2>
+                    <div>
+                        <p>2026.07</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>转发江西省人才发展集团《关于2026“未来科学家”研...</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+
+        <li>
+            <a href="info/1012/47596.htm">
+                <div class="time1">
+                    <h2>29</h2>
+                    <div>
+                        <p>2026.06</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>南昌大学2026年拟录取博士研究生调档、签订定向协议...</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+
+        <li>
+            <a href="info/1012/47556.htm">
+                <div class="time1">
+                    <h2>18</h2>
+                    <div>
+                        <p>2026.06</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>关于修改2026级硕士研究生录取通知书邮寄地址的通知</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+
+        <li>
+            <a href="info/1012/47526.htm">
+                <div class="time1">
+                    <h2>02</h2>
+                    <div>
+                        <p>2026.06</p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>关于公布南昌大学2026年第二批次博士研究生招生英语...</p>
+                </div>
+                <div class="more"><span>详情→</span></div>
+            </a>
+        </li>     
+<script>_showDynClickBatch(['dynclicks_u15_47686','dynclicks_u15_47666','dynclicks_u15_47656','dynclicks_u15_47596','dynclicks_u15_47556','dynclicks_u15_47526'],[47686,47666,47656,47596,47556,47526],"wbnews", 2125996941)</script>
+</ul>
+                </div>
+                <div class="more2">
+                    <a href="index/tzgg.htm">
+                        <p>更多</p>
+                        <span>+</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="section3">
+            <div class="sect3 px1400">
+                <div class="sect3-l">
+                    <div class="title">
+                        <div class="topic">
+                            <h2>招生工作</h2>
+                        </div>
+                        <a href="zsgz/zsjz.htm">
+                            <p>更多</p>
+                            <span>+</span>
+                        </a>
+                    </div>
+                    <ul>
+
+ <li>
+    <a href="info/1181/47716.htm">
+        <p>南昌大学2027年接收推荐免试研究生预报名通知</p>
+        <span>2026-09-03</span>
+    </a>
+</li>                      
+ <li>
+    <a href="https://yjsy.ncu.edu.cn/info/1014/47616.htm">
+        <p>南昌大学“2026年高校思想政治工作骨干攻读博士学...</p>
+        <span>2026-06-30</span>
+    </a>
+</li>                      
+ <li>
+    <a href="https://yjsy.ncu.edu.cn/info/1014/47566.htm">
+        <p>南昌大学2026年第二批次博士研究生拟录取名单公示</p>
+        <span>2026-06-18</span>
+    </a>
+</li>                      
+ <li>
+    <a href="https://yjsy.ncu.edu.cn/info/1012/47526.htm">
+        <p>关于公布南昌大学2026年第二批次博士研究生招生英...</p>
+        <span>2026-06-02</span>
+    </a>
+</li>                      
+ <li>
+    <a href="https://yjsy.ncu.edu.cn/info/1014/47506.htm">
+        <p>南昌大学关于2027年硕士研究生招生考试部分学科专...</p>
+        <span>2026-05-28</span>
+    </a>
+</li>                      
+ <li>
+    <a href="https://yjsy.ncu.edu.cn/info/1012/47486.htm">
+        <p>关于南昌大学2026年第二批次博士研究生招生英语水...</p>
+        <span>2026-05-26</span>
+    </a>
+</li>                      
+ <li>
+    <a href="https://yjsy.ncu.edu.cn/info/1012/47406.htm">
+        <p>南昌大学2026年拟录取硕士研究生调档、签订定向协...</p>
+        <span>2026-05-11</span>
+    </a>
+</li>                      
+<script>_showDynClickBatch(['dynclicks_u16_47716','dynclicks_u16_47626','dynclicks_u16_47576','dynclicks_u16_47536','dynclicks_u16_47516','dynclicks_u16_47496','dynclicks_u16_47416'],[47716,47626,47576,47536,47516,47496,47416],"wbnews", 2125996941)</script>
+</ul>
+                </div>
+                <div class="sect3-l sect3-r1">
+                    <div class="title">
+                        <div class="topic">
+                            <h2>公示专栏</h2>
+                        </div>
+                        <a href="index/gszl.htm">
+                            <p>更多</p>
+                            <span>+</span>
+                        </a>
+                    </div>
+                    <ul>
+
+ <li>
+    <a href="info/1014/47506.htm">
+        <p>南昌大学关于2027年硕士研究生招生考试...</p>
+        <span>2026-05-28</span>
+    </a>
+</li>                      
+ <li>
+    <a href="info/1014/47466.htm">
+        <p>南昌大学2026年面向港澳台地区招收研究...</p>
+        <span>2026-05-21</span>
+    </a>
+</li>                      
+ <li>
+    <a href="info/1014/47346.htm">
+        <p>南昌大学2026年拟录取博士研究生放弃及...</p>
+        <span>2026-05-08</span>
+    </a>
+</li>                      
+ <li>
+    <a href="info/1014/47326.htm">
+        <p>南昌大学2026年统招硕士研究生拟录取名...</p>
+        <span>2026-04-30</span>
+    </a>
+</li>                      
+ <li>
+    <a href="https://yjsy.ncu.edu.cn/info/1012/47026.htm">
+        <p>南昌大学2026年硕士研究生入学考试（初...</p>
+        <span>2026-03-09</span>
+    </a>
+</li>                      
+ <li>
+    <a href="https://yjsy.ncu.edu.cn/info/1012/46806.htm">
+        <p>南昌大学2026年第一批次博士研究生拟录...</p>
+        <span>2026-02-24</span>
+    </a>
+</li>                      
+ <li>
+    <a href="info/1014/47616.htm">
+        <p>南昌大学“2026年高校思想政治工作骨干...</p>
+        <span>2026-06-30</span>
+    </a>
+</li>                      
+<script>_showDynClickBatch(['dynclicks_u17_47506','dynclicks_u17_47466','dynclicks_u17_47346','dynclicks_u17_47326','dynclicks_u17_47066','dynclicks_u17_46896','dynclicks_u17_47616'],[47506,47466,47346,47326,47066,46896,47616],"wbnews", 2125996941)</script>
+</ul>
+                </div>
+            </div>
+        </div>
+         
+
+    </div>
+    <div class="footer">
+        <div class="foot px1400">
+            <div class="foot-l">
+                    <div class="ft-top">
+<a href="https://www.ncu.edu.cn/?from=edurank.org" onclick="_addDynClicks(&#34;wbimage&#34;, 2125996941, 1024367)"><img src="images/logo-nandibu.png" alt=""></a>                  
+</div>
+
+                <p><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>南昌大学研究生院　版权所有&nbsp;</p></p>
+            </div>
+            <div class="foot-m"><script language="javascript" src="/system/resource/js/news/mp4video.js"></script>
+<h2 style="text-align: left;">联系我们</h2>
+<p><img src="/__local/2/CB/60/DCE0F10B1A419BA38671F3A39EB_1054C582_13A.png?e=.png" alt="" vsbhref="vurl" vurl="/_vsl/2CB60DCE0F10B1A419BA38671F3A39EB/1054C582/13A?e=.png" vheight="" vwidth="" orisrc="/__local/2/CB/60/DCE0F10B1A419BA38671F3A39EB_1054C582_13A.png" class="img_vsb_content"><span style="font-family: 宋体, SimSun;">E-mail：yjsy@ncu.edu.cn</span></p>
+<p><img src="/__local/A/E2/C6/2BFBDAF9B340CAAAE2FFBB36BD8_2EE15AA2_1FB.png?e=.png" alt="" vsbhref="vurl" vurl="/_vsl/AE2C62BFBDAF9B340CAAAE2FFBB36BD8/2EE15AA2/1FB?e=.png" vheight="" vwidth="" orisrc="/__local/A/E2/C6/2BFBDAF9B340CAAAE2FFBB36BD8_2EE15AA2_1FB.png" class="img_vsb_content"><span style="font-family: 宋体, SimSun;">电话：0791-83969337&nbsp;</span><span style="font-family: 宋体, SimSun;">邮编：330031</span></p>
+<p><img src="/__local/2/D0/6D/0970123C91FE76B1619D6287E03_BE47C9E0_22F.png?e=.png" alt="" vsbhref="vurl" vurl="/_vsl/2D06D0970123C91FE76B1619D6287E03/BE47C9E0/22F?e=.png" vheight="" vwidth="" orisrc="/__local/2/D0/6D/0970123C91FE76B1619D6287E03_BE47C9E0_22F.png" class="img_vsb_content"><span style="font-family: 宋体, SimSun;">地址：江西省南昌市红谷滩区学府大道999号研究生楼</span></p></div>
+            <div class="foot-r">
+                <div class="rwm">    
+</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 浏览器版本提示弹窗 -->
+    <div id="browser-modal">
+        <div class="browser-modal-cover"></div>
+        <div class="browser-content">
+            <div class="browser-text">
+                <h3 class="browser-text-title">请升级浏览器版本</h3>
+                <p class="browser-text-desc">
+                    你正在使用旧版本浏览器。请升级浏览器以获得更好的体验。
+                </p>
+            </div>
+            <div class="browser-list">
+                <div class="browser-item">
+                    <a href="https://www.google.cn/intl/zh-CN/chrome/" target="_blank">
+                        <div class="iconfont iconchrome"></div>
+                        <h4>Chrome</h4>
+                    </a>
+                </div>
+                <div class="browser-item">
+                    <a href="http://www.firefox.com.cn/" target="_blank">
+                        <div class="iconfont iconfirefox"></div>
+                        <h4>Firefox</h4>
+                    </a>
+                </div>
+                <div class="browser-item">
+                    <a href="https://www.opera.com/zh-cn" target="_blank">
+                        <div class="iconfont iconopera"></div>
+                        <h4>Opera</h4>
+                    </a>
+                </div>
+                <div class="browser-item">
+                    <a href="https://www.microsoft.com/zh-cn/edge" target="_blank">
+                        <div class="iconfont iconEdge"></div>
+                        <h4>Edge</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 脚本引用区域 - 统一使用本地文件 -->
+    <!-- 1. 引入本地jQuery（优先用本地，避免CDN依赖） -->
+    <script src="js/jquery.js"></script>
+    <!-- 2. 引入本地slick核心库（关键修改：改用本地slick.js） -->
+    <script src="js/slick.js"></script>
+    <!-- 3. 本地脚本文件 -->
+    <script src="js/public.js"></script>
+    <script src="js/index.js"></script>
+
+    <!-- 4. 核心修复：确保轮播只初始化一次 + 浏览器检测 -->
+    <script>
+        // 检测低版本IE浏览器
+        if(navigator.appName == "Microsoft Internet Explorer"&&parseInt(navigator.appVersion.split(";")[1].replace(/[ ]/g, "").replace("MSIE","")) < 10){
+            document.getElementById('browser-modal').style.display='block';
+            console.log("您的浏览器版本过低，请使用IE10以上版本");
+        }
+
+        // 修复重复按钮的核心：先销毁已有实例，再初始化（确保只执行一次）
+        $(document).ready(function() {
+            // 重要：先销毁banner上已存在的slick实例（防止重复初始化）
+            if ($('.banner').hasClass('slick-initialized')) {
+                $('.banner').slick('unslick');
+            }
+            
+            // 重新初始化banner轮播（仅执行一次）
+            $('.banner').slick({
+                autoplay: true,          // 自动播放
+                autoplaySpeed: 3000,     // 自动播放间隔（毫秒）
+                dots: true,              // 显示分页圆点
+                arrows: true,            // 显示左右箭头
+                infinite: true,          // 无限循环
+                speed: 500,              // 切换速度
+                slidesToShow: 1,         // 同时显示数量
+                slidesToScroll: 1,       // 每次滚动数量
+                responsive: [            // 响应式配置
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false  // 移动端隐藏箭头
+                        }
+                    }
+                ]
+            });
+
+            // 如果tzgg-show也需要轮播，同样先销毁再初始化（按需启用）
+            // if ($('.tzgg-show').hasClass('slick-initialized')) {
+            //     $('.tzgg-show').slick('unslick');
+            // }
+            // $('.tzgg-show').slick({
+            //     slidesToShow: 1,
+            //     slidesToScroll: 1,
+            //     dots: false,
+            //     arrows: true
+            // });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,755 @@
+<!doctype html><!--[if lt IE 7 ]>
+<html class="ie6"><![endif]--><!--[if IE 7 ]>
+<html class="ie7"><![endif]--><!--[if IE 8 ]>
+<html class="ie8"><![endif]--><!--[if IE 9 ]>
+<html class="ie9"><![endif]--><!--[if (gt IE 9)|!(IE)]><!-->
+<html><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1"/>
+	<meta name="renderer" content="webkit"/>
+	<meta name="viewport"
+		  content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no, minimal-ui" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="keywords" content="综合新闻,中国科学院理化技术研究所,中国科学院">
+	<meta name="SiteName" content="中国科学院理化技术研究所">
+	<meta name="SiteDomain" content="//ipc.cas.cn/">
+
+	<meta name="description" content="综合新闻,中国科学院理化技术研究所,中国科学院">
+	<meta name="author" content="author,中国科学院计算机网络信息中心">
+	<meta name="robots" content="index,follow">
+	<base target="_blank">
+	<title>理化所举办“理化筑梦 遇见未来”2026年优秀大学生夏令营--中国科学院理化技术研究所</title>
+
+	<!-- css -->
+	<link href="//api.cas.cn/favicon/ipc.ico" rel="shortcut icon" type="image/x-icon">
+<link href="/images/bootstrap.css" rel="stylesheet">
+<link href="//api.cas.cn/lib/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link href="/images/common_lhs.css" rel="stylesheet">
+<link href="/images/index_lhs.css" rel="stylesheet">
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script src="/images/selectivizr.js" /></script>
+<noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="/images/html5shiv.min.js"></script>
+<script src="/images/respond.min.js"></script>
+<![endif]-->
+	<link href="//ipc.cas.cn/images/style_lhs.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- header -->
+<form name="searchform" action="/include/qwjs/" method="get" target="_top">
+    <input type="hidden" name="keyword" value="" />
+</form>
+<!--全文检索end-->
+<div class="nav_bg_lhs fl w100">
+    <div class="fl w100 nav_bar_lhs">
+        <div class="container">
+            <div class="navbar-header w100 fl">
+                <div class="hidden-lg hidden-md fl w100 app_navbar_lhs">
+                    <form class="navbar-form fl">
+                        <div class="form-group">
+                           <input type="text" class="form-control" value="Search" id="iptSword" onClick="javascript:if(this.value=='Search') this.value=''" />
+                            <input type="button" class="btn" id="sub-mobile" />
+                        </div>
+                    </form>
+                    <div class="btn-group dropdown fr appbtn_group_lhs">
+                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-share-alt"></i></button>
+                        <div class="dropdown-menu dropdown-menu-right app_dropdown_menu_lhs">
+                            <ol class="breadcrumb fr app_breadcrumb_lhs">
+                                <li><a href="https://newoa.arp.cn/">原网上办公</a></li>
+                                <li><a href="http://ipc.arp.cn/">ARP系统</a></li>
+                                <li><a href="https://ipc.cas.cn/gk/lxfs/">联系我们</a></li>
+                                <li><a href="http://english.ipc.cas.cn/">English</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <a href="/" class="navbar-brand"><img src="/images/lhs_logo.png" /></a>
+                </div>
+                <div class="col-md-6 hidden-sm hidden-xs paddnone">
+                    <ol class="breadcrumb fr">
+                        <li>
+                            <form class="navbar-form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" value="搜 索" id="searchword" onClick="javascript:if(this.value=='搜 索') this.value=''" />
+                                    <input type="button" class="btn" id="sub-pc" />
+                                </div>
+                            </form>
+                        </li>
+                        <li><a href="https://newoa.arp.cn/">原网上办公</a></li>
+                        <li><a href="http://ipc.arp.cn/">ARP系统</a></li>
+                        <li><a href="https://ipc.cas.cn/gk/lxfs/">联系我们</a></li>
+                        <li><a href="http://english.ipc.cas.cn/">English</a></li>
+                    </ol>
+                   
+                </div>
+            </div><!--  navbar-header end -->
+        </div><!--  container end -->
+    </div><!-- nav_bar_lhs end -->
+    <nav class="fl w100 nav_lhs">
+        <div class="container">
+            <div class="nav_main_lhs w100 fl">
+                <div class="navbar-header">
+                    <span class="fl hidden-lg hidden-md hidden-sm">MENU</span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse paddnone" id="bs-example-navbar-collapse-1">
+                    <div class="fl w100 navbar-nav_lhs">
+                        <ul class="nav navbar-nav nav-justified">
+                            <li><a href="/" target="_top">首页</a></li>
+                            <li class="dropdown lhs_dropdown">
+                                <a href="/../../gk/" class="dropdown-toggle" data-toggle="dropdown"  target="_top" ignoreapd="1"><p>概况</p><i class="fa fa-caret-up hidden-xs "></i></a>
+
+                                <div class="dropdown-menu web_menu_lhs menu_skjs_lhs">
+                                    <div class="fl w100 hidden-xs web_menu_cont_lhs">
+                                        <div class="col-md-4 col-sm-12">
+                                            <h1 class="fl w100"><a href="/../../gk/skjj/" target="_top" ignoreapd="1">所况简介</a></h1>
+                                            
+                                                <span class="fl w100"><a href="/../../gk/skjj/202601/t20260113_8103630.html" class="fl w100" ignoreapd="1"><img src="/../../gk/skjj/202601/W020260116386851898233.jpg" /></a></span>
+                                                <p class="fl w100">中国科学院理化技术研究所组建于1999年6月，是以原中国科学院感光化学研究所、低温技术实验中心为主体，联合北京人工晶体研究发展中心和化学研究所的相关部分整合而成。理化所是以物理、化学和工程技术为学科背景，以高科技创新和成果转移转化研究为职责使命的研究机构。主要研究领域为光化学转换与功能材料、低温科学与工程、功能晶体与激光技术、仿生智能界面材料、特种功能材料与生物医用技术。</p>
+                                            
+                                        </div>
+                                        <hr class="fl line_lhs" />
+                                        <div class="col-md-5 col-sm-12">
+                                            <div class="fl w100 menu_szzc_lhs">
+                                                <h1 class="fl w100"><a href="/../../gk/szzc/">所长致辞</a></h1>
+                                                
+                                                    <p class="fl w100" ><a href="/../../gk/szzc/201811/t20181118_5181551.html" class="fl"><img src="/../../gk/szzc/201811/W020230712342830196622.png" /></a>世纪更迭，创新潮起，中国科学院理化技术研究所应运而生。建所以来，理化所始终秉持中国科学院党组赋予的以高技术创新与成果转移转化研究为主的职责使命，深入推进物理、化学、材料、工程等学科间的交叉融合和高水平人才队伍培养和引进，形成了光化学转换与功能材料、低温科学与工程、功能晶体与激光技术、仿生超浸润界面科学与技术、特种功能材料与生物医用技术五大优势方向，为国家材料、能源、先进制造、生物医药等领域的战略需求提供了重要科技支撑，在光化学、仿生界面、低温科学基础及应用基础研究方面保持世界领先水平。</p>
+
+                                                
+                                            </div>
+                                            <div class="fl w100">
+                                                <h1 class="fl w100"><a href="/../../gk/xrld/">现任领导</a></h1>
+                                                <p>
+                                                    所长：王雪松  <br />
+                                                    党委书记、副所长：王树涛  <br />
+                                                    副所长：罗二仓  <br />
+                                                    副所长：郭晓勇  <br />
+                                                    纪委书记：袁庆智  <br />
+                                                    副所长：高   波  <br />
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <hr class="fl line_lhs" />
+                                        <div class="col-md-2 col-sm-12">
+                                            
+                                                <h1 class="col-md-12 col-sm-6 paddnone"><a href="/../../gk/lrld/">历任领导</a></h1>
+                                            
+                                                <h1 class="col-md-12 col-sm-6 paddnone"><a href="/../../gk/kjwyh/">学术委员会</a></h1>
+                                            
+                                                <h1 class="col-md-12 col-sm-6 paddnone"><a href="/../../gk/xwwyh/">学位委员会</a></h1>
+                                            
+                                                <h1 class="col-md-12 col-sm-6 paddnone"><a href="/../../gk/lsyg/">历史沿革</a></h1>
+                                            
+                                                <h1 class="col-md-12 col-sm-6 paddnone"><a href="/../../gk/yqfm/">园区风貌</a></h1>
+                                            
+                                                <h1 class="col-md-12 col-sm-6 paddnone"><a href="/../../gk/lxfs/">联系方式</a></h1>
+                                            
+                                        </div>
+                                    </div>
+                                    <ul class="app_menu_ul_lhs hidden-lg hidden-md hidden-sm">
+                                        
+                                            <li><a href="/../../gk/skjj/">所况简介</a></li>
+                                        
+                                            <li><a href="/../../gk/szzc/">所长致辞</a></li>
+                                        
+                                            <li><a href="/../../gk/xrld/">现任领导</a></li>
+                                        
+                                            <li><a href="/../../gk/lrld/">历任领导</a></li>
+                                        
+                                            <li><a href="/../../gk/kjwyh/">学术委员会</a></li>
+                                        
+                                            <li><a href="/../../gk/xwwyh/">学位委员会</a></li>
+                                        
+                                            <li><a href="/../../gk/lsyg/">历史沿革</a></li>
+                                        
+                                            <li><a href="/../../gk/yqfm/">园区风貌</a></li>
+                                        
+                                            <li><a href="/../../gk/lxfs/">联系方式</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="dropdown lhs_dropdown">
+                                <a href="/../../jgsz/" class="dropdown-toggle" data-toggle="dropdown"  target="_top"><p>机构设置</p><i class="fa fa-caret-up hidden-xs "></i></a>
+
+                                <div class="dropdown-menu web_menu_lhs menu_skjs_lhs menu_jgsz_lhs">
+                                    <div class="fl w100 hidden-xs web_menu_cont_lhs jgzs-cont">
+                                        <div class="w60_lhsnav col-sm-12 jgsz_dl1_lhs">
+                                            <h1 class="fl w100"><a href="/../../jgsz/zdsysgczx/">科研组织机构</a></h1>
+                                            <dl style="clear: both;">
+                                                
+                                                    <dd class="fl w50_lhsnav "><a href="/../../jgsz/zdsysgczx/dwkxyjszdsys/">低温科学与技术全国重点实验室</a>
+                                                        <ul class="lhsnav-sys-xl">
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/dwkxyjszdsys/dwjlyrzcsyjzx/" target="_blank">低温计量与热质传输研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/dwkxyjszdsys/dwcljyycdyjzx/" target="_blank">低温材料及应用超导研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/dwkxyjszdsys/jycl/" target="_blank">极域材料科学与工程研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/dwkxyjszdsys/dwyzlyjzx/" target="_blank">低温制冷与特种动力技术研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/dwkxyjszdsys/dwgcyxtyyyjzx/" target="_blank">低温工程与系统应用研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/dwkxyjszdsys/rlgcyjnjsyjzx/" target="_blank">热力过程与节能技术研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/dwkxyjszdsys/mcgzljkjdwxtjsyjzx/" target="_blank">脉冲管制冷及空间低温系统技术研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/dwkxyjszdsys/dwswyyxyjz/" target="_blank">液态金属与低温生物医学研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/dwkxyjszdsys/dwzh/" target="_blank">低温综合研究中心（筹）</a></li>
+                                                            
+                                                        </ul>
+                                                    </dd>
+                                                
+                                                    <dd class="fl w50_lhsnav "><a href="/../../jgsz/zdsysgczx/gcslgjgcyjzx/">工程和生态塑料国家工程研究中心</a>
+                                                        <ul class="lhsnav-sys-xl">
+                                                            
+                                                        </ul>
+                                                    </dd>
+                                                
+                                                    <dd class="fl w50_lhsnav "><a href="/../../jgsz/zdsysgczx/dwswyxgcxbjszdsys/">低温生物医学北京市重点实验室</a>
+                                                        <ul class="lhsnav-sys-xl">
+                                                            
+                                                        </ul>
+                                                    </dd>
+                                                
+                                                    <dd class="fl w50_lhsnav "><a href="/../../jgsz/zdsysgczx/yqjsyyy/">液氢技术与应用北京市重点实验室</a>
+                                                        <ul class="lhsnav-sys-xl">
+                                                            
+                                                        </ul>
+                                                    </dd>
+                                                
+                                                    <dd class="fl w50_lhsnav "><a href="/../../jgsz/zdsysgczx/qtyjdy/">其他研究单元</a>
+                                                        <ul class="lhsnav-sys-xl">
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/qtyjdy/cfzghxyjzx/" target="_blank">超分子光化学研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/qtyjdy/lsyn/" target="_blank">绿色用能及能源材料研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/qtyjdy/gdxxclyqjyjzx/" target="_blank">光电信息材料与器件研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/qtyjdy/ghxzhyhcyjzx/" target="_blank">光化学转换与合成研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/qtyjdy/jgwlyjsyjzx/" target="_blank">激光物理与技术研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/qtyjdy/rgjtyjfzzx/" target="_blank">人工晶体研究发展中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/qtyjdy/swclyyyjsyjzx/" target="_blank">生物材料与应用技术研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/qtyjdy/tzyxclyjsyjzx/" target="_blank">特种影像材料与技术研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/qtyjdy/kbkxyjsyjzx/" target="_blank">控冰科学与技术前沿交叉研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/qtyjdy/fsznjmkxzx/" target="_blank">仿生智能界面科学中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/qtyjdy/jjslhgcslyjz/" target="_blank">降解塑料和工程塑料研究中心</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/qtyjdy/yyjgyjzx/" target="_blank">应用激光课题组</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/qtyjdy/dwswyyxyjz_189724/" target="_blank">超快高能激光研究组</a></li>
+                                                            
+                                                                <li><a href="/../../jgsz/zdsysgczx/qtyjdy/dwswyyxyjz_189725/" target="_blank">新型功能晶体研究组</a></li>
+                                                            
+                                                        </ul>
+                                                    </dd>
+                                                
+                                            </dl>
+                                        </div>
+
+                                        <!-- <hr class="fl line_lhs" />
+                                        <div class="w30 col-sm-12">
+                                            <h1 class="fl w100"><a href="/../../jgsz/jbyjdy/">基本研究单元</a></h1>
+                                            <dl>
+                                                
+                                            </dl>
+                                        </div> -->
+
+                                        <hr class="fl line_lhs" style="min-height: 370px;" />
+                                        <div class="w18 col-sm-12 jgsz_dl1_lhs">
+                                            <h1 class="fl w100"><a href="/../../jgsz/glbm/">管理部门</a></h1>
+                                            <dl class="fl w100">
+                                                
+                                                    <dd class="fl w100"><a href="/../../jgsz/glbm/zhc/">综合处</a></dd>
+                                                
+                                                    <dd class="fl w100"><a href="/../../jgsz/glbm/dwbgs/">党委办公室</a></dd>
+                                                
+                                                    <dd class="fl w100"><a href="/../../jgsz/glbm/rsc/">人事人才处</a></dd>
+                                                
+                                                    <dd class="fl w100"><a href="/../../jgsz/glbm/cwc/">财务处</a></dd>
+                                                
+                                                    <dd class="fl w100"><a href="/../../jgsz/glbm/ywc/">科技处</a></dd>
+                                                
+                                                    <dd class="fl w100"><a href="/../../jgsz/glbm/jsfzc/">重大任务处</a></dd>
+                                                
+                                                    <dd class="fl w100"><a href="/../../jgsz/glbm/cychb/">成果转化处</a></dd>
+                                                
+                                                    <dd class="fl w100"><a href="/../../jgsz/glbm/tjbzb/">基础能力处</a></dd>
+                                                
+                                                    <dd class="fl w100"><a href="/../../jgsz/glbm/jybgs/">教育处</a></dd>
+                                                
+                                                    <dd class="fl w100"><a href="/../../jgsz/glbm/baomichu/">保密办公室</a></dd>
+                                                
+                                            </dl>
+                                        </div>
+                                        <hr class="fl line_lhs"  style="min-height: 370px;"/>
+                                        <div class="w18 col-sm-12 jgsz_dl1_lhs">
+                                            <h1 class="fl w100"><a href="/../../jgsz/zcbm/">支撑部门</a></h1>
+                                            <dl class="fl w100">
+                                                
+                                                    <dd class="fl w100"><a href="/../../jgsz/zcbm/ggjsfwzx/">公共技术中心</a></dd>
+                                                
+                                                    <dd class="fl w100"><a href="/../../jgsz/zcbm/wlyws/">网络运维室</a></dd>
+                                                
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <ul class="app_menu_ul_lhs hidden-lg hidden-md hidden-sm">
+                                        
+                                            <li><a href="/../../jgsz/zdsysgczx/">科研组织机构</a></li>
+                                        
+                                            <li><a href="/../../jgsz/glbm/">管理部门</a></li>
+                                        
+                                            <li><a href="/../../jgsz/zcbm/">支撑部门</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="dropdown lhs_dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="/../../kycg/" ><p>科研成果</p><i class="fa fa-caret-up hidden-xs "></i></a>
+                                <div class="dropdown-menu web_menu_lhs menu_skjs_lhs menu_kycg_lhs" >
+                                    <div class="fl w100 hidden-xs web_menu_cont_lhs">
+                                        <div class="w30 col-sm-6">
+                                            <h1 class="fl w100"><a href="/../../kycg/hj/">获奖</a></h1>
+                                            <dl>
+                                                
+                                                    
+                                                    <dd class="fl w100"><a href="/../../kycg/hj/gjj/">国家级</a></dd>
+                                                    <dt class="fl w100" style="margin-top: 10px;">
+                                                        
+                                                            <a href="/../../kycg/hj/gjj/202109/t20210929_6217402.html"><img src="/../../kycg/hj/gjj/202109/W020250819378619692453.jpg" /></a>
+                                                        
+                                                            <a href="/../../kycg/hj/gjj/202004/t20200414_5543420.html"><img src="/../../kycg/hj/gjj/202004/W020200414802610231423.jpg" /></a>
+                                                        
+                                                            <a href="/../../kycg/hj/gjj/201811/t20181120_5190290.html"><img src="/../../kycg/hj/gjj/201811/W020200414803995878862.jpg" /></a>
+                                                        
+                                                    </dt>
+                                                    
+                                                
+                                            </dl>
+                                        </div>
+                                        <hr class="fl line_lhs" />
+                                        <div class="w15 col-sm-6">
+                                            <h1 class="fl w100"><a href="/../../kycg/kycc/">科研产出</a></h1>
+                                            
+                                                <a href="/../../kycg/kycc/lw2/" class="fl w100 kycc_menu_img">
+                                                    <img src="/../../kycg/kycc/lw2/images/P020230505342356445264.png" />
+                                                    <span>论著</span>
+                                                </a>
+                                            
+                                                <a href="/../../kycg/kycc/zl/" class="fl w100 kycc_menu_img">
+                                                    <img src="/../../kycg/kycc/zl/images/P020181203768749447983.png" />
+                                                    <span>专利</span>
+                                                </a>
+                                            
+                                        </div>
+                                        <hr class="fl line_lhs" />
+                                        <div class="w54 col-sm-12">
+                                            <h1 class="fl w100"><a href="/../../xwzx/kyjz/">科研进展</a></h1>
+                                            <ul class="comment_list">
+                                                
+                                                    <li><a href="../../xwzx/kyjz/202609/t20260907_8279125.html">理化所在低温区固体激光制冷机制方面取得新进展</a><span>2026-09-07</span></li>
+                                                
+                                                    <li><a href="../../xwzx/kyjz/202609/t20260904_8278781.html">理化所绝热去磁制冷（ADR）研究取得系列进展</a><span>2026-09-04</span></li>
+                                                
+                                                    <li><a href="../../xwzx/kyjz/202609/t20260903_8278154.html">理化所神经电极界面融合及其功能化研究取得新进展
+　　</a><span>2026-09-03</span></li>
+                                                
+                                                    <li><a href="../../xwzx/kyjz/202609/t20260901_8275280.html">理化所研制出第二代高温超导带材用铁基合金基带材料</a><span>2026-09-01</span></li>
+                                                
+                                                    <li><a href="../../xwzx/kyjz/202608/t20260825_8265241.html">理化所在液态金属超导材料体系与超导器件印制上取得系列进展</a><span>2026-08-25</span></li>
+                                                
+                                                    <li><a href="../../xwzx/kyjz/202608/t20260817_8261031.html">理化所长效神经融合脑机界面研究取得新进展</a><span>2026-08-17</span></li>
+                                                
+                                                    <li><a href="https://mp.weixin.qq.com/s/zb3as6tbEOqdaoKygIhkkw">液膜破裂的“蝴蝶”效应：无泵空气采样器</a><span>2026-08-14</span></li>
+                                                
+                                                    <li><a href="../../xwzx/kyjz/202607/t20260720_8252435.html">理化所在共轭多孔分子领域取得新进展</a><span>2026-07-20</span></li>
+                                                
+                                                    <li><a href="../../xwzx/kyjz/202607/t20260717_8251485.html">巧用“冰点差异”实现层间距有效调控，为氧化石墨烯-高分子复...</a><span>2026-07-16</span></li>
+                                                
+                                                    <li><a href="../../xwzx/kyjz/202607/t20260715_8247697.html">理化所在液态金属可重构微流控电池领域取得新进展</a><span>2026-07-15</span></li>
+                                                
+                                                    <li><a href="../../xwzx/kyjz/202607/t20260715_8247678.html">理化所在柔性多层高密度液态金属线圈研究方面取得新进展</a><span>2026-07-15</span></li>
+                                                
+                                                    <li><a href="../../xwzx/kyjz/202606/t20260624_8233107.html">理化所宽温区各向同性超低热膨胀晶体材料研究取得新进展</a><span>2026-06-24</span></li>
+                                                
+                                                    <li><a href="../../xwzx/kyjz/202606/t20260624_8232871.html">理化所在蓝相液晶弹性体低温可视化力学传感研究方面取得新进展</a><span>2026-06-24</span></li>
+                                                
+                                                    <li><a href="../../xwzx/kyjz/202606/t20260617_8229693.html">理化所蓝相液晶角度依赖圆偏振激光调控研究取得新进展</a><span>2026-06-17</span></li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <ul class="app_menu_ul_lhs hidden-lg hidden-md hidden-sm">
+                                        
+                                            <li><a href="/../../kycg/hj/">获奖</a></li>
+                                        
+                                            <li><a href="/../../kycg/kycc/">科研产出</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="/../../kyzb/" role="button" aria-haspopup="true" aria-expanded="false"><p>科研装备</p><i class="fa fa-caret-up hidden-xs "></i></a>
+                                <ul class="dropdown-menu min_menu_lhs appmin_menu_lhs" >
+                                    
+                                        <li><a href="/../../kyzb/ggjsfwzx/">公共技术服务中心</a></li>
+                                    
+                                        <li><a href="/../../kyzb/ktzgyyqsb/">课题组公用仪器设备</a></li>
+                                    
+                                </ul>
+
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="/../../rcdw/" role="button" aria-haspopup="true" aria-expanded="false"><p>人才队伍</p><i class="fa fa-caret-up hidden-xs "></i> </a>
+                                <ul class="dropdown-menu min_menu_lhs appmin_menu_lhs">
+                                    
+                                        <li><a href="/../../rcdw/ys/">院士</a></li>
+                                    
+                                        <li><a href="/../../rcdw/jcqn/">杰出青年</a></li>
+                                    
+                                        <li><a href="/../../rcdw/yjy/">研究员</a></li>
+                                    
+                                        <li><a href="/../../rcdw/qncxcjh/">青年创新促进会</a></li>
+                                    
+                                        <li><a href="/../../rcdw/zp/">招聘</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="/../../ydhz/" role="button" aria-haspopup="true" aria-expanded="false"><p>院地合作</p><i class="fa fa-caret-up hidden-xs "></i> </a>
+                                <ul class="dropdown-menu min_menu_lhs appmin_menu_lhs">
+                                    
+                                        <li><a href="/../../ydhz/xmxx/">项目信息</a></li>
+                                    
+                                        <li><a href="/../../ydhz/gzdt/">工作动态</a></li>
+                                    
+                                        <li><a href="/../../ydhz/stzgs/">所投资公司</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="/../../gjhz/" role="button" aria-haspopup="true" aria-expanded="false"><p>国际合作</p><i class="fa fa-caret-up hidden-xs "></i> </a>
+                                <ul class="dropdown-menu min_menu_lhs appmin_menu_lhs">
+                                    
+                                        <li><a href="/../../gjhz/gjjldt/">国际交流动态</a></li>
+                                    
+                                        <li><a href="/../../gjhz/gjzzrz/">国际组织任职</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="/../../yjsjy2019/" role="button" aria-haspopup="true" aria-expanded="false"><p>研究生教育</p><i class="fa fa-caret-up hidden-xs "></i> </a>
+                              <!--  <ul class="dropdown-menu min_menu_lhs appmin_menu_lhs">
+                                    
+                                        <li><a href="/../../yjsjy/zsjj/">研究生教育简介</a></li>
+                                    
+                                        <li><a href="/../../yjsjy/dsjj/">导师简介</a></li>
+                                    
+                                        <li><a href="/../../yjsjy/sszs/">硕士招生</a></li>
+                                    
+                                        <li><a href="/../../yjsjy/bszs/">博士招生</a></li>
+                                    
+                                        <li><a href="/../../yjsjy/byjy/">毕业就业</a></li>
+                                    
+                                        <li><a href="/../../yjsjy/yjsh/">研究生会</a></li>
+                                    
+                                        <li><a href="/../../yjsjy/gzzd/">规章制度</a></li>
+                                    
+                                        <li><a href="/../../yjsjy/xwgl/">学位管理</a></li>
+                                    
+                                        <li><a href="/../../yjsjy/sqxx/">暑期学校</a></li>
+                                    
+                                </ul>-->
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="/../../dqwh/" role="button" aria-haspopup="true" aria-expanded="false"><p>党群文化</p><i class="fa fa-caret-up hidden-xs "></i> </a>
+                                <ul class="dropdown-menu min_menu_lhs appmin_menu_lhs">
+                                    
+                                        <li><a href="http://www.ipc.cas.cn/lhcx/">党建工作</a></li>
+                                    
+                                        <li><a href="http://www.ipc.cas.cn/lhcx/">廉政建设</a></li>
+                                    
+                                        <li><a href="http://www.ipc.cas.cn/lhcx/">群团工作</a></li>
+                                    
+                                    
+                                        <li><a href="/../../dqwh/ltx/">离退休</a></li>
+                                    
+                                        <li><a href="/../../dqwh/cxwh/">创新文化</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="/../../kxcb/" role="button" aria-haspopup="true" aria-expanded="false"><p>科学传播</p><i class="fa fa-caret-up hidden-xs "></i> </a>
+                                <ul class="dropdown-menu min_menu_lhs appmin_menu_lhs">
+                                    
+                                        <li><a href="/../../kxcb/kpdt/">科普动态</a></li>
+                                    
+                                        <li><a href="/../../kxcb/kxpj/">科学普及</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="/../../xxgk/" role="button" aria-haspopup="true" aria-expanded="false"><p>信息公开</p><i class="fa fa-caret-up hidden-xs "></i> </a>
+                                <ul class="dropdown-menu min_menu_lhs appmin_menu_lhs">
+                                    
+                                        <li><a href="/../../xxgk/xxgkgd/">信息公开规定</a></li>
+                                    
+                                        <li><a href="/../../xxgk/xxgkzn/">信息公开指南</a></li>
+                                    
+                                        <li><a href="/../../xxgk/xxgkml/">信息公开目录</a></li>
+                                    
+                                        <li><a href="/../../xxgk/ysqgk/">依申请公开</a></li>
+                                    
+                                        <li><a href="/../../xxgk/xxgkndbg/">信息公开年度报告</a></li>
+                                    
+                                        <li><a href="/../../xxgk/yusanjuesuan/">预算决算</a></li>
+                                    
+                                        <li><a href="/../../xxgk/xxgklxfs/">信息公开联系方式</a></li>
+                                    
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- row end -->
+        </div> <!--  container end -->
+    </nav> <!--  nav_lhs end -->
+</div>
+<!-- header  end -->
+
+<div class="fl w100 main_lhs">
+	<div class="container">
+		<div class="row app_row">
+		<div class="col-xs-12 col-sm-4 col-md-3 paddnone hidden-xs">
+    <div class="sidebar fl w100 comment_left_menu">
+    <div class="fl w100 block">
+        <h1 class="fL w100 rgt_tit_lhs mar0 paddnone">
+            <b class="fL">新闻中心</b>
+        </h1>
+        <div class="contentLeft">
+            
+            <ul class="leftNavigation">
+                <li class="clickable"><a href="https://ipc.cas.cn/xwzx/zyxw/">重要新闻<i class="fa fa-angle-right leftNavIcon"></i></a></li>
+            </ul>
+            
+            <ul class="leftNavigation">
+                <li class="clickable"><a href="https://ipc.cas.cn/xwzx/tpxw/">图片新闻<i class="fa fa-angle-right leftNavIcon"></i></a></li>
+            </ul>
+            
+            <ul class="leftNavigation">
+                <li class="clickable"><a href="https://ipc.cas.cn/xwzx/xsjl/">学术交流<i class="fa fa-angle-right leftNavIcon"></i></a></li>
+            </ul>
+            
+            <ul class="leftNavigation">
+                <li class="clickable"><a href="https://ipc.cas.cn/xwzx/dqdt/">党群动态<i class="fa fa-angle-right leftNavIcon"></i></a></li>
+            </ul>
+            
+            <ul class="leftNavigation">
+                <li class="clickable"><a href="https://ipc.cas.cn/xwzx/zhxw/">综合新闻<i class="fa fa-angle-right leftNavIcon"></i></a></li>
+            </ul>
+            
+            <ul class="leftNavigation">
+                <li class="clickable"><a href="https://ipc.cas.cn/xwzx/kyjz/">科研进展<i class="fa fa-angle-right leftNavIcon"></i></a></li>
+            </ul>
+            
+            <ul class="leftNavigation">
+                <li class="clickable"><a href="https://ipc.cas.cn/xwzx/mtsm/">媒体扫描<i class="fa fa-angle-right leftNavIcon"></i></a></li>
+            </ul>
+            
+        </div>
+    </div>
+</div>
+    <!-- sidebar end -->
+</div>
+		<!--  左侧菜单 end -->
+		<div class="col-xs-12 col-sm-8 col-md-9 paddright0 app_padd15 lhs_right_height">
+			<div class="fl w100">
+				<div class="fl w100 lhs_breadcrumb">
+					<ol style="padding-top: 5px;"><span>当前位置 >> </span><i aria-hidden="true"></i>&nbsp;<a href="../../../" title="首页" class="CurrChnlCls">首页</a>&nbsp;&gt;&gt;&nbsp;<a href="../../" title="新闻中心" class="CurrChnlCls">新闻中心</a>&nbsp;&gt;&gt;&nbsp;<a href="../" title="综合新闻" class="CurrChnlCls">综合新闻</a>
+
+					</ol>
+				</div>
+				<div class="fl w100 lhs_lm_comment">
+					<h2><i class="fa fa-circle titNavIcon"></i>综合新闻</h2>
+					<div class="fl w100 lhs_lm_wz">
+						<div class="fl w100 lhs_wz_h1 marb15">
+							<h1 class="fl w100">理化所举办“理化筑梦 遇见未来”2026年优秀大学生夏令营</h1>
+							<font>稿件来源：教育处</font>
+							<font>发布时间：2026-07-14</font>
+						</div>
+						<div class="trs_editor_view TRS_UEDITOR trs_paper_default trs_word"><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;">7月8日至10日，理化所举办“理化筑梦 遇见未来”优秀大学生夏令营。本届活动恰逢该系列夏令营创办十五周年，共吸引全国141所高校的600余名学子踊跃报名，经严格遴选，220余名佼佼者获得入营资格，齐聚北京，共赴这场科学与理想交织的盛夏之约。</p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;"><strong data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;">首日：破冰融情，暖心开篇</strong></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;">7月8日清晨，接待团队早早到位，签到核验、材料分发、路线指引等环节井然有序，细微之处尽显周到，为风尘仆仆的学子们卸下疲惫。</p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;">下午两点，开营仪式正式启动，教育处副处长邱波主持，所党委书记王树涛致辞。他结合自身教研积淀，寄语青年：研究生涯的本质在于锻造破解难题的思维利器，鼓励大家主动深入实验室，与一线科研人员频繁对话，在真实探索中捕获科学独有的愉悦，并将个人志向与国家科技自强的大局紧密相连。</p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;">随后，国科大招生办主任冉盈志解读了学校的招生政策与培养架构，理化所所务委员、教育处处长丁黎则全面介绍理化所的整体情况。当晚的团建互动，更让陌生感在协作与笑声中悄然消融。</p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;"><strong data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;">次日：深耕学研，精神传承</strong></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;">7月9日，活动重心全部转向科研一线的深度触碰。上午，各研究中心负责人以鲜活案例和翔实图表，描绘出各方向的前沿图景；下午首次开设的研究中心专场交流活动，则提供了与意向导师面对面、聆听杰出校友成长经历的宝贵机会，实验室里浓厚的学术氛围令营员流连忘返。夜幕降临，李来风研究员深情讲述了洪朝生先生毕生报国、甘于寂寞的科研人生，那段矢志不渝、不计名利的岁月，如一场庄严的精神洗礼，让在场青年深切感知老一辈科学家心底的炽热与纯粹。</p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;"><strong data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;">终章：珍藏记忆，扬帆起航</strong></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;">7月10日下午，闭营典礼如期举行。王树涛书记向全体顺利结业的营员道贺，并向幕后团队致以谢忱。营员代表与工作人员代表相继登台，动情回顾三日来的思考与蜕变。随后播放的纪念短片，用一帧帧鲜活的画面，将短暂却丰盈的相聚永久镌刻。紧接着的夏日晚会歌曲、趣味节目轮番上场，欢腾的浪潮为夏令营画上炽热的句点。</p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;">三天光阴虽短，科学的星火已然在年轻心田中生根。理化所将继续守护每一份纯粹的好奇，为怀揣科研梦想的后来者点亮航标，助他们在无垠的学术星河中，踏出属于自己的璀璨轨迹。</p><p data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em; text-align: center;"><img src="./W020260714642623169888_ORIGIN.png" name="图片 2" align="bottom" width="530" height="220" border="0" data-uploadpic="U020260714632480058271_ORIGIN.png" needdownload="true" data-needdownload="true" data-index="9" style="width: 600px; height: auto; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" picname alt="" OLDSRC="W020260714642623169888_ORIGIN.png" /></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 1.5em; text-align: center; margin-top: 24px; margin-bottom: 24px;">合影留念</p><p data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em; text-align: center;"><img src="./W020260714642623890745_ORIGIN.jpg" name="图片 1" align="bottom" width="242" height="182" border="0" data-uploadpic="U020260714632480112385_ORIGIN.jpg" needdownload="true" data-needdownload="true" data-index="9" style="width: 600px; height: auto; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" picname alt="" OLDSRC="W020260714642623890745_ORIGIN.jpg" /></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 1.5em; text-align: center; margin-top: 24px; margin-bottom: 24px;">营员报到</p><p data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em; text-align: center;"><img src="./W020260714642624240036_ORIGIN.jpg" name="图片 3" align="bottom" width="243" height="182" border="0" data-uploadpic="U020260714632480127955_ORIGIN.jpg" needdownload="true" data-needdownload="true" data-index="9" style="width: 600px; height: auto; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" picname alt="" OLDSRC="W020260714642624240036_ORIGIN.jpg" /></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 1.5em; text-align: center; margin-top: 24px; margin-bottom: 24px;">开营典礼</p><p data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em; text-align: center;"><img src="./W020260714642624677418_ORIGIN.jpg" name="图片 6" align="bottom" width="244" height="162" border="0" data-uploadpic="U020260714632480274701_ORIGIN.jpg" needdownload="true" data-needdownload="true" data-index="9" style="width: 600px; height: auto; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" picname alt="" OLDSRC="W020260714642624677418_ORIGIN.jpg" /></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 1.5em; text-align: center; margin-top: 24px; margin-bottom: 24px;">党委书记王树涛致辞</p><p data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em; text-align: center;"><img src="./W020260714642624989074_ORIGIN.jpg" name="图片 7" align="bottom" width="242" height="161" border="0" data-uploadpic="U020260714632480216886_ORIGIN.jpg" needdownload="true" data-needdownload="true" data-index="9" style="width: 600px; height: auto; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" picname alt="" OLDSRC="W020260714642624989074_ORIGIN.jpg" /></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 1.5em; text-align: center; margin-top: 24px; margin-bottom: 24px;">国科大招生办冉盈志主任介绍学校情况</p><p data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em; text-align: center;"><img src="./W020260714642625356905_ORIGIN.jpg" name="图片 8" align="bottom" width="244" height="163" border="0" data-uploadpic="U020260714632480823749_ORIGIN.jpg" needdownload="true" data-needdownload="true" data-index="9" style="width: 600px; height: auto; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" picname alt="" OLDSRC="W020260714642625356905_ORIGIN.jpg" /></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 1.5em; text-align: center; margin-top: 24px; margin-bottom: 24px;">丁黎处长介绍研究所情况</p><p data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em; text-align: center;"><img src="./W020260714642625767416_ORIGIN.jpg" name="图片 10" align="bottom" width="244" height="162" border="0" data-uploadpic="U020260714632480913902_ORIGIN.jpg" needdownload="true" data-needdownload="true" data-index="9" style="width: 600px; height: auto; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" picname alt="" OLDSRC="W020260714642625767416_ORIGIN.jpg" /></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 1.5em; text-align: center; margin-top: 24px; margin-bottom: 24px;">夏令营营员代表高霆发言</p><p data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em; text-align: center;"><img src="./W020260714642626241590_ORIGIN.jpg" name="图片 11" align="bottom" width="245" height="163" border="0" data-uploadpic="U020260714632480957771_ORIGIN.jpg" needdownload="true" data-needdownload="true" data-index="9" style="width: 600px; height: auto; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" picname alt="" OLDSRC="W020260714642626241590_ORIGIN.jpg" /></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 1.5em; text-align: center; margin-top: 24px; margin-bottom: 24px;">辅导员代表周雨琪发言</p><p data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em; text-align: center;"><img src="./W020260714642626518005_ORIGIN.jpg" name="图片 12" align="bottom" width="245" height="163" border="0" data-uploadpic="U020260714632481011885_ORIGIN.jpg" needdownload="true" data-needdownload="true" data-index="9" style="width: 600px; height: auto; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" picname alt="" OLDSRC="W020260714642626518005_ORIGIN.jpg" /></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 1.5em; text-align: center; margin-top: 24px; margin-bottom: 24px;">研究生代表张子昊发言</p><p data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em; text-align: center;"><img src="./W020260714642626817433_ORIGIN.jpg" name="图片 9" align="bottom" width="249" height="166" border="0" data-uploadpic="U020260714632481087965_ORIGIN.jpg" needdownload="true" data-needdownload="true" data-index="9" style="width: 600px; height: auto; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" picname alt="" OLDSRC="W020260714642626817433_ORIGIN.jpg" /></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 1.5em; text-align: center; margin-top: 24px; margin-bottom: 24px;">工作人员介绍</p><p style="text-align: center; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" data-index="9"><img src="./W020260714642627183591.jpg" width="1024" data-uploadpic="U020260714642301367962.jpg" needdownload="true" data-needdownload="true" style="width: 600px; height: auto; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" data-index="9" picname alt="" OLDSRC="W020260714642627183591.jpg" /></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 1.5em; text-align: center; margin-top: 24px; margin-bottom: 24px;">中心介绍</p><p style="text-align: center; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" data-index="9"><img src="./W020260714642627582628.jpg" width="1157" data-uploadpic="U020260714642165918607.jpg" needdownload="true" data-needdownload="true" style="width: 600px; height: auto; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" data-index="9" picname alt="" OLDSRC="W020260714642627582628.jpg" /></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 1.5em; text-align: center; margin-top: 24px; margin-bottom: 24px;">意向导师交流</p><p data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em; text-align: center;"><img src="./W020260714642627938623_ORIGIN.jpg" name="图片 19" align="bottom" width="255" height="170" border="0" data-uploadpic="U020260714632482071623_ORIGIN.jpg" needdownload="true" data-needdownload="true" data-index="9" style="width: 600px; height: auto; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" picname alt="" OLDSRC="W020260714642627938623_ORIGIN.jpg" /></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 1.5em; text-align: center; margin-top: 24px; margin-bottom: 24px;">李来风研究员讲述洪朝生先生事迹</p><p data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em; text-align: center;"><img src="./W020260714642628251440_ORIGIN.jpg" name="图片 20" align="bottom" width="242" height="161" border="0" data-uploadpic="U020260714632482123863_ORIGIN.jpg" needdownload="true" data-needdownload="true" data-index="9" style="width: 600px; height: auto; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" picname alt="" OLDSRC="W020260714642628251440_ORIGIN.jpg" /></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 1.5em; text-align: center; margin-top: 24px; margin-bottom: 24px;">闭营典礼</p><p style="text-align: center; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" data-index="9"><img src="./W020260714642628770838.jpg" width="1024" data-uploadpic="U020260714641974138078.jpg" needdownload="true" data-needdownload="true" style="width: 600px; height: auto; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;" data-index="9" picname alt="" OLDSRC="W020260714642628770838.jpg" /></p><p data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 1.5em; text-align: center; margin-top: 24px; margin-bottom: 24px;">夏日晚会</p><p data-index="9" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;"><br data-index="9" style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px; line-height: 2em;"/></p></div>
+					</div>
+					<!-- Appendix -->
+					<div class="cas-wrap-appendix">
+						<h6>附件：</h6>
+						<ul>
+
+						</ul>
+					</div>
+				</div>
+			</div><!-- content end -->
+		</div>
+		<!-- //右侧end -->
+	</div>
+	</div>  <!-- container end -->
+</div> <!-- main_lhs end -->
+
+<!-- footer -->
+<div class="fl w100 footer_lhs" style="background-size:cover;">
+    <div class="container">
+        <div class="col-xs-12 col-sm-4 col-md-3 footer_img_lhs">
+        <a href="http://www.cas.cn/" class="fl w100"><img src="/images/lhs_zky_logo.png" /></a>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-6 footer_cont_lhs">
+            版权所有：中国科学院理化技术研究所 Copyright 2002-<script>document.write((new Date()).getFullYear());</script>  <a href="//beian.miit.gov.cn/" target="_blank" style="color: white;">京ICP备05002791号-1</a> <br />
+            地址：中国.北京
+        </div>
+        <div class="col-xs-3 col-sm-2 col-md-1 footer_img_lhs">
+        <!-- 直接插入span和script标签 -->  
+             <span id="_ideConac"></span>  
+             <script src="https://dcs.conac.cn/js/33/000/0000/60447077/CA330000000604470770001.js" type="text/javascript"></script> 
+        </div>
+    </div>
+</div>
+<!-- footer_lhs end -->
+
+<!-- js -->
+<script src="/images/jquery.js"></script>
+<script src="/images/bootstrap.js"></script>
+<script src="/images/common_lhs.js"></script>
+<script src="/images/modernizr.js"></script>  <!-- 导航js -->
+<script src="/images/nav_menu.js"></script> <!-- 导航js -->
+<script src="/images/nav_menu_app.js"></script> <!-- 导航js -->
+<script type="text/javascript">
+function isValid(str){
+  if(str.indexOf('&') != -1 || str.indexOf('<') != -1 || str.indexOf('>') != -1 || str.indexOf('\'') != -1
+    || str.indexOf('\\') != -1 || str.indexOf('/') != -1 || str.indexOf('"') != -1 
+    || str.indexOf('%') != -1 || str.indexOf('#') != -1){
+    return false;
+  }
+  return true;
+}
+$(function(){
+  $('#sub-pc').click(function(){
+    var searchword = $.trim($('#searchword').val());
+	if(searchword == "" || searchword == "请输入关键字" || !isValid(searchword)){
+	  alert("请输入关键词后再进行提交。");
+      return false;
+	}
+	$('input[name="keyword"]').val(encodeURI(searchword));
+	$('form[name="searchform"]').submit();
+  });
+  
+  $('#sub-mobile').click(function(){
+    var iptSword = $.trim($('#iptSword').val());
+	if(iptSword == "" || iptSword == "请输入关键字" || !isValid(iptSword)){
+	  alert("请输入关键词后再进行提交。");
+      return false;
+	}
+	$('input[name="keyword"]').val(encodeURI(iptSword));
+	$('form[name="searchform"]').submit();
+  });
+});
+</script>
+<script type="text/javascript">
+    var locationStr = '首页|新闻中心|综合新闻';
+    var curArray = locationStr.split('|');
+    var curHtml = '';
+    if(curArray.length == 1){
+        curHtml = '<i class=\"fa fa-circle\" aria-hidden=\"true\"></i>&nbsp;<a href=\"//ipc.cas.cn/\">首页</a>&nbsp;&gt;&gt;&nbsp;<a href="../">综合新闻</a>';
+    }
+    if(curArray.length == 2){
+        curHtml = '<i class=\"fa fa-circle\" aria-hidden=\"true\"></i>&nbsp;<a href=\"//ipc.cas.cn/\">首页</a>&nbsp;&gt;&gt;&nbsp;<a href="../../">新闻中心</a>&nbsp;&gt;&gt;&nbsp;<a href="../">综合新闻</a>';
+    }
+    if(curArray.length == 3){
+        curHtml = '<i class=\"fa fa-circle\" aria-hidden=\"true\"></i>&nbsp;<a href=\"//ipc.cas.cn/\">首页</a>&nbsp;&gt;&gt;&nbsp;&nbsp;&gt;&gt;&nbsp;<a href="../../">新闻中心</a>&nbsp;&gt;&gt;&nbsp;<a href="../">综合新闻</a>';
+    }
+    if($("ol.col-sm-12").length == 1){
+        $("ol.col-sm-12").html(curHtml);
+    }
+
+    var curLocation = '首页|新闻中心|综合新闻';
+    if($('.temp02-wrap-LmenuList li').length > 0){
+        $('.temp02-wrap-LmenuList li').each(function(){
+            var index = -1;
+            var thisChn = $.trim($(this).text());
+            if((index = curLocation.indexOf(thisChn)) != -1){
+                $(this).addClass('active');
+                $(this).siblings().removeClass('active');
+            }
+        });
+    }
+</script>
+<script>
+
+    $(function(){
+
+        //附件
+        var appLinkArr = new Array(); //附件路径
+        var appLinkStr = '';
+        appLinkArr = appLinkStr.split('|');
+        var appDescArr = new Array(); //附件名称
+        var appDescStr = '';
+        appDescArr = appDescStr.split('|');
+        if(appLinkArr[0] != '' && appDescArr[0] != ''){
+            var appHtml = "";
+            $.each(appLinkArr, function(i, str) {
+                if(str.indexOf('doc') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-word-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+                if(str.indexOf('xls') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-excel-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+                if(str.indexOf('ppt') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+                if(str.indexOf('pdf') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+                if(str.indexOf('txt') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-text-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+                if(str.indexOf('rar') != -1 || str.indexOf('zip') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-archive-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+            });
+            $(".cas-wrap-appendix ul").html(appHtml);
+        }else{
+            $(".cas-wrap-appendix").hide();
+        }
+    });
+
+// 解决首段内容缩进问题
+    $(document).ready(function(){
+        $(".TRS_Editor").addClass("fl w100");
+    });
+</script>
+<link href="//videosz.cas.cn/masvod/public/lib/images/xgplayervideo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="//videosz.cas.cn/masvod/public/lib/images/xgplayervideo.js"></script>
+<script type="text/javascript" src="//videosz.cas.cn/masvod/public/lib/images/videoreplacenew.js"></script>
+
+</body>
+</html>

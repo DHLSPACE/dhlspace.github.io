@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>2026年度国家纳米科学中心国际学生招生申请通知--国家纳米中心研究生教育</title>
+<meta name="author" content="青云软件 www.qysoft.cn">
+<meta name="keywords" content="中国科学院、国家纳米科学中心、研究生教育、凝聚态物理、物理化学、材料学、纳米科学与技术、材料工程、生物工程、生物物理学">
+<meta name="description" content="国家纳米科学中心在研究生教育上借鉴国内外著名高校和研究机构的纳米相关学科设置，结合我国纳米科技发展特点，建立符合我国科学发展与教育现状的学科体系；根据纳米科技的学科交叉特点，进行精品课程体系的设置，建设复合型研究生培养模式；构建一个良好的交叉学科环境和学术文化环境，培养研究生具有从事交叉学科研究的思路、掌握交叉研究的方法及进行交叉研究的能力。现设有“凝聚态物理”、“物理化学”、“材料学”和“纳米科学与技术”四个博士培养点以及“材料工程”、“生物工程”和“生物物理学”三个硕士培养点。其中，“物理化学”于2011年10月被中科院研究生院评为重点学科，“纳米科学与技术”是国内首个在纳米领域自主设置交叉学科。">
+<link rel="shortcut icon" href="//edu.nanoctr.cas.cn/images/ncnst.png" />
+<link href="//edu.nanoctr.cas.cn/images/bootstrap.min.css" rel="stylesheet">
+<link href="//edu.nanoctr.cas.cn/images/bootsnav.css" rel="stylesheet">
+<link href="//edu.nanoctr.cas.cn/images/common.css" rel="stylesheet">
+<link href="//edu.nanoctr.cas.cn/images/animate.css" rel="stylesheet">
+<link href="//api.cas.cn/lib/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="//edu.nanoctr.cas.cn/images/swiper.min.css" rel="stylesheet">
+<link href="//edu.nanoctr.cas.cn/images/public-style.css" rel="stylesheet">
+<link href="//edu.nanoctr.cas.cn/images/style.css" rel="stylesheet">
+<link href="//edu.nanoctr.cas.cn/images/media-style.css" rel="stylesheet">
+<!--[if lt IE 9]>
+    <script src="//edu.nanoctr.cas.cn/images/html5shiv.min.js"></script>
+    <script src="//edu.nanoctr.cas.cn/images/respond.min.js"></script>
+<![endif]-->
+<style type="text/css">
+.TRS_Editor FONT, .TRS_Editor P, .TRS_Editor SPAN, .TRS_Editor DIV {font-family: Arial, \5FAE\8F6F\96C5\9ED1 !important;font-size: 16px !important;line-height: 180% !important;}
+.xlmain .table-bordered > tbody > tr > td a {color: #ca0e0e;}
+.xlmain .table-bordered > tbody > tr > td a:hover {color: #333;}
+a:hover, a:active, a:focus {
+  outline: none;color: #c6333d;
+}
+.side-menu .menu-groups .menu-box ul {border-top: solid 1px #e5e5e5;padding: 9px 0;}
+.side-menu .menu-groups .menu-box ul li {padding: 3px 15px 3px 35px;}
+.side-menu .menu-groups .menu-box ul li a {font-size: 15px;color: #777;}
+.side-menu .menu-groups .menu-box ul li a:hover {color: #c6333d;}
+.index-box-01 .box-s .box-img {height: 254px;}
+@media (max-width: 767px) {
+	.index-box-01 .box-s .box-img {height: auto;}
+}
+</style>
+<script src="//edu.nanoctr.cas.cn/images/jquery.min.js" type="text/javascript"></script>
+<script>
+$(function(){
+	var len = "";
+	$(".dropdown").each(function(){
+		len = $(this).children(".dropdown-menu").children("li").length;
+		if(len<1){
+			$(this).removeClass(".dropdown");
+			$(this).children(".dropdown-menu").remove();
+			$(this).children("a").removeAttr("data-toggle").removeClass("dropdown-toggle");
+		}
+	});
+});
+</script>
+<script src="//edu.nanoctr.cas.cn/images/bootstrap.min.js" type="text/javascript"></script>
+<script src="//edu.nanoctr.cas.cn/images/bootsnav.js" type="text/javascript"></script>
+<script src="//edu.nanoctr.cas.cn/images/swiper.min.js" type="text/javascript"></script>
+<script src="//edu.nanoctr.cas.cn/images/picturefill.min.js" type="text/javascript"></script>
+<script src="//edu.nanoctr.cas.cn/images/jquery.actual.min.js" type="text/javascript"></script>
+<script src="//edu.nanoctr.cas.cn/images/jquery.style.js"></script>
+<script>
+//响应图片
+document.createElement("picture");
+
+function isValid(str){
+           if(str.indexOf('&') != -1 || str.indexOf('<') != -1 || str.indexOf('>') != -1 || str.indexOf('\'') != -1
+             || str.indexOf('\\') != -1 || str.indexOf('/') != -1 || str.indexOf('"') != -1
+             || str.indexOf('%') != -1 || str.indexOf('#') != -1){
+             return false;
+           }
+           return true;
+         }
+         $(function(){
+           $('#sub-pc').click(function(){
+             var searchword = $.trim($('#searchword').val());
+         	if(searchword == "" || searchword == "请输入关键字" || !isValid(searchword)){
+         	  alert("请输入关键词后再进行提交。");
+               return false;
+         	}
+         	$('input[name="keyword"]').val(encodeURI(searchword));
+         	$('form[name="searchform"]').submit();
+           });
+
+           $('#sub-mobile').click(function(){
+             var iptSword = $.trim($('#iptSword').val());
+         	if(iptSword == "" || iptSword == "请输入关键字" || !isValid(iptSword)){
+         	  alert("请输入关键词后再进行提交。");
+               return false;
+         	}
+         	$('input[name="keyword"]').val(encodeURI(iptSword));
+         	$('form[name="searchforms"]').submit();
+           });
+         });
+	
+         $(document).ready(function () {
+         $("body").keydown(function (e) {
+             e = e ? e : event;
+         if (e.keyCode == "13") {//keyCode=13是回车键
+             $('#sub-pc').click();
+              return false;
+         }
+         });
+         });
+
+         var val = "";
+		$(".dropdown-toggle").each(function(){
+		val = $(this).text();
+		if(val=="导师介绍"){
+		$(this).removeClass("dropdown-toggle");
+		$(this).removeAttr("data-toggle");
+		$(this).parent("li").removeClass("dropdown");
+		}
+		})
+</script>
+<link rel="stylesheet" href="http://edu.nanoctr.cas.cn/images/share.min.css">
+</head>
+<body>
+<nav class="navbar navbar-default bootsnav  other-header">
+    <div class="container">
+        <div class="navbar-header fix">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"><i
+                    class="fa fa-bars"></i></button>
+            <a class="navbar-brand" href="http://edu.nanoctr.cas.cn/"  target="_top"><img src="http://edu.nanoctr.cas.cn/images/logo.png" class="logo" alt="" /></a></div>
+        <div class="tools">
+            <div class="search-trigger"></div>
+
+                <div class="search-box">
+                    <form name="searchform" method="get" target="_top" action="http://irssub.cas.cn/irs-c-web/search.shtml"
+                          style="">
+                    <div class="search-txt"><input type="text" id="searchword" name="searchWord" placeholder="请输入关键字" required /></div>
+                    <input type="hidden" name="code" id="keywords" value="193ddfa672c" />
+                    <input type="submit" class="search-btn" id="sub-pc" value="" />
+                    </form>
+                </div>
+
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+                <li class="active"><a href="http://edu.nanoctr.cas.cn/"  target="_top">首页</a></li>
+                
+                    <li class="dropdown">
+                        <a href="http://edu.nanoctr.cas.cn/about/" class="dropdown-toggle"
+                           data-toggle="dropdown"  target="_top">
+                            概况
+                        </a>
+                        <ul class="dropdown-menu">
+                            
+                                <li class="dropdown">
+                                    <a href="http://edu.nanoctr.cas.cn/about/jygk/" class="dropdown-toggle"
+                                       data-toggle="dropdown"  target="_top">
+                                        教育概况
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li class="dropdown">
+                                    <a href="http://edu.nanoctr.cas.cn/about/jyc/" class="dropdown-toggle"
+                                       data-toggle="dropdown"  target="_top">
+                                        教育处
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li class="dropdown">
+                                    <a href="http://edu.nanoctr.cas.cn/about/xwwyh/" class="dropdown-toggle"
+                                       data-toggle="dropdown"  target="_top">
+                                        学位委员会
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li class="dropdown">
+                                    <a href="http://edu.nanoctr.cas.cn/about/yjsh/" class="dropdown-toggle"
+                                       data-toggle="dropdown"  target="_top">
+                                        研究生会
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li class="dropdown">
+                                    <a href="http://edu.nanoctr.cas.cn/about/xswyh/" class="dropdown-toggle"
+                                       data-toggle="dropdown"  target="_top">
+                                        学术委员会
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li class="dropdown">
+                                    <a href="http://edu.nanoctr.cas.cn/about/qt/" class="dropdown-toggle"
+                                       data-toggle="dropdown"  target="_top">
+                                        其他
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        
+                                    </ul>
+                                </li>
+                            
+                        </ul>
+                    </li>
+                
+                <li class="dropdown"><a href="http://edu.nanoctr.cas.cn/zs/"
+                                        class="dropdown-toggle" data-toggle="dropdown"  target="_top">
+                    招生
+                </a>
+                    <ul class="dropdown-menu">
+                        
+                            <li><a href="http://edu.nanoctr.cas.cn/zs/dsjs/"  target="_top">
+                                导师招生方向介绍
+                            </a></li>
+                        
+                            <li><a href="http://edu.nanoctr.cas.cn/zs/zxj/"  target="_top">
+                                奖助学金
+                            </a></li>
+                        
+                        <li class="dropdown"><a href="http://edu.nanoctr.cas.cn/zs/zsxx/"
+                                                class="dropdown-toggle" data-toggle="dropdown"  target="_top">
+                            招生信息
+                        </a>
+                            <ul class="dropdown-menu">
+                                
+                                    <li><a href="http://edu.nanoctr.cas.cn/zs/zsxx/xlyzs/"  target="_top">
+                                        夏令营推免招生
+                                    </a></li>
+                                
+                                    <li><a href="http://edu.nanoctr.cas.cn/zs/zsxx/sszs/"  target="_top">
+                                        硕士生招生
+                                    </a></li>
+                                
+                                    <li><a href="http://edu.nanoctr.cas.cn/zs/zsxx/bszs/"  target="_top">
+                                        博士生招生
+                                    </a></li>
+                                
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </li>
+                
+                    <li class="dropdown">
+                        <a href="http://edu.nanoctr.cas.cn/py/" class="dropdown-toggle"
+                           data-toggle="dropdown"  target="_top">
+                            培养
+                        </a>
+                        <ul class="dropdown-menu">
+                            
+                                <li class="dropdown">
+                                    <a href="http://edu.nanoctr.cas.cn/py/xswh/" class="dropdown-toggle"
+                                       data-toggle="dropdown"  target="_top">
+                                        学术与文化
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        
+                                            <li><a href="http://edu.nanoctr.cas.cn/py/xswh/xsjl/"  target="_top">
+                                                学术交流
+                                            </a></li>
+                                        
+                                            <li><a href="http://edu.nanoctr.cas.cn/py/xswh/rwjz/"  target="_top">
+                                                人文讲座
+                                            </a></li>
+                                        
+                                            <li><a href="http://edu.nanoctr.cas.cn/py/xswh/sthd/"  target="_top">
+                                                社团活动
+                                            </a></li>
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li class="dropdown">
+                                    <a href="http://edu.nanoctr.cas.cn/py/cgry/" class="dropdown-toggle"
+                                       data-toggle="dropdown"  target="_top">
+                                        成果与荣誉
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li class="dropdown">
+                                    <a href="http://edu.nanoctr.cas.cn/py/kcks/" class="dropdown-toggle"
+                                       data-toggle="dropdown"  target="_top">
+                                        课程开设
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        
+                                    </ul>
+                                </li>
+                            
+                        </ul>
+                    </li>
+                
+                    <li class="dropdown">
+                        <a href="http://edu.nanoctr.cas.cn/gltl/" class="dropdown-toggle"
+                           data-toggle="dropdown"  target="_top">
+                            管理条例
+                        </a>
+                        <ul class="dropdown-menu">
+                            
+                                <li class="dropdown">
+                                    <a href="http://edu.nanoctr.cas.cn/gltl/wjtl/" class="dropdown-toggle"
+                                       data-toggle="dropdown"  target="_top">
+                                        文件条例
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        
+                                            <li><a href="http://edu.nanoctr.cas.cn/gltl/wjtl/py/"  target="_top">
+                                                招生制度
+                                            </a></li>
+                                        
+                                            <li><a href="http://edu.nanoctr.cas.cn/gltl/wjtl/xw/"  target="_top">
+                                                培养制度
+                                            </a></li>
+                                        
+                                            <li><a href="http://edu.nanoctr.cas.cn/gltl/wjtl/pq/"  target="_top">
+                                                学位制度
+                                            </a></li>
+                                        
+                                            <li><a href="http://edu.nanoctr.cas.cn/gltl/wjtl/jzxj/"  target="_top">
+                                                奖助学金制度
+                                            </a></li>
+                                        
+                                            <li><a href="http://edu.nanoctr.cas.cn/gltl/wjtl/qt/"  target="_top">
+                                                其他
+                                            </a></li>
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li class="dropdown">
+                                    <a href="http://edu.nanoctr.cas.cn/gltl/cjwt/" class="dropdown-toggle"
+                                       data-toggle="dropdown"  target="_top">
+                                        常见问题
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        
+                                            <li><a href="http://edu.nanoctr.cas.cn/gltl/cjwt/xsrx/"  target="_top">
+                                                新生入学问题篇
+                                            </a></li>
+                                        
+                                            <li><a href="http://edu.nanoctr.cas.cn/gltl/cjwt/jywt/"  target="_top">
+                                                教育问题篇
+                                            </a></li>
+                                        
+                                            <li><a href="http://edu.nanoctr.cas.cn/gltl/cjwt/jzxj/"  target="_top">
+                                                奖助学金问题篇
+                                            </a></li>
+                                        
+                                            <li><a href="http://edu.nanoctr.cas.cn/gltl/cjwt/qtwt/"  target="_top">
+                                                其他问题篇
+                                            </a></li>
+                                        
+                                    </ul>
+                                </li>
+                            
+                        </ul>
+                    </li>
+                
+                    <li class="dropdown">
+                        <a href="http://sjyjs.ucas.ac.cn/#/login" class="dropdown-toggle"
+                           data-toggle="dropdown"  target="_top">
+                            联培生
+                        </a>
+                        <ul class="dropdown-menu">
+                            
+                        </ul>
+                    </li>
+                
+                    <li class="dropdown">
+                        <a href="http://edu.nanoctr.cas.cn/xy/" class="dropdown-toggle"
+                           data-toggle="dropdown"  target="_top">
+                            校友
+                        </a>
+                        <ul class="dropdown-menu">
+                            
+                                <li class="dropdown">
+                                    <a href="http://edu.nanoctr.cas.cn/xy/xyxw/" class="dropdown-toggle"
+                                       data-toggle="dropdown"  target="_top">
+                                        校友新闻
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li class="dropdown">
+                                    <a href="http://edu.nanoctr.cas.cn/xy/xyly/" class="dropdown-toggle"
+                                       data-toggle="dropdown"  target="_top">
+                                        校友留言
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        
+                                    </ul>
+                                </li>
+                            
+                                <li class="dropdown">
+                                    <a href="http://edu.nanoctr.cas.cn/xy/xyxc/" class="dropdown-toggle"
+                                       data-toggle="dropdown"  target="_top">
+                                        校友相册
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        
+                                    </ul>
+                                </li>
+                            
+                        </ul>
+                    </li>
+                
+                    <li class="dropdown">
+                        <a href="http://edu.nanoctr.cas.cn/download/" class="dropdown-toggle"
+                           data-toggle="dropdown"  target="_top">
+                            下载中心
+                        </a>
+                        <ul class="dropdown-menu">
+                            
+                        </ul>
+                    </li>
+                
+                <li class="dropdown hidden-lg hidden-md hidden-sm"><a
+                        href="http://edu.nanoctr.cas.cn/news/" class="dropdown-toggle"
+                        data-toggle="dropdown"  target="_top">
+                    新闻
+                </a>
+                    <ul class="dropdown-menu">
+                        
+                            <li><a href="http://edu.nanoctr.cas.cn/news/jyxw/" target="_top"> 
+                                教育新闻
+                            </a></li>
+                        
+                            <li><a href="http://edu.nanoctr.cas.cn/news/media/" target="_top"> 
+                                媒体报道
+                            </a></li>
+                        
+                            <li><a href="http://edu.nanoctr.cas.cn/news/nano/" target="_top"> 
+                                光影Nano
+                            </a></li>
+                        
+                            <li><a href="http://edu.nanoctr.cas.cn/news/ggl/" target="_top"> 
+                                公告栏
+                            </a></li>
+                        
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="http://edu.nanoctr.cas.cn/news/jyxw/202510/t20251031_792975.html"
+                                        target="_blank">
+                    English
+                </a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- nav end -->
+<div class="other-banner">
+  <picture>
+    <source srcset="http://edu.nanoctr.cas.cn/images/banner-02-s.jpg" media="(max-width: 1024px)">
+    <img src="http://edu.nanoctr.cas.cn/images/banner-02.jpg" alt="" />
+  </picture>
+</div>
+<div class="container other-main"> 
+  <!-- mod start -->
+  <div class="xlmain">
+    <p class="wztitle">2026年度国家纳米科学中心国际学生招生申请通知</p>
+    <div class="basicinfo">
+      <div class="row">
+        <div class="col-sm-9">
+          <p class="qtinfo hidden-lg hidden-md hidden-sm">发布时间：2025-10-31&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;【&nbsp;<a href="javascript:doZoom(20)">大</a>&nbsp;&nbsp;<a href="javascript:doZoom(17)">中</a>&nbsp;&nbsp;<a href="javascript:doZoom(13)">小</a>&nbsp;】</p>
+          <p class="qtinfo hidden-xs">发布时间：2025-10-31&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;【&nbsp;<a href="javascript:doZoom(20)">大</a>&nbsp;&nbsp;<a href="javascript:doZoom(17)">中</a>&nbsp;&nbsp;<a href="javascript:doZoom(13)">小</a>&nbsp;】&nbsp;&nbsp;|&nbsp;&nbsp;【<a onclick="window.print()" href="#">打印</a>】&nbsp;【<a onclick="window.close();" href="#">关闭</a>】</p>
+        </div>
+        <div class="col-sm-3 hidden-xs">
+            <div class="other-share">
+			   <div class="bshare-custom icon-medium social-share" data-initialized="true">
+					<a title="分享到微信" class="bshare-weixin social-share-icon icon-wechat"></a>
+					<a title="分享到微博" class="bshare-sinaminiblog social-share-icon icon-weibo"></a>
+				</div>
+				<script src="http://edu.nanoctr.cas.cn/images/social-share.js"></script> 
+				<script src="http://edu.nanoctr.cas.cn/images/qrcode.js"></script>
+			</div>
+       </div>
+      </div>
+    </div>
+    <div class="textxl nrhei tj" id="zoom">
+      <div class="trs_editor_view TRS_UEDITOR trs_paper_default trs_web"><p style="margin-bottom: 2px;"><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px"><strong>Join Us: Admission Programs at the National Center for Nanoscience and Technology (NCNST)</strong></span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">The National Center for Nanoscience and Technology (NCNST) of China is a premier research institution dedicated to cutting-edge research in nanoscience and nanotechnology. We are committed to training the next generation of world-class scientists and innovators.</span></p><p style="margin-top: 1px; margin-bottom: 1px;"><span style="font-family: &quot;Microsoft YaHei&quot;;">Deadline，January 31,2026</span></p><p style="margin-bottom: 1px;"><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px"><strong>Why Choose NCNST?</strong></span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">· World-Class Research: Engage in pioneering research across various fields, including nanofabrication, nano-bio interfaces, nanomedicine, nano-energy, and characterization techniques.</span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">· Distinguished Faculty: Learn from and collaborate with our faculty of renowned scientists and mentors who are leaders in their respective fields.</span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">· State-of-the-Art Facilities: Access our advanced research platforms and instrumentation centers, providing an unparalleled environment for experimental science.</span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">· Vibrant International Community: Join a diverse community of students and researchers in a collaborative and interdisciplinary atmosphere.</span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px"><strong>Programs Offered</strong></span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">Research Areas Include (but not limited to):</span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">· Nanobiotechnology and Nanomedicine.</span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">· Nanoelectronic Devices and Integrated Chip Engineering.</span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">· Nanomaterials and Sustainable Energy Engineering.</span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">· Nanofabrication and Manufacturing Technologies</span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">· Nanoscale Characterization and Testing</span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">· Computaional Nanoscience and Artificial Intelligence.</span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px"><strong>Admission and Application</strong></span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">Prospective students are encouraged to contact our faculty members directly to discuss potential research opportunities and supervision.</span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">For the most up-to-date information on application procedures, deadlines, and specific requirements, please visit </span></p><p style="margin-top: 1px; margin-bottom: 1px;"><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">https://english.ucas.ac.cn/index.php/admission/international-students</span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px"><strong>Contact Information：</strong></span></p><p style="margin-top: 1px; margin-bottom: 1px;">NCNST Education Department</p><p style="margin-top: 1px; margin-bottom: 1px;">Email:youj@nanoctr.cn</p><p style="margin-top: 1px;"><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">Address:No. 11 ZhongGuanCun BeiYiTiao, Beijing, China</span><br/><span style="text-wrap-mode: wrap;font-family: &#39;Microsoft YaHei&#39;;font-size: 16px">Tel: 010-82545546</span><br/></p></div>
+    </div>
+    <!-- 附件-->
+        <div class="fiel wrap-appendix">
+            <hr>
+            <p style="color: #ca0e0e; font-size: 18px;font-weight: 700;margin-bottom:15px;">附件下载：</p>
+            <ul>
+
+            </ul>
+        </div>
+   <!-- 附件-->
+  </div>
+  <!-- mod end --> 
+</div>
+<!--main end-->
+<div class="links-groups">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="link-s"> <span class="title-s h18">友情链接：</span>
+              
+              <a href="http://www.nanoctr.cn" class="h16" target="_blank">国家纳米科学中心</a>
+              
+              <a href="http://www.ucas.ac.cn/" class="h16" target="_blank">中国科学院大学</a>
+              
+              <a href="https://nano.ucas.ac.cn" class="h16" target="_blank">中国科学院大学纳米学院</a>
+              
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="make-appointment"> <span class="title-s h24 b"><a href="http://edu.nanoctr.cas.cn/visit/" target="_blank">参观预约</a></span> <a href="http://edu.nanoctr.cas.cn/visit/202101/W020210121381463006782.docx" class="a-down">预约表下载</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 box-w">
+          <div class="box-logo"><a href="http://www.cas.cn/" target="_blank"><img src="http://edu.nanoctr.cas.cn/images/logo-footer.png" alt="" /></a></div>
+        </div>
+        <div class="col-sm-8 box-w">
+          <div class="box-info h15">
+            <div><span>版权所有 &copy; 国家纳米科学中心研究生教育</span><span><a href="https://beian.miit.gov.cn/" target="_blank">京ICP备05064431号</a></span><b class="siteIcon"><script type="text/javascript" src="//api.cas.cn/app/sitema/cas.sitema.min.js" id="sitema" unitcode="" domain="http://edu.nanoctr.cas.cn/" siteid="261" sysid="2"></script> </b></div>
+            <div><span>单位地址：北京市海淀区中关村北一条11号</span><span>单位邮编：100190</span><span style="display: none;">技术支持：<a href="http://www.cas.cn/" target="_blank">青云软件</a></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<style>
+    .siteIcon img{
+        width: 32px;
+        display: inline-block;
+        margin-top: -32px;
+        top: 15px;
+        position: relative;
+        margin-left: 0;
+    }
+</style>
+<script LANGUAGE="JavaScript">
+/*大中小代码开始*/
+function dealTag(size,zoomObj,tagName){
+		var tagObj = zoomObj.getElementsByTagName(tagName);
+		if (tagObj.length == 0){
+			zoomObj.style="font-size:"+size+'px !important';
+		}else{
+		  for( var i=0; i<tagObj.length; i++ ){
+				tagObj[i].style="font-size:"+size+'px !important';
+		  }
+		}
+	}
+	
+function doZoom(size){
+		var zoomObj = document.getElementById('zoom');
+		dealTag(size,zoomObj,"p");
+		dealTag(size,zoomObj,"div");
+		dealTag(size,zoomObj,"font");
+		dealTag(size,zoomObj,"span");
+		dealTag(size,zoomObj,"td");
+		dealTag(size,zoomObj,"strong");
+	}
+/*大中小代码结束*/	
+</script>
+<script type="text/javascript">
+//附件
+  var appLinkArr = new Array(); //附件路径
+  var appLinkStr = '';
+
+  appLinkArr = appLinkStr.split('|');
+
+  var appDescArr = new Array(); //附件名称
+  var appDescStr = '';
+
+  appDescArr = appDescStr.split('|');
+
+  if(appLinkArr[0] != '' && appDescArr[0] != ''){
+    var appHtml = "";
+
+    $.each(appLinkArr, function(i, str) {
+      if(str.indexOf('doc') != -1){
+        appHtml += '<li><a href="' + str + '"><i class="fa fa-caret-right leftNavIcon" aria-hidden="true" style="font-size: 12px;color: #7f8fad;margin-right: 6px;"></i>' + appDescArr[i] + '</a></li>';
+      }
+      if(str.indexOf('xls') != -1){
+        appHtml += '<li><a href="' + str + '"><i class="fa fa-caret-right leftNavIcon" aria-hidden="true" style="font-size: 12px;color: #7f8fad;margin-right: 6px;"></i>' + appDescArr[i] + '</a></li>';
+      }
+      if(str.indexOf('ppt') != -1){
+        appHtml += '<li><a href="' + str + '"><i class="fa fa-caret-right leftNavIcon" aria-hidden="true" style="font-size: 12px;color: #7f8fad;margin-right: 6px;"></i>' + appDescArr[i] + '</a></li>';
+      }
+      if(str.indexOf('pdf') != -1){
+        appHtml += '<li><a href="' + str + '"><i class="fa fa-caret-right leftNavIcon" aria-hidden="true" style="font-size: 12px;color: #7f8fad;margin-right: 6px;"></i>' + appDescArr[i] + '</a></li>';
+      }
+      if(str.indexOf('txt') != -1){
+        appHtml += '<li><a href="' + str + '"><i class="fa fa-caret-right leftNavIcon" aria-hidden="true" style="font-size: 12px;color: #7f8fad;margin-right: 6px;"></i>' + appDescArr[i] + '</a></li>';
+      }
+      if(str.indexOf('rar') != -1 || str.indexOf('zip') != -1){
+        appHtml += '<li><a href="' + str + '"><i class="fa fa-caret-right leftNavIcon" aria-hidden="true" style="font-size: 12px;color: #7f8fad;margin-right: 6px;"></i>' + appDescArr[i] + '</a></li>';
+      }
+      if(str.indexOf('mp4') != -1){
+        appHtml += '<li><a href="' + str + '"><i class="fa fa-caret-right leftNavIcon" aria-hidden="true" style="font-size: 12px;color: #7f8fad;margin-right: 6px;"></i>' + appDescArr[i] + '</a></li>';
+      }
+    });
+    $(".wrap-appendix ul").html(appHtml);
+  }
+  else{
+    $(".wrap-appendix").hide();
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,825 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title>青岛科技大学化工学院</title><META Name="keywords" Content="青岛科技大学化工学院" />
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta name="viewport" content="width=1800"><link rel="stylesheet" type="text/css" href="dfiles/16236/temp/qkhg/images/style.jpg.css"><link rel="stylesheet" type="text/css" href="dfiles/16236/temp/qkhg/images/style(1).jpg.css"><link rel="stylesheet" type="text/css" href="dfiles/16236/temp/qkhg/images/ActionSbanner.css"><script src="dfiles/16236/temp/qkhg/images/jquery.min.js" type="text/javascript"></script><script src="dfiles/16236/temp/qkhg/images/autoimageslider.js" type="text/javascript"></script><script src="dfiles/16236/temp/qkhg/images/slide.js" language="javascript"></script>
+<style type="text/css">div#maincontent div.main{display:none;}div#maincontent div.element{position:absolute !important;}</style>
+<link rel="stylesheet" type="text/css" href="dfiles/16236/temp/qkhg/images/skitter.jpg.css" media="all"><script type="text/javascript" src="dfiles/16236/temp/qkhg/images/jquery.easing.js"></script><script type="text/javascript" src="dfiles/16236/temp/qkhg/images/jquery.skitter.js"></script><script type="text/javascript">
+$(document).ready(function(){
+
+    $(document).ready(function() {
+        $(".box_skitter_large").skitter({
+            animation: "blind",
+            interval: 4000,
+            numbers: false, 
+            numbers_align: "right", 
+            hideTools: true,
+            controls: false,
+            focus: false,
+            focus_position: true,
+            width_label:'450px', 
+            enable_navigation_keys: true,   
+            progressbar: false
+        });
+    });               
+                     
+});
+</script><script language="javascript">
+$(function(){
+
+<!--下拉菜单开始-->
+  $('#nav>li.mainlevel').mousemove(function(){
+    if($(this).children('ul').children('li').length>0){
+    $(this).find('ul').slideDown();
+    $(this).addClass('hover');
+    }
+    });
+  $('#nav>li.mainlevel').mouseleave(function(){
+  $(this).find('ul').slideUp("fast");
+  $(this).removeClass('hover');
+   });
+ 
+})
+</script>
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307b78465551525742000000054655 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc|pad"></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1033,'/index.jsp',-1,1286554817)</script>
+</head>
+<body>
+<div id="top">
+<div class="header">
+<div class="logo">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.htm" title="化工学院"><img src="images/logo-hgxy-new.png" /></a></div>
+<div id="top_inner">
+<div id="top_cnen"><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script>    <a href="http://www.qust.edu.cn/" target="_blank" title="青岛科技大学" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 20542)">青岛科技大学</a>
+    |
+    <a href="https://hg.qust.edu.cn/info/1038/4447.htm" target="_blank" title="联系我们" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 20543)">联系我们</a>
+    |
+    <a href="https://wvpn.qust.edu.cn/" target="_blank" title="智慧校园" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 20544)">智慧校园</a>
+    
+</div>
+<div id="search_box"><script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode252759').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey252759").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey252759").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey252759").value = base64.encode(document.getElementById("lucenenewssearchkey252759").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode252759"));
+        return true;
+    } 
+</script>
+<form action="ssjgy.jsp?wbtreeid=1033" method="post" id="au2a" name="au2a" onsubmit="return _nl_ys_check()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkey252759" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype252759" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope252759" name="searchScope" value="0">
+ 
+
+<div id="search_input">
+<input name="showkeycode" id="showkeycode252759" class="nowrap"></div>
+ 
+
+ <div id="search_btn"><input type="image" src="dfiles/16236/temp/qkhg/images/search_btn.jpg" align="absmiddle" style="cursor: hand"></div>
+
+</form>
+
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+</div></div></div></div>
+<div id="menu">
+<div id="menu_inner">
+
+<ul id="nav">
+
+<li class="mainlevel1" style="width:124px"><a href="index.htm">首页</a>
+</li>
+
+               
+
+<li class="mainlevel"><a href="xygk/xyjj.htm">学院概况</a>
+
+<ul style="display: none;">
+       <li><a href="xygk/xyjj.htm">学院简介</a></li>
+       <li><a href="xygk/xyld.htm">学院领导</a></li>
+       <li><a href="xygk/lrld.htm">历任领导</a></li>
+       <li><a href="xygk/zzjg.htm">组织架构</a></li>
+  
+ 
+</ul>
+</li>
+
+
+
+               
+
+<li class="mainlevel"><a href="szdw/spys.htm">师资队伍</a>
+
+<ul style="display: none;">
+       <li><a href="szdw/spys.htm">双聘院士</a></li>
+       <li><a href="szdw/guojiajirencai.htm">国家级人才</a></li>
+       <li><a href="szdw/shengbujirencai.htm">省部级人才</a></li>
+       <li><a href="szdw/jsdw.htm">教师队伍</a></li>
+       <li><a href="szdw/bssds.htm">博士生导师</a></li>
+       <li><a href="szdw/sssds.htm">硕士生导师</a></li>
+       <li><a href="szdw/ltxjs.htm">离退休教师</a></li>
+  
+ 
+</ul>
+</li>
+
+
+
+               
+
+<li class="mainlevel"><a href="jyjx.htm">教育教学</a>
+
+<ul style="display: none;">
+       <li><a href="jyjx/bksjx.htm">本科生教学</a></li>
+       <li><a href="jyjx/yjsjx.htm">研究生教学</a></li>
+       <li><a href="jyjx/bksgl.htm">本科生管理</a></li>
+       <li><a href="jyjx/yjsgl.htm">研究生管理</a></li>
+  
+ 
+</ul>
+</li>
+
+
+
+               
+
+<li class="mainlevel"><a href="kxyj1.htm">科学研究</a>
+
+<ul style="display: none;">
+       <li><a href="kxyj1/kypt.htm">科研平台</a></li>
+       <li><a href="kxyj1/cxtd.htm">创新团队</a></li>
+  
+ 
+</ul>
+</li>
+
+
+
+               
+
+<li class="mainlevel"><a href="zsjy1.htm">招生就业</a>
+
+<ul style="display: none;">
+       <li><a href="zsjy1/zsxx.htm">招生信息</a></li>
+       <li><a href="zsjy1/jyxx.htm">就业信息</a></li>
+  
+ 
+</ul>
+</li>
+
+
+
+               
+
+<li class="mainlevel"><a href="djyd1.htm">党建园地</a>
+
+<ul style="display: none;">
+       <li><a href="djyd1/hjdj.htm">“化匠”党建</a></li>
+       <li><a href="djyd1/ghgz.htm">工会工作</a></li>
+  
+ 
+</ul>
+</li>
+
+
+
+               
+
+<li class="mainlevel"><a href="t.htm">团学工作</a>
+
+<ul style="display: none;">
+       <li><a href="t/byhg.htm">榜样化工</a></li>
+       <li><a href="t/scgzs.htm">双创工作室</a></li>
+  
+ 
+</ul>
+</li>
+
+
+
+               
+                </ul>
+           
+
+
+
+</div></div>
+<div id="banner"><section class="pc-banner">
+<div class="swiper-container swiper-container-horizontal">
+<div class="swiper-wrapper">        
+       
+             
+                   
+
+<div class="swiper-slide swiper-slide-center none-effect">
+                        <a href="" target="_blank">
+                        <img src="images/d2bb49e0e3a1b8478dd70a950259f7c1_origin.png" style="max-height:400px;">
+                            <div class="swiper-txt"><p></p></div>
+                        </a>
+                        <div class="layer-mask"></div>
+                    </div>
+
+
+                    
+                
+        
+
+       
+             
+                   
+
+<div class="swiper-slide ">
+                        <a href="" target="_blank">
+                        <img src="images/guosaijinjiang.png" style="max-height:400px;">
+                            <div class="swiper-txt"><p></p></div>
+                        </a>
+                        <div class="layer-mask"></div>
+                    </div>
+
+
+                    
+                
+        
+
+       
+             
+                   
+
+<div class="swiper-slide ">
+                        <a href="https://hg.qust.edu.cn/info/1066/15370.htm" target="_blank">
+                        <img src="images/yanshiwengao1_01.png" style="max-height:400px;">
+                            <div class="swiper-txt"><p></p></div>
+                        </a>
+                        <div class="layer-mask"></div>
+                    </div>
+
+
+                    
+                
+        
+
+       
+             
+                   
+
+<div class="swiper-slide ">
+                        <a href="https://hg.qust.edu.cn/info/1066/15231.htm" target="_blank">
+                        <img src="images/zyrz.png" style="max-height:400px;">
+                            <div class="swiper-txt"><p></p></div>
+                        </a>
+                        <div class="layer-mask"></div>
+                    </div>
+
+
+                    
+                
+        
+
+       
+             
+                   
+
+<div class="swiper-slide ">
+                        <a href="" target="_blank">
+                        <img src="images/1207.png" style="max-height:400px;">
+                            <div class="swiper-txt"><p>热烈祝贺化学工程与工艺专业、制药工程专业获评国家级一流本科专业建设点</p></div>
+                        </a>
+                        <div class="layer-mask"></div>
+                    </div>
+
+
+                    
+                
+        
+
+
+
+</div>
+<div class="button">
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div></div></div></section><script type="text/javascript" src="dfiles/16236/temp/qkhg/images/swiper.min.js"></script><script type="text/javascript">
+
+            window.onload = function() {
+                var swiper = new Swiper('.swiper-container',{
+                    autoplay: 4000,
+                    speed: 1000,
+                    autoplayDisableOnInteraction: false,
+                    loop: true,
+                    centeredSlides: true,
+                    slidesPerView: 2,
+                    pagination: '.swiper-pagination',
+                    paginationClickable: true,
+                    prevButton: '.swiper-button-prev',
+                    nextButton: '.swiper-button-next',
+                    onInit: function(swiper) {
+                        swiper.slides[2].className = "swiper-slide swiper-slide-active";
+                    },
+                    breakpoints: {
+                        668: {
+                            slidesPerView: 1,
+                        }
+                    }
+                });
+            }
+        
+        
+        </script>
+<div class="clearfix"></div></div>
+<div id="main">
+<div id="main_r2">
+<div id="main_r2_inner">
+<div id="main_r2_top">
+<div id="main_r2_top_titlecn">学院新闻</div>
+<div id="main_r2_top_titleen">SCHOOL NEWS</div></div>
+<div id="main_r2_content">
+<div id="main_r2_left">
+<div class="main_view">
+<div class="picshow_window">
+<div class="picshow_reel"><script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><ul>
+
+<li>
+    <a href="info/1066/18327.htm" target="_blank" title="化工学院举办2025-2026学年学生会总结大会暨第二十六届表彰大会"><img src="/__local/5/73/BD/74B8DF5C5F0F6019E859C345876_E8709C83_2B1DF.jpg" width="560" height="360" border="0"></a>
+    <div class="picshow_intro">
+      <p class="picshow_intro_head"><a href="info/1066/18327.htm" target="_blank" title="化工学院举办2025-2026学年学生会总结大会暨第二十六届表彰大会" target="_blank" title="">化工学院举办2025-2026学年学生会总结大会暨...</a></p>
+     </div>
+   </li>
+
+
+
+<li>
+    <a href="info/1066/18321.htm" target="_blank" title="【情暖毕业季】化工学院开展“五育并举润初心 化韵逐梦启新程”毕业生主题教育活动"><img src="/__local/7/F5/55/93230BEF5FCC21340F15CCD16E2_96D65772_1B7344.png" width="560" height="360" border="0"></a>
+    <div class="picshow_intro">
+      <p class="picshow_intro_head"><a href="info/1066/18321.htm" target="_blank" title="【情暖毕业季】化工学院开展“五育并举润初心 化韵逐梦启新程”毕业生主题教育活动" target="_blank" title="">【情暖毕业季】化工学院开展“五育并举润初...</a></p>
+     </div>
+   </li>
+
+
+
+<li>
+    <a href="info/1066/18309.htm" target="_blank" title="喜报！化工学院获第十五届“挑战杯”山东省大学生创业计划竞赛特等奖"><img src="/__local/2/B4/1D/E3CD011752F30F91203E5E67F27_3852FE37_1F2DD.jpg" width="560" height="360" border="0"></a>
+    <div class="picshow_intro">
+      <p class="picshow_intro_head"><a href="info/1066/18309.htm" target="_blank" title="喜报！化工学院获第十五届“挑战杯”山东省大学生创业计划竞赛特等奖" target="_blank" title="">喜报！化工学院获第十五届“挑战杯”山东省...</a></p>
+     </div>
+   </li>
+
+
+
+<li>
+    <a href="info/1066/18214.htm" target="_blank" title="化工学院在青岛科技大学2026年运动会中取得佳绩"><img src="/__local/4/18/28/5DA00DF683983540356E3EA8EB0_2D09C237_1AE885.jpg" width="560" height="360" border="0"></a>
+    <div class="picshow_intro">
+      <p class="picshow_intro_head"><a href="info/1066/18214.htm" target="_blank" title="化工学院在青岛科技大学2026年运动会中取得佳绩" target="_blank" title="">化工学院在青岛科技大学2026年运动会中取得...</a></p>
+     </div>
+   </li>
+
+
+</ul>
+
+<script>_showDynClickBatch(['dynclicks_u5_18327','dynclicks_u5_18321','dynclicks_u5_18309','dynclicks_u5_18214'],[18327,18321,18309,18214],"wbnews", 1286554817)</script>
+</div></div>
+<div class="picshow_paging" style="display: block"><span class="active" picpage="1"></span><span picpage="2"></span><span picpage="3"></span><span picpage="4"></span></div></div></div>
+<div id="main_r2_right">
+<div id="block_xyxw_txt">
+
+<div id="block_xyxw_key">
+<div id="block_xyxw_key_title">
+  <a href="info/1066/18570.htm" target="_blank" title="杰出校友傅向升应邀回我院作《石化产业与创新发展趋势》专题学术报告">杰出校友傅向升应邀回我院作《石化产业与创新发展趋势》专题...</a>
+</div>
+<div id="block_xyxw_key_des">
+<a href="info/1066/18570.htm" target="_blank">&nbsp;9月16日，我院杰出校友、中国石油和化学工业联合会副会长、教授级高级工程师傅向升应邀重返母校，莅临化工学院作题为《石化产业与创新发展趋势》专题学术报告。学校党委...[详细]</a>
+</div>
+
+</div>
+
+
+<div id="block_list">
+
+
+<ul>
+
+
+ 
+
+
+
+  <li><span class="date">[2026-09-16]</span><a href="info/1066/18556.htm" target="_blank" title="化工学院举办国际科研合作专题报告会">化工学院举办国际科研合作专题报告会</a></li>
+
+
+ 
+
+
+
+  <li><span class="date">[2026-09-14]</span><a href="info/1066/18550.htm" target="_blank" title="语润校园守规范 网安护航筑防线——化工学院开展双宣传周倡议活动">语润校园守规范 网安护航筑防线——化工学院开展双宣传周倡议...</a></li>
+
+
+ 
+
+
+
+  <li><span class="date">[2026-09-11]</span><a href="info/1066/18538.htm" target="_blank" title="化工学院召开学生工作调研座谈会">化工学院召开学生工作调研座谈会</a></li>
+
+
+ 
+
+
+
+  <li><span class="date">[2026-09-11]</span><a href="info/1066/18535.htm" target="_blank" title="化工学院召开党委（扩大）会议">化工学院召开党委（扩大）会议</a></li>
+
+
+ 
+
+
+
+  <li><span class="date">[2026-09-11]</span><a href="info/1066/18514.htm" target="_blank" title="化工学院召开2026级研究生入学教育大会">化工学院召开2026级研究生入学教育大会</a></li>
+
+
+ 
+
+
+
+  <li><span class="date">[2026-09-10]</span><a href="info/1066/18547.htm" target="_blank" title="喜报|化工学院在学校2026年教师节庆祝大会上斩获多项表彰">喜报|化工学院在学校2026年教师节庆祝大会上斩获多项表彰</a></li>
+
+
+ 
+</ul>
+
+
+
+
+
+
+</div>
+<div id="block_more">
+<div id="more_btn"><a href="index/xyxw.htm" target="">查看更多</a></div></div><script>_showDynClickBatch(['dynclicks_u6_18570','dynclicks_u6_18556','dynclicks_u6_18550','dynclicks_u6_18538','dynclicks_u6_18535','dynclicks_u6_18514','dynclicks_u6_18547'],[18570,18556,18550,18538,18535,18514,18547],"wbnews", 1286554817)</script>
+</div></div></div></div></div>
+<div id="main_r4">
+<div id="main_r4_inner">
+<div id="main_r4_left">
+<div id="main_r4_block_top">
+<div id="main_r4_block_top_titlecn">通知公告</div>
+<div id="main_r4_block_top_titleen">NOTICES</div>
+<div class="clearfix"></div></div>
+<div id="block_tab_list">
+<div class="tab_box">
+<div id="lyz_tab_main">
+<div id="con_one_1" class="hover" style="display: block"> <div id="tab_list">
+      
+ 
+        <ul>
+
+
+   <li><span class="date">[2026-09-17]</span>&nbsp;&nbsp;<a href="info/1067/18569.htm" target="_blank" title="化工学院2025-2026学年本科生国家奖学金名单公示">化工学院2025-2026学年本科生国家奖学金名单公示</a></li>
+
+   <li><span class="date">[2026-09-17]</span>&nbsp;&nbsp;<a href="info/1067/18566.htm" target="_blank" title="《炼化装置多源融合腐蚀检测与智能管控关键技术及应用》项目公示">《炼化装置多源融合腐蚀检测与智能管控关键技术及应用》项目公示</a></li>
+
+   <li><span class="date">[2026-09-14]</span>&nbsp;&nbsp;<a href="info/1067/18541.htm" target="_blank" title="化工学院关于评选2025-2026学年本科生国家奖学金、省政府奖学金的通知">化工学院关于评选2025-2026学年本科生国家奖学金、省政府奖学金的通知</a></li>
+
+   <li><span class="date">[2026-09-11]</span>&nbsp;&nbsp;<a href="info/1067/18539.htm" target="_blank" title="关于开展化工学院2026年研究生学业奖学金评选工作的通知">关于开展化工学院2026年研究生学业奖学金评选工作的通知</a></li>
+
+   <li><span class="date">[2026-09-04]</span>&nbsp;&nbsp;<a href="info/1067/18468.htm" target="_blank" title="青岛科技大学化工学院2027年推荐优秀应届本科毕业生免试攻读研究生实施细则">青岛科技大学化工学院2027年推荐优秀应届本科毕业生免试攻读研究生实施...</a></li>
+
+   <li><span class="date">[2026-09-04]</span>&nbsp;&nbsp;<a href="info/1067/18458.htm" target="_blank" title="化工学院 2026年硕士研究生导师上岗名单公示">化工学院 2026年硕士研究生导师上岗名单公示</a></li>
+
+   <li><span class="date">[2026-09-01]</span>&nbsp;&nbsp;<a href="info/1067/18442.htm" target="_blank" title="化工学院学术报告——伊廷锋：国家自然科学基金申报交流">化工学院学术报告——伊廷锋：国家自然科学基金申报交流</a></li>
+
+   <li><span class="date">[2026-08-24]</span>&nbsp;&nbsp;<a href="info/1067/18568.htm" target="_blank" title="关于国家留学基金委2026年创新型人才国际合作培养项目第三批人员申报拟推荐人员的公示">关于国家留学基金委2026年创新型人才国际合作培养项目第三批人员申报拟...</a></li>
+
+   <li><span class="date">[2026-07-20]</span>&nbsp;&nbsp;<a href="info/1067/18383.htm" target="_blank" title="化工学院学术报告——袁珮：电解水制氢-加氢耦合高值化学品合成">化工学院学术报告——袁珮：电解水制氢-加氢耦合高值化学品合成</a></li>
+
+   <li><span class="date">[2026-07-17]</span>&nbsp;&nbsp;<a href="info/1067/18374.htm" target="_blank" title="化工学院学术报告——冯嘉春：通用高分子材料高性能化相关的一些基础问题">化工学院学术报告——冯嘉春：通用高分子材料高性能化相关的一些基础问题</a></li>
+
+   <li><span class="date">[2026-07-17]</span>&nbsp;&nbsp;<a href="info/1067/18373.htm" target="_blank" title="化工学院学术报告——叶树集：复杂体系界面分子结构与超快动力学">化工学院学术报告——叶树集：复杂体系界面分子结构与超快动力学</a></li>
+   
+</ul>
+
+
+
+          </div>
+            <div id="block_xyxw_more">
+              <div id="more_btn"><a href="index/tzgg.htm">查看更多</a></div>
+            </div><script>_showDynClickBatch(['dynclicks_u7_18569','dynclicks_u7_18566','dynclicks_u7_18541','dynclicks_u7_18539','dynclicks_u7_18468','dynclicks_u7_18458','dynclicks_u7_18442','dynclicks_u7_18568','dynclicks_u7_18383','dynclicks_u7_18374','dynclicks_u7_18373'],[18569,18566,18541,18539,18468,18458,18442,18568,18383,18374,18373],"wbnews", 1286554817)</script>
+</div></div>
+<div class="clear"></div></div></div></div>
+<div id="main_r4_right">
+<div id="main_r4_block_top">
+<div id="main_r4_block_top_titlecn">科研教学平台</div>
+<div id="main_r4_block_top_titleen">RESEARCH &amp; TEACHING</div>
+<div class="clearfix"></div></div><div id="block_xsyglist">
+
+<ul>
+
+<li>
+<div id="block_xsyg_left">
+<p class="day"><img src="images/sy-4.png" width="85" height="65"> </p>
+</div>
+<div id="block_xsyg_right">
+<div id="block_xsyg_title"><a href="info/1070/18554.htm" target="_blank" title="青岛市生物大分子药物创制重点实验室">青岛市生物大分子药物创制重点实验室</a></div>
+<div id="block_xsyg_date">一、基本情况青岛市生物大分子药物创制重点实验室，成立于2024年12月，依托建设单位青岛科技大...</div>
+</div>
+<div class="clearfix"></div>
+</li>
+<li>
+<div id="block_xsyg_left">
+<p class="day"><img src="/__local/0/15/F5/64A53408344F969989F805FBE39_48363FCC_45D85.png" width="90" height="65"></p>
+</div>
+<div id="block_xsyg_right">
+<div id="block_xsyg_title"><a href="https://hgxn.qust.edu.cn" target="_blank" title="化工过程与装备国家级虚拟仿真实验教学中心">化工过程与装备国家级虚拟仿真实验教学中心</a></div>
+<div id="block_xsyg_date">青岛科技大学化工过程与装备虚拟仿真实验教学中心，依托化学工程山东省强化建设重点学科、教育...</div>
+</div>
+<div class="clearfix"></div>
+</li>
+<li>
+<div id="block_xsyg_left">
+<p class="day"><img src="/__local/F/82/50/48FA25B1BF6E3C82754703A5F35_9CBA761F_5C0D2.png" width="90" height="65"></p>
+</div>
+<div id="block_xsyg_right">
+<div id="block_xsyg_title"><a href="info/1070/4772.htm" target="_blank" title="生态化工国家重点实验室培育基地">生态化工国家重点实验室培育基地</a></div>
+<div id="block_xsyg_date">生态化工国家重点实验室培育基地（青岛科技大学）于2010年2月获得科技部批准，2010年4月3日，生...</div>
+</div>
+<div class="clearfix"></div>
+</li>
+<li>
+<div id="block_xsyg_left">
+<p class="day"><img src="/__local/0/8F/83/533ED8E1B080944D0F8CB75AB0B_F912187C_40405.png" width="90" height="65"></p>
+</div>
+<div id="block_xsyg_right">
+<div id="block_xsyg_title"><a href="info/1070/9853.htm" target="_blank" title="生态化工协同创新中心">生态化工协同创新中心</a></div>
+<div id="block_xsyg_date">中心链接：https://hgxt.qust.edu.cn/index.htm生态化工山东省高校协同创新中心（简称“中心”...</div>
+</div>
+<div class="clearfix"></div>
+</li>
+<li>
+<div id="block_xsyg_left">
+<p class="day"><img src="/__local/4/1D/A7/4C6C7A69F519708C7B3442905F4_FA862D32_D290.png" width="90" height="65"></p>
+</div>
+<div id="block_xsyg_right">
+<div id="block_xsyg_title"><a href="https://gyrjsys.qust.edu.cn" target="_blank" title="山东省化工过程模拟与优化工业软件重点实验室">山东省化工过程模拟与优化工业软件重点实验室</a></div>
+<div id="block_xsyg_date"></div>
+</div>
+<div class="clearfix"></div>
+</li>
+
+</ul>
+</div>
+<div id="block_more">
+<div id="more_btn"><a href="kxyj1/kypt.htm" target="">查看更多</a></div></div><script>_showDynClickBatch(['dynclicks_u8_18554','dynclicks_u8_9796','dynclicks_u8_4772','dynclicks_u8_9853','dynclicks_u8_17715'],[18554,9796,4772,9853,17715],"wbnews", 1286554817)</script>
+</div></div></div>
+<div id="main_r3">
+<div id="main_r3_inner">
+<div id="main_r2_top">
+<div id="main_r2_top_titlecn">学术动态</div>
+<div id="main_r2_top_titleen">ACADEMIC NEWS</div></div>
+<div id="main_r3_content">
+<div id="main_r3_left"><div id="block_xsdt_list">
+
+<ul>
+
+   <li><span class="date">[2026-09-14]</span><a href="info/1266/18543.htm" target="_blank" title="化工学院朱晓东教授团队在锌基电池领域发表系列研究成果">化工学院朱晓东教授团队在锌基电池领域发表系列研究成果</a></li>
+
+   <li><span class="date">[2026-09-10]</span><a href="info/1266/18512.htm" target="_blank" title="化工学院吴明铂教授团队在AIChE Journal发表二氧化碳转化领域系列重要进展">化工学院吴明铂教授团队在AIChE Journal发表二氧化碳转化领域系列重要进...</a></li>
+
+   <li><span class="date">[2026-09-09]</span><a href="info/1266/18510.htm" target="_blank" title="化工学院张超副教授团队在C1催化转化领域取得新进展">化工学院张超副教授团队在C1催化转化领域取得新进展</a></li>
+
+   <li><span class="date">[2026-09-05]</span><a href="info/1266/18472.htm" target="_blank" title="化工学院王晓武教授团队在预组织双核硼烷协同催化和手性立体选择性聚合取得新进展">化工学院王晓武教授团队在预组织双核硼烷协同催化和手性立体选择性聚合...</a></li>
+
+   <li><span class="date">[2026-07-31]</span><a href="info/1266/18403.htm" target="_blank" title="化工学院王磊教授团队在电催化高值转化废弃物转化及电解海水制氢催化剂方向取得最新研究成果">化工学院王磊教授团队在电催化高值转化废弃物转化及电解海水制氢催化剂...</a></li>
+
+   <li><span class="date">[2026-07-13]</span><a href="info/1266/18370.htm" target="_blank" title="化工学院吴明铂教授团队在二氧化碳资源化利用领域取得系列进展">化工学院吴明铂教授团队在二氧化碳资源化利用领域取得系列进展</a></li>
+
+   <li><span class="date">[2026-06-25]</span><a href="info/1266/18335.htm" target="_blank" title="化工学院刘新民副教授团队在CO2捕集领域取得新进展">化工学院刘新民副教授团队在CO2捕集领域取得新进展</a></li>
+
+   <li><span class="date">[2026-06-11]</span><a href="info/1266/18317.htm" target="_blank" title="化工学院田文德教授、崔哲副教授团队在化工过程安全领域取得新进展">化工学院田文德教授、崔哲副教授团队在化工过程安全领域取得新进展</a></li>
+</ul>
+
+</div>
+<div id="block_more">
+<div id="more_btn"><a href="index/xsdt.htm" target="">查看更多</a></div></div><script>_showDynClickBatch(['dynclicks_u9_18543','dynclicks_u9_18512','dynclicks_u9_18510','dynclicks_u9_18472','dynclicks_u9_18403','dynclicks_u9_18370','dynclicks_u9_18335','dynclicks_u9_18317'],[18543,18512,18510,18472,18403,18370,18335,18317],"wbnews", 1286554817)</script>
+</div>
+<div id="main_r3_right">
+<div id="slider-container">
+<div class="box_skitter box_skitter_large"><ul>
+
+
+<li><a href="info/1266/15984.htm" target="blank"><img alt="" src="/__local/6/8A/B1/7B8EB6D97115D8C516AE25D1B81_AB9AB1C2_70773.png" border="0"></a> 
+<div class="label_text"><a href="info/1266/15984.htm" target="blank">
+<h3 class="colortext uppercase">化工学院刘杰副教授在水系锌离子电池电...</h3></a><span><a href="info/1266/15984.htm" target="blank">化石能源的不断消耗和环境污染的日益严重迫使我们加快新旧动能转换，大力发展清洁...</a></span></div></li>
+
+
+
+
+<li><a href="info/1266/15846.htm" target="blank"><img alt="" src="/__local/9/F9/CA/A1419B819CF13609F314854AE8A_E81F1BDC_15846.jpg" border="0"></a> 
+<div class="label_text"><a href="info/1266/15846.htm" target="blank">
+<h3 class="colortext uppercase">化工学院吕志果教授团队在CO2环加成和水...</h3></a><span><a href="info/1266/15846.htm" target="blank">近日，化工学院吕志果教授团队在CO2环加成制环状碳酸酯和光催化制氢领域取得新进展...</a></span></div></li>
+
+
+
+
+<li><a href="info/1266/15841.htm" target="blank"><img alt="" src="/__local/F/1A/6A/82FF8E637C2F332957A69A4B19C_21B6BBD0_2EE45.jpg" border="0"></a> 
+<div class="label_text"><a href="info/1266/15841.htm" target="blank">
+<h3 class="colortext uppercase">化工学院陶旭梅教授团队在废塑料资源化...</h3></a><span><a href="info/1266/15841.htm" target="blank">化工学院陶旭梅教授团队在废塑料资源化用于光芬顿领域取得新进展，相关成果以“Con...</a></span></div></li>
+
+
+</ul><script>_showDynClickBatch(['dynclicks_u10_15984','dynclicks_u10_15846','dynclicks_u10_15841'],[15984,15846,15841],"wbnews", 1286554817)</script>
+</div>
+<div id="shadow-img-slider"></div></div><!-- end #slider-container --></div></div></div></div>
+<div id="main_r3"><!--印象资料 begin-->
+<div class="index-action-box">
+<div class="index-action"><!--特色活动-->
+<div class="part">
+<div class="part-header"><a href="index/qczx.htm" style="font-size:12px; color:#666; float:right;">more</a>青春在线 </div>
+<div class="part-header-line1"></div> <div class="action-sbanner">
+                    <div class="action-container">
+                        <div class="action-inner action-clearfix">
+
+                            <div class="action-innerwraper"><img src="/__local/3/79/63/E516D17C0878DA9A5ACE0070E31_15E18FE3_17C577.jpg" width="320" height="220" alt=""></div>
+                            <div class="action-innerwraper"><img src="/__local/D/11/E8/5ADF3019DF34C23711022684490_183D706D_7276B.jpg" width="320" height="220" alt=""></div>
+                            <div class="action-innerwraper"><img src="/__local/F/A8/70/B0C4D7E4F44034A5BE37EDCE837_1755B0EE_1CAC5A.png" width="320" height="220" alt=""></div>
+                            <div class="action-innerwraper"><img src="/__local/8/16/17/69E45DC3501DC2E1F0BCA679745_8EC12450_8EEE25.jpg" width="320" height="220" alt=""></div>
+                            <div class="action-innerwraper"><img src="/__local/2/96/01/8ADF6FC1EF403DF223B6A6F63D4_60A05889_378B2D.gif" width="320" height="220" alt=""></div>
+							
+                        </div>
+                        <div class="action-pagination action-pagination1">
+                            <span class="active"></span>
+                            <span class=""></span>
+                            <span class=""></span>
+                            <span class=""></span>
+                            <span class=""></span>
+							
+                        </div>
+                    </div>
+                </div>
+                <div style="width:100%;height:45px;"></div>
+                <div class="action-sbanner-title">
+
+                    <label class="flag1 on" style="display: inline;">   <a href="info/1267/16449.htm">                    <div class="title">化工学院“墨韵丹青”宣讲团赴大港街道开展...</div>     <div class="desc">为进一步传承中华优秀传统文化，品读中国古代绘画艺术，化工学院“墨韵丹青”宣讲团于10月30日深入大港...</div>      </a>                           </label>
+                    <label class="flag2 " style="display: none;">   <a href="info/1267/16116.htm">                    <div class="title">中医药文化进校园，传承国粹润童心</div>     <div class="desc">为了向小学生们普及中医药知识，弘扬中华优秀传统文化，同时提高孩子们的健康意识。古方新传宣讲团在青...</div>      </a>                           </label>
+                    <label class="flag3 " style="display: none;">   <a href="info/1267/15842.htm">                    <div class="title">【趁青春 进社区】化工学院走进大港街道青海...</div>     <div class="desc">新春佳节至，万象更新始。为提高社区居民生活质量，服务社区工作，营造吉祥如意的春节氛围，化工学院化...</div>      </a>                           </label>
+                    <label class="flag4 " style="display: none;">   <a href="info/1267/15676.htm">                    <div class="title">【趁青春 进社区】化工学院志愿者走进内蒙古...</div>     <div class="desc">为积极响应健康中国战略，做好安全用药科普宣传及志愿服务，将安全用药观念普及到基层乡村中，以实际行...</div>      </a>                           </label>
+                    <label class="flag5 " style="display: none;">   <a href="info/1267/15675.htm">                    <div class="title">化工学院团委举办“星星点亮黑夜，感恩照亮...</div>     <div class="desc">为弘扬知恩图报的传统美德，教育引导学生学会感恩，2023年11月24日，化工学院举办“星星点亮黑夜，感恩...</div>      </a>                           </label>
+                    
+                  
+                    
+                  
+                  
+					
+                </div><script>_showDynClickBatch(['dynclicks_u11_16449','dynclicks_u11_16116','dynclicks_u11_15842','dynclicks_u11_15676','dynclicks_u11_15675'],[16449,16116,15842,15676,15675],"wbnews", 1286554817)</script>
+</div><!--人物专访-->
+<div class="part">
+<div class="part-header part-header2"><a href="index/jsfc.htm" style="font-size:12px; color:#666; float:right;">more</a>教师风采</div>
+<div class="part-header-line2"></div> <div class="action-sbanner">
+                    <div class="action-container">
+                        <div class="action-inner action-clearfix">
+
+                            <div class="action-innerwraper"><img src="/__local/A/57/86/AE4003DD63575BC4E5A9C7D2659_23E548F8_1401.jpg" width="320" height="220" alt=""></div>
+                            <div class="action-innerwraper"><img src="/__local/1/D8/31/3A095433C72F8EF628354506D0D_C15049A5_2DE5E7.jpg" width="320" height="220" alt=""></div>
+                            <div class="action-innerwraper"><img src="/__local/5/B5/78/4C54988198C0A9FDAA120925E9D_999B4702_7C6E.jpg" width="320" height="220" alt=""></div>
+                            <div class="action-innerwraper"><img src="/__local/8/FD/0B/5DBC1E3BD7BC6A32D45CFB8A9CC_1FD2607F_25DA29.png" width="320" height="220" alt=""></div>
+                            <div class="action-innerwraper"><img src="/__local/2/85/40/7E60F102DFA35C1FE6389FF773E_B529D611_1E5D.jpg" width="320" height="220" alt=""></div>
+							
+                        </div>
+                        <div class="action-pagination action-pagination2">
+                            <span class="active"></span>
+                            <span class=""></span>
+                            <span class=""></span>
+                            <span class=""></span>
+                            <span class=""></span>
+							
+                        </div>
+                    </div>
+                </div>
+                <div style="width:100%;height:45px;"></div>
+                <div class="action-sbanner-title">
+
+                    <label class="flag1 on" style="display: inline;">   <a href="info/1043/6393.htm">                    <div class="title">王荣方</div>     <div class="desc">►个人简介工作职位：教授，博士生、硕士生导师办公地址：CCF大楼-935工作邮箱：rfwang@qust.edu.cn招生...</div>      </a>                           </label>
+                    <label class="flag2 " style="display: none;">   <a href="info/1043/15537.htm">                    <div class="title">王晓武</div>     <div class="desc">►个人简介工作职位：教授办公地址：四方校区CCF610工作邮箱：collin2429@163.com招生专业：化学工程与...</div>      </a>                           </label>
+                    <label class="flag3 " style="display: none;">   <a href="info/1043/4652.htm">                    <div class="title">金欣</div>     <div class="desc">►个人简介工作职位：教授，博士生导师办公地址：青岛科技大学CCF大楼工作邮箱：jinx1971@163.com研究生...</div>      </a>                           </label>
+                    <label class="flag4 " style="display: none;">   <a href="info/1043/13710.htm">                    <div class="title">秦国辉</div>     <div class="desc"></div>      </a>                           </label>
+                    <label class="flag5 " style="display: none;">   <a href="info/1043/15832.htm">                    <div class="title">王伟文</div>     <div class="desc">►个人简介工作职位：化学工艺教研室，教授，博士/硕士研究生导师办公地址：CCF大楼603室工作邮箱：wang...</div>      </a>                           </label>
+                    
+                  
+                    
+                  
+                  
+					
+                </div><script>_showDynClickBatch(['dynclicks_u12_6393','dynclicks_u12_15537','dynclicks_u12_4652','dynclicks_u12_18522','dynclicks_u12_15832'],[6393,15537,4652,18522,15832],"wbnews", 1286554817)</script>
+</div><!--校友风采-->
+<div class="part last-part">
+<div class="part-header part-header3"><a href="t/byhg.htm" style="font-size:12px; color:#666; float:right;">more</a>榜样化工</div>
+<div class="part-header-line3"></div> <div class="action-sbanner">
+                    <div class="action-container">
+                        <div class="action-inner action-clearfix">
+
+                            <div class="action-innerwraper"><img src="/__local/E/D7/58/71D91152369ABEB4D0C7B37E1EF_75581BFE_76286.png?e=.png" width="320" height="220" alt=""></div>
+                            <div class="action-innerwraper"><img src="/__local/C/57/78/8A28C1234CD1182CBF7748D56C5_BB0D4A46_70045.jpg?e=.jpg" width="320" height="220" alt=""></div>
+                            <div class="action-innerwraper"><img src="/__local/A/0C/46/E2FF52CFB0FF83A15987B0A2C66_9FE4C898_4FB003.jpg?e=.jpg" width="320" height="220" alt=""></div>
+                            <div class="action-innerwraper"><img src="/__local/9/37/49/3D1F2E8A664E2544A3640CB84CD_968BEBAB_40A7F.jpg?e=.jpg" width="320" height="220" alt=""></div>
+                            <div class="action-innerwraper"><img src="/__local/B/3D/C1/1AB26184F9B369431E6128BAE6F_F1795C23_59D99.jpg?e=.jpg" width="320" height="220" alt=""></div>
+							
+                        </div>
+                        <div class="action-pagination action-pagination3">
+                            <span class="active"></span>
+                            <span class=""></span>
+                            <span class=""></span>
+                            <span class=""></span>
+                            <span class=""></span>
+							
+                        </div>
+                    </div>
+                </div>
+                <div style="width:100%;height:45px;"></div>
+                <div class="action-sbanner-title">
+
+                    <label class="flag1 on" style="display: inline;">   <a href="info/1127/18292.htm">                    <div class="title">【榜样化工】化工学院魏家晖同学国奖事迹登...</div>     <div class="desc">5月5日，《人民日报》刊发《2025年研究生国家奖学金获奖学生代表名录》，报道了100名荣获研究生国家奖学...</div>      </a>                           </label>
+                    <label class="flag2 " style="display: none;">   <a href="info/1127/18159.htm">                    <div class="title">【榜样化工】制剂231班韩苹荣获学校第二十届...</div>     <div class="desc">近日，由学生处开展的青岛科技大学第二十届“十大优秀学生”评选名单公布，化工学院制剂231班韩苹荣获“...</div>      </a>                           </label>
+                    <label class="flag3 " style="display: none;">   <a href="info/1127/18160.htm">                    <div class="title">【榜样化工】化工学院化工227班班长韩佳铭获...</div>     <div class="desc">韩佳铭，男，共青团员，化工学院化学工程与工艺227班班长；青岛科技大学科技创新协会四方分会会长（2024...</div>      </a>                           </label>
+                    <label class="flag4 " style="display: none;">   <a href="info/1127/18161.htm">                    <div class="title">【榜样化工】制药222班孙雨瑄荣获学校第十九...</div>     <div class="desc">近日，由学生处开展的青岛科技大学第十九届“十大优秀学生”评选名单公布，化工学院制药222班孙雨瑄荣获...</div>      </a>                           </label>
+                    <label class="flag5 " style="display: none;">   <a href="info/1127/14072.htm">                    <div class="title">化工实验191班王志豪获学校第十六届“十大优...</div>     <div class="desc">王志豪，中共预备党员，化工实验191班生活委员、舍长、CEI科技创新协会会长。综合测评排名：1/29,1/29,1...</div>      </a>                           </label>
+                    
+                  
+                    
+                  
+                  
+					
+                </div><script>_showDynClickBatch(['dynclicks_u13_18292','dynclicks_u13_18159','dynclicks_u13_18160','dynclicks_u13_18161','dynclicks_u13_14072'],[18292,18159,18160,18161,14072],"wbnews", 1286554817)</script>
+</div></div></div><!--印象资料 end--><script src="dfiles/16236/temp/qkhg/images/sbanner.js"></script><script src="dfiles/16236/temp/qkhg/images/ActionSbanner.js"></script></div>
+<div class="clearfix"></div></div>
+<div id="bottom">
+<div class="footeTop">
+<div class="center">
+<div class="footerLeft">
+<h2>快速导航</h2>
+<div>    <a href="http://www.most.gov.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 20561)">科学技术部</a>
+     <span> | </span> 
+    <a href="http://www.moe.gov.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 20562)">教育部</a>
+     <span> | </span> 
+    <a href="http://www.nsfc.gov.cn/" title="自然科学基金委员会" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 20565)">自然基金委</a>
+     <span> | </span> 
+    <a href="http://www.ciesc.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 20563)">中国化工学会</a>
+     <span> | </span> 
+    <a href="http://www.cpcia.org.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 20564)">石化联合会</a>
+     
+    <a href="http://kjt.shandong.gov.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 63792)">山东省科技厅</a>
+     <span> | </span> 
+    <a href="http://edu.shandong.gov.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 63793)">山东省教育厅</a>
+     <span> | </span> 
+    <a href="http://fgw.shandong.gov.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 63795)">山东省发改委</a>
+     <span> | </span> 
+    <a href="http://www.sdscce.org.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 63794)">山东化工学会</a>
+     <span> | </span> 
+    <a href="http://www.cteic.com/index.html" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 63802)">中国化工教育协会</a>
+     
+    <a href="http://qdstc.qingdao.gov.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 63796)">青岛市科技局</a>
+     <span> | </span> 
+    <a href="https://kjc.qust.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 63797)">校科技处</a>
+     <span> | </span> 
+    <a href="https://jw.qust.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 63799)">校教务处</a>
+     <span> | </span> 
+    <a href="https://renshi.qust.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 63800)">校人事处</a>
+     <span> | </span> 
+    <a href="https://jcc.qust.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1286554817, 63801)">校财务处</a>
+     
+
+
+
+
+
+
+</div></div>
+<div class="footerRight">
+<h2></h2>
+<div>
+    <p>
+<IMG src="images/10128.jpg" border="0"> <SPAN>微信公众号</SPAN> 
+</p>
+<p>
+<IMG src="images/10127.jpg" border="0"> <SPAN>QQ公众号</SPAN> 
+</p>
+</div></div></div></div>
+<div id="bottom_inner"><div id="bottom_left">Copyright 2019 版权所有：青岛科技大学化工学院
+        &nbsp;&nbsp;<br>鲁ICP备05001948号-1   鲁公网安备 37021202000007号  E-mail：jingcai@qust.edu.cn &nbsp;&nbsp;</div>
+<div id="bottom_right"><a href="#top"><img border="0" src="dfiles/16236/temp/qkhg/images/totop.jpg" width="45" height="45"></a></div></div></div>
+
+</body></html>

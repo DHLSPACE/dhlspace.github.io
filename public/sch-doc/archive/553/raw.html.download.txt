@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+     
+ 
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+               <!--
+                                                               (0 0)
+                                           +=============oOO====(_)================+
+                                           |   Powered By wanhu - www.wanhu.com.cn |
+                                           |   Tel:400-888-0035  020-85575672      |
+                                           |   Creation:2026.09.17                 |
+                                           |   ezEip v5.3.0(0649)                  |
+                                           +==========================oOO==========+
+                                                              |__|__|
+                                                               || ||
+                                                              ooO Ooo
+                                        -->                                        
+<meta name="Author" content="万户网络设计制作" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="/editor/editor.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript" src="/cn/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/cn/js/a.whir.search.js"></script>
+<script type="text/javascript" src="/cn/js/a.whir.menu.js"></script>
+<link rel="stylesheet" type="text/css" href="/cn/css/responsive.css" />
+<link rel="stylesheet" type="text/css" href="/cn/css/style.css" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/cn/js/html5shiv.v3.72.min.js"></script>
+<![endif]-->
+
+
+
+    <script>
+    if("True"=="False"){
+        location.href='/index.aspx';
+    }
+    </script>
+</head>
+<body>
+
+<!--打印内容开始-->
+<div id="information1">
+
+
+
+
+<!--top start-->
+ 
+ 
+<!--Top002633 star-->
+<div class="Top002633">
+  <div class="auto auto_1200 box1">
+    <div class="top_menu">
+      <dl>
+        <dd class="reg"><a><i><div id="dateTime"></div></i></a></dd>
+        
+        <dd class="member"><a href='http://www.sinano.cas.cn/' target="_blank"><i>所网站</i></a></dd>
+          
+        <dd class="btn_search"><a href="javascript:void(0);"></a></dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+    <div class="search">
+      <input type="text" class="text" id="TopKey" value="" >
+      <a id="TopBtn" class="btn" href="javascript:void(0);"><span class="glyphicon glyphicon-search"></span></a> 
+    </div>
+  </div>
+
+  <div class="header-top auto auto_1200">
+    <div class="logo"><a href='/index.aspx'>
+    
+    <img src="/uploadfiles/2023/10/th_20231017165256886.png?56CU56m25omALeaVmeiCsuWkhOeFp+eJhy5wbmc="><img src="/uploadfiles/image/Top002633_logo2.png?VG9wMDAyNjMzX2xvZ28yLnBuZw==">
+      
+    </a></div>
+    <dl class="header-right">
+      <dd id="open_menu"><i></i></dd>
+    </dl>
+  </div>
+  
+  <div class="header-bottom">
+    <header class="header auto auto_1200">
+      <nav class="header-menu sub-vertical clearfix sub-slideDown" >
+        <ul class="ul clearfix">
+          <li id="m1"><em><a href='/index.aspx'>首 页</a></em></li>
+          <li id="m2"><em><a href='/AboutTheCollege/index.aspx'>部门概况</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/AboutTheCollege/index.aspx\">学院简介</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/AboutTheCollege/index.aspx?parent'>学院简介</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/CollegeLeaders/index.aspx\">学院领导</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/CollegeLeaders/index.aspx?parent'>学院领导</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/JobFunctions/list.aspx\">岗位职能</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/JobFunctions/list.aspx?parent'>岗位职能</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/ContactUs/index.aspx\">联系我们</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/ContactUs/index.aspx?parent'>联系我们</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m10"><em><a href='/DisciplineSettings/index.aspx'>招生</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DisciplineSettings/index.aspx\">学科设置</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DisciplineSettings/index.aspx?parent'>学科设置</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/AdmissionsOverview/index.aspx\">招生概况</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/AdmissionsOverview/index.aspx?parent'>招生概况</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Master/list.aspx\">硕士招生</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Master/list.aspx?parent'>硕士招生</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/sions/list.aspx\">博士招生</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/sions/list.aspx?parent'>博士招生</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Students/list.aspx\">留学生</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Students/list.aspx?parent'>留学生</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m17"><em><a href='/TrainingPrograms/list.aspx'>培养</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/TrainingPrograms/list.aspx\">培养方案</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/TrainingPrograms/list.aspx?parent'>培养方案</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/AwardWinners/index.aspx\">奖学金</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/AwardWinners/index.aspx?parent'>奖学金</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/StudentStatusManagement/list.aspx\">学籍管理</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/StudentStatusManagement/list.aspx?parent'>学籍管理</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m21"><em><a href='/DegreeSub-Committee/index.aspx'>学位</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DegreeSub-Committee/index.aspx\">学位分委员会</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DegreeSub-Committee/index.aspx?parent'>学位分委员会</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DegreeApplicationProcess/index.aspx\">学位申请流程</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DegreeApplicationProcess/index.aspx?parent'>学位申请流程</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DegreeGrant/list.aspx\">学位授予</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DegreeGrant/list.aspx?parent'>学位授予</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/ThesisDefense/list.aspx\">日程安排</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/ThesisDefense/list.aspx?parent'>日程安排</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m27"><em><a href='/Employ/list.aspx'>毕业与就业</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Employ/list.aspx\">就业资讯</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Employ/list.aspx?parent'>就业资讯</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Job-huntingPlatform/list.aspx\">求职平台</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Job-huntingPlatform/list.aspx?parent'>求职平台</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/EmploymentPolicy/list.aspx\">就业政策</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/EmploymentPolicy/list.aspx?parent'>就业政策</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/GraduateNotice/list.aspx\">毕业生通知</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/GraduateNotice/list.aspx?parent'>毕业生通知</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m26"><em><a href='/Postdoctoral/list.aspx'>科研进展</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m32"><em><a href='/GraduateAssociation/index.aspx'>研究生活动</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/GraduateAssociation/index.aspx\">研究生会</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/GraduateAssociation/index.aspx?parent'>研究生会</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Societies/index.aspx\">社团</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Societies/index.aspx?parent'>社团</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/ColorfulActivities/list.aspx\">风采展示</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/ColorfulActivities/list.aspx?parent'>风采展示</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m37"><em><a href='/Regulations/list.aspx'>规章制度</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m38"><em><a href='/DownloadCenter/list.aspx?lcid=5'>下载中心</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=5'>学生入所</a></dt>
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=4'>学生管理</a></dt>
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=2'>常用证明</a></dt>
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=1'>毕业离所</a></dt>
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          
+        </ul>
+      </nav>
+
+    </header>
+  </div>
+  <script type="text/javascript">
+      
+          
+          // $("#m").addClass("aon");
+          var m='10'
+          
+              
+	  
+	  
+          //搜索打开
+          $(".Top002633 .btn_search").click(function(e) {
+          $(".Top002633 .search").show(300);
+      });
+      $(".Top002633 .search").bind("mouseleave",function(){
+          $(this).hide(300);
+      })
+	  
+	  
+      $("#TopBtn").jqSearch({
+          TxtVal: "关键字搜索",
+          KeyTxt1: "输入关键词搜索！",
+          KeyTxt2: "输入的关键词字数不要过多！",
+          KeyTxt3: "您输入的内容存在特殊字符！",
+          KeyId: "TopKey", //输入框id
+          KeyUrl: "/Search/list.aspx", //跳转链接
+          KeyHref: "key", //链接传值
+          Static: false //是否静态站
+      });
+	  
+      function dateTime(){
+          var time=new Date();
+          var week;
+          switch (time.getDay()){       //time.getDay()获取后显示1~7阿拉伯数字
+          case 1: week="星期一"; break;
+          case 2: week="星期二"; break;
+          case 3: week="星期三"; break;
+          case 4: week="星期四"; break;
+          case 5: week="星期五"; break;
+          case 6: week="星期六"; break;
+          default: week="星期天";
+          }
+          var year=time.getFullYear();
+          var month=time.getMonth();
+          var date=time.getDate();
+          document.getElementById("dateTime").innerHTML = year+"-"+(month+1)+"-"+date+"  "+week;
+      }
+      setInterval(dateTime,1000);     //每隔1秒显示一次
+  </script> 
+</div>
+<!--Top002633 end--> 
+
+
+<!--top end--> 
+
+
+
+<!--网页主体部分 开始-->
+<section class="content"> 
+
+<div class="auto auto_1200">
+  <div class="w18 fl"> 
+  <!--二级 start--> 
+   
+ 
+<!--Menu001651开始-->
+<div class="Menu001651">
+ <ul class="ul clearfix">
+   <div class="title">
+   
+   招生<span>Enrollment</span>
+   
+   </div>
+   
+   <li id="nav11"><a class="dot" href='/DisciplineSettings/index.aspx'>学科设置</a></li>
+   <li id="nav12"><a class="dot" href='/AdmissionsOverview/index.aspx'>招生概况</a></li>
+   <li id="nav13"><a class="dot" href='/Master/list.aspx'>硕士招生</a></li>
+   <li id="nav14"><a class="dot" href='/sions/list.aspx'>博士招生</a></li>
+   <li id="nav15"><a class="dot" href='/Students/list.aspx'>留学生</a></li>
+   
+    
+        
+ </ul>
+<script>
+   var nav ='13'	  	  
+   var sub =''	  	  
+   $("#nav"+nav).addClass("aon");
+   $("#sub"+sub).addClass("aon");
+</script> 
+</div>
+<!--Menu001651结束--> 
+
+
+  <!--二级 end--> 
+  </div>
+    
+  
+  <div class="w79 fr"> 
+  
+  <div class="RichInfo006"> 
+   <div class="auto">
+   <div class="title">
+     <h1>中国科学技术大学纳米技术与纳米仿生学院（苏州纳米所）2025年工程硕博士培养专项推荐免试研究生 招生宣讲会及预报名通知</h1>
+     <p>
+     <span>发布日期：2024-09-04</span>
+     <span>浏览次数：
+<script id="whirlabelhit" type="text/javascript">
+$(function(){
+            $.ajax({
+                type: "POST",
+                url: "/label/ajax/hit.aspx",
+                data: "type=0&colid=13&itemid=1479&f=Hits",
+                success: function (result) { $("#whirlabelhit").before(result)  }
+            });
+    });
+
+</script>
+</span>
+     <span>【<i class="big">大</i><i class="amid">中</i><i class="small">小</i>】</span>
+     <span><input type="button"  class="btn btn-primary" value="【打印】" onclick="printdata()"/><a href="/Master/list.aspx">【关闭】</a></span>
+     </p>
+   </div>
+   <div class="info">
+       <p class="p">
+	纳米技术与纳米仿生学院（苏州纳米所）2025年继续招收工程硕博士培养专项（分为专项一和专项二）推荐免试研究生，拟招收0854电子信息或0856材料与化工专业的硕士和直接攻博的推免生。
+</p>
+<p class="p">
+	<strong>一、报名条件</strong>
+</p>
+<p class="p">
+	凡电子科学与技术、集成电路、物理学、半导体、化学、材料科学与工程等专业或相近专业的且在高等院校获得推荐免试资格的优秀应届本科毕业生均可申请。申请者应具备如下条件：
+</p>
+<p class="p">
+	1. 拥护中国共产党的领导，愿为祖国建设服务。品德良好，遵纪守法，诚实守信，学风端正，无考试作弊和剽窃他人学术成果以及其他违纪言行受纪律处分情况（处分期内）；录取后至开学前，若受到所在学校处分，将取消研究生录取资格。
+</p>
+<p class="p">
+	2. 在目前就读高校可取得教育部推荐免试攻读研究生资格的2025年优秀应届本科毕业生。学习总成绩原则上不低于所在专业前30%。
+</p>
+<p class="p">
+	3. 对工程技术领域研究兴趣浓厚，有较强的专业能力、创新能力、协作能力。
+</p>
+<p class="p">
+	4. 身体健康状况符合国家和我校规定的体检要求。
+</p>
+<p class="p">
+	5. 专项招生采用“申请-考核”制，申请人报名前应仔细核对本人是否符合申请条件。凡不符合申请条件的申请人将不予录取，相关后果由申请人本人承担。
+</p>
+<p class="p">
+	<strong>二、专项招生宣讲会</strong>
+</p>
+<p class="p">
+	学院拟于<strong>9月6日12:00举办线上专项招生宣讲会</strong>，介绍专项工作背景、联培单位、指导教师、培养模式、过程管理和就业前景等的情况。参会需申请，报名入口为：https://www.wjx.cn/vm/hh7xxPF.aspx# ，<strong>报名截止时间为9月5日下午16:00</strong>，报名截止后会向报名考生邮箱发送线上参会信息，请注意及时查看。
+</p>
+<p class="p">
+	<strong>三、报名方式</strong>
+</p>
+<p class="p">
+	1. 报名时间：<strong>9月6日9:00至9月12日17:00</strong>。
+</p>
+<p class="p">
+	2. 申请材料：
+</p>
+<p class="p">
+	（1）本人学生证、身份证。
+</p>
+<p class="p">
+	（2）本科阶段历年成绩单（含学业排名证明），须加盖学校教务处或所在院系公章。
+</p>
+<p class="p">
+	（3）外语水平证明，如CET-4、CET-6、雅思、托福、专业外语成绩等。
+</p>
+<p class="p">
+	（4）本人自述，内含个人简介、思想品德、学习情况、参与科研工程项目经历及成果、发表论文及专利等需要陈述的内容。个人自述须言简意赅，格式清晰，限800字内，PDF格式。
+</p>
+<p class="p">
+	（5）其他附加申请材料及其证明。
+</p>
+<p class="p">
+	3. <strong>报名方式</strong>：
+</p>
+<p class="p">
+	<strong>（1）专项一：中国科学技术大学2025年工程硕博士培养改革专项</strong>
+</p>
+<p class="p">
+	参照“中国科学技术大学2025年工程硕博士培养改革专项推免生预选拔招生简章”报名（https://yz.ustc.edu.cn/article/2734/182?num=-1）
+</p>
+<p class="p">
+	<strong>（2）专项二：集成电路专项</strong>
+</p>
+<p class="p">
+	申请人先进行预报名，填写“报名信息表”，https://www.wjx.cn/vm/tRHzScJ.aspx#&nbsp;&nbsp;（请复制后在网页中打开），并将以上所有申请材料扫描为一个pdf文件，以“集成电路专项推免预报名+姓名”命名，发送至yjsb@sinano.ac.cn。
+</p>
+<p class="p">
+	所有专项的研究生采取工学交替培养模式，与合作单位联合培养。
+</p>
+<p class="p">
+	<strong>四、选拔与拟录取</strong>
+</p>
+<p class="p">
+	1. 材料和资格审查
+</p>
+<p class="p">
+	本单位将对所有申请人的全部材料逐一进行审阅，择优确定面试考核名单，通知申请人参加综合考核（申请材料不予退还）。
+</p>
+<p class="p">
+	2. 综合考核
+</p>
+<p class="p">
+	设立专业领域考核组，对申请人在该领域的基础理论知识、创新潜质、工程素养、兴趣意愿等方面进行考核。考核时间、方式以考核组具体通知为准。暂定9月18日前完成考核，未通过专项考核的考生，如果符合条件，可继续申请其他推免招生。
+</p>
+<p class="p">
+	3. 录取
+</p>
+<p class="p">
+	专项校企招生工作组以申请人考核成绩为主要依据，并结合具体招生情况、培养条件、招生名额分配方案、联培单位意见等综合确定拟录取名单和培养层次，与申请人沟通确认接收意愿。申请人确认后，还须按教育部、本科所在学校和省市招办要求，在规定时间内登录教育部推荐免试服务系统，完成填报志愿、缴纳报名费、接受复试确认、接受待录取确认等环节，具体网址和系统开放时间等内容后续将在中国科大研究生招生在线（https://yz.ustc.edu.cn）发布的《中国科学技术大学2025年推免生接收办法》中另行通知。
+</p>
+<p class="p">
+	<strong>五、相关说明</strong>
+</p>
+<p class="p">
+	1. 凡是符合报名条件的考生均可申请本专项。已经取得苏州纳米所夏令营合格证的同学如果申请本专项并通过考核拟录取，则视为自动放弃夏令营合格证。已参加过苏州纳米所夏令营的同学如想参加专项须重新报名且通过该专项组织的考核。
+</p>
+<p class="p">
+	2. 专项就业方式为非定向就业。如被录取，入学前应将人事档案转入我校。
+</p>
+<p class="p">
+	3. 申请人应保证填报信息及上传材料的真实性和准确性。凡提供虚假信息的，一经查实即取消申请资格，并通报申请人所在学校。拟录取考生入学报到时，学校会对其报名材料原件及报考资格进行再次审查，对不符合规定或弄虚作假者，一经查实，取消入学资格。
+</p>
+<p class="p">
+	4. 如有新的政策和要求，学校将做相应调整，并及时通知考生。考生须确保移动电话畅通，以便及时联系。请密切关注中国科大研究生招生在线（https://yz.ustc.edu.cn/）。
+</p>
+<p class="p">
+	<strong>六、地址及联系方式</strong>
+</p>
+<p class="p">
+	中国科学院苏州纳米技术与纳米仿生研究所教育处
+</p>
+<p class="p">
+	江苏省苏州市工业园区若水路398号
+</p>
+<p class="p">
+	邮&emsp;编：215123
+</p>
+<p class="p">
+	电&emsp;话：0512-62872676，62872682
+</p>
+<p class="p">
+	E- mail：yjsb@sinano.ac.cn
+</p>
+<p class="p">
+	<br />
+</p>
+<p class="p">
+	<a class="ke-insertfile" href="/uploadfiles/2024/09/20240904185139262.docx" target="_blank">附件：思想品德证明</a>
+</p>       
+       <div class="clear"></div>
+   </div>
+    <div class="info_pn clearfix">
+       <div class="left"><a href="/master/info.aspx?itemid=1538"><span>上一篇：</span>2025年中国科学院苏州纳米所-上海科技大学联...</a></div>
+       <div class="right"><a href="/master/info.aspx?itemid=1464"><span>下一篇：</span>纳米技术与纳米仿生学院（苏州纳米所） 关于调...</a></div>
+    </div>
+   </div>
+   
+   
+   <script type=text/javascript>
+	 // 大 中 小  
+	 $(".RichInfo006 .title .big").click(function(){
+     $(".RichInfo006 .info").addClass("bigs");
+     $(".RichInfo006 .info").removeClass("smalls"); 
+     $(".RichInfo006 .info").removeClass("amids"); 
+     });
+   
+	 $(".RichInfo006 .title .amid").click(function(){
+     $(".RichInfo006 .info").addClass("amids");
+	 $(".RichInfo006 .info").removeClass("bigs"); 
+     $(".RichInfo006 .info").removeClass("smalls"); 
+     });
+   
+	 $(".RichInfo006 .title .small").click(function(){
+     $(".RichInfo006 .info").addClass("smalls");
+	 $(".RichInfo006 .info").removeClass("bigs"); 
+     $(".RichInfo006 .info").removeClass("amids"); 
+     });
+	// 打印
+	function printdata() {
+     window.document.body.innerHTML=window.document.getElementById("information1").innerHTML;
+     window.print();
+    }   
+   </script>
+  </div>
+  </div>
+  <div class="clear"></div>
+</div>
+
+                                                                                                                                  
+
+
+
+
+</section>
+<!--网页主体部分 结束--> 
+
+
+
+<!--底部 开始--> 
+ 
+ 
+<!--Bottom001879开始-->
+<div class="Bottom001879">
+  <div class="auto auto_1200 clearfix">
+    
+    <figure> <img src="/uploadfiles/2020/02/th_20200226154748992.jpg?5LqM57u056CBLmpwZw==">扫一扫关注我们</figure>
+      
+    <footer>
+      <ul class="ul clearfix">
+       <li><a href='/AboutTheCollege/index.aspx'>部门概况</a></li>
+       <li><a href='/DisciplineSettings/index.aspx'>招生</a></li>
+       <li><a href='/TrainingPrograms/list.aspx'>培养</a></li>
+       <li><a href='/DegreeSub-Committee/index.aspx'>学位</a></li>
+       <li><a href='/Employ/list.aspx'>毕业与就业</a></li>
+       <li><a href='/Postdoctoral/list.aspx'>科研进展</a></li>
+       <li><a href='/GraduateAssociation/index.aspx'>研究生活动</a></li>
+       <li><a href='/Regulations/list.aspx'>规章制度</a></li>
+       <li><a href='/DownloadCenter/list.aspx?lcid=5'>下载中心</a></li>
+             
+      </ul>
+      <section>
+        <dl class="bdsharebuttonbox">
+          <dt class="wx"><a title="分享到微信" data-cmd="weixin" target="_blank" class="bshare-weixin bds_weixin" href="javascript:void(0);"></a></dt>
+          <dt class="sina"><a title="分享到新浪微博" data-cmd="tsina" target="_blank" class="bshare-sinaminiblog bds_tsina" href="javascript:void(0);"></a></dt>
+        </dl>
+        <a href='/Doctor/list.aspx'>导师队伍</a><i>|</i>
+        <a href='/SummerCamp/list.aspx'>夏令营</a><i>|</i>
+        <a href='/AwardWinners/index.aspx'>奖助学金</a><i>|</i>
+        <a href='/May4thYouthExchange/list.aspx'>五四青年交流会</a>
+        
+        <p>
+        Copyright © 2019 中国科学院苏州纳米技术与纳米仿生研究所 Inc. All rights reserved.
+		
+        <a href="http://www.beian.miit.gov.cn/" target="_blank">苏ICP备10220403号</a>
+        
+        </p>
+      </section>
+    </footer>
+  </div>
+</div>
+<!--Bottom001879结束-->
+
+
+<script type="text/javascript">
+//整站无图处理
+$.each($("img"), function (i, n) {
+$(n).on('error', function () { n.src = '/uploadfiles/nopic.jpg'; }); n.src = n.src; });
+
+//分享
+with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=' + ~(-new Date() / 36e5)];
+</script> 
+
+<!--底部 结束-->
+
+
+
+</div>
+<!--打印内容结束-->
+
+
+</body>
+</html>

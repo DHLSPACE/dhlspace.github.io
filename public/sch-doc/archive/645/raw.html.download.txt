@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>北京师范大学研究生招生网</title>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="author" content="Beijing Normal University" /> 
+        <meta name="description" content="北京师范大学是教育部直属重点大学，是一所以教师教育、教育科学和文理基础学科为主要特色的著名学府。学校的前身是1902年创立的京师大学堂师范馆，1908年改称京师优级师范学堂，独立设校。1912年改名为北京高等师范学校。1923年更名为北京师范大学，成为中国历史上第一所师范大学。1931年、1952年北平女子师范大学、辅仁大学先后并入北京师范大学。" />
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?e85d7e3fab5d4d96143892e9384d8146";
+                var s = document.getElementsByTagName("script")[0]; 
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+        <script src="/content/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="/content/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+        <script src="/content/ajax/libs/linq.js/2.2.0.2/jquery.linq.min.js"></script>
+        <script src="/content/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
+        <script src="/scripts/dengdu/dengdu.js"></script>
+        <script src="/scripts/dengdu/dengdu.bootstrap.js"></script>
+        <link href="/content/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/content/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/scripts/miniui/themes/icons.css" rel="stylesheet" />
+        <link href="/scripts/miniui/themes/default/miniui.css" rel="stylesheet" />
+        <link href="/scripts/miniui/themes/metro-white/skin.css?v=20201109" rel="stylesheet" />
+        <link href="/scripts/areas/core/atom.css?v=20201109" rel="stylesheet" />
+        <link href="/scripts/areas/core/area.css?v=20201109" rel="stylesheet" />
+        <link href="/scripts/areas/core/xlarge-mode.css?v=20201109" rel="stylesheet" />
+        
+        <link href="/content/script/flexslider.min.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]><script src="/content/script/html5shiv.min.js"></script><script src="/content/script/respond.min.js"></script><![endif]-->
+        <style type="text/css">
+            body {
+                font-family: "微软雅黑";
+            }
+            #header{
+                padding-top:20px;
+                padding-bottom:15px;
+                background-color:#004EA2;
+            }
+            #footer{
+                text-align:center;
+                background-color:#004EA2;
+                color:white;
+                height:60px;
+                line-height:60px;
+                margin-top: 20px;
+            }
+            #nav{
+                margin-bottom:0px;                
+            }
+            #nav a{
+                font-size:16px;
+            }
+            #content{
+                margin-top:20px;
+            }
+            .sidebar{
+                background-color: #f3f9fc;
+                padding:20px 0px 20px 0px;
+            }
+            .sidebar span {
+                width:100%;
+                display:block;
+                text-align: center;
+                margin-top:5px;
+            }
+            .sidebar .morelinks{                
+                color: #BF2501;
+                font-size: 16px;                
+            }
+
+            .flexslider {
+                border:0;
+                margin-bottom:0px; 
+            }
+            .flex-control-nav {
+                display:none;
+            }
+            .article-list {
+                margin-top:10px;
+            }
+            .article-list .boxtitle {
+                border-bottom: 1px solid #c9c9c9;
+                padding-bottom: 10px;
+                margin-bottom:10px;
+            }
+            .article-list .boxtitle .title{
+                font-size: 20px;
+                color: #141414;
+                font-weight: bold;
+            }
+            .article-list .boxtitle .more{
+                position: absolute;
+                right:20px;
+                color:#a9a9a9;
+            }
+            .article-list .boxlist{
+                margin-left:10px;
+            }
+            .article-list .boxlist ul{
+                list-style:none;
+                margin:0;
+                padding:0;
+            }
+            .article-list .boxlist ul li{
+                margin-top:10px;
+            }
+            .article-list .boxcontent{
+                margin-top:20px;
+            }
+            .article-list .boxpager{
+                border-top: 1px solid #c9c9c9;
+                margin-top:10px;
+                padding-top:10px;
+                color:#999;
+            }
+            .my-breadcrumb {
+                margin-top:10px;
+                color:#999;
+            }
+            .my-breadcrumb a {
+                color:#999;
+            }
+            td {
+                padding: 5px 2px 5px 2px;
+            }
+            td p {
+                /* margin: 5px 2px 5px 2px; */
+                margin: 0px;
+            }
+            .container {
+                max-width: 1200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <a href="/" style="font-size:2em; color:white;"><img src="/content/style/yz-logo.png" alt="北京师范大学" /></a>
+                    </div>
+                    <div class="col-md-3">
+                        <form name="dataForm" action="/search" method="post" style="margin-top:5px;">
+                            <div class="input-group">                                
+                                <input type="text" name="pattern" class="form-control" placeholder="搜索关键字">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="nav" class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">首页</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="/list/master" class="dropdown-toggle" data-hover="dropdown">硕士生招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="/list/master_board">最新消息</a></li>
+                                <li><a href="/list/master_brochure">招生简章</a></li>
+                                <li><a href="/list/master_info">历年数据</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/list/doctor" class="dropdown-toggle" data-hover="dropdown">博士生招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="/list/doctor_board">最新消息</a></li>
+                                <li><a href="/list/doctor_brochure">招生简章</a></li>
+                                <li><a href="/list/doctor_info">历年数据</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/list/gat">港澳台招生</a></li>
+                        <li><a href="https://admission-is.bnu.edu.cn/" target="_blank">留学生招生</a></li>
+                        <li><a href="/list/open">信息公开</a></li>
+                        <li><a href="/list/faq">常见问题</a></li>
+                        <li><a href="/list/contact">联系我们</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="navbar navbar-bg hidden-md hidden-lg">
+            <div class="container">
+                <div class="row">
+                    <ul class="nav">
+                        <li class="col-sm-4 col-xs-6"><a href="/list/master">硕士生招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/doctor">博士生招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/gat">港澳台招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/foreign">留学生招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/open">信息公开</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/faq">常见问题</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/contact">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="content" class="container">
+            <div class="row">
+                <div class="col-sm-10">  
+    <div class="article-list">
+        <div class="boxtitle">
+            <span class="title" style="font-size: 30px;">硕士生招生</span>
+            <div class="my-breadcrumb">
+                当前位置：<a href="/">首页</a> 
+                &raquo;
+                硕士生招生
+            </div>
+        </div>        
+        <div class="boxlist">
+            <ul style="min-height:200px;">
+                <li>                        
+                    <a class="counr" href="/list/master_brochure">【招生简章】</a>&nbsp;&nbsp;
+                    <a href="/detail/22d1cb67-efa1-47ec-a40d-7aee3c7bb64a">北京师范大学2026年硕士研究生招生简章</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 269402 次</span><span class="pull-right text-muted">2025-10-09</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_brochure">【招生简章】</a>&nbsp;&nbsp;
+                    <a href="/detail/7d00bdaa-5f25-45d0-b950-8db0bee39e2b">2026年硕士研究生招生专业目录</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 286161 次</span><span class="pull-right text-muted">2025-10-09</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_board">【最新消息】</a>&nbsp;&nbsp;
+                    <a href="/detail/cf0e5c48-c4d7-4f31-8dd7-0100d1efdd91">2026年公费师范毕业生在职攻读教育硕士招生简章</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 51367 次</span><span class="pull-right text-muted">2025-09-26</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_board">【最新消息】</a>&nbsp;&nbsp;
+                    <a href="/detail/b06bb30b-32c2-4202-9e3c-300168408566">北京师范大学关于接收2026年“国优计划”推荐免试研究生的通知</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 58848 次</span><span class="pull-right text-muted">2025-09-09</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_brochure">【招生简章】</a>&nbsp;&nbsp;
+                    <a href="/detail/010488a9-2a7d-4905-86fc-4afadc0ad2a2">北京师范大学2026年接收校内外推荐免试硕士/博士研究生办法</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 319938 次</span><span class="pull-right text-muted">2025-09-03</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_board">【最新消息】</a>&nbsp;&nbsp;
+                    <a href="/detail/63edc7e1-8ac1-4d1b-afcb-dab91cb0ee3c">2025年研究生新生入学须知及行李标签</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 90034 次</span><span class="pull-right text-muted">2025-07-14</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_board">【最新消息】</a>&nbsp;&nbsp;
+                    <a href="/detail/b8a64401-6a46-4216-b7d3-c6fedad55c62">北京师范大学关于调整2026年全国硕士研究生招生考试初试科目的公告</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 137861 次</span><span class="pull-right text-muted">2025-06-05</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_board">【最新消息】</a>&nbsp;&nbsp;
+                    <a href="/detail/71272c39-8ec2-44c4-970f-e37428be1dc7">关于录取通知书、组织关系和户口的通知</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 100987 次</span><span class="pull-right text-muted">2025-06-03</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_board">【最新消息】</a>&nbsp;&nbsp;
+                    <a href="/detail/5b6d04cc-2394-4e8b-8fc4-018b305772cd">北京师范大学2025年硕士研究生调剂方案</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 88403 次</span><span class="pull-right text-muted">2025-04-01</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_board">【最新消息】</a>&nbsp;&nbsp;
+                    <a href="/detail/d7db8158-f80f-4254-ae77-6220a09cc8f3">北京师范大学2025年硕士研究生招生调剂工作办法</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 50253 次</span><span class="pull-right text-muted">2025-04-01</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_board">【最新消息】</a>&nbsp;&nbsp;
+                    <a href="/detail/4cf3511b-0a59-4f71-82ce-cfcb91e21050">北京师范大学2025年硕士研究生招生复试方案汇总</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 188358 次</span><span class="pull-right text-muted">2025-03-14</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_board">【最新消息】</a>&nbsp;&nbsp;
+                    <a href="/detail/565b4df7-3572-4711-8bfe-94868cefa9f1">北京师范大学硕士研究生招生复试录取办法</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 146619 次</span><span class="pull-right text-muted">2025-03-14</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_board">【最新消息】</a>&nbsp;&nbsp;
+                    <a href="/detail/7d8a5d2f-9918-4bac-bca4-c482403d0c9a">北京师范大学2025年硕士研究生招生复试分数线</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 217046 次</span><span class="pull-right text-muted">2025-03-13</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_board">【最新消息】</a>&nbsp;&nbsp;
+                    <a href="/detail/77810013-b3d0-46fa-bbd6-9615a8561a52">北京师范大学2025年硕士研究生招生学校复试基本分数线</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 180888 次</span><span class="pull-right text-muted">2025-03-12</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_board">【最新消息】</a>&nbsp;&nbsp;
+                    <a href="/detail/f6dc0e1d-6ad4-429c-a0c9-7bd583226e17">北京师范大学2025年港澳台研究生招生专业目录</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 35243 次</span><span class="pull-right text-muted">2025-03-06</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_board">【最新消息】</a>&nbsp;&nbsp;
+                    <a href="/detail/c7e6f9aa-c397-46ec-8986-939a0c16a8cc">北京师范大学2025年面向香港、澳门、台湾地区招收研究生简章</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 17085 次</span><span class="pull-right text-muted">2025-03-06</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_board">【最新消息】</a>&nbsp;&nbsp;
+                    <a href="/detail/7e5472dc-f5a5-44e6-8e49-e4a3ab4ee7db">北京师范大学关于2025年全国硕士研究生招生考试初试成绩查询及复核的通知</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 95189 次</span><span class="pull-right text-muted">2025-02-20</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_board">【最新消息】</a>&nbsp;&nbsp;
+                    <a href="/detail/91a1f77d-28e4-47de-9740-6495ba303979">北京师范大学2025年公费师范毕业生在职攻读教育硕士复试与录取工作通知</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 48132 次</span><span class="pull-right text-muted">2025-02-17</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_info">【历史数据】</a>&nbsp;&nbsp;
+                    <a href="/detail/2d5bc678-5131-4863-a6bc-69783eb9d201">2025年全国硕士研究生招生考试（初试）北京师范大学考点考生须知</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 37801 次</span><span class="pull-right text-muted">2024-12-14</span>
+                </li>	    	
+                <li>                        
+                    <a class="counr" href="/list/master_info">【历史数据】</a>&nbsp;&nbsp;
+                    <a href="/detail/e798d637-0458-40e7-a037-aa9ddc830210">2025年全国硕士研究生招生考试北京师范大学报考点网上确认指南</a>&nbsp;&nbsp;
+                    <span class="text-muted">阅读 49957 次</span><span class="pull-right text-muted">2024-10-31</span>
+                </li>	    	
+            </ul>            
+        </div>
+        <div class="boxpager">
+            <div class="pagenav-count col-sm-6">
+                <span>当前第 2 页</span>
+                <span>总页数： 6 页</span>
+                <span>总文章数： 114 篇</span>
+            </div>
+            <div class="pagenav-btn col-sm-6 text-right">
+                <a href="/list/master/1" >首页</a>&nbsp;&nbsp;
+                <a href="/list/master/1">上一页</a>&nbsp;&nbsp;
+                <a href="/list/master/3">下一页</a>&nbsp;&nbsp;
+                <a href="/list/master/6">末页</a>
+            </div>
+        </div>
+    </div>
+</div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="sidebar" style="min-height: 300px;">
+                        <div class="col-md-12 col-sm-4 nopadding"> 
+                            <span class="morelinks">硕士生招生</span>
+                            <span><a href="/list/master_board">最新消息</a></span>
+                            <span><a href="/list/master_brochure">招生简章</a></span>
+                            <span><a href="/list/master_info">历史数据</a></span>
+                            <span><a href="/list/master_hide">历年数据</a></span>
+                            <span><a href="/list/master_guide">报考指南</a></span>
+                            <hr/>
+                        </div>
+                        <div class="col-md-12 col-sm-4 nopadding"> 
+                            <span class="morelinks">常用链接</span>
+                            <span><a href="http://www.bnu.edu.cn" target="_blank">学校主页</a></span>
+                            <span><a href="http://jwb.bnu.edu.cn/" target="_blank">教务部</a></span>
+                            <span><a href="http://www.bnu.edu.cn/kxyj/" target="_blank">科学研究</a></span>
+                            <span><a href="https://yz.bnu.edu.cn/content/dsfc/index_dsfc.html" target="_blank">导师风采</a></span>
+                            <span><a href="http://www.bnu.edu.cn/xbyx/" target="_blank">学部院系</a></span>
+                            <span><a href="http://www.bnu.edu.cn/zzjg/" target="_blank">组织机构</a></span>
+
+                            <div style="text-align:center; margin-top: 20px;">
+                                <img src="/content/style/wx_jsyz.jpg" style="width: 100%;">
+                                微信公众号
+                            </div>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>	
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            &copy; 版权所有 北京师范大学　地址：北京市新街口外大街19号　邮编：100875
+        </div>
+        <div class="text-center small" style="display:none;">
+
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="/content/script/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="/content/script/bootstrap-hover-dropdown.min.js"></script>
+        <script src="/content/script/jquery.flexslider-min.js"></script>
+        <script src="/content/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/scripts/miniui/miniui.js"></script>    
+        <script id="seajsid" type="text/javascript" src="/scripts/seajs/sea.js"></script>
+        <script type="text/javascript" src="/scripts/seajs/seajs-css.js"></script>
+        <script type="text/javascript" src="/scripts/areas/core/config.js?v=41"></script>
+        <script type="text/javascript" src="/scripts/areas/core/core.miniui.js?v=41"></script>
+        <script>
+            // Can also be used with $(document).ready()
+            $(document).ready(function(){
+                $('.flexslider').flexslider({
+                    animation: "slide",
+                    slideshowSpeed: 10000
+                    //controlsContainer: ".flex-container"
+                });
+
+            });
+        </script>
+    </body>
+</html>

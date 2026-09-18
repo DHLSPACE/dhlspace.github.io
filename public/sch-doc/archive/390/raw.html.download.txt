@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>研究生教育2019--中国科学院理化技术研究所</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+	<meta name="renderer" content="webkit" />
+	<meta name="keywords" content="研究生教育2019,中国科学院理化技术研究所,中国科学院">
+	<meta name="description" content="研究生教育2019,中国科学院理化技术研究所,中国科学院">
+	<meta name="author" content="author,中国科学院计算机网络信息中心">
+	<meta name="robots" content="index,follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- css -->
+	<link href="//ipc.cas.cn/images/bootstrap.css" rel="stylesheet">
+<link href="http://api.cas.cn/lib/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="//ipc.cas.cn/images/common_lhsyjs.css" rel="stylesheet">
+<link href="http://api.cas.cn/favicon/ipc.ico" rel="shortcut icon" type="image/x-icon">
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script src="http://api.cas.cn/lib/selectivizr/1.0.2/js/selectivizr.js" /></script>
+<noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="http://api.cas.cn/lib/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="http://api.cas.cn/lib/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+	<link href="../images/index_lhsyjs.css" rel="stylesheet">
+</head>
+<body>
+<form name="searchform" action="https://ipc.cas.cn/yjsjy2019/include_yjs/qwjs_yjs/index.html" method="get" target="_top">
+    <input type="hidden" name="keyword" value="" />
+</form>
+<!--全文检索end-->
+<div class="container"><div class="nav_bg_lhsyjs fl w100">
+    <div class="fl w100 nav_top_lhsyjs">
+        <div class="container">
+            <div class="fl w100 lg_width2">
+                <ol class="breadcrumb fr">
+                    <li><a href="https://sft.ucas.ac.cn/zh-cn/" target="_blank">国科大未来技术学院 </a></li>
+                    <li><a href="http://www.ipc.cas.cn/" target="_blank">理化所 </a></li>
+                    <li><a href="//www.cas.cn/" target="_blank">中国科学院</a></li>
+                </ol>
+                <form class="navbar-form fr">
+                    <div class="form-group">
+                       <input type="text" class="form-control" value="搜 索" id="searchword" onClick="javascript:if(this.value=='搜 索') this.value=''" />
+                                    <input type="button" class="btn" id="sub-pc" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="fl w100 nav_bar_lhsyjs">
+        <div class="container">
+            <div class="navbar-header w100 fl">
+                <div class="col-xs-12 col-sm-12 col-md-7 lg_width1">
+                    <a href="https://ipc.cas.cn/yjsjy/" class="navbar-brand"><img src="//ipc.cas.cn/images/lhsyjs_logo.png" /></a>
+                </div>
+
+            </div><!--  navbar-header end -->
+        </div><!--  container end -->
+    </div><!-- nav_bar_lhsyjs end -->
+
+    <nav class="fl w100 nav_lhsyjs">
+        <div class="container">
+            <div class="nav_main_lhsyjs w100 fl">
+                <div class="navbar-header">
+                    <span class="fl hidden-lg hidden-md hidden-sm">MENU</span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse paddnone" id="bs-example-navbar-collapse-1">
+                    <div class="fl w100 navbar-nav_lhsyjs">
+                        <ul class="nav navbar-nav nav-justified">
+                            <li><a href="https://ipc.cas.cn/yjsjy2019/">首页</a></li>
+                            <li>
+                                <a href="https://ipc.cas.cn/yjsjy2019/yjcjj/">
+                                    研究生教育简介
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ipc.cas.cn/yjsjy2019/dsjs/">
+                                    导师介绍
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ipc.cas.cn/yjsjy2019/zsxx/">
+                                    招生信息
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ipc.cas.cn/yjsjy2019/xly/">
+                                    夏令营
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ipc.cas.cn/yjsjy2019/pygl/">
+                                    培养管理
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ipc.cas.cn/yjsjy2019/xwgl/">
+                                    学位管理
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ipc.cas.cn/yjsjy2019/byjy/">
+                                    毕业就业
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="https://ipc.cas.cn/yjsjy2019/yjsh/" role="button" aria-haspopup="true" aria-expanded="false"><p>研究生会</p></a>
+                                <ul class="dropdown-menu ">
+                                    
+                                        <li>
+                                            <a href="https://ipc.cas.cn/yjsjy2019/yjsh/lrzxbz/">
+                                                历任主席部长
+                                            </a>
+                                        </li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="https://ipc.cas.cn/yjsjy2019/lxwm/">
+                                    联系我们
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- row end -->
+        </div> <!--  container end -->
+    </nav> <!--  nav_lhsyjs end -->
+</div></div>
+<!-- head_lhsyjs  end -->
+
+<div class="fl w100 h_mod_lhsyjs main_lhsyjs">
+	<div class="container">
+		<div class="banner_lhsyjs">
+			<div class="winimg left">
+				<div class="flexslider">
+					<ul class="slides">
+						
+							<li>
+								<div class="fl w100 paddnone banner_img_lhsyjs">
+									<a href="https://ipc.cas.cn/xwzx/zhxw/202607/t20260714_8247517.html" target="_blank"><img src="https://ipc.cas.cn/yjsjy2019/sylb/202607/W020260728596522806431_ORIGIN.jpg" /></a>
+								</div>
+							</li>
+						
+							<li>
+								<div class="fl w100 paddnone banner_img_lhsyjs">
+									<a href="https://ipc.cas.cn/xwzx/zhxw/202512/t20251226_8038100.html" target="_blank"><img src="https://ipc.cas.cn/yjsjy2019/sylb/202601/W020260114320008628044_ORIGIN.png" /></a>
+								</div>
+							</li>
+						
+							<li>
+								<div class="fl w100 paddnone banner_img_lhsyjs">
+									<a href="https://ipc.cas.cn/xwzx/zhxw/202509/t20250916_7969115.html" target="_blank"><img src="https://ipc.cas.cn/yjsjy2019/sylb/202601/W020260114317475345749_ORIGIN.png" /></a>
+								</div>
+							</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- banner_lhsyjs end -->
+	</div>
+</div>
+<div class="fl w100 h_mod1_lhsyjs marb15 mart15">
+	<div class="container">
+		<div class="col-md-8 col-sm-7 col-xs-12 paddnone mod1_a_lhsyjs">
+			<div class="fl w100 mod1_zs_lhsyjs">
+				<h1 class="fl w100 comm_h1 mar0 paddnone"><span class="fl">招生信息</span><a href="https://ipc.cas.cn/yjsjy2019/zsxx/" class="fr comm_more" target="_blank">更多&gt;&gt;</a></h1>
+				<div class="fl w100 mod1_zs_main">
+					<div class="col-xs-12 col-sm-4 col-md-3 mod1_zs_left paddnone mart10 ">
+
+							
+
+					</div>
+					<div class="col-xs-12 col-sm-8 col-md-9 paddright0 mod1_zs_right mart10">
+						<ul class="comment_list">
+							
+
+								<li><a href="https://ipc.cas.cn/yjsjy2019/zsxx/202608/t20260813_8260203.html" target="_blank">中国科学院理化技术研究所接收2027年推荐免试生简章</a><span>2026/08/13</span></li>
+
+							
+
+								<li><a href="https://ipc.cas.cn/yjsjy2019/zsxx/202603/t20260327_8178458.html" target="_blank">理化所2026年招收秋季入学博士研究生（普通招考）招生规程</a><span>2026/03/27</span></li>
+
+							
+
+								<li><a href="https://ipc.cas.cn/yjsjy2019/zsxx/202511/t20251128_8018517.html" target="_blank">理化所2026年秋季入学博士研究生招生简章及专业目录</a><span>2025/11/28</span></li>
+
+							
+						</ul>
+					</div>
+				</div>
+				<!--mod1_zs_main  end -->
+			</div><!-- mod1_zs_lhsyjs  end -->
+			<div class="fl w100 mod1_zs_lhsyjs mart15">
+				<h1 class="fl w100 comm_h1 mar0 paddnone"><span class="fl">教育动态</span><a href="https://ipc.cas.cn/yjsjy2019/jydt/" class="fr comm_more" target="_blank">更多&gt;&gt;</a></h1>
+				<div class="fl w100 mod1_zs_main">
+					<div class="col-xs-12 col-sm-4 col-md-3 mod1_zs_left paddnone mart10 ">
+						
+							<a href="https://ipc.cas.cn/xwzx/zhxw/202607/t20260714_8247517.html" class="fl w100" target="_blank"><img src="https://ipc.cas.cn/yjsjy2019/jydt/202607/W020260728599476726974.jpg" />
+								<p class="fl w100"><span class="fl w100">理化所举办“理化筑梦 遇见未来”2026年优秀大学生夏令营</span></p>
+							</a>
+						
+					</div>
+					<div class="col-xs-12 col-sm-8 col-md-9 paddright0 mod1_zs_right mart10">
+						<ul class="comment_list">
+							
+								<li><a href="https://ipc.cas.cn/xwzx/xsjl/202607/t20260720_8252445.html" target="_blank">理化所未来·人文讲坛第四十七讲：求职总动员——知己知彼，...</a><span>2026/07/20</span></li>
+							
+								<li><a href="https://ipc.cas.cn/xwzx/zhxw/202606/t20260617_8229712.html" target="_blank">理化所举行2026年研究生毕业典礼暨学位授予仪式</a><span>2026/06/17</span></li>
+							
+								<li><a href="https://ipc.cas.cn/xwzx/xsjl/202606/t20260617_8229708.html" target="_blank">理化所未来·人文讲坛第四十六讲：优秀所友成长经历分享</a><span>2026/06/17</span></li>
+							
+								<li><a href="https://ipc.cas.cn/xwzx/zhxw/202607/t20260714_8247517.html" target="_blank">理化所举办“理化筑梦 遇见未来”2026年优秀大学生夏令营</a><span>2026/07/28</span></li>
+							
+								<li><a href="https://ipc.cas.cn/xwzx/zhxw/202606/t20260602_8212550.html" target="_blank">理化所举办第十八期研究生心理健康团辅活动：人生何处不香逢...</a><span>2026/06/09</span></li>
+							
+								<li><a href="https://ipc.cas.cn/xwzx/zhxw/202604/t20260430_8195071.html" target="_blank">理化所举办第十七期研究生心理健康团辅活动：来给心情做一次...</a><span>2026/06/09</span></li>
+							
+								<li><a href="https://ipc.cas.cn/xwzx/xsjl/202605/t20260522_8208670.html" target="_blank">理化所未来·人文讲坛第四十五讲：从中国大地到《大地中国》</a><span>2026/05/22</span></li>
+							
+						</ul>
+					</div>
+				</div>
+				<!--mod1_zs_main  end -->
+			</div><!-- mod1_zs_lhsyjs  end -->
+		</div><!-- mod1_a_lhsyjs end -->
+		<div class="col-md-4 col-sm-5 col-xs-12 paddleft30 paddright0 mod1_b_lhsyjs">
+			<div class="fl w100">
+				<h1 class="fl w100 comm_h1 mar0 marb15 paddnone"><span class="fl">通知公告</span><hr class="hr_line2 mar0 paddnone fl" /><a href="https://ipc.cas.cn/yjsjy2019/tzgg_147576/" class="fr comm_more" target="_blank">更多&gt;&gt;</a></h1>
+				<table class="table mod3_table">
+					
+				</table>
+			</div>
+			<div class="fl w100 lhsyjs_fwpt mart10">
+				<h1 class="fl w100">服务平台</h1>
+				<div class="fl w100">
+					
+						<a href="https://ipc.cas.cn/yjsjy2019/fwpt/gkdjyglpt/" class="col-md-3 col-sm-6 col-xs-6 paddleft0 text-center" target="_blank">
+							<img src="https://ipc.cas.cn/yjsjy2019/fwpt/gkdjyglpt/images/P020190128379352788462.png" />
+							<span class="fl w100">国科大教育管理平台</span>
+						</a>
+					
+						<a href="https://ipc.cas.cn/yjsjy2019/fwpt/xlysq/" class="col-md-3 col-sm-6 col-xs-6 paddleft0 text-center" target="_blank">
+							<img src="https://ipc.cas.cn/yjsjy2019/fwpt/xlysq/images/P020190128379510481898.png" />
+							<span class="fl w100">夏令营申请</span>
+						</a>
+					
+						<a href="https://ipc.cas.cn/yjsjy2019/fwpt/xzzx/" class="col-md-3 col-sm-6 col-xs-6 paddleft0 text-center" target="_blank">
+							<img src="https://ipc.cas.cn/yjsjy2019/fwpt/xzzx/images/P020190128379622683963.png" />
+							<span class="fl w100">下载中心</span>
+						</a>
+					
+						<a href="https://ipc.cas.cn/yjsjy2019/fwpt/cjwt/" class="col-md-3 col-sm-6 col-xs-6 paddleft0 text-center" target="_blank">
+							<img src="https://ipc.cas.cn/yjsjy2019/fwpt/cjwt/images/P020190128379714584920.png" />
+							<span class="fl w100">常见问题</span>
+						</a>
+					
+				</div>
+			</div>
+		</div><!-- mod1_b_lhsyjs end -->
+	</div>
+</div>
+<!-- mod1 end -->
+<div class="fl w100 h_mod2_lhsyjs marb15 mart15">
+	<div class="container">
+		<div class="fl w100 mod2_zs_lhsyjs">
+			<h1 class="fl w100 comm_h1 mar0 paddnone"><span class="fl">学子风采  /  导师风采</span><hr class="hr_line mar0 paddnone fl" /><a href="https://ipc.cas.cn/yjsjy2019/xzfc/" class="fr comm_more">更多&gt;&gt;</a></h1>
+			<div class="nbs-flexisel-container">
+				<div class="fL w100 nbs-flexisel-inner">
+					<ul id="flexiselDemo1" class="fL w100 nbs-flexisel-ul" style="left:-195px; display: block;">
+						
+					</ul>
+				</div>
+			</div>
+			<!-- //flex-slider -->
+		</div><!-- mod1_zs_lhsyjs  end -->
+	</div>
+</div>
+<!-- mod1 end -->
+
+<!-- footer start -->
+<div class="fl w100 footer_lhsyjs mart15">
+    <div class="container">
+        <div class="col-sm-4 col-md-4 sydw_logo"><a href="http://www.cas.cn/"><img src="//ipc.cas.cn//images/logo-s_zky.png" /></a></div>
+        <div class="col-xs-12 col-sm-7 col-md-6 footer_cont_lhsyjs">
+            版权所有：中国科学院理化技术研究所 Copyright 2002-<script>var now = new Date(); var year = now.getFullYear(); document.write(year);</script><br/>
+            地址：中国.北京 京ICP备05002791号
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-2 paddnone footer_img_lhsyjs" id="leftsead">
+            <a href="#" class="fr w100 wx1 hidden-xs hidden-sm youhui" >微信公众号</a>
+            <a href="#" class="fr w100 app_wx hidden-md hidden-lg youhui">&nbsp; </a>
+        </div>
+        <div id="leftsead_img"><img src="../../../images/lhsyjs_ewm.png" /></div>
+
+    </div>
+</div>
+<!-- footer_lhsyjs end -->
+
+<!-- js -->
+<script src="//ipc.cas.cn/images/jquery.js"></script>
+<script src="//ipc.cas.cn/images/bootstrap.js"></script>
+<script src="//ipc.cas.cn/images/common_lhsyjs.js"></script>
+<script src="//ipc.cas.cn/images/modernizr_yjs.js"></script>  <!-- 导航js -->
+<script src="//ipc.cas.cn/images/nav_menu_yjs.js"></script> <!-- 导航js -->
+<script src="//ipc.cas.cn/images/nav_menu_app_yjs.js"></script> <!-- 导航js -->
+
+<script type="text/javascript">
+function isValid(str){
+  if(str.indexOf('&') != -1 || str.indexOf('<') != -1 || str.indexOf('>') != -1 || str.indexOf('\'') != -1
+    || str.indexOf('\\') != -1 || str.indexOf('/') != -1 || str.indexOf('"') != -1 
+    || str.indexOf('%') != -1 || str.indexOf('#') != -1){
+    return false;
+  }
+  return true;
+}
+$(function(){
+  $('#sub-pc').click(function(){
+    var searchword = $.trim($('#searchword').val());
+	if(searchword == "" || searchword == "请输入关键字" || !isValid(searchword)){
+	  alert("请输入关键词后再进行提交。");
+      return false;
+	}
+	$('input[name="keyword"]').val(encodeURI(searchword));
+	$('form[name="searchform"]').submit();
+  });
+  
+  $('#sub-mobile').click(function(){
+    var iptSword = $.trim($('#iptSword').val());
+	if(iptSword == "" || iptSword == "请输入关键字" || !isValid(iptSword)){
+	  alert("请输入关键词后再进行提交。");
+      return false;
+	}
+	$('input[name="keyword"]').val(encodeURI(iptSword));
+	$('form[name="searchform"]').submit();
+  });
+});
+</script>
+
+<!-- banner 图片轮播 -->
+<link href="../images/flexslider_lhsyjs.css" rel="stylesheet" type="text/css" media="screen" />	<!-- banner 图片轮播 -->
+<script defer src="../images/jquery.flexslider.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $(".flexslider").flexslider({
+            slideshowSpeed: 4000, //展示时间间隔ms
+            animationSpeed: 400, //滚动时间ms
+            slideshow: true, //是否自动播放
+            pausePlay: false,//是否显示播放暂停按钮
+            touch: true //是否支持触屏滑动
+        });
+    });
+</script>
+<!-- banner 图片轮播 end-->
+
+<!-- 专题滚动 -->
+<script type="text/javascript">
+    $(window).load(function() {
+        $("#flexiselDemo1").flexisel({
+            visibleItems: 7,
+            animationSpeed: 1000,
+            autoPlay: true,
+            autoPlaySpeed: 3000,
+            pauseOnHover: true,
+            enableResponsiveBreakpoints: true,
+            responsiveBreakpoints: {
+                portrait: {
+                    changePoint:481,
+                    visibleItems: 2
+                },
+                landscape: {
+                    changePoint:640,
+                    visibleItems: 3
+                },
+                tablet: {
+                    changePoint:991,
+                    visibleItems: 6
+                }
+            }
+        });
+
+    });
+</script>
+<script type="text/javascript" src="../images/jquery.flexisel.js"></script>
+<!-- 专题滚动 end -->
+
+</body>
+
+</html>

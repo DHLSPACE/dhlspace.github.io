@@ -1,0 +1,370 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="renderer" content="webkit"/>
+<meta name="filetype" content="0"> 
+<meta name="publishedtype" content="1"> 
+<meta name="pagetype" content="2"> 
+<meta name="catalogs" content="2147443318">
+<meta name="SiteName" content="中华人民共和国教育部政府门户网站">
+<meta name="SiteDomain" content="www.moe.gov.cn">
+<meta name="SiteIDCode" content="bm05000001">
+<meta name="ColumnName" content="专业学位研究生教育综合改革">
+<meta name="ColumnDescription" content="专业学位研究生教育综合改革">
+<meta name="ColumnKeywords" content="专业学位研究生教育综合改革">
+<meta name="ColumnType" content="学位管理与研究生教育司（国务院学位委员会办公室）">
+<title>专业学位研究生教育综合改革 - 中华人民共和国教育部政府门户网站</title>
+<meta name="keywords" content="专业学位研究生教育综合改革,中华人民共和国教育部政府门户网站" />
+<meta name="description" content="专业学位研究生教育综合改革,中华人民共和国教育部政府门户网站" />
+<link href="../../../../favorite.ico" rel="shortcut icon" type="image/x-icon" />
+<!--优化重构css-->
+<!--[if lt IE 9]>
+<link href="../../../../images/moe.css" rel="stylesheet" type="text/css" />
+<link href="../../../../images/moe.list.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link media="screen and (min-width:1010px)" href="../../../../images/moe.css" rel="stylesheet" type="text/css" />
+<link media="screen and (min-width:1010px)" href="../../../../images/moe.list.css" rel="stylesheet" type="text/css" />
+<link media="screen and (max-width:1010px)" type="text/css" rel="stylesheet" href="../../../../images/moe.m.css" />
+<link media="screen and (max-width:1010px)" type="text/css" rel="stylesheet" href="../../../../images/moe.list.m.css" />
+<script type="text/javascript" src="../../../../images/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../images/h5.js"></script>
+<script type="text/javascript" src="../../../../images/idangerous.swiper.min.js"></script>
+<script>
+//分页全局变量
+	var wcmid = 2147443318;
+	var wasid = 254874;
+	var recordCount = 0;
+	var pageSize = 20;
+	var countPage=Math.ceil(recordCount/pageSize);
+
+$(function(){
+/*分页html结构
+	<li class="mhide">共 599 条信息</li>
+	<li class="mhide">每页20条信息</li>
+	<li class="mhide">页数：1/30</li>
+	<li class="pchide">1/30页</li>
+	<li class="m_page_a mhide"><a>首页</a></li>
+	<li class="m_page_a m_page_btn"><a>上一页</a></li>
+	<li class="m_page_a m_page_btn"><a href="">下一页</a></li>
+	<li class="m_page_a mhide"><a style="cursor:pointer;" onclick="">末页</a></li>
+	<li class="m_page_go"><span class="mhide">跳转至第</span><span class="pchide">到第</span><input id="pageValue" type="text" size="1" onkeydown="KeyDown(event)" />页&nbsp;<a id="tiaozhuan" style="cursor:pointer;" onclick="" class="mhide">&gt;&gt;</a><a id="m_tiaozhuan" style="cursor:pointer;" onclick="" class="pchide">确定</a></li>
+*/
+//获取当前页
+	var wcmUrl = window.location.href;
+	var currentPage = 1;
+	var wasPage = $("#page").attr("currentpage");
+	if(wcmUrl.indexOf("index_")!=-1){
+		var temp = wcmUrl.substr(wcmUrl.indexOf("index_")+6);
+		currentPage = parseInt(temp.replace(/.html/g, ""))+1;
+	}
+//临时存储分页参数
+	$("#list").attr("currentPage",currentPage);
+//获取首页
+	var start = "./";	
+//获取上一页
+	var prevPage = parseInt(currentPage-1);
+	var previous = "";
+	var method_previous = "";
+	if (currentPage==1){
+		previous = "./";
+	}else if(currentPage==2){
+		previous = "./";	
+	}else if(currentPage>1 && currentPage<27){
+		previous = "./index_"+(prevPage-1)+".html";
+	}else if(currentPage>=27){
+		previous = "javascript:void(0);";
+		method_previous = "getWasRecord("+wcmid+","+wasid+","+prevPage+")";
+	}
+	
+//获取下一页
+	var nextPage = parseInt(currentPage)+1;
+	var next = "";
+	var method_next = "";
+	if(currentPage>=25){
+		next = "javascript:void(0);";
+		if(currentPage==countPage-1){
+			method_next = "getWasRecord("+wcmid+","+wasid+","+countPage+");";
+		}else{
+			method_next = "getWasRecord("+wcmid+","+wasid+","+nextPage+");";
+		}
+	}else{
+		if(currentPage>=countPage){
+			next = "javascript:void(0);";
+		}else{
+			next = "./index_"+currentPage+".html";
+		}
+	}
+
+//获取末页
+	var endPage = countPage;
+	var end = "";
+	var method_end = "";
+	if(endPage>=25){
+		end = "javascript:void(0);";
+		method_end = "getWasRecord("+wcmid+","+wasid+","+endPage+");"
+	}else{
+		if(currentPage>=countPage){
+			end = "javascript:void(0);";
+		}else{
+			end = "./index_"+(countPage-1)+".html";
+		}
+	}
+//输出分页
+	$("#page").append("<li class='mhide'>共 "+recordCount+" 条信息</li>");
+	$("#page").append("<li class='mhide'>每页"+pageSize+"条信息</li>");
+	$("#page").append("<li class='mhide'>页数："+currentPage+"/"+countPage+"</li>");
+	$("#page").append("<li class='pchide'>"+currentPage+"/"+countPage+"页</li>");
+	$("#page").append("<li class='m_page_a mhide'><a href='"+start+"'>首页</a></li>");
+	$("#page").append("<li class='m_page_a m_page_btn'><a href='"+previous+"' onclick='"+method_previous+"'>上一页</a></li>");
+	$("#page").append("<li class='m_page_a m_page_btn'><a href='"+next+"' onclick='"+method_next+"'>下一页</a></li>");
+	$("#page").append("<li class='m_page_a mhide'><a href='"+end+"' onclick='"+method_end+"'>末页</a></li>");
+	$("#page").append("<li class='m_page_go'><span class='mhide'>跳转至第</span><span class='pchide'>到第</span><input id='pageValue' type='text' size='1' onkeydown='KeyDown(event)' />页&nbsp;<a id='tiaozhuan' href='javascript:void(0);' onclick='pageJump();' class='mhide'>&gt;&gt;</a><a id='m_tiaozhuan' href='javascript:void(0);' onclick='pageJump();' class='pchide'>确定</a></li>")
+})
+//获取was记录后，更新分页
+function updateWasPage(page){
+	$("#page").html("");
+	$("#list").attr("currentPage",page);
+	$("#page").append("<li class='mhide'>共 "+recordCount+" 条信息</li>");
+	$("#page").append("<li class='mhide'>每页"+pageSize+"条信息</li>");
+	$("#page").append("<li class='mhide'>页数："+page+"/"+countPage+"</li>");
+	$("#page").append("<li class='pchide'>"+page+"/"+countPage+"页</li>");
+	$("#page").append("<li class='m_page_a mhide'><a href='./'>首页</a></li>");
+	if (page<=26){
+		$("#page").append("<li class='m_page_a m_page_btn'><a href='./index_"+(page-2)+".html'>上一页</a></li>");
+	}else{
+		$("#page").append("<li class='m_page_a m_page_btn'><a href='javascript:void(0);' onclick='getWasRecord("+wcmid+","+wasid+","+(page-1)+");'>上一页</a></li>");
+	}
+	if (page>=25){
+		$("#page").append("<li class='m_page_a m_page_btn'><a href='javascript:void(0);' onclick='getWasRecord("+wcmid+","+wasid+","+(page+1)+");'>下一页</a></li>");
+	}else if(page==countPage-1){
+		$("#page").append("<li class='m_page_a m_page_btn'><a href='javascript:void(0);' onclick='getWasRecord("+wcmid+","+wasid+","+(countPage)+");'>下一页</a></li>");
+	}else{
+		$("#page").append("<li class='m_page_a m_page_btn'><a href='./index_"+(page)+".html'>下一页</a></li>");
+	}
+	$("#page").append("<li class='m_page_a mhide'><a href='javascript:void(0);' onclick='getWasRecord("+wcmid+","+wasid+","+countPage+");'>末页</a></li>");
+	$("#page").append("<li class='m_page_go'><span class='mhide'>跳转至第</span><span class='pchide'>到第</span><input id='pageValue' type='text' size='1' onkeydown='KeyDown(event)' />页&nbsp;<a id='tiaozhuan' href='javascript:void(0);' onclick='pageJump();' class='mhide'>&gt;&gt;</a><a id='m_tiaozhuan' href='javascript:void(0);' onclick='pageJump();' class='pchide'>确定</a></li>")
+}
+//获取was记录
+function getWasRecord(wcmid,wasid,page){
+	if(page>=countPage){
+		page = countPage;
+	}
+	var o = {
+		url:"/was5/web/search?channelid="+wasid+"&chnlid="+wcmid+"&page="+page,
+		success:function(html){
+			$("#list").html(html);
+		},
+		error:function(e){
+			//console.log("get was record error");
+		}
+	};
+	$.ajax(o);
+	updateWasPage(page);
+	$("#list").attr("currentPage",page);
+}
+//回车键促发页面跳转函数
+function KeyDown(event) {
+	var e = event ? event :(window.event ? window.event : null); 
+	if (e.keyCode == 13) {
+		document.getElementById("tiaozhuan").click();
+	}
+}
+//判断是否为正整数 
+function is_int(s){
+var re =/^[0-9]*[1-9][0-9]*$/; 
+return re.test(s) 
+} 
+//页面跳转
+function pageJump(){
+	var pageValue = document.getElementById('pageValue').value;
+	if(pageValue.trim() == '') {
+		alert('请输入跳转页数！');
+		document.getElementById('pageValue').focus();
+		return false;
+	} else if(!is_int(pageValue.trim())) {
+		alert('请输入正整数!');
+		document.getElementById('pageValue').focus();
+		return false;
+	} else if(pageValue.trim() > countPage) {
+		alert('本频道最多'+countPage+'页');
+		document.getElementById('pageValue').focus();
+		return false;
+	}else if(parseInt(pageValue.trim())==1){
+		window.location.href = "./"
+	}else if(parseInt(pageValue.trim())<=25){
+		window.location.href = "./index_"+(parseInt(pageValue.trim())-1)+".html";
+	}else{
+		getWasRecord(wcmid,wasid,parseInt(pageValue.trim()));
+	}
+}
+</script>
+</head>
+<body>
+<div id='wx_pic' style='margin:0 auto;display:none;'><img src="../../../../images/logo_wshare.jpg" /></div>
+<div class="moe-page-set">
+	<div class="m_tou_date pchide">
+		<div class="m-moe-cas">
+              <a class="m-user-infor loginReferer" id="m_userA" href="https://zwfw.moe.gov.cn/portal/trs/login?appId=trs&redirectUrl=http://www.moe.gov.cn/hd/login/cas&state=">登录</a>
+        </div>
+
+    <div class="m-moe-tools">
+<div id="m_english"><span id="mLanguage">Languages</span>
+<dl>
+<dd><a href="http://en.moe.gov.cn/" target="_blank" title="英语版">English</a></dd>
+<dd><a href="http://ru.moe.gov.cn/" target="_blank" title="俄语版">Русский</a></dd>
+<dd><a href="http://jp.moe.gov.cn/" target="_blank" title="日语版">日本語</a></dd>
+<dd><a href="http://de.moe.gov.cn/" target="_blank" title="德语版">Deutsch</a></dd>
+<dd><a href="http://fr.moe.gov.cn/" target="_blank" title="法语版">Français</a></dd>
+<dd><a href="http://es.moe.gov.cn/" target="_blank" title="西班牙语">Español</a></dd>
+<dd><a href="http://ar.moe.gov.cn/" target="_blank" title="阿拉伯语">العربية</a></dd>
+</dl>
+</div>
+<a id="m_search" href="https://so.moe.gov.cn/">搜索</a>
+<a id="toolbarCtrl" href="javascript:void(0);" onclick="javascript:document.getElementById('toolbarSwitch').click();" title="无障碍浏览">无障碍浏览</a>
+    </div>
+</div>
+<div class="scy-tou">
+	<div class="scy-logo"><a href="http://www.moe.gov.cn/" target="_blank" title="中华人民共和国教育部"><img class="mhide" src="../../../../images/scy_jyb_lgo_03.png" width="100%" /><img class="pchide" src="../../../../images/m_top_logo.png" alt="" /></a></div>
+        <meta charset="utf-8" />
+        <div class="scy-js">
+    <ul class="mhide">
+        <li id="moe_index_en"><span id="language">Languages</span>
+            <dl>
+                <dd><a href="http://en.moe.gov.cn/" target="_blank" title="英语版">English</a></dd>
+                <dd><a href="http://ru.moe.gov.cn/" target="_blank" title="俄语版">Русский</a></dd>
+                <dd><a href="http://jp.moe.gov.cn/" target="_blank" title="日语版">日本語</a></dd>
+                <dd><a href="http://de.moe.gov.cn/" target="_blank" title="德语版">Deutsch</a></dd>
+                <dd><a href="http://fr.moe.gov.cn/" target="_blank" title="法语版">Français</a></dd>
+                <dd><a href="http://es.moe.gov.cn/" target="_blank" title="西班牙语">Español</a></dd>
+                <dd><a href="http://ar.moe.gov.cn/" target="_blank" title="阿拉伯语">العربية</a></dd>
+            </dl>
+        </li>
+        <li id="moe_index_wb"><a href="/jyb_sy/sy_wb/201301/t20130129_147290.html"  target="_blank">微言教育</a></li>
+        <li id="moe-aid"><a id="toolbarSwitch" href="javascript:void(0);" title="无障碍浏览">无障碍浏览</a></li>
+        <li class="moe-cas">
+                         <div class="mainlevel" id="log-btn"><a href="javascript:void(0);">登录</a> | <a href="javascript:void(0);">注册</a></div>
+                         <div id="user" style="display:none;"><a class="user-infor" href="javascript:void(0);" id="userA"></a></div>
+                         <dl class="toLoginRegisterCenter to-login"  style="display: none;"><img class="icon-jiantou" src="/images/tmp_pc_cas_icon01.png" alt="" />
+                               <dd style="border-bottom: 1px solid rgb(94,122,219);" ><a class="loginReferer" href="https://zwfw.moe.gov.cn/portal/trs/login?appId=trs&redirectUrl=http://www.moe.gov.cn/hd/login/cas&state=">个人登录</a></dd>
+                               <dd><a class="loginReferer" href="https://zwfw.moe.gov.cn/portal/trs/login?appId=trs&redirectUrl=http://www.moe.gov.cn/hd/login/cas&refer=CP&loginType=2&state=">法人登录</a></dd>
+                         </dl>
+                          <dl class="toLoginRegisterCenter to-register" style="display: none;"><img class="icon-jiantou" src="/images/tmp_pc_cas_icon01.png" alt="" />
+                               <dd style="border-bottom: 1px solid rgb(94,122,219);"><a href="https://rz.moe.gov.cn/tacs-uc/naturalMan/register" target="_blank">个人注册</a></dd>
+                               <dd><a href="https://rz.moe.gov.cn/tacs-uc/corp/register" target="_blank">法人注册</a></dd>
+                         </dl>
+        </li>
+    </ul>
+    <form action="https://so.moe.gov.cn/s" method="get" name="searchform" target="_blank" id="searchform" onsubmit="return checkInput();">
+        <div id="moe_index_search" class="scy-js-sou"><input type="hidden" name="siteCode" value="bm05000001" /><input type="hidden" name="tab" value="all" /><span><input name="qt" type="text" id="qt" /></span><button type="submit" id="search-button"><strong class="pchide btn-text">搜索</strong></button></div>
+    </form>
+    <script type="text/javascript" src="/images/wasSearch.js"></script> 
+</div>
+</div>
+	<!-- ms begin -->
+  <div class="m_top_nav swiper_container_top_nav pchide">
+   <div class="m_nav_mask m_nav_mask_left" id="m_nav_mask_fun_left"></div>
+    <ul class="swiper-wrapper">
+        <li class="swiper-slide"><a href="http://www.moe.gov.cn">首页</a></li>
+<script>
+var NowChannelId=2147443318;
+var pChannelId=78;
+
+    var channelId=2147438634;
+    if(channelId==NowChannelId||channelId==pChannelId){
+       document.write('<li class="swiper-slide cur"><a href="../../../../jyb_zzjg/" class="jg" target="_blank">机构</a></li>');
+    }else{
+       document.write('<li class="swiper-slide"><a href="../../../../jyb_zzjg/" class="jg" target="_blank">机构</a></li>');
+    }
+
+    var channelId=2147438635;
+    if(channelId==NowChannelId||channelId==pChannelId){
+       document.write('<li class="swiper-slide cur"><a href="../../../../jyb_xwfb/" class="jg" target="_blank">新闻</a></li>');
+    }else{
+       document.write('<li class="swiper-slide"><a href="../../../../jyb_xwfb/" class="jg" target="_blank">新闻</a></li>');
+    }
+
+    var channelId=2147438636;
+    if(channelId==NowChannelId||channelId==pChannelId){
+       document.write('<li class="swiper-slide cur"><a href="../../../../jyb_xxgk/" class="jg" target="_blank">公开</a></li>');
+    }else{
+       document.write('<li class="swiper-slide"><a href="../../../../jyb_xxgk/" class="jg" target="_blank">公开</a></li>');
+    }
+
+    document.write('<li class="swiper-slide"><a href="https://zwfw.moe.gov.cn/" target="_blank" class="jg">服务</a></li>');
+
+    var channelId=2147438638;
+    if(channelId==NowChannelId||channelId==pChannelId){
+       document.write('<li class="swiper-slide cur"><a href="../../../../jyb_hygq/" class="jg" target="_blank">互动</a></li>');
+    }else{
+       document.write('<li class="swiper-slide"><a href="../../../../jyb_hygq/" class="jg" target="_blank">互动</a></li>');
+    }
+
+    var channelId=2147438639;
+    if(channelId==NowChannelId||channelId==pChannelId){
+       document.write('<li class="swiper-slide cur"><a href="../../../../jyb_sjzl/" class="jg" target="_blank">文献</a></li>');
+    }else{
+       document.write('<li class="swiper-slide"><a href="../../../../jyb_sjzl/" class="jg" target="_blank">文献</a></li>');
+    }
+
+</script>
+
+</ul>
+    <div class="m_nav_mask" id="m_nav_mask_fun"></div>
+  </div>
+<!-- end of m_top_nav -->
+<!-- ms end -->
+	<div class="moe-breadcrumb common_dqwz" id="curpage" ><span>当前位置：</span><a href="http://www.moe.gov.cn/">首页</a>&nbsp;>&nbsp;<a href="../../../" target="_blank" title="教育部司局机构" class="CurrChnlCls">教育部司局机构</a></div>
+	<div class="moe-main-section moe-page-width-m">
+		<div class="moe-list-title-ty2 setMarginBt"><h2 class="title-2nd">专业学位研究生教育综合改革</h2></div>
+		<div class="moe-list">
+			<div class="moe-list-title-2nd"><h2><a href="./zcwj/" target="_blank">政策文件 &gt;&gt;</a></h2></div>
+			<ul>
+				<li><a href="../../../../srcsite/A22/moe_826/201505/t20150511_189480.html" target="_blank" title="教育部关于加强专业学位研究生案例教学和联合培养基地建设的意见">教育部关于加强专业学位研究生案例教学和联合培养基地建设的意见<span>2015-05-22</span></a></li>
+				<li><a href="../../../../srcsite/A22/moe_826/201311/t20131113_159870.html" target="_blank" title="教育部 人力资源社会保障部关于深入推进专业学位研究生培养模式改革的意见">教育部 人力资源社会保障部关于深入推进专业学位研究生培养模式改革的意见<span>2013-11-25</span></a></li>
+				<li><a href="../../../../srcsite/A22/s7065/201304/t20130419_154118.html" target="_blank" title="教育部 国家发展改革委 财政部关于深化研究生教育改革的意见">教育部 国家发展改革委 财政部关于深化研究生教育改革的意见<span>2013-07-12</span></a></li>
+			</ul>
+			<div class="moe-list-title-2nd"><h2><a href="./sddw/" target="_blank">试点单位 &gt;&gt;</a></h2></div>
+			<ul>
+				<li><a href="./sddw/201804/t20180419_333642.html" target="_blank" title="深化专业学位研究生教育综合改革试点单位名单">深化专业学位研究生教育综合改革试点单位名单<span>2018-04-19</span></a></li>
+			</ul>
+			<div class="moe-list-title-2nd"><h2><a href="./jyjl/" target="_blank">经验交流 &gt;&gt;</a></h2></div>
+			<ul>
+				<li><a href="./jyjl/201803/t20180319_330493.html" target="_blank" title="专业学位综改之十九：会计教指委">专业学位综改之十九：会计教指委<span>2018-03-19</span></a></li>
+				<li><a href="./jyjl/201803/t20180319_330491.html" target="_blank" title="专业学位综改之十八：工程教指委">专业学位综改之十八：工程教指委<span>2018-03-19</span></a></li>
+				<li><a href="./jyjl/201803/t20180319_330490.html" target="_blank" title="专业学位综改之十七：法律教指委">专业学位综改之十七：法律教指委<span>2018-03-19</span></a></li>
+				<li><a href="./jyjl/201803/t20180312_329595.html" target="_blank" title="专业学位综改之十六：辽宁省教育厅">专业学位综改之十六：辽宁省教育厅<span>2018-03-12</span></a></li>
+				<li><a href="./jyjl/201803/t20180312_329594.html" target="_blank" title="专业学位综改之十五：广东省教育厅">专业学位综改之十五：广东省教育厅<span>2018-03-12</span></a></li>
+				<li class="more"><a href="./jyjl/" target="_blank">更多&gt;&gt;</a></li>
+			</ul>
+		</div>
+	</div> 
+</div>
+<!--尾部开始-->
+<div class="scy-foot">
+    <div class="scy-foot-nr">
+    <div class="scy-foot-zj">
+      <span id="_ideConac"><a class="outMoeLink" href="http://bszs.conac.cn/sitename?method=show&amp;id=05FDD4B7206C29B0E053012819AC4C18" target="_blank"><img id="imgConac" src="/images/red.png" data-bd-imgshare-binded="1" vspace="0" hspace="0" border="0" /></a></span><span id="_span_jiucuo"><a class="outMoeLink" href="https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=bm05000001&url=" target="_blank"><img style="margin:0;border:0;cursor: pointer;" src="//www.moe.gov.cn/images/moe_icon_jiucuo.png?v=bm05000001" /></a></span>
+      <ul>
+        <li class="sm" id="moe_index_foot_sm"><a href="http://www.moe.gov.cn/jyb_sy/s3634/201005/t20100504_87292.html" target="_blank">网站声明</a></li>
+        <li class="dt" id="moe_index_foot_dt"><a href="http://www.moe.gov.cn/jyb_sy/s3636/202404/t20240411_1125026.html" target="_blank">网站地图</a></li>
+        <li class="lx" id="moe_index_foot_lx"><a href="http://www.moe.gov.cn/jyb_sy/s3635/201611/t20161129_290403.html" target="_blank">联系我们</a></li>
+      </ul>
+</div>
+<div class="scy-foot-xia">
+      <p>版权所有：中华人民共和国教育部&nbsp;中文域名：教育部.政务</p>
+      <p><a class="outMoeLink" href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">京ICP备10028400号-1</a>&nbsp;<a class="outMoeLink" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010202007625" rel="nofollow" id="moe_gonganbeian">京公网安备11010202007625号</a>&nbsp;<span>网站标识码：bm05000001</span></p>
+</div>
+<script type="text/javascript" src="/images/wailian.js"></script>
+<script type="text/javascript" src="/toolbar/esdToolsInit.js"></script>
+<script type="text/javascript" language="javascript" async src="/mokuai/webdig_moe/webdig_moe.js"></script>
+<script type="text/javascript" language="javascript" async src="/images/tmp.moe.qt.v1.js"></script>
+    </div>
+</div>
+<!--尾部结束-->
+<script type="text/javascript" src="../../../../images/m_index.js"></script>
+<script type="text/javascript" src="../../../../images/tmp.moe.doLogin.js"></script>
+</body>
+</html>

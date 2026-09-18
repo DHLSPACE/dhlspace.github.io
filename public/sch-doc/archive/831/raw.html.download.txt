@@ -1,0 +1,164 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no, email=no"/>   
+<meta http-equiv="pragma" content="no-cache">  
+<meta http-equiv="cache-control" content="no-cache">  
+<meta http-equiv="expires" content="0">
+<title>辽宁省2026年全国硕士研究生招生考试结束</title>
+<meta name="keywords" content="辽宁招生考试之窗" />
+<meta name="description" content="辽宁招生考试之窗" />
+<link href="../css/public.css?v=20260123175743" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../images/lnzsks.ico" type="image/x-icon"/> 
+<style type="text/css">
+    .content{
+        /*letter-spacing: 4px;*/
+		word-spacing : 3px;
+    }
+    body { -webkit-text-size-adjust: 100% !important; }
+</style>
+<script type="text/javascript" src="../js/bdtj.js" charset="utf-8"></script>
+<script type="text/javascript">
+
+        var i = 1;
+        var hiddenId;
+
+
+        function adjustIndent() {
+            //const paragraphs = document.querySelectorAll('p');
+            const paragraphs = document.querySelectorAll(".content p");
+            paragraphs.forEach(paragraph => {
+                // 获取当前字体大小
+                paragraph.style.fontSize = '14px';
+                const fontSize = window.getComputedStyle(paragraph).fontSize;
+                const fontSizeNum = parseFloat(fontSize); // 转换为数字
+                const indent = fontSizeNum * 2; // 计算2em的缩进值
+                //console.log(paragraph.style.textIndent == "" || paragraph.style.textIndent == null);
+                // 设置缩进
+                const indent_str = paragraph.style.textIndent;
+                const indent_num  = parseInt(indent_str,10);
+                if((!indent_str == "" || !indent_str == null)&& indent_num > 0){
+                    paragraph.style.textIndent = `0px`;
+                    let paragraph_innerHtml_str = paragraph.innerHTML;
+                    paragraph_innerHtml_str = "　　" + paragraph_innerHtml_str;
+                    paragraph.innerHTML = paragraph_innerHtml_str;
+
+                    /*
+                    paragraph.style.textIndent = `${indent}px`;
+
+                    const p_children_list = paragraph.querySelectorAll("span");
+                    p_children_list.forEach(child_element => {
+                        if(!child_element.style.textIndent == "" || !child_element.style.textIndent == null) {
+                            child_element.style.textIndent = `0px`;
+                            const innerText = "　　" + child_element.innerText;
+                            child_element.innerText = innerText;
+                            paragraph.style.textIndent = `0px`;
+                        }
+                    });*/
+                }
+            });
+        }
+        window.onload = adjustIndent;
+
+
+
+        $(function () {
+            //获取隐藏的<div>的数量
+            var total = $("#total").val();
+            console.log(total)
+            /*下滑到本页最下面在之后加载下一页*/
+            $(window).scroll(function () {
+                //浏览器所能看到的页面的那部分的高度
+                var winH = $(window).height();
+                var scrH = $(window).scrollTop();//滚动的高度
+                //获取整个页面的高度 htmH为设置的滚动到的高度位置
+                var htmH = $(document).height() - 100;
+                //可见高度+滚动高度 超出 设置的高度，触发方法
+                if (winH + scrH >= htmH) {
+                    //到达底部-100的高度，触发方法
+                    hiddenId = "#hiddenDiv" + i;
+                    $(hiddenId).show();
+                    i = i + 1;
+                }
+            });
+        })
+    </script>
+</head>
+<body>
+<div class="header">
+  <img src="../images/head.jpg" />
+  <div class="qrcode">
+    <img src="../images/qrcode.jpg" />
+    <p>请关注"辽宁省教育招生考试"</p>
+  </div>
+</div>
+<div class="nav">
+  <ul class="clearfix">
+  	<li><a target="_blank" href="../index.html">首页</a></li><li><a target="_blank" href="../ptgk.html">普通高考</a></li><li><a target="_blank" href="../listinfo/xysp_1.html">学业水平</a></li><li class="active"><a target="_blank" href="../listinfo/yjs_1.html">研究生</a></li><li><a target="_blank" href="../zsb.html">专升本</a></li><li><a target="_blank" href="../crgk.html">成人高考</a></li><li><a target="_blank" href="../listinfo/zxks_1.html">自学考试</a></li><li><a target="_blank" href="../listinfo/wnz_1.html">五年制高职</a></li><li><a target="_blank" href="../fxlinfo/fxl_1600_1.html">非学历考试</a></li><li><a target="_blank" href="../dxszb.html">大学生征兵</a></li>
+  </ul>
+</div>
+<div class="head-search clearfix">
+  <div class="date" id="date">2018年01月07日 星期四</div>
+
+ <a href="../zzjg/zzjg.html" class="btn" target="_blank">组织机构</a>
+    <a href="../listinfo/cggk_1.html" class="btn" target="_blank">政务公开</a>
+
+  <a href="../wbzx.html" class="btn" target="_blank">网报中心</a>
+  <a href="../cxzx.html" class="btn" target="_blank">查询中心</a>
+  <a href="../cjzm/cjzmlist_new.html" class="btn" target="_blank">成绩证明</a>
+  <a href="../zkzz.html" class="btn" target="_blank">招考杂志</a>
+  <div class="search">
+    <form id="infoform" name="infoform" method="post" action="../lnzsksSearch/search/index.action" >
+      <input type="text" name="title" id="title" class="input" value="" placeholder="站内搜索" />
+      <input type="image" name="" id="" class="button" src="../images/headsearch.jpg" />
+    </form>
+  </div>
+</div>
+<div class="main clearfix">
+  <div class="position">
+    <a href="../index.html" style="color:#3f98ef">首页</a>
+    <img style="margin-right: 4px" src="../images/link.png"><a style="color:#3f98ef"href=" ../listinfo/yjs_1.html">研究生</a><img style="margin-left: 4px" src="../images/link.png">
+    <a style="color:#3f98ef">正文</a>
+  </div>
+  <div class="info">
+    <h3>辽宁省2026年全国硕士研究生招生考试结束</h3>
+    <div class="subtitle clearfix">
+      <span class="mr20">时间：2025-12-21 19:00</span>
+	  <!--
+	  $editor$
+      <span class="mr20">&nbsp;&nbsp;作者：辽宁省招生考试办公室</span>
+		-->
+	</div>
+    <div class="content">
+    	<p style="text-indent: 2em; text-align: left; word-spacing: 0px;"><span style="text-indent: 2em; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">12</span><span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">月</span><span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">2</span></span><span style="text-indent: 2em; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">1</span><span style="text-indent: 2em; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">日，辽宁省</span><span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">2026</span><span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">年全国硕士研究生招生考试结束。今年我省共有</span></span><span style="text-indent: 2em; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">10.8</span><span style="text-indent: 2em; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">万名考生报名参加考试，共设</span><span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">1</span></span><span style="text-indent: 2em; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">35<span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">个</span></span><span style="text-indent: 2em; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">考点，启用</span><span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">2</span></span><span style="text-indent: 2em; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">58<span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">个安检门，</span></span><span style="text-indent: 2em; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">抽调</span><span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">1.</span></span><span style="text-indent: 2em; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">8</span><span style="text-indent: 2em; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">万余名考试工作人员参与组考工作，考试全程组织有序、秩序井然、考风考纪良好，如期实现</span><span style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">“平安研考”目标。考试期间，省政府副省长、省招考委主任吴春耕在省国家教育考试指挥中心现场指挥调度。</span></span></p><p style="text-indent: 2em; text-align: left; word-spacing: 0px;"><span style="text-decoration: none; background: none;">按照教育部的工作要求，我省统筹考务管理与组考安全，</span><span style="text-decoration: none; background: none;"><span style="text-decoration: none; background: none;">强化</span></span><span style="text-decoration: none; background: none;"><span style="text-decoration: none; background: none;">试卷运输、保管、分发、回收全流程闭环管理，结合保密室智能巡检与考场录像回放，确保考试公平公正；着力构建</span><span style="text-decoration: none; background: none;">“六位一体”防范作弊立体防护网体系，</span></span><span style="text-decoration: none; background: none;"><span style="text-decoration: none; background: none;">全面启用智能安检门，落实考点考场</span><span style="text-decoration: none; background: none;">“2+1”</span><span style="text-decoration: none; background: none;">安检模式，实现</span><span style="text-decoration: none; background: none;">5G</span><span style="text-decoration: none; background: none;">在内无线电信号屏蔽全覆盖，严密防范利用手机、智能眼镜等高科技设备作弊。</span></span><span style="text-decoration: none; background: none;">教育、招考、网信、保密、工信、公安、卫健、市场监管、通信等多部门联合值班，协同处置各类突发情况，合力护航平安研考。</span><span style="text-decoration: none; background: none;"><span style="text-decoration: none; background: none;">多考点针对冬季严寒天气，设置暖心服务站，为考生免费开放体育馆、阅览室等临时御寒场所。同时，我省为</span></span><span style="text-decoration: none; background: none;"><span style="text-decoration: none; background: none;">1</span></span><span style="text-decoration: none; background: none;">1<span style="text-decoration: none; background: none;">名残疾人</span></span><span style="text-decoration: none; background: none;"><span style="text-decoration: none; background: none;">和</span><span style="text-decoration: none; background: none;">4</span><span style="text-decoration: none; background: none;">名突发疾病</span></span><span style="text-decoration: none; background: none;"><span style="text-decoration: none; background: none;">考生提供延长考试时间、单设考场、优先进入考点考场等</span></span><span style="text-decoration: none; background: none;">关爱</span><span style="text-decoration: none; background: none;"><span style="text-decoration: none; background: none;">服务，全力营造温馨便捷的应考环境。</span></span></p><p style="text-indent: 2em; text-align: left; word-spacing: 0px;"><br></p>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="footline"></div>
+   <div class="footerA">
+	  <div class="footlink">
+		  <a href="../wzdh.html" target="_blank" style="margin: 0;padding: 0;">网站地图</a>
+	  </div>
+	  <div class="footlink" >
+		<p>主管单位：辽宁省高中等教育招生考试委员会办公室 &emsp;&emsp;&emsp;主办单位：辽宁招生考试杂志社</p>
+	  </div>
+	   <div class="footlink" >
+	   <p>地址：沈阳市于洪区怒江北街101号&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;邮编：110034</p>
+	   
+	   </div>
+	  <div class="footlink" >
+	    <p>辽B2-20120095-1&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;温馨提示：显示器分辨率1440*900或以上，IE9.0或以上浏览器为最佳显示效果 </p>
+	   </div>
+	   <div class="footbiao">
+		<a href="https://bszs.conac.cn/sitename?method=show&id=48B617745CDCAC82E06310291AACD9F3" target="_blank"><img src="../images/biao.png" /></a>
+	  </div>
+  </div>
+</div>
+<script type="text/javascript" src="../js/jquery.js" charset="utf-8"></script>
+<script type="text/javascript" src="../js/jquery.superslide.2.1.1.js" charset="utf-8"></script>
+<script type="text/javascript" src="../js/pageshow.js" charset="utf-8"></script>
+<script type="text/javascript" src="../js/jquery.js" charset="utf-8"></script>
+</body>
+</html>

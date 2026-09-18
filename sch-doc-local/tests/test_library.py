@@ -52,7 +52,9 @@ class LibraryTests(unittest.TestCase):
     def test_catalog_complete_and_local_search_needs_no_network(self):
         rows=institutions(type('ReadOnly',(),{'root':ROOT})())
         self.assertEqual(sum(x['tier']=='985' for x in rows),39)
-        self.assertEqual(sum(x['tier']=='研究所' for x in rows),115)
+        self.assertEqual(sum(x['tier']=='研究所' for x in rows),37)
+        self.assertEqual(sum(x['school']=='南昌大学' for x in rows),1)
+        self.assertTrue(all(x.get('province') and '京外' not in x['province'] for x in rows))
         self.assertEqual(len({r['id'] for r in rows}),len(rows))
         self.assertTrue(all('chem' not in row for row in rows))
         (self.store.root/'sources').mkdir()

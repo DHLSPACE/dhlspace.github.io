@@ -11,6 +11,7 @@ from urllib.parse import urlsplit
 from network import Client, decode, friendly_error
 from sources.parser import article, next_page, parse_list
 from storage import now
+from focus import relevant, classify
 
 KEYWORDS = re.compile('推免|免试|名额|招生|录取|复试|夏令营|暑期学校|预报名|初试|化工|化学|质量报告')
 
@@ -49,8 +50,13 @@ class Collector:
         existing=self.store.query('SELECT id FROM snapshots WHERE url=? AND sha256=?',(url,sha))
         if existing:
             return existing[0]['id']
-        school=re.sub(r'[^\w\u4e00-\u9fff.-]','_',source['name'])[:70]
-        folder=self.store.data/'snapshots'/school/datetime.now().strftime('%Y-%m-%d')
+        records=self.store.query('SELECT title FROM resources WHERE source_id=? AND url=?',(source['id'],url))
+        title=records[0]['title'] if records else source['name']
+        filing=classify(source,title)
+        if kind=='list':
+            filing['year']='跨年'
+        safe=lambda v: re.sub(r'[^\w\u4e00-\u9fff.-]','_',v)[:80]
+        folder=self.store.data/'snapshots'/safe(filing['scope'])/safe(filing['year'])/safe(filing['school'])/safe(filing['department'])/datetime.now().strftime('%Y-%m-%d')
         folder.mkdir(parents=True,exist_ok=True)
         body=response['body']
         suffix='.html'
@@ -131,7 +137,7 @@ class Collector:
                             changed+=1
                             self.store.event(source['id'],'条目修改',item['title'],item['url'],json.dumps({'before':{'title':previous['title'],'published':previous['published']},'after':item},ensure_ascii=False))
                         self.store.execute('UPDATE items SET title=?,published=?,last_seen=? WHERE id=?',(item['title'],item['published'],checked,previous['id']))
-                    if KEYWORDS.search(item['title']):
+                    if KEYWORDS.search(item['title']) and relevant(item['title'],source):
                         kind='file' if re.search(r'\.(pdf|docx?|xlsx?)(?:\?|$)',item['url'],re.I) else 'page'
                         self.queue(source,item['url'],item['title'],kind)
                 signature=digest(json.dumps(sorted(items.values(),key=lambda i:i['url']),ensure_ascii=False,sort_keys=True))
@@ -197,7 +203,7 @@ class Collector:
             for _ in range(budget):
                 # 新附件优先，失败项参与轮转；每个运行内每个资源最多尝试一次。
                 pending=self.store.query("SELECT * FROM resources ORDER BY CASE WHEN checked='' AND kind='file' THEN 0 WHEN checked='' THEN 1 ELSE 2 END, checked, id DESC")
-                r=next((x for x in pending if x['source_id'] in by_id and x['id'] not in processed and (not x['checked'] or due(x['checked'],by_id[x['source_id']]['interval_hours']))),None)
+                r=next((x for x in pending if x['source_id'] in by_id and relevant(x['title'],by_id[x['source_id']]) and x['id'] not in processed and (not x['checked'] or due(x['checked'],by_id[x['source_id']]['interval_hours']))),None)
                 if not r:
                     break
                 processed.add(r['id'])

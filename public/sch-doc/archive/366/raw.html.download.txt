@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>推免招生工作办法_全国推荐免试攻读研究生（免初试、转段）信息公开管理服务系统</title>
+    <meta content="text/html" charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    
+    <meta name="keywords" content="推免生,推免服务系统,推荐办法,推免生名单"/>
+    <meta name="description" content="推免服务系统是全国统一的推免工作信息备案公开平台和推免生网上报名录取系统。推免生（含推免硕士生和直博生）资格审核确认、报名、录取以及备案公开等相关工作均须通过“推免服务系统”进行。"/>
+    <link rel="dns-prefetch" href="https://axvert.chsi.com.cn">
+    <link rel="dns-prefetch" href="https://t1.chei.com.cn">
+    <link rel="dns-prefetch" href="https://t2.chei.com.cn">
+    <link rel="dns-prefetch" href="https://t3.chei.com.cn">
+    <link rel="dns-prefetch" href="https://t4.chei.com.cn">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="shortcut icon" type="image/x-icon" href="https://t3.chei.com.cn/yz/favicon.ico">
+    <link rel="stylesheet" href="https://t2.chei.com.cn/common/ch/chicon/iconfont.css">
+    <script src="https://t3.chei.com.cn/common/js/vue/2.6.10/vue.min.js"></script>
+    <link rel="stylesheet" href="https://t2.chei.com.cn/yz/tm/assets/pc/css/app.css">
+    <link rel="stylesheet" href="https://t3.chei.com.cn/common/css/ueditor.css">
+    <!-- 页面中额外css引入 -->
+    
+    <script type="text/javascript">
+// 百度统计
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?3916ecc93c59d4c6e9d954a54f37d84c";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-100524-7"></script>
+<script>
+function gaTrackerOutboundLink(params) { //ga链接埋点
+    gtag('event', params.eventAction, {
+        'event_category': params.eventCategory,
+        'event_label': params.eventLabel
+    });
+    return true;
+};
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-100524-7', {'sample_rate': 5});
+</script>
+</head>
+<body class="ch-sticky">
+    <div id="appLoading">
+        <div class="spin-loading">
+            <div class="spinner">
+                <div class="rect1"></div>
+                <div class="rect2"></div>
+                <div class="rect3"></div>
+                <div class="rect4"></div>
+                <div class="rect5"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-wrapper">
+        <!-- 吊顶区域 -->
+<style>
+    body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .top-nav-wrapper {
+        width: 100%;
+        height: 48px;
+        line-height: 48px;
+        background: #fff;
+        font-size: 14px;
+        box-sizing: border-box;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
+        z-index: 100;
+        position: relative;
+    }
+    .top-nav-wrapper a {
+        color: #2b2e33;
+    }
+    .top-nav-wrapper a:hover {
+        color: #1887e0;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .top-nav-wrapper .top-nav {
+        width: 1180px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+    .top-nav-wrapper .top-nav-list {
+        flex: 1;
+        height: 48px;
+        display: flex;
+        align-items: center;
+    }
+    .top-nav-wrapper .top-nav-list a {
+        margin-right: 20px;
+    }
+    .top-nav-wrapper .top-nav-list a.top-nav-home {
+        display: inline-block;
+        width: 98px;
+        height: 36px;
+        margin-right: 20px;
+        margin-left: 0px;
+        background-image: url("https://t2.chei.com.cn/yz/assets/images/logo-min.png");
+        background-image: -webkit-image-set(
+            url("https://t2.chei.com.cn/yz/assets/images/logo-min.png") 1x,
+            url("https://t4.chei.com.cn/yz/assets/images/logo-min2x.png") 2x
+        );
+        background-repeat: no-repeat;
+        background-position: center left;
+    }
+    .top-nav-hide {
+        position: relative;
+        cursor: pointer;
+        color: #2b2e33;
+    }
+    .top-nav-hide:hover {
+        color: #2b2e33;
+    }
+    .top-nav-hide:hover .top-nav-pop {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .top-nav-pop {
+        padding: 18px 30px 18px 16px;
+        visibility: hidden;
+        box-sizing: border-box;
+        background-color: #fff;
+        color: #2b2e33;
+        text-align: center;
+        border-radius: 6px;
+        position: absolute;
+        z-index: 1;
+        top: 44px;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: opacity 0.3s;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.12);
+        font-size: 12px;
+        line-height: 20px;
+        display: flex;
+    }
+    .top-nav-pop-arrow {
+        display: block;
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-color: transparent;
+        border-style: solid;
+        left: 50%;
+        margin-left: -14px;
+        top: -7px;
+        border-width: 0 7px 7px;
+        border-bottom-color: rgba(0, 0, 0, 0.03);
+    }
+    .top-nav-pop-arrow::after {
+        display: block;
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-color: transparent;
+        border-style: solid;
+        left: 50%;
+        margin-left: -7px;
+        top: 1px;
+        border-width: 0 7px 7px;
+        border-bottom-color: #fff;
+    }
+    .top-nav-wrapper .top-nav-list a.top-nav-home:hover {
+        text-decoration: none;
+    }
+    .top-nav-wrapper .top-nav-load {
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .top-nav-wrapper a.username {
+        flex: 1;
+        color: #1887e0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: right;
+    }
+    .top-nav-pop-clo {
+        font-size: 14px;
+        line-height: 22px;
+        margin-right: 22px;
+    }
+    .top-nav-pop-clo:last-child {
+        margin-right: 0;
+    }
+    .top-nav-wrapper .top-nav-pop-clo a {
+        display: block;
+        margin-right: 0;
+        white-space: nowrap;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+    .top-nav-wrapper .top-nav-pop-clo a:last-child {
+        margin-bottom: 0;
+    }
+    .top-nav-more {
+        display: flex;
+        align-items: center;
+    }
+    .top-nav-hide:hover .top-nav-more {
+        color: #1887e0;
+        font-weight: 700;
+    }
+    .top-nav-more img {
+        width: 14px;
+        margin-left: 4px;
+        transform: rotate(90deg);
+    }
+    .top-nav-hide:hover img {
+        transform: rotate(-90deg);
+    }
+    .info-line {
+        display: block;
+        width: 1px;
+        height: 12px;
+        background: #e8eaed;
+        margin: 0 12px;
+    }
+    .top-nav-wrapper.active .seach-toggel {
+        display: none;
+    }
+    .search-cancel {
+        display: none;
+        margin-left: 12px;
+        cursor: pointer;
+    }
+    .top-nav-wrapper.active .search-cancel{
+        display: block;
+    }
+    .top-nav-load-search {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url("https://t2.chei.com.cn/common/images/icon-search.svg") center center no-repeat;
+        cursor: pointer;
+    }
+    .top-nav-search-input {
+        display: none;
+    }
+    .top-nav-search-input .search-input {
+        display: block;
+        width: 200px;
+        border: 1px solid #D5D7DB;
+        height: 30px;
+        background: #FFF;
+        border-radius: 4px;
+        outline: none;
+        padding: 0 28px 0 8px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    .top-nav-search-input .search-input:focus {
+        border: 1px solid #1887E0;
+    }
+    .top-nav-wrapper.active .top-nav-search-input {
+        display: block;
+    }
+    .top-nav-wrapper.active .top-nav-load {
+        max-width: none;
+    }
+    .site-search {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .top-nav-wrapper.active .top-nav-load-search {
+        display: none;
+    }
+    .top-nav-wrapper.active .search-button {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url("https://t2.chei.com.cn/common/images/icon-search.svg") center center no-repeat;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        position: absolute;
+        right: 8px;
+        top: 5px;
+    }
+    .top-nav-load-info {
+        display: flex;
+        align-items: center;
+    }
+</style>
+<div class="top-nav-wrapper">
+    <div class="top-nav">
+        <div class="top-nav-list" onmousedown="handleLinkClick(event, 'pc-二级导航')">
+            <a href="/" class="top-nav-home">&ensp;</a>
+            <a class="seach-toggel" href="/">首页</a>
+            <a class="seach-toggel" href="/kyzx/zcdh/">国家政策</a>
+            <a class="seach-toggel" href="/kyzx/kydt/">资讯</a>
+            <a class="seach-toggel" href="/sch/">院校库</a>
+            <a class="seach-toggel" href="/zsml/">硕士目录</a>
+            <a class="seach-toggel" href="/sswbgg/">网报公告</a>
+            <a class="seach-toggel" href="/yzwb/">统考网报</a>
+            <a class="seach-toggel" href="/wsqr/stu/">网上确认</a>
+            <a class="seach-toggel" href="/apply/cjcx/">成绩查询</a>
+            <a class="seach-toggel" href="/yztj/">复试调剂</a>
+            <a class="seach-toggel" href="/tm/">推免服务</a>
+            <a class="seach-toggel" href="/zsgs/">信息公开</a>
+            <span class="top-nav-hide seach-toggel">
+                <span class="top-nav-more">更多<img src="https://t2.chei.com.cn/common/images/wap-icon/nav-next.svg" class="nav-next"></span>
+                <div class="top-nav-pop">
+                    <span class="top-nav-pop-arrow"></span>
+                    <div class="top-nav-pop-clo">
+                        <a href="/kyzx/jybzc/">教育部政策</a>
+                        <a href="https://yz.chsi.com.cn/kyzx/zt/kyfs.shtml">复试分数线</a>
+                        <a href="https://yz.chsi.com.cn/yzzt/glllk">管理类专硕</a>
+                    </div>
+                    <div class="top-nav-pop-clo">
+                        <a href="/kyzx/yxzc/">院校政策</a>
+                        <a href="https://yz.chsi.com.cn/yzzt/zbft">研招访谈</a>
+                        <a href="https://yz.chsi.com.cn/kyzx/zt/zsxz.shtml">专业学位</a>
+                    </div>
+                    <div class="top-nav-pop-clo">
+                        <a href="/kyzx/zsjz/">招生简章</a>
+                        <a href="/bsmlcx/">博士目录</a>
+                        <a href="/zyk/">专业库</a>
+                    </div>
+                    <div class="top-nav-pop-clo">
+                        <a href="/zxdy/">在线咨询</a>
+                        <a href="/bsbm/">博士网报</a>
+                    </div>
+                </div>
+            </span>
+        </div>
+        <div class="top-nav-load">
+            <div class="top-nav-search-input" id="top-nav-input">
+                <form class="site-search" action="https://cn.bing.com/search" target="_blank" method="get">
+                    <input type="hidden" class="realQuery" name="q" value="">
+                    <input placeholder="" type="text" name="query" autocomplete="off" id="top-nav-search-input" class="search-input" value="" maxlength="100">
+                    <button type="submit" class="search-button"></button>
+                </form>
+            </div>
+            <span class="search-cancel">取消</span>
+            <span class="top-nav-load-search" id="top-nav-search"></span>
+            <span class="info-line"></span>
+            <a href="/user/">用户中心</a>
+            <span class="info-line"></span>
+            <a href="https://account.chsi.com.cn/account/preregister.action?from=yz-home">注册</a>
+        </div>
+    </div>
+</div>
+<script>
+function handleLinkClick(event, type) {
+    event = event || window.event;
+    var target = event.target || event.srcElement;
+
+    var link = findClosestLink(target);
+    if (link) {
+        var href = link.getAttribute('href');
+        var label = link.textContent.trim();
+
+        gaTrackerOutboundLink({ eventCategory: type, eventAction: 'click', eventLabel: label });
+    }
+}
+
+function findClosestLink(element) {
+    while (element && element.nodeName !== 'A') {
+        element = element.parentNode;
+    }
+    if (element) {
+        return element;
+    }
+    return null;
+}
+document.addEventListener('DOMContentLoaded', function () {
+    const topNavSearch = document.getElementById('top-nav-search');
+    const searchCancel = document.querySelector('.search-cancel');
+    const searchInput = document.querySelector('.search-input');
+    const realQuery = document.querySelector('.realQuery');
+    const searchForm = document.querySelector('.site-search');
+
+    // 点击搜索图标：显示输入框（添加 active 类）
+    if (topNavSearch) {
+        topNavSearch.addEventListener('click', function (event) {
+            event.stopPropagation();
+            document.querySelector('.top-nav-wrapper').classList.add('active');
+            searchInput.focus();
+        });
+    }
+
+    // 点击取消按钮：移除 active 类
+    if (searchCancel) {
+        searchCancel.addEventListener('click', function (event) {
+            document.querySelector('.top-nav-wrapper').classList.remove('active');
+        });
+    }
+
+    // 点击文档其他地方：移除 active 类
+    document.addEventListener('click', function (event) {
+        const wrapper = document.querySelector('.top-nav-wrapper');
+        if (wrapper && !wrapper.contains(event.target)) {
+            wrapper.classList.remove('active');
+        }
+    });
+
+    // 提交表单前处理搜索词
+    if (searchForm) {
+        searchForm.addEventListener('submit', function (e) {
+            e.preventDefault(); // 阻止默认提交
+
+            const val = searchInput.value.trim();
+
+            if (!val) {
+                alert("请输入关键词");
+                return;
+            }
+
+            // 设置 realQuery 的值为关键词 + site:xxx
+            realQuery.value = val + ' site:yz.chsi.com.cn';
+
+            // 手动提交表单
+            searchForm.submit();
+        });
+    }
+});
+</script>
+        <div id="app" v-cloak>
+            <div class="yz-header-banner-wrapper">
+                <div class="banner">
+                    <h1>全国推荐免试攻读研究生（免初试、转段）<br>信息公开管理服务系统</h1>
+                </div>
+            </div>
+            <div class="common-nav-box">
+                <div class="common-nav-wrapper">
+                    <div class="nav-list">
+                        <template v-for="item in navList">
+                            <a :class="{'nav-selected': typeof active !== 'undefined' && item.key === active}" :href="item.url">{{item.title}}</a>
+                        </template>
+                    </div>
+                    <div class="nav-login">
+                        <a href="/user/?entrytype=yzgr">网上报名</a>
+                        <a href="/tm/htgl/" target="_blank">管理部门登录</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+    <div class="tm-news-container">
+        <div class="box-left">
+            <h2 class="news-detail-title">{{newsTitle}}</h2>
+            <div class="news-detail-msg">
+                <span>{{deployTime}}</span>
+                <span>来源：{{schName}}</span>
+            </div>
+            <div class="news-detail-content font-p-14 UEditor" v-html="content"></div>
+        </div>
+        <div class="box-right">
+            <div class="tm-col-title">
+                <div class="title">申诉渠道</div>
+            </div>
+            <template v-if="repforsch.orgName">
+                <h3 class="font-16 margin-top-20">{{repforsch.orgName}}</h3>
+                <div class="font-p-14 c-deepgrey" style="margin-top: 5px;">
+                    <div class="ss-item"><span>地址：</span>{{repforsch.address}}</div>
+                    <div class="ss-item"><span>邮编：</span>{{repforsch.postCode}}</div>
+                    <div class="ss-item"><span>邮箱：</span>{{repforsch.email}}</div>
+                    <div class="ss-item"><span>电话：</span>{{repforsch.telephone}}</div>
+                    <div class="ss-item"><span>传真：</span>{{repforsch.fax}}</div>
+                    <div class="ss-item"><span>部门：</span>{{repforsch.department}}</div>
+                </div>
+            </template>
+            <template v-if="repforzsb.orgName">
+                <h3 class="font-16 margin-top-20">{{repforzsb.orgName}}</h3>
+                <div class="font-p-14 c-deepgrey" style="margin-top: 5px;">
+                    <div class="ss-item"><span>地址：</span>{{repforzsb.address}}</div>
+                    <div class="ss-item"><span>邮编：</span>{{repforzsb.postCode}}</div>
+                    <div class="ss-item"><span>邮箱：</span>{{repforzsb.email}}</div>
+                    <div class="ss-item"><span>电话：</span>{{repforzsb.telephone}}</div>
+                    <div class="ss-item"><span>传真：</span>{{repforzsb.fax}}</div>
+                    <div class="ss-item"><span>部门：</span>{{repforzsb.department}}</div>
+                </div>
+            </template>
+        </div>
+    </div>
+</div>
+            <back-Top></back-Top>
+        </div>
+    </div>
+    <!-- 4: 底部区域 -->
+<style>
+    /**
+     * description: footer 共用底部;
+     * author:myx;
+     * date:2017-07;
+     */
+
+    .footer-wrapper {
+        line-height: 30px;
+        background: #282828;
+        color: #ababab;
+    }
+
+    .footer-wrapper a {
+        color: #ababab;
+    }
+
+    .footer-wrapper .footer {
+        position: relative;
+        width: 1180px;
+        height: 198px;
+        margin: 0 auto;
+    }
+
+    .footer-wrapper .footer-list {
+        position: absolute;
+        top: 32px;
+        left: 0px;
+    }
+
+    .footer-wrapper .footer-list a {
+        margin-right: 15px;
+    }
+
+    .footer-wrapper .footer-units {
+        position: absolute;
+        top: 75px;
+        left: 0px;
+    }
+
+    .footer-wrapper .footer-media {
+        position: absolute;
+        top: 32px;
+        left: 844px;
+    }
+
+    .footer-wrapper .footer-media a {
+        display: inline-block;
+        margin-right: 30px;
+        vertical-align: top;
+    }
+
+    .footer-wrapper .footer-media a:hover {
+        text-decoration: none;
+    }
+
+    .footer-wrapper .footer-media .iconfont {
+        margin-right: 5px;
+        font-size: 20px;
+        vertical-align: middle;
+    }
+
+    .footer-wrapper .svg-icon {
+        display: inline-block;
+        width: 20px;
+        height: 23px;
+        margin-right: 3px;
+        vertical-align: middle;
+    }
+
+    .footer-wrapper svg use {
+        color: #ababab;
+    }
+
+    .footer-wrapper .footer-msg {
+        position: absolute;
+        top: 75px;
+        left: 844px;
+    }
+</style>
+<svg style="display: block; width: 0; height: 0">
+    <defs>
+        <symbol id="weibo" viewBox="0 0 16 16">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(-139.000000, -4036.000000)" fill="currentColor" fill-rule="nonzero">
+                    <g transform="translate(139.000000, 4036.000000)">
+                        <rect opacity="0" x="0" y="0" width="16" height="16"></rect>
+                        <path
+                            d="M10.565,3.6325 C10.565,3.6325 12.335,3.445 13.0875,4.5425 C13.84,5.64 13.515,7.02 13.515,7.02 C13.4949253,7.12321653 13.5233752,7.22993417 13.5921672,7.30945968 C13.6609592,7.38898519 13.7624686,7.43250415 13.8675,7.4275 L14.0425,7.4275 C14.2747485,7.42111375 14.4682944,7.24766281 14.5,7.0175 C14.5,7.0175 14.9075,4.8525 13.65,3.6475 C12.67,2.705 11.3275,2.6025 10.79,2.6025 L10.5525,2.6025 C10.3240422,2.60790517 10.1412883,2.79398193 10.1399581,3.0225 L10.1399581,3.2275 C10.1383884,3.33892927 10.183335,3.44597927 10.264011,3.52285878 C10.3446871,3.59973829 10.4537777,3.63947671 10.565,3.6325 L10.565,3.6325 Z M7.08,11.845 C8.315,11.595 9.15,10.565 8.9475,9.5225 C8.7725,8.625 7.8875,8.0225 6.8575,8.0225 C6.6895953,8.02269714 6.52211889,8.03944478 6.3575,8.0725 C5.1225,8.3225 4.2875,9.3525 4.49,10.395 C4.6925,11.4375 5.8475,12.085 7.08,11.845 Z M7.115,9.1625 C7.27228055,9.15431868 7.41868486,9.24275691 7.48462743,9.38578027 C7.55057,9.52880363 7.52275233,9.69756891 7.41439607,9.8118625 C7.3060398,9.9261561 7.13899693,9.96292865 6.99266239,9.90470229 C6.84632786,9.84647593 6.75021264,9.70499305 6.75,9.5475 C6.7484414,9.34193445 6.90964354,9.17189932 7.115,9.1625 L7.115,9.1625 Z M5.75,9.765 C6.13,9.5875 6.5475,9.6775 6.68,9.9675 C6.8125,10.2575 6.625,10.635 6.25,10.8125 C6.12707576,10.8701293 5.99325221,10.9008149 5.8575,10.9025 C5.63577697,10.9190371 5.42511864,10.80342 5.32,10.6075 C5.18,10.32 5.3775,9.9425 5.75,9.765 Z"></path>
+                        <path
+                            d="M7.305,13.3975 C10.555,13.3975 13.155,11.675 13.155,9.5475 C13.155,7.7525 10.94,7.7525 10.94,7.635 C10.94,7.5175 12.045,6.4775 10.94,5.8275 C10.28,5.4375 9.29,5.6375 8.615,5.8275 C8.37593476,5.92066948 8.13025327,5.9958781 7.88,6.0525 C8.75,4.535 7.51,4.0525 6.88,4.0525 C5.38,4.0525 1.4325,7.41 1.4325,9.535 C1.4325,11.66 4.06,13.3975 7.305,13.3975 L7.305,13.3975 Z M6.7675,7.2625 C8.84,6.97 10.6775,7.845 10.87,9.2125 C11.0625,10.58 9.5375,11.9275 7.4625,12.2125 C7.19993139,12.2492176 6.93512346,12.2675954 6.67,12.2675004 C4.94,12.2675004 3.53,11.4525 3.3625,10.2675 C3.17,8.9 4.695,7.5525 6.7675,7.2625 L6.7675,7.2625 Z"></path>
+                        <path
+                            d="M12.1975,6.94 L12.4475,6.94 C12.6059157,6.93686389 12.7404701,6.82317064 12.77,6.6675 C12.77,6.6675 13.065,5.525 12.38,4.9 C12.0543816,4.60954157 11.6312754,4.45243883 11.195,4.46 C11.06222,4.45779075 10.9296415,4.47121643 10.8,4.5 C10.6460069,4.52717522 10.5322284,4.65869897 10.5275,4.815 L10.5275,4.9225 C10.523244,4.99648918 10.5520351,5.06855315 10.6061021,5.11924105 C10.6601692,5.16992894 10.7339389,5.19401568 10.8075,5.185 C10.8075,5.185 11.5575,5.0825 11.9225,5.5225 C12.2875,5.9625 12.0025,6.675 12.0025,6.675 C11.9769169,6.73717397 11.9856249,6.80819055 12.0254718,6.86234147 C12.0653188,6.9164924 12.1305304,6.94593085 12.1975,6.94 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </symbol>
+        <symbol id="weixin" viewBox="0 0 17 16">
+            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g transform="translate(-118.000000, -4036.000000)" fill-rule="nonzero">
+                    <g transform="translate(118.000000, 4036.000000)">
+                        <rect fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                        <path
+                            d="M6.33075,2 C3.4003125,2 1,3.99745313 1,6.53370312 C1,7.99773437 1.7986875,9.19954687 3.13267188,10.1306562 L2.5995,11.734625 L4.46289062,10.7997656 C5.129875,10.9321719 5.6646875,11.0676406 6.33003125,11.0676406 C6.49725,11.0676406 6.66329688,11.0594062 6.8276875,11.0462344 C6.72373438,10.6894531 6.66329688,10.3164531 6.66329688,9.92932812 C6.66329688,7.6016875 8.66332812,5.71171875 11.1955781,5.71171875 C11.3682031,5.71171875 11.5391875,5.72442187 11.709,5.74323437 C11.2477969,3.59573437 8.95190625,2 6.33075,2 L6.33075,2 Z M4.5990625,5.5990625 C4.19971875,5.5990625 3.796375,5.33142188 3.796375,4.93184375 C3.796375,4.53060938 4.19971875,4.26673438 4.5990625,4.26673438 C4.99840625,4.26673438 5.26464063,4.53085938 5.26464063,4.93184375 C5.26440625,5.33142188 4.99840625,5.59907813 4.5990625,5.59907813 L4.5990625,5.5990625 Z M8.32984375,5.5990625 C7.93025,5.5990625 7.52925,5.33142188 7.52925,4.93184375 C7.52925,4.53060938 7.93025,4.26673438 8.32982812,4.26673438 C8.73129687,4.26673438 8.9970625,4.53085938 8.9970625,4.93184375 C8.9970625,5.33142188 8.7310625,5.59907813 8.32982812,5.59907813 L8.32984375,5.5990625 Z M16.061125,9.86559375 C16.061125,7.73575 13.9284688,5.99865625 11.5333125,5.99865625 C8.9970625,5.99865625 6.999375,7.73575 6.999375,9.86559375 C6.999375,12.0001562 8.9970625,13.7337187 11.5333125,13.7337187 C12.064125,13.7337187 12.5991719,13.600125 13.1325781,13.4663125 L14.5949687,14.2668906 L14.1939844,12.9345469 C15.2638438,12.1323281 16.061125,11.067875 16.061125,9.86559375 L16.061125,9.86559375 Z M10.0631563,9.19954687 C9.797625,9.19954687 9.52975,8.93590625 9.52975,8.66660938 C9.52975,8.400625 9.797625,8.13296875 10.0631563,8.13296875 C10.4665,8.13296875 10.7303906,8.400625 10.7303906,8.66660938 C10.7303906,8.93590625 10.4665,9.19954687 10.0631563,9.19954687 Z M12.9954687,9.19954687 C12.7318281,9.19954687 12.4658281,8.93590625 12.4658281,8.66660938 C12.4658281,8.400625 12.7318281,8.13296875 12.9954687,8.13296875 C13.3948125,8.13296875 13.6626875,8.400625 13.6626875,8.66660938 C13.6626875,8.93590625 13.3948125,9.19954687 12.9954687,9.19954687 Z"
+                            fill="currentColor"></path>
+                    </g>
+                </g>
+            </g>
+        </symbol>
+    </defs>
+</svg>
+<div class="footer-wrapper">
+    <div class="footer">
+        <div class="footer-list">
+            <a href="//www.chsi.com.cn/" target="_blank">学信网</a>
+            <a href="https://chesicc.chsi.com.cn/zxgw/zxjs/201604/20160418/1529506207.html" target="_blank">中心简介</a>
+            <a href="/doc/about.jsp" target="_blank">关于我们</a>
+            <a href="/doc/copyright.jsp" target="_blank">版权声明</a>
+            <a href="/help/" target="_blank">帮助中心</a>
+            <a href="/sitemap.jsp" target="_blank">网站地图</a>
+            <a href="https://www.chsi.com.cn/ad/202403/20240322/2293272455.html" target="_blank">网站宣传</a>
+        </div>
+        <div class="footer-units">
+            主办单位：<a href="https://chesicc.chsi.com.cn/" target="_blank">教育部学生服务与素质发展中心</a><br>
+            Copyright © 2003-<span>2026</span> <a href="//www.chsi.com.cn/" target="_blank">学信网</a> All Rights Reserved<br>
+            <a href="https://beian.miit.gov.cn" target="_blank" rel="noopener noreferrer">京ICP备19004913号-1</a>
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010202009747" target="_blank" rel="noopener noreferrer">
+                <img src="https://t1.chei.com.cn/chsi/images/jgwab.svg" style="vertical-align: middle; margin-bottom: 2px; margin-left: 8px;">
+                京公网安备11010202009747号
+            </a>
+        </div>
+        <div class="footer-media">
+            <a href="/kyzx/kp/wbwx.shtml" target="_blank">
+                <svg class="svg-icon">
+                    <use xlink:href="#weixin"></use>
+                </svg>
+                官方微信
+            </a>
+            <a href="/kyzx/kp/wbwx.shtml" target="_blank">
+                <svg class="svg-icon">
+                    <use xlink:href="#weibo"></use>
+                </svg>
+                官方微博
+            </a>
+        </div>
+        <div class="footer-msg">
+            客服热线：010-67410388<br>
+            客服邮箱：kefu@chsi.com.cn
+        </div>
+    </div>
+</div>
+
+    <script src="https://t3.chei.com.cn/common/ch/browser/not-ie.min.js"></script>
+    <script src="https://t3.chei.com.cn/common/js/api-1.0.4.js"></script>
+    <script src="https://t3.chei.com.cn/common/js/lodash.min.js"></script>
+    <script src="https://t3.chei.com.cn/common/js/vue-plugins/moment.min.js"></script>
+    <script src="https://t3.chei.com.cn/common/vue-plugins/iview4.7.0/js/iview.min.js"></script>
+    <script src="https://t2.chei.com.cn/yz/tm/assets/pc/js/app.js"></script>
+    <!-- 各个页面嵌入的js内容 -->
+    
+    <!-- 引入脚本 -->
+    <script type="text/javascript">
+    var mixin = {
+        data: function () {
+            return {
+                active: 'jsbf',
+                newsTitle: "\u6E56\u5357\u5927\u5B662027\u5E74\u63A5\u6536\u63A8\u8350\u514D\u8BD5\u7814\u7A76\u751F\uFF08\u542B\u76F4\u535A\u751F\uFF09\u529E\u6CD5",
+                schCode: "10532",
+                schName: "\u6E56\u5357\u5927\u5B66",
+                deployTime: "2026-09-15",
+                content: "<p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u6E56\u5357\u5927\u5B66\u529E\u5B66\u5386\u53F2\u60A0\u4E45\uFF0C\u662F\u6559\u80B2\u90E8\u76F4\u5C5E\u5168\u56FD\u91CD\u70B9\u5927\u5B66\u3001<\/span><span style=\"font-family:Times New Roman\">\u201C211<\/span><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5DE5\u7A0B<\/span><span style=\"font-family:Times New Roman\">\u201D\u201C985<\/span><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5DE5\u7A0B<\/span><span style=\"font-family:Times New Roman\">\u201D<\/span><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u548C<\/span><span style=\"font-family:Times New Roman\">\u201C<\/span><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u4E16\u754C\u4E00\u6D41\u5927\u5B66<\/span><span style=\"font-family:Times New Roman\">\u201D<\/span><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5EFA\u8BBE\u9AD8\u6821\u3002\u4E3A\u505A\u597D\u6211\u6821<\/span><span style=\"font-family:Times New Roman\">202<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\"><span style=\"font-family:Times New Roman\">7<\/span><\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5E74<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u63A5\u6536<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u63A8\u8350\u514D\u8BD5\u7814\u7A76\u751F\uFF08\u542B\u76F4\u535A\u751F\uFF09\u5DE5\u4F5C\uFF0C\u6839\u636E\u6559\u80B2\u90E8\u76F8\u5173\u6587\u4EF6\u8981\u6C42\uFF0C\u7ED3\u5408\u5B66\u6821\u5B9E\u9645\uFF0C\u5236\u5B9A\u672C\u529E\u6CD5\u3002<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u9ED1\u4F53\">\u4E00\u3001\u62DB\u751F\u8BA1\u5212<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">202<\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\"><span style=\"font-family:Times New Roman\">7<\/span><\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5E74\u62DF\u63A5\u6536\u63A8\u8350\u514D\u8BD5\u7855\u58EB\u7814\u7A76\u751F<\/span>2<\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\"><span style=\"font-family:Times New Roman\">10<\/span><\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\">0<span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u4F59\u540D\u3001\u76F4\u63A5\u653B\u8BFB\u535A\u58EB\u7814\u7A76\u751F<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\uFF08\u4EE5\u4E0B\u7B80\u79F0\u76F4\u535A\u751F\uFF09<\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\"><span style=\"font-family:Times New Roman\">5<\/span><\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\">00<span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u4F59\u540D\uFF0C\u5B9E\u9645\u63A5\u6536\u4EBA\u6570\u4EE5\u6700\u7EC8\u786E\u8BA4\u5F55\u53D6\u4FE1\u606F\u4E3A\u51C6\u3002<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u9ED1\u4F53\">\u4E8C\u3001<\/span><\/span><span style=\"font-family: \u9ED1\u4F53;font-size: 21px\">\u62DB\u751F<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u9ED1\u4F53\">\u4E13\u4E1A<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u6211\u6821\u6240\u6709\u5168\u65E5\u5236\u62DB\u751F\u4E13\u4E1A\u5747\u63A5\u6536\u63A8\u8350\u514D\u8BD5\u7855\u58EB\u7814\u7A76\u751F\uFF0C<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u5177\u6709\u535A\u58EB\u7814\u7A76\u751F\u62DB\u751F\u8D44\u683C\u7684\u5B66\u9662<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5747\u63A5\u6536<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u76F4\u535A<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u751F\u3002\u5177\u4F53\u4EE5<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u201C<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5168\u56FD\u63A8\u8350\u514D\u8BD5\u653B\u8BFB\u7814\u7A76\u751F\uFF08\u514D\u521D\u8BD5\u3001\u8F6C\u6BB5\uFF09\u4FE1\u606F\u516C\u5F00\u66A8\u7BA1\u7406\u670D\u52A1\u7CFB\u7EDF<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u201D<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\uFF08\u4EE5\u4E0B\u7B80\u79F0<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u201C<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5168\u56FD\u63A8\u514D\u670D\u52A1\u7CFB\u7EDF<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u201D<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\uFF0C\u7F51\u5740\uFF1A<\/span>https:\/\/yz.chsi.com.cn\/tm<span style=\"font-family:\u4EFF\u5B8B_GB2312\">\uFF09\u516C\u5E03\u7684<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u201C<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u63A8\u514D\u62DB\u751F\u4E13\u4E1A\u76EE\u5F55<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u201D<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u4E3A\u51C6\u3002<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u9ED1\u4F53\">\u4E09\u3001\u7533\u8BF7\u6761\u4EF6<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">1.<span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u4E2D\u534E\u4EBA\u6C11\u5171\u548C\u56FD\u516C\u6C11\uFF0C\u62E5\u62A4\u4E2D\u56FD\u5171\u4EA7\u515A\u7684\u9886\u5BFC\uFF0C\u9075\u7EAA\u5B88\u6CD5\uFF0C\u54C1\u5FB7\u826F\u597D\uFF1B<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">2.2027<span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5C4A\u666E\u901A\u5168\u65E5\u5236\u672C\u79D1\u6BD5\u4E1A\u751F\uFF0C\u53D6\u5F97\u672C\u79D1\u6240\u5728\u5B66\u6821\u7684\u63A8\u8350\u514D\u8BD5\u751F\u8D44\u683C\uFF1B<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">3.<span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u7814\u7A76\u5174\u8DA3\u6D53\u539A\uFF0C\u6709\u8F83\u5F3A\u7684\u521B\u65B0\u610F\u8BC6\u3001\u521B\u65B0\u80FD\u529B\u548C\u4E13\u4E1A\u80FD\u529B\uFF1B<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">4.<span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u8EAB\u5FC3\u5065\u5EB7\uFF0C\u7B26\u5408\u56FD\u5BB6\u548C\u6211\u6821\u89C4\u5B9A\u7684\u4F53\u68C0\u8981\u6C42\uFF1B<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">5.<span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u7B26\u5408\u62DB\u751F\u5B66\u9662\u89C4\u5B9A\u7684\u5176\u4ED6\u7533\u8BF7\u6761\u4EF6\u3002<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u9ED1\u4F53\">\u56DB\u3001\u63A5\u6536\u7A0B\u5E8F<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><strong><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\uFF08\u4E00\uFF09\u5B66\u751F\u7533\u8BF7<\/span><\/span><\/strong><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">1.<span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u6CE8\u518C\uFF1A\u5177\u6709\u63A8\u8350\u514D\u8BD5\u8D44\u683C\u7684<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u7533\u8BF7\u4EBA<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5728\u6559\u80B2\u90E8\u89C4\u5B9A\u65F6\u95F4\u5185\u901A\u8FC7<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u201C<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5168\u56FD\u63A8\u514D\u670D\u52A1\u7CFB\u7EDF<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u201D<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u529E\u7406\u6CE8\u518C\u624B\u7EED\u3002<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">2.<span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u62A5\u540D\u4E0E\u786E\u8BA4\uFF1A\u8003\u751F\u987B\u5728\u62A5\u8003\u5B66\u9662\u89C4\u5B9A\u7684\u65F6\u95F4\u5185\u5728\u6559\u80B2\u90E8<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u201C<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5168\u56FD\u63A8\u514D\u670D\u52A1\u7CFB\u7EDF<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u201D<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5B8C\u6210\u62A5\u540D\u3001\u786E\u8BA4\u590D\u8BD5\u53CA\u5F85\u5F55\u53D6\u901A\u77E5\u624B\u7EED\u3002\u903E\u671F\u672A\u786E\u8BA4\u7684\u8003\u751F\uFF0C\u89C6\u4E3A\u4E3B\u52A8\u653E\u5F03\u5F55\u53D6\u8D44\u683C\u3002<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><strong><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\uFF08\u4E8C\uFF09\u5B66\u6821\u63A5\u6536\u6D41\u7A0B<\/span><\/span><\/strong><\/p><p style=\"margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">1.<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5404\u5B66\u9662\u6309\u7167\u6559\u80B2\u90E8\u548C\u5B66\u6821\u6709\u5173\u8981\u6C42\u5236\u5B9A\u672C\u5355\u4F4D\u7684\u63A5\u6536\u63A8\u514D\u751F\u5DE5\u4F5C\u7EC6\u5219\uFF0C\u660E\u786E\u7533\u8BF7\u6750\u6599\u3001\u8003\u6838\u5185\u5BB9\u3001\u5F55\u53D6\u529E\u6CD5\u7B49\uFF0C\u5E76\u901A\u8FC7\u5B66\u9662\u7F51\u7AD9\u5BF9\u5916\u516C\u5E03\u3002<\/span><\/span><\/p><p style=\"margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">2.<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5404\u5B66\u9662\u6309\u7167\u516C\u5F00\u3001\u516C\u5E73\u3001\u516C\u6B63\u7684\u539F\u5219\u7EC4\u7EC7<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u7EFC\u5408\u8003\u6838<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\uFF0C<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u8003\u67E5<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u8003\u751F\u601D\u60F3<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u54C1\u5FB7<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u3001\u5B66\u672F\u8BDA\u4FE1\u3001\u5B66\u4E1A\u6210\u7EE9\u3001\u4E1A\u52A1\u7D20\u8D28<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u7B49<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u3002<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u201C<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5DE5\u7A0B\u7855\u535A\u58EB\u57F9\u517B\u6539\u9769\u4E13\u9879\u8BA1\u5212<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u201D\u201C<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u56FD\u5BB6\u4F18\u79C0\u4E2D\u5C0F\u5B66\u6559\u5E08\u57F9\u517B\u8BA1\u5212<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u201D<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u7B49\u4E13\u9879\u8003\u751F\u7531\u76F8\u5173\u5B66\u9662\u6309\u7167\u4E13\u9879\u8981\u6C42\u7EC4\u7EC7<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u8003\u6838<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u3002<\/span><\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u601D\u60F3\u54C1\u5FB7\u8003\u6838\u4E0D\u5408\u683C\u8005\u4E0D\u4E88\u5F55\u53D6\u3002<\/span><\/span><\/p><p style=\"margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">3.<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5404\u5B66\u9662\u901A\u8FC7<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u201C<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5168\u56FD\u63A8\u514D\u670D\u52A1\u7CFB\u7EDF<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u201D<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5BF9<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u62DF\u63A5\u6536<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u7684\u63A8\u514D\u751F\u53D1\u9001\u5F85\u5F55\u53D6\u901A\u77E5\uFF0C\u7533\u8BF7\u4EBA\u987B\u6309\u89C4\u5B9A\u65F6\u95F4\u63A5\u53D7\u62DF\u5F55\u53D6\uFF0C\u5426\u5219\u89C6\u4E3A\u653E\u5F03\u62DF\u5F55\u53D6\u8D44\u683C\u3002<\/span><\/span><\/p><p style=\"margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">4.<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5B66\u6821\u5BA1\u5B9A\u62DF\u5F55\u53D6\u540D\u5355<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u540E<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u7EDF\u4E00\u516C\u793A\uFF0C\u516C\u793A\u65E0\u5F02\u8BAE\u540E\u62A5\u9001\u6559\u80B2\u90E8\u3002<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u9ED1\u4F53\">\u4E94\u3001\u5176\u4ED6\u4E8B\u9879<\/span><\/span><\/p><p style=\"margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">1.<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5BF9\u5B66\u672F\u4E0D\u7AEF\u53CA\u5F04\u865A\u4F5C\u5047\u8005\uFF0C\u4E0D\u8BBA\u4F55\u65F6\uFF0C\u4E00\u7ECF\u67E5\u5B9E\uFF0C\u5373\u6309\u76F8\u5173\u89C4\u5B9A\u53D6\u6D88\u62A5\u8003\u8D44\u683C\u3001\u5F55\u53D6\u8D44\u683C\u6216\u53D6\u6D88\u5B66\u7C4D\u3002<\/span><\/span><\/p><p style=\"margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">2.<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5B66\u6821\u5C06\u5BF9\u65B0\u751F\u5165\u5B66\u8D44\u683C\u8FDB\u884C\u590D\u67E5\uFF0C\u63A8\u514D\u751F\u5982\u5728\u5F55\u53D6\u5F53\u5E74\u5165\u5B66\u65F6\u672A\u53D6\u5F97\u56FD\u5BB6\u627F\u8BA4\u7684\u672C\u79D1\u6BD5\u4E1A\u8BC1\u4E66\uFF0C\u5F55\u53D6\u8D44\u683C\u65E0\u6548\u3002<\/span><\/span><\/p><p style=\"margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">3.<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u6839\u636E\u6559\u80B2\u90E8\u653F\u7B56\u89C4\u5B9A\uFF0C\u53D6\u5F97\u5F55\u53D6\u8D44\u683C\u7684\u63A8\u514D\u751F\u4E0D\u5F97\u518D\u62A5\u540D\u53C2\u52A0\u5F53\u5E74\u7855\u58EB\u7814\u7A76\u751F\u62DB\u751F\u8003\u8BD5\uFF0C\u5426\u5219\u53D6\u6D88\u5176\u63A8\u514D\u5F55\u53D6\u8D44\u683C\u3002<\/span><\/span><\/p><p style=\"margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">4.<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u6211\u6821\u7814\u7A76\u751F\u6559\u80B2\u5B9E\u884C\u6536\u8D39\u5236\u5EA6\uFF0C\u5404\u62DB\u751F\u4E13\u4E1A\u5B66\u8D39\u6807\u51C6\u4EE5\u516C\u5E03\u4E3A\u51C6\u3002<\/span><\/span><\/p><p style=\"margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">5.<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u6211\u6821\u5DF2\u6784\u5EFA\u5B8C\u5907\u7684\u7814\u7A76\u751F\u5956\u52A9\u4F53\u7CFB\uFF0C\u652F\u6301\u7814\u7A76\u751F\u987A\u5229\u5B8C\u6210\u5B66\u4E1A\u3002\u5404\u7C7B\u5956\u52A9\u5B66\u91D1\u8BC4\u9009\u53D1\u653E\u6807\u51C6\u4EE5\u5F53\u5E74\u5B66\u6821\u901A\u77E5\u4E3A\u51C6\u3002<\/span><\/span><\/p><p style=\"margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">6.<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u4F53\u68C0\u7EDF\u4E00\u5B89\u6392\u5728\u65B0\u751F\u5F00\u5B66\u62A5\u5230\u540E\uFF0C\u5177\u4F53\u65F6\u95F4\u53E6\u884C\u901A\u77E5\u3002\u4F53\u68C0\u5408\u683C\u6807\u51C6\u53C2\u7167\u6559\u80B2\u90E8\u7B49\u76F8\u5173\u90E8\u95E8\u89C4\u5B9A\u6267\u884C\u3002<\/span><\/span><\/p><p style=\"margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">7.<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5B66\u6821\u7814\u7A76\u751F\u62DB\u751F\u4FE1\u606F\u5C06\u53CA\u65F6\u901A\u8FC7\u6E56\u5357\u5927\u5B66\u7814\u7A76\u751F\u9662\u7F51\u7AD9\u53D1\u5E03\u3002\u5982\u6559\u80B2\u90E8\u51FA\u53F0\u65B0\u7684\u7814\u7A76\u751F\u62DB\u751F\u653F\u7B56\uFF0C\u6211\u6821\u5C06\u505A\u76F8\u5E94\u8C03\u6574\u5E76\u53CA\u65F6\u4E88\u4EE5\u516C\u5E03\u3002<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u9ED1\u4F53\">\u516D\u3001\u8054\u7CFB\u65B9\u5F0F<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u6E56\u5357\u5927\u5B66\u7814\u7A76\u751F\u9662\u62DB\u751F\u529E\u516C\u5BA4<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5730\u5740\uFF1A\u6E56\u5357\u7701\u957F\u6C99\u5E02\u5CB3\u9E93\u533A\u9E93\u5C71\u5357\u8DEF\u7814\u7A76\u751F\u9662\u697C<\/span>D<span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u680B<\/span><span style=\"font-family:Times New Roman\">412<\/span><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5BA4<\/span><\/span><\/p><p style=\"text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u8054\u7CFB\u7535\u8BDD\uFF1A<\/span>0731-88822856<\/span><\/p><p style=\"text-indent: 41px; text-align: justify; line-height: 40px;\"><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5404\u5B66\u9662\u8054\u7CFB\u65B9\u5F0F\u8BE6\u89C1\u7814\u7A76\u751F\u9662\u7F51\u7AD9<\/span><\/span><a href=\"https:\/\/gra.hnu.edu.cn\/info\/1075\/8219.htm\"><span style=\"text-decoration:underline;\"><span style=\"font-family: 'Times New Roman';color: rgb(0, 0, 0);font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u300A\u5404\u5B66\u9662\u7814\u7A76\u751F\u62DB\u751F\u8054\u7CFB\u65B9\u5F0F\u300B<\/span><\/span><\/span><\/a><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u3002<\/span><\/span><\/p><p style=\"text-indent: 41px; text-align: justify; line-height: 40px;\"><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\"><br><\/span><\/span><\/p><p style=\"text-indent: 41px; text-align: justify; line-height: 40px;\"><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u9644\u4EF6\uFF1A<\/span><\/span><\/p><p style=\"margin-top:0;margin-right:0;margin-bottom:0;text-align:center;line-height:40px\"><span style=\"font-family: \u65B9\u6B63\u5C0F\u6807\u5B8B\u7B80\u4F53;font-size: 29px\">\u5168\u65E5\u5236\u7814\u7A76\u751F\u5B66\u8D39\u6807\u51C6<\/span><\/p><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:37px\"><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u0026nbsp;<\/span><\/p><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:37px\"><span style=\"font-family: 'Times New Roman';font-size: 21px\">1.<span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5168\u65E5\u5236\u7855\u58EB\u7814\u7A76\u751F\u5B66\u8D39\u6807\u51C6<\/span><\/span><\/p><table><tbody><tr style=\"height:60px\"><td width=\"220\" style=\"padding: 0px 7px; border-width: 1px; border-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-autospace:ideograph-numeric;text-align:center;line-height:29px\"><strong><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u5B66\u79D1\u95E8\u7C7B<\/span><\/span><\/strong><\/p><\/td><td width=\"467\" style=\"padding: 0px 7px; border-width: 1px; border-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-autospace:ideograph-numeric;text-align:center;line-height:29px\"><strong><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u5B66\u8D39\u6807\u51C6<\/span><\/span><\/strong><\/p><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-autospace:ideograph-numeric;text-align:center;line-height:29px\"><strong><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\uFF08\u5355\u4F4D\uFF1A\u5143<\/span>\/<span style=\"font-family:\u6977\u4F53\">\u751F<\/span><span style=\"font-family:Times New Roman\">\u00B7<\/span><span style=\"font-family:\u6977\u4F53\">\u5E74\uFF09<\/span><\/span><\/strong><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"704\" colspan=\"2\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><strong><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u4E00\u3001\u5B66\u672F\u5B66\u4F4D<\/span><\/span><\/strong><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"224\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:justify;text-justify:inter-ideograph\"><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u5404\u4E13\u4E1A<\/span><\/span><\/p><\/td><td width=\"467\" style=\"padding: 0px 7px; border-width: 1px; border-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><span style=\"font-family: 'Times New Roman';font-size: 19px\">8000<\/span><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"704\" colspan=\"2\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><strong><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u4E8C\u3001\u4E13\u4E1A\u5B66\u4F4D<\/span><\/span><\/strong><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"224\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:justify;text-justify:inter-ideograph\"><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u7ECF\u6D4E\u5B66\u7C7B\uFF08<\/span>02<span style=\"font-family:\u6977\u4F53\">\uFF09<\/span><\/span><\/p><\/td><td width=\"467\" style=\"padding: 0px 7px; border-width: 1px; border-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><span style=\"font-family: 'Times New Roman';font-size: 19px\">1<\/span><span style=\"font-family: \u6977\u4F53;font-size: 19px\"><span style=\"font-family:Times New Roman\">68<\/span><\/span><span style=\"font-family: 'Times New Roman';font-size: 19px\">00<\/span><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"224\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:justify;text-justify:inter-ideograph\"><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u6CD5\u5B66\u7C7B\uFF08<\/span>03<span style=\"font-family:\u6977\u4F53\">\uFF09<\/span><\/span><\/p><\/td><td width=\"467\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><span style=\"font-family: 'Times New Roman';font-size: 19px\">1<\/span><span style=\"font-family: \u6977\u4F53;font-size: 19px\"><span style=\"font-family:Times New Roman\">2<\/span><\/span><span style=\"font-family: 'Times New Roman';font-size: 19px\">000<\/span><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"224\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:justify;text-justify:inter-ideograph\"><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u6559\u80B2\u5B66\u7C7B\uFF08<\/span>04<span style=\"font-family:\u6977\u4F53\">\uFF09<\/span><\/span><\/p><\/td><td width=\"467\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><span style=\"font-family: 'Times New Roman';font-size: 19px\">1<\/span><span style=\"font-family: \u6977\u4F53;font-size: 19px\"><span style=\"font-family:Times New Roman\">2<\/span><\/span><span style=\"font-family: 'Times New Roman';font-size: 19px\">000<\/span><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"224\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:justify;text-justify:inter-ideograph\"><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u6587\u5B66\u7C7B\uFF08<\/span>05<span style=\"font-family:\u6977\u4F53\">\uFF09<\/span><\/span><\/p><\/td><td width=\"467\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><span style=\"font-family: 'Times New Roman';font-size: 19px\">1<\/span><span style=\"font-family: \u6977\u4F53;font-size: 19px\"><span style=\"font-family:Times New Roman\">56<\/span><\/span><span style=\"font-family: 'Times New Roman';font-size: 19px\">00<\/span><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"224\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:justify;text-justify:inter-ideograph\"><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u5386\u53F2\u5B66\u7C7B\uFF08<\/span>06<span style=\"font-family:\u6977\u4F53\">\uFF09<\/span><\/span><\/p><\/td><td width=\"467\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><span style=\"font-family: \u6977\u4F53;font-size: 19px\"><span style=\"font-family:Times New Roman\">96<\/span><\/span><span style=\"font-family: 'Times New Roman';font-size: 19px\">00<\/span><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"224\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:justify;text-justify:inter-ideograph\"><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u5DE5\u5B66\u7C7B\uFF08<\/span>08<span style=\"font-family:\u6977\u4F53\">\uFF09<\/span><\/span><\/p><\/td><td width=\"467\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><span style=\"font-family: 'Times New Roman';font-size: 19px\">1<\/span><span style=\"font-family: \u6977\u4F53;font-size: 19px\"><span style=\"font-family:Times New Roman\">44<\/span><\/span><span style=\"font-family: 'Times New Roman';font-size: 19px\">00<\/span><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"224\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:justify;text-justify:inter-ideograph\"><span style=\"font-family: \u6977\u4F53;font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u519C\u5B66\u7C7B\uFF08<\/span><span style=\"font-family:Times New Roman\">09<\/span><span style=\"font-family:\u6977\u4F53\">\uFF09<\/span><\/span><\/p><\/td><td width=\"467\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><span style=\"font-family: \u6977\u4F53;font-size: 19px\"><span style=\"font-family:Times New Roman\">12000<\/span><\/span><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"224\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:justify;text-justify:inter-ideograph\"><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u7BA1\u7406\u5B66\u7C7B\uFF08<\/span>12<span style=\"font-family:\u6977\u4F53\">\uFF09<\/span><\/span><\/p><\/td><td width=\"467\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><span style=\"font-family: 'Times New Roman';font-size: 19px\">1<\/span><span style=\"font-family: \u6977\u4F53;font-size: 19px\"><span style=\"font-family:Times New Roman\">68<\/span><\/span><span style=\"font-family: 'Times New Roman';font-size: 19px\">00<\/span><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"224\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:justify;text-justify:inter-ideograph\"><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u827A\u672F\u5B66\u7C7B\uFF08<\/span>13<span style=\"font-family:\u6977\u4F53\">\uFF09<\/span><\/span><\/p><\/td><td width=\"467\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><span style=\"font-family: \u6977\u4F53;font-size: 19px\"><span style=\"font-family:Times New Roman\">108<\/span><\/span><span style=\"font-family: 'Times New Roman';font-size: 19px\">00<\/span><\/p><\/td><\/tr><tr><td width=\"704\" colspan=\"2\" style=\"padding: 0px 7px; border-width: initial; border-style: none; border-color: initial;\"><p><span style=\"font-family: 'Times New Roman';font-size: 16px\"><span style=\"font-family:\u6977\u4F53\">\u6CE8\uFF1A\u6587\u7269\u4E13\u4E1A\uFF08<\/span>1451<span style=\"font-family:\u6977\u4F53\">\uFF09\u53C2\u7167\u5386\u53F2\u5B66\u7C7B\u6536\u8D39\u6807\u51C6\u6267\u884C\uFF0C\u5B66\u8D39\u6807\u51C6\u4E3A<\/span><\/span><span style=\"font-family: \u6977\u4F53;font-size: 16px\"><span style=\"font-family:Times New Roman\">96<\/span><\/span><span style=\"font-family: 'Times New Roman';font-size: 16px\">00<span style=\"font-family:\u6977\u4F53\">\u5143<\/span><span style=\"font-family:Times New Roman\">\/<\/span><span style=\"font-family:\u6977\u4F53\">\u751F<\/span><span style=\"font-family:Times New Roman\">\u00B7<\/span><span style=\"font-family:\u6977\u4F53\">\u5E74<\/span><\/span><span style=\"font-family: \u6977\u4F53;font-size: 16px\">\u3002<\/span><\/p><\/td><\/tr><\/tbody><\/table><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:43px;text-align:justify;text-justify:inter-ideograph;line-height:40px\"><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\"><span style=\"font-family:Times New Roman\">2<\/span><\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\">.<span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u5168\u65E5\u5236<\/span><\/span><span style=\"font-family: \u4EFF\u5B8B_GB2312;font-size: 21px\">\u535A\u58EB<\/span><span style=\"font-family: 'Times New Roman';font-size: 21px\"><span style=\"font-family:\u4EFF\u5B8B_GB2312\">\u7814\u7A76\u751F\u5B66\u8D39\u6807\u51C6<\/span><\/span><\/p><table><tbody><tr style=\"height:60px\"><td width=\"215\" style=\"padding: 0px 7px; border-width: 1px; border-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-autospace:ideograph-numeric;text-align:center;line-height:29px\"><strong><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u5B66\u79D1\u95E8\u7C7B<\/span><\/span><\/strong><\/p><\/td><td width=\"504\" style=\"padding: 0px 7px; border-width: 1px; border-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-autospace:ideograph-numeric;text-align:center;line-height:29px\"><strong><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u5B66\u8D39\u6807\u51C6<\/span><\/span><\/strong><\/p><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-autospace:ideograph-numeric;text-align:center;line-height:29px\"><strong><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\uFF08\u5355\u4F4D\uFF1A\u5143<\/span>\/<span style=\"font-family:\u6977\u4F53\">\u751F<\/span><span style=\"font-family:Times New Roman\">\u00B7<\/span><span style=\"font-family:\u6977\u4F53\">\u5E74\uFF09<\/span><\/span><\/strong><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"733\" colspan=\"2\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><strong><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u4E00\u3001\u5B66\u672F\u5B66\u4F4D<\/span><\/span><\/strong><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"221\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:justify;text-justify:inter-ideograph\"><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u5404\u4E13\u4E1A<\/span><\/span><\/p><\/td><td width=\"504\" style=\"padding: 0px 7px; border-width: 1px; border-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><span style=\"font-family: \u6977\u4F53;font-size: 19px\"><span style=\"font-family:Times New Roman\">10000<\/span><\/span><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"733\" colspan=\"2\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><strong><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u4E8C\u3001\u4E13\u4E1A\u5B66\u4F4D<\/span><\/span><\/strong><\/p><\/td><\/tr><tr style=\"height:42px\"><td width=\"221\" style=\"padding: 0px 7px; border-left-width: 1px; border-left-color: windowtext; border-right-width: 1px; border-right-color: windowtext; border-top: none; border-bottom-width: 1px; border-bottom-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:justify;text-justify:inter-ideograph\"><span style=\"font-family: 'Times New Roman';font-size: 19px\"><span style=\"font-family:\u6977\u4F53\">\u5404\u4E13\u4E1A<\/span><\/span><\/p><\/td><td width=\"504\" style=\"padding: 0px 7px; border-width: 1px; border-color: windowtext;\"><p style=\"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-align:center\"><span style=\"font-family: \u6977\u4F53;font-size: 19px\"><span style=\"font-family:Times New Roman\">14000<\/span><\/span><\/p><\/td><\/tr><\/tbody><\/table><p><span style=\"font-family: \u6977\u4F53;font-size: 16px\">\u6CE8\uFF1A\u5DE5\u7A0B\u7855\u535A\u58EB\u57F9\u517B\u6539\u9769\u4E13\u9879\u6309\u76F8\u5173\u89C4\u5B9A\u6267\u884C<\/span><span style=\"font-family: 'Times New Roman';font-size: 16px\"><span style=\"font-family:\u6977\u4F53\">\u3002<\/span><\/span><\/p>",
+                repforsch: {
+                    orgName: '',
+                    address: '',
+                    postCode: '',
+                    email: '',
+                    telephone: '',
+                    fax: '',
+                    department: ''
+                },
+                repforzsb: {
+                    orgName: '',
+                    address: '',
+                    postCode: '',
+                    email: '',
+                    telephone: '',
+                    fax: '',
+                    department: ''
+                },
+            }
+        },
+        methods: {
+            getSxqdInfo: function () {
+                var _this = this;
+                api.syncAjax('post', '/tm/jsbf/repforsch', {data: {schCode: _this.schCode}}).then(function (res) {
+                    if (res.flag) {
+                        _this.repforsch = res.msg;
+                    }
+                });
+                api.syncAjax('post', '/tm/jsbf/repforzsb', {data: {schCode: _this.schCode}}).then(function (res) {
+                    if (res.flag) {
+                        _this.repforzsb = res.msg;
+                    }
+                });
+            }
+        },
+        mounted: function () {
+            this.getSxqdInfo();
+        }
+    }
+</script>
+    <script>
+        /*防止xss攻击*/
+        var xssReg = /[ `~!@#$^()=|'"+\-:;,\\%.<>/?…&*\n\t]/;
+        var letterReg = /^[a-zA-Z]+$/;
+        var repObj = {
+            "<": "&lt;",
+            ">": "&gt;",
+            '"': "&quot;",
+            "'": "&apos;",
+            "&": "&amp;",
+            "/":"&#x2F;"
+        };
+        function escapeHtml(str) {
+            str = str === null ? '' : str;
+            return str.replace(/[\<\>\'\"\&]/g, function (a, i) {
+                return repObj[a]
+            });
+        }
+        function escapeObjValue(obj) {
+            Object.keys(obj).forEach(function (key) {
+                if (typeof obj[key] == 'string') {
+                    obj[key] = escapeHtml(obj[key]);
+                } else if ($.type(obj[key]) == 'object') {
+                    escapeObjValue(obj[key]);
+                } else if($.type(obj[key]) == 'array'){
+                    escapeArray(obj[key])
+                }
+            });
+            return obj;
+        }
+        function escapeArray(arr){
+            return arr.map(function(value){
+                return escapeObjValue(value);
+            });
+        }
+        function escapeData(data){
+            if (typeof data == 'string') {
+                return escapeHtml(data);
+            } else if ($.type(data) == 'object') {
+                return escapeObjValue(data);
+            } else if($.type(data) == 'array'){
+                return escapeArray(data);
+            } else{
+                return data
+            }
+        }
+        api.pollingOptions = {
+            resType: 'json',
+            taskUrl: '/tm/ajaxRs.do', //默认：''，不会进入轮询
+            pollingUrl: '/tm/asynProgress.do', //默认：''，不会进入轮询
+            pollingLimit: 10, // 请求的最大次数，默认：10次
+            pollingDelay: 1000, // 正常轮询时，请求延迟毫秒数，默认：1000毫秒
+            delayGaps: 300 // 轮询请求间隔递增毫秒数，默认：0毫秒（建议不要超过1000）
+        };
+        // api 统一配置
+        api.axiosConfig = {
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest', //普通form 表单提交方式
+                'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'
+            }, // 其他为axios的配置-设置headers
+            timeout: 60000 // 其他为axios的配置-请求超时时间
+        };
+        api.errorCallback = function (code, msg) {
+            // 当其他错误发生时，弹出提示层
+            setTimeout(function () {
+                iview.Modal.error({
+                    title: '提示',
+                    content: msg
+                });
+            }, 500);
+        };
+        iview.Message.config({
+            duration: 5
+        });
+        var vmMain = new Vue({
+            el: '#app',
+            mixins: typeof mixin != 'undefined' ? [mixin] : {},
+            data: function () {
+                return {
+                    searchTip: false,
+                    spinShow: false,
+                    navList: [
+                        { key: 'index', title: '首页', url: '/tm/index' },
+                        { key: 'zc', title: '相关政策', url: '/tm/zc/index' },
+                        { key: 'tjbf', title: '推荐办法', url: '/tm/tjbf/index' },
+                        { key: 'jsbf', title: '推免招生工作办法', url: '/tm/jsbf/index' },
+                        { key: 'zyml', title: '推免招生专业目录', url: '/tm/zyml/index' },
+                        { key: 'lqmd', title: '推免录取信息公开', url: '/tm/lqmd/index' },
+                        { key: 'tmzn', title: '推免生申请指南', url: '/yzzt/tmzn/' }
+                    ]
+                }
+            },
+            methods: {
+                removePageLoading: function () {
+                    document.getElementById("appLoading").style.display = "none";
+                },
+                createPageLoading: function() {
+                    document.getElementById("appLoading").style.display = "block";
+                },
+                goBack: function (url) {
+                    if (url) {
+                        location.href = url;
+                    } else {
+                        window.history.go(-1);
+                    }
+                },
+                getDataCommon: function () {
+                    if (this.spinShow) {
+                        this.$Message.warning('数据查询中，请稍后再试');
+                        return;
+                    }
+                    this.form.curPage = 1;
+                    this.searchTip = true;
+                    this.getData();
+                },
+                getDeleteData: function () {
+                    if (this.data.length == 1 && this.form.curPage != 1) {
+                        this.form.curPage--;
+                    }
+                    this.getData();
+                },
+                changePage: function (curPage) {
+                    this.form.curPage = curPage;
+                    this.getData();
+                },
+                changePageCount: function (pageCount) {
+                    this.form.pageCount = pageCount;
+                    this.form.curPage = 1;
+                    this.getData();
+                },
+                disabledChecked: function (arry) {
+                    var _this = this;
+                    arry.forEach(function (item) {
+                        _this.$set(item,'_disabled', true);
+                    });
+                },
+                timefn: function (date, form, key) {
+                    this[form][key] = date;
+                },
+                arryTimefn: function (date, form, key, index, key1) {
+                    this[form][key][index][key1] = date;
+                },
+                setPageTitle: function (title) {
+                    document.title = title;
+                },
+                getObj: function (url, postData, objName, callback) {
+                    var _this = this;
+                    api.asyncAjax('post', url, {data: postData}).then(function (res) {
+                        if (res.flag) {
+                            _this[objName] = res.msg;
+                            callback = callback || function() {};
+                            callback();
+                        }
+                    });
+                },
+                changeSelect: function(value, type, name) {
+                    if (value) {
+                        this.getSelectData(value, type, name);
+                    } else {
+                        this.createParams(value, type, name);
+                    }
+                },
+                createParams: function(value, type, name) { // 参数组合
+                    var params = {
+                        postData: {},
+                        url: '',
+                        list: ''
+                    };
+                    if (type === 'mldm') {
+                        params.postData = { mldm: value };
+                        params.url = '/tm/zyml/searchXk';
+                        params.list = name + 'List';
+                        this.$set(this.form, name + 'dm', '');
+                        this[name+'List'] = [];
+                    }
+                    return params;
+                },
+                getSelectData: function(value, type, name) {
+                    var _this = this;
+                    var params = this.createParams(value, type, name);
+                    if (!params.url) {
+                        return;
+                    }
+                    api.syncAjax('post', params.url, {data: params.postData}).then(function (res) {
+                        if (res.flag) {
+                            _this[params.list] = res.msg || [];
+                        }
+                    });
+                },
+            },
+            mounted: function () {
+                if (typeof this.keepLoading == 'undefined') {
+                    this.removePageLoading();
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="author" content="author,中国科学院计算机网络信息中心" />
+    <meta name="keywords" content="中国科学院山西煤化所研究生教育" />
+    <meta name="description" content="中国科学院山西煤化所研究生教育"/>
+    <title>中国科学院山西煤炭化学研究所研究生教育网</title>
+
+    <link href="http://edu.sxicc.ac.cn/images/animations.css" rel="stylesheet">
+    <link href="//edu.sxicc.ac.cn/images/bootstrap.css" rel="stylesheet" />
+<link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="//edu.sxicc.ac.cn/images/publicstyle.css" rel="stylesheet" type="text/css" />
+<link href="//edu.sxicc.ac.cn/images/webstyle.css" rel="stylesheet" type="text/css" />
+<!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="//edu.sxicc.ac.cn/images/selectivizr.js"></script>
+  <noscript>
+    <link rel="stylesheet" href="[fallback css]" /></noscript>
+<![endif]-->
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="//edu.sxicc.ac.cn/images/html5shiv.min.js"></script>
+  <script type="text/javascript" src="//edu.sxicc.ac.cn/images/respond.min.js"></script>
+<![endif]-->
+  </head>
+  
+  <body>
+    <div class="scrollToTop">
+  <i class="fa fa-chevron-up"></i>
+</div>
+<!-- header-top start -->
+<div class="header-top">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="cont_wrap">
+        <style>
+          .cont_wrap{background: #f7f7f7;padding: 0 15px;}
+          @media (max-width: 767px){
+            .header-top{background: #f7f7f7;}
+            .cont_wrap{padding:0;}
+          }
+        </style>
+        <div class="row">
+          <div class="col-xs-7 col-sm-3 col-md-3 data">
+            <div style="float:left; overflow:hidden;">
+              <script language="javascript" type="text/javascript">
+                tmpDate = new Date();
+                date = tmpDate.getDate();
+                month = tmpDate.getMonth() + 1;
+                year = tmpDate.getYear();
+                year = tmpDate.getYear();
+                year = year > 1900 ? year: year + 1900;
+                document.write(year + "年" + month + "月" + date + "日&nbsp;");
+                myArray = new Array(6);
+                myArray[0] = "星期日"
+                myArray[1] = "星期一"
+                myArray[2] = "星期二"
+                myArray[3] = "星期三"
+                myArray[4] = "星期四"
+                myArray[5] = "星期五"
+                myArray[6] = "星期六"
+                weekday = tmpDate.getDay();
+                document.write(myArray[weekday])
+              </script>
+            </div>
+          </div>
+          <div class="col-xs-5 col-sm-9 col-md-9 space">
+            <div class="header-top-first clearfix">
+              <ul class="social-links clearfix hidden-xs">
+                
+                  <li>
+                    <a href="http://edu.sxicc.ac.cn/qtlm/lxwm/" target="_blank">
+                      联系我们
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://www.ucas.ac.cn/" target="_blank">
+                      中国科学院大学
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://zxsq.ucas.ac.cn/login/index/sc" target="_blank">
+                      夏令营
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://sep.ucas.ac.cn/" target="_blank">
+                      教育业务管理平台
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://www.sxicc.ac.cn/" target="_blank">
+                      所网站
+                    </a>
+                  </li>
+                
+              </ul>
+              <div class="social-links hidden-lg hidden-md hidden-sm">
+                <div class="btn-group dropdown">
+                  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                    <i class="fa fa-share-alt"></i>
+                  </button>
+                  <ul class="dropdown-menu dropdown-animation">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/qtlm/lxwm/" target="_blank">
+                          联系我们
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="https://www.ucas.ac.cn/" target="_blank">
+                          中国科学院大学
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="https://zxsq.ucas.ac.cn/login/index/sc" target="_blank">
+                          夏令营
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://sep.ucas.ac.cn/" target="_blank">
+                          教育业务管理平台
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://www.sxicc.ac.cn/" target="_blank">
+                          所网站
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- header-top-first end --></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="webheader">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="container">
+        <div class="header_banenr">
+          <div class="hidden-xs col-sm-7 col-md-8 logo">
+            <a href="//edu.sxicc.ac.cn/" target="_top">
+              <img class="hidden-xs" src="http://edu.sxicc.ac.cn/images/logo_new.png" alt="中科院陕西煤化所研究生教育" />
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-3">
+            <div class="relatedlink">
+             <!--  <form name="searchform" action="http://edu.sxicc.ac.cn/qwjs/index.html" method="get" target="_top">
+                <div class="TopSearch">
+                  <input type="text" class="SearchText" name="searchword" id="searchword" placeholder="请输入关键字" required="" />
+                  <input type="button" class="SearchBtn" value="" id="sub-pc" /></div>
+                  <input type="hidden" name="keyword" value="" />
+              </form> -->
+              <form name="searchform" action="http://irssub.cas.cn/irs-c-web/search.shtml" method="get" target="_top">
+                <div class="TopSearch">
+                  <input type="hidden" name="code" value="197819f6ca3" />
+                  <input type="text" class="SearchText" name="searchWord" id="searchword" placeholder="请输入关键字" required="" />
+                  <input type="button" class="SearchBtn" value="" id="sub-pc" /></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- header-top end -->
+<!-- style=" background: #0f569f;border-top: #2872bf solid 1px;" -->
+<div class="container-fluid phone_cont">
+  <div class="container">
+    <div class="h_menu">
+      <div class="main-navigation animated">
+        <nav class="navbar navbar-default navbar-left" role="navigation">
+          <div class="container-fluid">
+            <!-- Toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown active" style="">
+                  <a href="//edu.sxicc.ac.cn/" target="_top">首 页</a>
+                </li>
+                <!-- mega-menu start -->
+                <li class="dropdown" style="">
+                  <a href="http://edu.sxicc.ac.cn/jygk/" class="dropdown-toggle" data-toggle="dropdown" target="_top">教育概况</a>
+                  <ul class="dropdown-menu">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jygk/xzgs/" target="_top">
+                          现状概述
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+
+                <li class="dropdown" style="">
+                  <a href="http://edu.sxicc.ac.cn/gwzz/" class="dropdown-toggle" data-toggle="dropdown" target="_top">岗位职责</a>
+                  <ul class="dropdown-menu">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gwzz/gwzz/" target="_top">
+                          岗位职责
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+
+                <li class="dropdown" style="">
+                  <a href="http://edu.sxicc.ac.cn/zsgl/" class="dropdown-toggle" data-toggle="dropdown" target="_top">招生管理</a>
+                  <ul class="dropdown-menu">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/zsgl/bszs/" target="_top">
+                          博士招生
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/zsgl/sszs/" target="_top">
+                          硕士招生
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/zsgl/dsjs/" target="_top">
+                          导师介绍
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+                <li class="dropdown" style="">
+                  <a href="http://edu.sxicc.ac.cn/jxpy/" class="dropdown-toggle" data-toggle="dropdown" target="_top">教学培养</a>
+                  <ul class="dropdown-menu">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jxpy/jdxkh/" target="_top">
+                          阶段性考核
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jxpy/xjbg/" target="_top">
+                          学籍变更
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jxpy/rcsw/" target="_top">
+                          日常事务
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+                <li class="dropdown" style="">
+                  <a href="http://edu.sxicc.ac.cn/pjpy/" class="dropdown-toggle" data-toggle="dropdown" target="_top">评奖评优</a>
+                  <ul class="dropdown-menu">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/pjpy/gjjxj/" target="_top">
+                          国家奖学金
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/pjpy/yjjxj/" target="_top">
+                          院级奖学金
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+                <li class="dropdown" style="">
+                  <a href="http://edu.sxicc.ac.cn/jypq/" class="dropdown-toggle" data-toggle="dropdown" target="_top">就业派遣</a>
+                  <ul class="dropdown-menu">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jypq/jytz/" target="_top">
+                          就业通知
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jypq/glgd/" target="_top">
+                          管理规定
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jypq/zpxx/" target="_top">
+                          招聘信息
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jypq/wzlj/" target="_top">
+                          网站链接
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+                <li class="dropdown" style="">
+                  <a href="http://edu.sxicc.ac.cn/gzzd/" class="dropdown-toggle" data-toggle="dropdown" target="_top">规章制度</a>
+                  <ul class="dropdown-menu">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gzzd/gzzd/" target="_top">
+                          导师队伍
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gzzd/zdgz/" target="_top">
+                          辅导员队伍
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gzzd/jxpy/" target="_top">
+                          教学培养
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gzzd/pjpy/" target="_top">
+                          评奖
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gzzd/xw/" target="_top">
+                          学位
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gzzd/jzxj/" target="_top">
+                          奖助学金
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gzzd/xsgl/" target="_top">
+                          学生管理
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="container-fluid">
+      <div class="container">
+        <div class="page-intro">
+          <div class="row">
+            <ol class="breadcrumb">
+              <li>
+                <i class="fa fa-home pr-10"></i>
+                <a href="../../../" title="首页" class="CurrChnlCls">首页</a>&gt;<a href="../../" title="招生管理" class="CurrChnlCls">招生管理</a>&gt;<a href="../" title="硕士招生" class="CurrChnlCls">硕士招生</a>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container hidden-lg hidden-md hidden-sm">
+      <div class="row">
+        <div class="panel-group panel-dark" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
+                  招生管理
+                </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+  <div class="contentLeft">
+    <ul class="leftNavigation">
+      
+        <li class="clickable">
+          <a href="http://edu.sxicc.ac.cn/zsgl/bszs/">
+            <i class="fa fa-angle-right leftNavIcon"></i>
+            博士招生
+          </a>
+        </li>
+      
+        <li class="clickable">
+          <a href="http://edu.sxicc.ac.cn/zsgl/sszs/">
+            <i class="fa fa-angle-right leftNavIcon"></i>
+            硕士招生
+          </a>
+        </li>
+      
+        <li class="clickable">
+          <a href="http://edu.sxicc.ac.cn/zsgl/dsjs/">
+            <i class="fa fa-angle-right leftNavIcon"></i>
+            导师介绍
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+<script src="http://edu.sxicc.ac.cn//images/jquery-1.12.4.min.js"></script>
+<script>
+    $(document).ready(function(){
+        var currentChannel = "硕士招生";
+        $('.clickable').each(function(){
+            var curtxt = $(this).text();
+            if(currentChannel == curtxt){
+                $(this).addClass("active");
+            }
+        });
+    });
+</script>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="secondarybox">
+        <div class="row">
+          <!-- sidebar start -->
+          <aside class="col-md-3 col-sm-4 hidden-xs">
+            <div class="sidebar">
+              <div class="block clearfix">
+                <h3 class="title">
+                  <img src="../../../images/dicp_ico_06.png" alt="" style="display: inline-block;margin-right: 12px;margin-top: -3px;" />
+                  招生管理
+                </h3>
+                <nav>
+  <ul class="nav nav-pills nav-stacked">
+  	
+  		<li class="clickable"><a href="http://edu.sxicc.ac.cn/zsgl/bszs/">博士招生</a></li>
+  	
+  		<li class="clickable"><a href="http://edu.sxicc.ac.cn/zsgl/sszs/">硕士招生</a></li>
+  	
+  		<li class="clickable"><a href="http://edu.sxicc.ac.cn/zsgl/dsjs/">导师介绍</a></li>
+  	
+  </ul>
+</nav>
+<script src="http://edu.sxicc.ac.cn//images/jquery-1.12.4.min.js"></script>
+<script>
+    $(document).ready(function(){
+        var currentChannel = "硕士招生";
+        $('.clickable').each(function(){
+            var curtxt = $(this).text();
+            if(currentChannel == curtxt){
+              $(this).addClass("active");
+            }
+        });
+    });
+</script>
+              </div>
+            </div>
+          </aside>
+          <!-- sidebar end -->
+          <div class="col-md-9 col-sm-8">
+            <!-- 正文开始 -->
+            <div id="xlmain">
+              <p class="wztitle">
+                中国科学院大学2026年全国硕士研究生招生考试初试成绩查询及成绩复查公告
+              </p>
+              <p class="qtinfo hidden-lg hidden-md hidden-sm">
+                <span>发布时间：2026-02-27&nbsp;&nbsp;</span>
+                <span>|&nbsp;&nbsp;供稿部门：</span>
+              </p>
+              <p class="qtinfo hidden-xs">
+                发布时间：2026-02-27&nbsp;&nbsp;
+                |&nbsp;&nbsp;<span id="author">供稿部门：<i id="source"></i></span>&nbsp;&nbsp;
+                |&nbsp;&nbsp;
+                【<a class="zoomIn">放大</a>】&nbsp;
+                【<a class="zoomOut">缩小</a>】&nbsp;&nbsp;
+                |&nbsp;&nbsp;
+                【<a onclick="window.print()" href="#">打印</a>】&nbsp;
+
+              <div class="textxl nrhei xilan-content-main">
+                <div class="TRS_Editor">
+                  <div class="trs_editor_view TRS_UEDITOR trs_paper_default trs_web"><p style="text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">根据上级招生主管部门工作要求，现将中国科学院大学2026年硕士研究生招生考试考生初试成绩查询及成绩复查事项公告如下：</span></p><p style="text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">一、初试成绩查询时间及方式</span></p><p style="text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">（1）查询时间：北京时间2026年2月28日上午9:00起，中国科学院大学招生信息网（点击可跳转：https://admission.ucas.ac.cn/）将开通2026年硕士生“初试成绩查询系统”。</span></p><p style="text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">（2）查询方式：中国科学院大学招生信息网首页右下方“在线查询”→点击“硕士”。查询系统中录入的考生姓名、身份证号码以网报时填写的报名信息为准。</span></p><p style="text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">中国科学院大学2026年硕士考生初试成绩以我校招生信息网成绩查询系统公布的为准，考生可通过成绩查询系统自行打印本人2026年硕士研究生招生考试初试成绩单。</span></p><p style="text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">二、初试成绩复查时间及要求</span></p><p style="text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">若考生对本人成绩有异议，可在规定时间内按照相关要求提交成绩复查申请。初试成绩复查不受理违规（或作弊）考生的相关考试科目成绩复查申请。根据有关规定，在对考生成绩进行复查时，主要核查考生答卷是否有漏评、加错分、登错分等情况，评分标准、评分细则等问题不在复查范围。</span></p><p style="text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">中国科学院大学各培养单位受理考生成绩复查的时间统一为2026年3月2日-3月3日。逾期不再受理。具体复查程序如下：</span></p><p style="text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">（1）全国统考科目成绩复查程序</span></p><p style="text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">2026年全国统考科目的考生答卷全部为网上阅卷，答卷不返还我校，考生选考的统考科目成绩复查的信息仅限北京教育考试院下发的统考科目得分数据中相关成绩内容。</span></p><p style="text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">全国统考科目初试成绩复查可在复查时间内，通过“初试成绩查询系统”提出申请，并通过系统查看复查结果。</span></p><p style="text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">（2）自命题科目成绩复查程序</span></p><p style="text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">我校各培养单位2026年硕士考生初试成绩复查申请通过电子邮件方式进行，考生报考的<strong>中国科学院山西煤炭化学研究所</strong>通过电子邮件反馈申请考生的成绩复核结果。</span></p><p style="text-indent: 37px; font-size: 19px;"><span style="font-size: 19px; color: rgb(0, 0, 0);"><strong><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">考生若对自命题科目成绩有异议，须于</span></strong><strong><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">3月2日-3月3</span></strong><strong><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">日</span></strong><strong><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">向我所研究生办公室提交复查申请：请下载《2026年全国硕士研究生招生考试自命题科目复查申请表》，填写并签名后将扫描（或拍照）件以“考生姓名+考生编号+复核科目”命名，发送至邮箱yzb@sxicc.ac.cn，逾期不再受理。</span></strong></span></p><p style="text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">我所按照上级招生主管部门要求于一周内安排专人按规定进行复查。成绩复查内容限定为：①加分是否有错误；②分数是否有错登、漏登；③答卷是否有漏判。评分标准、评分细则等问题不在复核复查范围之内。研究生办公室将统一回复，请留意查看邮件。</span></p><p style="text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">我所复试分数线需要等2026年国家基本分数线公布后才能公布，请考生耐心等待。我所不公布初试分数排名，望考生周知。</span></p><p style="text-align: right; text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);"> </span></p><p style="text-align: right; text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">中国科学院大学招生办公室</span></p><p style="text-align: right; text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">中国科学院山西煤炭化学研究所研究生办公室</span></p><p style="text-align: right; text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">2026年2月27日</span></p><p style="text-align: right; text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);"> </span></p><p style="text-align: left; text-indent: 37px; font-size: 19px;"><span style="font-family: 微软雅黑, sans-serif; background: white; font-size: 19px; color: rgb(0, 0, 0);">附件：《2026年全国硕士研究生招生考试自命题科目复查申请表》</span></p><p><br/></p></div>
+                </div>
+              </div>
+              <dl id="filedown">
+                <dt>附件下载</dt>
+                <dd>
+                  <ul>
+                    <li>
+                      <a href="./P020260212334168693036.docx" target="_blank" download="./P020260212334168693036.docx" title="" class="mt5">复查申请表.docx</a>
+                    </li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+            <!-- 正文结束 -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">
+  <div class="secondhalf">
+    <!--<div class="container">
+      <span>
+        <a href="http://edu.sxicc.ac.cn/">网站首页</a>
+        &nbsp;|&nbsp;
+        <a href="http://edu.sxicc.ac.cn/qtlm/lxwm/">联系我们</a>
+        &nbsp;|&nbsp;
+        <a href="#">免责申明</a>
+        &nbsp;|&nbsp;
+        <a href="#">站点导航</a>
+        &nbsp;|&nbsp;
+        <a href="#">TAG标签</a>
+        &nbsp;|&nbsp;
+        <a href="#">RSS订阅</a>
+      </span>
+    </div>-->
+    <div class="container">
+      版权所有 &copy; 中国科学院山西煤炭化学研究所研究生教育 &nbsp; 地址:山西省太原市桃园南路27号
+      <style>
+        img.sitema {
+          vertical-align: middle;
+          margin: 0 10px 4px;
+        }
+      </style>
+      <script type="text/javascript" src="//api.cas.cn/app/sitema/cas.sitema.min.js" id="sitema" unitcode="" domain="http://edu.sxicc.ac.cn/" siteid="425" sysid="7"></script>
+      <br />
+      晋ICP备 05000519号
+      <br />
+      <!--<script src="http://s14.cnzz.com/stat.php?id=4716293&web_id=4716293&online=1&show=line" language="JavaScript"></script>-->
+    </div>
+  </div>
+</div>
+    <script type="text/javascript" src="//edu.sxicc.ac.cn/images/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="//edu.sxicc.ac.cn/images/bootstrap.min.js"></script>
+<script type="text/javascript" src="//edu.sxicc.ac.cn/images/modernizr.js"></script>
+<script type="text/javascript" src="//edu.sxicc.ac.cn/images/template.js"></script>
+<!--全文搜索-->
+<script type="text/javascript">
+    function isValid(str){
+        if(str.indexOf('&') != -1 || str.indexOf('<') != -1 || str.indexOf('>') != -1 || str.indexOf('\'') != -1
+            || str.indexOf('\\') != -1 || str.indexOf('/') != -1 || str.indexOf('"') != -1
+            || str.indexOf('%') != -1 || str.indexOf('#') != -1){
+            return false;
+        }
+        return true;
+    }
+    $(function(){
+        $('#sub-pc').click(function(){
+            var searchword = $.trim($('#searchword').val());
+            if(searchword == "" || searchword == "请输入关键字" || !isValid(searchword)){
+                alert("请输入关键词后再进行提交。");
+                return false;
+            }
+            // $('input[name="keyword"]').val(encodeURI(searchword));
+            $('form[name="searchform"]').submit();
+        });
+    });
+</script>
+    <script>  
+      var Dsource = $('#source').text();
+      if(Dsource == ""){
+        $("#author").hide();
+      }
+      var downNothing = $('#filedown li a').text();
+      if(downNothing  ==  ''){
+        $('#filedown').hide();
+      }
+    </script>
+    <script type="text/javascript">
+      $(function() {
+        // 细览页文字放大缩小
+        $('.zoomIn').on('click',function() {
+          $('.xilan-content-main').removeClass('zoomOut').addClass('zoomIn');
+        })
+        $('.zoomOut').on('click',function() {
+          $('.xilan-content-main').removeClass('zoomIn').addClass('zoomOut');
+        })
+      })
+    </script>
+  </body>
+
+</html>

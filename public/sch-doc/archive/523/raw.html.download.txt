@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+     
+ 
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+               <!--
+                                                               (0 0)
+                                           +=============oOO====(_)================+
+                                           |   Powered By wanhu - www.wanhu.com.cn |
+                                           |   Tel:400-888-0035  020-85575672      |
+                                           |   Creation:2026.09.17                 |
+                                           |   ezEip v5.3.0(0649)                  |
+                                           +==========================oOO==========+
+                                                              |__|__|
+                                                               || ||
+                                                              ooO Ooo
+                                        -->                                        
+<meta name="Author" content="万户网络设计制作" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="/editor/editor.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript" src="/cn/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/cn/js/a.whir.search.js"></script>
+<script type="text/javascript" src="/cn/js/a.whir.menu.js"></script>
+<link rel="stylesheet" type="text/css" href="/cn/css/responsive.css" />
+<link rel="stylesheet" type="text/css" href="/cn/css/style.css" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/cn/js/html5shiv.v3.72.min.js"></script>
+<![endif]-->
+
+
+
+    <script>
+    if("True"=="False"){
+        location.href='/index.aspx';
+    }
+    </script>
+</head>
+<body>
+<!--top start-->
+ 
+ 
+<!--Top002633 star-->
+<div class="Top002633">
+  <div class="auto auto_1200 box1">
+    <div class="top_menu">
+      <dl>
+        <dd class="reg"><a><i><div id="dateTime"></div></i></a></dd>
+        
+        <dd class="member"><a href='http://www.sinano.cas.cn/' target="_blank"><i>所网站</i></a></dd>
+          
+        <dd class="btn_search"><a href="javascript:void(0);"></a></dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+    <div class="search">
+      <input type="text" class="text" id="TopKey" value="" >
+      <a id="TopBtn" class="btn" href="javascript:void(0);"><span class="glyphicon glyphicon-search"></span></a> 
+    </div>
+  </div>
+
+  <div class="header-top auto auto_1200">
+    <div class="logo"><a href='/index.aspx'>
+    
+    <img src="/uploadfiles/2023/10/th_20231017165256886.png?56CU56m25omALeaVmeiCsuWkhOeFp+eJhy5wbmc="><img src="/uploadfiles/image/Top002633_logo2.png?VG9wMDAyNjMzX2xvZ28yLnBuZw==">
+      
+    </a></div>
+    <dl class="header-right">
+      <dd id="open_menu"><i></i></dd>
+    </dl>
+  </div>
+  
+  <div class="header-bottom">
+    <header class="header auto auto_1200">
+      <nav class="header-menu sub-vertical clearfix sub-slideDown" >
+        <ul class="ul clearfix">
+          <li id="m1"><em><a href='/index.aspx'>首 页</a></em></li>
+          <li id="m2"><em><a href='/AboutTheCollege/index.aspx'>部门概况</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/AboutTheCollege/index.aspx\">学院简介</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/AboutTheCollege/index.aspx?parent'>学院简介</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/CollegeLeaders/index.aspx\">学院领导</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/CollegeLeaders/index.aspx?parent'>学院领导</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/JobFunctions/list.aspx\">岗位职能</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/JobFunctions/list.aspx?parent'>岗位职能</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/ContactUs/index.aspx\">联系我们</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/ContactUs/index.aspx?parent'>联系我们</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m10"><em><a href='/DisciplineSettings/index.aspx'>招生</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DisciplineSettings/index.aspx\">学科设置</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DisciplineSettings/index.aspx?parent'>学科设置</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/AdmissionsOverview/index.aspx\">招生概况</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/AdmissionsOverview/index.aspx?parent'>招生概况</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Master/list.aspx\">硕士招生</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Master/list.aspx?parent'>硕士招生</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/sions/list.aspx\">博士招生</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/sions/list.aspx?parent'>博士招生</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Students/list.aspx\">留学生</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Students/list.aspx?parent'>留学生</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m17"><em><a href='/TrainingPrograms/list.aspx'>培养</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/TrainingPrograms/list.aspx\">培养方案</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/TrainingPrograms/list.aspx?parent'>培养方案</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/AwardWinners/index.aspx\">奖学金</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/AwardWinners/index.aspx?parent'>奖学金</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/StudentStatusManagement/list.aspx\">学籍管理</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/StudentStatusManagement/list.aspx?parent'>学籍管理</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m21"><em><a href='/DegreeSub-Committee/index.aspx'>学位</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DegreeSub-Committee/index.aspx\">学位分委员会</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DegreeSub-Committee/index.aspx?parent'>学位分委员会</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DegreeApplicationProcess/index.aspx\">学位申请流程</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DegreeApplicationProcess/index.aspx?parent'>学位申请流程</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DegreeGrant/list.aspx\">学位授予</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DegreeGrant/list.aspx?parent'>学位授予</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/ThesisDefense/list.aspx\">日程安排</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/ThesisDefense/list.aspx?parent'>日程安排</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m27"><em><a href='/Employ/list.aspx'>毕业与就业</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Employ/list.aspx\">就业资讯</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Employ/list.aspx?parent'>就业资讯</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Job-huntingPlatform/list.aspx\">求职平台</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Job-huntingPlatform/list.aspx?parent'>求职平台</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/EmploymentPolicy/list.aspx\">就业政策</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/EmploymentPolicy/list.aspx?parent'>就业政策</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/GraduateNotice/list.aspx\">毕业生通知</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/GraduateNotice/list.aspx?parent'>毕业生通知</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m26"><em><a href='/Postdoctoral/list.aspx'>科研进展</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m32"><em><a href='/GraduateAssociation/index.aspx'>研究生活动</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/GraduateAssociation/index.aspx\">研究生会</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/GraduateAssociation/index.aspx?parent'>研究生会</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Societies/index.aspx\">社团</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Societies/index.aspx?parent'>社团</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/ColorfulActivities/list.aspx\">风采展示</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/ColorfulActivities/list.aspx?parent'>风采展示</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m37"><em><a href='/Regulations/list.aspx'>规章制度</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m38"><em><a href='/DownloadCenter/list.aspx?lcid=5'>下载中心</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=5'>学生入所</a></dt>
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=4'>学生管理</a></dt>
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=2'>常用证明</a></dt>
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=1'>毕业离所</a></dt>
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          
+        </ul>
+      </nav>
+
+    </header>
+  </div>
+  <script type="text/javascript">
+      
+          
+          // $("#m").addClass("aon");
+          var m='10'
+          
+              
+	  
+	  
+          //搜索打开
+          $(".Top002633 .btn_search").click(function(e) {
+          $(".Top002633 .search").show(300);
+      });
+      $(".Top002633 .search").bind("mouseleave",function(){
+          $(this).hide(300);
+      })
+	  
+	  
+      $("#TopBtn").jqSearch({
+          TxtVal: "关键字搜索",
+          KeyTxt1: "输入关键词搜索！",
+          KeyTxt2: "输入的关键词字数不要过多！",
+          KeyTxt3: "您输入的内容存在特殊字符！",
+          KeyId: "TopKey", //输入框id
+          KeyUrl: "/Search/list.aspx", //跳转链接
+          KeyHref: "key", //链接传值
+          Static: false //是否静态站
+      });
+	  
+      function dateTime(){
+          var time=new Date();
+          var week;
+          switch (time.getDay()){       //time.getDay()获取后显示1~7阿拉伯数字
+          case 1: week="星期一"; break;
+          case 2: week="星期二"; break;
+          case 3: week="星期三"; break;
+          case 4: week="星期四"; break;
+          case 5: week="星期五"; break;
+          case 6: week="星期六"; break;
+          default: week="星期天";
+          }
+          var year=time.getFullYear();
+          var month=time.getMonth();
+          var date=time.getDate();
+          document.getElementById("dateTime").innerHTML = year+"-"+(month+1)+"-"+date+"  "+week;
+      }
+      setInterval(dateTime,1000);     //每隔1秒显示一次
+  </script> 
+</div>
+<!--Top002633 end--> 
+
+
+<!--top end--> 
+
+
+
+<!--网页主体部分 开始-->
+<section class="content"> 
+
+<div class="auto auto_1200">
+  <div class="w18 fl"> 
+  <!--二级 start--> 
+   
+ 
+<!--Menu001651开始-->
+<div class="Menu001651">
+ <ul class="ul clearfix">
+   <div class="title">
+   
+   招生<span>Enrollment</span>
+   
+   </div>
+   
+   <li id="nav11"><a class="dot" href='/DisciplineSettings/index.aspx'>学科设置</a></li>
+   <li id="nav12"><a class="dot" href='/AdmissionsOverview/index.aspx'>招生概况</a></li>
+   <li id="nav13"><a class="dot" href='/Master/list.aspx'>硕士招生</a></li>
+   <li id="nav14"><a class="dot" href='/sions/list.aspx'>博士招生</a></li>
+   <li id="nav15"><a class="dot" href='/Students/list.aspx'>留学生</a></li>
+   
+    
+        
+ </ul>
+<script>
+   var nav ='13'	  	  
+   var sub =''	  	  
+   $("#nav"+nav).addClass("aon");
+   $("#sub"+sub).addClass("aon");
+</script> 
+</div>
+<!--Menu001651结束--> 
+
+
+  <!--二级 end--> 
+  </div>
+  
+  
+  <div class="w79 fr"> 
+  <!--TextList000746开始-->
+  <div class="TextList000746">
+  <div class="auto">
+  <ul class="ul">
+        
+    <li>
+      <time>2026-06-03</time>
+      <a href='https://yz.ustc.edu.cn/static/upload/article/file/1780392646554/f9729907d37f4edf8984cb7e03f7e014.pdf' class="dot">中国科学技术大学 2027 研考初试科目调整通告</a>
+    </li>
+        
+    <li>
+      <time>2026-03-19</time>
+      <a href='/Master/info.aspx?itemid=1629' class="dot">中国科学技术大学纳米技术与纳米仿生学院（苏州纳米所） 2026年硕士研究生招生复试工作方案</a>
+    </li>
+        
+    <li>
+      <time>2026-03-19</time>
+      <a href='/Master/info.aspx?itemid=1630' class="dot">中国科学技术大学纳米技术与纳米仿生学院（苏州纳米所）2026年硕士研究生招生复试日程安排</a>
+    </li>
+        
+    <li>
+      <time>2026-03-19</time>
+      <a href='/Master/info.aspx?itemid=1633' class="dot">中国科大纳米技术与纳米仿生学院（苏州纳米所）关于公布2026年硕士研究生招生考试复试分数线及复试名单的通知</a>
+    </li>
+        
+    <li>
+      <time>2025-03-31</time>
+      <a href='/Master/info.aspx?itemid=1539' class="dot">2025年中国科学院苏州纳米所-上海大学联合培养硕士调剂通知</a>
+    </li>
+        
+    <li>
+      <time>2025-03-28</time>
+      <a href='/Master/info.aspx?itemid=1538' class="dot">2025年中国科学院苏州纳米所-上海科技大学联合培养硕士调剂通知</a>
+    </li>
+        
+    <li>
+      <time>2024-09-04</time>
+      <a href='/Master/info.aspx?itemid=1479' class="dot">中国科学技术大学纳米技术与纳米仿生学院（苏州纳米所）2025年工程硕博士培养专项推荐免试研究生 招生宣讲会及预报名通知</a>
+    </li>
+        
+    <li>
+      <time>2024-06-17</time>
+      <a href='/Master/info.aspx?itemid=1464' class="dot">纳米技术与纳米仿生学院（苏州纳米所） 关于调整2025年硕士研究生招生材料与化工专业考试科目的通知</a>
+    </li>
+        
+    <li>
+      <time>2024-03-24</time>
+      <a href='/Master/info.aspx?itemid=1428' class="dot">调剂通知 | 2024年中国科学院苏州纳米所联合培养硕士招生啦</a>
+    </li>
+        
+    <li>
+      <time>2024-03-18</time>
+      <a href='/Master/info.aspx?itemid=1424' class="dot">中国科大纳米技术与纳米仿生学院2024年硕士研究生招生考试复试基本分数线及复试名单公示</a>
+    </li>
+        
+    <li>
+      <time>2024-03-18</time>
+      <a href='/Master/info.aspx?itemid=1426' class="dot">2024年中国科大纳米技术与纳米仿生学院（苏州纳米所）硕士研究生招生复试通知</a>
+    </li>
+        
+    <li>
+      <time>2023-09-08</time>
+      <a href='/Master/info.aspx?itemid=1358' class="dot">2024年中国科大纳米技术与纳米仿生学院（苏州纳米所） 接收推荐免试生预报名通知</a>
+    </li>
+        
+    <li>
+      <time>2023-05-25</time>
+      <a href='/Master/info.aspx?itemid=1031' class="dot">乘风破浪，梦想起航—欢迎加入中科院苏州纳米所</a>
+    </li>
+        
+    <li>
+      <time>2023-03-25</time>
+      <a href='/Master/info.aspx?itemid=1291' class="dot">中国科学技术大学纳米技术与纳米仿生学院（苏州纳米所）2023年硕士研究生调剂简章（二）</a>
+    </li>
+        
+    <li>
+      <time>2023-03-24</time>
+      <a href='/Master/info.aspx?itemid=1290' class="dot">中国科学技术大学纳米技术与纳米仿生学院（苏州纳米所）2023年硕士研究生调剂简章（更新公告）</a>
+    </li>
+     
+  </ul>
+  </div>
+  </div>
+  <!--TextList000746结束-->
+
+
+  <!--Page002046开始-->
+  <div class="Page002046">
+    <div class='Pages'><span class='p_cur'>目前在第<b>1</b>页, </span><span class='p_count'>共有<b>8</b>页, </span><span class='p_total'> 共有<b>116</b>条记录</span>                            <span class='p_page'>                                <a href='javascript:void(0);' class='a_first'>第一页</a>                                <a href='javascript:void(0);' class='a_prev'>上一页</a><em class='num'>                                <a href='/Master/list.aspx?page=1' class='a_cur' id='pageNum1'>1</a><a href='/Master/list.aspx?page=2' class='a_num' id='pageNum2'>2</a><a href='/Master/list.aspx?page=3' class='a_num' id='pageNum3'>3</a><a href='/Master/list.aspx?page=4' class='a_num' id='pageNum4'>4</a><a href='/Master/list.aspx?page=5' class='a_num' id='pageNum5'>5</a>                                </em><a href='/Master/list.aspx?page=2' class='a_next'>下一页</a>                                <a href='/Master/list.aspx?page=8' class='a_end'>最后一页</a>                             </span>                            <span class='p_jump'>                                <b class='f1'>跳转到</b><input type='text' class='i_text' id='_input' value='1' /><b class='f2'>页</b><input type='button' class='i_button' id='_button' onclick=redirectPage_('_input') value='' />                            </span></div><script type='text/javascript'> function redirectPage_(inputID){      var inputValue = document.getElementById(inputID).value;     if(!(/^\d+$/).test(inputValue)){ document.getElementById(inputID).value = '1'; return; }      if(inputValue <= 0) { inputValue = 1; }      if(inputValue > 8) { inputValue = 8; }      location.href = '/Master/list.aspx?page={$wtl_pager}'.replace('{$wtl_pager}', inputValue); } </script> 
+  </div>
+  <!--Page002046结束-->
+
+
+  </div>
+  <div class="clear"></div>
+</div>
+
+                                                                                                                                        
+                                                                                                                                                                                                                                
+</section>
+<!--网页主体部分 结束--> 
+
+
+
+
+<!--底部 开始--> 
+ 
+ 
+<!--Bottom001879开始-->
+<div class="Bottom001879">
+  <div class="auto auto_1200 clearfix">
+    
+    <figure> <img src="/uploadfiles/2020/02/th_20200226154748992.jpg?5LqM57u056CBLmpwZw==">扫一扫关注我们</figure>
+      
+    <footer>
+      <ul class="ul clearfix">
+       <li><a href='/AboutTheCollege/index.aspx'>部门概况</a></li>
+       <li><a href='/DisciplineSettings/index.aspx'>招生</a></li>
+       <li><a href='/TrainingPrograms/list.aspx'>培养</a></li>
+       <li><a href='/DegreeSub-Committee/index.aspx'>学位</a></li>
+       <li><a href='/Employ/list.aspx'>毕业与就业</a></li>
+       <li><a href='/Postdoctoral/list.aspx'>科研进展</a></li>
+       <li><a href='/GraduateAssociation/index.aspx'>研究生活动</a></li>
+       <li><a href='/Regulations/list.aspx'>规章制度</a></li>
+       <li><a href='/DownloadCenter/list.aspx?lcid=5'>下载中心</a></li>
+             
+      </ul>
+      <section>
+        <dl class="bdsharebuttonbox">
+          <dt class="wx"><a title="分享到微信" data-cmd="weixin" target="_blank" class="bshare-weixin bds_weixin" href="javascript:void(0);"></a></dt>
+          <dt class="sina"><a title="分享到新浪微博" data-cmd="tsina" target="_blank" class="bshare-sinaminiblog bds_tsina" href="javascript:void(0);"></a></dt>
+        </dl>
+        <a href='/Doctor/list.aspx'>导师队伍</a><i>|</i>
+        <a href='/SummerCamp/list.aspx'>夏令营</a><i>|</i>
+        <a href='/AwardWinners/index.aspx'>奖助学金</a><i>|</i>
+        <a href='/May4thYouthExchange/list.aspx'>五四青年交流会</a>
+        
+        <p>
+        Copyright © 2019 中国科学院苏州纳米技术与纳米仿生研究所 Inc. All rights reserved.
+		
+        <a href="http://www.beian.miit.gov.cn/" target="_blank">苏ICP备10220403号</a>
+        
+        </p>
+      </section>
+    </footer>
+  </div>
+</div>
+<!--Bottom001879结束-->
+
+
+<script type="text/javascript">
+//整站无图处理
+$.each($("img"), function (i, n) {
+$(n).on('error', function () { n.src = '/uploadfiles/nopic.jpg'; }); n.src = n.src; });
+
+//分享
+with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=' + ~(-new Date() / 36e5)];
+</script> 
+
+<!--底部 结束-->
+
+
+
+
+</body>
+</html>

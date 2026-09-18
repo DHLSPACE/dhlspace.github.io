@@ -18,6 +18,7 @@ from sources.parser import canonical
 from storage import ROOT,Store,now
 from discovery import Discovery, TYPES, metadata
 from library import institutions, queue_many, archive_bundle
+from focus import enrich
 
 TOKEN=secrets.token_urlsafe(32)
 STATE={'running':False,'message':'准备就绪','started':'','finished':''}
@@ -81,9 +82,9 @@ class Handler(BaseHTTPRequestHandler):
                 catalog=STORE.root/'sources'/'catalog.json'
                 data['candidates']=json.loads(catalog.read_text('utf-8')) if catalog.exists() else []
                 data['institutions']=institutions(STORE)
-                return self.send(data)
+                return self.send(enrich(data, STORE.root))
             if path=='/api/health':
-                return self.send({'app':'graduate-archive','root':str(STORE.root),'version':3})
+                return self.send({'app':'graduate-archive','root':str(STORE.root),'version':5})
             if path=='/api/export':
                 with LOCK:
                     folder=STORE.export()
@@ -93,6 +94,12 @@ class Handler(BaseHTTPRequestHandler):
                     folder=STORE.export()
                     p=folder/'notes.csv'
                     return self.send(p.read_bytes() if p.exists() else b'',ctype='text/csv; charset=utf-8',download='研招笔记.csv')
+            if path=='/api/filing.csv':
+                from focus import export_filing
+                with LOCK:
+                    export_filing(STORE)
+                    p=STORE.data/'exports/分类目录.csv'
+                    return self.send(p.read_bytes() if p.exists() else b'',ctype='text/csv; charset=utf-8',download='研招分类目录.csv')
             if path=='/api/archive':
                 sid=int(params.get('id',['0'])[0])
                 rows=STORE.query('SELECT * FROM snapshots WHERE id=?',(sid,))
@@ -108,6 +115,7 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/api/research':
                 return self.send((STORE.root/'先看这里_首批信息与准备路线.md').read_bytes(),ctype='text/plain; charset=utf-8')
             allowed={'/':'index.html','/style.css':'style.css','/ui.js':'ui.js','/workspace.js':'workspace.js','/glass.css':'glass.css','/library.js':'library.js','/library.css':'library.css'}
+            allowed.update({'/focus.js':'focus.js','/focus.css':'focus.css','/help':'help.html'})
             if path in allowed:
                 p=ROOT/'static'/allowed[path]
                 ctype={'.html':'text/html','.css':'text/css','.js':'text/javascript'}[p.suffix]+'; charset=utf-8'

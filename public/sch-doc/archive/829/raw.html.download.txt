@@ -1,0 +1,107 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no, email=no"/>
+<meta http-equiv="pragma" content="no-cache">  
+<meta http-equiv="cache-control" content="no-cache">  
+<meta http-equiv="expires" content="0">
+<title>辽宁招生考试之窗</title>
+<meta name="keywords" content="辽宁招生考试之窗" />
+<meta name="description" content="辽宁招生考试之窗" />
+<link href="../css/public.css?v=20260918143952"" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../images/lnzsks.ico" type="image/x-icon"/> 
+<script type="text/javascript" src="../js/bdtj.js" charset="utf-8"></script>
+</head>
+<body>
+<div class="header">
+  <img src="../images/head_yjs.jpg" />
+  <div class="qrcode">
+    <img src="../images/qrcode.jpg" />
+    <p>请关注"辽宁省教育招生考试"</p>
+  </div>
+</div>
+<div class="nav">
+  <ul class="clearfix">
+    <li><a href="../index.html">首页</a></li>
+    <li><a href="../ptgk.html">普通高考</a></li>
+    <li><a href="xysp_1.html">学业水平</a></li>
+    <li class="active"><a href="yjs_1.html">研究生</a></li>
+	<li><a href="../zsb.html">专升本</a></li>
+    <li><a href="../crgk.html">成人高考</a></li>
+    <li><a href="zxks_1.html">自学考试</a></li>
+    <li><a href="wnz_1.html">五年制高职</a></li>
+    <li><a href="../fxlinfo/fxl_1600_1.html">非学历考试</a></li>
+	<li><a href="../dxszb.html">大学生征兵</a></li>
+  </ul>
+</div>
+<div class="head-search clearfix">
+  <div class="date" id="date">2018年01月07日 星期四</div>
+   <a href="../zzjg/zzjg.html" class="btn" target="_blank">组织机构</a>
+    <a href="../listinfo/cggk_1.html" class="btn" target="_blank">政务公开</a>
+
+	<a href="../wbzx.html" class="btn" target="_blank">网报中心</a>
+	<a href="../cxzx.html" class="btn" target="_blank">查询中心</a>
+	<a href="../cjzm/cjzmlist_new.html" class="btn" target="_blank">成绩证明</a>
+	<a href="../zkzz.html" class="btn" target="_blank">招考杂志</a>
+  <div class="search">
+    <form id="infoform" name="infoform" method="post" action="../lnzsksSearch/search/index.action" >
+      <input type="text" name="title" id="title" class="input" value="" placeholder="站内搜索" />
+      <input type="image" name="" id="" class="button" src="../images/headsearch.jpg" />
+    </form>
+  </div>
+</div>
+<div class="main mt10 mb10">
+  <a data="100066" href="http://yz.chsi.com.cn/" target="_blank"><img src="../up_img/advimg/yjs.gif" height="90" width="1000"></a>
+</div>
+<div class="main clearfix">
+  <div class="position">
+    <a href="../index.html" style="color:#3f98ef">首页</a>
+	<img src="../images/link.png"><a style="color:#3f98ef">研究生考试</a>
+  </div>
+  <ul class="list clearfix">
+  	<li><a target="_blank" href="../newsinfo/IMS_20260517_45942_WzInPkcAdb.htm" title="我省2026年同等学力全国统一考试顺利结束">我省2026年同等学力全国统一考试顺利结束</a><span>2026-05-17</span></li><li><a target="_blank" href="../newsinfo/IMS_20260506_45883_ldkPSqnxCh.htm" title="2026年同等学力人员申请硕士学位全国统一考试考前提醒">2026年同等学力人员申请硕士学位全国统一考试考前提醒</a><span>2026-05-06</span></li><li><a target="_blank" href="../newsinfo/IMS_20260226_45665_bcuIg29Naf.htm" title="辽宁省2026年全国硕士研究生招生考试初试成绩即将公布">辽宁省2026年全国硕士研究生招生考试初试成绩即将公布</a><span>2026-02-26</span></li><li><a target="_blank" href="../newsinfo/IMS_20251221_45382_7ntBNWL1p4.htm" title="辽宁省2026年全国硕士研究生招生考试结束">辽宁省2026年全国硕士研究生招生考试结束</a><span>2025-12-21</span></li><li><a target="_blank" href="../newsinfo/IMS_20251218_45365_FdtSZhOe8c.htm" title="辽宁省2026年全国硕士研究生招生考试温馨提示">辽宁省2026年全国硕士研究生招生考试温馨提示</a><span>2025-12-18</span></li><li><a target="_blank" href="../newsinfo/IMS_20251210_45352_g8f2DZ5EFy.htm" title="辽宁省2026年全国硕士研究生招生考试举报电话">辽宁省2026年全国硕士研究生招生考试举报电话</a><span>2025-12-10</span></li><li><a target="_blank" href="../newsinfo/IMS_20251210_45351_nkHZLOXr8U.htm" title="辽宁省2026年全国硕士研究生招生考试准考证打印温馨提示">辽宁省2026年全国硕士研究生招生考试准考证打印温馨提示</a><span>2025-12-10</span></li><li><a target="_blank" href="../newsinfo/IMS_20251126_45302_QKgHMnRIWC.htm" title="辽宁省2026年全国硕士研究生招生考试安全工作视频会议召开">辽宁省2026年全国硕士研究生招生考试安全工作视频会议召开</a><span>2025-11-26</span></li><li><a target="_blank" href="../newsinfo/IMS_20251009_45203_1IinMm6TNJ.htm" title="辽宁省2026年全国硕士研究生招生考试网报公告">辽宁省2026年全国硕士研究生招生考试网报公告</a><span>2025-10-09</span></li><li><a target="_blank" href="../newsinfo/IMS_20251009_45202_g34UxnphaE.htm" title="辽宁省2026年全国硕士研究生招生考试网上报名工作即将开始">辽宁省2026年全国硕士研究生招生考试网上报名工作即将开始</a><span>2025-10-09</span></li><li><a target="_blank" href="../newsinfo/IMS_20250518_44876_45BhwmLFD3.htm" title="我省2025年同等学力全国统一考试顺利结束">我省2025年同等学力全国统一考试顺利结束</a><span>2025-05-18</span></li><li><a target="_blank" href="../newsinfo/IMS_20250508_44842_nk1IZqCNOg.htm" title="2025年同等学力人员申请硕士学位全国统一考试考前提醒">2025年同等学力人员申请硕士学位全国统一考试考前提醒</a><span>2025-05-08</span></li><li><a target="_blank" href="../newsinfo/IMS_20250313_44733_gZYxXrLwbJ.htm" title="我省召开2025年全国硕士研究生复试录取工作会议">我省召开2025年全国硕士研究生复试录取工作会议</a><span>2025-03-13</span></li><li><a target="_blank" href="../newsinfo/IMS_20250219_44665_8J6RgdW4wr.htm" title="辽宁省2025年全国硕士研究生招生考试初试成绩即将公布">辽宁省2025年全国硕士研究生招生考试初试成绩即将公布</a><span>2025-02-19</span></li><li><a target="_blank" href="https://tdxl.neea.edu.cn/html1/report/2501/206-1.htm" title="2025年同等学力人员申请硕士学位外国语水平和学科综合水平全国统一考试报名通知">2025年同等学力人员申请硕士学位外国语水平和学科综合水平全国统一考试报名通知</a><span>2025-02-14</span></li><li><a target="_blank" href="../newsinfo/IMS_20241220_44573_2LGdbI89Vv.htm" title="辽宁省召开2025年全国硕士研究生招生考试工作调度视频会议">辽宁省召开2025年全国硕士研究生招生考试工作调度视频会议</a><span>2024-12-20</span></li><li><a target="_blank" href="../newsinfo/IMS_20241220_44565_O8zMu6RWYD.htm" title="12月21日开考！辽宁省招考办2025年研考温馨提示（二）">12月21日开考！辽宁省招考办2025年研考温馨提示（二）</a><span>2024-12-20</span></li><li><a target="_blank" href="../newsinfo/IMS_20241220_44564_IuNnML91CQ.htm" title="12月21日开考！辽宁省招考办2025年研考温馨提示（一）">12月21日开考！辽宁省招考办2025年研考温馨提示（一）</a><span>2024-12-20</span></li><li><a target="_blank" href="../newsinfo/IMS_20241216_44552_nvPINR03Xf.htm" title="辽宁省2025年全国硕士研究生招生考试举报电话">辽宁省2025年全国硕士研究生招生考试举报电话</a><span>2024-12-16</span></li><li><a target="_blank" href="../newsinfo/IMS_20241211_44537_l3P0RnOgJm.htm" title="2025年全国硕士研究生招生考试准考证打印温馨提示">2025年全国硕士研究生招生考试准考证打印温馨提示</a><span>2024-12-11</span></li>
+  </ul>
+  <div class="pageshow">
+  <ul class="page clearfix">
+  	<li class='nobg'>当前第1页，共17页</li>
+    <li class="nobg"><a href="yjs_1.html">第一页</a></li><li><a href="yjs_1.html"><img src="../images/page_prev.png" /></a></li><li class="active"><a href="yjs_1.html">1</a></li><li><a href="yjs_2.html">2</a></li><li><a href="yjs_3.html">3</a></li><li><a href="yjs_4.html">4</a></li><li><a href="yjs_5.html">5</a></li><li><a href="yjs_6.html">6</a></li><li><a href="yjs_7.html">7</a></li><li><a href="yjs_8.html">8</a></li><li><a href="yjs_9.html">9</a></li><li><a href="yjs_10.html">10</a></li><li><a href="yjs_11.html">11</a></li><li><a href="yjs_12.html">12</a></li><li><a href="yjs_13.html">13</a></li><li><a href="yjs_14.html">14</a></li><li><a href="yjs_15.html">15</a></li><li><a href="yjs_2.html"><img src="../images/page_next.png" /></a></li> <li class="nobg"><a href="yjs_17.html">末页</a></li>
+    <li class="jump">
+     	  <form method="get" name="infopagejump" id="infopagejump" action="yjs_">
+          	<span>转到</span>
+            <input type="text" name="pagejump" id="pagejump"  width="25px" onkeydown="if(event.keyCode==13)return false;"/><span>页</span>
+			<input type="button" name="gojump" id="gojump" value="确定" onClick="infopagejumpsubmit();"/>
+			<input type="hidden" name="pagesmin" id="pagesmin" value="1"/>
+            <input type="hidden" name="pagesmax" id="pagesmax" value="17" />
+          </form>
+    </li>
+  </ul>
+  </div>
+</div>
+<div class="footer">
+  <div class="footline"></div>
+  
+  <div class="footerA">
+	  <div class="footlink">
+		  <a href="../wzdh.html" target="_blank" style="margin: 0;padding: 0;">网站地图</a>
+	  </div>
+	  <div class="footlink" >
+		<p>主管单位：辽宁省高中等教育招生考试委员会办公室 &emsp;&emsp;&emsp;主办单位：辽宁招生考试杂志社</p>
+	  </div>
+	   <div class="footlink" >
+	   <p>地址：沈阳市于洪区怒江北街101号&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;邮编：110034</p>
+	   
+	   </div>
+	  <div class="footlink" >
+	   <p>辽B2-20120095-1&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;温馨提示：显示器分辨率1440*900或以上，IE9.0或以上浏览器为最佳显示效果 </p>
+	 </div>
+	   <div class="footbiao">
+		<a href="https://bszs.conac.cn/sitename?method=show&id=48B617745CDCAC82E06310291AACD9F3" target="_blank"><img src="../images/biao.png" /></a>
+	  </div>
+  </div>
+</div>
+<script type="text/javascript" src="../js/jquery.js" charset="utf-8"></script>
+<script type="text/javascript" src="../js/jquery.superslide.2.1.1.js" charset="utf-8"></script>
+<script type="text/javascript" src="../js/pageshow.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,981 @@
+﻿<html>
+<head>
+    <meta charset="UTF-8">
+    <title>材料科学与工程学院</title><META Name="keywords" Content="材料科学与工程学院" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <!--主页面-->
+    <link rel="stylesheet" href="style/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/css/animate.css">
+    <link rel="stylesheet" href="style/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/css/styles.css" title="mainStyle">
+
+    <!--大菜单样式-->
+    <link rel="stylesheet" href="style/mun1/dist/menu.min.css">
+    <!--手机下面样式-->
+    <link rel="stylesheet" type="text/css" href="style/css/Cym_Mobilephone.css" media="screen" />
+    <!--首页大图片-->
+    <link href="style/bigimages/index.css" rel="stylesheet" />
+    <!--学术动态-->
+    <script type="text/javascript" src="style/js/jquery-1.8.0.min.js"></script>
+    <script src="style/js/report.js"></script>
+    <!--获取分辨率-->
+    <script type="text/javascript">
+        if (screen.width < 967) {
+
+        }
+        else {
+            $(document).ready(function () {
+                $('li.mainlevels').mousemove(function () {
+                    $(this).find('ul').slideDown();
+                });
+                $('li.mainlevels').mouseleave(function () {
+                    $(this).find('ul').slideUp("fast");
+                });
+                $('div.banner').mousemove(function () {
+                    $(this).find('div.corner').fadeIn("fast");
+                });
+                $('div.banner').mouseleave(function () {
+                    $(this).find('div.corner').fadeOut("fast");
+                });
+            });
+        }
+
+    </script>
+
+    <!--新闻图片特效脚本-->
+    <style type="text/css">
+        #owl-demo {
+            position: relative;
+            width: 470px;
+            height: 455px;
+            margin: 0px auto 0 auto;
+            background-color: #1a6199;}
+
+            #owl-demo .item {
+                position: relative;
+                display: block;}
+
+            #owl-demo img {
+                display: block;
+                width: 470px;
+                height: 380px;
+                margin-top: 75px;
+                padding-bottom: 125px;}
+
+            #owl-demo b {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 125px;
+                background-color: #1a6199;
+                opacity: 1;
+                filter: alpha(opacity=50);}
+
+            #owl-demo span {
+                position: absolute;
+                left: 0;
+                bottom: 0px;
+                width: 100%;
+                font: 18px/20px "微软雅黑","黑体";
+                color: #fff;
+                text-align: center;
+                top:275px;
+                line-height:30px;}
+
+        .owl-pagination {
+            position: absolute;
+            left: 0;
+            bottom: 10px;
+            width: 100%;
+            height: 22px;
+            text-align: center;}
+
+        .owl-page {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin: 0 5px;
+            background-image: url(images/images/bg15.png);
+            *display: inline;
+            *zoom: 1;}
+
+        .owl-pagination .active {
+            width: 25px;
+            background-image: url(images/images/bg16.png);}
+
+        .owl-buttons {
+            display: none;}
+
+            .owl-buttons div {
+                position: absolute;
+                top: 50%;
+                width: 40px;
+                height: 80px;
+                margin-top: -40px;
+                text-indent: -9999px;}
+
+        .owl-prev {
+            left: 0;
+            background-image: url(images/images/bg17.png);}
+
+        .owl-next {
+            right: 0;
+            background-image: url(images/images/bg18.png);}
+
+        .owl-prev:hover {
+            background-image: url(images/images/bg19.png);}
+
+        .owl-next:hover {
+            background-image: url(images/images/bg20.png);}
+    </style>
+    <script type="text/javascript" src="style/NewsPic/jquery.min.img.js"></script>
+    <link href="style/NewsPic/owl.carousel.css" rel="stylesheet" />
+    <script type="text/javascript" src="style/NewsPic/owl.carousel.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#owl-demo').owlCarousel({
+                items: 1,
+                navigation: true,
+                navigationText: ["上一个", "下一个"],
+                autoPlay: true,
+                stopOnHover: true
+            }).hover(function () {
+                $('.owl-buttons').show();
+            }, function () {
+                $('.owl-buttons').hide();
+            });
+        });
+    </script>
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230747a475c52505742000000004055 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1750475902)</script>
+</head>
+<body>
+    <div id="wrap" class="home">
+        <!--顶部颜色-->
+        <div style="width: 100%; height: 45px; background-color: #ec8223;">
+            <div class="container">
+                <div class="row">
+                    <div style="text-align: right;">
+                        <a class="Fap11" href="https://mail.csu.edu.cn/" target="_blank">院长信箱</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="Fap11" href="index/lxwm.htm">联系我们</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="Fap11" href="http://clsyyy.csu.edu.cn/Account/" target="_blank">实验预约</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="Fap11" href="https://mse.csu.edu.cn/syjxzx/" target="_blank">实验室建设</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="Fap11" href="https://mse.csu.edu.cn/english/index.htm" target="_blank">English</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--电脑版--Logo菜单-->
+        <div class="displayWeb" style="width: 100%; height: 100px; background: url(images/images/B32.png) center no-repeat;background-size:100%;">
+            <div style="height: 0px;"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10 mstop">
+                        <div style="margin-top: 12px;">
+                            <a href="index.htm">
+                                <img src="images/images/B31.png" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-2 col-xs-2">
+                        <div class="ve-menu" style="position: absolute; z-index: 9999;">
+                        <ul class="ve-menu-pc">
+ <li>
+        <a class="Fap6" href="#">学院概况</a>
+            <ul>
+                <li>
+                    <a class="Fap8" href="xygk/hyc.htm">欢迎词</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="xygk/xyjj.htm">学院简介</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="xygk/xyld1.htm">学院领导</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="xygk/jgsz.htm">机构设置</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="xygk/szdw.htm">师资队伍</a>
+                </li>
+            </ul>            
+    </li>
+ <li>
+        <a class="Fap6" href="http://mse.csu.edu.cn/cjpt">党建平台</a>
+    </li>
+ <li>
+        <a class="Fap6" href="#">本科生教育</a>
+            <ul>
+                <li>
+                    <a class="Fap8" href="bksjy/zxxx.htm">最新信息</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="bksjy/pyfa.htm">培养方案</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="bksjy/jxdg.htm">教学大纲</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="bksjy/jxgl.htm">教学管理</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="bksjy/gzzd.htm">规章制度</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="bksjy/jpkc.htm">精品课程</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="bksjy/sjsx.htm">实践实训</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="bksjy/jyzd.htm">就业指导</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="bksjy/xzfw1.htm">下载服务</a>
+                </li>
+            </ul>            
+    </li>
+ <li>
+        <a class="Fap6" href="#">研究生教育</a>
+            <ul>
+                <li>
+                    <a class="Fap8" href="yjsjy/zxxx.htm">最新信息</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="yjsjy/zszy.htm">招生专业</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="yjsjy/dsxx1.htm">导师信息</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="yjsjy/pyfa.htm">培养方案</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="yjsjy/jyzd.htm">就业指导</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="yjsjy/wjhb.htm">文件汇编</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="yjsjy/yjscg.htm">研究生成果</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="yjsjy/xzfw1.htm">下载服务</a>
+                </li>
+            </ul>            
+    </li>
+ <li>
+        <a class="Fap6" href="#">科学研究</a>
+            <ul>
+                <li>
+                    <a class="Fap8" href="kxyj/zxxx.htm">最新信息</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="kxyj/kyjg.htm">科研机构</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="kxyj/kyxm.htm">科研项目</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="kxyj/kycg.htm">科研成果</a>
+                </li>
+                <li>
+                    <a class="Fap8" href="kxyj/xzfw1.htm">下载服务</a>
+                </li>
+            </ul>            
+    </li>
+ <li>
+        <a class="Fap6" href="http://mse.csu.edu.cn/work">学生工作</a>
+    </li>
+ <li>
+        <a class="Fap6" href="nbzd.htm">内部制度</a>
+    </li>
+</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--手机版--Logo菜单-->
+        <div class="displayPhome">
+            <div class="dingbu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-5 col-sm-10 col-xs-10 mstop">
+                            <a href="index.htm">
+                                <img src="images/images/B31.png" />
+                            </a>
+                        </div>
+                        <div class="col-lg-9 col-md-7 col-sm-2 col-xs-2">
+                            <div class="ve-menu" style="position: absolute; z-index: 9999;">
+                                <ul class="ve-menu-pc">
+                                    <li><a class="Fap6" href="#">学院概况</a>
+                                        <ul>
+                                            <li><a class="Fap8" href="#">欢迎词</a></li>
+                                            <li><a class="Fap8" href="#">学院简介</a></li>
+                                            <li><a class="Fap8" href="#">学院领导</a></li>
+                                            <li><a class="Fap8" href="#">机构设置</a></li>
+                                            <li><a class="Fap8" href="#">师资队伍</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="Fap6" href="https://mse.csu.edu.cn/cjpt/">党建平台</a>
+                                    </li>
+                                    <li><a class="Fap6" href="#">本科生教育</a>
+                                        <ul>
+                                            <li><a class="Fap8" href="#">最新信息</a></li>
+                                            <li><a class="Fap8" href="#">培养方案</a></li>
+                                            <li><a class="Fap8" href="#">教学大纲</a></li>
+                                            <li><a class="Fap8" href="#">教学管理</a></li>
+                                            <li><a class="Fap8" href="#">规章制度</a></li>
+                                            <li><a class="Fap8" href="#">精品课程</a></li>
+                                            <li><a class="Fap8" href="#">实践实训</a></li>
+                                            <li><a class="Fap8" href="#">就业指导</a></li>
+                                            <li><a class="Fap8" href="#">下载服务</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="Fap6" href="#">研究生教育</a>
+                                        <ul>
+                                            <li><a class="Fap8" href="#">最新信息</a></li>
+                                            <li><a class="Fap8" href="#">招生专业</a></li>
+                                            <li><a class="Fap8" href="#">导师信息</a></li>
+                                            <li><a class="Fap8" href="#">培养方案</a></li>
+                                            <li><a class="Fap8" href="#">就业指导</a></li>
+                                            <li><a class="Fap8" href="#">文件汇编</a></li>
+                                            <li><a class="Fap8" href="#">研究生成果</a></li>
+                                            <li><a class="Fap8" href="#">下载服务</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="Fap6" href="#">科学研究</a>
+                                        <ul>
+                                            <li><a class="Fap8" href="#">最新信息</a></li>
+                                            <li><a class="Fap8" href="#">科研机构</a></li>
+                                            <li><a class="Fap8" href="#">科研项目</a></li>
+                                            <li><a class="Fap8" href="#">科研成果</a></li>
+                                            <li><a class="Fap8" href="#">下载服务</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="Fap6" href="https://mse.csu.edu.cn/work/">学生工作</a>
+                                    </li>
+                                    <li><a class="Fap6" href="https://mse.csu.edu.cn/syjxzx/">实验室建设</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="displayWeb">
+        <div style="height: 25px;"></div>
+        </div>
+        
+        <!--大图片-->
+        <div>
+            <div class="js-silder" style="text-align: center;">
+                <div class="silder-scroll">
+                    <div id="slidesWeb" class="silder-main" runat="server">
+                                <script language="javascript" src="/system/resource/js/dynclicks.js"></script><div class="silder-main-img">
+   <img src="images/images/chengyaoquanqiuyingcai.jpg" alt="">
+</div>
+<div class="silder-main-img">
+   <img src="images/images/B30.png" alt="">
+</div>
+<div class="silder-main-img">
+   <img src="images/images/B31huaxuelou.jpg.png" alt="">
+</div>
+<div class="silder-main-img">
+   <img src="images/images/B32cailiaolou.jpg.png" alt="">
+</div>
+<div class="silder-main-img">
+   <img src="images/images/B33mitaerlou.jpg.png" alt="">
+</div>
+
+                    </div>
+                </div>
+                <div class="js-silder-ctrl"></div>
+            </div>
+        </div>
+
+        <!--电脑版--学院新闻-->
+        <div class="displayWeb" style="height: 694px; background-color: #f0f0f0;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div style="height: 130px;"></div>
+                        <script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><div id="owl-demo" class="owl-carousel">
+<a class="item" href="info/1002/4705.htm">
+   <img src="/__local/9/B4/98/81400517146FE9C48C9559CD0EC_F281F247_20263.jpeg">
+   <span>拧紧安全之弦，护航新学期 ——学院开展秋季学期实验室安全大检查</span>
+</a>
+<a class="item" href="info/1002/4701.htm">
+   <img src="/__local/B/EE/E5/0A1CF35286FA6A0AB66BA3B5E77_045F201D_AA8BA.png">
+   <span>金秋颂师恩 奋进启新程｜材料科学与工程学院开展教师节系列活动</span>
+</a>
+<a class="item" href="info/1002/4693.htm">
+   <img src="/__local/D/42/D2/E3D8466514F5D873D0ABC4C054F_A062CA71_2BA25.jpg">
+   <span>中南大学材料科学与工程学院2026年全国优秀大学生暑期招生宣讲开放日圆满举行</span>
+</a>
+<a class="item" href="info/1002/4690.htm">
+   <img src="/__local/A/99/3F/3267AB60683D29E72C3F125DAE6_7AB56D6F_2F09F.jpg">
+   <span>麓山湘水情，齐鲁启新程——中南大学山东2026年迎新送新双城主题活动顺利举办</span>
+</a>
+<a class="item" href="info/1002/4688.htm">
+   <img src="/__local/B/57/82/68A3083C8BBADFF19C6C7279923_18279133_BFA2.png">
+   <span>材料科学与工程学院召开高质量发展专题民主生活会</span>
+</a>
+</div><script>_showDynClickBatch(['dynclicks_u2_4705','dynclicks_u2_4701','dynclicks_u2_4693','dynclicks_u2_4690','dynclicks_u2_4688'],[4705,4701,4693,4690,4688],"wbnews", 1750475902)</script>
+
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12" style="padding-left: 80px;">
+                        <div style="height: 55px;"></div>
+                        <div>
+                            <a href="index/xyxw.htm">
+                                <img src="images/images/B18.png" alt=""></a>
+                        </div>
+                        <div style="height: 32px;"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 " style="height: 237px; background: url(../images/images/B17.png) no-repeat;">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12" style="margin-top: 88px; margin-left: 30px; color: #ffffff;">
+                                    <div style="font-size: 16px;">2026</div>
+                                    <div style="font-size: 14px;">09.14</div>
+                                </div>
+                                <div class="col-lg-8 col-md-4 col-sm-12 col-xs-12" style="overflow: hidden; height: 60px; margin-top: 76px;">
+                                    <a class="Fap5" href="info/1002/4705.htm">拧紧安全之弦，护航新学期 ——学院开展秋季学期实验室安全大检查</a>
+                                </div>
+                            </div>
+</div>                       
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 " style="height: 237px; background: url(../images/images/B17.png) no-repeat;">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12" style="margin-top: 88px; margin-left: 30px; color: #ffffff;">
+                                    <div style="font-size: 16px;">2026</div>
+                                    <div style="font-size: 14px;">09.11</div>
+                                </div>
+                                <div class="col-lg-8 col-md-4 col-sm-12 col-xs-12" style="overflow: hidden; height: 60px; margin-top: 76px;">
+                                    <a class="Fap5" href="info/1002/4701.htm">金秋颂师恩 奋进启新程｜材料科学与工程学院开展教师节系列活动</a>
+                                </div>
+                            </div>
+</div>                       
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 " style="height: 237px; background: url(../images/images/B17.png) no-repeat;">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12" style="margin-top: 88px; margin-left: 30px; color: #ffffff;">
+                                    <div style="font-size: 16px;">2026</div>
+                                    <div style="font-size: 14px;">09.02</div>
+                                </div>
+                                <div class="col-lg-8 col-md-4 col-sm-12 col-xs-12" style="overflow: hidden; height: 60px; margin-top: 76px;">
+                                    <a class="Fap5" href="info/1002/4693.htm">中南大学材料科学与工程学院2026年全国优秀大学生暑期招生宣讲开放日圆满举行</a>
+                                </div>
+                            </div>
+</div>                       
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 " style="height: 237px; background: url(../images/images/B17.png) no-repeat;">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12" style="margin-top: 88px; margin-left: 30px; color: #ffffff;">
+                                    <div style="font-size: 16px;">2026</div>
+                                    <div style="font-size: 14px;">08.28</div>
+                                </div>
+                                <div class="col-lg-8 col-md-4 col-sm-12 col-xs-12" style="overflow: hidden; height: 60px; margin-top: 76px;">
+                                    <a class="Fap5" href="info/1002/4690.htm">麓山湘水情，齐鲁启新程——中南大学山东2026年迎新送新双城主题活动顺利举办</a>
+                                </div>
+                            </div>
+</div>                       
+<script>_showDynClickBatch(['dynclicks_u3_4705','dynclicks_u3_4701','dynclicks_u3_4693','dynclicks_u3_4690'],[4705,4701,4693,4690],"wbnews", 1750475902)</script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--手机版--学院新闻-->
+        <div class="displayPhome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div style="height: 30px;"></div>
+                        <div style="float: left;">
+                            <a href="index/xyxw.htm">
+                                <img src="images/images/B18.png" alt=""></a>
+                        </div>
+                        <div style="height: 70px;"></div>
+                        <div>
+                            
+<LINK href="/system/resource/style/component/news/list/imagechangenews.css" type="text/css" rel="stylesheet">
+<script language="javascript" src="/system/resource/js/news/imagechangenews.js"></script><script language="JavaScript">
+var u_u4_icn = new ImageChangeNews("u_u4_", 340, 250, 4, 2.0, true, false, false, true, false,"#u_u4_centerCutImg");
+
+//初始化图片, 并启动定时
+function u_u4_init_img()
+{
+
+    u_u4_icn.addimg("\/__local\/A\/6E\/42\/6FB5B96251BCEFD9BBC2FFA4978_B6A005D3_12A84.jpeg", "info\/1002\/4705.htm", "拧紧安全之弦，护航新学期 ——学院开展...", "","拧紧安全之弦，护航新学期 ——学院开展秋季学期实验室安全大检查");
+
+    u_u4_icn.addimg("\/__local\/E\/AC\/84\/C2105FB358377AEDF5F268F8015_3AA3EBA3_67E1.png", "info\/1002\/4701.htm", "金秋颂师恩 奋进启新程｜材料科学与工程...", "","金秋颂师恩 奋进启新程｜材料科学与工程学院开展教师节系列活动");
+
+    u_u4_icn.addimg("\/__local\/F\/AF\/40\/A4FBE932D321B7A00FE19ABB975_9EC6A728_130F9.jpg", "info\/1002\/4693.htm", "<span style=\"color:#000000;\">中南大学材料科学与工程学院2026年全国...<\/span>", "","中南大学材料科学与工程学院2026年全国优秀大学生暑期招生宣讲开放日圆满举行");
+
+    u_u4_icn.addimg("\/__local\/E\/96\/90\/A484003394D198F91E5021F66AA_580838E2_B7D4.jpg", "info\/1002\/4690.htm", "<span style=\"color:#000000;\">麓山湘水情，齐鲁启新程——中南大学山...<\/span>", "","麓山湘水情，齐鲁启新程——中南大学山东2026年迎新送新双城主题活动顺利举办");
+
+    u_u4_icn.addimg("\/__local\/2\/84\/1D\/7F060D81C144DBF82A8B40C9B5C_6410C8F4_A1B8.png", "info\/1002\/4688.htm", "材料科学与工程学院召开高质量发展专题...", "","材料科学与工程学院召开高质量发展专题民主生活会");
+
+    u_u4_icn.changeimg(0);
+}
+</script><table cellspacing="0" cellpadding="0" border="0" style="padding:0px margin:0px; border:0px">
+    <tr><td>
+        <div id="u_u4_centerCutImg" style="OVERFLOW: hidden;height:250px;width:340px">
+            <div id="u_u4_div" align="center" style="padding:0px;margin:0px;border:0px solid black;background-color:#000000;FILTER: progid:DXImageTransform.Microsoft.RevealTrans (duration=2.0,transition=23);height:250px;width:340px">
+                <div id="u_u4_imgdiv" style="padding:0px;border:0px;"><a id="u_u4_url" target="_blank"><img id="u_u4_pic" border="0" src="/system/resource/images/space.gif"></a></div>
+            </div>
+            <div style="filter:alpha(style=1,opacity=10,finishOpacity=80);width:340px;height:19px;text-align:right;top:-19px;position:relative;padding:0px;margin:0px;border:0px;">
+<a href="javascript:u_u4_icn.changeimg(0)" ; id="u_u4_selectNode0" class="imagechangenews_pnode" target="_self">1</a><a href="javascript:u_u4_icn.changeimg(1)" ; id="u_u4_selectNode1" class="imagechangenews_pnode" target="_self">2</a><a href="javascript:u_u4_icn.changeimg(2)" ; id="u_u4_selectNode2" class="imagechangenews_pnode" target="_self">3</a><a href="javascript:u_u4_icn.changeimg(3)" ; id="u_u4_selectNode3" class="imagechangenews_pnode" target="_self">4</a><a href="javascript:u_u4_icn.changeimg(4)" ; id="u_u4_selectNode4" class="imagechangenews_pnode" target="_self">5</a>
+            </div></div></td></tr>
+       
+    <tr><td height="25">
+        <div align="center" style="overflow:hidden;text-overflow:ellipsis;height:25px;width:340px;"><a target="_blank" class="titlestyle1030876" id="u_u4_newstitle"></a></div>
+    </td></tr>
+<div align="left" display="none" style="overflow:hidden;text-overflow:ellipsis;height:0px;width:340px;padding-left:2px;padding-right:2px"><a target="_blank" class="summarystyle1030876" id="u_u4_newssummary"></a></div>   
+</table><SCRIPT language="JavaScript">u_u4_init_img();</SCRIPT>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div style="height: 30px;"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 " style="height: 237px; background: url(../images/images/B17.png) no-repeat;">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="margin-top: 88px; margin-left: 30px; color: #ffffff;">
+                                    <div style="font-size: 16px;">2026</div>
+                                    <div style="font-size: 14px;">09.14</div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" style="overflow: hidden; height: 60px; margin-top: 76px;">
+                                    <a class="Fap5" href="info/1002/4705.htm">拧紧安全之弦，护航新学期 ——学院开展秋季学期实...</a>
+                                </div>
+                            </div>
+</div>  
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 " style="height: 237px; background: url(../images/images/B17.png) no-repeat;">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="margin-top: 88px; margin-left: 30px; color: #ffffff;">
+                                    <div style="font-size: 16px;">2026</div>
+                                    <div style="font-size: 14px;">09.11</div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" style="overflow: hidden; height: 60px; margin-top: 76px;">
+                                    <a class="Fap5" href="info/1002/4701.htm">金秋颂师恩 奋进启新程｜材料科学与工程学院开展教...</a>
+                                </div>
+                            </div>
+</div>  
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 " style="height: 237px; background: url(../images/images/B17.png) no-repeat;">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="margin-top: 88px; margin-left: 30px; color: #ffffff;">
+                                    <div style="font-size: 16px;">2026</div>
+                                    <div style="font-size: 14px;">09.02</div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" style="overflow: hidden; height: 60px; margin-top: 76px;">
+                                    <a class="Fap5" href="info/1002/4693.htm">中南大学材料科学与工程学院2026年全国优秀大学生...</a>
+                                </div>
+                            </div>
+</div>  
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 " style="height: 237px; background: url(../images/images/B17.png) no-repeat;">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2" style="margin-top: 88px; margin-left: 30px; color: #ffffff;">
+                                    <div style="font-size: 16px;">2026</div>
+                                    <div style="font-size: 14px;">08.28</div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" style="overflow: hidden; height: 60px; margin-top: 76px;">
+                                    <a class="Fap5" href="info/1002/4690.htm">麓山湘水情，齐鲁启新程——中南大学山东2026年迎...</a>
+                                </div>
+                            </div>
+</div>  
+<script>_showDynClickBatch(['dynclicks_u5_4705','dynclicks_u5_4701','dynclicks_u5_4693','dynclicks_u5_4690'],[4705,4701,4693,4690],"wbnews", 1750475902)</script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--电脑版--通知公告--学术动态-->
+        <div class="displayWeb" style="height: 836px;">
+            <div class="container">
+                <div class="row">
+                    <div style="height: 90px;"></div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div>
+                            <a href="index/xsdt.htm">
+                                <img src="images/images/B19.png" alt=""></a>
+                        </div>
+                        <div style="height: 40px;"></div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div>
+                          <div id="report1">
+<div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">报告题目：<a class="Fap4" href="info/1004/4583.htm">2026年第五届金属材料与加工国际学术会...</a></div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">报&nbsp;&nbsp;告&nbsp;人：中南大学、香港理工大学</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">主&nbsp;&nbsp;持&nbsp;人：</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">时　　间：2026年5月15-17日</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">地　　点：中国·长沙</div>
+</div>
+</div>
+<div id="report2" class="xsbg">
+<div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">报告题目：<a class="Fap4" href="info/1004/4582.htm">2026年第五届轻量化材料与工程结构国际...</a></div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">报&nbsp;&nbsp;告&nbsp;人：中南大学、布鲁内尔大学</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">主&nbsp;&nbsp;持&nbsp;人：</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">时　　间：2026年5月15-17日</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">地　　点：中国·长沙</div>
+</div>
+</div>
+<div id="report3" class="xsbg">
+<div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">报告题目：<a class="Fap4" href="info/1004/4545.htm">中南大学名师名家学术论坛暨材料学院“...</a></div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">报&nbsp;&nbsp;告&nbsp;人：Byungju Lee 教授</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">主&nbsp;&nbsp;持&nbsp;人：姜雁斌 教授</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">时　　间：2025年12月1日10:00</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">地　　点：中南大学校本部特冶楼229室</div>
+</div>
+</div>
+<script>_showDynClickBatch(['dynclicks_u6_4583','dynclicks_u6_4582','dynclicks_u6_4545'],[4583,4582,4545],"wbnews", 1750475902)</script>
+
+                        </div>
+                        <div style="height: 93px;"></div>
+                        <div>
+                           <img src="images/images/B21.png" alt="">
+                        </div>
+                        <div style="height: 40px;"></div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="height: 90px;">
+                                <a href="https://mse.csu.edu.cn/clxx.htm" target="_blank">
+                                    <img src="images/images/B23.png" alt=""></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="height: 90px;">
+                                <a href="https://mse.csu.edu.cn/clwlx.htm" target="_blank">
+                                    <img src="images/images/B24.png" alt=""></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="height: 90px;">
+                                <a href="https://mse.csu.edu.cn/cljgx.htm" target="_blank">
+                                    <img src="images/images/B25.png" alt=""></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="height: 90px;">
+                                <a href="https://mse.csu.edu.cn/clhxx.htm" target="_blank">
+                                    <img src="images/images/B26.png" alt=""></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="height: 90px;">
+                                <a href="https://mse.csu.edu.cn/syjxzx/" target="_blank">
+                                    <img src="images/images/B27.png" alt=""></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="height: 90px;">
+                                <a href="index/yjjg.htm" target="_blank">
+                                    <img src="images/images/B28.png" alt=""></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="height: 90px;">
+                                <a href="nmmsee/sy.htm" target="_blank">
+                                    <img src="images/images/B29.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 " style="height: 568px; background: url(images/images/B13.jpg) no-repeat; margin-left: 80px; margin-right: -80px;">
+                    <div style="margin-top: -86px;">
+                            <a href="index/xytz1.htm">
+                                <img src="images/images/B20.png" alt=""></a>
+                        </div>
+                        <div style="height: 40px;"></div>
+                    <div class="row">
+                            <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12" style="margin-top: 50px; margin-left: 8px; color: #1a6199;">
+                                <div style="font-size: 24px;">2026</div>
+                                <div style="font-size: 21px;">09.17</div>
+                            </div>
+                            <div class="col-lg-6 col-md-4 col-sm-12 col-xs-12" style="margin-top: 32px; font-size: 18px; margin-left: -35px;">
+                                <div><a class="Fap4" href="info/1003/4707.htm">推免增补名单公示</a></div>
+                                <div style="height: 23px;"></div>
+                                <div style="font-size: 14px; line-height: 26px; color: #666666;">
+                                   推免增补名单公示 继上次《材料科学与工程学院2027届优秀应届本科毕业生免试攻读硕士/博士学位研究生预...
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="margin-top: 75px; color: #222222; text-align: center; margin-left: -45px;">
+                                <div style="font-size: 16px;"><a class="Fap3" href="info/1003/4707.htm">Read  More</a></div>
+                            </div>
+                        </div>
+                        <div style="height: 70px;"></div>      
+<div class="row">
+                            <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12" style="margin-top: 50px; margin-left: 8px; color: #1a6199;">
+                                <div style="font-size: 24px;">2026</div>
+                                <div style="font-size: 21px;">09.16</div>
+                            </div>
+                            <div class="col-lg-6 col-md-4 col-sm-12 col-xs-12" style="margin-top: 32px; font-size: 18px; margin-left: -35px;">
+                                <div><a class="Fap4" href="info/1003/4706.htm">材料科学与工程学院新材料领域研究生“智慧创新班...</a></div>
+                                <div style="height: 23px;"></div>
+                                <div style="font-size: 14px; line-height: 26px; color: #666666;">
+                                   根据学校研究生“智慧创新班”推免招生工作有关安排，经学院研究生招生工作领导小组研究决定，制定新材...
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="margin-top: 75px; color: #222222; text-align: center; margin-left: -45px;">
+                                <div style="font-size: 16px;"><a class="Fap3" href="info/1003/4706.htm">Read  More</a></div>
+                            </div>
+                        </div>
+                        <div style="height: 70px;"></div>      
+<div class="row">
+                            <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12" style="margin-top: 50px; margin-left: 8px; color: #1a6199;">
+                                <div style="font-size: 24px;">2026</div>
+                                <div style="font-size: 21px;">09.13</div>
+                            </div>
+                            <div class="col-lg-6 col-md-4 col-sm-12 col-xs-12" style="margin-top: 32px; font-size: 18px; margin-left: -35px;">
+                                <div><a class="Fap4" href="info/1003/4704.htm">材料科学与工程学院2027届优秀应届本科毕业生免试...</a></div>
+                                <div style="height: 23px;"></div>
+                                <div style="font-size: 14px; line-height: 26px; color: #666666;">
+                                   根据教育部有关推荐优秀应届本科毕业生免试攻读硕士学位研究生工作的最新通知文件、《中南大学推荐优秀...
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="margin-top: 75px; color: #222222; text-align: center; margin-left: -45px;">
+                                <div style="font-size: 16px;"><a class="Fap3" href="info/1003/4704.htm">Read  More</a></div>
+                            </div>
+                        </div>
+                        <div style="height: 70px;"></div>      
+<script>_showDynClickBatch(['dynclicks_u7_4707','dynclicks_u7_4706','dynclicks_u7_4704'],[4707,4706,4704],"wbnews", 1750475902)</script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--手机版--通知公告--学术动态-->
+        <div class="displayPhome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div style="height: 35px;"></div>
+                        <div style="float: left;">
+                            <a href="index/xytz1.htm">
+                                <img src="images/images/B20.png" alt=""></a>
+                        </div>
+                        <div style="height: 70px;"></div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                       <div style="background-color: #ffffff; margin-bottom: 15px;">
+<div style="overflow: hidden; height: 40px;">
+<a href="info/1003/4707.htm" class="Faf22">推免增补名单公示</a>
+</div>
+<div>
+2026-09-17&nbsp;&nbsp;<img src="../images/images/A14.jpg" alt="">
+</div>
+</div>
+<div style="background-color: #ffffff; margin-bottom: 15px;">
+<div style="overflow: hidden; height: 40px;">
+<a href="info/1003/4706.htm" class="Faf22">材料科学与工程学院新材料领域研究生“智慧创新班”考核录取工作通知</a>
+</div>
+<div>
+2026-09-16&nbsp;&nbsp;<img src="../images/images/A14.jpg" alt="">
+</div>
+</div>
+<div style="background-color: #ffffff; margin-bottom: 15px;">
+<div style="overflow: hidden; height: 40px;">
+<a href="info/1003/4704.htm" class="Faf22">材料科学与工程学院2027届优秀应届本科毕业生免试攻读硕士/博士学位研究生预推荐名单公示</a>
+</div>
+<div>
+2026-09-13&nbsp;&nbsp;<img src="../images/images/A14.jpg" alt="">
+</div>
+</div>
+<div style="background-color: #ffffff; margin-bottom: 15px;">
+<div style="overflow: hidden; height: 40px;">
+<a href="info/1003/4700.htm" class="Faf22">材料科学与工程学院2027届优秀应届本科毕业生 免试攻读硕士学位研究生预推荐工作实施细则</a>
+</div>
+<div>
+2026-09-10&nbsp;&nbsp;<img src="../images/images/A14.jpg" alt="">
+</div>
+</div>
+<script>_showDynClickBatch(['dynclicks_u8_4707','dynclicks_u8_4706','dynclicks_u8_4704','dynclicks_u8_4700'],[4707,4706,4704,4700],"wbnews", 1750475902)</script>
+
+                        <div style="height: 10px;"></div>
+                        <div style="border-bottom: 4px solid #eb6631;"></div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div style="height: 30px;"></div>
+                        <div style="float: left;">
+                            <a href="index/xsdt.htm">
+                                <img src="images/images/B19.png" alt=""></a>
+                        </div>
+                        <div style="height: 70px;"></div>
+                        <div>
+                        <div id="reportImg1">
+<div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">报告题目：<a class="Fap4" href="info/1004/4583.htm">2026年第五届金属材料与加工国际学术会议（ICMMP 2026）</a></div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">报&nbsp;&nbsp;告&nbsp;人：中南大学、香港理工大学</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">主&nbsp;&nbsp;持&nbsp;人：</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">时　　间：2026年5月15-17日</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">地　　点：中国·长沙</div>
+</div>
+</div>
+<div id="reportImg2" class="xsbg">
+<div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">报告题目：<a class="Fap4" href="info/1004/4582.htm">2026年第五届轻量化材料与工程结构国际会议（LIMAS 2026）</a></div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">报&nbsp;&nbsp;告&nbsp;人：中南大学、布鲁内尔大学</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">主&nbsp;&nbsp;持&nbsp;人：</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">时　　间：2026年5月15-17日</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">地　　点：中国·长沙</div>
+</div>
+</div>
+<div id="reportImg3" class="xsbg">
+<div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">报告题目：<a class="Fap4" href="info/1004/4545.htm">中南大学名师名家学术论坛暨材料学院“德材”讲坛第608场——面向材料智能设计的文献知识结构化提取框架</a></div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">报&nbsp;&nbsp;告&nbsp;人：Byungju Lee 教授</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">主&nbsp;&nbsp;持&nbsp;人：姜雁斌 教授</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">时　　间：2025年12月1日10:00</div>
+<div class="ellipsis" style="font-size: 18px; line-height: 40px;">地　　点：中南大学校本部特冶楼229室</div>
+</div>
+</div>
+<script>_showDynClickBatch(['dynclicks_u9_4583','dynclicks_u9_4582','dynclicks_u9_4545'],[4583,4582,4545],"wbnews", 1750475902)</script>
+
+                        </div>
+                        <div style="height: 20px;"></div>
+                        <div style="border-bottom: 4px solid #eb6631;"></div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div style="height: 30px;"></div>
+                        <div style="float: left;">
+                            <img src="images/images/B21.png" alt="">
+                        </div>
+                        <div style="height: 80px;"></div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4" style="height: 90px;">
+                                <a href="https://mse.csu.edu.cn/clxx.htm" target="_blank">
+                                    <img src="images/images/B23.png" alt=""></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4" style="height: 90px;">
+                                <a href="https://mse.csu.edu.cn/clwlx.htm" target="_blank">
+                                    <img src="images/images/B24.png" alt=""></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4" style="height: 90px;">
+                                <a href="https://mse.csu.edu.cn/cljgx.htm" target="_blank">
+                                    <img src="images/images/B25.png" alt=""></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4" style="height: 90px;">
+                                <a href="https://mse.csu.edu.cn/clhxx.htm" target="_blank">
+                                    <img src="images/images/B26.png" alt=""></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4" style="height: 90px;">
+                                <a href="https://mse.csu.edu.cn/syjxzx/" target="_blank">
+                                    <img src="images/images/B27.png" alt=""></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4" style="height: 90px;">
+                                <a href="index/yjjg.htm" target="_blank">
+                                    <img src="images/images/B28.png" alt=""></a>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4" style="height: 90px;">
+                                <a href="nmmsee/sy.htm" target="_blank">
+                                    <img src="images/images/B29.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--底部-->
+        <div class="displayWeb">
+        <div id="footer-top" style="height: 268px; background: url(images/images/B22.png) center no-repeat;background-size:100%;">
+                <div class="container">
+                    <div class="row"><div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" style="font-family: Microsoft YaHei,Arial; font-size: 14px; line-height: 30px; color: #ffffff; padding-top: 65px;">
+                    中南大学材料科学与工程学院<br />
+                            地址：湖南省长沙市岳麓区中南大学岳麓山校区特冶楼<br>
+                            联系电话：0731-88879341 （行政办公）；0731-88877253(党务工作)<br>
+                            0731-88836147（本科生招生和培养）；0731-88830676（研究生招生和培养）
+                            </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12" style="text-align: right; font-family: Microsoft YaHei,Arial; font-size: 18px; line-height: 38px; padding-top: 85px;">
+                            <div style="color: #ffffff;">相关链接</div>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" style="font-family: Microsoft YaHei,Arial; font-size: 13px; line-height: 38px; padding-top: 65px;">
+                            <div style="border-left: 3px solid #ffffff;">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="FaF2" href="http://www.most.gov.cn/index.html" target="_blank">科学技术部</a>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="FaF2" href="http://www.nsfc.gov.cn/" target="_blank">国家自然科学基金</a>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="FaF2" href="http://www.moe.gov.cn/" target="_blank">教育部</a>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="FaF2" href="http://www.miit.gov.cn/" target="_blank">工业和信息化部<br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="FaF2" href="https://www.tsinghua.edu.cn/" target="_blank">清华大学</a>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="FaF2" href="https://www.zju.edu.cn/" target="_blank">浙江大学</a>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="FaF2" href="http://www.csu.edu.cn/" target="_blank">中南大学</a>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="FaF2" href="http://news.csu.edu.cn/" target="_blank">中南大学新闻网</a>
+                            </div>
+                        </div></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="displayPhome" style="background-color: #1a6199;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="font-family: Microsoft YaHei,Arial; font-size: 13px; line-height: 28px; color: #ffffff; padding-top: 15px;">
+                            中南大学材料科学与工程学院<br />
+                            地址：湖南省长沙市岳麓区中南大学岳麓山校区特冶楼<br>
+                            联系电话：0731-88879341 （行政办公）；0731-88877253(党务工作)<br>
+                            0731-88836147（本科生招生和培养）；0731-88830676（研究生招生和培养）
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="font-family: Microsoft YaHei,Arial; font-size: 13px; line-height: 38px; padding-top: 15px;">
+                            <div style="color: #ffffff;">相关链接</div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="font-family: Microsoft YaHei,Arial; font-size: 13px; line-height: 18px; padding-top: -10px;">
+                            <a class="FaF2" href="http://www.most.gov.cn/index.html" target="_blank">科学技术部</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="FaF2" href="http://www.nsfc.gov.cn/" target="_blank">国家自然科学基金</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="FaF2" href="http://www.moe.gov.cn/" target="_blank">教育部</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="FaF2" href="http://www.csu.edu.cn/" target="_blank">中南大学</a><br />
+                            <a class="FaF2" href="http://www.miit.gov.cn/" target="_blank">工业和信息化部</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="FaF2" href="https://www.tsinghua.edu.cn/" target="_blank">清华大学</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="FaF2" href="https://www.zju.edu.cn/" target="_blank">浙江大学</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="FaF2" href="http://news.csu.edu.cn/" target="_blank">中南大学新闻网</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+    <!--大图片样式-->
+    <script src="style/bigimages/wySilder.js" type="text/javascript"></script>
+    <script>
+        $(function () {
+            $(".js-silder").silder({
+                auto: true,//自动播放，传入任何可以转化为true的值都会自动轮播
+                speed: 25,//轮播图运动速度
+                sideCtrl: true,//是否需要侧边控制按钮
+                defaultView: 0,//默认显示的索引
+                interval: 6000,//自动轮播的时间，以毫秒为单位，默认3000毫秒
+                activeClass: "active",//小的控制按钮激活的样式，不包括作用两边，默认active
+                bottomCtrl: false,//是否显示下边的控制按钮
+            });
+        });
+    </script>
+
+    <!--大菜单Js-->
+    <script src="style/mun1/lib/fastclick.js"></script>
+    <script src="style/mun1/dist/menu.min.js"></script>
+    <script>
+        $('.ve-menu').menu({
+            fontSize: 18,
+            fontColor: '#ffffff',
+            bgColor: '',
+            hoverFontColor: '#fff',
+            hoverBgColor: '#3e5990',
+            itemSpace: 10,
+            subFontSize: 13,
+            itemWidth: 0,
+            animate: 'slide',
+            speed: 500,
+            /**二级菜单背景**/
+            subBgColor: 'rgba(62, 89, 144, 1)',
+            subHoverBgColor: 'rgba(0, 66, 114, 1)',
+            height: 45,
+            theme: 'blue',
+            itemSpace: 0,
+            /**遮罩层颜色**/
+            mMaskColor: 'rgba(62, 89, 144, 1)',
+            mSubBgColor: 'rgba(0, 66, 114, 0.6)',
+        });
+    </script>
+
+</body>
+</html>

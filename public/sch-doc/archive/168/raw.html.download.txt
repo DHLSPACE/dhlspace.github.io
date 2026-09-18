@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>北京大学研究生招生网</title>		
+		<link rel="stylesheet" type="text/css" href="../../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/share.css"/>
+		<link rel="stylesheet" href="../../css/twostage.css" />
+		<script src="../../js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+
+
+		
+<script>
+function search_onclick(){
+document.searchForm.submit();
+}
+function msearch_onclick(){
+document.msearchForm.submit();
+}
+</script>
+			<div class="header">
+				<div class="headermain clearfix">
+					<div class="headerlogo fl" >
+						<a href="../../index.htm"><img src="../../images/headlogo.png"/></a>
+					</div>
+					<div class="comshow fl">
+						<div class="search fr"><img src="../../images/searchbtn.png"/></div>
+						<div class="searchHover">
+							<form id="searchForm" name="searchForm" action="/cms/search/searchResults.jsp" method="post" target="_blank" accept-charset="utf-8" onsubmit="document.charset='utf-8'" class="search-form">
+<script src="/cms/JavaScriptServlet"></script>
+								<input name="siteID" value="3" type="hidden"/>
+								<input class="searchInp" type="text" name="query" id="" value="" placeholder="输入关键字" />
+								<div class="searchsearch"><img src="../../images/search_search.png"/ onclick="search_onclick();"></div>
+							
+
+</form>
+						</div>
+						<ul class="nav fr">
+							<li><a href="../../index.htm">首页</a></li>
+																																													<li><a href="index.htm"  class="active">招生信息</a>
+												<ul class="nav_list">
+																											<li><a href="index.htm">硕士招生</a></li>
+																											<li><a href="../bszs/index.htm">博士招生</a></li>
+																											<li><a href="../gatzs/index.htm">港澳台招生</a></li>
+																											<li><a href="../lxszs/index.htm">留学生招生</a></li>
+																									</ul>   
+											</li> 
+																																																																								<li><a href="../../xxgk/xxgkssbm/index.htm" >信息公开</a>
+												<ul class="nav_list">
+																											<li><a href="../../xxgk/xxgkssbm/index.htm">硕士招生公示</a></li>
+																											<li><a href="../../xxgk/xxgkbsbm/index.htm">博士招生公示</a></li>
+																											<li><a href="../../xxgk/xxgkyxgs/index.htm">院系招生公示</a></li>
+																									</ul>   
+											</li>  
+																																																																								<li><a href="../../xly/index.htm"  class="">夏令营</a></li> 
+																																																																								<li><a href="https://admission.pku.edu.cn/applications/" target="_blank">网上报名</a></li>
+											<!--<li><a href="../../wsbm/index.htm"  class="">网上报名</a></li>-->
+																																																																								<li><a href="../../lxxx/lxzb/index.htm" >联系信息</a>
+												<ul class="nav_list">
+																											<li><a href="../../lxxx/lxzb/index.htm">联系招办</a></li>
+																											<li><a href="../../lxxx/lxyx/index.htm">联系院系</a></li>
+																									</ul>   
+											</li>  
+																																								</ul>
+					</div>
+					<div class="comshow fr" style="margin-top:35px;"><a href="https://admission.pku.edu.cn/applications/" class="active" target="_blank" style="color:blue;">注册登录</a></div>
+					<div class="menubtn fr"><a href="https://admission.pku.edu.cn/applications/" class="active" target="_blank" style="color:blue;">注册登录</a>&nbsp;<img src="../../images/menu_icon.png"/></div>
+				</div>
+			</div>
+			<div class="m-menu">
+				<div class="top-box">
+					<div class="fl stt">
+						<form id="msearchForm" name="msearchForm" action="/cms/search/searchResults.jsp" method="post" target="_blank" accept-charset="utf-8" onsubmit="document.charset='utf-8'" class="search-form">
+							<input name="siteID" value="3" type="hidden"/>
+							<input type="text" class="m-search" name="query" id="" value="SEARCH" />
+							<div class="m-searchbtn">
+								<img src="../../images/m-searchbtn.png" onclick="msearch_onclick();"/>
+							</div>
+						</form>
+					</div>
+					<span class="fr close"></span>
+				</div>
+				<div class="list-wrap">
+					<ul>
+						<li>
+							<span class="col-box clearfix">
+								<a href="../../index.htm"  class="active"><span class="tit">首页</span></a>
+							</span>
+						</li>
+																																								<li>
+											<span class="col-box clearfix">
+												<span class="fl tit"><a href="index.htm"  class="active">招生信息</a></span>
+												<span class="fr point"></span>
+											</span>
+										</li>
+																																																																<li>
+											<span class="col-box clearfix">
+												<span class="fl tit"><a href="../../xxgk/xxgkssbm/index.htm"  class="">信息公开</a></span>
+												<span class="fr point"></span>
+											</span>
+										</li>
+																																																						<li>
+																					<a class="col-box" href="../../xly/index.htm"><span class="tit">夏令营</span></a>
+																			</li>
+																																													<li>
+																					<a class="col-box" href="https://admission.pku.edu.cn/applications/" target="_blank"><span class="tit">网上报名</span></a>
+											<!--<a class="col-box" href="../../wsbm/index.htm"><span class="tit">网上报名</span></a>-->
+																			</li>
+																																																							<li>
+											<span class="col-box clearfix">
+												<span class="fl tit"><a href="../../lxxx/lxzb/index.htm"  class="">联系信息</a></span>
+												<span class="fr point"></span>
+											</span>
+										</li>
+																																			</ul>
+				</div>
+				<div class="sec-list">
+					<div class="boxs">
+					</div>							
+																		<div class="boxs">
+								<span class="return-first"><p>招生信息</p></span>
+								<ul>
+																			<li><a href="index.htm">硕士招生</a></li>
+																			<li><a href="../bszs/index.htm">博士招生</a></li>
+																			<li><a href="../gatzs/index.htm">港澳台招生</a></li>
+																			<li><a href="../lxszs/index.htm">留学生招生</a></li>
+																	</ul>
+							</div>
+																								<div class="boxs">
+								<span class="return-first"><p>信息公开</p></span>
+								<ul>
+																			<li><a href="../../xxgk/xxgkssbm/index.htm">硕士招生公示</a></li>
+																			<li><a href="../../xxgk/xxgkbsbm/index.htm">博士招生公示</a></li>
+																			<li><a href="../../xxgk/xxgkyxgs/index.htm">院系招生公示</a></li>
+																	</ul>
+							</div>
+																								<div class="boxs">
+							</div>							
+																								<div class="boxs">
+							</div>							
+																								<div class="boxs">
+								<span class="return-first"><p>联系信息</p></span>
+								<ul>
+																			<li><a href="../../lxxx/lxzb/index.htm">联系招办</a></li>
+																			<li><a href="../../lxxx/lxyx/index.htm">联系院系</a></li>
+																	</ul>
+							</div>
+															</div>
+			</div>
+			<div class="main_wrap">
+				<div class="twostage_banner">
+					<img src="../../images/twostage_banner3.jpg"/>
+					<p class="twostage_tiao"></p>
+				</div>
+				<div class="twostage_cont clearfix">
+					<div class="twostage_title fl">
+						<p class="twostage_title_C">硕士招生</p>
+													<p class="twostage_title_E">MASTER</p>
+																													</div>
+					<div class="twostage_position fr">
+						<a href="javascript:;" class="fl position_m"></a>
+						<a href="../index.htm" class="fl">招生信息</a>
+						<a href="index.htm" class="fl">硕士招生</a>
+					</div>
+				</div>
+				<div class="bd_zsxx_cont clearfix">
+					<div class="zsxx_cont_l fl">
+						<ul  class="bd_twostage_nav">
+													<li><a href="zsjz/index.htm"><p>招生简章<span class="zsxx_nav_arrow"></span></p></a></li>
+													<li><a href="zyml/index.htm"><p>专业目录<span class="zsxx_nav_arrow"></span></p></a></li>
+													<li><a href="tjms/index.htm"><p>推荐免试<span class="zsxx_nav_arrow"></span></p></a></li>
+													<li><a href="ptzk/index.htm"><p>普通招考<span class="zsxx_nav_arrow"></span></p></a></li>
+													<li><a href="ssqtxx/index.htm"><p>其他信息<span class="zsxx_nav_arrow"></span></p></a></li>
+												</ul>
+					</div>
+					<div class="swiper-container phone_list_swiper">
+				    	<div class="swiper-wrapper">
+																							    			<div class="swiper-slide"><div class="phone_list"><a href="zsjz/index.htm"><p>招生简章</p></a></div></div>							
+																								    			<div class="swiper-slide"><div class="phone_list"><a href="zyml/index.htm"><p>专业目录</p></a></div></div>							
+																								    			<div class="swiper-slide"><div class="phone_list"><a href="tjms/index.htm"><p>推荐免试</p></a></div></div>							
+																								    			<div class="swiper-slide"><div class="phone_list"><a href="ptzk/index.htm"><p>普通招考</p></a></div></div>							
+																								    			<div class="swiper-slide"><div class="phone_list"><a href="ssqtxx/index.htm"><p>其他信息</p></a></div></div>							
+																	    	</div>
+				    	<!-- Add Arrows -->
+				    	<div class="swiper-button-next"></div>
+				    	<div class="swiper-button-prev"></div>
+				  	</div>
+					<div class="zsxx_cont_r fr">
+						<ul class="zsxx_cont_list">
+																					<li><a href="https://admission.pku.edu.cn/zsxx/sszs/tjms/2027/yx/zsml_ss_tm.html" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学2027年推荐免试攻读硕士学位研究生专业目录(校本部) 
+    </p><span class="zsxxCont_list_time fr">2026-09-15</span></a></li>
+																												<li><a href="../../docs/20260831123041610549.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学2027年接收推荐免试研究生办法（校本部） 
+    </p><span class="zsxxCont_list_time fr">2026-08-31</span></a></li>
+																												<li><a href="../../docs/20260313205736606717.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学2026年研究生招生复试与录取工作有关规定 
+    </p><span class="zsxxCont_list_time fr">2026-03-14</span></a></li>
+																												<li><a href="../../docs/20260313100201705627.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学2026年硕士研究生招生复试基本分数线 
+    </p><span class="zsxxCont_list_time fr">2026-03-13</span></a></li>
+																												<li><a href="../../docs/20251216213609234453.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            2026年全国硕士研究生招生考试北京大学考点校本部考场考生须知 
+    </p><span class="zsxxCont_list_time fr">2025-12-16</span></a></li>
+																												<li><a href="../../docs/20251210144317372344.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学2026年研考自命题科目重要提示 
+    </p><span class="zsxxCont_list_time fr">2025-12-10</span></a></li>
+																												<li><a href="../../docs/20251029232559463316.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学报考点（代码 1101）2026 年硕士研究生报名网上确认通知 
+    </p><span class="zsxxCont_list_time fr">2025-10-29</span></a></li>
+																												<li><a href="../../docs/20251015110237141921.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学2026年高级管理人员工商管理（EMBA）专业学位硕士研究生招生简章 
+    </p><span class="zsxxCont_list_time fr">2025-10-15</span></a></li>
+																												<li><a href="../../docs/20251013161723499893.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            2026年全国硕士研究生招生考试北京大学报考点（1101）公告 
+    </p><span class="zsxxCont_list_time fr">2025-10-13</span></a></li>
+																												<li><a href="../../docs/20251011105645009634.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            2026年全国硕士研究生招生考试北京大学（10001）网报公告 
+    </p><span class="zsxxCont_list_time fr">2025-10-11</span></a></li>
+																												<li><a href="https://admission.pku.edu.cn/zsxx/sszs/zyml/2026/yx/zsml_ss_yx.html" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学2026年硕士研究生招生专业目录（校本部） 
+    </p><span class="zsxxCont_list_time fr">2025-10-10</span></a></li>
+																												<li><a href="../../docs/20251009102223204061.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学2026年硕士研究生招生简章（校本部） 
+    </p><span class="zsxxCont_list_time fr">2025-10-09</span></a></li>
+																												<li><a href="../../docs/20250312160154148797.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学2025年硕士研究生招生复试基本分数线 
+    </p><span class="zsxxCont_list_time fr">2025-03-12</span></a></li>
+																												<li><a href="../../docs/20200923222859598491.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学（10001）2021年应试硕士生网上报名公告 
+    </p><span class="zsxxCont_list_time fr">2020-09-23</span></a></li>
+																												<li><a href="../../docs/20200923222810479301.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学报考点（1101）2021年应试硕士生网上报名公告 
+    </p><span class="zsxxCont_list_time fr">2020-09-23</span></a></li>
+																												<li><a href="../../docs/20200208135813717930.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学关于调整近期研究生招生工作安排的通知（硕士初试成绩2月22日公布） 
+    </p><span class="zsxxCont_list_time fr">2020-02-08</span></a></li>
+																												<li><a href="../../docs/20180521134236454264.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学2018年工商管理硕士、公共管理硕士、工程管理硕士和会计硕士思想政治理论课考试考场... 
+    </p><span class="zsxxCont_list_time fr">2018-03-15</span></a></li>
+																												<li><a href="../../docs/20180521100929783082.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学 2018 年硕士研究生招生复试与录取工作有关规定 
+    </p><span class="zsxxCont_list_time fr">2018-03-02</span></a></li>
+																												<li><a href="../../docs/20180521112751461144.pdf" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学 2018 年硕士研究生招生复试基本分数线  
+    </p><span class="zsxxCont_list_time fr">2018-03-02</span></a></li>
+																												<li><a href="../../docs/20180524150047471196.doc" class="clearfix"><p class="zsxxCont_list_txt fl">            北京大学2018年招收攻读硕士学位研究生个人陈述 
+    </p><span class="zsxxCont_list_time fr">2018-03-02</span></a></li>
+																			</ul>
+						<div class="zscq_page clearfix">
+							<ul class="page_list clearfix">
+								<li class="fl page_prv"><a href="index.htm">&lt;&lt;</a></li>
+								<li class="fl page_prv"><a href="index.htm">&lt;</a></li>
+																											<li class="fl current"><a href="index.htm">1</a></li>
+																																				<li class="fl"><a href="index1.htm">2</a></li>
+																									<li class="fl page_next"><a href="index1.htm">&gt;</a></li>
+								<li class="fl page_next"><a href="index1.htm">&gt;&gt;</a></li>
+							</ul>
+							<div class="tiaozhuan clearfix">
+								<FORM name=pageForm action="" method=post><tr>
+									<span class="tiaozhuan_t fl">跳转到：</span>
+									<select name="page" onchange="javascript:PageFormSubmit()" class="tianzhuan_p fl">
+																																							<option value="index.htm" selected>1</option>
+																													<option value="index1.htm" >2</option>
+																		</select>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		<script type="text/javascript">
+			/*$(function(){
+				$('.tabBox .bd ul li:nth-child(2n)').css({'marginRight':'0'})
+				$('.nav>li').hover(function(){
+					$(this).find('.nav_list').stop().slideDown()
+					},function(){
+					$(this).find('.nav_list').stop().slideUp()
+				});
+			})*/
+			
+			function PageFormSubmit()
+			{
+				document.location.href=document.pageForm.page.options[document.pageForm.page.selectedIndex].value;
+			}
+			
+			$(function(){
+				var swiper = new Swiper('.phone_list_swiper', {
+					initialSlide :0,
+	      			navigation: {
+	        			nextEl: '.swiper-button-next',
+	        			prevEl: '.swiper-button-prev',
+	      			},
+	    		});
+				
+				/*fanye_page*/
+				$('.page_list li').click(function(){
+					$(this).addClass('current');
+					$(this).siblings().removeClass('current')
+				});
+			})
+		</script>
+				
+		
+<!--Footer Section-->
+<script>
+function relatedlinks_onchange(){
+	var obj=document.getElementById('relatedlinks');
+	var index=obj.selectedIndex; //序号，取当前选中选项的序号
+	var val = obj.options[index].value;
+	window.location.href = val;
+}
+</script>
+			<div class="zsxxw_foot">
+					<div class="zsxxw_foot_cont clearfix">
+						<div class="zsxxw_foot_l fl">
+							<div class="fl">
+								<p>地址：北京大学燕园大厦13层</p>
+								<p>咨询电话：010-62751354    监督电话：010-62756913</p>
+								<p>Copyright © 2003-2025 北京大学研究生院</p>
+							</div>
+							<div class="fr">
+								<p>相关链接：<a href="http://grs.pku.edu.cn" target="_blank" style="color:#fff;">北京大学研究生院</a><br><a href="http://yz.chsi.com.cn" target="_blank" style="color:#fff; margin-left:60px;">中国研究生招生信息网</a></p>
+								<!--<div class="zsccw_select">
+									<select id="relatedlinks" name="relatedlinks" onchange="relatedlinks_onchange();">
+										<option value="请选择">请选择</option>
+										<option value="http://www.pku.edu.cn">北京大学</option>
+										<option value="http://grs.pku.edu.cn">北京大学研究生院</option>
+										<option value="http://yz.chsi.com.cn">中国研究生招生信息网</option>
+									</select>
+								</div>-->
+								
+								<nav class="social">
+									<span class="fl">分享到：</span>
+									<ul>
+										<li><a href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));" class="facebook">facebook</a></li>
+										<li><a href="javascript: void(window.open('http://twitter.com/home/?status='.concat(encodeURIComponent(document.title)) .concat(' ') .concat(encodeURIComponent(location.href))));" class="twitter">twitter</a></li>
+										<li><a href="javascript:(function(){window.open('http://v.t.sina.com.cn/share/share.php?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href)+'&source=bookmark','_blank');})()" class="weibo">weibo</a></li>
+										<li>
+											<script type="text/javascript">
+											(function(){
+												var p = {
+													url:location.href, /*获取URL，可加上来自分享到QQ标识，方便统计*/
+													title:document.title, /*分享标题(可选)*/
+													desc:'', /*分享理由(风格应模拟用户对话),支持多分享语随机展现（使用|分隔）*/
+													summary:'', /*分享摘要(可选)*/
+													site:'' /*分享来源(可选) 如：QQ分享*/
+												};
+												var s = [];
+												for(var i in p){
+													s.push(i + '=' + encodeURIComponent(p[i]||''));
+												}
+												document.write(['<a class="qq" href="http://connect.qq.com/widget/shareqq/index.html?',s.join('&'),'" target="_blank">分享到QQ</a>'].join(''));
+											})();
+											</script>
+											<!--<script src="../../js/loader.js" widget="shareqq" charset="utf-8"></script>-->
+										</li>
+										<script src="../../js/qrcode.js" type="text/javascript" charset="utf-8"></script>
+										<li>
+											<script>
+												function CreateQRCode(){     
+													var qrcode = new QRCode(document.getElementById("qrcode"), {
+														width : 96,//设置宽高
+														height : 96
+													});
+													qrcode.makeCode(document.URL);
+													document.getElementById("qrcode").style.display="block";    
+												}
+											</script>
+											<a href="javascript:CreateQRCode();" class="weixin">weixin</a>
+										</li>
+									</ul>
+								</nav>
+								<div id="qrcode" style="display: none; right:15px; bottom: 15px;position:fixed;" onclick="javascript:this.style.display='none';"></div>     
+							</div>
+						</div>
+						<div class="zsxxw_foot_r fr">
+							<div class="foot_ewm fl">
+								<dl class="zsxxw_foot_ewm">
+									<dt><img width="60" src="https://admission.pku.edu.cn/images/content/2025-09/20250901151044480603.jpg"/></dt>
+									<dd>微信公众号</dd>
+								</dl>
+							</div>
+							<div class="zsxxw_foot_link fr">
+								<a href="#">关于本站</a><br />
+							</div>
+						</div>
+					</div>
+				</div>
+	
+</body></html>

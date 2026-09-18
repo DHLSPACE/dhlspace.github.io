@@ -2,6 +2,7 @@
 import re
 from html.parser import HTMLParser
 from urllib.parse import urljoin, urlsplit, urlunsplit
+import posixpath
 
 DATE = re.compile(r'(?<!\d)(20\d{2})\s*[-./年]\s*(\d{1,2})\s*[-./月]\s*(\d{1,2})(?:日)?')
 VOID = {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
@@ -57,10 +58,14 @@ def clean(value):
     return re.sub(r'\s+',' ',value).strip()
 
 def canonical(url, base=''):
-    parts = urlsplit(urljoin(base,url.strip()))
+    parts = urlsplit(urljoin(base,(url or '').strip()))
     if parts.scheme not in {'http','https'} or not parts.hostname or parts.username or parts.password:
         return ''
-    return urlunsplit((parts.scheme,parts.netloc,parts.path or '/',parts.query,''))
+    path=parts.path or '/'
+    if '/..' in path or '/./' in path:
+        path=posixpath.normpath(path)+('/' if path.endswith('/') else '')
+        if not path.startswith('/'):path='/'+path
+    return urlunsplit((parts.scheme,parts.netloc,path,parts.query,''))
 
 def published_date(node):
     """优先取链接之外的日期，防止把标题中的历史事件日期当发布日期。"""
@@ -124,7 +129,7 @@ def next_page(html, base):
 
 def article(html, base):
     tree = Tree(html)
-    roots = [n for n in tree.root.walk() if any(t in (n.attrs.get('id','')+' '+n.attrs.get('class','')).split() for t in ['v_news_content','wp_articlecontent','TRS_Editor','article-content','article_content','contentstyle'])]
+    roots = [n for n in tree.root.walk() if any(t in ((n.attrs.get('id') or '')+' '+(n.attrs.get('class') or '')).split() for t in ['v_news_content','wp_articlecontent','TRS_Editor','article-content','article_content','contentstyle'])]
     root = max(roots,key=lambda n:len(n.text())) if roots else tree.root
     text = clean(root.text())
     text = re.sub(r'(浏览次数|访问量|点击次数|点击量)\s*[:：]?\s*\d*','',text)

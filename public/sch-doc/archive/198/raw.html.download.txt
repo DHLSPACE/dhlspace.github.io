@@ -1,0 +1,557 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>招生目录</title>
+		<meta charset="utf-8">
+		<meta content="webkit" name="renderer">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+		<meta content="no-cache" http-equiv="Pragma">
+		<meta http-equiv="Expires" content="0">
+		<meta content="width=device-width, initial-scale=1, user-scalable=1" name="viewport">
+		<link rel="stylesheet" href="/static/xxpt/lib/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/static/login/css/style.css">
+		<script src="/static/xxpt/js/jquery-1.12.4.min.js"></script>
+		
+		<style>
+	        .side-nav {
+			    list-style: none;
+			    padding: 0;
+			    margin: 1rem;
+			}
+			.side-nav li {
+			    display: flex;
+			    justify-content: flex-start;
+			    align-items: center;
+			    margin-right: 1rem;
+			}
+			.side-nav li:before {
+			    content: "";
+			    display: block;
+			    width: 0.75rem;
+			    height: 0.125rem;
+			    margin-right: 0.75rem;
+			}
+			.side-nav li.active:before {
+			    background: linear-gradient(90deg,#AA6AFF,#706DFF);
+			}
+			.side-nav li.active a {
+			    color: #000;
+			}
+			.side-nav li a {
+			    display: block;
+			    color: #697B8C;
+			    margin: 0.5rem 0;
+			    padding: 0 0.25rem;
+			    text-decoration: none;
+			    border-radius: 0.25rem;
+			    font-size: 0.875rem;
+			}
+			.side-nav li a:hover {
+			    background-color: #AA6AFF;
+			    color: #fff;
+			}
+			.side-nav li.active a:hover {
+			    background-color: transparent;
+			    color: #000;
+			}
+			.table-jzml h5, .table-jzml h6 { margin: 0;}
+			.table-jzml a { color: #AA6AFF;}
+			.table-jzml a:hover { color: #873BF4;}
+			
+			#zsml-table td textarea{
+				width: 100%;
+			    border: 0;
+			    color: #3A5064;
+			    background-color: #FFF;
+			    vertical-align: top;
+			    font-size: 14px;
+			    font-family: '微软雅黑';
+			    resize: none;
+				outline: none;
+				overflow: auto;
+			}
+			
+			.content-container {
+				width: 100%;
+			    padding-right: 15px;
+			    padding-left: 15px;
+			    margin-right: auto;
+			    margin-left: auto;
+			}
+			
+			.right-container {
+			    float:left;
+			    width: calc(100% - 320px);
+			}
+			
+			#left-container {
+			    float:right;
+			    position:relative;
+			    width: 300px;
+				padding-left: 20px;
+			}
+			
+			/* #left-container #inner-sidebar.fixed {
+			    position:fixed;
+			    top: 0;
+			} */
+			
+			
+    	</style>
+    </head>
+    <body>
+	    <div id="sub-banner" class="sub-banner">
+	        <div class="container h-100 d-flex align-items-center justify-content-center">
+	        
+	           
+		        	
+		            	<h1 class="text-white">清华大学2027年硕士研究生招生专业目录_推荐免试</h1>
+		            
+		        	
+	            
+	            
+	        
+	        </div>
+	    </div>
+	    <div class="content-container mt-5 mb-5">
+        	<div class="row">
+        		<div id="left-container" class="left-container">
+        			<div id="inner-sidebar" class="inner-sidebar">
+        				<ul class="side-nav">
+		                    
+		                    
+								<li class="active"><a href="?yxsdm=000&zslx='1'">000&nbsp;建筑学院</a></li>
+							
+								<li class=""><a href="?yxsdm=003&zslx='1'">003&nbsp;土木工程系</a></li>
+							
+								<li class=""><a href="?yxsdm=004&zslx='1'">004&nbsp;水利水电工程系</a></li>
+							
+								<li class=""><a href="?yxsdm=005&zslx='1'">005&nbsp;环境学院</a></li>
+							
+								<li class=""><a href="?yxsdm=012&zslx='1'">012&nbsp;机械工程系</a></li>
+							
+								<li class=""><a href="?yxsdm=013&zslx='1'">013&nbsp;精密仪器系</a></li>
+							
+								<li class=""><a href="?yxsdm=014&zslx='1'">014&nbsp;能源与动力工程系</a></li>
+							
+								<li class=""><a href="?yxsdm=015&zslx='1'">015&nbsp;车辆与运载学院</a></li>
+							
+								<li class=""><a href="?yxsdm=016&zslx='1'">016&nbsp;工业工程系</a></li>
+							
+								<li class=""><a href="?yxsdm=022&zslx='1'">022&nbsp;电机工程与应用电子技术系</a></li>
+							
+								<li class=""><a href="?yxsdm=023&zslx='1'">023&nbsp;电子工程系</a></li>
+							
+								<li class=""><a href="?yxsdm=024&zslx='1'">024&nbsp;计算机科学与技术系</a></li>
+							
+								<li class=""><a href="?yxsdm=025&zslx='1'">025&nbsp;自动化系</a></li>
+							
+								<li class=""><a href="?yxsdm=026&zslx='1'">026&nbsp;集成电路学院</a></li>
+							
+								<li class=""><a href="?yxsdm=031&zslx='1'">031&nbsp;航天航空学院</a></li>
+							
+								<li class=""><a href="?yxsdm=032&zslx='1'">032&nbsp;工程物理系</a></li>
+							
+								<li class=""><a href="?yxsdm=034&zslx='1'">034&nbsp;化学工程系</a></li>
+							
+								<li class=""><a href="?yxsdm=035&zslx='1'">035&nbsp;材料学院</a></li>
+							
+								<li class=""><a href="?yxsdm=042&zslx='1'">042&nbsp;数学科学系</a></li>
+							
+								<li class=""><a href="?yxsdm=043&zslx='1'">043&nbsp;物理系</a></li>
+							
+								<li class=""><a href="?yxsdm=044&zslx='1'">044&nbsp;化学系</a></li>
+							
+								<li class=""><a href="?yxsdm=045&zslx='1'">045&nbsp;生命科学学院</a></li>
+							
+								<li class=""><a href="?yxsdm=046&zslx='1'">046&nbsp;地球系统科学系</a></li>
+							
+								<li class=""><a href="?yxsdm=047&zslx='1'">047&nbsp;交叉信息研究院</a></li>
+							
+								<li class=""><a href="?yxsdm=048&zslx='1'">048&nbsp;杨振宁高等研究院</a></li>
+							
+								<li class=""><a href="?yxsdm=051&zslx='1'">051&nbsp;经济管理学院</a></li>
+							
+								<li class=""><a href="?yxsdm=059&zslx='1'">059&nbsp;公共管理学院</a></li>
+							
+								<li class=""><a href="?yxsdm=060&zslx='1'">060&nbsp;五道口金融学院</a></li>
+							
+								<li class=""><a href="?yxsdm=064&zslx='1'">064&nbsp;外国语言文学系</a></li>
+							
+								<li class=""><a href="?yxsdm=066&zslx='1'">066&nbsp;法学院</a></li>
+							
+								<li class=""><a href="?yxsdm=067&zslx='1'">067&nbsp;新闻与传播学院</a></li>
+							
+								<li class=""><a href="?yxsdm=068&zslx='1'">068&nbsp;马克思主义学院</a></li>
+							
+								<li class=""><a href="?yxsdm=069&zslx='1'">069&nbsp;人文学院</a></li>
+							
+								<li class=""><a href="?yxsdm=070&zslx='1'">070&nbsp;社会科学学院</a></li>
+							
+								<li class=""><a href="?yxsdm=080&zslx='1'">080&nbsp;美术学院</a></li>
+							
+								<li class=""><a href="?yxsdm=088&zslx='1'">088&nbsp;统计与数据科学系</a></li>
+							
+								<li class=""><a href="?yxsdm=092&zslx='1'">092&nbsp;天文系</a></li>
+							
+								<li class=""><a href="?yxsdm=093&zslx='1'">093&nbsp;安全科学学院</a></li>
+							
+								<li class=""><a href="?yxsdm=094&zslx='1'">094&nbsp;人工智能学院</a></li>
+							
+								<li class=""><a href="?yxsdm=095&zslx='1'">095&nbsp;心理与认知科学系</a></li>
+							
+								<li class=""><a href="?yxsdm=096&zslx='1'">096&nbsp;万科公共卫生与健康学院</a></li>
+							
+								<li class=""><a href="?yxsdm=097&zslx='1'">097&nbsp;苏世民书院</a></li>
+							
+								<li class=""><a href="?yxsdm=101&zslx='1'">101&nbsp;核能与新能源技术研究院</a></li>
+							
+								<li class=""><a href="?yxsdm=103&zslx='1'">103&nbsp;教育学院</a></li>
+							
+								<li class=""><a href="?yxsdm=402&zslx='1'">402&nbsp;药学院</a></li>
+							
+								<li class=""><a href="?yxsdm=405&zslx='1'">405&nbsp;临床医学院</a></li>
+							
+								<li class=""><a href="?yxsdm=410&zslx='1'">410&nbsp;软件学院</a></li>
+							
+								<li class=""><a href="?yxsdm=412&zslx='1'">412&nbsp;网络科学与网络空间研究院</a></li>
+							
+								<li class=""><a href="?yxsdm=413&zslx='1'">413&nbsp;国际与地区研究院</a></li>
+							
+								<li class=""><a href="?yxsdm=415&zslx='1'">415&nbsp;航空发动机研究院</a></li>
+							
+								<li class=""><a href="?yxsdm=476&zslx='1'">476&nbsp;求真书院</a></li>
+							
+								<li class=""><a href="?yxsdm=500&zslx='1'">500&nbsp;医学院</a></li>
+							
+								<li class=""><a href="?yxsdm=501&zslx='1'">501&nbsp;基础医学院</a></li>
+							
+								<li class=""><a href="?yxsdm=502&zslx='1'">502&nbsp;生物医学工程学院</a></li>
+							
+								<li class=""><a href="?yxsdm=599&zslx='1'">599&nbsp;清华大学深圳国际研究生院</a></li>
+							
+								<li class=""><a href="?yxsdm=601&zslx='1'">601&nbsp;清华大学全球创新学院</a></li>
+							
+		                </ul>
+        			</div>
+	            </div>
+			    <div class="right-container">
+		            <div class="process-content">
+		                <div class="card">
+		                    <div class="card-body">
+		                        <div class="mb-1">
+		                        	<table id="zsml-table" class="table table-bordered table-jzml mb-0" style="font-size: 14px;">
+		                        		<tbody>
+		                        			<tr>
+		                        				
+								            	
+								                   	<th style="width: 40%;text-align:center;">院系、专业、研究方向</th>           
+								                   	<!-- <th style="width: 30%;text-align:center;">研究方向信息</th> -->           
+								                   	<th style="width: 30%;text-align:center;">招生说明</th> 
+								            	
+		                        			</tr>
+		                        			
+							               
+							               
+							               		<tr>
+								                    
+						                    			
+															<td colspan="1">
+ 						                    			
+						                    			
+						                    		
+								                    	<h5>
+								                    		<span>
+																<span>
+								                    				000&nbsp;建筑学院
+								                    				
+								                    			</span>
+								                    		</span>
+								                    	</h5>
+								                    </td>
+								                    <td>
+							                    		
+							                    			
+								                    			<textarea readonly="readonly">邮寄地址：清华大学建筑学院研究生教学办公室
+
+邮政编码：100084
+
+联系电话：010-62783677
+
+电子邮箱：jyjxb@tsinghua.edu.cn
+
+</textarea>
+							                    			
+							                    			
+							                    			
+							                    		
+								                    </td>
+								               	</tr>
+								               	
+								               	
+								               		<tr>
+									               		
+							                    			
+																<td style="padding-left: 20px;" colspan="1">
+	 						                    			
+							                    			
+							                    		
+								                    		<h6 style="font-weight: bold;">
+								                    			<span>
+																	
+							                   						<span>
+																		085100
+																		
+																			
+																			（专业学位）
+																		
+							                   							建筑
+							                   						</span>
+																</span>
+																
+								                    		</h6>
+								                    	</td>
+								                    	
+								                      	<td>
+								                      		<textarea readonly="readonly"></textarea>
+								                      	</td>
+								                	</tr>
+								                	
+									               	
+									               		<tr>
+								                     		<td style="padding-left: 40px;vertical-align: middle;"  >
+								                     			
+								                     			01（全日制）建筑硕士
+						                   						
+								                     			
+								                     		</td>
+								                     		
+								                     			
+									                     		<td></td>
+															
+										                    
+							                     				
+							                     					 
+							                     				
+							                     				
+							                     			
+								               			</tr>
+									               	
+									               		<tr>
+								                     		<td style="padding-left: 40px;vertical-align: middle;"  >
+								                     			
+								                     			02（全日制）清华大学-美国华盛顿大学“智慧互联”双硕士学位项目建筑学方向
+						                   						
+								                     			
+								                     		</td>
+								                     		
+								                     			
+									                     		<td>申请清华大学-美国华盛顿大学“智慧互联”双硕士学位项目，须达到清华大学和美国华盛顿大学双方录取条件后，方可录取。第一年在清华大学住宿，第二年起前往美国华盛顿大学学习。考生必须在2026年7月23日前提交华盛顿大学的申请，相关链接参见全球创新学院网站。</td>
+															
+										                    
+							                     				
+							                     					 
+							                     				
+							                     				
+							                     			
+								               			</tr>
+									               	
+								               	
+								               		<tr>
+									               		
+							                    			
+																<td style="padding-left: 20px;" colspan="1">
+	 						                    			
+							                    			
+							                    		
+								                    		<h6 style="font-weight: bold;">
+								                    			<span>
+																	
+							                   						<span>
+																		085300
+																		
+																			
+																			（专业学位）
+																		
+							                   							城乡规划
+							                   						</span>
+																</span>
+																
+								                    		</h6>
+								                    	</td>
+								                    	
+								                      	<td>
+								                      		<textarea readonly="readonly"></textarea>
+								                      	</td>
+								                	</tr>
+								                	
+									               	
+									               		<tr>
+								                     		<td style="padding-left: 40px;vertical-align: middle;"  >
+								                     			
+								                     			01（全日制）城乡规划硕士
+						                   						
+								                     			
+								                     		</td>
+								                     		
+								                     			
+									                     		<td></td>
+															
+										                    
+							                     				
+							                     					 
+							                     				
+							                     				
+							                     			
+								               			</tr>
+									               	
+								               	
+								               		<tr>
+									               		
+							                    			
+																<td style="padding-left: 20px;" colspan="1">
+	 						                    			
+							                    			
+							                    		
+								                    		<h6 style="font-weight: bold;">
+								                    			<span>
+																	
+							                   						<span>
+																		085900
+																		
+																			
+																			（专业学位）
+																		
+							                   							土木水利
+							                   						</span>
+																</span>
+																
+								                    		</h6>
+								                    	</td>
+								                    	
+								                      	<td>
+								                      		<textarea readonly="readonly"></textarea>
+								                      	</td>
+								                	</tr>
+								                	
+									               	
+									               		<tr>
+								                     		<td style="padding-left: 40px;vertical-align: middle;"  >
+								                     			
+								                     			01（全日制）建筑与土木工程
+						                   						
+								                     			
+								                     		</td>
+								                     		
+								                     			
+									                     		<td>供热、供燃气、通风及空调工程方向。</td>
+															
+										                    
+							                     				
+							                     					 
+							                     				
+							                     				
+							                     			
+								               			</tr>
+									               	
+								               	
+								               		<tr>
+									               		
+							                    			
+																<td style="padding-left: 20px;" colspan="1">
+	 						                    			
+							                    			
+							                    		
+								                    		<h6 style="font-weight: bold;">
+								                    			<span>
+																	
+							                   						<span>
+																		086200
+																		
+																			
+																			（专业学位）
+																		
+							                   							风景园林
+							                   						</span>
+																</span>
+																
+								                    		</h6>
+								                    	</td>
+								                    	
+								                      	<td>
+								                      		<textarea readonly="readonly"></textarea>
+								                      	</td>
+								                	</tr>
+								                	
+									               	
+									               		<tr>
+								                     		<td style="padding-left: 40px;vertical-align: middle;"  >
+								                     			
+								                     			01（全日制）风景园林硕士
+						                   						
+								                     			
+								                     		</td>
+								                     		
+								                     			
+									                     		<td></td>
+															
+										                    
+							                     				
+							                     					 
+							                     				
+							                     				
+							                     			
+								               			</tr>
+									               	
+								               	
+							               
+		                        		</tbody>
+		                        	</table>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+	        </div>
+        </div>
+   		<script>
+	    	(function($) {
+	    		$(document).ready(function() {
+	    			$.each($("textarea"), function(i, n){
+	    				$(n).css("height", n.scrollHeight + "px");
+	    			});
+
+    			    var height;
+    			    var subHeight = $('#sub-banner').height();
+    			    $(window).scroll(function(){
+    			    	height = $(this).scrollTop();  
+    			        
+    			        if(parseFloat(height) > subHeight){
+    			        	$("#inner-sidebar").addClass("fixed");
+    			        }else{
+    			        	$("#inner-sidebar").removeClass("fixed");
+    			        }
+    			    });
+	    		});
+	    	})(jQuery);
+	    	
+	    	
+			$('.dsinfo').click(function() {
+				var newWindow = window.open('/publish/infors/view/dsfc/'+$(this).data('val'));
+				newWindow.opener = null;
+			});
+			
+			
+			$('.xmjjinfo').click(function() {
+				var newWindow = window.open('/publish/infors/view/xmjj/'+$(this).data('val'));
+				newWindow.opener = null;
+			});
+	    </script>
+    </body>
+</html>

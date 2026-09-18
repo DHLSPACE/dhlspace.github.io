@@ -1,0 +1,658 @@
+﻿<!DOCTYPE html>
+<html><head><title>青岛科技大学研究生招生信息网</title><META Name="keywords" Content="青岛科技大学研究生招生信息网" />
+
+
+
+
+
+<meta name="renderer" content="webkit">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="dfiles/14609/css/style.css" rel="stylesheet" type="text/css">
+<link href="dfiles/14609/css/buttons.css" rel="stylesheet" type="text/css">
+<link href="dfiles/14609/css/navleft.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="dfiles/14609/js/jquery.min.js"></script>
+<script type="text/javascript" src="dfiles/14609/js/jquery.superslide.js"></script>
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307b78465551525742000000054655 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc|mobile|pad"></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,2061053133)</script>
+</head>
+<body>
+<!--head-->
+   
+   
+   
+   
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script>   
+</SCRIPT>
+
+<div id="head">
+<div id="logo">
+<a href="index.htm" title="研究生院研招网"><img border="0" src="images/logo3.png" /></a>
+</div>
+<div class="navBar"><ul class="nav clearfix">
+<li class="m on">
+              <h3><A href="index.htm">网站首页</A></h3>
+                
+                
+                    
+                
+         </li>
+<li class="m">
+              <h3><A href="zxtz.htm">最新通知</A></h3>
+                
+                
+                    
+                
+         </li>
+<li class="m">
+              <h3><A href="sszs1.htm">硕士招生</A></h3>
+                
+                
+                    
+                
+         </li>
+<li class="m">
+              <h3><A href="bszs.htm">博士招生</A></h3>
+                
+                
+                    
+                
+         </li>
+<li class="m">
+              <h3><A href="zsxc.htm">招生宣传</A></h3>
+                
+                
+                    
+                
+         </li>
+<li class="m">
+              <h3><A href="tjms.htm">推荐免试</A></h3>
+                
+                
+                    
+                
+         </li>
+<li class="m">
+              <h3><A href="xyjj.htm">学院简介</A></h3>
+                
+                
+                    
+                
+         </li>
+<li class="m">
+              <h3><A href="lxwm.htm">联系我们</A></h3>
+                
+                
+                    
+                
+         </li>
+</ul></div>
+<!--nav end--></div><!--main-->
+<div id="main"><!--焦点图-->
+<div class="focusBox" id="focusBox"> <style type="text/css">
+ul,li{
+    padding:0;
+    margin:0;
+    list-style:none;}
+#flashBoxu_u3_{
+    width:1380px;
+    height:380px;
+    border:0px solid #EEE;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;}
+#flashBoxu_u3_ img{
+    /*初始不要显示*/
+    display:none;
+    /*用边框来实现空位，因为margin和paading有时会引起些麻烦*/
+    border:0px solid #FFF;}
+#flashBoxu_u3_ ul{
+    position:absolute;
+    right:7px;
+    bottom:3px;
+    font:9px tahoma;}
+#flashBoxu_u3_ ul li{
+    display:block;
+    float:left;
+    width:12px;
+    height:12px;
+    line-height:12px;
+    margin-right:3px;
+    border:0px solid #999;
+    background:#F0F0F0;
+    text-align:center;
+    cursor:pointer;}
+#flashBoxu_u3_ ul li.hover{
+    border-color:red;
+    background:#FFE1E1;
+    color:red;}
+</style>
+<script type="text/javascript">
+function flashBoxCtrl(o){
+    this.obj=document.getElementById(o);
+    //这个私有方法虽然写了，但暂时没用到
+    function addListener(ele,eventName,functionBody){
+        if (ele.attachEvent){
+            ele.attachEvent("on"+eventName, functionBody);
+        }else if (ele.addEventListener){
+            ele.addEventListener("on"+eventName,functionBody, false);
+        }else{
+            return false;
+        }
+    }
+    //初始化
+    this.init=function(){
+        var objImg=this.obj.getElementsByTagName("img");
+        var tagLength=objImg.length;
+        if (tagLength>0){
+            var oUl=document.createElement("ul");
+            oUl.setAttribute("id",o+"numTag");
+            for (var i=0;i<tagLength;i++){
+                var oLi=oUl.appendChild(document.createElement("li"));
+                if (i==0){
+                    oLi.setAttribute("class","hover"); //初始化时把第一个设置为高亮
+                    oLi.setAttribute("className","hover");
+                }
+                //设置标签的数字
+                oLi.appendChild(document.createTextNode((i+1)));
+            }
+            this.obj.appendChild(oUl);
+            objImg[0].style.display="block";
+            //设置标签事件
+            var oTag=this.obj.getElementsByTagName("li");
+            for (var i=0;i<oTag.length;i++){
+                var flag = 0;
+                var temp = 0;
+                var timeout=null;
+                var step = function(){
+                    for (j=0;j<oTag.length;j++){
+                        oTag[j].className="";
+                        objImg[j].style.display="none";
+                    }
+                    this.className="hover";
+                    flag = flag>=oTag.length-1?0:flag+1;
+                    objImg[flag].style.display="block";
+                    oTag[flag].className = "hover";
+                    timeout = setTimeout(step,4000);
+                };
+                oTag[i].onmouseover=function(){
+                    for (j=0;j<oTag.length;j++){
+                        oTag[j].className="";
+                        objImg[j].style.display="none";
+                        temp = j;
+                    }
+                    this.className="hover";
+                    objImg[this.innerHTML-1].style.display="block";
+                    temp = this.innerHTML-1;
+                    flag = i;
+                    clearInterval(timeout);
+                }
+                oTag[i].onmouseout = function(){
+                    for (j=0;j<oTag.length;j++){
+                        oTag[j].className="";
+                        objImg[j].style.display="none";
+                    }
+                    flag = temp;
+                    objImg[temp].style.display="block";
+                    oTag[temp].className = "hover";
+                    timeout = setTimeout(step,4000);
+                }
+                if(i==0)
+                {
+                    timeout = setTimeout(step,4000);
+                }
+            }
+        }
+    };
+    //自动滚动的方法还没写
+    this.imgRoll=function(){};
+    //生成对象时自动加载init()方法以初始化对象
+    this.init();
+}
+</script>
+<table cellspacing="0" cellpadding="0" border="0"><tr><td><div id="flashBoxu_u3_"><img src="images/banner_03.jpg" border="0" width="1380" height="380" /></div></td></tr></table><SCRIPT language="JavaScript">new flashBoxCtrl("flashBoxu_u3_");</SCRIPT></div><!--焦点图js-->
+
+
+<!--内容--><!-- 第一行  -->
+
+
+<div class="line" id="lineOne">
+<div class="lineOneModule1" id="gzdt">
+<LINK href="/system/resource/style/component/news/list/imagechangenews.css" type="text/css" rel="stylesheet">
+<script language="javascript" src="/system/resource/js/news/imagechangenews.js"></script><script language="JavaScript">
+var u_u4_icn = new ImageChangeNews("u_u4_", 450, 300, 4, 2.0, true, false, false, true, false,"#u_u4_centerCutImg");
+
+//初始化图片, 并启动定时
+function u_u4_init_img()
+{
+
+    u_u4_icn.addimg("\/__local\/6\/71\/11\/AC873758758F5E4D1ABE6469142_15DCFFD0_CD02.jpg", "info\/1063\/1533.htm", "学校举办2024年新遴选研究生导师培训会", "","学校举办2024年新遴选研究生导师培训会");
+
+    u_u4_icn.addimg("\/__local\/0\/22\/29\/C251C6518F5B2EF8CBEA1561F65_6F96E290_11BB6.jpg", "info\/1063\/1534.htm", "研究生院院长兼卓越工程师学院院长刘仕伟带队赴...", "","研究生院院长兼卓越工程师学院院长刘仕伟带队赴山东京博控股集团调研");
+
+    u_u4_icn.addimg("\/__local\/8\/94\/0E\/EC00BC20697105067CB40470B3C_B68D9F8E_14CE1.jpg", "info\/1063\/1535.htm", "我校成功举办第二届“研师”能力提升会", "","我校成功举办第二届“研师”能力提升会");
+
+    u_u4_icn.changeimg(0);
+}
+</script><table cellspacing="0" cellpadding="0" border="0" style="padding:0px margin:0px; border:0px">
+    <tr><td>
+        <div id="u_u4_centerCutImg" style="OVERFLOW: hidden;height:300px;width:450px">
+            <div id="u_u4_div" align="center" style="padding:0px;margin:0px;border:0px solid black;background-color:#000000;FILTER: progid:DXImageTransform.Microsoft.RevealTrans (duration=2.0,transition=23);height:300px;width:450px">
+                <div id="u_u4_imgdiv" style="padding:0px;border:0px;"><a id="u_u4_url" target="_blank"><img id="u_u4_pic" border="0" src="/system/resource/images/space.gif"></a></div>
+            </div>
+            <div style="filter:alpha(style=1,opacity=10,finishOpacity=80);width:450px;height:19px;text-align:right;top:-19px;position:relative;padding:0px;margin:0px;border:0px;">
+<a href="javascript:u_u4_icn.changeimg(0)" ; id="u_u4_selectNode0" class="imagechangenews_pnode" target="_self">1</a><a href="javascript:u_u4_icn.changeimg(1)" ; id="u_u4_selectNode1" class="imagechangenews_pnode" target="_self">2</a><a href="javascript:u_u4_icn.changeimg(2)" ; id="u_u4_selectNode2" class="imagechangenews_pnode" target="_self">3</a>
+            </div></div></td></tr>
+       
+    <tr><td height="24">
+        <div align="center" style="overflow:hidden;text-overflow:ellipsis;height:24px;width:450px;"><a target="_blank" class="titlestyle272314" id="u_u4_newstitle"></a></div>
+    </td></tr>
+<div align="left" display="none" style="overflow:hidden;text-overflow:ellipsis;height:0px;width:450px;padding-left:2px;padding-right:2px"><a target="_blank" class="summarystyle272314" id="u_u4_newssummary"></a></div>   
+</table><SCRIPT language="JavaScript">u_u4_init_img();</SCRIPT></div>
+<div class="lineOneModule" id="tzgg"><script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><div class="hd">
+        <div class="title"><a href="zxtz.htm" target="_blank">最新通知</a></div>
+        <div class="more float_right"><a href="zxtz.htm" target="_blank">More+</a></div>
+      </div>
+      <div class="bd">
+        <ul>
+           <li>
+<a href="info/1090/1742.htm" target="_blank" title="青岛科技大学2027年接收优秀应届本科毕业生免试攻读研究生（含直博生）工作办法">青岛科技大学2027年接收优秀应届本科毕...</a>
+
+<span style="    float: right;">
+09-10
+</span></li>
+           <li>
+<a href="info/1090/1728.htm" target="_blank" title="关于延长2026级硕士研究生录取通知书邮寄地址确认时间的通知">关于延长2026级硕士研究生录取通知书邮...</a>
+
+<span style="    float: right;">
+06-12
+</span></li>
+           <li>
+<a href="info/1090/1726.htm" target="_blank" title="关于现场领取2026年硕士研究生录取通知书的通知">关于现场领取2026年硕士研究生录取通知...</a>
+
+<span style="    float: right;">
+06-02
+</span></li>
+           <li>
+<a href="info/1090/1721.htm" target="_blank" title="关于做好2026年硕士、博士研究生调档工作的通知">关于做好2026年硕士、博士研究生调档工...</a>
+
+<span style="    float: right;">
+04-27
+</span></li>
+           <li>
+<a href="info/1090/1722.htm" target="_blank" title="关于2026年硕士研究生拟录取考生确认录取通知书邮寄地址的通知">关于2026年硕士研究生拟录取考生确认录...</a>
+
+<span style="    float: right;">
+04-24
+</span></li>
+           <li>
+<a href="info/1090/1706.htm" target="_blank" title="青岛科技大学2026年博士研究生招生章程">青岛科技大学2026年博士研究生招生章程</a>
+
+<span style="    float: right;">
+03-17
+</span></li>
+           <li>
+<a href="https://xk.qust.edu.cn/info/1046/6020.htm" target="_blank" title="青岛科技大学中哈信息工程学院2026年开启首届招生！">青岛科技大学中哈信息工程学院2026年开...</a>
+
+<span style="    float: right;">
+07-09
+</span></li>
+        </ul>
+      </div>
+
+<script>_showDynClickBatch(['dynclicks_u5_1742','dynclicks_u5_1728','dynclicks_u5_1726','dynclicks_u5_1721','dynclicks_u5_1722','dynclicks_u5_1706','dynclicks_u5_1732'],[1742,1728,1726,1721,1722,1706,1732],"wbnews", 2061053133)</script>
+</div>
+<div class="lineOneModule" id="gzdt"><div class="hd">
+        <div class="title"><a href="bszs.htm" target="_blank">博士招生</a></div>
+        <div class="more float_right"><a href="bszs.htm" target="_blank">More+</a></div>
+      </div>
+      <div class="bd">
+        <ul>
+              <li>
+<a href="info/1155/1428.htm" target="_blank" title="关于现场领取2023年博士研究生录取通知书的通知">关于现场领取2023年博士研究生录取...</a>
+
+<span style="    float: right;">
+2023-07-10
+</span></li>
+              <li>
+<a href="info/1155/1427.htm" target="_blank" title="青岛科技大学2023年博士研究生拟录取名单公示">青岛科技大学2023年博士研究生拟录...</a>
+
+<span style="    float: right;">
+2023-07-07
+</span></li>
+              <li>
+<a href="info/1155/1429.htm" target="_blank" title="青岛科技大学2023年博士研究生入学考试初试成绩查询及复试通知">青岛科技大学2023年博士研究生入学...</a>
+
+<span style="    float: right;">
+2023-05-17
+</span></li>
+              <li>
+<a href="info/1155/1430.htm" target="_blank" title="青岛科技大学2023年普通招考制全日制博士研究生初试考试通知">青岛科技大学2023年普通招考制全日...</a>
+
+<span style="    float: right;">
+2023-05-04
+</span></li>
+              <li>
+<a href="info/1155/1431.htm" target="_blank" title="青岛科技大学2023年可招收博士研究生导师公示（名单持续更新中）">青岛科技大学2023年可招收博士研究...</a>
+
+<span style="    float: right;">
+2023-04-05
+</span></li>
+              <li>
+<a href="info/1155/1432.htm" target="_blank" title="青岛科技大学2022年博士研究生拟录取名单公示">青岛科技大学2022年博士研究生拟录...</a>
+
+<span style="    float: right;">
+2022-06-10
+</span></li>
+              <li>
+<a href="info/1155/1426.htm" target="_blank" title="青岛科技大学2022年博士研究生入学考试初试成绩查询及复试通知">青岛科技大学2022年博士研究生入学...</a>
+
+<span style="    float: right;">
+2022-05-23
+</span></li>
+        </ul>
+      </div>
+
+<script>_showDynClickBatch(['dynclicks_u6_1428','dynclicks_u6_1427','dynclicks_u6_1429','dynclicks_u6_1430','dynclicks_u6_1431','dynclicks_u6_1432','dynclicks_u6_1426'],[1428,1427,1429,1430,1431,1432,1426],"wbnews", 2061053133)</script>
+</div></div><!-- 第二三行 -->
+<div class="line" id="lineThree">
+<div class="lineOneModule" id="gzdt" style="margin-left: 0px;"> <div class="hd">
+        <div class="title"><a href="sszs1.htm" target="_blank">硕士招生</a></div>
+        <div class="more float_right"><a href="sszs1.htm" target="_blank">More+</a></div>
+      </div>
+      <div class="bd">
+
+ 
+        <ul>
+  
+              <li><a href="https://www.sdzk.cn/NewsInfo.aspx?NewsID=7041" target="_blank" title="2026年山东省硕士研究生招生考试各市教育招生考试机构及招生单位联系方式">2026年山东省硕士研究生招生考试各...</a>
+<span style="    float: right;">
+2025-10-08
+</span>
+</li> 
+
+  
+              <li><a href="https://www.sdzk.cn/NewsInfo.aspx?NewsID=7040" target="_blank" title="2026年山东省硕士研究生招生考试报考点接收要求及条件">2026年山东省硕士研究生招生考试报...</a>
+<span style="    float: right;">
+2025-10-08
+</span>
+</li> 
+
+  
+              <li><a href="https://www.sdzk.cn/NewsInfo.aspx?NewsID=7039" target="_blank" title="2026年山东省硕士研究生招生考试网上报名安排及注意事项">2026年山东省硕士研究生招生考试网...</a>
+<span style="    float: right;">
+2025-10-08
+</span>
+</li> 
+
+  
+              <li><a href="info/1130/1681.htm" target="_blank" title="青岛科技大学2026年硕士研究生招生章程">青岛科技大学2026年硕士研究生招生...</a>
+<span style="    float: right;">
+2025-09-29
+</span>
+</li> 
+
+  
+              <li><a href="info/1130/1678.htm" target="_blank" title="青岛科技大学2026年硕士研究生招生专业目录及参考书目">青岛科技大学2026年硕士研究生招生...</a>
+<span style="    float: right;">
+2025-09-29
+</span>
+</li> 
+
+  
+              <li><a href="info/1130/1349.htm" target="_blank" title="2024年硕士研究生入学考试成绩查询的通知">2024年硕士研究生入学考试成绩查询...</a>
+<span style="    float: right;">
+2024-02-25
+</span>
+</li> 
+
+  
+              <li><a href="info/1130/1335.htm" target="_blank" title="青岛科技大学研究生教育学费标准">青岛科技大学研究生教育学费标准</a>
+<span style="    float: right;">
+2022-04-25
+</span>
+</li> 
+
+        </ul>
+
+
+
+
+      </div>
+<script>_showDynClickBatch(['dynclicks_u7_1686','dynclicks_u7_1685','dynclicks_u7_1684','dynclicks_u7_1681','dynclicks_u7_1678','dynclicks_u7_1349','dynclicks_u7_1335'],[1686,1685,1684,1681,1678,1349,1335],"wbnews", 2061053133)</script>
+</div>
+<div class="lineOneModule" id="tzgg"> <div class="hd">
+        <div class="title"><a href="tjms.htm" target="_blank">推免生招生</a></div>
+        <div class="more float_right"><a href="tjms.htm" target="_blank">More+</a></div>
+      </div>
+      <div class="bd">
+        <ul>
+   
+              <li><a href="info/1120/1522.htm" target="_blank" title="青岛科技大学2023届推荐免试硕士研究生拟推荐名单公示">青岛科技大学2023届推荐免试硕士...</a>
+<span style="    float: right;">
+2022-09-23
+</span>
+</li> 
+
+   
+              <li><a href="info/1120/1521.htm" target="_blank" title="热忱欢迎全国2023届优秀本科毕业生免试攻读青岛科技大学研究生">热忱欢迎全国2023届优秀本科毕业...</a>
+<span style="    float: right;">
+2022-09-16
+</span>
+</li> 
+
+   
+              <li><a href="info/1120/1520.htm" target="_blank" title="欢迎报考青岛科技大学材料与化工本硕贯通卓越工程师计划">欢迎报考青岛科技大学材料与化工...</a>
+<span style="    float: right;">
+2022-09-16
+</span>
+</li> 
+
+   
+              <li><a href="info/1120/1519.htm" target="_blank" title="关于开展2023年推荐优秀应届本科毕业生免试攻读硕士学位研究生工作的通知">关于开展2023年推荐优秀应届本科...</a>
+<span style="    float: right;">
+2022-09-16
+</span>
+</li> 
+
+   
+              <li><a href="info/1120/1523.htm" target="_blank" title="青岛科技大学2023年接收推荐免试研究生的通知">青岛科技大学2023年接收推荐免试...</a>
+<span style="    float: right;">
+2022-09-12
+</span>
+</li> 
+
+   
+              <li><a href="info/1120/1524.htm" target="_blank" title="青岛科技大学2022届推荐免试硕士研究生拟推荐名单公示">青岛科技大学2022届推荐免试硕士...</a>
+<span style="    float: right;">
+2021-09-23
+</span>
+</li> 
+
+   
+              <li><a href="info/1120/1518.htm" target="_blank" title="关于开展推荐优秀应届本科毕业生免试攻读硕士学位研究生工作的通知">关于开展推荐优秀应届本科毕业生...</a>
+<span style="    float: right;">
+2021-09-10
+</span>
+</li> 
+
+        </ul>
+</div>
+
+
+
+
+   
+<script>_showDynClickBatch(['dynclicks_u8_1522','dynclicks_u8_1521','dynclicks_u8_1520','dynclicks_u8_1519','dynclicks_u8_1523','dynclicks_u8_1524','dynclicks_u8_1518'],[1522,1521,1520,1519,1523,1524,1518],"wbnews", 2061053133)</script>
+</div>
+<div class="lineOneModule" id="tzgg">
+<div class="hd">
+<div class="title" style="background-image: url(images/fw.jpg);"><a href="zsxc.htm" target="_blank">招生宣传</a></div>
+<div class="more float_right"><a href="zsxc.htm" target="">More+</a></div></div>
+<div class="bd">
+      <div class="bd">
+        <ul>
+                           <li>
+<a href="info/1158/1491.htm" target="_blank" title="青岛科技大学研究生教育学费标准">青岛科技大学研究生教育学费标准</a>
+
+<span style="    float: right;">
+2022-04-25
+</span></li>
+              <li>
+<a href="info/1158/1490.htm" target="_blank" title="青岛科技大学2024年硕士研究生招生考试范围">青岛科技大学2024年硕士研究生招...</a>
+
+<span style="    float: right;">
+2023-09-21
+</span></li>
+              <li>
+<a href="info/1158/1489.htm" target="_blank" title="青岛科技大学2024年硕士研究生招生专业目录">青岛科技大学2024年硕士研究生招...</a>
+
+<span style="    float: right;">
+2023-09-21
+</span></li>
+              <li>
+<a href="info/1158/1488.htm" target="_blank" title="青岛科技大学2024年硕士研究生招生简章">青岛科技大学2024年硕士研究生招...</a>
+
+<span style="    float: right;">
+2023-09-21
+</span></li>
+              <li>
+<a href="info/1158/1486.htm" target="_blank" title="青岛科技大学2023年硕士研究生招生专业目录">青岛科技大学2023年硕士研究生招...</a>
+
+<span style="    float: right;">
+2022-09-12
+</span></li>
+              <li>
+<a href="info/1158/1485.htm" target="_blank" title="青岛科技大学2023年硕士研究生招生简章">青岛科技大学2023年硕士研究生招...</a>
+
+<span style="    float: right;">
+2022-09-12
+</span></li>
+              <li>
+<a href="info/1158/1484.htm" target="_blank" title="青岛科技大学2022年全日制博士研究生招生简章">青岛科技大学2022年全日制博士研...</a>
+
+<span style="    float: right;">
+2022-03-21
+</span></li>
+        </ul>
+      </div>
+
+<script>_showDynClickBatch(['dynclicks_u9_1491','dynclicks_u9_1490','dynclicks_u9_1489','dynclicks_u9_1488','dynclicks_u9_1486','dynclicks_u9_1485','dynclicks_u9_1484'],[1491,1490,1489,1488,1486,1485,1484],"wbnews", 2061053133)</script>
+</div></div></div>
+
+
+
+
+</div>
+<div id="friendlink">
+<div class="hd" style="background-image: url(images/yy1.png);">友情链接</div>
+<style>
+
+BODY {
+
+ color: #363636
+;}
+DIV {
+ padding-bottom: 0px;
+ border-right-width: 0px;
+ margin: 0px;
+ padding-left: 0px;
+ padding-right: 0px;
+ border-top-width: 0px;
+ border-bottom-width: 0px;
+ border-left-width: 0px;
+ padding-top: 0px
+;}
+SELECT {
+ padding-bottom: 0px;
+ border-right-width: 0px;
+ margin: 0px;
+ padding-left: 0px;
+ padding-right: 0px;
+ border-top-width: 0px;
+ border-bottom-width: 0px;
+ border-left-width: 0px;
+ padding-top: 0px
+;}
+SELECT {
+ box-sizing: content-box;
+ border-bottom: #ddd 1px solid;
+ border-left: #ddd 1px solid;
+ padding-bottom: 1px;
+ line-height: 20px;
+ padding-left: 0px;
+ padding-right: 0px;
+ border-top: #ddd 1px solid;
+ border-right: #ddd 1px solid;
+ padding-top: 1px;
+ -webkit-box-sizing: content-box;
+ -moz-box-sizing: content-box;
+ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+ -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+ -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+ -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1)
+;}
+OPTION {
+ padding-bottom: 0px;
+ border-right-width: 0px;
+ margin: 0px;
+ padding-left: 0px;
+ padding-right: 0px;
+ border-top-width: 0px;
+ border-bottom-width: 0px;
+ border-left-width: 0px;
+ padding-top: 0px
+;}
+.footer-select {
+    float: left;
+    margin-left: 175px;    margin-top: -27px;
+ right: 620px;
+ top: 19px
+;}
+.footer_sel {
+ border-bottom: #d6d6d6 1px solid;
+ border-left: #d6d6d6 1px solid;
+    line-height: 26px;
+    width: 215px;
+    height: 26px;
+    color: #666;
+ border-top: #d6d6d6 1px solid;
+ border-right: #d6d6d6 1px solid
+;}
+ 
+</style>
+
+<div class="footer-select"></div><script type="text/javascript" src="style/newbase.js"></script>
+<div class="footer-select"><script language="javascript" src="/system/resource/js/openlink.js"></script>    <a href="http://www.moe.gov.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2061053133, 98146)">中华人民共和国教育部</a>
+    &nbsp; | &nbsp;
+    <a href="http://www.cdgdc.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2061053133, 98149)">中国学位与研究生教育信息网</a>
+    &nbsp; | &nbsp;
+    <a href="http://edu.shandong.gov.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2061053133, 98145)">山东省教育厅</a>
+    &nbsp; | &nbsp;
+    <a href="http://edu.shandong.gov.cn/col/col12059/index.html" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2061053133, 98150)">山东省学位与研究生教育服务平台</a>
+    &nbsp; | &nbsp;
+    <a href="https://www.chsi.com.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2061053133, 98148)">学信网</a>
+    
+</div><script type="text/javascript" src="style/newbase.js"></script></div>
+<div></div><!--foot-->
+<div id="foot">
+<div class="copyRight">
+<div class="lianjie1" style="float: right;">    <IMG width="132" height="132" src="images/ewm3.png"><BR> 
+</div>
+<div class="lianjie1" style="margin: 0px 10px 0px 0px; float: right;">    <IMG width="132" height="132" src="images/ewm2.png"><BR> 
+</div>
+
+<!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<div style="text-align: left; line-height: 30px;"><p><span style="font-family: 宋体,SimSun;"><br /></span></p><p>Copyright© 2024 青岛科技大学研究生院</p><p style="line-height: 150%; -ms-layout-grid-mode: char;">地址：青岛市松岭路99号(崂山校区) 邮编：266061&nbsp; &nbsp; 地址：青岛市郑州路53号(四方校区) 邮编：266042</p><p><br /></p></div></div></div>
+
+
+</body></html>

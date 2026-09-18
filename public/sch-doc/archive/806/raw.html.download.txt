@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <title>江西省2026年全国硕士研究生招生考试报名公告</title>
+        <link rel="shortcut icon" href="https://t1.chei.com.cn/yz/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="https://t4.chei.com.cn/common/wap/images/appletouch-yz.png" />
+    <link rel="stylesheet" href="https://t1.chei.com.cn/common/ch/chicon/iconfont.css">
+    <link rel="stylesheet" href="https://t2.chei.com.cn/common/css/news-1.0.3.min.css">
+    <style>
+        :root {
+            --color-1: #2b2e33;
+            --color-2: #65696e;
+            --color-3: #93989e;
+            --color-4: #b3b7bd;
+            --color-5: #d5d7db;
+            --color-6: #e8eaed;
+            --color-7: #f2f3f5;
+            --color-8: #f7f8fa;
+            --color-main: #1887e0;
+            --color-bule: #1677ff;
+            --footer-height: 198px;
+        }
+        .hot-list.wide li:nth-child(3n) {margin-right: 12px;}
+        .hot-list.wide li:nth-child(4n) {margin-right: 12px;}
+        .hot-list.wide li:nth-last-child(-n+4) {margin-bottom: 0;}
+    </style>
+    <script src="https://t1.chei.com.cn/common/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://t1.chei.com.cn/common/js/vue/2.6.10/vue.min.js"></script>
+    <script src="https://t1.chei.com.cn/common/axvert/js/showchsi_m.js"></script>
+    <script type="text/javascript">
+    // 百度统计
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?3916ecc93c59d4c6e9d954a54f37d84c";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100524-7"></script>
+    <script>
+    function gaTrackerOutboundLink(params) { //ga链接埋点
+        gtag('event', params.eventAction, {
+            'event_category': params.eventCategory,
+            'event_label': params.eventLabel
+        });
+        return true;
+    };
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-100524-7', {'sample_rate': 5});
+    </script>
+</head>
+<body class="ch-sticky">
+    <div class="main-wrapper">
+        <!-- 吊顶区域 -->
+        <style>
+            body {
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            .top-nav-wrapper {
+                width: 100%;
+                height: 48px;
+                line-height: 48px;
+                background: #fff;
+                font-size: 14px;
+                box-sizing: border-box;
+                box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
+                z-index: 100;
+                position: relative;
+            }
+            .top-nav-wrapper a {
+                color: #2b2e33;
+            }
+            .top-nav-wrapper a:hover {
+                color: #1887e0;
+                font-weight: 700;
+                text-decoration: none;
+            }
+            .top-nav-wrapper .top-nav {
+                width: 1180px;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+            }
+            .top-nav-wrapper .top-nav-list {
+                flex: 1;
+                height: 48px;
+                display: flex;
+                align-items: center;
+            }
+            .top-nav-wrapper .top-nav-list a {
+                margin-right: 20px;
+            }
+            .top-nav-wrapper .top-nav-list a.top-nav-home {
+                display: inline-block;
+                width: 98px;
+                height: 36px;
+                margin-right: 20px;
+                margin-left: 0px;
+                background-image: url("https://t2.chei.com.cn/yz/assets/images/logo-min.png");
+                background-image: -webkit-image-set(
+                    url("https://t2.chei.com.cn/yz/assets/images/logo-min.png") 1x,
+                    url("https://t4.chei.com.cn/yz/assets/images/logo-min2x.png") 2x
+                );
+                background-repeat: no-repeat;
+                background-position: center left;
+            }
+            .top-nav-hide {
+                position: relative;
+                cursor: pointer;
+                color: #2b2e33;
+            }
+            .top-nav-hide:hover {
+                color: #2b2e33;
+            }
+            .top-nav-hide:hover .top-nav-pop {
+                visibility: visible;
+                opacity: 1;
+            }
+
+            .top-nav-pop {
+                padding: 18px 30px 18px 16px;
+                visibility: hidden;
+                box-sizing: border-box;
+                background-color: #fff;
+                color: #2b2e33;
+                text-align: center;
+                border-radius: 6px;
+                position: absolute;
+                z-index: 1;
+                top: 44px;
+                left: 50%;
+                transform: translateX(-50%);
+                opacity: 0;
+                transition: opacity 0.3s;
+                box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.12);
+                font-size: 12px;
+                line-height: 20px;
+                display: flex;
+            }
+            .top-nav-pop-arrow {
+                display: block;
+                width: 0;
+                height: 0;
+                position: absolute;
+                border-color: transparent;
+                border-style: solid;
+                left: 50%;
+                margin-left: -14px;
+                top: -7px;
+                border-width: 0 7px 7px;
+                border-bottom-color: rgba(0, 0, 0, 0.03);
+            }
+            .top-nav-pop-arrow::after {
+                display: block;
+                content: '';
+                width: 0;
+                height: 0;
+                position: absolute;
+                border-color: transparent;
+                border-style: solid;
+                left: 50%;
+                margin-left: -7px;
+                top: 1px;
+                border-width: 0 7px 7px;
+                border-bottom-color: #fff;
+            }
+            .top-nav-wrapper .top-nav-list a.top-nav-home:hover {
+                text-decoration: none;
+            }
+            .top-nav-wrapper .top-nav-load {
+                height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+            }
+            .top-nav-wrapper a.username {
+                flex: 1;
+                color: #1887e0;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                text-align: right;
+            }
+            .top-nav-pop-clo {
+                font-size: 14px;
+                line-height: 22px;
+                margin-right: 22px;
+            }
+            .top-nav-pop-clo:last-child {
+                margin-right: 0;
+            }
+            .top-nav-wrapper .top-nav-pop-clo a {
+                display: block;
+                margin-right: 0;
+                white-space: nowrap;
+                text-align: left;
+                margin-bottom: 8px;
+            }
+            .top-nav-wrapper .top-nav-pop-clo a:last-child {
+                margin-bottom: 0;
+            }
+            .top-nav-more {
+                display: flex;
+                align-items: center;
+            }
+            .top-nav-hide:hover .top-nav-more {
+                color: #1887e0;
+                font-weight: 700;
+            }
+            .top-nav-more img {
+                width: 14px;
+                margin-left: 4px;
+                transform: rotate(90deg);
+            }
+            .top-nav-hide:hover img {
+                transform: rotate(-90deg);
+            }
+            .info-line {
+                display: block;
+                width: 1px;
+                height: 12px;
+                background: #e8eaed;
+                margin: 0 12px;
+            }
+            .top-nav-wrapper.active .seach-toggel {
+                display: none;
+            }
+            .search-cancel {
+                display: none;
+                margin-left: 12px;
+                cursor: pointer;
+            }
+            .top-nav-wrapper.active .search-cancel{
+                display: block;
+            }
+            .top-nav-load-search {
+                display: block;
+                width: 20px;
+                height: 20px;
+                background: url("https://t2.chei.com.cn/common/images/icon-search.svg") center center no-repeat;
+                cursor: pointer;
+            }
+            .top-nav-search-input {
+                display: none;
+            }
+            .top-nav-search-input .search-input {
+                display: block;
+                width: 200px;
+                border: 1px solid #D5D7DB;
+                height: 30px;
+                background: #FFF;
+                border-radius: 4px;
+                outline: none;
+                padding: 0 28px 0 8px;
+                box-sizing: border-box;
+            }
+            .top-nav-search-input .search-input:focus {
+                border: 1px solid #1887E0;
+            }
+            .top-nav-wrapper.active .top-nav-search-input {
+                display: block;
+            }
+            .top-nav-wrapper.active .top-nav-load {
+                max-width: none;
+            }
+            .site-search {
+                position: relative;
+                display: flex;
+                align-items: center;
+            }
+            .top-nav-wrapper.active .top-nav-load-search {
+                display: none;
+            }
+            .top-nav-wrapper.active .search-button {
+                display: block;
+                width: 20px;
+                height: 20px;
+                background: url("https://t2.chei.com.cn/common/images/icon-search.svg") center center no-repeat;
+                cursor: pointer;
+                border: none;
+                outline: none;
+                position: absolute;
+                right: 8px;
+                top: 5px;
+            }
+            .top-nav-load-info {
+                display: flex;
+                align-items: center;
+            }
+        </style>
+        <div class="top-nav-wrapper">
+            <div class="top-nav">
+                <div class="top-nav-list" onmousedown="handleLinkClick(event, 'pc-二级导航')">
+                    <a href="/" class="top-nav-home">&ensp;</a>
+                    <a class="seach-toggel" href="/">首页</a>
+                    <a class="seach-toggel" href="/kyzx/zcdh/">国家政策</a>
+                    <a class="seach-toggel" href="/kyzx/kydt/">资讯</a>
+                    <a class="seach-toggel" href="/sch/">院校库</a>
+                    <a class="seach-toggel" href="/zsml/">硕士目录</a>
+                    <a class="seach-toggel" href="/sswbgg/">网报公告</a>
+                    <a class="seach-toggel" href="/yzwb/">统考网报</a>
+                    <a class="seach-toggel" href="/wsqr/stu/">网上确认</a>
+                    <a class="seach-toggel" href="/apply/cjcx/">成绩查询</a>
+                    <a class="seach-toggel" href="/yztj/">复试调剂</a>
+                    <a class="seach-toggel" href="/tm/">推免服务</a>
+                    <a class="seach-toggel" href="/zsgs/">信息公开</a>
+                    <span class="top-nav-hide seach-toggel">
+                        <span class="top-nav-more">更多<img src="https://t2.chei.com.cn/common/images/wap-icon/nav-next.svg" class="nav-next"></span>
+                        <div class="top-nav-pop">
+                            <span class="top-nav-pop-arrow"></span>
+                            <div class="top-nav-pop-clo">
+                                <a href="/kyzx/jybzc/">教育部政策</a>
+                                <a href="https://yz.chsi.com.cn/kyzx/zt/kyfs.shtml">复试分数线</a>
+                                <a href="https://yz.chsi.com.cn/yzzt/glllk">管理类专硕</a>
+                            </div>
+                            <div class="top-nav-pop-clo">
+                                <a href="/kyzx/yxzc/">院校政策</a>
+                                <a href="https://yz.chsi.com.cn/yzzt/zbft">研招访谈</a>
+                                <a href="https://yz.chsi.com.cn/kyzx/zt/zsxz.shtml">专业学位</a>
+                            </div>
+                            <div class="top-nav-pop-clo">
+                                <a href="/kyzx/zsjz/">招生简章</a>
+                                <a href="/bsmlcx/">博士目录</a>
+                                <a href="/zyk/">专业库</a>
+                            </div>
+                            <div class="top-nav-pop-clo">
+                                <a href="/zxdy/">在线咨询</a>
+                                <a href="/bsbm/">博士网报</a>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                <div class="top-nav-load">
+                    <div class="top-nav-search-input" id="top-nav-input">
+                        <form class="site-search" action="https://cn.bing.com/search" target="_blank" method="get">
+                            <input type="hidden" class="realQuery" name="q" value="">
+                            <input placeholder="" type="text" name="query" autocomplete="off" id="top-nav-search-input" class="search-input" value="" maxlength="100">
+                            <button type="submit" class="search-button"></button>
+                        </form>
+                    </div>
+                    <span class="search-cancel">取消</span>
+                    <span class="top-nav-load-search" id="top-nav-search"></span>
+                    <span class="info-line"></span>
+                    <a href="/user/">用户中心</a>
+                    <span class="info-line"></span>
+                    <a href="https://account.chsi.com.cn/account/preregister.action?from=yz-home">注册</a>
+                </div>
+            </div>
+        </div>
+        <script>
+        function handleLinkClick(event, type) {
+            event = event || window.event;
+            var target = event.target || event.srcElement;
+
+            var link = findClosestLink(target);
+            if (link) {
+                var href = link.getAttribute('href');
+                var label = link.textContent.trim();
+
+                gaTrackerOutboundLink({ eventCategory: type, eventAction: 'click', eventLabel: label });
+            }
+        }
+
+        function findClosestLink(element) {
+            while (element && element.nodeName !== 'A') {
+                element = element.parentNode;
+            }
+            if (element) {
+                return element;
+            }
+            return null;
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+            const topNavSearch = document.getElementById('top-nav-search');
+            const searchCancel = document.querySelector('.search-cancel');
+            const searchInput = document.querySelector('.search-input');
+            const realQuery = document.querySelector('.realQuery');
+            const searchForm = document.querySelector('.site-search');
+
+            // 点击搜索图标：显示输入框（添加 active 类）
+            if (topNavSearch) {
+                topNavSearch.addEventListener('click', function (event) {
+                    event.stopPropagation();
+                    document.querySelector('.top-nav-wrapper').classList.add('active');
+                    searchInput.focus();
+                });
+            }
+
+            // 点击取消按钮：移除 active 类
+            if (searchCancel) {
+                searchCancel.addEventListener('click', function (event) {
+                    document.querySelector('.top-nav-wrapper').classList.remove('active');
+                });
+            }
+
+            // 点击文档其他地方：移除 active 类
+            document.addEventListener('click', function (event) {
+                const wrapper = document.querySelector('.top-nav-wrapper');
+                if (wrapper && !wrapper.contains(event.target)) {
+                    wrapper.classList.remove('active');
+                }
+            });
+
+            // 提交表单前处理搜索词
+            if (searchForm) {
+                searchForm.addEventListener('submit', function (e) {
+                    e.preventDefault(); // 阻止默认提交
+
+                    const val = searchInput.value.trim();
+
+                    if (!val) {
+                        alert("请输入关键词");
+                        return;
+                    }
+
+                    // 设置 realQuery 的值为关键词 + site:xxx
+                    realQuery.value = val + ' site:yz.chsi.com.cn';
+
+                    // 手动提交表单
+                    searchForm.submit();
+                });
+            }
+        });
+        </script>
+         
+<div id="app" v-cloak :class="'container font-a-'+fontSize">
+    <div class="nav-box">
+        <a href="/">首页</a>&ensp;>&ensp;<a href='/kyzx/kydt'>考研动态</a>
+    </div>
+    <div class="title-box">
+        <h2>江西省2026年全国硕士研究生招生考试报名公告</h2>
+    </div>
+    <div class="news-msg-box">
+        <div class="news-msg">
+            <span>2025年10月09日</span>
+            <span>来源：江西省教育考试院 </span>
+        </div>
+        <div class="tool-warp">
+            <i class="ch-icon ch-icon-zjzh" :class="{'disabled': fontSize===4}" @click="fontUp" title="字体变大"></i>
+            <i class="ch-icon ch-icon-jxzh" :class="{'disabled': fontSize===1}" @click="fontDown" title="字体变小"></i>
+            <span class="cut-line"></span>
+            <div class="wx-share">
+                <i class="ch-icon ch-icon-wechat-fill share" title="微信"></i>
+                <div class="wx-popup">
+                    <span class="wx-popup-arrow"></span>
+                    <img src="https://www.chsi.com.cn/qrcodeImg.do" alt="二维码">
+                    <div>用微信扫描二维码<br>分享至好友和朋友圈</div>
+                </div>
+            </div>
+            <i class="ch-icon ch-icon-wb-fill share" title="新浪微博" @click="share('sinawb')"></i>
+            <i class="ch-icon ch-icon-kj share" title="QQ空间" @click="share('qqkj')"></i>
+        </div>
+    </div>
+    <div class="content-box">
+        <div class="content-l">
+            <div class="detail" id="article_dnull">
+                 <p>根据教育部《2026年全国硕士研究生招生工作管理规定》，结合我省实际，现将我省2026年全国硕士研究生招生考试报名有关事项公告如下：</p><p><strong>一、报名要求</strong></p><p>（一）报名时间和地址</p><p>报名包括网上报名和网上确认两个阶段，请考生及时关注并详细阅读教育部、省教育考试院、各报考点以及报考招生单位的相关公告，按要求登录“中国研究生招生信息网”（以下简称“研招网”）完成网上报名和网上确认。</p><p>网上报名时间：2025年10月16—27日（每天9:00－22:00，下同），预报名时间：10月10—13日（预报名信息有效），逾期不接受补报，也不得再修改报名信息。</p><p>（二）报考点选择</p><p>全省11个设区市招生考试机构、4所高校和共青城市教育考试中心共设立16个硕士研究生招生考试报考点，报考点安排详见附件。具体要求如下：</p><p>1．在我省高校就读的2026年应届毕业生：</p><p>（1）2026年应届本科毕业考生（含普通高校、成人高校、普通高校举办的成人高等学历教育）选择就读学校所在设区市报考点。其中共青城市辖区内本科高校全日制应届毕业生考生优先选择共青城市教育考试中心报考点，也可选择九江市教育考试中心报考点报考；成人高校应届本科毕业生也可选择教学点所在地设区市报考点；专升本联合培养考生也可选择联合培养的教学点所在地报考点。</p><p>（2）部分高校报考点考生：</p><p>江西师范大学、江西水利电力大学（部分）2026年普通全日制应届本科毕业生（以下简称“2026年应届毕业生”）可选择江西师范大学报考点；</p><p>江西财经大学、华东交通大学（部分）2026年应届毕业生可选择江西财经大学报考点；</p><p>南昌航空大学、江西科技师范大学（部分）2026年应届毕业生可选择南昌航空大学报考点；</p><p>江西中医药大学、江西警察学院（部分）、豫章师范学院（部分）2026年应届毕业生可选择江西中医药大学报考点。</p><p>高校报考点考位数量有限，上述9所高校2026年应届毕业生也可以选择南昌市教育考试院报考点报考。</p><p>2．其他考生：</p><p>（1）往届生（包含国家承认学历的本科毕业生、获得国家承认的高职高专毕业学历后满2年或以上的考生、以及国家承认学历的结业生等，下同），录取当年入学前（具体期限由招生单位规定）可取得国家承认本科毕业证书的自学考试、网络教育的考生、国（境）外留学生应选择户籍（网上确认提供户口信息）或工作单位所在设区市报考点（网上确认提供工作证明、单位缴纳的社保等材料），自学考试和网络教育届时可毕业的考生，也可选择考（学）籍所在设区市报考点。</p><p>（2）就读于我省高校的第二学士学位本科生：以2026年本科第二学士学位毕业生身份报考的，可选择就读学校所在设区市报考点报考，如就读学校已设置高校报考点的，也可选择本校报考点报考；</p><p>以往届生身份报考的第二学士学位在读本科生，建议考生选择户籍所在地报考，也可以选择就读学校所在设区市报考点报考。</p><p>（3）就读于我省高校的在读研究生：请选择就读学校所在设区市报考点报考，须提供现培养单位同意报考证明。</p><p>符合我省报名要求的考生一律不得跨设区市报考，因报考点选择有误或未按规定提供相关材料造成报考点不予网上确认的，责任由考生自行承担，请考生慎重选择符合条件的报考点。</p><p>凡招生单位要求使用画板类、非常规考试用纸的，或初试科目中有考试时长超过三小时的，招生单位应在本考点（具体请咨询招生单位）为所有报考该学科专业的考生组织考试。</p><p>（三）网上缴费</p><p>我省统一实行网上缴费，凡选择在我省报名参加本次硕士研究生招生考试的考生应按规定缴纳报名费180元，在网上报名时通过网上支付缴费，缴费成功后，才视为有效网报信息。</p><p>每位考生只收取一次网上确认成功的报名费，对网上报名完成缴费但未完成网上确认的考生或者多次缴费的考生，12月底开始将由研招网信息平台数据核查后退回原支付账户。</p><p>对网上确认成功的考生，因个人原因造成无法参加考试的，一律不予退费，请考生慎重报考。</p><p>（四）报名注意事项</p><p>1．符合教育部管理规定中有关条件并申请享受初试加分、享受少数民族照顾政策、报考退役大学生士兵专项计划、报考少数民族高层次骨干人才计划的考生按教育部的要求填报相关信息。</p><p>2．对服役期间获得三等战功、二等功以上奖励或者二级以上表彰，符合全国硕士研究生招生考试报考条件的退役人员，可申请免试攻读硕士研究生。符合免初试资格的考生，应在教育部规定的全国统考报名时间内登录“全国推荐免试攻读研究生（免初试、转段）信息公开暨管理服务系统”（网址：https://yz.chsi.com.cn/tm）报名，逾期不得补报。</p><p>3．残障考生如需提供合理化考试便利服务的，请于报名期间与报考点和招生单位沟通申请，以便提前做好安排。</p><p>4．考生应按要求准确填写个人网上报名信息。网上报名期间，考生可自行修改部分报名信息或取消原报名信息重新填报，每位考生只能保留一条有效报名信息。考生在提交报名信息和网上支付报名费前，请务必仔细核对各项信息。</p><p>5．网上报名期间研招网将对考生学历（学籍）信息进行网上校验，考生可上网查看学历（学籍）校验结果，未通过学历（学籍）校验的考生应按照招生单位的要求完成学历（学籍）核验。</p><p>6．更改姓名、变更身份证号码等的考生，请使用更改后的个人信息报考。</p><p>7．凡因网报信息填写错误、填报虚假信息、错选报考点、不符合招生单位报考要求等造成不能网上确认、考试、复试或录取的，后果由考生本人承担。</p><p><strong>二、网上确认</strong></p><p>我省所有报考点均采取网上确认方式，所有网上报名成功考生均须在规定时间内按照网上报名所选报考点要求进行网上确认。请考生认真阅读所选报考点发布的网上确认公告，按要求及时上传相关材料。未按时上传确认材料的视为放弃报考此次硕士研究生考试。</p><p>（一）网上确认时间</p><p>网上确认时间：具体时间以省教育考试院及各报考点网上确认公告为准。</p><p>（二）网上确认要求</p><p>1．考生须在规定时间登录“研招网”网上确认系统，阅读网报公告和承诺书、确认网报信息，正确填写身份证有效期，并按报考点要求，上传本人图像照片、手持身份证照片及其它相关材料。</p><p>2．若选择户籍所在地报考点的考生，还须提供本人户口簿（首页及本人页）；若选择工作单位所在地报考点的考生，还须提供工作单位开具的工作证明和工作单位缴纳的2025年7—10月中任意连续三个月的《江西省社会保险个人权益记录单》或《社会保险参保缴费证明》或考生本人作为单位法人7—10月中任意连续三个月的纳税凭证等证明材料。</p><p>3．对未能通过学历（学籍）网上校验的考生须补充提供其他材料，具体如下：</p><p>（1）2026年应届毕业生提供《教育部学籍在线验证报告》。往届考生提供学历学位证书。</p><p>（2）自学考试和网络教育的考生，须提供准考证（自学考试）或学生证（网络教育）；自学考试考生还须提供网上自行打印的成绩单。</p><p>（3）在国（境）外获得学历证书的考生须提供教育部留学服务中心出具的认证报告；尚未获得学历证书的国（境）外留学考生须提供由就读院校开具的届时可毕业的证明或完成学业情况证明。</p><p>（4）往届考生无法提供学历学位证书的，须提供《教育部学历证书电子注册备案表》或《中国高等教育学历认证报告》。</p><p>（5）以往届生身份选择就读学校所在设区市报考点报考的在校第二学士学位本科生、在读研究生须提供现培养单位同意报考证明。</p><p>（6）因更改姓名、身份证号码等原因造成未能通过学历（学籍）核验的考生须提供具有更改记录的户口簿、本人所在地户籍部门出具的规范的身份证号变更证明。</p><p>4．提供虚假证明信息一经查实，将取消考试、录取资格。</p><p>5．对在往年国家教育考试中作弊被暂停参加各种国家教育考试的考生，在暂停年限期间不允许参加硕士研究生招生考试网上报名和网上确认。</p><p>6．报考点完成网上确认后，招生单位将审核考生报考资格，对不符合报考要求的考生设置为不准考或屏蔽准考证打印，请考生报名前仔细阅读招生单位对各专业报考的要求。</p><p><strong>三、打印准考证</strong></p><p>请考生及时关注研招网相关公告，凭网报用户名和密码登录“研招网”自行下载《准考证》，并使用A4幅面白纸打印，正反两面在使用期间不得涂改。考生凭下载打印的《准考证》及居民身份证参加考试。请考生务必妥善保管个人网报账号、报考信息等，避免丢失造成损失。</p><p><strong>四、考试时间</strong></p><p>初试时间为2025年12月20日至21日。</p><p><strong>五、其他注意事项</strong></p><p>（一）我省各报考点不接受单独考试的考生报名，请报单独考试的考生与相关招生单位联系。</p><p>（二）现役军人报考地方或军队招生单位，以及地方考生报考军队招生单位，应事先认真查阅军队相关部门及招生单位有关报考要求，遵守保密规定，按照规定填报信息。不明之处应事先与招生单位联系。</p><p>（三）考生应定期查阅研招网、省教育考试院、报考点、招生单位官方网站等，主动了解考试安排等事项。</p><p>附件：江西省2026年全国硕士研究生招生考试报考点安排表</p><p style="text-align: center;"><strong>江西省2026年全国硕士研究生招生考试报考点安排表</strong></p><style type="text/css">.table01 {
+    background:#333;
+    width:100%;
+    border:0;
+}
+.table01 th {/*表头的样式*/
+    text-align:center;
+    font-weight:bold;
+    background:#f7f8fa;
+    padding:4px;
+}
+.table01 td {/*默认td的样式*/
+    text-align:left;/*如果表格中居中的内容多就这样写，如果居左的多那么就写left*/
+    padding:4px;
+    background:#ffffff;
+}
+.table01 td.al-left {
+    text-align:left;
+}
+.table01 td.al-center {
+    text-align:center;
+}
+.table01 td.al-right {
+    text-align:right;
+}</style><table cellspacing="1" class="table01"><tbody><tr class="firstRow"><th>报考点代码</th><th>报考点名称</th><th style="word-break: break-all;">接收考生范围及条件（考生符合各报考点其中任何一条即可，为方便网上确认，其他考生建议选择户籍所在地）</th></tr><tr><td>3601</td><td>南昌市教育考试院</td><td style="word-break: break-all;">1.2026年应届本科毕业生：驻南昌高校、在南昌联合培养、成人高校教学点在南昌等；2.其他考生（含往届生，自考和网络教育等）：南昌户籍（提供户籍信息）或在南昌就业（提供单位工作证明和单位缴纳的社保）或创业（提供纳税凭证）等；</td></tr><tr><td>3602</td><td>九江市教育考试中心</td><td style="word-break: break-all;">1.2026年应届本科毕业生：驻九江高校、在九江联合培养、成人高校教学点在九江等；2.其他考生（含往届生，自考和网络教育等）：九江户籍（提供户籍信息）或在九江就业（提供单位工作证明和单位缴纳的社保）或创业（提供纳税凭证）等；</td></tr><tr><td>3603</td><td style="word-break: break-all;">景德镇市教育考试中心</td><td style="word-break: break-all;">1.2026年应届本科毕业生：驻景德镇高校、在景德镇联合培养、成人高校教学点在景德镇等；2.其他考生（含往届生，自考和网络教育等）：景德镇户籍（提供户籍信息）或在景德镇就业（提供单位工作证明和单位缴纳的社保）或创业（提供纳税凭证）等；</td></tr><tr><td>3604</td><td style="word-break: break-all;">萍乡市教育考试中心</td><td style="word-break: break-all;">1.2026年应届本科毕业生：驻萍乡高校、在萍乡联合培养、成人高校教学点在萍乡等；2.其他考生（含往届生，自考和网络教育等）：萍乡户籍（提供户籍信息）或在萍乡就业（提供单位工作证明和单位缴纳的社保）或创业（提供纳税凭证）等；</td></tr><tr><td>3605</td><td style="word-break: break-all;">鹰潭市教育考试中心</td><td style="word-break: break-all;">1.2026年应届本科毕业生：驻鹰潭高校、在鹰潭联合培养、成人高校教学点在鹰潭等；2.其他考生（含往届生，自考和网络教育等）：鹰潭户籍（提供户籍信息）或在鹰潭就业（提供单位工作证明和单位缴纳的社保）或创业（提供纳税凭证）等；</td></tr><tr><td>3606</td><td style="word-break: break-all;">新余市教育考试中心</td><td style="word-break: break-all;">1.2026年应届本科毕业生：驻新余高校、在新余联合培养、成人高校教学点在新余等；2.其他考生（含往届生，自考和网络教育等）：新余户籍（提供户籍信息）或在新余就业（提供单位工作证明和单位缴纳的社保）或创业（提供纳税凭证）等；</td></tr><tr><td>3607</td><td style="word-break: break-all;">赣州市教育考试中心</td><td style="word-break: break-all;">1.2026年应届本科毕业生：驻赣州高校、在赣州联合培养、成人高校教学点在赣州等；2.其他考生（含往届生，自考和网络教育等）：赣州户籍（提供户籍信息）或在赣州就业（提供单位工作证明和单位缴纳的社保）或创业（提供纳税凭证）等；</td></tr><tr><td>3608</td><td style="word-break: break-all;">宜春市教育考试中心</td><td style="word-break: break-all;">1.2026年应届本科毕业生：驻宜春高校、在宜春联合培养、成人高校教学点在宜春等；2.其他考生（含往届生，自考和网络教育等）：宜春户籍（提供户籍信息）或在宜春就业（提供单位工作证明和单位缴纳的社保）或创业（提供纳税凭证）等；</td></tr><tr><td>3609</td><td>吉安市教育考试中心</td><td style="word-break: break-all;">1.2026年应届本科毕业生：驻吉安高校、在吉安联合培养、成人高校教学点在吉安等；2.其他考生（含往届生，自考和网络教育等）：吉安户籍（提供户籍信息）或在吉安就业（提供单位工作证明和单位缴纳的社保）或创业（提供纳税凭证）等；</td></tr><tr><td>3610</td><td style="word-break: break-all;">上饶市教育考试中心</td><td style="word-break: break-all;">1.2026年应届本科毕业生：驻上饶高校、在上饶联合培养、成人高校教学点在上饶等；2.其他考生（含往届生，自考和网络教育等）：上饶户籍（提供户籍信息）或在上饶就业（提供单位工作证明和单位缴纳的社保）或创业（提供纳税凭证）等；</td></tr><tr><td>3611</td><td style="word-break: break-all;">抚州市教育考试中心</td><td style="word-break: break-all;">1.2026年应届本科毕业生：驻抚州高校、在抚州联合培养、成人高校教学点在抚州等；2.其他考生（含往届生，自考和网络教育等）：抚州户籍（提供户籍信息）或在抚州就业（提供单位工作证明和单位缴纳的社保）或创业（提供纳税凭证）等；</td></tr><tr><td>3612</td><td>江西财经大学</td><td>预报名仅接收华东交通大学部分2026年应届毕业生报考，预计考位800；剩余考位正式报名期间接收本校2026年应届毕业生报考；总考位4000。</td></tr><tr><td>3613</td><td>江西师范大学</td><td>预报名仅接收江西水利电力大学部分2026年应届毕业生报考，预计考位1000；剩余考位正式报名期间接收本校2026年应届毕业生报考；总考位5000。</td></tr><tr><td>3614</td><td>江西中医药大学</td><td>仅接收本校2026年应届毕业生和江西警察学院、豫章师范学院部分2026年应届毕业生报考，总考位3900。</td></tr><tr><td>3615</td><td>南昌航空大学</td><td>预报名仅接收江西科技师范大学部分2026年应届毕业生报考，预计考位800；剩余考位正式报名期间接收本校2026年应届毕业生报考；总考位3900。</td></tr><tr><td>3616</td><td>共青城市教育考试中心</td><td>仅接收在共青城市区域内2026年高校全日制本科应届毕业生报考（含专升本联合培养的2026年应届本科毕业生），总考位6700，剩余考生请选择九江市教育考试中心报考点报考。</td></tr></tbody></table>
+            </div>
+            <div id="dzz"></div>
+        </div>
+        <div class="content-r">
+            <div class="img-box">
+                <chsi-ad value="687793826"></chsi-ad>
+            </div>
+            <div class="aside-box aside-con-hot">
+                <div class="aside-title">近期热点</div>
+                <div class="aside-con">
+                    <ul class="r_box_txt">
+<li><a href="https://yz.chsi.com.cn/kyzx/zt/lnfsx2026.shtml" style="color: #ff0000"  target="_blank">近五年研考分数线及趋势图（2022-2026）</a></li>
+<li><a href="https://yz.chsi.com.cn/kyzx/zt/tydxs.shtml" target="_blank">退役大学生士兵报考硕士研究生有关招生政策解读</a></li>
+<li><a href="https://yz.chsi.com.cn/kyzx/kydt/202602/20260228/2293449091.html" target="_blank">2026年研考国家线发布</a></li>
+<li><a href="https://yz.chsi.com.cn/kyzx/zt/kyfs.shtml" target="_blank">2026年研考分数查询及复试分数线汇总</a></li>
+<li><a href="https://yz.chsi.com.cn/kyzx/jybzc/202509/20250924/2293432108.html" target="_blank">2026年研招管理规定</a></li>
+<li><a href="https://yz.chsi.com.cn/kyzx/kydt/202509/20250924/2293432116.html" target="_blank">2026研考日程表</a></li>
+</ul>
+
+                </div>
+            </div>
+            <div class="aside-box">
+                <div class="aside-title">招生信息</div>
+                <div class="aside-con">
+                    <chsi-ad value="695740799"></chsi-ad>
+                </div>
+            </div>
+            <div class="aside-box">
+                <div class="aside-title">考研工具箱</div>
+                <div class="aside-con">
+    <div class="aside-con-title">查询</div>
+    <div class="aside-con-item block">
+        <a href="/sch/" target="_blank">院校库</a>
+        <a href="/zyk/" target="_blank">专业库</a>
+        <a href="/zsml/" target="_blank">硕士目录</a>
+        <a href="/sswbgg/" target="_blank">网报公告</a>
+        <a href="/bsmlcx/" target="_blank">博士目录</a>
+        <a href="/help/" target="_blank">帮助中心</a>
+    </div>
+    <div class="aside-con-title">统考</div>
+    <div class="aside-con-item block">
+        <a href="/kyzx/jybzc/202509/20250924/2293432108-4.html" target="_blank">报名条件</a>
+        <a href="/yzwb/" target="_blank">网上报名</a>
+        <a href="/yzwb/#xcqr" target="_blank">网上确认</a>
+        <a href="/yzwb/#zkzxz" target="_blank">下载准考证</a>
+        <a href="/kyzx/zt/kyfs.shtml" target="_blank">分数线</a>
+        <a href="/yztj/" target="_blank">调剂</a>
+    </div>
+    <div class="aside-con-title">推免</div>
+    <div class="aside-con-item block">
+        <a href="https://yz.chsi.com.cn/tm/" target="_blank">推荐系统</a>
+        <a href="/yzzt/tmzn/" target="_blank">申请指南</a>
+        <a href="/yzzt/tmzn/#bmlc" target="_blank">推免流程</a>
+        <a href="/tm/zyml/" target="_blank">专业目录</a>
+        <a href="/tm/" target="_blank">填报志愿</a>
+        <a href="/tm/lqmd/index" target="_blank">信息公开</a>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+    <!-- 4: 底部区域 -->
+    <style>
+        /**
+        * description: footer 共用底部;
+        * author:myx;
+        * date:2017-07;
+        */
+
+        .footer-wrapper {
+            line-height: 30px;
+            background: #282828;
+            color: #ababab;
+        }
+
+        .footer-wrapper a {
+            color: #ababab;
+        }
+
+        .footer-wrapper .footer {
+            position: relative;
+            width: 1180px;
+            height: 198px;
+            margin: 0 auto;
+        }
+
+        .footer-wrapper .footer-list {
+            position: absolute;
+            top: 32px;
+            left: 0px;
+        }
+
+        .footer-wrapper .footer-list a {
+            margin-right: 15px;
+        }
+
+        .footer-wrapper .footer-units {
+            position: absolute;
+            top: 75px;
+            left: 0px;
+        }
+
+        .footer-wrapper .footer-media {
+            position: absolute;
+            top: 32px;
+            left: 844px;
+        }
+
+        .footer-wrapper .footer-media a {
+            display: inline-block;
+            margin-right: 30px;
+            vertical-align: top;
+        }
+
+        .footer-wrapper .footer-media a:hover {
+            text-decoration: none;
+        }
+
+        .footer-wrapper .footer-media .iconfont {
+            margin-right: 5px;
+            font-size: 20px;
+            vertical-align: middle;
+        }
+
+        .footer-wrapper .svg-icon {
+            display: inline-block;
+            width: 20px;
+            height: 23px;
+            margin-right: 3px;
+            vertical-align: middle;
+        }
+
+        .footer-wrapper svg use {
+            color: #ababab;
+        }
+
+        .footer-wrapper .footer-msg {
+            position: absolute;
+            top: 75px;
+            left: 844px;
+        }
+    </style>
+    <svg style="display: block; width: 0; height: 0">
+        <defs>
+            <symbol id="weibo" viewBox="0 0 16 16">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g transform="translate(-139.000000, -4036.000000)" fill="currentColor" fill-rule="nonzero">
+                        <g transform="translate(139.000000, 4036.000000)">
+                            <rect opacity="0" x="0" y="0" width="16" height="16"></rect>
+                            <path
+                                d="M10.565,3.6325 C10.565,3.6325 12.335,3.445 13.0875,4.5425 C13.84,5.64 13.515,7.02 13.515,7.02 C13.4949253,7.12321653 13.5233752,7.22993417 13.5921672,7.30945968 C13.6609592,7.38898519 13.7624686,7.43250415 13.8675,7.4275 L14.0425,7.4275 C14.2747485,7.42111375 14.4682944,7.24766281 14.5,7.0175 C14.5,7.0175 14.9075,4.8525 13.65,3.6475 C12.67,2.705 11.3275,2.6025 10.79,2.6025 L10.5525,2.6025 C10.3240422,2.60790517 10.1412883,2.79398193 10.1399581,3.0225 L10.1399581,3.2275 C10.1383884,3.33892927 10.183335,3.44597927 10.264011,3.52285878 C10.3446871,3.59973829 10.4537777,3.63947671 10.565,3.6325 L10.565,3.6325 Z M7.08,11.845 C8.315,11.595 9.15,10.565 8.9475,9.5225 C8.7725,8.625 7.8875,8.0225 6.8575,8.0225 C6.6895953,8.02269714 6.52211889,8.03944478 6.3575,8.0725 C5.1225,8.3225 4.2875,9.3525 4.49,10.395 C4.6925,11.4375 5.8475,12.085 7.08,11.845 Z M7.115,9.1625 C7.27228055,9.15431868 7.41868486,9.24275691 7.48462743,9.38578027 C7.55057,9.52880363 7.52275233,9.69756891 7.41439607,9.8118625 C7.3060398,9.9261561 7.13899693,9.96292865 6.99266239,9.90470229 C6.84632786,9.84647593 6.75021264,9.70499305 6.75,9.5475 C6.7484414,9.34193445 6.90964354,9.17189932 7.115,9.1625 L7.115,9.1625 Z M5.75,9.765 C6.13,9.5875 6.5475,9.6775 6.68,9.9675 C6.8125,10.2575 6.625,10.635 6.25,10.8125 C6.12707576,10.8701293 5.99325221,10.9008149 5.8575,10.9025 C5.63577697,10.9190371 5.42511864,10.80342 5.32,10.6075 C5.18,10.32 5.3775,9.9425 5.75,9.765 Z"></path>
+                            <path
+                                d="M7.305,13.3975 C10.555,13.3975 13.155,11.675 13.155,9.5475 C13.155,7.7525 10.94,7.7525 10.94,7.635 C10.94,7.5175 12.045,6.4775 10.94,5.8275 C10.28,5.4375 9.29,5.6375 8.615,5.8275 C8.37593476,5.92066948 8.13025327,5.9958781 7.88,6.0525 C8.75,4.535 7.51,4.0525 6.88,4.0525 C5.38,4.0525 1.4325,7.41 1.4325,9.535 C1.4325,11.66 4.06,13.3975 7.305,13.3975 L7.305,13.3975 Z M6.7675,7.2625 C8.84,6.97 10.6775,7.845 10.87,9.2125 C11.0625,10.58 9.5375,11.9275 7.4625,12.2125 C7.19993139,12.2492176 6.93512346,12.2675954 6.67,12.2675004 C4.94,12.2675004 3.53,11.4525 3.3625,10.2675 C3.17,8.9 4.695,7.5525 6.7675,7.2625 L6.7675,7.2625 Z"></path>
+                            <path
+                                d="M12.1975,6.94 L12.4475,6.94 C12.6059157,6.93686389 12.7404701,6.82317064 12.77,6.6675 C12.77,6.6675 13.065,5.525 12.38,4.9 C12.0543816,4.60954157 11.6312754,4.45243883 11.195,4.46 C11.06222,4.45779075 10.9296415,4.47121643 10.8,4.5 C10.6460069,4.52717522 10.5322284,4.65869897 10.5275,4.815 L10.5275,4.9225 C10.523244,4.99648918 10.5520351,5.06855315 10.6061021,5.11924105 C10.6601692,5.16992894 10.7339389,5.19401568 10.8075,5.185 C10.8075,5.185 11.5575,5.0825 11.9225,5.5225 C12.2875,5.9625 12.0025,6.675 12.0025,6.675 C11.9769169,6.73717397 11.9856249,6.80819055 12.0254718,6.86234147 C12.0653188,6.9164924 12.1305304,6.94593085 12.1975,6.94 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </symbol>
+            <symbol id="weixin" viewBox="0 0 17 16">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g transform="translate(-118.000000, -4036.000000)" fill-rule="nonzero">
+                        <g transform="translate(118.000000, 4036.000000)">
+                            <rect fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                            <path
+                                d="M6.33075,2 C3.4003125,2 1,3.99745313 1,6.53370312 C1,7.99773437 1.7986875,9.19954687 3.13267188,10.1306562 L2.5995,11.734625 L4.46289062,10.7997656 C5.129875,10.9321719 5.6646875,11.0676406 6.33003125,11.0676406 C6.49725,11.0676406 6.66329688,11.0594062 6.8276875,11.0462344 C6.72373438,10.6894531 6.66329688,10.3164531 6.66329688,9.92932812 C6.66329688,7.6016875 8.66332812,5.71171875 11.1955781,5.71171875 C11.3682031,5.71171875 11.5391875,5.72442187 11.709,5.74323437 C11.2477969,3.59573437 8.95190625,2 6.33075,2 L6.33075,2 Z M4.5990625,5.5990625 C4.19971875,5.5990625 3.796375,5.33142188 3.796375,4.93184375 C3.796375,4.53060938 4.19971875,4.26673438 4.5990625,4.26673438 C4.99840625,4.26673438 5.26464063,4.53085938 5.26464063,4.93184375 C5.26440625,5.33142188 4.99840625,5.59907813 4.5990625,5.59907813 L4.5990625,5.5990625 Z M8.32984375,5.5990625 C7.93025,5.5990625 7.52925,5.33142188 7.52925,4.93184375 C7.52925,4.53060938 7.93025,4.26673438 8.32982812,4.26673438 C8.73129687,4.26673438 8.9970625,4.53085938 8.9970625,4.93184375 C8.9970625,5.33142188 8.7310625,5.59907813 8.32982812,5.59907813 L8.32984375,5.5990625 Z M16.061125,9.86559375 C16.061125,7.73575 13.9284688,5.99865625 11.5333125,5.99865625 C8.9970625,5.99865625 6.999375,7.73575 6.999375,9.86559375 C6.999375,12.0001562 8.9970625,13.7337187 11.5333125,13.7337187 C12.064125,13.7337187 12.5991719,13.600125 13.1325781,13.4663125 L14.5949687,14.2668906 L14.1939844,12.9345469 C15.2638438,12.1323281 16.061125,11.067875 16.061125,9.86559375 L16.061125,9.86559375 Z M10.0631563,9.19954687 C9.797625,9.19954687 9.52975,8.93590625 9.52975,8.66660938 C9.52975,8.400625 9.797625,8.13296875 10.0631563,8.13296875 C10.4665,8.13296875 10.7303906,8.400625 10.7303906,8.66660938 C10.7303906,8.93590625 10.4665,9.19954687 10.0631563,9.19954687 Z M12.9954687,9.19954687 C12.7318281,9.19954687 12.4658281,8.93590625 12.4658281,8.66660938 C12.4658281,8.400625 12.7318281,8.13296875 12.9954687,8.13296875 C13.3948125,8.13296875 13.6626875,8.400625 13.6626875,8.66660938 C13.6626875,8.93590625 13.3948125,9.19954687 12.9954687,9.19954687 Z"
+                                fill="currentColor"></path>
+                        </g>
+                    </g>
+                </g>
+            </symbol>
+        </defs>
+    </svg>
+    <div class="footer-wrapper">
+        <div class="footer">
+            <div class="footer-list">
+                <a href="//www.chsi.com.cn/" target="_blank">学信网</a>
+                <a href="https://chesicc.chsi.com.cn/zxgw/zxjs/201604/20160418/1529506207.html" target="_blank">中心简介</a>
+                <a href="/doc/about.jsp" target="_blank">关于我们</a>
+                <a href="/doc/copyright.jsp" target="_blank">版权声明</a>
+                <a href="/help/" target="_blank">帮助中心</a>
+                <a href="/sitemap.jsp" target="_blank">网站地图</a>
+                <a href="https://www.chsi.com.cn/ad/202403/20240322/2293272455.html" target="_blank">网站宣传</a>
+            </div>
+            <div class="footer-units">
+                主办单位：<a href="https://chesicc.chsi.com.cn/" target="_blank">教育部学生服务与素质发展中心</a><br>
+                Copyright © 2003-2026 <a href="//www.chsi.com.cn/" target="_blank">学信网</a> All Rights Reserved<br>
+                <a href="https://beian.miit.gov.cn" target="_blank">京ICP备19004913号-1</a>
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010202009747" target="_blank">
+                    <img src="https://t1.chei.com.cn/chsi/images/jgwab.svg" style="vertical-align: middle; margin-bottom: 2px; margin-left: 8px;">
+                    京公网安备11010202009747号
+                </a>
+            </div>
+            <div class="footer-media">
+                <a href="/kyzx/kp/wbwx.shtml" target="_blank">
+                    <svg class="svg-icon">
+                        <use xlink:href="#weixin"></use>
+                    </svg>
+                    官方微信
+                </a>
+                <a href="/kyzx/kp/wbwx.shtml" target="_blank">
+                    <svg class="svg-icon">
+                        <use xlink:href="#weibo"></use>
+                    </svg>
+                    官方微博
+                </a>
+            </div>
+            <div class="footer-msg">
+                客服热线：010-67410388<br>
+                客服邮箱：kefu@chsi.com.cn
+            </div>
+        </div>
+    </div>
+    <script src="https://t1.chei.com.cn/common/js/goToTop.js"></script>
+    <script src="https://t1.chei.com.cn/common/ch/browser/not-ie.min.js"></script>
+    <script src="https://t1.chei.com.cn/common/js/dianzan.js"></script>
+    <script>
+        var gtt = new CreatGoToTop('jsGoToTop');
+        gtt.goToTop();
+        // 解决页面中写style无效问题
+        var styleTagNodeList = document.querySelector("#app").querySelectorAll('style');
+        for(var i = 0; i < styleTagNodeList.length; ++i){
+            document.body.appendChild(styleTagNodeList[i]);
+        }
+        Vue.component('chsi-ad', {
+            props: ['value'],
+            computed: {
+                id: function () {
+                    return "chsi_slot_div_" + this.value;
+                },
+                frameId: function () {
+                    return "chsi_slot_iframe_" + this.value;
+                },
+                frameSrc: function () {
+                    var axvertUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 't4.chei.com.cn';
+                    return axvertUrl + '/axv/' + this.value + '.html';
+                }
+            },
+            template: '<div v-once v-bind:id="id" v-bind:ndata="value"><iframe v-bind:id="frameId" v-bind:src="frameSrc"  vspace="0" hspace="0" allowTransparency="true" scrolling="no" marginHeight="0" marginWidth="0" frameborder="0" style="border: 0; vertical-align: bottom; margin: 0; display: block;"></iframe></div>',
+        });
+        new Vue({
+            el: '#app',
+            data: function() {
+                return {
+                    fontSize: 2,
+                    recordUrl: 'https://www.chsi.com.cn/snsshare.jsp',
+                    userId: '',
+                }
+            },
+            methods: {
+                fontUp: function() {
+                    if (this.fontSize<4) {
+                        this.fontSize++;
+                    }
+                },
+                fontDown: function() {
+                    if (this.fontSize>1) {
+                        this.fontSize--;
+                    }
+                },
+                share: function(target) {
+                    var url = encodeURIComponent(location.href.replace(/[\<\>\"\'\[\]\(\)]/g, ''));
+                    var title = encodeURIComponent(document.title);
+                    var weiboUrl = this.recordUrl +"?url="+url+"&title="+title+"&target="+target+"&userId="+this.userId;
+                    window.open(weiboUrl, '_blank', 'width=600,height=400');
+                },
+                initNews: function () {
+                    var _article_bd = document.getElementById('article_dnull');
+                    _article_bd.innerHTML = _article_bd.innerHTML.replace(/^<p(.+?)>(\s+)/gim, '<p$1>');
+                    //解决锚点滚动失效问题
+                    var hash = window.location.hash;
+                    if (hash) {
+                        // 获取对应ID的DOM元素
+                        var element = document.querySelector(hash);
+                        if (element) {
+                            // 滚动到元素位置
+                            element.scrollIntoView({ behavior: 'smooth' });
+                        }
+                    }
+                }
+            },
+            mounted: function() {
+                var _this = this;
+                _this.$nextTick(function() {
+                    _this.initNews();
+                    showDianZan('dzz', 2293437645, '#1887e0');
+                });
+            }
+        });
+    </script>
+</body>
+</html>

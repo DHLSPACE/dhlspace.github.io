@@ -133,6 +133,8 @@ class Discovery:
         from library import institutions
         for row in institutions(self.store):
             if any(n in query or query in n for n in [row['school']]+row.get('aliases',[])):
+                for entry in row.get('entries',[]):
+                    candidates.append(dict(title=row['school']+' · '+entry['label'],url=entry['url'],school=row['school'],source_type='学院官网' if entry.get('kind')=='院系' else '研究院/研究所' if row['tier']=='研究所' else '学校研招网',via=entry.get('status','待核验')))
                 candidates.append(dict(title=row['school']+' · 官网入口',url=row['url'],school=row['school'],
                     source_type='研究院/研究所' if row['tier']=='研究所' else '学校研招网',via=row['entry_status']))
         if candidates:

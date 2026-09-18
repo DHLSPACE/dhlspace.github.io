@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>上海交通大学化学化工学院关于申请授予硕士、博士学位的实施细则（试行）-上海交通大学化学化工学院</title>
+    <meta name="keywords" content="上海交通大学化学化工学院" />
+    <meta name="description" content="上海交通大学化学化工学院" />
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/bs/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="/css/public.css?v=1.0.7"/>
+    <link type="text/css" rel="stylesheet" href="/css/css.css?v=1.0.7"/>
+    <script src="/js/jquery-3.5.1.js"></script>
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="/css/swiper.min.css">
+    <script src="/js/swiper.min.js"></script>
+    <script src="/bs/js/bootstrap.min.js"></script>
+    <script src="/js/scrollbar.js"></script>
+    <!-- 美化alert -->
+    <link rel="stylesheet" href="/public/js/alert/BeAlert.css">
+    <script src="/public/js/alert/BeAlert.js"></script>
+    <script type="text/javascript">
+        function search_validate(){
+            if(document.getElementById('search_keywords').value == ''){
+                alert('请输入搜索关键字');
+                return false;
+            }
+        }
+    </script>
+    <!--视频-->
+    <link href="/public/css/css.css?v=1.0.7" rel="stylesheet">
+    <link href="/public/css/video-js.css" rel="stylesheet">
+    <script src="/public/js/video.min.js"></script> 
+    <script src="/public/js/zh-CN.js"></script>
+    <!-- 美化alert -->
+    <link href="/public/js/jqueryxtiper/css/xtiper.css" type="text/css" rel="stylesheet" />
+    <script src="/public/js/jqueryxtiper/js/xtiper.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="top">
+        <div class="main">
+            <a href="/" title="" class="logo"></a>
+            <span class="menu2" id="menu2"><a href="javascript:void(0)">&nbsp;</a></span>
+        </div>
+    </div>
+    <div id=navk>
+        <div class="main">
+            <div class="top_r">
+                <div class="top_yy">
+                    <div class="ss">
+                        <form method="get" action="https://scce.sjtu.edu.cn/active/search.html" onsubmit="return search_validate();">
+                        <div class="txtk">
+                            <input type="text" class="form-control" placeholder="Search" id="search_keywords" name="search_keywords">
+                            <button class="an_ss" type="submit"></button>
+                        </div>
+                        </form>
+                    </div>
+                    <div class="top_nav">
+                        <a href="https://scce.sjtu.edu.cn/user/jaccount_login.html">使用jAccount登录</a>|<a href="/en">English</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="menu">
+                <!--当前栏目请在Li里引用on-->
+                <!-- <li class=""><a href="/" class="dbt">首页</a></li> -->
+                                <li class=""><a href="https://scce.sjtu.edu.cn/ddscce.html" class="dbt">读懂SCCE</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xyinfo.html">学院简介</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/yzjy.html">院长寄语</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xyld.html">领导班子</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xywyh.html">学院委员会</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xszx.html">系所中心</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/szdw.html" class="dbt">师资队伍</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gk.html">概况</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/lyys.html">两院院士</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/teachers.html">教师名录</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xzry.html">行政人员</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class="on"><a href="https://scce.sjtu.edu.cn/rcpy.html" class="dbt">人才培养</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/rcpygk.html">概况</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/bks.html">本科生</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/yjs.html">研究生</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xsgz.html">学生工作</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/kxyj.html" class="dbt">科学研究</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/kycg.html">科研成果</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/sysgl.html">实验室管理</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/xyysh.html" class="dbt">校友与社会</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/byzp.html">毕业照片</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xyml.html">校友名录</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xyfc.html">校友风采</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/fzjj.html">SCCE发展基金</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/lxwm.html">联系我们</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/gjhz.html" class="dbt">国际合作</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/wszn.html">外事指南</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/hwyxxm.html">海外游学项目</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/zsgz.html" class="dbt">招生工作</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/zsbks.html">本科生</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/zsyjs.html">研究生</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/zsmem.html">MEM</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/djyd.html" class="dbt">党建园地</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd7.html">中央八项规定精神学习</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd4.html">党纪学习</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd3.html">第二次党代会</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd1.html">党的二十大</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd2.html">主题教育</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/jgzjj.html">工会队伍</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/jgzj.html">教工之家</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/djyddjdw.html">党建队伍</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/djhdd.html">党建活动</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/llxx.html">理论学习</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd.html">规章制度</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/banshi.html" class="dbt">办事指南</a>
+                                    </li>
+                            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="top_jg"></div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var pk = document.body.clientWidth;
+            if (pk < 1200) {
+                //手机菜单
+                $("#menu2").click(function () {
+                    if ($("#navk").css("display") == "none") {
+                        $(this).find("a").addClass("on");
+                        $("#navk").css("display", "block").stop().animate({left: '0%'});
+                    } else {
+                        $(this).find("a").removeClass("on");
+                        $("#navk").css("display", "none").stop().animate({left: '100%'});
+                    }
+                });
+            } else {
+                //下拉
+                $(".menu li").hover(function () {
+                    $(this).find("dl").stop().css("display", "block").animate({
+                        opacity: '1',
+                    });
+                }, function () {
+                    $(this).find("dl").stop().css("display", "none").animate({
+                        opacity: '0',
+                    });
+                });
+            }
+        });
+    </script>
+<div class="ny_ban" style='background-image:url("/images/ban_cd3.jpg")'></div>
+
+<div class="lm1k">
+    <div class="main">
+        <div class="lm1_bt mob"><a href="javascript:void(0)" id="cd_lm">人才培养</a></div>
+        <ul class="lm1 left" id="lm">
+                        <li><a href="https://scce.sjtu.edu.cn/rcpygk.html" class="">概况</a></li>
+                        <li><a href="https://scce.sjtu.edu.cn/bks.html" class="">本科生</a></li>
+                        <li><a href="https://scce.sjtu.edu.cn/yjs.html" class="on">研究生</a></li>
+                        <li><a href="https://scce.sjtu.edu.cn/xsgz.html" class="">学生工作</a></li>
+                    </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $("#cd_lm").click(function () {
+        if ($("#lm").css("display") == "none") {
+            $(this).addClass("on");
+            $("#lm").slideDown("slow");
+        } else {
+            $(this).removeClass("on");
+            $("#lm").slideUp("slow");
+        }
+    });
+</script>
+
+<div class="ny">
+        <div class="main">
+        <div class="ny_k3 mh">
+            <div class="sbt">上海交通大学化学化工学院关于申请授予硕士、博士学位的实施细则（试行）</div>
+            <div class="ssj">
+                                                                日期：2025-09-23<em class="em1"></em>
+                                阅读：18525            </div>
+            <div class="ab_nr mh md50">
+                <!--视频-->
+				<div class="my-video2-div">
+									</div>
+                <p style=";text-align:center"><span style=";font-family:方正小标宋简体;font-size:27px">上海交通大学化学化工学院关于申请授予</span></p><p style=";text-align:center"><span style=";font-family:方正小标宋简体;font-size:27px">硕士、博士学位的实施细则（试行）</span></p><p style="margin-bottom:16px;text-align:center"><strong><span style=";font-family:黑体;font-size:21px"><span style="font-family:黑体">第一章</span> <span style="font-family:黑体">总</span> &nbsp;<span style="font-family:黑体">则</span></span></strong></p><p style="text-indent:43px"><strong><span style=";font-family:华文仿宋;font-size:21px">第一条</span></strong><strong><span style=";font-family:仿宋_GB2312;font-size:21px">&nbsp;</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">为规范本学院硕士、博士学位授予工作，保障学位质量，保护学位申请人的合法权益，根据《中华人民共和国学位法》、《上海交通大学关于申请授予学位的规定（试行）》（沪交研〔</span><span style="font-family:仿宋_GB2312">2024〕72号），结合本学院实际情况，制定本细则。</span></span></p><p style="text-indent:43px"><strong><span style=";font-family:华文仿宋;font-size:21px">第</span></strong><strong><span style=";font-family:华文仿宋;font-size:21px">二</span></strong><strong><span style=";font-family:华文仿宋;font-size:21px">条</span></strong><strong><span style=";font-family:仿宋_GB2312;font-size:21px">&nbsp;</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">拥护中国共产党的领导，拥护社会主义制度，遵守宪法和法律及学校规章制度，遵守学术道德和学术规范，达到学校和学院相应学位的学业要求、学术水平或者专业水平的学位申请人，可按照本细则申请授予相应学位。</span></p><p style="margin-bottom:16px;text-align:center"><strong><span style=";font-family:黑体;font-size:21px"><span style="font-family:黑体">第二章</span> <span style="font-family:黑体">学位授予条件</span></span></strong></p><p style="text-indent:43px"><strong><span style=";font-family:华文仿宋;font-size:21px">第</span></strong><strong><span style=";font-family:华文仿宋;font-size:21px">三</span></strong><strong><span style=";font-family:华文仿宋;font-size:21px">条</span></strong><strong><span style=";font-family:仿宋_GB2312;font-size:21px">&nbsp;</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">接受硕士研究生教育，在规定的学习年限内通过规定的课程考核或者修满相应学分，完成学术研究训练或者专业实践训练，通过学位论文或实践成果答辩，表明学位申请人达到下列水平的，授予硕士学位：</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">（一）在本学科或者专业领域掌握坚实的基础理论和系统的专门知识；</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">（二）学术学位申请人应当具有从事学术研究工作的能力，专业学位申请人应当具有承担专业实践工作的能力。</span></p><p style="text-indent:43px"><strong><span style=";font-family:华文仿宋;font-size:21px">第四条</span></strong><strong><span style=";font-family:仿宋_GB2312;font-size:21px">&nbsp;</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">接受博士研究生教育，在规定的学习年限内通过规定的课程考核或者修满相应学分，完成学术研究训练或者专业实践训练，通过学位论文或实践成果答辩，表明学位申请人达到下列水平的，授予博士学位：</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">（一）在本学科或者专业领域掌握坚实全面的基础理论和系统深入的专门知识；</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">（二）学术学位申请人应当具有独立从事学术研究工作的能力，专业学位申请人应当具有独立承担专业实践工作的能力；</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">（三）学术学位申请人应当在学术研究领域做出创新性成果，专业学位申请人应当在专业实践领域做出创新性成果。</span></p><p style="margin-bottom:16px;text-indent:43px"><strong><span style=";font-family:华文仿宋;font-size:21px">第五条</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">&nbsp;<span style="font-family:仿宋_GB2312">学位论文是评定硕士、博士学术学位的主要依据，学位论文或者规定的实践成果是评定硕士、博士专业学位的主要依据。学位论文或者实践成果应符合学院及学科、专业的相关规定。</span></span></p><p style="margin-bottom:16px;text-indent:43px"><strong><span style=";font-family:华文仿宋;font-size:21px">第六条</span></strong><strong><span style="font-family: 仿宋_GB2312;font-size: 21px">&nbsp;</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">博士学位论文或者实践成果的创新性可通过高水平学术论文、专著、专利、作品、科技奖励、行业标准、案例或研究报告等多种形式呈现。具体要求及认定办法按照</span><span style=";font-family:仿宋_GB2312;font-size:21px">“化学化工学院博士学位（学术学位）授予标准”及“化学化工学院博士学位（专业学位）授予标准”。实践成果具体认定标准参照全国工程专业学位研究生教育指导委员会颁布的《工程类博士专业学位研究生学位论文与申请学位实践成果基本要求（试行）》。</span></p><p style="margin-bottom:16px;text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">&nbsp;</span></p><p style="margin-bottom:16px;text-align:center"><strong><span style=";font-family:黑体;font-size:21px"><span style="font-family:黑体">第三章</span> <span style="font-family:黑体">学位授予程序</span></span></strong></p><p style="text-indent:43px"><strong><span style=";font-family:华文仿宋;font-size:21px">第</span></strong><strong><span style=";font-family:华文仿宋;font-size:21px">七</span></strong><strong><span style=";font-family:华文仿宋;font-size:21px">条</span></strong><strong><span style=";font-family:仿宋_GB2312;font-size:21px">&nbsp;</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">博士学位论文或实践成果预答辩由所在学科组织，一般由所在课题组具体负责实施。预答辩合格者可进入学位论文或实践成果评阅。预答辩应符合以下要求：</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">（一）</span><span style=";font-family:仿宋_GB2312;font-size:21px">申请预答辩之前，导师应客观公正地评价博士生创新成果水平和学位论文质量，并给出是否同意学位论文预答辩的意见。</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">（二）聘请专家组成预答辩小组，其组成人员应当为不少于五人的单数，其中专业学位预答辩小组原则上应当有行业或者企业专家参与。预答辩小组专家应具有高级专业技术职务或者博士生培养资质。</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">（三）预答辩会包括但不限于以下程序：</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">1．学位申请人重点对学位论文或实践成果的创新性、关键性结论进行论证，导师对研究情况作全面介绍。</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">2．预答辩小组成员对学位论文或者实践成果进行评议并得出以下结论：</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">合格：提交评阅；</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">基本合格：修改后经导师审核，通过后提交评阅；</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">不合格：全面修改后经导师审核，通过后重新进行预答辩。</span></p><p style="text-indent:43px"><strong><span style="font-family: 华文仿宋;font-size: 21px">第八条</span></strong><strong><span style="font-family: 仿宋_GB2312;font-size: 21px">&nbsp;</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">学位论文评阅流程及要求参照《化学化工学院研究生学位论文评阅办法（试行）》执行。</span><span style=";font-family:仿宋_GB2312;font-size:21px">实践成果评阅形式将视具体情况另行规定。</span></p><p style="text-indent:43px"><strong><span style="font-family: 华文仿宋;font-size: 21px">第</span></strong><strong><span style="font-family: 华文仿宋;font-size: 21px">九</span></strong><strong><span style="font-family: 华文仿宋;font-size: 21px">条</span></strong><strong><span style="font-family: 仿宋_GB2312;font-size: 21px">&nbsp;</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">硕士学位</span><span style=";font-family:仿宋_GB2312;font-size:21px">论文或实践成果</span><span style=";font-family:仿宋_GB2312;font-size:21px">答辩由学院按照学科、专业组织。博士学位论文</span><span style=";font-family:仿宋_GB2312;font-size:21px">或实践成果</span><span style=";font-family:仿宋_GB2312;font-size:21px">答辩由学科组织并由所在课题组具体实施。通过学位论文或实践成果评阅，满足学院相应学位类别关于学位论文或实践成果的创新性要求，可在学校规定的最长学习年限（含结业转毕业年限）内申请并通过答辩。答辩应符合以下要求：</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">（一）聘请专家组成答辩委员会。硕士学位论文答辩委员会组成人员应当为不少于三人的单数，答辩专家原则上应具有高级专业技术职务，并有硕士生培养资质。答辩委员会主席应为</span><span style=";font-family:仿宋_GB2312;font-size:21px">具有正高</span><span style=";font-family:仿宋_GB2312;font-size:21px">级专业技术职务</span><span style=";font-family:仿宋_GB2312;font-size:21px">的</span><span style=";font-family:仿宋_GB2312;font-size:21px">专家。专业学位答辩委员会原则上应有行业或者企业专家参与。博士学位答辩委员会组成人员应当为不少于五人的单数，其中校外专家不少于两人，专家应具有高级专业技术职务或者博士生培养资质。专业学位答辩委员会原则上应有行业或者企业专家参与。博士研究生导师可参加答辩会，但一般不作为答辩委员会成员。</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">学位论文或实践成果应当在答辩前送答辩委员会组成人员审阅，答辩委员会组成人员应当独立负责地履行职责。</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">（二）硕士学位论文或实践成果答辩秘书由学院或所在学科指定；博士学位论文或实践成果答辩秘书一般由导师指定。答辩秘书应为本校教职工。答辩秘书负责答辩材料的准备、协调答辩组织工作及答辩后材料汇总等工作。</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">（三）答辩会应遵循</span><span style="font-family:仿宋_GB2312">“坚持标准、保证质量、公正合理”的原则，发扬学术民主，以公开方式进行（涉密学位论文或实践成果答辩按照相关规定执行）。答辩会包括但不限于以下程序：</span></span></p><p><span style=";font-family:仿宋_GB2312;font-size:21px">1．学位申请人报告学位论文或实践成果的主要内容；</span></p><p><span style=";font-family:仿宋_GB2312;font-size:21px">2．学位申请人介绍学位论文或实践成果研究工作、评阅意见等情况；</span></p><p><span style=";font-family:仿宋_GB2312;font-size:21px">3．答辩委员会成员提问，学位申请人答辩；</span></p><p><span style=";font-family:仿宋_GB2312;font-size:21px">4．答辩委员会就学位申请人是否通过答辩形成决议。</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">（四）学位论文或实践成果答辩以投票方式表决，由答辩委员会全体组成人员的三分之二以上通过。同时硕士学位论文或实践成果答辩由答辩委员会对本组学生的答辩进行排序，原则上本组最末一位的学生须参加第二次答辩。</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">答辩通过的，建议授予博士、硕士学位并报送学院学位评定委员会审议。答辩未通过的，经答辩委员会同意，可在学校规定的最长学习年限（含结业转毕业年限）内重新申请并通过答辩。</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">博士学位答辩委员会认为学位申请人虽未达到博士学位的水平，但已达到硕士学位的水平，且申请人尚未获得过我校该学科、专业硕士学位的，经学位申请人同意，可作出建议授予硕士学位的决议，报送学院学位评定委员会审议。</span></p><p style="text-indent:43px"><strong><span style="font-family: 华文仿宋;font-size: 21px">第十条</span></strong><strong><span style=";font-family:仿宋_GB2312;font-size:21px">&nbsp;</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">硕士、博士学位申请人通过答辩后，应在学院规定的学位申请截止日期前提交学院要求的相关材料申请相应学位。</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">学院自学位申请日期截止之日起六十日内审查决定是否受理申请，并通知申请人。</span></p><p style="text-indent:43px"><strong><span style="font-family: 华文仿宋;font-size: 21px">第十一条</span></strong><strong><span style=";font-family:仿宋_GB2312;font-size:21px">&nbsp;</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">硕士、博士学位授予由学院学位评定委员会及学部学位评定委员会审核、学校学位评定委员会审定：</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">（一）学院学位评定委员会对学位申请进行审议并投票表决，由全体组成人员的过半数通过，作出建议授予硕士、博士学位的决议；未过半数者，暂缓授予硕士、博士学位；同时，博士学位应提出百分之十左右的申请人作为重点审议名单，一并报送学部学位评定委员会。</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">（二）学部学位评定委员会对各学院学位评定委员会建议授予硕士、博士学位人员名单进行审议并投票表决，由全体组成人员的过半数通过，作出授予硕士、博士学位的决议；未过半数者，暂缓授予硕士、博士学位；名单一并报送学校学位评定委员会。</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">（三）学校学位评定委员会审定各学部学位评定委员会上报名单，并作出是否授予或者暂缓授予硕士、博士学位的决议，公布授予学位的人员名单，颁发学位证书，并向省级学位委员会报送学位授予信息。</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">暂缓授予硕士、博士学位的，学位申请人可根据学位评定委员会意见和要求修改论文，在学校规定的最长学习年限（含结业转毕业年限）内重新申请学位。</span></p><p style="margin-bottom:16px;text-indent:43px"><strong><span style="font-family: 华文仿宋;font-size: 21px">第十二条</span></strong><strong><span style=";font-family:仿宋_GB2312;font-size:21px">&nbsp;</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">硕士、博士学位申请人应在学院规定的截止时间内提交学位论文或实践成果、学位申请表、答辩决议书等学位归档材料原件至学院教务办公室，学院教务办公室应及时将学位申请及授予材料提交至相关部门归档保存。</span></p><p style="margin-bottom:16px;text-align:center"><strong><span style=";font-family:黑体;font-size:21px"><span style="font-family:黑体">第四章</span> <span style="font-family:黑体">申诉与复核</span></span></strong></p><p style="text-indent:43px"><strong><span style="font-family: 华文仿宋;font-size: 21px">第十三条</span></strong><strong><span style=";font-family:仿宋_GB2312;font-size:21px">&nbsp;</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">学位申请人对学位论文或实践成果预答辩、专家评阅、答辩、成果认定等过程中相关学术组织或者人员作出的学术评价结论有异议的，可在通知送达之日起十日内，向学院教务办公室申请学术复核，复核申请以书面形式提出，</span><span style=";font-family:仿宋_GB2312;font-size:21px">提交材料清单如下：</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">1. 申请书（含申请人信息、</span><span style=";font-family:仿宋_GB2312;font-size:21px">复议</span><span style=";font-family:仿宋_GB2312;font-size:21px">内容及理由）</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">2. 原评阅意见/答辩决议/成果认定决议</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">3. 导师意见</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">4. 其他支撑材料</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">复核申请书应由本人签名。学院自受理学术复核申请之日起三十日内重新组织专家进行复核并作出复核决定。复核专家组组成人员为不少于三人的单数，其中一位为其他院（系）或者校外专家。复核专家应当具有中立性，此前参与过该学位申请人既往学术评价的专家应当回避。复核决定为最终决定。复核决定由学院教务办公室负责通知学位申请人。</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px"><span style="font-family:仿宋_GB2312">学术复核会评审费，博士生专家评审费为</span><span style="font-family:仿宋_GB2312">800元/人；硕士生专家评审费为400元/人，由学术复核申请人导师承担。</span></span></p><p style="text-indent:43px"><strong><span style="font-family: 华文仿宋;font-size: 21px">第十四条</span></strong><strong><span style=";font-family:仿宋_GB2312;font-size:21px">&nbsp;</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">学位申请人或者学位获得者对不受理其学位申请、不授予其学位或者撤销其学位等行为不服的，可在通知送达之日起十日内，以书面形式向学校学位评定委员会办公室申请复核，或者请求有关机关依照法律规定处理。</span></p><p style="margin-bottom:16px;text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">学位申请人或者学位获得者申请复核的，学校学位评定委员会应当自受理复核申请之日起三十日内进行复核并作出复核决定。</span></p><p style="margin-bottom:16px;text-align:center"><strong><span style=";font-family:黑体;font-size:21px"><span style="font-family:黑体">第五章</span> <span style="font-family:黑体">附</span> &nbsp;<span style="font-family:黑体">则</span></span></strong></p><p style="text-indent:43px"><strong><span style="font-family: 华文仿宋;font-size: 21px">第十五条</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">&nbsp;<span style="font-family:仿宋_GB2312">学位申请人、学位获得者在攻读该学位过程中有下列情形之一的，经学校学位评定委员会决议，不授予学位或者撤销学位：</span></span></p><p><span style=";font-family:仿宋_GB2312;font-size:21px">（一）学位论文或者实践成果被认定为存在代写、剽窃、伪造等学术不端行为；</span></p><p><span style=";font-family:仿宋_GB2312;font-size:21px">（二）盗用、冒用他人身份，顶替他人取得的入学资格，或者以其他非法手段取得入学资格、毕业证书；</span></p><p><span style=";font-family:仿宋_GB2312;font-size:21px">（三）攻读期间存在依法不应当授予学位的其他严重违法行为。</span></p><p style="text-indent:43px"><span style=";font-family:仿宋_GB2312;font-size:21px">对拟作出不授予学位或者撤销学位决定的，由学院告知学位申请人或者学位获得者拟作出决定的内容及事实、理由、依据，组织听证会，听取其陈述和申辩。学院聘请专家组成听证会专家组，专家应具有中立性，其组成人员应当为不少于五人的单数，其中至少应包括学部学位评定委员会委员一人、其他院（系）或者校外专家一人。</span></p><p style="text-indent:43px"><strong><span style="font-family: 华文仿宋;font-size: 21px">第十六条</span></strong><strong><span style=";font-family:仿宋_GB2312;font-size:21px">&nbsp;</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">本细则自发布之日起施行。</span></p><p><strong><span style="font-family: 华文仿宋;font-size: 21px">&nbsp; &nbsp; &nbsp; &nbsp; 第十七条</span></strong><strong><span style=";font-family:宋体;font-size:21px">&nbsp;</span></strong><span style=";font-family:仿宋_GB2312;font-size:21px">本细则由化学化工学院学位评定委员会负责解释。</span></p><p><br/></p>            </div>
+            <div class="sgd">
+                上一条：<a href="https://scce.sjtu.edu.cn/yjs_gzzd/4615.html">上海交通大学化学化工学院研究生学位论文评阅办法（试行）</a><br>                下一条：<a href="https://scce.sjtu.edu.cn/yjs_gzzd/2930.html">上海交通大学研究生课程建设与管理办法</a>                <a href="https://scce.sjtu.edu.cn/yjs_gzzd.html" class="cd_fh">返回列表</a>
+                <div class="ab_fx">
+                    <span class="s1">分享到：</span><a href="javascript:;" class="cd_wx"><img src="/images/ny/fx1.png"></a><a href="javascript:;" class="cd_wb"><img src="/images/ny/fx2.png"></a><a href="javascript:;" class="cd_qq"><img src="/images/ny/fx3.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="foot">
+    <div class="main">
+                <div class="f1">
+            <p>地址：上海市东川路800号 200240<br/></p><p><br/></p><p><br/></p>            <div class="d_logo"></div>
+        </div>
+        <!-- <div class="f0">
+                                                            <a href="https://scce.sjtu.edu.cn/review/login.html" class="a3">专家评审专栏</a>
+        </div> -->
+        <div class="link">
+                                    <a href="https://sklscbs.sjtu.edu.cn/" target="_blank">化学生物协同物质创制全国重点实验室</a>
+                        <a href="https://fsctm.sjtu.edu.cn/" target="_blank">变革性分子前沿科学中心</a>
+                        <a href="https://ecc.sjtu.edu.cn/index.htm" target="_blank">基础化学实验中心</a>
+                        <a href="https://dnastorage.sjtu.edu.cn/" target="_blank">DNA存储研究中心</a>
+                        <a href="http://cal.sjtu.edu.cn/genee/">测试中心</a>
+                        <a href="/user/jaccount_login.html">教师信息维护平台</a>
+                        <a href="https://net.sjtu.edu.cn/" target="_blank">我的数字交大</a>
+                        <a href="https://ky.sjtu.edu.cn/" target="_blank">科研信息服务系统</a>
+                        <a href="https://dangjian.sjtu.edu.cn" target="_blank">智慧党建</a>
+                        <a href=" https://sccemem.sjtu.edu.cn/" target="_blank">工程管理硕士</a>
+                        <a href="/review/login.html">专家评审专栏</a>
+                        <a href=" https://ly.sjtu.edu.cn" target="_blank">会议室共享预约系统</a>
+                    </div>
+        <div class="f2">
+            <div class="ewm"><img src="/images/qr2025.jpg"><p>全重实验室<br>官方微信</p></div>
+            <div class="fx">
+            </div>
+        </div>
+        <div class="f2">
+            <div class="ewm"><img src="/upload/image/20211012/20211012173713.jpeg"><p>化学化工学院<br>官方微信</p></div>
+            <div class="fx">
+                <!--
+                <a href="javascript:;" class="cd_wx"></a>
+                <a href="javascript:;" class="cd_wb"></a>
+                <a href="javascript:;" class="cd_qq"></a>
+            -->
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+
+    </div>
+</div>
+<div class="foot2">
+    Copyright 2020 <a href="http://beian.miit.gov.cn" target="_blank">沪交ICP备2010917</a> 上海交通大学化学化工学院</div>
+<script language="javascript">
+    $(document).ready(function () {
+        //解决IOS手机端hover兼容问题
+        document.body.addEventListener('touchstart', function () {
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('.fy1 a').each(function(){
+            if($(this).text()=='上一页' || $(this).text()=='下一页'){
+                $(this).addClass('cd_sx');
+            }
+        });
+    });
+</script>
+<script>
+    $('.cd_qq').click(function(){
+        $(this).attr('href','https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+encodeURIComponent(document.location.href)+'&amp;title='+encodeURIComponent(document.title));
+    })
+    $('.cd_wx').click(function(){
+        $(this).attr('href','http://bshare.optimix.cn/barCode?site=weixin&url='+encodeURIComponent(document.location.href)+'&amp;title='+encodeURIComponent(document.title));
+    })
+    $('.cd_wb').click(function(){
+        // $(this).attr('href','http://bshare.optimix.cn/bshare_redirect?type=4&site=sinaminiblog&url='+encodeURIComponent(document.location.href)+'&amp;title='+encodeURIComponent(document.title));
+        $(this).attr('href','http://service.weibo.com/share/share.php?appkey=&title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(document.location.href)+'&searchPic=false&style=simple');
+    })
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?1d5fa61d4ce942edb5d9b01f61664e27";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</body>
+</html>

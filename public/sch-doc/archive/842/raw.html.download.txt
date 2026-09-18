@@ -1,0 +1,564 @@
+<!doctype html><html>
+ <head>
+  <title>天津科技大学化工与材料学院</title>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="format-detection" content="telephone=no"> 
+  <meta name="renderer" content="webkit"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <link rel="stylesheet" href="css/gp_base2022.css"> 
+  <link rel="stylesheet" href="css/gp_style2022.css"> 
+  <link rel="stylesheet" href="css/gp_iconfont2022.css"> 
+  <script type="text/javascript" src="js/jquery.min.js"></script> 
+  <script type="text/javascript" src="js/slick.min.js"></script> 
+  <script type="text/javascript" src="js/gpowersoft.js"></script> 
+  <link rel="stylesheet" href="css/105d7ad270204386abaf8ec4302e3123.css">
+  <link rel="stylesheet" href="css/105d7ad270204386abaf8ec4302e3123_custom.css">
+  <link rel="stylesheet" href="css/pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3_innerStyle.css">
+  <link rel="stylesheet" href="css/pid-3375af73-37aa-40d2-9b80-e588c39ecb0a_innerStyle.css">
+  <link rel="stylesheet" href="css/pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907_innerStyle.css">
+  <link rel="stylesheet" href="css/pid-8e6166b2-1587-4634-99cc-bcf32a14a986_innerStyle.css">
+  <link rel="stylesheet" href="css/pid-3efeb32b-acbe-4545-a632-d1b6ed685af9_innerStyle.css">
+  <link rel="stylesheet" href="css/pid-8486a5fb-851a-44b8-883e-94019e9b5f1c_innerStyle.css">
+  <link rel="stylesheet" href="css/pid-b5637ad2-7d3a-4553-99ad-1cdb49a00a5e_innerStyle.css">
+<link rel="shortcut icon" href="images/favicon.ico" />
+ </head>
+<div style="overflow: hidden;">
+   
+<link rel="stylesheet" href="css/common_a6f7cfb70d198099cdc2a7e481a90c96.css">
+<section class="gp-clearFix pid-f4e0d9b1-a616-4c01-b693-576a4e5330c1"> 
+ <div class="gp-clearFix"> 
+  <div class="layout col-md-12 col-sm-12 col-xs-12"> 
+   <header class="gp-header26 gp-white" style="background-repeat:no-repeat;background-size:cover;background-image: url(images/8ed3c641c3474473a2071119b5d8524b.png);background-position:center right;"> 
+    <div class="header gpFontColor"> 
+     <div class="gp-logo"> <a href="http://www.tust.edu.cn/" target="_self" class="logo_01"><img src="images/8b4c4a84fe604d17b6505039a59311c8.png" alt=""></a> <a href="index.htm" target="_self" class="logo_02 "><img src="images/1d3645a859614290aeb6e43946dc8d30.png" alt=""></a> 
+     </div> 
+     <div class="topRight"> 
+      <div class="links gp-f14 gpTextArea"> 
+       <!--<div class="gp-link"> <a href="" target="_self">中文</a> 
+       </div> -->
+       <div class="openSearch iconfont icon-search" id="gp-serBtn4"></div> <span class="gp-overlay" style="display: none;"></span> 
+      </div> 
+      <ul class="nav gp-f18 gpFontColor gpFontSize" id="nav"> 
+       <li><a href="index.htm">首页</a></li>         <li><a href="xwxx/index.htm" target="_self">新闻公告</a> 
+        <dl class="subNav">
+                   <dd> <a href="xwxx/xyxw/index.htm" target="_self">学院新闻</a> 
+         </dd>          <dd> <a href="xwxx/tzgg/index.htm" target="_self">通知公告</a> 
+         </dd>         </dl> </li>          <li><a href="xygk/index.htm" target="_self">学院概况</a> 
+        <dl class="subNav">
+                   <dd> <a href="xygk/xyjj/index.htm" target="_self">学院简介</a> 
+         </dd>          <dd> <a href="xygk/zzjg/index.htm" target="_self">组织机构</a> 
+         </dd>          <dd> <a href="xygk/xyld/index.htm" target="_self">学院领导</a> 
+         </dd>          <dd> <a href="xygk/lsyg/index.htm" target="_self">历史沿革</a> 
+         </dd>         </dl> </li>          <li><a href="szdw/index.htm" target="_self">师资队伍</a> 
+        <dl class="subNav">
+                   <dd> <a href="szdw/xyrc/index.htm" target="_self">学院人才</a> 
+         </dd>          <dd> <a href="szdw/xyjs/index.htm" target="_self">学院教师</a> 
+         </dd>         </dl> </li>          <li><a href="djgh/index.htm" target="_self">党建工会</a> 
+        <dl class="subNav">
+                   <dd> <a href="djgh/djgz/index.htm" target="_self">党建工作</a> 
+         </dd>          <dd> <a href="djgh/ghzj/index.htm" target="_self">工会之家</a> 
+         </dd>         </dl> </li>          <li><a href="bksjy/index.htm" target="_self">本科生教育</a> 
+        <dl class="subNav">
+                   <dd> <a href="bksjy/zyjs/index.htm" target="_self">专业介绍</a> 
+         </dd>          <dd> <a href="bksjy/pyfa/index.htm" target="_self">培养方案</a> 
+         </dd>          <dd> <a href="bksjy/jxcg/index.htm" target="_self">教学成果</a> 
+         </dd>          <dd> <a href="bksjy/jxyj/index.htm" target="_self">教学研究</a> 
+         </dd>          <dd> <a href="bksjy/qjjh/index.htm" target="_self">强基计划</a> 
+         </dd>          <dd> <a href="bksjy/cnxy/index.htm" target="_self">储能学院</a> 
+         </dd>         </dl> </li>          <li><a href="yjsjy/index.htm" target="_self">研究生教育</a> 
+        <dl class="subNav">
+                   <dd> <a href="yjsjy/yjszs/index.htm" target="_self">研究生招生</a> 
+         </dd>          <dd> <a href="yjsjy/yjsds/index.htm" target="_self">研究生导师</a> 
+         </dd>          <dd> <a href="yjsjy/yjspy/index.htm" target="_self">研究生培养</a> 
+         </dd>         </dl> </li>          <li><a href="kxyj/index.htm" target="_self">科学研究</a> 
+        <dl class="subNav">
+                   <dd> <a href="kxyj/kytd/index.htm" target="_self">科研团队</a> 
+         </dd>          <dd> <a href="kxyj/ptjs1/index.htm" target="_self">平台建设</a> 
+         </dd>          <dd> <a href="kxyj/kycg/index.htm" target="_self">科研成果</a> 
+         </dd>          <dd> <a href="kxyj/kyxm/index.htm" target="_self">科研项目</a> 
+         </dd>         </dl> </li>          <li><a href="xkjs/index.htm" target="_self">学科建设</a> 
+        <dl class="subNav">
+                   <dd> <a href="xkjs/xkjs/index.htm" target="_self">学科介绍</a> 
+         </dd>          <dd> <a href="xkjs/zdxk/index.htm" target="_self">重点学科</a> 
+         </dd>          <dd> <a href="xkjs/ssbsxwsqd/index.htm" target="_self">硕士/博士学位授权点</a> 
+         </dd>         </dl> </li>          <li><a href="xsgz/index.htm" target="_self">学生工作</a> 
+        <dl class="subNav">
+                   <dd> <a href="xsgz/xgdt1/index.htm" target="_self">学工动态</a> 
+         </dd>          <dd> <a href="xsgz/jyzl/index.htm" target="_self">就业专栏</a> 
+         </dd>          <dd> <a href="xsgz/xzfc/index.htm" target="_self">学子风采</a> 
+         </dd>         </dl> </li>          <li><a href="lzjs/index.htm" target="_self">廉政建设</a> 
+        <dl class="subNav">
+                   <dd> <a href="lzjs/zcfg/index.htm" target="_self">政策法规</a> 
+         </dd>          <dd> <a href="lzjs/lzkt/index.htm" target="_self">廉政课堂</a> 
+         </dd>          <dd> <a href="lzjs/xfjb/index.htm" target="_self">信访举报</a> 
+         </dd>         </dl> </li>          <li><a href="sysjs/index.htm" target="_self">实验室建设</a> 
+        <dl class="subNav">
+                   <dd> <a href="sysjs/sysglzd/index.htm" target="_self">实验室管理制度</a> 
+         </dd>          <dd> <a href="sysjs/aqjy/index.htm" target="_self">安全教育</a> 
+         </dd>          <dd> <a href="sysjs/dxyqpt/index.htm" target="_self">大型仪器平台</a> 
+         </dd>         </dl> </li>          <li><a href="xzzq/index.htm" target="_self">下载专区</a> 
+        <dl class="subNav">
+                   <dd> <a href="xzzq/jgxzzq/index.htm" target="_self">教工下载专区</a> 
+         </dd>          <dd> <a href="xzzq/xsxzzq/index.htm" target="_self">学生下载专区</a> 
+         </dd>         </dl> </li>          <li><a href="lxwm/index.htm" target="_self">联系我们</a></li>          <li><a href="https://hgxy.tust.edu.cn/english" target="_self">English</a></li>        </ul> 
+     </div> 
+    </div> 
+    <div class="gp-search gp-search4 " id="gp-search4"> 
+     <form name="dataForm" class="form" action="/cms/web/search/index.jsp" target="_self" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';"> 
+      <script type="text/javascript" src="/cms/web/search/token.jsp"></script> 
+      <input name="siteID" value="2a18fca616d64bcca285a465dbbaf95d" type="hidden"> 
+      <input class="notxt" value="" placeholder="请输入搜索内容" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value==''){this.value='';this.form.keywords.style.color='#666'}"> <button class="notxt1 iconfont icon-search" name="Submit" type="submit" value=""></button> 
+     </form> 
+    </div> <!-- 移动端主导航开始 --> <span class="mobile_bg"></span> 
+    <div class="gp-menu" id="gp-menu"> 
+     <div class="gp-menu-header"> 
+      <div class="gp-menu-header-icon gp-menu-header-icon-out  "> <span></span><span></span><span></span> 
+      </div> 
+     </div> <!-- gp-menu-dropdown1 下拉 --> 
+     <div class="gp-menu-nav gp-menu-dropdown1"> <span class="gp-menu-link gp-m-link gp-f16"> 
+       <form name="dataForm" class="mobile_search gp-m-search " action="/cms/web/search/index.jsp" target="_self" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';"> 
+        <script type="text/javascript" src="/cms/web/search/token.jsp"></script> 
+        <input name="siteID" value="2a18fca616d64bcca285a465dbbaf95d" type="hidden"> 
+        <input class="notxt" value="" placeholder="请输入搜索内容" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value==''){this.value='';this.form.keywords.style.color='#666'}"> <button class="notxt1 iconfont icon-search" name="Submit" type="submit" value=""></button> 
+       </form> <!--<a href="" target="_self">中文</a> --></span> 
+      <ul class="gp-avg-1 gp-clearFix gp-f18"> 
+       <li><a href="index.htm" target="_self">首页</a></li>         <li><a href="xwxx/index.htm" target="_self">新闻公告</a><span class="gp-menu-arrow iconfont icon-right"></span> 
+        <ul class="gp-menu-sub gp-avg-2 gp-avg-sm-3 gp-clearFix">
+                   <li><a href="xwxx/xyxw/index.htm" target="_self">学院新闻</a></li>          <li><a href="xwxx/tzgg/index.htm" target="_self">通知公告</a></li>         </ul> </li>          <li><a href="xygk/index.htm" target="_self">学院概况</a><span class="gp-menu-arrow iconfont icon-right"></span> 
+        <ul class="gp-menu-sub gp-avg-2 gp-avg-sm-3 gp-clearFix">
+                   <li><a href="xygk/xyjj/index.htm" target="_self">学院简介</a></li>          <li><a href="xygk/zzjg/index.htm" target="_self">组织机构</a></li>          <li><a href="xygk/xyld/index.htm" target="_self">学院领导</a></li>          <li><a href="xygk/lsyg/index.htm" target="_self">历史沿革</a></li>         </ul> </li>          <li><a href="szdw/index.htm" target="_self">师资队伍</a><span class="gp-menu-arrow iconfont icon-right"></span> 
+        <ul class="gp-menu-sub gp-avg-2 gp-avg-sm-3 gp-clearFix">
+                   <li><a href="szdw/xyrc/index.htm" target="_self">学院人才</a></li>          <li><a href="szdw/xyjs/index.htm" target="_self">学院教师</a></li>         </ul> </li>          <li><a href="djgh/index.htm" target="_self">党建工会</a><span class="gp-menu-arrow iconfont icon-right"></span> 
+        <ul class="gp-menu-sub gp-avg-2 gp-avg-sm-3 gp-clearFix">
+                   <li><a href="djgh/djgz/index.htm" target="_self">党建工作</a></li>          <li><a href="djgh/ghzj/index.htm" target="_self">工会之家</a></li>         </ul> </li>          <li><a href="bksjy/index.htm" target="_self">本科生教育</a><span class="gp-menu-arrow iconfont icon-right"></span> 
+        <ul class="gp-menu-sub gp-avg-2 gp-avg-sm-3 gp-clearFix">
+                   <li><a href="bksjy/zyjs/index.htm" target="_self">专业介绍</a></li>          <li><a href="bksjy/pyfa/index.htm" target="_self">培养方案</a></li>          <li><a href="bksjy/jxcg/index.htm" target="_self">教学成果</a></li>          <li><a href="bksjy/jxyj/index.htm" target="_self">教学研究</a></li>          <li><a href="bksjy/qjjh/index.htm" target="_self">强基计划</a></li>          <li><a href="bksjy/cnxy/index.htm" target="_self">储能学院</a></li>         </ul> </li>          <li><a href="yjsjy/index.htm" target="_self">研究生教育</a><span class="gp-menu-arrow iconfont icon-right"></span> 
+        <ul class="gp-menu-sub gp-avg-2 gp-avg-sm-3 gp-clearFix">
+                   <li><a href="yjsjy/yjszs/index.htm" target="_self">研究生招生</a></li>          <li><a href="yjsjy/yjsds/index.htm" target="_self">研究生导师</a></li>          <li><a href="yjsjy/yjspy/index.htm" target="_self">研究生培养</a></li>         </ul> </li>          <li><a href="kxyj/index.htm" target="_self">科学研究</a><span class="gp-menu-arrow iconfont icon-right"></span> 
+        <ul class="gp-menu-sub gp-avg-2 gp-avg-sm-3 gp-clearFix">
+                   <li><a href="kxyj/kytd/index.htm" target="_self">科研团队</a></li>          <li><a href="kxyj/ptjs1/index.htm" target="_self">平台建设</a></li>          <li><a href="kxyj/kycg/index.htm" target="_self">科研成果</a></li>          <li><a href="kxyj/kyxm/index.htm" target="_self">科研项目</a></li>         </ul> </li>          <li><a href="xkjs/index.htm" target="_self">学科建设</a><span class="gp-menu-arrow iconfont icon-right"></span> 
+        <ul class="gp-menu-sub gp-avg-2 gp-avg-sm-3 gp-clearFix">
+                   <li><a href="xkjs/xkjs/index.htm" target="_self">学科介绍</a></li>          <li><a href="xkjs/zdxk/index.htm" target="_self">重点学科</a></li>          <li><a href="xkjs/ssbsxwsqd/index.htm" target="_self">硕士/博士学位授权点</a></li>         </ul> </li>          <li><a href="xsgz/index.htm" target="_self">学生工作</a><span class="gp-menu-arrow iconfont icon-right"></span> 
+        <ul class="gp-menu-sub gp-avg-2 gp-avg-sm-3 gp-clearFix">
+                   <li><a href="xsgz/xgdt1/index.htm" target="_self">学工动态</a></li>          <li><a href="xsgz/jyzl/index.htm" target="_self">就业专栏</a></li>          <li><a href="xsgz/xzfc/index.htm" target="_self">学子风采</a></li>         </ul> </li>          <li><a href="lzjs/index.htm" target="_self">廉政建设</a><span class="gp-menu-arrow iconfont icon-right"></span> 
+        <ul class="gp-menu-sub gp-avg-2 gp-avg-sm-3 gp-clearFix">
+                   <li><a href="lzjs/zcfg/index.htm" target="_self">政策法规</a></li>          <li><a href="lzjs/lzkt/index.htm" target="_self">廉政课堂</a></li>          <li><a href="lzjs/xfjb/index.htm" target="_self">信访举报</a></li>         </ul> </li>          <li><a href="sysjs/index.htm" target="_self">实验室建设</a><span class="gp-menu-arrow iconfont icon-right"></span> 
+        <ul class="gp-menu-sub gp-avg-2 gp-avg-sm-3 gp-clearFix">
+                   <li><a href="sysjs/sysglzd/index.htm" target="_self">实验室管理制度</a></li>          <li><a href="sysjs/aqjy/index.htm" target="_self">安全教育</a></li>          <li><a href="sysjs/dxyqpt/index.htm" target="_self">大型仪器平台</a></li>         </ul> </li>          <li><a href="xzzq/index.htm" target="_self">下载专区</a><span class="gp-menu-arrow iconfont icon-right"></span> 
+        <ul class="gp-menu-sub gp-avg-2 gp-avg-sm-3 gp-clearFix">
+                   <li><a href="xzzq/jgxzzq/index.htm" target="_self">教工下载专区</a></li>          <li><a href="xzzq/xsxzzq/index.htm" target="_self">学生下载专区</a></li>         </ul> </li>          <li><a href="lxwm/index.htm" target="_self">联系我们</a></li>          <li><a href="https://hgxy.tust.edu.cn/english" target="_self">English</a></li>        </ul> 
+     </div> 
+    </div> <!-- 移动端主导航结束 --> 
+    <script type="text/javascript">
+        $(function () {
+            Nav('#nav');
+            mobileMenu('#gp-menu');//移动端导航
+            headerFix();
+            SerMax('#gp-serBtn4', '#gp-search4');
+        });
+    </script> 
+   </header> 
+  </div> 
+ </div> 
+</section>   <section class="gp-clearFix pid-e13a54b4-ca95-4852-b440-32ef95d3449f"> 
+    <div class="gp-clearFix"> 
+     <div class="layout col-md-12 col-sm-12 col-xs-12">
+      <div class="carousel61" data-gp-article-title-line-clamp="1" data-gp-article-title-line-height="1.5" style="background-repeat:no-repeat;background-size:cover;background-image: url(images/7fccdb6bc79e47baa4803284b9abeca2.png);background-position:center center;"> 
+       <div class="gpCarousel" id="pid-49ee0ff1-efc2-459b-8f52-53d78bcabed6">
+                 <div class="slick-slider"> <a href="https://news.tust.edu.cn/kdxw/b71befca793741999654aef634469b5d.htm" target="_self"> <span class="gp-img-responsive gpImgSize slick-img"><img src="images/2024-05/b2da05139c844fee9b21328bb95c02a2.jpg"></span> 
+          <div class="slick-txt gp-f30" style="display:block;"> 
+           <p class="gp-ellipsis gpArticleTitle">【“先锋计划”进行时】天津科技大学召开“深入学习宣传贯彻习近平总书记视察天津重要讲话精神 开展加快推进高质量内涵发展大讨论”总结大会</p> 
+          </div> </a> 
+        </div> 
+        <div class="slick-slider"> <a href="http://hgxy.tust.edu.cn/" target="_self"> <span class="gp-img-responsive gpImgSize slick-img"><img src="images/2026-03/1ff98e1186c248c1bf69f052f8f1a0e1.png"></span> 
+          <div class="slick-txt gp-f30" style="display:block;"> 
+           <p class="gp-ellipsis gpArticleTitle">树立和践行正确政绩观</p> 
+          </div> </a> 
+        </div> 
+        <div class="slick-slider"> <a href="http://cpc.people.com.cn/GB/67481/461139/index.html" target="_self"> <span class="gp-img-responsive gpImgSize slick-img"><img src="images/2026-03/ee87d2637f99427499e6216cf66ca9fc.png"></span> 
+          <div class="slick-txt gp-f30" style="display:block;"> 
+           <p class="gp-ellipsis gpArticleTitle">学习贯彻党的二十届四中全会精神</p> 
+          </div> </a> 
+        </div> 
+        <div class="slick-slider"> <a href="https://news.tust.edu.cn/tjkjdxdscddh/" target="_self"> <span class="gp-img-responsive gpImgSize slick-img"><img src="images/2025-09/424aad66e935407d88826631844abacd.jpg"></span> 
+          <div class="slick-txt gp-f30" style="display:block;"> 
+           <p class="gp-ellipsis gpArticleTitle">中国共产党天津科技大学第四次党员代表大会</p> 
+          </div> </a> 
+        </div> 
+        <div class="slick-slider"> <a href="http://news.tust.edu.cn/kdxw/da34d50a9dfe49a5a894bd4c2676140c.htm" target="_self"> <span class="gp-img-responsive gpImgSize slick-img"><img src="images/2024-04/c74d953409d24300906965e41553f88c.jpg"></span> 
+          <div class="slick-txt gp-f30" style="display:block;"> 
+           <p class="gp-ellipsis gpArticleTitle">第21届全国化学热力学与热分析学术会议暨盐湖与盐业发展高峰论坛胜利闭幕</p> 
+          </div> </a> 
+        </div> 
+<div class="slick-slider"> <a> <span class="gp-img-responsive gpImgSize slick-img"><img src="images/2024-03/2bed66cd99104b7a81d75b98c672ea1f.jpg"></span> 
+          <div class="slick-txt gp-f30" style="display:block;"> 
+           <p class="gp-ellipsis gpArticleTitle">欢迎来到天津科技大学化工与材料学院</p> 
+          </div> </a> 
+        </div> 
+       </div> 
+       <script type="text/javascript">
+        $('#pid-49ee0ff1-efc2-459b-8f52-53d78bcabed6').slick({
+            arrows: true,
+            dots: true,
+            infinite: true,
+            speed: 600,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            lazyLoad: 'ondemand',
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });
+        directionNavpid49ee0ff1efc2459b8f5253d78bcabed6()
+        function directionNavpid49ee0ff1efc2459b8f5253d78bcabed6() {
+            $('#pid-49ee0ff1-efc2-459b-8f52-53d78bcabed6 .slick-arrow').each(function (e) {
+                var $this = $(this)
+                $this.text('');
+                $(this).addClass('iconfont')
+                if ($this.hasClass('slick-prev')) {
+                    $(this).addClass('icon-left')
+                } else if ($this.hasClass('slick-next')) {
+                    $(this).addClass('icon-right')
+                }
+            })
+        }
+    </script> 
+      </div>
+     </div> 
+    </div> 
+   </section>
+   <section style="background-repeat: no-repeat;background-size:cover;background-image: url(images/824236e220b1459b96cea390b3c4cb54.png);background-position:bottom center;" class="gp-pt-50 gp-pb-50 gp-sm-pt-30 gp-xs-pt-30 gp-xxs-pt-30 pid-68517a87-0f16-4e21-8e00-23894becbb03"> 
+    <div class="gp-container gp-clearFix"> 
+     <div class="row"> 
+      <div class="layout col-md-6 col-sm-12 col-xs-12">
+       <div class="gp-title32"> <a class="more gp-fr" href="xxjxs/index.htm">更多</a> <span class="gpColumnTitleIcon gp-hide"><img src="images/{{gpColumnTitleIcon}}"></span> 
+        <h2 class="gpColumnTitle gp-f30"><a href="xxjxs/index.htm" target="_self">先锋进行时</a></h2> <span class="gpColumnTitleIcon gp-hide"><img src="images/{{gpColumnTitleIcon}}"></span> <span class="gpColumnTitleEn"></span> 
+       </div>   
+       <ul class="block-list169 list-unstyled gpAvgList gp-avg-xs-1    gpFontSize gpLiMarginB gp-li-mb0" data-gp-article-title-line-height="1.5" data-gp-article-title-line-clamp="2" data-gp-article-summary-line-height="1.5" data-gp-article-summary-line-clamp="4">
+                 <li> 
+         <div class="li_con"> 
+          <div class="img"> <a href="https://news.tust.edu.cn/kdxw/449c817667284443a12f689665c339bf.htm" target="_self" class="gp-img-responsive"><img src="" alt=""></a> 
+          </div> 
+          <div class="info gpTextArea"> <a href="https://news.tust.edu.cn/kdxw/449c817667284443a12f689665c339bf.htm" target="_self" class="title gpArticleTitle gp-f18 pid-b5637ad2-7d3a-4553-99ad-1cdb49a00a5e sm-pid-b5637ad2-7d3a-4553-99ad-1cdb49a00a5e xs-pid-b5637ad2-7d3a-4553-99ad-1cdb49a00a5e xxs-pid-b5637ad2-7d3a-4553-99ad-1cdb49a00a5e">天津科技大学召开2025年度二级党组织书记抓基层党建工作述职评议会</a> 
+           <div class="summary gpArticleSummary gp-f16 pid-b5637ad2-7d3a-4553-99ad-1cdb49a00a5e sm-pid-b5637ad2-7d3a-4553-99ad-1cdb49a00a5e xs-pid-b5637ad2-7d3a-4553-99ad-1cdb49a00a5e xxs-pid-b5637ad2-7d3a-4553-99ad-1cdb49a00a5e">
+              
+           </div> 
+           <div class="date"> <i class="iconfont  icon-can1"></i>2026-03-02 
+           </div> 
+           <div class="more"> <a href="https://news.tust.edu.cn/kdxw/449c817667284443a12f689665c339bf.htm" target="_self">查看详情</a> 
+           </div> 
+          </div> 
+         </div> </li>        </ul>     
+       <ul class="block-list168 list-unstyled gpAvgList gp-avg-xs-1 gpFontSize gpLiMarginB gp-li-mb0 gp-li-mt5 gp-li-pl1 gp-li-pr20 gp-mt-999 gp-pr-999 gp-ml-999 gp-pl-999 gp-sm-mb-30 gp-xs-mb-30 gp-xxs-mb-30 pid-3efeb32b-acbe-4545-a632-d1b6ed685af9 sm-pid-3efeb32b-acbe-4545-a632-d1b6ed685af9 xs-pid-3efeb32b-acbe-4545-a632-d1b6ed685af9 xxs-pid-3efeb32b-acbe-4545-a632-d1b6ed685af9" data-gp-article-title-line-height="1.5" data-gp-article-title-line-clamp="2">
+                 <li> <a href="https://news.tust.edu.cn/kdxw/449c817667284443a12f689665c339bf.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-3efeb32b-acbe-4545-a632-d1b6ed685af9 sm-pid-3efeb32b-acbe-4545-a632-d1b6ed685af9 xs-pid-3efeb32b-acbe-4545-a632-d1b6ed685af9 xxs-pid-3efeb32b-acbe-4545-a632-d1b6ed685af9">
+            天津科技大学召开2025年度二级党组织书记抓基层党建工作述职评议会 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             02 
+           </div> 
+           <div class="month ">
+             2026.03 
+           </div> 
+          </div> </a> </li>         <li> <a href="https://news.tust.edu.cn/kdxw/fb8bf35b27a3427d95a4bca686165f2d.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-3efeb32b-acbe-4545-a632-d1b6ed685af9 sm-pid-3efeb32b-acbe-4545-a632-d1b6ed685af9 xs-pid-3efeb32b-acbe-4545-a632-d1b6ed685af9 xxs-pid-3efeb32b-acbe-4545-a632-d1b6ed685af9">
+            开局冲锋 起步争先！学校党委四届五次全体（扩大）会议锚定高质量内涵发展 开启“十五五”新征程 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             28 
+           </div> 
+           <div class="month ">
+             2026.02 
+           </div> 
+          </div> </a> </li>         <li> <a href="https://news.tust.edu.cn/kdxw/02fd45930eb647a992881914ffc4b8a7.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-3efeb32b-acbe-4545-a632-d1b6ed685af9 sm-pid-3efeb32b-acbe-4545-a632-d1b6ed685af9 xs-pid-3efeb32b-acbe-4545-a632-d1b6ed685af9 xxs-pid-3efeb32b-acbe-4545-a632-d1b6ed685af9">
+            【媒体聚焦】《人民日报》《天津日报》、津云、《天津教育报》等媒体报道天津科技大学与宁德时代签署全面合作框架协议 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             10 
+           </div> 
+           <div class="month ">
+             2026.02 
+           </div> 
+          </div> </a> </li>         <li> <a href="https://news.tust.edu.cn/kdxw/9e7d90fa8ebd470ab18a781dad91b1c0.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-3efeb32b-acbe-4545-a632-d1b6ed685af9 sm-pid-3efeb32b-acbe-4545-a632-d1b6ed685af9 xs-pid-3efeb32b-acbe-4545-a632-d1b6ed685af9 xxs-pid-3efeb32b-acbe-4545-a632-d1b6ed685af9">
+            天津市口岸化学风险因子多元识别重点实验室学术委员会会议顺利召开 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             02 
+           </div> 
+           <div class="month ">
+             2026.02 
+           </div> 
+          </div> </a> </li>        </ul>  
+      </div> 
+      <div class="layout col-md-6 col-sm-12 col-xs-12">
+       <div class="gp-title32"> <a class="more gp-fr" href="xwxx/tzgg/index.htm">更多</a> <span class="gpColumnTitleIcon gp-hide"><img src="images/{{gpColumnTitleIcon}}"></span> 
+        <h2 class="gpColumnTitle gp-f30"><a href="xwxx/tzgg/index.htm" target="_self">通知公告</a></h2> <span class="gpColumnTitleIcon gp-hide"><img src="images/{{gpColumnTitleIcon}}"></span> <span class="gpColumnTitleEn"></span> 
+       </div>   
+       <ul class="block-list168 list-unstyled gpAvgList gp-avg-xs-1 gpFontSize gpLiMarginB gp-li-mt5 gp-li-pl1 gp-li-pr20 gp-mt--16 gp-mr-999 gp-pr-999 pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 sm-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 xs-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 xxs-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3" data-gp-article-title-line-height="1.5" data-gp-article-title-line-clamp="2">
+                 <li> <a href="xwxx/tzgg/8576c1b217c64d9882527f5ea1db6a71.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 sm-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 xs-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 xxs-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3">
+            化工与材料学院推荐优秀应届本科毕业生免试攻读研究生实施细则 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             02 
+           </div> 
+           <div class="month ">
+             2026.09 
+           </div> 
+          </div> </a> </li>         <li> <a href="xwxx/tzgg/d04a34729dfd478695a73e78a8c56c72.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 sm-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 xs-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 xxs-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3">
+            化工与材料学院2026年本科生转专业工作实施方案 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             19 
+           </div> 
+           <div class="month ">
+             2026.05 
+           </div> 
+          </div> </a> </li>         <li> <a href="https://hgxy.tust.edu.cn/yjsjy/yjszs/9fbe40e1a0a24a5699edc10e249d0e2f.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 sm-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 xs-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 xxs-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3">
+            天津科技大学化工与材料学院2027年推荐优秀应届本科毕业生免试攻读硕士学位研究生招生录取工作实施细则 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             18 
+           </div> 
+           <div class="month ">
+             2026.09 
+           </div> 
+          </div> </a> </li>         <li> <a href="xwxx/tzgg/43817e6dee354b97a3b4b67d241263c6.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 sm-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 xs-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 xxs-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3">
+            关于公布实验室安全隐患举报方式的通知 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             25 
+           </div> 
+           <div class="month ">
+             2026.08 
+           </div> 
+          </div> </a> </li>         <li> <a href="xwxx/tzgg/69448e74aa9d418a801435ef8662010c.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 sm-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 xs-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 xxs-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3">
+            2026年6月化工与材料学院硕士研究生毕业论文答辩会安排表-第四批 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             26 
+           </div> 
+           <div class="month ">
+             2026.05 
+           </div> 
+          </div> </a> </li>         <li> <a href="xwxx/tzgg/92ce5399510a478ca0b6f288a32ad391.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 sm-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 xs-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3 xxs-pid-cb5f16b1-f073-4c72-8a87-8198c8456cf3">
+            2026年6月化工与材料学院硕士研究生毕业论文答辩会安排表-第三批 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             22 
+           </div> 
+           <div class="month ">
+             2026.05 
+           </div> 
+          </div> </a> </li>        </ul>  
+      </div> 
+     </div> 
+    </div> 
+   </section>
+   <section style="" class="gp-mt-999 gp-sm-pt-999 gp-sm-mt-999 pid-54296069-b123-4d11-b050-fc701b91b359"> 
+    <div class="gp-container gp-clearFix"> 
+     <div class="row"> 
+      <div class="layout col-md-12 col-sm-12 col-xs-12">
+       <div class="gp-title65 gp-mt-50 gp-mb-25 gp-xs-pb-999 gp-xs-mb-999 gp-sm-mt-999 gp-sm-pt-999 "> 
+        <h2 class="gpColumnTitle gp-f30"> <a href="xwxx/xyxw/index.htm" class="title" target="" style="color:#ffffff;">学院新闻</a></h2> <a href="xwxx/xyxw/index.htm" target="" class="more gpFontSize gpFontColor gp-f16 gp-white"> <i class="gpColumnTitleIcon gp-hide before "><img src="images/eb923c0c1c4f49ce895fd90b0afe1abb.png" alt=""></i> <span>更多</span> </a> 
+       </div>
+      </div> 
+     </div> 
+    </div> 
+   </section>
+   <section style="background-repeat: no-repeat;background-size:contain;background-position:top center;background-origin:padding-box;" class="gp-mt--30 7:5 pid-6ef0a4c5-e5f1-4db1-8c8d-a323cfb18dfc"> 
+    <div class="gp-container gp-clearFix"> 
+     <div class="row"> 
+      <div class="layout col-md-7 col-sm-12 col-xs-12">   
+       <ul class="block-list205 gpLiMarginB gpAvgList list-unstyled gp-mt-30 pid-3375af73-37aa-40d2-9b80-e588c39ecb0a sm-pid-3375af73-37aa-40d2-9b80-e588c39ecb0a xs-pid-3375af73-37aa-40d2-9b80-e588c39ecb0a xxs-pid-3375af73-37aa-40d2-9b80-e588c39ecb0a" data-gp-article-title-line-height="1.4" data-gp-article-title-line-clamp="3">
+                 <li> <a href="xwxx/xyxw/0938bc10bd3a4fc28921e21a15115131.htm" target="_self"> 
+          <div class="gp-img-responsive"> 
+           <img src="" alt=""> 
+          </div> 
+          <div class="info gpTextArea"> 
+           <div class="gpArticleTitle gp-f18 gp-pr-999 pid-3375af73-37aa-40d2-9b80-e588c39ecb0a sm-pid-3375af73-37aa-40d2-9b80-e588c39ecb0a xs-pid-3375af73-37aa-40d2-9b80-e588c39ecb0a xxs-pid-3375af73-37aa-40d2-9b80-e588c39ecb0a" style="1.8">
+             弘扬教育家精神 深化教学改革——济南大学魏琴教授应邀为我院作专题教学报告 
+           </div> 
+          </div> </a> </li>        </ul>  
+      </div> 
+      <div class="layout col-md-5 col-sm-12 col-xs-12">   
+       <ul class="block-list206 gpLiMarginB gp-li-mb30 gpAvgList gp-avg-md-1 list-unstyled gp-mt-90 gp-sm-mt-20 gp-mr-10 gp-pt-999 " data-gp-article-title-line-height="1.5" data-gp-article-title-line-clamp="2">
+                 <li> <a href="http://news.tust.edu.cn/kdxw/6493d2d7dcbc4e4ab0495e7c629497be.htm" target="_self" class="gpTextArea"><span class="listText"> <span class="listDate gpArticleDate  icon-date2 gp-f16">  May  13,2026 </span> <span class="listTitle gpArticleTitle gp-f18 pid-8e6166b2-1587-4634-99cc-bcf32a14a986 sm-pid-8e6166b2-1587-4634-99cc-bcf32a14a986 xs-pid-8e6166b2-1587-4634-99cc-bcf32a14a986 xxs-pid-8e6166b2-1587-4634-99cc-bcf32a14a986">我校化工与材料学院师生双线斩获国赛佳绩！</span> </span> </a> </li>         <li> <a href="http://news.tust.edu.cn/kdxw/97bb25d9d1bc480594a8a957d947932e.htm" target="_self" class="gpTextArea"><span class="listText"> <span class="listDate gpArticleDate  icon-date2 gp-f16">  May  09,2026 </span> <span class="listTitle gpArticleTitle gp-f18 pid-8e6166b2-1587-4634-99cc-bcf32a14a986 sm-pid-8e6166b2-1587-4634-99cc-bcf32a14a986 xs-pid-8e6166b2-1587-4634-99cc-bcf32a14a986 xxs-pid-8e6166b2-1587-4634-99cc-bcf32a14a986">天津科技大学化工与材料学院在锰基卤水提锂材料领域取得重要进展</span> </span> </a> </li>         <li> <a href="http://news.tust.edu.cn/kdxw/cfd22d6e99894dc09679b024c65f2215.htm" target="_self" class="gpTextArea"><span class="listText"> <span class="listDate gpArticleDate  icon-date2 gp-f16">  Feb  27,2026 </span> <span class="listTitle gpArticleTitle gp-f18 pid-8e6166b2-1587-4634-99cc-bcf32a14a986 sm-pid-8e6166b2-1587-4634-99cc-bcf32a14a986 xs-pid-8e6166b2-1587-4634-99cc-bcf32a14a986 xxs-pid-8e6166b2-1587-4634-99cc-bcf32a14a986">天津科技大学邓天龙教授团队在海卤水提锂领域取得新进展</span> </span> </a> </li>         <li> <a href="http://news.tust.edu.cn/kdxw/bebc91913d8a40ba84217d12175203d4.htm" target="_self" class="gpTextArea"><span class="listText"> <span class="listDate gpArticleDate  icon-date2 gp-f16">  Feb  27,2026 </span> <span class="listTitle gpArticleTitle gp-f18 pid-8e6166b2-1587-4634-99cc-bcf32a14a986 sm-pid-8e6166b2-1587-4634-99cc-bcf32a14a986 xs-pid-8e6166b2-1587-4634-99cc-bcf32a14a986 xxs-pid-8e6166b2-1587-4634-99cc-bcf32a14a986">我校化工与材料学院在锌电池界面稳定性调控领域取得重要进展</span> </span> </a> </li>        </ul>  
+      </div> 
+     </div> 
+    </div> 
+   </section>
+   <section style="background-repeat: no-repeat;background-size:cover;background-image: url(images/e35f301c3f7c445fa0abe292e67f89bc.png);background-position:bottom center;" class="gp-mt-90 gp-pb-50 gp-sm-mt-30 "> 
+    <div class="gp-container gp-clearFix"> 
+     <div class="row"> 
+      <div class="layout col-md-6 col-sm-12 col-xs-12">
+       <div class="gp-title32"> <a class="more gp-fr" href="xsdt/index.htm">更多</a> <span class="gpColumnTitleIcon gp-hide"><img src="images/{{gpColumnTitleIcon}}"></span> 
+        <h2 class="gpColumnTitle gp-f30"><a href="xsdt/index.htm" target="_self">学术动态</a></h2> <span class="gpColumnTitleIcon gp-hide"><img src="images/{{gpColumnTitleIcon}}"></span> <span class="gpColumnTitleEn"></span> 
+       </div>   
+       <ul class="block-list168 list-unstyled gpAvgList gp-avg-xs-1 gpFontSize gpLiMarginB gp-li-mt5 gp-li-pl1 gp-li-pr20 gp-sm-mb-30 gp-xs-mb-30 gp-xxs-mb-30 pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 sm-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 xs-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 xxs-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907" data-gp-article-title-line-height="1.5" data-gp-article-title-line-clamp="2">
+                 <li> <a href="xsdt/da0b890d1f67458ea727eebda052d7a5.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 sm-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 xs-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 xxs-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907">
+            功能膜材料及胶粘材料的工程实践——“化茧成材”学术报告 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             20 
+           </div> 
+           <div class="month ">
+             2026.05 
+           </div> 
+          </div> </a> </li>         <li> <a href="xsdt/77bfe398ae804481aba8e03f6087d8dd.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 sm-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 xs-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 xxs-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907">
+            碳循环中的催化反应过程——“化茧成材”学术报告 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             09 
+           </div> 
+           <div class="month ">
+             2026.05 
+           </div> 
+          </div> </a> </li>         <li> <a href="xsdt/483c7bd1229b4fabbcbba3517c906277.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 sm-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 xs-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 xxs-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907">
+            电化学测定的应用——“化茧成材”学术报告 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             17 
+           </div> 
+           <div class="month ">
+             2025.11 
+           </div> 
+          </div> </a> </li>         <li> <a href="xsdt/0e8612abfe9a4cbea55446df3b5c9f58.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 sm-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 xs-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 xxs-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907">
+            Reflection on Research Pathway --- Wisdom, Conscience, and Career Planning——“化茧成材”学术报告 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             15 
+           </div> 
+           <div class="month ">
+             2025.10 
+           </div> 
+          </div> </a> </li>         <li> <a href="xsdt/e09e9b9fa64a4bcfb8b105ed80d8054a.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 sm-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 xs-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907 xxs-pid-9ef64ed9-40f3-4361-bfb5-3e047e7c2907">
+            功能聚合物的合成新途径与能源存储应用——“化茧成材”学术报告 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             08 
+           </div> 
+           <div class="month ">
+             2025.09 
+           </div> 
+          </div> </a> </li>        </ul>  
+      </div> 
+      <div class="layout col-md-6 col-sm-12 col-xs-12">
+       <div class="gp-title32"> <a class="more gp-fr" href="xsgz/xgdt1/index.htm">更多</a> <span class="gpColumnTitleIcon gp-hide"><img src="images/{{gpColumnTitleIcon}}"></span> 
+        <h2 class="gpColumnTitle gp-f30"><a href="xsgz/xgdt1/index.htm" target="_self">学工动态</a></h2> <span class="gpColumnTitleIcon gp-hide"><img src="images/{{gpColumnTitleIcon}}"></span> <span class="gpColumnTitleEn"></span> 
+       </div>   
+       <ul class="block-list168 list-unstyled gpAvgList gp-avg-xs-1 gpFontSize gpLiMarginB gp-li-mb0 gp-li-mt5 gp-li-pl1 gp-li-pr20 pid-8486a5fb-851a-44b8-883e-94019e9b5f1c sm-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c xs-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c xxs-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c" data-gp-article-title-line-height="1.5" data-gp-article-title-line-clamp="2">
+                 <li> <a href="xsgz/xgdt1/c9f4c17775cf44418d89f995f9e98624.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-8486a5fb-851a-44b8-883e-94019e9b5f1c sm-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c xs-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c xxs-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c">
+            天津科技大学2026届毕业生3月轻工、化工、海环学院组团招聘会.docx 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             04 
+           </div> 
+           <div class="month ">
+             2026.03 
+           </div> 
+          </div> </a> </li>         <li> <a href="xsgz/xgdt1/bb8640e3c88543868b3d102302299abd.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-8486a5fb-851a-44b8-883e-94019e9b5f1c sm-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c xs-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c xxs-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c">
+            聆听成长故事，传承师者匠心——化工与材料学院成功举办我的导师 我的宝藏学风故事汇(1).docx 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             14 
+           </div> 
+           <div class="month ">
+             2026.01 
+           </div> 
+          </div> </a> </li>         <li> <a href="xsgz/xgdt1/10e9731c9e124118aca508c685920601.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-8486a5fb-851a-44b8-883e-94019e9b5f1c sm-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c xs-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c xxs-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c">
+            导学同行 乒乓传情︱化工与材料学院成功举办师生乒乓球友谊赛(1).docx 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             14 
+           </div> 
+           <div class="month ">
+             2025.12 
+           </div> 
+          </div> </a> </li>         <li> <a href="xsgz/xgdt1/4d3b443510344a17827018f54517aaf0.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-8486a5fb-851a-44b8-883e-94019e9b5f1c sm-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c xs-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c xxs-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c">
+            走进科创前沿，汇聚青春力量——化工与材料学院团委组织学生参观天开高教科创园(1)(2).docx 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             12 
+           </div> 
+           <div class="month ">
+             2025.12 
+           </div> 
+          </div> </a> </li>         <li> <a href="xsgz/xgdt1/940c22ece5884f779f1143a6cdeedb12.htm" target="_self" class="gpTextArea"> 
+          <div class="title gpArticleTitle gp-f18 pid-8486a5fb-851a-44b8-883e-94019e9b5f1c sm-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c xs-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c xxs-pid-8486a5fb-851a-44b8-883e-94019e9b5f1c">
+            筑牢安全基石，护航科研启航——化工与材料学院成功举办2025级本科生实验室安全专题讲座(1).docx 
+          </div> 
+          <div class="right gpArticleDate gp-pl-20"> 
+           <div class="day gp-f20  gpArticleDateLargeSize gp-pt-5 gp-pb-2">
+             09 
+           </div> 
+           <div class="month ">
+             2025.12 
+           </div> 
+          </div> </a> </li>        </ul>  
+      </div> 
+     </div> 
+    </div> 
+   </section>
+<link rel="stylesheet" href="css/common_6054813651133bbb0da7974a44cbd8ba.css">
+<section class="gp-clearFix pid-adf9791b-abf3-45e5-b7c0-cc8a507eb0db"> 
+ <div class="gp-clearFix"> 
+  <div class="layout col-md-12 col-sm-12 col-xs-12"> 
+   <footer class="footer_block26 gp-clearFix" data-gpfooter style="background-repeat:no-repeat;background-size:cover;background-image: url(images/5cad60c1d8eb4517abde30bea04d5fe8.png);background-position:center center;"> 
+    <div class="footer gp-container gp-white gp-clearFix"> 
+     <div class="gp-md-fl footer_lf"> 
+      <div class="footer_logo"> 
+       <img src="images/9631341af87e455e88dc6a5a2fd2dd06.png"> 
+      </div> 
+     </div> 
+     <div class="gp-md-fr footer_rt"> <span>版权所有©天津科技大学化工与材料学院 </span> <span>地址：天津经济技术开发区第十三大街29号</span> <span>邮编：300457</span> <span>联系电话：022-60602742</span> 
+     </div> 
+    </div> 
+    <script>
+	$('.f_link').find('li').hover(function(){
+		$(this).addClass('on');
+	},function(){
+		$(this).removeClass('on');
+	})
+ </script> 
+   </footer> 
+  </div> 
+ </div> 
+</section>  </div>
+</body></html>

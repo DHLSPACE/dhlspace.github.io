@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="format-detection" content="telephone=no">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta name="keywords" content="北京教育考试院">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+        <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
+		<title>北京教育考试院</title>
+		<link href="/static/css/ksyresponsive.min.css" rel="stylesheet">
+		<link href="/static/css/rest.css" rel="stylesheet" rel="stylesheet">
+		<link href="/static/css/main.css" rel="stylesheet" rel="stylesheet">
+      <style>
+       body{ word-wrap: break-word;}
+      </style>
+	</head>
+	<body>
+		<div class="wrap">
+		    <div class="main">
+		       <!--head-->
+<div class="container-fulid" style="background: #005ba1;">
+                <div class="container hidden-xs">
+              <div class="row">
+                        <div class="col-lg-12 m-t-10">
+                           <!-- <p class="text-right top-links">
+                                <span style="margin-right:75px;margin-right:75px; position: relative;top: 5px;"><em class="t-a fc66" style="color:#fff">咨询电话：010-89193989</em></span>
+                                
+                            </p>-->
+                        </div>
+                    </div>
+                    <div class="head row">
+                        <div class="col-lg-7 col-md-5">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <img src="/static/images/logo20251021.png" class="img-max" style="margin-top:20px"/>
+                                </div>
+                                <div class="col-md-5">
+                                    <img src="/static/images/logotxt20251021.png" class="img-max" style="margin-top:20px"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-12 hidden-xs m-t-30">
+                            <div class="fr   ">
+                                <div style="text-align: right;display: inline-block;margin-left: 10px;position: relative;color: #fff;">
+                                 <!-- <ul class="clearfix ul-wx" style="width: 80px;text-align: center;float: right;">
+                                    <li>
+                                      <p><img src="/static/images/shouduzhaokao.jpg" width="75"></p>
+                                      <p style="color:#fff">首都招考</p>
+                                    </li>
+                                  </ul>-->
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 </div>
+                <!--/head-->
+				<!--nav-->
+				<nav class="navbar navbar-default" role="navigation">
+				    <div class="container"> 
+				    	
+					    <div class="navbar-header">
+					        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse" style="width: 50px;height: 35px;">
+					            <span class="sr-only">切换导航</span>
+					             <em style="" class="dow">导航<i class="down2"></i></em>
+					           <!--<span class="icon-bar"></span>
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span>-->
+					        </button>
+					        <div class="show-xs pos-rel xs-w1">
+                           <span class="xs-logo">北京教育考试院</span>
+                      <!-- <span class="fr"><button class="btn-search2" type="submit"></button></span>-->
+                       </div>
+					    </div>
+					    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+					        <ul class="nav navbar-nav">
+					           <li class="nav-item">
+                    <a class="nav-link " href="/">首页</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/introduce/2020/1127/77048.html" typeid=264>考试院简介</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/zkzz/index.html" typeid=266>中考中招</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/hk/index.html" typeid=267> 高中学考合格考</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/gkgz/index.html" typeid=346>高考高招</a>
+                </li>
+                <li class='nav-item'><a class='nav-link active' href='/html/yk/index.html' ><span>研考研招</span></a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/ckcz/index.html" typeid=4>成考成招</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/selfstudy/index.html" typeid=825>自学考试</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/fxlks/index.html" typeid=424>社会考试</a>
+                </li>
+                
+					        </ul>
+					    </div>
+				    </div>
+				</nav>
+				<!--/nav-->
+<div class="row t-sear" id="search-cont">
+<div class="col-lg-5 col-md-12  m-t-30">
+						<div class="fr  sear-bord wap-ind" >
+								<form class="search" name="formsearch" action="https://search.bjeea.cn/">
+			                        <input type="hidden" name="kwtype" value="0">
+			                        <input name="q" type="text" class="form-control2 input-search" placeholder="输入搜索关键字">
+			                        <div class="input-cont">
+			                            <button class="btn-search" type="submit"></button>
+			                        </div>
+			                    </form>
+                      </div>
+</div>
+</div>
+              
+				<!--main-->
+				<div class="container">
+					<div class="row">
+                      <div class="col-md-5 col-md-offset-1 text-right"  id="search-cont" style="display: none;">
+											
+												<div class="searconts  m-t-10 m-b-10">
+													<form action="https://search.bjeea.cn/plus/search.php" name="formsearch" target="_blank">
+												        <input type="hidden" name="kwtype" value="0"/>
+												      
+												        <input name="keyword" type="text" class="text" id="search-keyword" class="f-search" placeholder="请输入关键字"/>
+												        <input name="searchtype" value="titlekeyword" id="search-option" type="hidden"/>
+												        <button type="submit" class="sub2">  </button>
+												      </form>
+												</div>
+									</div>
+						<div class="col-lg-12  col-md-12">
+							<div class="s-cont2">
+								<div class="inner40">
+									<div class="c-bread">
+										<ul id="subNav_now">
+										    当前位置：<li class='breadcrumb-item'><a href='https://www.bjeea.cn/'>考试院首页</a></li> > <li class='breadcrumb-item'><a href='/html/yk/index.html'>研考研招</a></a> > <li class='breadcrumb-item'><a href='/html/yk/faq/index.html'>考生问答</a></a>
+										</ul>
+									</div>
+    <div>
+
+	
+</div>
+									<div class="info-cont">
+										<div class="info-ctit m-t-50">2026年全国硕士研究生招生考试考生常见问题解答（三）成绩发布和复试录取阶段</div>
+										<p class="info-line m-t-20"></p>
+										<div class="info-times m-t-10">
+											<span class="info-item">2026-02-26</span>
+										</div>
+										<div class="info-txt m-t-30">
+											<div class="inner20 table-responsive">
+												<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><b><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><font face="黑体">一</font></span></span></span></b><b><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><font face="黑体">、成绩查询</font></span></span></span></b></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">1.考生何时可以查询初试成绩？</font></span></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:justify"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">我市硕士研究生招生单位将于</font><font face="仿宋_GB2312">2月</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">28</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">日</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">8</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">:00后陆续公布2026年硕士研究生招生考试初试成绩</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">，</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">具体公布时间</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">请</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">查看考生所报考招生单位发布的公告。</font></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">2.考生如何查询本人的初试成绩？</font></span></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">考生可以通过</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">中国</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">研</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">究生</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">招</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">生信息</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">网</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">（</font><font face="仿宋_GB2312">https://yz.chsi.com.cn/）</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">或者招生单位公布的方式查询本人的初试成绩。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt;"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">3</font></span></span></span></span><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">.考生如果对本人成绩有</font></span></span></span></span></span></span></span></span><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">疑义</font></span></span></span></span><span style="font-size:10.5pt;"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">，如何申请成绩复核？复核内容有哪些？</font></span></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:justify"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">考生如对成绩有疑义，可于</font><font face="仿宋_GB2312">3月2日、3日向报考的招生单位申请成绩复核。</font></span></span></span><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">根据有关规定，进行成绩复核时，主要核查考生答卷是否有漏评、加错分、登错分等情况，评分标准、评分细则的宽严问题不在复核范围。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">4.什么是国家分数线？</font></span></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">教育部按照一区、二区制定并公布参加全国硕士研究生招生考试考生进入复试的初试成绩基本要求（简称国家分数线）。一区包括北京、天津、河北、山西、辽宁、吉林、黑龙江、上海、江苏、浙江、安徽、福建、江西、山东、河南、湖北、湖南、广东、重庆、四川、陕西等</font><font face="仿宋_GB2312">21省（市）；二区包括内蒙古、广西、海南、贵州、云南、西藏、甘肃、青海、宁夏、新疆等10省（区）。原则上按学科门类分别划线，&ldquo;少数民族高层次骨干人才计划&rdquo;、少数民族照顾政策、工商管理等管理类专业学位、以及有关照顾专业（指工学、教育学照顾专业，具体范围由教育部根据国家战略需要、社会发展需求、考生报考情况等因素适时调整）单独划线。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:0.0000pt; text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">5.招生单位各专业复试分数线如何确定？在哪里公布？</font></span></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">招生单位在国家分数线的基础上，结合生源、招生计划、复试比例等情况，自主确定本单位考生初试成绩要求（分学科门类或学科专业的总成绩、单科成绩要求，含有关专项计划）及其他学术要求。一般在招生单位招生网站公布，考生可持续关注。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><b><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><font face="黑体">二</font></span></span></span></b><b><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><font face="黑体">、</font></span></span></span></b><b><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><font face="黑体">复试调剂录取</font></span></span></span></b></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">6.进入复试人数比例如何确定？</font></span></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">复试采取差额形式，差额比例由招生单位自主确定并提前公布，进入复试的考生人数一般不少于各学科专业已公布招生计划的</font><font face="仿宋_GB2312">120%。合格生源比例不足的，按实际合格生源数组织复试。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">7.招生单位复试录取办法在哪里公布?</font></span></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">招生单位</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">应</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">在其</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">招生</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">网站上公布复试</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">录取</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">办法，一般会与复试分数线同时公布，考生可持续关注。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">8.如何了解复试方式、流程和时间安排等信息？</font></span></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">考生可通过招生单位网站</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">或</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">报考专业所在院系网站，查看招生单位复试录取办法和院系复试工作实施细则，内含复试时间、地点、内容、方式、考生进入复试的初试成绩要求、成绩使用办法、工作程序、组织管理、咨询渠道等信息。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">9.对于考生在参加复试过程中发生的违规行为，如何处理？</font></span></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">复试是研究生招生考试的重要组成部分。对在研究生招生考试中违反考试管理规定和考场纪律，影响考试公平、公正的考生、考试工作人员及其他相关人员，</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">一律按《中华人民共和国刑法》《中华人民共和国教育法》《最高人民法院最高人民检察院关于办理组织考试作弊等刑事案件适用法律若干问题的解释》及《国家教育考试违规处理办法》（教育部令第</font>33号）严肃处理</span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">。</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">对在校生，由其所在学校按有关规定给予处分，直至</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">开除学籍；对在职考生，应通知考生所在单位，由考生所在单位视情节给予党纪或政纪处分；构成违法的</font><font face="仿宋_GB2312">,由司法机关依法追究法律责任，其中构成犯罪的，依法追究刑事责任。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">根据《刑法修正案（九）》规定，在国家考试中组织考生作弊的，处三年以下有期徒刑或者拘役，并处或者单处罚金；情节严重的，处三年以上七年以下有期徒刑，并处罚金。最高人民法院、最高人民检察院《关于办理组织考试作弊等刑事案件适用法律若干问题的解释》明确在研究生招生考试中组织考试作弊，属于情节严重。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">10.考生如何查询调剂计划和调剂办法等信息？</font></span></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">考生可通过各招生单位官方网站或</font><font face="仿宋_GB2312">&ldquo;全国硕士生招生调剂服务系统&rdquo;查询各招生单位的计划余额信息、调剂办法等信息。</font></span></span></span></span></span></span></span></p>
+
+<p style="margin-left:21px; text-indent:16.0000pt; text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">11.参加调剂的具体流程是什么？</font></span></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">考生通过调剂系统选择已发布余额的招生单位和专业研究方向，如符合招生单位设置的调剂报考条件，可填报调剂志愿（可同时填报三个平行志愿），填报后的调剂志愿在招生单位设置的时间内（不超过</font><font face="仿宋_GB2312">36小时）不允许修改（每个志愿单独计时）。锁定时间到达后，如招生单位未明确受理意见，系统自动解除锁定，考生可继续填报其他志愿。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">考生提交调剂志愿后，招生单位将反馈其是否能参加复试，请考生及时登录调剂系统，查看志愿状态和招生单位复试通知。如果收到复试通知，考生应通过调剂系统回复是否同意参加复试。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">考生在复试结束后，如果符合录取条件，将收到招生单位发送的</font><font face="仿宋_GB2312">&ldquo;待录取通知&rdquo;，考生接到&ldquo;待录取通知&rdquo;后，需在规定时间内登录调剂系统确认，否则招生单位可取消&ldquo;待录取通知&rdquo;。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">12.考生申请参加调剂时有什么注意事项？</font></span></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">（</font><font face="仿宋_GB2312">1）考生在查看计划余额时，要注意招生单位设置的调剂申请条件；</font></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">（</font><font face="仿宋_GB2312">2）考生应准确填写本人手机号码；</font></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">（</font><font face="仿宋_GB2312">3）考生一旦接受&ldquo;待录取通知&rdquo;，表示调剂录取完成，不能再填报调剂志愿、接受复试或待录取通知。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">13.考生是否可以接受两个&ldquo;复试通知&rdquo;？</font></span></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">考生可以同时接受两个（或多个）招生单位的</font><font face="仿宋_GB2312">&ldquo;复试通知&rdquo;。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">14</font></span></span></span></span><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">.考生如何参加体检？</font></span></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">考生体检工作由招生单位在考生拟录取后组织进行。招生单位根据《中华人民共和国残疾人教育条例》和《教育部办公厅</font> <font face="仿宋_GB2312">卫生部办公厅关于普通高等学校招生学生入学身体检查取消乙肝项目检测有关问题的通知》（教学厅〔</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000">2010</span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">〕</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000">2</span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">号）等文件规定，参照《教育部卫生部中国残疾人联合会关于印发〈普通高等学校招生体检工作指导意见〉的通知》（教学〔</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000">2003</span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">〕</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000">3</span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">号）要求，结合招生专业实际情况，提出本单位体检要求。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">15</font></span></span></span></span><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">.考生的思想政治素质和品德考核如何进行？</font></span></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:32.0000pt; text-align:left"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">思想政治素质和品德考核主要考核考生本人的现实表现，包括考生的政治态度、思想表现、道德品质、遵纪守法、诚实守信等方面。招生单位可在复试中加强对考生思想政治素质和品德考核，也可组织思想政治工作、招生工作等部门工作人员与考生面谈，直接了解考生思想政治情况，还可采取</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">&ldquo;</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">函调</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">&rdquo;</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">或</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">&ldquo;</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">派人外调</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">&rdquo;</font></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">等方式对考生的思想政治素质和品德进行考核。对于思想政治素质和品德考核不合格者不予录取。</font></span></span></span></span></span></span></span></p>
+
+<p style="text-indent:31.0000pt; text-align:left">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="text-autospace:ideograph-numeric"><span style="line-height:28.0000pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">16</font></span></span></span></span><span style="font-size:16.0000pt"><span style="font-family:黑体"><span style="color:#000000"><span style="font-weight:normal"><font face="黑体">.招生单位如何录取考生？考生如何查询到自己的录取结果？</font></span></span></span></span></span></span></span></span></p>
+
+<p><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="color:#000000"><font face="仿宋_GB2312">&nbsp; &nbsp; 招生单位根据本单位招生计划、报考考生的初试和复试成绩、思想政治和品德情况、身心健康状况等择优确定拟录取名单，拟录取名单经招生单位统一公示（公示时间不少于</font><font face="仿宋_GB2312">7日）后，才能办理有关录取手续。未经招生单位公示的考生，一律不得录取。考生可在招生单位网站或中国研究生招生信息网上进行录取结果查询。</font></span></span></span></p>
+
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/main-->
+		    </div>
+		</div>
+		 <!--foot-->
+        <div class="mfooter text-center" style="display: flex;align-items: center;justify-content: center;"> 
+            <div>
+            <div class="p-t-25 fz18">
+            <a href="/html/introduce/2020/1127/77048.html"  target="_blank">关于我们</a><em class="mfoot-em">|</em>
+         
+         <a href="/html/sfxx/2021/1025/79818.html"  target="_blank">收费公示</a><em class="mfoot-em">|</em>
+         <a href="/html/sfgs/index.html"  target="_blank">其它公开事项</a><em class="mfoot-em">|</em>
+         <a href="https://www.bjeea.cn/html/kspj/2023/1207/84673.html"  target="_blank">考试票据</a><em class="mfoot-em">|</em>
+            <a href="/html/zxxx/2021/0317/78259.html"  target="_blank">招考咨询</a><em class="mfoot-em">|</em>
+              
+              <a href="/html/zxxx/2021/0315/78197.html"  target="_blank">纪检监察网络举报</a> 
+              </div>
+            <div class="p-t-25 mfoot-span fz16">
+                <span>版权所有：北京教育考试院 </span>
+              <span><a href="https://beian.miit.gov.cn"  target="_blank">京ICP备19056224号-2</a> </span>
+                <span>
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040202430156" target="_blank">
+                        <img src="/static/images/20191223.png" style=" position:relative;top:-1px;margin-right: 2px">京公网安备 11040202430156号
+                    </a>
+                </span>
+                <span>地址：北京市海淀区志新东路9号</span>
+                <span>邮编：100083</span><span class="show-mob">咨询电话：010-89193989</span>
+                
+                
+            </div>
+</div>
+<div>
+ <a href="http://bszs.conac.cn/sitename?method=show&id=279ABFA3DEE80AD6E053022819AC201B">
+                       <img src="/static/images/blue.png" style="padding-top: 15px;" />
+                 </a>
+</div>
+
+        </div>
+        <!--/foot-->
+        <script type="text/javascript" src="/static/js/jquery2.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.SuperSlide.2.1.3.js"></script>
+        <script type="text/javascript" src="/static/js/ksyresponsive.min.js"></script>
+      <script type="text/javascript" src="/static/js/ksyurl.js"></script>
+        <script type="text/javascript">
+            $(".slideTxtBox").slide();
+           $(".btn-search2").click(function(){
+              $('#search-cont').toggle();
+            });
+           $(function(){
+            $(".gq-zs li").hover(function(){
+             $(".showdetail").slideDown();
+            },function(){
+           $(".showdetail").slideUp();
+          })
+           })
+        
+        </script>
+     <script>
+           $(function(){
+                $('.showdetail3 a').each(function(){
+                 var url=$(this).attr('href');
+                    if(url=="https://www.bjeea.cn/"){
+                          $(this).attr("href","javascript:void(0);"); 
+                          $(this).attr('target','')
+                           $(this).css({'cursor':'text',"color":"#ccc"}) 
+                   }
+                    })
+              })
+ $(function(){
+    $('.dow').click(function(){
+        $('.down2').toggleClass('down3')
+    })
+})
+       $(function(){
+                 $(".navbar-toggle").click(function(){
+                    $('.collapse').toggle();
+                  });
+            })
+                </script>
+<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1262083206'%3E%3C/span%3E%3Cscript src='https://w.cnzz.com/c.php%3Fid%3D1262083206' type='text/javascript'%3E%3C/script%3E"));</script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?039f809469476768f6767b8c695863ec";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+	</body>
+</html>

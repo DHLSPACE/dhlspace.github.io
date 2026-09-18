@@ -156,6 +156,8 @@ class Store:
                     writer.writeheader()
                     # 防止表格软件将手动笔记内容作为公式执行。
                     writer.writerows({k:("'"+v if isinstance(v,str) and v.startswith(('=','+','-','@')) else v) for k,v in r.items()} for r in rows)
+        from focus import export_filing
+        export_filing(self)
         return folder
 
 

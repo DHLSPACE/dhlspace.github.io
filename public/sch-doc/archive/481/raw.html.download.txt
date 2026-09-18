@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="liwen@cashq.ac.cn">
+<meta name="keywords" content="上海微系统所、研究生、通信与信息系统、微电子学与固体电子学、材料物理化学"> 
+<meta name="description" content="上海微系统所是中科院硕士、博士研究生重点培养基地之一，拥有“通信与信息系统”、“微电子学与固体电子学”和“材料物理化学”三个博士学位培养点。随着知识创新工程的深入，我所科研工作体量大幅度增加，研究生的招生规模也不断扩大。在创新二期期间，我所“以系统带动器件，以器件带动材料”的理念及获得的一系列科研成果吸引了大批优秀生源。我所还一直保持与上海宏力半导体有限公司、中芯国际等企业合作培养研究生，这种全新的培养模式让产学研结合得更加紧密，为国家的集成电路产业培养高级专业人才。"> 
+<title>中国科学院上海微系统与信息技术研究所2026年夏令营报名通知----中国科学院上海微系统与信息技术研究所</title>
+<link rel="stylesheet" href="../../../../images/bootstrap.css">
+<link href="//libsub.cas.cn/lib/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="../../../../images/animations.css" rel="stylesheet">
+<link href="../../../../images/owl.carousel.css" rel="stylesheet">
+<link href="../../../../images/yjsstyle.css" rel="stylesheet" type="text/css" />
+<link href="../../../../images/yjs.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../../../images/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="[JS library]"></script>
+<!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="../../../../images/selectivizr.js"></script>
+  <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+<![endif]-->
+<!--[if lt IE 9]>
+    <script type="text/javascript" src="../../../../images/html5shiv.min.js"></script>
+    <script type="text/javascript" src="../../../../images/respond.min.js"></script>
+<![endif]-->
+
+
+<SCRIPT LANGUAGE="JavaScript">
+function num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt){
+		var nCurrIndex = _nCurrIndex || 0;
+		if(nCurrIndex == 0)
+			document.write("<a href='#' class='nolink'>1</a>");
+		else
+			document.write("<a class='nolink' href=\""+_sPageName+"."+_sPageExt+"\">1</a>");
+		
+		for(var i=1; i<_nPageCount; i++){
+		if(nCurrIndex == i)
+			document.write("<a href='#' class='nolink'>"+(i+1)+"</a>");
+		else
+			document.write("<a class='nolink' href=\""+_sPageName+"_" + i + "."+_sPageExt+"\">"+(i+1)+"</a>");
+			}
+		return "";
+		}
+		
+function createPageHTML(_nPageCount, _nCurrIndex, _sPageName, _sPageExt){
+	if(_nPageCount == null || _nPageCount<=1){
+		return;
+	}
+	
+	var nCurrIndex = _nCurrIndex || 0;
+	
+	if (_nPageCount==2){
+		if(nCurrIndex == 0){
+		document.write("<a href='#' class='nolink'>1</a><a href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">2</a><a href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">下一页>></a>");
+		}
+		else if (nCurrIndex == 1){
+		document.write("<a class='nolink' href=\""+_sPageName+ "."+_sPageExt+"\"><<上一页</a><a href=\""+_sPageName+ "."+_sPageExt+"\">1</a><a href='#' class='nolink'>2</a>");
+		}
+	}
+	else{
+
+	if(nCurrIndex == 0){
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		document.write("<a class='nolink' href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">下一页>></a>");
+		}
+	else if (nCurrIndex == 1){
+		document.write("<a class='nolink' href=\""+_sPageName+"."+_sPageExt+"\" style='float:left;margin-left:10px;'><<上一页</a>");
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		document.write("<a class='nolink' href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">下一页>></a>");
+		}
+	else if(nCurrIndex == (_nPageCount-1)){
+		document.write("<a class='nolink' href=\""+_sPageName+"_" + (nCurrIndex-1) + "."+_sPageExt+"\" style='float:left;margin-left:10px;'><<上一页</a>");
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		}
+	else{
+		document.write("<a class='nolink' href=\""+_sPageName+"_" + (nCurrIndex-1) + "."+_sPageExt+"\" style='float:left;margin-left:10px;'><<上一页</a>");
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		document.write("<a class='nolink' href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">下一页>></a>");
+		}
+		} 
+	
+}
+</SCRIPT>
+</head>
+<body>
+<div class="scrollToTop"><i class="fa fa-chevron-up"></i></div>
+<div class="wivtop">
+  <div class="container">
+    <div class="logo"><a href="//www.sim.cas.cn/yjs/"><img class="img-responsive" src="//sim.cas.cn/images/simit-yjs-logo.png" alt="中国科学院上海微系统与信息技术研究所研究生教育网" /></a></div>
+  </div>
+</div>
+<div class="container-fluid menubg"><div class="container">
+   <div class="h_menu">
+   <div class="main-navigation animated">
+   <nav class="navbar navbar-default navbar-left" role="navigation">
+										<div class="container-fluid">
+
+											<!-- Toggle get grouped for better mobile display -->
+											<div class="navbar-header">
+												<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+													<span class="sr-only">Toggle navigation</span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+												</button>
+											</div>
+
+											<!-- Collect the nav links, forms, and other content for toggling -->
+											<div class="collapse navbar-collapse" id="navbar-collapse-1">
+												<ul class="nav navbar-nav">
+													<li class="dropdown">
+														<a href="http://www.sim.cas.cn/yjs/">首 页</a>
+													</li>
+													<!-- mega-menu start -->
+													<li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/yjs_gk/">概 况</a>
+													</li>
+													<li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/gwzz/">岗位职责</a>
+													</li>
+                                                    <li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/zsxx/" class="dropdown-toggle" data-toggle="dropdown">招生信息</a>
+														<ul class="dropdown-menu">
+														    
+															<li><a href="http://sim.cas.cn/yjs/zsxx/yjs_bszs/">博士招生</a></li>
+                                                                                                                    
+															<li><a href="http://sim.cas.cn/yjs/zsxx/yjs_sszs/">硕士招生</a></li>
+                                                                                                                    
+														</ul>
+													</li>
+                                                    <li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/jyzd/">就业指导</a>
+													</li>
+                                                    <li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/dsjs/" class="dropdown-toggle" data-toggle="dropdown">导师介绍</a>
+														
+													</li>
+                                                    <li class="dropdown">
+														<a href="http://sim.cas.cn/xyh2017/" class="dropdown-toggle" data-toggle="dropdown">校友网站</a>
+														
+													</li>
+                                                    <li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/xzzx/">下载中心</a>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+									</nav>
+   </div>
+   
+   </div>
+</div></div>
+<div class="main-container">
+<div class="container-fluid" style="background:#f9fdff; border-bottom:#deeef3 solid 1px;">
+     <div class="container">
+     <div class="page-intro">
+			<div class="row">
+				<ol class="breadcrumb">
+								<li><i class="fa fa-home pr-10"></i><a href="../../../">首页</a> &gt; <a href="../../" title="招生信息" class="CurrChnlCls">招生信息</a>&gt;<a href="../" title="硕士招生" class="CurrChnlCls">硕士招生</a></li>
+				</ol>
+			</div>
+     </div>
+     </div>
+</div>
+  <div class="container">
+  <div class="secondarybox">
+  <div class="row">
+   
+    <div class="col-md-12">
+    <div class="main-article bgbai">
+<!-- 正文开始 -->
+    <div id="xlmain">
+      <p class="wztitle">中国科学院上海微系统与信息技术研究所2026年夏令营报名通知</p>
+      <p class="qtinfo hidden-lg hidden-md hidden-sm">文章来源：&nbsp;&nbsp;|&nbsp;&nbsp;发布时间：2026-04-29</p>
+      <p class="qtinfo hidden-xs">文章来源：&nbsp;&nbsp;|&nbsp;&nbsp;发布时间：2026-04-29&nbsp;&nbsp;|&nbsp;&nbsp;【<a onclick="window.print()" href="#">打印</a>】&nbsp;【<a onclick="window.close();" href="#">关闭</a>】</p>
+          <div class="textxl nrhei">　　
+
+                <div class="trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_web"><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">    中国科学院上海微系统与信息技术研究所（以下简称“上海微系统所”）是我国著名的技术学科综合性研究所之一，前身是成立于1928年的国立中央研究院工程研究所。在九十多年的发展进程中，上海微系统所始终围绕国家战略需求，调整科研布局，发挥了对国民经济建设的骨干引领作用。</span></p><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">    上海微系统所现有传感器技术、集成电路材料等三个全国重点实验室，有无线传感网与通信、太赫兹固态技术、高端硅基材料三个中国科学院重点实验室。设有传感技术实验室、纳米材料与器件实验室，太赫兹固态技术实验室、微系统技术实验室、宽带无线通信实验室、硅基材料与集成器件实验室、超导电子学实验室、仿生视觉系统实验室、2020 X-Lab实验室等九个实验室。</span></p><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">    上海微系统所是国务院学位委员会批准的首批博士、硕士学位授予单位之一，设有电子科学与技术、信息与通信工程、集成电路科学与工程3个专业一级学科博士/硕士研究生培养点和材料物理与化学专业二级学科博士/硕士研究生培养点，另有电子信息、材料与化工专业学位博士/硕士研究生培养点。</span></p><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">    上海微系统所将于2026年7月举办“2026年全国优秀大学生暑期学术夏令营”活动。本次活动旨在促进全国优秀大学生之间的交流，帮助学生了解当前学科发展前沿热点问题和微系统所的科研教学情况。本次夏令营活动将采用线上与线下相结合的方式进行。</span></p><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">相关的安排及注意事项如下：</span></p><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong>一、夏令营时间</strong></span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong>线上营及综合能力评估：</strong>2026年7月6日-7月10日（暂定）</span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong>线下开放日及导师沟通会（分两批接待）：</strong></span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">第一批：2026年7月21日-23日（暂定）</span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">第二批：2026年8月18日-20日（暂定）</span></p><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong>二、招募对象</strong></span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">1. 大学本科集成电路、微电子、通信、材料、物理、化学、电子信息等相关专业三年级学生（即2027年应届毕业生）；</span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">2. 成绩优秀，预估可获得本校保研资格，对有出色的科研成果者学习成绩标准可适当放宽；</span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">3. 对我所研究方向有浓厚兴趣，并有较强的或潜在的研究能力，有意来我所求学深造。</span></p><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong>三、报名方式</strong></span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong>1. 报名办法：</strong></span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">登录中国科学院科教结合协同育人行动计划网站（<strong><span style="color: rgb(255, 0, 0); font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">http://kjxt.ucas.ac.cn/index.php/zh/</span></strong>），进入“大学生夏令营报名”入口，进行注册报名。注册后进入申请系统，报名时承办单位选择：“<strong>138-中国科学院上海微系统与信息技术研究所</strong>”。</span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong>2. 申请材料</strong></span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">（申请材料的提交方式待入选后通知，请有意向考生提前准备完毕，并扫描为一份pdf文件）：</span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">（1）提交报名并打印自动生成的《中国科学院大学2026年大学生夏令营申请表》；</span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">（2）本科成绩单和专业排名证明（需加盖教务处或院系公章）；</span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">（3）其他材料（已发表论文、奖状、各类证书、英语四/六级成绩单等的复印件）。</span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong>3. 报名时间：</strong></span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">即日起至2026年6月20日。</span></p><p style="text-indent: 2em;"><span style="text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">拟于2026年6月25日左右在所网站公布2026年夏令营入围名单，并会通过电子邮件直接通知本人。届时未接到录取通知的同学皆为未入选者，不再另行通知。</span></p><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong>四、其他事项</strong></span></p><ul style="list-style-type: disc;" class=" list-paddingleft-2"><li style="list-style-position: inside;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">参加夏令营活动的同学应遵守我所夏令营的各项规定，按照统一安排参加各项营内活动。</span></li><li style="list-style-position: inside;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong>我所将提供夏令营期间的在沪食宿；若参加夏令营学生录取为我所推免生后，可根据我所相关规定报销往返交通费（请保留相关交通费票据）。</strong></span></li><li style="list-style-position: inside;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">夏令营线下活动期间学生安全由本人负责，我所将为营员购买意外险。</span></li></ul><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><strong>五、联系方式</strong></span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">地址：上海市长宁路865号5号楼708室（研究生部）</span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">联系人：张老师</span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">邮件：yjs@mail.sim.ac.cn</span></p><p style="text-indent: 2em;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">电话：021-62528319</span></p><p style="text-align: right;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">中国科学院上海微系统与信息技术研究所 研究生部</span></p><p style="text-align: right;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;">2026年4月29日</span></p><p><br/></p></div>
+ 
+           <div id="appendix"  style="display:none;">
+		<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin:0 auto; margin-bottom:5px;background-color:#cccccc">
+          <tr>
+            <td height="25" style="padding-left:8px;" align="left" class="hh16b">附件下载：</td>
+          </tr>
+        </table>
+        <table width="90%" border="0" cellpadding="0" cellspacing="0">
+                    <tr id="attach">
+                      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td align="left" style="padding:10px 0 10px 40px;"><ol>
+                                
+                                
+                              </ol></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table>
+					<script>
+					var s = '';
+					var c = '';
+					var a = document.getElementById("appendix");
+					if(s.length >0 || c.length >0){
+						a.style.display = '';
+					}
+					</script>
+		</div>
+
+
+<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin:0 auto;">
+            <tr>
+              <td height="30" align="center"><SCRIPT LANGUAGE="JavaScript">
+createPageHTML(1, 0, "t20260429_8194554", "html");	
+</SCRIPT></td>
+            </tr>
+          </table>
+
+</div>
+   </div>
+<!-- 正文结束 -->
+    </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+  <style>
+.copyright a.links{
+color:#fff;
+}
+</style>
+<div class="container-fluid" style="background:#074988;">
+  <div class="container"><div class="row">
+  <div class="col-md-12"><div class="copyright">
+  <div class="left">
+         版权所有 &copy; 中国科学院上海微系统与信息技术研究所　<a href="https://beian.miit.gov.cn/" class="links" target="_blank">沪ICP备05005483号-1</a><br>地址：上海市长宁路865号　邮编：200050　电话：021-62511070</div>
+  </div></div>
+  </div></div>
+  </div>
+
+<script type="text/javascript" src="../../../../images/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../../../images/modernizr.js"></script>
+<script type="text/javascript" src="../../../../images/owl.carousel.js"></script>
+<script type="text/javascript" src="../../../../images/template.js"></script>
+<script type="text/javascript" src="../../../../images/initializers.js"></script>
+<script type="text/javascript" src="../../../../images/jquery.kxbdMarquee.js"></script>
+<script>
+(function(){
+	$("#marquee4").kxbdMarquee({direction:"up",isEqual:false});
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>化学化工学院</title><meta name="pageType" content="1">
+<meta name="pageTitle" content="化学化工学院">
+<META Name="keywords" Content="化学化工学院" />
+<meta name="pageType" content="1">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  
+  <!-- 或者指向具体路径 -->
+  <link rel="icon" href="new/images/logo.ico" type="image/x-icon">
+<meta name="pageTitle" content="南昌大学化学化工学院">
+
+
+  <meta name="description" content="南昌大学化学化工学院" />
+  
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="email=no" />
+  <meta name="format-detection" content="address=no" />
+  <meta name="format-detection" content="date=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="new/css/libs.css">
+  <link rel="stylesheet" type="text/css" href="new/css/style.css">
+  <link rel="stylesheet" type="text/css" href="new/css/index.css">
+  <script type="text/javascript" src="new/js/jquery.min.js"></script>
+  <script type="text/javascript" src="new/js/jquery.migrate.min.js"></script> 
+  <!--[if lte IE 9]>
+  <script type="text/javascript" src="new/js/jquery.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="new/js/script.js"></script>
+
+<script language="javascript" src="new/js/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307775465753515742000300024f56 -->
+<link rel="stylesheet" type="text/css" href="new/css/index.vsb.css" />
+<script type="text/javascript" src="new/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,2106750375)</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--Announced by Visual SiteBuilder 9-->
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307775465753515742000300024f56 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,2123179850)</script>
+</head>
+
+<body class="home" onselect="document.selection.empty()" onselectstart="return false" oncopy="document.selection.empty()" onbeforecopy="return false" ondragstart="return false" >
+  <div id="app">
+    <div class="header">
+      <div class="top">
+        <div class="wp flex pore" style="justify-content:flex-start;">
+          <div class="logo flex-left flexc">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.jsp?urltype=tree.TreeTempUrl&wbtreeid=1001" title="化学化工学院" target=""><img src="new/images/logo9.png"></a>
+
+
+    <script language="javascript" src="new/js/dynclicks.js"></script><div class="slog">
+</div>
+</div>
+          <div class="topnav">
+            <div class="topnavt flex-right">
+              <div class="links flex" style="width: 100%;justify-content: flex-end;"><script language="javascript" src="new/js/openlink.js"></script>
+              <p style="color:#fff;margin:0 0.5rem;"><div id="js1176041jsclock"></div>
+<script>
+function js1176041jstick() {
+try{
+var hoursjs1176041js, minutesjs1176041js, secondsjs1176041js, xfilejs1176041js;
+var intHoursjs1176041js, intMinutesjs1176041js, intSecondsjs1176041js;
+var todayjs1176041js, thedayjs1176041js;
+var timeStringjs1176041js="";
+todayjs1176041js = new Date();
+function initArrayjs1176041js(){
+this.length=initArrayjs1176041js.arguments.length
+for(var i=0;i<this.length;i++)
+this[i+1]=initArrayjs1176041js.arguments[i] }
+var d=new initArrayjs1176041js(
+"星期日",
+"星期一",
+"星期二",
+"星期三",
+"星期四",
+"星期五",
+"星期六");
+thedayjs1176041js = (todayjs1176041js.getYear()<1900?todayjs1176041js.getYear()+1900:todayjs1176041js.getYear())+"年" + [todayjs1176041js.getMonth()+1]+"月" +todayjs1176041js.getDate()+"日" ;
+intHoursjs1176041js = todayjs1176041js.getHours();
+intMinutesjs1176041js = todayjs1176041js.getMinutes();
+intSecondsjs1176041js = todayjs1176041js.getSeconds();
+hoursjs1176041js =intHoursjs1176041js;
+if (intHoursjs1176041js == 0) {
+    xfilejs1176041js = "午夜";
+} else if (intHoursjs1176041js < 12) {
+    xfilejs1176041js = "上午";
+} else if (intHoursjs1176041js == 12) {
+    xfilejs1176041js = "正午";
+} else {
+    xfilejs1176041js = "下午";
+}
+if (intMinutesjs1176041js < 10) {
+    minutesjs1176041js = "0"+intMinutesjs1176041js+":";
+} else {
+    minutesjs1176041js = intMinutesjs1176041js+":";
+}
+if (intSecondsjs1176041js < 10) {
+    secondsjs1176041js = "0"+intSecondsjs1176041js+" ";
+} else {
+    secondsjs1176041js = intSecondsjs1176041js+" ";
+}
+
+    timeStringjs1176041js += thedayjs1176041js;
+
+    timeStringjs1176041js +=  d[todayjs1176041js.getDay()+1];
+
+
+    timeStringjs1176041js += hoursjs1176041js+":"+minutesjs1176041js+secondsjs1176041js;
+
+document.getElementById("js1176041jsclock").innerHTML = '<span  class="fontstyle1176041" >'+timeStringjs1176041js+'</font>';
+window.setTimeout("js1176041jstick();", 1000);
+}catch(e){}
+}
+js1176041jstick();
+</script></p>
+              <a href="https://www.ncu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2106750375, 106059)" style="display: block;">学校首页</a>
+<a href="https://my.ncu.edu.cn/main.html" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2106750375, 106059)">门户系统</a>
+<a href="http://lib.ncu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2106750375, 106059)">图书馆</a>
+<a href="eng_index.jsp?urltype=tree.TreeTempUrl&wbtreeid=1461" class="en" target="_blank" title="" style="display: block;">EN</a>
+<span class="topser ar_web">
+                        <a href="javascript:;" class="showSear">
+                            <i class="swiper-icons swi-sousuo " style="font-size: .24rem;"></i>
+                        </a>
+                </span>
+
+</div>
+              <div class="topser">
+<script language="javascript" src="new/js/base64.js"></script>
+<script language="javascript" src="new/js/jquery-latest.min.js"></script>
+<script language="javascript" src="new/js/vue.js"></script>
+<script language="javascript" src="new/js/bluebird.min.js"></script>
+<script language="javascript" src="new/js/axios.js"></script>
+<script language="javascript" src="new/js/polyfill.js"></script>
+<script language="javascript" src="new/js/token.js"></script>
+<LINK href="new/css/index_1.css" type="text/css" rel="stylesheet">
+<script language="javascript" src="new/js/public.js"></script>
+<style>
+
+    #appu3 .qwss{
+        height: 31px;
+        font-size: 12px;
+        min-width: 190px;
+        max-width: 600px;
+        width: 60%;
+        margin-top: -15px;
+        outline: none;
+        padding-left: 10px;
+        border-radius: 2px;
+        border: 1px solid #e4e7ed;}
+    #appu3 .tj{
+        padding-left: 6px;
+        letter-spacing: 5px;
+        color: white;
+        min-width: 53px;
+        max-width: 150px;
+        height: 32px;
+        border: 0;
+        border-radius: 2px;
+        background-color: #1890FF;
+        position: relative;
+        top: 1px;
+        width: 20%;
+        margin-top: -15px;}
+</style>
+
+
+<div class="ser-layer">
+    <span class="serclose swiper-icons swi-close"></span>
+    <div class="serform">
+
+
+<div id="divu27"><div id="appu27"><div><div class="input-group pore"><input type="text" placeholder="输入关键词搜索..." autocomplete="off" class="inp">
+     <button type="submit" value="提交" class="sub"> 搜索</button></div></div> <!----></div></div>
+<script type="text/html" id="htmlu27">
+    <div id="appu27">
+        <div v-if="!isError">
+        
+        <div class="input-group pore">
+                <input type="text" class="inp" placeholder="输入关键词搜索..." autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit">
+                <button class="sub" type="submit" value="提交" v-on:click="onSubmit()">搜索</button>
+            </div>
+        
+          
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu27").html($("#htmlu27").text());
+</script>
+<script>
+    var appOwner = "1988918014";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu27",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function(e) {
+                // 防止事件冒泡和默认行为
+                if (e && e.preventDefault) {
+                    e.preventDefault();
+                }
+                
+                if (!this.query.keyWord.trim()) {
+                    alert("请填写搜索内容");
+                    return false;
+                }
+
+                // 添加语言（可选）
+                this.query.lang = "i18n_zh_CN";
+
+                try {
+                    var encoded = new Base64().encode(JSON.stringify(this.query));
+                    // 直接跳转到你的 JSP 模板
+                    window.location.href = "/search.jsp?urltype=tree.TreeTempUrl&wbtreeid=1811&query=" + encoded;
+                } catch (err) {
+                    console.error("编码失败", err);
+                    alert("搜索请求异常");
+                }
+                
+                return false; // 防止表单默认提交
+            }
+        }
+    })
+</script></div>
+</div>
+<script>
+    $("#divu3").html($("#htmlu3").text());
+</script>
+</div>
+            </div>
+             <div class="navs"><div class="wp">
+<ul class="flex"><li><a href="index.jsp?urltype=tree.TreeTempUrl&wbtreeid=1001">首页</a>
+</li>
+
+<li><a href="index.jsp?urltype=tree.TreeTempUrl&wbtreeid=1011">学院概况</a>
+     <div class="sub-nav ">
+                <div class="sub-nav-h">
+                 <a href="overview.jsp?urltype=tree.TreeTempUrl&wbtreeid=1101">学院简介</a>
+                 <a href="overview.jsp?urltype=tree.TreeTempUrl&wbtreeid=1111">历史沿革</a>
+                 <a href="leader.jsp?urltype=tree.TreeTempUrl&wbtreeid=1121">现任领导</a>
+                 <a href="overview.jsp?urltype=tree.TreeTempUrl&wbtreeid=1131">历任领导</a>
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1141">机构设置</a>
+                 <a href="teacher.jsp?urltype=tree.TreeTempUrl&wbtreeid=1151">师资队伍</a>
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1161">规章制度</a>
+     </div>
+              </div>
+</li>
+
+<li><a href="index.jsp?urltype=tree.TreeTempUrl&wbtreeid=1021">科学研究</a>
+     <div class="sub-nav ">
+                <div class="sub-nav-h">
+                 <a href="overview.jsp?urltype=tree.TreeTempUrl&wbtreeid=1171">科研简介</a>
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1181">科研进展</a>
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1191">科研平台</a>
+     </div>
+              </div>
+</li>
+
+<li><a href="index.jsp?urltype=tree.TreeTempUrl&wbtreeid=1031">人才培养</a>
+     <div class="sub-nav ">
+                <div class="sub-nav-h">
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1241">本科生培养</a>
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1251">研究生培养</a>
+                 <a href="overview.jsp?urltype=tree.TreeTempUrl&wbtreeid=1211">专业设置</a>
+                 <a href="overview.jsp?urltype=tree.TreeTempUrl&wbtreeid=1221">精品课程</a>
+                 <a href="overview.jsp?urltype=tree.TreeTempUrl&wbtreeid=1231">教学成果</a>
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1201">学位点及导师</a>
+     </div>
+              </div>
+</li>
+
+<li><a href="index.jsp?urltype=tree.TreeTempUrl&wbtreeid=1041">党群机构</a>
+     <div class="sub-nav ">
+                <div class="sub-nav-h">
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1261">党建工作</a>
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1271">党风廉政</a>
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1281">党史学习教育</a>
+     </div>
+              </div>
+</li>
+
+<li><a href="index.jsp?urltype=tree.TreeTempUrl&wbtreeid=1051">学生工作</a>
+     <div class="sub-nav ">
+                <div class="sub-nav-h">
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1291">本科生工作</a>
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1301">研究生工作</a>
+     </div>
+              </div>
+</li>
+
+<li><a href="index.jsp?urltype=tree.TreeTempUrl&wbtreeid=1061">招生就业</a>
+     <div class="sub-nav ">
+                <div class="sub-nav-h">
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1311">研究生招生</a>
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1321">本科生招生</a>
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1331">就业服务</a>
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1831">专业介绍</a>
+     </div>
+              </div>
+</li>
+
+<li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1071">校友风采</a>
+</li>
+
+<li><a href="index.jsp?urltype=tree.TreeTempUrl&wbtreeid=1081">人才招聘</a>
+     <div class="sub-nav ">
+                <div class="sub-nav-h">
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1341">高层次人才</a>
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1351">实验技术岗</a>
+                 <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1361">博士后</a>
+     </div>
+              </div>
+</li>
+
+<li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1091">下载中心</a>
+</li>
+
+</ul></div></div>
+          </div>
+          <a href="javascript:;" class="navbtn">
+          <button class="menu-btn"><span class="line-1"></span><span class="line-2"></span><span class="line-3"></span></button></a>
+        </div>
+      </div>
+    
+    </div>
+      <div class="banner">
+
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><div class="swiper-container slide-ba">   
+ <div class="swiper-wrapper">
+            
+<div class="swiper-slide item">
+              <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1401&wbnewsid=13281">
+                <div class="imgBox sc">
+                  <div class="img"><img src="/__local/9/EB/0E/43D38B0BDDBFFB6C8845B94CF4D_41C0DFF3_D95DF.png" alt="" style="height:100%;"></div>
+                </div>
+              </a>
+            </div>
+            
+<div class="swiper-slide item">
+              <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1401&wbnewsid=11511">
+                <div class="imgBox sc">
+                  <div class="img"><img src="/__local/6/DA/40/5B8B2D2D18AFF1EF6A758568640_85414A64_46DC3.jpg" alt="" style="height:100%;"></div>
+                </div>
+              </a>
+            </div>
+            
+<div class="swiper-slide item">
+              <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1401&wbnewsid=11211">
+                <div class="imgBox sc">
+                  <div class="img"><img src="/__local/6/CB/5D/B5322D7B8DC7554B048102ED6EC_B36C399C_1E78B.jpg" alt="" style="height:100%;"></div>
+                </div>
+              </a>
+            </div>
+            
+<div class="swiper-slide item">
+              <a href="https://chem.ncu.edu.cn/article.jsp?urltype=news.NewsContentUrl&wbtreeid=1371&wbnewsid=3901">
+                <div class="imgBox sc">
+                  <div class="img"><img src="/__local/1/CD/3E/1B17E6D81379BE700F4BE7B07BD_5941C2A8_636D2.jpg" alt="" style="height:100%;"></div>
+                </div>
+              </a>
+            </div>
+            
+</div>
+            <div class="swiDots"></div></div><script>_showDynClickBatch(['dynclicks_u2_13281','dynclicks_u2_11511','dynclicks_u2_11211','dynclicks_u2_4591'],[13281,11511,11211,4591],"wbnews", 2123179850)</script>
+</div>
+ <div>   
+</script></div>
+
+      <div class="content">
+          <div class="homea overhide">
+             <div class="wp flex">
+                <div class="left">
+                  <div class="intit" data-aos="fade-up">
+                      <div class="research-title-container">
+                        <img src="new/images/ti1.png">
+                        <div>
+                            <div class="research-title-cn">学院<span>新闻</span></div>
+                            <div class="research-title-en">/ College news</div>
+                        </div>
+                    </div>
+                      <div class="more"><a href="list1.jsp?urltype=tree.TreeTempUrl&wbtreeid=1371" target="">查看更多</a></div>
+                  </div>
+                   <div class="swiper-container slide-a" data-aos="fade-up" data-aos-delay="100">
+
+<script language="javascript" src="new/js/centercutimg.js"></script>
+<script language="javascript" src="new/js/ajax.js"></script>
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+
+<a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1371&wbnewsid=13271" target="_blank" title="教师节校领导走访慰问化学化工学院教师代表">
+                                  <div class="img zoomImg"><img alt="" src="/__local/D/BB/6E/5F01DF4AD916A9977B93C623D1C_4685819B_F41D.jpg"></div>
+                                  <div class="txt">
+                                     <div class="time"><span>10</span>/ 2026-09</div>
+                                     <div class="h4p">
+                                      <div class="h4  line2">教师节校领导走访慰问化学化工学院教师代表</div>
+                                      <div class="p line3"></div>
+                                       <div class="mor flex-right pore"><span>了解详情 &gt;&gt;</span></div>
+                                    </div>
+                                   
+                                  </div>
+                                </a>
+<script>_showDynClickBatch(['dynclicks_u3_13271'],[13271],"wbnews", 2123179850)</script>
+</div>
+</div>
+                          <div class="swiDots"></div><script>_showDynClickBatch(['dynclic   ks_u7_34422','dynclicks_u7_34382','dynclicks_u7_34312','dynclicks_u7_34302'],[34422,34382,34312,34302],"wbnews", 2106750375)</script>
+</div>
+<ul class="list8">
+
+
+<li data-aos="fade-up">
+                                  <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1371&wbnewsid=13271" class="a flex">
+                                      <h4 class="l1 h4s1">教师节校领导走访慰问化学化工学院教师代表</h4>
+                                      <span>2026.09.10</span>
+                                  </a>
+  </li>
+  
+<li data-aos="fade-up">
+                                  <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1371&wbnewsid=13251" class="a flex">
+                                      <h4 class="l1 h4s1">我院赴新干盐化工业城开展访企拓岗与合作交流</h4>
+                                      <span>2026.09.09</span>
+                                  </a>
+  </li>
+  
+<li data-aos="fade-up">
+                                  <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1371&wbnewsid=13051" class="a flex">
+                                      <h4 class="l1 h4s1">启航新征程，圆梦化学路 ——化学化工学院举办2026级本科生开学典礼暨开学第一课</h4>
+                                      <span>2026.08.31</span>
+                                  </a>
+  </li>
+  
+<li data-aos="fade-up">
+                                  <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1371&wbnewsid=13031" class="a flex">
+                                      <h4 class="l1 h4s1">研途启航，化院相约  ——化学化工学院2026级研究生新生开学典礼顺利举行</h4>
+                                      <span>2026.08.31</span>
+                                  </a>
+  </li>
+  
+<li data-aos="fade-up">
+                                  <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1371&wbnewsid=13041" class="a flex">
+                                      <h4 class="l1 h4s1">化院迎新启新程，笃行实干谱新篇——化学化工学院2026年本科迎新服务工作纪实</h4>
+                                      <span>2026.08.30</span>
+                                  </a>
+  </li>
+  
+<li data-aos="fade-up">
+                                  <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1371&wbnewsid=13021" class="a flex">
+                                      <h4 class="l1 h4s1">金秋迎新启新程，青春逐梦正当时 ——化学化工学院2026年研究生迎新工作圆满结束</h4>
+                                      <span>2026.08.30</span>
+                                  </a>
+  </li>
+  
+<li data-aos="fade-up">
+                                  <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1371&wbnewsid=12941" class="a flex">
+                                      <h4 class="l1 h4s1">喜报｜我院学子在第十四届全国大学生化学实验竞赛全国决赛斩获佳绩</h4>
+                                      <span>2026.08.15</span>
+                                  </a>
+  </li>
+  
+<script>_showDynClickBatch(['dynclicks_u4_13271','dynclicks_u4_13251','dynclicks_u4_13051','dynclicks_u4_13031','dynclicks_u4_13041','dynclicks_u4_13021','dynclicks_u4_12941'],[13271,13251,13051,13031,13041,13021,12941],"wbnews", 2123179850)</script>
+
+<a href="list1.jsp?urltype=tree.TreeTempUrl&wbtreeid=1371" style="float: right; margin-top: .1rem; font-size: .14rem">查看更多&gt;&gt;</a>
+</ul>               
+</div>
+                <div class="right">
+                    <div class="intit" data-aos="fade-up" data-aos-delay="200">
+                    <div class="research-title-container">
+                      <img src="new/images/ti2.png">
+                      <div>
+                          <div class="research-title-cn">通知<span>公告</span></div>
+                          <div class="research-title-en">/ Notification </div>
+                      </div>
+                  </div>
+                    <div class="more"><a href="list1.jsp?urltype=tree.TreeTempUrl&wbtreeid=1381" target="">查看更多</a></div>
+                  </div>
+
+                    <ul data-aos="fade-up" data-aos-delay="300">
+
+<li><a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1381&wbnewsid=12381" target="_blank" title="化学化工学院2026年（博）研究生论文答辩公告(吕慧鹏20260531)"><div class="time"><time><span>29</span>2026-05</time></div><div class="h4 line2">化学化工学院2026年（博）研究生论文答辩公告(吕慧鹏20260531...</div></a></li>
+                        
+
+<li><a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1381&wbnewsid=12371" target="_blank" title="化学化工学院2026年（硕）研究生论文答辩公告(吕慧鹏20260531)"><div class="time"><time><span>29</span>2026-05</time></div><div class="h4 line2">化学化工学院2026年（硕）研究生论文答辩公告(吕慧鹏20260531...</div></a></li>
+                        
+
+<li><a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1381&wbnewsid=12351" target="_blank" title="化学化工学院2026届本科生毕业设计(论文)答辩安排"><div class="time"><time><span>28</span>2026-05</time></div><div class="h4 line2">化学化工学院2026届本科生毕业设计(论文)答辩安排</div></a></li>
+                        
+
+<li><a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1381&wbnewsid=12281" target="_blank" title="化学化工学院2026年（博）研究生论文答辩公告（答辩秘书张真260523冯裕发）"><div class="time"><time><span>21</span>2026-05</time></div><div class="h4 line2">化学化工学院2026年（博）研究生论文答辩公告（答辩秘书张真2...</div></a></li>
+                        
+
+<li><a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1381&wbnewsid=12271" target="_blank" title="化学化工学院2026年（博）研究生论文答辩公告（答辩秘书张真260523孙晓）"><div class="time"><time><span>21</span>2026-05</time></div><div class="h4 line2">化学化工学院2026年（博）研究生论文答辩公告（答辩秘书张真2...</div></a></li>
+                        
+
+<li><a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1381&wbnewsid=12261" target="_blank" title="化学化工学院2026年（博）研究生论文答辩公告（答辩秘书张真260523薛琦）"><div class="time"><time><span>21</span>2026-05</time></div><div class="h4 line2">化学化工学院2026年（博）研究生论文答辩公告（答辩秘书张真2...</div></a></li>
+                        
+
+<li><a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1381&wbnewsid=12251" target="_blank" title="化学化工学院2026年（硕）研究生论文答辩公告(郭文静、熊辉煌+20260523）"><div class="time"><time><span>21</span>2026-05</time></div><div class="h4 line2">化学化工学院2026年（硕）研究生论文答辩公告(郭文静、熊辉煌...</div></a></li>
+                        
+
+<script>_showDynClickBatch(['dynclicks_u5_12381','dynclicks_u5_12371','dynclicks_u5_12351','dynclicks_u5_12281','dynclicks_u5_12271','dynclicks_u5_12261','dynclicks_u5_12251'],[12381,12371,12351,12281,12271,12261,12251],"wbnews", 2123179850)</script>
+</ul>
+
+                </div>
+             </div>
+<div class="homee">
+    <div class="wp">
+
+        <div class="ztbox aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+<ul class="flex" style="justify-content:space-between;">
+            
+<li>
+            <a href="https://nuip.ncu.edu.cn/" onclick="_addDynClicks(&quot;wbimage&quot;, 2106750375, 1018291)">
+                <div class="img-container">
+                    <div class="img zoomImg">
+                        <img alt="" src="/__local/8/63/00/AC7ED534F6FB20AC5B7C1C9A74A_84CAD0D6_3212E.jpg">
+                        </div>
+                        <p class="zomImg-p">南昌大学高分子及能源化学研究院</p>
+                        </div>
+                  </a>
+                </li>
+  
+<li>
+            <a href="https://feelochem.ncu.edu.cn/" onclick="_addDynClicks(&quot;wbimage&quot;, 2106750375, 1018291)">
+                <div class="img-container">
+                    <div class="img zoomImg">
+                        <img alt="" src="/__local/2/3B/37/2B8F95E344692F912093EFFC9F9_294B5103_DEC31.png">
+                        </div>
+                        <p class="zomImg-p">南昌大学国际物质有序科学研究院</p>
+                        </div>
+                  </a>
+                </li>
+  
+<li>
+            <a href="https://ires.ncu.edu.cn/" onclick="_addDynClicks(&quot;wbimage&quot;, 2106750375, 1018291)">
+                <div class="img-container">
+                    <div class="img zoomImg">
+                        <img alt="" src="/__local/7/82/87/DF4B9F50B1EF9B75FE80B96B313_834A77BD_270DB.jpg">
+                        </div>
+                        <p class="zomImg-p">南昌大学稀土研究院</p>
+                        </div>
+                  </a>
+                </li>
+  
+<li>
+            <a href="https://hxsyzx.ncu.edu.cn/" onclick="_addDynClicks(&quot;wbimage&quot;, 2106750375, 1018291)">
+                <div class="img-container">
+                    <div class="img zoomImg">
+                        <img alt="" src="/__local/2/4F/AB/EDFD7B4AE6E6B84DF4BB14B9D78_849675AE_10E41.jpg">
+                        </div>
+                        <p class="zomImg-p">南昌大学基础化学实验中心</p>
+                        </div>
+                  </a>
+                </li>
+  
+</ul><script>_showDynClickBatch(['dynclicks_u6_4541','dynclicks_u6_4551','dynclicks_u6_4561','dynclicks_u6_4571'],[4541,4551,4561,4571],"wbnews", 2123179850)</script>
+</div>
+    </div>
+  </div>
+                  
+          <div class="wp research-container">
+            <div class="research-section">
+                <div class="research-wrapper">
+
+<div class="research-header">
+                        <div class="research-title-container">
+                            <img src="new/images/activity1.png">
+                            <div>
+                                <div class="research-title-cn">学术<span>动态</span></div>
+                                <div class="research-title-en">/ Research News</div>
+                            </div>
+                        </div>
+                        <div class="research-more"><a href="list1.jsp?urltype=tree.TreeTempUrl&wbtreeid=1451" target="">查看更多</a></div>
+                      </div>
+                   <div class="research-slider-container">
+                        <div class="swiper-container research-swiper">
+                             <div class="swiper-wrapper">
+                                
+<div class="swiper-slide research-slide" style="height:100%;">
+                                     <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1451&wbnewsid=13291" target="_blank" title="化学化工学院“智汇讲坛”学术报告--潘振晓 教授">
+                                      <div class="research-image"><img alt="" src="/__local/2/87/85/98E189C8A7706AD13A282E10479_EA0A3563_B3BF3.jpg"></div>
+                                      <div class="research-content">
+                                         <div class="research-date"><span>09-17</span> &nbsp;/ 2026</div>
+                                         <div class="research-text-container">
+                                          <div class="research-heading">化学化工学院“智汇讲坛”学术报告--潘振晓 教授</div>
+                                          <div class="research-description">报告题目：碳基钙钛矿太阳电池报  告 人：潘振晓 教授（华南农业大学）时  间：2026年9月18日（星期五）下午16:00地      点：理生楼A302-1报告人简介: 潘振晓，华南农业大学教授、博士生导师，材料与化学工程学院副院长。2015年博士毕业于华东理工大学，2017年到华南农业大学工作。近年来主要从事新型太阳电池的研究，包括碳基钙钛矿太阳电池和量子点太阳电池。主持国家自然科学基金面上项目等科研项目十余项。迄今以第一/通讯作者在J....</div>
+                                        </div>
+                                      </div>
+                                    </a>
+                               </div>
+                                
+<div class="swiper-slide research-slide" style="height:100%;">
+                                     <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1451&wbnewsid=13241" target="_blank" title="化学化工学院“智汇讲坛”学术报告--杨帆 研究员">
+                                      <div class="research-image"><img alt="" src="/__local/4/4C/C1/E79A9921C6A191FF363CF2D1DDC_FA811CAD_E573E.jpg"></div>
+                                      <div class="research-content">
+                                         <div class="research-date"><span>09-07</span> &nbsp;/ 2026</div>
+                                         <div class="research-text-container">
+                                          <div class="research-heading">化学化工学院“智汇讲坛”学术报告--杨帆 研究员</div>
+                                          <div class="research-description">报告题目：原子尺度的表界面动态催化报 告 人：杨帆 研究员（上海科技大学）时     间：2026年9月10日（星期四）下午14:30地    点：理生楼A315报告人简介: 杨帆，上海科技大学物质科学与技术学院研究员/博士生导师。2001年北京大学化学系学士，2007年美国得克萨斯A&amp;M大学化学系博士，2008-2012年美国得克萨斯A&amp;M大学和布鲁克海文国家实验室博士后。2012-2019年中国科学院大连化学物理研究所研究员，2019年至今上海科技大学研究员。...</div>
+                                        </div>
+                                      </div>
+                                    </a>
+                               </div>
+                                
+<div class="swiper-slide research-slide" style="height:100%;">
+                                     <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1451&wbnewsid=13211" target="_blank" title="南昌大学化学化工学院 2026年夏季学期“Summer School”--陈皓 教授">
+                                      <div class="research-image"><img alt="" src="/__local/2/18/89/037ECAF755872E5E90B8CBB5FF0_219E3219_82498.jpg"></div>
+                                      <div class="research-content">
+                                         <div class="research-date"><span>09-04</span> &nbsp;/ 2026</div>
+                                         <div class="research-text-container">
+                                          <div class="research-heading">南昌大学化学化工学院 2026年夏季学期“Summer School”--陈皓 教授</div>
+                                          <div class="research-description">报告题目：氮化硼催化报 告 人：陈皓 教授（湖南大学）时  间：2026年9月8日下午14：30地  点：理生楼A302-1报告人简介: 陈皓，湖南大学化学化工学院教授，国家海外高层次人才计划入选者。主要研究领域为高温稳定催化材料的设计与合成：（1）高熵金属氧化物催化材料；（2）结构可控的二维氮化硼催化材料；（3）强金属-载体相互作用催化材料。目前以第一/通讯作者在JACS(3)、Angew (2)、Chem、AIChE J.(3)、ACS Catal. (6)等顶尖国际学术期刊发表论文80余篇，...</div>
+                                        </div>
+                                      </div>
+                                    </a>
+                               </div>
+                                
+<div class="swiper-slide research-slide" style="height:100%;">
+                                     <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1451&wbnewsid=13201" target="_blank" title="南昌大学化学化工学院 2026年夏季学期“Summer School”--张泽会 教授">
+                                      <div class="research-image"><img alt="" src="/__local/A/C7/4D/EA3DAC7373F19136B8E07255028_71367A35_AA333.jpg"></div>
+                                      <div class="research-content">
+                                         <div class="research-date"><span>09-04</span> &nbsp;/ 2026</div>
+                                         <div class="research-text-container">
+                                          <div class="research-heading">南昌大学化学化工学院 2026年夏季学期“Summer School”--张泽会 教授</div>
+                                          <div class="research-description">报告题目：生物质基含氮化学品的定向制备报 告 人：张泽会 教授（中南民族大学）时  间：2026年9月7日下午14：30地  点：理生楼A302-1报告人简介: 张泽会教授，中南民族大学研究生院副院长，催化转化与能源材料化学教育部重点实验室副主任。英国皇家化学会会士、国家重点研发计划战略性重点专项首席科学家、教育部霍英东基金会青年教师奖获得者、首届华中地区催化领域青年奖获得者、英国皇家学会高被引作者，入选全球前2%顶尖科学家榜单。...</div>
+                                        </div>
+                                      </div>
+                                    </a>
+                               </div>
+                                
+<div class="swiper-slide research-slide" style="height:100%;">
+                                     <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1451&wbnewsid=13081" target="_blank" title="南昌大学化学化工学院 2026年夏季学期“Summer School”--李智 教授">
+                                      <div class="research-image"><img alt="" src="/__local/2/71/FB/0717AB54C596EAAE0BE476177FD_AFBC6619_85C5F.jpg"></div>
+                                      <div class="research-content">
+                                         <div class="research-date"><span>09-03</span> &nbsp;/ 2026</div>
+                                         <div class="research-text-container">
+                                          <div class="research-heading">南昌大学化学化工学院 2026年夏季学期“Summer School”--李智 教授</div>
+                                          <div class="research-description">报告题目：面向可持续发展的绿色催化反应设计报 告 人：李智 教授（上海科技大学）时  间：2026年9月4日上午9:00地  点：理生楼A302-1报告人简介: 李智，上海科技大学物质科学与技术学院，教授，2006年本科毕业于中国科学技术大学化学系（导师：尤田耙教授），2011年博士毕业于美国芝加哥大学（导师：Hisashi Yamamoto），2011-2014 美国西北大学化学系博士后（导师：Tobin J. Marks），2015年3月加入上海科技大学物质学院担任助理教授、...</div>
+                                        </div>
+                                      </div>
+                                    </a>
+                               </div>
+                                
+</div>
+                        </div>
+                   </div>
+                    <div class="research-navigation">
+                            <a class="prev" href="javascript:;">❮</a>
+                            <a class="next" href="javascript:;">❯</a>
+                        </div>
+                        
+<script>_showDynClickBatch(['dynclicks_u7_13291','dynclicks_u7_13241','dynclicks_u7_13211','dynclicks_u7_13201','dynclicks_u7_13081'],[13291,13241,13211,13201,13081],"wbnews", 2123179850)</script>
+</div>
+            </div>
+        </div>
+           
+          <div class="homec overhide">
+            <div class="wp">
+               <div class="intit">
+                    <div class="h4 flex-left flexc"><img src="new/images/ti4.png"><div class="cn">学生<span>工作</span></div><div class="en">/ Student dynamics</div></div>
+                    <div class="more"><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1291" target="">查看更多</a></div>
+                  </div>
+
+                <div class="box flex">
+                  <div class="left" data-aos="fade-right" style="will-change: transform, opacity;">
+
+<ul>                        
+
+<li>
+<a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1291&wbnewsid=13061" target="_blank" title="专业启蒙启新知 化学筑梦向未来——化学化工学院开展2026级本科新生学术迎新讲座"><div class="h4 eclips" style="display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4em;
+  max-height: 2.8em;  ">专业启蒙启新知 化学筑梦向未来——化学化工学院开展2026级本科新生学术...</div><div class="time"><span>08-31</span>&nbsp;/ 2026</div></a></li>
+                          
+
+<li>
+<a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1291&wbnewsid=12931" target="_blank" title="暖心赴夏，聚力前行——我院2026年暑期留校学生慰问座谈会圆满开展"><div class="h4 eclips" style="display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4em;
+  max-height: 2.8em;  ">暖心赴夏，聚力前行——我院2026年暑期留校学生慰问座谈会圆满开展</div><div class="time"><span>08-12</span>&nbsp;/ 2026</div></a></li>
+                          
+
+<li>
+<a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1291&wbnewsid=12901" target="_blank" title="赴铅寻畲传薪火，青春聚力兴畲乡——我院赴铅山太源畲族乡开展暑期社会实践活动"><div class="h4 eclips" style="display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4em;
+  max-height: 2.8em;  ">赴铅寻畲传薪火，青春聚力兴畲乡——我院赴铅山太源畲族乡开展暑期社会...</div><div class="time"><span>07-22</span>&nbsp;/ 2026</div></a></li>
+                          
+
+<li>
+<a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1291&wbnewsid=12891" target="_blank" title="南昌大学化学化工学院赴铅山县太源畲族乡开展暑期社会实践活动纪实五"><div class="h4 eclips" style="display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4em;
+  max-height: 2.8em;  ">南昌大学化学化工学院赴铅山县太源畲族乡开展暑期社会实践活动纪实五</div><div class="time"><span>07-22</span>&nbsp;/ 2026</div></a></li>
+                          
+
+<li>
+<a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1291&wbnewsid=12881" target="_blank" title="南昌大学化学化工学院赴铅山县太源畲族乡开展暑期社会实践活动纪实四"><div class="h4 eclips" style="display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4em;
+  max-height: 2.8em;  ">南昌大学化学化工学院赴铅山县太源畲族乡开展暑期社会实践活动纪实四</div><div class="time"><span>07-22</span>&nbsp;/ 2026</div></a></li>
+                          
+
+<li>
+<a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1291&wbnewsid=12871" target="_blank" title="南昌大学化学化工学院赴铅山县太源畲族乡开展暑期社会实践活动纪实三"><div class="h4 eclips" style="display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4em;
+  max-height: 2.8em;  ">南昌大学化学化工学院赴铅山县太源畲族乡开展暑期社会实践活动纪实三</div><div class="time"><span>07-22</span>&nbsp;/ 2026</div></a></li>
+                          
+
+</ul><script>_showDynClickBatch(['dynclicks_u8_13061','dynclicks_u8_12931','dynclicks_u8_12901','dynclicks_u8_12891','dynclicks_u8_12881','dynclicks_u8_12871'],[13061,12931,12901,12891,12881,12871],"wbnews", 2123179850)</script>
+</div>
+                  <div class="right" data-aos="fade-left">
+<div class="swiper-container slide-c">
+                         <div class="right-swiper-wrapper">
+
+<div class="right-swiper-slide">
+                                 <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1301&wbnewsid=11641" target="_blank" title="南昌大学第十六届研究生师生康乐运动会  ——化学化工学院活力全开">
+                                  <div class="img zoomImg"><img alt="" src="/__local/3/4A/A3/03C6471BDBB0162587686D739AC_033DD938_225FD.jpeg"></div>
+                                  <div class="txt">
+                                     <div class="h4p"><div class="h4 line2">南昌大学第十六届研究生师生康乐运动会  ——化学化工学院活力全开</div></div>
+                                     <div class="txt-container">南昌大学第十六届研究生师生康乐运动会——化学化工学院活力全开四月的南大，春风和煦，热血沸腾。南昌大学第十六届研究生师生康乐运动会如期而至，化学化工学院积极响应、全面统筹、周密部署，广泛动员师生踊跃参与，共计300余名师生投身于赛事之中，共组建1支培养单位队伍与 24支课题组队伍，在赛场上赛出风采、赛出水平！凭借出色的组织协调能力和师生团结一心的风貌，学院荣获优秀组织奖、单项成绩第一名、第三名及团体总分第三名等荣誉，...</div>
+                                     <div class="time"><i class="swiper-icons swi-shijian"></i>2026-04-21</div>
+                                    </div>
+                                </a>
+                           </div> 
+
+<div class="right-swiper-slide">
+                                 <a href="article.jsp?urltype=news.NewsContentUrl&wbtreeid=1301&wbnewsid=11581" target="_blank" title="砺化工之志，筑国安之盾——南昌大学化学化工学院研究生团总支开展全民国家安全教育日主题活动">
+                                  <div class="img zoomImg"><img alt="" src="/__local/E/FE/A0/FEE61F262D3F15A7F6DF6F055EA_376AE14D_1B6C5.png"></div>
+                                  <div class="txt">
+                                     <div class="h4p"><div class="h4 line2">砺化工之志，筑国安之盾——南昌大学化学化工学院研究生团总支开展全民国家安全教育日主题活动</div></div>
+                                     <div class="txt-container">砺化工之志，筑国安之盾——南昌大学化学化工学院研究生团总支开展全民国家安全教育日主题活动为深入贯彻落实总体国家安全观，推动国家安全宣传教育走深走实，2026年4月14日下午两点，化学化工学院研究生团委在理生楼一楼开展“砺化工之志，筑国安之盾”全民国家安全教育日主题实践活动。学院研究生积极参与，共同筑牢国家安全思想防线。沉浸式科普，安全知识入脑入心。现场布置了醒目的主题宣传展架，红色展架上“全民国家安全教育日”...</div>
+                                     <div class="time"><i class="swiper-icons swi-shijian"></i>2026-04-16</div>
+                                    </div>
+                                </a>
+                           </div> 
+
+<script>_showDynClickBatch(['dynclicks_u9_11641','dynclicks_u9_11581'],[11641,11581],"wbnews", 2123179850)</script>
+</div>
+                      
+                    </div>
+</div>
+
+                </div>
+            </div>
+
+          </div>
+      </div>
+
+      <footer class="footer_box"><div class="ft-m">
+            <div class="wid">
+               
+                 <div class="footer03_logo" style="width:40%;">
+                <a href="index.htm" title="南昌大学化学化工学院">
+                    <img src="new/images/logo9.png" alt="南昌大学化学化工学院">
+                </a>
+            </div>
+                 <div class="ftm-r">
+                    <ul>
+                        <li class="ftmr_li">快速链接</li>
+                        <li class="ftmr_li">
+                           <a href="http://nuip.ncu.edu.cn/" title="南昌大学高分子及能源化学研究院">南昌大学高分子及能源化学研究院&nbsp;&nbsp;</a>
+                        </li>
+                        <li class="ftmr_li">
+                                                   <a href="https://feelochem.ncu.edu.cn/" title="南昌大学国际有序物质科学研究院">南昌大学国际有序物质科学研究院&nbsp;&nbsp;</a>
+                        <li class="ftmr_li"> 
+                                                    <a href="http://ires.ncu.edu.cn/" title="南昌大学稀土研究院">南昌大学稀土研究院&nbsp;&nbsp;</a>
+                             <li class="ftmr_li"> 
+                           <a href="http://hxsyzx.ncu.edu.cn/" title="南昌大学基础化学实验教学中心">南昌大学基础化学实验教学中心&nbsp;&nbsp;</a> </li>
+                    </ul>
+                </div>
+                <div class="ftm-r">
+                    <ul>
+                        <li class="ftmr_li">地址:南昌大学理科生命大楼A区三楼</li>
+                        <li class="ftmr_li">电话：+86-0791-83969514</li>
+                        <li class="ftmr_li">邮编：330031</li>
+                        <li class="ftmr_li">电子邮件:ncuhxhgxy@ncu.edu.cn</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer03_copyright">
+                <p>Copyright©南昌大学化学化工学院版权所有 &nbsp;</p>
+            </div>
+        </div>
+        
+        <style>
+        @media(max-width:768px){
+        .ftm-r { min-width: auto;width: auto;}
+        .footer03_logo{display:none;}}
+        </style></footer>
+
+  </div>
+
+ <div id="autoFloatingWindow">
+  <button id="closeBtn">×</button>
+  <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1341" target="" class="floating-link">
+    <p class="floating-text">南昌大学化学化工学院<br />诚邀海内外英才!</p>
+  </a>
+</div>
+
+<script>
+  (function() {
+    const win = document.getElementById('autoFloatingWindow');
+    if (!win) return;
+
+    let x = 100;
+    let y = 100;
+    let dx = 0.3;
+    let dy = 1.0;
+    let animationFrameId;
+    let isVisible = true;
+
+    // 关闭功能
+    const closeBtn = document.getElementById('closeBtn');
+    if(closeBtn) {
+        closeBtn.addEventListener('click', () => {
+            win.style.display = 'none';
+            if(animationFrameId) cancelAnimationFrame(animationFrameId);
+        });
+    }
+
+    // 监听页面可见性
+    document.addEventListener("visibilitychange", () => {
+        if (document.hidden) {
+            isVisible = false;
+            if(animationFrameId) cancelAnimationFrame(animationFrameId);
+        } else {
+            isVisible = true;
+            animate();
+        }
+    });
+
+    function animate() {
+      if (!isVisible || win.style.display === 'none') return;
+
+      const windowWidth = window.innerWidth;
+      const windowHeight = window.innerHeight;
+      const winRect = win.getBoundingClientRect(); // 改用 getBoundingClientRect 获取真实渲染尺寸
+      const winWidth = winRect.width;
+      const winHeight = winRect.height;
+
+      x += dx;
+      y += dy;
+
+      // 边界检测（增加了安全余量，防止极端情况下溢出）
+      if (x <= 0 || x + winWidth >= windowWidth) {
+        dx = -dx;
+        x = Math.max(0, Math.min(x, windowWidth - winWidth));
+      }
+      if (y <= 0 || y + winHeight >= windowHeight) {
+        dy = -dy;
+        y = Math.max(0, Math.min(y, windowHeight - winHeight));
+      }
+
+      win.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+      animationFrameId = requestAnimationFrame(animate);
+    }
+
+    // 启动
+    animate();
+  })();
+</script>
+
+<style>
+  #autoFloatingWindow {
+      position: fixed;
+      /* 默认 pc 端尺寸 */
+      width: 350px;
+      height: 150px;
+      background: #c11623;
+      color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+      padding: 0 10px;
+      left: 0; 
+      top: 0;
+      will-change: transform; 
+      transform: translate3d(100px, 100px, 0);
+      box-sizing: border-box;}
+
+  /* 链接和文本样式优化 */
+  .floating-link {
+      height: 100%;
+      width: 100%;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;}
+
+  .floating-text {
+      margin: 0;
+      text-align: center;
+      color: #fed53e;
+      line-height: 1.4;
+      /* 响应式字体：最小 14px，理想 4vw，最大 22px */
+      font-size: clamp(14px, 4vw, 22px);}
+
+  #closeBtn {
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      background: rgba(255,255,255,0.3);
+      border: none;
+      color: white;
+      width: 30px;
+      height: 30px;
+      padding: 0;
+      border-radius: 50%;
+      cursor: pointer;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+      font-size: 18px;
+      transition: background 0.2s;}
+
+  #closeBtn:hover {
+      background: rgba(255,255,255,0.5);}
+
+  /* --- 核心自适应媒体查询 --- */
+  
+  /* 平板尺寸 (宽度小于 768px) */
+  @media (max-width: 768px) {
+      #autoFloatingWindow {
+          width: 280px;
+          height: 120px;}
+      #closeBtn {
+          width: 26px;
+          height: 26px;
+          font-size: 16px;
+          top: 5px;
+          right: 5px;}
+  }
+
+  /* 手机尺寸 (宽度小于 480px) */
+  @media (max-width: 480px) {
+      #autoFloatingWindow {
+          width: 90vw; /* 占据屏幕宽度的 90% */
+          max-width: 300px;
+          height: 100px;
+          padding: 0 5px;}
+      .floating-text {
+          font-size: 13px;}
+  }
+</style>
+  <script type="text/javascript" src="new/js/libs.js"></script>
+  <script type="text/javascript" src="new/js/app.js"></script>
+  <script type="text/javascript" src="new/js/index.js"></script>
+  <script type="text/javascript">
+   $(function () {
+    // 首页轮播图轮播
+    if (typeof Swiper !== 'undefined') {
+        // 延迟初始化，避免同时加载所有Swiper
+        setTimeout(function() {
+            // 首页banner轮播
+            new Swiper('.slide-ba', {
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiDots',
+                    clickable: true,
+                },
+                observer: true,
+                observeParents: true
+            });
+        }, 100);
+        
+        // 延迟初始化学术动态轮播
+        setTimeout(function() {
+            if (document.querySelector('.research-swiper')) {
+                new Swiper('.research-swiper', {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    loop: true,
+                    speed: 600,
+                    autoplay: {
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    },
+                    navigation: {
+                        nextEl: '.research-navigation .next',
+                        prevEl: '.research-navigation .prev',
+                    },
+                    observer: true,
+                    observeParents: true,
+                    breakpoints: {
+                        640: { 
+                            slidesPerView: 1,
+                            spaceBetween: 15
+                        },
+                        768: { 
+                            slidesPerView: 2,
+                            spaceBetween: 20
+                        },
+                        1024: { 
+                            slidesPerView: 4,
+                            spaceBetween: 24
+                        },
+                    },
+                    on: {
+                        init: function() {
+                            console.log('学术动态轮播初始化成功');
+                        }
+                    }
+                });
+            }
+        }, 300);
+        
+        // 延迟初始化学生工作轮播
+        setTimeout(function() {
+            if (document.querySelector('.slide-c')) {
+                new Swiper('.slide-c', {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                    loop: true,
+                    autoplay: {
+                        delay: 4000,
+                        disableOnInteraction: false,
+                    },
+                    observer: true,
+                    observeParents: true,
+                    on: {
+                        init: function() {
+                            console.log('学生工作轮播初始化成功');
+                        }
+                    }
+                });
+            }
+        }, 500);
+    }
+});
+  </script>
+
+</div>
+</body>
+
+</html>

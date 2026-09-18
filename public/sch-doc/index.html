@@ -1,48 +1,25 @@
 <!doctype html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="化工方向研招资料站：官方招生通知、推免与考研资料、历史原件及个人准备笔记。">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'">
-  <title>研招资料站 · 2028 化工方向</title>
-  <link rel="icon" href="./icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./style.css">
-  <script src="./app.js" defer></script>
-</head>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>化工研途 · 研招工作台</title><link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./glass.css"><link rel="stylesheet" href="./library.css"><script src="./ui.js" defer></script><script src="./workspace.js" defer></script><script src="./library.js" defer></script><link rel="stylesheet" href="./focus.css"><script src="./focus.js" defer></script><link rel="stylesheet" href="./public.css"><script src="./public.js" defer></script></head>
 <body>
-  <a class="skip" href="#main">跳到主要内容</a>
-  <aside class="sidebar">
-    <a class="brand" href="./"><span>研</span><div>研招资料站<small>CHEMICAL ENGINEERING</small></div></a>
-    <p class="eyebrow">你的升学工作台</p>
-    <nav aria-label="资料分类">
-      <a href="#overview" data-tab="overview">概览与准备路线</a>
-      <a href="#research" data-tab="research">首批研究笔记</a>
-      <a href="#notices" data-tab="notices">通知与变更</a>
-      <a href="#archives" data-tab="archives">原件归档</a>
-      <a href="#sources" data-tab="sources">监控来源</a>
-      <a href="#personal" data-tab="personal">我的笔记</a>
-    </nav>
-    <div class="side-bottom"><span class="dot"></span> 历史公开资料镜像<p>面向 2028 年入学<br>采集与管理请使用本地助手</p><a href="/">← 返回个人网站</a></div>
-  </aside>
-  <main id="main">
-    <header><div><p class="eyebrow">先保存原文，再判断和准备</p><h1 id="page-title">概览与准备路线</h1></div><button id="refresh" class="primary">刷新已发布资料</button></header>
-    <p id="status" role="status">正在读取资料…</p>
-    <section id="overview" class="page active">
-      <div class="hero"><div><span class="pill">2028 年入学 · 化工 / 化学 / 材料</span><h2>让信息有出处，<br>让准备有方向。</h2><p>关注华南理工、重庆大学与中科院研究所。<br>把公告、数字的口径和原件一起留下。</p><a class="light-button" href="#research">查看首批研究笔记 ↗</a></div><span class="hero-number" aria-hidden="true">28</span></div>
-      <div id="metrics" class="metrics"></div>
-      <div class="columns"><article class="card"><p class="eyebrow">从现在开始</p><h2>保研与考研同步准备</h2><ol class="timeline"><li><b>现在 · 确认本校资格规则</b><p>向本科教务核对排名、计分与推荐名额；缺少官方材料的数字保留待核实。</p></li><li><b>2027 春夏 · 关注 2028 届通知</b><p>积累成绩单、简历与项目材料，保存夏令营、预推免和专业目录。</p></li><li><b>2027 秋至 2028 春 · 依当届公告办理</b><p>按正式时间完成申请、报名和考试；往年日期只作准备参考。</p></li></ol><a href="./准备路线.md" download>下载完整准备路线与询问模板 ↓</a></article><article class="card"><p class="eyebrow">用资料前先看口径</p><h2>三个数字要分别记录</h2><ul class="plain-list"><li><b>本科推荐资格</b><p>本校推荐你免试的名额。</p></li><li><b>研究生接收计划</b><p>目标院校计划招收多少人。</p></li><li><b>拟录取与实际录取</b><p>公示结果须核对专业、专项和最终调整。</p></li></ul><p class="hint">公开信息不会自动变成录取概率。2026、2027 届资料不代表你的 2028 届政策。</p></article></div>
-      <article class="card cloud-card"><h2>在本地采集与管理，GitHub 保存版本</h2><p>新版助手在自己的电脑运行。输入学校或网址，试抓验证后直接保存来源；支持暗色、折叠侧栏与多校筛选。</p><div class="actions"><a class="button" id="cloud-run" target="_blank" rel="noopener">查看本地程序 ↗</a><a href="#sources">查看已发布来源记录 →</a></div><p class="hint">本站保留历史公开资料，不再定时抓取。“刷新”只读取已发布数据，新增学校和检查请在本地助手完成。</p></article>
-    </section>
-    <section id="browser" class="page">
-      <div id="section-intro" class="intro"></div>
-      <div id="personal-actions" class="actions hidden"><button id="new-note" class="primary">新增笔记</button><button id="backup">导出我的备份</button><label class="button file-label">导入备份<input id="import-notes" type="file" accept=".json,application/json"></label></div>
-      <div class="filters"><label>搜索<input id="query" type="search" placeholder="学校、专业代码、标题或关键词"></label><label>学校<select id="school"><option value="">全部学校</option></select></label><label>年份<input id="year" inputmode="numeric" placeholder="全部年份" maxlength="4"></label><button id="reset">清空筛选</button></div>
-      <div class="section-head"><p id="count"></p><button id="export-csv">导出当前研究笔记 CSV</button></div>
-      <div id="list"></div><button id="more" class="hidden">再显示 40 条</button>
-    </section>
-    <footer><span>SCH DOC · 每条记录都留有出处</span><a href="./使用说明.md" download>下载网页版使用说明</a></footer>
-  </main>
-  <dialog id="editor"><form id="note-form"><div class="section-head"><h2 id="editor-title">新增笔记</h2><button id="cancel-note" type="button" aria-label="关闭编辑">×</button></div><label>学校 / 研究所<input name="school" required maxlength="100"></label><div class="form-row"><label>入学年份<input name="year" inputmode="numeric" maxlength="4" value="2028"></label><label>统计口径<select name="category"><option>个人准备</option><option>推荐资格名额</option><option>统考招生计划</option><option>拟录取情况</option><option>复试要求</option><option>报名截止</option><option>其他</option></select></label></div><label>标题<input name="title" required maxlength="200"></label><label>关键数值<input name="value" maxlength="300" placeholder="不知道就留空"></label><label>正文 / 待核实事项<textarea name="body" rows="6" maxlength="15000"></textarea></label><label>来源网址<input name="url" type="url" placeholder="https://…"></label><div class="form-row"><label>截止日期<input name="deadline" type="date"></label><label>证据状态<select name="verified"><option>待核实</option><option>官网已核对</option><option>官方数据推算</option><option>第三方线索</option></select></label></div><p class="hint">笔记仅保存在当前浏览器。换设备请先导出，再在另一设备导入；清理浏览器数据会删除本地笔记。</p><p id="form-error" role="alert"></p><button type="submit" class="primary">保存到当前浏览器</button></form></dialog>
-  <div id="toast" role="status" class="hidden"></div>
+<aside><div class="brand"><span class="logo">研</span><div>研招资料站<small>CHEMICAL ENGINEERING</small></div></div><p class="nav-label">你的升学工作台</p><nav>
+<button class="active" data-tab="overview">概览与准备路线</button><button data-tab="sources">监控来源</button><button data-tab="updates">通知与变更 <span id="unread"></span></button><button data-tab="archives">资料归档</button><button data-tab="notes">信息笔记</button><button data-tab="settings">设置与帮助</button>
+</nav><div class="aside-footer"><span class="dot"></span> 本机保存 · 无需账号<p>面向 <b id="side-year">2028</b> 年入学<br>南昌大学 → 化工相关方向</p></div></aside>
+<main><header><div><div class="eyebrow">从今天开始，为每一条重要信息留底</div><h1 id="page-title">概览与准备路线</h1></div><button class="primary" id="check-all">立即检查全部</button></header>
+<div id="job" class="status-line" role="status" aria-live="polite">正在读取本地资料…</div>
+<section id="overview" class="page active">
+<div class="hero"><div><span class="pill">已确认 · <span id="hero-year">2028</span> 年入学</span><h2>让信息有出处，<br>让准备有方向。</h2><p>先保存最新招生通知，再逐年积累复试、拟录取与推免资料。<br>你负责做选择，资料站帮你记住依据。</p><button class="light" data-go="notes">查看首批核实资料 ↗</button></div><div class="hero-mark">08<span>化工 · 化学 · 材料与化工</span><small>081700 / 085600 / 085602</small></div></div>
+<div class="metrics" id="metrics"></div>
+<div class="two-col"><article class="panel"><div class="section-head"><h2>现在最值得做的事</h2><span class="pill neutral">准备建议</span></div><ol class="steps"><li><b>确认本校推免规则与排名</b><p>向学院本科教务确认计分办法、专业名额、候补和专项口径。学院接收推免人数不能代替你的推荐资格名额。</p></li><li><b>保存 2026 / 2027 招生证据</b><p>华南理工、重庆大学、过程工程所、大连化物所已纳入首批关注范围。</p></li><li><b>给 2028 申请留出准备时间</b><p>把 2027 年春夏至秋季设为重点关注阶段；具体日期等各单位正式通知。</p></li></ol><a href="./api/research" target="_blank" rel="noopener">打开首批信息与准备路线 →</a></article>
+<article class="panel"><h2>需要你特别区分</h2><div class="boundary"><b>推荐名额 ≠ 接收推免人数</b><p>南昌大学给本校本科生的推荐资格，与目标学校招收推免生是两件事。</p><b>计划人数 ≠ 最终录取人数</b><p>拟录取、候补、专项、学硕、专硕和直博分别记录。缺少原始名单时，不反推录取人数。</p><b>发现日期 ≠ 发布日期</b><p>网页迁移可能重置日期；招生年份以文件标题和正文共同核对。</p></div></article></div>
+<article class="panel"><div class="section-head"><h2>最近的记录</h2><button data-go="updates">查看全部</button></div><div id="recent"></div></article>
+</section>
+<section id="sources" class="page"><div class="section-head"><p>每天检查一次是默认频率；关闭窗口后的检查需启用 Windows 计划任务。</p><button class="primary" id="new-source">添加监控来源</button></div><div id="source-list" class="source-grid"></div></section>
+<section id="updates" class="page"><div class="toolbar"><input id="item-search" placeholder="搜索标题、学校、年份" aria-label="搜索通知"><select id="update-mode" aria-label="通知显示类型"><option value="events">变更记录</option><option value="items">已发现的全部通知</option></select><button id="mark-read">全部标记已读</button></div><p class="hint">原始条目全部保留；搜索仅影响展示。首次建档不是“今天发布”。</p><div id="updates-list"></div></section>
+<section id="archives" class="page"><div class="toolbar"><input id="archive-search" placeholder="搜索归档网址、学校、文件" aria-label="搜索归档"><button id="queue-url">粘贴网址归档</button><button id="import-file">导入手动保存的文件</button><button class="primary" id="drain-queue">继续归档队列</button></div><div id="queue-status" class="notice"></div><h2>已保存的版本</h2><div id="archive-list"></div><details><summary>查看待归档和失败详情</summary><div id="resource-list"></div></details></section>
+<section id="notes" class="page"><div class="toolbar"><input id="note-search" placeholder="搜索学校、专业、年份、笔记内容" aria-label="搜索笔记"><select id="note-school" aria-label="按学校筛选"><option value="">全部学校</option></select><input id="note-year" placeholder="年份，如 2026" aria-label="按年份筛选"><button class="primary" id="new-note">新增笔记</button><a class="button" href="./api/notes.csv">导出 CSV</a></div><p class="hint">首批笔记来自公开官网检索。每条标明来源、口径和待核实事项；可修改、补充年份与截止日期。</p><div id="note-list" class="note-grid"></div></section>
+<section id="settings" class="page"><div class="two-col"><form id="settings-form" class="panel"><h2>偏好设置</h2><label>目标入学年份<input type="number" min="2020" max="2050" name="target_year" required></label><label>每轮最多归档的详情 / 附件数<input type="number" min="1" max="200" name="resource_budget" required></label><p class="hint">默认 25；其余排队留待下轮。每次请求间隔至少 1 秒。附件和已存详情会按来源频率再次检查。</p><label>代理（一般留空）<input name="proxy" placeholder="空白=系统设置；direct=直连"></label><p class="hint">如浏览器能访问但抓取失败，可填写你正在使用的本机代理，例如 http://127.0.0.1:7897。程序不修改系统网络设置。</p><button class="primary">保存设置</button></form><article class="panel"><h2>启动与自动检查</h2><p>双击项目里的 <b>启动助手.cmd</b>。</p><p>需要每日自动检查时，双击 <b>设置每日检查.cmd</b>。默认每天 09:00；错过时在后续满足运行条件时补跑。</p><p>电脑关机或没有网络时无法采集。窗口内不会自行发送邮件或其他消息；下次打开看未读提醒和失败状态。</p><p>双击 <b>取消每日检查.cmd</b> 可停用计划任务。移动项目后须重新设置任务。</p><a href="./api/guide" target="_blank" rel="noopener">打开完整中文说明 →</a><hr><a class="button" href="./api/export">导出全部数据 JSON</a><p class="hint">完整备份：复制整个项目子文件夹。原文在 data/snapshots；手动材料在 data/manual。</p><button id="stop-app" class="danger">退出本地服务</button></article></div></section>
+<footer>研招信息监控助手 · 本地资料与笔记 <span id="storage-path"></span></footer>
+</main>
+<dialog id="editor"><form id="editor-form"><div class="section-head"><h2 id="editor-title"></h2><button type="button" id="close-editor" aria-label="关闭对话框">×</button></div><div id="editor-fields"></div><div id="form-error" role="alert"></div><button class="primary" type="submit">保存</button></form></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
 </body></html>

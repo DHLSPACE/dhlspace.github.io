@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>研究生教育网</title>
+<link rel="stylesheet" type="text/css" href="./style/reset.css">
+<link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./style/bootstrap.reset.css">
+<link rel="stylesheet" type="text/css" href="./style/common.css">
+<script src="./script/popper.min.js"></script>
+<script src="./script/jquery.min.js"></script>
+<style>
+    .search-link{border:0; background: transparent; width:28px!important;}
+</style>
+	<link rel="stylesheet" type="text/css" href="./style/index.css">
+	<link rel="stylesheet" href="./style/swiper.min.css">
+</head>
+<body>
+<div class="page-top">
+	<div class="top-line d-none d-xl-block"></div>
+	<div class="d-xl-none m-nav" style="height: 58px;"></div>
+	<div class="back-wuli d-none d-xl-block"><a href="https://www.iop.cas.cn/">返回物理所首页</a><img src="./static/back-home.png" alt=""></div>
+	<div class="container-fluid page-header d-none d-xl-flex">
+		<div class="logo-area">
+			<a href="."><img src="./static/logo.png" class="page-logo" alt="" /></a>
+			<!-- <a href=""><img src="./static/logo-2.png" class="page-logo" alt=""></a> -->
+			<!-- <a href=""><img src="./static/logo-3.png" class="page-logo" alt=""></a> -->
+		</div>
+		<form class="search" action="?q=search">
+			<input name="q" type="hidden" value="search">
+			<input name="key" type="text" class="search-input" placeholder="请输入关键字" maxlength="10">
+			<button class="search-link"><img src="./static/search-icon.png" class="search-icon" alt=""></button>
+		</form>
+	</div>
+	<div class="d-block d-xl-none m-nav">
+		<nav class="navbar navbar-expand-xl navbar-light bg-white fixed-top">
+			<div class="top-line-m"></div>
+			<a class="navbar-brand navbar-brand-m" href="." style="width: 50%;">
+				<img src="./static/logo-m.png" class="page-logo-m" alt=""/>
+				<img src="./static/logo-m-w.png" class="page-logo-m-w" alt=""/>
+			</a>
+			<div
+					class="toggle-btn-m collapsed"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarCollapse"
+					aria-controls="navbarCollapse"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+					id="toggleBtnM"
+			>
+				<!-- <span class="navbar-toggler-icon"></span> -->
+			</div>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" href=".">首&nbsp;&nbsp;&nbsp;&nbsp;页</a>
+					</li>
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3267" role="button" aria-expanded="false">
+							概况
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list_first&amp;id=3268">历史沿革</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3269">学科简介</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3646">学位委员会</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3648">教育督导委员会</a>
+							
+							<a class="dropdown-item" href="?q=contactus&amp;id=3270">联系我们</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3271" role="button" aria-expanded="false">
+							硕博招生
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3277">推荐免试</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3278">硕士招生</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3279">博士招生</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3280">International Students</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3272" role="button" aria-expanded="false">
+							联合培养
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3281">硕博联培</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3282">本科毕设</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3284">短期交流</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item">
+						<a class="nav-link" href="?q=list_teacher&amp;id=3285">导师介绍</a>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3273" role="button" aria-expanded="false">
+							培养学位
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3653">学籍管理</a>
+							
+							<a class="dropdown-item" href="?q=list_top&amp;id=3286">培养方案</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3287">学位申请</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3288">所内课程</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3289">评奖评优</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3652">规章制度</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3274" role="button" aria-expanded="false">
+							团学思政
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3290">毕业典礼合影</a>
+							
+							<a class="dropdown-item" href="?q=list_top&amp;id=3291">明理时空</a>
+							
+							<a class="dropdown-item" href="?q=list_top&amp;id=3292">研究生会</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3275" role="button" aria-expanded="false">
+							严济慈班
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3293">选拔公告</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3294">前沿讲座</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3295">严班奖学金</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3296">活动交流</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3276" role="button" aria-expanded="false">
+							毕业就业
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3297">毕业流程</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3298">就业去向</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3299">选调信息</a>
+							
+						</div>
+					</li>
+					
+					
+				</ul>
+				<div class="back-btn"><a href="https://www.iop.cas.cn/">返回物理所首页</a><img src="./static/back-home.png" alt=""></div>
+			</div>
+		</nav>
+	</div>
+</div>
+<div class="page-main">
+	<div class="main-banner1 d-none d-xl-block"></div>
+	<div class="main-top d-block d-xl-none">
+		<img src="./static/banner.jpg" class="d-none d-md-block" alt="" style="width: 100%;height: auto;">
+		<img src="./static/m-banner.jpg" class="d-block d-md-none" alt="" style="width: 100%;height: auto;">
+		<div class="search">
+			<form class="search-content" action="?q=search">
+				<input name="q" type="hidden" value="search">
+				<input name="key" type="text" class="search-input" placeholder="请输入关键字" maxlength="10">
+				<button class="search-link"><img src="./static/search-icon-m.png" class="search-icon" alt=""></button>
+			</form>
+		</div>
+	</div>
+	<div class="container-fluid main-content">
+		<div class="d-none d-xl-block" style="height: 80px;"></div>
+		<div class="nav-area d-none d-xl-block">
+			<ul class="nav justify-content-center">
+				<li class="nav-item">
+					<a class="nav-link active" href=".">首&nbsp;&nbsp;&nbsp;&nbsp;页</a>
+				</li>
+				
+					
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3267" role="button" aria-expanded="false">
+								概况
+							</a>
+							<div class="dropdown-menu">
+								
+									<a class="dropdown-item" href="?q=list_first&amp;id=3268">历史沿革</a>
+								
+									<a class="dropdown-item" href="?q=list&amp;id=3269">学科简介</a>
+								
+									<a class="dropdown-item" href="?q=list&amp;id=3646">学位委员会</a>
+								
+									<a class="dropdown-item" href="?q=list&amp;id=3648">教育督导委员会</a>
+								
+									<a class="dropdown-item" href="?q=contactus&amp;id=3270">联系我们</a>
+								
+							</div>
+						</li>
+					
+				
+					
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3271" role="button" aria-expanded="false">
+								硕博招生
+							</a>
+							<div class="dropdown-menu">
+								
+									<a class="dropdown-item" href="?q=list2&amp;id=3277">推荐免试</a>
+								
+									<a class="dropdown-item" href="?q=list2&amp;id=3278">硕士招生</a>
+								
+									<a class="dropdown-item" href="?q=list2&amp;id=3279">博士招生</a>
+								
+									<a class="dropdown-item" href="?q=list2&amp;id=3280">International Students</a>
+								
+							</div>
+						</li>
+					
+				
+					
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3272" role="button" aria-expanded="false">
+								联合培养
+							</a>
+							<div class="dropdown-menu">
+								
+									<a class="dropdown-item" href="?q=list2&amp;id=3281">硕博联培</a>
+								
+									<a class="dropdown-item" href="?q=list2&amp;id=3282">本科毕设</a>
+								
+									<a class="dropdown-item" href="?q=list2&amp;id=3284">短期交流</a>
+								
+							</div>
+						</li>
+					
+				
+					
+						<li class="nav-item">
+							<a class="nav-link" href="?q=list_teacher&amp;id=3285">导师介绍</a>
+						</li>
+					
+				
+					
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3273" role="button" aria-expanded="false">
+								培养学位
+							</a>
+							<div class="dropdown-menu">
+								
+									<a class="dropdown-item" href="?q=list&amp;id=3653">学籍管理</a>
+								
+									<a class="dropdown-item" href="?q=list_top&amp;id=3286">培养方案</a>
+								
+									<a class="dropdown-item" href="?q=list2&amp;id=3287">学位申请</a>
+								
+									<a class="dropdown-item" href="?q=list2&amp;id=3288">所内课程</a>
+								
+									<a class="dropdown-item" href="?q=list&amp;id=3289">评奖评优</a>
+								
+									<a class="dropdown-item" href="?q=list&amp;id=3652">规章制度</a>
+								
+							</div>
+						</li>
+					
+				
+					
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3274" role="button" aria-expanded="false">
+								团学思政
+							</a>
+							<div class="dropdown-menu">
+								
+									<a class="dropdown-item" href="?q=list&amp;id=3290">毕业典礼合影</a>
+								
+									<a class="dropdown-item" href="?q=list_top&amp;id=3291">明理时空</a>
+								
+									<a class="dropdown-item" href="?q=list_top&amp;id=3292">研究生会</a>
+								
+							</div>
+						</li>
+					
+				
+					
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3275" role="button" aria-expanded="false">
+								严济慈班
+							</a>
+							<div class="dropdown-menu">
+								
+									<a class="dropdown-item" href="?q=list&amp;id=3293">选拔公告</a>
+								
+									<a class="dropdown-item" href="?q=list&amp;id=3294">前沿讲座</a>
+								
+									<a class="dropdown-item" href="?q=list&amp;id=3295">严班奖学金</a>
+								
+									<a class="dropdown-item" href="?q=list&amp;id=3296">活动交流</a>
+								
+							</div>
+						</li>
+					
+				
+					
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3276" role="button" aria-expanded="false">
+								毕业就业
+							</a>
+							<div class="dropdown-menu">
+								
+									<a class="dropdown-item" href="?q=list&amp;id=3297">毕业流程</a>
+								
+									<a class="dropdown-item" href="?q=list&amp;id=3298">就业去向</a>
+								
+									<a class="dropdown-item" href="?q=list&amp;id=3299">选调信息</a>
+								
+							</div>
+						</li>
+					
+				
+			</ul>
+		</div>
+		<div class="page-content">
+			<div class="module-one row">
+				<div class="col-lg-8 col-12 no-padding">
+					<div id="carouselControls" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							
+							<div class="carousel-item active">
+								<img src="https://edu.iphy.ac.cn/cmsfiles/2312_2026072417181089114.jpg" class="d-block w-100" alt="...">
+								<div class="mask d-none d-lg-block">
+									<div class="news-title">2026严班学术竞赛决赛暨IOP英才夏令营顺利举办</div>
+									<div class="carousel-control">
+									</div>
+								</div>
+								<div class="mask mask-m d-block d-lg-none">
+									<div class="news-title">2026严班学术竞赛决赛暨IOP英才夏令营顺利举办</div>
+								</div>
+							</div>
+							
+							<div class="carousel-item ">
+								<img src="https://edu.iphy.ac.cn/cmsfiles/3458_2026071017044440352.jpeg" class="d-block w-100" alt="...">
+								<div class="mask d-none d-lg-block">
+									<div class="news-title">物理所顺利开展2025级研究生返所交流暨安全教育活动</div>
+									<div class="carousel-control">
+									</div>
+								</div>
+								<div class="mask mask-m d-block d-lg-none">
+									<div class="news-title">物理所顺利开展2025级研究生返所交流暨安全教育活动</div>
+								</div>
+							</div>
+							
+							<div class="carousel-item ">
+								<img src="https://edu.iphy.ac.cn/cmsfiles/3458_2026071016252650762.jpg" class="d-block w-100" alt="...">
+								<div class="mask d-none d-lg-block">
+									<div class="news-title">物理所研究生部召开2026春季学期大小班长培训交流会</div>
+									<div class="carousel-control">
+									</div>
+								</div>
+								<div class="mask mask-m d-block d-lg-none">
+									<div class="news-title">物理所研究生部召开2026春季学期大小班长培训交流会</div>
+								</div>
+							</div>
+							
+							<div class="carousel-item ">
+								<img src="https://edu.iphy.ac.cn/cmsfiles/4523_2026052714392323726.png" class="d-block w-100" alt="...">
+								<div class="mask d-none d-lg-block">
+									<div class="news-title">物理所召开2026年夏季学位评定会</div>
+									<div class="carousel-control">
+									</div>
+								</div>
+								<div class="mask mask-m d-block d-lg-none">
+									<div class="news-title">物理所召开2026年夏季学位评定会</div>
+								</div>
+							</div>
+							
+							<div class="carousel-item ">
+								<img src="https://edu.iphy.ac.cn/cmsfiles/3458_2026031115262288284.png" class="d-block w-100" alt="...">
+								<div class="mask d-none d-lg-block">
+									<div class="news-title">巧手拼春意，共庆妇女节 | 物理所成功举办拼豆创意手作活动</div>
+									<div class="carousel-control">
+									</div>
+								</div>
+								<div class="mask mask-m d-block d-lg-none">
+									<div class="news-title">巧手拼春意，共庆妇女节 | 物理所成功举办拼豆创意手作活动</div>
+								</div>
+							</div>
+							
+							<div class="carousel-control_area d-none d-lg-flex">
+								<button class="carousel-control_item" type="button" data-target="#carouselControls" data-slide="prev">
+									<!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+									<img src="./static/new-left.png" alt="">
+									<span class="sr-only">Previous</span>
+								</button>
+								<ol id='carouli' class="carousel-indicators control-indicators">
+									
+									<li data-target="#carouselControls" data-slide-to="0" class="active"></li>
+									
+									<li data-target="#carouselControls" data-slide-to="1" class=""></li>
+									
+									<li data-target="#carouselControls" data-slide-to="2" class=""></li>
+									
+									<li data-target="#carouselControls" data-slide-to="3" class=""></li>
+									
+									<li data-target="#carouselControls" data-slide-to="4" class=""></li>
+									
+								</ol>
+								<button class="carousel-control_item" type="button" data-target="#carouselControls" data-slide="next">
+									<!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+									<img src="./static/new-right.png" alt="">
+									<span class="sr-only">Next</span>
+								</button>
+							</div>
+							<div class="carousel-control_area carousel-control_area-m d-flex d-lg-none">
+								<button class="carousel-control_item carousel-control_item-1" type="button" data-target="#carouselControls" data-slide="prev">
+									<img src="./static/new-left.png" alt="">
+									<span class="sr-only">Previous</span>
+								</button>
+								<button class="carousel-control_item carousel-control_item-2" type="button" data-target="#carouselControls" data-slide="next">
+									<img src="./static/new-right.png" alt="">
+									<span class="sr-only">Next</span>
+								</button>
+								<ol class="carousel-indicators control-indicators">
+									<li data-target="#carouselControls" data-slide-to="0" class="active"></li>
+									<li data-target="#carouselControls" data-slide-to="1"></li>
+									<li data-target="#carouselControls" data-slide-to="2"></li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-12 no-padding">
+					<div class="news-list">
+						<div class="item-wrap">
+							
+							<div class="item">
+								<a href="?q=moredetail&amp;id=54989" class="news-title ellipsis-2">物理所召开2026年秋季学位评定会</a>
+								<p class="time">2026-09-15</p>
+							</div>
+							
+							<div class="item">
+								<a href="?q=moredetail&amp;id=54936" class="news-title ellipsis-2">汲取奋进力量 砥砺青春担当——物理所举办青年五四奖章事迹宣讲暨主题团日活动</a>
+								<p class="time">2026-07-30</p>
+							</div>
+							
+							<div class="item">
+								<a href="?q=moredetail&amp;id=54934" class="news-title ellipsis-2">2026严班学术竞赛决赛暨IOP英才夏令营顺利举办</a>
+								<p class="time">2026-07-24</p>
+							</div>
+							
+							<div class="item">
+								<a href="?q=moredetail&amp;id=54909" class="news-title ellipsis-2">物理所顺利开展2025级研究生返所交流暨安全教育活动</a>
+								<p class="time">2026-07-10</p>
+							</div>
+							
+							<div class="item">
+								<a href="?q=moredetail&amp;id=54908" class="news-title ellipsis-2">物理所研究生部召开2026春季学期大小班长培训交流会</a>
+								<p class="time">2026-06-29</p>
+							</div>
+							
+						</div>
+						<div class="more">
+							<a href="?q=moreinform&amp;id=265" class="a-more">更多...</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="module-two row">
+				<div class="col-lg-8 col-12 no-padding-pc">
+					<div class="module-title">
+						<div class="title-left d-none d-lg-flex">
+							<div id="jq1-1" class="title-left_main" list="0" onclick="tab(this)">招生信息</div>
+							<div class="line"></div>
+							<div id="jq2-1" class="title-left_main" list="1" onclick="tab(this)">通知公告</div>
+							<div id="bord-1" class="bottom-bor"></div>
+						</div>
+						<div class="title-left d-flex d-lg-none">
+							<div id="jq1" class="title-left_main" list="0" onclick="tab(this)">招生信息</div>
+							<div class="line"></div>
+							<div id="jq2" class="title-left_main" list="1" onclick="tab(this)">通知公告</div>
+							<div id="bord" class="bottom-bor"></div>
+						</div>
+						<div>
+							<a href="?q=moreinform&amp;id=272" id="more-1" style="display: block" class="more">更多 &gt;</a>
+							<a href="?q=moreinform&amp;id=280" id="more-2" style="display: none" class="more">更多 &gt;</a>
+						</div>
+					</div>
+					<div id="list" class="item-wrap">
+						<div onclick="cont(this)">
+							
+							<div class="item">
+								<div class="item-left">
+									<div class="dot"><img src="./static/bord-right.png" class="img" alt=""></div>
+									<a href="?q=moredetail&amp;id=54933" class="title ellipsis">物理所2026年“选拔推荐免试研究生”面试安排</a>
+								</div>
+								<div class="time d-none d-lg-block">2026-07-24</div>
+								<div class="time time-m d-block d-lg-none">2026-07-24</div>
+							</div>
+							
+							<div class="item">
+								<div class="item-left">
+									<div class="dot"><img src="./static/bord-right.png" class="img" alt=""></div>
+									<a href="?q=moredetail&amp;id=54566" class="title ellipsis">物理所2026年招收全国统考硕士研究生复试分数线及相关安排</a>
+								</div>
+								<div class="time d-none d-lg-block">2026-03-24</div>
+								<div class="time time-m d-block d-lg-none">2026-03-24</div>
+							</div>
+							
+							<div class="item">
+								<div class="item-left">
+									<div class="dot"><img src="./static/bord-right.png" class="img" alt=""></div>
+									<a href="?q=moredetail&amp;id=54499" class="title ellipsis">关于物理所2026年秋季入学推免生拟录取资格复查的通知</a>
+								</div>
+								<div class="time d-none d-lg-block">2026-03-11</div>
+								<div class="time time-m d-block d-lg-none">2026-03-11</div>
+							</div>
+							
+							<div class="item">
+								<div class="item-left">
+									<div class="dot"><img src="./static/bord-right.png" class="img" alt=""></div>
+									<a href="?q=moredetail&amp;id=54345" class="title ellipsis">第二届“天目杯”理论物理冬令营报名通知</a>
+								</div>
+								<div class="time d-none d-lg-block">2025-12-29</div>
+								<div class="time time-m d-block d-lg-none">2025-12-29</div>
+							</div>
+							
+							<div class="item">
+								<div class="item-left">
+									<div class="dot"><img src="./static/bord-right.png" class="img" alt=""></div>
+									<a href="?q=moredetail&amp;id=54239" class="title ellipsis">关于物理所2024级硕士研究生转博网上报名的公告</a>
+								</div>
+								<div class="time d-none d-lg-block">2025-12-01</div>
+								<div class="time time-m d-block d-lg-none">2025-12-01</div>
+							</div>
+							
+							<div class="item">
+								<div class="item-left">
+									<div class="dot"><img src="./static/bord-right.png" class="img" alt=""></div>
+									<a href="?q=moredetail&amp;id=54142" class="title ellipsis">中国科学院物理研究所2026年博士研究生招生章程</a>
+								</div>
+								<div class="time d-none d-lg-block">2025-10-17</div>
+								<div class="time time-m d-block d-lg-none">2025-10-17</div>
+							</div>
+							
+						</div>
+						<div style="display: none;" onclick="cont(this)">
+							
+							<div class="item">
+								<div class="item-left">
+									<div class="dot"><img src="./static/bord-right.png" class="img" alt=""></div>
+									<a href="?q=moredetail&amp;id=54997" class="title ellipsis">【学工】关于开展2026-2027学年研究生学费收费工作的通知</a>
+								</div>
+								<div class="time d-none d-lg-block">2026-09-18</div>
+								<div class="time time-m d-block d-lg-none">2026-09-18</div>
+							</div>
+							
+							<div class="item">
+								<div class="item-left">
+									<div class="dot"><img src="./static/bord-right.png" class="img" alt=""></div>
+									<a href="https://job.ucas.ac.cn/frontpage/ucas/html/newsDetail.html?id=46bfa30883c547e8a30a3715f93f30b0" class="title ellipsis">【选调】武汉市2027年选聘生管培生招聘公告</a>
+								</div>
+								<div class="time d-none d-lg-block">2026-09-16</div>
+								<div class="time time-m d-block d-lg-none">2026-09-16</div>
+							</div>
+							
+							<div class="item">
+								<div class="item-left">
+									<div class="dot"><img src="./static/bord-right.png" class="img" alt=""></div>
+									<a href="?q=moredetail&amp;id=54992" class="title ellipsis">【学工】2026年下半年全国大学英语四六级考试笔试中国科学院大学考点预报名通知</a>
+								</div>
+								<div class="time d-none d-lg-block">2026-09-15</div>
+								<div class="time time-m d-block d-lg-none">2026-09-15</div>
+							</div>
+							
+							<div class="item">
+								<div class="item-left">
+									<div class="dot"><img src="./static/bord-right.png" class="img" alt=""></div>
+									<a href="?q=moredetail&amp;id=54988" class="title ellipsis">【学位】关于做好2027年冬季申请学位研究生涉密及延迟公开学位论文备案工作的通知（9月底前）</a>
+								</div>
+								<div class="time d-none d-lg-block">2026-09-15</div>
+								<div class="time time-m d-block d-lg-none">2026-09-15</div>
+							</div>
+							
+							<div class="item">
+								<div class="item-left">
+									<div class="dot"><img src="./static/bord-right.png" class="img" alt=""></div>
+									<a href="?q=moredetail&amp;id=54982" class="title ellipsis">【选调】北京市2027年度定向选调和“优培计划”招聘应届优秀大学毕业生公告</a>
+								</div>
+								<div class="time d-none d-lg-block">2026-09-10</div>
+								<div class="time time-m d-block d-lg-none">2026-09-10</div>
+							</div>
+							
+							<div class="item">
+								<div class="item-left">
+									<div class="dot"><img src="./static/bord-right.png" class="img" alt=""></div>
+									<a href="?q=moredetail&amp;id=54983" class="title ellipsis">【选调】上海市2027年度选调应届优秀大学毕业生公告</a>
+								</div>
+								<div class="time d-none d-lg-block">2026-09-10</div>
+								<div class="time time-m d-block d-lg-none">2026-09-10</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-12 module-two-right">
+					<div class="module-right-title down-bg">
+						<div class="title-left">
+							<img src="./static/down.png" class="img" alt="">
+							<div class="title-left_main_down">下载中心</div>
+						</div>
+						<div>
+							<a href="?q=moreinform&amp;id=506" class="more">更多 ></a>
+						</div>
+					</div>
+					<div class="right-item_wrap">
+						
+						<a href="?q=moreinform&amp;id=506" class="item bg-1">
+							<div class="down-left">
+								<div class="title">招生表格</div>
+							</div>
+							<img src="./static/down-right.png" class="down-img" alt="">
+						</a>
+						
+						<a href="?q=moreinform&amp;id=507" class="item bg-2">
+							<div class="down-left">
+								<div class="title">在校生表格</div>
+							</div>
+							<img src="./static/down-right.png" class="down-img" alt="">
+						</a>
+						
+						<a href="?q=moreinform&amp;id=508" class="item bg-3">
+							<div class="down-left">
+								<div class="title">毕业生表格</div>
+							</div>
+							<img src="./static/down-right.png" class="down-img" alt="">
+						</a>
+						
+						<a href="?q=moreinform&amp;id=509" class="item bg-4">
+							<div class="down-left">
+								<div class="title">联培生表格</div>
+							</div>
+							<img src="./static/down-right.png" class="down-img" alt="">
+						</a>
+						
+						<a href="?q=moreinform&amp;id=510" class="item bg-5">
+							<div class="down-left">
+								<div class="title">导师用表格</div>
+							</div>
+							<img src="./static/down-right.png" class="down-img" alt="">
+						</a>
+						
+						<a href="?q=moreinform&amp;id=3660" class="item bg-6">
+							<div class="down-left">
+								<div class="title">其他表格</div>
+							</div>
+							<img src="./static/down-right.png" class="down-img" alt="">
+						</a>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="module-three row">
+				<div class="col-lg-8 col-12 no-padding-pc">
+					<div class="module-title">
+						<div class="title-left d-flex d-lg-none">
+							<div id="jq3" class="title-left_main" list="0" onclick="tabs(this)">明理时空</div>
+							<div class="line"></div>
+							<div id="jq4" class="title-left_main" list="1" onclick="tabs(this)">研会活动</div>
+							<div id="bord2" class="bottom-bor"></div>
+						</div>
+						<div class="title-left d-none d-lg-flex">
+							<div id="jq3-1" class="title-left_main" list="0" onclick="tabs(this)">明理时空</div>
+							<div class="line"></div>
+							<div id="jq4-1" class="title-left_main" list="1" onclick="tabs(this)">研会活动</div>
+							<div id="bord2-1" class="bottom-bor"></div>
+						</div>
+						<div>
+							<a href="?q=list3&amp;id=3300" class="more" id="more-3" style="display: block;" onclick="more2()">更多 &gt;</a>
+							<a href="?q=list3&amp;id=3303" class="more" id="more-4" style="display: none;" onclick="more2()">更多 &gt;</a>
+						</div>
+					</div>
+					<div id="list2" style="overflow: hidden;" >
+						<div class="row" onclick="conts(this)">
+							
+							<div class="col-lg-6 col-11">
+								<div class="item">
+									<div class="time-area">
+										<div class="date">09/15</div>
+										<div class="time">2026</div>
+									</div>
+									<a href="?q=detail3&amp;id=54991" class="title">明理时空讲座第211期---【中关村M234或怀柔X1南楼101线下参加】物理所2026年秋季学期党委书记讲党课暨明理时空论坛第211期，9月8日9:00截止选课</a>
+								</div>
+							</div>
+							
+							<div class="col-lg-6 col-11">
+								<div class="item">
+									<div class="time-area">
+										<div class="date">09/15</div>
+										<div class="time">2026</div>
+									</div>
+									<a href="?q=detail3&amp;id=54990" class="title">明理时空讲座第210期---【仅限中关村M236参加】国科大2026年开学典礼暨明理时空论坛第210期，9月5日17:00截止选课</a>
+								</div>
+							</div>
+							
+							<div class="col-lg-6 col-11">
+								<div class="item">
+									<div class="time-area">
+										<div class="date">07/20</div>
+										<div class="time">2026</div>
+									</div>
+									<a href="?q=detail3&amp;id=54915" class="title">明理时空讲座第209期---【中关村M234或怀柔X1南楼101线下参加】汲取奋进力量，砥砺青春担当，7月22日10:00截止选课</a>
+								</div>
+							</div>
+							
+							<div class="col-lg-6 col-11">
+								<div class="item">
+									<div class="time-area">
+										<div class="date">06/10</div>
+										<div class="time">2026</div>
+									</div>
+									<a href="?q=detail3&amp;id=54812" class="title">明理时空讲座第208期---【中关村M234或怀柔X1南楼101线下参加】面试攻略大公开，6月11日8:00截止选课</a>
+								</div>
+							</div>
+							
+							<div class="col-lg-6 col-11">
+								<div class="item">
+									<div class="time-area">
+										<div class="date">05/20</div>
+										<div class="time">2026</div>
+									</div>
+									<a href="?q=detail3&amp;id=54760" class="title">明理时空讲座第207期---【中关村M234或怀柔X1南楼101线下参加】科学像魔法一样有趣，5月25日17:00截止选课</a>
+								</div>
+							</div>
+							
+							<div class="col-lg-6 col-11">
+								<div class="item">
+									<div class="time-area">
+										<div class="date">04/21</div>
+										<div class="time">2026</div>
+									</div>
+									<a href="?q=detail3&amp;id=54597" class="title">【明理时空讲座第206期---【中关村M234或怀柔X1南楼101线下参加】专利申请实务专题培训，4月24日17:00截止选课</a>
+								</div>
+							</div>
+							
+						</div>
+						<div class="row" style="display: none;" onclick="conts(this)">
+							
+							<div class="col-6">
+								<div class="item">
+									<div class="time-area">
+										<div class="date">03/08</div>
+										<div class="time">2026</div>
+									</div>
+									<a href="?q=detail3&amp;id=54500" class="title">巧手拼春意，共庆妇女节 | 物理所成功举办拼豆创意手作活动</a>
+								</div>
+							</div>
+							
+							<div class="col-6">
+								<div class="item">
+									<div class="time-area">
+										<div class="date">02/10</div>
+										<div class="time">2026</div>
+									</div>
+									<a href="?q=detail3&amp;id=54493" class="title">把春天揉进派对，写进年后的第一份想念——2026年新春派对圆满举办</a>
+								</div>
+							</div>
+							
+							<div class="col-6">
+								<div class="item">
+									<div class="time-area">
+										<div class="date">11/13</div>
+										<div class="time">2025</div>
+									</div>
+									<a href="?q=detail3&amp;id=54195" class="title">平板支撑・聚力！这场核心对决超燃落幕，王者实力出圈～</a>
+								</div>
+							</div>
+							
+							<div class="col-6">
+								<div class="item">
+									<div class="time-area">
+										<div class="date">11/10</div>
+										<div class="time">2025</div>
+									</div>
+									<a href="?q=detail3&amp;id=54210" class="title">金秋晚会回顾 | 感谢有你，与你同行</a>
+								</div>
+							</div>
+							
+							<div class="col-6">
+								<div class="item">
+									<div class="time-area">
+										<div class="date">06/16</div>
+										<div class="time">2025</div>
+									</div>
+									<a href="?q=detail3&amp;id=53428" class="title">燃动一夏，2025物理所羽毛球比赛火热收官</a>
+								</div>
+							</div>
+							
+							<div class="col-6">
+								<div class="item">
+									<div class="time-area">
+										<div class="date">04/30</div>
+										<div class="time">2025</div>
+									</div>
+									<a href="?q=detail3&amp;id=53429" class="title">2025年&ldquo;春风十里&ldquo;紫竹院定向越野大赛成功举办!</a>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+
+				</div>
+				<div class="col-lg-4 col-12 module-two-right">
+					<div class="module-right-title down-bg">
+						<div class="title-left">
+							<img src="./static/about-link.png" class="img" alt="">
+							<div class="title-left_main_down">相关链接</div>
+						</div>
+						<div>
+							<a href="?q=list_nosub&amp;id=3306" class="more">更多 ></a>
+						</div>
+					</div>
+					<div class="p-10-lr">
+						
+						<div class="link-cent">
+							<div class="link-wrap">
+								<a href="?q=moredetail&amp;id=46704" class="link-item">心理咨询预约</a>
+							</div>
+							<div class="bord"></div>
+						</div>
+						
+						<div class="link-cent">
+							<div class="link-wrap">
+								<a href="https://sep.ucas.ac.cn/" class="link-item">国科大SEP教育平台</a>
+							</div>
+							<div class="bord"></div>
+						</div>
+						
+						<div class="link-cent">
+							<div class="link-wrap">
+								<a href="https://onestop.ucas.edu.cn/" class="link-item">国科大综合信息网</a>
+							</div>
+							<div class="bord"></div>
+						</div>
+						
+						<div class="link-cent">
+							<div class="link-wrap">
+								<a href="http://job.ucas.ac.cn" class="link-item">国科大就业信息网</a>
+							</div>
+							<div class="bord"></div>
+						</div>
+						
+						<div class="link-cent">
+							<div class="link-wrap">
+								<a href="https://www.ucas.ac.cn/" class="link-item">中国科学院大学</a>
+							</div>
+							<div class="bord"></div>
+						</div>
+						
+						<div class="link-cent">
+							<div class="link-wrap">
+								<a href="https://www.chsi.com.cn/" class="link-item">学信网</a>
+							</div>
+							<div class="bord"></div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="module-four row">
+				<div class="module-title col-12">
+					<div class="title-left">
+						<div class="title-left_main1">画册中心</div>
+					</div>
+					<div>
+						<a href="#" class="more"></a>
+					</div>
+				</div>
+				<div class="four-list">
+					<div class="four-left">
+						<!-- <div class="four-left-top">
+						  <div class="top-1"><img src="./static/temp-01.jpg" class="four-img" alt=""><div class="four-title">我是标题我是标题我是标题</div></div>
+						  <div class="top-2"><img src="./static/temp-01.jpg" class="four-img" alt=""><div class="four-title">我是标题我是标题我是标题</div></div>
+						</div> -->
+						<img id="maLeft" onclick="dbleft(this)" class="ma-left" src="./static/ma-left.png" alt="">
+						<img id="maRight" onclick="dbright(this)" class="ma-right" src="./static/ma-right.png" alt="">
+						<div id="bottoms" class="four-left-bottoms">
+							<div class="four-left-bottom">
+								
+								<div class="bottom-1">
+									<img src="https://edu.iphy.ac.cn/cmsfiles/3458_2026072211482666291.jpg" class="four-img" alt="">
+									<div class="four-title1">心似清荷</div>
+								</div>
+								
+								<div class="bottom-1">
+									<img src="https://edu.iphy.ac.cn/cmsfiles/3458_2026072118340955276.jpg" class="four-img" alt="">
+									<div class="four-title1">荷风入楼宇</div>
+								</div>
+								
+								<div class="bottom-1">
+									<img src="https://edu.iphy.ac.cn/cmsfiles/3458_2026072118330232598.jpg" class="four-img" alt="">
+									<div class="four-title1">荷伴求索</div>
+								</div>
+								
+								<div class="bottom-1">
+									<img src="https://edu.iphy.ac.cn/cmsfiles/t/3458_2024121317544626591.jpg" class="four-img" alt="">
+									<div class="four-title1">园区秋景</div>
+								</div>
+								
+								<div class="bottom-1">
+									<img src="https://edu.iphy.ac.cn/cmsfiles/t/3458_2024121317474129442.jpg" class="four-img" alt="">
+									<div class="four-title1">M楼秋景</div>
+								</div>
+								
+								<div class="bottom-1">
+									<img src="https://edu.iphy.ac.cn/cmsfiles/t/3458_2024121317524911913.jpg" class="four-img" alt="">
+									<div class="four-title1">凝聚园秋景</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					<!-- <div class="four-right"><img src="./static/temp-01.jpg" class="four-img" alt=""><div class="four-title">我是标题我是标题我是标题</div></div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<div class="page-bottom">
+	<div class="container bottom-content">
+		<div class="row bottom-content_wrap">
+			<div class="bottom-left col-lg-8 col-md-12">
+				<p>版权：版权所有@2015-2026中国科学院物理研究所研究生部</p>
+				<p>地址：北京中关村南三街8号M楼229</p>
+				<p>邮编：100190 ｜邮箱：education@iphy.ac.cn</p>
+			</div>
+			<div class="bottom-right col-lg-4 col-md-12">
+				
+				<div class="code-wrap">
+					<img src="https://edu.iphy.ac.cn/cmsfiles/t/202408151135401895.png" class="code-img" alt="">
+					<p>物理所研究生教育微信公众号</p>
+				</div>
+				
+				<div class="code-wrap">
+					<img src="https://edu.iphy.ac.cn/cmsfiles/t/202408151135201891.png" class="code-img" alt="">
+					<p>物理所官方微信公众号</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./script/bootstrap.min.js"></script>
+<script src="./script/common.js"></script>
+<script src="./script/swiper.min.js"></script>
+<script>
+	var swiper = new Swiper('.swiper-container', {
+		slidesPerView: 5,
+		slidesPerGroup : 5,
+		spaceBetween: 30,
+		grabCursor: true,
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		}
+	});
+	
+	var screenWidth = window.innerWidth
+    if (screenWidth < 991) {
+      $('#carouli').removeClass('carousel-indicators')
+    } else {
+      $('#carouli').addClass('carousel-indicators')
+    }
+
+	var index = 0
+	var index2 = 0
+
+	function tab(param) {
+		var sp_an = $(param).attr('list');
+		index = sp_an
+		$('#list').children('div').eq(sp_an).click()
+		var more1 = document.getElementById("more-1");
+		var more2 = document.getElementById("more-2");
+		if (index == 0) {
+			more1.style.display = 'block'
+			more2.style.display = 'none'
+		} else {
+			more1.style.display = 'none'
+			more2.style.display = 'block'
+		}
+	}
+	function cont(param) {
+		$(param).show();
+		$(param).siblings().hide();
+	}
+
+	function tabs(param) {
+		var sp_an = $(param).attr('list');
+		index2 = sp_an
+		$('#list2').children('div').eq(sp_an).click()
+		var more3 = document.getElementById("more-3");
+		var more4 = document.getElementById("more-4");
+		if (index2 == 0) {
+			more3.style.display = 'block'
+			more4.style.display = 'none'
+		} else {
+			more3.style.display = 'none'
+			more4.style.display = 'block'
+		}
+	}
+	function conts(param) {
+		$(param).show();
+		$(param).siblings().hide();
+	}
+
+	function dbleft(param) {
+		$('#bottoms').animate({
+			scrollLeft: '-=340'
+		}, 'slow')
+	}
+	function dbright(param) {
+		$('#bottoms').animate({
+			scrollLeft: '+=340'
+		}, 'slow')
+	}
+</script>
+</body>
+</html>

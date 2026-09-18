@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>研究生教育网</title>
+<link rel="stylesheet" type="text/css" href="./style/reset.css">
+<link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./style/bootstrap.reset.css">
+<link rel="stylesheet" type="text/css" href="./style/common.css">
+<script src="./script/popper.min.js"></script>
+<script src="./script/jquery.min.js"></script>
+<style>
+    .search-link{border:0; background: transparent; width:28px!important;}
+</style>
+	<link rel="stylesheet" type="text/css" href="./style/historic.css" />
+	<link rel="stylesheet" type="text/css" href="./style/list.css" />
+</head>
+<body>
+<div class="page-top">
+	<div class="top-line d-none d-xl-block"></div>
+	<div class="d-xl-none m-nav" style="height: 58px;"></div>
+	<div class="back-wuli d-none d-xl-block"><a href="https://www.iop.cas.cn/">返回物理所首页</a><img src="./static/back-home.png" alt=""></div>
+	<div class="container-fluid page-header d-none d-xl-flex">
+		<div class="logo-area">
+			<a href="."><img src="./static/logo.png" class="page-logo" alt="" /></a>
+			<!-- <a href=""><img src="./static/logo-2.png" class="page-logo" alt=""></a> -->
+			<!-- <a href=""><img src="./static/logo-3.png" class="page-logo" alt=""></a> -->
+		</div>
+		<form class="search" action="?q=search">
+			<input name="q" type="hidden" value="search">
+			<input name="key" type="text" class="search-input" placeholder="请输入关键字" maxlength="10">
+			<button class="search-link"><img src="./static/search-icon.png" class="search-icon" alt=""></button>
+		</form>
+	</div>
+	<div class="d-block d-xl-none m-nav">
+		<nav class="navbar navbar-expand-xl navbar-light bg-white fixed-top">
+			<div class="top-line-m"></div>
+			<a class="navbar-brand navbar-brand-m" href="." style="width: 50%;">
+				<img src="./static/logo-m.png" class="page-logo-m" alt=""/>
+				<img src="./static/logo-m-w.png" class="page-logo-m-w" alt=""/>
+			</a>
+			<div
+					class="toggle-btn-m collapsed"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarCollapse"
+					aria-controls="navbarCollapse"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+					id="toggleBtnM"
+			>
+				<!-- <span class="navbar-toggler-icon"></span> -->
+			</div>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" href=".">首&nbsp;&nbsp;&nbsp;&nbsp;页</a>
+					</li>
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3267" role="button" aria-expanded="false">
+							概况
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list_first&amp;id=3268">历史沿革</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3269">学科简介</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3646">学位委员会</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3648">教育督导委员会</a>
+							
+							<a class="dropdown-item" href="?q=contactus&amp;id=3270">联系我们</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3271" role="button" aria-expanded="false">
+							硕博招生
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3277">推荐免试</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3278">硕士招生</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3279">博士招生</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3280">International Students</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3272" role="button" aria-expanded="false">
+							联合培养
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3281">硕博联培</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3282">本科毕设</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3284">短期交流</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item">
+						<a class="nav-link" href="?q=list_teacher&amp;id=3285">导师介绍</a>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3273" role="button" aria-expanded="false">
+							培养学位
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3653">学籍管理</a>
+							
+							<a class="dropdown-item" href="?q=list_top&amp;id=3286">培养方案</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3287">学位申请</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3288">所内课程</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3289">评奖评优</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3652">规章制度</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3274" role="button" aria-expanded="false">
+							团学思政
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3290">毕业典礼合影</a>
+							
+							<a class="dropdown-item" href="?q=list_top&amp;id=3291">明理时空</a>
+							
+							<a class="dropdown-item" href="?q=list_top&amp;id=3292">研究生会</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3275" role="button" aria-expanded="false">
+							严济慈班
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3293">选拔公告</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3294">前沿讲座</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3295">严班奖学金</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3296">活动交流</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3276" role="button" aria-expanded="false">
+							毕业就业
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3297">毕业流程</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3298">就业去向</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3299">选调信息</a>
+							
+						</div>
+					</li>
+					
+					
+				</ul>
+				<div class="back-btn"><a href="https://www.iop.cas.cn/">返回物理所首页</a><img src="./static/back-home.png" alt=""></div>
+			</div>
+		</nav>
+	</div>
+</div>
+<div class="page-main">
+	<div class="main-banner d-none d-xl-block"></div>
+<div class="main-top d-block d-xl-none">
+	<img src="./static/banner-2.jpg" class="d-none d-md-block" alt="" style="width: 100%;height: auto;">
+	<img src="./static/m-banner-1.jpg" class="d-block d-md-none" alt="" style="width: 100%;height: auto;">
+	<div class="search">
+		<form class="search-content" action="?q=search">
+			<input name="q" type="hidden" value="search">
+			<input name="key" type="text" class="search-input" placeholder="请输入关键字" maxlength="10">
+			<button class="search-link"><img src="./static/search-icon-m.png" class="search-icon" alt=""></button>
+		</form>
+	</div>
+</div>
+	<div class="container-fluid main-content p-0">
+		<div class="d-none d-xl-block" style="height: 200px;"></div>
+<div class="nav-area d-none d-xl-block">
+	<ul class="nav justify-content-center">
+		<li class="nav-item">
+			<a class="nav-link " href=".">首&nbsp;&nbsp;&nbsp;&nbsp;页</a>
+		</li>
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3267" role="button" aria-expanded="false">
+				概况
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list_first&amp;id=3268">历史沿革</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3269">学科简介</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3646">学位委员会</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3648">教育督导委员会</a>
+				
+				<a class="dropdown-item" href="?q=contactus&amp;id=3270">联系我们</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3271" role="button" aria-expanded="false">
+				硕博招生
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3277">推荐免试</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3278">硕士招生</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3279">博士招生</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3280">International Students</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3272" role="button" aria-expanded="false">
+				联合培养
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3281">硕博联培</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3282">本科毕设</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3284">短期交流</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item">
+			<a class="nav-link " href="?q=list_teacher&amp;id=3285">导师介绍</a>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3273" role="button" aria-expanded="false">
+				培养学位
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3653">学籍管理</a>
+				
+				<a class="dropdown-item" href="?q=list_top&amp;id=3286">培养方案</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3287">学位申请</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3288">所内课程</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3289">评奖评优</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3652">规章制度</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3274" role="button" aria-expanded="false">
+				团学思政
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3290">毕业典礼合影</a>
+				
+				<a class="dropdown-item" href="?q=list_top&amp;id=3291">明理时空</a>
+				
+				<a class="dropdown-item" href="?q=list_top&amp;id=3292">研究生会</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3275" role="button" aria-expanded="false">
+				严济慈班
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3293">选拔公告</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3294">前沿讲座</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3295">严班奖学金</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3296">活动交流</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3276" role="button" aria-expanded="false">
+				毕业就业
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3297">毕业流程</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3298">就业去向</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3299">选调信息</a>
+				
+			</div>
+		</li>
+		
+		
+	</ul>
+</div>
+
+		<div class="container-fluid main-center">
+			<div class="row">
+				<div class="col-12 col-xl-3">
+	<div class="nav-left d-none d-xl-flex">
+		<div class="nav-list">
+			<div class="top-bg"></div>
+			
+		</div>
+	</div>
+	<div class="nav-left_m d-flex d-xl-none">
+		<div class="nav-list" id="accordionExample">
+			<div class="top-bg" type="button" data-toggle="collapse" data-target="#navToggle" aria-expanded="true" aria-controls="navToggle">
+				<span></span>
+				<img class="toggle-icon" src="./static/toggle-icon.png" alt="">
+			</div>
+			<div id="navToggle" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				
+			</div>
+		</div>
+	</div>
+</div>
+				<div class="col-12 col-xl-9">
+					<nav aria-label="breadcrumb">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href=".">首页</a></li>
+							
+							<li class="breadcrumb-item breadcrumb-item-item" aria-current="page">
+								<a href="?q=moreinform&amp;id=272">招生通知</a>
+							</li>
+							
+							<li class="breadcrumb-item breadcrumb-item-item active" aria-current="page">
+								详情
+							</li>
+						</ol>
+					</nav>
+					<div class="info-wrap">
+						<div class="onece-title">招生通知</div>
+						<div class="article">
+							<div class="big-title">物理所2026年招收全国统考硕士研究生复试分数线及相关安排</div>
+							<div class="article-body"><p><strong><span style="font-family: 微软雅黑;">一、复试原则</span></strong></p>
+<p><span style="font-family: 微软雅黑;">根据教育部和中国科学院大学有关规定，硕士考生复试采用差额复试。本着一视同仁，公平竞争，择优录取的原则，侧重对考生专业能力、综合素质、身体素质进行深度考查。</span><span style="font-family: 微软雅黑;">&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-family: 微软雅黑;">二、复试分数线</span></strong></p>
+<p><span style="font-family: 微软雅黑;">1、第一志愿报考学术型学位复试分数线：</span></p>
+<p><span style="font-family: 微软雅黑;">①政治&ge;35</span><span style="font-family: 微软雅黑;">分；</span><span style="font-family: 微软雅黑;">②英语&ge;35</span><span style="font-family: 微软雅黑;">分；</span><span style="font-family: 微软雅黑;">③业务课</span><span style="font-family: 微软雅黑;">1</span><span style="font-family: 微软雅黑;">&ge;53</span><span style="font-family: 微软雅黑;">分；</span><span style="font-family: 微软雅黑;">④业务课2&ge;53</span><span style="font-family: 微软雅黑;">分；</span><span style="font-family: 微软雅黑;">⑤</span><span style="font-family: 微软雅黑;">总分</span><span style="font-family: 微软雅黑;">&ge;</span><span style="font-family: 微软雅黑;">349</span><span style="font-family: 微软雅黑;">分；同时满足</span><span style="font-family: 微软雅黑;">①②③④</span><span style="font-family: 微软雅黑;">⑤</span><span style="font-family: 微软雅黑;">的学术型考生，可参加物理所全国统考硕士生入学复试。</span></p>
+<p><span style="font-family: 微软雅黑;">2、第一志愿报考专业型学位复试分数线：</span></p>
+<p><span style="font-family: 微软雅黑;">①政治&ge;35分；②英语&ge;35分；③业务课1&ge;53分；④业务课2&ge;53分；⑤总分&ge;264分；同时满足①②③④⑤的专业型考生，可参加物理所全国统考硕士生入学复试。</span></p>
+<p><span style="font-family: 微软雅黑;">注：</span></p>
+<p><span style="font-family: 微软雅黑;">1、初试总分及各科成绩须满足教育部和中国科学院大学关于A类考生进入复试的初试总分和单科分数要求，否则不予录取；</span></p>
+<p><span style="font-family: 微软雅黑;">2、少数民族高层次骨干人才计划和退役大学生士兵计划的复试分数线执行教育部和中国科学院大学的相关政策和要求；</span></p>
+<p><span style="font-family: 微软雅黑;">3、请进入复试的考生注意查收邮件。</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 微软雅黑;">&nbsp;</span><strong><span style="font-family: 微软雅黑;">三、</span></strong><strong><span style="font-family: 微软雅黑;">报到及</span></strong><strong><span style="font-family: 微软雅黑;">复试安排</span></strong></p>
+<p><span style="font-family: 微软雅黑;">（</span><span style="font-family: 微软雅黑;">1）报到时间：3月31日上午9:00-11:00</span></p>
+<p><span style="font-family: 微软雅黑;">（</span><span style="font-family: 微软雅黑;">2）报到地点：北京市海淀区中关村南三街8号，物理所M楼229（研究生部）</span></p>
+<p><span style="font-family: 微软雅黑;">（</span><span style="font-family: 微软雅黑;">3）</span><span style="font-family: 微软雅黑;">报到时</span><span style="font-family: 微软雅黑;">请携带以下材料</span><span style="font-family: 微软雅黑;">：</span></p>
+<p><span style="font-family: 微软雅黑;">①本人身份证；应届生</span><span style="font-family: 微软雅黑;">还</span><span style="font-family: 微软雅黑;">需携带学生证；往届生</span><span style="font-family: 微软雅黑;">还</span><span style="font-family: 微软雅黑;">需携带</span><span style="font-family: 微软雅黑;">本科</span><span style="font-family: 微软雅黑;">毕业证和学位证；在职</span><span style="font-family: 微软雅黑;">考</span><span style="font-family: 微软雅黑;">生</span><span style="font-family: 微软雅黑;">还需携带</span><span style="font-family: 微软雅黑;">单位人事部门同意报考的证明原件</span><span style="font-family: 微软雅黑;">；</span></p>
+<p><span style="font-family: 微软雅黑;">②</span><span style="font-family: 微软雅黑;">考生个人简历及自述表（见附件</span><span style="font-family: 微软雅黑;">1）</span><span style="font-family: 微软雅黑;">；</span></p>
+<p><span style="font-family: 微软雅黑;">③</span><span style="font-family: 微软雅黑;">最新本科成绩单（加盖公章）</span><span style="font-family: 微软雅黑;">；</span></p>
+<p><span style="font-family: 微软雅黑;">④</span><span style="font-family: 微软雅黑;">政审表（见附件</span><span style="font-family: 微软雅黑;">2）。</span></p>
+<p>（4）<span style="font-family: 微软雅黑;">复试时间：</span><span style="font-family: 微软雅黑;">3月31日下午13:30-17:30</span></p>
+<p>（5）<span style="font-family: 微软雅黑;">复试</span><span style="font-family: 微软雅黑;">地点：报到时</span><span style="font-family: 微软雅黑;">通知</span></p>
+<p>（6）<span style="font-family: 微软雅黑;">复试内容：</span></p>
+<p><span style="font-family: 微软雅黑;">①</span><span style="font-family: 微软雅黑;">专业能力：大学阶段学习情况及成绩；专业知识掌握的深度和广度；对知识的理解和灵活运用程度；从事科研工作的潜力和创新能力；外语听说读写译能力。</span></p>
+<p><span style="font-family: 微软雅黑;">②</span><span style="font-family: 微软雅黑;">综合素质：政治思想、道德品质、科研诚信等；工作、学习态度、责任感、纪律性、团队合作精神；个人修养、人文素质等。</span></p>
+<p>（7）<span style="font-family: 微软雅黑;">体检：拟录取名单公示后</span><span style="font-family: 微软雅黑;">10个工作日内，</span><span style="font-family: 微软雅黑;">请自行完成体检并将体检报告邮寄至物理所，邮寄地址见本通知</span><span style="font-family: 微软雅黑;">&ldquo;联系方式&rdquo;。</span></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-family: 微软雅黑;">四、</span></strong><strong><span style="font-family: 微软雅黑;">录取规则</span></strong></p>
+<p><span style="font-family: 微软雅黑;">复试成绩和初试成绩按权重相加，得出入学考试总成绩（百分制）。初试成绩、复试成绩各占总成绩权重的</span><span style="font-family: 微软雅黑;">50％，具体如下：</span></p>
+<p><span style="font-family: 微软雅黑;">总成绩＝（初试成绩</span><span style="font-family: 微软雅黑;">&divide;5）&times;50%＋复试成绩&times;50%</span></p>
+<p><span style="font-family: 微软雅黑;">1、复试成绩满分100分。复试成绩60分以下者为复试不合格，不予录取。</span></p>
+<p><span style="font-family: 微软雅黑;">2、政审</span><span style="font-family: 微软雅黑;">或</span><span style="font-family: 微软雅黑;">体检不合格者，不予录取。</span></p>
+<p><span style="font-family: 微软雅黑;">3、拟录取名单经审核后，将在物理所研究生教育网公示（https://edu.iphy.ac.cn）。经公示无异议的拟录取名单将上报上级招生主管单位。</span></p>
+<p>&nbsp;</p>
+<p align="justify"><strong><span style="font-family: 微软雅黑;">五</span></strong><strong><span style="font-family: 微软雅黑;">、公示与争议解决</span></strong></p>
+<p align="justify"><span style="font-family: 微软雅黑;">考生拟录取名单公布后，接受考生及社会各界的监督检查。物理所招生专用监督电话为</span><span style="font-family: 微软雅黑;">010-82649388，国科大招生专用监督电话为010-88256714，北京市教育考试院招生专用监督电话为010-82837456。考生如对复试结果持有异议，请于公示期内向我所研究生部提出书面复议申请。&nbsp;</span></p>
+<p><span style="font-family: 微软雅黑;">&nbsp;</span></p>
+<p align="justify"><strong><span style="font-family: 微软雅黑;">六</span></strong><strong><span style="font-family: 微软雅黑;">、调剂</span></strong></p>
+<p align="justify"><span style="font-family: 微软雅黑;">对于初试成绩符合国家分数线要求，但未进入我所复试名单或未被我所录取的考生，请及时与其他招生单位联系。&nbsp;</span></p>
+<p align="justify"><strong><span style="font-family: 微软雅黑;">&nbsp;</span></strong></p>
+<p><strong><span style="font-family: 微软雅黑;">七</span></strong><strong><span style="font-family: 微软雅黑;">、</span></strong><strong><span style="font-family: 微软雅黑;">其他事项</span></strong></p>
+<p><span style="font-family: 微软雅黑;">考生交通费、食宿费</span><span style="font-family: 微软雅黑;">及</span><span style="font-family: 微软雅黑;">体检费自理，请提前安排好住宿。</span><span style="font-family: 微软雅黑;">其他未尽事宜，另行通知。</span></p>
+<p>&nbsp;</p>
+<p><strong><span style="font-family: 微软雅黑;">八</span></strong><strong><span style="font-family: 微软雅黑;">、联系方式</span></strong></p>
+<p><span style="font-family: 微软雅黑;">单位地址：北京市海淀区中关村南三街</span><span style="font-family: 微软雅黑;">8号</span></p>
+<p><span style="font-family: 微软雅黑;">邮编：</span><span style="font-family: 微软雅黑;">100190</span></p>
+<p><span style="font-family: 微软雅黑;">E-mail：gaozs@iphy.ac.cn</span></p>
+<p><span style="font-family: 微软雅黑;">联系电话：</span><span style="font-family: 微软雅黑;">010-82649510</span></p>
+<p><span style="font-family: 微软雅黑;">联系人：高子尚</span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: 微软雅黑;">------附：物理所2026年全国硕士研究生入学考试复试名单------</span></p>
+<table style="border-collapse: collapse; width: 505px; height: 1280.05px; border-width: 1px; border-spacing: 0px;" border="1" width="477" cellspacing="0" cellpadding="0"><colgroup><col style="width: 65px;" width="62"><col style="width: 86px;" width="85"><col style="width: 171px;" width="151"><col style="width: 123px;" width="123"><col style="width: 60px;" width="56"></colgroup>
+<tbody>
+<tr style="height: 23.275px;">
+<td class="xl65" style="width: 47pt; border-width: 1px; text-align: center;" width="62" height="19">序号</td>
+<td class="xl66" style="border-width: 1px; border-left-style: none; border-left-color: initial; width: 64pt; text-align: center;" width="85">考生姓名</td>
+<td class="xl66" style="border-width: 1px; border-left-style: none; border-left-color: initial; width: 113pt; text-align: center;" width="151">考生编号</td>
+<td class="xl66" style="border-width: 1px; border-left-style: none; border-left-color: initial; width: 92pt; text-align: center;" width="123">报考专业</td>
+<td class="xl66" style="border-width: 1px; border-left-style: none; border-left-color: initial; width: 42pt; text-align: center;" width="56">总分</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">1</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">吴琦祺</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000155</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">材料工程</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">429</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">2</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">陈健一</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000159</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">材料工程</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">425</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">3</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">熊瑀祺</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000102</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">凝聚态物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">413</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">4</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">黄瑞</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000055</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">410</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">5</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">田昊</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000045</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">406</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">6</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">尹一霖</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000093</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">凝聚态物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">403</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">7</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">卜贤达</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000087</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">凝聚态物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">399</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">8</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">薄纯刚</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000158</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">材料工程</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">389</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">9</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">贾清</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000049</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">388</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">10</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">姚宇辉</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000031</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">386</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">11</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">何文祺</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000104</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">凝聚态物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">386</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">12</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">陆新</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000063</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">383</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">13</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">何颖凤</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000110</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">凝聚态物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">383</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">14</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">张凯荣</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000074</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">382</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">15</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">张绍坤</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000108</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">凝聚态物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">382</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">16</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">孙玮宏</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000017</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">376</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">17</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">王励行</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000057</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">376</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">18</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">杨璟</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000025</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">374</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">19</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">邓星元</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000069</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">374</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">20</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">高曦</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000015</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">373</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">21</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">胡迅</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000027</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">370</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">22</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">程浩博</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000098</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">凝聚态物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">370</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">23</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">刘智慧</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000052</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">368</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">24</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">蔡金宏</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000112</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">凝聚态物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">367</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">25</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">周一琳</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000092</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">凝聚态物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">366</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">26</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">杨秀城</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000070</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">365</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">27</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">陈升伟</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000088</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">凝聚态物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">365</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">28</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">金韦烨</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000032</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">363</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">29</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">范天杰</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000100</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">凝聚态物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">362</td>
+</tr>
+<tr>
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">30</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">贾祯</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000076</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">361*</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">31</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">焦东方</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000156</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">材料工程</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">360</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">32</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">张晨</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000048</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">360*</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">33</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">罗铭扬</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000101</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">凝聚态物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">357</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">34</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">樊海洋</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000066</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">356</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">35</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">宋仁杰</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000056</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">355</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">36</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">夏子恒</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000067</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">355</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">37</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">马琚睿</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000134</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">材料物理与化学</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">355</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">38</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">王翊冰</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000012</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">354</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">39</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">李甲伦</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000047</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">352</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">40</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">况贺壹</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000089</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">凝聚态物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">352</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">41</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">李奕</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000145</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">光电信息工程</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">352</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">42</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">赵钐全</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000094</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">凝聚态物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">351</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">43</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">徐仲昊</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000008</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">350</td>
+</tr>
+<tr style="height: 23.2px;">
+<td style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;">44</td>
+<td style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">郝敏汐</td>
+<td style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000011</td>
+<td style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">理论物理</td>
+<td style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">350*</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">45</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">张子鑫</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000124</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">光学</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">349</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">46</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">冯琪</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000150</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">人工智能</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">337</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">47</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">杨忠伟</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000154</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">材料工程</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">327</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">48</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">王润斌</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000153</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">材料工程</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">324</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">49</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">段彦伟</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000151</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">人工智能</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">312</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">50</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">陆庆烨</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000144</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">光电信息工程</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">309</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">51</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">陈宣</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000146</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">光电信息工程</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">299</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">52</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">芮灿羽</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000152</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">人工智能</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">296</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">53</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">马静姝</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000160</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">材料工程</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">291</td>
+</tr>
+<tr style="height: 23.275px;">
+<td class="xl65" style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;" height="19">54</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">刘轩麟</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">144306008000148</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">人工智能</td>
+<td class="xl66" style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">284</td>
+</tr>
+<tr>
+<td style="border-width: 1px; border-top-style: none; border-top-color: initial; text-align: center;">55</td>
+<td style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">袁光良</td>
+<td style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">立功表彰免初试</td>
+<td style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">凝聚态物理</td>
+<td style="border-width: 1px; border-top-style: none; border-top-color: initial; border-left-style: none; border-left-color: initial; text-align: center;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>注：*为享受加分政策考生，初试总分加10</p></div>
+						</div>
+						
+						<div class="attachments">
+							
+							<a class="attachments-item" href="https://edu.iphy.ac.cn/cmsfiles/7660_2026032508420192934.docx" download="附件1：考生个人简历及自述.docx">
+								<img src="./static/attachments.png" alt="">
+								<span>附件1：考生个人简历及自述.docx</span>
+							</a>
+							
+							<a class="attachments-item" href="https://edu.iphy.ac.cn/cmsfiles/7660_2026032508420120036.docx" download="附件2：政审表.docx">
+								<img src="./static/attachments.png" alt="">
+								<span>附件2：政审表.docx</span>
+							</a>
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="page-bottom">
+	<div class="container bottom-content">
+		<div class="row bottom-content_wrap">
+			<div class="bottom-left col-lg-8 col-md-12">
+				<p>版权：版权所有@2015-2026中国科学院物理研究所研究生部</p>
+				<p>地址：北京中关村南三街8号M楼229</p>
+				<p>邮编：100190 ｜邮箱：education@iphy.ac.cn</p>
+			</div>
+			<div class="bottom-right col-lg-4 col-md-12">
+				
+				<div class="code-wrap">
+					<img src="https://edu.iphy.ac.cn/cmsfiles/t/202408151135401895.png" class="code-img" alt="">
+					<p>物理所研究生教育微信公众号</p>
+				</div>
+				
+				<div class="code-wrap">
+					<img src="https://edu.iphy.ac.cn/cmsfiles/t/202408151135201891.png" class="code-img" alt="">
+					<p>物理所官方微信公众号</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./script/bootstrap.min.js"></script>
+<script src="./script/common.js"></script>
+</body>
+</html>

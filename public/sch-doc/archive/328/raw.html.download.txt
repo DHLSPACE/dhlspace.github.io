@@ -1,0 +1,468 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>华中科技大学2025年硕士研究生招生复试录取工作有关规定</title><META Name="keywords" Content="华中科技大学研究生招生信息网,招生政策,华中科技大学,华中科技,华中,中科,科技大学,科技大,科技,大学,2025,20,25,硕士研究生,硕士,研究生,研究,招生,复试,录取,工作,有关规定,有关,规定" />
+<META Name="description" Content="为深入贯彻落实习近平新时代中国特色社会主义思想和关于研究生教育的重要指示精神，根据教育部关于硕士研究生招生复试录取工作的相关要求，结合学校实际情况，制定2025年硕士研究生招生复试录取工作方案，具体如下。一、组织机构学校研究生招生工作领导小组全面领导硕士研究生招生复试录取工作；研究生院负责落实相关规定并组织考务工作；各院系研究生招生工作领导小组具体负责本单位的复试录取工作，拟定复试工作细则并组织实..." />
+
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+<link rel="stylesheet" href="../../css/publice.css" type="text/css">
+<script type="text/javascript" src="../../js/jquery.min.js"></script>
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/superslide.js"></script>
+<script type="text/javascript" src="../../js/jquery.soChange.js"></script>
+<script type="text/javascript" src="../../js/index.js"></script>
+<script type="text/javascript">
+$(function(){
+    $(".mainmenu dl").hide();
+    $("li.mainmenu").hover(function(){
+        $(this).find("dl").stop(true,true);
+        $(this).find("dl").slideDown();
+    },function(){
+        $(this).find("dl").stop(true,true);
+        $(this).find("dl").slideUp();
+    });
+})
+</script>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230747f4757535b574200000001475c -->
+<link rel="stylesheet" type="text/css" href="../../content.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1089,'/content.jsp',3927,1680431565)</script>
+</head>
+<body>
+<!--top s-->    
+<div class="topWrap clearfix">
+    <div class="topDiv">
+        
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+
+<div class="logo">
+<a href="../../index.htm"><img src="../../images/web-logo.png" /></a>
+</div>
+
+        <div class="topR fr">
+            
+<script language="javascript">
+function dosuba273795a()
+{
+    try{
+        var ua = navigator.userAgent.toLowerCase();
+        if(ua.indexOf("msie 8")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE8
+        }else if(ua.toLowerCase().indexOf("rv:")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE11+
+        }else{
+            if (document.all) 
+            {
+                window.external.addFavorite(document.location.href, document.title);
+            }else if(window.sidebar)
+            {
+                window.sidebar.addPanel( document.title, document.location.href, "");//firefox
+            }
+            else
+            {
+                alert(hotKeysa273795a());
+            }
+        }
+
+    }
+    catch (e){alert("无法自动添加到收藏夹，请使用 Ctrl + d 手动添加");}
+}
+function hotKeysa273795a() 
+{
+    var ua = navigator.userAgent.toLowerCase(); 
+    var str = "";    
+    var isWebkit = (ua.indexOf('webkit') != - 1); 
+    var isMac = (ua.indexOf('mac') != - 1);     
+    if (ua.indexOf('konqueror') != - 1) 
+    {  
+        str = 'CTRL + B'; // Konqueror   
+    } 
+    else if (window.home || isWebkit || isMac) 
+    {        
+        str = (isMac ? 'Command/Cmd' : 'CTRL') + ' + D'; // Netscape, Safari, iCab, IE5/Mac   
+    }
+    return ((str) ? '无法自动添加到收藏夹，请使用' + str + '手动添加' : str);
+}
+function setHomepagea273795a()
+{
+    var url = document.location.href;
+    if (document.all)
+    {
+        document.body.style.behavior='url(#default#homepage)';
+        document.body.setHomePage(url);
+    }
+    else if (window.sidebar)
+    {
+        if(window.netscape)
+        {
+             try{
+                  netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+             }catch (e){
+                   alert("该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+             }
+        }
+    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+    prefs.setCharPref('browser.startup.homepage',url);
+    }
+    else
+    {
+        alert("浏览器不支持自动设为首页，请手动设置");
+    }
+}
+</script>
+<div class="topR_t fr">
+            <A href="javascript:setHomepagea273795a()" style="TEXT-DECORATION: none;">
+                设为首页
+            </A>
+        |
+            <A onclick="javascript:dosuba273795a();" href="#" style="TEXT-DECORATION: none;">
+               加入收藏
+            </A>
+        </div>
+            <script type="text/javascript">
+                function test3()
+                {
+                    var tempStr=document.getElementById('test2').value;
+                    if(tempStr=="请输入关键字搜索")
+                    {
+                        document.getElementById('test2').value="";
+                    }
+                }
+                function test4()
+                {
+                    var tempStr=document.getElementById('test2').value;
+                    if(tempStr=="")
+                    {
+                        document.getElementById('test2').value="请输入关键字搜索";
+                    }
+                }
+            </script>   
+        </div>
+    </div>
+</div>
+<!--nav-->
+<div class="navWrap  clearfix">
+    <div class="nav">
+    <ul>
+			<li>
+			<a class="link" href="../../index.htm">网站首页</a>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../xxgk/xxjj.htm">学校概况</a>
+			
+			<dl class="chang">
+
+					<dd>
+
+
+<a href="../../xxgk/xxjj.htm">学校简介</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../xxgk/lsyg.htm">历史沿革</a>
+
+</dd>
+			</dl>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../zsxx/ggtz.htm">招生信息</a>
+			
+			<dl class="chang">
+
+					<dd>
+
+
+<a href="../../zsxx/ggtz.htm">公告通知</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../zsxx/zszc.htm">招生政策</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../zsxx/ksdg.htm">考试大纲</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../zsxx/lnfsx.htm">历年分数线</a>
+
+</dd>
+			</dl>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../zsjz/sszs.htm">招生简章</a>
+			
+			<dl class="chang">
+
+					<dd>
+
+
+<a href="../../zsjz/sszs.htm">硕士招生</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../zsjz/bszs.htm">博士招生</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../zsjz/gatzs.htm">港澳台招生</a>
+
+</dd>
+			</dl>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../wsbm/tmswbxt.htm">网上报名</a>
+			
+			<dl class="chang">
+
+					<dd>
+
+
+<a href="../../wsbm/tmswbxt.htm">推免生网报系统</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../wsbm/ss_bswsbmxt.htm">硕士/博士网上报名系统</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../wsbm/ss_bswsqrxt.htm">硕士/博士网上确认系统</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../wsbm/ss_bscjcxxt.htm">硕士/博士成绩查询系统</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../wsbm/xlywsbmxt.htm">夏令营网上报名系统</a>
+
+</dd>
+			</dl>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../zyxz.htm">资源下载</a>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../lxwm/zszxjssqd.htm">联系我们</a>
+			
+			<dl class="chang">
+
+					<dd>
+
+
+<a href="../../lxwm/zszxjssqd.htm">招生咨询及申诉渠道</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../lxwm/yxlxfs.htm">院系联系方式</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../lxwm/cjwt.htm">常见问题</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../lxwm/lyb.htm">留言板</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../lxwm/wjdc.htm">问卷调查</a>
+
+</dd>
+			</dl>
+		</li>
+     
+    </ul>
+</div>
+</div>
+<script type="text/javascript">
+
+	$(".mainmenu dl").hide();
+
+</script>
+
+<!--main--> 
+<div class="mainWrap clearfix">
+    <div class="main_tit">
+        <div class="main_titT main_titTa">
+            <img src="../../img/bri_icon1.png">
+
+<a href="../../index.htm">网站首页</a>>
+<a href="../../zsxx/ggtz.htm">招生信息</a>>
+<a href="../../zsxx/zszc.htm">招生政策</a>>
+<a href="" class="cur">正文</a>
+        </div>
+    </div>
+<div class="main_content" style="min-height:450px;">
+    
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname">
+<div class="main_contit">
+			<h2>华中科技大学2025年硕士研究生招生复试录取工作有关规定</h2>
+			<p>作者：    时间：2025-03-19    点击数：<script>_showDynClicks("wbnews", 1680431565, 3927)</script></p>
+</div>
+<div class="main_conDiv">
+<div class="main_reporter">
+<dl>
+<dd>
+    <div id="vsb_content"><div class="v_news_content">
+<p style="text-indent:43px;line-height:37px"><span style="font-size:21px;font-family:仿宋_gb2312">为深入贯彻落实习近平新时代中国特色社会主义思想和关于研究生教育的重要指示精神，根据教育部关于硕士研究生招生复试录取工作的相关要求，结合学校实际情况，制定</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">2025</span><span style="font-size:21px;font-family:仿宋_gb2312">年硕士研究生招生复试录取工作方案，具体如下。</span></p>
+<p style="text-indent:43px;line-height:37px"><span style="font-size:21px;font-family:黑体">一、组织机构</span></p>
+<p style="text-indent:43px;line-height:37px"><span style="font-size:21px;font-family:仿宋_gb2312">学校研究生招生工作领导小组全面领导硕士研究生招生复试录取工作；研究生院负责落实相关规定并组织考务工作；各院系研究生招生工作领导小组具体负责本单位的复试录取工作，拟定复试工作细则并组织实施。学校成立复试突发事件应急管理领导小组，研究处置研究生招生复试工作中的突发应急事件。学校和院系设立监察组，监督复试各环节工作情况，组织现场督查。</span></p>
+<p style="text-indent:43px;line-height:37px"><span style="font-size:21px;font-family:黑体">二、招生计划</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">1</span><span style="font-size:21px;font-family:仿宋_gb2312">．根据教育部下达给学校的硕士研究生招生总计划，学校按院系进行分配，院系可进一步按内设系所、学科（专业）、类别（领域）等对计划进行细分。因正式下达计划或实际录取推免生人数等影响，最终拟招考计划数以复试前公布的复试工作细则为准。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">2</span><span style="font-size:21px;font-family:仿宋_gb2312">．根据学校划定的分数线，部分合格生源不足的学科（专业）可按照教育部和学校调剂工作相关规定申请生源调剂，并按规定公布拟调剂计划数和调剂细则。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">3</span><span style="font-size:21px;font-family:仿宋_gb2312">．院系未完成的招生计划退回学校统筹再分配。</span></p>
+<p style="text-indent:43px;line-height:37px"><span style="font-size:21px;font-family:黑体">三、复试组织</span></p>
+<p style="text-indent:43px;line-height:37px"><span style="font-size:21px;font-family:仿宋_gb2312">（一）复试资格</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">1</span><span style="font-size:21px;font-family:仿宋_gb2312">．学校公布</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">2025</span><span style="font-size:21px;font-family:仿宋_gb2312">年硕士研究生招生复试基本分数要求和各院系复试分数线。院系在复试前要对满足分数线考生的报考资格和复试资格进行审核，考生须提供的具体材料详见学校研究生招生信息网（以下简称“研招网”）公告及各院系复试工作细则。复试前要严格采取“两识别”（人脸识别、人证识别）、“四比对”（报考库、学籍学历库、人口信息库、诚信档案库数据比对）等措施，加强对考生特别是报考专项计划、申请加分等有关考生的身份复核。未通过资格审核的考生不得参加复试。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">2</span><span style="font-size:21px;font-family:仿宋_gb2312">．复试采取差额形式，合格生源充足的院系差额比例一般不低于</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">120%</span><span style="font-size:21px;font-family:仿宋_gb2312">。合格生源不足的，按实际情况组织复试。复试名单由各院系在发布复试工作细则时公布。</span></p>
+<p style="text-indent:43px;line-height:37px"><span style="font-size:21px;font-family:仿宋_gb2312">（二）复试方式</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">1</span><span style="font-size:21px;font-family:仿宋_gb2312">．</span><span lang="EN-US" style="font-size:21px;font-family: 'times new roman',serif">2025</span><span style="font-size:21px;font-family:仿宋_gb2312">年硕士研究生复试采取线下现场复试方式，具体安排以学校研招网公布的院系复试工作细则为准。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">2</span><span style="font-size:21px;font-family:仿宋_gb2312">．所有参加复试的考生均需通过学校硕士生复试报到系统进行网上报到确认。考生须确认复试信息，提交复试资格审核材料，并在线签署《考试诚信承诺书》。招生院系将对考生提交的复试资格审核材料进行线上审核。资格审查不合格者不予复试。对个人信息或材料弄虚作假者，一经查实，按有关规定取消报考资格、复试资格、录取资格或学籍。</span></p>
+<p style="text-indent:43px;line-height:37px"><span style="font-size:21px;font-family:仿宋_gb2312">（三）复试收费</span></p>
+<p style="text-indent:43px;line-height:37px"><span style="font-size:21px;font-family:仿宋_gb2312">按照湖北省有关文件，对参加复试的考生按每人</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">100</span><span style="font-size:21px;font-family:仿宋_gb2312">元标准收取复试费。考生可在复试报到确认时进行网上缴费。</span></p>
+<p style="text-indent:43px;line-height:37px"><span style="font-size:21px;font-family:仿宋_gb2312">（四）复试时间</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">1</span><span style="font-size:21px;font-family:仿宋_gb2312">．学校综合考虑招生规模、学科专业特点，在</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">3</span><span style="font-size:21px;font-family:仿宋_gb2312">月</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">21</span><span style="font-size:21px;font-family:仿宋_gb2312">日至</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">23</span><span style="font-size:21px;font-family:仿宋_gb2312">日集中组织复试。考生可关注学校研招网及各院系网站通知，提前做好准备。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">2</span><span style="font-size:21px;font-family:仿宋_gb2312">．考生未按时进行复试报到确认及缴费；或在经联系后，在院系复试全部结束时仍未参加复试的，视为自动放弃复试资格。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">3</span><span style="font-size:21px;font-family:仿宋_gb2312">．根据教育部招生工作管理规定，如学校认为有必要，可对相关考生再次复试。</span></p>
+<p style="text-indent:43px;line-height:37px"><span style="font-size:21px;font-family:仿宋_gb2312">（五）复试内容及要求</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">1</span><span style="font-size:21px;font-family:仿宋_gb2312">．各院系根据学科专业特点确定复试内容和形式，并在复试工作细则中予以公布。复试内容包括思想政治品德表现考核、专业理论知识测试、综合素质和能力测试、外语听说能力测试等。复试形式一般包括口头问答、笔试、上机、实验</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">/</span><span style="font-size:21px;font-family:仿宋_gb2312">实践技能测试、综合面试等。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">2</span><span style="font-size:21px;font-family:仿宋_gb2312">．各院系可要求考生提供个人简历、学习成绩单、各类奖励情况、科研成果、毕业论文或实习实践报告等材料，加强对考生既往学业、一贯表现、科研能力、综合素质和思想品德等情况的全面考察。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">3</span><span style="font-size:21px;font-family:仿宋_gb2312">．参加管理类综合能力科目考试的考生、同等学力考生、成人教育应届本科毕业生及复试时尚未取得本科毕业证书的自考和网络教育考生，在符合复试资格的前提下，还须按规定参加相关科目的加试。具体方式和内容详见相关院系复试工作细则。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">4</span><span style="font-size:21px;font-family:仿宋_gb2312">．考生须遵守线下复试的各项规定。统一开考的笔试、上机等测试，开考后</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">15</span><span style="font-size:21px;font-family:仿宋_gb2312">分钟未到场者不得入场；采取逐个面试等考核方式的，须在规定时间内在指定地点候考。</span></p>
+<p style="text-indent:43px;line-height:37px"><span style="font-size:21px;font-family:黑体">四、调剂工作</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">1</span><span style="font-size:21px;font-family:仿宋_gb2312">．申请调剂的考生须符合教育部及学校相关规定要求。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">2</span><span style="font-size:21px;font-family:仿宋_gb2312">．符合条件的申请调剂考生超过计划数时，参照教育部相关规定和我校发布的相关院系调剂细则，择优遴选，差额确定进入调剂复试的考生名单。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">3</span><span style="font-size:21px;font-family:仿宋_gb2312">．所有调剂工作均通过教育部指定的</span><span lang="EN-US" style="font-size: 21px;font-family:'times new roman',serif">“</span><span style="font-size:21px;font-family:仿宋_gb2312">全国硕士生招生调剂服务系统</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">”</span><span style="font-size:21px;font-family:仿宋_gb2312">进行。</span></p>
+<p style="text-indent:43px;line-height:37px"><span style="font-size:21px;font-family:黑体">五、录取工作</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">1</span><span style="font-size:21px;font-family:仿宋_gb2312">．总成绩</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">=</span><span style="font-size:21px;font-family:仿宋_gb2312">初试成绩（按百分制折算）×</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">60%+</span><span style="font-size:21px;font-family:仿宋_gb2312">复试成绩×</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">40%</span><span style="font-size:21px;font-family:仿宋_gb2312">。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">2</span><span style="font-size:21px;font-family:仿宋_gb2312">．复试成绩总分为</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">100</span><span style="font-size:21px;font-family:仿宋_gb2312">分，复试不及格者（低于</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">60</span><span style="font-size:21px;font-family:仿宋_gb2312">分）不予录取。未参加复试者不予录取。各类加试成绩不及格者（低于</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">60</span><span style="font-size:21px;font-family:仿宋_gb2312">分）不予录取。思想政治素质和品德考核不合格者不予录取。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">3</span><span style="font-size:21px;font-family:仿宋_gb2312">．各院系按要求公示复试成绩。在考生思想政治素质和品德考核合格、复试成绩及格、加试成绩及格（对需加试的考生）的前提下，各院系研究生招生领导小组根据本单位招生计划、复试录取规则、考生综合成绩、思想政治表现、身心健康状况等择优确定待录取名单。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">4</span><span style="font-size:21px;font-family:仿宋_gb2312">．对符合国家、教育部等相关文件精神，提供证明材料经过核实的考生，予以加分或在同等条件下优先录取。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">5</span><span style="font-size:21px;font-family:仿宋_gb2312">．考生体检安排在拟录取后进行。体检不合格者不予录取。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">6</span><span style="font-size:21px;font-family:仿宋_gb2312">．拟录取名单由学校统一公示，公示时间不少于</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">7</span><span style="font-size:21px;font-family:仿宋_gb2312">日。未经公示的考生一律不予录取。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">7</span><span style="font-size:21px;font-family:仿宋_gb2312">．按规定符合保留入学资格条件的考生，须在拟录取前提出书面申请，由院系审核同意后，报研究生院招生办公室。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">8</span><span style="font-size:21px;font-family:仿宋_gb2312">．所有非定向考生的人事档案须转入学校。定向就业考生须在拟录取前提供与单位签订的定向就业协议、劳动合同或工作单位证明。各院系在复试、调剂过程中，应提前将相关管理规定告知报考非全日制专业学位的考生，满足有关要求才能拟录取。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">9</span><span style="font-size:21px;font-family:仿宋_gb2312">．入学后</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">3</span><span style="font-size:21px;font-family:仿宋_gb2312">个月内，学校将按照《普通高等学校学生管理规定》有关要求，对所有考生的入学资格进行全面复查。复查不合格的，取消入学资格（或学籍）；情节严重的，移交有关部门调查处理。</span></p>
+<p style="text-indent:43px;line-height:37px"><span style="font-size:21px;font-family:黑体">六、有关工作要求</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">1</span><span style="font-size:21px;font-family:仿宋_gb2312">．学校和各院系不断完善复试工作制度，加强复试工作规范管理，建立“一岗多控、多岗监督”机制；发挥和规范研究生导师在复试选拔中的作用，择优选拔、公平公正。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">2</span><span style="font-size:21px;font-family:仿宋_gb2312">．进一步明确工作纪律和程序。对所有参加复试的工作人员进行政策、业务、纪律等方面的培训。</span></p>
+<p style="text-indent:43px;line-height:37px"><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">3</span><span style="font-size:21px;font-family:仿宋_gb2312">．落实信息公开公示，及时解答考生咨询。各院系在复试工作细则中公布咨询和申诉方式。</span></p>
+<p style="text-indent:43px;line-height:37px"><span style="font-size:21px;font-family:仿宋_gb2312">研究生院招生办公室设立咨询和申诉电话：</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">027-87541746</span><span style="font-size:21px;font-family:仿宋_gb2312">（工作时间开通）邮箱：</span><span lang="EN-US" style="font-size:21px;font-family:'times new roman',serif">yzb@hust.edu.cn</span><span style="font-size:21px;font-family:仿宋_gb2312">。</span></p>
+<p><br></p>
+</div></div></dd>
+				</dl>
+			</div></div>
+<div id="div_vote_id"></div>
+
+
+
+
+
+    <div class="main_art">
+<ul>
+        <li><lable>上一条：</lable><a href="4074.htm">华中科技大学2026年硕士研究生招生复试录取工作有关规定</a></li>
+        <li><lable>下一条：</lable><a href="3750.htm">华中科技大学2024年硕士研究生招生复试录取工作有关规定</a></li>
+ 
+</ul>
+</div>
+   
+</form>
+
+</div>
+</div>
+<!--link--> 
+<div class="linkWrap clearfix">
+
+    <div class="linkDiv_two">
+        <script language="javascript" src="/system/resource/js/openlink.js"></script>     <div class="linkDiv_one">
+<div class="link_one">
+			   <dl>
+                <dt>友情链接</dt>
+<dd>
+  <a href="http://www.hust.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63089)">华中科技大学</a>
+  <a href="#" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63090)">研究生工作部</a>
+  <a href="http://gszz.hust.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63091)">研究生资助网</a>
+  <a href="http://gs.hust.edu.cn/category-3" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63092)">研究生培养</a>
+  <a href="http://gs.hust.edu.cn/category-6" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63093)">研究生学位管理</a>
+  <a href="#" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63094)">研究生就业</a>
+  <a href="http://www.hust.edu.cn/759/list.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63095)">学科建设</a>
+  <a href="http://gs.hust.edu.cn/category-7" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63096)">非全日制教育</a>
+</dd></dl></div>
+        </div>
+
+ 
+
+
+
+    </div>
+    
+</div>
+<!--foot-->
+<div class="footWrap clearfix"><div class="footDiv_one">
+        <div class="foot_one">
+            <p style="text-align: center">Copyright © 2016&nbsp;华中科技大学研究生院招生办公室 All Rights Reserved</p>
+        </div>
+    </div>
+</div>  
+</body>
+</html>
+<script type="text/javascript">
+$(function () {
+
+//切换对象为其他，这里为包含图片和标题的层
+    $('#change_32 div.changeDiv').soChange({//对象指向层，层内包含图片及标题
+        thumbObj:'#change_32 .ul_change_a2 span',
+        thumbNowClass:'on'//自定义导航对象当前class为on
+    });
+
+});
+</script>

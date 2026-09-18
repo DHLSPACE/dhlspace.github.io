@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="format-detection" content="telephone=no">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta name="keywords" content="北京教育考试院">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+        <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
+		<title>北京教育考试院</title>
+		<link href="/static/css/ksyresponsive.min.css" rel="stylesheet">
+		<link href="/static/css/rest.css" rel="stylesheet" rel="stylesheet">
+		<link href="/static/css/main.css" rel="stylesheet" rel="stylesheet">
+      <style>
+       body{ word-wrap: break-word;}
+      </style>
+	</head>
+	<body>
+		<div class="wrap">
+		    <div class="main">
+		       <!--head-->
+<div class="container-fulid" style="background: #005ba1;">
+                <div class="container hidden-xs">
+              <div class="row">
+                        <div class="col-lg-12 m-t-10">
+                           <!-- <p class="text-right top-links">
+                                <span style="margin-right:75px;margin-right:75px; position: relative;top: 5px;"><em class="t-a fc66" style="color:#fff">咨询电话：010-89193989</em></span>
+                                
+                            </p>-->
+                        </div>
+                    </div>
+                    <div class="head row">
+                        <div class="col-lg-7 col-md-5">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <img src="/static/images/logo20251021.png" class="img-max" style="margin-top:20px"/>
+                                </div>
+                                <div class="col-md-5">
+                                    <img src="/static/images/logotxt20251021.png" class="img-max" style="margin-top:20px"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-12 hidden-xs m-t-30">
+                            <div class="fr   ">
+                                <div style="text-align: right;display: inline-block;margin-left: 10px;position: relative;color: #fff;">
+                                 <!-- <ul class="clearfix ul-wx" style="width: 80px;text-align: center;float: right;">
+                                    <li>
+                                      <p><img src="/static/images/shouduzhaokao.jpg" width="75"></p>
+                                      <p style="color:#fff">首都招考</p>
+                                    </li>
+                                  </ul>-->
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 </div>
+                <!--/head-->
+				<!--nav-->
+				<nav class="navbar navbar-default" role="navigation">
+				    <div class="container"> 
+				    	
+					    <div class="navbar-header">
+					        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse" style="width: 50px;height: 35px;">
+					            <span class="sr-only">切换导航</span>
+					             <em style="" class="dow">导航<i class="down2"></i></em>
+					           <!--<span class="icon-bar"></span>
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span>-->
+					        </button>
+					        <div class="show-xs pos-rel xs-w1">
+                           <span class="xs-logo">北京教育考试院</span>
+                      <!-- <span class="fr"><button class="btn-search2" type="submit"></button></span>-->
+                       </div>
+					    </div>
+					    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+					        <ul class="nav navbar-nav">
+					           <li class="nav-item">
+                    <a class="nav-link " href="/">首页</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/introduce/2020/1127/77048.html" typeid=264>考试院简介</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/zkzz/index.html" typeid=266>中考中招</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/hk/index.html" typeid=267> 高中学考合格考</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/gkgz/index.html" typeid=346>高考高招</a>
+                </li>
+                <li class='nav-item'><a class='nav-link active' href='/html/yk/index.html' ><span>研考研招</span></a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/ckcz/index.html" typeid=4>成考成招</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/selfstudy/index.html" typeid=825>自学考试</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/html/fxlks/index.html" typeid=424>社会考试</a>
+                </li>
+                
+					        </ul>
+					    </div>
+				    </div>
+				</nav>
+				<!--/nav-->
+<div class="row t-sear" id="search-cont">
+<div class="col-lg-5 col-md-12  m-t-30">
+						<div class="fr  sear-bord wap-ind" >
+								<form class="search" name="formsearch" action="https://search.bjeea.cn/">
+			                        <input type="hidden" name="kwtype" value="0">
+			                        <input name="q" type="text" class="form-control2 input-search" placeholder="输入搜索关键字">
+			                        <div class="input-cont">
+			                            <button class="btn-search" type="submit"></button>
+			                        </div>
+			                    </form>
+                      </div>
+</div>
+</div>
+              
+				<!--main-->
+				<div class="container">
+					<div class="row">
+                      <div class="col-md-5 col-md-offset-1 text-right"  id="search-cont" style="display: none;">
+											
+												<div class="searconts  m-t-10 m-b-10">
+													<form action="https://search.bjeea.cn/plus/search.php" name="formsearch" target="_blank">
+												        <input type="hidden" name="kwtype" value="0"/>
+												      
+												        <input name="keyword" type="text" class="text" id="search-keyword" class="f-search" placeholder="请输入关键字"/>
+												        <input name="searchtype" value="titlekeyword" id="search-option" type="hidden"/>
+												        <button type="submit" class="sub2">  </button>
+												      </form>
+												</div>
+									</div>
+						<div class="col-lg-12  col-md-12">
+							<div class="s-cont2">
+								<div class="inner40">
+									<div class="c-bread">
+										<ul id="subNav_now">
+										    当前位置：<li class='breadcrumb-item'><a href='https://www.bjeea.cn/'>考试院首页</a></li> > <li class='breadcrumb-item'><a href='/html/yk/index.html'>研考研招</a></a> > <li class='breadcrumb-item'><a href='/html/yk/tzgg/index.html'>通知公告</a></a>
+										</ul>
+									</div>
+    <div>
+
+	
+</div>
+									<div class="info-cont">
+										<div class="info-ctit m-t-50">北京市2026年全国硕士研究生招生考试（初试）考生须知</div>
+										<p class="info-line m-t-20"></p>
+										<div class="info-times m-t-10">
+											<span class="info-item">2025-12-10</span>
+										</div>
+										<div class="info-txt m-t-30">
+											<div class="inner20 table-responsive">
+												<p align="justify" class="p" style="text-indent:32.0000pt; text-align:justify"><span style="font-size:12pt"><span style="layout-grid-mode:char"><span style="text-justify:inter-ideograph"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">202</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">6</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">年全国硕士研究生招生考试（初试）将于</font><font face="仿宋_GB2312">12月2</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">0</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">日</font><font face="仿宋_GB2312">-2</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">1</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">日进行，为使广大考生平安顺利参加考试，考生须注意并遵守以下事项：</font></span></span></span></span></span></span></span></p>
+
+<p align="justify" class="p" style="text-indent:32.0000pt; text-align:justify"><span style="font-size:12pt"><span style="layout-grid-mode:char"><span style="text-justify:inter-ideograph"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><span style="font-size:16.0000pt"><span style="font-family:黑体"><font face="黑体">一、做好考前准备。</font></span><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">12月10日至初试结束，考生可登录研招网自行打印《准考证》，《</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><span style="letter-spacing:0.0000pt"><span style="font-style:normal"><font face="仿宋_GB2312">准考证》正、反两面在使用期间均不得涂改或书写</font></span></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">。考生</font></span></span><b><span class="15" style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">务必认真阅读考点公告，</font></span></span></b><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">提前熟悉考点和考场位置，合理安排行程路线。</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">考生凭本人《准考证》和有效居民身份证，在规定时间和地点参加考试。</font></span></span></span></span></span></span></span></p>
+
+<p align="justify" class="p" style="text-indent:32.0000pt; text-align:justify"><span style="font-size:12pt"><span style="layout-grid-mode:char"><span style="text-justify:inter-ideograph"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><span style="font-size:16.0000pt"><span style="font-family:黑体"><font face="黑体">二、主动配合安检。</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">考点入场安检实行人脸识别、智能安检、金属探测等核查方式，考生须关注考点公告，服从安排，有序入场，个人原因导致入场延误由本人负责。</font></span></span></span></span></span></span></span></p>
+
+<p align="justify" class="p" style="text-indent:32.0000pt; text-align:justify"><span style="font-size:12pt"><span style="layout-grid-mode:char"><span style="text-justify:inter-ideograph"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">1.进入考点后，考生须将手机等非考试用品存放在考点指定区域，通过安全检查方可进入封闭管理区域参加考试。</font></span></span></span></span></span></span></span></p>
+
+<p align="justify" class="p" style="text-indent:32.0000pt; text-align:justify"><span style="font-size:12pt"><span style="layout-grid-mode:char"><span style="text-justify:inter-ideograph"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">2</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312">.</span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">考生只准携带规定的考试用品，包括</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">2B铅笔、黑色字迹的钢笔或签字笔、直尺、圆规、三角板、无封套橡皮等必需的考试用品或者招生单位在准考证上注明的所需携带的用具。</font></span></span></span></span></span></span></span></p>
+
+<p align="justify" class="p" style="text-indent:32.0000pt; text-align:justify"><span style="font-size:12pt"><span style="layout-grid-mode:char"><span style="text-justify:inter-ideograph"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">3</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312">.</span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">不得携带任何书刊、报纸、稿纸、图片、资料或有存储、编程、查询</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">等</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">功能的电子用品以及涂改液、修正带、透明胶带等物品进入考场。</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">所有考试</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">科目均不允许携带使用计算器。</font></span></span></span></span></span></span></span></p>
+
+<p align="justify" class="p" style="text-indent:32.0000pt; text-align:justify"><span style="font-size:12pt"><span style="layout-grid-mode:char"><span style="text-justify:inter-ideograph"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">4</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312">.</span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">严禁考生携带各类电子通讯工具（如手机、智能手表</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">、智能</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">手环、智能眼镜等智能穿戴设备）等物品进入考试封闭管理区域。建议考生在考试当天不携带电子通讯工具，不携带钥匙、磁卡、打火机、金属手镯、戒指、项链等物品，不穿戴有金属装饰品的衣服、鞋帽、发卡等，避免反复安检，影响正常入场考试。</font></span></span></span></span></span></span></span></p>
+
+<p align="justify" class="p" style="text-indent:32.1500pt; text-align:justify"><span style="font-size:12pt"><span style="layout-grid-mode:char"><span style="text-justify:inter-ideograph"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><b><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">特别提醒：</font></span></span></b><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">考生应自觉配合考点安检，主动按考点要求，将手机等具有发送或者接收信息功能的设备放在指定区域。开考后，如发现考生随身携带以上设备，无论使用与否，均按考试作弊行为处理。</font></span></span></span></span></span></span></span></p>
+
+<p align="justify" class="p" style="text-indent:32.0000pt; text-align:justify"><span style="font-size:12pt"><span style="layout-grid-mode:char"><span style="text-justify:inter-ideograph"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><span style="font-size:16.0000pt"><span style="font-family:黑体"><font face="黑体">三、严禁高科技作弊。</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">根据教育部要求，国家教育考试均在标准化考点实施，考试过程全部在视频监控下进行。考试期间，无线电管理部门将加大对异常信号的监测力度，对发现使用无线电通讯工具非法传输考试内容的人员将依法移交公安部门严肃处理。</font> </span></span></span></span></span></span></span></p>
+
+<p align="justify" class="p" style="text-indent:32.0000pt; text-align:justify"><span style="font-size:12pt"><span style="layout-grid-mode:char"><span style="text-justify:inter-ideograph"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><span style="font-size:16.0000pt"><span style="font-family:黑体"><font face="黑体">四、诚信应考。</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">考点所有考场实现实时智能巡查全覆盖，自动识别并记录考生违规行为，</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">考生</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">应</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">自觉遵守《考场规则》（附件）和考试纪律，</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">认真履行本人签署的《考生诚信考试承诺书》相关承诺，珍惜个人名誉，</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">诚信参加考试。</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">考生不遵守考场规则，不服从考务工作人员管理，有违纪、作弊等行为的，将按照《中华人民共和国教育法》以及《国家教育考试违规处理办法》进行处理，并按规定记入国家教育考试考生诚信档案；涉嫌违法的，移送司法机关，依照《中华人民共和国刑法》等追究法律责任。</font></span></span></span></span></span></span></span></p>
+
+<p align="justify" class="p" style="text-indent:32.0000pt; text-align:justify"><span style="font-size:12pt"><span style="layout-grid-mode:char"><span style="text-justify:inter-ideograph"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><span style="font-size:16.0000pt"><span style="font-family:黑体"><font face="黑体">五</font></span></span><span style="font-size:16.0000pt"><span style="font-family:黑体"><font face="黑体">、咨询与举报。</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">考生须密切关注所在考点发布的考试相关信息，有关具体事宜请咨询考点</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">。各考点联系方式</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">查询地址：</font></span></span></span></span></span></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">https://www.bjeea.cn/html/yk/fujian/2025/1008/87306.html</font></span></span><span style="font-size:16pt"><span style="layout-grid-mode:char"><span style="text-justify:inter-ideograph"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">。如发现涉考违规行为，</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">可以</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">向</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">所在考点或</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">我院举报，涉及违法犯罪的向公安机关报警。我院举报电话：</font><font face="仿宋_GB2312">010-82837135（考前一周开通，仅受理</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">考试</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">违规举报），邮箱：</font><font face="仿宋_GB2312">yzb@bjeea.cn。</font></span></span></span></span></span></span></span></p>
+
+<p align="justify" class="p" style="text-indent:32.0000pt; text-align:justify"><span style="font-size:12pt"><span style="layout-grid-mode:char"><span style="text-justify:inter-ideograph"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><span style="font-size:16.0000pt"><span style="font-family:黑体"><font face="黑体">六、自信从容赴考。</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">考生</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">考前</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">要</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">关注天气</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">变化</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">，</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">做好自身御寒保暖</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">。</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">流感高发时期，</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">尽量减少前往人员密集场所</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">。</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">合理搭配饮食，保证充足睡眠和适度运动，以自信</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">从容</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">的身心状态迎接考试。</font></span></span></span></span></span></span></span></p>
+
+<p align="justify" class="p" style="text-indent:32.0000pt; text-align:justify">&nbsp;</p>
+
+<p align="justify" class="p" style="text-indent:32.0000pt; text-align:justify"><a href="https://www.bjeea.cn/html/yk/fujian/2025/1209/87737.html"><span style="font-size:12pt"><span style="layout-grid-mode:char"><span style="text-justify:inter-ideograph"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">附件：考场规则</font></span></span></span></span></span></span></span></a></p>
+
+<p align="justify" class="p" style="text-indent:32.0000pt; text-align:justify">&nbsp;</p>
+
+<p align="right" class="p" style="text-indent:32.0000pt; text-align:right"><span style="font-size:12pt"><span style="layout-grid-mode:char"><span style="word-break:break-all"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">北京教育考试院</font></span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span></span></span></p>
+
+<p align="right" class="p" style="text-indent:32.0000pt; text-align:right"><span style="font-size:12pt"><span style="layout-grid-mode:char"><span style="word-break:break-all"><span style="line-height:28.0000pt"><span new="" roman="" style="font-family:" times=""><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">202</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">5</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">年</font><font face="仿宋_GB2312">12月</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">10</font></span></span><span style="font-size:16.0000pt"><span style="font-family:仿宋_GB2312"><font face="仿宋_GB2312">日</font></span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span></span></span></p>
+
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/main-->
+		    </div>
+		</div>
+		 <!--foot-->
+        <div class="mfooter text-center" style="display: flex;align-items: center;justify-content: center;"> 
+            <div>
+            <div class="p-t-25 fz18">
+            <a href="/html/introduce/2020/1127/77048.html"  target="_blank">关于我们</a><em class="mfoot-em">|</em>
+         
+         <a href="/html/sfxx/2021/1025/79818.html"  target="_blank">收费公示</a><em class="mfoot-em">|</em>
+         <a href="/html/sfgs/index.html"  target="_blank">其它公开事项</a><em class="mfoot-em">|</em>
+         <a href="https://www.bjeea.cn/html/kspj/2023/1207/84673.html"  target="_blank">考试票据</a><em class="mfoot-em">|</em>
+            <a href="/html/zxxx/2021/0317/78259.html"  target="_blank">招考咨询</a><em class="mfoot-em">|</em>
+              
+              <a href="/html/zxxx/2021/0315/78197.html"  target="_blank">纪检监察网络举报</a> 
+              </div>
+            <div class="p-t-25 mfoot-span fz16">
+                <span>版权所有：北京教育考试院 </span>
+              <span><a href="https://beian.miit.gov.cn"  target="_blank">京ICP备19056224号-2</a> </span>
+                <span>
+                    <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040202430156" target="_blank">
+                        <img src="/static/images/20191223.png" style=" position:relative;top:-1px;margin-right: 2px">京公网安备 11040202430156号
+                    </a>
+                </span>
+                <span>地址：北京市海淀区志新东路9号</span>
+                <span>邮编：100083</span><span class="show-mob">咨询电话：010-89193989</span>
+                
+                
+            </div>
+</div>
+<div>
+ <a href="http://bszs.conac.cn/sitename?method=show&id=279ABFA3DEE80AD6E053022819AC201B">
+                       <img src="/static/images/blue.png" style="padding-top: 15px;" />
+                 </a>
+</div>
+
+        </div>
+        <!--/foot-->
+        <script type="text/javascript" src="/static/js/jquery2.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.SuperSlide.2.1.3.js"></script>
+        <script type="text/javascript" src="/static/js/ksyresponsive.min.js"></script>
+      <script type="text/javascript" src="/static/js/ksyurl.js"></script>
+        <script type="text/javascript">
+            $(".slideTxtBox").slide();
+           $(".btn-search2").click(function(){
+              $('#search-cont').toggle();
+            });
+           $(function(){
+            $(".gq-zs li").hover(function(){
+             $(".showdetail").slideDown();
+            },function(){
+           $(".showdetail").slideUp();
+          })
+           })
+        
+        </script>
+     <script>
+           $(function(){
+                $('.showdetail3 a').each(function(){
+                 var url=$(this).attr('href');
+                    if(url=="https://www.bjeea.cn/"){
+                          $(this).attr("href","javascript:void(0);"); 
+                          $(this).attr('target','')
+                           $(this).css({'cursor':'text',"color":"#ccc"}) 
+                   }
+                    })
+              })
+ $(function(){
+    $('.dow').click(function(){
+        $('.down2').toggleClass('down3')
+    })
+})
+       $(function(){
+                 $(".navbar-toggle").click(function(){
+                    $('.collapse').toggle();
+                  });
+            })
+                </script>
+<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1262083206'%3E%3C/span%3E%3Cscript src='https://w.cnzz.com/c.php%3Fid%3D1262083206' type='text/javascript'%3E%3C/script%3E"));</script>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?039f809469476768f6767b8c695863ec";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+	</body>
+</html>

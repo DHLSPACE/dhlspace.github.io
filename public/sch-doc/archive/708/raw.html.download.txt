@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="renderer" content="webkit" />
+	<title>中国科学院半导体研究所教育网</title>
+	<meta name="description" content="">
+	<meta name="author" content="zhkzhx.com">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="/yanjiusheng/themes/bfsutheme/css/base.css">
+	<link rel="stylesheet" href="/yanjiusheng/themes/bfsutheme/css/skeleton.css">
+	<link rel="stylesheet" href="/yanjiusheng/themes/bfsutheme/css/layout.css">
+
+	<!--[if lt IE 9]>
+		<script src="/themes/bfsutheme/js/html5.js"></script>
+	<![endif]-->
+	<script src="/yanjiusheng/themes/bfsutheme/js/jquery.min.js"></script>
+	<script src="/yanjiusheng/themes/bfsutheme/js/bgstretcher.js"></script>
+	<script src="/yanjiusheng/analytics.bfsu.edu.cn/js/analytics.js"></script>
+    <script src="/yanjiusheng/themes/bfsutheme/js/jquery.hiSlider.js"></script>
+
+	<!-- Favicons
+	================================================== -->
+	<!-- <link rel="shortcut icon" href="/themes/bfsutheme/images/favicon.ico"> -->
+    <style type="text/css">
+	.hiSlider{
+		overflow: hidden;
+		height: 210px;
+		width: 340px;
+		background: #eee;
+	}
+	.hiSlider-item{
+		float: left;
+	}
+	</style>
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  ================================================== -->
+
+  <div class="wrapper">
+    <div class="bg"></div>
+    <div class="mask-box-mobile mask-filter">
+      <span class="mask-header">
+        <span class="mask-hello">Hello</span>
+        <span class="mask-hello-png"></span>
+      </span>
+      <hr class="mask-box-mobile-hr">
+      <span class="mask-bottom">
+        <div class="mask-query">
+          <form method="get" action="#"  >
+          <input class="query" type="text" placeholder="搜索更多资讯" name="s" />
+          <input type="buttom">
+          </form>
+        </div>
+      </span>
+    </div>
+    <div class="mask">
+      <div class="container">
+        <div class="row">
+          <div class="mask-box mask-filter">
+            <span class="mask-header">
+
+          <a href="/yanjiusheng/channels/719.html"><span class="mask-hello" style="font-size:24px;">科教融合专题</span></a>
+
+            <span class="mask-hello-png"></span>
+            </span>
+            <span class="mask-bottom">
+              <!--<a href="#" target="_blank">学生</a> <span class="split">|</span>
+              <a href="#" target="_blank">教师</a> <span class="split">|</span>
+              <a href="#" target="_blank">企业</a> <span class="split">|</span>
+              <a href="#" target="_blank">学生/在职人群</a>-->
+              <form method="get" action="utils/search.html" style="display:inline;" >
+                            
+                            
+                            
+              <div class="mask-query">
+                <input class="query" type="text" placeholder="搜索更多资讯和人员" name="word" />
+                <input type="image" src="themes/bfsutheme/img/search.png" value="" class="submit searchbtn" name="commit" id="search_btn" onClick="javascript:form.submit();">
+              </div>
+              </form>
+            </span>
+          </div>
+          <hr class="mask-box-hr">
+        </div>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="container">
+        <div class="row">
+          <div class="six columns">
+            <div class="header-logo"><a href="/yanjiusheng"><img src="/yanjiusheng/themes/bfsutheme/img/bfsulogo.png" alt="中科院半导体所教育网" width="350" /></a></div>
+          </div>
+          <div class="fourteen columns alpha omega">
+            <ul class="header-menu">
+              
+              <li><span><a href="/yanjiusheng/channels/695.html">研究生招生</a></span>
+                <ul class="ten columns alpha omega header-sub-menu offset-left-1 mobile-hide">
+                  <li><a href="/yanjiusheng/channels/695.html">导师简介</a></li>
+                  <li><a href="#"></a></li>
+                </ul>
+              </li>
+              
+              <li><span><a href="/yanjiusheng/channels/712.html" target="_blank">菁英班</a></span>
+                <ul class="ten columns alpha omega header-sub-menu offset-left-3 mobile-hide">
+                  <li><a target="_blank" href="#"></a></li>
+                  <li><a target="_blank" href="#"></a></li>
+                  <li><a target="_blank" href="#"></a></li>
+                </ul>
+              </li>
+                          
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="index-content">
+      <div class="container">
+        <div class="row mb0">
+                  <div class="six columns mobile-hide">
+            <div class="row func-list" style="height:249px; background:url('themes/bfsutheme/img/backgr.jpg'); padding-top:40px; padding-left:20px; padding-right:10px; font-size:16px;line-height:27px">
+              
+                欢迎您来到中国科学院半导体所科教融合网！<br />1956年，在我国十二年科学技术发展远景规划中，半导体科学技术被列为当时国家新技术四大紧急措施之一。为了创建中国半导体科学技术的研究发展基地，国家于1960年9月6日在北京成立中国科学院半导体研究所（以下简称“半导体所...<a style="color:#6699ff" href="/yanjiusheng/contents/718/1729.html">查看更多</a>
+                            
+            </div>
+            <div></div>
+          </div>
+          <div class="eight columns index-panel">
+            <div class="row panel-header">
+              <ul class="boxhelper">
+                <li class="xwc cur"><span class="ch">通知公告</span><span class="en">NOTICE</span></li>
+                <li class="jlc"><span class="ch">动态新闻</span><span class="en"></span><span class="en">NEWS</span></li>
+              </ul>
+            </div>
+            <div class="row mb0 xw sbox">
+              <div class="columns panel-list panel-list-long">
+                <ul>
+                                
+                  <li><a titlewordnum="11" href="/yanjiusheng/contents/691/5016.html">中国科学院半导体研究所关于2027年推荐免试生申请报名及面试时间安排通知</a><span>2026-08-20</span></li>
+                                
+                  <li><a titlewordnum="11" href="/yanjiusheng/contents/691/4985.html">中国科学院半导体研究所2026年“黄昆半导体科学技术”大学生夏令营通知</a><span>2026-07-02</span></li>
+                                
+                  <li><a titlewordnum="11" href="/yanjiusheng/contents/691/4951.html">中国科学院半导体研究所2026年“黄昆半导体科学技术” 大学生夏令营报名通知</a><span>2026-05-28</span></li>
+                                
+                  <li><a titlewordnum="11" href="/yanjiusheng/contents/691/4760.html">半导体所2026年秋季入学博士研究生招生报名通知</a><span>2025-12-02</span></li>
+                                
+                  <li><a titlewordnum="11" href="/yanjiusheng/contents/691/4717.html">中国科学院半导体研究所2026年硕士生招生报考指南</a><span>2025-10-09</span></li>
+                                
+                  <li><a titlewordnum="11" href="/yanjiusheng/contents/691/4518.html">半导体研究所关于2026年全国硕士研究生招生考试初试科目设置情况的公告</a><span>2025-07-14</span></li>
+                                
+                                </ul>
+                <div class="view-more"><a href="/yanjiusheng/channels/691.html">查看更多公告<img src="themes/bfsutheme/img/more.png" alt=""></a></div>
+              </div>
+            </div>
+
+            <div class="row mb0 jl sbox hidden">
+              <div class="columns panel-list panel-list-long ">
+                                            <ul>
+                                
+                <li><a titlewordnum="11" href="/yanjiusheng/contents/692/4687.html">半导体所举行2025年开学典礼暨研究生入所教育大会</a><span>2025-09-07</span></li>
+                                
+                <li><a titlewordnum="11" href="/yanjiusheng/contents/692/4686.html">半导体所举行2025届研究生毕业典礼</a><span>2025-06-24</span></li>
+                                
+                <li><a titlewordnum="11" href="http://www.semi.ac.cn/xwdt/zhxw/202504/t20250430_7640726.html" target="_blank">半导体所与中南大学共建“黄昆英才班”</a><span>2025-04-30</span></li>
+                                
+                <li><a titlewordnum="11" href="http://www.semi.ac.cn/xwdt/zhxw/202504/t20250430_7640702.html" target="_blank">半导体所与湖南大学共建“黄昆英才班”</a><span>2025-04-30</span></li>
+                                
+                <li><a titlewordnum="11" href="http://www.semi.ac.cn/xwdt/zhxw/202502/t20250220_7530744.html" target="_blank">半导体所与华中科技大学共建“黄昆英才基地”</a><span>2025-02-20</span></li>
+                                
+                <li><a titlewordnum="11" href="http://www.semi.ac.cn/xwdt/zhxw/202502/t20250220_7530734.html" target="_blank">半导体所与南京大学共建“黄昆英才班”</a><span>2025-02-20</span></li>
+                                
+                                
+                                
+                                </ul>
+                
+                <div class="view-more"><a href="/yanjiusheng/channels/692.html">查看更多资讯<img src="themes/bfsutheme/img/more.png" alt=""></a></div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="six columns mobile-hide">
+            <div class="row func-list" id="slide">
+              <ul class="hiSlider" style="padding-top:3px;overflow:hidden; margin-bottom:0px; height:210px;">
+                            
+                            
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/695.html"><img src="/yanjiusheng/upload/images/2016/11/t_2916132581.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">袁国栋</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学、材料与化工<br><br />研究方向：高效太阳能电池材料及器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/843.html"><img src="/yanjiusheng/upload/images/2023/11/t_30f8bc5fa183a260.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">刘岳阳</p>半导体物理实验室副研究员，博士生导师<br><br />招生专业：凝聚态物理<br><br />研究方向：半导体器件可靠性物理</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/804.html"><img src="/yanjiusheng/upload/images/2016/8/t_17154934283.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">李树深</p>半导体物理实验室研究员，中科院院士，博士生导师<br><br />招生专业：凝聚态物理<br><br />研究方向：低维半导体物理及器件、光电子器件性能预测、固态量子信息</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/701.html"><img src="/yanjiusheng/upload/images/2026/3/3143e0595634af1d.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">伊晓燕</p>半导体照明研发中心研究员，博士生导师<br/><br />招生专业：半导体材料与器件、材料与化工<br/><br />研究方向：氮化物发光二级管量子效率提升技术研究</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/4494.html"><img src="/yanjiusheng/upload/images/2025/7/a61cb01c94946db1.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">张东</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/788.html"><img src="/yanjiusheng/upload/images/2016/11/t_28165833814.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">刘力源</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：高速CMOS图像传感器、太赫兹波成像芯片</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/776.html"><img src="/yanjiusheng/upload/images/2019/12/t_111445517.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">娄正</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：面向人工智能及健康医疗领域的柔性感知器件研究</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/731.html"><img src="/yanjiusheng/upload/images/2016/11/t_29154457409.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">王智杰</p>固态光电信息技术实验室研究员，博士生导师<br><br />招生专业：半导体材料与器件、材料与化工<br><br />研究方向：纳米技术，光电化学，新能源</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/862.html"><img src="/yanjiusheng/upload/images/2023/3/t_3a535f2b151c375f.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">张钊</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：电路与系统<br><br />研究方向：高性能数模混合集成电路及系统的设计技术</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/697.html"><img src="/yanjiusheng/upload/images/2016/9/t_89952166.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">于海娟</p>全固态光源实验室研究员，博士生导师<br><br />招生专业：光学工程<br><br />研究方向：高功率固体和光纤超短脉冲激光技术</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/705.html"><img src="/yanjiusheng/upload/images/2023/9/t_c9e14d4ecf4d5a7a.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">杨晓光</p>固态光电信息技术实验室副研究员，硕士生导师<br><br />招生专业：材料与器件、材料与化工<br><br />研究方向：量子点、纳米线等低维纳米结构半导体材料的MBE和MOCVD生长研究</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/4333.html"><img src="/yanjiusheng/upload/images/2025/4/310a4b56c3953980.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">蒋琦</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/848.html"><img src="/yanjiusheng/upload/images/2024/11/3752dbbece7497e9.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">宁欣</p>高速电路与神经网络实验室副研究员，博士生导师<br><br />招生专业：电路与系统、电子信息<br><br />研究方向：形象认知计算理论与方法、多视图学习</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/803.html"><img src="/yanjiusheng/upload/images/2016/11/t_28164633651.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">李伟</p>光电子材料与器件重点实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：微波光子学</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/807.html"><img src="/yanjiusheng/upload/images/2016/11/t_3010404997.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">李芳</p>光电系统实验室研究员，博士生导师<br/><br />招生专业：光学工程<br/><br />研究方向：光纤传感网络关键技术以及光纤激光器</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/857.html"><img src="/yanjiusheng/upload/images/2021/7/t_1411145812.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">于双铭</p>半导体物理实验室副研究员，硕士生导师<br><br />招生专业：电路与系统<br><br />研究方向：类脑视觉芯片，智能图像处理系统，低功耗数模混合集成电路</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/797.html"><img src="/yanjiusheng/upload/images/2016/11/t_18153042652.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">梁松</p>光电子材料与器件重点实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学、材料与化工<br><br />研究方向：InP基半导体光电子单片集成芯片</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/747.html"><img src="/yanjiusheng/upload/images/2019/12/t_10155926866.JPG" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">王国伟</p>光电子材料与器件重点实验室研究员，硕士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：锑化物红外探测材料分子束外延生长</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/864.html"><img src="/yanjiusheng/upload/images/2021/7/t_1414929562.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">卓宁</p>固态光电信息技术实验室副研究员，硕士生导师<br><br />招生专业：半导体材料与器件<br><br />研究方向：红外半导体激光材料与器件；红外光子集成</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/811.html"><img src="/yanjiusheng/upload/images/2023/10/t_e6826b1f22ababf9.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">鉴海防</p>固态光电信息技术实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：高性能专用集成电路设计、智能信息处理算法与硬件实现技术研究</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/689.html"><img src="/yanjiusheng/upload/images/2022/5/101553017.JPG" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">张文涛</p>光电系统实验室研究员，博士生导师<br/><br />招生专业：物理电子学<br/><br />研究方向：光纤传感与探测技术</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/759.html"><img src="/yanjiusheng/upload/images/2016/11/t_29152538659.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">渠红伟</p>固态光电信息技术实验室研究员，博士生导师<br/><br />招生专业：微电子学与固体电子学<br/><br />研究方向：新型人工微结构光电子器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/740.html"><img src="/yanjiusheng/upload/images/2016/11/t_29153925159.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">王晓东</p>半导体集成技术中心研究员，博士生导师<br><br />招生专业：微电子学与固体电子学、材料与化工<br><br />研究方向：半导体微纳器件技术，纳米热电结构与器件，高效叠层太阳电池</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/4507.html"><img src="/yanjiusheng/upload/images/2025/7/6d0cd771613079b3.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">慈鹏弘</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/4319.html"><img src="/yanjiusheng/upload/images/2024/9/ce47f51ce71558b5.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">伍绍腾</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/5005.html"><img src="/yanjiusheng/upload/images/2026/8/s_5e4a8f09cd9b445a.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">郝腾飞</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/702.html"><img src="/yanjiusheng/upload/images/2016/11/t_291621472.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">杨跃德</p>光电子材料与器件重点实验室研究员，博士生导师<br><br />招生专业：物理电子学<br><br />研究方向：半导体激光器、微腔物理特性、半导体光电子集成</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/796.html"><img src="/yanjiusheng/upload/images/2016/8/t_3155723111.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">林学春</p>全固态光源实验室研究员，博士生导师<br><br />招生专业：光学工程<br><br />研究方向：高功率全固态激光器研究</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/815.html"><img src="/yanjiusheng/upload/images/2017/8/t_29145054500.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">黄北举</p>光电子材料与器件重点实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：硅基单片光电集成芯片</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/840.html"><img src="/yanjiusheng/upload/images/2021/4/t_3020567934.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">姜丽娟</p>固态光电信息技术实验室副研究员，硕士生导师<br><br />招生专业：材料物理与化学、半导体材料与器件<br><br />研究方向：GaN基异质结构材料外延生长和GaN基微波功率器件研制</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/1884.html"><img src="/yanjiusheng/upload/images/2023/7/t_8e353f64149f36cd.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">林妙玲</p>半导体物理实验室研究员，硕士生导师<br><br />招生专业：凝聚态物理<br><br />研究方向：低维半导体量子结构的声子物理</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/854.html"><img src="/yanjiusheng/upload/images/2021/7/t_14104524484.JPG" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">吴东海</p>光电子材料与器件重点实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：锑化物半导体低维材料和先进红外光电器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/734.html"><img src="/yanjiusheng/upload/images/2019/12/t_10153119679.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">王宇飞</p>固态光电信息技术实验室副研究员，硕士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：人工微结构光电功能材料与高性能半导体光子晶体激光器</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/847.html"><img src="/yanjiusheng/upload/images/2021/7/t_1493914874.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">马稳龙</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：凝聚态物理<br><br />研究方向：量子技术（包括量子计算、量子精密测量等）中的基础理论研究</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/816.html"><img src="/yanjiusheng/upload/images/2016/11/t_28161947841.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">韩伟华</p>半导体集成技术中心研究员，博士生导师<br/><br />招生专业：微电子学与固体电子学<br/><br />研究方向：半导体纳米结构器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/745.html"><img src="/yanjiusheng/upload/images/2016/9/t_716545725.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">王军喜</p>半导体照明研发中心研究员，博士生导师<br/><br />招生专业：材料物理与化学、半导体材料与器件、微电子学与固体电子学<br/><br />研究方向：氮化物材料的MOCVD生长研究</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/778.html"><img src="/yanjiusheng/upload/images/2016/11/t_30155247659.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">刘志强</p>半导体照明研发中心研究员，博士生导师<br/><br />招生专业：微电子学与固体电子学<br/><br />研究方向：GaN材料物性分析、高质量外延及结构设计、新型器件研发</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/4991.html"><img src="/yanjiusheng/upload/images/2026/8/s_67d7fcd26c6edbe5.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">武荣庭</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/844.html"><img src="/yanjiusheng/upload/images/2021/7/t_1492734968.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">黄稳柱</p>光电系统实验室副研究员，硕士生导师<br><br />招生专业：光学工程<br><br />研究方向：光纤传感技术</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/831.html"><img src="/yanjiusheng/upload/images/2025/6/a7b08520c17987e8.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">陈 平</p>固态光电信息技术实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学、电子信息<br><br />研究方向：III族氮化物的MOCVD外延生长动力学过程</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/850.html"><img src="/yanjiusheng/upload/images/2021/7/t_1495625249.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">石暖暖</p>光电子材料与器件重点实验室副研究员，硕士生导师<br><br />招生专业：物理电子学<br><br />研究方向：微波光子及集成技术、光学人工智能处理技术</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/1878.html"><img src="/yanjiusheng/upload/images/2023/7/t_8c931c675096eb6c.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">丛慧</p>光电子材料与器件重点实验室研究员，硕士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：硅基IV族短波红外探测器件及焦平面阵列</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/801.html"><img src="/yanjiusheng/upload/images/2016/11/t_28164829381.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">李文昌</p>固态光电信息技术实验室研究员，博士生导师<br/><br />招生专业：微电子学与固体电子学<br/><br />研究方向：高性能模拟芯片（如温度传感器、AD/DA和电源管理等）</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/805.html"><img src="/yanjiusheng/upload/images/2018/5/t_10151120285.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">李明</p>光电子材料与器件重点实验室研究员，博士生导师<br><br />招生专业：物理电子学<br><br />研究方向：超高速全光信号处理技术</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/5020.html"><img src="" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">王明金</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/713.html"><img src="/yanjiusheng/upload/images/2024/4/t_4fae668fcd36af7c.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">薛春来</p>光电子材料与器件重点实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学、材料与化工<br><br />研究方向：硅基Ⅳ族材料的能带调控及发光器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/1877.html"><img src="/yanjiusheng/upload/images/2023/7/t_17741565b54afe56.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">程传同</p>光电子材料与器件重点实验室副研究员，硕士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：针对红外光和X射线的高灵敏传感器件及成像芯片</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/716.html"><img src="/yanjiusheng/upload/images/2016/8/t_2154219955.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">徐应强</p>光电子材料与器件重点实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学、材料与化工<br><br />研究方向：低维半导体材料分子束外延生长；GaSb基半导体器件制造</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/1893.html"><img src="/yanjiusheng/upload/images/2023/7/t_93b014589570af58.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">张志研</p>全固态光源实验室副研究员，硕士生导师<br><br />招生专业：光学工程<br><br />研究方向：大能量高重频纳秒固体激光器及应用技术</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/4324.html"><img src="/yanjiusheng/upload/images/2024/9/7bd91212f1e15e40.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">赵洸铭</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/717.html"><img src="/yanjiusheng/upload/images/2018/8/t_14161015295.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">徐团伟</p>光电系统实验室副研究员，硕士生导师<br><br />招生专业：物理电子学<br><br />研究方向：特种光纤光栅，超窄线宽光纤激光器</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/786.html"><img src="/yanjiusheng/upload/images/2016/11/t_30144832175.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">刘舒曼</p>固态光电信息技术实验室研究员，博士生导师<br><br />招生专业：半导体材料与器件、材料与化工<br><br />研究方向：基于II类超晶格和量子点级联结构的红外探测器</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/4347.html"><img src="/yanjiusheng/upload/images/2024/9/b120475a0593da3c.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">杨华</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/837.html"><img src="/yanjiusheng/upload/images/2016/11/t_1815444902.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">曹晓东</p>高速电路与神经网络实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：高性能数模混合集成电路</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/1883.html"><img src="/yanjiusheng/upload/images/2023/7/t_e1e4de140896a6e1.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">梁锋</p>固态光电信息技术实验室副研究员，硕士生导师<br><br />招生专业：半导体材料与器件<br><br />研究方向：氮化镓基材料与器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/715.html"><img src="/yanjiusheng/upload/images/2019/2/t_28142733124.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">徐云</p>纳米光电子实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：可见光及中红外半导体激光器和半导体光电探测器</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/810.html"><img src="/yanjiusheng/upload/images/2016/8/t_315442618.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">金鹏</p>固态光电信息技术实验室研究员，博士生导师<br><br />招生专业：材料物理与化学、材料与化工<br><br />研究方向：低维结构半导体材料与器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/851.html"><img src="/yanjiusheng/upload/images/2021/7/t_1410336530.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">宋志刚</p>固态光电信息技术重点实验室副研究员，硕士生导师<br><br />招生专业：微电子学与固体电子学、电子信息<br><br />研究方向：半导体光电子材料与器件模拟和自主可控的TCAD软件开发</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/5036.html"><img src="/yanjiusheng/upload/images/2026/9/7160d4178b8e0269.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">刘文浩</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/703.html"><img src="/yanjiusheng/upload/images/2017/8/t_29142848672.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">杨盈莹</p>全固态光源实验室副研究员，硕士生导师<br><br />招生专业：光学工程<br><br />研究方向：激光物理、激光技术与应用、纳米光子学、非线性光学</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/5034.html"><img src="/yanjiusheng/upload/images/2026/9/9856f85108bd8a80.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">周子琦</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/795.html"><img src="/yanjiusheng/upload/images/2019/2/t_28145442843.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">刘安金</p>光电子材料与器件重点实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：微纳面发射激光器，光电子集成</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/782.html"><img src="/yanjiusheng/upload/images/2025/5/5c10bc008fc21d4.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">刘宇</p>光电子材料与器件重点实验室正高级工程师，博士生导师<br><br />招生专业：微电子学与固体电子学、电子信息<br><br />研究方向：高速光电子器件的微波测试、封装设计以及高速光模块的关键技术研究</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/845.html"><img src="/yanjiusheng/upload/images/2024/2/t_b505ea0ff0bd0f0d.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">李钊</p>光电子材料与器件重点实验室副研究员，博士生导师<br><br />招生专业：物理电子学 电子信息<br><br />研究方向：生物电子，微流控芯片，生化传感器</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/836.html"><img src="/yanjiusheng/upload/images/2016/11/t_2816413751.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">曹玉莲</p>纳米光电子实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：新型半导体激光器</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/693.html"><img src="/yanjiusheng/upload/images/2022/7/716836122.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">张锦川</p>固态光电信息技术实验室研究员，博士生导师<br><br />招生专业：材料物理与化学<br><br />研究方向：红外量子级联激光器器件物理及工艺</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/684.html"><img src="/yanjiusheng/upload/images/2016/11/t_3010202972.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">张冶金</p>光电子材料与器件重点实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：光子晶体、微纳结构器件的设计、制备、测试及光互连微纳光子集成</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/869.html"><img src="/yanjiusheng/upload/images/2022/3/t_18174037900.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">郭文涛</p>光电子材料与器件重点实验室副研究员，硕士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：用于光纤传感领域的半导体光电子器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/4410.html"><img src="/yanjiusheng/upload/images/2024/12/1319bdb29880e02e.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">刘雄华</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/751.html"><img src="/yanjiusheng/upload/images/2022/6/20142845176.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">谭平恒</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：凝聚态物理<br><br />研究方向：二维半导体声子物理；半导体器件物理；拉曼光谱学</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/737.html"><img src="/yanjiusheng/upload/images/2023/7/t_3c6a98a375309d37.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">王新伟</p>光电系统实验室研究员，博士生导师<br><br />招生专业：物理电子学<br><br />研究方向：远距离、快速、高分辨率三维成像</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/858.html"><img src="/yanjiusheng/upload/images/2021/7/t_1411913640.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">翟慎强</p>固态光电信息技术实验室研究员，硕士生导师<br><br />招生专业：材料物理与化学<br><br />研究方向：半导体低维材料外延生长、中远红外光电子器件及应用</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/744.html"><img src="/yanjiusheng/upload/images/2020/9/t_101135672.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">王开友</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：凝聚态物理<br><br />研究方向：自旋电子学微纳器件及低维纳米器件的物理特性研究</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/1887.html"><img src="/yanjiusheng/upload/images/2023/7/t_cd7876c882a4412f.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">沈桂英</p>固态光电信息技术实验室副研究员，硕士生导师<br><br />招生专业：材料物理与化学<br><br />研究方向：新型半导体单晶材料的制备</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/721.html"><img src="/yanjiusheng/upload/images/2016/11/t_29155149253.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">肖金龙</p>光电子材料与器件重点实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：微纳谐振腔光电子器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/789.html"><img src="/yanjiusheng/upload/images/2020/7/t_30201917406.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">刘孔</p>固态光电信息技术实验室副研究员，硕士生导师<br><br />招生专业：材料物理与化学<br><br />研究方向：低维半导体材料及光电性能掺杂调控等</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/679.html"><img src="/yanjiusheng/upload/images/2020/7/t_30203725719.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">赵树森</p>全固态光源实验室副研究员，硕士生导师<br><br />招生专业：光学工程<br><br />研究方向：激光制造、激光技术与应用</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/853.html"><img src="/yanjiusheng/upload/images/2025/2/904850f41700486f.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">王丽丽</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学 电子信息<br><br />研究方向：柔性仿生电子器件和集成系统在医疗健康和环境监控领域的应用</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/872.html"><img src="/yanjiusheng/upload/images/2016/9/t_7105243572.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">张杨</p>半导体材料科学重点实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：III-V族、II-VI族半导体材料外延生长技术及器件工艺研究</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/699.html"><img src="/yanjiusheng/upload/images/2016/11/t_2916450581.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">尹志岗</p>半导体物理实验室副研究员，硕士生导师<br><br />招生专业：材料物理与化学、半导体材料与器件<br><br />研究方向：功能氧化物外延生长及光电应用</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/4340.html"><img src="/yanjiusheng/upload/images/2024/9/8cc715b3ad05bf19.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">岳世忠</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/676.html"><img src="" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">郑婉华</p>固态光电信息技术实验室研究员，中科院院士，博士生导师<br><br />招生专业：物理电子学、微电子学与固体电子学<br><br />研究方向：光子晶体光量子调控新现象、新原理</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/779.html"><img src="/yanjiusheng/upload/images/2016/11/t_2817352407.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">刘喆</p>固态光电信息技术实验室研究员，博士生导师<br/><br />招生专业：材料物理与化学、半导体材料与器件<br/><br />研究方向：新型氮化物材料生长和器件研制</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/859.html"><img src="/yanjiusheng/upload/images/2021/7/t_14111358968.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">张菁</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：凝聚态物理<br><br />研究方向：二维半导体材料与新原理器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/777.html"><img src="/yanjiusheng/upload/images/2016/11/t_2915153319.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">娄文凯</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：凝聚态物理<br><br />研究方向：凝聚态理论物理；自旋电子学</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/727.html"><img src="/yanjiusheng/upload/images/2019/12/t_1016157304.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">魏学成</p>半导体照明研发中心副研究员，硕士生导师<br><br />招生专业：材料物理与化学<br><br />研究方向：AlN单晶生长研究</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/765.html"><img src="/yanjiusheng/upload/images/2025/4/4f4bfd9d36e110c0.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">潘东</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：材料物理与化学、材料与化工<br><br />研究方向：半导体低维材料物理、拓扑量子计算</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/729.html"><img src="/yanjiusheng/upload/images/2016/11/t_3015165316.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">魏大海</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：凝聚态物理<br><br />研究方向：纳米磁学和自旋电子学</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/762.html"><img src="/yanjiusheng/upload/images/2018/8/t_14164031248.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">祁楠</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：电路与系统<br><br />研究方向：数模混合集成电路与系统的设计与研究</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/730.html"><img src="/yanjiusheng/upload/images/2016/11/t_29154630144.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">韦欣</p>纳米光电子实验室研究员，博士生导师<br/><br />招生专业：微电子学与固体电子学、材料与化工<br/><br />研究方向：GaAs、InP与GaSb基光电子器件结构的MOCVD生长和器件制备</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/849.html"><img src="/yanjiusheng/upload/images/2024/6/57b0ff0588179e17.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">申超</p>半导体物理实验室副研究员，博士生导师<br><br />招生专业：凝聚态物理、电子信息<br><br />研究方向：低维半导体材料及器件研究</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/856.html"><img src="/yanjiusheng/upload/images/2025/5/863a2fee5415469e.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">徐驰</p>光电子材料与器件重点实验室研究员，博士生导师<br><br />招生专业：半导体材料与器件<br><br />研究方向：锗锡半导体材料在硅片上的外延生长及其机理研究</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/683.html"><img src="" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">张韵</p>固态光电信息技术实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：半导体紫外光源</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/1888.html"><img src="/yanjiusheng/upload/images/2023/7/t_327ff344bd9e60e6.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">吴江滨</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：新型低维材料的光电特性及其调控</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/855.html"><img src="/yanjiusheng/upload/images/2021/7/t_1410501468.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">熊聪</p>光电子工程中心正高级工程师，硕士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：大功率脉冲半导体激光器</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/870.html"><img src="/yanjiusheng/upload/images/2022/3/t_18174259713.jpeg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">史衍猛</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：凝聚态物理<br><br />研究方向：氮化镓基半导体新型发光器件及硅基集成</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/692.html"><img src="/yanjiusheng/upload/images/2025/3/4775c7b8ee5ef056.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">张俊</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：凝聚态物理、电子信息<br><br />研究方向：半导体声子物理和器件，微腔量子光力器件和物理，固态量子光源</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/706.html"><img src="/yanjiusheng/upload/images/2016/11/t_291604097.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">杨身园</p>半导体物理实验室副研究员，硕士生导师<br><br />招生专业：凝聚态物理<br><br />研究方向：利用第一性原理计算研究半导体及纳米结构的原子结构和电子结构特征</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/682.html"><img src="/yanjiusheng/upload/images/2016/8/t_216842283.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">赵德刚</p>固态光电信息技术实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学、材料与化工<br><br />研究方向：GaN基光电子材料生长与器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/1876.html"><img src="/yanjiusheng/upload/images/2023/7/t_302449873ecc9d25.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">陈幼玲</p>光电子材料与器件重点实验室副研究员，硕士生导师<br><br />招生专业：物理电子学<br><br />研究方向：微腔传感、半导体激光器、半导体光电子集成</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/738.html"><img src="/yanjiusheng/upload/images/2016/11/t_29154037159.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">王欣</p>光电子材料与器件重点实验室正高级工程师，硕士生导师<br><br />招生专业：电子与通信工程<br><br />研究方向：微波光电子器件耦合与封装技术</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/1880.html"><img src="/yanjiusheng/upload/images/2023/7/t_7aa93acf9f634f39.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">蒋洞微</p>光电子材料与器件重点实验室副研究员，硕士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：锑化物半导体材料分子束外延生长</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/1890.html"><img src="/yanjiusheng/upload/images/2023/7/t_2b44ec2c51b9818a.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">杨珏晗</p>半导体物理实验室副研究员，硕士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：低维半导体光电材料与器件；氧化物半导体智能传感器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/773.html"><img src="/yanjiusheng/upload/images/2016/11/t_30145957456.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">骆军委</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：凝聚态物理、电子信息<br><br />研究方向：半导体低维量子结构的电子性质和激子物理及量子调控</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/1895.html"><img src="/yanjiusheng/upload/images/2023/7/t_63aa4bc910053673.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">周代兵</p>光电子材料与器件重点实验室副研究员，硕士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：半导体激光器、InP基光子集成芯片、大带宽高功率光发射芯片的研究和应用</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/4293.html"><img src="/yanjiusheng/upload/images/2024/7/1f41b4806f22a9d1.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">于丽娜</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/4539.html"><img src="/yanjiusheng/upload/images/2025/9/e4d71aaa2530c561.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">杨松</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/687.html"><img src="/yanjiusheng/upload/images/2016/11/t_3010152319.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">张兴旺</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：半导体材料与器件、材料与化工<br><br />研究方向：二维原子晶体材料与器件，光伏材料与器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/802.html"><img src="/yanjiusheng/upload/images/2020/11/t_13213830590.JPG" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">李卫军</p>高速电路与神经网络实验室研究员，博士生导师<br/><br />招生专业：电路与系统<br/><br />研究方向：机器视觉、模式识别与智能系统、高维计算、近红外定性分析技术等</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/1879.html"><img src="/yanjiusheng/upload/images/2023/7/t_663bcc3d6a48a2b5.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">黄雨青</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：物理电子学<br><br />研究方向：半导体材料中缺陷自旋放大和动力学过程，发展室温自旋光子界面器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/698.html"><img src="/yanjiusheng/upload/images/2016/8/t_1154957915.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">游经碧</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：半导体材料与器件、材料与化工<br><br />研究方向：新一代高效太阳能电池</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/809.html"><img src="/yanjiusheng/upload/images/2026/1/c2db804f62cd836e.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">阚强</p>光电子材料与器件重点实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学、材料与化工<br><br />研究方向：具有微纳结构的新型光电子有源器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/866.html"><img src="/yanjiusheng/upload/images/2022/3/t_1817323635.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">朱礼军</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：凝聚态物理、材料与化工<br><br />研究方向：自旋轨道矩新材料、自旋流物理、自旋存储器新方案</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/4526.html"><img src="/yanjiusheng/upload/images/2025/7/9aa49c4f2c232cd2.png" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">张丽萍</p></div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/871.html"><img src="/yanjiusheng/upload/images/2022/6/914488326.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">杨静</p>固态光电信息技术实验室副研究员，硕士生导师<br><br />招生专业：微电子学与固体电子学<br><br />研究方向：氮化镓（GaN）基材料MOCVD生长、性能分析及相关物理机理研究</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/728.html"><img src="/yanjiusheng/upload/images/2019/3/t_1116141542.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">魏同波</p>半导体照明研发中心研究员，博士生导师<br/><br />招生专业：材料物理与化学<br/><br />研究方向：非极性氮化物衬底生长、材料外延与结构设计</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/675.html"><img src="/yanjiusheng/upload/images/2019/2/t_28163032296.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">仲莉</p>工程中心研究员，博士生导师<br/><br />招生专业：物理电子学<br/><br />研究方向：大功率半导体激光器（列阵）及其组件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/824.html"><img src="/yanjiusheng/upload/images/2019/12/t_1015272882.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">邓惠雄</p>半导体物理实验室研究员，硕士生导师<br><br />招生专业：凝聚态物理<br><br />研究方向：基于第一性原理方法的半导体新能源材料理论计算、物性探究与设计</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/860.html"><img src="/yanjiusheng/upload/images/2023/6/t_3c683de2719165fa.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">张昕</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：凝聚态物理<br><br />研究方向：低维半导体纳光机电系统（NOEMS）</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/726.html"><img src="/yanjiusheng/upload/images/2016/8/t_110564141.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">魏钟鸣</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：微电子学与固体电子学、材料与化工<br><br />研究方向：低维半导体材料的制备和光电功能器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/842.html"><img src="/yanjiusheng/upload/images/2025/6/8bab24f059a43e18.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">赵超</p>光电子材料与器件全国重点实验室M研究员，博士生导师<br><br />招生专业：半导体材料与器件<br><br />研究方向：III-V族半导体材料和器件</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/736.html"><img src="/yanjiusheng/upload/images/2016/11/t_29154319769.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">王毅军</p>固态光电信息技术实验室研究员，博士生导师<br><br />招生专业：电路与系统<br><br />研究方向：脑－机接口</div></a></li>
+                             
+                <li class="hiSlider-item" style="margin-bottom:0px; text-align:left"><a href="/yanjiusheng/contents/695/861.html"><img src="/yanjiusheng/upload/images/2021/7/t_14134545749.jpg" style="height:200px; width:145px; display:block; float:left"><div class="ry_detail" style="float:right; text-align:left; width:190px; padding-top:20px"><p style="font-size:18px">张永亮</p>半导体物理实验室研究员，博士生导师<br><br />招生专业：凝聚态物理<br><br />研究方向：光与微纳结构的相互作用</div></a></li>
+                             
+                            
+              </ul>
+            </div>
+            <div class="row func-img-list mb0">
+              <a href="#"><img style="width:100%;" src='themes/bfsutheme/img/websitebanner.jpg' /></a>
+            </div>
+          </div>
+                    
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="eight columns pad-hide">
+          <p class="footer-text">© 2024 中科院半导体所 版权所有 <a>京ICP备05085259-3号 京公网安备110402500052</a></p>
+          <p class="footer-text2">地址：北京市海淀区清华东路甲35号&nbsp;&nbsp;&nbsp;&nbsp;邮编：100083</p>
+        </div>
+        <div class="sixteen columns mobile-hide pad-show-b pc-hide">
+          <p class="footer-text">© 2024 中科院半导体所 版权所有</p>
+          <p class="footer-text2">地址：北京市海淀区清华东路甲35号&nbsp;&nbsp;&nbsp;&nbsp;邮编：100083</p>
+        </div>
+        <div class="eight columns mobile-hide pad-hide">
+          <p class="footer-text">
+            <a href="http://www.semi.ac.cn">中科院半导体所</a>&nbsp;|&nbsp;<a href="http://www.gucas.ac.cn/">中国科学院大学</a>&nbsp;|&nbsp;<a href="http://www.cas.cn">中国科学院</a>
+          </p>
+          <p class="footer-text2">E-mail：yjsb@semi.ac.cn&nbsp;&nbsp;&nbsp;&nbsp;电话：010-82304321</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <ul>
+      <li class="cur"><span><a href="#">首页</a></span></li>
+      <li><span><a href="#">学校概况</a></span>
+        <ul class="mobile-sub-menu">
+          <li><a href="#">大学简介</a></li>
+          <li><a href="#">历史沿革</a></li>
+          <li><a href="#">历任领导</a></li>
+          <li><a href="#">现任领导</a></li>
+        </ul>
+      </li>
+      <li><span>机构设置</span>
+        <ul class="mobile-sub-menu">
+          <li><a href="#">机构总览</a></li>
+          <li><a href="#">教学单位</a></li>
+          <li><a href="#">科研机构</a></li>
+          <li><a href="#">管理机构</a></li>
+          <li><a href="#">教辅单位</a></li>
+          <li><a href="#">后勤</a></li>
+          <li><a href="#">校产</a></li>
+          <li><a href="#">其他</a></li>
+        </ul>
+      </li>
+      <li><span>人才培养</span>
+        <ul class="mobile-sub-menu">
+          <li><a href="#">师资队伍</a></li>
+          <li><a href="#">本科生教育</a></li>
+          <li><a href="#">研究生教育</a></li>
+          <li><a target="_blank" href="#">留学生教育</a></li>
+          <li><a href="#" target="_blank">网络与继续教育</a></li>
+          <li><a href="#">学科建设</a></li>
+        </ul>
+      </li>
+      <li><span><a href="#">科研学术</a></span>
+        <ul class="mobile-sub-menu">
+          <li><a target="_blank" href="#">科研概述</a></li>
+          <li><a target="_blank" href="#">信息资源</a></li>
+          <li><a target="_blank" href="#">科研项目</a></li>
+          <li><a target="_blank" href="#">成果介绍</a></li>
+        </ul>          
+      </li>
+      <li><span>招生就业</span>
+        <ul class="mobile-sub-menu">
+          <li><a href="#">本科生招生</a></li>
+          <li><a href="#" target="_blank">研究生招生</a></li>
+          <li><a href="#" target="_blank">留学生招生</a></li>
+          <li><a href="#" target="_blank">网络与继续教育</a></li>
+          <li><a href="#" target="_blank">出国留学</a></li>
+          <li><a href="#" target="_blank">就业指导</a></li>
+        </ul>
+      </li>
+      <li><span>信息公开</span>
+        <ul class="mobile-sub-menu">
+          <li><a target="_blank" href="#">信息公开网</a></li>
+          <li><a href="#">校长信箱</a></li>
+          <li><a href="#">黄页</a></li>
+          <li><a href="#" target="_blank">虚拟校园</a></li>
+          <li><a href="#">网站地图</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="menu-icon mobile-show-b"></div>
+<script type="text/javascript">
+  $(document).ready(function() {
+    //header特效
+    (function() {
+      var headerMenu = $(".header-menu"),
+        mobileMenu = $(".mobile-menu").children("ul"),
+        width = $(window).width();
+      if (width > 768) {
+        headerMenu.children("li").hover(function(e) {
+          headerMenu.children("li.cur").removeClass("cur");
+          $(this).addClass("cur");
+        });
+      } else {
+        mobileMenu.children("li").hover(function(e) {
+          mobileMenu.children("li.cur").removeClass("cur");
+          $(this).addClass("cur");
+        });
+      }
+    }());
+    $(".menu-icon").click(function() {
+      var mobileMenu = $(".mobile-menu");
+      if (mobileMenu.is(":hidden"))
+        mobileMenu.css({
+          width: 0
+        }).show().animate({
+          width: 150
+        }, 200);
+      else 
+        mobileMenu.hide();
+    });
+  });
+</script>
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+
+      $('.removexl').next().hide();
+
+    //大图轮转
+
+      $('.bg').bgStretcher({
+          images: ['uploads/2015/11/1.jpg',      'uploads/2015/11/3.jpg',      'uploads/2015/11/4.jpg',      'uploads/2015/11/balabatuo.jpg',          ],
+          imageWidth: 1400,
+          imageHeight: 1050,
+          transitionEffect: 'fade',
+          sequenceMode: 'normal',
+          nextSlideDelay: '8000',
+          preloadImg: true
+    });
+
+    $(window).resize(function(){
+      checkWindowSize();
+    });
+
+    function checkWindowSize(){
+      var width = $(window).width();
+      if (width < 768){
+        $('.mask-box').hide();
+        $('.mask-box-hr').hide();
+      }else{
+        $('.mask-box').show();
+        $('.mask-box-hr').show();
+      }
+    }
+
+    function maskInit(){
+      var width = $(window).width();
+      if (width > 768){
+        var animateDuration = 1000;
+          $('.mask-header').hide();
+          $('.mask-bottom').hide();
+
+        $('.mask-box').css({
+          'height': 0,
+          'bottom': 128,
+        }).animate({
+          'height': 136,
+          'bottom': 30,
+        }, animateDuration);
+
+        $('.mask-box-hr').css({
+          'right': 250,
+          'width': 0
+        }).animate({
+          'right': 35,
+          'width': 430,
+        }, animateDuration, function(){
+          $('.mask-header').css({
+            'height': 0,
+            'top': 70
+          }).show().animate({
+            'height': 45,
+            'top': 20
+          }, 500);
+
+          $('.mask-bottom').css({
+            'height': 0,
+            'bottom': 60
+          }).show().animate({
+            'height': 45,
+            'bottom': 0
+          }, 500);
+        });
+      }
+    }
+       maskInit();
+
+       $('.boxhelper li').hover(function(){
+         $('.boxhelper li').removeClass('cur');
+         $(this).addClass('cur');
+       });
+
+       $('.xwc').hover(function(){
+         $('.sbox').hide();
+         $('.xw').show();
+       });
+
+       $('.ggc').hover(function(){
+         $('.sbox').hide();
+         $('.gg').show();
+       });
+
+       $('.whc').hover(function(){
+         $('.sbox').hide();
+         $('.wh').show();
+       });
+
+       $('.jlc').hover(function(){
+         $('.sbox').hide();
+         $('.jl').show();
+       });
+
+  });
+</script>
+
+<script>
+  $('.hiSlider').hiSlider();
+</script>
+
+<div class="removexl"></div>
+</body>
+</html>

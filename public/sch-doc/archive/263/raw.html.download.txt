@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html  class="webplus-list"  >
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+<title>通知公告</title>
+
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/datepicker/css/datepicker.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/jquery.min.js" sudy-wp-context="" sudy-wp-siteId="819"></script>
+<script language="javascript" src="/_js2/loadStyle.js" sys-path="/_upload/site/1/style/87/87.css"  site-path="/_upload/site/03/33/819/style/1618/1618.css" ></script>
+<script language="javascript" src="/_js2/grayscale.js"   ></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/jquery.datepicker.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/datepicker_lang_HK.js"></script>
+<script type="text/javascript" src="/_upload/tpl/15/7a/5498/template5498/extends/extends.js"></script>
+<link rel="stylesheet" href="/_upload/tpl/15/7a/5498/template5498/style.css" type="text/css" />
+<link rel="stylesheet" href="/_upload/tpl/15/7a/5498/template5498/mobile.css" type="text/css"/>
+<link rel="stylesheet" href="/_upload/tpl/15/7a/5498/template5498/media.css" type="text/css"/>
+<link rel="shorcut icon" href="/_upload/tpl/15/7a/5498/template5498/favicon.ico">
+<script type="text/javascript">
+    /*取设备宽度*/
+    function rem() {
+      var iWidth = document.documentElement.getBoundingClientRect().width;
+	  iWidth = iWidth > 1000 ? 1000 : iWidth;
+      document.getElementsByTagName("html")[0].style.fontSize = iWidth / 10 + "px";
+    };
+    rem();
+    window.onorientationchange = window.onresize = rem      
+</script>
+<!--[if lt IE 9]>
+	<script src="/_upload/tpl/15/7a/5498/template5498/extends/libs/html5.js"></script>
+<![endif]-->
+</head>
+<body class="list">
+ <!--全屏遮罩层-->
+ <div class="maskBox">
+    <div class="mask">
+        <div class="maskInner">
+          <div class="innerTop">！</div>
+          <div class="innerBottom">请输入关键词...</div>
+        </div>
+      </div>
+  </div>
+<!--Start||head-->
+<div class="wrapper header redBg" id="header">
+	<div class="inner">
+		<div class="mod clearfix">
+			<a class="navi-aside-toggle"></a>
+			<div class="head-left" frag="面板01">
+				<!--logo开始-->
+				<div class="sitelogo" frag="窗口01" portletmode="simpleSiteAttri">
+					<a href="/main.htm" title="返回研究生招生信息网首页"><img src="/_upload/tpl/15/7a/5498/template5498/images/logo.png" alt=""></a> 
+				</div>
+				<!--//logo结束-->
+			</div>
+			<div class="head-right">
+				
+				<!--Start||nav-->
+				<div class="wrapper nav wp-navi" id="nav">
+					<div class="in clearfix">
+						<div class="wp-panel nav">
+							<div class="wp-window" frag="窗口1">
+								
+									<div class="navi-slide-head clearfix">
+										<h3 class="navi-slide-title">导航</h3>
+										<a class="navi-slide-arrow"></a>
+									</div>
+									
+									<ul class="wp-menu clearfix" data-nav-aside='{"title":"导航","index":0}'>
+										
+										<li class="menu-item i1"><a class="menu-link" href="http://yjszs.ecnu.edu.cn/main.htm" target="_self">首页</a>
+											
+										</li>
+										
+										<li class="menu-item i2"><a class="menu-link" href="/43258/list.htm" target="_self">招生信息</a>
+											
+											<em class="menu-switch-arrow"></em>
+											<ul class="sub-menu ">
+												
+												<li class="sub-item i2-1"><a class="sub-link" href="/sszs/list.htm"
+														target="_self">硕士招生</a>
+													
+												</li>
+												
+												<li class="sub-item i2-2"><a class="sub-link" href="/bszs/list.htm"
+														target="_self">博士招生</a>
+													
+												</li>
+												
+												<li class="sub-item i2-3"><a class="sub-link" href="/gatzs/list.htm"
+														target="_self">港澳台招生</a>
+													
+												</li>
+												
+												<li class="sub-item i2-4"><a class="sub-link" href="/zsxc/list.htm"
+														target="_self">招生宣传</a>
+													
+												</li>
+												
+											</ul>
+											
+										</li>
+										
+										<li class="menu-item i3"><a class="menu-link" href="/43259/list.htm" target="_self">报名</a>
+											
+											<em class="menu-switch-arrow"></em>
+											<ul class="sub-menu ">
+												
+												<li class="sub-item i3-1"><a class="sub-link" href="/43268/list.htm"
+														target="_self">硕士报名</a>
+													
+												</li>
+												
+												<li class="sub-item i3-2"><a class="sub-link" href="https://yjszs-ks.ecnu.edu.cn/logon?zsxm=3"
+														target="_self">博士报名</a>
+													
+												</li>
+												
+												<li class="sub-item i3-3"><a class="sub-link" href="https://yjszs-ks.ecnu.edu.cn/logon?zsxm=9"
+														target="_self">港澳台报名</a>
+													
+												</li>
+												
+												<li class="sub-item i3-4"><a class="sub-link" href="/43272/list.htm"
+														target="_self">夏令营报名</a>
+													
+												</li>
+												
+											</ul>
+											
+										</li>
+										
+										<li class="menu-item i4"><a class="menu-link" href="/43260/list.htm" target="_self">常用信息</a>
+											
+											<em class="menu-switch-arrow"></em>
+											<ul class="sub-menu ">
+												
+												<li class="sub-item i4-1"><a class="sub-link" href="/lnssblsj/list.htm"
+														target="_self">历年硕士报录数据</a>
+													
+												</li>
+												
+												<li class="sub-item i4-2"><a class="sub-link" href="/cjwt/list.htm"
+														target="_self">常见问题</a>
+													
+												</li>
+												
+												<li class="sub-item i4-3"><a class="sub-link" href="/bkzn/list.htm"
+														target="_self">宣传手册</a>
+													
+												</li>
+												
+												<li class="sub-item i4-4"><a class="sub-link" href="/zztx/list.htm"
+														target="_self">资助体系</a>
+													
+												</li>
+												
+											</ul>
+											
+										</li>
+										
+										<li class="menu-item i5"><a class="menu-link" href="/43261/list.htm" target="_self">其他信息</a>
+											
+											<em class="menu-switch-arrow"></em>
+											<ul class="sub-menu ">
+												
+												<li class="sub-item i5-1"><a class="sub-link" href="/gjjykswgclwt/list.htm"
+														target="_self">国家教育考试违规处理问题</a>
+													
+												</li>
+												
+												<li class="sub-item i5-2"><a class="sub-link" href="/wxbjbrhkyfdjgdgg/list.htm"
+														target="_self">我校不举办任何考研辅导机构的公告</a>
+													
+												</li>
+												
+												<li class="sub-item i5-3"><a class="sub-link" href="/hdsdyjszkwgxwjbfs/list.htm"
+														target="_self">华东师大研究生招考违规行为举报方式</a>
+													
+												</li>
+												
+											</ul>
+											
+										</li>
+										
+										<li class="menu-item i6"><a class="menu-link" href="/lxwm/list.htm" target="_self">联系我们</a>
+											
+											<em class="menu-switch-arrow"></em>
+											<ul class="sub-menu ">
+												
+												<li class="sub-item i6-1"><a class="sub-link" href="/50242/list.htm"
+														target="_self">研究生招生办公室</a>
+													
+												</li>
+												
+												<li class="sub-item i6-2"><a class="sub-link" href="https://yjszs-ks.ecnu.edu.cn/comm/yxlxfsnew"
+														target="_blank">招生院系</a>
+													
+												</li>
+												
+											</ul>
+											
+										</li>
+										
+									</ul>
+									
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--aside导航-->
+				<div class="wp-navi-aside" id="wp-navi-aside">
+					<div class="aside-inner">
+						<div class="navi-aside-wrap"></div>
+					</div>
+					<div class="navi-aside-mask"></div>
+				</div>
+				<!--End||nav-->
+				<!--search begin-->
+				<div class="wp-panel search-panel panel-3" frag="面板3">
+					<div id="aaa" class="searchbtn"></div>
+				</div>
+				<!--//search end-->
+			</div>
+			
+		</div>
+	</div>
+</div>
+<!--End||head-->
+<!--Start||focus-->
+<div class="wp-wrapper" id="container-1">
+	<div class="wp-inner" frag="面板84">
+		<div class="l-banner" frag="窗口84" portletmode="simpleColumnAttri">
+			
+				<img border="0" style="margin:0 auto;" src="/_upload/column/a8/fa/43258/picture.jpg" data-imgsrc="/_upload/tpl/15/7a/5498/template5498/images/list_banner.jpg">
+			
+		</div>
+	</div>
+</div>
+<!--End||focus-->
+<!--Start||content-->
+<div class="wrapper" id="l-container">
+	<div class="inner">
+		<div class="mod clearfix">
+			<div class="col_menu">
+				<div class="col_menu_head">
+					<h3 class="col_name" frag="窗口3" portletmode="simpleColumnAnchor">
+						<span class="col_name_text">
+						<span class='Column_Anchor'>招生信息</span>
+						</span>
+					</h3>
+					<a class="column-switch"></a>
+				</div>
+				<div class="col_menu_con" frag="面板4">
+					<div class="col_list" frag="窗口4" portletmode="simpleColumnList">
+						
+							
+							<ul class="wp_listcolumn list-paddingleft-2">
+								
+								<li class="wp_column column-1 selected">     
+										<a title="硕士招生" class="col_item_link selected" href="/sszs/list.htm"><span class="column-name">硕士招生</span></a>      
+									<ul class="sub_list list-paddingleft-2">
+										
+										<li class="sub-item column-1-1 ">             
+												<a title="通知公告" class="sub-item-link " href="/tzgg_43463/list.htm" target="_self"><span class="column-name">通知公告</span></a>               
+										</li>
+										<li class="sub-item column-1-2 ">             
+												<a title="招生简章" class="sub-item-link " href="/zsjz_43464/list.htm" target="_self"><span class="column-name">招生简章</span></a>               
+										</li>
+										<li class="sub-item column-1-3 ">             
+												<a title="招生目录" class="sub-item-link " href="/zsml_43465/list.htm" target="_self"><span class="column-name">招生目录</span></a>               
+										</li>
+										<li class="sub-item column-1-4 ">             
+												<a title="常用下载" class="sub-item-link " href="/cyxz_43466/list.htm" target="_self"><span class="column-name">常用下载</span></a>               
+										</li>
+									</ul>
+								</li>
+								<li class="wp_column column-2 ">     
+										<a title="博士招生" class="col_item_link " href="/bszs/list.htm"><span class="column-name">博士招生</span></a>
+								</li>
+								<li class="wp_column column-3 ">     
+										<a title="港澳台招生" class="col_item_link " href="/gatzs/list.htm"><span class="column-name">港澳台招生</span></a>
+								</li>
+								<li class="wp_column column-4 ">     
+										<a title="招生宣传" class="col_item_link " href="/zsxc/list.htm"><span class="column-name">招生宣传</span></a>
+								</li>
+							</ul>
+										
+						
+					</div>
+				</div>
+			</div>
+			<div class="col_news">
+				<div class="col_news_box">
+					<div class="col_news_head">
+						<ul class="col_metas clearfix" frag="窗口5" portletmode="simpleColumnAttri">
+						   
+							<li class="col_path"><span class="path_name">当前位置：</span><a href="/main.htm" target="_self">首页</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/43258/list.htm" target="_self">招生信息</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/sszs/list.htm" target="_self">硕士招生</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/tzgg_43463/list.htm" target="_self">通知公告</a></li>
+							<li class="col_title"><h2>通知公告</h2></li>
+						   
+						</ul>
+					</div>
+					<div class="col_news_con" >
+						<div class="col_news_list listcon">
+							<div frag="窗口6" portletmode="simpleList">
+							  					
+									<ul class="news_list list2">
+										
+										<li class="news n1 clearfix">
+											<span class="news_title"><a href='/db/75/c43463a777077/page.htm' target='_blank' title='华东师范大学2027年各院系接收优秀应届本科毕业生免试攻读研究生综合考核实施细则汇总（持续更新）'>华东师范大学2027年各院系接收优秀应届本科毕业生免试攻读研究生综合考核实施细则汇总（持续更新）</a></span>
+											<span class="news_meta">2026-09-15</span>
+										</li>
+										
+										<li class="news n2 clearfix">
+											<span class="news_title"><a href='/d3/d1/c43463a775121/page.htm' target='_blank' title='华东师范大学2027年接收优秀应届本科毕业生免试攻读研究生（含本科直博）工作办法'>华东师范大学2027年接收优秀应届本科毕业生免试攻读研究生（含本科直博）工作办法</a></span>
+											<span class="news_meta">2026-09-04</span>
+										</li>
+										
+										<li class="news n3 clearfix">
+											<span class="news_title"><a href='/c3/cb/c43463a771019/page.htm' target='_blank' title='华东师范大学2027年各院系接收优秀应届本科毕业生免试攻读研究生（含本科直博）预报名通知（陆续更新）'>华东师范大学2027年各院系接收优秀应届本科毕业生免试攻读研究生（含本科直博）预报名通知（陆续更新）</a></span>
+											<span class="news_meta">2026-07-24</span>
+										</li>
+										
+										<li class="news n4 clearfix">
+											<span class="news_title"><a href='/c2/c6/c43463a770758/page.htm' target='_blank' title='关于华东师范大学2027年接收优秀应届本科毕业生免试攻读研究生（含本科直博） 预报名的通知（增加中法联培项目）'>关于华东师范大学2027年接收优秀应届本科毕业生免试攻读研究生（含本科直博） 预报名的通知（增加中法联培项目）</a></span>
+											<span class="news_meta">2026-07-24</span>
+										</li>
+										
+										<li class="news n5 clearfix">
+											<span class="news_title"><a href='/b7/61/c43463a767841/page.htm' target='_blank' title='关于寄发2026级博士、硕士研究生录取通知书及查阅新生报到须知的通知'>关于寄发2026级博士、硕士研究生录取通知书及查阅新生报到须知的通知</a></span>
+											<span class="news_meta">2026-06-29</span>
+										</li>
+										
+										<li class="news n6 clearfix">
+											<span class="news_title"><a href='/a1/fb/c43463a762363/page.htm' target='_blank' title='华东师范大学2027年研究生招生考试相关变化预公告（持续更新）'>华东师范大学2027年研究生招生考试相关变化预公告（持续更新）</a></span>
+											<span class="news_meta">2026-05-26</span>
+										</li>
+										
+										<li class="news n7 clearfix">
+											<span class="news_title"><a href='/98/bf/c43463a759999/page.htm' target='_blank' title='关于2026级研究生新生党团组织转移及户口迁移的相关说明'>关于2026级研究生新生党团组织转移及户口迁移的相关说明</a></span>
+											<span class="news_meta">2026-05-11</span>
+										</li>
+										
+										<li class="news n8 clearfix">
+											<span class="news_title"><a href='/97/7d/c43463a759677/page.htm' target='_blank' title='华东师范大学2026年硕士研究生拟录取后续相关事项通知'>华东师范大学2026年硕士研究生拟录取后续相关事项通知</a></span>
+											<span class="news_meta">2026-05-07</span>
+										</li>
+										
+										<li class="news n9 clearfix">
+											<span class="news_title"><a href='/95/93/c43463a759187/page.htm' target='_blank' title='华东师范大学2026年硕士研究生拟录取名单公示（公示已结束）'>华东师范大学2026年硕士研究生拟录取名单公示（公示已结束）</a></span>
+											<span class="news_meta">2026-04-30</span>
+										</li>
+										
+										<li class="news n10 clearfix">
+											<span class="news_title"><a href='/7c/7a/c43463a752762/page.htm' target='_blank' title='华东师范大学2026年少数民族高层次骨干人才计划（南疆高校教师专项、克拉玛依专项）硕士研究生招生调剂通知'>华东师范大学2026年少数民族高层次骨干人才计划（南疆高校教师专项、克拉玛依专项）硕士研究生招生调剂通知</a></span>
+											<span class="news_meta">2026-04-07</span>
+										</li>
+										
+										<li class="news n11 clearfix">
+											<span class="news_title"><a href='/75/6e/c43463a750958/page.htm' target='_blank' title='华东师范大学2026年各院系硕士研究生招生考试调剂实施细则'>华东师范大学2026年各院系硕士研究生招生考试调剂实施细则</a></span>
+											<span class="news_meta">2026-03-30</span>
+										</li>
+										
+										<li class="news n12 clearfix">
+											<span class="news_title"><a href='/75/4d/c43463a750925/page.htm' target='_blank' title='华东师范大学2026年硕士研究生招生调剂工作办法'>华东师范大学2026年硕士研究生招生调剂工作办法</a></span>
+											<span class="news_meta">2026-03-30</span>
+										</li>
+										
+										<li class="news n13 clearfix">
+											<span class="news_title"><a href='/6c/08/c43463a748552/page.htm' target='_blank' title='华东师范大学2026年各院系硕士研究生招生考试复试录取实施细则'>华东师范大学2026年各院系硕士研究生招生考试复试录取实施细则</a></span>
+											<span class="news_meta">2026-03-19</span>
+										</li>
+										
+										<li class="news n14 clearfix">
+											<span class="news_title"><a href='/6b/96/c43463a748438/page.htm' target='_blank' title='华东师范大学2026年硕士研究生招生考试复试录取工作办法'>华东师范大学2026年硕士研究生招生考试复试录取工作办法</a></span>
+											<span class="news_meta">2026-03-18</span>
+										</li>
+										
+									</ul>
+							  
+ <div id="wp_paging_w6"> 
+<ul class="wp_paging clearfix"> 
+     <li class="pages_count"> 
+         <span class="per_page">每页&nbsp;<em class="per_count">14</em>&nbsp;记录&nbsp;</span> 
+         <span class="all_count">总共&nbsp;<em class="all_count">35</em>&nbsp;记录&nbsp;</span> 
+     </li> 
+     <li class="page_nav"> 
+         <a class="first" href="javascript:void(0);" target="_self"><span>第一页</span></a> 
+         <a class="prev" href="javascript:void(0);" target="_self"><span>&lt;&lt;上一页</span></a> 
+         <a class="next" href="/sszs/list2.htm" target="_self"><span>下一页&gt;&gt;</span></a> 
+         <a class="last" href="/sszs/list3.htm" target="_self"><span>尾页</span></a> 
+     </li> 
+     <li class="page_jump"> 
+         <span class="pages">页码&nbsp;<em class="curr_page">1</em>/<em class="all_pages">3</em></span> 
+         <span><input class="pageNum" type="text" /><input type="hidden" class="currPageURL" value=""></span></span> 
+         <span><a class="pagingJump" href="javascript:void(0);" target="_self">跳转到&nbsp;</a></span> 
+     </li> 
+</ul> 
+</div> 
+<script type="text/javascript"> 
+     $().ready(function() { 
+         $("#wp_paging_w6 .pagingJump").click(function() { 
+             var pageNum = $("#wp_paging_w6 .pageNum").val(); 
+             if (pageNum === "") { alert('请输入页码！'); return; } 
+             if (isNaN(pageNum) || pageNum <= 0 || pageNum > 3) { alert('请输入正确页码！'); return; } 
+             var reg = new RegExp("/list", "g"); 
+             var url = "/sszs/list.htm"; 
+             window.location.href = url.replace(reg, "/list" + pageNum); 
+         }); 
+     }); 
+</script> 
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+<!--End||content-->
+<!--Start||footer-->
+<div class="wrapper footer" id="footer">
+	<div class="inner">
+		<div class="mod clearfix">
+			<div class="foot-tt">
+				<div class="foot-left footEle" frag="窗口90" portletmode="simpleSiteAttri">
+					<a href="/main.htm" title="返回研究生招生信息网首页"><img src="/_upload/tpl/15/7a/5498/template5498/images/logo_foot.png" alt=""></a> 
+				</div>
+			</div>
+			<div class="foot-top">
+				<div class="foot-c1 footEle" frag="窗口91">
+					<div class="title">常用链接</div>
+					<div class="con">
+						
+						  <ul class="news_list clearfix">
+							
+							<li class="news n1">
+								  <div class="news_title"><a href='http://www.dag.ecnu.edu.cn/ptsyzn/list.htm' target='_blank' title='档案馆（往届生开具录取证明）'>档案馆（往届生开具录取证明）</a></div>
+							</li>
+							
+							<li class="news n2">
+								  <div class="news_title"><a href='http://www.moe.gov.cn/' target='_blank' title='教育部'>教育部</a></div>
+							</li>
+							
+							<li class="news n3">
+								  <div class="news_title"><a href='https://yz.chsi.com.cn' target='_blank' title='中国研究生招生信息网'>中国研究生招生信息网</a></div>
+							</li>
+							
+							<li class="news n4">
+								  <div class="news_title"><a href='https://www.chsi.com.cn' target='_blank' title='中国高等教育学生信息网'>中国高等教育学生信息网</a></div>
+							</li>
+							
+							<li class="news n5">
+								  <div class="news_title"><a href='https://www.shmeea.edu.cn/' target='_blank' title='上海市教育考试院'>上海市教育考试院</a></div>
+							</li>
+							
+							<li class="news n6">
+								  <div class="news_title"><a href='http://www.ecnu.edu.cn' target='_blank' title='华东师范大学'>华东师范大学</a></div>
+							</li>
+							
+							<li class="news n7">
+								  <div class="news_title"><a href='https://yjsy.ecnu.edu.cn/' target='_blank' title='华东师范大学研究生院'>华东师范大学研究生院</a></div>
+							</li>
+							
+						  </ul>
+						
+					</div>
+				</div>
+				<div class="foot-c2 footEle" frag="窗口92" portletmode="simpleSiteAttri">
+					<div class="title"><a href="http://yjszs.ecnu.edu.cn/cf/b4/c43946a577460/page.htm">联系我们</a></div>
+					<div class="con">
+						<ul class="news_list clearfix">
+							<li class="news">
+								<div class="news_title">微信公众号：华东师大研招（ECNUyjs）</div>
+						  	</li>
+							  <li class="news">
+								<div class="news_title">电子邮箱：yjszs@admin.ecnu.edu.cn</div>
+						  	</li>
+<li class="news">
+								<div class="news_title">联系电话：021-54344721</div>
+						  	</li>
+						</ul>
+					</div>
+				</div>
+				<div class="foot-right footEle" frag="窗口93">
+					<div class="con">
+						
+						  <ul class="news_list clearfix">
+							
+							<li class="news n1">
+								<div class="news_imgs"><img src="/_upload/article/images/3b/64/751af309421eae4f6c0c9db0d0a2/111cffab-dfe7-4a22-ab43-0972b0e8e0df.jpg" alt=""></div>
+								<div class="news_con">
+									<div class="news_title">官微二维码</div>
+									<div class="news_intro">已报考或准备报考我校研究生者请务必订阅微信，以便及时把相关信息通知到您</div>
+								</div>
+							</li>
+							
+						  </ul>
+						
+					</div>
+				</div>
+			</div>
+			<div class="foot-bottom" frag="窗口94" portletmode="simpleSiteAttri">
+				<p class="copyright"><span>版权所有 © 2023 华东师范大学研究生招生信息网    沪ICP备05003394号-26华东师范大学   沪公网安备31009102000042号</span></p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--End||footer-->
+<div class="search-con layer" id="search-con">
+	<div class="layer-inner">
+		<div class="layer-mod">
+	  		<div class="shutdown"><span class="close"><img src="/_upload/tpl/15/7a/5498/template5498/images/close.png"></span></div>
+			  <h3>搜索<br>您想要找的</h3> 
+			<div class="searchbox" frag="窗口03" portletmode="search">
+									<!--搜索组件-->
+					<div class="wp-search clearfix">
+						<form action="/_web/_search/restful/api/direct.rst?locale=zh_CN&request_locale=zh_CN&context=&_p=YXM9ODE5JnQ9NTQ5OCZkPTE4ODI0JnA9MiZmPTQwNDkwJm09U04mfGJubkNvbHVtblZpcnR1YWxOYW1lPTQwNDkwJg__" method="post" target="_blank">
+							<div class="search-input">
+								<input name="keyword" class="search-title" type="text" autocomplete="off" placeholder="请输入关键词"/>
+							</div>
+							<div class="search-btn">
+								<input name="submit" class="mask search-submit" type="submit" value=""/>
+							</div>
+						</form>
+					</div>
+					<!--//复制以上代码到自定义搜索-->
+				
+			</div>	
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="/_upload/tpl/15/7a/5498/template5498/js/comcus.js"></script>
+<script type="text/javascript" src="/_upload/tpl/15/7a/5498/template5498/js/list.js"></script>
+<script type="text/javascript" src="/_upload/tpl/15/7a/5498/template5498/js/app.js"></script>
+<script type="text/javascript">
+$(function(){
+	// 初始化SDAPP
+	new SDAPP({
+		"menu":{
+			type:"aside"
+		}
+	});
+});
+</script>
+</html>
+
+ <img src="/_visitcount?siteId=819&type=2&columnId=43456" style="display:none" width="0" height="0"/>

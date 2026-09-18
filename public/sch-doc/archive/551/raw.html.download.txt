@@ -1,0 +1,3811 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+     
+ 
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+               <!--
+                                                               (0 0)
+                                           +=============oOO====(_)================+
+                                           |   Powered By wanhu - www.wanhu.com.cn |
+                                           |   Tel:400-888-0035  020-85575672      |
+                                           |   Creation:2026.09.17                 |
+                                           |   ezEip v5.3.0(0649)                  |
+                                           +==========================oOO==========+
+                                                              |__|__|
+                                                               || ||
+                                                              ooO Ooo
+                                        -->                                        
+<meta name="Author" content="万户网络设计制作" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="/editor/editor.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript" src="/cn/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/cn/js/a.whir.search.js"></script>
+<script type="text/javascript" src="/cn/js/a.whir.menu.js"></script>
+<link rel="stylesheet" type="text/css" href="/cn/css/responsive.css" />
+<link rel="stylesheet" type="text/css" href="/cn/css/style.css" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/cn/js/html5shiv.v3.72.min.js"></script>
+<![endif]-->
+
+
+
+    <script>
+    if("True"=="False"){
+        location.href='/index.aspx';
+    }
+    </script>
+</head>
+<body>
+
+<!--打印内容开始-->
+<div id="information1">
+
+
+
+
+<!--top start-->
+ 
+ 
+<!--Top002633 star-->
+<div class="Top002633">
+  <div class="auto auto_1200 box1">
+    <div class="top_menu">
+      <dl>
+        <dd class="reg"><a><i><div id="dateTime"></div></i></a></dd>
+        
+        <dd class="member"><a href='http://www.sinano.cas.cn/' target="_blank"><i>所网站</i></a></dd>
+          
+        <dd class="btn_search"><a href="javascript:void(0);"></a></dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+    <div class="search">
+      <input type="text" class="text" id="TopKey" value="" >
+      <a id="TopBtn" class="btn" href="javascript:void(0);"><span class="glyphicon glyphicon-search"></span></a> 
+    </div>
+  </div>
+
+  <div class="header-top auto auto_1200">
+    <div class="logo"><a href='/index.aspx'>
+    
+    <img src="/uploadfiles/2023/10/th_20231017165256886.png?56CU56m25omALeaVmeiCsuWkhOeFp+eJhy5wbmc="><img src="/uploadfiles/image/Top002633_logo2.png?VG9wMDAyNjMzX2xvZ28yLnBuZw==">
+      
+    </a></div>
+    <dl class="header-right">
+      <dd id="open_menu"><i></i></dd>
+    </dl>
+  </div>
+  
+  <div class="header-bottom">
+    <header class="header auto auto_1200">
+      <nav class="header-menu sub-vertical clearfix sub-slideDown" >
+        <ul class="ul clearfix">
+          <li id="m1"><em><a href='/index.aspx'>首 页</a></em></li>
+          <li id="m2"><em><a href='/AboutTheCollege/index.aspx'>部门概况</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/AboutTheCollege/index.aspx\">学院简介</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/AboutTheCollege/index.aspx?parent'>学院简介</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/CollegeLeaders/index.aspx\">学院领导</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/CollegeLeaders/index.aspx?parent'>学院领导</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/JobFunctions/list.aspx\">岗位职能</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/JobFunctions/list.aspx?parent'>岗位职能</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/ContactUs/index.aspx\">联系我们</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/ContactUs/index.aspx?parent'>联系我们</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m10"><em><a href='/DisciplineSettings/index.aspx'>招生</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DisciplineSettings/index.aspx\">学科设置</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DisciplineSettings/index.aspx?parent'>学科设置</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/AdmissionsOverview/index.aspx\">招生概况</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/AdmissionsOverview/index.aspx?parent'>招生概况</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Master/list.aspx\">硕士招生</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Master/list.aspx?parent'>硕士招生</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/sions/list.aspx\">博士招生</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/sions/list.aspx?parent'>博士招生</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Students/list.aspx\">留学生</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Students/list.aspx?parent'>留学生</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m17"><em><a href='/TrainingPrograms/list.aspx'>培养</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/TrainingPrograms/list.aspx\">培养方案</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/TrainingPrograms/list.aspx?parent'>培养方案</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/AwardWinners/index.aspx\">奖学金</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/AwardWinners/index.aspx?parent'>奖学金</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/StudentStatusManagement/list.aspx\">学籍管理</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/StudentStatusManagement/list.aspx?parent'>学籍管理</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m21"><em><a href='/DegreeSub-Committee/index.aspx'>学位</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DegreeSub-Committee/index.aspx\">学位分委员会</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DegreeSub-Committee/index.aspx?parent'>学位分委员会</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DegreeApplicationProcess/index.aspx\">学位申请流程</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DegreeApplicationProcess/index.aspx?parent'>学位申请流程</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DegreeGrant/list.aspx\">学位授予</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DegreeGrant/list.aspx?parent'>学位授予</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/ThesisDefense/list.aspx\">日程安排</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/ThesisDefense/list.aspx?parent'>日程安排</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m27"><em><a href='/Employ/list.aspx'>毕业与就业</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Employ/list.aspx\">就业资讯</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Employ/list.aspx?parent'>就业资讯</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Job-huntingPlatform/list.aspx\">求职平台</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Job-huntingPlatform/list.aspx?parent'>求职平台</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/EmploymentPolicy/list.aspx\">就业政策</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/EmploymentPolicy/list.aspx?parent'>就业政策</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/GraduateNotice/list.aspx\">毕业生通知</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/GraduateNotice/list.aspx?parent'>毕业生通知</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m26"><em><a href='/Postdoctoral/list.aspx'>科研进展</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m32"><em><a href='/GraduateAssociation/index.aspx'>研究生活动</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/GraduateAssociation/index.aspx\">研究生会</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/GraduateAssociation/index.aspx?parent'>研究生会</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Societies/index.aspx\">社团</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Societies/index.aspx?parent'>社团</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/ColorfulActivities/list.aspx\">风采展示</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/ColorfulActivities/list.aspx?parent'>风采展示</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m37"><em><a href='/Regulations/list.aspx'>规章制度</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m38"><em><a href='/DownloadCenter/list.aspx?lcid=5'>下载中心</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=5'>学生入所</a></dt>
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=4'>学生管理</a></dt>
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=2'>常用证明</a></dt>
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=1'>毕业离所</a></dt>
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          
+        </ul>
+      </nav>
+
+    </header>
+  </div>
+  <script type="text/javascript">
+      
+          
+          // $("#m").addClass("aon");
+          var m='10'
+          
+              
+	  
+	  
+          //搜索打开
+          $(".Top002633 .btn_search").click(function(e) {
+          $(".Top002633 .search").show(300);
+      });
+      $(".Top002633 .search").bind("mouseleave",function(){
+          $(this).hide(300);
+      })
+	  
+	  
+      $("#TopBtn").jqSearch({
+          TxtVal: "关键字搜索",
+          KeyTxt1: "输入关键词搜索！",
+          KeyTxt2: "输入的关键词字数不要过多！",
+          KeyTxt3: "您输入的内容存在特殊字符！",
+          KeyId: "TopKey", //输入框id
+          KeyUrl: "/Search/list.aspx", //跳转链接
+          KeyHref: "key", //链接传值
+          Static: false //是否静态站
+      });
+	  
+      function dateTime(){
+          var time=new Date();
+          var week;
+          switch (time.getDay()){       //time.getDay()获取后显示1~7阿拉伯数字
+          case 1: week="星期一"; break;
+          case 2: week="星期二"; break;
+          case 3: week="星期三"; break;
+          case 4: week="星期四"; break;
+          case 5: week="星期五"; break;
+          case 6: week="星期六"; break;
+          default: week="星期天";
+          }
+          var year=time.getFullYear();
+          var month=time.getMonth();
+          var date=time.getDate();
+          document.getElementById("dateTime").innerHTML = year+"-"+(month+1)+"-"+date+"  "+week;
+      }
+      setInterval(dateTime,1000);     //每隔1秒显示一次
+  </script> 
+</div>
+<!--Top002633 end--> 
+
+
+<!--top end--> 
+
+
+
+<!--网页主体部分 开始-->
+<section class="content"> 
+
+<div class="auto auto_1200">
+  <div class="w18 fl"> 
+  <!--二级 start--> 
+   
+ 
+<!--Menu001651开始-->
+<div class="Menu001651">
+ <ul class="ul clearfix">
+   <div class="title">
+   
+   招生<span>Enrollment</span>
+   
+   </div>
+   
+   <li id="nav11"><a class="dot" href='/DisciplineSettings/index.aspx'>学科设置</a></li>
+   <li id="nav12"><a class="dot" href='/AdmissionsOverview/index.aspx'>招生概况</a></li>
+   <li id="nav13"><a class="dot" href='/Master/list.aspx'>硕士招生</a></li>
+   <li id="nav14"><a class="dot" href='/sions/list.aspx'>博士招生</a></li>
+   <li id="nav15"><a class="dot" href='/Students/list.aspx'>留学生</a></li>
+   
+    
+        
+ </ul>
+<script>
+   var nav ='13'	  	  
+   var sub =''	  	  
+   $("#nav"+nav).addClass("aon");
+   $("#sub"+sub).addClass("aon");
+</script> 
+</div>
+<!--Menu001651结束--> 
+
+
+  <!--二级 end--> 
+  </div>
+    
+  
+  <div class="w79 fr"> 
+  
+  <div class="RichInfo006"> 
+   <div class="auto">
+   <div class="title">
+     <h1>中国科大纳米技术与纳米仿生学院（苏州纳米所）关于公布2026年硕士研究生招生考试复试分数线及复试名单的通知</h1>
+     <p>
+     <span>发布日期：2026-03-19</span>
+     <span>浏览次数：
+<script id="whirlabelhit" type="text/javascript">
+$(function(){
+            $.ajax({
+                type: "POST",
+                url: "/label/ajax/hit.aspx",
+                data: "type=0&colid=13&itemid=1633&f=Hits",
+                success: function (result) { $("#whirlabelhit").before(result)  }
+            });
+    });
+
+</script>
+</span>
+     <span>【<i class="big">大</i><i class="amid">中</i><i class="small">小</i>】</span>
+     <span><input type="button"  class="btn btn-primary" value="【打印】" onclick="printdata()"/><a href="/Master/list.aspx">【关闭】</a></span>
+     </p>
+   </div>
+   <div class="info">
+       <p class="p" align="justify" style="margin-left:0.0000pt;text-indent:21.0000pt;text-align:justify;">
+	<b><span>一、复试分数线</span></b>
+</p>
+<div align="center">
+	<table class="MsoNormalTable" border="1" cellspacing="0" style="width:439.5pt;border:none;">
+		<tbody>
+			<tr>
+				<td width="114" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0.0000pt;text-indent:0.0000pt;text-align:center;">
+						<b><span style="font-family:&quot;font-size:11pt;"><span>类型</span></span></b><b><span style="font-family:&quot;font-size:11pt;"></span></b>
+					</p>
+				</td>
+				<td width="143" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0.0000pt;text-indent:0.0000pt;text-align:center;">
+						<b><span style="font-family:&quot;font-size:11pt;"><span>学科</span></span></b><b><span style="font-family:&quot;font-size:11pt;"></span></b>
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0.0000pt;text-indent:0.0000pt;text-align:center;">
+						<b><span style="font-family:&quot;font-size:11pt;"><span>外语</span></span></b><b><span style="font-family:&quot;font-size:11pt;"></span></b>
+					</p>
+				</td>
+				<td width="62" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0.0000pt;text-indent:0.0000pt;text-align:center;">
+						<b><span style="font-family:&quot;font-size:11pt;"><span>政治</span></span></b><b><span style="font-family:&quot;font-size:11pt;"></span></b>
+					</p>
+				</td>
+				<td width="77" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0.0000pt;text-indent:0.0000pt;text-align:center;">
+						<b><span style="font-family:&quot;font-size:11pt;"><span>业务课</span>1</span></b><b><span style="font-family:&quot;font-size:11pt;"></span></b>
+					</p>
+				</td>
+				<td width="70" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0.0000pt;text-indent:0.0000pt;text-align:center;">
+						<b><span style="font-family:&quot;font-size:11pt;"><span>业务课</span>2</span></b><b><span style="font-family:&quot;font-size:11pt;"></span></b>
+					</p>
+				</td>
+				<td width="48" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0.0000pt;text-indent:0.0000pt;text-align:center;">
+						<b><span style="font-family:&quot;font-size:11pt;"><span>总分</span></span></b><b><span style="font-family:&quot;font-size:11pt;"></span></b>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="114" valign="center" rowspan="3" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0.0000pt;text-indent:0.0000pt;text-align:center;">
+						<span style="font-family:&quot;font-size:11pt;"><span>学术学位</span></span><span style="font-family:&apos;Times New Roman&apos;;font-size:11.0000pt;"></span>
+					</p>
+				</td>
+				<td width="143" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0.0000pt;text-indent:0.0000pt;text-align:center;">
+						<span style="font-family:&quot;font-size:11pt;"><span>化学</span></span><span style="font-family:&apos;Times New Roman&apos;;font-size:11.0000pt;"></span>
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						55
+					</p>
+				</td>
+				<td width="62" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						55
+					</p>
+				</td>
+				<td width="77" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						90
+					</p>
+				</td>
+				<td width="70" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						90
+					</p>
+				</td>
+				<td width="48" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						365
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="143" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						材料科学与工程
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						55
+					</p>
+				</td>
+				<td width="62" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						55
+					</p>
+				</td>
+				<td width="77" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						90
+					</p>
+				</td>
+				<td width="70" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						90
+					</p>
+				</td>
+				<td width="48" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						380
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="143" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						电子科学与技术
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						50
+					</p>
+				</td>
+				<td width="62" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						50
+					</p>
+				</td>
+				<td width="77" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						80
+					</p>
+				</td>
+				<td width="70" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						80
+					</p>
+				</td>
+				<td width="48" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						310
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="114" valign="center" rowspan="3" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						专业学位
+					</p>
+				</td>
+				<td width="143" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						材料与化工
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						55
+					</p>
+				</td>
+				<td width="62" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						55
+					</p>
+				</td>
+				<td width="77" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						90
+					</p>
+				</td>
+				<td width="70" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						90
+					</p>
+				</td>
+				<td width="48" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						340
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="143" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						电子信息
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						55
+					</p>
+				</td>
+				<td width="62" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						55
+					</p>
+				</td>
+				<td width="77" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						90
+					</p>
+				</td>
+				<td width="70" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						90
+					</p>
+				</td>
+				<td width="48" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						355
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="143" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						生物与医药
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						55
+					</p>
+				</td>
+				<td width="62" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						55
+					</p>
+				</td>
+				<td width="77" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						90
+					</p>
+				</td>
+				<td width="70" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						90
+					</p>
+				</td>
+				<td width="48" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						340
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="258" valign="center" colspan="2" style="border:1.0000pt outset windowtext;">
+					<p class="p" align="center" style="margin-left:0pt;text-align:center;">
+						电子信息（退役大学生士兵专项）
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						55
+					</p>
+				</td>
+				<td width="62" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						55
+					</p>
+				</td>
+				<td width="77" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						90
+					</p>
+				</td>
+				<td width="70" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						90
+					</p>
+				</td>
+				<td width="48" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						345
+					</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p class="p" align="justify" style="text-indent:24.0000pt;text-align:justify;">
+	<span>凡满足上述分数条件且第一志愿报考我院的考生均可参加我院</span><span>2026</span><span>年硕士研究生招生复试阶段考核。具体复试安排另行公布，请密切关注</span>中国科学院<span>苏州纳米所</span>研究生教育<span>网站。</span>
+</p>
+<p class="p" align="justify" style="margin-left:0.0000pt;text-indent:21.0000pt;text-align:justify;">
+	<b><span>二、复试名单</span></b>
+</p>
+<div align="center">
+	<table class="MsoNormalTable" border="1" cellspacing="0" style="width:419.4pt;border:none;">
+		<tbody>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:bottom;">
+						<b><span style="font-family:&quot;font-size:10pt;"><span>考生编号</span></span></b><b><span style="font-family:&quot;font-size:10pt;"></span></b>
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:bottom;">
+						<b><span style="font-family:&quot;font-size:10pt;"><span>姓名</span></span></b><b><span style="font-family:&quot;font-size:10pt;"></span></b>
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:bottom;">
+						<b><span style="font-family:&quot;font-size:10pt;"><span>政治成绩</span></span></b><b><span style="font-family:&quot;font-size:10pt;"></span></b>
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:bottom;">
+						<b><span style="font-family:&quot;font-size:10pt;"><span>英语成绩</span></span></b><b><span style="font-family:&quot;font-size:10pt;"></span></b>
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:bottom;">
+						<b><span style="font-family:&quot;font-size:10pt;"><span>业务课</span>1<span>成绩</span></span></b><b><span style="font-family:&quot;font-size:10pt;"></span></b>
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:bottom;">
+						<b><span style="font-family:&quot;font-size:10pt;"><span>业务课</span>2<span>成绩</span></span></b><b><span style="font-family:&quot;font-size:10pt;"></span></b>
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt outset windowtext;">
+					<p class="MsoNormal" align="center" style="margin-left:0.0000pt;text-align:center;vertical-align:bottom;">
+						<b><span style="font-family:&quot;font-size:10pt;"><span>总分</span></span></b><b><span style="font-family:&quot;font-size:12pt;"></span></b>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210001635
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						王康
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						63
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						65
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						120
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						120
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						368
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210001640
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						郁伟强
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						64
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						59
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						109
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						126
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						358
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210001641
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						邓林杰
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						60
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						65
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						123
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						127
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						375
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210001642
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						汤乐欢
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						59
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						74
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						94
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						109
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						336
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003370
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						袁焰芬
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						61
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						76
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						144
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						122
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						403
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003372
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						杨东升
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						65
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						72
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						139
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						105
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						381
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003376
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						曹先庆
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						75
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						73
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						145
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						131
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						424
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003380
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						钟兰娣
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						69
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						78
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						132
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						105
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						384
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003392
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						董小亿
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						68
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						70
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						121
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						120
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						379
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003396
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						高新智
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						70
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						70
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						127
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						115
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						382
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003427
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						杨思懿
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						62
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						67
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						100
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						114
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						343
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003432
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						朱瑞阳
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						65
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						73
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						127
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						119
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						384
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003433
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						陈宇
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						66
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						68
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						111
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						115
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						360
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003434
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						张炎坪
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						67
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						69
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						121
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						93
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						350
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003441
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						孙梓卿
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						64
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						77
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						98
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						119
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						358
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003444
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						黄鹏
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						63
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						77
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						141
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						115
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						396
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003449
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						何涛
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						65
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						75
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						133
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						104
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						377
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003456
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						闵明杰
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						63
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						69
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						123
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						118
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						373
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003460
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						潘志文
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						65
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						77
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						130
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						116
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						388
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003462
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						李欣然
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						64
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						69
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						125
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						114
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						372
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003464
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						邵怡涵
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						68
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						73
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						116
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						107
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						364
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003470
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						耿杨洋
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						61
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						67
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						143
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						121
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						392
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003477
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						占江南
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						69
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						72
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						115
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						115
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						371
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003528
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						王佳音
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						64
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						75
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						107
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						113
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						359
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003537
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						章勇
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						64
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						72
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						106
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						98
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						340
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003549
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						蔡正乾
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						66
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						69
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						138
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						117
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						390
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003600
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						徐君启
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						59
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						57
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						130
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						107
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						353
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003606
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						雷勇
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						63
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						67
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						139
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						108
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						377
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003617
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						陈继昌
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						69
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						77
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						136
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						104
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						386
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003624
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						胡芳胜
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						65
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						73
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						140
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						113
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						391
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003645
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						赵少芬
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						61
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						75
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						124
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						109
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						369
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003686
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						马亚阳
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						63
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						77
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						145
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						136
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						421
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003690
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						王力强
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						68
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						83
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						119
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						119
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						389
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003691
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						武婷婷
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						63
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						70
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						127
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						115
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						375
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003706
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						胡泽华
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						62
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						67
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						131
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						107
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						367
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003707
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						林显
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						57
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						70
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						112
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						101
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						340
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003719
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						赖乾浩
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						66
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						57
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						133
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						111
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						367
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003720
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						张智杰
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						66
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						76
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						134
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						115
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						391
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003750
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						黄逸夫
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						65
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						81
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						127
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						98
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						371
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003757
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						王宇晨
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						60
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						68
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						120
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						116
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						364
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003766
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						祝榕娜
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						69
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						60
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						115
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						118
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						362
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003769
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						吴浩然
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						57
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						71
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						145
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						126
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						399
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003816
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						杜东升
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						60
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						76
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						127
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						122
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						385
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003822
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						唐兵
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						62
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						60
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						120
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						125
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						367
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003824
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						徐鑫鹏
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						68
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						65
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						142
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						120
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						395
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003825
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						许逸居
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						72
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						70
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						138
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						130
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						410
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003828
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						姚云腾
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						66
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						75
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						142
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						109
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						392
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003831
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						刘豫东
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						65
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						77
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						145
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						135
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						422
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003833
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						吴天予
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						68
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						72
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						111
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						125
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						376
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003842
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						李佳敏
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						66
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						66
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						121
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						134
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						387
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003850
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						杨竣斐
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						71
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						67
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						119
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						138
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						395
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003853
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						倪金阳
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						57
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						67
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						113
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						121
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						358
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003855
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						雷金龙
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						67
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						68
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						113
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						135
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						383
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003859
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						梁晁瑞
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						61
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						71
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						117
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						115
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						364
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003860
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						周文佳
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						58
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						55
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						114
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						139
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						366
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003861
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						曾美娟
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						74
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						80
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						128
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						127
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						409
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003862
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						邱潼
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						66
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						57
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						112
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						121
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						356
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003863
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						王涵
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						76
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						75
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						134
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						140
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						425
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003865
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						施泽浩
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						69
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						58
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						105
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						136
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						368
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003868
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						张紫豹
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						65
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						74
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						117
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						123
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						379
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003869
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						王益波
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						66
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						76
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						139
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						128
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						409
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003871
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						周珺宇
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						64
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						60
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						137
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						126
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						387
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003875
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						杨尊寻
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						68
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						60
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						132
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						128
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						388
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003876
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						刘英豪
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						60
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						67
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						137
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						125
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						389
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003877
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						刘汉顺
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						73
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						68
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						107
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						122
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						370
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003882
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						刘印
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						67
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						67
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						135
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						127
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						396
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003884
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						胡舟
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						64
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						69
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						100
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						131
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						364
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003886
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						吴晨
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						62
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						68
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						125
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						110
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						365
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210003887
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						郑斯远
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						57
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						67
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						138
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						122
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						384
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210005199
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						付傲雪
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						59
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						63
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						134
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						126
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						382
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210005249
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						郭恒坤
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						71
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						72
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						116
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						110
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						369
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210005274
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						王常笑
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						62
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						75
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						127
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						121
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						385
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210005404
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						王曼
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						63
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						80
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						127
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						118
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						388
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210005571
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						于熙杰
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						67
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						64
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						113
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						347
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210005718
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						李怡凡
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						66
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						80
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						121
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						128
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						395
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210007674
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						于定远
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						62
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						72
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						131
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						146
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						411
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210007714
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						舒俊杰
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						64
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						61
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						128
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						136
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						389
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="131" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						103586210007740
+					</p>
+				</td>
+				<td width="60" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						高圣
+					</p>
+				</td>
+				<td width="63" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						66
+					</p>
+				</td>
+				<td width="68" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						60
+					</p>
+				</td>
+				<td width="91" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						126
+					</p>
+				</td>
+				<td width="92" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						136
+					</p>
+				</td>
+				<td width="52" valign="center" style="border:1.0000pt solid windowtext;">
+					<p class="MsoNormal" align="center" style="text-align:center;vertical-align:middle;">
+						388
+					</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p class="MsoNormal" align="center" style="text-align:center;">
+	&nbsp;
+</p>
+<p class="MsoNormal" align="right" style="text-align:right;">
+	<span>中国科学院苏州纳米技术与纳米仿生研究所</span><span>教育处</span>
+</p>
+<p class="MsoNormal" align="right" style="text-align:right;">
+	<span>2026</span><span>年</span>3<span>月</span><span>1</span><span>9</span><span>日</span>
+</p>       
+       <div class="clear"></div>
+   </div>
+    <div class="info_pn clearfix">
+       <div class="left"><a href="/master/info.aspx?itemid=1674"><span>上一篇：</span>中国科学技术大学 2027 研考初试科目调整通...</a></div>
+       <div class="right"><a href="/master/info.aspx?itemid=1630"><span>下一篇：</span>中国科学技术大学纳米技术与纳米仿生学院（苏...</a></div>
+    </div>
+   </div>
+   
+   
+   <script type=text/javascript>
+	 // 大 中 小  
+	 $(".RichInfo006 .title .big").click(function(){
+     $(".RichInfo006 .info").addClass("bigs");
+     $(".RichInfo006 .info").removeClass("smalls"); 
+     $(".RichInfo006 .info").removeClass("amids"); 
+     });
+   
+	 $(".RichInfo006 .title .amid").click(function(){
+     $(".RichInfo006 .info").addClass("amids");
+	 $(".RichInfo006 .info").removeClass("bigs"); 
+     $(".RichInfo006 .info").removeClass("smalls"); 
+     });
+   
+	 $(".RichInfo006 .title .small").click(function(){
+     $(".RichInfo006 .info").addClass("smalls");
+	 $(".RichInfo006 .info").removeClass("bigs"); 
+     $(".RichInfo006 .info").removeClass("amids"); 
+     });
+	// 打印
+	function printdata() {
+     window.document.body.innerHTML=window.document.getElementById("information1").innerHTML;
+     window.print();
+    }   
+   </script>
+  </div>
+  </div>
+  <div class="clear"></div>
+</div>
+
+                                                                                                                                  
+
+
+
+
+</section>
+<!--网页主体部分 结束--> 
+
+
+
+<!--底部 开始--> 
+ 
+ 
+<!--Bottom001879开始-->
+<div class="Bottom001879">
+  <div class="auto auto_1200 clearfix">
+    
+    <figure> <img src="/uploadfiles/2020/02/th_20200226154748992.jpg?5LqM57u056CBLmpwZw==">扫一扫关注我们</figure>
+      
+    <footer>
+      <ul class="ul clearfix">
+       <li><a href='/AboutTheCollege/index.aspx'>部门概况</a></li>
+       <li><a href='/DisciplineSettings/index.aspx'>招生</a></li>
+       <li><a href='/TrainingPrograms/list.aspx'>培养</a></li>
+       <li><a href='/DegreeSub-Committee/index.aspx'>学位</a></li>
+       <li><a href='/Employ/list.aspx'>毕业与就业</a></li>
+       <li><a href='/Postdoctoral/list.aspx'>科研进展</a></li>
+       <li><a href='/GraduateAssociation/index.aspx'>研究生活动</a></li>
+       <li><a href='/Regulations/list.aspx'>规章制度</a></li>
+       <li><a href='/DownloadCenter/list.aspx?lcid=5'>下载中心</a></li>
+             
+      </ul>
+      <section>
+        <dl class="bdsharebuttonbox">
+          <dt class="wx"><a title="分享到微信" data-cmd="weixin" target="_blank" class="bshare-weixin bds_weixin" href="javascript:void(0);"></a></dt>
+          <dt class="sina"><a title="分享到新浪微博" data-cmd="tsina" target="_blank" class="bshare-sinaminiblog bds_tsina" href="javascript:void(0);"></a></dt>
+        </dl>
+        <a href='/Doctor/list.aspx'>导师队伍</a><i>|</i>
+        <a href='/SummerCamp/list.aspx'>夏令营</a><i>|</i>
+        <a href='/AwardWinners/index.aspx'>奖助学金</a><i>|</i>
+        <a href='/May4thYouthExchange/list.aspx'>五四青年交流会</a>
+        
+        <p>
+        Copyright © 2019 中国科学院苏州纳米技术与纳米仿生研究所 Inc. All rights reserved.
+		
+        <a href="http://www.beian.miit.gov.cn/" target="_blank">苏ICP备10220403号</a>
+        
+        </p>
+      </section>
+    </footer>
+  </div>
+</div>
+<!--Bottom001879结束-->
+
+
+<script type="text/javascript">
+//整站无图处理
+$.each($("img"), function (i, n) {
+$(n).on('error', function () { n.src = '/uploadfiles/nopic.jpg'; }); n.src = n.src; });
+
+//分享
+with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=' + ~(-new Date() / 36e5)];
+</script> 
+
+<!--底部 结束-->
+
+
+
+</div>
+<!--打印内容结束-->
+
+
+</body>
+</html>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META NAME="Keywords" CONTENT='四川大学研究生招生信息网 四川大学研究生院招生办 研招网 研究生招生网 四川大学研招网 四川大学博士招生 四川大学研究生院 四川大学研究生招生办公室新闻通知'/>
+    <meta name="Description" content='四川大学研究生招生信息网为 四川大学全日制硕士、博士研究生招生办公室官方网站，发布每年硕、博士招生专业目录，招生简章，招生说明，分数线发布，权威通知，提供招生咨询，提供硕士、博士成绩查询，推免生申请，夏令营申请等等'/>
+    <title>2027年“四川大学-南方电网”联合培养项目推荐免试研究生招生简章_四川大学研究生招生信息网</title>
+
+    <link href="/Content/newskin/bootstrap.min.css" rel="stylesheet">
+    <link href="/Content/newskin/style.css?v=2.0.3" rel="stylesheet">
+    <link href="/Content/newskin/icon.css" rel="stylesheet">
+    <link href="/Content/newskin/header-footer.css?v=2.0.3" rel="stylesheet">
+    <link href="/Content/newskin/owl.carousel.min.css" rel="stylesheet">
+    <script src="/Scripts/newskin/jquery.min.js"></script>
+    <script src="/Scripts/newskin/respond.min.js"></script>
+
+    
+    
+    
+</head>
+<body>
+<header>
+    <section class="scu-one">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-5">
+                    <img src="/Content/images/newskin/logo.png" class="logo">
+                    <div class="pull-right">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"></button>
+                    </div>
+
+                </div>
+                <div class="col-md-8 col-sm-7">
+                    <div class="user-xs">
+
+
+
+
+
+    <div class=" tel-one">
+        <span class="icon-user hidden-xs"></span>&nbsp;  <span id="welcomes">[ <a href="/Account/Login">登录</a> /<a href='/xly'>夏令营&预推免</a>/<a href='/ksfw'>考生服务</a> ] </span>
+    </div>
+
+<div class="search-box ">
+    <script type="text/javascript" language="javascript">
+        
+        function dsubmit() {
+            var key = $("#skey").val().trim();
+            if (key.length > 1) {
+                $('#searchform').submit();
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        function csubmit() {
+            var key = $("#skey").val().trim();
+            if (key.length > 1) {
+                // $('#searchform').submit();
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+
+    </script>
+    <form id="searchform" name="searchform" action="/zsxx/search" method="GET" onsubmit="csubmit()">
+        <input type="text" id="skey" name="s" value="" placeholder="站内搜索">
+        <span class="icon-search-solid" onclick="dsubmit()"></span>
+    </form>
+
+</div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="scu-head">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/">首页 </a></li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">硕士招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zsxx/newslist/ss/zc">招生章程</a></li>
+                                <li><a href="/sszyml/index">招生专业目录</a></li>
+                                <li><a href="/sszyml/tmsml">推免生（直博）专业目录</a></li>
+                                <li><a href="/zsxx/newslist/ss/gg">公告通知</a></li>
+                                <li><a href="/score" target="_blank">成绩查询</a></li>
+                                <li><a href="/xly">夏令营报名</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">博士招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zsxx/newslist/bs/zc">招生章程</a></li>
+                                <li><a href="/bszyml/index">招生专业目录</a></li>
+                                 <li><a href="/sszyml/tmsml">推免生（直博）专业目录</a></li>
+                                <li><a href="/zsxx/newslist/bs/gg">公告通知</a></li>
+                                <li><a href="/bsqr/index">报名审核查询</a></li>
+                                 <li><a href="/score/bs"  target="_blank">成绩查询</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">港澳台招生  <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zsxx/newslist/gat/zc">招生章程</a></li>
+                                    <li><a href="/ssgat">港澳台硕士招生专业目录</a></li>
+                                    <li><a href="/bsgat">港澳台博士招生专业目录</a></li>
+                                <li><a href="/zsxx/newslist/gat/gg">公告通知</a></li>
+                           
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/zsxx/newslist/a/gk" role="button" aria-haspopup="false" aria-expanded="false" >信息公开  </a>
+                            
+                        </li>
+                        <li class="dropdown">
+                            <a href="/zsxx/newslist/a/ls" role="button" aria-haspopup="false" aria-expanded="false">历年数据 </a>
+                            
+                        </li>
+                        <li class="dropdown">
+                            <a href="/help/index" role="button" aria-haspopup="false" aria-expanded="false" >常见问题 </a>
+                           
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >联系我们   <span class="caret"></span> </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/contact/index">研招办</a></li>
+                                <li><a href="/contact/yxs">招生学院(系/所)</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </section>
+
+</header>
+
+
+<section class="bread-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- <h3><span class="icon-pin"></span> 硕士招生</h3> -->
+            </div>
+        </div>
+        <div class="bread-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="breadcrumb">
+                            <li><a href="/">首页</a></li>
+                            <li>2027年“四川大学-南方电网”联合培养项目推荐免试研究生招生简章                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="share-box">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="list-recruit">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12">
+
+                    <ul class="list-name">
+
+        <li>
+            <a href="/zsxx/newslist/zt/1">
+                <span class="icon-recruit-3 list-icon"></span>
+                <span class="list-detail">优秀大学生暑期夏令营</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+        <li>
+            <a href="/zsxx/newslist/a/gk">
+                <span class="icon-score list-icon"></span>
+                <span class="list-detail">信息公开</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+        <li>
+            <a href="/zsxx/newslist/a/ls">
+                <span class="icon-data list-icon"></span>
+                <span class="list-detail">历年数据</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+        <li>
+            <a href="/help">
+                <span class="icon-question1 list-icon"></span>
+                <span class="list-detail">常见问题</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+
+
+
+
+    </ul>
+
+
+            </div>
+            <div class="col-md-9 col-sm-9 content-one col-xs-12">
+
+                
+
+
+
+
+    <h3 class="content-title" style="margin:10px;font-weight:bold; text-align: center;">2027年“四川大学-南方电网”联合培养项目推荐免试研究生招生简章</h3>
+
+
+<p class="add-time" style="text-align: center;">
+    添加时间 2026/9/10 18:05 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;访问次数  9421
+
+</p>
+
+    <div class="content-box">
+
+        <p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; 为深入贯彻落实党中央、国务院关于教育科技人才一体化改革、加强高层次人才队伍建设的决策部署，建立探索</span><span style="font-size:16.0000pt">在高层次人才培养方面的协同合作机制，</span><span style="font-size:16.0000pt">四川大学与</span><span style="font-size:16.0000pt">中国南方电网有限责任公司（以下简称&ldquo;南方电网&rdquo;）签订了《深化产教融合协同育人合作协议》，设立</span><span style="font-size:16.0000pt">&ldquo;</span><span style="font-size:16.0000pt">四川大学-南方电网</span><span style="font-size:16.0000pt">&rdquo;研究生联合培养项目。</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; </span></span></span><span style="font-family:黑体"><span style="font-size:10.5pt"><strong><span style="font-size:16.0000pt"><strong>一、项目介绍</strong></span></strong></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; 本项目聚焦新型电力系统发展，立足培养一批能源电力领域创新型、复合型人才，设置新型电力系统、电力人工智能、数字电网、新型储能等</span><span style="font-size:16.0000pt">前沿交叉</span><span style="font-size:16.0000pt">方向，融合教学和科研</span><span style="font-size:16.0000pt">平台</span><span style="font-size:16.0000pt">，参照&ldquo;工程硕博士培养改革专项&rdquo;培养模式，依托</span><span style="font-size:16.0000pt">南方电网公司</span><span style="font-size:16.0000pt">深圳供电局、云南电网公司、南网储能公司、南网数字集团、南网科研院</span><span style="font-size:16.0000pt">的</span><span style="font-size:16.0000pt">重大科研攻关</span><span style="font-size:16.0000pt">任务，进行定制化培养。</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; </span></span></span><span style="font-family:黑体"><span style="font-size:10.5pt"><strong><span style="font-size:16.0000pt"><strong>二、招生专业、计划及培养单位</strong></span></strong></span></span></p>
+
+<table cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse; border:none; font-family:&quot;Times New Roman&quot;; font-size:13px; margin-left:4px; width:574px">
+	<tbody>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; vertical-align:center; width:128px">
+			<p><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><span style="font-family:仿宋_GB2312">拟招生学院</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; vertical-align:center; width:154px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><span style="font-family:仿宋_GB2312">拟招生专业</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; vertical-align:center; width:84px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><span style="font-family:仿宋_GB2312">拟招生人数</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; vertical-align:center; width:206px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:16.0000pt"><span style="font-family:'Times New Roman'"><span style="font-family:仿宋_GB2312">培养单位及地点</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:center; width:128px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><span style="font-family:仿宋_GB2312">电气工程学院</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:center; width:154px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'">085400<span style="font-family:仿宋_GB2312">电子信息</span><span style="font-family:Times New Roman,Times,serif">085801</span><span style="font-family:仿宋_GB2312">电气工程</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:center; width:84px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'">9<span style="font-family:仿宋_GB2312">人</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:center; width:206px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:12.0000pt"><span style="font-family:'Times New Roman'">1.<span style="font-family:仿宋_GB2312">深圳供电局，深圳，</span><span style="font-family:Times New Roman,Times,serif">2</span><span style="font-family:仿宋_GB2312">人</span></span></span></span></span></p>
+
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:12.0000pt"><span style="font-family:'Times New Roman'">2.<span style="font-family:仿宋_GB2312">云南电网公司，昆明，</span><span style="font-family:Times New Roman,Times,serif">1</span><span style="font-family:仿宋_GB2312">人</span></span></span></span></span></p>
+
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:12.0000pt"><span style="font-family:'Times New Roman'">3.<span style="font-family:仿宋_GB2312">南网储能公司，广州，</span><span style="font-family:Times New Roman,Times,serif">1</span><span style="font-family:仿宋_GB2312">人</span></span></span></span></span></p>
+
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:12.0000pt"><span style="font-family:'Times New Roman'">4.<span style="font-family:仿宋_GB2312">南网数字集团，广州，</span><span style="font-family:Times New Roman,Times,serif">2</span><span style="font-family:仿宋_GB2312">人；</span></span></span></span></span></p>
+
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-size:12pt">5.<span style="font-family:仿宋_GB2312">南网科研院，广州，</span><span style="font-family:Times New Roman, Times, serif">3</span><span style="font-family:仿宋_GB2312">人</span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:center; width:128px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'"><span style="font-family:仿宋_GB2312">计算机学院（软件学院）</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:center; width:154px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'">085400<span style="font-family:仿宋_GB2312">电子信息</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:center; width:84px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0000pt"><span style="font-family:'Times New Roman'">1<span style="font-family:仿宋_GB2312">人</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; vertical-align:center; width:206px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:12.0000pt"><span style="font-family:'Times New Roman'"><span style="font-family:仿宋_GB2312">南网科研院，广州，</span>1<span style="font-family:仿宋_GB2312">人</span></span></span></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align:left"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; 实际招生学院、招生专业和招生人数，可根据联培课题和生源情况进行适度调整。</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; </span></span></span><span style="font-family:黑体"><span style="font-size:10.5pt"><strong><span style="font-size:16.0000pt"><strong>三、报名条件</strong></span></strong></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; 考生须符合招生学院2027年接收推荐免试研究生（含直博生）相关要求（具体见四川大学研究生招生信息网）。</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp;</span></span></span><span style="font-family:黑体"><span style="font-size:10.5pt"><span style="font-size:16.0000pt"> </span><strong><span style="font-size:16.0000pt"><strong>四、报名方式</strong></span></strong></span></span></p>
+
+<p style="text-align:left"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; 申请人需要按电气工程学院、计算机学院（软件学院）普通推免预报名通知进行报名，并于2026年9月12</span><span style="font-size:16.0000pt">日</span><span style="font-size:16.0000pt">24：00前，进入志愿信息列表页（https://yz.scu.edu.cn/xly），在对应志愿备用信息栏中填写备注&ldquo;申请南网专项&rdquo;，并保存（备注：普通报名截止后该功能仍可使用）。如下图所示：</span></span></span></p>
+
+<p style="margin-left:56px; text-align:left"><img src="/Content/newsfiles/0.0306703117818899_image.png" style="height:204px; width:521px" /></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; </span></span></span><span style="font-family:黑体"><span style="font-size:10.5pt"><strong><span style="font-size:16.0000pt"><strong>五、选拔程序</strong></span></strong></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; （一）</span><span style="font-size:16.0000pt">资格审查：招生学院按照接收推荐免试研究生相关要求，进行资格审查。</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; （二）材料评议：招生学院将组织专家对材料进行初审，确定复试资格名单。获得复试资格的申请人须按招生学院通知要求参加复试。</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; （三）</span><span style="font-size:16.0000pt">考核和拟录取：招生学院向具有复试资格者发送复试通知，申请人须在规定的时间内接受复试，否则视为放弃复试资格。考核方式、考核内容、时间安排招生学院通知为准。复试期间应自觉遵守考核规则，签订《诚信考试承诺书》，违反规定或破坏考核秩序的将取消相关成绩并按国家相关规定进行处理。</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">招生学院复试后，在招生计划内向复试合格者发送拟录取通知，申请人须在规定时间内在全国推免服务系统中完成拟录取确认，否则视为放弃拟录取资格。拟录取名单将在学校研招网集中公示，公示期不少于7日。</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; </span></span></span><span style="font-family:黑体"><span style="font-size:10.5pt"><strong><span style="font-size:16.0000pt"><strong>六、入企实践待遇和保障</strong></span></strong></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; 联培研究生到南方电网公司培养单位开展入企实践后，学校、企业、联培学生三方签订入企实践协议，并由所在培养单位提供以下待遇和保障：</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; （一）科研津贴：在企实践期间，由培养单位按照5500元/人/月的标准发放科研津贴。</span></span></span></p>
+
+<p style="text-align:left"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; （二）食宿：提供免费自助</span><span style="font-size:16.0000pt">&ldquo;三餐&rdquo;</span><span style="font-size:16.0000pt">或</span><span style="font-size:16.0000pt">补贴</span><span style="font-size:16.0000pt">，</span><span style="font-size:16.0000pt">提供</span><span style="font-size:16.0000pt">免费单人单间</span><span style="font-size:16.0000pt">住宿</span><span style="font-size:16.0000pt">或租房津贴。</span></span></span></p>
+
+<p style="text-align:left"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; （三）</span><span style="font-size:16.0000pt">学习和科研保障：<span style="color:#000000">依托国家重大科技专项、国家重点研发计划、国家自然科学基金、南方电网公司重点科技项目作为联培研究生培养载体，安排领军级及以上专家与学校导师共同组建双导师团队。开放南方电网所属国家、省部级重点实验室设施、公司技术及数据资源；可参与公司重大科研攻关项目；可参与相关国际性、行业性学术技术组织年会、论坛，参与编制相关国家标准、行业标准，参与申报相关国家级、省部级重大科研项目。</span></span></span></span></p>
+
+<p style="text-align:left"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; <span style="color:#000000">（四）其他保障：为联培学生购买在企专业实践期间人身意外险。参照职工标准，为联培研究生报销赴企观摩往返差旅费、专业实践期间项目研究差旅费、校企异地联培研究生每学期返校差旅费。享受工作地城市班车便利、地铁免费接驳便利，为联培研究生提供健身福利，开放员工游泳馆、羽毛球馆、篮球馆、乒乓球馆、器械健身馆等使用权限和各类健身课程。</span></span></span></span></p>
+
+<p style="text-align:left"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; <span style="color:#000000">（五）职业保障：有意愿到南方电网就业的联培研究生，经校园招聘程序并被录用后，在联合培养期间所获成果可计入各类人才选聘业绩认定。入职南方电网的联培研究生，优先纳入南方电网青年科技人才接续培养计划，实施3-5年递进式跟踪培养。联培硕士研究生在企实践考核优秀且入职南方电网的，可获得推荐攻读在职博士资格（两年有效）。</span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; </span></span></span><span style="font-family:黑体"><span style="font-size:10.5pt"><strong><span style="font-size:16.0000pt"><strong>七、咨询、联系方式</strong></span></strong></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; 四川大学研究生招生办公室：黄老师，028-85466595</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; 四川大学电气工程学院：</span><span style="font-size:16.0000pt">杨老师</span><span style="font-size:16.0000pt">，028-85460836</span></span></span></p>
+
+<p style="text-align:justify"><span style="font-family:仿宋_GB2312"><span style="font-size:10.5pt"><span style="font-size:16.0000pt">&nbsp; &nbsp; 四川大学计算机学院（软件学院）：陈</span><span style="font-size:16.0000pt">老师</span><span style="font-size:16.0000pt">，028-85468665</span></span></span></p>
+
+
+
+    </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<div class="back-top">
+    <div class="code-box"><a href="#">
+            <img src="/Content/images/newskin/qrcode.jpg" width="80px"></a>
+    </div>
+    <div id="back-to-top" class="back-icon"><span class="icon-arrow-up"></span>
+    </div>
+</div>
+
+<section class="mobile-nav visible-xs">
+
+
+    <ul class="nav nav-pills">
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">公告通知
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/zsxx/newslist/a/gg">公告通知</a></li>
+                <li><a href="/zsxx/newslist/a/gk">信息公开</a></li>
+            </ul>
+        </li>
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">目录查询
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/sszyml/index">硕士目录</a></li>
+                <li><a href="/sszyml/tmsml">硕士推免目录</a></li>
+                <li><a href="/bszyml/index">博士目录</a></li>
+                <li><a href="/ssgat">港澳台硕士目录</a></li>
+                <li><a href="/bsgat">港澳台博士目录</a></li>
+            </ul>
+        </li>
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">自助服务
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/zsxx/newslist/a/ls">历年数据</a></li>
+                <li><a href="/help">常见问题</a></li>
+                <li><a href="/contact/yxs">招生单位联系方式</a></li>
+                <li><a href="/contact/index">研招办联系方式</a></li>
+            </ul>
+        </li>
+    </ul>
+    <a id="defaultwboxid"></a>
+</section>
+
+<section class="footer">
+    <div class="container">
+        <ul>
+            <li>版权所有：四川大学研究生院招生办公室</li>
+            <li>通信地址：四川省成都市一环路南一段24号 四川大学研究生院（610065）</li>
+
+            <li>联系方式：<a href="http://yz.scu.edu.cn/contact/index" style="color: white; text-decoration: underline;">研招办</a> <a href="http://yz.scu.edu.cn/contact/yxs" style="color: white; text-decoration: underline;">招生单位</a></li>
+
+            <li>友情链接： <a href="http://www.scu.edu.cn" target="_blank" style="color: white; text-decoration: underline;">四川大学</a>
+                <a href="http://gs.scu.edu.cn" target="_blank" style="color: white; text-decoration: underline;">四川大学研究生院</a>
+                <a href="http://yz.chsi.com.cn" target="_blank" style="color: white; text-decoration: underline;">中国研究生招生信息网</a>
+                <a href="http://www.sceea.cn/" target="_blank" style="color: white; text-decoration: underline;">四川省教育考试院</a> </li>
+        </ul>
+    </div>
+    <a id="defaultwboxid"></a>
+
+</section>
+
+
+
+<script src="/Scripts/newskin/bootstrap.min.js"></script>
+<!--导航-->
+<script src="/Scripts/newskin/stickUp.js"></script>
+<script type="text/javascript">
+    //initiating jQuery
+    jQuery(function($) {
+        $(document).ready(function() {
+            $('.scu-head').stickUp();
+        });
+    });
+
+    $(document).ready(function() {
+        var getWindow = $(window).width();
+        if (getWindow > 1000) {
+            $('.scu-head li.dropdown').off('click.bs.dropdown.data-api');
+            dropdownOpen();
+        }
+    });
+
+    function dropdownOpen() {
+        var $dropdownLi = $('.scu-head li.dropdown');
+        $dropdownLi.mouseover(function() {
+            $(this).addClass('open');
+        }).mouseout(function() {
+            $(this).removeClass('open');
+        });
+    }
+</script>
+<!--导航-->
+
+<!--返回顶部-->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#back-to-top").hide();
+        $(function() {
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 100) {
+                    $("#back-to-top").fadeIn(500);
+                } else {
+                    $("#back-to-top").fadeOut(500);
+                }
+            });
+            $("#back-to-top").click(function() {
+                $('body,html').animate({ scrollTop: 0 }, 100);
+                return false;
+            });
+        });
+    });
+</script>
+<!--返回顶部-->
+
+    
+
+
+
+</body>
+</html>

@@ -5,6 +5,7 @@ import re
 import zipfile
 from pathlib import Path
 from sources.parser import canonical
+from focus import classify
 
 def institutions(store):
     path = store.root/'sources/institutions.json'
@@ -36,9 +37,13 @@ def archive_bundle(store, ids):
     files, size, index = [], 0, []
     safe = lambda value: re.sub(r'[\x00-\x1f<>:"/\\|?*]', '_', str(value)).strip(' .')[:90] or '未分类'
     for row in records:
-        folder = safe(row['school'] or row['source_name'])+'/'+str(row['id'])+'/'
+        titles=store.query('SELECT title FROM resources WHERE source_id=? AND url=?',(row['source_id'],row['url']))
+        filing=classify({'school':row['school'],'name':row['source_name']},titles[0]['title'] if titles else '')
+        if row['kind']=='list': filing['year']='跨年'
+        folder='/'.join(safe(filing[k]) for k in ['scope','year','school','department'])+'/'+str(row['id'])+'/'
         entry = {k:row[k] for k in ['id','school','url','created','sha256','kind']}
         entry['files'] = []
+        entry['filing'] = filing
         for field in ['raw_path','text_path','manifest_path']:
             path = (store.root/(row[field] or '')).resolve()
             if not path.is_relative_to(store.data.resolve()) or not path.is_file():
