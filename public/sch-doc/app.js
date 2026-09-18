@@ -2,7 +2,7 @@
 const $=s=>document.querySelector(s);
 const $$=s=>[...document.querySelectorAll(s)];
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const KEY='sch-doc.personal.v1', ACTIONS='https://github.com/DHLSPACE/dhlspace.github.io/actions/workflows/jekyll-gh-pages.yml';
+const KEY='sch-doc.personal.v1', ACTIONS='https://github.com/DHLSPACE/dhlspace.github.io/tree/main/sch-doc-local';
 const titles={overview:'概览与准备路线',research:'首批研究笔记',notices:'通知与变更',archives:'原件归档',sources:'监控来源',personal:'我的笔记'};
 let data=null, tab='overview', personal=[], storageProblem='', editId=null, limit=40, filtered=[];
 function safeUrl(v){try{const u=new URL(v);return ['http:','https:'].includes(u.protocol)?u.href:''}catch{return ''}}
@@ -20,12 +20,12 @@ async function load(){const button=$('#refresh');button.disabled=true;try{const 
 function render(){
  if(!data&&tab!=='personal')return;
  if(data){const checked=data.meta.checked_at,age=checked?(Date.now()-new Date(checked).getTime())/3600000:Infinity,failed=data.sources.filter(s=>s.enabled&&s.error).length;
- $('#status').textContent=checked?`云端上次检查：${date(checked)} · ${failed} 个来源失败 · 原件 ${data.snapshots.length} 个版本${age>36?' · 已超过36小时，请查看云端任务是否正常':''}`:'云端首次检查尚未完成；目前显示已整理的公开研究笔记。';$('#status').classList.toggle('warning',failed>0||age>36);
+ $('#status').textContent=checked?`历史公开资料 · 记录检查时间：${date(checked)} · ${failed} 个来源失败 · 原件 ${data.snapshots.length} 个版本 · 最新检查请使用本地助手`:'公开历史资料；最新采集与来源管理请使用本地助手。';$('#status').classList.toggle('warning',failed>0);
  }
  if(tab==='overview'){const stats=[['启用来源',data.sources.filter(s=>s.enabled).length],['已发现通知',data.items.length],['已保存原件版本',data.snapshots.length],['公开研究笔记',data.notes.length]];$('#metrics').innerHTML=stats.map(([label,count])=>`<div class="metric"><strong>${count}</strong><span>${label}</span></div>`).join('');return}
  const intros={research:'首批笔记按官方来源整理，保留核对时间与统计口径。尚未找到的名额不填估计值；原件是否保存请查看“原件归档”。',notices:'全部已发现通知与后续变更分别标注。首次采集建立历史基线，网页发布日期与程序发现日期分开记录。',archives:'这里只显示已保存的实际响应文件。点击“下载原件”保存到设备；HTML以文本下载，需还原时可将文件名末尾的 .download.txt 去掉。',sources:'逐一查看真实检查状态。没有解析到通知或请求失败，都不能理解为“没有新公告”。',personal:'个人笔记仅保存在当前浏览器，适合记录材料准备和待核实事项。换设备前请导出备份；不会自动同步至GitHub。'};
  $('#section-intro').textContent=intros[tab]+(tab==='personal'&&storageProblem?' '+storageProblem:'');
- if(tab==='sources')$('#section-intro').innerHTML+=`<div class="actions">${external(ACTIONS,'手动运行云端检查')}${external('https://github.com/DHLSPACE/dhlspace.github.io/edit/main/scripts/sch_doc/sources/presets.json','在GitHub编辑采集来源')}</div>`;
+ if(tab==='sources')$('#section-intro').innerHTML+=`<div class="actions">${external(ACTIONS,'查看本地程序与配置')}</div><p>新增来源请在本地页面输入校名或URL，核对试抓结果后保存。</p>`;
  $('#personal-actions').classList.toggle('hidden',tab!=='personal');$('#export-csv').classList.toggle('hidden',!['research','personal'].includes(tab));
  let rows=tab==='research'?data.notes:tab==='personal'?personal:tab==='sources'?data.sources:tab==='archives'?data.snapshots:[...data.items.map(x=>({...x,recordType:'通知'})),...data.events.map(x=>({...x,recordType:'变更'}))];
  const getSchool=x=>['research','personal'].includes(tab)?x.school:tab==='sources'?x.name:school(x.source_id);

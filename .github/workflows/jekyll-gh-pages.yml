@@ -4,8 +4,6 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-  schedule:
-    - cron: '23 1,13 * * *'
 
 permissions:
   contents: read
@@ -21,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     permissions:
-      contents: write
+      contents: read
       pages: write
       id-token: write
     steps:
@@ -33,18 +31,6 @@ jobs:
         with:
           node-version: 22
           cache: npm
-
-      - name: Set up Python for Sch Doc
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.13'
-
-      - name: Check and preserve graduate admissions sources
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          python -B -m unittest discover -s scripts/sch_doc -p test_cloud.py
-          python -B scripts/sch_doc/cloud.py --sync
 
       - name: Install dependencies
         run: npm ci
