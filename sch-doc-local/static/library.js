@@ -130,7 +130,7 @@ document.addEventListener('click',async e=>{const b=e.target.closest('button');i
   if(d.stat){if(['favorites','connected'].includes(d.stat)){directoryFilter=d.stat;directoryPage=1;renderDirectory()}else go(d.stat)}
   if(d.favorite){b.disabled=true;await post('favorite',{id:d.favorite,favorite:!(data.settings.favorites||[]).includes(d.favorite)});await load()}
   if(d.connect){const u=data.institutions.find(x=>x.id===d.connect);openDiscovery({school:u.school,source_type:u.tier==='985'?'学校研招网':'研究院/研究所'});$('#discover-query').value=u.school;await discover(u.school)}
-  if(d.schoolFiles){const u=data.institutions.find(x=>x.id===d.schoolFiles),source=data.sources.find(s=>ownsSource(u,s));go('archives');$('#archive-reset').click();$('#archive-school').value=source.school||source.name;renderLibrary()}
+  if(d.schoolFiles){const u=data.institutions.find(x=>x.id===d.schoolFiles),sources=data.sources.filter(s=>ownsSource(u,s)),saved=data.snapshots.find(x=>sources.some(s=>s.id===x.source_id));go('archives');$('#archive-reset').click();$('#archive-school').value=saved?.filing?.school||sources[0]?.school||u.school;renderLibrary()}
   if(d.saveItem){const item=data.items.find(x=>x.id===Number(d.saveItem));await post('archive-url',{source_id:item.source_id,url:item.url,title:item.title,kind:'page'});toast('已加入队列。进入资料归档，点击“继续归档队列”保存通知及可发现附件。');await load()}
 }catch(err){toast(err.message);b.disabled=false}});
 document.addEventListener('change',e=>{if(e.target.dataset.archiveSelect){const id=Number(e.target.dataset.archiveSelect);e.target.checked?selectedArchives.add(id):selectedArchives.delete(id);renderLibrary()}});

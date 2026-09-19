@@ -19,12 +19,14 @@ from storage import ROOT,Store,now
 from discovery import Discovery, TYPES, metadata
 from library import institutions, queue_many, archive_bundle
 from focus import enrich
+from snapshot_export import SnapshotJobs, pick_directory, save_destination
 
 TOKEN=secrets.token_urlsafe(32)
 STATE={'running':False,'message':'准备就绪','started':'','finished':''}
 LOCK=threading.Lock()
 STORE=None
 DISCOVERY=None
+SNAPSHOTS=None
 
 def update_progress(message):
     STATE['message']=message
@@ -84,7 +86,11 @@ class Handler(BaseHTTPRequestHandler):
                 data['institutions']=institutions(STORE)
                 return self.send(enrich(data, STORE.root))
             if path=='/api/health':
-                return self.send({'app':'graduate-archive','root':str(STORE.root),'version':5})
+                return self.send({'app':'graduate-archive','root':str(STORE.root),'version':7})
+            if path=='/api/snapshot-status':
+                return self.send(SNAPSHOTS.status())
+            if path=='/api/snapshot-guide':
+                return self.send((ROOT/'本地胶囊与快照操作指南.md').read_text('utf-8'),ctype='text/plain; charset=utf-8')
             if path=='/api/export':
                 with LOCK:
                     folder=STORE.export()
@@ -116,6 +122,8 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send((STORE.root/'先看这里_首批信息与准备路线.md').read_bytes(),ctype='text/plain; charset=utf-8')
             allowed={'/':'index.html','/style.css':'style.css','/ui.js':'ui.js','/workspace.js':'workspace.js','/glass.css':'glass.css','/library.js':'library.js','/library.css':'library.css'}
             allowed.update({'/focus.js':'focus.js','/focus.css':'focus.css','/help':'help.html'})
+            allowed.update({'/local-tools.js':'local-tools.js','/local-tools.css':'local-tools.css'})
+            allowed.update({'/experience.js':'experience.js','/experience.css':'experience.css'})
             if path in allowed:
                 p=ROOT/'static'/allowed[path]
                 ctype={'.html':'text/html','.css':'text/css','.js':'text/javascript'}[p.suffix]+'; charset=utf-8'
@@ -138,6 +146,16 @@ class Handler(BaseHTTPRequestHandler):
             path=urllib.parse.urlsplit(self.path).path
             if path=='/api/check':
                 start_job(p)
+            elif path=='/api/snapshot-start':
+                return self.send(SNAPSHOTS.start(p))
+            elif path=='/api/snapshot-directory':
+                if SNAPSHOTS.status()['running']:
+                    raise ValueError('请等快照完成后更换目录')
+                return self.send({'directory':save_destination(STORE,p.get('directory',''))})
+            elif path=='/api/snapshot-pick-directory':
+                if SNAPSHOTS.status()['running']:
+                    raise ValueError('请等快照完成后更换目录')
+                return self.send(pick_directory(STORE))
             elif path=='/api/archive-bundle':
                 return self.send(archive_bundle(STORE,p.get('ids')),ctype='application/zip',download='研招原件与来源.zip')
             elif path=='/api/archive-many':
@@ -262,8 +280,8 @@ class Handler(BaseHTTPRequestHandler):
                 rel=lambda x:x.relative_to(STORE.root).as_posix()
                 STORE.execute('INSERT INTO snapshots(source_id,url,created,sha256,raw_path,text_path,manifest_path,kind) VALUES (?,?,?,?,?,?,?,?)',(sid,url,now(),meta['sha256'],rel(dest),rel(text),rel(manifest),'手动导入'))
             elif path=='/api/stop':
-                if STATE['running']:
-                    raise ValueError('检查正在进行，请等待结束后退出')
+                if STATE['running'] or SNAPSHOTS.status()['running']:
+                    raise ValueError('检查或快照正在进行，请等待结束后退出')
                 threading.Thread(target=self.server.shutdown,daemon=True).start()
             else:
                 return self.send({'error':'不存在的操作'},404)
@@ -272,7 +290,7 @@ class Handler(BaseHTTPRequestHandler):
             self.send({'error':str(exc)},400)
 
 def main():
-    global STORE,DISCOVERY
+    global STORE,DISCOVERY,SNAPSHOTS
     parser=argparse.ArgumentParser(description='研招监控助手')
     parser.add_argument('--check',action='store_true',help='检查到期来源并退出，供计划任务使用')
     parser.add_argument('--force',action='store_true')
@@ -285,6 +303,7 @@ def main():
     restore_sync(STORE)
     STORE.seed()
     DISCOVERY=Discovery(STORE)
+    SNAPSHOTS=SnapshotJobs(STORE)
     if args.check:
         log=STORE.data/'last_check.log'
         lines=[]

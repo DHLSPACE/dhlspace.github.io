@@ -14,7 +14,7 @@ def prepare_sync(store, repository=None):
     destination = repo/'sch-doc-local'
     destination.mkdir(exist_ok=True)
     files = list(store.root.glob('*.py'))+list(store.root.glob('*.pyw'))+list(store.root.glob('*.cmd'))+list(store.root.glob('*.ps1'))+list(store.root.glob('*.md'))
-    files += [p for folder in ['sources','static','tests'] for p in (store.root/folder).rglob('*') if p.is_file() and p.suffix in {'.json','.py','.js','.css','.html'}]
+    files += [p for folder in ['sources','static','tests'] for p in (store.root/folder).rglob('*') if p.is_file() and (p.suffix in {'.json','.py','.js','.css','.html'} or p.name=='fflate-LICENSE.txt')]
     files += [store.root/'requirements.txt',store.root/'.gitignore']
     for source in files:
         if not source.exists():
