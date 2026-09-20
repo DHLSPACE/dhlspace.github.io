@@ -15,7 +15,7 @@ else if(path==='read'){personal.read=[...new Set([...(personal.read||[]),...(p.i
 else if(path==='settings'){const year=Number(p.target_year);if(year<2020||year>2050)throw Error('年份应在 2020–2050 之间');personal.target_year=year}
 else throw Error('请在本机程序中执行采集并重新发布。');savePersonal();return {ok:true}};
 const localPublicRender=render;
-render=()=>{localPublicRender();if(!data)return;$('#check-all').textContent='刷新';$('#check-all').disabled=false;$('#job').textContent=`已发布快照 · ${stamp(data.meta.published_at)} · 浏览器不自动采集官网`;$('#storage-path').textContent='';$('footer').firstChild.textContent='化工研途 · 公开官网资料 / 个人笔记仅保存在此浏览器 ';
+render=()=>{localPublicRender();if(!data)return;$('#check-all').textContent='刷新';$('#check-all').disabled=false;$('#job').textContent=`已发布快照 · ${stamp(data.meta.published_at)} · 浏览器不自动采集官网`;$('#storage-path').textContent='';$('footer').firstChild.textContent='Graduate Atlas · 公开官网资料 / 个人笔记仅保存在此浏览器 ';
 $('.local-pill').innerHTML='<span class="dot"></span> 已发布快照';
 $$('#source-list .source-facts span:last-child').forEach(el=>el.textContent='本机采集来源');
 $$('a[href^="/api/"],a[href^="./api/"]').forEach(a=>{const href=a.getAttribute('href');if(href.includes('notes.csv')){a.href='#';a.textContent='导出个人笔记';a.onclick=e=>{e.preventDefault();exportPersonal()}}else if(href.includes('filing.csv')){a.href='./filing.json';a.textContent='分类索引 JSON';a.download='分类索引.json'}else if(href.includes('/export')){a.href='./data.json';a.download='公开资料.json'}else {a.href=href.includes('snapshot-guide')?'./snapshot-guide.html':'./help.html';a.target='_blank'}});

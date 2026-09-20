@@ -4,7 +4,14 @@ const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const school=id=>data.sources.find(s=>s.id===id)?.name||'手动资料';
 const stamp=s=>s?s.replace('T',' ').slice(0,19):'尚未检查';
-const link=(url,label='打开官网')=>/^https?:\/\//.test(url||'')?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`:'';
+// One stroke weight and view box for controls, independent of system fonts.
+const iconPaths={external:'<path d="M7 17 17 7M7 7h10v10"/>',right:'<path d="m9 5 7 7-7 7"/>',left:'<path d="m15 5-7 7 7 7"/>',down:'<path d="m5 9 7 7 7-7"/>',download:'<path d="M12 3v12m-5-5 5 5 5-5M5 16v4h14v-4"/>',close:'<path d="m6 6 12 12M6 18 18 6"/>',minus:'<path d="M5 12h14"/>',check:'<path d="m5 12 4 4L19 6"/>',filter:'<path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="2"/><circle cx="15" cy="17" r="2"/>',star:'<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z"/>'};
+const uiIcon=(name,extra='')=>`<svg class="ui-icon ${extra}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${iconPaths[name]||iconPaths.right}</svg>`;
+iconPaths.grid='<rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/>';
+iconPaths.list='<path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/>';
+iconPaths.focus='<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/>';
+const guideArrow=(name='external')=>`<span class="guide-arrow" aria-hidden="true">${uiIcon(name)}</span>`;
+const link=(url,label='打开官网')=>/^https?:\/\//.test(url||'')?`<a class="outbound-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer"><span>${esc(label)}</span>${guideArrow()}</a>`:'';
 const badge=(s='')=>`<span class="badge ${/失败|待核实/.test(s)?'error':/待|暂停|仅/.test(s)?'warn':''}">${esc(s)}</span>`;
 function toast(message){$('#toast').textContent=message;$('#toast').style.display='block';setTimeout(()=>$('#toast').style.display='none',4500)}
 async function post(path,payload){const r=await fetch('/api/'+path,{method:'POST',headers:{'Content-Type':'application/json','X-App-Token':data.token},body:JSON.stringify(payload)});const j=await r.json();if(!r.ok)throw Error(j.error||'操作失败');return j}

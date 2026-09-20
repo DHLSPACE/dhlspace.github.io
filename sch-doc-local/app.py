@@ -124,6 +124,7 @@ class Handler(BaseHTTPRequestHandler):
             allowed.update({'/focus.js':'focus.js','/focus.css':'focus.css','/help':'help.html'})
             allowed.update({'/local-tools.js':'local-tools.js','/local-tools.css':'local-tools.css'})
             allowed.update({'/experience.js':'experience.js','/experience.css':'experience.css'})
+            allowed.update({'/card-browser.js':'card-browser.js','/card-browser.css':'card-browser.css'})
             if path in allowed:
                 p=ROOT/'static'/allowed[path]
                 ctype={'.html':'text/html','.css':'text/css','.js':'text/javascript'}[p.suffix]+'; charset=utf-8'
