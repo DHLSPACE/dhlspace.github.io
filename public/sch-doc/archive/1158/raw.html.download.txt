@@ -1,0 +1,419 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>招生信息</title>
+<meta name="keywords" content="部门名称">
+<meta name="description" content="学校描述" >
+<meta name="viewport" content="width=1200">
+
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/1/style/1/1.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/00/d0/208/style/185/185.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/datepicker/css/datepicker.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/jquery.min.js" sudy-wp-context="" sudy-wp-siteId="208"></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/jquery.datepicker.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/datepicker_lang_HK.js"></script>
+<link rel="shortcut icon" href="/_upload/tpl/01/ea/490/template490/favicon.ico" mce_href="/_upload/tpl/01/ea/490/template490/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="/_upload/tpl/01/ea/490/template490/style.css" type="text/css" />
+<!--[if lt IE 9]>
+	<script src="/_upload/tpl/01/ea/490/template490/extends/libs/html5.js"></script>
+<![endif]-->
+</head>
+<body class="list">
+<!--Start||headTop-->
+<div class="wrapper headtop" id="headtop">
+	<div class="inner">
+		<div class="mod clearfix">
+			<!--头部信息-->
+			<div class="top-left">
+			<span>今天是：</span>
+            <script type="text/javascript">
+				var oldDate = new Date(2011,4,23,0,0,0);
+				var nowDate = new Date();
+				var week = "日,一,二,三,四,五,六".split(',');
+				var str = '<span class="date0">'+nowDate.getFullYear()+'年'+
+				(nowDate.getMonth() + 1)+'月'+nowDate.getDate()+'日 星期'+week[nowDate.getDay()]+'</span>';
+				document.write(str);
+			</script> 	
+			</div>
+			<div class="top-right" >
+				<div class="site-rale" frag="窗口04" portletmode="simpleSudyNavi" configs="{'c5':'0','c9':'0','c6':'0','c4':'_self','c8':'2','c2':'1','c7':'2','c3':'6','c1':'1'}" contents="{'c2':'0'}">
+					<!-- No Data -->
+				</div>						
+			</div>			
+		</div>
+    </div>
+</div>
+<!--End||headTop-->
+<!--Start||head-->
+<div class="wrapper header" id="header">
+	<div class="inner">
+		<div class="mod clearfix">
+			<div class="head-left" frag="面板01">
+				<!--logo开始-->
+				<div class="sitelogo" frag="窗口01" portletmode="simpleSiteAttri">
+					<a href="/main.htm" title="返回中法学院首页"><img border='0' src='/_upload/site/00/d0/208/logo.png' /><!--<span class="sitetitle">中法学院</span>--></a> 
+				</div>
+				<!--//logo结束-->
+			</div>
+			<div class="head-right">
+				
+				<div class="searchbox" frag="窗口03" portletmode="search">
+											<!--搜索组件-->
+						<div class="wp-search clearfix">
+							<form action="/_web/_search/api/search/new.rst?locale=zh_CN&request_locale=zh_CN&_p=YXM9MjA4JnQ9NDkwJmQ9MjE1NiZwPTImZj04NDk0Jm09U04mfGJubkNvbHVtblZpcnR1YWxOYW1lPTg0OTQm" method="post" target="_blank">
+								<div class="search-input">
+									<input name="keyword" class="search-title" type="text" value="请输入关键字" onblur="if(this.value == '') { this.value = '请输入关键字'; }" onfocus="if(this.value == '请输入关键字') { this.value = ''; }" placeholder=""/>
+								</div>
+								<div class="search-btn">
+									<input name="submit" class="search-submit" type="submit" value=""/>
+								</div>
+							</form>
+						</div>
+						<!--//复制以上代码到自定义搜索-->
+				</div>			
+			</div>
+
+		</div>
+	</div>
+</div>
+<!--End||head-->
+<!--Start||nav-->
+<div class="wrapper nav wp-navi" id="nav">
+	<div class="inner clearfix">
+		<div class="wp-panel">
+			<div class="wp-window" frag="窗口1" portletmode="simpleSudyNavi" configs="{'c5':'1','c9':'0','c6':'0','c4':'_self','c8':'2','c2':'1','c7':'2','c3':'21','c1':'1'}" contents="{'c2':'0'}">
+				
+					
+					<ul class="wp-menu">
+						
+						<li class="menu-item i1"><a class="menu-link" href="http://sfie.neu.edu.cn/main.htm" target="_self">网站首页</a>
+							
+						</li>
+						
+						<li class="menu-item i2"><a class="menu-link" href="http://sfie.neu.edu.cn/xmjj/list.htm" target="_self">学院概况</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu ">
+								
+								<li class="sub-item i2-1"><a class="sub-link" href="/xmjj/list.htm" target="_self">项目简介</a>
+									
+								</li>
+								
+								<li class="sub-item i2-2"><a class="sub-link" href="/lhglwyh/list.htm" target="_self">联合管理委员会</a>
+									
+								</li>
+								
+								<li class="sub-item i2-3"><a class="sub-link" href="/lxwm/list.htm" target="_self">联系我们</a>
+									
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+						<li class="menu-item i3"><a class="menu-link" href="/8498/list.htm" target="_self">招生就业</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu ">
+								
+								<li class="sub-item i3-1"><a class="sub-link" href="/zsjz/list.htm" target="_self">招生信息</a>
+									
+								</li>
+								
+								<li class="sub-item i3-2"><a class="sub-link" href="/jyxx/list.htm" target="_self">就业信息</a>
+									
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+						<li class="menu-item i4"><a class="menu-link" href="/8499/list.htm" target="_self">人才培养</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu ">
+								
+								<li class="sub-item i4-1"><a class="sub-link" href="/zyjj/list.htm" target="_self">专业简介</a>
+									
+								</li>
+								
+								<li class="sub-item i4-2"><a class="sub-link" href="/pymb/list.htm" target="_self">培养目标</a>
+									
+								</li>
+								
+								<li class="sub-item i4-3"><a class="sub-link" href="/pyfa/list.htm" target="_self">课程设置</a>
+									
+								</li>
+								
+								<li class="sub-item i4-4"><a class="sub-link" href="/byyq/list.htm" target="_self">毕业要求</a>
+									
+								</li>
+								
+								<li class="sub-item i4-5"><a class="sub-link" href="/jxgg/list.htm" target="_self">教学公告</a>
+									
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+						<li class="menu-item i5"><a class="menu-link" href="/8500/list.htm" target="_self">师资队伍</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu ">
+								
+								<li class="sub-item i5-1"><a class="sub-link" href="/gnjxtd/list.htm" target="_self">师资概况</a>
+									
+								</li>
+								
+								<li class="sub-item i5-2"><a class="sub-link" href="/fgjxtd/list.htm" target="_self">法语教学</a>
+									
+								</li>
+								
+								<li class="sub-item i5-3"><a class="sub-link" href="/fyjxtd/list.htm" target="_self">专业名师</a>
+									
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+						<li class="menu-item i6"><a class="menu-link" href="/8501/list.htm" target="_self">学生事务</a>
+							
+							<em class="menu-switch-arrow"></em>
+							<ul class="sub-menu ">
+								
+								<li class="sub-item i6-1"><a class="sub-link" href="/xscz/list.htm" target="_self">学生风采</a>
+									
+								</li>
+								
+								<li class="sub-item i6-2"><a class="sub-link" href="/fyjzg/list.htm" target="_self">法语讲中国</a>
+									
+								</li>
+								
+							</ul>
+							
+						</li>
+						
+						<li class="menu-item i7"><a class="menu-link" href="/8502/list.htm" target="_self">党团建设</a>
+							
+						</li>
+						
+					</ul>
+					
+				
+			</div>
+		</div>
+	</div>
+</div>
+<!--End||nav-->
+<!--Start||focus-->
+<div class="wp-wrapper" id="container-1">
+	<div class="wp-inner" frag="面板84">
+		<div class="l-banner" frag="窗口84" portletmode="simpleColumnAttri">
+			
+				<img border="0" style="margin:0 auto;" src="" data-imgsrc="/_upload/tpl/01/ea/490/template490/images/list_banner.jpg">
+			
+		</div>
+	</div>
+</div>
+<!--End||focus-->
+<!--Start||content-->
+<div class="wrapper" id="l-container">
+	<div class="inner">
+		<div class="mod clearfix">
+			<div class="col_menu">
+				<div class="col_menu_head">
+					<h3 class="col_name" frag="窗口3" portletmode="simpleColumnAnchor">
+						<span class="col_name_text">
+						<span class='Column_Anchor'>招生就业</span>
+						</span>
+					</h3>
+					<a class="column-switch"></a>
+				</div>
+				<div class="col_menu_con" frag="面板4">
+					<div class="col_list" frag="窗口4" portletmode="simpleColumnList">
+						
+							
+							<ul class="wp_listcolumn list-paddingleft-2">
+								
+								<li class="wp_column column-1 selected">     
+										<a title="招生信息" class="col_item_link selected" href="/zsjz/list.htm"><span class="column-name">招生信息</span></a>
+								</li>
+								<li class="wp_column column-2 ">     
+										<a title="就业信息" class="col_item_link " href="/jyxx/list.htm"><span class="column-name">就业信息</span></a>
+								</li>
+							</ul>
+										
+						
+					</div>
+				</div>
+			</div>
+			<div class="col_news">
+				<div class="col_news_box">
+					<div class="col_news_head">
+						<ul class="col_metas clearfix" frag="窗口5" portletmode="simpleColumnAttri">
+						   
+							<li class="col_path"><span class="path_name">当前位置：</span><a href="/main.htm" target="_self">首页</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/8498/list.htm" target="_self">招生就业</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/zsjz/list.htm" target="_self">招生信息</a></li>
+							<li class="col_title"><h2>招生信息</h2></li>
+						   
+						</ul>
+					</div>
+					<div class="col_news_con" >
+						<div class="col_news_list listcon">
+							<div frag="窗口6" portletmode="simpleList" configs="{'c26':'320','c14':'1','c1':'1','c27':'1','c33':'1','c4':'1','c6':'43','c9':'0','c12':'0','c28':'0','c16':'1','c30':'0','c25':'320','c15':'0','c29':'1','c5':'_blank','c17':'0','c19':'yyyy-MM-dd','c2':'序号,标题,发布时间','c21':'1','c7':'1','c13':'200','c22':'240','c3':'14','c8':'1','c34':'0','c31':'1','c32':'1','c23':'320','c18':'yyyy-MM-dd','c20':'0','c10':'50','c11':'1','c24':'1'}">
+							  					
+									<ul class="news_list list2">
+										
+										<li class="news n1 clearfix">
+											<span class="news_title"><a href='/2026/0615/c8588a456118/page.htm' target='_blank' title='材料科学与工程（中外合作办学）2026报考指南'>材料科学与工程（中外合作办学）2026报考指南</a></span>
+											<span class="news_meta">2026-06-15</span>
+										</li>
+										
+										<li class="news n2 clearfix">
+											<span class="news_title"><a href='/2025/0618/c8588a288183/page.htm' target='_blank' title='材料科学与工程（中外合作办学）2025报考指南'>材料科学与工程（中外合作办学）2025报考指南</a></span>
+											<span class="news_meta">2025-06-18</span>
+										</li>
+										
+										<li class="news n3 clearfix">
+											<span class="news_title"><a href='/2022/0628/c8588a216183/page.htm' target='_blank' title='招生信息｜东北大学材料科学与工程（中外合作办学）专业优秀学子为专业代言'>招生信息｜东北大学材料科学与工程（中外合作办学）专业优秀学子为专业代言</a></span>
+											<span class="news_meta">2022-06-28</span>
+										</li>
+										
+										<li class="news n4 clearfix">
+											<span class="news_title"><a href='/2022/0628/c8588a216182/page.htm' target='_blank' title='招生信息｜东北大学材料科学与工程（中外合作办学）专业优秀学子为专业代言'>招生信息｜东北大学材料科学与工程（中外合作办学）专业优秀学子为专业代言</a></span>
+											<span class="news_meta">2022-06-28</span>
+										</li>
+										
+										<li class="news n5 clearfix">
+											<span class="news_title"><a href='/2022/0628/c8588a216181/page.htm' target='_blank' title='招生信息 | 当我的孩子遇见东大材料'>招生信息 | 当我的孩子遇见东大材料</a></span>
+											<span class="news_meta">2022-06-28</span>
+										</li>
+										
+										<li class="news n6 clearfix">
+											<span class="news_title"><a href='/2022/0628/c8588a216180/page.htm' target='_blank' title='招生信息 | 我的孩子在东北大学中法班......'>招生信息 | 我的孩子在东北大学中法班......</a></span>
+											<span class="news_meta">2022-06-28</span>
+										</li>
+										
+										<li class="news n7 clearfix">
+											<span class="news_title"><a href='/2022/0613/c8588a215491/page.htm' target='_blank' title='材料科学与工程中法合作办学项目2022年招生计划'>材料科学与工程中法合作办学项目2022年招生计划</a></span>
+											<span class="news_meta">2022-06-15</span>
+										</li>
+										
+										<li class="news n8 clearfix">
+											<span class="news_title"><a href='/2022/0615/c8588a215624/page.htm' target='_blank' title='东北大学2022年吉林分专业（类）招生计划及往年录取分数'>东北大学2022年吉林分专业（类）招生计划及往年录取分数</a></span>
+											<span class="news_meta">2022-06-15</span>
+										</li>
+										
+										<li class="news n9 clearfix">
+											<span class="news_title"><a href='/2022/0615/c8588a215623/page.htm' target='_blank' title='东北大学2022年广东分专业（类）招生计划及往年录取分数'>东北大学2022年广东分专业（类）招生计划及往年录取分数</a></span>
+											<span class="news_meta">2022-06-15</span>
+										</li>
+										
+										<li class="news n10 clearfix">
+											<span class="news_title"><a href='/2022/0615/c8588a215622/page.htm' target='_blank' title='东北大学2022年湖南分专业（类）招生计划及往年录取分数'>东北大学2022年湖南分专业（类）招生计划及往年录取分数</a></span>
+											<span class="news_meta">2022-06-15</span>
+										</li>
+										
+										<li class="news n11 clearfix">
+											<span class="news_title"><a href='/2022/0615/c8588a215621/page.htm' target='_blank' title='东北大学2022年湖北分专业（类）招生计划及往年录取分数'>东北大学2022年湖北分专业（类）招生计划及往年录取分数</a></span>
+											<span class="news_meta">2022-06-15</span>
+										</li>
+										
+										<li class="news n12 clearfix">
+											<span class="news_title"><a href='/2022/0615/c8588a215620/page.htm' target='_blank' title='东北大学2022年河南分专业（类）招生计划及往年录取分数'>东北大学2022年河南分专业（类）招生计划及往年录取分数</a></span>
+											<span class="news_meta">2022-06-15</span>
+										</li>
+										
+										<li class="news n13 clearfix">
+											<span class="news_title"><a href='/2022/0615/c8588a215619/page.htm' target='_blank' title='东北大学2022年安徽分专业（类）招生计划及往年录取分数'>东北大学2022年安徽分专业（类）招生计划及往年录取分数</a></span>
+											<span class="news_meta">2022-06-15</span>
+										</li>
+										
+										<li class="news n14 clearfix">
+											<span class="news_title"><a href='/2022/0615/c8588a215618/page.htm' target='_blank' title='东北大学2022年黑龙江分专业（类）招生计划及往年录取分数'>东北大学2022年黑龙江分专业（类）招生计划及往年录取分数</a></span>
+											<span class="news_meta">2022-06-15</span>
+										</li>
+										
+									</ul>
+							  
+ <div id="wp_paging_w6"> 
+<ul class="wp_paging clearfix"> 
+     <li class="pages_count"> 
+         <span class="per_page">每页&nbsp;<em class="per_count">14</em>&nbsp;记录&nbsp;</span> 
+         <span class="all_count">总共&nbsp;<em class="all_count">17</em>&nbsp;记录&nbsp;</span> 
+     </li> 
+     <li class="page_nav"> 
+         <a class="first" href="javascript:void(0);" target="_self"><span>第一页</span></a> 
+         <a class="prev" href="javascript:void(0);" target="_self"><span>&lt;&lt;上一页</span></a> 
+         <a class="next" href="/zsjz/list2.htm" target="_self"><span>下一页&gt;&gt;</span></a> 
+         <a class="last" href="/zsjz/list2.htm" target="_self"><span>尾页</span></a> 
+     </li> 
+     <li class="page_jump"> 
+         <span class="pages">页码&nbsp;<em class="curr_page">1</em>/<em class="all_pages">2</em></span> 
+         <span><input class="pageNum" type="text" /><input type="hidden" class="currPageURL" value=""></span></span> 
+         <span><a class="pagingJump" href="javascript:void(0);" target="_self">跳转到&nbsp;</a></span> 
+     </li> 
+</ul> 
+</div> 
+<script type="text/javascript"> 
+     $().ready(function() { 
+         $("#wp_paging_w6 .pagingJump").click(function() { 
+             var pageNum = $("#wp_paging_w6 .pageNum").val(); 
+             if (pageNum === "") { alert('请输入页码！'); return; } 
+             if (isNaN(pageNum) || pageNum <= 0 || pageNum > 2) { alert('请输入正确页码！'); return; } 
+             var reg = new RegExp("/list", "g"); 
+             var url = "/zsjz/list.htm"; 
+             window.location.href = url.replace(reg, "/list" + pageNum); 
+         }); 
+     }); 
+</script> 
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+<!--End||content-->
+<!--Start||footer-->
+<div class="wrapper footer" id="footer">
+	<div class="inner">
+		<div class="mod clearfix">
+			<div class="foot-left" frag="窗口90" portletmode="simpleSiteAttri">
+				<p class="copyright"><span>版权所有：东北大学材料科学院与工程学院 中法工程学院</span></p>
+				<p class="copyright"><span>通信地址：辽宁省沈阳市和平区文化路3巷11号</span></p>
+                                <p class="copyright"><span>邮政编码：110819</span></p>
+			</div>
+			<div class="foot-right clearfix" >
+            <div class="foot-right1" frag="窗口92" portletmode="simpleNews" configs="{'c28':'320','c14':'1','c1':'1','c29':'0','c39':'300','c38':'100','c21':'0','c4':'1','c6':'15','c9':'0','c12':'0','c30':'0','c37':'1','c31':'0','c16':'1','c27':'320','c15':'0','c32':'','c5':'_blank','c40':'1','c17':'0','c19':'yyyy-MM-dd','c33':'500','c2':'序号,标题,发布时间,缩略图','c23':'1','c41':'240','c22':'0','c7':'1','c13':'200','c43':'0','c24':'240','c35':'-1:-1','c3':'1','c8':'0','c44':'0','c25':'100','c34':'300','c18':'yyyy-MM-dd','c20':'0','c42':'320','c10':'50','c11':'1','c36':'0','c26':'1'}" contents="{'c2':'0'}">
+					<!-- No Data -->
+			</div>
+				<div class="shares" frag="窗口91" portletmode="simpleNews" configs="{'c28':'320','c14':'1','c1':'1','c29':'1','c39':'300','c38':'100','c21':'0','c4':'1','c6':'15','c9':'0','c12':'0','c30':'0','c37':'1','c31':'0','c16':'1','c27':'320','c15':'0','c32':'','c5':'_blank','c40':'1','c17':'0','c19':'yyyy-MM-dd','c33':'500','c2':'序号,标题,发布时间','c23':'1','c41':'240','c22':'0','c7':'1','c13':'200','c43':'0','c24':'240','c35':'-1:-1','c3':'1','c8':'0','c44':'0','c25':'320','c34':'300','c18':'yyyy-MM-dd','c20':'0','c42':'320','c10':'50','c11':'1','c36':'0','c26':'1'}" contents="{'c2':'0'}">
+					<!-- No Data -->
+				</div>
+			</div>
+            
+		</div>
+	</div>
+</div>
+<!--End||footer-->
+<script type="text/javascript" src="/_upload/tpl/01/ea/490/template490/js/comcus.js"></script>
+<script type="text/javascript" src="/_upload/tpl/01/ea/490/template490/js/list.js"></script>
+</body>
+
+</html>
+
+ <img src="/_visitcount?siteId=208&type=2&columnId=8588" style="display:none" width="0" height="0"></image>

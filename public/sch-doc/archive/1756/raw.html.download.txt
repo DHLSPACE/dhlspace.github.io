@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <title>教育处----生物物理研究所</title>
+    <link href="/images/bootstrap.css" rel="stylesheet">
+    <link href="http://api.cas.cn/lib/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/images/common_swwls.css" rel="stylesheet">
+    <link href="/images/aos.css" rel="stylesheet">
+    <link href="/images/swiper.min.css" rel="stylesheet">
+    <link href="/images/index-new.css" rel="stylesheet">
+<style>
+.nav_bg_swwls{
+margin-bottom:0;
+}
+.title-s,.title-s a{
+color: #0061b3;
+}
+.title-s em a{
+color: #0061b3;
+    font-weight: 700;
+}
+.new-index-06 .box-s:hover .title-s,.new-index-06 .box-s:hover .title-s a{
+color:#fff;
+}
+.new-index-07 .main-cont .box-s .title-s{
+font-weight:700;
+}
+.new-index-04 .main-cont{
+background-color: #fff;
+}
+.module-bg{
+background:url(/images/module_bg.jpg) no-repeat top center #fff;
+}
+.module-bg2{
+background:url(/images/module_bg2.jpg) no-repeat top center #fff;
+}
+.new-index-banner .banner-box img{
+height:458px;
+}
+@media(max-width:1199px){
+.new-index-banner .banner-box img{
+height:368px;
+}
+}
+@media(max-width:991px){
+.new-index-banner .banner-box img{
+height:282px;
+}
+}
+@media(max-width:767px){
+.new-index-banner .banner-box img{
+height:235px;
+}
+}
+@media(max-width:380px){
+.new-index-banner .banner-box img{
+height:215px;
+}
+}
+</style>
+</head>
+<body>
+
+<form name="searchform" action="//ibp.cas.cn/../../qwjs/index.html" method="get" target="_top">
+    <input type="hidden" name="keyword" value="" />
+</form>
+<!--全文检索end-->
+
+<div class="nav_bg_swwls fl w100">
+      <div class="fl w100 nav_bar_swwls">
+        <div class="container">
+          <div class="navbar-header w100 fl">
+            <div class="hidden-lg hidden-md fl w100 app_navbar_swwls">
+              <form class="navbar-form fl">
+                <div class="form-group">  
+                  <input id="iptSword" onClick="javascript:if(this.value=='Search') this.value=''" type="text" class="form-control" placeholder="Search" />
+                  <input type="button" class="btn" id="sub-mobile" value="" />
+                </div>
+              </form>
+              <div class="btn-group dropdown fr appbtn_group_swwls">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-share-alt"></i></button>
+                <div class="dropdown-menu dropdown-menu-right app_dropdown_menu_swwls">
+                  <ol class="breadcrumb fr app_breadcrumb_swwls">
+                    <li><a href="http://english.ibp.cas.cn/" target="_blank">English</a></li>
+                    <li><a href="https://mail.cstnet.cn/" target="_blank">邮箱登录</a></li>
+                    <li><a href="http://newoa.arp.cn" target="_blank">内部网</a></li>
+                    <li><a href="http://ibpoa.o-science.com/login" target="_blank">条件保障平台</a></li>
+                    <li><a href="mailto:office@ibp.ac.cn" target="_blank">所长邮箱</a></li>
+                    <li><a href="//ibp.cas.cn/../../wfwj/" target="_blank">违法违纪举报</a></li>
+                    <li><a href="//ibp.cas.cn/../../lx/" target="_blank">联系我们</a></li>   
+                  </ol>
+                </div> 
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 lg_width1">
+              <a href="//ibp.cas.cn/" class="navbar-brand"><img src="//ibp.cas.cn//images/swwls_logo.png" /></a> 
+            </div>
+            <div class="col-md-6 lg_width2 hidden-sm hidden-xs">
+              <ol class="breadcrumb fr">
+                <li><a href="http://english.ibp.cas.cn/" target="_blank">English</a></li>
+                <li><a href="https://mail.cstnet.cn/" target="_blank">邮箱登录</a></li>
+                <li><a href="http://newoa.arp.cn" target="_blank">内部网</a></li>
+                <li><a href="http://ibpoa.o-science.com/login" target="_blank">条件保障平台</a></li>
+                <li><a href="mailto:office@ibp.ac.cn" target="_blank">所长邮箱</a></li>
+                <li><a href="//ibp.cas.cn/../../wfwj/" target="_blank">违法违纪举报</a></li>
+                <li><a href="//ibp.cas.cn/../../lx/" target="_blank">联系我们</a></li>   
+              </ol>
+              <form class="navbar-form fr">
+                <div class="form-group">  
+                  <input id="searchword" onClick="javascript:if(this.value=='Search') this.value=''" type="text" class="form-control" placeholder="搜 索" />
+                  <input type="button" class="btn" id="sub-pc" value="" />
+                </div>
+              </form>
+            </div>
+          </div><!--  navbar-header end -->
+        </div><!--  container end -->
+      </div><!-- nav_bar_swwls end -->
+      <nav class="fl w100 nav_swwls">
+        <div class="container">
+          <div class="nav_main_swwls w100 fl">
+            <div class="navbar-header">
+              <span class="fl hidden-lg hidden-md hidden-sm">MENU</span>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse paddnone" id="bs-example-navbar-collapse-1">
+              <div class="fl w100 navbar-nav_swwls">
+                <ul class="nav navbar-nav nav-justified">
+                    <li><a href="/ ">首页</a></li>
+                    <li class="dropdown">
+                        <a href="//ibp.cas.cn/../../js/" class="dropdown-toggle" data-toggle="dropdown">所况简介</a>
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="//ibp.cas.cn/../../js/skjj/">所况简介</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../js/szzc/">所长致辞</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../js/xrld/">现任领导</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../js/lrld/">历任领导</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../js/zzjg/">组织机构</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../js/xswyh/">学术委员会</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../js/xxbs/">形象标识</a></li>
+                            
+                        </ul>
+                    </li>  
+                    <li class="dropdown">
+                        <a href="//ibp.cas.cn/../../jg/" class="dropdown-toggle" data-toggle="dropdown">机构设置</a>
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="//ibp.cas.cn/../../jg/yjbm/">研究部门</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../jg/glbm/">管理支撑</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../jg/kypt/">科研平台</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../jg/gkbm/">挂靠机构</a></li>
+                            
+                        </ul>
+                    </li>      
+                    <li class="dropdown">
+                        <a href="//ibp.cas.cn/../../kytd/" class="dropdown-toggle" data-toggle="dropdown">科研队伍</a>
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="//ibp.cas.cn/../../kytd/xyzz/">研究组长</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../kytd/yszj/">院士专家</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../kytd/cxyjqtxmhdz/">创新研究群体项目获得者</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../kytd/jcqnkxjjhdz/">杰出青年科学基金获得者</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../kytd/yx/">优秀青年</a></li>
+                            
+                        </ul>
+                    </li>       
+                    <li class="dropdown">
+                        <a href="//ibp.cas.cn/../../cg/" class="dropdown-toggle" data-toggle="dropdown">科研成果</a>
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="//ibp.cas.cn/../../cg/lw/">论文</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../cg/zz/">专著</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../cg/zl/">专利</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../cg/hj/">获奖</a></li>
+                            
+                        </ul>
+                    </li>                                
+                    <li class="dropdown">
+                        <a href="//ibp.cas.cn/../../hz/" class="dropdown-toggle" data-toggle="dropdown">交流合作</a>
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="//ibp.cas.cn/../../hz/jj/">简介</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../hz/gjgwwyh/">国际顾问委员会</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../hz/gjzzrz/">国际组织任职</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../hz/gjqkrz/">国际期刊任职</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../hz/gjhzyjjd/">国际合作研究基地</a></li>
+                            
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="https://ibp.cas.cn/djzt/" target="_blank">党群园地</a>
+                    </li>                                                                  
+                    <li>
+                        <a href="//ibp.cas.cn/../../2020jyc/">教育培养</a>
+                    </li>                                                                                                                                
+                    <li class="dropdown">
+                        <a href="//ibp.cas.cn/../../cb/" class="dropdown-toggle" data-toggle="dropdown">科学传播</a>
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="//ibp.cas.cn/../../cb/xsqk/">学术期刊</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../cb/kpbd/">科普报道</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../cb/kpdt/">科普动态</a></li>
+                            
+                            
+                                <li><a href="http://www.ibp.cas.cn/jcsp/kxsj/">科学视界</a></li>
+                                
+                            
+                                <li><a href="//ibp.cas.cn/../../cb/kxgkr/" target="_blank">公众科学日</a></li>
+                            
+                        </ul>
+                    </li>                                                                                                 
+                    <li>
+                        <a href="//ibp.cas.cn/../../zp/">人才招聘</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="//ibp.cas.cn/../../gk/" class="dropdown-toggle" data-toggle="dropdown">信息公开</a>
+                        <ul class="dropdown-menu">
+                            
+                            <li><a href="//ibp.cas.cn/../../gk/xxgkgd/">信息公开规定</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../gk/xxgkzn/">信息公开指南</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../gk/xxgkml/">信息公开目录</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../gk/xxgkndbg/">信息公开年度报告</a></li>
+                            
+                            <li><a href="//ibp.cas.cn/../../gk/xxgklxfs/">信息公开联系方式</a></li>
+                            
+                        </ul>
+                    </li>           
+                </ul>
+              </div>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- row end -->
+        </div> <!--  container end -->
+      </nav> <!--  nav_swwls end -->
+    </div>
+
+<div class="clear"></div>
+<div class="main-cont-wrap-01 public-wrap">
+    <div class="container">
+        <div class="new-index-banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide">
+                        <div class="banner-box">
+                            <a href="./gdtp/202604/t20260424_8191279.html" target="_blank"><img class="hidden-xs" src="./gdtp/202604/W020260424619234629571_ORIGIN.png" alt="" /><img class="hidden-lg hidden-md hidden-sm" src="" alt="" /></a>
+                            <div class="banner-title">
+                                <div class="container">
+                                    <a href="./gdtp/202604/t20260424_8191279.html" target="_blank" class="h20">中国科学院生物物理研究所2027年研究生招生宣讲会</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="banner-box">
+                            <a href="./gdtp/202506/t20250614_7869480.html" target="_blank"><img class="hidden-xs" src="./gdtp/202506/W020250614744616089704_ORIGIN.jpg" alt="" /><img class="hidden-lg hidden-md hidden-sm" src="" alt="" /></a>
+                            <div class="banner-title">
+                                <div class="container">
+                                    <a href="./gdtp/202506/t20250614_7869480.html" target="_blank" class="h20">生物物理研究所-南开大学学术交流与人才培养研讨会成功举办</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="banner-box">
+                            <a href="./gdtp/202504/t20250414_7598023.html" target="_blank"><img class="hidden-xs" src="./gdtp/202504/W020250414572973701095.png" alt="" /><img class="hidden-lg hidden-md hidden-sm" src="" alt="" /></a>
+                            <div class="banner-title">
+                                <div class="container">
+                                    <a href="./gdtp/202504/t20250414_7598023.html" target="_blank" class="h20">生物物理研究所2026年研究生招生宣讲会</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="banner-box">
+                            <a href="./gdtp/202503/t20250313_7553121.html" target="_blank"><img class="hidden-xs" src="./gdtp/202503/W020250313404444932953.jpg" alt="" /><img class="hidden-lg hidden-md hidden-sm" src="" alt="" /></a>
+                            <div class="banner-title">
+                                <div class="container">
+                                    <a href="./gdtp/202503/t20250313_7553121.html" target="_blank" class="h20">华中科技大学贝时璋菁英班与南开大学邹承鲁菁英班开班仪式圆满举行</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="banner-box">
+                            <a href="./gdtp/202502/t20250221_7531645.html" target="_blank"><img class="hidden-xs" src="./gdtp/202502/W020250221603749549927.jpg" alt="" /><img class="hidden-lg hidden-md hidden-sm" src="" alt="" /></a>
+                            <div class="banner-title">
+                                <div class="container">
+                                    <a href="./gdtp/202502/t20250221_7531645.html" target="_blank" class="h20">生物物理所2025年寒假留所学生慰问活动圆满举办</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="swiper-pagination banner-page"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 box-w hidden-xs" >
+                <div class="new-index-01">
+                    <div class="new-public-title">
+                        <div class="title-wrap h16">
+                            <span class="title-name h28">新闻动态</span>
+                            <span class="title-line">/</span>
+                            <a href="./xwdt/"class="title-more">MORE</a>
+                        </div>
+                    </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s h16">
+                                    <div class="box-img">
+                                        <a href="./xwdt/202608/t20260819_8262220.html" target="_blank"><img src="./xwdt/202608/W020260819406957382790_ORIGIN.png" alt="" /></a>
+                                    </div>
+                                    <a href="./xwdt/202608/t20260819_8262220.html" target="_blank" class="box-title">
+                                        <span class="title-s">热烈祝贺我所毕业生获得中国科学院优秀博士学位论文奖项</span>
+                                        <span class="date-s">[2026-08-19]</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s h16">
+                                    <div class="box-img">
+                                        <a href="./xwdt/202608/t20260819_8262211.html" target="_blank"><img src="./xwdt/202608/W020260819401391871863_ORIGIN.png" alt="" /></a>
+                                    </div>
+                                    <a href="./xwdt/202608/t20260819_8262211.html" target="_blank" class="box-title">
+                                        <span class="title-s">热烈祝贺我所研究生获得中国科学院地奥奖学金</span>
+                                        <span class="date-s">[2026-08-19]</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s h16">
+                                    <div class="box-img">
+                                        <a href="./xwdt/202608/t20260819_8262202.html" target="_blank"><img src="./xwdt/202608/W020260819392503471501_ORIGIN.png" alt="" /></a>
+                                    </div>
+                                    <a href="./xwdt/202608/t20260819_8262202.html" target="_blank" class="box-title">
+                                        <span class="title-s">热烈祝贺我所研究生获得中国科学院院长奖奖项</span>
+                                        <span class="date-s">[2026-08-19]</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s h16">
+                                    <div class="box-img">
+                                        <a href="./xwdt/202512/t20251210_8025200.html" target="_blank"><img src="./xwdt/202512/W020251210603379371748_ORIGIN.png" alt="" /></a>
+                                    </div>
+                                    <a href="./xwdt/202512/t20251210_8025200.html" target="_blank" class="box-title">
+                                        <span class="title-s">热烈祝贺我所研究生获得2025年研究生国家奖学金</span>
+                                        <span class="date-s">[2025-12-10]</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s h16">
+                                    <div class="box-img">
+                                        <a href="./xwdt/202510/t20251021_7993665.html" target="_blank"><img src="./xwdt/202510/W020251021518792558238_ORIGIN.png" alt="" /></a>
+                                    </div>
+                                    <a href="./xwdt/202510/t20251021_7993665.html" target="_blank" class="box-title">
+                                        <span class="title-s">热烈祝贺我所研究生导师荣获2025年度中国科学院优秀导师称号</span>
+                                        <span class="date-s">[2025-10-21]</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 box-w" >
+                <div class="new-index-02">
+                    <div class="new-public-title">
+                        <div class="title-wrap h16">
+                            <span class="title-name h28">教育概况</span>
+                            <span class="title-line">/</span>
+                            <a href="./gk/jygk/"class="title-more">MORE</a>
+                        </div>
+                    </div>
+                    <div class="main-cont">
+                        
+                        　　生物物理所是中科院最早培养研究生的单位之一。1955年国家首次建立研究生培养制度后，研究所在1955-1977年这段期间先后招收了2批共6名研究生。1978年国家恢复研究生招生制度后，研究所先后被列为国务院首批博士和硕士学位授予单位、自行增列博士生导师试点单位，以及中科院博士生重点培养基地。国家恢复研究生招生制度后，首位生物学博士徐功巧(也是国内培养的第一位女博士)在生物物理所毕业并获得理学博士学位。研究所的学科设置包含了生物学、心理学和基础医学3个一级学科。设有生物化学与分子生物学、生物物理学、认知神经科学、神经生物学等共7个二级学科专业博士培养点。
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 box-w hidden-lg hidden-md hidden-sm" >
+                <div class="new-index-01">
+                    <div class="new-public-title">
+                        <div class="title-wrap h16">
+                            <span class="title-name h28">新闻动态</span>
+                            <span class="title-line">/</span>
+                            <a href="./xwdt/"class="title-more">MORE</a>
+                        </div>
+                    </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s h16">
+                                    <div class="box-img">
+                                        <a href="./xwdt/202608/t20260819_8262220.html" target="_blank"><img src="./xwdt/202608/W020260819406957382790_ORIGIN.png" alt="" /></a>
+                                    </div>
+                                    <a href="./xwdt/202608/t20260819_8262220.html" target="_blank" class="box-title">
+                                        <span class="title-s">热烈祝贺我所毕业生获得中国科学院优秀博士学位论文奖项</span>
+                                        <span class="date-s">[2026-08-19]</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s h16">
+                                    <div class="box-img">
+                                        <a href="./xwdt/202608/t20260819_8262211.html" target="_blank"><img src="./xwdt/202608/W020260819401391871863_ORIGIN.png" alt="" /></a>
+                                    </div>
+                                    <a href="./xwdt/202608/t20260819_8262211.html" target="_blank" class="box-title">
+                                        <span class="title-s">热烈祝贺我所研究生获得中国科学院地奥奖学金</span>
+                                        <span class="date-s">[2026-08-19]</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s h16">
+                                    <div class="box-img">
+                                        <a href="./xwdt/202608/t20260819_8262202.html" target="_blank"><img src="./xwdt/202608/W020260819392503471501_ORIGIN.png" alt="" /></a>
+                                    </div>
+                                    <a href="./xwdt/202608/t20260819_8262202.html" target="_blank" class="box-title">
+                                        <span class="title-s">热烈祝贺我所研究生获得中国科学院院长奖奖项</span>
+                                        <span class="date-s">[2026-08-19]</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s h16">
+                                    <div class="box-img">
+                                        <a href="./xwdt/202512/t20251210_8025200.html" target="_blank"><img src="./xwdt/202512/W020251210603379371748_ORIGIN.png" alt="" /></a>
+                                    </div>
+                                    <a href="./xwdt/202512/t20251210_8025200.html" target="_blank" class="box-title">
+                                        <span class="title-s">热烈祝贺我所研究生获得2025年研究生国家奖学金</span>
+                                        <span class="date-s">[2025-12-10]</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s h16">
+                                    <div class="box-img">
+                                        <a href="./xwdt/202510/t20251021_7993665.html" target="_blank"><img src="./xwdt/202510/W020251021518792558238_ORIGIN.png" alt="" /></a>
+                                    </div>
+                                    <a href="./xwdt/202510/t20251021_7993665.html" target="_blank" class="box-title">
+                                        <span class="title-s">热烈祝贺我所研究生导师荣获2025年度中国科学院优秀导师称号</span>
+                                        <span class="date-s">[2025-10-21]</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 box-w">
+                <div class="new-index-03">
+                    <div class="new-public-title">
+                        <div class="title-wrap h16">
+                            <span class="title-name h28">通知公告</span>
+                            <span class="title-line">/</span>
+                            <a href="./tzgg/"class="title-more">MORE</a>
+                        </div>
+                    </div>
+                    <div class="swiper-container news-list swiper-no-swiping">
+                        <div class="swiper-wrapper">
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="./tzgg/202609/t20260921_8285423.html" target="_blank">中国科学院生物物理研究所2027年推免生招生专业目录</a>
+                                    <span>[2026-09-21]</span>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="./tzgg/202609/t20260921_8285418.html" target="_blank">中国科学院生物物理研究所2027年直博生招生专业目录</a>
+                                    <span>[2026-09-21]</span>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="./tzgg/202608/t20260803_8258734.html" target="_blank">中国科学院生物物理研究所关于招收2027年推荐免试研究生（含直博生）的通知</a>
+                                    <span>[2026-08-03]</span>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="./tzgg/202605/t20260529_8211332.html" target="_blank">2026年生物物理研究所博士研究生拟录取名单公示（第二批）</a>
+                                    <span>[2026-05-29]</span>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="./tzgg/202605/t20260521_8207864.html" target="_blank">2026年生物物理研究所博士研究生拟录取名单公示</a>
+                                    <span>[2026-05-21]</span>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="./tzgg/202605/t20260511_8199128.html" target="_blank">中国科学院生物物理研究所2026年生命科学希望之星夏令营报名通知</a>
+                                    <span>[2026-05-11]</span>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="./tzgg/202604/t20260401_8180244.html" target="_blank">中国科学院生物物理研究所2026年统考硕士研究生拟录取名单公示（第二批）</a>
+                                    <span>[2026-04-01]</span>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="./tzgg/202603/t20260326_8178057.html" target="_blank">中国科学院生物物理研究所2026年统考硕士研究生拟录取名单公示</a>
+                                    <span>[2026-03-26]</span>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="./tzgg/202603/t20260312_8158551.html" target="_blank">中国科学院生物物理研究所2026年硕士研究生复试公告</a>
+                                    <span>[2026-03-12]</span>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="box-s">
+                                    <a href="./tzgg/202602/t20260227_8146165.html" target="_blank">生物物理所2026年硕士入学考试初试成绩查询及成绩复查公告<br/></a>
+                                    <span>[2026-02-27]</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-cont-wrap-02 public-wrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="new-index-04" aos="fade-right">
+                    <div class="new-public-title">
+                        <div class="title-wrap h16">
+                            <span class="title-name h28">招生</span>
+                            <span class="title-line">/</span>
+                            <a href="./zs/"class="title-more">MORE</a>
+                        </div>
+                    </div>
+                    <div class="main-cont h24 module-bg">
+                        <div class="row">
+                            
+                            <div class="col-xs-4 box-w">
+                                <div class="box-s">
+                                    <a href="./zs/gzzd/">
+                                        <span class="icon-s">
+                                            <img src="./zs/gzzd/images/P020250109596780538553.png" class="icon-d" alt="" />
+                                            <img src="./zs/gzzd/images/P020250110386520116957.png" class="icon-d" alt="" />
+                                        </span>
+                                        <span class="title-s">规章制度</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 box-w">
+                                <div class="box-s">
+                                    <a href="./zs/dsjs/">
+                                        <span class="icon-s">
+                                            <img src="./zs/dsjs/images/P020250109597312901380.png" class="icon-d" alt="" />
+                                            <img src="./zs/dsjs/images/P020250110443829987145.png" class="icon-d" alt="" />
+                                        </span>
+                                        <span class="title-s">导师介绍</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 box-w">
+                                <div class="box-s">
+                                    <a href="./zs/zsxc/">
+                                        <span class="icon-s">
+                                            <img src="./zs/zsxc/images/P020250109597704675779.png" class="icon-d" alt="" />
+                                            <img src="./zs/zsxc/images/P020250110403340955147.png" class="icon-d" alt="" />
+                                        </span>
+                                        <span class="title-s">招生宣传</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 box-w">
+                                <div class="box-s">
+                                    <a href="./zs/sszs/">
+                                        <span class="icon-s">
+                                            <img src="./zs/sszs/images/P020250109598102947813.png" class="icon-d" alt="" />
+                                            <img src="./zs/sszs/images/P020250110403660146410.png" class="icon-d" alt="" />
+                                        </span>
+                                        <span class="title-s">硕士招生</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 box-w">
+                                <div class="box-s">
+                                    <a href="./zs/bszs/">
+                                        <span class="icon-s">
+                                            <img src="./zs/bszs/images/P020250109599652598018.png" class="icon-d" alt="" />
+                                            <img src="./zs/bszs/images/P020250110404154255275.png" class="icon-d" alt="" />
+                                        </span>
+                                        <span class="title-s">博士招生</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 box-w">
+                                <div class="box-s">
+                                    <a href="./zs/lxszs/">
+                                        <span class="icon-s">
+                                            <img src="./zs/lxszs/images/P020250109599993337487.png" class="icon-d" alt="" />
+                                            <img src="./zs/lxszs/images/P020250110404051550769.png" class="icon-d" alt="" />
+                                        </span>
+                                        <span class="title-s">留学生招生</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 box-w">
+                                <div class="box-s">
+                                    <a href="./zs/xly/">
+                                        <span class="icon-s">
+                                            <img src="./zs/xly/images/P020250109600666725056.png" class="icon-d" alt="" />
+                                            <img src="./zs/xly/images/P020250110404527903625.png" class="icon-d" alt="" />
+                                        </span>
+                                        <span class="title-s">夏令营</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 box-w">
+                                <div class="box-s">
+                                    <a href="./zs/cjwt/">
+                                        <span class="icon-s">
+                                            <img src="./zs/cjwt/images/P020250109601130892936.png" class="icon-d" alt="" />
+                                            <img src="./zs/cjwt/images/P020250110405130833425.png" class="icon-d" alt="" />
+                                        </span>
+                                        <span class="title-s">常见问题</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 box-w">
+                                <div class="box-s">
+                                    <a href="./zs/bgxz/">
+                                        <span class="icon-s">
+                                            <img src="./zs/bgxz/images/P020250109599181364438.png" class="icon-d" alt="" />
+                                            <img src="./zs/bgxz/images/P020250110405757942479.png" class="icon-d" alt="" />
+                                        </span>
+                                        <span class="title-s">表格下载</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="new-index-04" aos="fade-left">
+                    <div class="new-public-title">
+                        <div class="title-wrap h16">
+                            <span class="title-name h28">学位</span>
+                            <span class="title-line">/</span>
+                            <a href="./xw/"class="title-more">MORE</a>
+                        </div>
+                    </div>
+                    <div class="main-cont h24 module-bg2">
+                        <div class="row">
+                            
+                            <div class="col-xs-4 box-w">
+                                <div class="box-s">
+                                    <a href="./xw/xsgf/">
+                                        <span class="icon-s">
+                                            <img src="./xw/xsgf/images/P020250109612739177179.png" class="icon-d" alt="" />
+                                            <img src="./xw/xsgf/images/P020250109612858548975.png" class="icon-d" alt="" />
+                                        </span>
+                                        <span class="title-s">学术规范</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 box-w">
+                                <div class="box-s">
+                                    <a href="./xw/gzzd/">
+                                        <span class="icon-s">
+                                            <img src="./xw/gzzd/images/P020250109613545267962.png" class="icon-d" alt="" />
+                                            <img src="./xw/gzzd/images/P020250109613630072214.png" class="icon-d" alt="" />
+                                        </span>
+                                        <span class="title-s">规章制度</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 box-w">
+                                <div class="box-s">
+                                    <a href="./xw/lwzx/">
+                                        <span class="icon-s">
+                                            <img src="./xw/lwzx/images/P020250109614137963489.png" class="icon-d" alt="" />
+                                            <img src="./xw/lwzx/images/P020250109614207651080.png" class="icon-d" alt="" />
+                                        </span>
+                                        <span class="title-s">论文撰写</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 box-w">
+                                <div class="box-s">
+                                    <a href="./xw/bylc/">
+                                        <span class="icon-s">
+                                            <img src="./xw/bylc/images/P020250109614568501825.png" class="icon-d" alt="" />
+                                            <img src="./xw/bylc/images/P020250109614640892772.png" class="icon-d" alt="" />
+                                        </span>
+                                        <span class="title-s">毕业及学位</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 box-w">
+                                <div class="box-s">
+                                    <a href="./xw/bydl/">
+                                        <span class="icon-s">
+                                            <img src="./xw/bydl/images/P020250109617042339043.png" class="icon-d" alt="" />
+                                            <img src="./xw/bydl/images/P020250109617120712388.png" class="icon-d" alt="" />
+                                        </span>
+                                        <span class="title-s">毕业典礼</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-xs-4 box-w">
+                                <div class="box-s">
+                                    <a href="./xw/xgbgxz/">
+                                        <span class="icon-s">
+                                            <img src="./xw/xgbgxz/images/P020250109618509674824.png" class="icon-d" alt="" />
+                                            <img src="./xw/xgbgxz/images/P020250109618586953347.png" class="icon-d" alt="" />
+                                        </span>
+                                        <span class="title-s">表格下载</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-cont-wrap-03 public-wrap">
+    <div class="container">
+        <div class="row mod-wrap">
+            <div class="col-md-6">
+                <div class="new-index-05" aos="flip-right">
+                    <div class="main-cont">
+                        <div class="box-info" style="background-image: url('/images/img-02.png')">
+                            <div class="box-mc middle-box">
+                                <div class="middle-cont">
+                                    <div class="box-title h28">培养</div>
+                                    <div class="box-txt">
+                                        
+                                    </div>
+                                    <a href="./py/" class="box-more">MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-groups h24">
+                            <div class="row">
+                                
+                                <div class="col-xs-4 box-w">
+                                    <div class="box-s">
+                                        <a href="./py/sjjw/">
+                                        <span class="icon-s">
+                                            <img src="./py/sjjw/images/P020250109601624573575.png" class="icon-d" alt="" />
+                                            <!--<img src="./py/sjjw/images/P020250109604711780170.png" class="icon-h" alt="" />-->
+                                        </span>
+                                            <span class="title-s">所级教务</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-4 box-w">
+                                    <div class="box-s">
+                                        <a href="./py/xjgl/">
+                                        <span class="icon-s">
+                                            <img src="./py/xjgl/images/P020250109601934079511.png" class="icon-d" alt="" />
+                                            <!--<img src="./py/xjgl/images/P020250109605066851803.png" class="icon-h" alt="" />-->
+                                        </span>
+                                            <span class="title-s">学籍管理</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-4 box-w">
+                                    <div class="box-s">
+                                        <a href="./py/khpy/">
+                                        <span class="icon-s">
+                                            <img src="./py/khpy/images/P020250109602365405747.png" class="icon-d" alt="" />
+                                            <!--<img src="" class="icon-h" alt="" />-->
+                                        </span>
+                                            <span class="title-s">考核评优</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-4 box-w">
+                                    <div class="box-s">
+                                        <a href="./py/lhpy/">
+                                        <span class="icon-s">
+                                            <img src="./py/lhpy/images/P020250109602716485840.png" class="icon-d" alt="" />
+                                            <!--<img src="" class="icon-h" alt="" />-->
+                                        </span>
+                                            <span class="title-s">联合培养</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-4 box-w">
+                                    <div class="box-s">
+                                        <a href="./py/gjjl/">
+                                        <span class="icon-s">
+                                            <img src="./py/gjjl/images/P020250109603029245758.png" class="icon-d" alt="" />
+                                            <!--<img src="./py/gjjl/images/P020250109604342133146.png" class="icon-h" alt="" />-->
+                                        </span>
+                                            <span class="title-s">国际交流</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-4 box-w">
+                                    <div class="box-s">
+                                        <a href="./py/xgbg/">
+                                        <span class="icon-s">
+                                            <img src="./py/xgbg/images/P020250109603414295192.png" class="icon-d" alt="" />
+                                            <!--<img src="./py/xgbg/images/P020250109603861341986.png" class="icon-h" alt="" />-->
+                                        </span>
+                                            <span class="title-s">相关表格</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="new-index-05" aos="flip-left">
+                    <div class="main-cont">
+                        <div class="box-info" style="background-image: url('/images/img-02.png')">
+                            <div class="box-mc middle-box">
+                                <div class="middle-cont">
+                                    <div class="box-title h28">学工</div>
+                                    <div class="box-txt">
+                                        
+                                    </div>
+                                    <a href="./xg/" class="box-more">MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-groups h24">
+                            <div class="row">
+                                
+                                <div class="col-xs-4 box-w">
+                                    <div class="box-s">
+                                        <a href="./xg/jzxj/">
+                                        <span class="icon-s">
+                                            <img src="./xg/jzxj/images/P020250109607515855392.png" class="icon-d" alt="" />
+                                            <!--<img src="./xg/jzxj/images/P020250109607626459195.png" class="icon-h" alt="" />-->
+                                        </span>
+                                            <span class="title-s">奖助学金</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-4 box-w">
+                                    <div class="box-s">
+                                        <a href="./xg/zsgl/">
+                                        <span class="icon-s">
+                                            <img src="./xg/zsgl/images/P020250109608002148160.png" class="icon-d" alt="" />
+                                            <!--<img src="./xg/zsgl/images/P020250109608091764943.png" class="icon-h" alt="" />-->
+                                        </span>
+                                            <span class="title-s">住宿管理</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-4 box-w">
+                                    <div class="box-s">
+                                        <a href="./xg/dagl/">
+                                        <span class="icon-s">
+                                            <img src="./xg/dagl/images/P020250109609080344564.png" class="icon-d" alt="" />
+                                            <!--<img src="./xg/dagl/images/P020250109609162770922.png" class="icon-h" alt="" />-->
+                                        </span>
+                                            <span class="title-s">户籍档案</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-4 box-w">
+                                    <div class="box-s">
+                                        <a href="./xg/dthd/">
+                                        <span class="icon-s">
+                                            <img src="./xg/dthd/images/P020250109610183565236.png" class="icon-d" alt="" />
+                                            <!--<img src="./xg/dthd/images/P020250109610270020266.png" class="icon-h" alt="" />-->
+                                        </span>
+                                            <span class="title-s">党团活动</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-4 box-w">
+                                    <div class="box-s">
+                                        <a href="./xg/xljk/">
+                                        <span class="icon-s">
+                                            <img src="./xg/xljk/images/P020250109610674873587.png" class="icon-d" alt="" />
+                                            <!--<img src="./xg/xljk/images/P020250109610794169249.png" class="icon-h" alt="" />-->
+                                        </span>
+                                            <span class="title-s">心理健康</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-4 box-w">
+                                    <div class="box-s">
+                                        <a href="./xg/yjsh/">
+                                        <span class="icon-s">
+                                            <img src="./xg/yjsh/images/P020250109611223562854.png" class="icon-d" alt="" />
+                                            <!--<img src="./xg/yjsh/images/P020250109611352996192.png" class="icon-h" alt="" />-->
+                                        </span>
+                                            <span class="title-s">研究生会</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-xs-4 box-w">
+                                    <div class="box-s">
+                                        <a href="./xg/xgbgxz/">
+                                        <span class="icon-s">
+                                            <img src="./xg/xgbgxz/images/P020250109611972015006.png" class="icon-d" alt="" />
+                                            <!--<img src="./xg/xgbgxz/images/P020250109612194914864.png" class="icon-h" alt="" />-->
+                                        </span>
+                                            <span class="title-s">相关表格</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="new-index-06"  aos="fade-up">
+                    <div class="new-public-title">
+                        <div class="title-wrap h16">
+                            <span class="title-name h28">就业</span>
+                            <span class="title-line">/</span>
+                            <a href="./jy/"class="title-more">MORE</a>
+                        </div>
+                    </div>
+                    <div class="main-cont">
+                        <div class="row">
+                            
+                            <div class="col-sm-6 box-w">
+<a href="./jy/pqlc/">
+                                <div herf="./jy/pqlc/" class="box-s middle-box">
+                                    <div class="middle-cont">
+                                        <span class="icon-s"><img src="./jy/pqlc/images/P020250109618962015892.png" alt="" />
+                                        </span>
+                                        <span class="title-s">
+                                            <em class="h18">毕业派遣</em>
+                                            DISPATCH PROCESS
+                                        </span>
+                                    </div>
+                                </div>
+</a>
+                            </div>
+                            
+                            <div class="col-sm-6 box-w">
+<a href="./jy/jyxx/">
+                                <div herf="./jy/jyxx/" class="box-s middle-box">
+                                    <div class="middle-cont">
+                                        <span class="icon-s"><img src="./jy/jyxx/images/P020250109619372383371.png" alt="" />
+                                        </span>
+                                        <span class="title-s">
+                                            <em class="h18">就业信息</em>
+                                            EMPLOYMENT POLICY
+                                        </span>
+                                    </div>
+                                </div>
+</a>
+                            </div>
+                            
+                            <div class="col-sm-6 box-w">
+<a href="./jy/yxbysmd/">
+                                <div herf="./jy/yxbysmd/" class="box-s middle-box">
+                                    <div class="middle-cont">
+                                        <span class="icon-s"><img src="./jy/yxbysmd/images/P020250109620226524946.png" alt="" />
+                                        </span>
+                                        <span class="title-s">
+                                            <em class="h18">所友录</em>
+                                            OUTSTANDING GRADUATES
+                                        </span>
+                                    </div>
+                                </div>
+</a>
+                            </div>
+                            
+                            <div class="col-sm-6 box-w">
+<a href="./jy/xgbgxz/">
+                                <div herf="./jy/xgbgxz/" class="box-s middle-box">
+                                    <div class="middle-cont">
+                                        <span class="icon-s"><img src="./jy/xgbgxz/images/P020250109620545443242.png" alt="" />
+                                        </span>
+                                        <span class="title-s">
+                                            <em class="h18">相关表格下载</em>
+                                            DOWNLOAD FORM
+                                        </span>
+                                    </div>
+                                </div>
+</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="new-index-07" aos="fade-down">
+                    <div class="new-public-title">
+                        <div class="title-wrap h16">
+                            <span class="title-name h28">科教融合</span>
+                            <span class="title-line">/</span>
+                            <a href="./kjrh/"class="title-more">MORE</a>
+                        </div>
+                    </div>
+                    <div class="main-cont">
+                        <div class="row">
+                            
+                            <div class="col-xs-6 box-w">
+                                <a href="./kjrh/gkdsmkxxy/" class="box-s">
+                                    <span class="icon-s"><img src="./kjrh/gkdsmkxxy/images/P020250109621478907313.png" alt="" /></span>
+                                    <span class="title-s h18">国科大生命科学学院</span>
+                                </a>
+                            </div>
+                            
+                            <div class="col-xs-6 box-w">
+                                <a href="./kjrh/lhpy/" class="box-s">
+                                    <span class="icon-s"><img src="./kjrh/lhpy/images/P020250109621773184026.png" alt="" /></span>
+                                    <span class="title-s h18">培养方案</span>
+                                </a>
+                            </div>
+                            
+                            <div class="col-xs-6 box-w">
+                                <a href="./kjrh/kcjh/" class="box-s">
+                                    <span class="icon-s"><img src="./kjrh/kcjh/images/P020250109622034984310.png" alt="" /></span>
+                                    <span class="title-s h18">科研实践</span>
+                                </a>
+                            </div>
+                            
+                            <div class="col-xs-6 box-w">
+                                <a href="./kjrh/bkbysx/" class="box-s">
+                                    <span class="icon-s"><img src="./kjrh/bkbysx/images/P020250109622387592784.png" alt="" /></span>
+                                    <span class="title-s h18">毕业论文</span>
+                                </a>
+                            </div>
+                            
+                            <div class="col-xs-6 box-w">
+                                <a href="./kjrh/xgbgxz/" class="box-s">
+                                    <span class="icon-s"><img src="./kjrh/xgbgxz/images/P020250109622789222977.png" alt="" /></span>
+                                    <span class="title-s h18">本科生科研项目</span>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="public-wrap new-index-08" style="margin-bottom: -15px;">
+    <div class="container">
+        <div class="main-cont" aos="zoom-in">
+            <div class="new-public-title">
+                <div class="title-wrap h16">
+                    <span class="title-name h28">友情链接</span>
+                </div>
+            </div>
+            <div class="cont-groups">
+                <div class="row">
+                    
+                    <div class="col-sm-3 col-xs-6 box-w">
+                        <div class="box-s "><a href="https://www.ucas.ac.cn/" target="_blank"><img src="./links/202011/W020241215779359802924.png" alt="" /></a></div>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-6 box-w">
+                        <div class="box-s "><a href="http://sep.ucas.ac.cn/" target="_blank"><img src="./links/202011/W020241215779328990055.png" alt="" /></a></div>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-6 box-w">
+                        <div class="box-s "><a href="https://yz.chsi.com.cn/" target="_blank"><img src="./links/202011/W020241215779371371249.png" alt="" /></a></div>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-6 box-w">
+                        <div class="box-s "><a href="https://admission.ucas.ac.cn/" target="_blank"><img src="./links/202011/W020241215779365505705.png" alt="" /></a></div>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-6 box-w">
+                        <div class="box-s "><a href="http://job.ucas.ac.cn/" target="_blank"><img src="./links/202011/W020241215779353931443.png" alt="" /></a></div>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-6 box-w">
+                        <div class="box-s "><a href="http://www.moe.gov.cn/" target="_blank"><img src="./links/202011/W020241215779335434224.png" alt="" /></a></div>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-6 box-w">
+                        <div class="box-s "><a href="https://www.chsi.com.cn/" target="_blank"><img src="./links/202011/W020241215779347770489.png" alt="" /></a></div>
+                    </div>
+                    
+                    <div class="col-sm-3 col-xs-6 box-w">
+                        <div class="box-s "><a href="http://www.cdgdc.edu.cn/" target="_blank"><img src="./links/202011/W020241215779341620743.png" alt="" /></a></div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="cont-erwm">
+                <div class="box-img"><img src="./ewm/images/P020250110381168005908.png" alt="" /></div>
+                <div class="box-title h16">生物物理所研究生公众号二维码</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="fl w100 footer_swwls mart15">
+			<div class="container" style="background: #3885db;">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-4 hidden-xs footer_img_swwls paddnone">
+						<a target="_blank" href="//www.cas.cn/" class="fl w100"><img src="//ibp.cas.cn/images/cas-logo.png" /></a>
+					</div>
+					<div class="col-xs-12 hidden-lg hidden-md hidden-sm" >
+						<a target="_blank" href="//www.cas.cn/" class="col-xs-9 cas_logo text-center"><img src="//ibp.cas.cn/images/cas-logo.png" /></a>
+						<a class="col-xs-3 gjdw_logo" href="//bszs.conac.cn/sitename?method=show&id=095E9324DCEF1331E053022819AC0F89" target="_blank"><img src="//ibp.cas.cn/images/logo-s.png" /></a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-7 footer_cont_swwls">
+						版权所有：中国科学院生物物理研究所    京ICP备05023138号-2 京公网安备 11010502045585 号<br/>
+						地址：北京市朝阳区大屯路15号   邮编：100101  <br/>电话：010-64889872   电子邮件：webadmin@ibp.ac.cn 
+					</div>
+					<div class="fr col-sm-2 col-md-1 hidden-xs sydw_logo"><a href="//bszs.conac.cn/sitename?method=show&id=095E9324DCEF1331E053022819AC0F89" target="_blank"><img src="//ibp.cas.cn/images/logo-s.png" /></a></div>
+				</div>
+			</div>
+		</div>
+
+<script src="/images/jquery.js"></script>
+<script src="/images/bootstrap.js"></script>
+<script src="/images/common_swwls.js"></script> 
+<script src="/images/modernizr.js"></script>  <!-- 导航js -->
+<script src="/images/nav_menu.js"></script> <!-- 导航js -->
+<script src="/images/nav_menu_app.js"></script> <!-- 导航js -->
+<script src="/images/aos.js"></script>
+<script src="/images/swiper.min.js"></script>
+<script>
+    /*banner*/
+    var swiper = new Swiper('.new-index-banner .swiper-container', {
+        spaceBetween: 0,
+        centeredSlides: true,
+        speed: 800,
+        loop: true,
+        effect: 'fade',
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.banner-page',
+            clickable: true,
+        },
+        on: {
+            init: function (swiper) {
+                slide = this.slides.eq(0);
+                slide.addClass('ani-slide');
+            },
+            transitionStart: function () {
+                for (i = 0; i < this.slides.length; i++) {
+                    slide = this.slides.eq(i);
+                    slide.removeClass('ani-slide');
+                }
+            },
+            transitionEnd: function () {
+                slide = this.slides.eq(this.activeIndex);
+                slide.addClass('ani-slide');
+
+            },
+        }
+    });
+
+    /*新闻动态*/
+    var swiperNew = new Swiper('.new-index-01 .swiper-container', {
+        spaceBetween: 0,
+        centeredSlides: true,
+        loop: true,
+        speed: 800,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.new-page',
+            clickable: true,
+        },
+        // effect : 'cube',
+        // cubeEffect: {
+        //     slideShadows: true,
+        //     shadow: true,
+        //     shadowOffset: 100,
+        //     shadowScale: 0.6
+        // },
+    });
+
+    /*通知公告*/
+    var swiperNew1 = new Swiper('.news-list', {
+        slidesPerView: 'auto',
+        direction: 'vertical',
+        autoHeight: true, //enable auto height
+        loop: false,
+        speed: 800,//匀速时间
+        spaceBetween: 10,
+        grabCursor: true,
+        autoplayDisableOnInteraction: false,
+        mousewheelControl: false,
+        autoplay: false,
+    });
+    //鼠标覆盖停止自动切换
+    swiperNew1.el.onmouseover = function () {
+        swiperNew1.autoplay.stop();
+    }
+
+    //鼠标离开开始自动切换
+//    swiperNew1.el.onmouseout = function () {
+//        swiperNew1.autoplay.start();
+//    }
+
+    AOS.init({
+        offset: 200,
+        duration: 600,
+        easing: 'ease-in-sine',
+startEvent: 'scroll',
+        delay: 100,
+    });
+</script>
+<script type="text/javascript">
+function isValid(str){
+  if(str.indexOf('&') != -1 || str.indexOf('<') != -1 || str.indexOf('>') != -1 || str.indexOf('\'') != -1
+    || str.indexOf('\\') != -1 || str.indexOf('/') != -1 || str.indexOf('"') != -1 
+    || str.indexOf('%') != -1 || str.indexOf('#') != -1){
+    return false;
+  }
+  return true;
+}
+$(function(){
+  $('#sub-pc').click(function(){
+    var searchword = $.trim($('#searchword').val());
+    if(searchword == "" || searchword == "请输入关键字" || !isValid(searchword)){
+      alert("请输入关键词后再进行提交。");
+      return false;
+    }
+    $('input[name="keyword"]').val(encodeURI(searchword));
+    $('form[name="searchform"]').submit();
+  });
+  
+  $('#sub-mobile').click(function(){
+    var iptSword = $.trim($('#iptSword').val());
+    if(iptSword == "" || iptSword == "请输入关键字" || !isValid(iptSword)){
+      alert("请输入关键词后再进行提交。");
+      return false;
+    }
+    $('input[name="keyword"]').val(encodeURI(iptSword));
+    $('form[name="searchform"]').submit();
+  });
+});
+</script>
+</body>
+</html>

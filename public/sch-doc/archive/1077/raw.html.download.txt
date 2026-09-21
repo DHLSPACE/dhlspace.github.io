@@ -1,0 +1,3140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>北京师范大学研究生招生网</title>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="author" content="Beijing Normal University" /> 
+        <meta name="description" content="北京师范大学是教育部直属重点大学，是一所以教师教育、教育科学和文理基础学科为主要特色的著名学府。学校的前身是1902年创立的京师大学堂师范馆，1908年改称京师优级师范学堂，独立设校。1912年改名为北京高等师范学校。1923年更名为北京师范大学，成为中国历史上第一所师范大学。1931年、1952年北平女子师范大学、辅仁大学先后并入北京师范大学。" />
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?e85d7e3fab5d4d96143892e9384d8146";
+                var s = document.getElementsByTagName("script")[0]; 
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+        <script src="/content/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="/content/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+        <script src="/content/ajax/libs/linq.js/2.2.0.2/jquery.linq.min.js"></script>
+        <script src="/content/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
+        <script src="/scripts/dengdu/dengdu.js"></script>
+        <script src="/scripts/dengdu/dengdu.bootstrap.js"></script>
+        <link href="/content/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/content/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/scripts/miniui/themes/icons.css" rel="stylesheet" />
+        <link href="/scripts/miniui/themes/default/miniui.css" rel="stylesheet" />
+        <link href="/scripts/miniui/themes/metro-white/skin.css?v=20201109" rel="stylesheet" />
+        <link href="/scripts/areas/core/atom.css?v=20201109" rel="stylesheet" />
+        <link href="/scripts/areas/core/area.css?v=20201109" rel="stylesheet" />
+        <link href="/scripts/areas/core/xlarge-mode.css?v=20201109" rel="stylesheet" />
+        
+        <link href="/content/script/flexslider.min.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]><script src="/content/script/html5shiv.min.js"></script><script src="/content/script/respond.min.js"></script><![endif]-->
+        <style type="text/css">
+            body {
+                font-family: "微软雅黑";
+            }
+            #header{
+                padding-top:20px;
+                padding-bottom:15px;
+                background-color:#004EA2;
+            }
+            #footer{
+                text-align:center;
+                background-color:#004EA2;
+                color:white;
+                height:60px;
+                line-height:60px;
+                margin-top: 20px;
+            }
+            #nav{
+                margin-bottom:0px;                
+            }
+            #nav a{
+                font-size:16px;
+            }
+            #content{
+                margin-top:20px;
+            }
+            .sidebar{
+                background-color: #f3f9fc;
+                padding:20px 0px 20px 0px;
+            }
+            .sidebar span {
+                width:100%;
+                display:block;
+                text-align: center;
+                margin-top:5px;
+            }
+            .sidebar .morelinks{                
+                color: #BF2501;
+                font-size: 16px;                
+            }
+
+            .flexslider {
+                border:0;
+                margin-bottom:0px; 
+            }
+            .flex-control-nav {
+                display:none;
+            }
+            .article-list {
+                margin-top:10px;
+            }
+            .article-list .boxtitle {
+                border-bottom: 1px solid #c9c9c9;
+                padding-bottom: 10px;
+                margin-bottom:10px;
+            }
+            .article-list .boxtitle .title{
+                font-size: 20px;
+                color: #141414;
+                font-weight: bold;
+            }
+            .article-list .boxtitle .more{
+                position: absolute;
+                right:20px;
+                color:#a9a9a9;
+            }
+            .article-list .boxlist{
+                margin-left:10px;
+            }
+            .article-list .boxlist ul{
+                list-style:none;
+                margin:0;
+                padding:0;
+            }
+            .article-list .boxlist ul li{
+                margin-top:10px;
+            }
+            .article-list .boxcontent{
+                margin-top:20px;
+            }
+            .article-list .boxpager{
+                border-top: 1px solid #c9c9c9;
+                margin-top:10px;
+                padding-top:10px;
+                color:#999;
+            }
+            .my-breadcrumb {
+                margin-top:10px;
+                color:#999;
+            }
+            .my-breadcrumb a {
+                color:#999;
+            }
+            td {
+                padding: 5px 2px 5px 2px;
+            }
+            td p {
+                /* margin: 5px 2px 5px 2px; */
+                margin: 0px;
+            }
+            .container {
+                max-width: 1200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <a href="/" style="font-size:2em; color:white;"><img src="/content/style/yz-logo.png" alt="北京师范大学" /></a>
+                    </div>
+                    <div class="col-md-3">
+                        <form name="dataForm" action="/search" method="post" style="margin-top:5px;">
+                            <div class="input-group">                                
+                                <input type="text" name="pattern" class="form-control" placeholder="搜索关键字">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="nav" class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">首页</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="/list/master" class="dropdown-toggle" data-hover="dropdown">硕士生招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="/list/master_board">最新消息</a></li>
+                                <li><a href="/list/master_brochure">招生简章</a></li>
+                                <li><a href="/list/master_info">历年数据</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/list/doctor" class="dropdown-toggle" data-hover="dropdown">博士生招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="/list/doctor_board">最新消息</a></li>
+                                <li><a href="/list/doctor_brochure">招生简章</a></li>
+                                <li><a href="/list/doctor_info">历年数据</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/list/gat">港澳台招生</a></li>
+                        <li><a href="https://admission-is.bnu.edu.cn/" target="_blank">留学生招生</a></li>
+                        <li><a href="/list/open">信息公开</a></li>
+                        <li><a href="/list/faq">常见问题</a></li>
+                        <li><a href="/list/contact">联系我们</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="navbar navbar-bg hidden-md hidden-lg">
+            <div class="container">
+                <div class="row">
+                    <ul class="nav">
+                        <li class="col-sm-4 col-xs-6"><a href="/list/master">硕士生招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/doctor">博士生招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/gat">港澳台招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/foreign">留学生招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/open">信息公开</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/faq">常见问题</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/contact">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="content" class="container">
+            <div class="row">
+                <div class="col-sm-10">
+    <div class="article-list">
+        <div class="boxtitle">
+            <span class="title" style="font-size:30px;">招生简章</span>
+            <div class="my-breadcrumb">
+                当前位置：<a href="/">首页</a> 
+                <a href="/list/master">&raquo;  硕士生招生</a>
+                <a href="/list/master_brochure">&raquo;  招生简章</a>
+                &raquo;
+                详细页
+            </div>
+        </div>        
+        <div class="boxcontent">
+            <h4 class="text-center strong">
+                <strong>2026年专业学位硕士研究生招生专业一览表</strong>
+            </h4>
+            <div class="text-center text-muted">发布时间：2025-10-11　<span>阅读 258448 次</span></div>
+            <div class="article-content" style="margin-top:10px;">
+                <div align="center">
+	<table class="MsoNormalTable ke-zeroborder" border="0" cellspacing="0" cellpadding="0" width="961" style="width:721.0pt;border-collapse:collapse;">
+		<tbody>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-size:11.0pt;font-family:&quot;color:black;">类别码<span></span></span></b> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-size:11.0pt;font-family:&quot;color:black;">类别名称<span></span></span></b> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-size:11.0pt;font-family:&quot;color:black;">专业代码<span></span></span></b> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-size:11.0pt;font-family:&quot;color:black;">专业名称<span></span></span></b> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-size:11.0pt;font-family:&quot;color:black;">招生学院（学部）<span></span></span></b> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-size:11.0pt;font-family:&quot;color:black;">学习方式<span></span></span></b> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-size:11.0pt;font-family:&quot;color:black;">北京招生人数<span></span></span></b> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-size:11.0pt;font-family:&quot;color:black;">珠海招生人数<span></span></span></b> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-size:11.0pt;font-family:&quot;color:black;">是否接收推免生<span></span></span></b> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<b><span style="font-size:11.0pt;font-family:&quot;color:black;">备注<span></span></span></b> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="48">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0251</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">金融硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">湾区国际商学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">60</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0252</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">应用统计硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">统计学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">277</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0254</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">国际商务硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">经济与工商管理学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">40</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0254</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">国际商务硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">湾区国际商学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">50</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0351</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">法律硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">035101</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">法律（非法学）<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">法学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">45</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">92</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">部分接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0351</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">法律硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">035102</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">法律（法学）<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">法学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">40</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0352</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">社会工作硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">社会学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">54</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">70</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045101</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育管理<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">20</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">不接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045101</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育管理<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">未来教育学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">20</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">不接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045102</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">学科教学（思政）<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">马克思主义学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">30</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">不接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045103</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">学科教学（语文）<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">28</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045103</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">学科教学（语文）<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">文学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">60</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045104</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">学科教学（数学）<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">15</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045104</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">学科教学（数学）<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">数学科学学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">40</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045104</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">学科教学（数学）<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">未来教育学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">40</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045105</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">学科教学（物理）<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">8</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045106</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">学科教学（化学）<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">8</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045107</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">学科教学（生物）<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">8</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045108</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">学科教学（英语）<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">15</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045108</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">学科教学（英语）<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">外国语言文学学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">70</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045109</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">学科教学（历史）<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">8</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045110</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">学科教学（地理）<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">8</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045114</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">现代教育技术<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">15</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045115</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">小学教育<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">18</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045116</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">心理健康教育<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">18</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045117</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">科学与技术教育<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">未来教育学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">60</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045118</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">学前教育<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">20</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0451</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045119</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">特殊教育<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">教育学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">10</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0452</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">体育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">045201</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">体育教学<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">体育与运动学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">57</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">90</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0453</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">国际中文教育硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">国际中文教育学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">41</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">70</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0454</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">应用心理硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">心理学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">非全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">220</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">140</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">不接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<u><span style="font-size:10.0pt;font-family:&quot;color:purple;"><a href="https://yz.bnu.edu.cn/content/zyml/2026/zyxwjz_yxsm-038_zydm-0454_xxfs-2.html"><span style="color:purple;"><span>专业说明</span></span></a></span></u> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0551</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">翻译硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">055101</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">英语笔译<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">外国语言文学学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">45</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0552</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">新闻与传播硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">新闻传播学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">55</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">30</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0854</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">电子信息硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">人工智能学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">50</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0856</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">材料与化工硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">文理学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">30</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0857</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">资源与环境硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">环境学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">20</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0857</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">资源与环境硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">水科学研究院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">15</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0857</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">资源与环境硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">地理科学学部<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">15</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">1251</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">工商管理硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">经济与工商管理学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">非全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">329</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">不接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<u><span style="font-size:10.0pt;font-family:&quot;color:purple;"><a href="https://yz.bnu.edu.cn/content/zyml/2026/zyxwjz_yxsm-002_zydm-1251_xxfs-2.html"><span style="color:purple;"><span>专业说明</span></span></a></span></u> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">1252</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">公共管理硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">政府管理学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">21</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">不接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<u><span style="font-size:10.0pt;font-family:&quot;color:purple;"><a href="https://yz.bnu.edu.cn/content/zyml/2026/zyxwjz_yxsm-006_zydm-1252_xxfs-1.html"><span style="color:purple;">03</span><span style="color:purple;"><span>方向只招收全日制定向考生。详情请见招生说明。<br />
+04</span></span><span style="color:purple;"><span>方向<span>仅招收少数民族高层次骨干人才计划南疆高校教师专项</span></span></span></a></span></u> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="110">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">1252</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">公共管理硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">政府管理学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">非全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">165</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">140</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">不接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<u><span style="font-size:10.0pt;font-family:&quot;color:purple;"><a href="https://yz.bnu.edu.cn/content/zyml/2026/zyxwjz_yxsm-006_zydm-1252_xxfs-2.html"><span style="color:purple;"><span>专业说明</span></span></a></span></u> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">1253</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">会计硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">湾区国际商学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">60</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">1256</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">工程管理硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">系统科学学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">非全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">20</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">不接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<u><span style="font-size:10.0pt;font-family:&quot;color:purple;"><a href="https://yz.bnu.edu.cn/content/zyml/2026/zyxwjz_yxsm-026_zydm-1256_xxfs-2.html"><span style="color:purple;"><span>专业说明</span></span></a></span></u> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">1256</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">工程管理硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">国家安全与应急管理学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">非全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">20</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">不接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">1352</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">音乐硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">艺术与传媒学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">24</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">15</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">部分接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">1353</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">舞蹈硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">艺术与传媒学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">14</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">1353</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">舞蹈硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">艺术与传媒学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">非全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">20</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">不接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">1354</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">戏剧与影视硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">艺术与传媒学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">36</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">75</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">部分接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">1356</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">美术与书法硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">艺术与传媒学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">21</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">1357</span> 
+					</p>
+				</td>
+				<td width="289" colspan="3" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">设计硕士<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">未来设计学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">80</span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="59" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">S0554</span> 
+					</p>
+				</td>
+				<td width="92" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">中文创意写作<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">0554S1</span> 
+					</p>
+				</td>
+				<td width="123" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">中文创意写作<span></span></span> 
+					</p>
+				</td>
+				<td width="159" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">文学院<span></span></span> 
+					</p>
+				</td>
+				<td width="75" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">全日制<span></span></span> 
+					</p>
+				</td>
+				<td width="60" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">15</span> 
+					</p>
+				</td>
+				<td width="61" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td width="76" style="border:1px solid black;">
+					<p class="MsoNormal" align="center" style="text-align:center;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">接收<span></span></span> 
+					</p>
+				</td>
+				<td width="183" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;"> <span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="25">
+				</td>
+			</tr>
+			<tr>
+				<td width="961" colspan="10" rowspan="2" style="border:1px solid black;">
+					<p class="MsoNormal" align="left" style="text-align:left;">
+						<span style="font-size:10.0pt;font-family:&quot;color:black;">注：<span>1.</span>我校公费师范毕业生攻读教育硕士及本研衔接师范生公费教育推荐免试研究生也属于专业学位硕士，简章另行公布。<span><br />
+2.</span>一览表中各院（系）、各专业所列招生人数仅供参考，且包含拟接收推荐免试生人数，最终招生总人数以教育部正式下达的招生计划文件为准，录取阶段可能会根据生源情况及考试成绩等进行适当调整。<span></span></span> 
+					</p>
+				</td>
+				<td style="border:none;" width="1">
+					<p class="MsoNormal">
+						&nbsp;
+					</p>
+				</td>
+				<td style="border:none;" width="0" height="40">
+				</td>
+			</tr>
+			<tr>
+				<td width="1" valign="bottom">
+				</td>
+				<td style="border:none;" width="0" height="27">
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<br />
+
+            </div>
+        </div>
+    </div>
+</div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="sidebar" style="min-height: 300px;">
+                        <div class="col-md-12 col-sm-4 nopadding"> 
+                            <span class="morelinks">常用链接</span>
+                            <span><a href="http://www.bnu.edu.cn" target="_blank">学校主页</a></span>
+                            <span><a href="http://jwb.bnu.edu.cn/" target="_blank">教务部</a></span>
+                            <span><a href="http://www.bnu.edu.cn/kxyj/" target="_blank">科学研究</a></span>
+                            <span><a href="https://yz.bnu.edu.cn/content/dsfc/index_dsfc.html" target="_blank">导师风采</a></span>
+                            <span><a href="http://www.bnu.edu.cn/xbyx/" target="_blank">学部院系</a></span>
+                            <span><a href="http://www.bnu.edu.cn/zzjg/" target="_blank">组织机构</a></span>
+
+                            <div style="text-align:center; margin-top: 20px;">
+                                <img src="/content/style/wx_jsyz.jpg" style="width: 100%;">
+                                微信公众号
+                            </div>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>	
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            &copy; 版权所有 北京师范大学　地址：北京市新街口外大街19号　邮编：100875
+        </div>
+        <div class="text-center small" style="display:none;">
+
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="/content/script/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="/content/script/bootstrap-hover-dropdown.min.js"></script>
+        <script src="/content/script/jquery.flexslider-min.js"></script>
+        <script src="/content/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/scripts/miniui/miniui.js"></script>    
+        <script id="seajsid" type="text/javascript" src="/scripts/seajs/sea.js"></script>
+        <script type="text/javascript" src="/scripts/seajs/seajs-css.js"></script>
+        <script type="text/javascript" src="/scripts/areas/core/config.js?v=41"></script>
+        <script type="text/javascript" src="/scripts/areas/core/core.miniui.js?v=41"></script>
+        <script>
+            // Can also be used with $(document).ready()
+            $(document).ready(function(){
+                $('.flexslider').flexslider({
+                    animation: "slide",
+                    slideshowSpeed: 10000
+                    //controlsContainer: ".flex-container"
+                });
+
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,1178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="author" content="rockhentai">
+	<title>天津科技大学招生信息网</title>
+	
+	<script src="js/jquery.min.js"></script>
+
+<script src="js/index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?be55e30b8185030aa5f1b793b667abd7";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+
+<STYLE type="text/css">
+body,div,p,h1,h4,h5,ul,li,ol {
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	font-size: 2em;
+}
+.lftMod .list li a,.rgtMod .list li a{display:block;width:280px;overflow:hidden;padding-left:20px;}
+.ctMod .list li a{display:block;width:280px;overflow:hidden;padding-left:30px;}
+.lftCon{ width:280px;float:left;padding-left:30px;}}
+.head{ color:#ffffff;font-weight:bold;text-indent: 2em;overflow:hidden;display: block;font-size:14px;padding-bottom:3px;}
+list{
+	color:#fff;}
+
+
+ul,li,ol {
+	list-style: none;
+}
+
+a {              font-size: 13px;
+                 color:#000;
+	text-decoration: none;
+}
+
+
+body {
+	font-family: proxima-nova,"Microsoft YaHei",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	color:#333;
+	position: relative;
+	background: #fff;
+}
+.date {        font-size: 13px;
+                 color:#000;
+	
+}
+.wznr {        font-size: 14px;
+                 color:#000;
+              line-height:26px;
+	
+}
+
+
+.font13{
+font-size: 13px;
+color:#fff;
+}
+.white {
+	background: #fff;
+}
+
+.container {position: relative;
+	width: 1100px;
+
+margin:0 auto;
+}
+
+
+.wrapper1 {
+	width:985px;
+                 margin:0 auto;	
+}
+
+.clear {
+	clear: both;
+}
+
+.top {
+	position: relative;
+	width: 100%;
+	height:148px;
+	z-index: 99;
+background: #fff;
+}
+
+
+.top .logo {
+	width:100%;
+	height:148px;
+	padding-top: 0px;
+	background: #fff;}
+
+.main {position: relative;            
+top:0px;
+	width:100%;
+	margin:0 auto;
+                 height:300px;
+background: #197caf;
+}
+
+.main1 {background: #fff;
+	width:1100px;
+	margin:0 auto;
+         min-height:950px;
+}
+.main2 {background: #fff;
+	width:1100px;
+	margin:0 auto;
+min-height:535px;
+}
+.main3 {background: #fff;
+	width:1100px;
+	margin:0 auto;
+                 min-height:570px;
+}
+
+.main .banner {
+	position: relative;
+                 margin：0 auto;
+
+ left: 50%;
+
+    margin-left: -550px;
+
+	width:1100px;
+	height:300px;
+	overflow: hidden;
+
+}
+
+.main .banner .slides {
+	width:1100px;
+
+background: #197caf;
+}
+
+.main .banner .slides li {
+	display: none;
+	width: 1100px;
+	float: center;
+background: #197caf;
+}
+.main .banner .slides li.active {
+	display: block;
+}
+
+.main .banner .slides li img {
+	width: 1100px;
+background: #197caf;
+}
+
+.banner .slidesController {
+	position: absolute;
+	right:26px;
+	bottom: 5px;
+	z-index: 99;
+}
+
+.banner .slidesController li {
+	display: inline-block;
+	width: 9px;
+	height:9px;
+	margin:0 4px;
+	border:1px solid #d1d1d1;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.banner .slidesController li.active {
+	background: #ff5b0b;
+	border-color: #ff5b0b;
+}
+
+.content {
+	float:left;
+	width:1100px;
+	margin-right: 0px;
+	margin-top: 0px;
+background: #fff;
+}
+
+.content .block {
+	float:left;
+	
+}
+
+.block .title {
+	width:100%;
+	height: 22px;
+	margin-bottom: 23px;
+	border-bottom: 3px solid #f3842b;
+	line-height: 22px;
+}
+
+.block .title .caption {
+	display: inline-block;
+	height: 100%;
+}
+
+.block .title .more {
+	display: inline-block;
+	float: right;
+	height: 22px;
+	line-height: 22px;
+	color:#979797;
+	font-size: 12px;
+}
+
+.content .news {
+	margin-right: 15px;
+	width:370px;
+}
+
+.news .title .caption {
+	width:193px;
+	
+}
+
+.content .notice {
+	width: 397px;
+}
+
+.notice .title .caption {
+	width:140px;
+	
+}
+
+.news img {
+	margin-bottom: 5px;
+}
+
+.block .links .link {
+	width:100%;
+	margin-bottom: 8px;
+	font-size: 12px;
+	color: #454545;
+	list-style: disc inside;
+}
+
+.block .links .link a {
+	color: #000;
+}
+
+.block .links .link .date {
+	float: right;
+}
+
+.agency {
+	margin-top: 43px;
+}
+
+.agency a img {
+		border:0 none;
+}
+
+.agency .experiment,.agency .mba {
+	float:left;
+	margin-right: 2px;
+}
+
+.sidebar {
+	float: left;
+	width: 165px;
+	height: 459px;
+	padding-top: 72px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 12px;
+	color:#fff;
+	background: url(/publish/jjyglxy/images/side_bg.jpg) no-repeat 0 0;
+}
+
+.sidebar .btn {
+	width:106px;
+	height:27px;
+	line-height: 27px;
+	margin:20px auto 10px auto;
+	background: url(/publish/jjyglxy/images/btn.png) no-repeat 0 0;
+}
+
+
+.sidebar .side-nav {
+	display: block;
+	width:100%;
+	height:30px;
+	line-height: 30px;
+	color:#fff;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.bottom  {
+	
+	width:100%;
+	height: 265px;
+background: url(img/zsbbbg.png) repeat-x;
+
+}
+
+	
+
+
+.bottom .footer {
+	
+       width:1100px;
+	margin:0 auto;
+	height: 265px;
+	background: url(img/zsbbottom.png) no-repeat 0 0;
+	text-align: center;
+	
+
+
+}
+
+.cen  {
+	
+	width:100%;
+	height: 25px;}
+
+/*article*/
+.articlebg{width:100%;
+background: url(/publish/baoyin/img/bbg.png) repeat-x;
+}
+
+.c_title {
+	FONT-SIZE: 15px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, 宋体
+}
+
+.c_content {
+	FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, 宋体
+}
+.wenzi {
+	font-size: 13px;
+        FONT-FAMILY: Verdana, Arial, 宋体;
+	line-height: 24px;
+	color: #000;
+}
+
+.article {
+	width:990px;
+	margin:0 auto 45px auto;
+
+}
+
+
+.article .left {
+	float: left;
+	margin-right: 27px;
+}
+
+.article .left .survey {
+	width:270px;
+	height:210px;
+	margin-top: 48px;
+}
+
+.survey .header {
+	width:100%;
+	height:20px;
+	line-height: 20px;
+	background: #3aadba;
+	color: #fff;
+	font-size: 13px;
+}
+
+.survey .header p {
+	padding-left: 17px;
+}
+
+.survey .body {
+	width:100%;
+	height:160px;
+	background: #f6fbfb;
+}
+
+.survey .body ul {
+	padding:10px 17px;
+}
+
+.survey .body .line {
+	width:100%;
+	height:30px;
+	border-bottom: 1px solid #e7ecec;
+	color:#3aadba;
+	font-size: 12px;
+	line-height: 30px;
+	background-image: url(/publish/jjyglxy/images/arrow2.png);
+	background-repeat: no-repeat;
+	background-position-x:216px;
+	background-position-y:center;
+}
+
+.survey .body .line.active {
+	background-image: url(/publish/jjyglxy/images/arrow.png);
+}
+
+.survey .body .line a {
+	display: block;
+	width:100%;
+	height:100%;
+	color:#3aadba;
+}
+
+.article .left .notice {
+                width:270px;
+	height:230px;
+	border-bottom: 3px solid #f3842b;
+	list-style: none;
+	color: #454545;
+}
+
+.rightc {
+	float: center;
+	width: 850px;
+margin-left: 6px;
+}
+
+.rightc .location {
+	width:100%;
+	height:48px;
+	font-size: 13px;
+	color: #ffffff;
+	line-height: 48px;
+}
+
+.rightc .location a {
+	color:#6a6a6a;
+}
+
+.rightc .substance {
+	width:100%;
+	min-height:550px;
+background: #ffffff;
+	border:1px solid #c8c8c8;
+margin:0px 25px 20px 0px;
+}
+
+.rightc .substance .outer {
+	padding:15px 10px 0 27px;
+}
+
+.rightc.substance .title {
+        line-height: 48px;
+	margin-bottom: 18px;
+	text-align: center;
+	font-size: 17px;
+	color: #6f6f6f;
+	letter-spacing: 13px;
+	font-weight: normal;
+}
+
+.rightc .substance .release-date {
+	width:100%;
+	height: 22px;
+	margin-bottom: 20px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 13px;
+	color:#6a6a6a;
+	background: #efefef;
+}
+
+.rightc .substance .text p {
+	line-height: 26px;
+	margin-bottom: 24px;
+	font-size: 13px;
+	color: #393939;
+	text-indent: 26px;
+}
+
+
+.right {
+	float: left;
+	width:742px;
+                 min-height:550px;
+margin-left: 8px;
+}
+
+.right .location {
+	width:100%;
+	height:48px;
+	font-size: 12px;
+	color: #6a6a6a;
+	line-height: 48px;
+}
+
+.right .location a {
+	color:#6a6a6a;
+}
+
+.right .substance {
+	width:100%;
+	min-height:550px;
+background: #ffffff;
+	border:1px solid #c8c8c8;
+margin:0px 25px 20px 0px;
+
+}
+
+.right .substance .outer {
+	padding:15px 10px 0 27px;
+}
+
+.alinks{
+
+	color:#3aadba;
+}
+
+
+.right .substance .title {
+	margin-bottom: 18px;
+	text-align: center;
+	font-size: 18px;
+	color: #6f6f6f;
+	letter-spacing: 12px;
+	font-weight: normal;
+}
+
+.right .substance .release-date {
+	width:100%;
+	height: 22px;
+	margin-bottom: 20px;
+	line-height: 22px;
+	text-align: center;
+	font-size: 13px;
+	color:#6a6a6a;
+	background: #efefef;
+}
+
+.right .substance .text p {
+	line-height: 25px;
+	margin-bottom: 24px;
+	font-size: 13px;
+	color: #393939;
+	text-indent: 26px;
+}
+
+.wrapper {
+	width:1200px;
+	margin:0 auto;
+}
+
+.header  .search {
+	float:left;
+	margin:22px 50px 10px 865px;
+	width:130px;
+	height:26px;
+
+	position: relative;
+	background: url(/publish/jsfzzx/img/search_bg.png) no-repeat;
+}
+
+
+.header .gh1 {
+	float:left;
+	margin:55px 50px 10px 530px;
+	width:780px;
+	height:70px;
+	position: relative;
+	
+}
+
+.gh1 .navLists {
+	width:780px;
+	height:35px;
+
+}
+
+.navLists .nav {
+	position: relative;
+	display: block;
+	float: left;
+	width: 79px;
+	height: 35px;
+line-height:33px;
+	
+	text-align: center;
+	font-size: 18px;
+font-weight: bold;
+	color:#717171;
+
+z-index:100;
+}
+.navLists .nav a {
+font-size: 15px;
+	color:#717171;
+}
+
+.navLists .nav .subnavs {
+	display: none;
+	position: absolute;
+	left: 0;
+line-height:33px;
+font-weight:normal;
+	top:35px;
+	width:130%;
+z-index:110;
+margin:0px 0px 0px -15px
+}
+.navLists .subnavs a {
+              font-size: 14px;
+	color:#fff;
+}
+
+.navLists .nav .subnavs .subnav {
+position: relative;
+z-index:100;
+	width:130%;
+	height:100%;
+	background: #197caf;
+margin:0px 0px 0px -15px
+
+}
+
+
+.header  .gh {
+	float:left;
+	margin:0px 0px 0px 0px;
+	
+	position: relative;
+	
+}
+.header {
+  width:1100px;
+margin:0 auto;
+  height: 148px;
+  background: url(img/zsblogo.png) no-repeat 0 0;
+}
+ .header .search .search_input {
+overflow:hidden;display: block;
+	border:none;
+	width:120px;
+	height:26px;
+	background: none;
+	position:absolute;
+	padding-left: 10px;
+	padding-top: 4px;
+font-size: 12px;
+
+}
+
+ .header .search .search_icon {
+	width:25px;
+	height:25px;
+	display: block;
+        border-style :none;
+	background: url(/publish/jsfzzx/img/search_icon.png) no-repeat;
+	position:absolute;
+        color:#fff;
+	top:1px;
+	right:1px;
+}
+
+
+</style>
+
+<div class="top">
+			
+<div class="logo">
+			
+
+    <div class="header">
+
+	<div class="gh">
+
+</div>
+
+				<div class="gh1">
+<div class="navLists">
+				
+		
+					<ul>
+<li class="nav">
+<a href="">&nbsp;&nbsp;&nbsp;&nbsp;首页 |</a>
+  
+</li>
+												<li class="nav">
+							<a href="#">科大纵览 |</a>
+					   <ul class="subnavs">
+								<li class="subnav">
+									<a href="kdzl/xxgk/">学校概况</a>
+								</li>
+								<li class="subnav">
+									<a href="kdzl/sbdsz/">硕博点设置</a>
+								</li>
+								<li class="subnav">
+									<a href="kdzl/jzxj/">奖助学金</a>
+								</li>
+			
+			<li class="subnav">
+									<a href="http://gjjl.tust.edu.cn">国际交流</a>
+								</li>
+				
+				<li class="subnav">
+									<a href="kdzl/sthd/">社团活动</a>
+								</li>
+				
+							</ul>	
+						
+						
+						</li>
+						
+					
+						
+						
+
+<li class="nav">
+							<a href="zyjs/">专业介绍 |</a>
+                  
+						</li>
+
+
+						
+
+
+
+						<li class="nav">
+							<a href="#">报考指南 |</a>
+                            
+                             <ul class="subnavs">
+								<li class="subnav">
+									<a href="bkzn/zszc/">招生政策</a>
+								</li>
+								<li class="subnav">
+									<a href="bkzn/jhcx/">计划查询</a>
+								</li>
+								<li class="subnav">
+									<a href="bkzn/wnlq/">往年录取</a>
+								</li>
+			
+			<li class="subnav">
+									<a href="bkzn/xkkm/">选考科目</a>
+								</li>
+					
+							</ul>
+						</li>
+	
+
+<li class="nav">
+							<a href="#">专题招生 |</a>
+                                                 
+                                          
+                             <ul class="subnavs">
+								<li class="subnav">
+									<a href="ztzs/yslzs/">艺术类招生</a>
+								</li>
+								<li class="subnav">
+									<a href="ztzs/gspydd/">高水平运动队</a>
+								</li>
+								<li class="subnav">
+									<a href="ztzs/gat/">港澳台</a>
+								</li>
+			                                 
+							
+				
+							</ul>
+						</li>
+
+
+
+<li class="nav">
+<a href="#">信息查询 |</a>
+        <ul class="subnavs">
+								<li class="subnav">
+									<a href="xxcx/lqcx/">录取查询</a>
+								</li>
+								<li class="subnav">
+									<a href="xxcx/lnfs/">历年分数</a>
+								</li>
+								
+			                                       
+				<li class="subnav">
+									<a href="xxcx/wdxz/">文档下载</a>
+								</li>
+							</ul>
+</li>
+
+<li class="nav">
+<a href="lxwm/">联系我们 |</a>
+  
+</li>
+
+
+					</ul>
+				</div>
+			</div>
+
+
+				</div>
+</div>
+			
+					</div>
+
+
+<div class="main">
+
+
+<div class="banner">
+				<ul class="slides">
+					<li class="active"> <a href="https://www.ccdi.gov.cn/specialn/esdzt/index.html" target="_blank"><img border ="0"  src="img/banner5.jpg" alt="" /></a></li>
+	<!-- <li> <a href="https://flbook.com.cn/c/0WaVzv6L4o" target="_blank"><img border ="0"  src="img/zsjy.jpg" alt="" /></a></li> -->
+<li><img src="img/lb1.png" alt="" /></li>
+<li><img src="img/lb4.png" alt="" /></li>
+<li><img src="img/lb3.png" alt="" /></li>
+<li><img src="img/lb2.png" alt="" /></li>
+				</ul>
+<ol class="slidesController">
+					<!-- <li class="active"></li>
+<li></li>
+					<li></li>
+                                                                                     <li></li>
+                                                                                     <li></li>
+					<li></li> -->
+				</ol>
+
+			</div>
+</div>
+<div class="main1">
+<div class="content">
+
+<table width="1100" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="210" valign="top"><table width="210" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="img/cxbmgai.png" width="210" height="604" border="0" usemap="#Map"></td>
+      </tr>
+      <tr>
+        <td><table width="210" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="img/yqlj.png" width="210" height="80"></td>
+          </tr>
+          <tr>
+            <td background="img/yqljbg.png"><ul class="links">
+    <table width="96%" border="0" cellspacing="0" cellpadding="0" align="right">
+          <tr>   <td height="30" width="1" align="left"></td>  
+
+            <td  height="30"  width="90%" >     
+         <a target="_blank" href="http://www.tust.edu.cn/" title="天津科技大学主页" >天津科技大学主页</a>
+                
+              </td>
+
+           </tr>
+ <tr>   <td height="30" width="1" align="left"></td>  
+
+            <td  height="30"  width="90%" >     
+         <a target="_blank" href="https://www.moe.gov.cn" title="中华人民共和国教育部" >中华人民共和国教育部</a>
+                
+              </td>
+
+           </tr>
+ <tr>   <td height="30" width="1" align="left"></td>  
+
+            <td  height="30"  width="90%" >     
+         <a target="_blank" href="http://gaokao.chsi.com.cn/" title="教育部信阳光高考信息平台" >教育部信阳光高考信息平台</a>
+                
+              </td>
+
+           </tr>
+ <tr>   <td height="30" width="1" align="left"></td>  
+
+            <td  height="30"  width="90%" >     
+         <a target="_blank" href="http://www.zhaokao.net/" title="天津市教育招生考试院" >天津市教育招生考试院</a>
+                
+              </td>
+
+           </tr>
+ <tr>   <td height="30" width="1" align="left"></td>  
+
+            <td  height="30"  width="90%" >     
+         <a target="_blank" href="http://jw.tust.edu.cn/" title="天津科技大学教务处" >天津科技大学教务处</a>
+                
+              </td>
+
+           </tr>
+         </table>
+      </ul>
+
+
+</td>
+          </tr>
+          <tr>
+            <td><img src="img/yqljbo.png" width="210" height="30"></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td width="575" valign="top"><table width="575" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><a href="zsdt/"><img src="img/zsdt.png" width="575" height="90" border="0"></a></td>
+      </tr>
+      <tr>
+        <td>
+<ul class="links">
+    <table width="540" border="0" cellspacing="0" cellpadding="0" align="right">
+          <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="http://lqcx.tust.edu.cn/static/front/tust/basic/html_web/lqjc.html" title="天津科技大学2026年本科招生录取进展" >天津科技大学2026年本科招生录取进展</a>
+                
+              </td>
+<td align=center height="30" class="date">2026-07-08</td>
+           </tr>
+ <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="zsdt/e4cd265c615c4371b9997b07bcc54d6c.htm" title="天津科技大学关于网络账号识别的声明" >天津科技大学关于网络账号识别的声明</a>
+                
+              </td>
+<td align=center height="30" class="date">2025-08-11</td>
+           </tr>
+ <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="zsdt/6afd08a9c0474ba0afbc184f1c610915.htm" title="天津科技大学2026年普通本科招生章程" >天津科技大学2026年普通本科招生章程</a>
+                
+              </td>
+<td align=center height="30" class="date">2026-05-18</td>
+           </tr>
+ <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="zsdt/b3de5a8984db420098545c9f3693a489.htm" title="天津科技大学2026年艺术类本科招生简章" >天津科技大学2026年艺术类本科招生简章</a>
+                
+              </td>
+<td align=center height="30" class="date">2026-05-18</td>
+           </tr>
+ <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="zsdt/ec3512bd525e401d913e94acca9186f2.htm" title="天津科技大学2026年依据台湾地区大学入学考试学科能力测试成绩招收台湾高中毕业生简章" >天津科技大学2026年依据台湾地区大学入学考试学科能力测试成...</a>
+                
+              </td>
+<td align=center height="30" class="date">2026-01-08</td>
+           </tr>
+ <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="zsdt/c925ede6a21c463d8fc57bd171160d9a.htm" title="天津科技大学招生咨询QQ群汇总表" >天津科技大学招生咨询QQ群汇总表</a>
+                
+              </td>
+<td align=center height="30" class="date">2024-05-30</td>
+           </tr>
+ <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="http://lqcx.tust.edu.cn/static/front/tust/basic/html_web/zsjh.html" title="2026年招生计划" >2026年招生计划</a>
+                
+              </td>
+<td align=center height="30" class="date">2026-06-22</td>
+           </tr>
+ <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="http://lqcx.tust.edu.cn/static/front/tust/basic/html_web/lnfs.html" title="天津科技大学历年分数查询" >天津科技大学历年分数查询</a>
+                
+              </td>
+<td align=center height="30" class="date">2026-05-08</td>
+           </tr>
+         </table>
+      </ul>
+
+
+</td>
+      </tr>
+      <tr>
+        <td><a href="zyjs/"><img src="img/xkzy.png" width="575" height="65" border="0"></a></td>
+      </tr>
+      <tr>
+        <td>
+<ul class="links">
+    <table width="540" border="0" cellspacing="0" cellpadding="0" align="right">
+          <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="docs/2025-06/407db73b7aba4fbe9d2263eb8bc5e0fb.pdf" title="天津科技大学本科专业介绍" >天津科技大学本科专业介绍</a>
+                
+              </td>
+<td align=center height="30" class="date">2026-06-18</td>
+           </tr>
+ <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="https://flbook.com.cn/c/0WaVzv6L4o" title="天津科技大学本科招生专业介绍-FLBOOK" >天津科技大学本科招生专业介绍-FLBOOK</a>
+                
+              </td>
+<td align=center height="30" class="date">2026-06-18</td>
+           </tr>
+         </table>
+      </ul>
+
+
+</td>
+      </tr>
+      <tr>
+        <td><a href="xzkd/"><img src="img/xzkd.png" width="575" height="65" border="0"></a></td>
+      </tr>
+      <tr>
+        <td>
+<ul class="links">
+    <table width="540" border="0" cellspacing="0" cellpadding="0" align="right">
+          <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="https://jw.tust.edu.cn/ggtz/fdb3a794e5a74d4292093b8f52c4e84a.html" title="关于公布2026年本科生转专业工作实施方案的通知" >关于公布2026年本科生转专业工作实施方案的通知</a>
+                
+              </td>
+<td align=center height="30" class="date">2026-05-16</td>
+           </tr>
+ <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="https://jw.tust.edu.cn/docs//2025-04/a22af2f3f12044f68d83c68668723f00.pdf" title="《天津科技大学本科生转专业实施办法》" >《天津科技大学本科生转专业实施办法》</a>
+                
+              </td>
+<td align=center height="30" class="date">2025-04-30</td>
+           </tr>
+ <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="https://mp.weixin.qq.com/s/ERaFXHsS4Q1s7kbnrU_gZg" title="学分制改革与学分制收费改革50问——学分制收费篇" >学分制改革与学分制收费改革50问——学分制收费篇</a>
+                
+              </td>
+<td align=center height="30" class="date">2021-07-02</td>
+           </tr>
+ <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="https://mp.weixin.qq.com/s/vfOA7EazrxgXTUB_3fn52w" title="学分制改革与学分制收费改革50问——学分制篇" >学分制改革与学分制收费改革50问——学分制篇</a>
+                
+              </td>
+<td align=center height="30" class="date">2024-07-12</td>
+           </tr>
+ <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="https://jw.tust.edu.cn/rcpy/cetgl/021300723bdf4f559c36f96a7e38fb4a.html" title="天津科技大学2024版本科人才专业培养方案" >天津科技大学2024版本科人才专业培养方案</a>
+                
+              </td>
+<td align=center height="30" class="date">2025-04-30</td>
+           </tr>
+ <tr>   <td height="30" width="12" align="left"><img src="img/li.png" width="8" height="15" /></td>  
+
+            <td  height="30"  width="80%" >     
+         <a target="_blank" href="https://mp.weixin.qq.com/s/wH2WcMl2_LolkFlcmilPPA" title="学分制改革与学分制收费改革50问——学分篇" >学分制改革与学分制收费改革50问——学分篇</a>
+                
+              </td>
+<td align=center height="30" class="date">2024-07-12</td>
+           </tr>
+         </table>
+      </ul>
+
+
+</td>
+      </tr>
+    </table></td>
+    <td width="315" valign="top"><table width="315" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><a href="spzx/"><img src="img/spzx.png" width="315" height="90" border="0"></a></td>
+      </tr>
+      <tr>
+        <td  align="right">
+   <table width="280" >
+   
+
+ <tr>
+
+<td align="center">
+<a href="https://weibo.com/u/2121184395?tabtype=newVideo" style="display: block;height:0;padding-bottom: 100%;"><img src="images/2023-06/3b53cc15f5534def9045c5eeee56c255.jpg">
+												</a>
+</td>
+    
+          </tr>
+    </table>
+
+</td>
+      </tr>
+      <tr>
+        <td align="right"><img src="img/zsbline.png" width="280" height="30" border="0"></td>
+      </tr>
+      <tr>
+        <td><a href="gzkd/"><img src="img/gzkd.png" width="315" height="65" border="0"></a></td>
+      </tr>
+      <tr>
+        <td align="right">
+                  <style>
+                    .bannerUl div{
+                      height: 100%;
+                    }
+                    .bannerUl a{
+                      background: #197caf;
+                    }
+                  </style>
+                  <div class="bannerbox" style="overflow: hidden; height: 210px;padding-bottom: 5px; width: 280px;position: relative;">
+                    <ul class="bannerUl" style="display: block;height: 210px;position: absolute;width: 100%;">
+                                          <li><a href="gzkd/85933.htm" style="display: block;height: 100%; ">
+                        <img src="images/2023-11/67036a2be3804898a89c8260719f897b.jpg">
+                      </a>
+                      </li>
+                                            <li><a href="gzkd/85935.htm" style="display: block;height: 100%; ">
+                        <img src="images/content/2018-01/20180119151027365605.jpg">
+                      </a>
+                      </li>
+                                            <li><a href="gzkd/85934.htm" style="display: block;height: 100%; ">
+                        <img src="images/content/2018-01/20180119151050614863.jpg">
+                      </a>
+                      </li>
+                                            <li><a href="gzkd/85939.htm" style="display: block;height: 100%; ">
+                        <img src="images/content/2018-01/20180119150935817458.jpg">
+                      </a>
+                      </li>
+                                            
+                    </ul>
+                  </div>
+                  
+                  <link rel="stylesheet" href="css/slick.css">
+                  <script src="js/jquery.min.js"></script>
+                  <script src="js/slick.js"></script>
+                  <script>
+                    $('.bannerUl').slick({
+                      dots: true,
+                      infinite: true,
+                      arrows: false,
+                      autoplaySpeed: 2000,
+                      autoplay: true, //是否自动播放
+                      // pauseOnHover: true,  //鼠标悬停暂停自动播放
+                      speed: 1500,  //切换动画速度
+                    }); 
+                  </script>
+
+                </td>
+      </tr>
+      <tr>
+        <td align="right"><img src="img/zsbline.png" width="280" height="30" border="0"></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.tust.edu.cn/VRScan/binhai/"><img src="img/3dkd.png" width="315" height="123" border="0" ></a></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+<map name="Map">
+  <area shape="rect" coords="3,101,203,194" href="xxcx/lnfs/">
+  <area shape="rect" coords="1,206,203,295" href="http://lqcx.tust.edu.cn/" target="_blank">
+  <area shape="rect" coords="1,304,200,396" href="bkzn/jhcx/">
+  <area shape="rect" coords="2,405,203,495" href="https://zsb.tust.edu.cn/bkzn/zszc/" target="_blank">
+  <area shape="rect" coords="96,544,157,564" href="http://www.tust.edu.cn/xxgk/yxsz.html " target="_blank">
+  
+</map>
+
+
+</div> 
+</div>
+
+
+<div class="bottom2">			
+		
+
+		</div>
+
+<div class="bottom">			<div class="footer">
+							</div>
+		</div></body></html>

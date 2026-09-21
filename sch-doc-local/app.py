@@ -20,6 +20,7 @@ from discovery import Discovery, TYPES, metadata
 from library import institutions, queue_many, archive_bundle
 from focus import enrich
 from snapshot_export import SnapshotJobs, pick_directory, save_destination
+from providers import Providers
 
 TOKEN=secrets.token_urlsafe(32)
 STATE={'running':False,'message':'准备就绪','started':'','finished':''}
@@ -86,7 +87,7 @@ class Handler(BaseHTTPRequestHandler):
                 data['institutions']=institutions(STORE)
                 return self.send(enrich(data, STORE.root))
             if path=='/api/health':
-                return self.send({'app':'graduate-archive','root':str(STORE.root),'version':7})
+                return self.send({'app':'graduate-archive','root':str(STORE.root),'version':9})
             if path=='/api/snapshot-status':
                 return self.send(SNAPSHOTS.status())
             if path=='/api/snapshot-guide':
@@ -125,6 +126,7 @@ class Handler(BaseHTTPRequestHandler):
             allowed.update({'/local-tools.js':'local-tools.js','/local-tools.css':'local-tools.css'})
             allowed.update({'/experience.js':'experience.js','/experience.css':'experience.css'})
             allowed.update({'/card-browser.js':'card-browser.js','/card-browser.css':'card-browser.css'})
+            allowed.update({'/atlas-upgrade.js':'atlas-upgrade.js','/atlas-upgrade.css':'atlas-upgrade.css'})
             if path in allowed:
                 p=ROOT/'static'/allowed[path]
                 ctype={'.html':'text/html','.css':'text/css','.js':'text/javascript'}[p.suffix]+'; charset=utf-8'
@@ -147,6 +149,29 @@ class Handler(BaseHTTPRequestHandler):
             path=urllib.parse.urlsplit(self.path).path
             if path=='/api/check':
                 start_job(p)
+            elif path=='/api/provider-test':
+                return self.send(Providers(STORE).test(p.get('provider')))
+            elif path=='/api/provider-search':
+                return self.send({'results':Providers(STORE).search(p.get('query',''))})
+            elif path=='/api/ai-summary':
+                rows=STORE.query('SELECT * FROM snapshots WHERE id=?',(int(p.get('snapshot_id',0)),))
+                if not rows:
+                    raise ValueError('请选择已有原件')
+                row=rows[0]
+                local=(STORE.root/row['text_path']).resolve()
+                if not local.is_relative_to(STORE.data.resolve()) or not local.is_file():
+                    raise ValueError('正文文件不存在')
+                text=local.read_text('utf-8')
+                if len(text.strip())<80:
+                    raise ValueError('可提取正文不足，暂不能生成摘要')
+                cache=STORE.data/'ai-summaries'/f"v2-{row['id']}-{row['sha256']}.json"
+                if cache.exists():
+                    return self.send(json.loads(cache.read_text('utf-8')))
+                result=Providers(STORE).summarize(text,row['url'])
+                result.update(snapshot_id=row['id'],sha256=row['sha256'],created=now())
+                cache.parent.mkdir(exist_ok=True)
+                cache.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
+                return self.send(result)
             elif path=='/api/snapshot-start':
                 return self.send(SNAPSHOTS.start(p))
             elif path=='/api/snapshot-directory':
@@ -248,6 +273,13 @@ class Handler(BaseHTTPRequestHandler):
                     STORE.execute('INSERT OR REPLACE INTO settings VALUES (?,?)',('search_api_key',json.dumps(key)))
                 elif p.get('clear_search_key'):
                     STORE.execute("DELETE FROM settings WHERE key='search_api_key'")
+                if p.get('gemini_api_key'):
+                    key=str(p['gemini_api_key']).strip()
+                    if len(key)>500 or '\r' in key or '\n' in key:
+                        raise ValueError('Gemini 密钥格式无效')
+                    STORE.execute('INSERT OR REPLACE INTO settings VALUES (?,?)',('gemini_api_key',json.dumps(key)))
+                elif p.get('clear_gemini_key'):
+                    STORE.execute("DELETE FROM settings WHERE key='gemini_api_key'")
             elif path=='/api/archive-url':
                 sid=int(p['source_id'])
                 source=STORE.query('SELECT * FROM sources WHERE id=?',(sid,))

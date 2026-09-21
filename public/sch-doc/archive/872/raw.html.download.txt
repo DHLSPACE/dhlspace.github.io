@@ -1,0 +1,861 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="webplus-main"  >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>研究生招生网</title>
+
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/sudyExtend/sudyExtend.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/datepicker/css/datepicker.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/jquery.min.js" sudy-wp-context="" sudy-wp-siteId="117"></script>
+<script language="javascript" src="/_js2/loadStyle.js" sys-path="/_upload/site/1/style/89/89.css"  site-path="/_upload/site/00/75/117/style/110/110.css" ></script>
+<script language="javascript" src="/_js2/grayscale.js"   ></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/winfloat/js/winfloat.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyExtend/sudyExtend.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/jquery.datepicker.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/datepicker_lang_HK.js"></script>
+<style type="text/css" title="defaultStyle">
+#mainleft {
+	float: left;
+	width: 306px;
+}
+#mainright {
+	float: right;
+	width: 669px;
+	background-color: #FFFFFF;
+}
+/*主页面右侧的左栏,定义间距和宽度*/
+#mainright_1 {
+	margin-top: 0px;
+}
+#mainrightleft {
+	float: left;
+	width: 521px;
+	background-color: #FFFFFF;
+}
+#zmxy img {
+	background-color: #FFFFFF;
+	border-right-width: 5px;
+	border-left-width: 5px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+}
+#zmxy a {
+	text-decoration: none;
+}
+</style>
+<script src="https://kaoyan.360eol.com/robot/inc/robot.js?schoolId=%2Fh4M71fXcZQ%3D&type=2"></script>
+<link href="/_upload/tpl/01/3e/318/template318/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.STYLE1 {
+	color: #A42E2E
+}
+-->
+</style>
+</head>
+<body>
+<div frag="面板121">
+  <div frag="窗口121">
+    <!-- No Data -->
+  </div>
+</div>
+<div id="container_page">
+  <div id="head">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="123" background="/_upload/tpl/01/3e/318/template318/images/head_01.jpg" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="88">&nbsp;</td>
+              <td align="right"><table width="100%" border="0">
+                  <tr>
+                    <td width="352"></td>
+                    <td   width="215" height="24"><div frag="面板88">
+                        <div frag="窗口88">
+                          
+    <div class="wp_search">
+        <table>
+            <tr>
+                <td height="25px">
+                    <input id="keyword" name="keyword" style="width: 150px" class="keyword" type="text" value="请输入关键字" onfocus="if (this.value === '请输入关键字') { this.value = ''; }"
+                           onblur="if (this.value === '') { this.value = '请输入关键字'; }" onkeydown="return onKeyEvent(event);"/>
+                </td>
+                <td>
+					<input type="hidden" id="securl" value="/_web/_search/api/search/new.rst?locale=zh_CN&request_locale=zh_CN&context=&_p=YXM9MTE3JnQ9MzE4JmQ9OTY2JnA9MSZtPVNOJg__"/>
+                    <input name="btnsearch" class="search" type="submit" value="" onclick="checkValues();"/>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+<script>
+    function onKeyEvent(event){
+        if (event.keyCode != '13') {
+            return;
+        }
+        checkValues();
+    }
+    function checkValues(){
+		var url = $("#securl").val();
+        var keyword = $("input[name='keyword']").val();
+		if (keyword === '请输入关键字') {
+			keyword = ''; 
+		}
+		if (keyword !== '') {
+			keyword = encodeURI(encodeURI(keyword));
+			url = url + "&keyword=" + keyword;
+		}
+        window.open(url);
+    }
+</script>
+                        </div>
+                      </div></td>
+                    <td width="25">&nbsp;</td>
+                  </tr>
+                </table></td>
+            </tr>
+            <tr>
+              <td width="392">&nbsp;</td>
+              <td height="29" ><div frag="面板1">
+                  <div frag="窗口1">
+                    
+<style type="text/css"> 
+#wp_nav_w1 .wp_nav { margin:0 auto;}
+#wp_nav_w1 .wp_nav .nav-item{float:none;}
+#wp_nav_w1 .wp_nav .on {}
+#wp_nav_w1 .wp_nav .nav-item .mark { font-style:normal;}
+#wp_nav_w1 .wp_nav .nav-item a{  font-family:inherit; text-align:left;}
+#wp_nav_w1 .wp_nav .nav-item a:hover,.wp_nav .nav-item .parent{}
+#wp_nav_w1 .wp_nav .nav-item a .item-name { display:inline-block;vertical-align:top; cursor:pointer;}
+#wp_nav_w1 .wp_nav .sub-nav { border:1px solid #959595;line-height: 1;background: #e1e1e1;padding:1px 0px; margin-top:-2px;}
+#wp_nav_w1 .wp_nav .sub-nav .nav-item .mark {background:#f5f5f5;}
+#wp_nav_w1 .wp_nav .sub-nav .nav-item a {background: #e1e1e1;}
+#wp_nav_w1 .wp_nav .sub-nav .nav-item a .item-name { border:1px solid #959595; margin:0px 2px 1px 2px;padding:0px 10px; line-height:20px;display:block;}
+#wp_nav_w1 .wp_nav .sub-nav .nav-item a:hover .item-name,.wp_nav .sub-nav .nav-item a.parent .item-name{background:#f5f5f5; border-color: #ccc;}
+
+</style> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="wp_nav" data-nav-config="{drop_v: 'down', drop_w: 'right', dir: 'y', opacity_main: '1', opacity_sub: '0.8', dWidth: '0'}"> 
+<tr> 
+<td> 
+
+                      <table border="0" cellspacing="0" cellpadding="0" >
+                        <tr>
+                          <td width="17"><img src="/_upload/tpl/01/3e/318/template318/images/nav_01.gif" width="17"></td>
+                          <td background="/_upload/tpl/01/3e/318/template318/images/nav_02.gif"> 
+ <div class="nav-item"> 
+ <div style="white-space:nowrap" class="wlink"><a href="http://yzb.seu.edu.cn/main.htm" title="首 页" class="wlink" target="_self">首 页</a></div> 
+          
+</div> 
+</td>
+                          <td width="12"><img src="/_upload/tpl/01/3e/318/template318/images/nav_03.gif" width="12"></td>
+                          <td><img src="/_upload/tpl/01/3e/318/template318/images/nav_bg.gif"></td>
+                        </tr>
+                      </table></td> 
+<td> 
+
+                      <table border="0" cellspacing="0" cellpadding="0" >
+                        <tr>
+                          <td width="17"><img src="/_upload/tpl/01/3e/318/template318/images/nav_01.gif" width="17"></td>
+                          <td background="/_upload/tpl/01/3e/318/template318/images/nav_02.gif"> 
+ <div class="nav-item"> 
+ <div style="white-space:nowrap" class="wlink"><a href="/6663/list.htm" title="学校概况" class="wlink" target="_self">学校概况</a></div> 
+          
+</div> 
+</td>
+                          <td width="12"><img src="/_upload/tpl/01/3e/318/template318/images/nav_03.gif" width="12"></td>
+                          <td><img src="/_upload/tpl/01/3e/318/template318/images/nav_bg.gif"></td>
+                        </tr>
+                      </table></td> 
+<td> 
+
+                      <table border="0" cellspacing="0" cellpadding="0" >
+                        <tr>
+                          <td width="17"><img src="/_upload/tpl/01/3e/318/template318/images/nav_01.gif" width="17"></td>
+                          <td background="/_upload/tpl/01/3e/318/template318/images/nav_02.gif"> 
+ <div class="nav-item"> 
+ <div style="white-space:nowrap" class="wlink"><a href="/6667/list.htm" title="硕士简章" class="wlink" target="_self">硕士简章</a></div> 
+          
+</div> 
+</td>
+                          <td width="12"><img src="/_upload/tpl/01/3e/318/template318/images/nav_03.gif" width="12"></td>
+                          <td><img src="/_upload/tpl/01/3e/318/template318/images/nav_bg.gif"></td>
+                        </tr>
+                      </table></td> 
+<td> 
+
+                      <table border="0" cellspacing="0" cellpadding="0" >
+                        <tr>
+                          <td width="17"><img src="/_upload/tpl/01/3e/318/template318/images/nav_01.gif" width="17"></td>
+                          <td background="/_upload/tpl/01/3e/318/template318/images/nav_02.gif"> 
+ <div class="nav-item"> 
+ <div style="white-space:nowrap" class="wlink"><a href="/6668/list.htm" title="博士简章" class="wlink" target="_self">博士简章</a></div> 
+          
+</div> 
+</td>
+                          <td width="12"><img src="/_upload/tpl/01/3e/318/template318/images/nav_03.gif" width="12"></td>
+                          <td><img src="/_upload/tpl/01/3e/318/template318/images/nav_bg.gif"></td>
+                        </tr>
+                      </table></td> 
+<td> 
+
+                      <table border="0" cellspacing="0" cellpadding="0" >
+                        <tr>
+                          <td width="17"><img src="/_upload/tpl/01/3e/318/template318/images/nav_01.gif" width="17"></td>
+                          <td background="/_upload/tpl/01/3e/318/template318/images/nav_02.gif"> 
+ <div class="nav-item"> 
+ <div style="white-space:nowrap" class="wlink"><a href="/6669/list.htm" title="港澳台简章" class="wlink" target="_self">港澳台简章</a></div> 
+          
+</div> 
+</td>
+                          <td width="12"><img src="/_upload/tpl/01/3e/318/template318/images/nav_03.gif" width="12"></td>
+                          <td><img src="/_upload/tpl/01/3e/318/template318/images/nav_bg.gif"></td>
+                        </tr>
+                      </table></td> 
+<td> 
+
+                      <table border="0" cellspacing="0" cellpadding="0" >
+                        <tr>
+                          <td width="17"><img src="/_upload/tpl/01/3e/318/template318/images/nav_01.gif" width="17"></td>
+                          <td background="/_upload/tpl/01/3e/318/template318/images/nav_02.gif"> 
+ <div class="nav-item"> 
+ <div style="white-space:nowrap" class="wlink"><a href="http://121.248.63.139/zsgl/login.aspx" title="网上办公" class="wlink" target="_blank">网上办公</a></div> 
+          
+</div> 
+</td>
+                          <td width="12"><img src="/_upload/tpl/01/3e/318/template318/images/nav_03.gif" width="12"></td>
+                          <td><img src="/_upload/tpl/01/3e/318/template318/images/nav_bg.gif"></td>
+                        </tr>
+                      </table></td> 
+<td> 
+
+                      <table border="0" cellspacing="0" cellpadding="0" >
+                        <tr>
+                          <td width="17"><img src="/_upload/tpl/01/3e/318/template318/images/nav_01.gif" width="17"></td>
+                          <td background="/_upload/tpl/01/3e/318/template318/images/nav_02.gif"> 
+ <div class="nav-item"> 
+ <div style="white-space:nowrap" class="wlink"><a href="/6671/list.htm" title="历史数据" class="wlink" target="_self">历史数据</a></div> 
+          
+</div> 
+</td>
+                          <td width="12"><img src="/_upload/tpl/01/3e/318/template318/images/nav_03.gif" width="12"></td>
+                          <td><img src="/_upload/tpl/01/3e/318/template318/images/nav_bg.gif"></td>
+                        </tr>
+                      </table></td> 
+<td> 
+
+                      <table border="0" cellspacing="0" cellpadding="0" >
+                        <tr>
+                          <td width="17"><img src="/_upload/tpl/01/3e/318/template318/images/nav_01.gif" width="17"></td>
+                          <td background="/_upload/tpl/01/3e/318/template318/images/nav_02.gif"> 
+ <div class="nav-item"> 
+ <div style="white-space:nowrap" class="wlink"><a href="/xzqy_24094/list.htm" title="下载区域" class="wlink" target="_self">下载区域</a></div> 
+          
+</div> 
+</td>
+                          <td width="12"><img src="/_upload/tpl/01/3e/318/template318/images/nav_03.gif" width="12"></td>
+                          <td><img src="/_upload/tpl/01/3e/318/template318/images/nav_bg.gif"></td>
+                        </tr>
+                      </table></td> 
+</tr> 
+</table>
+                  </div>
+                </div></td>
+            </tr>
+          </table></td>
+      </tr>
+    </table>
+  </div>
+  <div id="container_content">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="13">&nbsp;</td>
+        <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="173" style="background-image:url(/_upload/tpl/01/3e/318/template318/images/head_02.jpg); background-repeat:no-repeat"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="980" height="183">
+                  <param name="movie" value="/_upload/tpl/01/3e/318/template318/images/banner.swf">
+                  <param name="quality" value="high">
+                  <embed src="/_upload/tpl/01/3e/318/template318/images/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="980" height="183"></embed>
+                </object></td>
+            </tr>
+            <tr>
+              <td height="15"></td>
+            </tr>
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="734" valign="top"><table width="734" height="232" border="0" cellspacing="0" cellpadding="0" class="kuang">
+                  <tr>
+                    <td valign="top"><table width="98%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="25" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/biao.gif"></td>
+                          <td height="26" class="biaoti1"><span frag="面板2"><span frag="窗口2" portletmode="windowTitle" style="display: block; text-align: left;">硕士招生</span></span></td>
+                          <td  align="right"><span frag="面板3"><span frag="窗口3" portletmode="windowMore"><span class="more"><a class="more-link" href="/6676/list.htm" title="显示更多"><span class="moretext"><img src='/_upload/site/00/75/117/style/63/more.gif' border='0'/></span></a></span></span></span></td>
+                        </tr>
+                        <tr>
+                          <td colspan="3" height="10"></td>
+                        </tr>
+                      </table>
+                      <div frag="面板11">
+                        <div frag="窗口11">
+                          <div id="wp_news_w11"> 
+
+                            <table width="98%" border="0" cellspacing="0" cellpadding="0">
+                               
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0918/c6676a583665/page.htm' target='_blank' title='东南大学2027年推荐免试研究生招生工作办法'>东南大学2027年推荐免试研究生招生工作办法</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-09-18</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"><img src='/_js/_portletPlugs/simpleNews/images/new.gif' /></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0910/c6676a582699/page.htm' target='_blank' title='东南大学2027年度国优计划研究生专项面试结果'>东南大学2027年度国优计划研究生专项面试结果</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-09-10</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0907/c6676a582190/page.htm' target='_blank' title='东南大学2027年度国优计划研究生专项选拔考核通知'>东南大学2027年度国优计划研究生专项选拔考核通知</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-09-07</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0831/c6676a580992/page.htm' target='_blank' title='东南大学2027年推免专项报名通知'>东南大学2027年推免专项报名通知</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-08-31</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0828/c6676a580682/page.htm' target='_blank' title='东南大学部分学院2027年接收推荐免试研究生报名通知（第二批）'>东南大学部分学院2027年接收推荐免试研究生报名通知（第二批）</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-08-28</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0716/c6676a576932/page.htm' target='_blank' title='2026年暑假研究生院工作安排'>2026年暑假研究生院工作安排</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-07-16</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0707/c6676a575749/page.htm' target='_blank' title='东南大学各院、系（所）2027年接收推荐免试研究生报名通知汇总'>东南大学各院、系（所）2027年接收推荐免试研究生报名通知汇总</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-07-07</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0706/c6676a575627/page.htm' target='_blank' title='东南大学2027年接收推荐免试研究生报名通知'>东南大学2027年接收推荐免试研究生报名通知</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-07-06</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+
+                            </table></div> 
+
+                        </div>
+                      </div></td>
+                  </tr>
+                </table>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="15">&nbsp;</td>
+                  </tr>
+                </table>
+                <table width="734" height="232" border="0" cellspacing="0" cellpadding="0" class="kuang">
+                  <tr>
+                    <td valign="top"><table width="98%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="25" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/biao.gif"></td>
+                          <td height="26" class="biaoti1"><span frag="面板6"><span frag="窗口6" portletmode="windowTitle" style="display: block; text-align: left;">博士招生</span></span></td>
+                          <td  align="right"><span frag="面板7"><span frag="窗口7" portletmode="windowMore"><span class="more"><a class="more-link" href="/6677/list.htm" title="显示更多"><span class="moretext"><img src='/_upload/site/00/75/117/style/63/more.gif' border='0'/></span></a></span></span></span></td>
+                        </tr>
+                        <tr>
+                          <td colspan="3" height="10"></td>
+                        </tr>
+                      </table>
+                      <div frag="面板12">
+                        <div frag="窗口12">
+                          <div id="wp_news_w12"> 
+
+                            <table width="98%" border="0" cellspacing="0" cellpadding="0">
+                               
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0709/c6677a576275/page.htm' target='_blank' title='东南大学2026年秋季入学博士研究生录取通知书寄发通知'>东南大学2026年秋季入学博士研究生录取通知书寄发通知</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-07-10</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"><img src='/_js/_portletPlugs/simpleNews/images/new.gif' /></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0706/c6677a575668/page.htm' target='_blank' title=' 东南大学2026年博士研究生新生报到须知'> 东南大学2026年博士研究生新生报到须知</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-07-06</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"><img src='/_js/_portletPlugs/simpleNews/images/new.gif' /></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0630/c6677a575068/page.htm' target='_blank' title='东南大学2026年高校思想政治工作骨干在职攻读博士学位研究生拟录取名单公示'>东南大学2026年高校思想政治工作骨干在职攻读博士学位研究生拟录取名单公示</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-06-30</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"><img src='/_js/_portletPlugs/simpleNews/images/new.gif' /></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0622/c6677a572658/page.htm' target='_blank' title='东南大学2026年补充选拔全日制博士研究生拟录取名单公示'>东南大学2026年补充选拔全日制博士研究生拟录取名单公示</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-06-22</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0616/c6677a571861/page.htm' target='_blank' title='东南大学2026年非全日制博士研究生（含工程类、临床医学、公共卫生、法律等）拟录取查询及办理相关手续通知'>东南大学2026年非全日制博士研究生（含工程类、临床医学、公共卫生、法律等）拟录取查询及办理相关手续通知</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-06-16</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0616/c6677a571857/page.htm' target='_blank' title='东南大学2026年非全日制法律博士研究生拟录取名单公示'>东南大学2026年非全日制法律博士研究生拟录取名单公示</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-06-16</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0616/c6677a571855/page.htm' target='_blank' title='东南大学2026年非全日制工程类专业博士研究生拟录取名单公示'>东南大学2026年非全日制工程类专业博士研究生拟录取名单公示</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-06-16</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0616/c6677a571852/page.htm' target='_blank' title='东南大学2026年非全日制临床医学、公共卫生专业博士研究生拟录取名单公示'>东南大学2026年非全日制临床医学、公共卫生专业博士研究生拟录取名单公示</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-06-16</div></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap"></div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+
+                            </table></div> 
+
+                        </div>
+                      </div></td>
+                  </tr>
+                </table>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="12">&nbsp;</td>
+                  </tr>
+                </table>
+                <table width="734" height="212" border="0" cellspacing="0" cellpadding="0" class="kuang">
+                  <tr>
+                    <td valign="top"><table width="98%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td width="25" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/biao.gif"></td>
+                          <td height="26" class="biaoti1"><span frag="面板101"><span frag="窗口101" portletmode="windowTitle" style="display: block; text-align: left;">港澳台及中外合作办学</span></span></td>
+                          <td  align="right"><span frag="面板102"><span frag="窗口102" portletmode="windowMore"><span class="more"><a class="more-link" href="/6679/list.htm" title="显示更多"><span class="moretext"><img src="/_js/_portletPlugs/simpleNews/css/icon_more_1.gif" border="0"/></span></a></span></span></span></td>
+                        </tr>
+                        <tr>
+                          <td colspan="3" height="10"></td>
+                        </tr>
+                      </table>
+                      <div frag="面板103">
+                        <div frag="窗口103">
+                          <div id="wp_news_w103"> 
+
+                            <table width="98%" border="0" cellspacing="0" cellpadding="0">
+                               
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0521/c6679a568398/page.htm' target='_blank' title='东南大学2026年面向港澳台地区招收研究生复试结果公示'>东南大学2026年面向港澳台地区招收研究生复试结果公示</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-05-21</div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0507/c6679a566775/page.htm' target='_blank' title='东南大学2026年度面向港澳台地区招收研究生学院复试细则（陆续更新）'>东南大学2026年度面向港澳台地区招收研究生学院复试细则（陆续更新）</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-05-09</div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0509/c6679a567113/page.htm' target='_blank' title='苏州联合研究生院2026年拟录取考生注意事项'>苏州联合研究生院2026年拟录取考生注意事项</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-05-09</div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td width="18" align="center"><img src="/_upload/tpl/01/3e/318/template318/images/squre.gif"></td>
+                                <td height="23"> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='/2026/0506/c6679a566688/page.htm' target='_blank' title='2026年东南大学面向港澳台地区研究生招生工作办法'>2026年东南大学面向港澳台地区研究生招生工作办法</a></td> 
+ 
+<td align="left" width="30px"><div style="white-space:nowrap">2026-05-06</div></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+
+                            </table></div> 
+
+                        </div>
+                      </div></td>
+                  </tr>
+                </table></td>
+              <td></td>
+              <td width="231" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  
+                  <tr>
+                    <td height="10"></td>
+                  </tr>
+                  <tr>
+                    <td><img src="/_upload/tpl/01/3e/318/template318/images/mxss.gif" border="0" usemap="#Map"></td>
+                  </tr>
+                  <tr>
+                    <td height="8"></td>
+                  </tr>
+                  <tr>
+                    <td><img src="/_upload/tpl/01/3e/318/template318/images/mxbs.gif" border="0" usemap="#Map2"></td>
+                  </tr>
+                  <tr>
+                    <td height="8"></td>
+                  </tr>
+                  <tr>
+                    <td><img src="/_upload/tpl/01/3e/318/template318/images/zhaosheng.jpg" border="0" usemap="#Map4" ></td>
+                  </tr>
+                  <tr>
+                    <td height="8"></td>
+                  </tr>
+                  <tr>
+                    <td><img src="/_upload/tpl/01/3e/318/template318/images/xxgkzl.gif" border="0" usemap="#Map3"></td>
+                  </tr>
+                  <tr>
+                    <td height="10"></td>
+                  </tr>
+                  <tr>
+                    <td><img src="/_upload/tpl/01/3e/318/template318/images/lxwm.gif"></td>
+                  </tr>
+                  <tr>
+                    <td  background="/_upload/tpl/01/3e/318/template318/images/pin3_bg.gif" style="background-repeat:repeat-y"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td height="130" class="mainleftbg1" valign="top" style="padding-top:12px;"><div frag="面板31">
+                              <div frag="窗口31">
+                                <div id="wp_news_w31"> 
+
+                                  <table width="95%" border="0" cellspacing="0" cellpadding="0" align="center">
+                                     
+<tr>
+                                      <td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="center"> 
+ 
+<a href='/2011/1223/c6687a65085/page.htm' target='_blank' title='联系我们'><p style="margin:0cm 0cm 0px;text-align:left;"><span style="font-family:宋体;"><span style="text-decoration:underline;font-family:宋体;"><a href="https://yzb.seu.edu.cn/2016/0511/c6690a158314/page.htm" target="_blank" sudyfile-attr="{'title':'只支持选中一个链接时生效'}" style="font-size:16px;font-weight:bold;text-decoration:underline;">研招办及各院系联系电话（点击查看）</a><br /><font color="#ff0000"><span style="font-size:16px;"><b><br /></b></span></font></span></span></p><p style="margin:0cm 0cm 0px;text-align:left;"><span style="font-family:宋体;font-size:12px;mso-ascii-font-family:arial;mso-hansi-font-family:arial;mso-bidi-font-family:arial">信箱:<span style="font-family:arial;font-size:12px" lang="EN-US">seuyzb@pub.seu.edu.cn</span></span></p><p style="margin:0cm 0cm 0px;text-align:left;"><span style="font-family:arial;font-size:12px" lang="EN-US"></span><span style="font-family:宋体;font-size:12px;mso-ascii-font-family:arial;mso-hansi-font-family:arial;mso-bidi-font-family:arial">地址:南京四牌楼</span><span style="font-family:arial;font-size:12px" lang="EN-US">2</span><span style="font-family:宋体;font-size:12px;mso-ascii-font-family:arial;mso-hansi-font-family:arial;mso-bidi-font-family:arial">号逸夫建筑馆</span><span style="font-family:arial;font-size:12px" lang="EN-US">203</span></p><p style="margin:0cm 0cm 0px;text-align:left;" class="MsoNormal"><span style="font-family:宋体;font-size:12px;mso-ascii-font-family:arial;mso-hansi-font-family:arial;mso-bidi-font-family:arial">邮编:</span><span style="font-family:arial;font-size:12px" lang="EN-US">210096</span></p><p style="margin:0cm 0cm 0px;text-align:left;" class="MsoNormal"><span style="font-family:arial;font-size:12px">微信公众号:seuyzb</span></p><p><img style="width:150px;height:150px" border="0" hspace="0" vspace="0" src="/_upload/article/70/83/61da59324f5c82f1be6563cc2da4/d09bcd8f-84db-4edd-ba30-e3601c637f70.jpg" width="150" height="150" data-layer="photo" sudyfile-attr="{'title':'东南大学研招办 (2).jpg'}" /></p><p><span style="font-size:14px;">&nbsp;&nbsp;</span></p></a>  
+</td> 
+</tr> 
+</table> 
+</td>
+                                    </tr> 
+
+                                  </table></div> 
+
+                              </div>
+                            </div></td>
+                        </tr>
+                      </table></td>
+                  </tr>
+                  <tr>
+                    <td height="15"></td>
+                  </tr>
+                  <tr>
+                    <td><div frag="面板32">
+                        <div frag="窗口32">
+                          <div class="sudy-links" id="sudy-links-w32"> 
+     <span class="links-name">友情链接</span> 
+     <div class="links-wrap"> 
+<div id="wp_news_w32"> 
+
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                               
+<tr>
+                                <td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='http://seugs.seu.edu.cn/' target='_blank' title='东南大学研究生院'>东南大学研究生院</a></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='http://www.seu.edu.cn/main.htm' target='_blank' title='东南大学首页'>东南大学首页</a></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='http://www.moe.edu.cn/' target='_blank' title='教育部'>教育部</a></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='http://www.ec.js.edu.cn/' target='_blank' title='江苏省教育厅'>江苏省教育厅</a></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+<tr>
+                                <td> 
+<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+<tr> 
+<td align="left"><a href='http://yz.chsi.com.cn/' target='_blank' title='中国研究生招生信息网'>中国研究生招生信息网</a></td> 
+ 
+</tr> 
+</table> 
+</td>
+                              </tr> 
+
+                            </table></div> 
+
+     </div> 
+</div> 
+<script type="text/javascript"> 
+     $(function() { 
+         $("#sudy-links-w32").sudyLinks({ 
+             handle: ".links-name", 
+             wrap: ".links-wrap", 
+             trigger: "mouseenter", 
+             effect: "show", 
+             speed: 300, 
+             hidePause: 800 
+         }); 
+     });  
+</script> 
+
+                        </div>
+                      </div></td>
+                  </tr>
+                </table></td>
+            </tr>
+          </table></td>
+        <td width="14">&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="foot">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="36"  align="center" valign="middle" class="foothang" background="/_upload/tpl/01/3e/318/template318/images/foot_bg.gif"><table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td style="color:#ffffff">Copyright 2011 东南大学研究生院  All Rights Reserved  您是第</td>
+              <td><div frag="面板8">
+                  <div frag="窗口8">
+                    <img border="0" src="/_visitcountdisplay?siteId=117&type=1&dispMode=1&statMode=1" />
+                  </div>
+                </div></td>
+              <td style="color:#ffffff">位浏览者</td>
+            </tr>
+          </table></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<map name="Map">
+  <area shape="rect" coords="5,1,235,51" href="http://yzb.seu.edu.cn/6680/list.htm">
+</map>
+<map name="Map3">
+  <area shape="rect" coords="3,2,235,48" href="/xxgkzl/list.htm">
+</map>
+<map name="Map2">
+  <area shape="rect" coords="4,1,227,48" href="http://yzb.seu.edu.cn/6681/list.htm" target="_blank" >
+</map>
+<map name="Map4">
+  <area shape="rect" coords="1,3,230,45" href="http://yzb.seu.edu.cn/6690/list.htm" target="_blank">
+</map>
+</body>
+</html>
+ <img src="/_visitcount?siteId=117&type=1&columnId=6660" style="display:none" width="0" height="0"/>

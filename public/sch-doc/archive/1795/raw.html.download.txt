@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>中国科学院微电子研究所2025年招收攻读硕士学位研究生简章--中国科学院微电子研究所</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="keywords" content="硕士生招生,中国科学院微电子研究所,中国科学院">
+    <meta name="description" content="硕士生招生,中国科学院微电子研究所,中国科学院">
+    <meta name="author" content="ChenX,中国科学院计算机网络信息中心">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- css -->
+    <link href="//api.cas.cn/favicon/ime.ico" rel="shortcut icon" type="image/x-icon">
+<link href="/images/bootstrap.css" rel="stylesheet">
+<link href="//api.cas.cn/lib/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="/images/common_wdzs.css" rel="stylesheet">
+<link href="/images/zoom.css" rel="stylesheet"><!-- 点小图显示大图css -->
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script src="//api.cas.cn/lib/selectivizr/1.0.2/js/selectivizr.js"></script>
+<noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="//api.cas.cn/lib/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="//api.cas.cn/lib/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <link href="../../../images/style_wdzs.css" rel="stylesheet">
+
+</head>
+<body>
+<!--header begin-->
+<form name="searchform" action="/include/qwjs/" method="get" target="_top">
+    <input type="hidden" name="keyword" value="" />
+</form>
+<div class="fl_wdzs w100_wdzs nav_bg_wdzs">
+    <div class="fl_wdzs w100_wdzs nav_bar_wdzs">
+        <div class="container">
+            <div class="row app_row">
+                <div class="navbar-header w100_wdzs">
+                    <div class="hidden-lg hidden-md fl_wdzs w100_wdzs app_navbar_wdzs">
+                        <form  class="navbar-form fl_wdzs">
+                            <div class="form-group">
+                                <input type="text" class="form-control" value="Search" id="searchword" onClick="javascript:if(this.value=='Search') this.value=''" />
+                                <input type="button" class="btn" value="" id="sub-pc" style="border:none;border-radius: 0 8px 8px 0;box-shadow: inset 0 0px 0 rgba(255,255,255,0);height: 32px;background-position: center;background-repeat: no-repeat;width:40px;" />
+                            </div>
+                        </form>
+                        <div class="btn-group dropdown fr_wdzs appbtn_group_wdzs">
+                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-share-alt"></i></button>
+                            <div class="dropdown-menu dropdown-menu-right app_dropdown_menu_wdzs">
+                                <ol class="breadcrumb fr_wdzs app_breadcrumb_wdzs">
+                                    <li><a href="/../../qt/wzdt/">网站地图</a></li>
+                                    <li><a href="/../../skjs/lxwm/">联系我们</a></li>
+                                    <li><a href="http://english.ime.cas.cn/" target="_blank">English</a></li>
+                                    <li><a href="http://www.cas.cn/" target="_blank">中国科学院</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-7 col-sm-7 col-md-7">
+                        <a href="/" class="navbar-brand"><img src="/images/logo_wdzs.png" /></a>
+                    </div>
+                    <div class="col-md-5 hidden-sm hidden-xs">
+                        <ol class="breadcrumb fr_wdzs">
+                            <li><a href="/../../qt/wzdt/">网站地图</a></li>
+                            <li><a href="/../../skjs/lxwm/">联系我们</a></li>
+                            <li><a href="http://english.ime.cas.cn/" target="_blank">English</a></li>
+                            <li><a href="http://www.cas.cn/" target="_blank">中国科学院</a></li>
+                        </ol>
+                        <form class="navbar-form fr_wdzs">
+                            <div class="form-group">
+                                <input type="text" class="form-control" value="Search" id="iptSword" onClick="javascript:if(this.value=='Search') this.value=''" />
+                                <input type="button" class="btn" value="" id="sub-mobile" style="border:none;border-radius: 0 8px 8px 0;box-shadow: inset 0 0px 0 rgba(255,255,255,0);height: 32px;background-position: center;background-repeat: no-repeat;width:40px;" />
+                            </div>
+                        </form>
+                    </div>
+                </div><!--  navbar-header end -->
+            </div><!--  row end -->
+        </div><!--  container end -->
+    </div><!-- nav_bar_wdzs end -->
+    <nav class="fl_wdzs w100_wdzs nav_wdzs nav navbar bootsnav">
+        <div class="nav_main_wdzs">
+            <div class="container">
+                <div class="row app_row">
+                    <div class="navbar-header">
+                        <span class="fl_wdzs hidden-lg hidden-md hidden-sm">MENU</span>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <div class="fl_wdzs w100_wdzs navbar-nav_wdzs">
+                            <ul class="nav navbar-nav nav-justified" data-in="fadeInDown" data-out="fadeOutUp">
+                                <li><a href="/">首页</a></li>
+
+<!-- 所狂介绍导航栏 -->
+                                <li class="dropdown ">
+                                    <a href="/../../skjs/" class="dropdown-toggle" data-toggle="dropdown"  target="_top"><p>所况介绍</p><i class="fa fa-caret-up hidden-xs "></i></a>
+                                    <div class="dropdown-menu web_menu_wdzs menu_skjs_wdzs">
+                                        <div class="fl_wdzs w100_wdzs hidden-xs web_menu_cont_wdzs">
+                                            <div class="col-md-4 col-sm-12 skjs_1122padd">
+                                                <h1 class="fl_wdzs w100_wdzs"><a href="/../../skjs/yjsgk/">研究所概况</a></h1>
+                                                
+                                                    <span class="fl_wdzs w100_wdzs yjgk_1122" style="margin-top:20px;"><a href="/../../skjs/yjsgk/" class="fl_wdzs w100_wdzs"><img src="/../../skjs/yjsgk/201809/W020190529635064486142.jpg" /></a></span>
+                                                    <p class="fl_wdzs w100_wdzs">中国科学院微电子研究所（以下简称“微电子所” ）成立于1958年，是我国微电子科学技术与集成电路领域的重要研发机构。微电子所是国务院学位委员会批准的博士、硕士学位授予权单位之一，是中国科学院大学集成电路学院主承办单位，现设有集成电路科学与工程、电子科学...</p>
+                                                
+                                            </div>
+                                            <div class="col-md-4 col-sm-12">
+                                                <div class="fl_wdzs w100_wdzs menu_szzc_wdzs">
+                                                    <!--             <h1 class="fl_wdzs w100_wdzs"><a href="/../../skjs/szzc/">所长致辞</a></h1>   -->
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 col-sm-12 skjs_1122padd2">
+                                                <div class="fl_wdzs w100_wdzs">
+                                                    <h1 class="fl_wdzs w100_wdzs"><a href="/../../skjs/xrld/">现任领导</a></h1>
+                                                    <p>
+                                                        <b>所长、党委书记：</b>戴博伟<br />
+                                                        <b>党委副书记、纪委书记：</b>谢光锋<br />
+                                                        <b>副所长：</b>曹立强<br />
+                                                        <b>副所长：</b>李泠<br />
+                                                        <b>副所长：</b>罗军<br />
+                                                    </p>
+                                                </div>
+                                                <h1 class="col-sm-6 paddnone"><a href="/../../skjs/lrld/">历任领导</a></h1>
+                                                <h1 class="col-sm-6 paddnone"><a href="/../../skjs/yqfm/">园区风貌</a></h1>
+                                                <h1 class="col-sm-6 paddnone paddleft15"><a href="/../../skjs/xswyh/">学术委员会</a></h1>
+                                     <!--            <h1 class="col-sm-6 paddnone"><a href="/../../skjs/nj/">年鉴</a></h1>    -->
+                                                <h1 class="col-sm-6 paddnone"><a href="/../../skjs/xwwyh/">学位委员会</a></h1>
+                                                <h1 class="col-sm-6 paddnone paddleft15"><a href="/../../skjs/lxwm/">联系我们</a></h1>
+                                            </div>
+                                        </div>
+                                        <ul class="app_menu_ul_wdzs hidden-lg hidden-md hidden-sm">
+                                            
+                                                <li><a href="/../../skjs/yjsgk/">研究所概况</a></li>
+                                            
+                                                <li><a href="/../../skjs/xrld/">现任领导</a></li>
+                                            
+                                                <li><a href="/../../skjs/lrld/">历任领导</a></li>
+                                            
+                                                <li><a href="/../../skjs/yszj/">院士专家</a></li>
+                                            
+                                                <li><a href="/../../skjs/xswyh/">学术委员会</a></li>
+                                            
+                                                <li><a href="/../../skjs/xwwyh/">学位委员会</a></li>
+                                            
+                                                <li><a href="/../../skjs/yqfm/">园区风貌</a></li>
+                                            
+                                                <li><a href="/../../skjs/lxwm/">联系我们</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </li>
+
+<!-- 机构设置导航栏 -->
+                                <li class="dropdown ">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="/../../jgsz/" role="button" aria-haspopup="true" aria-expanded="false"><p>机构设置</p><i class="fa fa-caret-up hidden-xs "></i></a>
+                                    <div class="dropdown-menu web_menu_wdzs menu_jgsz_wdzs">
+                                        <div class="fl_wdzs w100_wdzs hidden-xs web_menu_cont_wdzs">
+                                            <ul class="fl_wdzs w100_wdzs">
+                                                
+                                                    <li><a href="/../../jgsz/kybm/">科研部门</a></li>
+                                                
+                                                    <li><a href="/../../jgsz/glbm/">管理部门</a></li>
+                                                
+                                                    <li><a href="/../../jgsz/zcbm/">支撑部门</a></li>
+                                                
+                                                    <li><a href="/../../jgsz/gkjg/">挂靠机构</a></li>
+                                                
+                                                    <li><a href="/../../jgsz/kjtjpt/">科技条件平台</a></li>
+                                                
+                                                    <li><a href="/../../jgsz/nszx/">内设中心</a></li>
+                                                
+                                                    <li><a href="/../../jgsz/ggjsfwzx/">所级公共技术中心</a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                        <ul class="app_menu_ul_wdzs hidden-lg hidden-md hidden-sm">
+                                            
+                                                <li><a href="/../../jgsz/kybm/">科研部门</a></li>
+                                            
+                                                <li><a href="/../../jgsz/glbm/">管理部门</a></li>
+                                            
+                                                <li><a href="/../../jgsz/zcbm/">支撑部门</a></li>
+                                            
+                                                <li><a href="/../../jgsz/gkjg/">挂靠机构</a></li>
+                                            
+                                                <li><a href="/../../jgsz/kjtjpt/">科技条件平台</a></li>
+                                            
+                                                <li><a href="/../../jgsz/nszx/">内设中心</a></li>
+                                            
+                                                <li><a href="/../../jgsz/ggjsfwzx/">所级公共技术中心</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </li>
+
+<!-- 科研工作导航栏 -->
+                                <li class="dropdown ">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="/../../kygz/" role="button" aria-haspopup="true" aria-expanded="false"><p>科研工作</p><i class="fa fa-caret-up hidden-xs "></i></a>
+                                    <div class="dropdown-menu web_menu_wdzs menu_kygz_wdzs">
+                                        <div class="fl_wdzs w100_wdzs hidden-xs web_menu_cont_wdzs">
+                                            <ul class="fl_wdzs w100_wdzs">
+                                                
+                                                    <li><a href="/../../kygz/kydt/">科研动态</a></li>
+                                                
+                                                    <li><a href="/../../kygz/kjjl/">科技奖励</a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                        <ul class="app_menu_ul_wdzs hidden-lg hidden-md hidden-sm">
+                                            
+                                                <li><a href="/../../kygz/kydt/">科研动态</a></li>
+                                            
+                                                <li><a href="/../../kygz/kjjl/">科技奖励</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </li>
+
+<!-- 人才队伍导航栏 -->
+                                <li class="dropdown ">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="/../../rcdw/" role="button" aria-haspopup="true" aria-expanded="false"><p>人才队伍</p><i class="fa fa-caret-up hidden-xs "></i></a>
+                                    <div class="dropdown-menu web_menu_wdzs menu_rcdw_wdzs">
+                                        <div class="fl_wdzs w100_wdzs hidden-xs web_menu_cont_wdzs">
+                                            <ul class="fl_wdzs w100_wdzs">
+                                                
+                                                    <li><a href="/../../rcdw/yszj_143323/">院士专家</a></li>
+                                                
+                                                    <li><a href="/../../rcdw/jcqn/">杰出青年</a></li>
+                                                
+                                                    <li><a href="/../../rcdw/yjy/">研究员</a></li>
+                                                
+                                                    <li><a href="/../../rcdw/zgjgcs/">正高级工程师</a></li>
+                                                
+                                                    <li><a href="/../../rcdw/fyjy/">副研究员</a></li>
+                                                
+                                                    <li><a href="/../../rcdw/gjgcs/">高级工程师</a></li>
+                                                
+                                                    <li><a href="/../../rcdw/qchcy/">青促会成员</a></li>
+                                                
+                                                    <li><a href="/../../rcdw/rczp/">人才招聘</a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                        <ul class="app_menu_ul_wdzs hidden-lg hidden-md hidden-sm">
+                                            
+                                                <li><a href="/../../rcdw/yszj_143323/">院士专家</a></li>
+                                            
+                                                <li><a href="/../../rcdw/jcqn/">杰出青年</a></li>
+                                            
+                                                <li><a href="/../../rcdw/yjy/">研究员</a></li>
+                                            
+                                                <li><a href="/../../rcdw/zgjgcs/">正高级工程师</a></li>
+                                            
+                                                <li><a href="/../../rcdw/fyjy/">副研究员</a></li>
+                                            
+                                                <li><a href="/../../rcdw/gjgcs/">高级工程师</a></li>
+                                            
+                                                <li><a href="/../../rcdw/qchcy/">青促会成员</a></li>
+                                            
+                                                <li><a href="/../../rcdw/rczp/">人才招聘</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </li>
+
+<!-- 研究生教育导航栏 -->
+                                <li class="dropdown ">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="/../../kjrh/" role="button" aria-haspopup="true" aria-expanded="false"><p>研究生教育</p><i class="fa fa-caret-up hidden-xs "></i></a>
+                                    <div class="dropdown-menu web_menu_wdzs menu_kjrh_wdzs">
+                                        <div class="fl_wdzs w100_wdzs hidden-xs web_menu_cont_wdzs">
+                                            <div class="col-md-6 col-sm-12">
+                                                <h1 class="fl_wdzs w100_wdzs"><a href="/../../kjrh/tzggkjrh/">通知与公示</a></h1>
+                                                <ul class="comment_list marb15">
+                                                    
+                                                        <li><a href="../../kjrh/tzggkjrh/202606/t20260608_8216469.html">微电子研究所2026年“王守武”微电子大学生夏令营报名通知</a><span style="margin-top: 0;">2026/06/08</span></li>
+                                                    
+                                                        <li><a href="../../kjrh/tzggkjrh/202510/t20251017_7992260.html">微电子研究所2026年入学推荐免试研究生拟录取名单公示</a><span style="margin-top: 0;">2025/10/17</span></li>
+                                                    
+                                                        <li><a href="../../kjrh/tzggkjrh/202405/t20240522_7168020.html">微电子研究所2025年“王守武”微电子大学生夏令营报名通知</a><span style="margin-top: 0;">2025/06/09</span></li>
+                                                    
+                                                        <li><a href="../../kjrh/tzggkjrh/202409/t20240914_7363239.html">中国科学院微电子研究所招收2025年集成电路产业研究生专项推荐免...</a><span style="margin-top: 0;">2024/09/14</span></li>
+                                                    
+                                                        <li><a href="../../kjrh/tzggkjrh/202502/t20250224_7532684.html">中国科学院大学2025年硕士入学考试初试成绩查询及成绩复查公告</a><span style="margin-top: 0;">2025/02/24</span></li>
+                                                    
+                                                </ul>
+                                                <h1 class="fl_wdzs w100_wdzs" style="margin-top:-5px;"><a href="/../../kjrh/yjsfc/">研究生风采</a></h1>
+                                                <ul class="fl_wdzs w100_wdzs paddnone yjsfc_1122">
+                                                    
+                                                        <div class="col-sm-3 paddnone"><a href="../../kjrh/yjsfc/202604/t20260416_8186538.html" class="fl_wdzs w100_wdzs"><img src="/../../kjrh/yjsfc/202604/W020260416533035689457.png" width="120" height="89" /></a></div>
+                                                    
+                                                        <div class="col-sm-3 paddnone"><a href="../../kjrh/yjsfc/202601/t20260123_8118274.html" class="fl_wdzs w100_wdzs"><img src="/../../kjrh/yjsfc/202601/W020260123588750670626.png" width="120" height="89" /></a></div>
+                                                    
+                                                        <div class="col-sm-3 paddnone"><a href="../../kjrh/yjsfc/202512/t20251205_8022613.html" class="fl_wdzs w100_wdzs"><img src="/../../kjrh/yjsfc/202512/W020251205506831160467.png" width="120" height="89" /></a></div>
+                                                    
+                                                        <div class="col-sm-3 paddnone"><a href="../../kjrh/yjsfc/202507/t20250702_7878006.html" class="fl_wdzs w100_wdzs"><img src="/../../kjrh/yjsfc/202507/W020250702324743307004.png" width="120" height="89" /></a></div>
+                                                    
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6 col-sm-12">
+                                                <h1 class="fl_wdzs w100_wdzs"><a href="/../../kjrh/ssszs/">硕士生招生</a></h1>
+                                                <ul class="comment_list ">
+                                                    
+                                                        <li><a href="../../kjrh/ssszs/202603/t20260325_8175237.html">微电子研究所2026年全国统考硕士研究生复试规程</a><span style="margin-top: 0;">2026/03/25</span></li>
+                                                    
+                                                        <li><a href="../../kjrh/ssszs/202603/t20260324_8171741.html">微电子研究所2026年全国统考硕士研究生复试公告</a><span style="margin-top: 0;">2026/03/24</span></li>
+                                                    
+                                                        <li><a href="../../kjrh/ssszs/202602/t20260227_8146184.html">微电子研究所2026年全国硕士研究生招生考试初试成绩查询及成绩复...</a><span style="margin-top: 0;">2026/02/27</span></li>
+                                                    
+                                                </ul>
+
+                                                <h1 class="fl_wdzs w100_wdzs"><a href="/../../kjrh/bsszs/">博士生招生</a></h1>
+                                                <ul class="comment_list ">
+                                                    
+                                                        <li><a href="../../kjrh/bsszs/202605/t20260514_8201106.html">微电子研究所招收2026年“申请-考核”制普通招考博士研究生拟录取...</a><span style="margin-top: 0;">2026/05/14</span></li>
+                                                    
+                                                        <li><a href="../../kjrh/bsszs/202604/t20260423_8190423.html">微电子所2026年招收秋季入学“申请-考核制”博士研究生考核录取规程</a><span style="margin-top: 0;">2026/04/22</span></li>
+                                                    
+                                                        <li><a href="../../kjrh/bsszs/202604/t20260415_8185748.html">微电子研究所2026年“申请-考核制”博士招生学术审查及考核安排公告</a><span style="margin-top: 0;">2026/04/15</span></li>
+                                                    
+                                                </ul>
+                                                <h1 class="fl_wdzs col_md_4 col-sm-6 "><a href="/../../kjrh/yjspyyxw/">研究生培养与学位</a></h1>
+                                                <h1 class="fl_wdzs col_md_4 col-sm-6"><a href="/../../kjrh/dxsjh/">大学生计划</a></h1>
+                                                <h1 class="fl_wdzs col_md_4 col-sm-6"><a href="/../../kjrh/dsjs/">导师介绍</a></h1>
+                                                <h1 class="fl_wdzs col_md_4 col-sm-6 "><a href="/../../kjrh/jzxj/">奖助学金</a></h1>
+                                                <h1 class="fl_wdzs col_md_4 col-sm-6 "><a href="/../../kjrh/yjsjy/">研究生就业</a></h1>
+                                                <h1 class="fl_wdzs col_md_4 col-sm-6 "><a href="/../../kjrh/wdzxy/">示范性微电子学院</a></h1>
+
+                                            </div>
+                                        </div>
+                                        <ul class="app_menu_ul_wdzs hidden-lg hidden-md hidden-sm">
+                                            
+                                                <li><a href="/../../kjrh/tzggkjrh/">通知与公示</a></li>
+                                            
+                                                <li><a href="/../../kjrh/yjspyyxw/">研究生培养与学位</a></li>
+                                            
+                                                <li><a href="/../../kjrh/dxsjh/">大学生计划</a></li>
+                                            
+                                                <li><a href="/../../kjrh/dsjs/">导师介绍</a></li>
+                                            
+                                                <li><a href="/../../kjrh/jzxj/">奖助学金</a></li>
+                                            
+                                                <li><a href="/../../kjrh/yjsfc/">研究生风采</a></li>
+                                            
+                                                <li><a href="/../../kjrh/yjsjy/">研究生就业</a></li>
+                                            
+                                                <li><a href="/../../kjrh/ssszs/">硕士生招生</a></li>
+                                            
+                                                <li><a href="/../../kjrh/bsszs/">博士生招生</a></li>
+                                            
+                                                <li><a href="/../../kjrh/wdzxy/">示范性微电子学院</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </li>
+
+<!-- 党建与创新文化导航栏 -->
+                                <li class="dropdown ">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="/../../djycxwh/" role="button" aria-haspopup="true" aria-expanded="false"><p>党建与创新文化</p><i class="fa fa-caret-up hidden-xs "></i></a>
+                                    <div class="dropdown-menu web_menu_wdzs menu_djcxwh_wdzs">
+                                        <div class="fl_wdzs w100_wdzs hidden-xs web_menu_cont_wdzs">
+                                            <ul class="fl_wdzs w100_wdzs">
+                                                
+                                                    <li><a href="/../../djycxwh/djyd/">党建园地</a></li>
+                                                
+                                                    <li><a href="/../../djycxwh/jjjc/">纪检监督</a></li>
+                                                
+                                                    <li><a href="/../../djycxwh/kycx/">科研诚信</a></li>
+                                                
+                                                    <li><a href="/../../djycxwh/gh/">工会</a></li>
+                                                
+                                                    <li><a href="/../../djycxwh/tw/">团委</a></li>
+                                                
+                                                    <li><a href="/../../djycxwh/fwh/">妇委会</a></li>
+                                                
+                                                    <li><a href="/../../djycxwh/tyzx/">统一战线</a></li>
+                                                
+                                                    <li><a href="/../../djycxwh/cxwh/">创新文化</a></li>
+                                                
+                                                    <li><a href="/../../djycxwh/hykxjjs/">弘扬科学家精神</a></li>
+                                                
+                                                    <li><a href="/../../djycxwh/djzt/">专题</a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                        <ul class="app_menu_ul_wdzs hidden-lg hidden-md hidden-sm">
+                                            
+                                                <li><a href="/../../djycxwh/djyd/">党建园地</a></li>
+                                            
+                                                <li><a href="/../../djycxwh/jjjc/">纪检监督</a></li>
+                                            
+                                                <li><a href="/../../djycxwh/kycx/">科研诚信</a></li>
+                                            
+                                                <li><a href="/../../djycxwh/gh/">工会</a></li>
+                                            
+                                                <li><a href="/../../djycxwh/tw/">团委</a></li>
+                                            
+                                                <li><a href="/../../djycxwh/fwh/">妇委会</a></li>
+                                            
+                                                <li><a href="/../../djycxwh/tyzx/">统一战线</a></li>
+                                            
+                                                <li><a href="/../../djycxwh/cxwh/">创新文化</a></li>
+                                            
+                                                <li><a href="/../../djycxwh/hykxjjs/">弘扬科学家精神</a></li>
+                                            
+                                                <li><a href="/../../djycxwh/djzt/">专题</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </li>
+
+<!-- 科学普及导航栏 -->
+                                <li class="dropdown ">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="/../../kxpj/" role="button" aria-haspopup="true" aria-expanded="false"><p>科学普及</p><i class="fa fa-caret-up hidden-xs "></i></a>
+                                    <div class="dropdown-menu web_menu_wdzs menu_kjpj_wdzs">
+                                        <div class="fl_wdzs w100_wdzs hidden-xs web_menu_cont_wdzs">
+                                            <ul class="fl_wdzs w100_wdzs">
+                                                
+                                                    <li><a href="/../../kxpj/wdzgs/">科普动态</a></li>
+                                                
+                                                    <li><a href="/../../kxpj/kpcy/">科普文章</a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                        <ul class="app_menu_ul_wdzs hidden-lg hidden-md hidden-sm">
+                                            
+                                                <li><a href="/../../kxpj/wdzgs/">科普动态</a></li>
+                                            
+                                                <li><a href="/../../kxpj/kpcy/">科普文章</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </li>
+
+<!-- 成果转化与产业化导航栏 -->
+                                <li class="dropdown ">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="/../../ydhzycyh/" role="button" aria-haspopup="true" aria-expanded="false"><p>成果转化与产业化</p><i class="fa fa-caret-up hidden-xs "></i></a>
+                                    <div class="dropdown-menu web_menu_wdzs menu_cgzh_wdzs">
+                                        <div class="fl_wdzs w100_wdzs hidden-xs web_menu_cont_wdzs">
+                                            <ul class="fl_wdzs w100_wdzs">
+                                                
+                                                    <li><a href="/../../ydhzycyh/ydhz/">成果转化战略定位</a></li>
+                                                
+                                                    <li><a href="/../../ydhzycyh/zscqyy/">知识产权管理</a></li>
+                                                
+                                                    <li><a href="/../../ydhzycyh/xxydhz/">新型院地合作</a></li>
+                                                
+                                                    <li><a href="/../../ydhzycyh/dwtzjgl/">对外投资管理与运营</a></li>
+                                                
+                                                    <li><a href="/../../ydhzycyh/ckgqygzjz/">参控股企业工作进展</a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                        <ul class="app_menu_ul_wdzs hidden-lg hidden-md hidden-sm">
+                                            
+                                                <li><a href="/../../ydhzycyh/ydhz/">成果转化战略定位</a></li>
+                                            
+                                                <li><a href="/../../ydhzycyh/zscqyy/">知识产权管理</a></li>
+                                            
+                                                <li><a href="/../../ydhzycyh/xxydhz/">新型院地合作</a></li>
+                                            
+                                                <li><a href="/../../ydhzycyh/dwtzjgl/">对外投资管理与运营</a></li>
+                                            
+                                                <li><a href="/../../ydhzycyh/ckgqygzjz/">参控股企业工作进展</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </li>
+
+<!-- 信息公开导航栏 -->
+                                <li class="dropdown ">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="/../../xxgk/" role="button" aria-haspopup="true" aria-expanded="false"><p>信息公开</p><i class="fa fa-caret-up hidden-xs "></i></a>
+                                    <div class="dropdown-menu web_menu_wdzs menu_xxgk_wdzs">
+                                        <div class="fl_wdzs w100_wdzs hidden-xs web_menu_cont_wdzs">
+                                            <ul class="fl_wdzs w100_wdzs">
+                                                
+                                                    <li><a href="/../../xxgk/xxgkgd/">信息公开规定</a></li>
+                                                
+                                                    <li><a href="/../../xxgk/xxgkzn/">信息公开指南</a></li>
+                                                
+                                                    <li><a href="/../../xxgk/xxgkml/">信息公开目录</a></li>
+                                                
+                                                    <li><a href="/../../xxgk/ysqgk/">依申请公开</a></li>
+                                                
+                                                    <li><a href="/../../xxgk/xxgkndbg/">信息公开年度报告</a></li>
+                                                
+                                                    <li><a href="/../../xxgk/xxgklxfs/">信息公开联系方式</a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                        <ul class="app_menu_ul_wdzs hidden-lg hidden-md hidden-sm">
+                                            
+                                                <li><a href="/../../xxgk/xxgkgd/">信息公开规定</a></li>
+                                            
+                                                <li><a href="/../../xxgk/xxgkzn/">信息公开指南</a></li>
+                                            
+                                                <li><a href="/../../xxgk/xxgkml/">信息公开目录</a></li>
+                                            
+                                                <li><a href="/../../xxgk/ysqgk/">依申请公开</a></li>
+                                            
+                                                <li><a href="/../../xxgk/xxgkndbg/">信息公开年度报告</a></li>
+                                            
+                                                <li><a href="/../../xxgk/xxgklxfs/">信息公开联系方式</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- row end -->
+            </div> <!--  container end -->
+        </div><!--  nav_main_wdzs end -->
+    </nav> <!--  nav_wdzs end -->
+</div>
+<!-- header  end -->
+
+        <div class="fl_wdzs w100_wdzs main_wdzs">
+            <div class="container">
+                <div class="row app_row">
+                    <!--  左侧菜单 -->
+                    <div class="col-xs-12 col-sm-4 col-md-3 paddright0 hidden-xs">
+    <div class="sidebar fl_wdzs w100_wdzs comment_left_menu">
+        <div class="fl_wdzs w100_wdzs block">
+            <h2 class="fl_wdzs w100_wdzs">研究生教育</h2>
+            <div class="contentLeft">
+                <ul class="leftNavigation">
+                    
+                        <li class="clickable">
+                            <a href="../../tzggkjrh/" style="padding-right: 38px;"><i class="fa fa-circle titNavIcon"></i>通知与公示<i class="fa fa-angle-right leftNavIcon"></i></a>
+                        </li>
+                    
+                        <li class="clickable">
+                            <a href="../../yjspyyxw/" style="padding-right: 38px;"><i class="fa fa-circle titNavIcon"></i>研究生培养与学位<i class="fa fa-angle-right leftNavIcon"></i></a>
+                        </li>
+                    
+                        <li class="clickable">
+                            <a href="../../dxsjh/" style="padding-right: 38px;"><i class="fa fa-circle titNavIcon"></i>大学生计划<i class="fa fa-angle-right leftNavIcon"></i></a>
+                        </li>
+                    
+                        <li class="clickable">
+                            <a href="../../dsjs/" style="padding-right: 38px;"><i class="fa fa-circle titNavIcon"></i>导师介绍<i class="fa fa-angle-right leftNavIcon"></i></a>
+                        </li>
+                    
+                        <li class="clickable">
+                            <a href="../../jzxj/" style="padding-right: 38px;"><i class="fa fa-circle titNavIcon"></i>奖助学金<i class="fa fa-angle-right leftNavIcon"></i></a>
+                        </li>
+                    
+                        <li class="clickable">
+                            <a href="../../yjsfc/" style="padding-right: 38px;"><i class="fa fa-circle titNavIcon"></i>研究生风采<i class="fa fa-angle-right leftNavIcon"></i></a>
+                        </li>
+                    
+                        <li class="clickable">
+                            <a href="../../yjsjy/" style="padding-right: 38px;"><i class="fa fa-circle titNavIcon"></i>研究生就业<i class="fa fa-angle-right leftNavIcon"></i></a>
+                        </li>
+                    
+                        <li class="clickable">
+                            <a href="../" style="padding-right: 38px;"><i class="fa fa-circle titNavIcon"></i>硕士生招生<i class="fa fa-angle-right leftNavIcon"></i></a>
+                        </li>
+                    
+                        <li class="clickable">
+                            <a href="../../bsszs/" style="padding-right: 38px;"><i class="fa fa-circle titNavIcon"></i>博士生招生<i class="fa fa-angle-right leftNavIcon"></i></a>
+                        </li>
+                    
+                        <li class="clickable">
+                            <a href="../../wdzxy/" style="padding-right: 38px;"><i class="fa fa-circle titNavIcon"></i>示范性微电子学院<i class="fa fa-angle-right leftNavIcon"></i></a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div><!-- sidebar end -->
+</div>
+<!-- <script src="https://www.ime.ac.cn/images/jquery.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".biu1").each(function(){
+            var curtxt = $(this).children("li").length;
+            if(curtxt == 0){
+                $(this).parent().addClass("clickable");
+            }
+        });
+    });
+</script> -->
+                    <!--  左侧菜单 end -->
+
+                    <!--右侧内容-->
+                    <div class="col-xs-12 col-sm-8 col-md-9 wdzs_right_height">
+                        <div class="fl_wdzs w100_wdzs">
+                            <!--当前位置-->
+                            <div class="row">
+                                <div class="fl_wdzs w100_wdzs wdzs_breadcrumb">
+                                    <ol style="padding-top: 5px;"><span>当前位置 >> </span><i aria-hidden="true"></i>&nbsp;<a href="../../../" title="首页" class="CurrChnlCls">首页</a>&nbsp;&gt;&gt;&nbsp;<a href="../../" title="研究生教育" class="CurrChnlCls">研究生教育</a>&nbsp;&gt;&gt;&nbsp;<a href="../" title="硕士生招生" class="CurrChnlCls">硕士生招生</a>
+
+                                    </ol>
+                                </div>
+                            </div>
+
+                            <!--右侧内容-->
+                            <div class="fl_wdzs w100_wdzs wdzs_lm_comment">
+                                <h2><i class="fa fa-circle titNavIcon"></i><a href="../">硕士生招生</a></h2>
+                                
+                                <div class="fl_wdzs w100_wdzs wdzs_lm_wz">
+                                    <div class="fl_wdzs w100_wdzs wdzs_wz_h1 marb15">
+                                        <h1 class="fl_wdzs w100_wdzs">中国科学院微电子研究所2025年招收攻读硕士学位研究生简章</h1>
+                                        <font>稿件来源： </font>
+                                        <!-- <font>责任编辑： </font> -->
+                                        <font>发布时间：2024-10-14</font>
+                                    </div>
+                                    <div class="trs_editor_view TRS_UEDITOR trs_paper_default trs_word"><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">中国科学院微电子研究所(以下简称“微电子所”)成立于</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1958</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">年,在半导体器件与集成电路制造、集成电路设计与应用、集成电路装备等领域展开科研工作,具备从原理器件、集成工艺、制造装备到核心芯片开发的全链条、体系化科技创新与关键核心技术攻关能力,是我国微电子科学技术与集成电路领域的重要研发机构。面向国家对集成电路高层次人才培养需求,围绕教育、科技、人才一体推进方针,微电子所建立了在高水平科技创新中培养高层次人才的分类培养体系,承担了国家、国科大各类集成电路专项的高水平人才培养任务。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">微电子所是国务院学位委员会批准的博士学位(</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1996</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">年</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">5</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">月获批)、硕士学位(</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1990</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">年</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">11</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">月获批)授予权单位之一。目前共有研究生导师</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">272</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">名,其中博士生导师</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">109</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">名,硕士生导师</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">163</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">名。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2025</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">年,面向全日制统考硕士研究生,我所共有学术型招生专业</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">3</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">个:集成电路科学与工程(代码:</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">140100</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">)、微电子学与固体电子学(代码:</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">080903</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">)、电路与系统(代码:</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">080902</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">)。专业学位硕士招生领域</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">个:集成电路工程(代码:</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">085403</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">)、新一代电子信息技术(含量子技术等)(代码</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">085401</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">)。预计共招收</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">71</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">名左右全日制统考硕士研究生,其中学术型硕士</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">8</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">人,专业学位硕士</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">63</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">人。上述招生人数均为预计招生数。实际招生人数以教育部和国科大下达计划后,研究所招生工作领导小组确定的分专业计划数为准。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">一、培养目标</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">学术型硕士研究生旨在培养全面发展,爱国守法,具有社会责任感,在本学科内掌握坚实的基础理论和系统的专门知识,具有从事科学研究、教学、管理或独立承担专门技术工作的能力,富有创新精神、创新能力的高层次学术型专门人才。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">专业学位硕士研究生旨在面向社会需求,面向科技前沿,适应工程技术发展和创新需要,培养全面发展、爱国守法、掌握相关专业领域坚实的基础理论和宽广的专业知识、具有较强的解决实际问题的能力、能够承担专业技术或管理工作、具有良好职业素养的高层次应用型专门人才。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">二、报考条件</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">(一)报名参加硕士研究生全国招生考试(含学术型硕士和专业学位硕士),须符合下列条件:</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.中华人民共和国公民。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.拥护中国共产党的领导,具有正确的政治方向,热爱祖国,遵纪守法,品行端正。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">3</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.身体健康状况符合规定的体检要求。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">4</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.考生的学业水平必须符合下列条件之一:</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">(</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">)国家承认学历的应届本科毕业生(含普通高校、成人高校、普通高校举办的成人高等学历教育等应届本科毕业生。</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2025</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">年</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">9</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">月</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">日前须取得国家承认的本科毕业证书或教育部留学服务中心出具的《国(境)外学历学位认证书》)及自学考试和网络教育届时可毕业本科生;</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">(</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">)已取得国家承认的大学本科毕业学历的人员;</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">(</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">3</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">)已获硕士、博士研究生学历或学位的人员;</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">(</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">4</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">)达到与大学本科毕业生同等学力的人员。以下考生按本科毕业同等学力身份报考,且需符合我所根据培养目标提出的具体学业要求:</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">①</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">获得</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">国家承认的高职高专毕业学历后满</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">年(从高职高专毕业到</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2025</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">年</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">9</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">月</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">日前)或</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">年以上的人员;</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">②</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">获得</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">国家承认学历的本科结业生。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">同等学力身份报考还需具备的条件:已取得报考专业大学本科</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">8</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">门及以上主干课程的合格成绩。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">(二)已经在读的研究生报考,须在报名前征得在读单位学籍管理部门书面同意后方可报考。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">(三)报考少数民族高层次骨干人才计划的考生,报考条件、生源范围及招生对象、资格审核等按照教育部相关政策执行。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">推荐免试生若符合</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">少数民族高层次骨干人才</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">计划的报考要求,也可申请该专项计划推荐免试。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">(四)报考退役大学生士兵专项计划的考生,应为高校学生应征入伍退出现役,且符合硕士研究生报考条件者。高校学生是指全日制普通本专科(含高职)、研究生、第二学士学位的应(往)届毕业生、在校生和入学新生,以及成人高校招收的普通本专科(含高职)应(往)届毕业生、在校生和入学新生。符合条件的考生网上报名时选择</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">“</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">退役大学生士兵专项计划</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">”</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">,并按照要求填报本人入伍前的入学信息以及入伍、退役等相关信息,复试前须向招生单位提供《入伍批准书》、《退出现役证》、教育部学籍在线验证报告或学历证书电子注册备案表进行复核。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">推荐免试生若符合</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">退役大学生士兵专项计划</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">的报考要求,也可申请该专项计划推荐免试。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">(五)能获得推荐免试资格的高等学校优秀应届本科毕业生,可申请免试攻读我所硕士学位研究生(包括学术型硕士、专业学位硕士)和直博生。所有拟接收的推荐免试生,应在国家规定时间内,通过教育部中国研究生招生网“全国推荐免试攻读研究生(免初试、转段)信息公开暨管理服务系统”</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">(以下简称</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">“</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">教育部推免服务系统</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">”</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">,</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">网址:</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">https://yz.chsi.com.cn/tm</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">)参加网上报名并完成接受复试通知、接受拟录取通知等报考接收程序。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">截至规定日期仍未确定接收单位的推免生或未在</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">“</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">教育部推免服务系统</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">” </span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">完成招录流程的推免生,</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">不再保留推免资格。已被接收的推免生,不得再报名参加当年硕士研究生招生考试,否则取消其推免录取资格。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">三、报名</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">考生在报名阶段务必及时查看国科大和微电子所发布的招生简章和招考公告,正式报名前应仔细核查本人是否符合国科大和我所的报考条件。在准考、复试和录取等招生阶段将分别进行报考资格审查,凡不符合报考条件的考生将不予准考、复试和录取,相关后果由考生本人承担。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">所有考生一律采用网上报名方式报考。报名包括网上报名和网上确认两个阶段。考生在网上报名后,还需网上确认网报信息并采集本人照片图像等相关电子信息,同时按规定缴纳报考费。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">(一)第一阶段:网上报名</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">考生在教育部规定的时间内进行网上报名,逾期不再进行补报,也不得修改报名信息。报名网址为中国研究生招生信息网(</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">https://yz.chsi.com.cn</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">)。预报名期间填写的信息有效,正式报名期间无需重复填写,但可以随时修改完善。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">考生登录网上报名系统后,务必要认真阅读相关省级教育招生考试机构、招生单位及报考点发布的网报公告,同时还须查看我所的相关招考公告,并按其要求填报。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">凡未按公告要求报名,网报信息误填、错填或填报虚假信息,错过网报时间、缴费时间、网上确认时间、考试时间等所造成的一切后果,由考生本人承担。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">考生应按要求如实准确填写网上报名信息并提供真实报考材料。网报信息填报中特别是姓名、性别、身份证号以及学籍学历等信息务必认真准确填报。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">网报期间,网报系统对考生学历(学籍)信息进行网上校验,考生可上网查看学历(学籍)校验结果。考生也可在报名前或报名期间自行</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">登</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">录</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">“</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">中</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">国</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">高</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">等</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">教</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">育</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">学</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">生</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">信</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">息</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">网</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">”(</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">网</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">址</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">:</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">https://www.chsi.com.cn</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">)查询本人学历(学籍)信息。未通过学历(学籍)校验的考生应及时到学籍学历权威认证机构进行认证,以便在规定时间内完成学历(学籍)核验。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">考生网报时学历证书编号信息填报请特别注意以下事项:</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">①</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">国内普通高校毕业证书编号须填写“证书编号”。若毕业证书上有两个号码,应填写证书右侧的“证书编号”,一般为</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">16</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">位以上数字编号,前</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">5</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">位为颁发此证书的高校代码。请不要填写证书序列号(如</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">No.****</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">)。若原毕业院校因更名等原因不在网报系统毕业学校可选列表中,请在毕业学校栏选择“其他”,然后手工录入原毕业学校的名称(即毕业证书中加盖印章的学校名称)。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">②</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">国</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">(</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">境</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">)</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">外学历学位证书编号信息填报,须填写教育部留学服务中心颁发的《国外学历学位认证书》或《香港、澳门特别行政区学历学位认证书》或《台湾地区学历学位认证书》认证报告编号,如认证书编号为:教留服认英</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">[2018]20001</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">号。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">考生报考我所,“招生单位所在地区”均应选择“北京”,“招生单位”选择“中国科学院大学”,在“院系所名称”栏中选择“微电子研究所”,然后按照网报系统要求进行报考专业及考试科目等信息填报。</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">报考点选择:应届本科毕业生应选择就读学校所在地省级教育招生考试机构指定的报考点办理网上报名和网上确认手续,其中成人高校应届本科毕业生也可选择教学点所在地省级教育招生考试机构指定的报考点;其他考生应选择户籍或工作所在地省级教育招生考试机构指定的就近报考点办理网上报名和网上确认手续。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">考生必须牢记自己网报时的用户名和密码,网上打印准考证、网上调剂等均需使用此用户名登录。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">报考少数民族高层次骨干人才计划的考生,报考前请根据原籍所在省、自治区、直辖市教育厅(教委)民教处(高教处)规定的审核流程,申请报考资质审核。少数民族高层次骨干人才计划的报名时间和方式与全国普通硕士研究生相同。网上报名系统中“专项计划”栏目应选择“少数民族骨干计划”。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">(二)第二阶段:网上确认</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.确认时间:所有考生须认真查看网报时填报的报考点发布的网上确认相关公告,确认的时间以各报考点公告为准,在所选择报考点规定的时间内按时参加网上确认,逾期不再补办。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.确认手续:考生网上确认须提供本人居民身份证、学历学位证书(应届本科毕业生持学生证)等材料及网上报名编号,按照报考点公告要求办理网上确认手续。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">报考退役大学生士兵专项计划的考生,确认时应提供本人《入伍批准书》、《退出现役证》、教育部学籍在线验证报告或学历证书电子注册备案表,以各报考点公告为准。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">3</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.考生按规定缴纳报考费,报考费支付方式以网报时选择的报考点公告要求为准。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">4</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.考生应当按报考点规定配合采集本人图像等相关电子信息。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">5</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.确认考生本人网报信息准确无误。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">(三)报名其他注意事项</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.推荐免试生须在教育部规定的时间内,通过教育部</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">“</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">推免服务系统</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">”</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">及时完成网上报名与拟录取手续。教育部推免服务系统拟录取的推荐免试生不需进行网上确认,也不得再报名参加当年硕士研究生招生考试。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.考生在硕士研究生招生考试报名时只能填报一个培养单位的一个专业。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">3</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.在网上报名截止日期前,考生可自行修改自己的网报信息,网报信息务必准确无误。在确认期间,考生必须对报名信息进行认真核对并确认。网上确认后的考生报名信息在准考资格审核、初试、复试及录取阶段一律不作修改。因考生填写错误引起的一切后果由其自行承担。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">4</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.教育部以报考单位所在地分一区、二区确定考生参加复试的基本分数线。<strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;">我所统一执行一区分数线。</strong></span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">5</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.少数民族高层次骨干人才计划以报名时填报的信息为准,在报名结束后不得更改报考类别。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">6</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.考生要准确填写个人信息,特别是要如实填写在参加国家教育考试过程中因违纪、作弊所受处罚情况。对弄虚作假者,按《国家教育考试违规处理办法》和《普通高等学校招生违规行为处理暂行办法》严肃处理。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">7</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.网报和确认结束后,将对考生的报名信息进行全面审查,对符合报考条件的考生准予考试。对考生的学历、学籍等信息有疑问的,考生在规定时间内提供权威机构出具的认证证明后,再准予考试。审查过程中发现虚假证件时,可扣留虚假证件。经审核不符合报考条件的,不予准考。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">8</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.网上报名时,考生应务必认真填写并仔细核对本人的姓名、性别、民族、身份证号、报考类别(定向就业或非定向就业)、考试科目、学历学位证书编号、学习方式(全日制或非全日制)等重要信息。确认后的报考信息和录取信息上报北京教育考试院和教育部后一律不得更改,学校也不再受理任何考生修改信息的申请。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">9</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.考生网上报名时须签订《考生诚信考试承诺书》并遵守相关约定及要求。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">四、初试</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.网上打印准考证:在教育部统一规定的时间内,凭网报用户名和密码登录中国研究生招生信息网的网报系统,自行下载打印《准考证》。《准考证》使用</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">A4</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">幅面白纸打印,正、反两面在使用期间不得涂改或书写。考生凭下载打印的《准考证》及有效居民身份证参加初试和复试。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.初试日期:按照教育部统一规定的考试日期执行,考试时间以北京时间为准。不在规定日期举行的硕士研究生招生考试,国家一律不予承认。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">3</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.初试地点:以选报的报考点公告为准。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">4</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.初试科目:思想政治理论、外国语、业务课一、业务课二。每门科目的考试时间为</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">3</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">小时。思想政治理论、外国语的满分值各为</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">100</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">分,业务课一和业务课二每门满分值为</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">150</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">分。考生可通过中国科学院大学招生信息网</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">-</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">“硕士招生”</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">-</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">“招生目录”查询我所各招生专业及方向对应的初试科目。查询网址:</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">https://admission.ucas.edu.cn</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">思想政治理论、英语(一)、英语(二)、数学(一)、计算机学科专业基础使用全国统一命题,其余考试科目使用国科大统一命题。</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">5</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.考生初试成绩通过中国科学院大学招生信息网查询。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">五、复试</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">微电子所所有普通计划的报名考生进入复试的初试成绩基本要求均按照北京地区分数线(即一区国家复试分数线)执行。</span></strong><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">具体分数线结合本单位的生源状况、学科专业特点及下达的招生计划数自主划线。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.微电子所统一制定复试规程、负责通知和组织考生参加复试,确定拟录取名单并公示。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.一般按照参加复试人数与招生计划数之比不低于</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">120%</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">的比例,按照复试分数线及考生初试成绩,由高到低确定复试考生名单,进行差额复试。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">3</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.报考少数民族高层次骨干人才计划和退役大学生士兵计划考生的复试分数线在不低于国家分数线基础上,由国科大自行划定。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">我所依据少数民族高层次骨干人才计划考生和退役大学生士兵计划考生的具体报名和初试成绩情况,结合本单位的学科特点和要求以及国科大下达的专项招生计划数,在不低于国科大对应专项计划复试分数线基础上,分别分学科门类或专业自主划定本单位专项计划具体复试分数线要求和确定进入复试考生名单,实行差额复试,择优录取。复试方式、程序及要求与其他普通计划硕士生相同。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">4</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.复试分数线、复试名单以及复试时间、地点、方式等复试要求在复试前通过微电子所官方网站向考生公布。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">5</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.复试前,将对复试考生的有效身份证件、学历学位证书、学历学籍核验结果、学生证等证件和报名材料再次进行严格审查,对不符合规定者不予复试。对考生的学历(学籍)信息仍有疑问的,要求复试考生在复试时提供权威机构出具的认证证明。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">6</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.复试包括业务能力、综合素质、思想品德、英语水平测试等考核内容。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">7</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.对同等学力考生参加复试的,在复试阶段加试至少两门与报考专业相关的本科主干课程(闭卷笔试),每门加试科目考试时间为</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">3</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">小时,满分为</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">100</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">分。加试科目不得与初试科目相同。加试的具体时间和地点另行通知考生。加试科目不及格(即低于</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">60</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">分)者不予录取。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">成人教育(含普通高校举办的成人高等学历教育)应届本科毕业生及复试时尚未取得本科毕业证书的自学考试和网络教育的考生参加复试,视同为同等学力考生,执行相应的复试要求。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">8</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.<strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;">复</strong></span><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">试成绩不及格(即低于百分制的</span></strong><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">60</span></strong><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">分)的考生,不</span></strong><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">予</span></strong><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">录取。</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">9</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.复试是硕士招生考试的有机组成部分。复试期间,考生应自觉遵守考场规则及考生所签署的《诚信复试承诺书》等内容,在复试工作全部结束前不得对外透露或传播任何复试相关信息。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">六、思想政治品德考核和体检</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">思想政治品德考核作为复试的重要组成部分。思想政治品德考核的内容主要包括考生的政治态度、思想表现、学习(工作)状况、道德品质、遵纪守法、诚实守信、身心健康等方面。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">思想政治品德考核(政审)不合格者不得录取。</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">考生体检工作在考生拟录取后组织进行。根据《残疾人教育条例》和《教育部办公厅</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">卫生部办公厅关于普通高等学校招生学生入学身体检查取消乙肝项目检测有关问题的通知》(教学厅〔</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2010</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">〕</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2 </span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">号)等文件规定,参照《教育部、卫生部、中国残疾人联合会关于印发〈普通高等学校招生体检工作指导意见〉的通知》(教学〔</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2003</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">〕</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">3 </span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">号)要求执行。新生入学后需进行体检复查。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">体检不合格者,取消录取资格。</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">七、录取</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">微电子所按国科大下达招生计划,依据本单位复试录取办法及考生考试成绩(含初试和复试成绩),并结合思想政治表现以及身体健康检查状况,择优确定拟录取名单。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">所有拟录取考生均按照教育部信息公开相关要求进行名单公示。没有公示的拟录取考生,一律不得办理录取手续,不予注册学籍。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">定向就业硕士生必须在录取前签署三方定向培养协议。定向生毕业时按协议到定向单位就业,不再进行就业派遣。普通定向就业生,不调转户口、人事档案和工资关系。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">被录取的应届本科毕业生及自考和网络教育届时可毕业本科生考生,应在入学报到时出具本科毕业证书原件。</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2025</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">年</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">9</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">月</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">日前须取得国家承认的本科毕业证书或教育部留学服务中心出具的《国(境)外学历学位认证书》,截止</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2025</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">年</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">9</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">月</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">日未获得本科毕业证书者或不能提供本科毕业证书原件者,录取资格无效。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">被录取的考生应按录取通知书规定的要求和日期,到指定地点报到入学注册。如确有特殊原因不能按时报到者,须提供有关证明,且应以书面形式向国科大及培养单位请假,请假时间不得超过</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">10</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">个工作日;未请假或者请假逾期不报到者,除因不可抗力等正当事由以外,视为放弃入学资格。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">八、培养方式</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">微电子所硕士研究生培养方式均为全日制,第一学年均须在国科大雁栖湖校区进行集中教学,第二至第三年回所在导师指导下开展科研工作,完成学位论文,其中专业学位研究生应在申请学位前完成规定时间的专业实践。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">九、基本学制</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">我所硕士生的基本学制为3年,最长不超过4年(含休学)</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">十、收费及待遇</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2025</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">年硕士研究生学费及住宿费在国家有关部门核定的范围内收取:</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.全日制硕士研究生的学费标准一般为</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">8000</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">元</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">/</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">年</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">•</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">生,按学年收取。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.少数民族高层次骨干人才计划硕士研究生和退役大学生士兵计划硕士研究生的收费标准同上,享受与我所同一专业其他普通招考考生相同的奖助体系待遇。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">同时,国科大实行完善的研究生奖助政策体系,学生按照国科大相关规定,可享受和参评的奖助学金主要包括六个类别,即国家助学金、国家奖学金、中国科学院奖学金、国科大学业奖学金、微电子所各类奖学金、助研津贴。学习科研表现优秀的学生,还可以申请国家、中国科学院设立的各类专项奖学金。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">十一、硕博连读</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">微电子所仅在春季招收硕博连读博士研究生,一般在每年</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">9</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">月进行硕转博考核。通过硕博连读方式招收的博士生,包括硕士阶段最长修读年限(含休学)不得超过</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">8</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">年。报考硕博连读的考生,应在规定时间内提出硕博连读申请。硕博连读生的具体选拔和确认办法由研究所届时另行公布。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">十二、少数民族高层次骨干人才计划</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.所有被录取的少数民族高层次骨干人才计划硕士考生录取类别均为定向就业,必须在录取前由培养单位牵头签订定向培养协议书。在职考生与所在单位和定向单位所在省、自治区、直辖市教育行政主管部门签订协议书,非在职考生(含应届毕业生)与生源省、自治区、直辖市教育行政主管部门签订协议书。被录取在职考生入学不迁转户口。学生必须保证毕业后按定向协议到定向单位或地区就业。考生在学期间不得调整录取类别,即不得变更为非少数民族高层次骨干人才计划,也不得调整为非定向就业。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.我校录取的少数民族高层次骨干人才计划硕士研究生,不得以硕博连读方式攻读博士学位研究生(含普通博士计划和少数民族高层次骨干人才博士计划),不得以硕士应届生身份报考我校普通招考博士研究生。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">3. </span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">该专项计划未尽事宜,执行教育部此专项计划相关政策与要求。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">十三、毕业生就业</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">非定向就业的硕士研究生由毕业生自行联系用人单位,按毕业生与用人单位“双向选择”的方式,落实就业去向。定向就业培养的硕士生毕业后,按定向协议到定向地区或单位就业。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">十四、违纪处罚</span></strong></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">对于考生弄虚作假、考试作弊及其他违反招生规定的行为,将一律按《中华人民共和国教育法》及《国家教育考试违规处理办法》严肃处理。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;"><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">十五</span></strong><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">、<strong data-index="" style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;">其他注意事项</strong></span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">1. </span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">考生因报考研究生与原所在单位或定向就业单位产生的纠纷由考生自行处理。若因上述问题导致我所无法调取考生档案,造成考生不能复试或无法被录取的后果,我所不承担责任。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2. </span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">考生可通过中国科学院大学招生信息网查阅我所招生专业目录、部分科目考试大纲等相关招生信息。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">3. </span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">推免硕士招生专业目录中拟接收推免人数以后续教育部推免服务系统中实际接收的推免生数为准。同时统考硕士招生专业目录中公布的拟招生人数为预计招生人数,仅作为参考,不作为实际录取的依据。实际招生指标数以国科大下达给我所的</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">2025</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">年招生计划数,结合我所当年度生源状况、学科特点与布局、师资队伍等因素核定的分专业招生计划为准。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">4</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.现役军人报考硕士研究生,按军队相关部门规定办理。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">5</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.本简章如有与国家新出台的招生政策不符的事项,以上级主管单位最新政策为准。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">6</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">.本简章由微电子所研究生招生办公室负责解释。</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index=""></span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">地</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">址:北京市朝阳区北土城西路</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">3</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">号微电子所教育处</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">邮</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">编:</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">100029</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">电</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">话:</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">010-82995669</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">、</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">010-82995774</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">、</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">010-82995719</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">联系人:李老师、宋老师、吴老师</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">邮</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">箱:</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">yzb@ime.ac.cn</span></p><p style="text-indent: 2em; line-height: 33px; text-align: justify; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 16px;" data-index=""><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">网</span> <span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">址:</span><span style="font-size: 16px; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;" data-index="">http://www.ime.ac.cn</span></p></div>
+                                </div>
+                                
+                            </div>
+                            <!-- Appendix -->
+                            <div class="cas-wrap-appendix">
+                                <h6>附件：</h6>
+                                <ul>
+
+                                </ul>
+                            </div>
+                        </div><!-- content end -->
+                    </div>
+                    <!-- //右侧end -->
+                </div> <!-- row end -->
+            </div>  <!-- container end -->
+        </div>
+<!-- main_wdzs end -->
+
+<!--footer_wdzs begin   -->
+<div class="fl_wdzs w100_wdzs footer_wdzs">
+    <div class="container">
+        <div class="row app_row">
+            <div class="col-xs-12 col-sm-5 col-md-4 footer_img_wdzs"><a href="http://www.cas.cn/" class="fl_wdzs w100_wdzs" target="_blank"><img src="/images/wdzs_zky_logo.png" /></a></div>
+            <div class="col-xs-12 col-sm-5 col-md-6 footer_cont_wdzs">
+                中国科学院微电子研究所版权所有 邮编：100029<br />
+                单位地址：北京市朝阳区北土城西路3号，电子邮件：webadmin@ime.ac.cn<br />
+                京公网安备110402500036号，京ICP备05002781号-1
+            </div>
+           <div class="col-xs-12 col-sm-2 col-md-2 footer_cont_wdzs" align="center">
+               <script type="text/javascript">
+          document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='//dcs.conac.cn/js/33/000/0000/60451341/CA330000000604513410003.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer_wdzs end -->
+
+<!-- js文件引入 -->
+<script src="/images/jquery.js"></script>
+<script src="/images/bootstrap.js"></script>
+<script src="/images/bootstrap-hover-dropdown.js"></script>
+<script src="/images/common_wdzs.js"></script>
+<script src="/images/common_nao.js"></script>
+<script src="/images/modernizr.js"></script>  <!-- 导航js -->
+<script src="/images/nav_menu.js"></script> <!-- 导航js -->
+<script src="/images/nav_menu_app.js"></script> <!-- 导航js -->
+<script src="/images/zoom.min.js"></script> <!-- 点小图显示大图js -->
+
+
+<script type="text/javascript">
+    function isValid(str){
+        if(str.indexOf('&') != -1 || str.indexOf('<') != -1 || str.indexOf('>') != -1 || str.indexOf('\'') != -1
+            || str.indexOf('\\') != -1 || str.indexOf('/') != -1 || str.indexOf('"') != -1
+            || str.indexOf('%') != -1 || str.indexOf('#') != -1){
+            return false;
+        }
+        return true;
+    }
+
+
+    $(function(){
+        $('#sub-pc').click(function(){
+            var searchword = $.trim($('#searchword').val());
+            if(searchword == "" || searchword == "请输入关键字" || !isValid(searchword)){
+                alert("请输入关键词后再进行提交。");
+                return false;
+            }
+            $('input[name="keyword"]').val(encodeURI(searchword));
+            $('form[name="searchform"]').submit();
+        });
+
+        $('#sub-mobile').click(function(){
+            var iptSword = $.trim($('#iptSword').val());
+            if(iptSword == "" || iptSword == "请输入关键字" || !isValid(iptSword)){
+                alert("请输入关键词后再进行提交。");
+                return false;
+            }
+            $('input[name="keyword"]').val(encodeURI(iptSword));
+            $('form[name="searchform"]').submit();
+        });
+
+
+    });
+
+
+
+
+</script>
+<script type="text/javascript">
+    var locationStr = '首页|研究生教育|硕士生招生';
+    var curArray = locationStr.split('|');
+    var curHtml = '';
+    if(curArray.length == 1){
+        curHtml = '<i class=\"fa fa-circle\" aria-hidden=\"true\"></i>&nbsp;<a href=\"https://www.ime.ac.cn/\">首页</a>&nbsp;&gt;&gt;&nbsp;<a href="../">硕士生招生</a>';
+    }
+    if(curArray.length == 2){
+        curHtml = '<i class=\"fa fa-circle\" aria-hidden=\"true\"></i>&nbsp;<a href=\"https://www.ime.ac.cn/\">首页</a>&nbsp;&gt;&gt;&nbsp;<a href="../../">研究生教育</a>&nbsp;&gt;&gt;&nbsp;<a href="../">硕士生招生</a>';
+    }
+    if(curArray.length == 3){
+        curHtml = '<i class=\"fa fa-circle\" aria-hidden=\"true\"></i>&nbsp;<a href=\"https://www.ime.ac.cn/\">首页</a>&nbsp;&gt;&gt;&nbsp;&nbsp;&gt;&gt;&nbsp;<a href="../../">研究生教育</a>&nbsp;&gt;&gt;&nbsp;<a href="../">硕士生招生</a>';
+    }
+    if($("ol.col-sm-12").length == 1){
+        $("ol.col-sm-12").html(curHtml);
+    }
+
+    var curLocation = '首页|研究生教育|硕士生招生';
+    if($('.temp02-wrap-LmenuList li').length > 0){
+        $('.temp02-wrap-LmenuList li').each(function(){
+            var index = -1;
+            var thisChn = $.trim($(this).text());
+            if((index = curLocation.indexOf(thisChn)) != -1){
+                $(this).addClass('active');
+                $(this).siblings().removeClass('active');
+            }
+        });
+    }
+</script>
+<script>
+
+    $(function(){
+
+        //附件
+        var appLinkArr = new Array(); //附件路径
+        var appLinkStr = '';
+        appLinkArr = appLinkStr.split('|');
+        var appDescArr = new Array(); //附件名称
+        var appDescStr = '';
+        appDescArr = appDescStr.split('|');
+        if(appLinkArr[0] != '' && appDescArr[0] != ''){
+            var appHtml = "";
+            $.each(appLinkArr, function(i, str) {
+                if(str.indexOf('doc') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-word-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+                if(str.indexOf('xls') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-excel-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+                if(str.indexOf('ppt') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+                if(str.indexOf('pdf') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+                if(str.indexOf('txt') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-text-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+                if(str.indexOf('rar') != -1 || str.indexOf('zip') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-archive-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+            });
+            $(".cas-wrap-appendix ul").html(appHtml);
+        }else{
+            $(".cas-wrap-appendix").hide();
+        }
+    });
+</script>
+<link href="//videosz.cas.cn/masvod/public/lib/images/xgplayervideo.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="//videosz.cas.cn/masvod/public/lib/images/xgplayervideo.js"></script>
+<script type="text/javascript" src="//videosz.cas.cn/masvod/public/lib/images/videoreplacenew.js"></script>
+
+
+</body>
+
+</html>

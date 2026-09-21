@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="liwen@cashq.ac.cn">
+<meta name="keywords" content="上海微系统所、研究生、通信与信息系统、微电子学与固体电子学、材料物理化学"> 
+<meta name="description" content="上海微系统所是中科院硕士、博士研究生重点培养基地之一，拥有“通信与信息系统”、“微电子学与固体电子学”和“材料物理化学”三个博士学位培养点。随着知识创新工程的深入，我所科研工作体量大幅度增加，研究生的招生规模也不断扩大。在创新二期期间，我所“以系统带动器件，以器件带动材料”的理念及获得的一系列科研成果吸引了大批优秀生源。我所还一直保持与上海宏力半导体有限公司、中芯国际等企业合作培养研究生，这种全新的培养模式让产学研结合得更加紧密，为国家的集成电路产业培养高级专业人才。"> 
+<title>中国科学院上海微系统与信息技术研究所2024年夏令营说明----中国科学院上海微系统与信息技术研究所</title>
+<link rel="stylesheet" href="../../../../images/bootstrap.css">
+<link href="//libsub.cas.cn/lib/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="../../../../images/animations.css" rel="stylesheet">
+<link href="../../../../images/owl.carousel.css" rel="stylesheet">
+<link href="../../../../images/yjsstyle.css" rel="stylesheet" type="text/css" />
+<link href="../../../../images/yjs.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../../../images/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="[JS library]"></script>
+<!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="../../../../images/selectivizr.js"></script>
+  <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+<![endif]-->
+<!--[if lt IE 9]>
+    <script type="text/javascript" src="../../../../images/html5shiv.min.js"></script>
+    <script type="text/javascript" src="../../../../images/respond.min.js"></script>
+<![endif]-->
+
+
+<SCRIPT LANGUAGE="JavaScript">
+function num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt){
+		var nCurrIndex = _nCurrIndex || 0;
+		if(nCurrIndex == 0)
+			document.write("<a href='#' class='nolink'>1</a>");
+		else
+			document.write("<a class='nolink' href=\""+_sPageName+"."+_sPageExt+"\">1</a>");
+		
+		for(var i=1; i<_nPageCount; i++){
+		if(nCurrIndex == i)
+			document.write("<a href='#' class='nolink'>"+(i+1)+"</a>");
+		else
+			document.write("<a class='nolink' href=\""+_sPageName+"_" + i + "."+_sPageExt+"\">"+(i+1)+"</a>");
+			}
+		return "";
+		}
+		
+function createPageHTML(_nPageCount, _nCurrIndex, _sPageName, _sPageExt){
+	if(_nPageCount == null || _nPageCount<=1){
+		return;
+	}
+	
+	var nCurrIndex = _nCurrIndex || 0;
+	
+	if (_nPageCount==2){
+		if(nCurrIndex == 0){
+		document.write("<a href='#' class='nolink'>1</a><a href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">2</a><a href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">下一页>></a>");
+		}
+		else if (nCurrIndex == 1){
+		document.write("<a class='nolink' href=\""+_sPageName+ "."+_sPageExt+"\"><<上一页</a><a href=\""+_sPageName+ "."+_sPageExt+"\">1</a><a href='#' class='nolink'>2</a>");
+		}
+	}
+	else{
+
+	if(nCurrIndex == 0){
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		document.write("<a class='nolink' href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">下一页>></a>");
+		}
+	else if (nCurrIndex == 1){
+		document.write("<a class='nolink' href=\""+_sPageName+"."+_sPageExt+"\" style='float:left;margin-left:10px;'><<上一页</a>");
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		document.write("<a class='nolink' href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">下一页>></a>");
+		}
+	else if(nCurrIndex == (_nPageCount-1)){
+		document.write("<a class='nolink' href=\""+_sPageName+"_" + (nCurrIndex-1) + "."+_sPageExt+"\" style='float:left;margin-left:10px;'><<上一页</a>");
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		}
+	else{
+		document.write("<a class='nolink' href=\""+_sPageName+"_" + (nCurrIndex-1) + "."+_sPageExt+"\" style='float:left;margin-left:10px;'><<上一页</a>");
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		document.write("<a class='nolink' href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">下一页>></a>");
+		}
+		} 
+	
+}
+</SCRIPT>
+</head>
+<body>
+<div class="scrollToTop"><i class="fa fa-chevron-up"></i></div>
+<div class="wivtop">
+  <div class="container">
+    <div class="logo"><a href="//www.sim.cas.cn/yjs/"><img class="img-responsive" src="//sim.cas.cn/images/simit-yjs-logo.png" alt="中国科学院上海微系统与信息技术研究所研究生教育网" /></a></div>
+  </div>
+</div>
+<div class="container-fluid menubg"><div class="container">
+   <div class="h_menu">
+   <div class="main-navigation animated">
+   <nav class="navbar navbar-default navbar-left" role="navigation">
+										<div class="container-fluid">
+
+											<!-- Toggle get grouped for better mobile display -->
+											<div class="navbar-header">
+												<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+													<span class="sr-only">Toggle navigation</span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+												</button>
+											</div>
+
+											<!-- Collect the nav links, forms, and other content for toggling -->
+											<div class="collapse navbar-collapse" id="navbar-collapse-1">
+												<ul class="nav navbar-nav">
+													<li class="dropdown">
+														<a href="http://www.sim.cas.cn/yjs/">首 页</a>
+													</li>
+													<!-- mega-menu start -->
+													<li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/yjs_gk/">概 况</a>
+													</li>
+													<li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/gwzz/">岗位职责</a>
+													</li>
+                                                    <li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/zsxx/" class="dropdown-toggle" data-toggle="dropdown">招生信息</a>
+														<ul class="dropdown-menu">
+														    
+															<li><a href="http://sim.cas.cn/yjs/zsxx/yjs_bszs/">博士招生</a></li>
+                                                                                                                    
+															<li><a href="http://sim.cas.cn/yjs/zsxx/yjs_sszs/">硕士招生</a></li>
+                                                                                                                    
+														</ul>
+													</li>
+                                                    <li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/jyzd/">就业指导</a>
+													</li>
+                                                    <li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/dsjs/" class="dropdown-toggle" data-toggle="dropdown">导师介绍</a>
+														
+													</li>
+                                                    <li class="dropdown">
+														<a href="http://sim.cas.cn/xyh2017/" class="dropdown-toggle" data-toggle="dropdown">校友网站</a>
+														
+													</li>
+                                                    <li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/xzzx/">下载中心</a>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+									</nav>
+   </div>
+   
+   </div>
+</div></div>
+<div class="main-container">
+<div class="container-fluid" style="background:#f9fdff; border-bottom:#deeef3 solid 1px;">
+     <div class="container">
+     <div class="page-intro">
+			<div class="row">
+				<ol class="breadcrumb">
+								<li><i class="fa fa-home pr-10"></i><a href="../../../">首页</a> &gt; <a href="../../" title="招生信息" class="CurrChnlCls">招生信息</a>&gt;<a href="../" title="硕士招生" class="CurrChnlCls">硕士招生</a></li>
+				</ol>
+			</div>
+     </div>
+     </div>
+</div>
+  <div class="container">
+  <div class="secondarybox">
+  <div class="row">
+   
+    <div class="col-md-12">
+    <div class="main-article bgbai">
+<!-- 正文开始 -->
+    <div id="xlmain">
+      <p class="wztitle">中国科学院上海微系统与信息技术研究所2024年夏令营说明</p>
+      <p class="qtinfo hidden-lg hidden-md hidden-sm">文章来源：&nbsp;&nbsp;|&nbsp;&nbsp;发布时间：2024-06-25</p>
+      <p class="qtinfo hidden-xs">文章来源：&nbsp;&nbsp;|&nbsp;&nbsp;发布时间：2024-06-25&nbsp;&nbsp;|&nbsp;&nbsp;【<a onclick="window.print()" href="#">打印</a>】&nbsp;【<a onclick="window.close();" href="#">关闭</a>】</p>
+          <div class="textxl nrhei">　　
+
+                <div class="trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_web"><p style="font-size: 16px;"><span data-index="18" style="line-height: 16px; color: rgb(51, 51, 51); font-family: 微软雅黑; letter-spacing: 0px; text-wrap: wrap; font-size: 16px;">各位夏令营报名同学：</span></p><p style="text-wrap: wrap; font-size: 16px;"><span data-index="18" style="font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0px; line-height: 16px; font-size: 16px;">大家好！</span></p><p style="text-wrap: wrap; text-indent: 36px; font-size: 16px;"><span data-index="18" style="font-size: 16px;"><span style="font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0px; line-height: 16px; font-size: 16px;">目前我们的夏令营入营资格审核已经基本结束，最终入营名单将在6月30日左右公布。在名单公布之前，</span><span style="text-indent: 0em; letter-spacing: 0px; line-height: 16px; font-size: 16px;">请各位同学</span><span style="text-indent: 0em; font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0px; line-height: 16px; font-size: 16px;">注意以下事项：</span></span></p><p style="text-wrap: wrap; text-indent: 36px; text-align: justify; font-size: 16px;"><span data-index="18" style="font-size: 16px;">（1）请各位报名同学务必及时登录中国科学院科教结合协同育人行动计划网站（https://kjxt.ucas.ac.cn/index.php/zh/）确认参加状态（<strong><span style="color: rgb(255, 0, 0); font-size: 16px;">最终确认截止时间为6月27日13:00</span></strong>），我们将在系统回复“参加”状态的同学中进行最终通知，如过时不确认“参加”，我们将默认为放弃参与本次夏令营，后续邮件将不再通知。</span></p><p style="text-wrap: wrap; text-indent: 36px; font-size: 16px;"><span data-index="18" style="font-size: 16px;"><span style="font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0px; line-height: 16px; font-size: 16px;">（2）完成以上步骤并已点</span>击“参加”的同学将会收到入群邮件，请留意各位邮箱。为了更好地进行活动统筹安排，也请各位及时完成信息统计以及参营意愿统计（通过邮件形式发送，预计<span style="font-size: 16px; color: rgb(255, 0, 0);"><strong>在6月28日左右发送完毕</strong></span>）。</span></p><p style="text-wrap: wrap; text-indent: 36px; font-size: 16px;"><span data-index="18" style="font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0px; line-height: 16px; font-size: 16px;">（3）本年度夏令营将采取线上、线下相结合的方式进行。</span></p><p style="text-wrap: wrap; text-indent: 36px; font-size: 16px;"><span data-index="18" style="font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0px; line-height: 16px; font-size: 16px;">开营仪式：7月4日线上进行（所有入营营员均需参加）</span></p><p style="text-wrap: wrap; text-indent: 36px; font-size: 16px;"><span data-index="18" style="font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0px; line-height: 16px; font-size: 16px;">线下场：7月8日-7月11日（已确定）；</span></p><p style="text-wrap: wrap; text-indent: 36px; font-size: 16px;"><span data-index="18" style="font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0px; line-height: 16px; font-size: 16px;">线上场：7月15日-7月17日（在8月底左右还将有另外的线上活动）</span></p><p style="text-wrap: wrap; text-indent: 36px; font-size: 16px;"><span data-index="18" style="font-size: 16px;"><span style="font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0px; line-height: 16px; font-size: 16px;">（4）</span><strong><span style="font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0px; line-height: 16px; font-size: 16px;">最终</span></strong><strong><span style="font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0px; line-height: 16px; font-size: 16px;">参营情况</span></strong><strong><span style="font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0px; line-height: 16px; font-size: 16px;">（入选线上/线下场</span></strong><strong><span style="font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0px; line-height: 16px; font-size: 16px;">）</span></strong><span style="font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0px; line-height: 16px; font-size: 16px;">以及活动具体安排将通过<strong>在</strong>QQ<strong>群中沟通</strong>。</span></span></p><p style="text-wrap: wrap; text-indent: 36px; font-size: 16px;"><span data-index="18" style="font-size: 16px;">（5）考虑到报名同学较多，请各位同学根据以上要求以及时间节点完成相应操作。如有问题，请用邮件的方式叙述清楚，我们会第一时间处理，<span style="font-size: 16px; color: rgb(255, 0, 0);"><strong>期间切勿来电，谢谢理解配合</strong></span>。</span></p><p style="text-wrap: wrap; font-size: 16px; text-indent: 2em; text-align: right;"><span data-index="18" style="color: rgb(51, 51, 51); font-family: 微软雅黑; letter-spacing: 0px; font-size: 16px;">                                                              中国科学院上海微系统所研究生部</span></p><p style="text-wrap: wrap; text-align: right; font-size: 16px; text-indent: 2em;"><span data-index="18" style="line-height: 16px; font-family: 微软雅黑; color: rgb(51, 51, 51); letter-spacing: 0px; font-size: 16px;">2024年6月25日</span></p><p><br/></p></div>
+ 
+           <div id="appendix"  style="display:none;">
+		<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin:0 auto; margin-bottom:5px;background-color:#cccccc">
+          <tr>
+            <td height="25" style="padding-left:8px;" align="left" class="hh16b">附件下载：</td>
+          </tr>
+        </table>
+        <table width="90%" border="0" cellpadding="0" cellspacing="0">
+                    <tr id="attach">
+                      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td align="left" style="padding:10px 0 10px 40px;"><ol>
+                                
+                                
+                              </ol></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table>
+					<script>
+					var s = '';
+					var c = '';
+					var a = document.getElementById("appendix");
+					if(s.length >0 || c.length >0){
+						a.style.display = '';
+					}
+					</script>
+		</div>
+
+
+<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin:0 auto;">
+            <tr>
+              <td height="30" align="center"><SCRIPT LANGUAGE="JavaScript">
+createPageHTML(1, 0, "t20240625_7196255", "html");	
+</SCRIPT></td>
+            </tr>
+          </table>
+
+</div>
+   </div>
+<!-- 正文结束 -->
+    </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+  <style>
+.copyright a.links{
+color:#fff;
+}
+</style>
+<div class="container-fluid" style="background:#074988;">
+  <div class="container"><div class="row">
+  <div class="col-md-12"><div class="copyright">
+  <div class="left">
+         版权所有 &copy; 中国科学院上海微系统与信息技术研究所　<a href="https://beian.miit.gov.cn/" class="links" target="_blank">沪ICP备05005483号-1</a><br>地址：上海市长宁路865号　邮编：200050　电话：021-62511070</div>
+  </div></div>
+  </div></div>
+  </div>
+
+<script type="text/javascript" src="../../../../images/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../../../images/modernizr.js"></script>
+<script type="text/javascript" src="../../../../images/owl.carousel.js"></script>
+<script type="text/javascript" src="../../../../images/template.js"></script>
+<script type="text/javascript" src="../../../../images/initializers.js"></script>
+<script type="text/javascript" src="../../../../images/jquery.kxbdMarquee.js"></script>
+<script>
+(function(){
+	$("#marquee4").kxbdMarquee({direction:"up",isEqual:false});
+})();
+</script>
+</body>
+</html>

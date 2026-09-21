@@ -1,0 +1,2226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>首页 - 上海交通大学研究生院</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="https://www.gs.sjtu.edu.cn/assets/layui/css/layui.css">
+        <link rel="stylesheet" href="https://www.gs.sjtu.edu.cn/assets/css/video-js.min.css">
+        <link rel="stylesheet" href="https://www.gs.sjtu.edu.cn/assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://at.alicdn.com/t/c/font_3338510_10w3a7n66fwn.css">
+        <!-- <link rel="stylesheet" href="https://at.alicdn.com/t/c/font_3566624_l4urnrv70h.css"> -->
+        <!-- <link rel="stylesheet" href="css/iconfont.css?v=20210324"> -->
+        <link rel="stylesheet" href="https://www.gs.sjtu.edu.cn/assets/css/fancybox.css">
+        <link rel="stylesheet" href="https://www.gs.sjtu.edu.cn/assets/css/animate.min.css">
+        <link rel="stylesheet" href="https://www.gs.sjtu.edu.cn/assets/css/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" href="https://www.gs.sjtu.edu.cn/assets/css/css.css?v=2023082801">
+        <link rel="stylesheet" href="https://www.gs.sjtu.edu.cn/assets/css/style.css?v=2023082902">
+        <!--  -->
+
+</head>
+
+<body>
+<div class="headerTemp"></div>
+<header>
+    <div class="header">
+        <div class="header-top">
+            <div class="layui-container">
+                <div class="flex">
+                    <div class="logo">
+                        <a href="/"><img src="https://www.gs.sjtu.edu.cn/assets/images/logo_white.png?v=20230828" alt=""></a>
+                        <a href="/contribute" class="contribute" target="contribute"></a>
+                    </div>
+                    <div class="secondary-nav">
+                        <div class="secondary-bg"></div>
+                        <div class="flex">
+                            <ul class="layui-nav nav-horizon">
+                                                                    <li class="layui-nav-item">
+                                        <a class="language-btn"
+                                           href="#"  target="_self">
+                                            <i class="iconfont icon-nav-people"></i> 选择身份
+                                        </a>
+                                                                                    <dl class="layui-nav-child">
+                                                                                                    <dd ><a
+                                                            href="/sf/guide"
+                                                            target="_self">访客</a>
+                                                    </dd>
+                                                                                                    <dd ><a
+                                                            href="/sf/student"
+                                                            target="_self">学生</a>
+                                                    </dd>
+                                                                                                    <dd ><a
+                                                            href="/sf/teacher"
+                                                            target="_self">教师</a>
+                                                    </dd>
+                                                                                                    <dd ><a
+                                                            href="/sf/alumnus"
+                                                            target="_self">校友</a>
+                                                    </dd>
+                                                                                            </dl>
+                                                                            </li>
+                                                                    <li class="layui-nav-item">
+                                        <a class="language-btn"
+                                           href="/xxxt"  target="_self">
+                                            <i class="iconfont icon-nav-report"></i> 信息系统
+                                        </a>
+                                                                                    <dl class="layui-nav-child">
+                                                                                                    <dd ><a
+                                                            href="http://yjs.sjtu.edu.cn"
+                                                            target="_blank">学生/教师/教务登录</a>
+                                                    </dd>
+                                                                                                    <dd ><a
+                                                            href="/post/detail/Z3MzMjM5"
+                                                            target="_self">学位系统</a>
+                                                    </dd>
+                                                                                            </dl>
+                                                                            </li>
+                                                                    <li class="layui-nav-item">
+                                        <a class="language-btn"
+                                           href="/xzzx/pygl"  target="_self">
+                                            <i class="iconfont icon-nav-download"></i> 下载中心
+                                        </a>
+                                                                                    <dl class="layui-nav-child">
+                                                                                                    <dd ><a
+                                                            href="/xzzx/gjjl"
+                                                            target="_self">国际交流</a>
+                                                    </dd>
+                                                                                                    <dd ><a
+                                                            href="/xzzx/pygl"
+                                                            target="_self">培养管理</a>
+                                                    </dd>
+                                                                                                    <dd ><a
+                                                            href="/xzzx/xwxk"
+                                                            target="_self">学位学科</a>
+                                                    </dd>
+                                                                                                    <dd ><a
+                                                            href="/xzzx/qt"
+                                                            target="_self">其他</a>
+                                                    </dd>
+                                                                                            </dl>
+                                                                            </li>
+                                                                    <li class="layui-nav-item">
+                                        <a class="language-btn"
+                                           href="/about/lxwm"  target="_self">
+                                            <i class="iconfont icon-nav-contact"></i> 联系我们
+                                        </a>
+                                                                            </li>
+                                
+
+                                <li class="layui-nav-item">
+                                    <a href="https://en.gs.sjtu.edu.cn/" target="_blank" class="language-btn">
+                                        <i class="iconfont icon-language"></i> EN
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="search-btn ">
+                                <i class="iconfont icon-search1" ></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <div class="layui-container">
+                <div class="header-nav">
+                    <div class="mobile-bg"></div>
+                    <ul class="layui-nav nav-horizon" lay-filter="" id="resText">
+                        <li class="show-mobile">
+                            <div class="close-btn"><i class="iconfont icon-close"></i></div>
+                        </li>
+                                                    <li class="layui-nav-item
+                            0
+                            1
+                                                        ">
+                                <a href="/"
+                                   target="_self">首页</a>
+                                                            </li>
+                                                    <li class="layui-nav-item
+                            0
+                            2
+                                                        ">
+                                <a href="/news"
+                                   target="_self">资讯公告</a>
+                                                                    <dl class="layui-nav-child">
+                                        <div class="show-mobile flex is-center is-between">
+                                            <div class="back-btn"><i class="iconfont icon-left"></i></div>
+                                            <div class="close-btn"><i class="iconfont icon-close"></i></div>
+                                        </div>
+                                        <div class="dropmenu">
+                                            <div class="dropmenu-container">
+                                                <div class="layui-row layui-col-space30 row-flex">
+
+                                                                                                                <div class="layui-col-md6 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/news"
+                                                                    target="_self">最新动态</a>
+                                                            </dd>
+                                                                                                                            <ul>
+                                                                                                                                            <li><a
+                                                                                href="https://yzb.sjtu.edu.cn/"
+                                                                                target="_self">招生</a></li>
+                                                                                                                                            <li><a
+                                                                                href="/news/pydt"
+                                                                                target="_self">培养</a></li>
+                                                                                                                                            <li><a
+                                                                                href="/news/xkdt"
+                                                                                target="_self">学科</a></li>
+                                                                                                                                            <li><a
+                                                                                href="/news/xwdt"
+                                                                                target="_self">学位</a></li>
+                                                                                                                                            <li><a
+                                                                                href="/news/gjjl"
+                                                                                target="_self">国际</a></li>
+                                                                                                                                            <li><a
+                                                                                href="/news/xs"
+                                                                                target="_self">学术</a></li>
+                                                                                                                                            <li><a
+                                                                                href="/news/qtdt"
+                                                                                target="_self">其他</a></li>
+                                                                    
+                                                                </ul>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md6 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/announcement/work"
+                                                                    target="_self">通知公告</a>
+                                                            </dd>
+                                                                                                                            <ul>
+                                                                                                                                            <li><a
+                                                                                href="/announcement/work"
+                                                                                target="_self">工作信息</a></li>
+                                                                                                                                            <li><a
+                                                                                href="https://yzb.sjtu.edu.cn/zkxx/bszs"
+                                                                                target="_self">招生信息</a></li>
+                                                                                                                                            <li><a
+                                                                                href="/announcement/train"
+                                                                                target="_self">培养信息</a></li>
+                                                                                                                                            <li><a
+                                                                                href="/announcement/degree"
+                                                                                target="_self">学位学科</a></li>
+                                                                                                                                            <li><a
+                                                                                href="/announcement/exchange/69"
+                                                                                target="_self">国际交流</a></li>
+                                                                                                                                            <li><a
+                                                                                href="/announcement/xsjy"
+                                                                                target="_self">学术就业</a></li>
+                                                                    
+                                                                </ul>
+                                                                                                                </div>
+                                                                                                        </div>
+                                            </div>
+                                        </div>
+                                    </dl>
+                                                            </li>
+                                                    <li class="layui-nav-item
+                            0
+                            4
+                                                        ">
+                                <a href="https://yzb.sjtu.edu.cn/"
+                                   target="_blank">招生工作</a>
+                                                                    <dl class="layui-nav-child">
+                                        <div class="show-mobile flex is-center is-between">
+                                            <div class="back-btn"><i class="iconfont icon-left"></i></div>
+                                            <div class="close-btn"><i class="iconfont icon-close"></i></div>
+                                        </div>
+                                        <div class="dropmenu">
+                                            <div class="dropmenu-container">
+                                                <div class="layui-row layui-col-space30 row-flex">
+
+                                                                                                                <div class="layui-col-md6 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="https://yzb.sjtu.edu.cn/"
+                                                                    target="_blank">研究生招生</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md6 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="https://isc.sjtu.edu.cn/EN/content.aspx?info_lb=38&amp;flag=2"
+                                                                    target="_blank">国际研究生招生</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                        </div>
+                                            </div>
+                                        </div>
+                                    </dl>
+                                                            </li>
+                                                    <li class="layui-nav-item
+                            0
+                            5
+                                                        ">
+                                <a href="/pygl/pyyqygd"
+                                   target="_self">培养服务</a>
+                                                                    <dl class="layui-nav-child">
+                                        <div class="show-mobile flex is-center is-between">
+                                            <div class="back-btn"><i class="iconfont icon-left"></i></div>
+                                            <div class="close-btn"><i class="iconfont icon-close"></i></div>
+                                        </div>
+                                        <div class="dropmenu">
+                                            <div class="dropmenu-container">
+                                                <div class="layui-row layui-col-space30 row-flex">
+
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/pygl/kcyjx"
+                                                                    target="_self">课程与教学</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/pygl/zljs"
+                                                                    target="_self">研究生教学督导</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/gjhpy"
+                                                                    target="_self">国际化培养</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/pygl/zhsw"
+                                                                    target="_self">​学生服务</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/pygl/xjgl"
+                                                                    target="_self">学籍奖助</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/pygl/pyyqygd"
+                                                                    target="_self">培养要求与规定</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/kjgg/kcjs"
+                                                                    target="_self">课教改革</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                        </div>
+                                            </div>
+                                        </div>
+                                    </dl>
+                                                            </li>
+                                                    <li class="layui-nav-item
+                            0
+                            6
+                                                        ">
+                                <a href="/xwxk/xw"
+                                   target="_self">学位学科</a>
+                                                                    <dl class="layui-nav-child">
+                                        <div class="show-mobile flex is-center is-between">
+                                            <div class="back-btn"><i class="iconfont icon-left"></i></div>
+                                            <div class="close-btn"><i class="iconfont icon-close"></i></div>
+                                        </div>
+                                        <div class="dropmenu">
+                                            <div class="dropmenu-container">
+                                                <div class="layui-row layui-col-space30 row-flex">
+
+                                                                                                                <div class="layui-col-md4 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/xwxk/xw"
+                                                                    target="_self">学位</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md4 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/xueke/xwdjs"
+                                                                    target="_self">学科建设</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md4 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/xwxk/yxcg"
+                                                                    target="_self">优秀成果</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                        </div>
+                                            </div>
+                                        </div>
+                                    </dl>
+                                                            </li>
+                                                    <li class="layui-nav-item
+                            0
+                            31
+                                                        ">
+                                <a href="https://ngcee.sjtu.edu.cn/"
+                                   target="_blank">卓越工程师</a>
+                                                            </li>
+                                                    <li class="layui-nav-item
+                            0
+                            7
+                                                        ">
+                                <a href="/zxgz/yjscxcyjs"
+                                   target="_self">专项工作</a>
+                                                                    <dl class="layui-nav-child">
+                                        <div class="show-mobile flex is-center is-between">
+                                            <div class="back-btn"><i class="iconfont icon-left"></i></div>
+                                            <div class="close-btn"><i class="iconfont icon-close"></i></div>
+                                        </div>
+                                        <div class="dropmenu">
+                                            <div class="dropmenu-container">
+                                                <div class="layui-row layui-col-space30 row-flex">
+
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/zxgz/yjscxcyjs"
+                                                                    target="_self">研究生创新创业竞赛</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/bsszyryjh/xmjs"
+                                                                    target="_self">博士生致远荣誉计划</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/dsjt"
+                                                                    target="_self">大师讲坛</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/zxgz/yjsxslt"
+                                                                    target="_self">学术之星</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                        </div>
+                                            </div>
+                                        </div>
+                                    </dl>
+                                                            </li>
+                                                    <li class="layui-nav-item
+                            0
+                            8
+                                                        ">
+                                <a href="/zwgk/gzsc"
+                                   target="_self">信息公开</a>
+                                                                    <dl class="layui-nav-child">
+                                        <div class="show-mobile flex is-center is-between">
+                                            <div class="back-btn"><i class="iconfont icon-left"></i></div>
+                                            <div class="close-btn"><i class="iconfont icon-close"></i></div>
+                                        </div>
+                                        <div class="dropmenu">
+                                            <div class="dropmenu-container">
+                                                <div class="layui-row layui-col-space30 row-flex">
+
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/zwgk/gzzd"
+                                                                    target="_self">规章制度</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/zwgk/xfjs"
+                                                                    target="_self">学风建设</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/zwgk/xxfw"
+                                                                    target="_self">信息服务</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/zwgk/glxxxtczzn"
+                                                                    target="_self">管理信息系统操作指南</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/zwgk/djgz"
+                                                                    target="_self">党建工作</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md3 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/zwgk/gzsc"
+                                                                    target="_self">工作手册</a>
+                                                            </dd>
+                                                                                                                </div>
+                                                                                                        </div>
+                                            </div>
+                                        </div>
+                                    </dl>
+                                                            </li>
+                                                    <li class="layui-nav-item
+                            0
+                            3
+                                                        ">
+                                <a href="/about/yjsy/jj"
+                                   target="_self">关于我们</a>
+                                                                    <dl class="layui-nav-child">
+                                        <div class="show-mobile flex is-center is-between">
+                                            <div class="back-btn"><i class="iconfont icon-left"></i></div>
+                                            <div class="close-btn"><i class="iconfont icon-close"></i></div>
+                                        </div>
+                                        <div class="dropmenu">
+                                            <div class="dropmenu-container">
+                                                <div class="layui-row layui-col-space30 row-flex">
+
+                                                                                                                <div class="layui-col-md4 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/about/yjsy/jj"
+                                                                    target="_self">研究生院</a>
+                                                            </dd>
+                                                                                                                            <ul>
+                                                                                                                                            <li><a
+                                                                                href="/about/yjsy/jj"
+                                                                                target="_self">简介</a></li>
+                                                                                                                                            <li><a
+                                                                                href="/about/yjsy/jgsz"
+                                                                                target="_self">机构设置</a></li>
+                                                                    
+                                                                </ul>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md4 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="https://ngcee.sjtu.edu.cn/about/introduce"
+                                                                    target="_self">国家卓越工程师学院</a>
+                                                            </dd>
+                                                                                                                            <ul>
+                                                                                                                                            <li><a
+                                                                                href="https://ngcee.sjtu.edu.cn/about/introduce"
+                                                                                target="_self">简介</a></li>
+                                                                                                                                            <li><a
+                                                                                href="https://ngcee.sjtu.edu.cn/about/leaders"
+                                                                                target="_self">机构设置</a></li>
+                                                                    
+                                                                </ul>
+                                                                                                                </div>
+                                                                                                                <div class="layui-col-md4 layui-col-xs12">
+                                                            <dd class="sub-title"><a
+                                                                    href="/about/lxwm"
+                                                                    target="_self">联系我们</a>
+                                                            </dd>
+                                                                                                                            <ul>
+                                                                    
+                                                                </ul>
+                                                                                                                </div>
+                                                                                                        </div>
+                                            </div>
+                                        </div>
+                                    </dl>
+                                                            </li>
+                                            </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="search-btn mobile-search-btn">
+            <i class="iconfont icon-search1"></i>
+        </div>
+        <div class="header-mobile">
+            <div class="site-tree-mobile">
+                <span class="icon-reorder"></span>
+                <span class="icon-reorder"></span>
+                <span class="icon-reorder"></span>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="search-box" style="display: none;">
+    <div class="layui-container">
+        <div class="container">
+            <form action="/search" class="layui-form">
+                <div class="input-box">
+                    <input type="text" id="the_keyword" name="keyword"  class="layui-input" placeholder="请输入搜索关键词...">
+                    <div class="bg"></div>
+                    <div type="" class="form-submit"><i class="iconfont icon-search1" onclick="toSearch()"></i></div>
+                </div>
+            </form>
+            <div class="popular-search">
+                <!-- <div class="title">热门搜索</div> -->
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="nav-container tc-box">
+    <div class="tc-body">
+        <div class="tc-body-content">
+            <div class="mobile-main-nav">
+                <div class="layui-container">
+                    <ul>
+                                                    <li class="item">
+                                <div class="title">
+                                    <a  href="/"
+                                   target="_self" >首页</a>
+                                                                    </div >
+                                                            </li>
+                                                    <li class="item">
+                                <div class="title">
+                                    <a  href="/news"
+                                   target="_self" >资讯公告</a>
+                                                                            <div class="icon-box">
+                                            <i class="iconfont icon-right"></i>
+                                        </div>
+                                                                    </div >
+                                                                <div class="nav-child">
+                                                                            <div class="nav-child-item">
+                                            <a href="/news" target="_self" class="child-title">
+                                                最新动态
+                                            </a>
+                                                                                            <div class="third-nav">
+                                                                                                            <a href="https://yzb.sjtu.edu.cn/"
+                                                           target="_self">招生</a>
+                                                                                                            <a href="/news/pydt"
+                                                           target="_self">培养</a>
+                                                                                                            <a href="/news/xkdt"
+                                                           target="_self">学科</a>
+                                                                                                            <a href="/news/xwdt"
+                                                           target="_self">学位</a>
+                                                                                                            <a href="/news/gjjl"
+                                                           target="_self">国际</a>
+                                                                                                            <a href="/news/xs"
+                                                           target="_self">学术</a>
+                                                                                                            <a href="/news/qtdt"
+                                                           target="_self">其他</a>
+                                                                                                    </div>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/announcement/work" target="_self" class="child-title">
+                                                通知公告
+                                            </a>
+                                                                                            <div class="third-nav">
+                                                                                                            <a href="/announcement/work"
+                                                           target="_self">工作信息</a>
+                                                                                                            <a href="https://yzb.sjtu.edu.cn/zkxx/bszs"
+                                                           target="_self">招生信息</a>
+                                                                                                            <a href="/announcement/train"
+                                                           target="_self">培养信息</a>
+                                                                                                            <a href="/announcement/degree"
+                                                           target="_self">学位学科</a>
+                                                                                                            <a href="/announcement/exchange/69"
+                                                           target="_self">国际交流</a>
+                                                                                                            <a href="/announcement/xsjy"
+                                                           target="_self">学术就业</a>
+                                                                                                    </div>
+                                                                                    </div>
+                                                                    </div>
+                                                            </li>
+                                                    <li class="item">
+                                <div class="title">
+                                    <a  href="https://yzb.sjtu.edu.cn/"
+                                   target="_blank" >招生工作</a>
+                                                                            <div class="icon-box">
+                                            <i class="iconfont icon-right"></i>
+                                        </div>
+                                                                    </div >
+                                                                <div class="nav-child">
+                                                                            <div class="nav-child-item">
+                                            <a href="https://yzb.sjtu.edu.cn/" target="_blank" class="child-title">
+                                                研究生招生
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="https://isc.sjtu.edu.cn/EN/content.aspx?info_lb=38&amp;flag=2" target="_blank" class="child-title">
+                                                国际研究生招生
+                                            </a>
+                                                                                    </div>
+                                                                    </div>
+                                                            </li>
+                                                    <li class="item">
+                                <div class="title">
+                                    <a  href="/pygl/pyyqygd"
+                                   target="_self" >培养服务</a>
+                                                                            <div class="icon-box">
+                                            <i class="iconfont icon-right"></i>
+                                        </div>
+                                                                    </div >
+                                                                <div class="nav-child">
+                                                                            <div class="nav-child-item">
+                                            <a href="/pygl/kcyjx" target="_self" class="child-title">
+                                                课程与教学
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/pygl/zljs" target="_self" class="child-title">
+                                                研究生教学督导
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/gjhpy" target="_self" class="child-title">
+                                                国际化培养
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/pygl/zhsw" target="_self" class="child-title">
+                                                ​学生服务
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/pygl/xjgl" target="_self" class="child-title">
+                                                学籍奖助
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/pygl/pyyqygd" target="_self" class="child-title">
+                                                培养要求与规定
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/kjgg/kcjs" target="_self" class="child-title">
+                                                课教改革
+                                            </a>
+                                                                                    </div>
+                                                                    </div>
+                                                            </li>
+                                                    <li class="item">
+                                <div class="title">
+                                    <a  href="/xwxk/xw"
+                                   target="_self" >学位学科</a>
+                                                                            <div class="icon-box">
+                                            <i class="iconfont icon-right"></i>
+                                        </div>
+                                                                    </div >
+                                                                <div class="nav-child">
+                                                                            <div class="nav-child-item">
+                                            <a href="/xwxk/xw" target="_self" class="child-title">
+                                                学位
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/xueke/xwdjs" target="_self" class="child-title">
+                                                学科建设
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/xwxk/yxcg" target="_self" class="child-title">
+                                                优秀成果
+                                            </a>
+                                                                                    </div>
+                                                                    </div>
+                                                            </li>
+                                                    <li class="item">
+                                <div class="title">
+                                    <a  href="https://ngcee.sjtu.edu.cn/"
+                                   target="_blank" >卓越工程师</a>
+                                                                    </div >
+                                                            </li>
+                                                    <li class="item">
+                                <div class="title">
+                                    <a  href="/zxgz/yjscxcyjs"
+                                   target="_self" >专项工作</a>
+                                                                            <div class="icon-box">
+                                            <i class="iconfont icon-right"></i>
+                                        </div>
+                                                                    </div >
+                                                                <div class="nav-child">
+                                                                            <div class="nav-child-item">
+                                            <a href="/zxgz/yjscxcyjs" target="_self" class="child-title">
+                                                研究生创新创业竞赛
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/bsszyryjh/xmjs" target="_self" class="child-title">
+                                                博士生致远荣誉计划
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/dsjt" target="_self" class="child-title">
+                                                大师讲坛
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/zxgz/yjsxslt" target="_self" class="child-title">
+                                                学术之星
+                                            </a>
+                                                                                    </div>
+                                                                    </div>
+                                                            </li>
+                                                    <li class="item">
+                                <div class="title">
+                                    <a  href="/zwgk/gzsc"
+                                   target="_self" >信息公开</a>
+                                                                            <div class="icon-box">
+                                            <i class="iconfont icon-right"></i>
+                                        </div>
+                                                                    </div >
+                                                                <div class="nav-child">
+                                                                            <div class="nav-child-item">
+                                            <a href="/zwgk/gzzd" target="_self" class="child-title">
+                                                规章制度
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/zwgk/xfjs" target="_self" class="child-title">
+                                                学风建设
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/zwgk/xxfw" target="_self" class="child-title">
+                                                信息服务
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/zwgk/glxxxtczzn" target="_self" class="child-title">
+                                                管理信息系统操作指南
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/zwgk/djgz" target="_self" class="child-title">
+                                                党建工作
+                                            </a>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/zwgk/gzsc" target="_self" class="child-title">
+                                                工作手册
+                                            </a>
+                                                                                    </div>
+                                                                    </div>
+                                                            </li>
+                                                    <li class="item">
+                                <div class="title">
+                                    <a  href="/about/yjsy/jj"
+                                   target="_self" >关于我们</a>
+                                                                            <div class="icon-box">
+                                            <i class="iconfont icon-right"></i>
+                                        </div>
+                                                                    </div >
+                                                                <div class="nav-child">
+                                                                            <div class="nav-child-item">
+                                            <a href="/about/yjsy/jj" target="_self" class="child-title">
+                                                研究生院
+                                            </a>
+                                                                                            <div class="third-nav">
+                                                                                                            <a href="/about/yjsy/jj"
+                                                           target="_self">简介</a>
+                                                                                                            <a href="/about/yjsy/jgsz"
+                                                           target="_self">机构设置</a>
+                                                                                                    </div>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="https://ngcee.sjtu.edu.cn/about/introduce" target="_self" class="child-title">
+                                                国家卓越工程师学院
+                                            </a>
+                                                                                            <div class="third-nav">
+                                                                                                            <a href="https://ngcee.sjtu.edu.cn/about/introduce"
+                                                           target="_self">简介</a>
+                                                                                                            <a href="https://ngcee.sjtu.edu.cn/about/leaders"
+                                                           target="_self">机构设置</a>
+                                                                                                    </div>
+                                                                                    </div>
+                                                                            <div class="nav-child-item">
+                                            <a href="/about/lxwm" target="_self" class="child-title">
+                                                联系我们
+                                            </a>
+                                                                                    </div>
+                                                                    </div>
+                                                            </li>
+                                            </ul>
+                </div>
+            </div>
+            <div class="fold-nav">
+                <div class="layui-container">
+                    <ul>
+                                                    <li class="item">
+                                <a href="#"
+                                   target="_self" class="title">
+                                    <span>
+                                        选择身份
+                                    </span>
+                                    <div class="icon-box">
+                                        <i class="iconfont icon-right"></i>
+                                    </div>
+                                </a>
+                                                                    <div class="nav-child">
+                                                                                    <a href="/sf/guide"
+                                               target="_self" class="nav-child-item">
+                                                访客
+                                            </a>
+                                                                                    <a href="/sf/student"
+                                               target="_self" class="nav-child-item">
+                                                学生
+                                            </a>
+                                                                                    <a href="/sf/teacher"
+                                               target="_self" class="nav-child-item">
+                                                教师
+                                            </a>
+                                                                                    <a href="/sf/alumnus"
+                                               target="_self" class="nav-child-item">
+                                                校友
+                                            </a>
+                                                                            </div>
+                                                            </li>
+                                                    <li class="item">
+                                <a href="/xxxt"
+                                   target="_self" class="title">
+                                    <span>
+                                        信息系统
+                                    </span>
+                                    <div class="icon-box">
+                                        <i class="iconfont icon-right"></i>
+                                    </div>
+                                </a>
+                                                                    <div class="nav-child">
+                                                                                    <a href="http://yjs.sjtu.edu.cn"
+                                               target="_blank" class="nav-child-item">
+                                                学生/教师/教务登录
+                                            </a>
+                                                                                    <a href="/post/detail/Z3MzMjM5"
+                                               target="_self" class="nav-child-item">
+                                                学位系统
+                                            </a>
+                                                                            </div>
+                                                            </li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="tc-body-bottom">
+        <ul class="flex  is-center">
+                            <li class="item">
+                    <a href="/xzzx/pygl"
+                       target="_self"><i class="iconfont icon-nav-download"></i> 下载中心</a>
+                </li>
+                            <li class="item">
+                    <a href="/about/lxwm"
+                       target="_self"><i class="iconfont icon-nav-contact"></i> 联系我们</a>
+                </li>
+                        <li class="item">
+                <a href="https://en.gs.sjtu.edu.cn/"><i class="iconfont icon-language"></i> EN</a>
+            </li>
+        </ul>
+
+    </div>
+</div>
+<script>
+    function toSearch() {
+        var _the_k = $('#the_keyword').val();
+        console.log(_the_k);
+        console.log("/search?keyword=" + _the_k);
+        window.location.href = "/search?keyword=" + _the_k;
+    }
+</script>
+<!-- banner -->
+<div class="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                    <a href="https://www.gs.sjtu.edu.cn/post/detail/Z3MzNzY3 " class="slide-inner">
+                        <img class="swiper-bg" src="https://www.gs.sjtu.edu.cn/storage/gs/web/cn/file/2026/09/7b4aedf56bc6050e483bb6b448a2025c.jpg" alt="">
+                        <div class="banner-box" data-swiper-parallax="-500">
+                            <div class="layui-container">
+                                <div class="banner-text">
+                                    <div class="banner-title">
+                                        <strong></strong>
+                                    </div>
+                                    <div class="banner-desc">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                    </div>
+        <div class="swiper-bottom">
+            <div class="layui-container">
+                <div class="swiper-pagination is-white"></div>
+            </div>
+        </div>
+    </div>
+    <!-- banner END -->
+</div>
+<div class="main">
+    <div class="dashborad">
+        <div class="layui-container">
+            <div class="dashborad-wrap">
+                <!-- 通知公告 -->
+                <div class="dashborad-item left">
+                    <div class="dashborad-title ">
+                        通知公告                        <a href="/announcement/work" class="more-txt">更多 <i
+                                class="iconfont icon-right"></i></a>
+                    </div>
+                    <div class="index-notice-wrap">
+                                                    <a
+                                                                  href="/post/detail/Z3MzNzY3"
+                               
+                               class="item">
+                                <div class="time-box">
+                                    <div class="day-box">
+                                        09.09
+                                    </div>
+                                    <div class="year">2026</div>
+                                </div>
+                                <div class="title">
+                                    关于举办2026年“交·创”上海交通大学首届全球高层次博士生学术论坛的通知
+                                </div>
+                            </a>
+                                                    <a
+                                                                  href="/post/detail/Z3MzNzU4"
+                               
+                               class="item">
+                                <div class="time-box">
+                                    <div class="day-box">
+                                        07.27
+                                    </div>
+                                    <div class="year">2026</div>
+                                </div>
+                                <div class="title">
+                                    研究生院关于2026-2027学年秋季学期研究生注册和上课的通知(the English Version is attached)
+                                </div>
+                            </a>
+                                                    <a
+                                                                  href="/post/detail/Z3MzNzIw"
+                               
+                               class="item">
+                                <div class="time-box">
+                                    <div class="day-box">
+                                        06.29
+                                    </div>
+                                    <div class="year">2026</div>
+                                </div>
+                                <div class="title">
+                                    关于2026年6月学位证书及学位授予信息在线查询的通知
+                                </div>
+                            </a>
+                                                    <a
+                                                                  href="/post/detail/Z3MzNzAx"
+                               
+                               class="item">
+                                <div class="time-box">
+                                    <div class="day-box">
+                                        06.13
+                                    </div>
+                                    <div class="year">2026</div>
+                                </div>
+                                <div class="title">
+                                    上海交通大学2026-2027学年秋季学期研究生选课通知
+                                </div>
+                            </a>
+                                            </div>
+                </div>
+                <!-- 最新动态  -->
+                <div class="dashborad-item middle">
+                    <div class="dashborad-title">
+                        最新动态                        <a href="/news" class="more-txt">更多 <i class="iconfont icon-right"></i></a>
+                    </div>
+                    <div class="index-news-wrap">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                                                    <div class="swiper-slide">
+                                        <a
+                                                                                            href="/post/detail/Z3MzNzc2"
+                                                                                        class="item">
+                                            <div class="img-box">
+                                                <div class="img">
+                                                                                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/cn/other/2026/09/b77a0ca661c7eb3aa15fb973ab35172e.png" alt="">
+                                                                                                    </div>
+                                            </div>
+                                            <div class="title">
+                                                2026年“亚洲校园+”EEST国际暑期学校圆满落幕
+                                            </div>
+                                            <div class="desc">
+                                                
+                                            </div>
+                                            <div class="time-box">
+                                                <div class="day">
+                                                    16
+                                                </div>
+                                                <div class="year">
+                                                    2026.09
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                                                    <div class="swiper-slide">
+                                        <a
+                                                                                            href="/post/detail/Z3MzNzc0"
+                                                                                        class="item">
+                                            <div class="img-box">
+                                                <div class="img">
+                                                                                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/cn/other/2026/09/0b439fd1fa6634c4945ab86542717cc6.png" alt="">
+                                                                                                    </div>
+                                            </div>
+                                            <div class="title">
+                                                上海交通大学国家卓越工程师学院2026级研究生开学典礼隆重举行
+                                            </div>
+                                            <div class="desc">
+                                                
+                                            </div>
+                                            <div class="time-box">
+                                                <div class="day">
+                                                    15
+                                                </div>
+                                                <div class="year">
+                                                    2026.09
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                                                    <div class="swiper-slide">
+                                        <a
+                                                                                            href="/post/detail/Z3MzNzcx"
+                                                                                        class="item">
+                                            <div class="img-box">
+                                                <div class="img">
+                                                                                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/cn/other/2026/09/c48766a398a0523ab6d9209ad72fd802.png" alt="">
+                                                                                                    </div>
+                                            </div>
+                                            <div class="title">
+                                                上海市学生事务中心来校调研研究生新生入学报到工作
+                                            </div>
+                                            <div class="desc">
+                                                
+                                            </div>
+                                            <div class="time-box">
+                                                <div class="day">
+                                                    13
+                                                </div>
+                                                <div class="year">
+                                                    2026.09
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                                                    <div class="swiper-slide">
+                                        <a
+                                                                                            href="/post/detail/Z3MzNzY0"
+                                                                                        class="item">
+                                            <div class="img-box">
+                                                <div class="img">
+                                                                                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/cn/other/2026/08/4b97895e75ccafc83b64a3b2257ccb96.jpg" alt="">
+                                                                                                    </div>
+                                            </div>
+                                            <div class="title">
+                                                暖心送清凉 关怀暖人心 上海交通大学研究生院开展“送清凉”走访慰问活动
+                                            </div>
+                                            <div class="desc">
+                                                
+                                            </div>
+                                            <div class="time-box">
+                                                <div class="day">
+                                                    03
+                                                </div>
+                                                <div class="year">
+                                                    2026.08
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                                                    <div class="swiper-slide">
+                                        <a
+                                                                                            href="/post/detail/Z3MzNzYz"
+                                                                                        class="item">
+                                            <div class="img-box">
+                                                <div class="img">
+                                                                                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/cn/other/2026/07/1cd6480171c2c0ff26c320c4e55e9fb7.png" alt="">
+                                                                                                    </div>
+                                            </div>
+                                            <div class="title">
+                                                智启未来：聚焦研究生人才培养新生态 ——研究生院组织召开AI沙龙
+                                            </div>
+                                            <div class="desc">
+                                                
+                                            </div>
+                                            <div class="time-box">
+                                                <div class="day">
+                                                    31
+                                                </div>
+                                                <div class="year">
+                                                    2026.07
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                                                    <div class="swiper-slide">
+                                        <a
+                                                                                            href="/post/detail/Z3MzNzQ4"
+                                                                                        class="item">
+                                            <div class="img-box">
+                                                <div class="img">
+                                                                                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/cn/other/2026/07/034c6bb1a529ad820a9a9cf19ba7a084.png" alt="">
+                                                                                                    </div>
+                                            </div>
+                                            <div class="title">
+                                                溯源上海文脉 坚定文化自信—— 研究生院党支部赴崧泽遗址博物馆开展主题党日
+                                            </div>
+                                            <div class="desc">
+                                                
+                                            </div>
+                                            <div class="time-box">
+                                                <div class="day">
+                                                    20
+                                                </div>
+                                                <div class="year">
+                                                    2026.07
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                                            </div>
+                            <div class="swiper-bottom">
+                                <div class="swiper-btn swiper-btn-prev">
+                                    <i class="iconfont icon-change-left"></i>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-btn swiper-btn-next">
+                                    <i class="iconfont icon-change"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 快速入口 -->
+                <div class="dashborad-item right">
+                    <div class="dashborad-title">
+                        快速入口                    </div>
+                    <div class="entry">
+                                                    <div class="item has-hover no-shadow">
+
+                                <div class="toggle-btn">
+
+                                    <div class="left">
+                                        <div class="icon-box"
+                                             style="background-image:url(https://www.gs.sjtu.edu.cn/storage/gs/web/navigation/2023/05/af023d8c451187bb4b5e23aeec86743b.png)">
+                                        </div>
+                                        <a href="/xxxt" target="_self">
+                                            <div class="name">信息系统</div>
+                                        </a>
+                                    </div>
+                                    <div class="right-icon">
+                                        <i class="iconfont icon-change"></i>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                                                    <div class="item has-hover no-shadow">
+
+                                <div class="toggle-btn">
+
+                                    <div class="left">
+                                        <div class="icon-box"
+                                             style="background-image:url(https://www.gs.sjtu.edu.cn/storage/gs/web/navigation/2023/04/a6c2f5a8ed93839318ff2f36f1d647c5.png)">
+                                        </div>
+                                        <a href="/bszn" target="_self">
+                                            <div class="name">办事指南</div>
+                                        </a>
+                                    </div>
+                                    <div class="right-icon">
+                                        <i class="iconfont icon-change"></i>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                                                    <div class="item has-hover no-shadow">
+
+                                <div class="toggle-btn">
+
+                                    <div class="left">
+                                        <div class="icon-box"
+                                             style="background-image:url(https://www.gs.sjtu.edu.cn/storage/gs/web/navigation/2023/04/c1067f967ddbce203d596c719f06e660.png)">
+                                        </div>
+                                        <a href="/about/lxwm" target="_self">
+                                            <div class="name">联系我们</div>
+                                        </a>
+                                    </div>
+                                    <div class="right-icon">
+                                        <i class="iconfont icon-change"></i>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                                                    <div class="item has-hover no-shadow">
+
+                                <div class="toggle-btn">
+
+                                    <div class="left">
+                                        <div class="icon-box"
+                                             style="background-image:url(https://www.gs.sjtu.edu.cn/storage/gs/web/navigation/2023/04/f9caf73ee8a5730e4fe6a3b40a14b0f8.png)">
+                                        </div>
+                                        <a href="/gjhpy" target="_self">
+                                            <div class="name">国际化培养</div>
+                                        </a>
+                                    </div>
+                                    <div class="right-icon">
+                                        <i class="iconfont icon-change"></i>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                                                    <div class="item has-hover no-shadow">
+
+                                <div class="toggle-btn">
+
+                                    <div class="left">
+                                        <div class="icon-box"
+                                             style="background-image:url(https://www.gs.sjtu.edu.cn/storage/gs/web/navigation/2023/04/9344a40d3466b1fa258d2788ff4baeb4.png)">
+                                        </div>
+                                        <a href="https://ngcee.sjtu.edu.cn/" target="_blank">
+                                            <div class="name">卓越工程师培养</div>
+                                        </a>
+                                    </div>
+                                    <div class="right-icon">
+                                        <i class="iconfont icon-change"></i>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 学术活动 -->
+    <div class="block index-event-block">
+        <div class="layui-container">
+            <div class="index_title">
+                <div class="flex is-center is-between">
+                    <div class="title"><span>学术活动</span></div>
+                    <div class="right flex is-center">
+                        <div class="swiper-btn swiper-btn-prev">
+                            <i class="iconfont icon-change-left"></i>
+                        </div>
+                        <div class="swiper-btn swiper-btn-next">
+                            <i class="iconfont icon-change"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="index-event">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+
+                                                    <div class="swiper-slide">
+                                <a
+                                                                          href="/event/detail/10jkqy1901eh79b10o96n10kxqp156cc"
+                                   
+                                   class="item has-bottom has-hover top-hover">
+                                    <div class="top-info flex is-center is-between">
+                                        <div class="time-box">
+                                            <div class="img">
+                                                <img src="https://www.gs.sjtu.edu.cn/assets/images/time_bg.png" alt="">
+                                            </div>
+                                            <div class="day">15</div>
+                                            <div class="year">2026-06</div>
+                                        </div>
+                                        <div class="tag">[ 大师讲坛 ]</div>
+                                    </div>
+                                    <div class="title">
+                                        【大师讲坛】299期：气候变化背景下的植物健康与粮食安全
+                                    </div>
+                                    <div class="desc">
+                                        在植物生境中，植物健康与生产力受到多种生物因子及环境因子复杂、同步互作的共同影响。这些互作常常诱导植物产生不同于单一胁迫条件下的响应，也反映出真实农业生态系统的高度复杂性。为构建更具韧性的农业系统，有必要突破传统上孤立研究单一胁迫的思路，在完整植物生境背景下，系统解析植物如何同时应对生物和非生物等多重挑战。推动可持续作物改良与管理策略的发展，需要采用系统性研究方法，深入认识植物、环境与微生物互作的复杂机制。
+                                    </div>
+                                    <div class="bottom-info flex is-center">
+                                        <div class="img-box">
+                                            <img src="https://files.aftercrm.com/wrDir/public/mdapp/sync/202304/17/11y2qb4jtvbgsr21/actvt/202606/10jkqy1901eh79b10o96n10kxqp156cc/opcokts9yii8hlfe8oaqhicoqs7ujylh.jpg"
+                                                 alt="">
+                                        </div>
+                                        <div class="name-box">
+                                            <div class="name">Jan Leach</div>
+                                            <div class="txt">美国国家科学院院士</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="swiper-slide">
+                                <a
+                                                                          href="/event/detail/a9j1c3xs8uh7m6or8614dfvf1dyryt4j"
+                                   
+                                   class="item has-bottom has-hover top-hover">
+                                    <div class="top-info flex is-center is-between">
+                                        <div class="time-box">
+                                            <div class="img">
+                                                <img src="https://www.gs.sjtu.edu.cn/assets/images/time_bg.png" alt="">
+                                            </div>
+                                            <div class="day">03</div>
+                                            <div class="year">2026-06</div>
+                                        </div>
+                                        <div class="tag">[ 大师讲坛 ]</div>
+                                    </div>
+                                    <div class="title">
+                                        【大师讲坛】298期：新膜制备健康水关键技术创新思考
+                                    </div>
+                                    <div class="desc">
+                                        本报告围绕健康水认识、新膜制备健康水面临的挑战及其应对策略三方面内容，系统总结“健康水”的内涵和未来发展趋势，深入分析我国实现健康水所面临诸多挑战和传统膜技术在水处理领域的发展瓶颈，重点解读新膜制备健康水的战略需求和应用前景，从法规标准、新材料研发、工艺开发等方面，创新提出新膜制备健康水的绿色发展思路，保障居民健康饮水，助力健康中国的实现！
+                                    </div>
+                                    <div class="bottom-info flex is-center">
+                                        <div class="img-box">
+                                            <img src="https://files.aftercrm.com/wrDir/public/mdapp/sync/202304/17/11y2qb4jtvbgsr21/actvt/202605/a9j1c3xs8uh7m6or8614dfvf1dyryt4j/n0tyrckfx58cykkyya3eh4cgbm1vczff.png"
+                                                 alt="">
+                                        </div>
+                                        <div class="name-box">
+                                            <div class="name">侯立安</div>
+                                            <div class="txt">中国工程院院士</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="swiper-slide">
+                                <a
+                                                                          href="/event/detail/1f4wgy7qxv1mvn2o7ikkhvemn1w159w3"
+                                   
+                                   class="item has-bottom has-hover top-hover">
+                                    <div class="top-info flex is-center is-between">
+                                        <div class="time-box">
+                                            <div class="img">
+                                                <img src="https://www.gs.sjtu.edu.cn/assets/images/time_bg.png" alt="">
+                                            </div>
+                                            <div class="day">03</div>
+                                            <div class="year">2026-06</div>
+                                        </div>
+                                        <div class="tag">[ 大师讲坛 ]</div>
+                                    </div>
+                                    <div class="title">
+                                        【大师讲坛】297期：RNA修饰在基因表达中的调控作用
+                                    </div>
+                                    <div class="desc">
+                                        目前生命界已鉴定出超170种转录后RNA修饰。何川教授团队率先发现RNA去甲基化现象，证实可逆RNA修饰可深刻调控关键生物学过程，并系统表征了多种识别m6A修饰mRNA的“读者”蛋白，它们通过调控靶RNA的翻译与稳定性参与基因表达调控。
+本次报告将重点介绍染色质调控RNA（chromatin-associated regulatory RNAs, carRNAs）甲基化介导染色质状态调控的最新进展：carRNAs携带的多种化学修饰标记可精准招募染色质调控因子，重塑染色质结构功能，影响哺乳动物和植物的发育；其调控通路揭示了若干癌症相关基因的致病机制，为新一代抗癌治疗提供潜在靶点。
+报告还将分享多学科合作成果，阐明血液小分子化学特征对人类免疫与衰老的影响，为机体稳态调控及疾病防治提供新思路。
+
+                                    </div>
+                                    <div class="bottom-info flex is-center">
+                                        <div class="img-box">
+                                            <img src="https://files.aftercrm.com/wrDir/public/mdapp/sync/202304/17/11y2qb4jtvbgsr21/actvt/202605/1f4wgy7qxv1mvn2o7ikkhvemn1w159w3/op84eux4bk8zaei7c81usug8bxx0cukq.png"
+                                                 alt="">
+                                        </div>
+                                        <div class="name-box">
+                                            <div class="name">何川</div>
+                                            <div class="txt">美国国家科学院院士</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="swiper-slide">
+                                <a
+                                                                          href="/event/detail/zf9n35l68f2vy1m504j1ixt0rffjefe5"
+                                   
+                                   class="item has-bottom has-hover top-hover">
+                                    <div class="top-info flex is-center is-between">
+                                        <div class="time-box">
+                                            <div class="img">
+                                                <img src="https://www.gs.sjtu.edu.cn/assets/images/time_bg.png" alt="">
+                                            </div>
+                                            <div class="day">27</div>
+                                            <div class="year">2026-05</div>
+                                        </div>
+                                        <div class="tag">[ 大师讲坛 ]</div>
+                                    </div>
+                                    <div class="title">
+                                        【大师讲坛】296期：巨分子软合金的超晶格工程
+                                    </div>
+                                    <div class="desc">
+                                        本次报告将探讨介原子与介观超晶格间的关联，并强调合理的工程策略对构建具有新颖特性的周期性结构的重要性。我们研究发现，巧妙设计的分子系统能产生一系列非常规超晶格。我们通过系统研究单/双组分体系，揭示了分子化学计量、拓扑和尺寸差异如何通过介原子决定超晶格结构。这些结构不仅联系了软物质中的Frank-Kasper相和十次准晶，还延伸至能模拟并超越金属合金的巨分子软合金，为理性构建复杂超晶格、开发可规模化本体材料奠定了基础。
+                                    </div>
+                                    <div class="bottom-info flex is-center">
+                                        <div class="img-box">
+                                            <img src="https://files.aftercrm.com/wrDir/public/mdapp/sync/202304/17/11y2qb4jtvbgsr21/actvt/202605/zf9n35l68f2vy1m504j1ixt0rffjefe5/45qblyr1wihvbcxugw6osz4qulc9avlx.jpg"
+                                                 alt="">
+                                        </div>
+                                        <div class="name-box">
+                                            <div class="name">程正迪</div>
+                                            <div class="txt">美国国家工程院院士</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="swiper-slide">
+                                <a
+                                                                          href="/event/detail/s87sf7qbh3aimacw8n847onw18wsal9v"
+                                   
+                                   class="item has-bottom has-hover top-hover">
+                                    <div class="top-info flex is-center is-between">
+                                        <div class="time-box">
+                                            <div class="img">
+                                                <img src="https://www.gs.sjtu.edu.cn/assets/images/time_bg.png" alt="">
+                                            </div>
+                                            <div class="day">27</div>
+                                            <div class="year">2026-05</div>
+                                        </div>
+                                        <div class="tag">[ 大师讲坛 ]</div>
+                                    </div>
+                                    <div class="title">
+                                        【大师讲坛】295期：低值碳资源高值化利用
+                                    </div>
+                                    <div class="desc">
+                                        本次报告围绕面向可持续发展的“氢-碳循环”体系，系统介绍废塑料等低值碳资源的催化转化策略与技术路径。内容涵盖全球塑料污染现状与挑战、废塑料的分子结构特点与分类转化思路、聚酯塑料（PLA、PET、PU等）与聚烯烃（PE、PP、PS等）的升级转化新途径，重点展示通过催化胺化、加氢裂解、氧化解聚、光热转化等手段，将废塑料高选择性转化为丙氨酸、甲基丙烯酸甲酯、液体燃料、合成气等高值化学品与材料。进一步探讨混合废塑料的复杂体系转化策略，包括分级解聚、单一产物定向转化、太阳光驱动转化以及光伏耦合焦耳加热等创新技术。最后，提出“废塑料作为氢能输运载体”的新理念，展望低值碳资源在氢碳循环体系中的战略价值。
+                                    </div>
+                                    <div class="bottom-info flex is-center">
+                                        <div class="img-box">
+                                            <img src="https://files.aftercrm.com/wrDir/public/mdapp/sync/202304/17/11y2qb4jtvbgsr21/actvt/202605/s87sf7qbh3aimacw8n847onw18wsal9v/tl2uhp8tbkdbp5y2qjvpnobph8x0a7lw.jpg"
+                                                 alt="">
+                                        </div>
+                                        <div class="name-box">
+                                            <div class="name">马丁</div>
+                                            <div class="txt">中国科学院院士</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="swiper-slide">
+                                <a
+                                                                          href="/event/detail/zw73hczee1uu61cycs07g2eu8qrqm25a"
+                                   
+                                   class="item has-bottom has-hover top-hover">
+                                    <div class="top-info flex is-center is-between">
+                                        <div class="time-box">
+                                            <div class="img">
+                                                <img src="https://www.gs.sjtu.edu.cn/assets/images/time_bg.png" alt="">
+                                            </div>
+                                            <div class="day">22</div>
+                                            <div class="year">2026-05</div>
+                                        </div>
+                                        <div class="tag">[ 大师讲坛 ]</div>
+                                    </div>
+                                    <div class="title">
+                                        【大师讲坛】294期：全球变化与健康
+                                    </div>
+                                    <div class="desc">
+                                        全球变化（如空气污染、气候变化）严重威胁人类健康。据世界卫生组织估算，每年全球空气污染导致近800万人过早死亡，气候变化通过高温热浪、洪水等极端天气影响全球50%人口的健康。识别全球变化带来的健康风险，并通过治理、预警、干预、预防减少其危害，是地学、化学、环境、医学、生物及材料等多学科交叉的重大课题。当前研究融合了卫星遥感、航测、高分辨色谱/质谱、生物标志物、微型传感器、穿戴设备、类器官及多组学技术。随着海量高维数据获取，大数据与人工智能方法不断涌现。未来将推动从分子微观水平到全球宏观尺度的衔接，实现个体与人群尺度的精准健康风险预测、预警、干预与预防。
+                                    </div>
+                                    <div class="bottom-info flex is-center">
+                                        <div class="img-box">
+                                            <img src="https://files.aftercrm.com/wrDir/public/mdapp/sync/202304/17/11y2qb4jtvbgsr21/actvt/202605/zw73hczee1uu61cycs07g2eu8qrqm25a/l3fvss8hsybqmwr9ok2qonqj5feukxjk.jpg"
+                                                 alt="">
+                                        </div>
+                                        <div class="name-box">
+                                            <div class="name">朱彤</div>
+                                            <div class="txt">中国科学院院士</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 研院专栏 -->
+    <div class="block " style="padding-bottom:0px;">
+        <div class="layui-container">
+            <div class="index_title">
+                <div class="flex is-center is-between">
+                    <div class="title"><span>研院专栏</span></div>
+                    <div class="right flex is-center topic-swiper-btn">
+                        <div class="swiper-btn swiper-btn-prev">
+                            <i class="iconfont icon-change-left"></i>
+                        </div>
+                        <div class="swiper-btn swiper-btn-next">
+                            <i class="iconfont icon-change"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="topic-swiper">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                                                    <div class="swiper-slide">
+                                <a href="/gjhpy/gjlpxm" class="slide-image topic-item">
+                                    <div class="img-box">
+                                        <div class="img">
+                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/cn/navigation/2023/06/3fdbabebdce321991424fe0e53d7ad60.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="text-box">
+                                        <div class="icon-box">
+                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/cn/navigation/2023/06/3fdbabebdce321991424fe0e53d7ad60.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            国际联培项目
+                                        </div>
+                                        <div class="more">
+                                            <i class="iconfont icon-change"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="swiper-slide">
+                                <a href="/yxbslw" class="slide-image topic-item">
+                                    <div class="img-box">
+                                        <div class="img">
+                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/navigation/2023/04/670d5d6fb0eec6a3203c7ac944059573.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="text-box">
+                                        <div class="icon-box">
+                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/navigation/2023/04/670d5d6fb0eec6a3203c7ac944059573.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            优秀博士学位论文
+                                        </div>
+                                        <div class="more">
+                                            <i class="iconfont icon-change"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="swiper-slide">
+                                <a href="/yjsjyfwzx" class="slide-image topic-item">
+                                    <div class="img-box">
+                                        <div class="img">
+                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/navigation/2023/04/288607714290b933a3ae53b281478592.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="text-box">
+                                        <div class="icon-box">
+                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/navigation/2023/04/288607714290b933a3ae53b281478592.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            研究生教育服务中心
+                                        </div>
+                                        <div class="more">
+                                            <i class="iconfont icon-change"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="swiper-slide">
+                                <a href="/dsjt" class="slide-image topic-item">
+                                    <div class="img-box">
+                                        <div class="img">
+                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/navigation/2023/04/d35e6dc6670328251d8ef19e884229b6.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="text-box">
+                                        <div class="icon-box">
+                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/navigation/2023/04/d35e6dc6670328251d8ef19e884229b6.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            大师讲坛
+                                        </div>
+                                        <div class="more">
+                                            <i class="iconfont icon-change"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="swiper-slide">
+                                <a href="/announcement/xsjy" class="slide-image topic-item">
+                                    <div class="img-box">
+                                        <div class="img">
+                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/cn/navigation/2023/06/b0f48adbb1436fe1414a387b5245ae44.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="text-box">
+                                        <div class="icon-box">
+                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/cn/navigation/2023/06/b0f48adbb1436fe1414a387b5245ae44.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            学术就业
+                                        </div>
+                                        <div class="more">
+                                            <i class="iconfont icon-change"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="swiper-slide">
+                                <a href="/zygcs/lpjd" class="slide-image topic-item">
+                                    <div class="img-box">
+                                        <div class="img">
+                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/cn/navigation/2023/06/0469e8d15bdd6c086021d4c9494aa82f.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="text-box">
+                                        <div class="icon-box">
+                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/cn/navigation/2023/06/0469e8d15bdd6c086021d4c9494aa82f.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            卓越工程师培养
+                                        </div>
+                                        <div class="more">
+                                            <i class="iconfont icon-change"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                                                    <div class="swiper-slide">
+                                <a href="/bsszyryjh/xmjs" class="slide-image topic-item">
+                                    <div class="img-box">
+                                        <div class="img">
+                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/navigation/2023/06/0e6266d46cc2d8f472c7bf3ee5f1f061.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="text-box">
+                                        <div class="icon-box">
+                                            <img src="https://www.gs.sjtu.edu.cn/storage/gs/web/navigation/2023/06/0e6266d46cc2d8f472c7bf3ee5f1f061.png" alt="">
+                                        </div>
+                                        <div class="title">
+                                            博士生致远荣誉计划
+                                        </div>
+                                        <div class="more">
+                                            <i class="iconfont icon-change"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-top">
+        <div class="layui-container">
+            <div class="layui-row layui-col-space30 row-flex">
+                <div class="layui-col-md3 layui-col-sm6 layui-col-xs12">
+                    <p><img src="https://www.gs.sjtu.edu.cn/assets/images/logo_white.png?v=20230828" alt=""
+                            style="max-width:100%;max-height:40px;margin-bottom:15px"></p>
+                    <p>闵行校区：上海市东川路800号陈瑞球楼三、四楼（邮编:200240）
+                    </p>
+                    <p>徐汇校区：上海市华山路1954号新上院502室（邮编:200030）
+                    </p>
+                </div>
+                <div class="layui-col-md6 layui-col-sm6 layui-col-xs12">
+                    <div class="title">
+                        快速链接
+                    </div>
+
+                    <ul class="footer-link columns">
+                                                    <li><a href="https://yzb.sjtu.edu.cn"
+                                   target="_blank">研究生招生网</a>
+                            </li>
+                                                    <li><a href="https://mail.sjtu.edu.cn"
+                                   target="_blank">交大Email邮箱系统</a>
+                            </li>
+                                                    <li><a href="http://lixiao.sjtu.edu.cn/"
+                                   target="_blank">离校服务网</a>
+                            </li>
+                                                    <li><a href="http://cc.sjtu.edu.cn/"
+                                   target="_blank">课程中心</a>
+                            </li>
+                                                    <li><a href="http://alumni.sjtu.edu.cn/newalu/"
+                                   target="_blank">校友会</a>
+                            </li>
+                                                    <li><a href="http://www.moe.gov.cn/"
+                                   target="_blank">教育部</a>
+                            </li>
+                                                    <li><a href="http://www.cdgdc.edu.cn/"
+                                   target="_blank">中国学位与研究生教育信息网</a>
+                            </li>
+                                                    <li><a href="http://yz.chsi.com.cn/"
+                                   target="_blank">中国研究生招生信息网</a>
+                            </li>
+                                                    <li><a href="http://www.csc.edu.cn/"
+                                   target="_blank">国家留学网</a>
+                            </li>
+                                                    <li><a href="http://www.chsi.com.cn/"
+                                   target="_blank">学信网</a>
+                            </li>
+                                                    <li><a href="http://www.csadge.edu.cn/"
+                                   target="_blank">中国学位与研究生教育学会</a>
+                            </li>
+                                                    <li><a href="https://www.meng.edu.cn/"
+                                   target="_blank">全国工程专业学位研究生教育网</a>
+                            </li>
+                                                    <li><a href="http://www.hie.edu.cn/"
+                                   target="_blank">中国高等教育学会</a>
+                            </li>
+                                                    <li><a href="http://www.yjsxh.edu.sh.cn/"
+                                   target="_blank">上海市研究生教育学会</a>
+                            </li>
+                                                    <li><a href="http://www.shmec.gov.cn/"
+                                   target="_blank">上海教育</a>
+                            </li>
+                                                    <li><a href="https://www.sjtu.edu.cn/"
+                                   target="_blank">上海交通大学</a>
+                            </li>
+                                                    <li><a href="https://faculty.sjtu.edu.cn/"
+                                   target="_blank">上海交通大学教师个人主页系统</a>
+                            </li>
+                                            </ul>
+                </div>
+
+                <div class="layui-col-md3 layui-col-sm6 layui-col-xs12">
+                    <div class="qrcode-list flex ">
+                        <div class="item">
+                            <img src="https://www.gs.sjtu.edu.cn/assets/images/上交大研招官方微信.jpg" alt="">
+                            <p>上交大研招官方微信</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://www.gs.sjtu.edu.cn/assets/images/上海交大研究生教育官方微信.jpg" alt="">
+                            <p>上海交大研究生院官方微信公众号</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://www.gs.sjtu.edu.cn/assets/images/上海交通大学国家卓越工程师学院.jpg" alt="">
+                            <p>上海交通大学国家卓越工程师学院</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="layui-container">
+            版权所有 &copy; 2023 上海交通大学研究生院 <a href="http://cert.sjtu.edu.cn/beian_user/show.asp?number=1082"
+                                           target="_blank">沪交ICP 备 50534</a>，技术支持：<a href="http://www.alawang.com"
+                                                                                     target="_blank">ALA</a>
+        </div>
+    </div>
+</footer>
+
+<a href="#" id="button-to-top" style="display: block;"><i class="iconfont icon-up"></i></a>
+<script type="text/javascript" src="https://www.gs.sjtu.edu.cn/assets/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://www.gs.sjtu.edu.cn/assets/layui/layui.js"></script>
+<script type="text/javascript" src="https://www.gs.sjtu.edu.cn/assets/js/video.min.js"></script>
+<script type="text/javascript" src="https://www.gs.sjtu.edu.cn/assets/js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="https://www.gs.sjtu.edu.cn/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="https://www.gs.sjtu.edu.cn/assets/js/fancybox.umd.js"></script>
+<!-- Swiper JS -->
+<script src="https://www.gs.sjtu.edu.cn/assets/js/swiper-bundle.min.js?v=2"></script>
+<script src="https://www.gs.sjtu.edu.cn/assets/js/swiper.animate1.0.3.min.js"></script>
+<script src="https://www.gs.sjtu.edu.cn/assets/js/anime.min.js"></script>
+<script src="https://www.gs.sjtu.edu.cn/assets/js/index.js?v=2022081501"></script>
+<script>
+
+    // $(function () {
+        var total = '0';
+        var page = '1';
+        var limit = '12';
+        var keyword = '';
+        $('.secondary-menu .menu-body .item .title').click(function () {
+            var hideBox = $(this).next('.menu-child');
+            if (hideBox.css("display") == "none") {
+                hideBox.slideDown("200");
+                $(this).parent('.item').siblings().find('.menu-child').slideUp("200");
+            } else {
+                hideBox.slideUp("200");
+            }
+        })
+        $('.secondary-menu .menu-body .item').click(function () {
+            $(this).addClass('active').siblings().removeClass('active')
+            $(this).siblings().find('.menu-child').children().removeClass('active')
+        })
+        $('.menu-child .child-item').click(function () {
+            $(this).addClass('active').siblings().removeClass('active')
+        })
+
+        $('.fold-nav .item .title').click(function () {
+            var hideBox = $(this).next('.nav-child');
+            if (hideBox.css("display") == "none") {
+                hideBox.slideDown("200");
+                $(this).parent('.item').siblings().find('.nav-child').slideUp("200");
+                $(this).parent('.item').addClass('active').siblings().removeClass('active')
+            } else {
+                hideBox.slideUp("200");
+                $(this).parent('.item').removeClass('active')
+
+            }
+        })
+        $('.mobile-main-nav .item .title .icon-box').click(function () {
+            console.log($(this));
+            var hideBox = $(this).parents('.item').find('.nav-child');
+            console.log(hideBox);
+            if (hideBox.css("display") == "none") {
+                hideBox.slideDown("200");
+                $(this).parents('.item').siblings().find('.nav-child').slideUp("200");
+                $(this).parents('.item').addClass('active').siblings().removeClass('active')
+            } else {
+                hideBox.slideUp("200");
+                $(this).parents('.item').removeClass('active')
+
+            }
+        })
+        // $('.fold-nav .item').click(function(){
+        //     $(this).addClass('active').siblings().removeClass('active')
+        // })
+
+        layui.use(['element', 'form', 'layer', 'laypage'], function () {
+            var $ = layui.jquery,
+                element = layui.element,
+                layer = layui.layer,
+                laypage = layui.laypage,
+                form = layui.form;
+
+            $('header .search-btn').click(function () {
+                layer.open({
+                    type: 1,
+                    title: false,
+                    shade: [.85, '#000'],
+                    shadeClose: false,
+                    scrollbar: false,
+                    anim: 1,
+                    area: ['100vw', '100vh'],
+                    skin: 'tc-search',
+                    content: $('.search-box'),
+                    // success: function(layero, index){
+                    //     $('.search-box .layui-input').focus();
+                    // }
+                })
+            });
+
+            // 分页
+            laypage.render({
+                elem: 'pages'
+                , count: total
+                , curr: page
+                , theme: '#C8161E'
+                , prev: '<i class="iconfont icon-left"></i>'
+                , next: '<i class="iconfont icon-right"></i>'
+                , groups: 3
+                , limit: limit
+                , jump: function (obj, first) {
+//obj包含了当前分页的所有参数，比如：
+                    console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
+                    console.log(obj.limit); //得到每页显示的条数
+                    //首次不执行
+                    if (!first) {
+                        //do something
+                        window.location.href = "?page=" + obj.curr;
+                        if (keyword) window.location.href = "?page=" + obj.curr + "&keyword=" + keyword;
+                    }
+                }
+            });
+
+            // $('header .menu-toggle').click(function(){
+            //     layer.open({
+            //         type: 1,
+            //         title: false,
+            //         shade: [.5,'#000'],
+            //         shadeClose: false,
+            //         // shade: 0,
+            //         closeBtn: 0,
+            //         scrollbar: false,
+            //         anim: 1,
+            //         area: ['100vw','100vh'],
+            //         skin: 'tc-fullpage',
+            //         content: $('.nav-container'),
+            //         success: function(){
+            //             $('.nav-container .nav-col-0').niceScroll(".nav-container .nav-col-0 .nav-list",{
+            //                 cursorborder: "",
+            //                 cursorcolor: "rgba(0,0,0,.5)",
+            //                 cursorwidth: '4px'
+            //             });
+            //         }
+            //     })
+            // });
+            // $('.close-btn').click(function(){
+            //     layer.closeAll()
+            // })
+
+            // $('.header .menu-toggle').click(function(){
+            //     if (!$('body').hasClass('mobile-site')) {
+            //         $('body').addClass('mobile-site').addClass('body-hidden');
+            //     }else{
+            //         $('body').removeClass('mobile-site').removeClass('body-hidden');
+            //     }
+            // })
+            // $('.mobile-bg').click(function(){
+            //     $('body').removeClass('mobile-site').removeClass('body-hidden');
+            // })
+            //手机设备的简单适配
+            var treeMobile = $('header .header-mobile')
+            var _body = $("body");
+            treeMobile.on('click', function () {
+                if (!_body.hasClass('mobile-nav-show')) {
+                    _body.addClass('mobile-nav-show');
+                } else {
+                    _body.removeClass('mobile-nav-show');
+                }
+            });
+
+
+            $('.header-nav .close-btn').click(function () {
+                $('body').removeClass('mobile-site').removeClass('body-hidden');
+                $(this).parents('.layui-nav-child').removeClass("layui-show");
+            })
+            $('.header-nav .back-btn').click(function () {
+                $(this).parents('.layui-nav-child').removeClass("layui-show");
+            })
+        })
+
+        $(".nav-container .tc-body").mCustomScrollbar({
+            scrollButtons: {
+                enable: true
+            }
+        });
+
+        // 二级分类
+        if ($('.category-nav').length > 0) {
+            var aIndex = $('.category-nav .swiper-slide.active').index();
+            var categoryNav = new Swiper('.category-nav .swiper-container', {
+                watchOverflow: true,
+                initialSlide: aIndex,
+                resistanceRatio: 0,
+                spaceBetween: 0,
+                slidesPerView: 'auto',
+                slideToClickedSlide: true,
+                watchSlidesVisibility: true,
+                normalizeSlideIndex: false,
+                breakpoints: {
+                    768: {
+                        // spaceBetween: 3,
+                        spaceBetween: 40,
+                    }
+                },
+            });
+        }
+
+        // 点击查看大图
+        if ($('.fancybox').length > 0) {
+            $(".fancybox").fancybox();
+        }
+
+        Fancybox.bind('[data-fancybox="gallery"]', {
+            dragToClose: false,
+
+            Toolbar: false,
+            closeButton: "top",
+
+            Image: {
+                zoom: false,
+            },
+
+            on: {
+                initCarousel: (fancybox) => {
+                    const slide = fancybox.Carousel.slides[fancybox.Carousel.page];
+
+                    fancybox.$container.style.setProperty(
+                        "--bg-image",
+                        `url("${slide.$thumb.src}")`
+                    );
+                },
+                "Carousel.change": (fancybox, carousel, to, from) => {
+                    const slide = carousel.slides[to];
+
+                    fancybox.$container.style.setProperty(
+                        "--bg-image",
+                        `url("${slide.$thumb.src}")`
+                    );
+                },
+            },
+        });
+
+
+    // })
+</script>
+
+<!-- <script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?f0cd53267688c5eb2565e5946bcd32ef";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script> -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?795bfb7620cff484c55e196764b4af6b";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script defer src="https://speedtest.sjtu.edu.cn/nettest/performance.js"></script>
+
+<script>
+    $(function () {
+        $('.header-nav .layui-nav li').eq(1).addClass('active').siblings().removeClass('active');
+
+        //banner
+        var interleaveOffset = 0.5; //视差比值
+        var bannerSwiperOptions = {
+            pagination: {
+                el: '.banner .swiper-pagination',
+                clickable: true,
+            },
+            parallax: true,
+            watchSlidesProgress: true,
+            watchOverflow: true,
+            preventClicks: false,
+            resistanceRatio: 0,
+            effect: 'fade',
+            loop: true,
+            speed: 500,
+            autoplay: {
+                delay: 6000,
+                disableOnInteraction: false,
+            },
+        }
+        var bannerSwiper = new Swiper('.banner .swiper-container', bannerSwiperOptions);
+
+
+        // 最新动态
+        var newsSwiper = new Swiper('.index-news-wrap .swiper-container', {
+            pagination: {
+                el: '.index-news-wrap .swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.index-news-wrap .swiper-btn-next',
+                prevEl: '.index-news-wrap .swiper-btn-prev',
+            },
+            parallax: true,
+            watchSlidesProgress: true,
+            watchOverflow: true,
+            preventClicks: false,
+            resistanceRatio: 0,
+            speed: 1000,
+            slidesPerView: 1,
+            spaceBetween: 15,
+            // autoHeight: true,
+            loop: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            centeredSlides: false,
+            breakpoints: {
+                1600: {
+                    slidesPerView: 2,
+                },
+                1500: {
+                    slidesPerView: 2,
+                },
+                1200: {
+                    slidesPerView: 2,
+                },
+                992: {
+                    slidesPerView: 1.5,
+                },
+                768: {
+                    slidesPerView: 2,
+                }
+            },
+        });
+
+        // 学术活动
+        var eventSwiper = new Swiper('.index-event .swiper-container', {
+            navigation: {
+                nextEl: '.index-event-block .swiper-btn-next',
+                prevEl: '.index-event-block .swiper-btn-prev',
+            },
+            watchOverflow: true,
+            preventClicks: false,
+            resistanceRatio: 0,
+            slidesPerView: 1,
+            spaceBetween: 15,
+            centeredSlides: false,
+            // loop:true,
+            breakpoints: {
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                }
+            },
+        });
+
+        //topicSwiper
+        var topicSwiper = new Swiper('.topic-swiper .swiper-container', {
+            navigation: {
+                nextEl: '.topic-swiper-btn .swiper-btn-next',
+                prevEl: '.topic-swiper-btn .swiper-btn-prev',
+            },
+            watchOverflow: true,
+            preventClicks: false,
+            resistanceRatio: 0,
+            // autoplay: {
+            //     delay: 6000,
+            // },
+            speed: 800,
+            loop: true,
+            loopAdditionalSlides: 3,
+            autoHeight: true,
+            spaceBetween: 15,
+            slidesPerView: 1,
+            breakpoints: {
+                1200: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                    centeredSlides: false,
+                },
+                992: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                    centeredSlides: false,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                    centeredSlides: false,
+                }
+            },
+        });
+        // $('.banner').height()
+
+        // function getheight() {
+        //     var abHeight = $('.banner').height() - $(".banner-text").offset().top - $('.banner-text').height() - 60
+        //     $(".banner .swiper-bottom").css('bottom', abHeight + 'px')
+        // }
+
+        // getheight()
+
+        function pcEntry() {
+            $('.entry .item').mouseenter(function () {
+                $('.entry .item').css('zIndex', '1');
+                $(this).find('.toggle-content').addClass('toggle-show').css('zIndex', '2');
+                $('.entry').css('zIndex', '1001');
+            })
+            $('.entry .item').mouseleave(function () {
+                $('.entry .item').css('zIndex', '1');
+                $(this).find('.toggle-content').removeClass('toggle-show');
+                $('.entry').css('zIndex', '9');
+            })
+        }
+
+        function mobileEntry() {
+            $('.entry .toggle-btn').click(function () {
+                $('.entry .item .toggle-content').slideUp("300");
+                var hideBox = $(this).next('.toggle-content');
+                if (hideBox.css("display") == "none") {
+                    hideBox.slideDown("300");
+                    $(this).parent('.item').siblings().find('.toggle-content').slideUp("300");
+                } else {
+                    hideBox.slideUp("300");
+                }
+            })
+        }
+
+        if ($(window).width() < 768) {
+            mobileEntry();
+        } else {
+            pcEntry();
+        }
+        $(window).resize(function () {
+            getheight()
+            if ($(window).width() < 768) {
+                mobileEntry();
+            } else {
+                pcEntry();
+            }
+        });
+    })
+
+</script>
+</body>
+
+</html>

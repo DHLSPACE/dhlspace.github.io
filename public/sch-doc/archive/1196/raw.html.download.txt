@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html  class="webplus-main"  >
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="pragma" content="no-cache" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="telephone=no" name="format-detection" />
+	<title>研究生招生网</title>
+	<meta name="keywords" content="南京大学-研究生招生网">
+	<meta name="description" content="南京大学-研究生招生网">
+
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/datepicker/css/datepicker.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/jquery.min.js" sudy-wp-context="" sudy-wp-siteId="734"></script>
+<script language="javascript" src="/_js2/loadStyle.js" sys-path="/_upload/site/1/style/49/49.css"  site-path="/_upload/site/02/de/734/style/570/570.css" ></script>
+<script language="javascript" src="/_js2/grayscale.js"   ></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/jquery.datepicker.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/datepicker_lang_HK.js"></script>
+<script src="/_upload/tpl/07/86/1926/template1926/wap_resources/extends/extends.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="/_upload/tpl/07/86/1926/template1926/wap_resources/libs/swiper/swiper.min.css">
+<link href="/_upload/tpl/07/86/1926/template1926/wap_resources/style.css" rel="stylesheet">
+<script type="text/javascript">
+/*取设备宽度*/
+function rem(){
+	var iWidth=document.documentElement.getBoundingClientRect().width;
+	iWidth=iWidth>1000?1000:iWidth;
+	document.getElementsByTagName("html")[0].style.fontSize=iWidth/10+"px";
+};
+rem();
+window.onorientationchange=window.onresize=rem      
+</script>
+</head>
+<body class="main" style=" margin:0 auto;">
+<!--Start||Header-->
+<div class="wrapper header">
+	<div class="inner clearfix">
+		<div class="panel" frag="面板2">
+			<div class="post post1 post-2" frag="窗口2" portletmode="simpleSiteAttri">
+				<a class="site-url" href="/mainm.htm"><img src="/_upload/tpl/07/86/1926/template1926/wap_resources/images/logo.png"></a>
+			</div>
+		</div>
+		<a class="navi-slide-arrow">导航</a>
+		<div id="aaa"><img src="/_upload/tpl/07/86/1926/template1926/images/sous.png" /></div>
+	</div>
+</div>
+<!--End||Header-->
+<div class="wrapper" id="nav">
+	<div class=" nav wp-panel panel-2" frag="面板5">
+		<div class="main-nav wp-window window-2" frag="窗口5" portletmode="simpleSudyNavi" contents="{'c2':'0', 'c1':'/首页,/招生信息,/院系信息,/联系我们'}">
+			 
+				
+				<ul class="wp-menu clearfix">
+					
+					<li class="menu-item i1"> <a class="menu-link" href="https://yzb.nju.edu.cn/" target="_self">首页</a> 
+						 
+					</li>
+					
+					<li class="menu-item i2"> <a class="menu-link" href="/47831/listm.htm" target="_self">招生信息</a> 
+						 
+						<em class="menu-switch-arrow"></em>
+						<ul class="sub-menu clearfix">
+							
+							<li class="sub-item i2-1"> <a class="sub-link" href="/47840/listm.htm" target="_self">硕士招生</a> 
+								 
+						<em class="menu-switch-arrow"></em>
+						<ul class="sub-menu clearfix">
+							
+							<li class="sub-item i2-1-1"> <a class="sub-link" href="/47862/listm.htm" target="_self">简章目录</a> 
+								 
+							</li>
+							
+							<li class="sub-item i2-1-2"> <a class="sub-link" href="/47863/listm.htm" target="_self">硕士最新通知</a> 
+								 
+							</li>
+							
+						</ul>
+						 
+							</li>
+							
+							<li class="sub-item i2-2"> <a class="sub-link" href="/47841/listm.htm" target="_self">博士招生</a> 
+								 
+						<em class="menu-switch-arrow"></em>
+						<ul class="sub-menu clearfix">
+							
+							<li class="sub-item i2-2-1"> <a class="sub-link" href="/47864/listm.htm" target="_self">简章目录</a> 
+								 
+							</li>
+							
+							<li class="sub-item i2-2-2"> <a class="sub-link" href="/47865/listm.htm" target="_self">博士最新通知</a> 
+								 
+							</li>
+							
+						</ul>
+						 
+							</li>
+							
+							<li class="sub-item i2-3"> <a class="sub-link" href="https://hwxy.nju.edu.cn" target="_self">留学生招生</a> 
+								 
+							</li>
+							
+							<li class="sub-item i2-4"> <a class="sub-link" href="/xlyxx/listm.htm" target="_self">夏令营/推免</a> 
+								 
+						<em class="menu-switch-arrow"></em>
+						<ul class="sub-menu clearfix">
+							
+							<li class="sub-item i2-4-1"> <a class="sub-link" href="/zxgg/listm.htm" target="_self">最新公告</a> 
+								 
+							</li>
+							
+						</ul>
+						 
+							</li>
+							
+							<li class="sub-item i2-5"> <a class="sub-link" href="/47842/listm.htm" target="_self">港澳台招生</a> 
+								 
+						<em class="menu-switch-arrow"></em>
+						<ul class="sub-menu clearfix">
+							
+							<li class="sub-item i2-5-1"> <a class="sub-link" href="/47866/listm.htm" target="_self">简章目录</a> 
+								 
+							</li>
+							
+							<li class="sub-item i2-5-2"> <a class="sub-link" href="/47867/listm.htm" target="_self">港澳台最新通知</a> 
+								 
+							</li>
+							
+						</ul>
+						 
+							</li>
+							
+						</ul>
+						 
+					</li>
+					
+					<li class="menu-item i3"> <a class="menu-link" href="/wsbm/listm.htm" target="_self">网上报名</a> 
+						 
+						<em class="menu-switch-arrow"></em>
+						<ul class="sub-menu clearfix">
+							
+							<li class="sub-item i3-1"> <a class="sub-link" href="https://yz.chsi.com.cn/" target="_self">硕士报名</a> 
+								 
+							</li>
+							
+							<li class="sub-item i3-2"> <a class="sub-link" href="https://gs.nju.edu.cn/geapp/sys/yjsbmxsd/entrance.do" target="_self">博士报名</a> 
+								 
+							</li>
+							
+							<li class="sub-item i3-3"> <a class="sub-link" href="http://yzb.nju.edu.cn/main.htm" target="_self">港澳台报名</a> 
+								 
+							</li>
+							
+							<li class="sub-item i3-4"> <a class="sub-link" href="http://yzb.nju.edu.cn/main.htm" target="_self">夏令营报名</a> 
+								 
+							</li>
+							
+						</ul>
+						 
+					</li>
+					
+					<li class="menu-item i4"> <a class="menu-link" href="/47832/listm.htm" target="_self">信息公开</a> 
+						 
+						<em class="menu-switch-arrow"></em>
+						<ul class="sub-menu clearfix">
+							
+							<li class="sub-item i4-1"> <a class="sub-link" href="/48335/listm.htm" target="_self">公示</a> 
+								 
+							</li>
+							
+							<li class="sub-item i4-2"> <a class="sub-link" href="/48336/listm.htm" target="_self">复试基本分数线</a> 
+								 
+							</li>
+							
+							<li class="sub-item i4-3"> <a class="sub-link" href="/48337/listm.htm" target="_self">往年报考录取统计</a> 
+								 
+							</li>
+							
+						</ul>
+						 
+					</li>
+					
+					<li class="menu-item i5"> <a class="menu-link" href="/47833/listm.htm" target="_self">联系我们</a> 
+						 
+						<em class="menu-switch-arrow"></em>
+						<ul class="sub-menu clearfix">
+							
+							<li class="sub-item i5-1"> <a class="sub-link" href="/lxzb/listm.htm" target="_self">联系招办</a> 
+								 
+							</li>
+							
+							<li class="sub-item i5-2"> <a class="sub-link" href="/lxyx/listm.htm" target="_self">联系学院</a> 
+								 
+							</li>
+							
+						</ul>
+						 
+					</li>
+					
+					<li class="menu-item i6"> <a class="menu-link" href="https://gs.nju.edu.cn/geapp/sys/yjsemaphome/*default/ioriginalindex.do?min=1&t_s=1664866122912#/gzzm" target="_self">研究生招生管理信息系统</a> 
+						 
+					</li>
+					
+					<li class="menu-item i7"> <a class="menu-link" href="https://yzb.nju.edu.cn/yw/main.htm" target="_self">English</a> 
+						 
+					</li>
+					
+				</ul>
+				 
+			
+		</div>
+	</div>
+</div>
+<!--Start||focus-->
+<div class="wrapper mbanner" id="banner">
+	<div class="inner clearfix">
+		<div frag="窗口4" portletmode="simpleNews" contents="{'c2':'0', 'c1':'/banner'}"><div id="wp_news_w4"> 
+
+			<div class="focus"></div>
+			<script type="text/javascript">
+				var w4imgJsons = [
+				
+				{
+					title:"<a href='https://mp.weixin.qq.com/s/jzzgMVW4U8BU45ibAUYGXA' target='_blank' title='大哉.南大！南京大学2026年研究生招生宣传片温暖上线'>大哉.南大！南京大学2026年研究...</a>",
+					src:"/_upload/article/images/e4/fc/98d8f63e4af39bb5b2db12624c89/e6ccd685-195b-4266-80dd-3a41aee36fc8.jpg",
+					url:"https://mp.weixin.qq.com/s/jzzgMVW4U8BU45ibAUYGXA"
+				},
+				
+				{
+					title:"<a href='/19/3f/c47852a727359/pagem.htm' target='_blank' title='首页图-考研加油！'>首页图-考研加油！</a>",
+					src:"/_upload/article/images/69/37/69d807ba4bf2bd38ccdf19477f10/62951eef-d39f-4ef8-9ecf-2a30e628ea93.png",
+					url:"/19/3f/c47852a727359/pagem.htm"
+				},
+				
+				{}
+				];
+				w4imgJsons.pop();							
+			</script> 
+		</div> 
+</div>
+	</div>
+</div>
+<script>
+	/*主大图切换*/
+	$(".mbanner .focus").sudyfocus({      
+		p:4,
+		zWidth:1920,
+		zHeight:800,
+		title:{
+			isAutoWidth: true,
+			active:true
+		},
+		 text:{
+			 active: false,
+			 isAutoHeight: false,
+			 href: false
+		},
+		response: true,
+		speed:700, 
+		pagination: false,
+		navigation: false,
+		isNavHover: true,
+		href:true,
+		effect: 'fade'
+	});
+</script> 
+<!--End||focus--> 
+
+<!--Start||Container-->
+<div class="wrapper container">
+	<div class="inner clearfix">
+		<div class="mod">
+
+	<!--Start||content-->
+	<div class="wrapper main1" id="container-1">
+		<div class="inner">
+			<div class="mod clearfix">
+				<div class="ml">
+					<div class="post post1 post-31 mbox" frag="窗口31" portletmode="simpleNews" configs="{'c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'5','c2':'序号,标题,发布时间','c27':'480','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'640','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'-1','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0', 'c1':'/硕士最新通知'}">
+						<div class="tt">
+							<h3 class="tit"><span class="title" frag="标题">硕士最新通知<span
+										class="lmbm">MASTER</span></span> </h3>
+							<div class="more_btn" frag="按钮" type="更多"> <a href="/47863/listm.htm" class="w31_more"><span class="more_text" frag="按钮内容">MORE</span></a>
+							</div>
+						</div>
+						<div class="con rili2">
+							<div id="wp_news_w31"> 
+
+								<ul class="news_list clearfix">
+									
+									<li class="news n1 clearfix">
+										<div class="news_date">
+											<div class="news_year">14</div>
+											<div class="news_days">2026-09</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/e0/0f/c47863a843791/pagem.htm' target='_blank' title='关于查看南京大学2027年重要专项推免批次进入复试考生名单的通知'>关于查看南京大学2027年重要专项推免批次进入复试考生名单的通知</a></div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="news n2 clearfix">
+										<div class="news_date">
+											<div class="news_year">08</div>
+											<div class="news_days">2026-09</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/dd/dc/c47863a843228/pagem.htm' target='_blank' title='南京大学2027年接收推荐免试研究生工作办法'>南京大学2027年接收推荐免试研究生工作办法</a></div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="news n3 clearfix">
+										<div class="news_date">
+											<div class="news_year">31</div>
+											<div class="news_days">2026-08</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/db/7f/c47863a842623/pagem.htm' target='_blank' title='南京大学2027年重要专项推荐免试研究生报名通知'>南京大学2027年重要专项推荐免试研究生报名通知</a></div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="news n4 clearfix">
+										<div class="news_date">
+											<div class="news_year">07</div>
+											<div class="news_days">2026-08</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/d5/21/c47863a840993/pagem.htm' target='_blank' title='南京大学2027年接收推荐免试研究生预报名截止时间汇总'>南京大学2027年接收推荐免试研究生预报名截止时间汇总</a></div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="news n5 clearfix">
+										<div class="news_date">
+											<div class="news_year">05</div>
+											<div class="news_days">2026-08</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/d4/e2/c47863a840930/pagem.htm' target='_blank' title='南京大学2027年“集成电路专项班”推荐免试研究生报名通知'>南京大学2027年“集成电路专项班”推荐免试研究生报名通知</a></div>
+											</div>
+										</div>
+									</li>
+									
+								</ul>
+							</div> 
+
+						</div>
+					</div>
+				</div>
+				<div class="mr">
+					<div class="post post1 post-32 mbox" frag="窗口32" portletmode="simpleNews" configs="{'c8':'1','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'5','c2':'序号,标题,发布时间','c27':'480','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'640','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'-1','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0', 'c1':'/博士最新通知'}">
+						<div class="tt">
+							<h3 class="tit"><span class="title" frag="标题">博士最新通知<span
+										class="lmbm">doctor</span></span> </h3>
+							<div class="more_btn" frag="按钮" type="更多"> <a href="/47865/listm.htm" class="w32_more"><span class="more_text" frag="按钮内容">MORE</span></a>
+							</div>
+						</div>
+						<div class="con rili2">
+							<div id="wp_news_w32"> 
+
+								<ul class="news_list clearfix">
+									
+									<li class="news n1 clearfix">
+										<div class="news_date">
+											<div class="news_year">14</div>
+											<div class="news_days">2026-09</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/e0/10/c47865a843792/pagem.htm' target='_blank' title='关于查看南京大学2027年重要专项推免批次进入复试考生名单的通知'>关于查看南京大学2027年重要专项推免批次进入复试考生名单的通知</a></div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="news n2 clearfix">
+										<div class="news_date">
+											<div class="news_year">08</div>
+											<div class="news_days">2026-09</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/dd/de/c47865a843230/pagem.htm' target='_blank' title='南京大学2027年接收推荐免试研究生工作办法'>南京大学2027年接收推荐免试研究生工作办法</a></div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="news n3 clearfix">
+										<div class="news_date">
+											<div class="news_year">03</div>
+											<div class="news_days">2026-09</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/dc/74/c47865a842868/pagem.htm' target='_blank' title='关于开展2027年南京大学博士研究生校长特别奖学金评选工作的通知'>关于开展2027年南京大学博士研究生校长特别奖学金评选工作的通知</a></div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="news n4 clearfix">
+										<div class="news_date">
+											<div class="news_year">31</div>
+											<div class="news_days">2026-08</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/db/80/c47865a842624/pagem.htm' target='_blank' title='南京大学2027年重要专项推荐免试研究生报名通知'>南京大学2027年重要专项推荐免试研究生报名通知</a></div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="news n5 clearfix">
+										<div class="news_date">
+											<div class="news_year">07</div>
+											<div class="news_days">2026-08</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/d5/22/c47865a840994/pagem.htm' target='_blank' title='南京大学2027年接收推荐免试研究生预报名截止时间汇总'>南京大学2027年接收推荐免试研究生预报名截止时间汇总</a></div>
+											</div>
+										</div>
+									</li>
+									
+								</ul>
+							</div> 
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper main2" id="container-2">
+		<div class="inner">
+			<div class="mod clearfix">
+				<div class="post post1 post-33 mbox" frag="窗口33" portletmode="simpleSudyNavi" contents="{'c2':'0', 'c1':'/硕士招生,/博士招生,/港澳台招生,/留学生招生,/夏令营/推免'}">
+					
+						
+						<ul class="clearfix">
+							
+							<li class="links i1"><a href="/47840/listm.htm" target="_self">硕士招生</a> </li>
+							
+							<li class="links i2"><a href="/47841/listm.htm" target="_self">博士招生</a> </li>
+							
+							<li class="links i3"><a href="/47842/listm.htm" target="_self">港澳台招生</a> </li>
+							
+							<li class="links i4"><a href="https://hwxy.nju.edu.cn" target="_self">留学生招生</a> </li>
+							
+							<li class="links i5"><a href="/xlyxx/listm.htm" target="_self">夏令营/推免</a> </li>
+							
+						</ul>
+						
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper main3" id="container-3">
+		<div class="inner">
+			<div class="mod clearfix">
+				<div class="ml">
+					<div class="post post1 post-11 mbox" frag="窗口11" portletmode="simpleNews" contents="{'c2':'0', 'c1':'/学科风采'}">
+						<div class="tt">
+							<h3 class="tit"><span class="title" frag="标题">学科风采<span
+										class="lmbm">Admissions promotion</span></span> </h3>
+							<div class="more_btn" frag="按钮" type="更多"> <a href="/47837/listm.htm" class="w11_more"><span class="more_text" frag="按钮内容">MORE</span></a>
+							</div>
+						</div>
+						<div class="con">
+							<div id="wp_news_w11"> 
+								<div class="focus"></div>
+								<script type="text/javascript">
+									var w11imgJsons = [
+								
+										{
+											
+											src: "/_upload/article/images/bb/65/f531e3a0465f9a8c139e8839f036/5e42f49e-41ba-408f-a137-333f9da1b2ed.png",
+											url: "/3e/ac/c47837a605868/pagem.htm"
+										},
+								
+										{}
+									];
+									w11imgJsons.pop();							
+								</script>
+							</div> 
+
+						</div>
+					</div>
+<script>
+	/*新闻图片切换*/
+	$(".post-11 .focus").sudyfocus({      
+		p:11,      
+		zWidth:362,      
+		zHeight:253,  
+		title:{        
+			isAutoWidth: false,
+			active:true      
+		},  
+		 text: {        
+			 active: false,
+			 isAutoHeight: false,   
+			 href: false 
+		},  
+		response: true,     
+		speed:700, 
+		pagination: true,
+		navigation: true,
+		isNavHover: false,
+		href:true,
+		effect: 'fade'
+	});
+</script>
+				</div>
+				<div class="mr">
+					<div class="post post1 post-34 mbox" frag="窗口34" portletmode="simpleNews" configs="{'c8':'0','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'0','c3':'1','c2':'内容','c27':'480','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'640','c40':'1','c15':'0','c14':'0','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'15','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'480','c41':'240'}" contents="{'c2':'1', 'c1':'/学科风采'}">
+
+						<div class="con">
+							<div id="wp_news_w34"> 
+								<ul class="news_list clearfix">
+									
+									<li class="news  clearfix">
+										<span class="news_title">
+											
+											<a href='/3e/ac/c47837a605868/pagem.htm' target='_blank' title='集成电路学院 学科风采'>南京大学集成电路学院是南京大学在苏州校区首批建设的学院之一，以新获批的一级交叉学科“集成电路科学与工程”为依托，以南京大学传统优势学科如物理、化学、材料、电子、信息科学等学科群为基础，重点建设六个研究方向，包括：（1）微纳电子科学、（2）器件与制造工艺、（3）集成光电子、（4）材料与装备、（5）集成电路设计、（6）封装与系统集成。学院围绕集成电路国家重大需求，致力于解决集成电路器件、设计及制造等相关核心...</a>
+											
+										</span>
+										
+									</li>
+									
+								</ul>
+							</div> 
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper main4" id="container-4">
+		<div class="inner">
+			<div class="mod clearfix">
+				<div class="ml">
+					<div class="post post1 post-36 mbox" frag="窗口36" portletmode="simpleSudyNavi" configs="{'c1':'1','c7':'2','c4':'_self','c3':'150','c6':'0','c8':'2','c9':'0','c2':'1','c5':'2'}" contents="{'c2':'0', 'c1':'/院系链接,/导师信息,/常见问题,/研究生招生管理信息系统'}">
+						
+							
+							<ul class="clearfix">
+								
+								<li class="links i1"><a href="/dsxx/listm.htm" target="_self">导师信息</a> </li>
+								
+								<li class="links i2"><a href="/47839/listm.htm" target="_self">常见问题</a> </li>
+								
+								<li class="links i3"><a href="https://gs.nju.edu.cn/geapp/sys/yjsemaphome/*default/ioriginalindex.do?min=1&t_s=1664866122912#/gzzm" target="_self">研究生招生管理信息系统</a> </li>
+								
+							</ul>
+							
+						
+					</div>
+				</div>
+					<div class="mr">
+						<div class="post post1 post-37 mbox" frag="窗口37" portletmode="simpleNews" configs="{'c8':'1','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'3','c2':'标题,发布时间','c27':'480','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'640','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'15','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0', 'c1':'/导师风采'}">
+							<div class="tt">
+								<h3 class="tit"><span class="title" frag="标题">导师风采<span
+											class="lmbm">mentors</span></span> </h3>
+								<div class="more_btn" frag="按钮" type="更多"> <a href="/47836/listm.htm" class="w37_more"><span class="more_text" frag="按钮内容">MORE</span></a>
+								</div>
+							</div>
+							<div class="con">
+								<div id="wp_news_w37"> 
+									<ul class="news_list clearfix">
+										
+										<li class="news n1 clearfix">
+<div class="news_imgs"><a href="/25/73/c47836a599411/pagem.htm" target="_blank" style="height: 240px; display:block; background: #eee  url(/_upload/article/images/df/d6/6aecb4fc45cf9e8fe431b9d08e49/c150339c-69a5-4b66-92c3-4e8094ebed6b.png) center no-repeat;     background-size: 221px 271px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_upload/article/images/df/d6/6aecb4fc45cf9e8fe431b9d08e49/c150339c-69a5-4b66-92c3-4e8094ebed6b.png', sizingMethod='scale'); "></a></div>
+<div class="news_box"><span class="news_title"><a href='/25/73/c47836a599411/pagem.htm' target='_blank' title='朱俊杰'>朱俊杰</a></span><span class="news_titles">化学化工学院</span></div>
+<div class="news_text"><a href='/25/73/c47836a599411/pagem.htm' target='_blank' title='朱俊杰'>教授（特聘教授）。1984年本科毕业于南京大学化学系，1993年在南京大学获得博士学位，1998-1999年在以色列...</a></div>
+										</li>
+										
+										<li class="news n2 clearfix">
+<div class="news_imgs"><a href="/25/6d/c47836a599405/pagem.htm" target="_blank" style="height: 240px; display:block; background: #eee  url(/_upload/article/images/5a/2a/e42f472243e28868324064c6155c/8397774c-15e8-4d0a-a087-01addb27b9ab.png) center no-repeat;     background-size: 221px 271px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_upload/article/images/5a/2a/e42f472243e28868324064c6155c/8397774c-15e8-4d0a-a087-01addb27b9ab.png', sizingMethod='scale'); "></a></div>
+<div class="news_box"><span class="news_title"><a href='/25/6d/c47836a599405/pagem.htm' target='_blank' title='鞠熀先'>鞠熀先</a></span><span class="news_titles">化学化工学院</span></div>
+<div class="news_text"><a href='/25/6d/c47836a599405/pagem.htm' target='_blank' title='鞠熀先'>1986、1989、1992年分别获南京大学理学学士、硕士与博士学位，1992年留校工作，1993年副教授，1999年教授、...</a></div>
+										</li>
+										
+										<li class="news n3 clearfix">
+<div class="news_imgs"><a href="/8d/a4/c47836a626084/pagem.htm" target="_blank" style="height: 240px; display:block; background: #eee  url(/_upload/article/images/8d/13/9c5da81a4f49be7cd8c43ed933ee/6a4ad6c2-9612-404b-a005-4caec360efca.jpg) center no-repeat;     background-size: 221px 271px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_upload/article/images/8d/13/9c5da81a4f49be7cd8c43ed933ee/6a4ad6c2-9612-404b-a005-4caec360efca.jpg', sizingMethod='scale'); "></a></div>
+<div class="news_box"><span class="news_title"><a href='/8d/a4/c47836a626084/pagem.htm' target='_blank' title='朱马光'>朱马光</a></span><span class="news_titles">集成电路学院</span></div>
+<div class="news_text"><a href='/8d/a4/c47836a626084/pagem.htm' target='_blank' title='朱马光'>特聘研究员、助理教授、博导。2015年本科毕业于南京大学现代工程与应用科学学院材料物理专业，2020年获得北...</a></div>
+										</li>
+										
+									</ul>
+								</div> 
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper main5" id="container-5">
+			<div class="inner">
+				<div class="mod clearfix">
+					<div class="ml">
+						<div class="post post1 post-35 mbox">
+							<div class="tt">
+								<h3 class="tit"><span class="title"><span>快速链接</span><span
+											class="lmbm">Quick Links</span></span> </h3>
+							</div>
+						</div>
+					</div>
+					<div class="mr" frag="窗口38" portletmode="simpleSudyNavi" contents="{'c2':'0', 'c1':'/快速链接/南大新闻,/快速链接/研究生院主页,/快速链接/学校资源,/快速链接/关于我们'}">
+						
+							
+							<ul class="clearfix">
+								
+								<li class="links i1"><a href="/47838/listm.htm" target="_self">学院链接</a> </li>
+								
+								<li class="links i2"><a href="https://yz.chsi.com.cn/" target="_self">中国研招网</a> </li>
+								
+								<li class="links i3"><a href="https://news.nju.edu.cn/" target="_self">南大新闻</a> </li>
+								
+								<li class="links i4"><a href="https://grawww.nju.edu.cn/" target="_self">研究生院主页</a> </li>
+								
+								<li class="links i5"><a href="/47849/listm.htm" target="_self">关于我们</a> </li>
+								
+							</ul>
+							
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End||content-->
+
+
+
+		</div>
+	</div>
+</div>
+<!--End||Container--> 
+		<!--Start||footer-->
+		<div class="wrapper footer" id="footer">
+			<div class="inner">
+				<div class="mod clearfix">
+					<div class="foot-left" frag="窗口90" portletmode="simpleSiteAttri">
+						<p class="copyright"><span>地址：南京市仙林大道163号，南京大学研究生院    邮政编码：210046</span></p>
+					</div>
+					<div class="foot-right" >
+						<div class="shares" frag="窗口91" portletmode="simpleNews" contents="{'c2':'0', 'c1':'/二维码'}">
+							<div id="wp_news_w91"> 
+
+								<ul class="clearfix">
+									
+									<li class="i1">
+										<a href="/c4/8a/c47851a574602/pagem.htm" target="_blank"></a>
+										<div class="con"><a href='/c4/8a/c47851a574602/pagem.htm' target='_blank' title='南京大学研究生招生网二维码'><img src='/_upload/article/images/86/c9/9e19807141f9a7a3933f83f4d2bb/5fafea01-93e0-4029-bc23-30e5bcef8d8e_s.jpg' width='160' /></a></div>
+									</li>
+									
+								</ul>
+							</div> 
+
+						</div>
+						<div class="mlink botlinks">
+						<div class="links-wrap" frag="窗口80" portletmode="simpleNews" configs="{'c8':'1','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'6','c2':'序号,标题,发布时间','c27':'480','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'640','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'15','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0', 'c1':'/友情链接'}">
+							<a class="links-arrow" frag="标题">友情链接</a>
+							<div class="link-items">
+								<!-- No Data -->
+							</div>
+						</div>
+						</div>
+<img src="/_upload/tpl/07/86/1926/template1926/wap_resources/images/logo.png">
+						<p class="copyright"><span>Copyright © 2022 All rights reserved. 南京大学研究生招生网 版权所有</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End||footer-->
+
+<div class="search-con layer" id="search-con">
+	<div class="layer-inner">
+		<div class="layer-mod">
+			<div class="shutdown"><span class="close">关闭</span></div>
+			<div class="searchbox" frag="窗口03" portletmode="search">
+				 
+					<!--搜索组件-->
+					<div class="wp-search clearfix">
+						<form action="/_web/_search/api/search/new.rst?locale=zh_CN&request_locale=zh_CN&context=&_p=YXM9NzM0JnQ9MTkyNiZkPTk0NzMmcD0xMSZtPVNOJg__" method="post" target="_blank">
+							<div class="search-input">
+								<input name="keyword" class="search-title" type="text" placeholder="请输入关键词..."/>
+							</div>
+							<div class="search-btn">
+								<input name="submit" class="search-submit" type="submit" value=""/>
+							</div>
+						</form>
+					</div>
+					<!--//复制以上代码到自定义搜索--> 
+				
+			</div>
+		</div>
+	</div>
+</div>
+<a id="back-top"></a>
+</body>
+<script type="text/javascript" src="/_upload/tpl/07/86/1926/template1926/wap_resources/js/main.js"></script>
+<script type="text/javascript" src="/_upload/tpl/07/86/1926/template1926/wap_resources/libs/swiper/swiper.min.js"></script>
+<script type="text/javascript" src="/_upload/tpl/07/86/1926/template1926/wap_resources/js/base.js"></script>
+</html>
+ <img src="/_visitcount?siteId=734&type=1&columnId=47829" style="display:none" width="0" height="0"/>

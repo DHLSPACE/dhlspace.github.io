@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>中科院兰州化物所2023年硕士研究生招生复试通知----中国科学院兰州化学物理研究所研究生处</title>
+<meta name="keywords" content='中科院兰州化物所2023年硕士研究生招生复试通知,' >
+<meta name="description" content='中科院兰州化物所2023年硕士研究生招生复试通知' >
+<link href="../../../images/cnb12css.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+ 
+.styl1{font-size:12px;}
+.styl2{font-size:14px;}
+.styl3{font-size:16px;}
+.isa_con_word p{ padding-right:20px; margin-top:15px;  clear:both; }
+.isa_con_word1{font-size:12px; padding-right:20px; margin-top:15px;  clear:both; }
+.isa_con_word1 p{font-size:12px; padding-right:20px; margin-top:15px;  clear:both; }
+.isa_con_word2{font-size:14px; padding-right:20px; margin-top:15px;  clear:both; }
+.isa_con_word2 p{font-size:14px; padding-right:20px; margin-top:15px;  clear:both; }
+.isa_con_word3{font-size:16px; padding-right:20px; margin-top:15px;  clear:both; }
+.isa_con_word3 p{font-size:16px; padding-right:20px; margin-top:15px; clear:both; }
+</style>
+
+<script language=javascript>    
+function doZoom(size){
+         //alert('isa_con_word'+size);
+	document.getElementById('zoom').className ="isa_con_word"+size;
+        //alert(document.getElementById('zoom').style.className);
+}    
+</script>
+<SCRIPT LANGUAGE="JavaScript">
+function num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt){
+		var nCurrIndex = _nCurrIndex || 0;
+		if(nCurrIndex == 0)
+			document.write("<span style='color:#007355'>1</span>&nbsp;");
+		else
+			document.write("<a style='font-size:12px;color:#007355' href=\""+_sPageName+"."+_sPageExt+"\">1</a>&nbsp;");
+		
+		for(var i=1; i<_nPageCount; i++){
+		if(nCurrIndex == i)
+			document.write("<span style='color:#007355'>"+(i+1)+"</span>&nbsp;");
+		else
+			document.write("<a style='font-size:12px;color:#007355' href=\""+_sPageName+"_" + i + "."+_sPageExt+"\">"+(i+1)+"</a>&nbsp;");
+			}
+		return "";
+		}
+		
+function createPageHTML(_nPageCount, _nCurrIndex, _sPageName, _sPageExt){
+	if(_nPageCount == null || _nPageCount<=1){
+		return;
+	}
+	
+	var nCurrIndex = _nCurrIndex || 0;
+	
+	if (_nPageCount==2){
+		if(nCurrIndex == 0){
+		document.write("<span style='color:#007355'>1</span>&nbsp;<a style='font-size:12px;color:#007355' href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">2</a>&nbsp;<a style='font-size:10.5pt;color:#007355;text-decoration:none;' href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">【下一页】</a>&nbsp;");
+		}
+		else if (nCurrIndex == 1){
+		document.write("<a style='font-size:10.5pt;color:#007355;text-decoration:none;' href=\""+_sPageName+ "."+_sPageExt+"\">【上一页】</a>&nbsp;<a style='font-size:12px;color:#007355' href=\""+_sPageName+ "."+_sPageExt+"\">1</a>&nbsp;<span style='color:#007355'>2</span>&nbsp;");
+		}
+	}
+	else{
+
+	if(nCurrIndex == 0){
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		document.write("<a style='font-size:10.5pt;color:#007355;text-decoration:none;' href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">【下一页】</a>&nbsp;");
+		}
+	else if (nCurrIndex == 1){
+		document.write("<a style='font-size:10.5pt;color:#007355;text-decoration:none;' href=\""+_sPageName+"."+_sPageExt+"\">【上一页】</a>&nbsp;");
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		document.write("<a style='font-size:10.5pt;color:#007355;text-decoration:none;' href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">【下一页】</a>&nbsp;");
+		}
+	else if(nCurrIndex == (_nPageCount-1)){
+		document.write("<a style='font-size:10.5pt;color:#007355;text-decoration:none;' href=\""+_sPageName+"_" + (nCurrIndex-1) + "."+_sPageExt+"\">【上一页】</a>&nbsp;");
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		}
+	else{
+		document.write("<a style='font-size:10.5pt;color:#007355;text-decoration:none;' href=\""+_sPageName+"_" + (nCurrIndex-1) + "."+_sPageExt+"\">【上一页】</a>&nbsp;");
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		document.write("<a style='font-size:10.5pt;color:#007355;text-decoration:none;' href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">【下一页】</a>&nbsp;");
+		}
+		} 
+	
+}
+</SCRIPT>
+</head>
+<body>
+<table align="center" border="0" cellspacing="0" cellpadding="0" height="180" width="1000">
+<tr>
+  	<td valign="top" background="../../../images/yjsctop2.jpg" height="150" width="1000">
+	<table align="center" width="1000" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+	<td valign="top" align="right" style="color:#FFFFFF;font-size:12px;padding-top:5px;padding-right:4px;">│<a  style="color:#FFFFFF;font-size:12px;padding-top:5px;padding-right:4px;" href="http://www.licp.cas.cn">兰州化物所</a>│<a style="color:#FFFFFF;font-size:12px;padding-top:5px;padding-right:4px;" href="http://www.cas.cn">中国科学院</a></td>
+	</tr>
+	</table>
+	</td>
+</tr>
+
+<tr>
+
+	<td background="http://www.licp.cas.cn/images/yjscdhl2.jpg" height="30" width="1000" align="left">
+	<table align="center" width="1000" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+         <td align="center" style="color:#c3cfed;">|</td>
+         	<td align="center" width="70"><a href="http://www.licp.cas.cn/yjsc/" style="color:#FFFBF0; font-size:16px; font-weight:bold;">首&nbsp&nbsp页</a></td>
+	<td align="center" style="color:#c3cfed;">|</td>
+	<td align="center" width="80"><a href="http://licp.cas.cn/yjsc/yjscgk/" style="color:#FFFBF0; font-size:16px; font-weight:bold;">概&nbsp&nbsp况</a></td>
+	<td align="center" style="color:#c3cfed;">|</td>
+		<td align="center" width="80"><a href="http://licp.cas.cn/yjsc/yjscxkzy/" style="color:#FFFBF0; font-size:16px; font-weight:bold;">学科专业</a></td>		
+	<td align="center" style="color:#c3cfed;">|</td>
+	<td align="center" width="80"><a href="http://licp.cas.cn/yjsc/yjscdsjs/" style="color:#FFFBF0; font-size:16px; font-weight:bold;">导师介绍</a></td>
+	<td align="center" style="color:#c3cfed;">|</td>
+	<td align="center" width="80"><a href="http://licp.cas.cn/yjsc/yjsczsxx/" style="color:#FFFBF0; font-size:16px; font-weight:bold;">招生信息</a></td>		
+	<td align="center" style="color:#c3cfed;">|</td>
+	<td align="center" width="120"><a href="http://licp.cas.cn/yjsc/yjscssdt/" style="color:#FFFBF0; font-size:16px; font-weight:bold;">师生动态</a></td>
+	<td align="center" style="color:#c3cfed;">|</td>
+          <td align="center" width="120"><a href="http://licp.cas.cn/yjsc/yjsh/" style="color:#FFFBF0; font-size:16px; font-weight:bold;">研究生会</a></td>
+	<td align="center" style="color:#c3cfed;">|</td>
+          </tr>
+	</table>
+	</td>
+
+</tr>
+
+
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="center">
+  <tr>
+    <td align="center" valign="top"><table width="900" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="28" bgcolor="#f7f6f6" style="padding:0 0 0 15px">现在位置：<a href="../../../" title="首页" class="CurrChnlCls">首页</a>><a href="../../" title="研究生处" class="CurrChnlCls">研究生处</a>><a href="../" title="招生信息" class="CurrChnlCls">招生信息</a></td>
+        </tr>
+    </table><table width="900" border="0" cellspacing="0" cellpadding="0" style="margin-bottom:10px">
+              <tr>
+                <td height="21"><img src="../../../images/1cn5right010.jpg" width="900" height="21" /></td>
+              </tr>
+              <tr>
+                <td align="center" valign="top" background="../../../images/1cn5right011.jpg"><table width="780" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td align="center" class="black_20_600">中科院兰州化物所2023年硕士研究生招生复试通知</td>
+                    </tr>
+					                    <tr>
+                      <td align="right" style="font-size: 16px;color:#073D6B;font-weight: bold;line-height: 31px;padding: 5px 5px 5px 5px;"></td>
+                    </tr>
+                    <tr>
+                      <td align="center" class="font03">2023-03-16 |  【<a href="javascript:doZoom(3)">大 </a><a href="javascript:doZoom(2)">中 </a><a href="javascript:doZoom(1)">小</a>】【<a href="javascript:window.print();" class="hui_12">打印</a>】【<a href="javascript:window.close();" class="hui_12">关闭</a>】&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</td>
+                    </tr>
+                    <tr>
+                     <td align="left" valign="top" style="font-size:14px; line-height: 24px; font-style:normal; color:#1f1f1f; padding:20px 25px;border-bottom:1px dashed #d1d1d1;" id="zoom">
+
+					  	<div class=TRS_Editor><p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">本所定于</span><font color="#ff0000"><span style="font-size: 12pt">2023</span><span style="font-size: 12pt">年</span><span style="font-size: 12pt">3</span><span style="font-size: 12pt">月</span><span style="font-size: 12pt">24</span><span style="font-size: 12pt">日</span></font><span style="font-size: 12pt">对达到本所复试分数线的考生进行复试（具体复试名单见附件</span><span style="font-size: 12pt">1</span><span style="font-size: 12pt">）。</span><span style="font-size: 12pt"><span style="font-size: 12pt">&nbsp; </span></span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<b style="font-size: 12pt"><span style="font-size: 12pt">一、复试方式</span></b>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">经本所招生工作领导小组研究决定，本所</span><span style="font-size: 12pt">2023</span><span style="font-size: 12pt">年硕士研究生招生复试全部采取<span style="font-size: 12pt"><font color="#ff0000">网络远程视频复试</font></span>。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<b style="font-size: 12pt"><span style="font-size: 12pt">二、复试确认</span></b>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">请达到本所复试分数线的考生，于</span><font color="#ff0000"><span style="font-size: 12pt">3</span><span style="font-size: 12pt">月</span><span style="font-size: 12pt">17</span><span style="font-size: 12pt">日</span><span style="font-size: 12pt">12</span><span style="font-size: 12pt">：</span><span style="font-size: 12pt">00</span></font><span style="font-size: 12pt"><font color="#ff0000">前</font>以邮件方式确认已获知复试信息。回复邮件主题为：“考生</span><span style="font-size: 12pt">XXX</span><span style="font-size: 12pt">按时参加复试”；邮件内容为：“我已认真阅读兰州化物所网站公布的《中科院兰州化物所</span><span style="font-size: 12pt">2023</span><span style="font-size: 12pt">年硕士研究生招生复试规程》和《中科院兰州化物所</span><span style="font-size: 12pt">2023</span><span style="font-size: 12pt">年硕士研究生招生复试通知》，具备网络远程视频复试条件，将于</span><span style="font-size: 12pt">3</span><span style="font-size: 12pt">月</span><span style="font-size: 12pt">24</span><span style="font-size: 12pt">日按时通过网络远程视频参加复试。”邮件请发送至：</span><span style="font-size: 12pt">hhma@licp.cas.cn</span><span style="font-size: 12pt">。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<b style="font-size: 12pt"><span style="font-size: 12pt">三、复试要求</span></b><b style="font-size: 12pt"><span style="font-size: 12pt"><span style="font-size: 12pt">&nbsp; </span></span></b>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（一）考生需要双机位模式参加复试，即需要两部带摄像头的设备，手机或电脑均可。一台设备作为主机位，从正面拍摄，保证音频视频正常运行，另一台设备从考生侧后方（约与考生后背面成</span><span style="font-size: 12pt">45</span><span style="font-size: 12pt">°角）拍摄，用于监控复试现场，保证考生复试屏幕能清晰地被复试专家组看到。两台设备须登录同一考场，为防止电磁干扰，请侧后方拍摄的设备进入考场后调至静音状态。</span><span style="font-size: 12pt"> </span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（二）远程复试平台为“科技云会”，请考生于</span><span style="font-size: 12pt">3</span><span style="font-size: 12pt">月</span><span style="font-size: 12pt">21</span><span style="font-size: 12pt">日前安装并熟练操作（两台设备均需安装），具体使用方法见附件“科技云会议软件使用说明”（附件</span><span style="font-size: 12pt">2</span><span style="font-size: 12pt">）。本所将于</span><span style="font-size: 12pt">3</span><span style="font-size: 12pt">月</span><span style="font-size: 12pt">23</span><span style="font-size: 12pt">日进行系统测试。“腾讯会议”作为应急备用系统，请考生于</span><span style="font-size: 12pt">3</span><span style="font-size: 12pt">月</span><span style="font-size: 12pt">21</span><span style="font-size: 12pt">日前下载并熟悉“腾讯会议”软件。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（三）考生复试须用独立的复试房间，保证灯光明亮、安静、不逆光。考生音频视频必须全程开启，复试时正对摄像头保持坐姿端正，全程注视摄像头，视线不得离开，保证双手和头部完全呈现在复试专家可见画面中。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（四）复试期间考生不得以任何方式查阅资料，不得记录任何与复试有关的内容。复试过程中禁止任何录音、录像和录屏，禁止将相关信息泄露或公布，全程不得切换屏幕。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（五）复试全程只允许考生一人在复试房间，禁止他人进出，也不允许出现其他声音。不得由他人替考，也不得接受他人或机构以任何方式助考。若有违反，视同作弊。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（六）考生须提前测试设备和网络。保证设备电量充足，网络连接正常。设备调试完成后，关闭移动设备通话、录屏、外放音乐、闹钟等可能影响复试的应用程序，并防止各种弹窗影响复试。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（七）复试期间不允许采用任何方式变声、更改人像。整个复试期间视频背景必须是真实环境，不允许使用虚拟背景、更换视频背景。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（八）复试过程中将通过“科技云会”采集考生图像信息，并进行身份识别，因此，复试期间不得佩戴口罩，保证面部清晰可见，头发不可遮挡耳朵，不得戴耳饰，不得使用耳机。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（九）复试过程中，连接登录复试系统的设备不允许再运行其他网页或软件，设备须处于免打扰状态，保证复试过程不受其他因素干扰或打断，不得与外界有任何音视频交互，复试房间其他电子设备必须关闭，也不得接听电话。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（十）复试前清空电脑桌面，并使用《中国科学院大学</span><span style="font-size: 12pt">2023</span><span style="font-size: 12pt">年硕士研究生招生网络远程视频复试考生诚信承诺书》生成的图片作为电脑桌面背景。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（十一）考生根据个人硬件设备情况准备麦克风、手机支架等。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（十二）复试过程中如发生网络中断等不可抗拒情形，请考生保持镇定，本所工作人员将第一时间电话联系考生，重新连接设备或使用“腾讯会议”继续复试。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<b style="font-size: 12pt"><span style="font-size: 12pt">四、复试流程</span></b>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（一）考生根据有关要求进入复试会场。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（二）考生视频环绕一周，确认是考生本人独立参加复试。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（三）<span style="font-size: 12pt">手持查验：①准考证②有效身份证原件③学生证原件（应届生），毕业证和学位证原件（往届生）。</span></span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（四）<span style="font-size: 12pt">考生进行时长</span></span><span style="font-size: 12pt">5</span><span style="font-size: 12pt">分钟左右的中英文双语个人自述。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（五）<span style="font-size: 12pt">复试专家组提问、考生回答。</span></span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（六）<span style="font-size: 12pt">复试结束，考生退出</span>复试会场<span style="font-size: 12pt">。</span></span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<b style="font-size: 12pt"><span style="font-size: 12pt">五、考生需提交的材料</span></b><b style="font-size: 12pt"><span style="font-size: 12pt"><span style="font-size: 12pt">&nbsp; </span></span></b>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">详见《中科院兰州化物所</span><span style="font-size: 12pt">2023</span><span style="font-size: 12pt">年硕士研究生招生复试规程》。</span><span style="font-size: 12pt"><span style="font-size: 12pt">&nbsp;&nbsp;&nbsp;&nbsp; </span></span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<b style="font-size: 12pt"><span style="font-size: 12pt">六、其他注意事项</span></b><b style="font-size: 12pt"><span style="font-size: 12pt"><span style="font-size: 12pt">&nbsp;&nbsp;&nbsp; </span></span></b>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（一）为便于联系，请考生保持手机畅通，报名时未提供手机号或手机号已变更者，请及时来电告知。</span><span style="font-size: 12pt"><span style="font-size: 12pt">&nbsp; </span></span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（二）视频复试通过名单将在本所网站发布，请考生及时查询，不再逐一通知。</span><span style="font-size: 12pt"><span style="font-size: 12pt">&nbsp; </span></span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">（三）<span style="font-size: 12pt">系统测试安排</span></span>&nbsp;</font></p>
+<div align="center"><font style="font-size: 12pt"><img width="559" height="214" style="border-right-width: 0px; width: 615px; border-top-width: 0px; border-bottom-width: 0px; height: 218px; font-size: 12pt; border-left-width: 0px" alt="" oldsrc="W020230316586111897218.png" complete="complete" src="./W020230316586111897218.png" /></font></div>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">请各位考生提前</span><span style="font-size: 12pt">10</span><span style="font-size: 12pt">分钟启动“科技云会”客户端，点击“加入会议”，输入“会议</span><span style="font-size: 12pt">ID</span><span style="font-size: 12pt">”和“昵称”（昵称要求输入：考生姓名）进入测试。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">测试正式开始之前，考生可以随时自行测试，直至提示“等待主持人开启本场会议”即可。</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">&nbsp;</span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">联系人：马老师</span><span style="font-size: 12pt"><span style="font-size: 12pt">&nbsp; </span></span>&nbsp;</font></p>
+<p align="justify"><font style="font-size: 12pt">　　<span style="font-size: 12pt">联系电话：</span><span style="font-size: 12pt">0931-4968202</span>&nbsp;</font></p>
+<p align="justify"><font size="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 人事教育处</font></p>
+<p align="justify"><font size="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2023年3月16日</font></p>
+<p align="justify"><font size="3">&nbsp;&nbsp;&nbsp; <a oldsrc="W020230316586112005947.pdf" href="./W020230316586112005947.pdf"><strong>附件1：中科院兰州化物所2023年硕士研究生招生一志愿复试考生名单.pdf</strong></a></font></p>
+<p align="justify"><font size="3">&nbsp;&nbsp;&nbsp; <a oldsrc="W020230316586112105523.pdf" href="./W020230316586112105523.pdf"><strong>附件2：科技云会议软件使用说明.pdf</strong></a></font></p></div>
+					  </td>
+                    </tr>
+					<tr>
+                      <td align="right" valign="top" class="font04">
+					  </td>
+                    </tr>
+					<tr>
+                      <td align="right" valign="top" style="color:#424242; font-size:14px;">
+					  来源：
+					  </td>
+                    </tr>
+					<tr>
+                      <td align="right" valign="top" class="font04">
+					  </td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="padding:5px">
+					  <SCRIPT LANGUAGE="JavaScript">
+createPageHTML(1, 0, "t20230316_6698934", "html");	
+</SCRIPT>
+					  </td>
+                    </tr>
+                  </table>
+                  <table width="780" border="0" align="center" cellpadding="0" cellspacing="0" class="font05">
+                    <tr>
+                      <td height="22"><img src="../../../images/cn5right013.gif" width="11" height="11" /><a href="http://app.cas.cn/comment/comment?newsid=6698934&encoding=utf-8&data=AGY3tgAAATwAAhC9AAAAAQBA5Lit56eR6Zmi5YWw5bee5YyW54mp5omAMjAyM-W5tOehleWjq-eglOeptueUn-aLm-eUn-WkjeivlemAmuefpQAAAAAAAAAAAAAALjAsAhRwtMrMaXBzq_cox-k-r03ngumM-QIUHb_YSOTxZ-gOT4DHkNrH1J4PC30."> 评 论</a></td>
+                    </tr>
+                  </table>
+                  <table width="780" height="8"border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td></td>
+                    </tr>
+                  </table> 
+				   <table width="780" height="8"border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td></td>
+                    </tr>
+                  </table>
+				  <script language="javascript">
+var str_appendix='';
+var file_appendix='';
+var link_appendix='';
+
+
+if(str_appendix!=""&file_appendix!="")
+{
+document.write("<table width='780' border='0' align='center' cellpadding=0 cellspacing=0 class='font05'>");
+document.write("<td height=22><img src='../../../images/cn5right013.gif' width=11 height=11 /> 附件下载</td>");
+document.write("</table>");
+}
+else{
+if(str_appendix!=""&link_appendix!=""){
+document.write("<tr><td class='f14_h'><font color='#CC3300'><b><font color='#000099'>附件：</font></b></font></td></tr>");
+}
+}
+</script>
+				  <table width="900" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td class="hui_13" style="padding-left:20px;">
+					  
+					  </td>
+                    </tr>
+                  </table>
+				  
+				  </td>
+              </tr>
+              <tr>
+                <td height="9"><img src="../../../images/1cn5right012.jpg" width="900" height="9" /></td>
+              </tr>
+            </table></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="1000" height="5" border="0" cellpadding="0" cellspacing="0" class="center01">
+  <tr>
+    <td align="center"></td>
+  </tr>
+</table>
+<table width="1000" height="65" border="0" cellpadding="0"cellspacing="0" align="center">
+	  <tr>
+	 <td background="../../../images/wmbbg2.jpg" style="color:white; font-size:10px; line-height:18px;" align="center" valign="top"><strong><br />Copyright (&copy;) 中国科学院兰州化学物理研究所*办公室　承制　版权所有</strong></td>
+	  </tr>
+</table>
+</body>
+</html>

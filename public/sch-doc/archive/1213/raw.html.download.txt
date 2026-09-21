@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>招生</title>
+<meta name="keywords" content="南京大学数字经济与管理学院">
+<meta name="description" content="南京大学数字经济与管理学院" >
+<meta name="viewport" content="width=1920">
+
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/1/style/49/49.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/03/10/784/style/615/615.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/datepicker/css/datepicker.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/jquery.min.js" sudy-wp-context="" sudy-wp-siteId="784"></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/jquery.datepicker.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/datepicker_lang_HK.js"></script>
+<link rel="stylesheet" href="/_upload/tpl/08/39/2105/template2105/style.css" type="text/css" />
+<link rel="shortcut icon" href="/_upload/tpl/08/39/2105/template2105/favicon.ico" />
+<!--[if lt IE 9]>
+	<script src="/_upload/tpl/08/39/2105/template2105/extends/libs/html5.js"></script>
+	<![endif]-->
+</head>
+<body class="list">
+<!--Start||head-->
+<div class="top-dw">
+  <div class="top">
+    <div class="top-1 clearfix">
+      <div class="top-nav clearfix">
+        <div class="top-nav2" frag="窗口01"> 
+          
+          <div class="lmmc"><span>|</span><a href="/56984/list.htm" target="_blank">内网入口</a></div>
+          
+          <div class="lmmc"><span>|</span><a href="https://www.nju.edu.cn/" target="_blank">南京大学主页</a></div>
+          
+          <div class="lmmc"><span>|</span><a href="/56986/list.htm" target="_blank">English</a></div>
+          
+          <div class="lmmc"><span>|</span><a href="/56987/list.htm" target="_blank">用户登录</a></div>
+           
+        </div>
+        <div class="search-top clearfix" frag="窗口02">          <form action="/_web/_search/api/search/new.rst?locale=zh_CN&request_locale=zh_CN&context=&_p=YXM9Nzg0JnQ9MjEwNSZkPTEwNTUxJnA9MiZmPTU2OTQ1Jm09U04mfGJubkNvbHVtblZpcnR1YWxOYW1lPTU2OTQ1Jg__" method="post" target="_blank">
+            <input name="keyword" class="srk" value="搜索..." type="text" onfocus="if(value=='搜索...')  {value=''}" onblur="if (value=='') {value='搜索...'}" />
+            <input type="submit" class="anniu" name="btnsearch" value="" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="top-nav3">
+    <div class="top-nav4 clearfix">
+      <div class="top-logo" frag="窗口03" portletmode="simpleSiteAttri"><a href="/main.htm"><img src="/_upload/tpl/08/39/2105/template2105/images/1/logo2.png"></a></div>
+      <div class="top-dh">
+        <div class="wrapper nav wp-navi" id="nav">
+          <div class="clearfix">
+            <div class="wp-panel">
+              <div class="wp-window" frag="窗口1" portletmode="simpleSudyNavi" contents="{'c2':'0'}">
+                 
+                  
+                  <ul class="wp-menu">
+                    
+                    <li class="menu-item i1"><a class="menu-link" href="http://sdem.nju.edu.cn/main.htm" target="_self">网站首页</a> 
+                       
+                    </li>
+                    
+                    <li class="menu-item i2"><a class="menu-link" href="/56974/list.htm" target="_self">学院一览</a> 
+                      
+                      <ul class="sub-menu ">
+                        
+                        <li class="sub-item i2-1"><a class="sub-link" href="/59103/list.htm" target="_self">学院简介</a></li>
+                        
+                        <li class="sub-item i2-2"><a class="sub-link" href="/59104/list.htm" target="_self">院长致辞</a></li>
+                        
+                        <li class="sub-item i2-3"><a class="sub-link" href="/59105/list.htm" target="_self">学院领导</a></li>
+                        
+                        <li class="sub-item i2-4"><a class="sub-link" href="/59106/list.htm" target="_self">机构设置</a></li>
+                        
+                      </ul>
+                       
+                    </li>
+                    
+                    <li class="menu-item i3"><a class="menu-link" href="/xwdt/list.htm" target="_self">新闻动态</a> 
+                      
+                      <ul class="sub-menu ">
+                        
+                        <li class="sub-item i3-1"><a class="sub-link" href="/56973/list.htm" target="_self">学院新闻</a></li>
+                        
+                        <li class="sub-item i3-2"><a class="sub-link" href="/56988/list.htm" target="_self">通知公告</a></li>
+                        
+                        <li class="sub-item i3-3"><a class="sub-link" href="/56989/list.htm" target="_self">学院视点</a></li>
+                        
+                        <li class="sub-item i3-4"><a class="sub-link" href="/56990/list.htm" target="_self">活动预告</a></li>
+                        
+                        <li class="sub-item i3-5"><a class="sub-link" href="/56991/list.htm" target="_self">学生动态</a></li>
+                        
+                      </ul>
+                       
+                    </li>
+                    
+                    <li class="menu-item i4"><a class="menu-link" href="/56975/list.htm" target="_self">党群建设</a> 
+                      
+                      <ul class="sub-menu ">
+                        
+                        <li class="sub-item i4-1"><a class="sub-link" href="/59107/list.htm" target="_self">党建工作</a></li>
+                        
+                        <li class="sub-item i4-2"><a class="sub-link" href="/59108/list.htm" target="_self">团委工作</a></li>
+                        
+                        <li class="sub-item i4-3"><a class="sub-link" href="/59109/list.htm" target="_self">工会工作</a></li>
+                        
+                        <li class="sub-item i4-4"><a class="sub-link" href="/59110/list.htm" target="_self">师德师风专题</a></li>
+                        
+                        <li class="sub-item i4-5"><a class="sub-link" href="/59111/list.htm" target="_self">规章制度</a></li>
+                        
+                        <li class="sub-item i4-6"><a class="sub-link" href="/59112/list.htm" target="_self">资料汇编</a></li>
+                        
+                      </ul>
+                       
+                    </li>
+                    
+                    <li class="menu-item i5"><a class="menu-link" href="/56976/list.htm" target="_self">师资力量</a> 
+                      
+                      <ul class="sub-menu ">
+                        
+                        <li class="sub-item i5-1"><a class="sub-link" href="/59579/list.htm" target="_self">按系科</a></li>
+                        
+                        <li class="sub-item i5-2"><a class="sub-link" href="/59580/list.htm" target="_self">按职称</a></li>
+                        
+                      </ul>
+                       
+                    </li>
+                    
+                    <li class="menu-item i6"><a class="menu-link" href="/56977/list.htm" target="_self">人才培养</a> 
+                      
+                      <ul class="sub-menu ">
+                        
+                        <li class="sub-item i6-1"><a class="sub-link" href="/59113/list.htm" target="_self">本科生</a></li>
+                        
+                        <li class="sub-item i6-2"><a class="sub-link" href="/59114/list.htm" target="_self">硕士研究生</a></li>
+                        
+                        <li class="sub-item i6-3"><a class="sub-link" href="/59115/list.htm" target="_self">博士研究生</a></li>
+                        
+                        <li class="sub-item i6-4"><a class="sub-link" href="/59116/list.htm" target="_self">招生</a></li>
+                        
+                      </ul>
+                       
+                    </li>
+                    
+                    <li class="menu-item i7"><a class="menu-link" href="/56978/list.htm" target="_self">科学研究</a> 
+                      
+                      <ul class="sub-menu ">
+                        
+                        <li class="sub-item i7-1"><a class="sub-link" href="/59117/list.htm" target="_self">科研新闻</a></li>
+                        
+                        <li class="sub-item i7-2"><a class="sub-link" href="/59118/list.htm" target="_self">代表性论文</a></li>
+                        
+                        <li class="sub-item i7-3"><a class="sub-link" href="/59119/list.htm" target="_self">学术著作</a></li>
+                        
+                        <li class="sub-item i7-4"><a class="sub-link" href="/59120/list.htm" target="_self">科研项目</a></li>
+                        
+                        <li class="sub-item i7-5"><a class="sub-link" href="/59121/list.htm" target="_self">科研获奖</a></li>
+                        
+                      </ul>
+                       
+                    </li>
+                    
+                    <li class="menu-item i8"><a class="menu-link" href="/56979/list.htm" target="_self">学生园地</a> 
+                      
+                      <ul class="sub-menu ">
+                        
+                        <li class="sub-item i8-1"><a class="sub-link" href="/59122/list.htm" target="_self">学生活动</a></li>
+                        
+                        <li class="sub-item i8-2"><a class="sub-link" href="/59123/list.htm" target="_self">学生管理</a></li>
+                        
+                        <li class="sub-item i8-3"><a class="sub-link" href="/59124/list.htm" target="_self">就业信息</a></li>
+                        
+                      </ul>
+                       
+                    </li>
+                    
+                    <li class="menu-item i9"><a class="menu-link" href="/56980/list.htm" target="_self">校友工作</a> 
+                       
+                    </li>
+                    
+                    <li class="menu-item i10"><a class="menu-link" href="/56981/list.htm" target="_self">诚聘英才</a> 
+                       
+                    </li>
+                    
+                  </ul>
+                   
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="lmtp" frag="窗口041" portletmode="simpleColumnAttri">
+<div class="tpsx6" style="background: #eee url(/_upload/column/de/71/56945/picture.png) center no-repeat; background-size: cover;"></div>
+</div>
+
+
+
+
+
+
+<div class="wrapper" id="l-container">
+  <div class="inner">
+    <div class="mod clearfix">
+      <div class="col_menu">
+        <div class="col_menu_head">
+          <h3 class="col_name" frag="窗口3" portletmode="simpleColumnAnchor"> <span class="col_name_text">
+            <span class='Column_Anchor'>人才培养</span>
+            </span> </h3>
+          <a class="column-switch"></a> </div>
+        <div class="col_menu_con" frag="面板4">
+          <div class="col_list" frag="窗口4" portletmode="simpleColumnList">
+             
+              
+              <ul class="wp_listcolumn list-paddingleft-2">
+                
+                <li class="wp_column column-1 "> <a title="本科生" class="col_item_link " href="/59113/list.htm"><span class="column-name">本科生</span></a> 
+                </li>
+                
+                <li class="wp_column column-2 "> <a title="硕士研究生" class="col_item_link " href="/59114/list.htm"><span class="column-name">硕士研究生</span></a> 
+                </li>
+                
+                <li class="wp_column column-3 "> <a title="博士研究生" class="col_item_link " href="/59115/list.htm"><span class="column-name">博士研究生</span></a> 
+                </li>
+                
+                <li class="wp_column column-4 selected"> <a title="招生" class="col_item_link selected" href="/59116/list.htm"><span class="column-name">招生</span></a> 
+                </li>
+                
+              </ul>
+               
+            
+          </div>
+        </div>
+      </div>
+      <div class="col_news">
+        <div class="col_news_box">
+          <div class="col_news_head">
+            <ul class="col_metas clearfix" frag="窗口5" portletmode="simpleColumnAttri">
+              
+                <li class="col_path"><span class="path_name">当前位置：</span><a href="/main.htm" target="_self">首页</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/56977/list.htm" target="_self">人才培养</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/59116/list.htm" target="_self">招生</a></li>
+                <li class="col_title">
+                  <h2>招生</h2>
+                </li>
+              
+            </ul>
+          </div>
+          <div class="col_news_con" >
+            <div class="col_news_list listcon">
+              <div frag="窗口6" portletmode="simpleList" configs="{'c26':'320','c14':'1','c1':'1','c27':'1','c33':'1','c4':'1','c6':'55','c9':'0','c12':'0','c28':'0','c16':'1','c30':'0','c25':'320','c15':'0','c29':'1','c5':'_blank','c17':'0','c19':'yyyy-MM-dd','c2':'序号,标题,发布时间','c21':'1','c7':'1','c13':'200','c22':'240','c3':'14','c8':'1','c34':'0','c31':'1','c32':'1','c23':'320','c18':'yyyy-MM-dd','c20':'0','c10':'50','c11':'1','c24':'1'}">
+                <div id="wp_news_w6"> 
+
+                  <ul class="news_list list2">
+                    
+                    <div class="jzlb clearfix">
+                      <div class="xysbt"><a href="/76/04/c59116a751108/page.htm" target="_blank">南京大学数字经济与管理学院2025年博士研究生 “申请-考核制”复试通知</a></div>
+                      <div class="xyssj">2025-03-27</div>
+                    </div>
+                    
+                    <div class="jzlb clearfix">
+                      <div class="xysbt"><a href="/6e/c7/c59116a749255/page.htm" target="_blank">南京大学数字经济与管理学院2025年硕士研究生复试录取工作细则</a></div>
+                      <div class="xyssj">2025-03-19</div>
+                    </div>
+                    
+                    <div class="jzlb clearfix">
+                      <div class="xysbt"><a href="/64/b3/c59116a746675/page.htm" target="_blank">南京大学数字经济与管理学院2025年博士研究生“申请-考核制”审核结果公示</a></div>
+                      <div class="xyssj">2025-03-06</div>
+                    </div>
+                    
+                    <div class="jzlb clearfix">
+                      <div class="xysbt"><a href="/5b/8c/c59116a744332/page.htm" target="_blank">南京大学数字经济与管理学院2025年博士研究生“申请-考核制”申请材料确认齐全名单</a></div>
+                      <div class="xyssj">2025-02-20</div>
+                    </div>
+                    
+                    <div class="jzlb clearfix">
+                      <div class="xysbt"><a href="/3b/16/c59116a736022/page.htm" target="_blank">南京大学数字经济与管理学院2025年博士研究生 “申请-考核制”申请材料确认提交名单</a></div>
+                      <div class="xyssj">2025-01-09</div>
+                    </div>
+                    
+                    <div class="jzlb clearfix">
+                      <div class="xysbt"><a href="/1d/a5/c59116a728485/page.htm" target="_blank">南京大学数字经济与管理学院2025年博士研究生 “申请-考核制”招生选拔实施细则</a></div>
+                      <div class="xyssj">2024-12-06</div>
+                    </div>
+                    
+                    <div class="jzlb clearfix">
+                      <div class="xysbt"><a href="/f0/8b/c59116a716939/page.htm" target="_blank">南京大学数字经济与管理学院 2025年接收推荐免试研究生工作实施细则</a></div>
+                      <div class="xyssj">2024-09-26</div>
+                    </div>
+                    
+                    <div class="jzlb clearfix">
+                      <div class="xysbt"><a href="/c6/7d/c59116a706173/page.htm" target="_blank">数字经济与管理学院2024年优秀本科生夏令营优秀营员名单公示</a></div>
+                      <div class="xyssj">2024-07-29</div>
+                    </div>
+                    
+                    <div class="jzlb clearfix">
+                      <div class="xysbt"><a href="/bc/62/c59116a703586/page.htm" target="_blank">数字经济与管理学院2024年优秀本科生夏令营在南京大学苏州校区成功召开</a></div>
+                      <div class="xyssj">2024-07-15</div>
+                    </div>
+                    
+                    <div class="jzlb clearfix">
+                      <div class="xysbt"><a href="/89/70/c59116a690544/page.htm" target="_blank">南京大学数字经济与管理学院2024年暑期学校招生</a></div>
+                      <div class="xyssj">2024-05-31</div>
+                    </div>
+                    
+                    <div class="jzlb clearfix">
+                      <div class="xysbt"><a href="/74/f0/c59116a685296/page.htm" target="_blank">2024年数字经济与管理学院博士研究生拟上报学校录取名单</a></div>
+                      <div class="xyssj">2024-05-13</div>
+                    </div>
+                    
+                    <div class="jzlb clearfix">
+                      <div class="xysbt"><a href="/4f/e0/c59116a675808/page.htm" target="_blank">南京大学数字经济与管理学院2024年硕士研究生招生考试复试成绩及总成绩</a></div>
+                      <div class="xyssj">2024-04-03</div>
+                    </div>
+                    
+                    <div class="jzlb clearfix">
+                      <div class="xysbt"><a href="/41/ea/c59116a672234/page.htm" target="_blank">南京大学数字经济与管理学院2024年硕士研究生复试录取工作细则</a></div>
+                      <div class="xyssj">2024-03-21</div>
+                    </div>
+                    
+                    <div class="jzlb clearfix">
+                      <div class="xysbt"><a href="/3b/93/c59116a670611/page.htm" target="_blank">南京大学数字经济与管理学院2024年博士研究生“申请-考核制”复试通知</a></div>
+                      <div class="xyssj">2024-03-12</div>
+                    </div>
+                    
+                    <div class="jzlb clearfix">
+                      <div class="xysbt"><a href="/38/4f/c59116a669775/page.htm" target="_blank">南京大学数字经济与管理学院2024年博士研究生“申请-考核制”审核结果公示</a></div>
+                      <div class="xyssj">2024-03-01</div>
+                    </div>
+                    
+                  </ul>
+                </div> 
+
+ <div id="wp_paging_w6"> 
+<ul class="wp_paging clearfix"> 
+     <li class="pages_count"> 
+         <span class="per_page">每页&nbsp;<em class="per_count">15</em>&nbsp;记录&nbsp;</span> 
+         <span class="all_count">总共&nbsp;<em class="all_count">34</em>&nbsp;记录&nbsp;</span> 
+     </li> 
+     <li class="page_nav"> 
+         <a class="first" href="/59116/list1.htm" target="_self"><span>第一页</span></a> 
+         <a class="prev" href="/59116/list1.htm" target="_self"><span>&lt;&lt;上一页</span></a> 
+         <a class="next" href="/59116/list3.htm" target="_self"><span>下一页&gt;&gt;</span></a> 
+         <a class="last" href="/59116/list3.htm" target="_self"><span>尾页</span></a> 
+     </li> 
+     <li class="page_jump"> 
+         <span class="pages">页码&nbsp;<em class="curr_page">2</em>/<em class="all_pages">3</em></span> 
+         <span><input class="pageNum" type="text" /><input type="hidden" class="currPageURL" value=""></span></span> 
+         <span><a class="pagingJump" href="javascript:void(0);" target="_self">跳转到&nbsp;</a></span> 
+     </li> 
+</ul> 
+</div> 
+<script type="text/javascript"> 
+     $().ready(function() { 
+         $("#wp_paging_w6 .pagingJump").click(function() { 
+             var pageNum = $("#wp_paging_w6 .pageNum").val(); 
+             if (pageNum === "") { alert('请输入页码！'); return; } 
+             if (isNaN(pageNum) || pageNum <= 0 || pageNum > 3) { alert('请输入正确页码！'); return; } 
+             var reg = new RegExp("/list", "g"); 
+             var url = "/59116/list.htm"; 
+             window.location.href = url.replace(reg, "/list" + pageNum); 
+         }); 
+     }); 
+</script> 
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<!--End||content--> 
+<!--Start||footer-->
+<div class="foot-1">
+  <div class="foot-2 clearfix">
+    <div class="foot-zc">
+      <div class="foot-logo" frag="窗口011" portletmode="simpleSiteAttri"><a href="/main.htm"><img src="/_upload/tpl/08/39/2105/template2105/images/1/logo2.png"></a></div>
+      <div class="dbwz">
+        <div class="dbwz1"><span class="bj1">学院地址：江苏省苏州市太湖大道1520号南京大学苏州校区南雍楼</span><span class="bj2">邮编：215163</span></div>
+        <div class="dbwz2"><span class="bj3">联系方式：0512-68768059</span></div>
+      </div>
+    </div>
+    <div class="foot-yc clearfix" frag="窗口012"><div id="wp_news_w012"> 
+ 
+      
+      <div class="ewm"> <img src="/_upload/article/images/02/b8/66c64b14480798088739c670a5b1/1b9bac57-50fd-48be-8f6d-49d0ac045180.jpg" width="112" height="112">
+        <div class="ewmbt">官方微信</div>
+      </div>
+       
+      
+    </div> 
+</div>
+  </div>
+  <div class="foot-4"> COPYRIGHT 2020 © ALL RIGHTS RESERVERD&nbsp;&nbsp;&nbsp;&nbsp;版权所有: 南京大学数字经济与管理学院 </div>
+</div>
+<!--End||footer-->
+</body>
+<script type="text/javascript" src="/_upload/tpl/08/39/2105/template2105/js/comcus.js"></script>
+<script type="text/javascript" src="/_upload/tpl/08/39/2105/template2105/js/list.js"></script>
+</html>
+
+ <img src="/_visitcount?siteId=784&type=2&columnId=59116" style="display:none" width="0" height="0"></image>

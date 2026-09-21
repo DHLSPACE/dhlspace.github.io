@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html class="webplus-main"  >
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=1400">
+<title>研究生院</title>
+<meta name="keywords" content="南京大学研究生院">
+<meta name="description" content="南京大学研究生院" >
+
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/datepicker/css/datepicker.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/jquery.min.js" sudy-wp-context="" sudy-wp-siteId="24"></script>
+<script language="javascript" src="/_js2/loadStyle.js" sys-path="/_upload/site/1/style/49/49.css"  site-path="/_upload/site/00/18/24/style/54/54.css" ></script>
+<script language="javascript" src="/_js2/grayscale.js"   ></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/winfloat/js/winfloat.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/jquery.datepicker.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/datepicker_lang_HK.js"></script>
+<script type="text/javascript" src="/_upload/tpl/07/fa/2042/template2042/extends/extends.js"></script>
+<link rel="stylesheet" href="/_upload/tpl/07/fa/2042/template2042/style.css" type="text/css" />
+<link rel="stylesheet" href="/_upload/tpl/07/fa/2042/template2042/slick.css" type="text/css" />
+
+<link href="/_upload/tpl/07/fa/2042/template2042/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+<!--[if lt IE 9]>
+<script src="/_upload/tpl/07/fa/2042/template2042/extends/libs/html5.js"></script>
+<![endif]-->
+</head>
+<body class="main">
+<!--Start||headTop--> 
+<!--End||headTop--> 
+<!--Start||head-->
+<div class="wrapper head" id="head">
+  <div class="inner">
+    <div class="mod clearfix">
+      <div class="head-left" frag="面板01"> 
+        <!--logo开始-->
+        <div class="sitelogo" frag="窗口01" portletmode="simpleSiteAttri"> <a href="/main.htm" title="返回研究生院首页"><img border='0' src='/_upload/site/00/18/24/logo.png' /></a> </div>
+        <!--//logo结束--> 
+      </div>
+      <div class="head-right">
+        <div class="searchbox" frag="窗口03" portletmode="search">
+           <div class="wp-search clearfix">
+              <form action="/_web/_search/api/search/new.rst?locale=zh_CN&request_locale=zh_CN&context=&_p=YXM9MjQmdD0yMDQyJmQ9MTAxMDMmcD0xJm09U04m" method="post" target="_blank">
+                <div class="search-input">
+                  <input name="keyword" class="search-title" type="text" value="输入关键词检索" onblur="if(this.value == '') { this.value = '输入关键词检索'; }" onfocus="if(this.value == '输入关键词检索') { this.value = ''; }" placeholder="输入关键词检索"/>
+                </div>
+                <div class="search-btn">
+                  <input name="submit" class="search-submit" type="submit" value=""/>
+                </div>
+              </form>
+            </div>
+        </div>
+        <div class="site-lang clearfix" frag="窗口02">
+           
+            
+            <ul class="clearfix">
+              
+              <li class="links i1"><a href="https://grawww.nju.edu.cn/_t77/main.htm" target="_self">旧版回顾</a> </li>
+              
+            </ul>
+             
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--End||head--> 
+<!--Start||nav-->
+<div class="wrapper nav wp-navi" id="nav">
+  <div class="inner clearfix">
+    <div class="wp-panel">
+      <div class="wp-window" frag="窗口1">
+         
+          
+          <ul class="wp-menu">
+            
+            <li class="menu-item i1"><a class="menu-link" href="http://grawww.nju.edu.cn/" target="_self">首页</a> 
+               
+            </li>
+            
+            <li class="menu-item i2"><a class="menu-link" href="/55003/list.htm" target="_self">机构简介</a> 
+               
+              <em class="menu-switch-arrow"></em>
+              <ul class="sub-menu ">
+                
+                <li class="sub-item i2-1"><a class="sub-link" href="/55005/list.htm" target="_self">研究生院简介</a></li>
+                
+                <li class="sub-item i2-2"><a class="sub-link" href="/55006/list.htm" target="_self">部门领导</a></li>
+                
+                <li class="sub-item i2-3"><a class="sub-link" href="/908/list.htm" target="_self">机构设置</a></li>
+                
+              </ul>
+               
+            </li>
+            
+            <li class="menu-item i3"><a class="menu-link" href="https://yzb.nju.edu.cn/main.htm" target="_self">招生信息</a> 
+               
+            </li>
+            
+            <li class="menu-item i4"><a class="menu-link" href="/pygz/list.htm" target="_self">培养工作</a> 
+               
+              <em class="menu-switch-arrow"></em>
+              <ul class="sub-menu ">
+                
+                <li class="sub-item i4-1"><a class="sub-link" href="/55625/list.htm" target="_self">相关规定</a></li>
+                
+                <li class="sub-item i4-2"><a class="sub-link" href="/55626/list.htm" target="_self">国际交流</a></li>
+                
+                <li class="sub-item i4-3"><a class="sub-link" href="/55627/list.htm" target="_self">各类项目</a></li>
+                
+                <li class="sub-item i4-4"><a class="sub-link" href="/xjxg/list.htm" target="_self">学籍相关</a></li>
+                
+                <li class="sub-item i4-5"><a class="sub-link" href="/55628/list.htm" target="_self">下载专区</a></li>
+                
+              </ul>
+               
+            </li>
+            
+            <li class="menu-item i5"><a class="menu-link" href="/55004/list.htm" target="_self">学位与导师</a> 
+               
+              <em class="menu-switch-arrow"></em>
+              <ul class="sub-menu ">
+                
+                <li class="sub-item i5-1"><a class="sub-link" href="/55018/list.htm" target="_self">学位工作</a></li>
+                
+                <li class="sub-item i5-2"><a class="sub-link" href="/55019/list.htm" target="_self">导师工作</a></li>
+                
+                <li class="sub-item i5-3"><a class="sub-link" href="/xmgl/list.htm" target="_self">项目管理</a></li>
+                
+                <li class="sub-item i5-4"><a class="sub-link" href="/55021/list.htm" target="_self">学位评定委员会</a></li>
+                
+                <li class="sub-item i5-5"><a class="sub-link" href="/xzzq/list.htm" target="_self">下载专区</a></li>
+                
+                <li class="sub-item i5-6"><a class="sub-link" href="/mybs/list.htm" target="_self">名誉博士</a></li>
+                
+              </ul>
+               
+            </li>
+            
+            <li class="menu-item i6"><a class="menu-link" href="/xjyjzglbgs/list.htm" target="_self">学籍与奖助管理</a> 
+               
+              <em class="menu-switch-arrow"></em>
+              <ul class="sub-menu ">
+                
+                <li class="sub-item i6-1"><a class="sub-link" href="/xgzcgd/list.htm" target="_self">相关政策规定</a></li>
+                
+                <li class="sub-item i6-2"><a class="sub-link" href="/xjxlgl/list.htm" target="_self">学籍学历管理</a></li>
+                
+              </ul>
+               
+            </li>
+            
+          </ul>
+           
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--End||nav--> 
+<!--Start||focus-->
+<div class="wrapper mbanner" id="banner">
+  <div class="inner clearfix">
+    <div frag="窗口2" class="post-2"><div id="wp_news_w2"> 
+
+      <div class="bg"></div>
+      <ul class="news_list news_list2 clearfix">
+        
+        <li class="news n1">
+          <div class="news_imgs"><a href='/0a/f0/c55788a789232/page.htm' target='_blank' title=' '><img src='/_upload/article/images/a8/d3/aa69c7d84ae490b8c629200fdb29/e392007f-b60e-47c4-8da0-01984b5ff1a5.jpg' width='640' /></a></div>
+        </li>
+        
+        <li class="news n2">
+          <div class="news_imgs"><a href='/bc/de/c55788a769246/page.htm' target='_blank' title=' '><img src='/_upload/article/images/8d/cd/0a215d704d17a38dff2b06bece16/223f5123-d6be-4a19-88f9-7a5d7f2a75a8.jpg' width='640' /></a></div>
+        </li>
+        
+        <li class="news n3">
+          <div class="news_imgs"><a href='/9d/37/c55788a630071/page.htm' target='_blank' title='   '><img src='/_upload/article/images/4e/4f/303b00e54b6fb1907e9bfff6b9ff/3b3a72b3-c8d9-42a4-b01c-eee52fa2a839.jpg' width='640' /></a></div>
+        </li>
+        
+      </ul>
+    </div> 
+</div>
+    <div frag="窗口3" class="post-3"><div id="wp_news_w3"> 
+
+      <ul class="news_list news_list2 clearfix">
+        
+        <li class="news n1">
+          <div class="news_imgs"><a href='/61/b6/c993a614838/page.htm' target='_blank' title='毕业典礼'><img src='/_upload/article/images/5c/74/e5630a6648aba2011219dfba735f/8d8504cc-f526-4fdb-84a4-041658dd4c25.png' width='640' /></a></div>
+        </li>
+        
+        <li class="news n2">
+          <div class="news_imgs"><a href='/33/c4/c993a13252/page.htm' target='_blank' title='北大楼毕业'><img src='/_upload/article/bd/1a/98cc653d4081bcf458117865bc6b/afaafa9f-1178-4271-85c2-61c10f840ba6.jpg' width='640' /></a></div>
+        </li>
+        
+        <li class="news n3">
+          <div class="news_imgs"><a href='/33/c5/c993a13253/page.htm' target='_blank' title='风光'><img src='/_upload/article/8b/81/4d0a845443c3af76526c1fb05a4e/2bbc85c4-d8d3-4ee7-80e2-2bd18d6ee370.jpg' width='640' /></a></div>
+        </li>
+        
+        <li class="news n4">
+          <div class="news_imgs"><a href='/33/c3/c993a13251/page.htm' target='_blank' title='学校风光'><img src='/_upload/article/77/8e/99bfd65240e4a41598e1bf38f66d/abcb0a64-9a7c-4e8c-bf72-7858827df1c6.jpg' width='640' /></a></div>
+        </li>
+        
+      </ul>
+    </div> 
+</div>
+  </div>
+</div>
+<!--End||focus--> 
+<!--Start||content-->
+<div class="wrapper main1" id="container-1">
+  <div class="inner">
+    <div class="mod clearfix">
+      <div class="ml">
+        <div class="post post1 post-12 mbox" frag="窗口12">
+          <div class="tt">
+            <h3 class="tit"><span class="title" frag="标题">工作动态</span><span class="en">NEWS</span> </h3>
+          </div>
+          <div class="con">
+            <!-- No Data -->
+          </div>
+        </div>
+        <div class="post post1 post-13 mbox" frag="窗口13">
+          <div class="con">
+            <div id="wp_news_w13"> 
+
+              <ul class="news_list clearfix">
+                
+                <li class="news i1 clearfix">
+                  <div class="news_imgs"><a href='https://mp.weixin.qq.com/s/o0xqpVIPFvE9zk0KMJPWVQ' target='_blank' title='AI赋能·教改 |生成式人工智能赋能研究生教育教学范式变革：管理学教育数字化平台建设'><img src='/_upload/article/images/1a/e6/f83c470d4225a244116034429040/4b8ed621-49b0-42dc-a9ff-0b62e298bc98.png' width='640' /></a></div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_time">2026.09.17</div>
+                      <div class="news_title"><a href='https://mp.weixin.qq.com/s/o0xqpVIPFvE9zk0KMJPWVQ' target='_blank' title='AI赋能·教改 |生成式人工智能赋能研究生教育教学范式变革：管理学教育数字化平台建设'>AI赋能·教改 |生成式人工智能赋能研究生教育教学范式变革：管理学教育数字化平台建设</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="news i2 clearfix">
+                  <div class="news_imgs"><a href='https://mp.weixin.qq.com/s/4u9jVvBWQ_RMIbfMlJxTbw' target='_blank' title='南京大学“国优计划”专博班正式开班'><img src='/_upload/article/images/57/43/a6984b7046d1b71c7aebc5ed5b1f/1de670f1-8ddc-4841-ac12-1986ebdc3441.png' width='640' /></a></div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_time">2026.09.16</div>
+                      <div class="news_title"><a href='https://mp.weixin.qq.com/s/4u9jVvBWQ_RMIbfMlJxTbw' target='_blank' title='南京大学“国优计划”专博班正式开班'>南京大学“国优计划”专博班正式开班</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="news i3 clearfix">
+                  <div class="news_imgs"><a href='https://mp.weixin.qq.com/s/JGfnChElVOvkZDeh2MHf2w' target='_blank' title='教改视窗 | AI赋能社会工作硕士专业研究生学（MSW）教育：基于“虚拟案主”与“智能考官”的数智OSCE平台建设'><img src='/_upload/article/images/61/c7/1ab8a2874c61a42ae29134dd321a/383e67bd-b3b6-4603-81e4-787a9062194a.png' width='640' /></a></div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_time">2026.09.01</div>
+                      <div class="news_title"><a href='https://mp.weixin.qq.com/s/JGfnChElVOvkZDeh2MHf2w' target='_blank' title='教改视窗 | AI赋能社会工作硕士专业研究生学（MSW）教育：基于“虚拟案主”与“智能考官”的数智OSCE平台建设'>教改视窗 | AI赋能社会工作硕士专业研究生学（MSW）教育：基于“虚拟案主”与“智能考官”的数智OSCE平台建设</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="news i4 clearfix">
+                  <div class="news_imgs"><a href='https://mp.weixin.qq.com/s/s6k8BJax9ik7AHt8x6nq_g' target='_blank' title='我校省级研究生创新项目立项数量再创新高'><img src='/_upload/article/images/b3/28/87fdcf5b4ae6928479c80e2154ce/f0797f3b-173a-43de-8365-72126cbe7b8e.png' width='640' /></a></div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_time">2026.08.28</div>
+                      <div class="news_title"><a href='https://mp.weixin.qq.com/s/s6k8BJax9ik7AHt8x6nq_g' target='_blank' title='我校省级研究生创新项目立项数量再创新高'>我校省级研究生创新项目立项数量再创新高</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="news i5 clearfix">
+                  <div class="news_imgs"><a href='https://mp.weixin.qq.com/s/SUL1Z7Z8Jt28Htqy3lkYoA' target='_blank' title='AI+跨学科人才培育再结硕果 我校博士生深度参与世界级大奖成果'><img src='/_upload/article/images/9a/b3/8c38957d4863bf774023ac95c1f3/9e9550bc-dd3c-4f0a-920c-13dfc2e20a30.jpg' width='640' /></a></div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_time">2026.07.28</div>
+                      <div class="news_title"><a href='https://mp.weixin.qq.com/s/SUL1Z7Z8Jt28Htqy3lkYoA' target='_blank' title='AI+跨学科人才培育再结硕果 我校博士生深度参与世界级大奖成果'>AI+跨学科人才培育再结硕果 我校博士生深度参与世界级大奖成果</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+              </ul>
+            </div> 
+
+          </div>
+        </div>
+        <div class="post post1 post-14 mbox" frag="窗口14">
+          <div class="con">
+            <div id="wp_news_w14"> 
+
+              <ul class="news_list clearfix">
+                
+                <li class="news i1 clearfix">
+                  <div class="news_imgs"><a href='https://mp.weixin.qq.com/s/o0xqpVIPFvE9zk0KMJPWVQ' target='_blank' title='AI赋能·教改 |生成式人工智能赋能研究生教育教学范式变革：管理学教育数字化平台建设'><img src='/_upload/article/images/1a/e6/f83c470d4225a244116034429040/4b8ed621-49b0-42dc-a9ff-0b62e298bc98.png' width='640' /></a></div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_time">2026.09.17</div>
+                      <div class="news_title"><a href='https://mp.weixin.qq.com/s/o0xqpVIPFvE9zk0KMJPWVQ' target='_blank' title='AI赋能·教改 |生成式人工智能赋能研究生教育教学范式变革：管理学教育数字化平台建设'>AI赋能·教改 |生成式人工智能赋能研究生教育教学范式变革：管理学教育数字化平台建设</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="news i2 clearfix">
+                  <div class="news_imgs"><a href='https://mp.weixin.qq.com/s/4u9jVvBWQ_RMIbfMlJxTbw' target='_blank' title='南京大学“国优计划”专博班正式开班'><img src='/_upload/article/images/57/43/a6984b7046d1b71c7aebc5ed5b1f/1de670f1-8ddc-4841-ac12-1986ebdc3441.png' width='640' /></a></div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_time">2026.09.16</div>
+                      <div class="news_title"><a href='https://mp.weixin.qq.com/s/4u9jVvBWQ_RMIbfMlJxTbw' target='_blank' title='南京大学“国优计划”专博班正式开班'>南京大学“国优计划”专博班正式开班</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+              </ul>
+            </div> 
+
+          </div>
+          <div class="tt">
+            <div class="more_btn" frag="按钮" type="更多"> <a href="https://news.nju.edu.cn/index.html" class="w14_more"><span class="more_text" frag="按钮内容">进入新闻网查看更多<img src="/_upload/tpl/07/fa/2042/template2042/images/more.png"></span></a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="mr">
+        <div class="post post1 post-15 mbox" frag="窗口15">
+          <div class="tt">
+            <h3 class="tit"><span class="title" frag="标题" title="通知公告">               通知公告</span> <span class="en">NOTICE</span></h3>
+            <div class="more_btn" frag="按钮" type="更多"> <a href="/905/list.htm" class="w15_more"><span class="more_text" frag="按钮内容">更多+</span></a></div>
+          </div>
+          <div class="con rili2">
+            <div id="wp_news_w15"> 
+
+              <ul class="news_list clearfix">
+                
+                <li class="news n1 clearfix">
+                  <div class="news_date">
+                    <div class="news_year">20</div>
+                    <div class="news_days">2026/08</div>
+                  </div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_title"><a href='/d6/ef/c905a841455/page.htm' target='_blank' title='鼓楼校区综合服务大厅值班表'>鼓楼校区综合服务大厅值班表</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="news n2 clearfix">
+                  <div class="news_date">
+                    <div class="news_year">21</div>
+                    <div class="news_days">2026/09</div>
+                  </div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_title"><a href='/e2/a8/c905a844456/page.htm' target='_blank' title='关于2027春季学期研究生赴台交流项目校内推荐名单的公示'>关于2027春季学期研究生赴台交流项目校内推荐名单的公示</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="news n3 clearfix">
+                  <div class="news_date">
+                    <div class="news_year">18</div>
+                    <div class="news_days">2026/09</div>
+                  </div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_title"><a href='/e1/a2/c905a844194/page.htm' target='_blank' title='关于2027春季学期研究生赴台交流项目遴选答辩的通知'>关于2027春季学期研究生赴台交流项目遴选答辩的通知</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="news n4 clearfix">
+                  <div class="news_date">
+                    <div class="news_year">16</div>
+                    <div class="news_days">2026/09</div>
+                  </div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_title"><a href='/e0/f6/c905a844022/page.htm' target='_blank' title='关于开展2027年南京大学研究生海外访学项目的通知'>关于开展2027年南京大学研究生海外访学项目的通知</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="news n5 clearfix">
+                  <div class="news_date">
+                    <div class="news_year">15</div>
+                    <div class="news_days">2026/09</div>
+                  </div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_title"><a href='/e0/b0/c905a843952/page.htm' target='_blank' title='关于黄少松等27名研究生转专业的公示'>关于黄少松等27名研究生转专业的公示</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="news n6 clearfix">
+                  <div class="news_date">
+                    <div class="news_year">15</div>
+                    <div class="news_days">2026/09</div>
+                  </div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_title"><a href='/e0/85/c905a843909/page.htm' target='_blank' title='关于 2019 级博士研究生、2023 级全日制和 2022 级非全日制硕士研究生即将达到最长修业年限的预警通知'>关于 2019 级博士研究生、2023 级全日制和 2022 级非全日制硕士研究生即将达到最长修业年限的预警通知</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+              </ul>
+            </div> 
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper main2" id="container-2">
+  <div class="inner">
+    <div class="mod clearfix aos-init" data-aos="fade-up">
+      <div class="post post1 post-16 mbox" frag="窗口16">
+        <div class="tt">
+          <h3 class="tit"><span class="title" frag="标题">办事指南</span><span class="en">TRANSACTION</span> </h3>
+          <div class="more_btn" frag="按钮" type="更多"> <a href="/906/list.htm" class="w16_more"><span class="more_text" frag="按钮内容">查看更多<img src="/_upload/tpl/07/fa/2042/template2042/images/more.png"></span></a> </div>
+        </div>
+        <div class="con">
+          <div id="wp_news_w16"> 
+
+            <ul class="news_list clearfix">
+              
+              <li class="news n1 clearfix">
+                <div class="box clearfix"> <span class="news_title"> 
+                   
+                  <a href='/93/68/c906a562024/page.htm' target='_blank' title='研究生学位证明书办理'>研究生学位证明书办理</a> 
+                   
+                  </span> <span class="news_meta">2022-02-25</span> </div>
+              </li>
+              
+              <li class="news n2 clearfix">
+                <div class="box clearfix"> <span class="news_title"> 
+                   
+                  <a href='/e6/d8/c906a190168/page.htm' target='_blank' title='研究生毕业证明书办理'>研究生毕业证明书办理</a> 
+                   
+                  </span> <span class="news_meta">2021-11-05</span> </div>
+              </li>
+              
+              <li class="news n3 clearfix">
+                <div class="box clearfix"> <span class="news_title"> 
+                   
+                  <a href='/41/7f/c906a16767/page.htm' target='_blank' title='有关审核博士、硕士研究生成绩单、证书英文翻译件的通知 '>有关审核博士、硕士研究生成绩单、证书英文翻译件的通知 </a> 
+                   
+                  </span> <span class="news_meta">2020-09-14</span> </div>
+              </li>
+              
+              <li class="news n4 clearfix">
+                <div class="box clearfix"> <span class="news_title"> 
+                   
+                  <a href='/29/06/c906a10502/page.htm' target='_blank' title='南京大学研究生证补办、火车优惠卡充磁流程'>南京大学研究生证补办、火车优惠卡充磁流程</a> 
+                   
+                  </span> <span class="news_meta">2019-12-13</span> </div>
+              </li>
+              
+              <li class="news n5 clearfix">
+                <div class="box clearfix"> <span class="news_title"> 
+                   
+                  <a href='/29/04/c906a10500/page.htm' target='_blank' title='研究生中英文在读证明办理流程'>研究生中英文在读证明办理流程</a> 
+                   
+                  </span> <span class="news_meta">2018-11-27</span> </div>
+              </li>
+              
+              <li class="news n6 clearfix">
+                <div class="box clearfix"> <span class="news_title"> 
+                   
+                  <a href='/29/00/c906a10496/page.htm' target='_blank' title='博士学位论文盲审流程图'>博士学位论文盲审流程图</a> 
+                   
+                  </span> <span class="news_meta">2014-11-10</span> </div>
+              </li>
+              
+            </ul>
+          </div> 
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="qb">
+  <div class="wrapper main3" id="container-3">
+    <div class="inner">
+      <div class="mod clearfix aos-init" data-aos="fade-up">
+        <div class="post post1 post-17 mbox" frag="窗口17">
+          <div class="tt">
+            <h3 class="tit"><span class="title" frag="标题" title="信息系统">              信息系统</span><span class="en">QUICK LINKS</span> </h3>
+          </div>
+          <div class="con">
+            <div id="wp_news_w17"> 
+
+              <ul class="news_list clearfix">
+                
+                <li class="news i1 clearfix">
+                  <div class="news_imgs"><a href='https://ehallapp.nju.edu.cn/gsapp1/sys/yjsemaphome/portal/index.do' target='' title='研究生系统管理平台'><img src='/_upload/article/71/7c/4c3b775d43e5ac3e81b88c6ba6fc/ce2a0e28-00d2-4884-9db3-89f9479c4b1e.png' width='640' /></a></div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_title"><a href='https://ehallapp.nju.edu.cn/gsapp1/sys/yjsemaphome/portal/index.do' target='' title='研究生系统管理平台'>研究生系统管理平台</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="news i2 clearfix">
+                  <div class="news_imgs"><a href='https://gs.nju.edu.cn/geapp/sys/yjsbmxsd/entrance.do' target='' title='博士生招生网上报名系统'><img src='/_upload/article/d4/19/5f34f91649e986c13dda97154469/28b2eb85-4cba-4479-912f-4859844a4cdc.png' width='640' /></a></div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_title"><a href='https://gs.nju.edu.cn/geapp/sys/yjsbmxsd/entrance.do' target='' title='博士生招生网上报名系统'>博士生招生网上报名系统</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="news i3 clearfix">
+                  <div class="news_imgs"><a href='https://gs.nju.edu.cn/geapp/sys/yjsbmxsd/entrance.do' target='' title='接收推荐免试研究生报名系统'><img src='/_upload/article/83/48/b15bfd8d4f74971209c8ee17c0e5/727a2120-ded7-4a23-9d25-c9a41b4f115d.png' width='640' /></a></div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_title"><a href='https://gs.nju.edu.cn/geapp/sys/yjsbmxsd/entrance.do' target='' title='接收推荐免试研究生报名系统'>接收推荐免试研究生报名系统</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="news i4 clearfix">
+                  <div class="news_imgs"><a href='https://ehallapp.nju.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do' target='_blank' title='博士生答辩公示平台'><img src='/_upload/article/images/2b/b7/684c028a47edaa4debd0d8c7d21c/e4d96d71-92d5-4dc1-af9c-ba887cbfbbce.png' width='640' /></a></div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_title"><a href='https://ehallapp.nju.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do' target='_blank' title='博士生答辩公示平台'>博士生答辩公示平台</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+                <li class="news i5 clearfix">
+                  <div class="news_imgs"><a href='/_redirect?siteId=24&columnId=994&articleId=12580' target='_blank' title='研究生迎新系统'><img src='/_upload/article/5d/71/d4c97d344e91a0fb87f08077dfb3/ac5603a8-eaa0-4780-a231-27f6b6a6530e.png' width='640' /></a></div>
+                  <div class="news_wz">
+                    <div class="news_con">
+                      <div class="news_title"><a href='/_redirect?siteId=24&columnId=994&articleId=12580' target='_blank' title='研究生迎新系统'>研究生迎新系统</a></div>
+                    </div>
+                  </div>
+                </li>
+                
+              </ul>
+            </div> 
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper main4" id="container-4">
+    <div class="inner">
+      <div class="mod clearfix aos-init" data-aos="fade-up">
+        <div class="post post1 post-18 mbox" frag="窗口18">
+          <div class="tt">
+            <h3 class="tit"><span class="title" frag="标题">友情链接</span><span class="en">INFORMATION SYSTEM</span> </h3>
+          </div>
+          <div class="con">
+            <!-- No Data -->
+          </div>
+        </div>
+        <div class="ml">
+          <div class="post post1 post-19 mbox" frag="窗口19">
+            <div class="tt">
+              <h3 class="tit"><span class="title" frag="标题">友情链接</span> </h3>
+            </div>
+            <div class="con">
+              <div id="wp_news_w19"> 
+
+                <ul class="news_list clearfix">
+                  
+                  <li class="news n1 clearfix">
+                    <div class="box clearfix"> <span class="news_title"> 
+                       
+                      <a href='https://www.nju.edu.cn/' target='_blank' title='南京大学'>南京大学</a> 
+                       
+                      </span> </div>
+                  </li>
+                  
+                  <li class="news n2 clearfix">
+                    <div class="box clearfix"> <span class="news_title"> 
+                       
+                      <a href='http://jyt.jiangsu.gov.cn/' target='_blank' title='江苏省教育厅'>江苏省教育厅</a> 
+                       
+                      </span> </div>
+                  </li>
+                  
+                  <li class="news n3 clearfix">
+                    <div class="box clearfix"> <span class="news_title"> 
+                       
+                      <a href='http://www.csadge.edu.cn/' target='_blank' title='中国学位与研究生教育学会'>中国学位与研究生教育学会</a> 
+                       
+                      </span> </div>
+                  </li>
+                  
+                  <li class="news n4 clearfix">
+                    <div class="box clearfix"> <span class="news_title"> 
+                       
+                      <a href='https://www.cdgdc.edu.cn/' target='_blank' title='中国学位与研究生教育信息网'>中国学位与研究生教育信息网</a> 
+                       
+                      </span> </div>
+                  </li>
+                  
+                  <li class="news n5 clearfix">
+                    <div class="box clearfix"> <span class="news_title"> 
+                       
+                      <a href='http://www.moe.gov.cn/' target='_blank' title='教育部'>教育部</a> 
+                       
+                      </span> </div>
+                  </li>
+                  
+                </ul>
+              </div> 
+
+            </div>
+          </div>
+        </div>
+        <div class="mr">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--End||content--> 
+<!--Start||footer-->
+<div class="wrapper footer" id="footer">
+  <div class="inner">
+    <div class="mod clearfix">
+      <div class="foot-left">
+        <div class="sitelogo" frag="窗口90" portletmode="simpleSiteAttri"> <a href="/main.htm" title="返回研究生院首页"><img src="/_upload/tpl/07/fa/2042/template2042/images/logo_s.png"></a> </div>
+        <div class="info" frag="窗口91" portletmode="simpleSiteAttri">
+                
+                         <p class="copyright"><span>通信地址：南京市仙林大道163号，南京大学研究生院</span></p>
+                         <p class="copyright"><span>邮政编码：210046</span></p>
+                         <p class="copyright i2"><span>版权所有：南京大学研究生院</span></p>
+                         <p class="copyright"><span>Copyright © Nanjing University All Rights Reserved.</span></p>
+                
+        </div>
+      </div>
+      <div class="foot-center">
+                <div class="post post1 post-20 mbox" frag="窗口20">
+            <div class="tt">
+              <h3 class="tit"><span class="title" frag="标题">友情链接</span> </h3>
+            </div>
+            <div class="con">
+              <div id="wp_news_w20"> 
+                <ul class="news_list clearfix">
+                  
+                  <li class="news n1 clearfix">
+                    <div class="box clearfix"> <span class="news_title"> 
+                       
+                      <a href='https://www.nju.edu.cn/' target='_blank' title='南京大学'>南京大学</a> 
+                       
+                      </span> </div>
+                  </li>
+                  
+                  <li class="news n2 clearfix">
+                    <div class="box clearfix"> <span class="news_title"> 
+                       
+                      <a href='http://jyt.jiangsu.gov.cn/' target='_blank' title='江苏省教育厅'>江苏省教育厅</a> 
+                       
+                      </span> </div>
+                  </li>
+                  
+                  <li class="news n3 clearfix">
+                    <div class="box clearfix"> <span class="news_title"> 
+                       
+                      <a href='http://www.csadge.edu.cn/' target='_blank' title='中国学位与研究生教育学会'>中国学位与研究生教育学会</a> 
+                       
+                      </span> </div>
+                  </li>
+                  
+                  <li class="news n4 clearfix">
+                    <div class="box clearfix"> <span class="news_title"> 
+                       
+                      <a href='https://www.cdgdc.edu.cn/' target='_blank' title='中国学位与研究生教育信息网'>中国学位与研究生教育信息网</a> 
+                       
+                      </span> </div>
+                  </li>
+                  
+                  <li class="news n5 clearfix">
+                    <div class="box clearfix"> <span class="news_title"> 
+                       
+                      <a href='http://www.moe.gov.cn/' target='_blank' title='教育部'>教育部</a> 
+                       
+                      </span> </div>
+                  </li>
+                  
+                </ul>
+              </div> 
+
+            </div>
+          </div>
+      </div>
+      <div class="foot-right" >
+          <div class="shares" frag="窗口92">
+		<div id="wp_news_w92"> 
+			<ul class="clearfix">
+				
+				<li class="i1">
+				<div class="con"><img src='/_upload/article/images/37/51/161fd67141e5b6d98ac64b1708c3/15057ea8-a75b-4231-ba18-4f11bc2a19f4.png' width='640' /></div>
+				</li>
+				
+			</ul>
+		</div> 
+
+	  </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+<div class="pc" frag="窗口93"><div id="winfloat_div_w93" style="position:absolute; width:300px; height:170px;background;#fff;padding:5px;z-index:1024;"><div id="wp_news_w93"> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="wp_article_list_table"> 
+<tr> 
+<td> 
+<a href='/ce/44/c66542a839236/page.htm' target='_blank' title='意见建议征集'><img src='/_upload/article/images/a5/68/6a78cfa84025b9ac28801625d35f/90bc35a6-656c-46b1-8b3e-e2f95c2ca7dc.png' width='300' /></a></td> 
+</tr> 
+</table></div> 
+<div align="right"><DIV style="FONT-SIZE: 9pt;width:40px; CURSOR: pointer" align="right" onclick="$('#winfloat_div_w93').hide()">×关闭</DIV></div></div><script type="text/javascript">$(document).ready(function(){ $('#winfloat_div_w93').imgFloat({speed:31,xPos:338,yPos:94});});</script></div>
+
+<!--End||footer-->
+</body>
+<script type="text/javascript" src="/_upload/tpl/07/fa/2042/template2042/js/slick.min.js"></script>
+<script type="text/javascript" src="/_upload/tpl/07/fa/2042/template2042/js/comcus.js"></script>
+<script type="text/javascript" src="/_upload/tpl/07/fa/2042/template2042/js/main.js"></script>
+</html>
+
+ <img src="/_visitcount?siteId=24&type=1&columnId=240" style="display:none" width="0" height="0"/>

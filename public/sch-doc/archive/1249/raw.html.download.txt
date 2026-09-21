@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="refresh" content="300">
+    <script type="text/javascript" src="/njdx/front/ui/jquery/jquery.js?v=v4.0.2"></script><script type="text/javascript" src="/njdx/front/ui/jquery/jquery.base64.js?v=v4.0.2"></script><script type="text/javascript" src="/njdx/front/ui/boshan/ui.js" data-appurl="/njdx"></script><link type="text/css" rel="stylesheet" href="/njdx/front/ui/page/info.css?v=v4.0.2"/><link type="text/css" rel="stylesheet" href="/njdx/front/ui/page/channel.css?v=v4.0.2"/><script type="text/javascript" src="/njdx/front/ui/visit/visit.js?s=126&c=14926&v=v4.0.2"></script><script type="text/javascript" src="/njdx/front/ui/jwplayer/jwplayer.js?v=v4.0.2"></script><script type="text/javascript" src="/njdx/front/ui/jwplayer/bs.js?v=v4.0.2"></script><script type="text/javascript" src="/njdx/front/ui/pdf/build/pdf.js?v=v4.0.2"></script><script type="text/javascript" src="/njdx/front/ui/pdf/showpdf.js?v=v4.0.2"></script><script type="text/javascript" src="/njdx/front/ui/layer/layer.js?v=v4.0.2"></script><script type="text/javascript" src="/njdx/front/ui/layer/bs.js?v=v4.0.2"></script><script type="text/javascript" src="/njdx/front/ui/template/es5-shim.min.js?v=v4.0.2"></script><script type="text/javascript" src="/njdx/front/ui/template/es5-sham.min.js?v=v4.0.2"></script><script type="text/javascript" src="/njdx/front/ui/template/template-web.js?v=v4.0.2"></script><script type="text/javascript" src="/njdx/front/ui/template/template-bs.js?v=v4.0.2"></script>
+    <title>2027年接收推荐免试研究生预报名通知</title>
+
+    <!-- 引入重置样式表 -->
+    <link rel="stylesheet" href="/DFS//template/3885//images/global.css">
+
+    <!-- 引入顶部样式表 -->
+    <link rel="stylesheet" href="/DFS//template/3896/images/hd.css">
+
+    <!-- 引入主体样式表 -->
+    <link rel="stylesheet" href="/DFS//template/3885//images/main.css">
+
+    <!-- 引入底部样式表 -->
+    <link rel="stylesheet" href="/DFS//template/3896/images/ft.css">
+
+    <!-- 引入手机端顶部、主体、底部样式 -->
+    <link rel="stylesheet" href="/DFS//template/3896/images/hd_phone.css">
+    <link rel="stylesheet" href="/DFS//template/3885//images/main_phone.css">
+    <link rel="stylesheet" href="/DFS//template/3896/images/ft_phone.css">
+
+
+  </head>
+   <style>
+      .nav-list1>li a p {
+          font-size: 1.018412vw;
+      }
+     .main-left{
+       display:none;
+     }
+     .main-right{
+       width:100%;
+     }
+     
+.word table {border: 1px solid black;}
+.word tr, td { border: 1px solid black; }
+  </style>
+  <body>
+
+    <!-- 头部 PC端 -->
+    <div class="header">
+      <div class="header-left">
+        <a href="http://arch.nju.edu.cn"><img src="/DFS//template/3885//images/logo_hd.png" alt=""></a>
+      </div>
+      <div class="header-line"></div>
+      <div class="header-right">
+        <div class="header-right-link">
+          <form action="/njdx/front/aisearch/search.do" name="hzsearch"  method="post" target="_blank" class="link-form">
+            <input class="link-form-input1" type="text"  name="wd" id="wd" value="" placeholder="请输入搜索内容">
+            <input type="hidden" name="siteid" id="siteid" value="126">			
+            <input type="hidden" name="sorttype" id="sorttype" value="0">		
+            <input type="hidden" id="tplid" name="tplid" value="3886" />		
+            <input type="hidden" name="indexids" id="indexids" value="1">
+            <input class="link-form-input2" type="submit" id="lsj_ss" value="">
+          </form>
+          <div class="link-click">
+            <img src="/DFS//template/3885//images/search.png" alt="">
+          </div>
+          <ul class="link-ul1">
+                    <li>
+                        <a href="javascript:;">
+                            <img src="/DFS//template/3896/images/icon-sign.png" alt="">
+                        </a>
+                    </li>
+
+
+            <li class="cn">
+              <a href="http://arch.nju.edu.cn">
+                <p>CN</p>
+              </a>
+            </li>
+            <li class="en">
+
+                        <a href="http://arch.nju.edu.cn/SAUP,NJU/index.html" target="_blank">
+                            <p>EN</p>
+                        </a>
+
+            </li>
+              <li>
+
+                  <a href="http://arch.nju.edu.cn/sy/sdjd/20221213/i235344.html">
+                    <p>师德监督</p>
+                  </a>
+
+                <ul class="link-ul2">
+
+
+                </ul>
+              </li>
+
+              <li>
+                <a href="https://arch.nju.edu.cn/njdx/front/expand/index.do?expandid=61&siteid=126">
+                  <p>院长信箱</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <p>数字平台</p>
+                </a>
+                <ul class="link-ul2">
+
+                    <li>
+                      <a href="http://oa.nju.edu.cn/oa2/" target="_blank">
+                        <p>OA系统</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://arch.nju.edu.cn/sy/szpt/zlxz/index.html" target="_blank">
+                        <p>资料下载</p>
+                      </a>
+                    </li>
+
+                </ul>
+              </li>
+
+
+          </ul>
+        </div>
+        <div class="header-right-nav">
+          <div class="nav">
+            <ul class="nav-list1">
+
+
+                  <li>
+                    <a href="http://arch.nju.edu.cn/xygk/index.html">
+                      <p>学院概况</p>
+                    </a>
+                    <ul class="nav-list2">
+
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xygk/xyjs/index.html">
+                                  <p>学院介绍</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xygk/xyld/index.html">
+                                  <p>学院领导</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xygk/dqzz/index.html">
+                                  <p>党群组织</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xygk/xzbm/index.html">
+                                  <p>行政部门</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xygk/xszz/index.html">
+                                  <p>学术组织</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xygk/gzzd/index.html">
+                                  <p>规章制度</p>
+                                </a>
+                              </li>
+
+                        </ul>
+                      </li>
+                    <div class="nav-list1-line"></div>
+
+                  <li>
+                    <a href="http://arch.nju.edu.cn/xwdt/index.html">
+                      <p>新闻动态</p>
+                    </a>
+                    <ul class="nav-list2">
+
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xwdt/2026/index.html">
+                                  <p>2026</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xwdt/2025/index.html">
+                                  <p>2025</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xwdt/2024/index.html">
+                                  <p>2024</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xwdt/2023/index.html">
+                                  <p>2023</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xwdt/2022/index.html">
+                                  <p>2022</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xwdt/2021/index.html">
+                                  <p>2021</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xwdt/2020/index.html">
+                                  <p>2020</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xwdt/2019/index.html">
+                                  <p>2019</p>
+                                </a>
+                              </li>
+
+                        </ul>
+                      </li>
+                    <div class="nav-list1-line"></div>
+
+                  <li>
+                    <a href="http://arch.nju.edu.cn/szdw/index.html">
+                      <p>师资队伍</p>
+                    </a>
+                    <ul class="nav-list2">
+
+                              <li>
+                                <a href="http://arch.nju.edu.cn/szdw/js/index.html">
+                                  <p>教授</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/szdw/fjs/index.html">
+                                  <p>副教授</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/szdw/zpfjs/index.html">
+                                  <p>准聘副教授</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/szdw/js4778/index.html">
+                                  <p>讲师</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/szdw/zljs/index.html">
+                                  <p>准聘助理教授</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/szdw/fyjy/index.html">
+                                  <p>特任副研究员</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/szdw/bsh/index.html">
+                                  <p>博士后</p>
+                                </a>
+                              </li>
+
+                        </ul>
+                      </li>
+                    <div class="nav-list1-line"></div>
+
+                  <li>
+                    <a href="http://arch.nju.edu.cn/rcpy/index.html">
+                      <p>人才培养</p>
+                    </a>
+                    <ul class="nav-list2">
+
+                          <li>
+                            <a href="http://arch.nju.edu.cn/rcpy/xsfx/index.html">
+                              <p>教研室</p>
+                            </a>
+                            <ul class="nav-list3">
+
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/xsfx/jzlsylljys/index.html">
+                                        <p>建筑理论教研室</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/xsfx/jzsjjys/index.html">
+                                        <p>建筑设计教研室 </p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/xsfx/jzjsjys/index.html">
+                                        <p>建筑技术教研室 </p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/xsfx/cxghlljys/index.html">
+                                        <p>规划理论教研室</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/xsfx/cxghsjjys/index.html">
+                                        <p>规划设计教研室</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/xsfx/cxghjsjys4992/index.html">
+                                        <p>规划技术教研室</p>
+                                      </a>
+                                    </li>
+
+                                </ul>
+                              </li>
+
+                          <li>
+                            <a href="http://arch.nju.edu.cn/rcpy/bks/index.html">
+                              <p>本科生</p>
+                            </a>
+                            <ul class="nav-list3">
+
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/bks/zsxx/index.html">
+                                        <p>实验班招生</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/bks/jzghsyb/index.html">
+                                        <p>培养方案</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/bks/gdxz/index.html">
+                                        <p>规定细则</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/bks/zlxz/index.html">
+                                        <p>资料下载</p>
+                                      </a>
+                                    </li>
+
+                                </ul>
+                              </li>
+
+                          <li>
+                            <a href="http://arch.nju.edu.cn/rcpy/yjs/index.html">
+                              <p>研究生</p>
+                            </a>
+                            <ul class="nav-list3">
+
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/yjs/pyfa2205/index.html">
+                                        <p>培养方案</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/yjs/pyfa/index.html">
+                                        <p>招生信息</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/yjs/yjszsxx/index.html">
+                                        <p>英文硕士</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/yjs/khkt/index.html">
+                                        <p>考核开题</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/yjs/xwgz/index.html">
+                                        <p>学位工作</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/yjs/zlxz/index.html">
+                                        <p>资料下载</p>
+                                      </a>
+                                    </li>
+
+                                </ul>
+                              </li>
+
+                              <li>
+                                <a href="http://arch.nju.edu.cn/rcpy/gjhkc/index.html">
+                                  <p>国际化课程</p>
+                                </a>
+                              </li>
+                          <li>
+                            <a href="http://arch.nju.edu.cn/rcpy/jxcg/index.html">
+                              <p>教学成果</p>
+                            </a>
+                            <ul class="nav-list3">
+
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/jxcg/jxnjlw/index.html">
+                                        <p>课程回顾</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/jxcg/xsjs/index.html">
+                                        <p>教学展览</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/jxcg/jxnj/index.html">
+                                        <p>教学年鉴</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/rcpy/jxcg/jxlw/index.html">
+                                        <p>教学论文</p>
+                                      </a>
+                                    </li>
+
+                                </ul>
+                              </li>
+
+
+                        </ul>
+                      </li>
+                    <div class="nav-list1-line"></div>
+
+                  <li>
+                    <a href="http://arch.nju.edu.cn/xsyj/index.html">
+                      <p>科学研究</p>
+                    </a>
+                    <ul class="nav-list2">
+
+                          <li>
+                            <a href="http://arch.nju.edu.cn/xsyj/kypt/index.html">
+                              <p>科研平台</p>
+                            </a>
+                            <ul class="nav-list3">
+
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/xsyj/kypt/sys/index.html">
+                                        <p>实验室</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/xsyj/kypt/kyjg/index.html">
+                                        <p>科研机构</p>
+                                      </a>
+                                    </li>
+
+                                </ul>
+                              </li>
+
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xsyj/kyxm/index.html">
+                                  <p>科研项目</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xsyj/kycg/index.html">
+                                  <p>科研成果</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xsyj/hzjl/index.html">
+                                  <p>合作交流</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xsyj/xsjz/index.html">
+                                  <p>学术讲座</p>
+                                </a>
+                              </li>
+
+                        </ul>
+                      </li>
+                    <div class="nav-list1-line"></div>
+
+                  <li>
+                    <a href="http://arch.nju.edu.cn/gjjl/index.html">
+                      <p>国际交流</p>
+                    </a>
+                    <ul class="nav-list2">
+
+                              <li>
+                                <a href="http://arch.nju.edu.cn/gjjl/gjjlgk/index.html">
+                                  <p>交流概况</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/gjjl/gjkyhz/index.html">
+                                  <p>科研合作</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/gjjl/gjxsjl/index.html">
+                                  <p>学术交流</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/gjjl/ppzyssxm/index.html">
+                                  <p>英文硕士</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/gjjl/xsjh/index.html">
+                                  <p>学生交换</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/gjjl/sxw/index.html">
+                                  <p>双学位</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/gjjl/sgagxhzlmwlrjkxysjzylm/index.html">
+                                  <p>合作联盟</p>
+                                </a>
+                              </li>
+
+                        </ul>
+                      </li>
+                    <div class="nav-list1-line"></div>
+
+                  <li>
+                    <a href="http://arch.nju.edu.cn/xstd/index.html">
+                      <p>学生天地</p>
+                    </a>
+                    <ul class="nav-list2">
+
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xstd/xgyd/index.html">
+                                  <p>学工园地</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xstd/sxjy/index.html">
+                                  <p>升学就业</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xstd/xshd/index.html">
+                                  <p>学生活动</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/xstd/xyfc/index.html">
+                                  <p>校友风采</p>
+                                </a>
+                              </li>
+
+                        </ul>
+                      </li>
+                    <div class="nav-list1-line"></div>
+
+                  <li>
+                    <a href="http://arch.nju.edu.cn/zszp/index.html">
+                      <p>招生招聘</p>
+                    </a>
+                    <ul class="nav-list2">
+
+                          <li>
+                            <a href="http://arch.nju.edu.cn/zszp/zsxx/index.html">
+                              <p>招生信息</p>
+                            </a>
+                            <ul class="nav-list3">
+
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/zszp/zsxx/bks/index.html">
+                                        <p>本科生</p>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://arch.nju.edu.cn/zszp/zsxx/yjs/index.html">
+                                        <p>研究生</p>
+                                      </a>
+                                    </li>
+
+                                </ul>
+                              </li>
+
+                              <li>
+                                <a href="http://arch.nju.edu.cn/zszp/cpyc/index.html">
+                                  <p>诚聘英才</p>
+                                </a>
+                              </li>
+
+                        </ul>
+                      </li>
+                    <div class="nav-list1-line"></div>
+
+                  <li>
+                    <a href="http://arch.nju.edu.cn/tzgg/index.html">
+                      <p>通知公告</p>
+                    </a>
+                    <ul class="nav-list2">
+
+                              <li>
+                                <a href="http://arch.nju.edu.cn/tzgg/jzg/index.html">
+                                  <p>教职工</p>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="http://arch.nju.edu.cn/tzgg/xs/index.html">
+                                  <p>学生</p>
+                                </a>
+                              </li>
+
+                        </ul>
+                      </li>
+                    <div class="nav-list1-line"></div>
+
+
+
+
+                </ul>
+              </div>
+            <div class="cloud">
+
+                <a href="http://arch.nju.edu.cn/ysny/index.html">
+                  <p>云上南雍</p>
+                </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 头部 移动端 -->
+      <div class="head">
+        <div class="head-left">
+          <a href="http://arch.nju.edu.cn"><img src="/DFS//template/3885//images/logo_hd.png" alt=""></a>
+        </div>
+        <div class="head-right">
+          <form action="/njdx/front/aisearch/search.do" name="hzsearch" method="post" target="_blank" class="head-form">
+            <input class="head-form-input1" type="text" name="wd" id="wd" value="" placeholder="请输入搜索内容">
+            <input type="hidden" name="siteid" id="siteid" value="126">			
+            <input type="hidden" name="sorttype" id="sorttype" value="0">		
+            <input type="hidden" id="tplid" name="tplid" value="3886" />		
+            <input type="hidden" name="indexids" id="indexids" value="1">
+            <input class="head-form-input2" type="submit" id="lsj_ss" value="">
+          </form>
+          <ul class="head-list1">
+                    <li>
+                        <a href="javascript:;">
+                            <img src="/DFS//template/3896/images/icon-sign.png" alt="">
+                        </a>
+                    </li>
+
+
+            <li class="cn">
+              <a href="http://arch.nju.edu.cn">
+                <p>CN</p>
+              </a>
+            </li>
+            <li class="en">
+
+                        <a href="http://arch.nju.edu.cn/SAUP,NJU/index.html" target="_blank">
+                            <p>EN</p>
+                        </a>
+
+            </li>
+
+              <li>
+
+                  <a href="http://arch.nju.edu.cn/sy/sdjd/20221213/i235344.html">
+                    <p>师德监督</p>
+                  </a>
+
+                <ul class="head-list2">
+
+
+                </ul>
+              </li>
+
+
+              <li>
+                <a href="https://arch.nju.edu.cn/njdx/front/expand/index.do?expandid=61&siteid=126">
+                  <p>院长信箱</p>
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;">
+                  <p>数字平台</p>
+                </a>
+                <ul class="head-list2">
+
+                    <li>
+                      <a href="http://oa.nju.edu.cn/oa2/" target="_blank">
+                        <p>OA系统</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://arch.nju.edu.cn/sy/szpt/zlxz/index.html" target="_blank">
+                        <p>资料下载</p>
+                      </a>
+                    </li>
+
+                </ul>
+              </li>
+            
+          </ul>
+        </div>
+
+        <div class="head-nav">
+          <div class="head-phone">
+            <img src="/DFS//template/3885//images/home_01.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-- phone导航栏 -->
+      <div class="nav1">
+        <div class="nav-auto">
+          <div class="nav1-bar">
+            <span>导航</span>
+            <div class="nav1-close">
+              <img src="/DFS//template/3885//images/x_01.png" alt="">
+            </div>
+          </div>
+
+          <ul class="nav1-ul1">
+            <li class="li1 clearfix">
+              <a href="http://arch.nju.edu.cn" class="phone_a">首页</a>
+              <div class="drop_01 phone_drop">
+                <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+              </div>
+            </li>
+
+                <li class="li2 clearfix">
+                  <a href="http://arch.nju.edu.cn/xygk/index.html" class="phone_a">学院概况</a>
+                  <div class="drop_01 phone_drop" data-click="true">
+                    <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                  </div>
+                  <div class="f-cb"></div>
+                  <ul class="nav1-ul2 phone_column clearfix">
+
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xygk/xyjs/index.html" class="phone_a a-full">学院介绍</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xygk/xyld/index.html" class="phone_a a-full">学院领导</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xygk/dqzz/index.html" class="phone_a a-full">党群组织</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xygk/xzbm/index.html" class="phone_a a-full">行政部门</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xygk/xszz/index.html" class="phone_a a-full">学术组织</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xygk/gzzd/index.html" class="phone_a a-full">规章制度</a>
+                              <div class="f-cb"></div>
+                            </li>
+
+                      </ul>
+                    </li>
+
+                <li class="li3 clearfix">
+                  <a href="http://arch.nju.edu.cn/xwdt/index.html" class="phone_a">新闻动态</a>
+                  <div class="drop_01 phone_drop" data-click="true">
+                    <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                  </div>
+                  <div class="f-cb"></div>
+                  <ul class="nav1-ul2 phone_column clearfix">
+
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xwdt/2026/index.html" class="phone_a a-full">2026</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xwdt/2025/index.html" class="phone_a a-full">2025</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xwdt/2024/index.html" class="phone_a a-full">2024</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xwdt/2023/index.html" class="phone_a a-full">2023</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xwdt/2022/index.html" class="phone_a a-full">2022</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xwdt/2021/index.html" class="phone_a a-full">2021</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xwdt/2020/index.html" class="phone_a a-full">2020</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xwdt/2019/index.html" class="phone_a a-full">2019</a>
+                              <div class="f-cb"></div>
+                            </li>
+
+                      </ul>
+                    </li>
+
+                <li class="li4 clearfix">
+                  <a href="http://arch.nju.edu.cn/szdw/index.html" class="phone_a">师资队伍</a>
+                  <div class="drop_01 phone_drop" data-click="true">
+                    <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                  </div>
+                  <div class="f-cb"></div>
+                  <ul class="nav1-ul2 phone_column clearfix">
+
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/szdw/js/index.html" class="phone_a a-full">教授</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/szdw/fjs/index.html" class="phone_a a-full">副教授</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/szdw/zpfjs/index.html" class="phone_a a-full">准聘副教授</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/szdw/js4778/index.html" class="phone_a a-full">讲师</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/szdw/zljs/index.html" class="phone_a a-full">准聘助理教授</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/szdw/fyjy/index.html" class="phone_a a-full">特任副研究员</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/szdw/bsh/index.html" class="phone_a a-full">博士后</a>
+                              <div class="f-cb"></div>
+                            </li>
+
+                      </ul>
+                    </li>
+
+                <li class="li5 clearfix">
+                  <a href="http://arch.nju.edu.cn/rcpy/index.html" class="phone_a">人才培养</a>
+                  <div class="drop_01 phone_drop" data-click="true">
+                    <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                  </div>
+                  <div class="f-cb"></div>
+                  <ul class="nav1-ul2 phone_column clearfix">
+
+                        <li class="clearfix">
+                          <a href="http://arch.nju.edu.cn/rcpy/xsfx/index.html" class="phone_a">教研室</a>
+                          <div class="drop_02 phone_drop" data-click="true">
+                            <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                          </div>
+                          <div class="f-cb"></div>
+                          <ul class="nav1-ul3 phone_column clearfix">
+
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/xsfx/jzlsylljys/index.html" class="phone_a a-full">建筑理论教研室</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/xsfx/jzsjjys/index.html" class="phone_a a-full">建筑设计教研室 </a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/xsfx/jzjsjys/index.html" class="phone_a a-full">建筑技术教研室 </a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/xsfx/cxghlljys/index.html" class="phone_a a-full">规划理论教研室</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/xsfx/cxghsjjys/index.html" class="phone_a a-full">规划设计教研室</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/xsfx/cxghjsjys4992/index.html" class="phone_a a-full">规划技术教研室</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+
+                              </ul>
+                            </li>
+
+                        <li class="clearfix">
+                          <a href="http://arch.nju.edu.cn/rcpy/bks/index.html" class="phone_a">本科生</a>
+                          <div class="drop_02 phone_drop" data-click="true">
+                            <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                          </div>
+                          <div class="f-cb"></div>
+                          <ul class="nav1-ul3 phone_column clearfix">
+
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/bks/zsxx/index.html" class="phone_a a-full">实验班招生</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/bks/jzghsyb/index.html" class="phone_a a-full">培养方案</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/bks/gdxz/index.html" class="phone_a a-full">规定细则</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/bks/zlxz/index.html" class="phone_a a-full">资料下载</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+
+                              </ul>
+                            </li>
+
+                        <li class="clearfix">
+                          <a href="http://arch.nju.edu.cn/rcpy/yjs/index.html" class="phone_a">研究生</a>
+                          <div class="drop_02 phone_drop" data-click="true">
+                            <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                          </div>
+                          <div class="f-cb"></div>
+                          <ul class="nav1-ul3 phone_column clearfix">
+
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/yjs/pyfa2205/index.html" class="phone_a a-full">培养方案</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/yjs/pyfa/index.html" class="phone_a a-full">招生信息</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/yjs/yjszsxx/index.html" class="phone_a a-full">英文硕士</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/yjs/khkt/index.html" class="phone_a a-full">考核开题</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/yjs/xwgz/index.html" class="phone_a a-full">学位工作</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/yjs/zlxz/index.html" class="phone_a a-full">资料下载</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+
+                              </ul>
+                            </li>
+
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/rcpy/gjhkc/index.html" class="phone_a a-full">国际化课程</a>
+                              <div class="f-cb"></div>
+                            </li>
+                        <li class="clearfix">
+                          <a href="http://arch.nju.edu.cn/rcpy/jxcg/index.html" class="phone_a">教学成果</a>
+                          <div class="drop_02 phone_drop" data-click="true">
+                            <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                          </div>
+                          <div class="f-cb"></div>
+                          <ul class="nav1-ul3 phone_column clearfix">
+
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/jxcg/jxnjlw/index.html" class="phone_a a-full">课程回顾</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/jxcg/xsjs/index.html" class="phone_a a-full">教学展览</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/jxcg/jxnj/index.html" class="phone_a a-full">教学年鉴</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/rcpy/jxcg/jxlw/index.html" class="phone_a a-full">教学论文</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+
+                              </ul>
+                            </li>
+
+
+                      </ul>
+                    </li>
+
+                <li class="li6 clearfix">
+                  <a href="http://arch.nju.edu.cn/xsyj/index.html" class="phone_a">科学研究</a>
+                  <div class="drop_01 phone_drop" data-click="true">
+                    <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                  </div>
+                  <div class="f-cb"></div>
+                  <ul class="nav1-ul2 phone_column clearfix">
+
+                        <li class="clearfix">
+                          <a href="http://arch.nju.edu.cn/xsyj/kypt/index.html" class="phone_a">科研平台</a>
+                          <div class="drop_02 phone_drop" data-click="true">
+                            <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                          </div>
+                          <div class="f-cb"></div>
+                          <ul class="nav1-ul3 phone_column clearfix">
+
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/xsyj/kypt/sys/index.html" class="phone_a a-full">实验室</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/xsyj/kypt/kyjg/index.html" class="phone_a a-full">科研机构</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+
+                              </ul>
+                            </li>
+
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xsyj/kyxm/index.html" class="phone_a a-full">科研项目</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xsyj/kycg/index.html" class="phone_a a-full">科研成果</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xsyj/hzjl/index.html" class="phone_a a-full">合作交流</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xsyj/xsjz/index.html" class="phone_a a-full">学术讲座</a>
+                              <div class="f-cb"></div>
+                            </li>
+
+                      </ul>
+                    </li>
+
+                <li class="li7 clearfix">
+                  <a href="http://arch.nju.edu.cn/gjjl/index.html" class="phone_a">国际交流</a>
+                  <div class="drop_01 phone_drop" data-click="true">
+                    <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                  </div>
+                  <div class="f-cb"></div>
+                  <ul class="nav1-ul2 phone_column clearfix">
+
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/gjjl/gjjlgk/index.html" class="phone_a a-full">交流概况</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/gjjl/gjkyhz/index.html" class="phone_a a-full">科研合作</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/gjjl/gjxsjl/index.html" class="phone_a a-full">学术交流</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/gjjl/ppzyssxm/index.html" class="phone_a a-full">英文硕士</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/gjjl/xsjh/index.html" class="phone_a a-full">学生交换</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/gjjl/sxw/index.html" class="phone_a a-full">双学位</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/gjjl/sgagxhzlmwlrjkxysjzylm/index.html" class="phone_a a-full">合作联盟</a>
+                              <div class="f-cb"></div>
+                            </li>
+
+                      </ul>
+                    </li>
+
+                <li class="li8 clearfix">
+                  <a href="http://arch.nju.edu.cn/xstd/index.html" class="phone_a">学生天地</a>
+                  <div class="drop_01 phone_drop" data-click="true">
+                    <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                  </div>
+                  <div class="f-cb"></div>
+                  <ul class="nav1-ul2 phone_column clearfix">
+
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xstd/xgyd/index.html" class="phone_a a-full">学工园地</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xstd/sxjy/index.html" class="phone_a a-full">升学就业</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xstd/xshd/index.html" class="phone_a a-full">学生活动</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/xstd/xyfc/index.html" class="phone_a a-full">校友风采</a>
+                              <div class="f-cb"></div>
+                            </li>
+
+                      </ul>
+                    </li>
+
+                <li class="li9 clearfix">
+                  <a href="http://arch.nju.edu.cn/zszp/index.html" class="phone_a">招生招聘</a>
+                  <div class="drop_01 phone_drop" data-click="true">
+                    <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                  </div>
+                  <div class="f-cb"></div>
+                  <ul class="nav1-ul2 phone_column clearfix">
+
+                        <li class="clearfix">
+                          <a href="http://arch.nju.edu.cn/zszp/zsxx/index.html" class="phone_a">招生信息</a>
+                          <div class="drop_02 phone_drop" data-click="true">
+                            <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                          </div>
+                          <div class="f-cb"></div>
+                          <ul class="nav1-ul3 phone_column clearfix">
+
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/zszp/zsxx/bks/index.html" class="phone_a a-full">本科生</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+                                  <li class="clearfix">
+                                    <a href="http://arch.nju.edu.cn/zszp/zsxx/yjs/index.html" class="phone_a a-full">研究生</a>
+                                    <div class="f-cb"></div>
+                                  </li>
+
+                              </ul>
+                            </li>
+
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/zszp/cpyc/index.html" class="phone_a a-full">诚聘英才</a>
+                              <div class="f-cb"></div>
+                            </li>
+
+                      </ul>
+                    </li>
+
+                <li class="li10 clearfix">
+                  <a href="http://arch.nju.edu.cn/tzgg/index.html" class="phone_a">通知公告</a>
+                  <div class="drop_01 phone_drop" data-click="true">
+                    <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                  </div>
+                  <div class="f-cb"></div>
+                  <ul class="nav1-ul2 phone_column clearfix">
+
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/tzgg/jzg/index.html" class="phone_a a-full">教职工</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/tzgg/xs/index.html" class="phone_a a-full">学生</a>
+                              <div class="f-cb"></div>
+                            </li>
+
+                      </ul>
+                    </li>
+
+                <li class="li11 clearfix">
+                  <a href="http://arch.nju.edu.cn/ysny/index.html" class="phone_a">云上南雍</a>
+                  <div class="drop_01 phone_drop" data-click="true">
+                    <img src="/DFS//template/3885//images/phone_xia.png" alt="">
+                  </div>
+                  <div class="f-cb"></div>
+                  <ul class="nav1-ul2 phone_column clearfix">
+
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/ysny/hjzp/index.html" class="phone_a a-full">主题展览</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/ysny/jxnj/index.html" class="phone_a a-full">教学年鉴</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/ysny/ztzl/index.html" class="phone_a a-full">毕业设计</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/ysny/yxbs/index.html" class="phone_a a-full">优秀校友</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/ysny/dbzp/index.html" class="phone_a a-full">教师作品</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/ysny/xczx/index.html" class="phone_a a-full">乡村振兴</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/ysny/csgx/index.html" class="phone_a a-full">城市更新</a>
+                              <div class="f-cb"></div>
+                            </li>
+                            <li class="clearfix">
+                              <a href="http://arch.nju.edu.cn/ysny/zhcs/index.html" class="phone_a a-full">智慧城市</a>
+                              <div class="f-cb"></div>
+                            </li>
+
+                      </ul>
+                    </li>
+
+
+              </ul>
+
+            </div>
+        </div>
+
+
+        <!-- 导航栏二级 -->
+        <div id="channel_topnav1" style="display:none;">
+        </div>
+        <script>
+          $('.nav li').each(function () {
+            var res = $(this).find('p').eq(0).text();
+            console.log($(this).find('p').eq(0).text())
+            if (res == $("#channel_topnav1").text().trim()) {
+              $(this).addClass('isActive');
+            }
+          })
+        </script>
+
+        <!-- 导航栏三级 -->
+        <div id="channel_topnav2" style="display:none;">
+                <a href="">
+                  <p></p>
+                </a>
+        </div>
+        <script>
+          $('.nav li').each(function () {
+            var res = $(this).find('p').eq(0).text();
+            console.log($(this).find('p').eq(0).text())
+            if (res == $("#channel_topnav2").text().trim()) {
+              $(this).addClass('isActive');
+            }
+          })
+        </script>
+
+        <!-- 导航栏四级 -->
+        <div id="channel_topnav3" style="display:none;">
+        </div>
+        <script>
+          $('.nav li').each(function () {
+            var res = $(this).find('p').eq(0).text();
+            console.log($(this).find('p').eq(0).text())
+            if (res == $("#channel_topnav3").text().trim()) {
+              $(this).addClass('isActive');
+            }
+          })
+        </script>
+
+
+
+
+        <!-- 中间内容 -->
+        <div class="main">
+
+          <!-- 左侧装饰图 -->
+            <div class="main-left" style="background-image: url(/DFS//file/2023/01/14/20230114103015356ckhcj6.jpg?iid=69559);">
+              <!-- <img src="/DFS//template/3885//images/left_img.png" alt=""> -->
+            </div>
+
+          <!-- 右侧栏目信息 -->
+          <div class="main-right">
+            <div class="main-right-info">
+              <h2>2027年接收推荐免试研究生预报名通知</h2>
+              <div class="msg">
+                <span class="time">发布时间：2026-08-03</span>
+                
+              </div>
+              <div class="word" id="word">
+                <p style="text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-size: 16px; text-indent: 2em; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;;"><br/></span></p><p style="text-indent: 2em; text-align: justify; line-height: 1.5em;"><strong><span style="font-size: 16px; text-indent: 2em; font-family: 宋体, SimSun;">“南京大学接收推荐免试研究生预报名系统”已于2026年8月3日12:00开放。<span style="text-indent: 2em; font-size: 16px; color: rgb(0, 112, 192); font-family: arial, helvetica, sans-serif;">南京大学建筑与城市规划学院接收推免生预报名自2026年8月3日12:00开始至2026年9月4日17:00截止。</span></span></strong></p><p style="text-indent: 2em; text-align: justify; line-height: 1.5em;"><strong><span style="font-size: 16px; text-indent: 2em; font-family: 宋体, SimSun;">欢迎各校优秀学子（含已取得推免资格的和可能取得推免资格的学生）踊跃报名，并在截止时间前完成提交申请。</span></strong></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun;"><strong><span style="font-size: 16px;">说明：1.根据学校通知要求，申请人应保证填报信息、提交材料的真实性和准确性。凡提供虚假信息的，一经查实即取消申请资格。2.对于因暑假原因可能存在盖章不方便的情况，申请人可先提交信息真实准确的《简表》以完成系统申报。待所在学校开学后，请及时完成《简表》和系统生成的《申请表》上的全部签字和盖章。如收到我院通知，须带来参加复试。3.咨询邮箱：<span style="font-size: 16px; font-family: &quot;times new roman&quot;;">470399203@qq.com</span></span></strong></span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">-----------------------------------------------------------------------------------</span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">1.南京大学2027年接收推荐免试研究生预报名通知（<a href="https://yzb.nju.edu.cn/d4/52/c47863a840786/page.htm" _src="https://yzb.nju.edu.cn/d4/52/c47863a840786/page.htm">https://yzb.nju.edu.cn/d4/52/c47863a840786/page.htm</a>）（<span style="font-family: 宋体, SimSun;">提醒：进入系统填报时，须下载该网页末尾“附件2【学生端】南京大学推免预报名系统常见问题说明”了解；</span>直博生申请人须下载该网页末尾的“附件1南京大学2027年报考攻读博士学位研究生专家推荐信”）</span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">2.“南京大学接收推荐免试研究生预报名系统”登录端口位于南京大学研究生院主页底部“信息系统”导航栏内，网址为：<a href="https://gs.nju.edu.cn/geapp/sys/yjsbmxsd/entrance.do" _src="https://gs.nju.edu.cn/geapp/sys/yjsbmxsd/entrance.do">https://gs.nju.edu.cn/geapp/sys/yjsbmxsd/entrance.do</a>（以下简称“南大推免系统”），选择“推免预报名”系统进入。填报时请务必确认手机号码和电子邮箱地址填写无误（很重要）；确认个人基本信息及志愿信息无误后再提交申请。在9月4日17:00报名截止前且待院系审核状态，学生端可撤回申请、修改报名信息、重新上传材料等。</span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-size: 16px; font-family: 宋体, SimSun;">3.<strong><span style="font-size: 16px;">有意申报我校2027年推荐免试研究生的同学，必须通过南大推免系统预报名成功，方可获得我院遴选、复试资格；如未通过南大推免系统预报名，将被视为无效申请。</span></strong></span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-size: 16px; font-family: 宋体, SimSun;">4.<span style="font-size: 16px;">推免预报名系统中需上传“<strong>姓名_申请材料.pdf</strong>”</span>，具体要求详见本网页附件模板（word版本供填报使用），系统中也有模板和说明。申请直博生的2封推荐信请按要求密封后交至本院。</span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">5.教育部预计将在2026年9月下旬开通“全国推荐免试攻读研究生信息公开暨管理服务系统”（开通时间详见中国研招网公告，网址：<a href="http://yz.chsi.com.cn" _src="http://yz.chsi.com.cn">http://yz.chsi.com.cn</a>，以下简称“教育部推免系统”）。<strong><span style="font-size: 16px; font-family: 宋体, SimSun;">通过我校我院选拔并取得所在学校推免资格的学生，仍须在教育部推免系统中进行报名，完成后续相关录取程序，否则申请视为无效。</span></strong></span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">6.我校推免预报名系统中的直博生招生单位、招生专业、招生导师名单仅供初步参考，最终以教育部推免服务系统中公布的2027年直博生导师信息为准。建议申请推免直博的考生在报考阶段，与我院咨询邮箱积极联络，如对报考信息有疑问，可在报名阶段联系我院咨询。</span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">7.学院教师队伍（<a href="https://arch.nju.edu.cn/szdw/js/index.html" _src="https://arch.nju.edu.cn/szdw/js/index.html">https://arch.nju.edu.cn/szdw/js/index.html</a>）人才培养（<a href="https://arch.nju.edu.cn/rcpy/xsfx/jzlsylljys/index.html" _src="https://arch.nju.edu.cn/rcpy/xsfx/jzlsylljys/index.html">https://arch.nju.edu.cn/rcpy/xsfx/jzlsylljys/index.html</a>）</span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">8.<span style="font-family: 宋体, SimSun;">为保证及时接收到后续环节安排通知及信息，请申请人务必保持联系畅通。请考生及时主动关注推免预报名系统、我校研究生招生信息网和公众号、<strong>我院官网—人才培养—研究生—招生信息发布的各类通知</strong>，跟进后续各项工作进展。</span></span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">此外，我院关于2027年硕士研究生招生目录的拟调整公告已发布，详见（<a href="https://arch.nju.edu.cn/rcpy/yjs/pyfa/20260709/i401303.html" _src="https://arch.nju.edu.cn/rcpy/yjs/pyfa/20260709/i401303.html">https://arch.nju.edu.cn/rcpy/yjs/pyfa/20260709/i401303.html</a>）</span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">---------------------------------------------------------------------------------------------------</span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">一、申请条件</span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">1.热爱祖国，拥护中国共产党的领导，政治立场坚定，具有服务国家和服务人民的社会责任感，品德良好，遵纪守法，未受过任何处分，身心健康。</span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">2.申请者应为取得所在学校推荐免试生资格的优秀应届本科毕业生，创新意识和创新能力较强，学术研究兴趣浓厚。</span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">3.申请直博者，本科前三学年（四年制）或本科前四年（五年制）总学分成绩应名列专业前茅，具有较强的创新意识和学术潜质，英语达到我院博士生申请考核细则中的外国语要求。</span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">4.跨专业申请者应具备所申请专业大学本科阶段应达到的知识能力和水平，并须提供相关证明材料。</span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">5.我院081300建筑学01和04方向可接收跨专业申请者；建筑学02方向和085100建筑专业硕士可接收普通高等学校本科专业目录中建筑类（建筑学、城乡规划、风景园林、历史建筑保护工程、人居环境科学与技术、城市设计、智慧建筑与建造）专业申请者；建筑学03方向除接收以上建筑类所含专业本科生之外，还可接收上述目录中计算机类专业申请者。083300城乡规划学和085300城乡规划专业硕士可接收跨专业申请者。</span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">6.申请者需提供英语成绩证明。</span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;">（2027年接收推荐免试生复试具体安排预计将在2026年8月底至9月上旬公布，复试时间预计在9月中上旬。请各位申请人做好准备。<span style="font-size: 18px; font-family: 宋体, SimSun;">具体流程可登录<span style="font-family: 宋体, SimSun; font-size: 18px;">我院官网—人才培养—研究生—招生信息</span>查阅2026年接收推荐免试研究生工作实施细则中相关内容，仅供参考）</span></span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;"><br/></span></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;"></span></p><p style="text-align: left;"><span style="font-family: 宋体, SimSun; font-size: 16px;">附件：</span><a style="color: rgb(0, 102, 204); text-decoration: underline; font-family: 宋体, SimSun; font-size: 16px;" href="/DFS//file/2026/08/03/202608032206429743tthcn.docx" title="姓名_申请材料(模板)_2027"><span style="font-family: 宋体, SimSun; font-size: 16px;">姓名_申请材料(模板)</span></a></p><p style="margin-bottom: 10px; text-indent: 2em; text-align: justify; line-height: 1.5em;"><span style="font-family: 宋体, SimSun; font-size: 16px;"><br/></span></p>
+              </div>
+              <!-- <div class="wb">
+<div id="upanddown"></div><script type="text/javascript" src="/njdx/front/ui/upanddown/upanddown.js?infoid=406985"></script>
+</div> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- 底部 PC端 -->
+        <div class="footer">
+          <div class="footer-left">
+            <div class="footer-left-logo">
+              <img src="/DFS//template/3885//images/logo_ft.png" alt="">
+            </div>
+            <div class="footer-left-school">
+              <a href="https://www.nju.edu.cn/main.htm" target="_blank"><p>南京大学</p></a>
+              <a href="http://www.adinju.com" target="_blank"><p>南京大学建筑规划设计研究院</p></a>
+              <a href="http://www.njuup.com/" target="_blank"><p>南京大学城市规划设计研究院</p></a>
+            </div>
+          </div>
+          <div class="footer-right">
+            <div class="footer-right-info">
+              <p>地址：江苏省南京市鼓楼区汉口路22号建良楼，邮编：210093</p>
+              <p>邮箱：arch@nju.edu.cn，电话：(025)83593020，传真：(025)83595673</p>
+            </div>
+            <div class="footer-right-ewm">
+              <img src="/DFS//template/3885//images/ewm.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!-- 底部 移动端 -->
+        <div class="foot">
+          <div class="foot-left">
+            <div class="foot-left-logo">
+              <img src="/DFS//template/3885//images/logo_ft.png" alt="">
+            </div>
+            <div class="foot-left-school">
+              <a href="https://www.nju.edu.cn/main.htm" target="_blank"><p>南京大学</p></a>
+              <a href="http://www.adinju.com" target="_blank"><p>南京大学建筑规划设计研究院</p></a>
+              <a href="http://www.njuup.com/" target="_blank"><p>南京大学城市规划设计研究院</p></a>
+            </div>
+          </div>
+          <div class="foot-right">
+            <div class="foot-right-ewm">
+              <img src="/DFS//template/3885//images/ewm.png" alt="">
+            </div>
+            <div class="foot-right-info">
+              <p>地址：江苏省南京市鼓楼区汉口路22号建良楼，邮编：210093</p>
+              <p>邮箱：arch@nju.edu.cn，电话：(025)83593020，传真：(025)83595673</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!-- 引入页面Js -->
+        <script src="/DFS//template/3885//images/index.js"></script>
+
+        <script>
+
+          // phone下拉导航栏切换图片
+          $(function(){
+            $(".phone_drop>img").click(function(){
+              if ( $(this).attr('src').indexOf('shang')===-1) {
+                $(this).attr('src','/DFS//template/3885//images/phone_shang.png');
+              }else{
+                $(this).attr('src','/DFS//template/3885//images/phone_xia.png');
+              }
+            });
+          })
+
+        </script>
+
+        </body>
+      </html>

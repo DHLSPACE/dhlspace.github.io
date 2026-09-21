@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Cache-control" content="no-cache">
+        <meta http-equiv="Cache" content="no-cache">
+        <link href="/scripts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!--[if lt IE 9]><script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script><script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script><![endif]-->        
+        <script src="/scripts/jquery/jquery.min.js"></script>
+        <title>北京师范大学2026年招生专业目录</title>
+    </head>
+    <body>
+        <style>
+            body {
+                font-family: 'Microsoft YaHei';
+                padding-top: 50px;
+                background-color:#fffffe;
+            }
+            #logob{
+                background-image: url(/content/cdn/lb.jpg);
+                height:138px;
+                border-bottom:5px solid #990000;
+            }
+            #logo{
+                background-image: url(https://yz.bnu.edu.cn/content/img/yz-logo-L.png);
+                background-size: 70%;
+                background-repeat: no-repeat;
+                background-position: center;
+                height:133px;
+                
+            }
+            .ti2 {
+                text-indent:2em;
+            }
+            .footer {
+                color: #777;
+                text-align: center;
+                padding: 30px 0;
+                margin-top: 30px;
+                border-top: 1px solid #e5e5e5;
+                background-color: #f5f5f5;
+            }
+        </style>
+        <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+        <!-- Docs master nav -->
+        <header class="navbar navbar-default navbar-fixed-top" id="top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="https://yz.bnu.edu.cn" class="navbar-brand">北京师范大学研究生招生网</a>
+                </div>
+                <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="ssyx.html">硕士专业目录</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="logob">
+            <div id="logo" class="container"></div>
+        </div>
+        <div class="container">
+    <div class="page-header text-center">
+        <h1>
+            2026年北京师范大学硕士研究生招生专业目录
+        </h1>
+    </div>
+    <div class="text-center" class="btn-group" role="group">
+        <a type="button" class="btn btn-primary" href="ssyx.html">学院查询</a>
+        <a type="button" class="btn btn-primary" href="sszy.html">专业查询</a>       
+        <a type="button" class="btn btn-primary" href="ssdg.html">考试大纲</a>
+        <!-- <a type="button" class="btn btn-primary" href="zyxwjz.html">专业学位说明</a> -->
+    </div>
+    <hr/>
+    <div>
+        说明：1.点击院（系）名称可查询专业目录、联系方式等内容。2.研招办不提供往年试题，不出售参考书，也不办理代购业务。3.自命题考试大纲已公布，如需咨询，请直接联系报考院（系）。
+        <hr/>
+    </div>    <div class="row">
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-001.html">001哲学学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-002.html">002经济与工商管理学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-003.html">003马克思主义学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-004.html">004教育学部</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-005.html">005法学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-006.html">006政府管理学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-009.html">009体育与运动学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-010.html">010文学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-011.html">011外国语言文学学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-012.html">012历史学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-015.html">015数学科学学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-019.html">019化学学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-022.html">022环境学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-023.html">023生命科学学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-026.html">026系统科学学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-029.html">029艺术与传媒学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-030.html">030水科学研究院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-034.html">034统计学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-035.html">035中国基础教育质量监测协同创新中心</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-036.html">036社会学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-037.html">037新闻传播学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-038.html">038心理学部</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-039.html">039地理科学学部</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-040.html">040人工智能学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-042.html">042未来教育学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-043.html">043未来设计学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-045.html">045湾区国际商学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-046.html">046国际中文教育学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-047.html">047国家安全与应急管理学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-048.html">048文理学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-050.html">050物理与天文学院</a>
+        </p>
+    </div>
+    <div class="col-md-4" >
+        <p>
+            <a target="_blank" href="ssxx_yxsm-051.html">051未来技术学院</a>
+        </p>
+    </div>
+</div>
+</div>
+        <footer class="footer">
+            Copyright &copy; 北京师范大学招生办公室
+        </footer>        
+        <script src="/scripts/bootstrap/js/bootstrap.min.js"></script>
+        <div style="display:none;"><script src="http://s13.cnzz.com/stat.php?id=3085101&web_id=3085101" language="JavaScript"></script></div>
+    </body>
+</html>

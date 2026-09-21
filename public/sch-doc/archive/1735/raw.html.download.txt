@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>研究生教育网</title>
+<link rel="stylesheet" type="text/css" href="./style/reset.css">
+<link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./style/bootstrap.reset.css">
+<link rel="stylesheet" type="text/css" href="./style/common.css">
+<script src="./script/popper.min.js"></script>
+<script src="./script/jquery.min.js"></script>
+<style>
+    .search-link{border:0; background: transparent; width:28px!important;}
+</style>
+	<link rel="stylesheet" type="text/css" href="./style/historic.css" />
+	<link rel="stylesheet" type="text/css" href="./style/list.css" />
+</head>
+<body>
+<div class="page-top">
+	<div class="top-line d-none d-xl-block"></div>
+	<div class="d-xl-none m-nav" style="height: 58px;"></div>
+	<div class="back-wuli d-none d-xl-block"><a href="https://www.iop.cas.cn/">返回物理所首页</a><img src="./static/back-home.png" alt=""></div>
+	<div class="container-fluid page-header d-none d-xl-flex">
+		<div class="logo-area">
+			<a href="."><img src="./static/logo.png" class="page-logo" alt="" /></a>
+			<!-- <a href=""><img src="./static/logo-2.png" class="page-logo" alt=""></a> -->
+			<!-- <a href=""><img src="./static/logo-3.png" class="page-logo" alt=""></a> -->
+		</div>
+		<form class="search" action="?q=search">
+			<input name="q" type="hidden" value="search">
+			<input name="key" type="text" class="search-input" placeholder="请输入关键字" maxlength="10">
+			<button class="search-link"><img src="./static/search-icon.png" class="search-icon" alt=""></button>
+		</form>
+	</div>
+	<div class="d-block d-xl-none m-nav">
+		<nav class="navbar navbar-expand-xl navbar-light bg-white fixed-top">
+			<div class="top-line-m"></div>
+			<a class="navbar-brand navbar-brand-m" href="." style="width: 50%;">
+				<img src="./static/logo-m.png" class="page-logo-m" alt=""/>
+				<img src="./static/logo-m-w.png" class="page-logo-m-w" alt=""/>
+			</a>
+			<div
+					class="toggle-btn-m collapsed"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarCollapse"
+					aria-controls="navbarCollapse"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+					id="toggleBtnM"
+			>
+				<!-- <span class="navbar-toggler-icon"></span> -->
+			</div>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" href=".">首&nbsp;&nbsp;&nbsp;&nbsp;页</a>
+					</li>
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3267" role="button" aria-expanded="false">
+							概况
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list_first&amp;id=3268">历史沿革</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3269">学科简介</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3646">学位委员会</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3648">教育督导委员会</a>
+							
+							<a class="dropdown-item" href="?q=contactus&amp;id=3270">联系我们</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3271" role="button" aria-expanded="false">
+							硕博招生
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3277">推荐免试</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3278">硕士招生</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3279">博士招生</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3280">International Students</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3272" role="button" aria-expanded="false">
+							联合培养
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3281">硕博联培</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3282">本科毕设</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3284">短期交流</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item">
+						<a class="nav-link" href="?q=list_teacher&amp;id=3285">导师介绍</a>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3273" role="button" aria-expanded="false">
+							培养学位
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3653">学籍管理</a>
+							
+							<a class="dropdown-item" href="?q=list_top&amp;id=3286">培养方案</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3287">学位申请</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3288">所内课程</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3289">评奖评优</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3652">规章制度</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3274" role="button" aria-expanded="false">
+							团学思政
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3290">毕业典礼合影</a>
+							
+							<a class="dropdown-item" href="?q=list_top&amp;id=3291">明理时空</a>
+							
+							<a class="dropdown-item" href="?q=list_top&amp;id=3292">研究生会</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3275" role="button" aria-expanded="false">
+							严济慈班
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3293">选拔公告</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3294">前沿讲座</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3295">严班奖学金</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3296">活动交流</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3276" role="button" aria-expanded="false">
+							毕业就业
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3297">毕业流程</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3298">就业去向</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3299">选调信息</a>
+							
+						</div>
+					</li>
+					
+					
+				</ul>
+				<div class="back-btn"><a href="https://www.iop.cas.cn/">返回物理所首页</a><img src="./static/back-home.png" alt=""></div>
+			</div>
+		</nav>
+	</div>
+</div>
+<div class="page-main">
+	<div class="main-banner d-none d-xl-block"></div>
+<div class="main-top d-block d-xl-none">
+	<img src="./static/banner-2.jpg" class="d-none d-md-block" alt="" style="width: 100%;height: auto;">
+	<img src="./static/m-banner-1.jpg" class="d-block d-md-none" alt="" style="width: 100%;height: auto;">
+	<div class="search">
+		<form class="search-content" action="?q=search">
+			<input name="q" type="hidden" value="search">
+			<input name="key" type="text" class="search-input" placeholder="请输入关键字" maxlength="10">
+			<button class="search-link"><img src="./static/search-icon-m.png" class="search-icon" alt=""></button>
+		</form>
+	</div>
+</div>
+	<div class="container-fluid main-content p-0">
+		<div class="d-none d-xl-block" style="height: 200px;"></div>
+<div class="nav-area d-none d-xl-block">
+	<ul class="nav justify-content-center">
+		<li class="nav-item">
+			<a class="nav-link " href=".">首&nbsp;&nbsp;&nbsp;&nbsp;页</a>
+		</li>
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3267" role="button" aria-expanded="false">
+				概况
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list_first&amp;id=3268">历史沿革</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3269">学科简介</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3646">学位委员会</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3648">教育督导委员会</a>
+				
+				<a class="dropdown-item" href="?q=contactus&amp;id=3270">联系我们</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3271" role="button" aria-expanded="false">
+				硕博招生
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3277">推荐免试</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3278">硕士招生</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3279">博士招生</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3280">International Students</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3272" role="button" aria-expanded="false">
+				联合培养
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3281">硕博联培</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3282">本科毕设</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3284">短期交流</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item">
+			<a class="nav-link " href="?q=list_teacher&amp;id=3285">导师介绍</a>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3273" role="button" aria-expanded="false">
+				培养学位
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3653">学籍管理</a>
+				
+				<a class="dropdown-item" href="?q=list_top&amp;id=3286">培养方案</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3287">学位申请</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3288">所内课程</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3289">评奖评优</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3652">规章制度</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3274" role="button" aria-expanded="false">
+				团学思政
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3290">毕业典礼合影</a>
+				
+				<a class="dropdown-item" href="?q=list_top&amp;id=3291">明理时空</a>
+				
+				<a class="dropdown-item" href="?q=list_top&amp;id=3292">研究生会</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3275" role="button" aria-expanded="false">
+				严济慈班
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3293">选拔公告</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3294">前沿讲座</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3295">严班奖学金</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3296">活动交流</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3276" role="button" aria-expanded="false">
+				毕业就业
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3297">毕业流程</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3298">就业去向</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3299">选调信息</a>
+				
+			</div>
+		</li>
+		
+		
+	</ul>
+</div>
+
+		<div class="container-fluid main-center">
+			<div class="row">
+				<div class="col-12 col-xl-3">
+	<div class="nav-left d-none d-xl-flex">
+		<div class="nav-list">
+			<div class="top-bg"></div>
+			
+		</div>
+	</div>
+	<div class="nav-left_m d-flex d-xl-none">
+		<div class="nav-list" id="accordionExample">
+			<div class="top-bg" type="button" data-toggle="collapse" data-target="#navToggle" aria-expanded="true" aria-controls="navToggle">
+				<span></span>
+				<img class="toggle-icon" src="./static/toggle-icon.png" alt="">
+			</div>
+			<div id="navToggle" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				
+			</div>
+		</div>
+	</div>
+</div>
+				<div class="col-12 col-xl-9">
+					<nav aria-label="breadcrumb">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href=".">首页</a></li>
+							
+							<li class="breadcrumb-item breadcrumb-item-item" aria-current="page">
+								<a href="?q=moreinform&amp;id=272">招生通知</a>
+							</li>
+							
+							<li class="breadcrumb-item breadcrumb-item-item active" aria-current="page">
+								详情
+							</li>
+						</ol>
+					</nav>
+					<div class="info-wrap">
+						<div class="onece-title">招生通知</div>
+						<div class="article">
+							<div class="big-title">中国科学院物理研究所2026年博士研究生招生章程</div>
+							<div class="article-body"><p class="MsoNormal" align="justify"><span style="font-family: 仿宋;">中国科学院物理研究所（以下简称</span><span style="font-family: 仿宋;">&ldquo;物理所&rdquo;）前身是成立于1928年的国立中央研究院物理研究所和成立于1929年的北平研究院物理学研究所，1950年在两所合并的基础上成立了中国科学院应用物理研究所，1958年更名为中国科学院物理研究所。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">物理所是以物理学基础研究与应用基础研究为主的多学科、综合性研究机构。研究方向以凝聚态物理为主，包括凝聚态物理、光学、原子分子物理、等离子体物理、软物质与生物物理、理论和计算物理、材料科学与工程等。超导、拓扑、纳米、表面、极端条件等多个学科走在了世界科技最前沿；磁学、光学、先进材料、清洁能源等诸多领域为国民经济发展提供了有力支撑。除了聚焦基础前沿问题，扎根中关村科研攻关外，物理所积极响应国家科技战略布局，投入北京科创中心怀柔科学城（综合条件实验装置、材料基因组研究平台和清洁能源材料测试诊断与研发平台）、粤港澳大湾区科创中心松山湖材料实验室以及长三角物理研究中心的建设。作为</span><span style="font-family: 仿宋;">&ldquo;国家队&rdquo;&ldquo;国家人&rdquo;，心系&ldquo;国家事&rdquo;、肩扛&ldquo;国家责&rdquo;，全所上下凝心聚力，踔厉奋发，为国民经济发展和科技强国作出了积极贡献。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">截至</span><span style="font-family: 仿宋;">2023年底，在物理所工作和学习过的院士专家共有80余人。目前在所工作的中国科学院院士13人、中国工程院院士1人、发展中国家科学院院士7人。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">物理所是</span><span style="font-family: 仿宋;">1981年国务院学位委员会批准的首批物理学博士、硕士学位授予单位之一，也是1985年国家首批设立博士后科研流动站的单位之一。现设有物理学、材料科学与工程2个一级学科学术型博士、硕士研究生培养点，电子信息、材料与化工2个专业型博士、硕士研究生培养点，并设有物理学和材料科学与工程2个专业一级学科博士后流动站。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">2026</span><span style="font-family: 仿宋;">年物理所博士生招生继续进行</span><span style="font-family: 仿宋;">&ldquo;申请&mdash;考核&rdquo;招考改革，改革试点为普通招考博士研究生。硕博连读转博和直博生的选拔考核机制暂不涉及。202</span><span style="font-family: 仿宋;">6</span><span style="font-family: 仿宋;">年物理所拟</span><span style="font-family: 仿宋;">录取</span><span style="font-family: 仿宋;">普通招考博士生</span><span style="font-family: 仿宋;">约</span><span style="font-family: 仿宋;">20名。注：具体博士生招生数以国科大招办实际批准数为准。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><strong><span style="font-family: 仿宋;">一、培养目标</span></strong></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">培养德智体全面发展，爱国守法，在本学科领域掌握坚实宽广的基础理论和系统深入的专门知识，具有独立从事科学研究及相关工作的能力，能在科学研究方面做出创造性成果的高级专门人才。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><strong><span style="font-family: 仿宋;">二、报考条件及要求</span></strong></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（一）报考物理所普通招考的博士学位研究生，需满足下列条件：</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">1．中华人民共和国公民。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">2．拥护中国共产党的领导，具有正确的政治方向，热爱祖国，愿意为社会主义现代化建设服务，遵纪守法，品行端正。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">3．已获得国家承认的硕士或博士学位的人员；或国家承认学历的全日制应届硕士毕业生（能在博士入学前取得硕士学位）。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">4．身体健康状况符合规定的体检要求。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">5．有至少两名所报考学科专业领域内的教授（或相当专业技术职称的专家）的书面推荐意见。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">6．报考导师书面同意报考意见。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">7．</span><span style="font-family: 仿宋;">持境外大学硕士学位证书者，须通过教育部留学服务中心认证，提交认证报告。境外在读尚未获得硕士学位的考生须提供就读学校出具的在学证明（写明预计获硕士学位时间）。若被录取，在报到时须提供硕士学位证书和教育部留学服务中心认证报告，否则不予报到注册。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（二）应届硕士毕业生，最迟须在博士入学报到时间前取得硕士学位。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">通过全国统招统考录取的双证非全日制硕士研究生可按应届毕业生以普通招考方式正常报名参加博士研究生入学考试，但最迟须在博士入学报到时间前取得硕士学位。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">单证非全日制硕士研究生须获得硕士学位证书后方可正常报名并参加博士研究生入学考试。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（三）</span><span style="font-family: 仿宋;">&ldquo;少数民族高层次骨干人才计划&rdquo;实行&ldquo;定向招生、定向培养、定向就业&rdquo;原则和&ldquo;自愿报考、统一考试、单独划线、择优录取&rdquo;的招生原则，主要面向少数民族考生。报考该专项计划的考生，除了需具备上述第（一）款中各项条件外，还须符合</span><span style="font-family: 仿宋;">教育部</span><span style="font-family: 仿宋;">及中国科学院大学各项规定中的条件。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（四）</span><span style="font-family: 仿宋;">本科毕业报考推荐免试直接攻博研究生的考生</span><span style="font-family: 仿宋;">,请参见《中国科学院物理研究所2026年硕士研究生招生章程</span>&nbsp;<span style="font-family: 仿宋;">》中推荐免试硕士研究生的报考方式。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（五）</span><span style="font-family: 仿宋;">在学的硕博连读生转博，按</span><span style="font-family: 仿宋;">物理</span><span style="font-family: 仿宋;">所具体转博要求报考</span><span style="font-family: 仿宋;">。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（六）</span><span style="font-family: 仿宋;">本科毕业于国科大且参加</span><span style="font-family: 仿宋;">1+4拔尖创新人才培养试验计划的考生，按照签署的培养协议进行博士招生网上报名并参加相关培养单位的考核或考试。</span></p>
+<p>&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（七</span><span style="font-family: 仿宋;">）现役军人考生，按中国人民解放军总政治部的规定办理报考手续。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（八）由于</span><span style="font-family: 仿宋;">&ldquo;导师是研究生培养第一责任人&rdquo;，因此在网报前，考生要与拟报考的导师进行充分的沟通。在整个博士招录过程中，若导师认为本人不适合指导某学生，导师有不录取该学生的权利。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><strong><span style="font-family: 仿宋;">三、报名时间、方式及报名手续</span></strong></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">考生在报考前须与物理所报考导师取得联系。所有硕博连读转博考生和普通招考考生（含少数民族高层次骨干人才计划考生、申请</span><span style="font-family: 仿宋;">-考核制方式考生）必须参加中国科学院大学网上报名。网上报名时请务必仔细阅读系统中的&ldquo;网报公告&rdquo;，仔细核对本人的姓名、性别、民族、身份证号和报考类别（定向或非定向）等重要信息。凡未按公告要求报名、网报信息误填、错填或填报虚假信息所造成的一切后果，由考生本人承担。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">1．网上报名时间</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">春季入学博士生网报时间：2025年10月20日-10月31日</span><span style="font-family: 仿宋;">，全天受理。本次网报只有硕博连读转博考核报名（生源范围为第五学期在学硕士生，即20</span><span style="font-family: 仿宋;">23</span><span style="font-family: 仿宋;">年秋季入学硕士生），没有普通招考的招生方式。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">秋季入学博士生网报时间：2025年12月8日-2026年1月9日</span><span style="font-family: 仿宋;">，全天受理。本次网报包括硕博连读转博考核报名（生源范围为第四学期本校在学硕士生，即202</span><span style="font-family: 仿宋;">4</span><span style="font-family: 仿宋;">年秋季入学硕士生）和普通招考两种招生方式。逾期不再受理补报。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">2．网上报名方式</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">请考生登陆中国科学院大学招生信息网（</span><span style="font-family: 仿宋;">http://admission.ucas.ac.cn）,点击&ldquo;博士报名&rdquo;，根据自己的情况分别选择&ldquo;普通招考&rdquo;、&ldquo;硕转博&rdquo;两种类别之一进入相应的报名系统中，进行考生注册。其中少数民族骨干计划考生在&ldquo;普通招考&rdquo;类别中报名，进入系统后在考试方式栏中选择&ldquo;少数民族骨干计划&rdquo;。全日制专业学位硕士应届生应按&ldquo;普通招考&rdquo;类别报考。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">3．网上报名成功后，报考&ldquo;普通招考&rdquo;类别的考生应于202</span><span style="font-family: 仿宋;">6</span><span style="font-family: 仿宋;">年</span><span style="font-family: 仿宋;">1月16日前（邮寄的以邮戳时间为准，直接送交的以送交时间为准）向物理所研究生部提交下列书面材料：</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（</span><span style="font-family: 仿宋;">1</span><span style="font-family: 仿宋;">）</span><span style="font-family: 仿宋;">网上报名系统生成、打印并有考生本人签名的攻读博士学位研究生报名信息表</span><span style="font-family: 仿宋;">1</span><span style="font-family: 仿宋;">份；</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（</span><span style="font-family: 仿宋;">2</span><span style="font-family: 仿宋;">）</span><span style="font-family: 仿宋;">2名教授（或相当专业技术职称的专家）的专家推荐书（推荐书在中国科学院大学招生信息网&ldquo;博士招生&rdquo;栏目的&ldquo;资料下载&rdquo;区下载，由推荐专家填写后寄至报考的培养单位招生部门，也可密封后由考生转交）；</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（</span><span style="font-family: 仿宋;">3</span><span style="font-family: 仿宋;">）</span><span style="font-family: 仿宋;">硕士课程成绩单原件和硕士学位证书复印件（应届毕业生提供学生证复印件）；</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（</span><span style="font-family: 仿宋;">4</span><span style="font-family: 仿宋;">）</span><span style="font-family: 仿宋;">有效居民身份证复印件；</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（</span><span style="font-family: 仿宋;">5</span><span style="font-family: 仿宋;">）</span><span style="font-family: 仿宋;">获得境外学历人员须提交境外教育机构颁发的学历证书复印件和教育部留学服务中心进行硕士学位认证报告复印件（应届毕业生提供在学证明，写明预计获硕士学位时间，并在报到前查验学历证书和认证报告的原件和补交复印件）；</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（</span><span style="font-family: 仿宋;">6</span><span style="font-family: 仿宋;">）</span><span style="font-family: 仿宋;">其他材料：</span><span style="font-family: 仿宋;">a.报考导师亲笔签名的书面同意报考意见（格式无要求，可由考生提交，也可由报考导师提交）；b.《物理所攻读博士学位研究生申请表》</span><span style="font-family: 仿宋;">1份（</span><span style="font-family: 仿宋;">见本通知附件）。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">报考少数民族高层次骨干人才计划的考生除了提交上述材料外，还须提交由原籍所在省、自治区、直辖市教育厅（教委）民教处（高教处）审核通过的《报考少数民族高层次骨干人才计划博士研究生考生登记表》。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">硕博连读转博的考生应在</span><span style="font-family: 仿宋;">202</span><span style="font-family: 仿宋;">6</span><span style="font-family: 仿宋;">年</span><span style="font-family: 仿宋;">1月16日之前向物理所研究生部提交网上报名系统生成的攻读博士学位研究生报名信息表打印件，其他具体要求另行通知。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">4．物理所研究生部对考生的报名材料进行审查后，向符合报考条件的考生核发准考证</span><span style="font-family: 仿宋;">，于考试前由考生现场领取。准考证</span><span style="font-family: 仿宋;">是考生参加初试和复试的重要凭证，请考生一定要妥善保管直至录取结束。在复试阶段还将对报考资格进行复查，凡不符合报考条件的考生将不予录取，相关后果由考生本人承担。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">5．普通招考报名</span><span style="font-family: 仿宋;">同时需交纳</span><span style="font-family: 仿宋;">考博报名费：</span><span style="font-family: 仿宋;">200元（微信搜索公众号&ldquo;物理所财务处&rdquo;，关注后点击&ldquo;业务办理&rdquo;&rarr;&ldquo;考博费&rdquo;，输入考生姓名、身份证号和手机号，点击&ldquo;确认提交&rdquo;&rarr;&ldquo;立即支付&rdquo;，完成交费）</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">6．考试科目</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">非定向考生，科目一选</span><span style="font-family: 仿宋;">①1006申请考核制外国语，科目二根据报考专业选择适合的科目，科目三选③3001申请考核制业务课二；</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">&ldquo;少数民族高层次骨干人才计划&rdquo;考生，科目一选①1001英语一，科目二根据报考专业选择适合的科目，科目三选③3050专业基础综合。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">考试科目和参考书请查阅：</span><span style="font-family: 仿宋;">http://edu.iphy.ac.cn/?q=moredetail&id=21145</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><strong><span style="font-family: 仿宋;">四、考试方式及时间安排</span></strong></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">1．普通招考&ldquo;申请&mdash;考核&rdquo;考试方式</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（</span><span style="font-family: 仿宋;">1）形式审核：招生领导小组指定的招生工作人员对考生的报考资格进行审核，包括对报考材料进行真实性、完备性、规范性等方面审核。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（</span><span style="font-family: 仿宋;">2）学术审核：由招生领导小组组织相关学科专家组对考生的报考材料进行学术审核。审核将根据实际情况确定淘汰率。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">（</span><span style="font-family: 仿宋;">3）考核：分为笔试和面试考核两个环节。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">笔试主要考核考生的专业基础和能力。笔试科目为一门，凝聚态物理</span><span style="font-family: 仿宋;">专业的</span><span style="font-family: 仿宋;">考试科目为：固体物理或固体化学或分子生物物理（三选一）；理论物理</span><span style="font-family: 仿宋;">专业</span><span style="font-family: 仿宋;">的考试科目为：固体物理；光学</span><span style="font-family: 仿宋;">专业的</span><span style="font-family: 仿宋;">考试科目为：光学；等离子体物理</span><span style="font-family: 仿宋;">专业的</span><span style="font-family: 仿宋;">考试科目为：等离子体物理或固体物理（二选一）；材料物理与化学</span><span style="font-family: 仿宋;">专业的</span><span style="font-family: 仿宋;">考试科目为：材料学或固体化学或固体物理（三选一）；材料学</span><span style="font-family: 仿宋;">专业</span><span style="font-family: 仿宋;">的考试科目为：材料学或固体化学或固体物理（三选一）。考试形式为闭卷。笔试成绩权重为</span><span style="font-family: 仿宋;">50%。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">面试考核主要是业务能力面试答辩。考生须准备</span><span style="font-family: 仿宋;">PPT报告，专家组进行提问和答辩。报告内容主要包括个人基本情况、硕士期间学习和科研情况、已取得的科研成果以及博士期间研究计划等。考核专家按百分制给每位考生量化打分，面试成绩权重为50%。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><strong><span style="font-family: 仿宋;">另外，报考导师须对其报考生进行学术审查，根据学术审查结果，每位导师每年最多推荐</span><span style="font-family: 仿宋;">1名报考生参加下一阶段的考核选拔。考生报考时须向报考导师确认是否为唯一被推荐人，导师应将推荐结果尽早通知考生。</span></strong></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><!-- [if !supportLists]--><span style="mso-list: Ignore;">2.&nbsp;</span><!--[endif]--><span style="font-family: 仿宋;">普通招考</span><span style="font-family: 仿宋;">&ldquo;申请&mdash;考核&rdquo;考试时间：预计202</span><span style="font-family: 仿宋;">6</span><span style="font-family: 仿宋;">年4</span><span style="font-family: 仿宋;">月，具体待通知。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><strong><span style="font-family: 仿宋;">五、体格检查</span></strong></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">体检由各培养单位在复试阶段组织进行。体检标准参照教育部</span> <span style="font-family: 仿宋;">卫生部</span> <span style="font-family: 仿宋;">中国残联印发的《普通高等学校招生体检工作指导意见》（教学〔</span><span style="font-family: 仿宋;">2003〕3号）的要求、以及人力资源和社会保障部 教育部 卫生部《关于进一步规范入学和就业体检项目维护乙肝表面抗原携带者入学和就业权利的通知》（人社部发〔2010〕12号）和《教育部办公厅 卫生部办公厅关于普通高等学校招生学生入学身体检查取消乙肝项目检测有关问题的通知》（教学厅〔2010〕2号）要求进行，由各培养单位结合本单位实际情况提出具体的体检要求。新生入学后需进行体检复查。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><strong><span style="font-family: 仿宋;">六、录取和入学注册</span></strong></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">1．根据下达的招生计划、考生入学考试的总成绩、思想政治表现以及身体健康状况，择优确定录取名单。面试成绩不及格（即低于百分制的60分）的考生，不得录取。政审或体检不合格的考生也不予录取。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">2．少数民族高层次骨干人才计划全部属于定向培养，在录取前须签署三方定向培养协议。录取数据上报后不得变更录取类别。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">3．录取类别为&ldquo;非定向&rdquo;的普通招考考生，录取时必须转考生档案。未能将考生档案转至培养单位的，取消其博士入学资格。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">4．被录取的考生应在培养单位规定的时间内报到注册。如确有特殊原因不能按时报到者，须提供有关证明，且应以书面形式所在培养单位请假，请假时间不得超过10个工作日；未请假或者请假逾期不报到者，除因不可抗力等正当事由以外，视为放弃入学资格。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">5．被录取的应届硕士毕业生，应在入学报到时出具硕士学位证书原件。截止2026年9月1日未获得硕士学位者或不能提供硕士学位证书原件者，取消其博士入学资格。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">6．应届本科毕业生推荐免试录取为直博生的，应在入学报到时出具本科毕业证书和学士学位证书原件。截止2026年9月1日未获得本科毕业证或学士学位证者，或者不能提供本科毕业证书或学士学位证书原件者，取消其博士入学资格。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><strong><span style="font-family: 仿宋;">七、收费</span></strong></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">国家计划内全日制博士研究生的学费标准为</span><span style="font-family: 仿宋;">10000元/年&bull;生，按学年收取。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">少数民族高层次骨干人才计划等各种专项计划录取的博士研究生收费标准同上。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">硕博连读转博考生经考核录取为博士生的，入学后按博士身份缴纳学费。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">直博生入学时按照博士研究生身份缴纳学费。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">住宿费按照</span><span style="font-family: 仿宋;">物理所</span><span style="font-family: 仿宋;">标准缴纳。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><strong><span style="font-family: 仿宋;">八、培养方式和学习年限</span></strong></p>
+<p><span style="font-family: 仿宋;">除国家专项计划外，物理所招收的博士研究生培养方式原则上均为全日制非定向。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">博士学位研究生实行学分制和弹性学制。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">1．普通招考博士生基本学制一般为3年，最长修读年限（含休学）不得超过6年；</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">2．通过硕博连读方式招收的博士生，包括硕士阶段在内修读年限一般为5年，最长修读年限（含休学）不得超过8年；</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">3．通过直接攻博方式招收的直博生，修读年限一般为5年，最长修读年限（含休学）不得超过8年。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><strong><span style="font-family: 仿宋;">九</span></strong><strong><span style="font-family: 仿宋;">、就业</span></strong></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">非定向博士生毕业后在国家的就业政策指导下</span><span style="font-family: 仿宋;">&ldquo;双向选择&rdquo;就业；定向培养的博士生毕业时按定向协议到定向地区或单位就业。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><strong><span style="font-family: 仿宋;">十</span></strong><strong><span style="font-family: 仿宋;">、违纪处罚</span></strong></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">对于考生申报虚假材料、考试作弊及其它违反招生规定的行为，将按教育部的《国家教育考试违规处理办法》及相关规定予以严肃处理。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><strong><span style="font-family: 仿宋;">十一、其他</span></strong></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">1．考生因报考博士研究生与原所在单位或定向及服务合同单位产生的纠纷由考生自行处理。若因上述问题导致我校相关培养单位无法调取考生档案，造成考生不能复试、无法被录取或复查不合格取消录取资格（入学资格）的后果，</span><span style="font-family: 仿宋;">物理所</span><span style="font-family: 仿宋;">不承担责任。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">2．硕博连读生、直博生的考核和录取，由物理所按照有关规定进行。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">3</span><span style="font-family: 仿宋;">．与国家实验室、新型研发机构等联合培养博士且通过国科大下达招生计划的，其报名考生也在上述统一规定的时间内进行网上报名，并按照对应挂靠培养单位的要求参加考核。</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">4. 考生可通过中国科学院大学招生信息网</span><span style="font-family: 仿宋;">(http://admission.ucas.ac.cn)和物理所网页（http://edu.iphy.ac.cn）查询物理所招生信息，如有问题可向物理所研究生部及报考导师咨询。</span>&nbsp;</p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">5．本简章如有与国家新出台的招生政策（含相关时间节点）不符的事项，以上级单位新政策为准。</span></p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><strong><span style="font-family: 仿宋;">十二、联系方式</span></strong></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">地</span> &nbsp;<span style="font-family: 仿宋;">址：北京市海淀区中关村南三街</span><span style="font-family: 仿宋;">8号中国科学院物理研究所M楼研究生部</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">邮</span> &nbsp;<span style="font-family: 仿宋;">编：</span><span style="font-family: 仿宋;">100190</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">电</span> &nbsp;<span style="font-family: 仿宋;">话：</span><span style="font-family: 仿宋;">010-82649631</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">传</span> &nbsp;<span style="font-family: 仿宋;">真：</span><span style="font-family: 仿宋;">010-82649461</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">联系人：汪庭语</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">E-mail：wangtingyu@iphy.ac.cn</span></p>
+<p class="MsoNormal"><span style="font-family: 仿宋;">网</span> &nbsp;<span style="font-family: 仿宋;">址：</span><span style="font-family: 仿宋;">http://edu.iphy.ac.cn</span></p></div>
+						</div>
+						
+						<div class="attachments">
+							
+							<a class="attachments-item" href="https://edu.iphy.ac.cn/cmsfiles/2942_2025101717193945117.docx" download="物理所攻读博士学位研究生申请表.docx">
+								<img src="./static/attachments.png" alt="">
+								<span>物理所攻读博士学位研究生申请表.docx</span>
+							</a>
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="page-bottom">
+	<div class="container bottom-content">
+		<div class="row bottom-content_wrap">
+			<div class="bottom-left col-lg-8 col-md-12">
+				<p>版权：版权所有@2015-2026中国科学院物理研究所研究生部</p>
+				<p>地址：北京中关村南三街8号M楼229</p>
+				<p>邮编：100190 ｜邮箱：education@iphy.ac.cn</p>
+			</div>
+			<div class="bottom-right col-lg-4 col-md-12">
+				
+				<div class="code-wrap">
+					<img src="https://edu.iphy.ac.cn/cmsfiles/t/202408151135401895.png" class="code-img" alt="">
+					<p>物理所研究生教育微信公众号</p>
+				</div>
+				
+				<div class="code-wrap">
+					<img src="https://edu.iphy.ac.cn/cmsfiles/t/202408151135201891.png" class="code-img" alt="">
+					<p>物理所官方微信公众号</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./script/bootstrap.min.js"></script>
+<script src="./script/common.js"></script>
+</body>
+</html>

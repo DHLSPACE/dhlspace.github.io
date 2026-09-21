@@ -65,6 +65,7 @@ class Store:
     def public_settings(self):
         values=self.settings()
         values['search_api_configured']=bool(values.pop('search_api_key',''))
+        values['gemini_api_configured']=bool(values.pop('gemini_api_key',''))
         return values
 
     def event(self,sid,kind,title,url='',detail=''):
@@ -142,7 +143,7 @@ class Store:
         folder.mkdir(exist_ok=True)
         tables=['sources','items','resources','snapshots','events','notes','settings']
         payload={t:self.query('SELECT * FROM '+t) for t in tables}
-        payload['settings']=[row for row in payload['settings'] if row['key']!='search_api_key']
+        payload['settings']=[row for row in payload['settings'] if row['key'] not in {'search_api_key','gemini_api_key'}]
         payload['exported_at']=now()
         dest=folder/'完整数据.json'
         temp=dest.with_suffix('.tmp')

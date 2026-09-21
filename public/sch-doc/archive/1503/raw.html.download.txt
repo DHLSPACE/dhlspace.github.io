@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META NAME="Keywords" CONTENT='四川大学研究生招生信息网 四川大学研究生院招生办 研招网 研究生招生网 四川大学研招网 四川大学博士招生 四川大学研究生院 四川大学研究生招生办公室新闻通知'/>
+    <meta name="Description" content='四川大学研究生招生信息网为 四川大学全日制硕士、博士研究生招生办公室官方网站，发布每年硕、博士招生专业目录，招生简章，招生说明，分数线发布，权威通知，提供招生咨询，提供硕士、博士成绩查询，推免生申请，夏令营申请等等'/>
+    <title>四川大学2026年“工程硕博士培养改革专项”招生简章_四川大学研究生招生信息网</title>
+
+    <link href="/Content/newskin/bootstrap.min.css" rel="stylesheet">
+    <link href="/Content/newskin/style.css?v=2.0.3" rel="stylesheet">
+    <link href="/Content/newskin/icon.css" rel="stylesheet">
+    <link href="/Content/newskin/header-footer.css?v=2.0.3" rel="stylesheet">
+    <link href="/Content/newskin/owl.carousel.min.css" rel="stylesheet">
+    <script src="/Scripts/newskin/jquery.min.js"></script>
+    <script src="/Scripts/newskin/respond.min.js"></script>
+
+    
+    
+    
+</head>
+<body>
+<header>
+    <section class="scu-one">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-5">
+                    <img src="/Content/images/newskin/logo.png" class="logo">
+                    <div class="pull-right">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"></button>
+                    </div>
+
+                </div>
+                <div class="col-md-8 col-sm-7">
+                    <div class="user-xs">
+
+
+
+
+
+    <div class=" tel-one">
+        <span class="icon-user hidden-xs"></span>&nbsp;  <span id="welcomes">[ <a href="/Account/Login">登录</a> /<a href='/xly'>夏令营&预推免</a>/<a href='/ksfw'>考生服务</a> ] </span>
+    </div>
+
+<div class="search-box ">
+    <script type="text/javascript" language="javascript">
+        
+        function dsubmit() {
+            var key = $("#skey").val().trim();
+            if (key.length > 1) {
+                $('#searchform').submit();
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        function csubmit() {
+            var key = $("#skey").val().trim();
+            if (key.length > 1) {
+                // $('#searchform').submit();
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+
+    </script>
+    <form id="searchform" name="searchform" action="/zsxx/search" method="GET" onsubmit="csubmit()">
+        <input type="text" id="skey" name="s" value="" placeholder="站内搜索">
+        <span class="icon-search-solid" onclick="dsubmit()"></span>
+    </form>
+
+</div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="scu-head">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/">首页 </a></li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">硕士招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zsxx/newslist/ss/zc">招生章程</a></li>
+                                <li><a href="/sszyml/index">招生专业目录</a></li>
+                                <li><a href="/sszyml/tmsml">推免生（直博）专业目录</a></li>
+                                <li><a href="/zsxx/newslist/ss/gg">公告通知</a></li>
+                                <li><a href="/score" target="_blank">成绩查询</a></li>
+                                <li><a href="/xly">夏令营报名</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">博士招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zsxx/newslist/bs/zc">招生章程</a></li>
+                                <li><a href="/bszyml/index">招生专业目录</a></li>
+                                 <li><a href="/sszyml/tmsml">推免生（直博）专业目录</a></li>
+                                <li><a href="/zsxx/newslist/bs/gg">公告通知</a></li>
+                                <li><a href="/bsqr/index">报名审核查询</a></li>
+                                 <li><a href="/score/bs"  target="_blank">成绩查询</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">港澳台招生  <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zsxx/newslist/gat/zc">招生章程</a></li>
+                                    <li><a href="/ssgat">港澳台硕士招生专业目录</a></li>
+                                    <li><a href="/bsgat">港澳台博士招生专业目录</a></li>
+                                <li><a href="/zsxx/newslist/gat/gg">公告通知</a></li>
+                           
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/zsxx/newslist/a/gk" role="button" aria-haspopup="false" aria-expanded="false" >信息公开  </a>
+                            
+                        </li>
+                        <li class="dropdown">
+                            <a href="/zsxx/newslist/a/ls" role="button" aria-haspopup="false" aria-expanded="false">历年数据 </a>
+                            
+                        </li>
+                        <li class="dropdown">
+                            <a href="/help/index" role="button" aria-haspopup="false" aria-expanded="false" >常见问题 </a>
+                           
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >联系我们   <span class="caret"></span> </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/contact/index">研招办</a></li>
+                                <li><a href="/contact/yxs">招生学院(系/所)</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </section>
+
+</header>
+
+
+<section class="bread-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- <h3><span class="icon-pin"></span> 硕士招生</h3> -->
+            </div>
+        </div>
+        <div class="bread-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="breadcrumb">
+                            <li><a href="/">首页</a></li>
+                            <li>四川大学2026年“工程硕博士培养改革专项”招生简章                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="share-box">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="list-recruit">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12">
+
+                    <ul class="list-name">
+
+        <li>
+            <a href="/zsxx/newslist/zt/1">
+                <span class="icon-recruit-3 list-icon"></span>
+                <span class="list-detail">优秀大学生暑期夏令营</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+        <li>
+            <a href="/zsxx/newslist/a/gk">
+                <span class="icon-score list-icon"></span>
+                <span class="list-detail">信息公开</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+        <li>
+            <a href="/zsxx/newslist/a/ls">
+                <span class="icon-data list-icon"></span>
+                <span class="list-detail">历年数据</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+        <li>
+            <a href="/help">
+                <span class="icon-question1 list-icon"></span>
+                <span class="list-detail">常见问题</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+
+
+
+
+    </ul>
+
+
+            </div>
+            <div class="col-md-9 col-sm-9 content-one col-xs-12">
+
+                
+
+
+
+
+    <h3 class="content-title" style="margin:10px; text-align: center;">四川大学2026年“工程硕博士培养改革专项”招生简章</h3>
+
+
+<p class="add-time" style="text-align: center;">
+    添加时间 2025/9/8 16:44 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;访问次数  37993
+
+</p>
+
+    <div class="content-box">
+
+        <p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; 工程硕博士培养改革专项(以下简称&ldquo;专项&rdquo;)瞄准我国未来尖端科技和高技术领域，致力培养一支政治立场坚定、专业知识深厚、满足国家战略需求，且具备技术变革和产业创新潜力的高水平工程师队伍。</span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; </span></span><span style="font-family:黑体"><span style="color:black">一、招生计划</span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; 四川大学2026年在电子信息、机械、材料与化工、资源与环境、能源动力、土木水利、生物与医药七个工程专业学位类别招收工程硕博士培养改革专项计划硕士推免生和直博生共100余人。具体招生专业和联培企业可登陆报名系统查询。</span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; </span></span><span style="font-family:黑体"><span style="color:black">二、报名条件</span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; </span></span></span></span><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">1.</span></span></span><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">热爱祖国，拥护中国共产党的领导，拥护社会主义制度，遵纪守法，品德良好；</span></span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; </span></span></span></span><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">2.</span></span></span><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">具有（或预计可获得）所在高校推荐免试攻读研究生资格的2026年优秀应届本科毕业生。本科前三年学习总成绩原则上不低于所在专业前30%；</span></span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; </span></span></span></span><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">3.</span></span></span><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">身心健康，符合国家和我校规定的体检要求；</span></span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; </span></span></span></span><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">4.</span></span></span><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">工程技术或研究兴趣浓厚，有较强的专业能力、创新能力、协作能力；</span></span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; </span></span></span></span><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">5.</span></span></span><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">符合招生单位提出的其他报名条件。</span></span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; </span></span><span style="font-family:黑体"><span style="color:black">三、报名方式</span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; </span></span></span></span><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">1.</span></span></span><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">报名时间：按各考核小组规定的报名时间为准。</span></span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; </span></span></span></span><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">2.</span></span></span><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">报名网址：四川大学研究生招生信息网</span><u><a href="https://yz.scu.edu.cn/xly/login/" target="_blank"><span style="color:#2980b9">https://yz.scu.edu.cn/xly/login/</span></a></u></span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; </span></span></span></span><span style="background-color:white"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">3.</span></span></span><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">网报流程：申请人登录网报系统进行注册（已参加夏令营者可直接登录），选择&ldquo;2026年工程硕博士培养改革专项&rdquo;，按提示进行网上报名和上传附件材料（包括本人身份证、学生证、近期免冠证件照、加盖教务处或院系公章的本科前三年学习成绩单、外语水平证明、有关获奖证书和科研能力证明材料等）。每人只能填报一个志愿。</span></span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; </span></span><span style="font-family:黑体"><span style="color:black">四、选拔和拟录取</span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; 招生单位将组织专人对申请人的报名材料进行严格的资格审查，由校企考核专家组按不低于招生计划120%的比例确定进入面试的申请人名单，并进行面试考核。参加面试考核的申请人名单和考核安排由招生单位另行通知。</span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; 各校企考核专家组按联培企业和专业领域，根据申请人面试成绩由高往低依次确定拟录取名单。</span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; 各校企考核专家组在面试的同时，还将对申请人进行思想政治素质和道德品质考查，考核不合格者，不予录取。</span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; </span></span><span style="font-family:黑体"><span style="color:black">五、相关说明</span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; 1.本专项录取的推免生均为全日制非定向工程类专业学位研究生，采用工学交替和校企联合的培养模式。硕士生学制3年，其中1年左右在学校学习公共课、专业基础课，2年左右在联合培养单位参加专业实践。直接攻博生学制5年，其中2年左右在学校学习公共课、专业基础课，3年左右在联合培养单位参加专业实践。</span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; 2.学校对本专项录取的研究生减免部分学费，在住宿、奖助金、深造和出国留学等方面给予重点支持。学生入企业参加专业实践期间，由联培企业保障其合理的待遇。</span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; 3.申请人若未被本专项录取，仍可申请参加我校常规计划推免生招生。</span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; 4.申请人应保证填报信息、提交材料的真实性和准确性。凡提供虚假信息的，一经查实即取消申请或拟录取资格。</span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">&nbsp; </span></span><span style="font-family:黑体"><span style="color:black">六、招生单位和联系方式</span></span></span></span></span></p>
+
+<table cellspacing="0" class="Table" style="border-collapse:collapse; width:100.0%">
+	<thead>
+		<tr>
+			<td colspan="2" style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:1px solid black; height:18px; width:26%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">招生单位</span></span></span></span></span></p>
+			</td>
+			<td colspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:18px; width:35%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">接收推免相关专业</span></span></span></span></span></p>
+			</td>
+			<td colspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; height:18px; width:38%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">咨询方式</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">代码</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:15%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">名称</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">代码</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">名称</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:13%">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">联系人</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">电话</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">202</span></span></span></span></span></p>
+			</td>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:15%">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">物理学院</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0854</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">电子信息类</span></span></span></span></span></p>
+			</td>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:13%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">苏老师</span></span></span></span></span></p>
+			</td>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">028-85415561</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0858</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">能源动力类</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">301</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:15%">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">材料科学与工程学院</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0856</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">材料与化工类</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:13%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">位老师</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">028-85418895</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="3" style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">302</span></span></span></span></span></p>
+			</td>
+			<td rowspan="3" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:15%">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">机械工程学院</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0854</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">电子信息类</span></span></span></span></span></p>
+			</td>
+			<td rowspan="3" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:13%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">陈老师</span></span></span></span></span></p>
+			</td>
+			<td rowspan="3" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">028-85405317</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0855</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">机械类</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0856</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">材料与化工类</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">303</span></span></span></span></span></p>
+			</td>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:15%">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">电气工程学院</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0854</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">电子信息类</span></span></span></span></span></p>
+			</td>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:13%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">杨老师</span></span></span></span></span></p>
+			</td>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">028-85460836</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0858</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">能源动力类</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:36px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">304</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:36px; width:15%">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">计算机学院（软件学院、智能科学与技术学院）</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:36px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0854</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:36px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">电子信息类</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:36px; width:13%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">陈老师</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:36px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">028-85468665</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:46px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">306</span></span></span></span></span></p>
+			</td>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:46px; width:15%">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">水利水电学院</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:46px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0858</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:46px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">能源动力类</span></span></span></span></span></p>
+			</td>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:46px; width:13%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">胡老师</span></span></span></span></span></p>
+			</td>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:46px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">028-85405610</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0859</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">土木水利类</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="4" style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">307</span></span></span></span></span></p>
+			</td>
+			<td rowspan="4" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:15%">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">化学工程学院</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0856</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">材料与化工类</span></span></span></span></span></p>
+			</td>
+			<td rowspan="4" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:13%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">张老师</span></span></span></span></span></p>
+			</td>
+			<td rowspan="4" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">028-85401308</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0857</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">资源与环境类</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0858</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">能源动力类</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0860</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">生物与医药类</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:53px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">308</span></span></span></span></span></p>
+			</td>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:53px; width:15%">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">轻工科学与工程学院</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:53px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0856</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:53px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">材料与化工类</span></span></span></span></span></p>
+			</td>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:53px; width:13%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">徐老师</span></span></span></span></span></p>
+			</td>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:53px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">028-85405840</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0860</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">生物与医药类</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:36px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">309</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:36px; width:15%">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">高分子科学与工程学院/高分子研究所</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:36px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0856</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:36px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">材料与化工类</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:36px; width:13%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">杨老师<br />
+			张老师</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:36px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">028-85405112<br />
+			028-85405417</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:66px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">310</span></span></span></span></span></p>
+			</td>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:66px; width:15%">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">生物医学工程学院/生物材料工程研究中心</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:66px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0854</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:66px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">电子信息类</span></span></span></span></span></p>
+			</td>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:66px; width:13%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">杨老师</span></span></span></span></span></p>
+			</td>
+			<td rowspan="2" style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:66px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">028-85462402</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0860</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">生物与医药类</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">320</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:15%">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">碳中和未来技术学院</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0857</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">资源与环境类</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:13%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">郑老师</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">028-85464677</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:54px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">406</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:54px; width:15%">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">四川大学生物治疗全国重点实验室</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:54px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0860</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:54px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">生物与医药类</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:54px; width:13%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">李老师</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:54px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">028-85367881</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:36px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">605</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:36px; width:15%">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">原子核科学技术研究所</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:36px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0858</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:36px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">能源动力类</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:36px; width:13%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">陈老师</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:36px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">028-85410252</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">624</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:15%">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">网络空间安全学院/网络空间安全研究院</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:10%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">0854</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">电子信息类</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:13%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">杨老师</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; height:18px; width:25%">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:&quot;Times New Roman&quot;,serif"><span style="font-size:16.0pt"><span style="font-family:仿宋_GB2312"><span style="color:black">028-85991558</span></span></span></span></span></p>
+			</td>
+		</tr>
+	</thead>
+</table>
+
+<p style="text-align:justify">&nbsp;</p>
+
+
+
+    </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<div class="back-top">
+    <div class="code-box"><a href="#">
+            <img src="/Content/images/newskin/qrcode.jpg" width="80px"></a>
+    </div>
+    <div id="back-to-top" class="back-icon"><span class="icon-arrow-up"></span>
+    </div>
+</div>
+
+<section class="mobile-nav visible-xs">
+
+
+    <ul class="nav nav-pills">
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">公告通知
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/zsxx/newslist/a/gg">公告通知</a></li>
+                <li><a href="/zsxx/newslist/a/gk">信息公开</a></li>
+            </ul>
+        </li>
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">目录查询
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/sszyml/index">硕士目录</a></li>
+                <li><a href="/sszyml/tmsml">硕士推免目录</a></li>
+                <li><a href="/bszyml/index">博士目录</a></li>
+                <li><a href="/ssgat">港澳台硕士目录</a></li>
+                <li><a href="/bsgat">港澳台博士目录</a></li>
+            </ul>
+        </li>
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">自助服务
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/zsxx/newslist/a/ls">历年数据</a></li>
+                <li><a href="/help">常见问题</a></li>
+                <li><a href="/contact/yxs">招生单位联系方式</a></li>
+                <li><a href="/contact/index">研招办联系方式</a></li>
+            </ul>
+        </li>
+    </ul>
+    <a id="defaultwboxid"></a>
+</section>
+
+<section class="footer">
+    <div class="container">
+        <ul>
+            <li>版权所有：四川大学研究生院招生办公室</li>
+            <li>通信地址：四川省成都市一环路南一段24号 四川大学研究生院（610065）</li>
+
+            <li>联系方式：<a href="http://yz.scu.edu.cn/contact/index" style="color: white; text-decoration: underline;">研招办</a> <a href="http://yz.scu.edu.cn/contact/yxs" style="color: white; text-decoration: underline;">招生单位</a></li>
+
+            <li>友情链接： <a href="http://www.scu.edu.cn" target="_blank" style="color: white; text-decoration: underline;">四川大学</a>
+                <a href="http://gs.scu.edu.cn" target="_blank" style="color: white; text-decoration: underline;">四川大学研究生院</a>
+                <a href="http://yz.chsi.com.cn" target="_blank" style="color: white; text-decoration: underline;">中国研究生招生信息网</a>
+                <a href="http://www.sceea.cn/" target="_blank" style="color: white; text-decoration: underline;">四川省教育考试院</a> </li>
+        </ul>
+    </div>
+    <a id="defaultwboxid"></a>
+
+</section>
+
+
+
+<script src="/Scripts/newskin/bootstrap.min.js"></script>
+<!--导航-->
+<script src="/Scripts/newskin/stickUp.js"></script>
+<script type="text/javascript">
+    //initiating jQuery
+    jQuery(function($) {
+        $(document).ready(function() {
+            $('.scu-head').stickUp();
+        });
+    });
+
+    $(document).ready(function() {
+        var getWindow = $(window).width();
+        if (getWindow > 1000) {
+            $('.scu-head li.dropdown').off('click.bs.dropdown.data-api');
+            dropdownOpen();
+        }
+    });
+
+    function dropdownOpen() {
+        var $dropdownLi = $('.scu-head li.dropdown');
+        $dropdownLi.mouseover(function() {
+            $(this).addClass('open');
+        }).mouseout(function() {
+            $(this).removeClass('open');
+        });
+    }
+</script>
+<!--导航-->
+
+<!--返回顶部-->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#back-to-top").hide();
+        $(function() {
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 100) {
+                    $("#back-to-top").fadeIn(500);
+                } else {
+                    $("#back-to-top").fadeOut(500);
+                }
+            });
+            $("#back-to-top").click(function() {
+                $('body,html').animate({ scrollTop: 0 }, 100);
+                return false;
+            });
+        });
+    });
+</script>
+<!--返回顶部-->
+
+    
+
+
+
+</body>
+</html>

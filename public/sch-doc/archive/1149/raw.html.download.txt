@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+<title>入学、注册、请假、休（复）</title>
+
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/1/style/3/3.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/01/2c/300/style/277/277.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/visitCount/visitCount.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/datepicker/css/datepicker.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/sudy-jquery-autoload.js" jquery-src="/_js/jquery-2.x.min.js" sudy-wp-context="" sudy-wp-siteId="300"></script>
+<script language="javascript" src="/_js/jquery-migrate.min.js"></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/jquery.datepicker.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/datepicker_lang_HK.js"></script>
+<script type="text/javascript" src="/_upload/tpl/03/b7/951/template951/extends/extends.js"></script>
+<link rel="stylesheet" href="/_upload/tpl/03/b7/951/template951/style.css" type="text/css" />
+<link rel="stylesheet" href="/_upload/tpl/03/b7/951/template951/tsy.css" type="text/css" />
+<link rel="stylesheet" href="/_upload/tpl/03/b7/951/template951/mobile.css" type="text/css"/>
+<link rel="stylesheet" href="/_upload/tpl/03/b7/951/template951/media.css" type="text/css"/>
+<link rel="shorcut icon" href="/_upload/tpl/03/b7/951/template951/favicon.ico">
+<!--[if lt IE 9]>
+	<script src="/_upload/tpl/03/b7/951/template951/extends/libs/html5.js"></script>
+<![endif]-->
+</head>
+<body class="list tripcol">
+<!--Start||head-->
+<div class="wrapper header" id="header">
+	<div class="inner">
+		<div class="mod clearfix">
+			<a class="navi-aside-toggle"></a>
+			<div class="head-left" frag="面板01">
+				<!--logo开始-->
+				<div class="sitelogo" frag="窗口01" portletmode="simpleSiteAttri">
+					<a href="/main.htm" title="返回 研究生院（新）首页"><img src="/_upload/tpl/03/b7/951/template951/images/logo.svg"><span class="sitetitle">研究生院</span></a> 
+				</div>
+				<!--//logo结束-->
+			</div>
+			<div class="head-right">
+				<div class="site-lang clearfix" frag="窗口02" portletmode="simpleSudyNavi" configs="{'c5':'2','c9':'0','c6':'0','c4':'_self','c8':'2','c2':'1','c7':'2','c3':'30','c1':'1'}" contents="{'c2':'0'}"> 
+					
+						
+						<ul class="clearfix" data-nav-aside='{"title":"Link","index":1}'>
+							
+							<li class="links i1"><a href="http://hitgsen.hit.edu.cn" target="_self">English</a> </li>
+							
+						</ul>
+						
+					
+				</div>
+				<div class="searchbox" frag="窗口03" portletmode="search">
+						<!--搜索组件-->
+						<div class="wp-search clearfix">
+							<form action="/_web/_search/api/search/new.rst?locale=zh_CN&request_locale=zh_CN&_p=YXM9MzAwJnQ9OTUxJmQ9MzkyMiZwPTImZj0xNzQzOSZtPVNOJnxibm5Db2x1bW5WaXJ0dWFsTmFtZT0yMTAwJg__" method="post" target="_blank">
+								<div class="search-input">
+									<input name="keyword" class="search-title" type="text" value="请输入关键词..." onblur="if(this.value == '') { this.value = '请输入关键词...'; }" onfocus="if(this.value == '请输入关键词...') { this.value = ''; }" placeholder="请输入关键词..."/>
+								</div>
+								<div class="search-btn">
+									<input name="submit" class="search-submit" type="submit" value=""/>
+								</div>
+							</form>
+						</div>
+						<!--//复制以上代码到自定义搜索-->
+					
+				</div>		
+				<div class="wrapper nav wp-navi" id="nav">
+					<div class="wp-panel">
+						<div class="wp-window" frag="窗口1" portletmode="simpleSudyNavi" configs="{'c5':'1','c9':'0','c6':'0','c4':'_self','c8':'2','c2':'1','c7':'2','c3':'60','c1':'1'}" contents="{'c2':'0'}">
+							
+								
+								<ul class="wp-menu clearfix" data-nav-aside='{"title":"导航","index":0}'>
+									
+									<li class="menu-item i1"><a class="menu-link" href="http://hitgs.hit.edu.cn" target="_self">首页</a>
+										
+									</li>
+									
+									<li class="menu-item i2"><a class="menu-link" href="http://hitgs.hit.edu.cn/2083/list.htm" target="_self">研院介绍</a>
+										
+										<em class="menu-switch-arrow"></em>
+										<ul class="sub-menu ">
+											
+											<li class="sub-item i2-1"><a class="sub-link" href="/2083/list.htm"
+													target="_self">基本情况</a></li>
+											
+											<li class="sub-item i2-2"><a class="sub-link" href="/2084/list.htm"
+													target="_self">机构设置</a></li>
+											
+											<li class="sub-item i2-3"><a class="sub-link" href="/2085/list.htm"
+													target="_self">工作职责</a></li>
+											
+										</ul>
+										
+									</li>
+									
+									<li class="menu-item i3"><a class="menu-link" href="http://hitgs.hit.edu.cn/2087/list.htm" target="_self">硕士研究生</a>
+										
+										<em class="menu-switch-arrow"></em>
+										<ul class="sub-menu ">
+											
+											<li class="sub-item i3-1"><a class="sub-link" href="http://yzb.hit.edu.cn/"
+													target="_self">报名、考试、录取相关</a></li>
+											
+											<li class="sub-item i3-2"><a class="sub-link" href="/2087/list.htm"
+													target="_self">入学、注册、请假、休（复）</a></li>
+											
+											<li class="sub-item i3-3"><a class="sub-link" href="/2088/list.htm"
+													target="_self">课程、考试、成绩（单）与评教</a></li>
+											
+											<li class="sub-item i3-4"><a class="sub-link" href="/2089/list.htm"
+													target="_self">培养方案、开题与中期检查相关</a></li>
+											
+											<li class="sub-item i3-5"><a class="sub-link" href="/2090/list.htm"
+													target="_self">助管、助教、奖助学金与评奖评优相关</a></li>
+											
+											<li class="sub-item i3-6"><a class="sub-link" href="/2091/list.htm"
+													target="_self">毕（结、肄）业、答辩（含延期、超期等）与申请学位相关</a></li>
+											
+											<li class="sub-item i3-7"><a class="sub-link" href="/2092/list.htm"
+													target="_self">学术交流、社会实践、学生活动</a></li>
+											
+											<li class="sub-item i3-8"><a class="sub-link" href="/2093/list.htm"
+													target="_self">国际交流与出/回国（境）手续办理</a></li>
+											
+											<li class="sub-item i3-9"><a class="sub-link" href="/2094/list.htm"
+													target="_self">学籍信息更正、学生证和各类学籍证明办理相关</a></li>
+											
+											<li class="sub-item i3-10"><a class="sub-link" href="/2095/list.htm"
+													target="_self">非全日制专业学位硕士、同等学力硕士与代培生相关</a></li>
+											
+											<li class="sub-item i3-11"><a class="sub-link" href="/2096/list.htm"
+													target="_self">留学生相关</a></li>
+											
+											<li class="sub-item i3-12"><a class="sub-link" href="/2097/list.htm"
+													target="_self">保密教育与涉密管理相关</a></li>
+											
+										</ul>
+										
+									</li>
+									
+									<li class="menu-item i4"><a class="menu-link" href="http://hitgs.hit.edu.cn/2100/list.htm" target="_self">博士研究生</a>
+										
+										<em class="menu-switch-arrow"></em>
+										<ul class="sub-menu ">
+											
+											<li class="sub-item i4-1"><a class="sub-link" href="http://yzb.hit.edu.cn/"
+													target="_self">报名、考试、录取相关</a></li>
+											
+											<li class="sub-item i4-2"><a class="sub-link" href="/2100/list.htm"
+													target="_self">入学、注册、请假、休（复）</a></li>
+											
+											<li class="sub-item i4-3"><a class="sub-link" href="/2101/list.htm"
+													target="_self">课程、考试、成绩（单）与评教</a></li>
+											
+											<li class="sub-item i4-4"><a class="sub-link" href="/2102/list.htm"
+													target="_self">培养方案、开题与中期检查相关</a></li>
+											
+											<li class="sub-item i4-5"><a class="sub-link" href="/2103/list.htm"
+													target="_self">助管、助教、奖助学金与评奖评优相关</a></li>
+											
+											<li class="sub-item i4-6"><a class="sub-link" href="/2104/list.htm"
+													target="_self">毕（结、肄）业、答辩（含延期、超期等）与申请学位相关</a></li>
+											
+											<li class="sub-item i4-7"><a class="sub-link" href="/2105/list.htm"
+													target="_self">学生活动、学术活动、专题讲座与社会实践相关</a></li>
+											
+											<li class="sub-item i4-8"><a class="sub-link" href="/2106/list.htm"
+													target="_self">国际交流与出/回国（境）手续办理</a></li>
+											
+											<li class="sub-item i4-9"><a class="sub-link" href="/2107/list.htm"
+													target="_self">学籍信息更正、学生证和学籍证明办理、基金类别变更、导师与学科调整</a></li>
+											
+											<li class="sub-item i4-10"><a class="sub-link" href="/2108/list.htm"
+													target="_self">工程博士与同等学力博士相关</a></li>
+											
+											<li class="sub-item i4-11"><a class="sub-link" href="/2109/list.htm"
+													target="_self">留学生相关</a></li>
+											
+											<li class="sub-item i4-12"><a class="sub-link" href="/2110/list.htm"
+													target="_self">保密教育与涉密管理相关</a></li>
+											
+										</ul>
+										
+									</li>
+									
+									<li class="menu-item i5"><a class="menu-link" href="http://hitgs.hit.edu.cn/2112/list.htm" target="_self">导师及任课教师</a>
+										
+										<em class="menu-switch-arrow"></em>
+										<ul class="sub-menu ">
+											
+											<li class="sub-item i5-1"><a class="sub-link" href="/2112/list.htm"
+													target="_self">导师资格、招生、津贴拨付、评优相关</a></li>
+											
+											<li class="sub-item i5-2"><a class="sub-link" href="/2113/list.htm"
+													target="_self">试讲、课程、教学、考试、成绩与评教相关</a></li>
+											
+											<li class="sub-item i5-3"><a class="sub-link" href="/2114/list.htm"
+													target="_self">教师培训、出国交流项目、教研立项与教学奖项评选相关</a></li>
+											
+										</ul>
+										
+									</li>
+									
+									<li class="menu-item i6"><a class="menu-link" href="http://hitgs.hit.edu.cn/2116/list.htm" target="_self">院系及学位点</a>
+										
+										<em class="menu-switch-arrow"></em>
+										<ul class="sub-menu ">
+											
+											<li class="sub-item i6-1"><a class="sub-link" href="http://www.hit.edu.cn/11589/list.htm"
+													target="_self">院系介绍</a></li>
+											
+											<li class="sub-item i6-2"><a class="sub-link" href="/2116/list.htm"
+													target="_self">学位点相关</a></li>
+											
+										</ul>
+										
+									</li>
+									
+									<li class="menu-item i7"><a class="menu-link" href="/xqgs/list.htm" target="_self">行权公示</a>
+										
+									</li>
+									
+								</ul>
+								
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--End||head-->
+<!--aside导航-->
+<div class="wp-navi-aside" id="wp-navi-aside">
+  <div class="aside-inner">
+    <div class="navi-aside-wrap"></div>
+  </div>
+  <div class="navi-aside-mask"></div>
+</div>
+<!--End||nav-->
+<!--Start||focus-->
+<div class="wp-wrapper" id="container-1">
+	<div class="wp-inner" frag="面板84">
+		<div class="l-banner" frag="窗口84" portletmode="simpleColumnAttri">
+			
+				<img border="0" style="margin:0 auto;" src="" data-imgsrc="/_upload/tpl/03/b7/951/template951/images/list_banner.jpg">
+			
+		</div>
+	</div>
+</div>
+<!--End||focus-->
+<!--Start||content-->
+<div class="wrapper" id="l-container">
+	<div class="inner">
+		<div class="mod clearfix">
+			<div class="col_menu">
+				<div class="col_menu_head">
+					<h3 class="col_name">
+						<span class="col_name_text">导航</span>
+					</h3>
+					<a class="column-switch"></a>
+				</div>
+				<div class="col_menu_con" frag="面板4">
+					<div class="col_list" frag="窗口4" portletmode="simpleSudyNavi" configs="{'c5':'1','c9':'0','c6':'0','c4':'_self','c8':'2','c2':'1','c7':'2','c3':'50','c1':'1'}" contents="{'c2':'0'}">
+						
+							
+							<ul class="wp_listcolumn list-paddingleft-2">
+								
+								<li class="wp_column i1 ">     
+										<a title="研院介绍" href="http://hitgs.hit.edu.cn/2083/list.htm" class="col_item_link "><span class="column-name">研院介绍</span></a><!--[SubColumnStructBegin]-->      
+									
+										<ul class="sub_list list-paddingleft-2">
+										
+										<li class="sub-item i1-1 ">             
+												<a title="基本情况" class="sub-item-link " href="/2083/list.htm" target="_self"><span class="column-name">基本情况</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i1-2 ">             
+												<a title="机构设置" class="sub-item-link " href="/2084/list.htm" target="_self"><span class="column-name">机构设置</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i1-3 ">             
+												<a title="工作职责" class="sub-item-link " href="/2085/list.htm" target="_self"><span class="column-name">工作职责</span></a><!--[SubColumnList]-->               
+										</li>
+									</ul>
+								</li>
+								<li class="wp_column i2 ">     
+										<a title="硕士研究生" href="http://hitgs.hit.edu.cn/2087/list.htm" class="col_item_link "><span class="column-name">硕士研究生</span></a><!--[SubColumnStructBegin]-->      
+									
+										<ul class="sub_list list-paddingleft-2">
+										
+										<li class="sub-item i2-1 ">             
+												<a title="报名、考试、录取相关" class="sub-item-link " href="http://yzb.hit.edu.cn/" target="_self"><span class="column-name">报名、考试、录取相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i2-2 ">             
+												<a title="入学、注册、请假、休（复）" class="sub-item-link " href="/2087/list.htm" target="_self"><span class="column-name">入学、注册、请假、休（复）</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i2-3 ">             
+												<a title="课程、考试、成绩（单）与评教" class="sub-item-link " href="/2088/list.htm" target="_self"><span class="column-name">课程、考试、成绩（单）与评教</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i2-4 ">             
+												<a title="培养方案、开题与中期检查相关" class="sub-item-link " href="/2089/list.htm" target="_self"><span class="column-name">培养方案、开题与中期检查相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i2-5 ">             
+												<a title="助管、助教、奖助学金与评奖评优相关" class="sub-item-link " href="/2090/list.htm" target="_self"><span class="column-name">助管、助教、奖助学金与评奖评优相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i2-6 ">             
+												<a title="毕（结、肄）业、答辩（含延期、超期等）与申请学位相关" class="sub-item-link " href="/2091/list.htm" target="_self"><span class="column-name">毕（结、肄）业、答辩（含延期、超期等）与申请学位相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i2-7 ">             
+												<a title="学术交流、社会实践、学生活动" class="sub-item-link " href="/2092/list.htm" target="_self"><span class="column-name">学术交流、社会实践、学生活动</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i2-8 ">             
+												<a title="国际交流与出/回国（境）手续办理" class="sub-item-link " href="/2093/list.htm" target="_self"><span class="column-name">国际交流与出/回国（境）手续办理</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i2-9 ">             
+												<a title="学籍信息更正、学生证和各类学籍证明办理相关" class="sub-item-link " href="/2094/list.htm" target="_self"><span class="column-name">学籍信息更正、学生证和各类学籍证明办理相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i2-10 ">             
+												<a title="非全日制专业学位硕士、同等学力硕士与代培生相关" class="sub-item-link " href="/2095/list.htm" target="_self"><span class="column-name">非全日制专业学位硕士、同等学力硕士与代培生相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i2-11 ">             
+												<a title="留学生相关" class="sub-item-link " href="/2096/list.htm" target="_self"><span class="column-name">留学生相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i2-12 ">             
+												<a title="保密教育与涉密管理相关" class="sub-item-link " href="/2097/list.htm" target="_self"><span class="column-name">保密教育与涉密管理相关</span></a><!--[SubColumnList]-->               
+										</li>
+									</ul>
+								</li>
+								<li class="wp_column i3 parent">     
+										<a title="博士研究生" href="http://hitgs.hit.edu.cn/2100/list.htm" class="col_item_link parent"><span class="column-name">博士研究生</span></a><!--[SubColumnStructBegin]-->      
+									
+										<ul class="sub_list list-paddingleft-2">
+										
+										<li class="sub-item i3-1 ">             
+												<a title="报名、考试、录取相关" class="sub-item-link " href="http://yzb.hit.edu.cn/" target="_self"><span class="column-name">报名、考试、录取相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i3-2 selected">             
+												<a title="入学、注册、请假、休（复）" class="sub-item-link selected" href="/2100/list.htm" target="_self"><span class="column-name">入学、注册、请假、休（复）</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i3-3 ">             
+												<a title="课程、考试、成绩（单）与评教" class="sub-item-link " href="/2101/list.htm" target="_self"><span class="column-name">课程、考试、成绩（单）与评教</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i3-4 ">             
+												<a title="培养方案、开题与中期检查相关" class="sub-item-link " href="/2102/list.htm" target="_self"><span class="column-name">培养方案、开题与中期检查相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i3-5 ">             
+												<a title="助管、助教、奖助学金与评奖评优相关" class="sub-item-link " href="/2103/list.htm" target="_self"><span class="column-name">助管、助教、奖助学金与评奖评优相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i3-6 ">             
+												<a title="毕（结、肄）业、答辩（含延期、超期等）与申请学位相关" class="sub-item-link " href="/2104/list.htm" target="_self"><span class="column-name">毕（结、肄）业、答辩（含延期、超期等）与申请学位相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i3-7 ">             
+												<a title="学生活动、学术活动、专题讲座与社会实践相关" class="sub-item-link " href="/2105/list.htm" target="_self"><span class="column-name">学生活动、学术活动、专题讲座与社会实践相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i3-8 ">             
+												<a title="国际交流与出/回国（境）手续办理" class="sub-item-link " href="/2106/list.htm" target="_self"><span class="column-name">国际交流与出/回国（境）手续办理</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i3-9 ">             
+												<a title="学籍信息更正、学生证和学籍证明办理、基金类别变更、导师与学科调整" class="sub-item-link " href="/2107/list.htm" target="_self"><span class="column-name">学籍信息更正、学生证和学籍证明办理、基金类别变更、导师与学科调整</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i3-10 ">             
+												<a title="工程博士与同等学力博士相关" class="sub-item-link " href="/2108/list.htm" target="_self"><span class="column-name">工程博士与同等学力博士相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i3-11 ">             
+												<a title="留学生相关" class="sub-item-link " href="/2109/list.htm" target="_self"><span class="column-name">留学生相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i3-12 ">             
+												<a title="保密教育与涉密管理相关" class="sub-item-link " href="/2110/list.htm" target="_self"><span class="column-name">保密教育与涉密管理相关</span></a><!--[SubColumnList]-->               
+										</li>
+									</ul>
+								</li>
+								<li class="wp_column i4 ">     
+										<a title="导师及任课教师" href="http://hitgs.hit.edu.cn/2112/list.htm" class="col_item_link "><span class="column-name">导师及任课教师</span></a><!--[SubColumnStructBegin]-->      
+									
+										<ul class="sub_list list-paddingleft-2">
+										
+										<li class="sub-item i4-1 ">             
+												<a title="导师资格、招生、津贴拨付、评优相关" class="sub-item-link " href="/2112/list.htm" target="_self"><span class="column-name">导师资格、招生、津贴拨付、评优相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i4-2 ">             
+												<a title="试讲、课程、教学、考试、成绩与评教相关" class="sub-item-link " href="/2113/list.htm" target="_self"><span class="column-name">试讲、课程、教学、考试、成绩与评教相关</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i4-3 ">             
+												<a title="教师培训、出国交流项目、教研立项与教学奖项评选相关" class="sub-item-link " href="/2114/list.htm" target="_self"><span class="column-name">教师培训、出国交流项目、教研立项与教学奖项评选相关</span></a><!--[SubColumnList]-->               
+										</li>
+									</ul>
+								</li>
+								<li class="wp_column i5 ">     
+										<a title="院系及学位点" href="http://hitgs.hit.edu.cn/2116/list.htm" class="col_item_link "><span class="column-name">院系及学位点</span></a><!--[SubColumnStructBegin]-->      
+									
+										<ul class="sub_list list-paddingleft-2">
+										
+										<li class="sub-item i5-1 ">             
+												<a title="院系介绍" class="sub-item-link " href="http://www.hit.edu.cn/11589/list.htm" target="_self"><span class="column-name">院系介绍</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i5-2 ">             
+												<a title="学位点相关" class="sub-item-link " href="/2116/list.htm" target="_self"><span class="column-name">学位点相关</span></a><!--[SubColumnList]-->               
+										</li>
+									</ul>
+								</li>
+								<li class="wp_column i6 ">     
+										<a title="行权公示" href="/xqgs/list.htm" class="col_item_link "><span class="column-name">行权公示</span></a><!--[SubColumnStructBegin]-->      
+									
+								</li>
+								<li class="wp_column i7 ">     
+										<a title="高水平课程与学术交流" href="/gspkcyxsjl/list.htm" class="col_item_link "><span class="column-name">高水平课程与学术交流</span></a><!--[SubColumnStructBegin]-->      
+									
+								</li>
+								<li class="wp_column i8 ">     
+										<a title="研究生教育动态" href="/wxwyjsjydt/list.htm" class="col_item_link "><span class="column-name">研究生教育动态</span></a><!--[SubColumnStructBegin]-->      
+									
+										<ul class="sub_list list-paddingleft-2">
+										
+										<li class="sub-item i8-1 ">             
+												<a title="研究生教育发展动态" class="sub-item-link " href="/14108/list.htm" target="_self"><span class="column-name">研究生教育发展动态</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i8-2 ">             
+												<a title="研究生课程建设" class="sub-item-link " href="/14110/list.htm" target="_self"><span class="column-name">研究生课程建设</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i8-3 ">             
+												<a title="研究生教材建设" class="sub-item-link " href="/14111/list.htm" target="_self"><span class="column-name">研究生教材建设</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i8-4 ">             
+												<a title="研究生师资队伍" class="sub-item-link " href="/14112/list.htm" target="_self"><span class="column-name">研究生师资队伍</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i8-5 ">             
+												<a title="研究生杰出人才培养计划项目" class="sub-item-link " href="/yjsjcrcpyjhxm/list.htm" target="_self"><span class="column-name">研究生杰出人才培养计划项目</span></a><!--[SubColumnList]-->               
+										</li>
+									</ul>
+								</li>
+								<li class="wp_column i9 ">     
+										<a title="研究生教育成果展示" href="/yjsjycgzs/list.htm" class="col_item_link "><span class="column-name">研究生教育成果展示</span></a><!--[SubColumnStructBegin]-->      
+									
+										<ul class="sub_list list-paddingleft-2">
+										
+										<li class="sub-item i9-1 ">             
+												<a title="课题优秀成果" class="sub-item-link " href="/17886/list.htm" target="_self"><span class="column-name">课题优秀成果</span></a><!--[SubColumnList]-->               
+										</li>
+										<li class="sub-item i9-2 ">             
+												<a title="教育教学成果" class="sub-item-link " href="/17887/list.htm" target="_self"><span class="column-name">教育教学成果</span></a><!--[SubColumnList]-->               
+										</li>
+									</ul>
+								</li>
+							</ul>
+										
+						
+					</div>
+				</div>
+			</div>
+			<div class="col_news">
+				<div class="col_news_box">
+					<div class="col_news_head">
+						<ul class="col_metas clearfix" frag="窗口5" portletmode="simpleColumnAttri">
+						   
+							<li class="col_path"><span class="path_name">当前位置：</span><a href="/main.htm" target="_self">首页</a><span class='possplit'>&nbsp;&nbsp;</span><a href="http://hitgs.hit.edu.cn/2100/list.htm" target="_self">博士研究生</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/2100/list.htm" target="_self">入学、注册、请假、休（复）</a></li>
+							<li class="col_title"></li>
+						   
+						</ul>
+					</div>
+					<div class="col_news_con" >
+						<div class="col_news_list listcon">
+							<ul class="news_list clearfix list2">
+							</ul>
+							<div id="wp_paging_w6"></div>
+						</div>
+						<div class="listcon2" style="display:none;">
+							<div frag="窗口6" portletmode="simpleChildList" configs="{'c26':'320','c14':'1','c1':'1','c27':'1','c33':'1','c4':'1','c6':'-1','c9':'0','c12':'0','c28':'0','c16':'1','c30':'0','c25':'320','c15':'0','c29':'0','c5':'_blank','c17':'0','c19':'yyyy-MM-dd','c2':'序号,标题,发布时间','c21':'1','c7':'1','c13':'200','c22':'240','c3':'5','c8':'1','c34':'0','c31':'1','c32':'1','c23':'320','c18':'yyyy-MM-dd','c20':'0','c10':'50','c11':'1','c24':'1'}">
+							   
+<ul class="wp_subcolumn_list"> 
+     <li class="wp_sublist sublist-1"> 
+         <h3 class="sublist_title"> 
+             <a href="/2199/list.htm" title="通知公告" childColumnId="17440"><span class="subcolumn-name">通知公告</span></a> 
+             <a class="morelink" href="/2199/list.htm" target="_blank" title="浏览更多"><span class="moretext"><img src="/_js/_portletPlugs/simpleNews/css/icon_more_3.gif" /></span></a> 
+         </h3> 
+         					
+									<ul class="news_list list2">
+										
+										<li class="news n1 clearfix">
+											<span class="news_title"><a href='/2026/0822/c17440a399890/page.htm' target='_blank' title='关于做好2026年秋季学期开学初研究生教学工作安排的通知'><font style='font-weight:bold;'>关于做好2026年秋季学期开学初研究生教学工作安排的通知</font></a></span>
+											<span class="news_meta">2026-08-22</span>
+										</li>
+										
+										<li class="news n2 clearfix">
+											<span class="news_title"><a href='/2026/0721/c17440a397955/page.htm' target='_blank' title='转发：关于校本部2026级秋季博士新生线上选房的通知'><font style='font-weight:bold;color:#FF4F0F;'>转发：关于校本部2026级秋季博士新生线上选房的通知</font></a></span>
+											<span class="news_meta">2026-07-21</span>
+										</li>
+										
+										<li class="news n3 clearfix">
+											<span class="news_title"><a href='/2026/0302/c17440a387747/page.htm' target='_blank' title='哈尔滨工业大学2026年春季学期博士生入学指南'>哈尔滨工业大学2026年春季学期博士生入学指南</a></span>
+											<span class="news_meta">2026-03-02</span>
+										</li>
+										
+										<li class="news n4 clearfix">
+											<span class="news_title"><a href='/2026/0130/c17440a387262/page.htm' target='_blank' title='关于2026年春季学期研究生学籍注册的通知'><font style='font-weight:bold;color:#FF5912;'>关于2026年春季学期研究生学籍注册的通知</font></a></span>
+											<span class="news_meta">2026-01-30</span>
+										</li>
+										
+										<li class="news n5 clearfix">
+											<span class="news_title"><a href='/2026/0203/c17440a387370/page.htm' target='_blank' title='哈尔滨工业大学2026级及以后非全日制博士研究生教育学费标准'>哈尔滨工业大学2026级及以后非全日制博士研究生教育学费标准</a></span>
+											<span class="news_meta">2026-02-03</span>
+										</li>
+										
+									</ul>
+<script type="text/javascript">
+							   $(function(){
+    $("span.moretext").text("MORE");  
+  })
+</script>     </li> 
+</ul> 
+ 
+<ul class="wp_subcolumn_list"> 
+     <li class="wp_sublist sublist-2"> 
+         <h3 class="sublist_title"> 
+             <a href="/2200/list.htm" title="规章制度" childColumnId="17441"><span class="subcolumn-name">规章制度</span></a> 
+             <a class="morelink" href="/2200/list.htm" target="_blank" title="浏览更多"><span class="moretext"><img src="/_js/_portletPlugs/simpleNews/css/icon_more_3.gif" /></span></a> 
+         </h3> 
+         					
+									<ul class="news_list list2">
+										
+										<li class="news n1 clearfix">
+											<span class="news_title"><a href='/2026/0727/c17441a398443/page.htm' target='_blank' title='哈尔滨工业大学研究生学籍及培养管理规定（适用于2026年秋季学期及以后入学的研究生 ）'>哈尔滨工业大学研究生学籍及培养管理规定（适用于2026年秋季学期及以后入学的研究生 ）</a></span>
+											<span class="news_meta">2026-07-27</span>
+										</li>
+										
+										<li class="news n2 clearfix">
+											<span class="news_title"><a href='/2022/0817/c17441a330049/page.htm' target='_blank' title='哈尔滨工业大学研究生学籍管理规定（适用于2026年春季学期及以前入学的研究生 ）'><font style='color:#010308;'>哈尔滨工业大学研究生学籍管理规定（适用于2026年春季学期及以前入学的研究生 ）</font></a></span>
+											<span class="news_meta">2022-08-17</span>
+										</li>
+										
+									</ul>
+<script type="text/javascript">
+							   $(function(){
+    $("span.moretext").text("MORE");  
+  })
+</script>     </li> 
+</ul> 
+ 
+<ul class="wp_subcolumn_list"> 
+     <li class="wp_sublist sublist-3"> 
+         <h3 class="sublist_title"> 
+             <a href="/2201/list.htm" title="常见下载" childColumnId="17442"><span class="subcolumn-name">常见下载</span></a> 
+             <a class="morelink" href="/2201/list.htm" target="_blank" title="浏览更多"><span class="moretext"><img src="/_js/_portletPlugs/simpleNews/css/icon_more_3.gif" /></span></a> 
+         </h3> 
+         					
+									<ul class="news_list list2">
+										
+										<li class="news n1 clearfix">
+											<span class="news_title"><a href='/2024/0226/c17442a338773/page.htm' target='_blank' title='研究生放弃入学资格确认表'>研究生放弃入学资格确认表</a></span>
+											<span class="news_meta">2024-02-26</span>
+										</li>
+										
+										<li class="news n2 clearfix">
+											<span class="news_title"><a href='/2012/0325/c17442a330015/page.htm' target='_blank' title='哈尔滨工业大学研究生新生保留(恢复)入学申请表'>哈尔滨工业大学研究生新生保留(恢复)入学申请表</a></span>
+											<span class="news_meta">2023-08-22</span>
+										</li>
+										
+										<li class="news n3 clearfix">
+											<span class="news_title"><a href='/2018/0114/c17442a318096/page.htm' target='_blank' title='工程博士学位研究生培养计划'>工程博士学位研究生培养计划</a></span>
+											<span class="news_meta">2018-01-14</span>
+										</li>
+										
+										<li class="news n4 clearfix">
+											<span class="news_title"><a href='/2018/0114/c17442a318095/page.htm' target='_blank' title='博士学位研究生培养计划'>博士学位研究生培养计划</a></span>
+											<span class="news_meta">2018-01-14</span>
+										</li>
+										
+										<li class="news n5 clearfix">
+											<span class="news_title"><a href='/2016/0727/c17442a330017/page.htm' target='_blank' title='研究生新生绿色通道相关表格'>研究生新生绿色通道相关表格</a></span>
+											<span class="news_meta">2016-07-27</span>
+										</li>
+										
+									</ul>
+<script type="text/javascript">
+							   $(function(){
+    $("span.moretext").text("MORE");  
+  })
+</script>     </li> 
+</ul> 
+ 
+<ul class="wp_subcolumn_list"> 
+     <li class="wp_sublist sublist-4"> 
+         <h3 class="sublist_title"> 
+             <a href="/2202/list.htm" title="办事流程" childColumnId="17443"><span class="subcolumn-name">办事流程</span></a> 
+             <a class="morelink" href="/2202/list.htm" target="_blank" title="浏览更多"><span class="moretext"><img src="/_js/_portletPlugs/simpleNews/css/icon_more_3.gif" /></span></a> 
+         </h3> 
+         					
+									<ul class="news_list list2">
+										
+										<li class="news n1 clearfix">
+											<span class="news_title"><a href='/2017/0329/c17443a330388/page.htm' target='_blank' title='转发财务处《关于在校学生网上交纳学费住宿费的操作说明》'>转发财务处《关于在校学生网上交纳学费住宿费的操作说明》</a></span>
+											<span class="news_meta">2017-03-29</span>
+										</li>
+										
+									</ul>
+<script type="text/javascript">
+							   $(function(){
+    $("span.moretext").text("MORE");  
+  })
+</script>     </li> 
+</ul> 
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+<!--End||content-->
+<!--Start||footer-->
+<div class="wrapper footer" id="footer">
+	<div class="inner">
+		<div class="mod clearfix">
+			<div class="foot-left" frag="窗口92" portletmode="simpleNews" configs="{'c28':'320','c14':'1','c1':'1','c29':'1','c39':'300','c38':'100','c21':'0','c4':'1','c6':'-1','c9':'0','c12':'0','c30':'0','c37':'1','c31':'0','c16':'1','c27':'320','c15':'0','c32':'','c5':'_blank','c40':'1','c17':'0','c19':'yyyy-MM-dd','c33':'500','c2':'序号,标题,发布时间','c23':'1','c41':'240','c22':'0','c7':'1','c13':'200','c43':'0','c24':'240','c35':'-1:-1','c3':'9','c8':'1','c44':'0','c25':'320','c34':'300','c18':'yyyy-MM-dd','c20':'0','c42':'320','c10':'50','c11':'1','c36':'0','c26':'1'}" contents="{'c2':'0'}">
+				<!-- No Data -->
+			</div>
+			<div class="foot-center">
+				<div class="foot-logo">
+					<img src="/_upload/tpl/03/b7/951/template951/images/logo.svg"><span class="sitetitle">研究生院</span>
+				</div>
+				<div class="center_bottom clearfix">
+					<div class="siteinfo">
+						<p class="copyright"><span>版权所有©哈尔滨工业大学研究生院</span></p>
+					</div>
+					<div class="shares" frag="窗口91" portletmode="simpleNews" configs="{'c28':'320','c14':'1','c1':'1','c29':'0','c39':'300','c38':'100','c21':'0','c4':'1','c6':'15','c9':'0','c12':'0','c30':'0','c37':'1','c31':'0','c16':'1','c27':'320','c15':'0','c32':'','c5':'_blank','c40':'1','c17':'0','c19':'yyyy-MM-dd','c33':'500','c2':'序号,标题,发布时间,缩略图','c23':'1','c41':'240','c22':'0','c7':'1','c13':'200','c43':'0','c24':'240','c35':'-1:-1','c3':'3','c8':'1','c44':'0','c25':'320','c34':'300','c18':'yyyy-MM-dd','c20':'0','c42':'320','c10':'50','c11':'1','c36':'0','c26':'1'}" contents="{'c2':'0'}">
+						<!-- No Data -->
+					</div>
+				</div>
+			</div>
+			<div class="foot-right">
+				<div class="site-info" frag="窗口90" portletmode="simpleSiteAttri">
+					<p class="copyright"><span>地址：哈尔滨市南岗区西大直街92号</span></p>
+					<p class="copyright"><span>电话：0451-86412296</span></p>
+				</div>
+				<div class="siteviews">
+                       <div class="view">欢迎：第 <span class="times"  frag="窗口93" portletmode="siteCount"><span class="WP_VisitCount" url="/_visitcountdisplay?siteId=300&type=1&dispMode=4&statMode=1&showDate=1">47242782026年09月17日</span><span>位访客</span></span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--End||footer-->
+</body>
+<script type="text/javascript" src="/_upload/tpl/03/b7/951/template951/js/comcus.js"></script>
+<script type="text/javascript" src="/_upload/tpl/03/b7/951/template951/js/list.js"></script>
+<script type="text/javascript" src="/_upload/tpl/03/b7/951/template951/js/app.js"></script>
+<script type="text/javascript">
+$(function(){
+	// 初始化SDAPP
+	new SDAPP({
+		"menu":{
+			type:"slide,aside"
+		}
+	});
+	$(".wp_listcolumn .wp_column").each(function(){
+		$(this).find(".col_item_link").click(function(){
+			$(this).parents(".wp_column").toggleClass("down").find(".sub_list").slideToggle(300);
+			$(this).parents(".wp_column").siblings(".down").removeClass("down").find(".sub_list").slideToggle(300);
+			$(this).parents(".wp_column").siblings(".parent").removeClass("parent").find(".sub_list").slideUp(300);
+		})
+	    var chi = $(this).find(".sub_list").length;
+		if(chi==1){
+			$(this).find(".col_item_link").removeAttr("href")
+		}else{
+			$(this).addClass("single")
+		}
+	})
+	
+});
+</script>
+<script type="text/javascript" src="/_upload/tpl/03/b7/951/template951/js/search.js"></script>
+</html>
+
+ <img src="/_visitcount?siteId=300&type=2&columnId=17439" style="display:none" width="0" height="0"/>

@@ -1,0 +1,444 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>华中科技大学研究生招生严正声明</title><META Name="keywords" Content="华中科技大学研究生招生信息网,华中科技大学,华中科技,华中,中科,科技大学,科技大,科技,大学,学研,研究生,研究,招生,严正声明,严正,正声,声明" />
+<META Name="description" Content="近期，社会上部分机构及个人混淆视听，假借华中科技大学学校名义或与学校合作名义，设立招生网站或新媒体账号，发布虚假研究生招生信息。此类行为严重损害学校声誉，对广大考生及家长造成极大误导。为澄清事实、以正视听，特严正声明如下。1．我校研究生招生工作由研究生院统一管理，研究生院招生办公室具体负责。我校未授权任何社会机构或个人进行研究生招生宣传或招生录取工作，没有设立任何分支机构进行相关工作。２．华中科..." />
+
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+<link rel="stylesheet" href="../../css/publice.css" type="text/css">
+<script type="text/javascript" src="../../js/jquery.min.js"></script>
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/superslide.js"></script>
+<script type="text/javascript" src="../../js/jquery.soChange.js"></script>
+<script type="text/javascript" src="../../js/index.js"></script>
+<script type="text/javascript">
+$(function(){
+    $(".mainmenu dl").hide();
+    $("li.mainmenu").hover(function(){
+        $(this).find("dl").stop(true,true);
+        $(this).find("dl").slideDown();
+    },function(){
+        $(this).find("dl").stop(true,true);
+        $(this).find("dl").slideUp();
+    });
+})
+</script>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230747f4757535b574200000001475c -->
+<link rel="stylesheet" type="text/css" href="../../content.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1106,'/content.jsp',4114,1680431565)</script>
+</head>
+<body>
+<!--top s-->    
+<div class="topWrap clearfix">
+    <div class="topDiv">
+        
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+
+<div class="logo">
+<a href="../../index.htm"><img src="../../images/web-logo.png" /></a>
+</div>
+
+        <div class="topR fr">
+            
+<script language="javascript">
+function dosuba273795a()
+{
+    try{
+        var ua = navigator.userAgent.toLowerCase();
+        if(ua.indexOf("msie 8")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE8
+        }else if(ua.toLowerCase().indexOf("rv:")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE11+
+        }else{
+            if (document.all) 
+            {
+                window.external.addFavorite(document.location.href, document.title);
+            }else if(window.sidebar)
+            {
+                window.sidebar.addPanel( document.title, document.location.href, "");//firefox
+            }
+            else
+            {
+                alert(hotKeysa273795a());
+            }
+        }
+
+    }
+    catch (e){alert("无法自动添加到收藏夹，请使用 Ctrl + d 手动添加");}
+}
+function hotKeysa273795a() 
+{
+    var ua = navigator.userAgent.toLowerCase(); 
+    var str = "";    
+    var isWebkit = (ua.indexOf('webkit') != - 1); 
+    var isMac = (ua.indexOf('mac') != - 1);     
+    if (ua.indexOf('konqueror') != - 1) 
+    {  
+        str = 'CTRL + B'; // Konqueror   
+    } 
+    else if (window.home || isWebkit || isMac) 
+    {        
+        str = (isMac ? 'Command/Cmd' : 'CTRL') + ' + D'; // Netscape, Safari, iCab, IE5/Mac   
+    }
+    return ((str) ? '无法自动添加到收藏夹，请使用' + str + '手动添加' : str);
+}
+function setHomepagea273795a()
+{
+    var url = document.location.href;
+    if (document.all)
+    {
+        document.body.style.behavior='url(#default#homepage)';
+        document.body.setHomePage(url);
+    }
+    else if (window.sidebar)
+    {
+        if(window.netscape)
+        {
+             try{
+                  netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+             }catch (e){
+                   alert("该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+             }
+        }
+    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+    prefs.setCharPref('browser.startup.homepage',url);
+    }
+    else
+    {
+        alert("浏览器不支持自动设为首页，请手动设置");
+    }
+}
+</script>
+<div class="topR_t fr">
+            <A href="javascript:setHomepagea273795a()" style="TEXT-DECORATION: none;">
+                设为首页
+            </A>
+        |
+            <A onclick="javascript:dosuba273795a();" href="#" style="TEXT-DECORATION: none;">
+               加入收藏
+            </A>
+        </div>
+            <script type="text/javascript">
+                function test3()
+                {
+                    var tempStr=document.getElementById('test2').value;
+                    if(tempStr=="请输入关键字搜索")
+                    {
+                        document.getElementById('test2').value="";
+                    }
+                }
+                function test4()
+                {
+                    var tempStr=document.getElementById('test2').value;
+                    if(tempStr=="")
+                    {
+                        document.getElementById('test2').value="请输入关键字搜索";
+                    }
+                }
+            </script>   
+        </div>
+    </div>
+</div>
+<!--nav-->
+<div class="navWrap  clearfix">
+    <div class="nav">
+    <ul>
+			<li>
+			<a class="link" href="../../index.htm">网站首页</a>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../xxgk/xxjj.htm">学校概况</a>
+			
+			<dl class="chang">
+
+					<dd>
+
+
+<a href="../../xxgk/xxjj.htm">学校简介</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../xxgk/lsyg.htm">历史沿革</a>
+
+</dd>
+			</dl>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../zsxx/ggtz.htm">招生信息</a>
+			
+			<dl class="chang">
+
+					<dd>
+
+
+<a href="../../zsxx/ggtz.htm">公告通知</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../zsxx/zszc.htm">招生政策</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../zsxx/ksdg.htm">考试大纲</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../zsxx/lnfsx.htm">历年分数线</a>
+
+</dd>
+			</dl>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../zsjz/sszs.htm">招生简章</a>
+			
+			<dl class="chang">
+
+					<dd>
+
+
+<a href="../../zsjz/sszs.htm">硕士招生</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../zsjz/bszs.htm">博士招生</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../zsjz/gatzs.htm">港澳台招生</a>
+
+</dd>
+			</dl>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../wsbm/tmswbxt.htm">网上报名</a>
+			
+			<dl class="chang">
+
+					<dd>
+
+
+<a href="../../wsbm/tmswbxt.htm">推免生网报系统</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../wsbm/ss_bswsbmxt.htm">硕士/博士网上报名系统</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../wsbm/ss_bswsqrxt.htm">硕士/博士网上确认系统</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../wsbm/ss_bscjcxxt.htm">硕士/博士成绩查询系统</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../wsbm/xlywsbmxt.htm">夏令营网上报名系统</a>
+
+</dd>
+			</dl>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../zyxz.htm">资源下载</a>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../lxwm/zszxjssqd.htm">联系我们</a>
+			
+			<dl class="chang">
+
+					<dd>
+
+
+<a href="../../lxwm/zszxjssqd.htm">招生咨询及申诉渠道</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../lxwm/yxlxfs.htm">院系联系方式</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../lxwm/cjwt.htm">常见问题</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../lxwm/lyb.htm">留言板</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../lxwm/wjdc.htm">问卷调查</a>
+
+</dd>
+			</dl>
+		</li>
+     
+    </ul>
+</div>
+</div>
+<script type="text/javascript">
+
+	$(".mainmenu dl").hide();
+
+</script>
+
+<!--main--> 
+<div class="mainWrap clearfix">
+    <div class="main_tit">
+        <div class="main_titT main_titTa">
+            <img src="../../img/bri_icon1.png">
+
+<a href="../../index.htm">网站首页</a>>
+<a href="../../zsxx/ggtz.htm">招生信息</a>>
+<a href="../../zsxx/ggtz.htm">公告通知</a>>
+<a href="" class="cur">正文</a>
+        </div>
+    </div>
+<div class="main_content" style="min-height:450px;">
+    
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname">
+<div class="main_contit">
+			<h2>华中科技大学研究生招生严正声明</h2>
+			<p>作者：    时间：2026-06-08    点击数：<script>_showDynClicks("wbnews", 1680431565, 4114)</script></p>
+</div>
+<div class="main_conDiv">
+<div class="main_reporter">
+<dl>
+<dd>
+    <div id="vsb_content"><div class="v_news_content">
+<style><!--         p.MsoNormal, li.MsoNormal, div.MsoNormal{ mso-style-parent:""; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-justify:inter-ideograph; margin-left:0.0pt; text-indent:0.0pt; line-height:normal; font-size:10.5pt; font-family:Calibri; font-weight:normal;}                  h1{ mso-style-next:"正文"; text-align:left; margin-left:0.0pt; text-indent:0.0pt; line-height:normal; font-size:24.0pt; font-family:宋体;}                  h2{ mso-style-next:"正文"; text-align:left; margin-left:0.0pt; text-indent:0.0pt; line-height:normal; font-size:18.0pt; font-family:宋体;}                  p.MsoAcetate, li.MsoAcetate, div.MsoAcetate{ margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-justify:inter-ideograph; margin-left:0.0pt; text-indent:0.0pt; line-height:normal; font-size:9.0pt; font-family:Calibri; font-weight:normal;}                  p.MsoFooter, li.MsoFooter, div.MsoFooter{ margin-top:0.0pt; margin-bottom:0.0pt; text-align:left; margin-left:0.0pt; text-indent:0.0pt; line-height:normal; vsb_temp-mode:char; tab-stops:center Blank 207.65pt right Blank 415.3pt ; font-size:9.0pt; font-family:Calibri; font-weight:normal;}                  p.MsoHeader, li.MsoHeader, div.MsoHeader{ margin-top:0.0pt; margin-bottom:0.0pt; text-align:center; margin-left:0.0pt; text-indent:0.0pt; line-height:normal; vsb_temp-mode:char; tab-stops:center Blank 207.65pt right Blank 415.3pt ; border-bottom:solid #000 1.0pt; padding:0.0pt 0.0pt 1.0pt 0.0pt; font-size:9.0pt; font-family:Calibri; font-weight:normal;}                  p{ margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-justify:inter-ideograph; margin-left:0.0pt; text-indent:0.0pt; line-height:normal; font-size:12.0pt; font-family:Calibri; font-weight:normal;}                  @list l0{ mso-list-id:268435337; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l0:level1{ mso-level-number-format:bullet; mso-level-style-link:"列表项目符号"; mso-level-text:"●"; mso-level-tab-stop:18.0pt; mso-level-number-position:left; margin-left:18.0pt; text-indent:-18.0pt; font-family:Dialog;}                  @list l1{ mso-list-id:268435336; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l1:level1{ mso-level-style-link:"列表编号"; mso-level-text:"%1."; mso-level-tab-stop:18.0pt; mso-level-number-position:left; margin-left:18.0pt; text-indent:-18.0pt;}                  @list l2{ mso-list-id:268435331; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l2:level1{ mso-level-number-format:bullet; mso-level-style-link:"列表项目符号 2"; mso-level-text:"●"; mso-level-tab-stop:39.0pt; mso-level-number-position:left; margin-left:39.0pt; text-indent:-18.0pt; font-family:Dialog;}                  @list l3{ mso-list-id:268435330; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l3:level1{ mso-level-number-format:bullet; mso-level-style-link:"列表项目符号 3"; mso-level-text:"●"; mso-level-tab-stop:60.0pt; mso-level-number-position:left; margin-left:60.0pt; text-indent:-18.0pt; font-family:Dialog;}                  @list l4{ mso-list-id:268435329; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l4:level1{ mso-level-number-format:bullet; mso-level-style-link:"列表项目符号 4"; mso-level-text:"●"; mso-level-tab-stop:81.0pt; mso-level-number-position:left; margin-left:81.0pt; text-indent:-18.0pt; font-family:Dialog;}                  @list l5{ mso-list-id:268435328; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l5:level1{ mso-level-number-format:bullet; mso-level-style-link:"列表项目符号 5"; mso-level-text:"●"; mso-level-tab-stop:102.0pt; mso-level-number-position:left; margin-left:102.0pt; text-indent:-18.0pt; font-family:Dialog;}                  @list l6{ mso-list-id:268435327; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l6:level1{ mso-level-style-link:"列表编号 2"; mso-level-text:"%1."; mso-level-tab-stop:39.0pt; mso-level-number-position:left; margin-left:39.0pt; text-indent:-18.0pt;}                  @list l7{ mso-list-id:268435326; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l7:level1{ mso-level-style-link:"列表编号 3"; mso-level-text:"%1."; mso-level-tab-stop:60.0pt; mso-level-number-position:left; margin-left:60.0pt; text-indent:-18.0pt;}                  @list l8{ mso-list-id:268435325; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l8:level1{ mso-level-style-link:"列表编号 4"; mso-level-text:"%1."; mso-level-tab-stop:81.0pt; mso-level-number-position:left; margin-left:81.0pt; text-indent:-18.0pt;}                  @list l9{ mso-list-id:268435324; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l9:level1{ mso-level-style-link:"列表编号 5"; mso-level-text:"%1."; mso-level-tab-stop:102.0pt; mso-level-number-position:left; margin-left:102.0pt; text-indent:-18.0pt;}                  @page{}                  @page Section1{ size:595.3pt 841.9pt; margin:72.0pt 89.0pt 72.0pt 90.0pt; padding:24.0pt 24.0pt 24.0pt 24.0pt; vsb_temp:15.6pt;}                  div.Section1{ page:Section1;}                  @font-face{ font-family:仿宋_GB2312; panose-1:2 1 6 9 3 1 1 1 1 1; mso-font-alt:Dialog; mso-font-charset:134; mso-generic-font-family:modern; mso-font-pitch:variable; mso-font-signature:1 135135232 0 0 262144 0;}                  @font-face{ font-family:Dialog; panose-1:0 0 0 0 0 0 0 0 0 0; mso-font-charset:0; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:0 0 0 0 0 0;}                  @font-face{ font-family:楷体_GB2312; panose-1:2 1 6 9 3 1 1 1 1 1; mso-font-alt:Dialog; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:1 135135232 0 0 262144 0;}                  @font-face{ font-family:Calibri; panose-1:2 15 5 2 2 2 4 3 2 4; mso-font-alt:Lucida Sans; mso-font-charset:0; mso-generic-font-family:swiss; mso-font-pitch:variable; mso-font-signature:-536870145 1073786111 1 0 536871327 0;}                  @font-face{ font-family:Times New Roman; panose-1:2 2 6 3 5 4 5 2 3 4; mso-font-alt:Lucida Sans; mso-font-charset:0; mso-generic-font-family:roman; mso-font-pitch:variable; mso-font-signature:536902279 -2147483648 8 0 511 0;}                  @font-face{ font-family:宋体; panose-1:2 1 6 0 3 1 1 1 1 1; mso-font-alt:Dialog; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:3 680460288 6 0 262145 0;}                  @font-face{ font-family:方正小标宋简体; panose-1:2 1 6 1 3 1 1 1 1 1; mso-font-alt:Dialog; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:1 135135232 0 0 262144 0;}                --></style>
+<div class="Section1">
+ <h1 style="margin-top:0.0pt; margin-bottom:0.0pt; text-align:center; line-height:28.0pt; background:#FFFFFF"><br></h1>
+ <p class="MsoNormal" style="text-indent:32.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">近期，社会上部分机构及个人混淆视听，假借华中科技大学</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">学校</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">名义或</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">与学校</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">合作名义，设立招生网站或新媒体账号，发布虚假研究生招生信息。此类行为严重损害学校声誉，对广大考生及家长造成极大误导。为澄清事实、以正视听，</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">特</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">严正声明如下。</span></p>
+ <p class="MsoNormal" style="text-indent:32.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size: 16pt; color: rgb(51, 51, 51); font-family: 仿宋_gb2312, fangsong_gb2312;">1．</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">我校研究生招生工作由研究生院统一管理，研究生院招生办公室具体负责。我校未授权任何社会机构或个人进行研究生招生宣传或招生录取工作，没有设立任何分支机构进行相关工作。</span></p>
+ <p class="MsoNormal" style="text-indent:32.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">２．</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">华中科技大学研究生招生信息</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">发布</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">的唯一官方网址为</span><span style="font-size:14.0pt; font-family:Times New Roman; color:#333333">https://gszs.hust.edu.cn</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">，</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">凡涉及我校</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">研究生招生</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">相关事宜</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">（</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">含</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">宣传、报名、考试、成绩查询、复试、调剂、拟录取</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">等</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">）</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">，</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">均以该网站发布内容为准。</span></p>
+ <p class="MsoNormal" style="text-indent:32.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333">３．</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">我校不举办任何形式的研究生招生初试、复试辅导</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">培训</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">，</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">严</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">禁校内各单位</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">及</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">个人</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">组织</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">或参与</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">相关</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">辅导活动。</span></p>
+ <p class="MsoNormal" style="text-indent:32.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">４．</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">对于社会上以我校名义开展研究生招生及办学活动的机构和个人，我校保留追究其法律责任的权利。</span></p>
+ <p class="MsoNormal" style="text-align:justify; text-justify:inter-ideograph; text-indent:32.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">５．</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">我校严格遵</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">照</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">国家</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">关于</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">研究生招生</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">的</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">相关规定开展宣传工作</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">，请广大考生及家长提高警惕，注意甄别信息，切勿相信非法机构或个人</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">发布</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">的虚假宣传，不要相信所谓“<span style="color: rgb(51, 51, 51); font-family: 仿宋_GB2312; font-size: 21.3333px; text-align: justify; text-indent: 42.6667px; background-color: rgb(255, 255, 255);">咨询辅导</span>”“<span style="color: rgb(51, 51, 51); font-family: 仿宋_GB2312; font-size: 21.3333px; text-align: justify; text-indent: 42.6667px; background-color: rgb(255, 255, 255);">内部推荐</span>”“<span style="color: rgb(51, 51, 51); font-family: 仿宋_GB2312; font-size: 21.3333px; text-align: justify; text-indent: 42.6667px; background-color: rgb(255, 255, 255);">免试入学</span>”“<span style="color: rgb(51, 51, 51); font-family: 仿宋_GB2312; font-size: 21.3333px; text-align: justify; text-indent: 42.6667px; background-color: rgb(255, 255, 255);">保过</span>”“<span style="color: rgb(51, 51, 51); font-family: 仿宋_GB2312; font-size: 21.3333px; text-align: justify; text-indent: 42.6667px; background-color: rgb(255, 255, 255);">保录</span>”等</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">不实</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">承诺，谨防上当受骗，切实</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">维</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">护自身合法权益。</span></p>
+ <p class="MsoNormal" style="text-align:justify; text-justify:inter-ideograph; text-indent:32.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">欢迎社会</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">各界对</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">虚假招生宣传信息和非法招生机构</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">进行</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">举报。</span></p>
+ <p class="MsoNormal" style="text-indent:32.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:16.0pt; font-family:Times New Roman; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF"><br></span></p>
+ <p class="MsoNormal" style="text-indent:32.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">举报电话：027-87541746</span></p>
+ <p class="MsoNormal" style="text-indent:32.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">电子邮箱：yzb@hust.edu.cn</span></p>
+ <p class="MsoNormal" style="text-indent:32.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">特此声明。</span></p>
+ <p class="MsoNormal" style="text-align:left; text-indent:10.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:16.0pt; font-family:Times New Roman; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF"><br></span></p>
+ <p class="MsoNormal" style="text-align:left; text-indent:10.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:16.0pt; font-family:Times New Roman; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF"><br></span></p>
+ <p class="MsoNormal" style="text-indent:160.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;华中科技大学研究生院</span></p>
+ <p class="MsoNormal" style="text-indent:192.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:16.0pt; font-family:Times New Roman; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;202</span><span style="font-size:16.0pt; font-family:Times New Roman; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">6</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">年</span><span style="font-size:16.0pt; font-family:Times New Roman; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">6</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">月</span><span style="font-size:16.0pt; font-family:Times New Roman; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">8</span><span style="font-size:16.0pt; font-family:仿宋_GB2312; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF">日</span></p>
+ <p class="MsoNormal" style="text-align:center; text-indent:10.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:14.0pt; font-family:Times New Roman; color:#333333; mso-font-kerning:0.0pt; background:#FFFFFF"><br></span></p>
+ <p class="MsoNormal" style="text-align:left; text-indent:10.0pt; line-height:28.0pt; vsb_temp-mode:char"><span style="font-size:14.0pt; font-family:Times New Roman; color:#333333"><br></span></p>
+</div>
+</div></div></dd>
+				</dl>
+			</div></div>
+<div id="div_vote_id"></div>
+
+
+
+
+
+    <div class="main_art">
+<ul>
+        <li><lable>上一条：</lable><a href="4115.htm">华中科技大学2026年博士拟录取考生调档、组织关系转接及信息确认等工作的通告</a></li>
+        <li><lable>下一条：</lable><a href="https://mp.weixin.qq.com/s/zDZ-Wq4wtgX3cdI0HMlVqw">“喻”见未来 研启新章｜6月12日！华中科技大学研究生招生咨询会相约济南</a></li>
+ 
+</ul>
+</div>
+   
+</form>
+
+</div>
+</div>
+<!--link--> 
+<div class="linkWrap clearfix">
+
+    <div class="linkDiv_two">
+        <script language="javascript" src="/system/resource/js/openlink.js"></script>     <div class="linkDiv_one">
+<div class="link_one">
+			   <dl>
+                <dt>友情链接</dt>
+<dd>
+  <a href="http://www.hust.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63089)">华中科技大学</a>
+  <a href="#" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63090)">研究生工作部</a>
+  <a href="http://gszz.hust.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63091)">研究生资助网</a>
+  <a href="http://gs.hust.edu.cn/category-3" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63092)">研究生培养</a>
+  <a href="http://gs.hust.edu.cn/category-6" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63093)">研究生学位管理</a>
+  <a href="#" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63094)">研究生就业</a>
+  <a href="http://www.hust.edu.cn/759/list.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63095)">学科建设</a>
+  <a href="http://gs.hust.edu.cn/category-7" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63096)">非全日制教育</a>
+</dd></dl></div>
+        </div>
+
+ 
+
+
+
+    </div>
+    
+</div>
+<!--foot-->
+<div class="footWrap clearfix"><div class="footDiv_one">
+        <div class="foot_one">
+            <p style="text-align: center">Copyright © 2016&nbsp;华中科技大学研究生院招生办公室 All Rights Reserved</p>
+        </div>
+    </div>
+</div>  
+</body>
+</html>
+<script type="text/javascript">
+$(function () {
+
+//切换对象为其他，这里为包含图片和标题的层
+    $('#change_32 div.changeDiv').soChange({//对象指向层，层内包含图片及标题
+        thumbObj:'#change_32 .ul_change_a2 span',
+        thumbNowClass:'on'//自定义导航对象当前class为on
+    });
+
+});
+</script>

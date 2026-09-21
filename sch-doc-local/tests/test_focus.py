@@ -19,7 +19,7 @@ class FocusTests(unittest.TestCase):
         self.assertEqual(classify(source,'2026与2027年招生计划对照')['year'],'跨年')
 
     def test_irrelevant_departments_and_policy_notices(self):
-        for title in ['2027年美术学院硕士复试通知','音乐学院招生简章','2026年普通高校招生报名','2026年博士招生简章']:
+        for title in ['2027年美术学院硕士复试通知','音乐学院招生简章','2026年普通高校招生报名','2026年博士招生简章','2026年国际研究生招生简章','2027年港澳台硕士招生']:
             self.assertFalse(relevant(title),title)
         for title in ['2027年化学学院复试细则','2026年硕士研究生招生考试网上报名公告','2027年接收推免硕士及直博生通知','生物化学专业复试通知']:
             self.assertTrue(relevant(title),title)

@@ -25,6 +25,10 @@ def fields(text):
 
 def relevant(title, source=None):
     """Mixed institute lists are allowed; explicit unrelated departments are not."""
+    if source and '[非目标资料]' in source.get('note',''):
+        return False
+    if re.search(r'国际学生|国际研究生|外国留学生|来华留学|港澳台|International Graduate',title,re.I):
+        return False
     if UNRELATED.search(title):
         return False
     if re.search(r'高考|中考|自考|成人高|专升本|高职|中职|幼儿|中小学|普通高校招生|本科招生|教师资格', title) and not re.search(r'硕士|研究生|推免',title):
@@ -81,7 +85,7 @@ def enrich(data, root):
                 row['filing'].update(relevant=False, classification_basis='失败响应留档，不计为成功保存的招生资料')
             if table == 'notes' and re.fullmatch(r'20\d{2}', row.get('year') or ''):
                 row['filing'].update(year=row['year'], year_basis='笔记手动填写年份')
-            if '本轮审计暂停' in source.get('note',''):
+            if '本轮审计暂停' in source.get('note','') or '[非目标资料]' in source.get('note',''):
                 row['filing'].update(relevant=False, classification_basis='来源归属待复核，已退出默认相关资料视图')
     for key, filename in [('portals', 'portals.json'), ('coverage', 'coverage.json'), ('excluded_institutions', 'excluded-institutions.json')]:
         path = Path(root)/'sources'/filename

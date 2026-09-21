@@ -1,0 +1,696 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>南昌大学2024年硕士研究生招生简章-南昌大学研究生院</title><meta name="pageType" content="3">
+<meta name="pageTitle" content="南昌大学2024年硕士研究生招生简章">
+<META Name="keywords" Content="南昌大学研究生院,招生简章,南昌大学2024年硕士研究生招生简章" />
+<META Name="description" Content="南昌大学2024年硕士研究生招生简章 南昌大学是国家“双一流”建设高校、教育部与江西省部省合建高校、江西省一流大学整体建设高校。学校现设有人文学部、社科学部、理工一部、理工二部和医学部，拥有12个学科门类的132个本科专业，..." />
+
+    <link rel="stylesheet" href="../../style/ny.css">
+    <link rel="stylesheet" href="../../style/public.css">
+    <link rel="stylesheet" href="../../style/slick.css">
+    <link rel="stylesheet" href="../../style/slick-theme.css">
+
+<!--Announced by Visual SiteBuilder 9-->
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307775465753515742000300024f56 -->
+<link rel="stylesheet" type="text/css" href="../../content.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1171,'/content.jsp',22116,2125996941)</script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="head px1400">
+             <div>
+                    <div class="dh"><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script><UL>
+    <li>
+        <a href="../../glyfw/yzxx.htm" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 114514)">院长信箱</a>
+    </li>
+    <li>
+        <a href="../../index.htm" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97947)">网站首页</a>
+    </li>
+    <li>
+        <a href="https://www.ncu.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97946)">南昌大学</a>
+    </li>
+</UL></div>
+                    <div class="seach"><!-- 3.1.3版本 -->
+
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script><script language="javascript" src="/system/resource/vue/vue.js"></script><script language="javascript" src="/system/resource/vue/bluebird.min.js"></script><script language="javascript" src="/system/resource/vue/axios.js"></script><script language="javascript" src="/system/resource/vue/polyfill.js"></script><script language="javascript" src="/system/resource/vue/token.js"></script><LINK href="/system/resource/vue/static/element/index.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/vue/static/element/index.js"></script><script language="javascript" src="/system/resource/vue/static/public.js"></script><script language="javascript" src="/system/resource/openapp/search/js/containsHtmlTags.js"></script><script language="javascript" src="/system/resource/openapp/search/layui/layui.js"></script><div id="divu1"></div>
+<script type="text/html" id="htmlu1">
+    <div id="appu1">
+        <div v-if="!isError">
+
+<input type="text" class="qwss" placeholder="请输入关键字.." v-model=query.keyWord @keyup.enter="onSubmit">
+<div class="ser_img">
+<input type="image" class="tj" src="../../image/seach.png" v-on:click="onSubmit()">
+</div>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu1").html($("#htmlu1").text());
+</script>
+<script>
+    var appOwner = "2125996941";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu1",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script>
+
+<script>
+   var appElementu1 = document.querySelector("#appu1");
+   if (appElementu1 && appElementu1.__vue__) {
+
+   } else {
+      $("#divu1").html($("#htmlu1").text());
+      var appOwner = "2125996941";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou1 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu1(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu1();
+        }
+      };
+
+      function onSubmitu1(e) {
+        queryInfou1.query.keyWord= $("#appu1  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou1.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+</script></div>
+                </div>
+        </div>
+        <div id="ft-link">
+            <div class="ft-link wp"><span>快速访问</span>
+ <a href="https://gmsadm.ncu.edu.cn/navigation/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112876)">研究生教育管理系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22176.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112877)">博士研究生招生简章</a>
+ <a href="https://gsas.ncu.edu.cn/logon" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112878)">博士网报系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22166.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112879)">硕士研究生招生简章</a>
+ <a href="https://ygb.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112880)">党委研究生工作部</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/bszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112882)">博士招生</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/sszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112883)">硕士招生</a>
+ <a href="https://teacher.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112884)">教师个人主页</a>
+ <a href="https://yjsy.ncu.edu.cn/yygk/ryjdh.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112885)">联系方式</a>
+</div>
+        </div>
+    </div>
+    <div id="logo">
+        <div class="px1400" id="nav">
+                <div class="logo">
+<a href="../../index.htm"><img src="../../images/LOGO.png" alt=""></a>
+</div>
+                <div class="nav"><ul>
+<li>
+    <a href="../../index.htm">网站首页</a>
+</li>  
+<li>
+    <a href="../../yygk/yyjj.htm">研院概况</a>
+    <ul>
+       
+            <li><a href="../../yygk/yyjj.htm">研院简介</a></li>
+       
+            <li><a href="../../yygk/jgsz.htm">机构设置</a></li>
+       
+            <li><a href="../../yygk/glzn.htm">管理职能</a></li>
+       
+            <li><a href="../../yygk/ryjdh.htm">人员及电话</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../zsgz/zsjz.htm">招生工作</a>
+    <ul>
+       
+            <li><a href="../../zsgz/zsjz.htm">招生简章</a></li>
+       
+            <li><a href="../../zsgz/sszs.htm">硕士招生</a></li>
+       
+            <li><a href="../../zsgz/bszs.htm">博士招生</a></li>
+       
+            <li><a href="../../zsgz/tmgz.htm">推免工作</a></li>
+       
+            <li><a href="../../zsgz/gatyz.htm">港澳台研招</a></li>
+       
+            <li><a href="../../zsgz/gzzd.htm">规章制度</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../pygz/gzzd.htm">培养工作</a>
+    <ul>
+       
+            <li><a href="../../pygz/gzzd.htm">规章制度</a></li>
+       
+            <li><a href="../../pygz/gzlc.htm">工作流程</a></li>
+       
+            <li><a href="../../pygz/pydt.htm">培养动态</a></li>
+       
+            <li><a href="../../pygz/zyxw.htm">专业学位</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../xwgz/xwgzzz.htm">学位工作</a>
+    <ul>
+       
+            <li><a href="../../xwgz/xwgzzz.htm">学位工作组织</a></li>
+       
+            <li><a href="../../xwgz/sqxwwj.htm">申请学位文件</a></li>
+       
+            <li><a href="../../xwgz/sqxwlc.htm">申请学位流程</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../xwdjs/xwsqd.htm">学位点建设</a>
+    <ul>
+       
+            <li><a href="../../xwdjs/xwsqd.htm">学位授权点</a></li>
+       
+            <li><a href="../../xwdjs/xwdsb.htm">学位点申报</a></li>
+       
+            <li><a href="../../xwdjs/ejxkzzsz.htm">二级学科自主设置</a></li>
+       
+            <li><a href="../../xwdjs/xwdpg_hy_.htm">学位点评估（核验）</a></li>
+       
+            <li><a href="../../xwdjs/xwddtdz_yh_.htm">学位点动态调整（优化）</a></li>
+       
+            <li><a href="../../xwdjs/gjxksz.htm">国家学科设置</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../zgxy/zgxyjj.htm">卓工学院</a>
+    <ul>
+       
+            <li><a href="../../zgxy/zgxyjj.htm">卓工学院简介</a></li>
+       
+            <li><a href="../../zgxy/zsdt.htm">招生动态</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../glyfw/bszn.htm">管理与服务</a>
+    <ul>
+       
+            <li><a href="../../glyfw/bszn.htm">办事指南</a></li>
+       
+            <li><a href="../../glyfw/yzxx.htm">院长信箱</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../xzzx.htm">下载中心</a>
+</li>  
+</ul></div>
+            </div>
+    </div>
+    <div class="banner">
+        <div><a href="#">
+    <img src="../../images/nandaban1.jpg" alt="">
+</a></div>
+    </div>
+    <!-- 移动端top -->
+    <div class="top">
+        <div class="wap wap-menu">
+            <img src="../../image/menu.png" class="menu" alt="">
+            <img src="../../image/close.png" class="close-menu" alt="">
+        </div>
+    </div>
+    <div class="wap m-head">
+            <div class="m-logo">        <a href="../../index.htm" onclick="_addDynClicks(&#34;wbimage&#34;, 2125996941, 1024740)"><img src="../../images/yunnandaxuelogoshouji.png" alt=""></a>           
+</div>
+            <div class="m-nav">
+                <div class="m-tlink">
+    <a href="../../index.htm" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97954)">网站首页</a>    
+    <a href="https://www.ncu.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97955)">南昌大学</a>    
+</div>
+                
+                         <div class="yddtblj"><span>快速访问</span>
+ <a href="https://gmsadm.ncu.edu.cn/navigation/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112876)">研究生教育管理系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22176.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112877)">博士研究生招生简章</a>
+ <a href="https://gsas.ncu.edu.cn/logon" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112878)">博士网报系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22166.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112879)">硕士研究生招生简章</a>
+ <a href="https://ygb.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112880)">党委研究生工作部</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/bszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112882)">博士招生</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/sszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112883)">硕士招生</a>
+ <a href="https://teacher.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112884)">教师个人主页</a>
+ <a href="https://yjsy.ncu.edu.cn/yygk/ryjdh.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112885)">联系方式</a>
+</div>
+                <div class="m-search"><!-- 3.1.3版本 -->
+
+
+
+<div id="divu9"></div>
+<script type="text/html" id="htmlu9">
+    <div id="appu9">
+               <div v-if="!isError">
+
+<input type="text" class="qwss" placeholder="请输入内容" v-model=query.keyWord @keyup.enter="onSubmit">
+<input type="image" class="tj" src="../../image/seach.png" v-on:click="onSubmit()">
+</div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu9").html($("#htmlu9").text());
+</script>
+<script>
+    var appOwner = "2125996941";
+    var token = gettoken(10);
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu9",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script>
+
+<script>
+   var appElementu9 = document.querySelector("#appu9");
+   if (appElementu9 && appElementu9.__vue__) {
+
+   } else {
+      $("#divu9").html($("#htmlu9").text());
+      var appOwner = "2125996941";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou9 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu9(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu9();
+        }
+      };
+
+      function onSubmitu9(e) {
+        queryInfou9.query.keyWord= $("#appu9  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou9.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+</script></div>
+                <ul class=""><li>
+    <a href="../../index.htm">网站首页</a>
+    <span></span>
+    <ul>
+            <a href="../../index/zxdt.htm">最新动态</a>        
+            <a href="../../index/tzgg.htm">通知公告</a>        
+            <a href="../../index/zsgz.htm">招生工作</a>        
+            <a href="../../index/gszl.htm">公示专栏</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../yygk/yyjj.htm">研院概况</a>
+    <span></span>
+    <ul>
+            <a href="../../yygk/yyjj.htm">研院简介</a>        
+            <a href="../../yygk/jgsz.htm">机构设置</a>        
+            <a href="../../yygk/glzn.htm">管理职能</a>        
+            <a href="../../yygk/ryjdh.htm">人员及电话</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../zsgz/zsjz.htm">招生工作</a>
+    <span></span>
+    <ul>
+            <a href="../../zsgz/zsjz.htm">招生简章</a>        
+            <a href="../../zsgz/sszs.htm">硕士招生</a>        
+            <a href="../../zsgz/bszs.htm">博士招生</a>        
+            <a href="../../zsgz/tmgz.htm">推免工作</a>        
+            <a href="../../zsgz/gatyz.htm">港澳台研招</a>        
+            <a href="../../zsgz/gzzd.htm">规章制度</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../pygz/gzzd.htm">培养工作</a>
+    <span></span>
+    <ul>
+            <a href="../../pygz/gzzd.htm">规章制度</a>        
+            <a href="../../pygz/gzlc.htm">工作流程</a>        
+            <a href="../../pygz/pydt.htm">培养动态</a>        
+            <a href="../../pygz/zyxw.htm">专业学位</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../xwgz/xwgzzz.htm">学位工作</a>
+    <span></span>
+    <ul>
+            <a href="../../xwgz/xwgzzz.htm">学位工作组织</a>        
+            <a href="../../xwgz/sqxwwj.htm">申请学位文件</a>        
+            <a href="../../xwgz/sqxwlc.htm">申请学位流程</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../xwdjs/xwsqd.htm">学位点建设</a>
+    <span></span>
+    <ul>
+            <a href="../../xwdjs/xwsqd.htm">学位授权点</a>        
+            <a href="../../xwdjs/xwdsb.htm">学位点申报</a>        
+            <a href="../../xwdjs/ejxkzzsz.htm">二级学科自主设置</a>        
+            <a href="../../xwdjs/xwdpg_hy_.htm">学位点评估（核验）</a>        
+            <a href="../../xwdjs/xwddtdz_yh_.htm">学位点动态调整（优化）</a>        
+            <a href="../../xwdjs/gjxksz.htm">国家学科设置</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../zgxy/zgxyjj.htm">卓工学院</a>
+    <span></span>
+    <ul>
+            <a href="../../zgxy/zgxyjj.htm">卓工学院简介</a>        
+            <a href="../../zgxy/zsdt.htm">招生动态</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../glyfw/bszn.htm">管理与服务</a>
+    <span></span>
+    <ul>
+            <a href="../../glyfw/bszn.htm">办事指南</a>        
+            <a href="../../glyfw/yzxx.htm">院长信箱</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../xzzx.htm">下载中心</a>
+    </li>
+</ul>
+            </div>
+        </div>
+    <div class="nymain">
+        <div class="px1400">
+            <div class="channl-menu leftNav">
+                <h2>
+招生工作<span></span></h2>
+                <ul>
+<li class="active on">
+    <a href="../../zsgz/zsjz.htm">招生简章</a><span></span>
+</li>
+
+
+<li>
+    <a href="../../zsgz/sszs.htm">硕士招生</a><span></span>
+</li>
+
+
+<li>
+    <a href="../../zsgz/bszs.htm">博士招生</a><span></span>
+</li>
+
+
+<li>
+    <a href="../../zsgz/tmgz.htm">推免工作</a><span></span>
+</li>
+
+
+<li>
+    <a href="../../zsgz/gatyz.htm">港澳台研招</a><span></span>
+</li>
+
+
+<li>
+    <a href="../../zsgz/gzzd.htm">规章制度</a><span></span>
+</li>
+
+</ul>
+            </div>
+            <div class="ny-right">
+                <div class="position">
+                    <div class="">
+                        <h3>
+招生简章</h3>
+                        <img src="../../image/weizhi.png" alt=""><span>当前位置：</span>
+                <a href="../../index.htm">网站首页</a>                
+                <span>-></span>
+                <a href="../../zsgz/zsjz.htm">招生工作</a>                
+                <span>-></span>
+                <a href="../../zsgz/zsjz.htm">招生简章</a>                
+                <span>-></span>
+                <span>正文</span>
+
+                    </div>
+                </div>
+                <div class="art-main">
+
+<script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname">
+<div class="art-tit cont-tit">
+    <h3>南昌大学2024年硕士研究生招生简章</h3>
+    <p>
+        <span>信息来源：
+    </span>
+        <span>发布日期：2023-09-22</span>
+         <span>访问量：<script>_showDynClicks("wbnews", 2125996941, 22116)</script></span>
+    </p>
+</div>
+    <div id="vsb_content" class="art-body"><div class="v_news_content">
+<p style="text-align: left; line-height: 37px; background: rgb(255, 255, 255); text-indent: 38px;"><span style="text-align: justify; text-indent: 37px; font-family: 仿宋_GB2312; font-size: 19px;">南昌大学是国家“双一流”建设高校</span><span style="text-align: justify; text-indent: 37px; font-family: 仿宋_GB2312; font-size: 19px;">、</span><span style="text-align: justify; text-indent: 37px; font-family: 仿宋_GB2312; font-size: 19px;">教育部与江西省部省合建高校</span><span style="text-align: justify; text-indent: 37px; font-family: 仿宋_GB2312; font-size: 19px;">、</span><span style="text-align: justify; text-indent: 37px; font-family: 仿宋_GB2312; font-size: 19px;">江西省一流大学整体建设高校。</span></p><p style="text-align: justify; text-indent: 37px; line-height: 37px; background: rgb(255, 255, 255);"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">学校现设有人文学部、社科学部、理工一部、理工二部和医学部，拥有</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">1</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">2</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">个学科门类的</span><span style="font-family:仿宋_GB2312">132个本科专业，3个国家重点（培育）学科，22个博士学位授权一级学科,3个博士专业学位授权类别，11个博士后科研流动站；51个硕士学位授权一级学科，3</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">1</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">个硕士专业学位授权类别。学校设有</span><span style="font-family:仿宋_GB2312">5所直属附属医院，共有9个国家临床重点专科。材料科学与工程学科入选国家“双一流”建设学科，</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">6个学科入选省一流学科。1</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">2</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">个学科进入</span><span style="font-family:仿宋_GB2312">ESI全球排名前1%，</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">其中农业科学（以食品科学为主）进入全球排名前</span><span style="font-family:仿宋_GB2312">0.577‰；食品学科在“US News全球大学排名”中位居第7位。</span></span>&nbsp;</p><p style="text-align: justify; text-indent: 37px; line-height: 37px; background: rgb(255, 255, 255);"><br></p><p style="text-align: justify; text-indent: 37px; line-height: 37px; background: rgb(255, 255, 255);"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312"></span></span></p><p style="margin: 0px; padding: 0px; list-style: none; font-family: ����; text-wrap: wrap; background: rgb(255, 255, 255); text-indent: 37px; line-height: 32px; text-align: center;"><a href="https://gsas.ncu.edu.cn/zsml/sszsml/index/2024" target="_blank" style="font-family: 黑体, SimHei; text-decoration: underline;"><span style="font-family: 黑体, SimHei;"><strong><span style="font-family: 黑体, SimHei; font-size: 24px;">南昌大学2024年硕士研究生招生专业目录（网页版）</span></strong><strong><span style="font-family: 黑体, SimHei; font-size: 24px;"></span></strong></span></a></p><p style="margin: 0px; padding: 0px; list-style: none; font-family: ����; text-wrap: wrap; background: rgb(255, 255, 255); text-align: center; text-indent: 37px; line-height: 32px;"><br></p><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:黑体;font-size:19px"> </span><strong><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">◆</span></span><span style="font-family:宋体;font-size:19px"> </span><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">培养目标</span></span></strong><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体"></span> </span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">培养热爱祖国，拥护中国共产党的领导，拥护社会主义制度，遵纪守法，品德良好，具有服务国家、服务人民的社会责任感，掌握本学科坚实的基础理论和系统的专业知识，具有创新精神、创新能力和从事科学研究、教学、管理等工作能力的高层次学术型专门人才，以及具有较强解决实际问题的能力、能够承担专业技术或管理工作、具有良好职业素养的高层次应用型专门人才。</span></span></p><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">◆</span></span><span style="font-family:宋体;font-size:19px"> </span><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">招生规模</span></span><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">（</span></span><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">计划</span></span><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">）</span></span></strong></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">专业目录及研招网系统中公布的各专业招生计划仅供考生报考时参考，</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">202</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">4</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">年各专业的实际招生规模以当年国家文件批准下达数为准。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">◆</span></span><span style="font-family:宋体;font-size:19px"> </span><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">学制和学习方式</span></span></strong></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">（一）学制：学术型基本学制为三年，全日制专业学位型基本学制为</span><span style="font-family:仿宋_GB2312">2-3年，非全日制专业学位型基本学制为2-3年。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">（二）学习形式：硕士研究生分为全日制研究生和非全日制研究生两种。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">全日制研究生（含学术型专业和专业学位）是在基本修业年限内，全脱产在校学习的研究生；非全日制研究生在基本修业年限内，在从事其他职业或者社会实践的同时，采取多种方式和灵活时间安排进行非脱产学习的研究生。被录取的全日制和非全日制研究生毕业时，根据其修业年限、学业成绩等，学校按照国家有关规定发给相应的、注明学习方式的毕业证书；其学业水平达到国家规定和我校要求的学位标准，可以申请授予相应的学位证书。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">全日制和非全日制研究生执行相同的考试招生政策和培养标准，其学历学位证书具有同等法律地位和相同效力。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">我校招生专业目录中专业名称下方研究方向中带</span><span style="font-family:仿宋_GB2312">(非全日制)的即可招收非全日制硕士研究生。非全日制硕士研究生</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">只</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">招收在职定向就业人员。</span></span></p><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">◆</span></span><span style="font-family:宋体;font-size:19px"> </span><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">报考条件</span></span></strong></p><p style="text-align: justify; line-height: 37px; background: rgb(255, 255, 255); text-indent: 2em;"><span style="font-family: 仿宋_GB2312; font-size: 19px;">（一）报名参加全国硕士研究生招生考试的人员，须符合下列条件：</span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">1.中华人民共和国公民。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">2.拥护中国共产党的领导，品德良好，遵纪守法。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">3.身体健康状况符合国家和招生单位规定的体检要求。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">4.考生必须符合下列学历等条件之一：</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">⑴</span></span><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">国家承认学历的应届本科毕业生（录取当年</span><span style="font-family:仿宋_GB2312">9月1日前须取得国家承认的本科毕业证书或教育部留学服务中心出具的《国（境）外学历学位认证书》）。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑵</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">具有国家承认的大学本科毕业学历的人员。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">⑶</span></span><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">同等学力人员（注：在</span></span><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">网上确认</span></span><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">前未取得本科毕业证的考生，除全日制应届本科毕业生外都属于同等学力考生；我校部分专业不招收同等学力考生，请注意查看《</span></span><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">20</span></span><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">24</span></span><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">年硕士生招生目录》院系</span><span style="font-family:仿宋_GB2312">“备注”栏。备注不招收同等学力人员的专业，同等学力人员不能报考，不符合报考条件人员，无论何时查出，均取消报考、复试、录取资格）。包括以下三种情况：</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">a.全日制普通高等学校的高职高专毕业生，获得国家承认的高职高专毕业学历后满2年（从毕业后到</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">202</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">4</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">年</span><span style="font-family:仿宋_GB2312">9月1日，下同）或2年以上，达到与大学本科毕业生同等学力； </span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">b.国家承认学历的本科结业生和成人高校(含普通高校举办的成人高等学历教育)应届本科毕业生、自考本科生和网络教育本科生；</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">c.除a、b以外的其他国家承认学历的高职高专毕业生，获得国家承认的高职高专毕业学历后满2年（从毕业后到</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">202</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">4</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">年</span><span style="font-family:仿宋_GB2312">9月1日，下同）或2年以上，且满足以下条件之一者：①已进修大学本科相同或相近专业六门主干课程（须提交进修学校提供的学习证明及成绩单）；②已至少独立或以第一作者发表一篇学术论文；</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">符合上述条件并进入复试的同等学力考生，还须加试所报专业的两门本科主干课程。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑷</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">已获硕士、博士</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">研究生学历或</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">学位的人员。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family: 仿宋_GB2312;font-size: 19px"><span style="font-family:仿宋_GB2312">在校研究生报考须在报名前征得所在培养单位同意。</span></span></p><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"> &nbsp; &nbsp;<span style="font-family:仿宋_GB2312">（二）</span> <span style="font-family:仿宋_GB2312">报名参加全国专业学位硕士研究生招生考试的，按下列规定执行。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">1.报名参加法律硕士（非法学）专业学位硕士研究生招生考试的人员，须符合下列条件：</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑴</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">符合（一）中的各项要求。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑵</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">报考前所学专业为非法学专业。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">2.报名参加法律硕士（法学）专业学位硕士研究生招生考试的人员，须符合下列条件：</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑴</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">符合（一）中的各项要求。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑵</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">报考前所学专业为法学专业</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">（</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">获得法学第二学士学位的</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">人员</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">可报考</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">）</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">3.报名参加工商管理、公共管理、工程管理硕士中的工程管理[代码为125601]和项目管理[代码为125602]、旅游管理、教育硕士中的教育管理专业学位硕士研究生招生考试的人员，须符合下列条件：</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑴</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">符合（一）中第</span><span style="font-family:仿宋_GB2312">1、2、3各项的要求。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑵</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">大学本科毕业后有</span><span style="font-family:仿宋_GB2312">3年以上工作经验的人员；或获得国家承认的高职高专学历后，有5年以上工作经验，达到与大学本科毕业生同等学力的人员；</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">或获</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">得</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">硕士</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">、</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">博士</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">研究生学历或</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">学位</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">后</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">有</span><span style="font-family:仿宋_GB2312">2年以上工作经验的人员。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">4.报名参加除法律硕士（非法学）、法律硕士（法学）、工商管理硕士、公共管理硕士、旅游管理硕士、工程管理硕士外的其他专业学位硕士研究生招生考试的人员，须符合（一）中的各项要求。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">（三）具有推荐免试资格的考生，须在国家规定时间内登录</span><span style="font-family:仿宋_GB2312">“全国推荐免试攻读研究生</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">（</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">免初试、转段</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">）</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">信息公开暨管理服务系统</span><span style="font-family:仿宋_GB2312">”（网址：</span></span><a href="http://yz.chsi.com.cn/tm"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">http</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">s</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">://yz.chsi.com.cn/tm</span></span></a><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">）填报志愿并参加复试。</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">在规定截止日期仍未被招生单位录取的推免生不再保留推免资格。已被招生单位</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">录取</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">的推免生，不得再报名参加当年硕士研究生招生考试，</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">否则</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">取消推免录取资格。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">其他符合免初试攻读硕士研究生资格条件（如在部队荣立二等功</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">以上退役人员</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">等）的</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">考生</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">，</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">应在国家规定的全国统考报名时间内登录</span><span style="font-family:仿宋_GB2312">“全国推荐免试攻读研究生</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">（免初试、转段）</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">信息公开暨管理服务系统</span><span style="font-family:仿宋_GB2312">”报名。 </span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">根据教育部有关规定，招生单位对考生的资格审查在初试发放准考证时进行初审，复试时进行全面复审。请考生务必在报名前仔细阅读我校相关专业报考条件，自审合格后再进行网上报名，并按要求准确填写个人网上报名信息并提供真实材料。否则，由此造成不能考试、复试或录取的，后果由考生本人承担。</span></span></p><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">◆ </span></span> <span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">报名</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">报名包括网上报名和</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">网上确认</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">两个阶段。所有参加硕士研究生招生考试的考生均须进行网上报名，并</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">在网上</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">确认网报信息、缴费和采集本人图像等相关电子信息。</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">报名前，请务必提前浏览报考须知，并按教育部、江西省教育考试院、各报考点以及招生单位的网上公告要求报名。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">应届本科毕业生原则上应选择就读学校所在地省级教育招生考试机构指定的报考点办理网上报名和网上确认手续；其他考生（含工商管理、公共管理、旅游管理、工程管理等专业学位考生）应选择工作所在地（相关具体要求由所在地省级教育招生考试机构合理确定）或户口所在地省级教育招生考试机构指定的报考点办理网上报名和网上确认手续。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">网上报名技术服务工作由教育部学生服务与素质发展中心负责。</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">网上</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">确认由省级教育招生考试机构负责组织相关报考点进行。</span></span></p><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"> &nbsp; &nbsp;<span style="font-family:仿宋_GB2312">（一）网上报名：报考</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">202</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">4</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">年硕士研究生一律采取网上报名方式。</span></span></p><p style="text-align:justify;text-indent:38px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">1.网上报名时间为</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">20</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">23</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">年</span><span style="font-family:仿宋_GB2312">10月</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">8</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">日</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">至</span><span style="font-family:仿宋_GB2312">10月</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">25</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">日，每天</span><span style="font-family:仿宋_GB2312">9:00—22:00。</span></span></p><p style="text-align:justify;text-indent:38px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">网上预报名时间为</span></span><span style="font-family: 仿宋_GB2312; font-size: 19px;"> <span style="font-family:仿宋_GB2312">202</span></span><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">3</span></span><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">年</span><span style="font-family:仿宋_GB2312">9月24日至9月27日，每天9:00—22:00。</span></span></p><p style="text-align:justify;text-indent:38px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">2.考生应在规定时间登录“中国研究生招生信息网”（http</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">s</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">：</span><span style="font-family:仿宋_GB2312">//yz.chsi.com.cn，以下简称“研招网”）浏览报考须知，并按教育部、省级教育招生考试机构、报考点以及</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">我校</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">的网上公告要求报名。报名期间，考生可自行修改网上报名信息或重新填报报名信息，但一位考生只能保留一条有效报名信息。逾期不再补报，也不得修改报名信息。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">3.网上报名填写报考信息时注意事项：</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="text-indent: 28px; font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">⑴</span></span><span style="text-indent: 28px; font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">考生报名时只填报一个招生单位的一个专业。待考试结束，教育部公布考生进入复试的初试成绩基本要求后，考生可通过</span><span style="font-family:仿宋_GB2312">“研招网”调剂服务系统了解招生单位的调剂办法、计划余额等信息，并按相关规定自主多次平行填报多个调剂志愿。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑵</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">以同等学力身份报考的人员（在</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">网上确认</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">前未取得本科毕业证的考生，除全日制应届本科毕业生外都属于同等学力考生），应按招生单位要求如实填写学习情况和提供真实材料。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑶</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">考生要准确填写本人所受奖惩情况，特别是要如实填写在参加普通和成人高等学校招生考试、全国硕士研究生招生考试、高等教育自学考试等国家教育考试过程中因违纪、作弊所受处罚情况。</span></span><strong><span style="font-family: 仿宋_GB2312;font-size: 19px"><span style="font-family:仿宋_GB2312">如未填写，一经查实，将取消报考资格，</span></span></strong><strong><span style="font-family: 仿宋_GB2312;font-size: 19px"><span style="font-family:仿宋_GB2312">对弄虚作假者，招生单位将按照《国家教育考试违规处理办法》严肃处理。</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑷</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">报名期间将对考生学历（学籍）信息进行网上校验，考生可上网查看学历（学籍）校验结果。考生也可在报名前或报名期间自行登录</span><span style="font-family:仿宋_GB2312">“中国高等教育学生信息网”（网址http</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">s</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">://www.chsi.com.cn）查询本人学历（学籍）信息。未能通过学历（学籍）校验的考生应在招生单位规定时间内完成学历（学籍）核验。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">考生应按要求准确填写个人网上报名信息并提供真实材料。凡因网报信息填写错误或填报虚假信息而造成不能考试、复试或录取的，后果由考生本人承担。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">网上报名有关具体要求和注意事项，详见《</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">202</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">4</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">年全国硕士研究生招生工作管理规定》（已在教育部官网</span><span style="font-family:仿宋_GB2312">http://www.moe.gov.cn/公开）及“研招网”报考须知。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">网上报名时间充裕，建议广大考生合理安排报名时间，避开报名初期、末期高峰，避免网络拥堵影响报名。逾期不再补报，也不得再修改报名信息。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">⑸</span></span><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">“少数民族高层次骨干人才”计划招生以考生报名时填报确认的信息为准。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑹</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">报考</span><span style="font-family:仿宋_GB2312">“退役大学生士兵”专项硕士研究生招生计划的考生，应为高校学生应征入伍退出现役，且符合硕士研究生报考条件者(“高校学生”指全日制普通本专科(含高职)、研究生、第二学士学位的应(往)届毕业生、在校生和入学新生，以及成人高校招收的普通本专科(高职)应(往)届毕业生、在校生和入学新生，下同)。考生报名时应选择填报退役大学生士兵专项计划，并按要求填报本人入伍前的入学、入伍、退役等相关信息,</span></span> <span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">纳入</span><span style="font-family:仿宋_GB2312">“退役大学生士兵”专项计划招录的，不再享受退役大学生士兵初试加分政策。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">⑺</span></span><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">我校不开通非全日制临床医学、口腔医学、中医学专业学位教育。参加规培或已获得规培证书的临床医学、口腔医学、中医学在职人员执行《关于授予具有研究生毕业同等学力人员临床医学、口腔医学和中医硕士专业学位的试行办法》要求，以同等学力形式申请学位。同等学力申请专业学位的在职人员不具有研究生身份。</span></span></p><p style="text-align: justify; margin-top: 0px; margin-bottom: 0px; line-height: 37px; background: rgb(255, 255, 255); text-indent: 2em;"><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">我校不接受尚在协议规定服务期内的定向医学生报考</span></span><span style="font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"> &nbsp; &nbsp;<span style="font-family:仿宋_GB2312">临床医学、口腔医学硕士专业学位研究生招生按照</span><span style="font-family:仿宋_GB2312">2015年下发的《关于印发临床医学、口腔医学硕士专业学位研究生指导性培养方案的通知》要求，明确“为符合医师资格考试报考条件规定专业的应届或往届本科毕业生。对于已经获得住院医师规范化培训合格证书人员原则上不得报考临床医学、口腔医学硕士专业学位研究生。”</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">请考生在网报时在备用信息栏注明：已获得住院医师规范化培训合格证书或未取得住院医师规范化培训合格证书。</span></span></p><p style="text-align: justify; margin-top: 0px; margin-bottom: 0px; line-height: 37px; background: rgb(255, 255, 255); text-indent: 2em;"><span style="text-indent: 28px; font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">⑻</span></span><span style="text-indent: 28px; font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">考生应认真了解并严格按照报考条件及相关政策要求选择填报志愿。因不符合报考条件及相关政策要求，造成后续不能</span></span><span style="text-indent: 28px; font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">网上确认</span></span><span style="text-indent: 28px; font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">、考试、复试或录取的，后果由考生本人承担。</span></span></p><p style="text-align: justify; margin-top: 0px; margin-bottom: 0px; line-height: 37px; background: rgb(255, 255, 255); text-indent: 2em;"><span style="text-indent: 28px; font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">⑼</span></span><span style="text-indent: 28px; font-family: 仿宋_GB2312; font-size: 19px;"><span style="font-family:仿宋_GB2312">考生应按要求准确填写个人网上报名信息并提供真实材料。考生因网报信息填写错误、填报虚假信息而造成不能考试或录取的，后果由考生本人承担。</span></span></p><p style="text-align:justify;text-indent:28px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">（二）网上确认。所有考生（不含推免生）均应在规定时间内到报考点指定地方</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">办理</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">网上确认手续</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">，</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">逾期不再补办。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">1.网上确认时间：</span></span></p><p style="text-align:justify;text-indent:28px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"> <span style="font-family:仿宋_GB2312">具体时间由各省级教育招生考试机构根据本地区报考情况自行确定和公布。请考生及时关注各省级教育招生考试机构发布的公告，在规定时间内到到报考点指定地方</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">办理</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">网上确认手续</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">，</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">逾期不再补办。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">2.网上确认程序：</span></span></p><p style="text-align:justify;text-indent:31px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑴</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">考生网上确认应当提交本人居民身份证、学历学位证书（应届本科毕业生持学生证）和网上报名编号，由报考点工作人员进行核对。报考</span><span style="font-family:仿宋_GB2312">“退役大学生士兵”专项硕士研究生招生计划的考生还应当提交本人《入伍批准书》和《退出现役证》。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑵</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">在录取当年</span><span style="font-family:仿宋_GB2312">9月1日前可取得国家承认本科毕业证书的自学考试和网络教育本科生，须凭颁发毕业证书的省级高等教育自学考试办公室或网络教育高校出具的相关证明方可办理网上报名</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">和</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">网上确认手续。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑶</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">未通过网上学历（学籍）校验的考生，在网上确认时应提供学历（学籍）认证报告。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑷</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">所有考生均要对本人网上报名信息进行认真核对并确认。报名信息经考生确认后一律不作修改，因考生填写错误引起的一切后果由其自行承担。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑸</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">考生应按规定缴纳报考费。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">⑹</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">考生应按报考点规定配合采集本人图像等相关电子信息。</span></span></p><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"> &nbsp; &nbsp;<span style="font-family:仿宋_GB2312">（三）打印准考证</span></span></p><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"> &nbsp; &nbsp;<span style="font-family:仿宋_GB2312">考生应当在</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">考前十天左右</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">，凭网报用户名和密码登录</span><span style="font-family:仿宋_GB2312">“研招网”自行下载打印《准考证》。《准考证》使用A4幅面白纸打印，正、反两面在使用期间不得涂改或书写。考生凭下载打印的《准考证》及有效居民身份证参加初试和复试。</span></span></p><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"> &nbsp; &nbsp;<span style="font-family:仿宋_GB2312">为方便联系，考生务必认真填写通讯地址（省、市、县、地址、邮编、联系电话、姓名），通讯地址须在</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">202</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">4</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">年</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">8</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">月底前有效。考生所填的通讯地址须详尽、准确，如因地址不详而出现投递失误等问题，后果由考生本人承担。</span></span><span style="font-family: 仿宋_GB2312; font-size: 19px;">报考的具体办法请直接向各报名点查询。</span></p><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-family: 黑体;font-size: 19px"><span style="font-family:黑体">◆ </span></span></strong><strong> </strong><strong><span style="font-family: 黑体;font-size: 19px"><span style="font-family:黑体">考生报考资格审查</span></span></strong></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">请各考生务必在报名前仔细阅读我校各专业报考条件（包含备注栏目对学历等方面的要求），</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">网上确认</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">后，我校将对所有考生网上填报的报名信息进行全面核实审查，符合报考条件的考生准予考试，凡考生填报的报名信息与报考条件不符的，一律不准考（我校将在</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">研招网</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">上</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">进行审核</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">，请自行登陆查看，如审核不通过，请尽快自行改报，以免错过网上报名时间）。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">对网上学历</span><span style="font-family:仿宋_GB2312">(学籍)校验未通过的考生或对考生的学历（学籍）信息有疑问的，我校将通知考生在规定时间内提供权威机构出具的认证证明后，再准予考试。</span></span></p><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-family: 黑体;font-size: 19px"><span style="font-family:黑体">◆</span></span></strong><strong><span style="font-family: 宋体;font-size: 19px"> </span></strong><strong><span style="font-family: 黑体;font-size: 19px"><span style="font-family:黑体">入学考试</span></span></strong></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">入学考试分为初试和复试两个阶段。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">202</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">4</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">年全国硕士研究生招生考试初试时间为</span><span style="font-family:仿宋_GB2312">20</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">23</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">年</span><span style="font-family:仿宋_GB2312">12月2</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">3</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">日至</span><span style="font-family:仿宋_GB2312">2</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">4</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">日（每天上午</span><span style="font-family:仿宋_GB2312">8:30—11:30，下午14:00—17:00）。</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">考试时间</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">超过</span><span style="font-family:仿宋_GB2312">3小时</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">或有使用画板等特殊要求</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">的考试科目在</span><span style="font-family:仿宋_GB2312">12月2</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">5</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">日进行</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">（起始时间</span><span style="font-family:仿宋_GB2312">8:30，截止时间由招生单位确定，不超过14:30）。考试时间以北京时间为准。不在规定日期举行的硕士研究生招生考试，国家一律不予承认。初试地点：由考生报名时选择的报考点确定。</span></span></p><p style="text-align:justify;text-indent:36px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">复试</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">预计</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">安排在</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">202</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">4</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">年</span><span style="font-family:仿宋_GB2312">4月（复试的具体时间和注意事项将在南昌大学研究生院网站主页：http://yjsy.ncu.edu.cn发布）。复试的基本规则和要求预告如下（如有变动，则以当年教育部、江西省高等学校招生委员会下达的有关文件精神和我校公布的</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">202</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">4</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">年招收硕士研究生入学考试复试办法为准）：</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">1.参加初试并获得复试资格的考生，应在复试报到时进行考生身份再次确认、资格审查（应届生考生提交成绩证明；往届生考生提交毕业证原件；同等学力考生还须提供业绩材料的原件）、体检、政审（调档），不合格者不予录取；</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">2.我校复试的内容包括专业课笔试（满分100分，合格线60分）、外国语听力与口语水平测试（满分50分，</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">不设合格线，但计入复试总成绩</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">）、专业综合面试（满分</span><span style="font-family:仿宋_GB2312">100分，合格线60分）三个部分。笔试根据不同的专业分别有答题、画图等；专业综合面试采取多种方式进行，包括笔试、口试、实验、实践操作等。同等学力考生还必须参加两门本专业指定的业务课（本科主干课程）的加试，每门考试时间为2小时（每门满分100分，合格线60分），加试成绩不计入复试总成绩。</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">复试将根据实际情况可采取线下或者线上等形式进行。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family: 仿宋_GB2312; font-size: 19px;">3.专业课笔试、外国语听力与口语水平测试、专业综合面试三部分的成绩总和为复试总成绩，复试总成绩与初试成绩按权重相加即为考生入学考试总成绩。我校根据国家下达的招生计划，考生入学考试总成绩排序，并结合其平时学习成绩和思想政治表现、业务素质以及身体健康状况择优确定拟录取名单。复试单科未达合格线的一律不予录取,考生考试诚信状况将作为思想品德考核的重要内容和录取的重要依据，对于思想品德考核不合格者，不予录取。</span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">4.复试合格拟录取为非定向考生，若自愿提出改为由单位定向委托培养，则须于正式录取前</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">征得录取学院同意，</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">签订定向就业协议（一式三份），并按我校硕士研究生学费标准缴费。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">5.报考类别为“定向就业”的硕士研究生需在复试时或拟录取名单公布后一周内向学院提交与定向单位签订的定向就业协议（一式三份）。</span></span></p><p style="text-align: justify; line-height: 37px; background: rgb(255, 255, 255); text-indent: 0em;"><strong><span style="font-family: 黑体;font-size: 19px"><span style="font-family:黑体">◆</span></span></strong><strong><span style="font-family: 宋体;font-size: 19px"> </span></strong><strong><span style="font-family: 黑体;font-size: 19px"><span style="font-family:黑体">体格检查</span></span></strong></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">本着</span><span style="font-family:仿宋_GB2312">“德智体全面衡量，择优录取”的原则，复试期间将由我校医院参照教育、卫生等行政主管部门的体检工作相关规定:教育部、卫生部、中国残联印发的《普通高等学校招生体检工作指导意见》(教学〔2003〕3号)，《教育部办公厅卫生部办公厅关于普通高等学校招生学生入学身体检查取消乙肝项目检测有关问题的通知》（教学厅〔2010〕2号）、《南昌大学研究生招生体检标准（修订）》（昌大校发[2003]22号文）及其实施办法组织体检。凡体检结论属于不能录取之列，则取消其录取资格，其名额由后位者自动递补；凡体检结论属于不能录取的专业之列，则必须调转相近专业，若无相近专业可调，则取消其录取资格，其空出的名额由后位者自动递补。请在报名之前上网查询我校研究生招生体检标准。</span></span></p><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">◆</span></span> &nbsp;<strong><span style="font-family: 黑体;font-size: 19px"><span style="font-family:黑体">录取及其他事宜</span></span></strong></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">我校根据国家下达的招生计划，考生入学考试的综合成绩并结合其平时学习成绩和思想政治表现、业务素质以及身体健康状况确定录取名单。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">考生考试诚信状况作为思想品德考核的重要内容和录取的重要依据，对于思想品德考核不合格者，我校不予录取。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">考生录取类别上报教育部后将无法变更，以录取花名册（含录取登记表）上为准，在读期间一律无法变更。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">根据国家文件规定，被拟录取的考生如需保留入学资格，须在查询到拟录取结果后（最迟截止到拟录取名单公示后的一周内），由本人提出申请，经录取学院同意及研究生院审核后，可以保留入学资格</span><span style="font-family:仿宋_GB2312">1至2年，考生正式录取后不再办理保留入学资格手续。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">硕士生录取类别分为非定向就业和定向就业两种。非全日制研究生录取类别全部为定向就业，不转入人事档案，定向就业的硕士研究生均须在被录取前与我校、用人单位分别签订定向就业合同，否则不予录取。考生因报考硕士研究生与所在单位产生的问题由考生自行处理。若因此造成考生不能复试或无法被录取，我校不承担责任。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">考生</span><span style="font-family:仿宋_GB2312">(含推免生)要准确填写个人信息，对本人所受奖惩情况，特别是要如实填写在参加普通和成人高等学校招生考试、全国硕士研究生招生考试、高等教育自学考试等国家教育考试过程中因违规、作弊所受处罚情况。对弄虚作假者，我校将按照《国家教育考试违规处理办法》和《</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">202</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">4</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">年全国硕士学位研究生招生工作管理规定》进行处理，一律取消考试资格。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">凡复试、体检和政审（调档）合格并通过全国省级招生办公室联合办公会录取检查的，学校将予以正式录取，并于</span><span style="font-family:仿宋_GB2312">6月下旬寄发录取通知书。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">新生应按时报到。不能按时报到者，须有正当理由和有关证明，并向招生单位请假。无故逾期两周不报到者，取消入学资格。应届本科毕业生、成人高校应届本科毕业生</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">、</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">自学考试和网络教育届时可毕业本科生</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">考生</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">，</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">入学时未取得国家承认的本科毕业证书者，录取资格</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">无效</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">。</span></span></p><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">◆ </span></span> <span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">奖助政策</span></span></strong></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">我</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">校硕士研究生可获得国家助学金和学业奖学金；优秀硕士研究生可申请国家奖学金、省政府奖学金、创新奖；宝钢奖学金等企业奖学金，按各类企业奖学金办法执行。学校</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">每年设立</span><span style="font-family:仿宋_GB2312">“助教”、“助研”、“助管”</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">等</span><span style="font-family:仿宋_GB2312">“三助”岗位</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">。</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">注</span><span style="font-family:仿宋_GB2312">:定向培养的全日制研究生、非全日制研究生以及有固定收入的研究生等不享受各类研究生奖助政策（</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">奖助对象、名额和评选方式等</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">以最终文件为准，具体由</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">党委</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">研</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">究生</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">工</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">作</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">部事务办公室负责解释</span><span style="font-family:仿宋_GB2312">0791-83969825）。 &nbsp;</span></span> </p><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">◆ </span></span> <span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">学费、住宿费标准</span></span></strong><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体"></span> </span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">（一）学费</span> </span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">根据国家有关规定，我校全日制学术学位硕士研究生的学费标准为：</span><span style="font-family:仿宋_GB2312">8000元/人·年</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">，</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">全日制专业学位硕士研究生（工商管理专业学位除外）的学费</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">标准为：</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">12</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">000元/人·年</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">，</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">全日制工商管理专业学位</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">硕士研究生</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">的学费</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">标准为：</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">20</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">000元/人·年；非全日制专业学位硕士研究生的学费标准详见下表，最终学费以江西省物价部门核准的学费标准为准： </span></span></p><table align="center" style="border-collapse: collapse;"><colgroup><col data-offset-left="299.5" data-offset-right="491.484375" data-resize-pixel="191.984375" data-resize-percent="24.118640075376884" style="width: 24.1186%;"><col data-offset-left="491.484375" data-offset-right="801.484375" data-resize-pixel="310" data-resize-percent="38.94472361809046" style="width: 38.9447%;"><col data-offset-left="801.484375" data-offset-right="881.46875" data-resize-pixel="79.984375" data-resize-percent="10.048288316582916" style="width: 10.0483%;"><col data-offset-left="881.46875" data-offset-right="1094.5" data-resize-pixel="213.03125" data-resize-percent="26.76271984924623" style="width: 26.7627%;"></colgroup><tbody><tr class="firstRow"><td colspan="4" style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><strong><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">南昌大学</span></span></strong><strong><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">2024</span></span></strong><strong><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">年</span></span></strong><strong><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">专业学位</span></span></strong><strong><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">（</span></span></strong><strong><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">非全日制</span></span></strong><strong><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">）</span></span></strong><strong><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">招生专业汇总表</span></span></strong></td></tr><tr><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><strong><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">学院名称</span></span></strong> </td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><strong><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">专业名称</span></span></strong> </td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><strong><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">学制</span></span></strong> </td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><strong><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">学费标准（元</span><span style="font-family:仿宋_GB2312">/人·年）</span></span></strong></td></tr><tr><td rowspan="2" style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">法学院</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">法律（非法学）</span><span style="font-family:仿宋_GB2312">(非全日制)</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">3年</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">18000</span></span></td></tr><tr><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">法律（法学）</span><span style="font-family:仿宋_GB2312">(非全日制)</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">3年</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">18000</span></span></td></tr><tr><td rowspan="2" style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">经济管理学院</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">工商管理</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">（非全日制）</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">3年</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">30000</span></span></td></tr><tr><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">会计</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">（非全日制）</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">3年</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">30000</span></span></td></tr><tr><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">体育学院</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">体育</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">（非全日制）</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">3</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">年</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">20</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">000</span></span></td></tr><tr><td rowspan="2" style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">先进制造</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">学院</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">机械</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">工程</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">（非全日制）</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">3年</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">18000</span></span></td></tr><tr><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">动力工程（非全日制）</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">3年</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">18000</span></span></td></tr><tr><td rowspan="2" style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">资源与环境学院</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">环境工程</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">（</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">非</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">全日制）</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">3年</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">1</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">8</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">000</span></span></td></tr><tr><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">能源动力（</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">非</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">全日制）</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">3年</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">1</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">8</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">000</span></span></td></tr><tr><td rowspan="3" style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">公共政策与管理学院</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">公共管理（非全日制）</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">3年</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">20000</span></span></td></tr><tr><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">图书情报</span><span style="font-family:仿宋_GB2312">(非全日制)</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">3</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">年</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">18000</span></span></td></tr><tr><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">工程管理（非全日制）</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">3</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">年</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">18000</span></span></td></tr><tr><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">旅游学院</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">旅游管理</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">（非全日制）</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">2年</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">18000</span></span></td></tr><tr><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">教育发展研究院</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">教育</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">管理</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">（非全日制）</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">3</span></span><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">年</span></span></td><td style="border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; text-align: center; padding: 5px 10px;"><span style="font-family:仿宋_GB2312;font-size:16px"><span style="font-family:仿宋_GB2312">18000</span></span></td></tr></tbody></table><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"> &nbsp; &nbsp;<span style="font-family:仿宋_GB2312">（二）住宿费：根据住宿条件，</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">8</span></span><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">00-1200元/人·年。</span></span></p><p style="text-align:justify;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-family:黑体;font-size:19px"><span style="font-family:黑体">◆ 招生咨询</span></span></strong></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">单位代码：</span><span style="font-family:仿宋_GB2312">10403</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">单位网址：</span><span style="font-family:仿宋_GB2312">http://yjsy.ncu.edu.cn</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">通讯地址：江西省南昌市红谷滩区学府大道</span><span style="font-family:仿宋_GB2312">999号</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">邮政编码：</span><span style="font-family:仿宋_GB2312">330031</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">联系部门：研究生院招生办公室</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">E-mail: yzb@ncu.edu.cn</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">联系电话：</span><span style="font-family:仿宋_GB2312">0791-83969340、0791-83969339；</span></span></p><p style="text-align:justify;text-indent:37px;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-family:仿宋_GB2312;font-size:19px"><span style="font-family:仿宋_GB2312">我校不举办任何形式的考研辅导班（包括专业课辅导班），不提供历年试题</span><span style="font-family:仿宋_GB2312">,不提供购书服务。</span></span></strong></p><p style="text-align:center;text-autospace:ideograph-numeric;line-height:135%;background:rgb(255,255,255)"><br></p>
+</div></div><div id="div_vote_id"></div>
+        <div class="art-info">
+    <div class="pnext">
+                            <p>
+        上一条：<a href="22126.htm">南昌大学2024年接收推荐免试研究生（含直博生）招生章程</a>
+        </p>
+        <p>
+        
+    </p>
+    </div>   
+    </div>
+
+</form>
+</div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="footer">
+            <div class="foot px1400">
+                <div class="foot-l">
+                    <div class="ft-top">    <div class="ft-top">
+<a href="https://www.ncu.edu.cn/?from=edurank.org" onclick="_addDynClicks(&#34;wbimage&#34;, 2125996941, 1024367)"><img src="../../images/logo-nandibu.png" alt=""></a>                  
+</div>
+</div>
+                    <p><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>南昌大学研究生院　版权所有&nbsp;</p></p>
+                </div>
+                <div class="foot-m"><script language="javascript" src="/system/resource/js/news/mp4video.js"></script>
+<h2 style="text-align: left;">联系我们</h2>
+<p><img src="/__local/2/CB/60/DCE0F10B1A419BA38671F3A39EB_1054C582_13A.png?e=.png" alt="" vsbhref="vurl" vurl="/_vsl/2CB60DCE0F10B1A419BA38671F3A39EB/1054C582/13A?e=.png" vheight="" vwidth="" orisrc="/__local/2/CB/60/DCE0F10B1A419BA38671F3A39EB_1054C582_13A.png" class="img_vsb_content"><span style="font-family: 宋体, SimSun;">E-mail：yjsy@ncu.edu.cn</span></p>
+<p><img src="/__local/A/E2/C6/2BFBDAF9B340CAAAE2FFBB36BD8_2EE15AA2_1FB.png?e=.png" alt="" vsbhref="vurl" vurl="/_vsl/AE2C62BFBDAF9B340CAAAE2FFBB36BD8/2EE15AA2/1FB?e=.png" vheight="" vwidth="" orisrc="/__local/A/E2/C6/2BFBDAF9B340CAAAE2FFBB36BD8_2EE15AA2_1FB.png" class="img_vsb_content"><span style="font-family: 宋体, SimSun;">电话：0791-83969337&nbsp;</span><span style="font-family: 宋体, SimSun;">邮编：330031</span></p>
+<p><img src="/__local/2/D0/6D/0970123C91FE76B1619D6287E03_BE47C9E0_22F.png?e=.png" alt="" vsbhref="vurl" vurl="/_vsl/2D06D0970123C91FE76B1619D6287E03/BE47C9E0/22F?e=.png" vheight="" vwidth="" orisrc="/__local/2/D0/6D/0970123C91FE76B1619D6287E03_BE47C9E0_22F.png" class="img_vsb_content"><span style="font-family: 宋体, SimSun;">地址：江西省南昌市红谷滩区学府大道999号研究生楼</span></p></div>
+                <div class="foot-r">
+                    <div class="rwm">    
+</div>
+                </div>
+            </div>
+        </div>
+</body>
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/slick.js"></script>
+    <script src="../../js/public.js"></script>
+</html>
+
+
+
+
+

@@ -1,0 +1,1954 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>招生目录</title>
+		<meta charset="utf-8">
+		<meta content="webkit" name="renderer">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+		<meta content="no-cache" http-equiv="Pragma">
+		<meta http-equiv="Expires" content="0">
+		<meta content="width=device-width, initial-scale=1, user-scalable=1" name="viewport">
+		<link rel="stylesheet" href="/static/common/bootstrap.min.css">
+		<link rel="stylesheet" href="/static/common/zsml.css">
+		<script src="/static/jquery/jquery-1.12.4.min.js"></script>
+		<script src="/static/layer/3.1/layer.js"></script>
+		
+		<style>
+	        .side-nav {
+			    list-style: none;
+			    padding: 0;
+			    margin: 1rem;
+			}
+			.side-nav li {
+			    display: flex;
+			    justify-content: flex-start;
+			    align-items: center;
+			    margin-right: 1rem;
+			}
+			.side-nav li:before {
+			    content: "";
+			    display: block;
+			    width: 0.55rem;
+			    height: 0.55rem;
+			    margin-right: 0.75rem;
+			     border-radius: 50%;
+			}
+			.side-nav li.active:before {
+			    background: linear-gradient(90deg,#AA6AFF,#AA6AFF);
+			}
+			.side-nav li.active a {
+			    color: #000;
+			}
+			.side-nav li a {
+			    display: block;
+			    color: #697B8C;
+			    margin: 0.5rem 0;
+			    padding: 0 0.25rem;
+			    text-decoration: none;
+			    border-radius: 0.25rem;
+			    font-size: 0.875rem;
+			}
+			.side-nav li a:hover {
+			    background-color: #AA6AFF;
+			    color: #fff;
+			}
+			.side-nav li.active a:hover {
+			    background-color: transparent;
+			    color: #000;
+			}
+			.table-jzml h5, .table-jzml h6 { margin: 0;}
+			.table-jzml a { color: #AA6AFF;}
+			.table-jzml a:hover { color: #873BF4;}
+			
+			#zsml-table td textarea{
+				width: 100%;
+			    border: 0;
+			    color: #3A5064;
+			    background-color: #FFF;
+			    vertical-align: top;
+			    font-size: 14px;
+			    font-family: '微软雅黑';
+			    resize: none;
+				outline: none;
+				overflow: auto;
+			}
+			
+			.content-container {
+				width: 100%;
+			    padding-right: 15px;
+			    padding-left: 15px;
+			    margin-right: auto;
+			    margin-left: auto;
+			}
+			
+			.right-container {
+			    float:left;
+			    width: calc(100% - 320px);
+			}
+			
+			#left-container {
+			    float:right;
+			    position:relative;
+			    width: 300px;
+				padding-left: 20px;
+			}
+			
+			/* #left-container #inner-sidebar.fixed {
+			    position:fixed;
+			    top: 0;
+			} */
+			.text-white{
+			 font-family: "SimHei", "黑体";
+			 font-weight: bold;
+			}
+			#table_ds{
+			color: #0056b3; 
+		     text-decoration: underline;
+		     cursor: pointer;
+			}
+			#search{
+			margin-bottom: 15px;
+			margin-top: 15px;
+			}
+			.ch-select {
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    border: 1px solid #d6d6d6;
+    padding: 0 8px;
+    padding: 8px \9;
+    font-size: 14px;
+    margin-right: 10px;
+    border-radius: 0;
+    outline: 0;
+    background: #fff;
+}
+.ch-input {
+    box-sizing: border-box;
+    padding: 0 10px;
+    border: 1px solid #d6d6d6;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    font-size: 14px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.blue-btn {
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 40px;
+    background: #1887e0;
+    border: 1px solid #1887e0;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.blue-btn:hover {
+    background: #0a76ce;
+    border-color: #0a76ce;
+}
+.container{
+max-width: 1340px;
+}
+    	</style>
+    </head>
+    <body>
+	    <div id="sub-banner" class="sub-banner">
+	        <div class="container h-100 d-flex align-items-center justify-content-center">
+	        	<h1 class="text-white" style="font-size: 50px; ">
+	        	西安交通大学2026年硕士研究生招生专业目录(普通招考)
+	        	</h1>
+	        </div>
+	    </div>
+	     
+	    <div class="content-container">
+	     
+	    
+	    
+        	<div class="row">
+        		<div id="left-container" class="left-container">
+        			<div id="inner-sidebar" class="inner-sidebar">
+        				<ul class="side-nav">
+		                    
+		                    
+								<li class="zsml-tree-node active"><a href="?yxsdm=001&ml=&zydm=&xxfs=&dsbh=&key=">001&nbsp;机械工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=002&ml=&zydm=&xxfs=&dsbh=&key=">002&nbsp;材料科学与工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=003&ml=&zydm=&xxfs=&dsbh=&key=">003&nbsp;能源与动力工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=004&ml=&zydm=&xxfs=&dsbh=&key=">004&nbsp;电气工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=006&ml=&zydm=&xxfs=&dsbh=&key=">006&nbsp;航天航空学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=007&ml=&zydm=&xxfs=&dsbh=&key=">007&nbsp;数学与统计学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=008&ml=&zydm=&xxfs=&dsbh=&key=">008&nbsp;管理学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=010&ml=&zydm=&xxfs=&dsbh=&key=">010&nbsp;人文社会科学学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=012&ml=&zydm=&xxfs=&dsbh=&key=">012&nbsp;外国语学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=013&ml=&zydm=&xxfs=&dsbh=&key=">013&nbsp;生命科学与技术学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=014&ml=&zydm=&xxfs=&dsbh=&key=">014&nbsp;马克思主义学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=015&ml=&zydm=&xxfs=&dsbh=&key=">015&nbsp;医学部</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=016&ml=&zydm=&xxfs=&dsbh=&key=">016&nbsp;化学工程与技术学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=018&ml=&zydm=&xxfs=&dsbh=&key=">018&nbsp;公共政策与管理学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=019&ml=&zydm=&xxfs=&dsbh=&key=">019&nbsp;经济与金融学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=022&ml=&zydm=&xxfs=&dsbh=&key=">022&nbsp;人居环境与建筑工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=024&ml=&zydm=&xxfs=&dsbh=&key=">024&nbsp;法学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=026&ml=&zydm=&xxfs=&dsbh=&key=">026&nbsp;MBA中心</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=028&ml=&zydm=&xxfs=&dsbh=&key=">028&nbsp;前沿科学技术研究院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=031&ml=&zydm=&xxfs=&dsbh=&key=">031&nbsp;体育学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=032&ml=&zydm=&xxfs=&dsbh=&key=">032&nbsp;新闻与新媒体学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=033&ml=&zydm=&xxfs=&dsbh=&key=">033&nbsp;物理学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=034&ml=&zydm=&xxfs=&dsbh=&key=">034&nbsp;化学学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=036&ml=&zydm=&xxfs=&dsbh=&key=">036&nbsp;人工智能学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=037&ml=&zydm=&xxfs=&dsbh=&key=">037&nbsp;仪器科学与技术学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=051&ml=&zydm=&xxfs=&dsbh=&key=">051&nbsp;电子与信息学部-计算机科学与技术学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=052&ml=&zydm=&xxfs=&dsbh=&key=">052&nbsp;电子与信息学部-信息与通信工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=053&ml=&zydm=&xxfs=&dsbh=&key=">053&nbsp;电子与信息学部-电子科学与工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=054&ml=&zydm=&xxfs=&dsbh=&key=">054&nbsp;电子与信息学部-自动化科学与工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=056&ml=&zydm=&xxfs=&dsbh=&key=">056&nbsp;电子与信息学部-微电子学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=057&ml=&zydm=&xxfs=&dsbh=&key=">057&nbsp;电子与信息学部-网络空间安全学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=058&ml=&zydm=&xxfs=&dsbh=&key=">058&nbsp;电子与信息学部-软件学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=097&ml=&zydm=&xxfs=&dsbh=&key=">097&nbsp;国家储能技术产教融合创新平台（中心）</a></li>
+							
+		                </ul>
+        			</div>
+	            </div>
+			    <div class="right-container">
+			     <div id="search">
+			     <select id="searchml" name="searchml" class="ch-select" onchange="changeMl('')">
+			     <option value="">--选择门类--</option>
+					
+						<option  value="01" >01哲学</option>
+					
+						<option  value="02" >02经济学</option>
+					
+						<option  value="03" >03法学</option>
+					
+						<option  value="04" >04教育学</option>
+					
+						<option  value="05" >05文学</option>
+					
+						<option  value="07" >07理学</option>
+					
+						<option  value="08" >08工学</option>
+					
+						<option  value="10" >10医学</option>
+					
+						<option  value="12" >12管理学</option>
+					
+						<option  value="13" >13艺术学</option>
+					
+						<option  value="14" >14交叉学科</option>
+					
+			     </select>
+			     <select name="searchzydm" id="searchzydm"  class="ch-select" style="width: 200px" >
+								<option value="">--选择专业--</option>	
+					</select>
+				<select id="searchxxfs" name="searchxxfs" class="ch-select" ">
+			     <option value="">--选择学习方式--</option>
+			       <option value="1" >全日制</option>
+			       <option value="2" >非全日制</option>
+			     </select>	
+			     <input class="blue-btn" type="button" name="button" onclick="zsmlSearchZy()" value="查询">
+			     	&nbsp;&nbsp;	
+				<input id="searchdsbhorxm" name="searchdsbhorxm" type="text" style="width: 150px" value=""  class="ch-input" placeholder="请输入导师编号/姓名" />
+				<input class="blue-btn" type="button" name="button" onclick="zsmlSearchDs()" value="按导师查询">
+				&nbsp;	
+				<input class="blue-btn" type="button" name="button" onclick="zsmlSearchCz()" value="重置">
+				&nbsp;
+				<input class="blue-btn" type="button" name="button" onclick="SearchZmt()" value="查看自命题考试大纲">
+				
+		</div>
+		            <div class="process-content">
+		                <div class="card">
+		                    <div class="card-body">
+		                        <div class="mb-1">
+		                        	<table id="zsml-table" class="table table-bordered table-jzml mb-0" style="font-size: 14px">
+			<thead>
+				<tr>
+					<th style="width: 30%;">院系、专业、研究方向</th>
+					<th style="width: 5%;">拟招生人数</th>
+					<th style="width: 10%;">导师/团队负责人 </th>
+				    <th style="width: 20%;">初试科目</th>
+				    <th style="width: 15%;">复试科目</th>
+				    <th style="width: 25%;">备注</th>
+				</tr>
+			</thead>
+			<tbody>
+				
+					
+					
+					
+							               		<tr>
+								                    <td colspan="5">
+								                    	<h5>
+								                    		<span>
+																<span>
+								                    				001&nbsp;机械工程学院
+								                    			</span>
+								                    		</span>
+								                    	</h5>
+								                    </td>
+								                    
+								                    <td>
+								                    	
+								                    		
+								                    		
+								                    	
+								                    </td>
+								               	</tr>
+								               	
+						
+						<tr class="zsml-talbe-yx-zy">
+							<td style="padding-left: 20px;">
+								<h5 style="font-weight: bold;">
+											080200
+											
+												（学术学位）
+												
+											
+											
+											机械工程
+								</h5>
+							</td>
+							<td style="vertical-align: middle;text-align: center;" >
+								33
+							</td>
+							<td >
+							</td>
+							<td >
+							</td><td >
+							</td><td >
+							
+								<textarea readonly="readonly">目录公布的各专业拟招生人数为基本计划，学院（部、中心）将根据接收推荐免试、普通招考生源情况及学校下达的计划在录取阶段调整各专业招生人数。
+系所招生简介信息详见学院网站(http://mec.xjtu.edu.cn/info/1076/12140.htm)。</textarea>
+								 
+							
+							</td>
+						</tr>
+					
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									01
+									
+										（全日制）
+										
+									
+									国际机械中心-机械学术前沿交叉科学研究
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','01','1','bfo8@yEtRpW1EyxsEKg7eQ==','国际机械中心-机械学术前沿交叉科学研究')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									02
+									
+										（全日制）
+										
+									
+									航发所-航空动力系统数字孪生、智能感知与健康管理
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','02','1','bfo8@yEtRpW1EyxsEKg7eQ==','航发所-航空动力系统数字孪生、智能感知与健康管理')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									03
+									
+										（全日制）
+										
+									
+									航发所-高端装备智能再制造与健康运维
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','03','1','bfo8@yEtRpW1EyxsEKg7eQ==','航发所-高端装备智能再制造与健康运维')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									04
+									
+										（全日制）
+										
+									
+									航发所-AI4S与航空发动机智能监控
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','04','1','bfo8@yEtRpW1EyxsEKg7eQ==','航发所-AI4S与航空发动机智能监控')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									05
+									
+										（全日制）
+										
+									
+									航发所-空天发动机新架构设计与模型推演学习控制
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','05','1','bfo8@yEtRpW1EyxsEKg7eQ==','航发所-空天发动机新架构设计与模型推演学习控制')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									06
+									
+										（全日制）
+										
+									
+									航天所-新型航天器在轨维护与空间智能制造
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','06','1','bfo8@yEtRpW1EyxsEKg7eQ==','航天所-新型航天器在轨维护与空间智能制造')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									07
+									
+										（全日制）
+										
+									
+									航天所-空天往返动力系统智能设计、制造与监控
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','07','1','bfo8@yEtRpW1EyxsEKg7eQ==','航天所-空天往返动力系统智能设计、制造与监控')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									08
+									
+										（全日制）
+										
+									
+									机器人与智能系统研究所-柔性与人形机器人
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','08','1','bfo8@yEtRpW1EyxsEKg7eQ==','机器人与智能系统研究所-柔性与人形机器人')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									09
+									
+										（全日制）
+										
+									
+									机器人与智能系统研究所-激光精密制造与智能机器人
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','09','1','bfo8@yEtRpW1EyxsEKg7eQ==','机器人与智能系统研究所-激光精密制造与智能机器人')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									10
+									
+										（全日制）
+										
+									
+									机器人与智能系统研究所-生机电融合与服务机器人
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','10','1','bfo8@yEtRpW1EyxsEKg7eQ==','机器人与智能系统研究所-生机电融合与服务机器人')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									11
+									
+										（全日制）
+										
+									
+									机器人与智能系统研究所-机器人与智能制造
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','11','1','bfo8@yEtRpW1EyxsEKg7eQ==','机器人与智能系统研究所-机器人与智能制造')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									12
+									
+										（全日制）
+										
+									
+									机器人与智能系统研究所-水下智能感知与仿生机器人
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','12','1','bfo8@yEtRpW1EyxsEKg7eQ==','机器人与智能系统研究所-水下智能感知与仿生机器人')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									13
+									
+										（全日制）
+										
+									
+									机器人与智能系统研究所-其他方向
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','13','1','bfo8@yEtRpW1EyxsEKg7eQ==','机器人与智能系统研究所-其他方向')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									14
+									
+										（全日制）
+										
+									
+									精密工程研究所-智能制造与（超）精密测量
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','14','1','bfo8@yEtRpW1EyxsEKg7eQ==','精密工程研究所-智能制造与（超）精密测量')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									15
+									
+										（全日制）
+										
+									
+									精密工程研究所-微纳传感与测试
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','15','1','bfo8@yEtRpW1EyxsEKg7eQ==','精密工程研究所-微纳传感与测试')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									16
+									
+										（全日制）
+										
+									
+									精密工程研究所-精密超精密加工及检测
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','16','1','bfo8@yEtRpW1EyxsEKg7eQ==','精密工程研究所-精密超精密加工及检测')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									17
+									
+										（全日制）
+										
+									
+									精密工程研究所-智能传感芯片与系统
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','17','1','bfo8@yEtRpW1EyxsEKg7eQ==','精密工程研究所-智能传感芯片与系统')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									18
+									
+										（全日制）
+										
+									
+									精密工程研究所-其他方向
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','18','1','bfo8@yEtRpW1EyxsEKg7eQ==','精密工程研究所-其他方向')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									19
+									
+										（全日制）
+										
+									
+									设计科学与基础部件研究所-高端装备润滑增效
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','19','1','bfo8@yEtRpW1EyxsEKg7eQ==','设计科学与基础部件研究所-高端装备润滑增效')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									20
+									
+										（全日制）
+										
+									
+									设计科学与基础部件研究所-大数据驱动的故障诊断
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','20','1','bfo8@yEtRpW1EyxsEKg7eQ==','设计科学与基础部件研究所-大数据驱动的故障诊断')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									21
+									
+										（全日制）
+										
+									
+									设计科学与基础部件研究所-高端装备数字化设计与制造
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','21','1','bfo8@yEtRpW1EyxsEKg7eQ==','设计科学与基础部件研究所-高端装备数字化设计与制造')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									22
+									
+										（全日制）
+										
+									
+									先进制造技术研究所-先进复合材料设计与制造
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','22','1','bfo8@yEtRpW1EyxsEKg7eQ==','先进制造技术研究所-先进复合材料设计与制造')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									23
+									
+										（全日制）
+										
+									
+									先进制造技术研究所-高性能材料增材制造与生物制造
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','23','1','bfo8@yEtRpW1EyxsEKg7eQ==','先进制造技术研究所-高性能材料增材制造与生物制造')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									24
+									
+										（全日制）
+										
+									
+									先进制造技术研究所-微纳制造与智能传感
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','24','1','bfo8@yEtRpW1EyxsEKg7eQ==','先进制造技术研究所-微纳制造与智能传感')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									25
+									
+										（全日制）
+										
+									
+									先进制造技术研究所-纳米制造与微纳功能器件
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','25','1','bfo8@yEtRpW1EyxsEKg7eQ==','先进制造技术研究所-纳米制造与微纳功能器件')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									26
+									
+										（全日制）
+										
+									
+									先进制造技术研究所-增材制造
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','26','1','bfo8@yEtRpW1EyxsEKg7eQ==','先进制造技术研究所-增材制造')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									27
+									
+										（全日制）
+										
+									
+									先进制造技术研究所-智能加工工艺及装备
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','27','1','bfo8@yEtRpW1EyxsEKg7eQ==','先进制造技术研究所-智能加工工艺及装备')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									28
+									
+										（全日制）
+										
+									
+									先进制造技术研究所-其他方向
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','28','1','bfo8@yEtRpW1EyxsEKg7eQ==','先进制造技术研究所-其他方向')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									29
+									
+										（全日制）
+										
+									
+									新能源装备与质量工程所-高端装备质量安全数智技术
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','29','1','bfo8@yEtRpW1EyxsEKg7eQ==','新能源装备与质量工程所-高端装备质量安全数智技术')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									30
+									
+										（全日制）
+										
+									
+									医工交叉研究所-脑机交互与具身智能机器人应用
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','30','1','bfo8@yEtRpW1EyxsEKg7eQ==','医工交叉研究所-脑机交互与具身智能机器人应用')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									31
+									
+										（全日制）
+										
+									
+									装备智能诊断与控制研究所-先进成形技术及智能装备
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','31','1','bfo8@yEtRpW1EyxsEKg7eQ==','装备智能诊断与控制研究所-先进成形技术及智能装备')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									32
+									
+										（全日制）
+										
+									
+									装备智能诊断与控制研究所-高端装备动力学与控制
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','32','1','bfo8@yEtRpW1EyxsEKg7eQ==','装备智能诊断与控制研究所-高端装备动力学与控制')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									33
+									
+										（全日制）
+										
+									
+									装备智能诊断与控制研究所-装备智能诊断
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','33','1','bfo8@yEtRpW1EyxsEKg7eQ==','装备智能诊断与控制研究所-装备智能诊断')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									34
+									
+										（全日制）
+										
+									
+									机械工程教研室-机械电子工程
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','34','1','bfo8@yEtRpW1EyxsEKg7eQ==','机械工程教研室-机械电子工程')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									35
+									
+										（全日制）
+										
+									
+									跨学院导师-其他方向
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','080200','35','1','bfo8@yEtRpW1EyxsEKg7eQ==','跨学院导师-其他方向')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②201-英语（一）③301-数学（一）④802-机械设计基础
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+					
+						<tr class="zsml-talbe-yx-zy">
+							<td style="padding-left: 20px;">
+								<h5 style="font-weight: bold;">
+											085501
+											
+												
+												（专业学位）
+											
+											
+											机械工程
+								</h5>
+							</td>
+							<td style="vertical-align: middle;text-align: center;" >
+								237
+							</td>
+							<td >
+							</td>
+							<td >
+							</td><td >
+							</td><td >
+							
+								<textarea readonly="readonly">本专业拟招生人数含1名全日制退役大学生士兵计划、5名非全日制单独考试计划。
+系所招生简介信息详见学院网站(http://mec.xjtu.edu.cn/info/1076/12140.htm)。</textarea>
+								 
+							
+							</td>
+						</tr>
+					
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									01
+									
+										（全日制）
+										
+									
+									COT项目-机械工程
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','085501','01','1','bfo8@yEtRpW1EyxsEKg7eQ==','COT项目-机械工程')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②204-英语（二）③302-数学（二）④861-机械设计基础及应用
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									02
+									
+										
+										（非全日制）
+									
+									不分方向（单考）
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','085501','02','2','bfo8@yEtRpW1EyxsEKg7eQ==','不分方向（单考）')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①111-思想政治理论（单独考试）②251-英语（单独考试）③701-数学（单独考试）④861-机械设计基础及应用
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①机械制造与控制技术基础
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+					
+						<tr class="zsml-talbe-yx-zy">
+							<td style="padding-left: 20px;">
+								<h5 style="font-weight: bold;">
+											085507
+											
+												
+												（专业学位）
+											
+											
+											工业设计工程
+								</h5>
+							</td>
+							<td style="vertical-align: middle;text-align: center;" >
+								2
+							</td>
+							<td >
+							</td>
+							<td >
+							</td><td >
+							</td><td >
+							
+								<textarea readonly="readonly">系所招生简介信息详见学院网站(http://mec.xjtu.edu.cn/info/1076/12140.htm)。</textarea>
+								 
+							
+							</td>
+						</tr>
+					
+						
+							<tr class="zsml-talbe-yx-zy-yjfx">
+								<td style="padding-left: 40px;" rowspan="1">
+									01
+									
+										（全日制）
+										
+									
+									COT项目-工业设计工程
+								</td>
+								 <td style="text-align: center;" rowspan="1"></td>
+								<td style="text-align: center;" rowspan="1">
+									
+										
+										
+										<a id="table_ds" onclick="ck_ds('001','085507','01','1','bfo8@yEtRpW1EyxsEKg7eQ==','COT项目-工业设计工程')">查看导师</a>
+										
+									
+								</td>
+			                   
+								<td style="padding-left: 5px;"  merge="1" rowspan="1">
+									①101-思想政治理论②204-英语（二）③337-工业设计工程④881-设计能力与经验测试
+								</td>
+								 <td style="text-align: center;"  merge="1" rowspan="1">
+								 ①设计测试
+								 </td>
+								  <td style="text-align: center;" rowspan="1">
+								  
+								                    		
+								                    		
+								                    	
+							</td>
+								  </td>
+								
+							</tr>
+						
+					
+					
+					
+				
+			</tbody>
+		</table>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+	        </div>
+	        
+        </div>
+   		<script>
+	    	(function($) {
+	    		$(document).ready(function() {
+	    			$.each($("textarea"), function(i, n){
+	    				$(n).css("height", n.scrollHeight + "px");
+	    			});
+	    			changeMl('');
+    			    var height;
+    			    var subHeight = $('#sub-banner').height();
+    			    $(window).scroll(function(){
+    			    	height = $(this).scrollTop();  
+    			        
+    			        if(parseFloat(height) > subHeight){
+    			        	$("#inner-sidebar").addClass("fixed");
+    			        }else{
+    			        	$("#inner-sidebar").removeClass("fixed");
+    			        }
+    			    });
+    			    
+    			    mergeCells('zsml-table', 1, 0, 4, true); // 参数依次表示：表格ID，从第一行开始，到最后一行，第二列
+    			    mergeCells('zsml-table', 1, 0, 3, true); // 参数依次表示：表格ID，从第一行开始，到最后一行，第二列
+	    		});
+	    	})(jQuery);
+	    	
+	    	 /**
+	         * 合并单元格
+	         * @param tableId   表格的ID
+	         * @param startRow  起始行
+	         * @param endRow    结束行:0代表合并所有行
+	         * @param colIndex  合并的列号，对第几列进行合并(从0开始)。第一行从0开始
+	         * @param mergeBlank是否合并空值单元格，默认不合并
+	         */
+			function mergeCells(tableId, startRow, endRow, colIndex, mergeBlank) {
+	    		var tb = document.getElementById(tableId);
+	            if(!tb || !tb.rows || tb.rows.length <= 0) {
+	                return;
+	            }
+	            if(colIndex >= tb.rows[0].cells.length || (startRow >= endRow && endRow != 0)) {
+	                return;
+	            }
+	            if(endRow == 0) {
+	                endRow = tb.rows.length - 1;
+	            }
+	            for(var i = startRow; i < endRow; i++) {
+	            	if((!mergeBlank && (!tb.rows[startRow].cells[colIndex] || tb.rows[startRow].cells[colIndex].innerHTML == '')) 
+	            			|| (!tb.rows[startRow].cells[colIndex] || !tb.rows[i + 1].cells[colIndex])) {
+	            		mergeCells(tableId, i + 1, endRow, colIndex, mergeBlank);
+	                    break;
+	            	} 
+	                if(tb.rows[startRow].cells[colIndex].getAttribute('merge') && tb.rows[i + 1].cells[colIndex].getAttribute('merge') && tb.rows[startRow].cells[colIndex].innerHTML == tb.rows[i + 1].cells[colIndex].innerHTML) { //如果相等就合并单元格,合并之后跳过下一行
+	                    tb.rows[i + 1].removeChild(tb.rows[i + 1].cells[colIndex]);
+	                    tb.rows[startRow].cells[colIndex].rowSpan = (tb.rows[startRow].cells[colIndex].rowSpan) + 1;
+	                } else {
+	                    mergeCells(tableId, i + 1, endRow, colIndex, mergeBlank);
+	                    break;
+	                } 
+	            }
+	    	}
+
+			
+			$('.xmjjinfo').click(function() {
+				var newWindow = window.open('/publish/infors/view/xmjj/'+$(this).data('val'));
+				newWindow.opener = null;
+			});
+			function ck_ds(yxsh,zydm,fxm,xxfs,nd,fxmc){
+				 window.open("/zsml/viewDs?yxsh="+yxsh+"&zslb=1&key=&zydm="+zydm+"&fxm="+fxm+"&xxfs="+xxfs+"&nd="+nd+"&fxmc="+fxmc);
+        		
+        	}
+			function changeMl(obj){
+				var ml = $("#searchml").val();
+				var data=[];
+				if(obj!=''){
+					data["searchzydm"]=obj;
+				}
+				console.log(ml+"="+data);
+				if(ml!=null&&$.trim(ml)!=''){
+					$("#searchzydm").attr("selecturl","/comm/getSelectData/getZszybyMl?ml="+ml+"&zslb=1&nd=2026");
+					selectChange($("#searchzydm"),data);
+				}
+			}
+			//更改下拉框的值
+			function selectChange(ob,data) {
+			        var obj = $(ob);
+			        var content = $(ob).attr('data-placeholder');
+			        var showfirst = $(ob).attr('showfirst');
+			        var showdm= $(ob).attr('showdm');
+			        var showEx= $(ob).attr('showEx');
+			        var showid = $(ob).attr('id');
+			        if ($(ob).attr("selecturl") == null) {
+			        } else if($(ob).attr('multiple')==undefined) {
+			            var type = 'get';
+			            if ($(ob).attr("notcache") == 'true') {//不让缓存,每次请求新的数据
+			                type = 'post';
+			            }
+			            var url=$(ob).attr("selecturl");
+			            if ($(ob).attr("linkId")) {
+			                linkSelect($(this).attr("linkId"),$(this).attr("id"))
+			                url=url+"?"+ $("#" + $(this).attr("linkId")).attr("name") +"="+$("#" + $(this).attr("linkId")).val();
+			            }
+			            $.ajax({
+			                type:type,
+			                dataType:"json", // 返回json格式的数据
+			                async:true,
+			                url:url, // 要访问的后台地址
+			                success:function (msg) {// msg为返回的数据，在这里做数据绑定
+			                	console.log(msg);
+			                    var options = '';
+			                    if(showfirst!='true'){
+				                    if (content != null && content != '') {
+				                        options += '<option value="">' + content + '</option>';
+				                    } else {
+				                        	options += '<option value="">----请选择----</option>';
+				                    }
+			                    }
+			                    
+			                    var b = obj.attr("name");
+			                    for (var i = 0; i < msg.length; i++) {
+			                        if (msg[i].dataMap) { // 添加扩展字段dataMap
+			                            var exFields = '';
+			                            for (var key in msg[i].dataMap) {
+			                                exFields += key + '="' + (msg[i].dataMap[key] ? msg[i].dataMap[key] : '') + '" ';
+			                            }
+			                        }
+			                        var msgtext='';
+			                        if(showdm=='true'){
+			                        	msgtext= msg[i].value+' '+msg[i].text;
+			                        }else{
+			                        	msgtext= msg[i].text;
+			                        }
+			                        if(showEx=='true'){
+			                        	if(msg[i].extraField1!=null&&msg[i].extraField1!=''){
+			                        		msgtext= msg[i].value+' '+msg[i].text+"<font color='red'>(缺额人数:"+ msg[i].extraField1+")</font>";
+			                        	}else{
+			                        		msgtext= msg[i].value+' '+msg[i].text;
+			                        	}
+			                        }
+			                        if ((data != null && data[obj.attr("name")] == msg[i].value)||(data != null && data[obj.attr("name")] == msg[i].text)) {
+			                            options += '<option value="' + msg[i].value  + '" extra="'+msg[i].extraField1+'" selected="selected" ' + exFields + ' mc="'+msg[i].text+'">' + msgtext + "</option>";
+			                        } else {
+			                            options += '<option value="' + msg[i].value + '" extra="'+msg[i].extraField1+'" ' + exFields + ' mc="'+msg[i].text+'">' + msgtext + "</option>";
+			                        }
+			                    }
+			                   
+			                    
+			                    obj.html(options);
+			                },
+			                error:function (XHR, status, errorThrow) {
+			                    return false;
+			                }
+			            });
+
+			        }
+			}
+			function zsmlSearchZy(){
+				  var ml = $('#searchml').val();
+				  var xxfs=$("#searchxxfs").val();
+				  var zydm=$("#searchzydm").val();
+				  var url="/zsml/sszsml/detailtk/bfo8@yEtRpW1EyxsEKg7eQ==?ml="+ml+"&zslb=1&key=&zydm="+zydm+"&xxfs="+xxfs;
+				console.log(url);
+				  window.location.href=url;
+
+
+			}
+            function zsmlSearchDs(){
+            	  var dsbh = $('#searchdsbhorxm').val();
+				  var url="/zsml/sszsml/detailtk/bfo8@yEtRpW1EyxsEKg7eQ==?dsbh="+dsbh+"&zslb=1&key=";
+				console.log(url);
+				  window.location.href=url;
+			}
+            function zsmlSearchCz(){
+				  var url="/zsml/sszsml/detailtk/bfo8@yEtRpW1EyxsEKg7eQ==?key=";
+					console.log(url);
+					  window.location.href=url;
+			}
+            function SearchZmt(){
+				  var url="/sskmcx/index/bfo8@yEtRpW1EyxsEKg7eQ==";
+
+            	 window.open(url);
+            }
+	    </script>
+    </body>
+</html>

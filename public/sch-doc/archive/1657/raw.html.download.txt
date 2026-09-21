@@ -1,0 +1,1239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="author" content="rockhentai">
+	<title>天津科技大学招生信息网</title>
+	
+	<script src="../../js/jquery-1.12.1.min.js"></script>
+
+<script src="../../js/index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?be55e30b8185030aa5f1b793b667abd7";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+
+<STYLE type="text/css">
+body,div,p,h1,h4,h5,ul,li,ol {
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	font-size: 2em;
+}
+.lftMod .list li a,.rgtMod .list li a{display:block;width:280px;overflow:hidden;padding-left:20px;}
+.ctMod .list li a{display:block;width:280px;overflow:hidden;padding-left:30px;}
+.lftCon{ width:280px;float:left;padding-left:30px;}}
+.head{ color:#ffffff;font-weight:bold;text-indent: 2em;overflow:hidden;display: block;font-size:14px;padding-bottom:3px;}
+list{
+	color:#fff;}
+
+
+ul,li,ol {
+	list-style: none;
+}
+
+a {              font-size: 13px;
+                 color:#000;
+	text-decoration: none;
+}
+
+
+body {
+	font-family: proxima-nova,"Microsoft YaHei",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	color:#333;
+	position: relative;
+	background: #fff;
+}
+.date {        font-size: 13px;
+                 color:#000;
+	
+}
+.wznr {        font-size: 14px;
+                 color:#000;
+              line-height:26px;
+	
+}
+
+
+.font13{
+font-size: 13px;
+color:#fff;
+}
+.white {
+	background: #fff;
+}
+
+.container {position: relative;
+	width: 1100px;
+
+margin:0 auto;
+}
+
+
+.wrapper1 {
+	width:985px;
+                 margin:0 auto;	
+}
+
+.clear {
+	clear: both;
+}
+
+.top {
+	position: relative;
+	width: 100%;
+	height:148px;
+	z-index: 99;
+background: #fff;
+}
+
+
+.top .logo {
+	width:100%;
+	height:148px;
+	padding-top: 0px;
+	background: #fff;}
+
+.main {position: relative;            
+top:0px;
+	width:100%;
+	margin:0 auto;
+                 height:300px;
+background: #197caf;
+}
+
+.main1 {background: #fff;
+	width:1100px;
+	margin:0 auto;
+         min-height:950px;
+}
+.main2 {background: #fff;
+	width:1100px;
+	margin:0 auto;
+min-height:535px;
+}
+.main3 {background: #fff;
+	width:1100px;
+	margin:0 auto;
+                 min-height:570px;
+}
+
+.main .banner {
+	position: relative;
+                 margin：0 auto;
+
+ left: 50%;
+
+    margin-left: -550px;
+
+	width:1100px;
+	height:300px;
+	overflow: hidden;
+
+}
+
+.main .banner .slides {
+	width:1100px;
+
+background: #197caf;
+}
+
+.main .banner .slides li {
+	display: none;
+	width: 1100px;
+	float: center;
+background: #197caf;
+}
+.main .banner .slides li.active {
+	display: block;
+}
+
+.main .banner .slides li img {
+	width: 1100px;
+background: #197caf;
+}
+
+.banner .slidesController {
+	position: absolute;
+	right:26px;
+	bottom: 5px;
+	z-index: 99;
+}
+
+.banner .slidesController li {
+	display: inline-block;
+	width: 9px;
+	height:9px;
+	margin:0 4px;
+	border:1px solid #d1d1d1;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.banner .slidesController li.active {
+	background: #ff5b0b;
+	border-color: #ff5b0b;
+}
+
+.content {
+	float:left;
+	width:1100px;
+	margin-right: 0px;
+	margin-top: 0px;
+background: #fff;
+}
+
+.content .block {
+	float:left;
+	
+}
+
+.block .title {
+	width:100%;
+	height: 22px;
+	margin-bottom: 23px;
+	border-bottom: 3px solid #f3842b;
+	line-height: 22px;
+}
+
+.block .title .caption {
+	display: inline-block;
+	height: 100%;
+}
+
+.block .title .more {
+	display: inline-block;
+	float: right;
+	height: 22px;
+	line-height: 22px;
+	color:#979797;
+	font-size: 12px;
+}
+
+.content .news {
+	margin-right: 15px;
+	width:370px;
+}
+
+.news .title .caption {
+	width:193px;
+	
+}
+
+.content .notice {
+	width: 397px;
+}
+
+.notice .title .caption {
+	width:140px;
+	
+}
+
+.news img {
+	margin-bottom: 5px;
+}
+
+.block .links .link {
+	width:100%;
+	margin-bottom: 8px;
+	font-size: 12px;
+	color: #454545;
+	list-style: disc inside;
+}
+
+.block .links .link a {
+	color: #000;
+}
+
+.block .links .link .date {
+	float: right;
+}
+
+.agency {
+	margin-top: 43px;
+}
+
+.agency a img {
+		border:0 none;
+}
+
+.agency .experiment,.agency .mba {
+	float:left;
+	margin-right: 2px;
+}
+
+.sidebar {
+	float: left;
+	width: 165px;
+	height: 459px;
+	padding-top: 72px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 12px;
+	color:#fff;
+	background: url(/publish/jjyglxy/images/side_bg.jpg) no-repeat 0 0;
+}
+
+.sidebar .btn {
+	width:106px;
+	height:27px;
+	line-height: 27px;
+	margin:20px auto 10px auto;
+	background: url(/publish/jjyglxy/images/btn.png) no-repeat 0 0;
+}
+
+
+.sidebar .side-nav {
+	display: block;
+	width:100%;
+	height:30px;
+	line-height: 30px;
+	color:#fff;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.bottom  {
+	
+	width:100%;
+	height: 265px;
+background: url(../../img/zsbbbg.png) repeat-x;
+
+}
+
+	
+
+
+.bottom .footer {
+	
+       width:1100px;
+	margin:0 auto;
+	height: 265px;
+	background: url(../../img/zsbbottom.png) no-repeat 0 0;
+	text-align: center;
+	
+
+
+}
+
+.cen  {
+	
+	width:100%;
+	height: 25px;}
+
+/*article*/
+.articlebg{width:100%;
+background: url(/publish/baoyin/img/bbg.png) repeat-x;
+}
+
+.c_title {
+	FONT-SIZE: 15px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, 宋体
+}
+
+.c_content {
+	FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, 宋体
+}
+.wenzi {
+	font-size: 13px;
+        FONT-FAMILY: Verdana, Arial, 宋体;
+	line-height: 24px;
+	color: #000;
+}
+
+.article {
+	width:990px;
+	margin:0 auto 45px auto;
+
+}
+
+
+.article .left {
+	float: left;
+	margin-right: 27px;
+}
+
+.article .left .survey {
+	width:270px;
+	height:210px;
+	margin-top: 48px;
+}
+
+.survey .header {
+	width:100%;
+	height:20px;
+	line-height: 20px;
+	background: #3aadba;
+	color: #fff;
+	font-size: 13px;
+}
+
+.survey .header p {
+	padding-left: 17px;
+}
+
+.survey .body {
+	width:100%;
+	height:160px;
+	background: #f6fbfb;
+}
+
+.survey .body ul {
+	padding:10px 17px;
+}
+
+.survey .body .line {
+	width:100%;
+	height:30px;
+	border-bottom: 1px solid #e7ecec;
+	color:#3aadba;
+	font-size: 12px;
+	line-height: 30px;
+	background-image: url(/publish/jjyglxy/images/arrow2.png);
+	background-repeat: no-repeat;
+	background-position-x:216px;
+	background-position-y:center;
+}
+
+.survey .body .line.active {
+	background-image: url(/publish/jjyglxy/images/arrow.png);
+}
+
+.survey .body .line a {
+	display: block;
+	width:100%;
+	height:100%;
+	color:#3aadba;
+}
+
+.article .left .notice {
+                width:270px;
+	height:230px;
+	border-bottom: 3px solid #f3842b;
+	list-style: none;
+	color: #454545;
+}
+
+.rightc {
+	float: center;
+	width: 850px;
+margin-left: 6px;
+}
+
+.rightc .location {
+	width:100%;
+	height:48px;
+	font-size: 13px;
+	color: #ffffff;
+	line-height: 48px;
+}
+
+.rightc .location a {
+	color:#6a6a6a;
+}
+
+.rightc .substance {
+	width:100%;
+	min-height:550px;
+background: #ffffff;
+	border:1px solid #c8c8c8;
+margin:0px 25px 20px 0px;
+}
+
+.rightc .substance .outer {
+	padding:15px 10px 0 27px;
+}
+
+.rightc.substance .title {
+        line-height: 48px;
+	margin-bottom: 18px;
+	text-align: center;
+	font-size: 17px;
+	color: #6f6f6f;
+	letter-spacing: 13px;
+	font-weight: normal;
+}
+
+.rightc .substance .release-date {
+	width:100%;
+	height: 22px;
+	margin-bottom: 20px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 13px;
+	color:#6a6a6a;
+	background: #efefef;
+}
+
+.rightc .substance .text p {
+	line-height: 26px;
+	margin-bottom: 24px;
+	font-size: 13px;
+	color: #393939;
+	text-indent: 26px;
+}
+
+
+.right {
+	float: left;
+	width:742px;
+                 min-height:550px;
+margin-left: 8px;
+}
+
+.right .location {
+	width:100%;
+	height:48px;
+	font-size: 12px;
+	color: #6a6a6a;
+	line-height: 48px;
+}
+
+.right .location a {
+	color:#6a6a6a;
+}
+
+.right .substance {
+	width:100%;
+	min-height:550px;
+background: #ffffff;
+	border:1px solid #c8c8c8;
+margin:0px 25px 20px 0px;
+
+}
+
+.right .substance .outer {
+	padding:15px 10px 0 27px;
+}
+
+.alinks{
+
+	color:#3aadba;
+}
+
+
+.right .substance .title {
+	margin-bottom: 18px;
+	text-align: center;
+	font-size: 18px;
+	color: #6f6f6f;
+	letter-spacing: 12px;
+	font-weight: normal;
+}
+
+.right .substance .release-date {
+	width:100%;
+	height: 22px;
+	margin-bottom: 20px;
+	line-height: 22px;
+	text-align: center;
+	font-size: 13px;
+	color:#6a6a6a;
+	background: #efefef;
+}
+
+.right .substance .text p {
+	line-height: 25px;
+	margin-bottom: 24px;
+	font-size: 13px;
+	color: #393939;
+	text-indent: 26px;
+}
+
+.wrapper {
+	width:1200px;
+	margin:0 auto;
+}
+
+.header  .search {
+	float:left;
+	margin:22px 50px 10px 865px;
+	width:130px;
+	height:26px;
+
+	position: relative;
+	background: url(/publish/jsfzzx/img/search_bg.png) no-repeat;
+}
+
+
+.header .gh1 {
+	float:left;
+	margin:55px 50px 10px 530px;
+	width:780px;
+	height:70px;
+	position: relative;
+	
+}
+
+.gh1 .navLists {
+	width:780px;
+	height:35px;
+
+}
+
+.navLists .nav {
+	position: relative;
+	display: block;
+	float: left;
+	width: 79px;
+	height: 35px;
+line-height:33px;
+	
+	text-align: center;
+	font-size: 18px;
+font-weight: bold;
+	color:#717171;
+
+z-index:100;
+}
+.navLists .nav a {
+font-size: 15px;
+	color:#717171;
+}
+
+.navLists .nav .subnavs {
+	display: none;
+	position: absolute;
+	left: 0;
+line-height:33px;
+font-weight:normal;
+	top:35px;
+	width:130%;
+z-index:110;
+margin:0px 0px 0px -15px
+}
+.navLists .subnavs a {
+              font-size: 14px;
+	color:#fff;
+}
+
+.navLists .nav .subnavs .subnav {
+position: relative;
+z-index:100;
+	width:130%;
+	height:100%;
+	background: #197caf;
+margin:0px 0px 0px -15px
+
+}
+
+
+.header  .gh {
+	float:left;
+	margin:0px 0px 0px 0px;
+	
+	position: relative;
+	
+}
+.header {
+  width:1100px;
+margin:0 auto;
+  height: 148px;
+  background: url(../../img/zsblogo.png) no-repeat 0 0;
+}
+ .header .search .search_input {
+overflow:hidden;display: block;
+	border:none;
+	width:120px;
+	height:26px;
+	background: none;
+	position:absolute;
+	padding-left: 10px;
+	padding-top: 4px;
+font-size: 12px;
+
+}
+
+ .header .search .search_icon {
+	width:25px;
+	height:25px;
+	display: block;
+        border-style :none;
+	background: url(/publish/jsfzzx/img/search_icon.png) no-repeat;
+	position:absolute;
+        color:#fff;
+	top:1px;
+	right:1px;
+}
+
+
+</style>
+
+<div class="top">
+			
+<div class="logo">
+			
+
+    <div class="header">
+
+	<div class="gh">
+
+</div>
+
+				<div class="gh1">
+<div class="navLists">
+				
+		
+					<ul>
+<li class="nav">
+<a href="../../">&nbsp;&nbsp;&nbsp;&nbsp;首页 |</a>
+  
+</li>
+												<li class="nav">
+							<a href="#">科大纵览 |</a>
+					   <ul class="subnavs">
+								<li class="subnav">
+									<a href="../../kdzl/xxgk/">学校概况</a>
+								</li>
+								<li class="subnav">
+									<a href="../../kdzl/sbdsz/">硕博点设置</a>
+								</li>
+								<li class="subnav">
+									<a href="../../kdzl/jzxj/">奖助学金</a>
+								</li>
+			
+			<li class="subnav">
+									<a href="http://gjjl.tust.edu.cn">国际交流</a>
+								</li>
+				
+				<li class="subnav">
+									<a href="../../kdzl/sthd/">社团活动</a>
+								</li>
+				
+							</ul>	
+						
+						
+						</li>
+						
+					
+						
+						
+
+<li class="nav">
+							<a href="../../zyjs/">专业介绍 |</a>
+                  
+						</li>
+
+
+						
+
+
+
+						<li class="nav">
+							<a href="#">报考指南 |</a>
+                            
+                             <ul class="subnavs">
+								<li class="subnav">
+									<a href="../../bkzn/zszc/">招生政策</a>
+								</li>
+								<li class="subnav">
+									<a href="../../bkzn/jhcx/">计划查询</a>
+								</li>
+								<li class="subnav">
+									<a href="../../bkzn/wnlq/">往年录取</a>
+								</li>
+			
+			<li class="subnav">
+									<a href="../../bkzn/xkkm/">选考科目</a>
+								</li>
+					
+							</ul>
+						</li>
+	
+
+<li class="nav">
+							<a href="#">专题招生 |</a>
+                                                 
+                                          
+                             <ul class="subnavs">
+								<li class="subnav">
+									<a href="../../ztzs/yslzs/">艺术类招生</a>
+								</li>
+								<li class="subnav">
+									<a href="../../ztzs/gspydd/">高水平运动队</a>
+								</li>
+								<li class="subnav">
+									<a href="../../ztzs/gat/">港澳台</a>
+								</li>
+			                                 
+							
+				
+							</ul>
+						</li>
+
+
+
+<li class="nav">
+<a href="#">信息查询 |</a>
+        <ul class="subnavs">
+								<li class="subnav">
+									<a href="../../xxcx/lqcx/">录取查询</a>
+								</li>
+								<li class="subnav">
+									<a href="../../xxcx/lnfs/">历年分数</a>
+								</li>
+								
+			                                       
+				<li class="subnav">
+									<a href="../../xxcx/wdxz/">文档下载</a>
+								</li>
+							</ul>
+</li>
+
+<li class="nav">
+<a href="../../lxwm/">联系我们 |</a>
+  
+</li>
+
+
+					</ul>
+				</div>
+			</div>
+
+
+				</div>
+</div>
+			
+					</div>
+
+
+<div class="main">
+
+
+<div class="banner">
+				<ul class="slides">
+					<li class="active"> <a href="https://www.ccdi.gov.cn/specialn/esdzt/index.html" target="_blank"><img border ="0"  src="../../img/banner5.jpg" alt="" /></a></li>
+	<!-- <li> <a href="https://flbook.com.cn/c/0WaVzv6L4o" target="_blank"><img border ="0"  src="../../img/zsjy.jpg" alt="" /></a></li> -->
+<li><img src="../../img/lb1.png" alt="" /></li>
+<li><img src="../../img/lb4.png" alt="" /></li>
+<li><img src="../../img/lb3.png" alt="" /></li>
+<li><img src="../../img/lb2.png" alt="" /></li>
+				</ul>
+<ol class="slidesController">
+					<!-- <li class="active"></li>
+<li></li>
+					<li></li>
+                                                                                     <li></li>
+                                                                                     <li></li>
+					<li></li> -->
+				</ol>
+
+			</div>
+</div><div class="main2">
+<div class="container">
+	<table width="90%" border="0" cellspacing="0" cellpadding="0" align="center" >
+        <tr>
+          <td><br /><br />
+            <div  class="c_title">
+              <h2 align="center"><span>天津科技大学2027年版拟招生专业选考科目要求目录</span></h2>
+            
+            </div>
+            <center>
+                          </center>
+            <div  class="c_title">
+              <h3 align="center"><span style="font-family:方正兰亭黑; size:14px"></span></h3><br />
+            </div>
+            <center>
+                          </center><br /> 
+             <div  class="wznr" align="center">   发布日期：2025-03-07 </div>
+ <hr class="hr" />
+            <div  class="wznr"> <font color="#000000"> <html>
+ <head></head>
+ <body>
+  <table cellpadding="0" cellspacing="0" width="765" align="center">
+   <colgroup>
+    <col width="160" style=";width:160px">
+    <col width="79" style=";width:79px">
+    <col width="211" style=";width:211px">
+    <col width="316" style=";width:316px">
+   </colgroup>
+   <tbody>
+    <tr height="28" style=";height:28px" class="firstRow">
+     <td height="28" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;" class="selectTdClass" align="center" valign="middle">学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;" class="selectTdClass" align="center" valign="middle">专业代码</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;" class="selectTdClass" align="center" valign="middle">拟招生专业（类）名称</td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;" class="selectTdClass" align="center" valign="middle">选考科目要求</td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">机械工程学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080202</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">机械设计制造及其自动化</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">机械工程学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080204</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">机械电子工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">机械工程学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080205</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">工业设计</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">机械工程学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080206</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">过程装备与控制工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">机械工程学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080207</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">车辆工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">机械工程学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080213T</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">智能制造工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">电子信息与自动化学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080301</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">测控技术与仪器</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">电子信息与自动化学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080601</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">电气工程及其自动化</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">电子信息与自动化学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080703</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">通信工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">电子信息与自动化学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080704</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">微电子科学与工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">电子信息与自动化学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080801</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">自动化</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">电子信息与自动化学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080803T</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">机器人工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">人工智能学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080901</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">计算机科学与技术</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">人工智能学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080902</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">软件工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">人工智能学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080905</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物联网工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">人工智能学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080910T</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">数据科学与大数据技术</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">人工智能学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080906</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">数字媒体技术</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">人工智能学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080717T</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">人工智能</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="48" style=";height:48px">
+     <td height="48" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">人工智能学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080901H</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">计算机科学与技术</span><span style="">(</span><span style="">信息处理）<br> &nbsp; &nbsp; （中日合作办学）</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">化工与材料学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">070302</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">应用化学</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">化工与材料学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080403</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">材料化学</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">化工与材料学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">080407</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">高分子材料与工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">化工与材料学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">081301</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">化学工程与工艺</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">生物工程学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">081302</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">制药工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">生物工程学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">083001</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">生物工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">海洋与环境学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">070701</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">海洋科学</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">海洋与环境学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">070702</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">海洋技术</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">海洋与环境学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">082503</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">环境科学</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">海洋与环境学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">082502</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">环境工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">轻工科学与工程学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">081701</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">轻化工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">轻工科学与工程学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">081702</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">包装工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">轻工科学与工程学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">081703</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">印刷工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">食品科学与工程学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">082702</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">食品质量与安全</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">食品科学与工程学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">082710T</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">食品营养与健康</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">食品科学与工程学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">082701</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">食品科学与工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">物理、化学</span> <span style="">（</span><span style="">2</span><span style="">门科目考生均须选考方可报考</span><span style="">）</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">经济与管理学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">120108T</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">大数据管理与应用</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">物理 &nbsp; （考生必须选考方可报考）</td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">经济与管理学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">020302</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">金融工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">物理 &nbsp; （考生必须选考方可报考）</td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">经济与管理学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">120601</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">物流管理</td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">物理 &nbsp; （考生必须选考方可报考）</td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">经济与管理学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">120701</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">工业工程</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">物理 &nbsp; （考生必须选考方可报考）</td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">经济与管理学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">020304</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">投资学</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">经济与管理学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">020401</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">国际经济与贸易</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">经济与管理学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">120204</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">财务管理</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">经济与管理学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">120206</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">人力资源管理</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">经济与管理学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">120401</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">公共事业管理</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="37" style="height:37px">
+     <td height="37" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">经济与管理学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">120204H</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">财务管理<br> &nbsp; &nbsp; （中澳合作办学）</td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">文法学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">0301</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">法学类（含法学、知识产权）</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">文法学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">050103</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">汉语国际教育</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">外国语学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">050201</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">英语</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">不限科目要求</td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">外国语学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">050207</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">日语</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">外国语学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">050261</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">翻译</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">艺术设计学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">130310</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">动画</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">艺术设计学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">130502</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">视觉传达设计</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">艺术设计学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">130503</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">环境设计</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">艺术设计学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">130504</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">产品设计</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">艺术设计学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">130505</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">服装与服饰设计</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">艺术设计学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">130506</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">公共艺术</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="26" style=";height:27px">
+     <td height="27" width="160" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">艺术设计学院</td>
+     <td width="79" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">130301</td>
+     <td width="211" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">表演</span></td>
+     <td width="316" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;"><span style="">不限科目要求</span></td>
+    </tr>
+    <tr height="76" style=";height:76px">
+     <td colspan="4" height="76" width="765" style="border: 1px solid rgb(0, 0, 0); padding: 2px 3px;">注：1.《27版目录》供2027年及以后参加高考的考生，即2024年及以后秋季入学的高一新生选科时参考。<br> &nbsp; &nbsp; &nbsp; &nbsp; 2.各省实际招生专业及计划以当年本省考试院公布为准。</td>
+    </tr>
+   </tbody>
+  </table>
+  <p><br></p>
+ </body>
+</html> <br />
+ </div>
+          </div>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+      </table>	
+
+</div>
+</div>
+
+
+
+
+<div class="bottom2">			
+		
+
+		</div>
+
+<div class="bottom">			<div class="footer">
+							</div>
+		</div>
+</body></html>

@@ -1,0 +1,12 @@
+{
+  "source": "东南大学 · 招生信息",
+  "requested_url": "https://smse.seu.edu.cn/zsjy/list.htm",
+  "final_url": "https://smse.seu.edu.cn/zsjy/list.htm",
+  "fetched_at": "2026-09-21T12:00:52+08:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "sha256": "7f066c92259e1258042315cf6c87c73e87328538a4cd55c03cb31c41b2ae8492",
+  "bytes": 41940,
+  "kind": "list",
+  "provenance": "本机直接获取的公开网站原始响应"
+}

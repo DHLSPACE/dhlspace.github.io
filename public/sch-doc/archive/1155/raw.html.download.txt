@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit" />
+<meta name="format-detection" content="telephone=no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+<title>培养方案</title>
+<meta name="keywords" content="化工学院">
+<meta name="description" content="哈尔滨工业大学化工学院">
+
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/1/style/3/3.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/00/4f/79/style/65/65.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/datepicker/css/datepicker.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/sudy-jquery-autoload.js" jquery-src="/_js/jquery-2.x.min.js" sudy-wp-context="" sudy-wp-siteId="79"></script>
+<script language="javascript" src="/_js/jquery-migrate.min.js"></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/jquery.datepicker.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/datepicker_lang_HK.js"></script>
+<script type="text/javascript" src="/_upload/tpl/04/03/1027/template1027/extends/extends.js"></script>
+<link href="/_upload/tpl/04/03/1027/template1027/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+<link rel="stylesheet" href="/_upload/tpl/04/03/1027/template1027/css/page.css" type="text/css" />
+<link rel="stylesheet" href="/_upload/tpl/04/03/1027/template1027/style.css" type="text/css" />
+<link rel="stylesheet" href="/_upload/tpl/04/03/1027/template1027/mobile.css" type="text/css"/>
+<link rel="stylesheet" href="/_upload/tpl/04/03/1027/template1027/media.css" type="text/css"/>
+<!--[if lt IE 9]>
+	<script src="/_upload/tpl/04/03/1027/template1027/extends/libs/html5.js"></script>
+<![endif]-->
+</head>
+<body class="list">
+<div class="wrapper header1" id="header1">
+	<div class="inner">
+		<div class="mod clearfix">
+			<a class="navi-aside-toggle"></a>
+			<div class="head-left" frag="面板1">
+				<!--logo开始-->
+					<div class="sitelogo" frag="窗口1" portletmode="simpleSiteAttri">
+						<a href="/main.htm" title="返回化工与化学学院首页"><div class="l1"><img src="/_upload/tpl/04/03/1027/template1027/images/foot_logo.png" alt=""></div>
+					</a>
+					</div>
+					<!--//logo结束-->
+			</div>  
+			<div class=" nav wp-navi" id="nav"> 
+<div class="searchbox clearfix" frag="窗口03" portletmode="search">
+											<!--搜索组件-->
+						<div class="wp-search clearfix">
+							<form action="/_web/_search/api/search/new.rst?locale=zh_CN&request_locale=zh_CN&_p=YXM9NzkmdD0xMDI3JmQ9MzgwOCZwPTImZj00MjE0Jm09U04mfGJubkNvbHVtblZpcnR1YWxOYW1lPTQyMTQm" method="post" target="_blank">
+								<div class="search-input">
+									<input name="keyword" class="search-title" type="text" value="请输入关键词..." onblur="if(this.value == '') { this.value = '请输入关键词...'; }" onfocus="if(this.value == '请输入关键词...') { this.value = ''; }" placeholder="请输入关键词..."/>
+								</div>
+								<div class="search-btn">
+									<input name="submit" class="search-submit" type="submit" value=""/>
+								</div>
+							</form>
+						</div>
+						<!--//复制以上代码到自定义搜索-->
+					
+				</div>			
+				<div class="wp-window" frag="窗口4" portletmode="simpleSudyNavi" configs="{'c5':'2','c9':'0','c4':'_self','c8':'2','c2':'1','c7':'2','c3':'26','c1':'1'}" contents="{'c2':'0', 'c1':'/教学科研,/人才培养,/ 师资队伍,/党建思政,/学院概况,/学生工作,/招生就业,/国际交流,/校友工作,/English'}">
+					
+						<div class="navi-slide-head clearfix">
+							<h3 class="navi-slide-title">导航</h3>
+							<a class="navi-slide-arrow"></a>
+						</div>
+						
+						<ul class="wp-menu clearfix nav_list l" data-nav-aside='{"title":"导航","index":0}'>
+							
+							<li class="menu-item i1">
+								<a class="menu-link" href="http://chemeng.hit.edu.cn/kjdt/list.htm" target="_self">教学科研</a>
+								
+								<em class="menu-switch-arrow"></em>
+								<ul class="sub-menu">
+									<div>
+										
+										<li class="sub-item i1-1"><a class="sub-link" href="/kjdt/list.htm" target="_self">科教动态</a></li>
+										
+										<li class="sub-item i1-2"><a class="sub-link" href="/xsjl/list.htm" target="_self">学术交流</a></li>
+										
+									</div>
+								</ul>
+								
+							</li> 
+							
+							<li class="menu-item i2">
+								<a class="menu-link" href="/19062/list.htm" target="_self">人才培养</a>
+								
+								<em class="menu-switch-arrow"></em>
+								<ul class="sub-menu">
+									<div>
+										
+										<li class="sub-item i2-1"><a class="sub-link" href="/2484/list.htm" target="_self">本科生培养</a>
+								<em class="menu-switch-arrow"></em>
+								<ul class="sub-menu">
+									<div>
+										
+										<li class="sub-item i2-1-1"><a class="sub-link" href="/2503/list.htm" target="_self">专业介绍</a></li>
+										
+										<li class="sub-item i2-1-2"><a class="sub-link" href="/2504/list.htm" target="_self">培养方案</a></li>
+										
+										<li class="sub-item i2-1-3"><a class="sub-link" href="/jxwyh/list.htm" target="_self">教学委员会</a></li>
+										
+										<li class="sub-item i2-1-4"><a class="sub-link" href="/jxwj/list.htm" target="_self">教学文件</a></li>
+										
+										<li class="sub-item i2-1-5"><a class="sub-link" href="/jxcg/list.htm" target="_self">教学成果</a></li>
+										
+										<li class="sub-item i2-1-6"><a class="sub-link" href="/jxjd/list.htm" target="_self">教学基地</a></li>
+										
+										<li class="sub-item i2-1-7"><a class="sub-link" href="/sjjx/list.htm" target="_self">实践教学</a></li>
+										
+										<li class="sub-item i2-1-8"><a class="sub-link" href="/kczy/list.htm" target="_self">课程资源</a></li>
+										
+									</div>
+								</ul>
+								</li>
+										
+										<li class="sub-item i2-2"><a class="sub-link" href="/2485/list.htm" target="_self">研究生培养</a>
+								<em class="menu-switch-arrow"></em>
+								<ul class="sub-menu">
+									<div>
+										
+										<li class="sub-item i2-2-1"><a class="sub-link" href="/2505/list.htm" target="_self">学位授权点介绍</a></li>
+										
+										<li class="sub-item i2-2-2"><a class="sub-link" href="/2506/list.htm" target="_self">培养方案</a></li>
+										
+										<li class="sub-item i2-2-3"><a class="sub-link" href="/xwfwyh/list.htm" target="_self">学位分委员会</a></li>
+										
+										<li class="sub-item i2-2-4"><a class="sub-link" href="/jxwj_11737/list.htm" target="_self">教学文件</a></li>
+										
+										<li class="sub-item i2-2-5"><a class="sub-link" href="/jxcg_11740/list.htm" target="_self">教学成果</a></li>
+										
+										<li class="sub-item i2-2-6"><a class="sub-link" href="/sjjx_11741/list.htm" target="_self">实践教学</a></li>
+										
+									</div>
+								</ul>
+								</li>
+										
+									</div>
+								</ul>
+								
+							</li> 
+							
+							<li class="menu-item i3">
+								<a class="menu-link" href="/2483/list.htm" target="_self"> 师资队伍</a>
+								
+								<em class="menu-switch-arrow"></em>
+								<ul class="sub-menu">
+									<div>
+										
+										<li class="sub-item i3-1"><a class="sub-link" href="/ys/list.htm" target="_self">院士</a></li>
+										
+										<li class="sub-item i3-2"><a class="sub-link" href="/19397/list.htm" target="_self">杰出人才</a></li>
+										
+										<li class="sub-item i3-3"><a class="sub-link" href="/19398/list.htm" target="_self">教师风采</a>
+								<em class="menu-switch-arrow"></em>
+								<ul class="sub-menu">
+									<div>
+										
+										<li class="sub-item i3-3-1"><a class="sub-link" href="/gcx/list.htm" target="_self">电化学工程系</a></li>
+										
+										<li class="sub-item i3-3-2"><a class="sub-link" href="/2496/list.htm" target="_self">高分子科学与工程系</a></li>
+										
+										<li class="sub-item i3-3-3"><a class="sub-link" href="/6420/list.htm" target="_self">应用化学系</a></li>
+										
+										<li class="sub-item i3-3-4"><a class="sub-link" href="/2498/list.htm" target="_self">新能源材料与器件系</a></li>
+										
+										<li class="sub-item i3-3-5"><a class="sub-link" href="/6421/list.htm" target="_self">材料化学系</a></li>
+										
+										<li class="sub-item i3-3-6"><a class="sub-link" href="/6422/list.htm" target="_self">化学系</a></li>
+										
+										<li class="sub-item i3-3-7"><a class="sub-link" href="/2501/list.htm" target="_self">特种食药与生物化工创新研究中心</a></li>
+										
+										<li class="sub-item i3-3-8"><a class="sub-link" href="/6423/list.htm" target="_self">实验中心与测试平台</a></li>
+										
+										<li class="sub-item i3-3-9"><a class="sub-link" href="/szxq/list.htm" target="_blank">深圳校区</a></li>
+										
+									</div>
+								</ul>
+								</li>
+										
+										<li class="sub-item i3-4"><a class="sub-link" href="/19399/list.htm" target="_self">创新团队</a></li>
+										
+										<li class="sub-item i3-5"><a class="sub-link" href="/rtjs/list.htm" target="_self">荣退教师</a></li>
+										
+										<li class="sub-item i3-6"><a class="sub-link" href="https://www.hit.edu.cn/11536/list.htm" target="_blank">人才招聘</a></li>
+										
+									</div>
+								</ul>
+								
+							</li> 
+							
+							<li class="menu-item i4">
+								<a class="menu-link" href="http://chemeng.hit.edu.cn/szgj/list.htm" target="_self">党建思政</a>
+								
+								<em class="menu-switch-arrow"></em>
+								<ul class="sub-menu">
+									<div>
+										
+										<li class="sub-item i4-1"><a class="sub-link" href="/szgj/list.htm" target="_self">思政广角</a></li>
+										
+										<li class="sub-item i4-2"><a class="sub-link" href="/19413/list.htm" target="_self">支部建设</a></li>
+										
+									</div>
+								</ul>
+								
+							</li> 
+							
+							<li class="menu-item i5">
+								<a class="menu-link" href="/2482/list.htm" target="_self">学院概况</a>
+								
+								<em class="menu-switch-arrow"></em>
+								<ul class="sub-menu">
+									<div>
+										
+										<li class="sub-item i5-1"><a class="sub-link" href="/2492/list.htm" target="_self">学院简介</a></li>
+										
+										<li class="sub-item i5-2"><a class="sub-link" href="/lsyg/list.htm" target="_self">历史沿革</a></li>
+										
+										<li class="sub-item i5-3"><a class="sub-link" href="/19385/list.htm" target="_self">学科简介</a>
+								<em class="menu-switch-arrow"></em>
+								<ul class="sub-menu">
+									<div>
+										
+										<li class="sub-item i5-3-1"><a class="sub-link" href="/19406/list.htm" target="_self">专业设置</a></li>
+										
+										<li class="sub-item i5-3-2"><a class="sub-link" href="/19407/list.htm" target="_self">各系介绍</a></li>
+										
+									</div>
+								</ul>
+								</li>
+										
+										<li class="sub-item i5-4"><a class="sub-link" href="/2493/list.htm" target="_self">现任领导</a></li>
+										
+										<li class="sub-item i5-5"><a class="sub-link" href="/zmwyh/list.htm" target="_self">专门委员会</a></li>
+										
+										<li class="sub-item i5-6"><a class="sub-link" href="/zzjg/list.htm" target="_self">组织机构</a></li>
+										
+										<li class="sub-item i5-7"><a class="sub-link" href="/19386/list.htm" target="_self">办公指南</a></li>
+										
+									</div>
+								</ul>
+								
+							</li> 
+							
+							<li class="menu-item i6">
+								<a class="menu-link" href="/2489/list.htm" target="_self">学生工作</a>
+								
+								<em class="menu-switch-arrow"></em>
+								<ul class="sub-menu">
+									<div>
+										
+										<li class="sub-item i6-1"><a class="sub-link" href="/2517/list.htm" target="_self">学生工作队伍</a></li>
+										
+										<li class="sub-item i6-2"><a class="sub-link" href="/2524/list.htm" target="_self">综合动态</a></li>
+										
+									</div>
+								</ul>
+								
+							</li> 
+							
+							<li class="menu-item i7">
+								<a class="menu-link" href="/2488/list.htm" target="_self">招生工作</a>
+								
+								<em class="menu-switch-arrow"></em>
+								<ul class="sub-menu">
+									<div>
+										
+										<li class="sub-item i7-1"><a class="sub-link" href="/2511/list.htm" target="_self">本科生招生</a>
+								<em class="menu-switch-arrow"></em>
+								<ul class="sub-menu">
+									<div>
+										
+										<li class="sub-item i7-1-1"><a class="sub-link" href="/gksybwgnxclyhgw_9866/list.htm" target="_self">工科试验班（卓越优才计划）</a></li>
+										
+										<li class="sub-item i7-1-2"><a class="sub-link" href="/hxl_9867/list.htm" target="_self">化学(中外合作办学)</a></li>
+										
+									</div>
+								</ul>
+								</li>
+										
+										<li class="sub-item i7-2"><a class="sub-link" href="/yjszs/list.htm" target="_self">研究生招生</a></li>
+										
+										<li class="sub-item i7-3"><a class="sub-link" href="/zsdt/list.htm" target="_self">招生动态</a></li>
+										
+									</div>
+								</ul>
+								
+							</li> 
+							
+							<li class="menu-item i8">
+								<a class="menu-link" href="/2487/list.htm" target="_self">国际交流</a>
+								
+								<em class="menu-switch-arrow"></em>
+								<ul class="sub-menu">
+									<div>
+										
+										<li class="sub-item i8-1"><a class="sub-link" href="/2509/list.htm" target="_self">国际交流</a></li>
+										
+									</div>
+								</ul>
+								
+							</li> 
+							
+							<li class="menu-item i9">
+								<a class="menu-link" href="/2023xbwz/list.htm" target="_self">校友工作</a>
+								
+								<em class="menu-switch-arrow"></em>
+								<ul class="sub-menu">
+									<div>
+										
+										<li class="sub-item i9-1"><a class="sub-link" href="/19391/list.htm" target="_self">校友风采</a></li>
+										
+										<li class="sub-item i9-2"><a class="sub-link" href="/19392/list.htm" target="_self">毕业信息</a></li>
+										
+									</div>
+								</ul>
+								
+							</li> 
+							
+							<li class="menu-item i10">
+								<a class="menu-link" href="http://enscce.hit.edu.cn" target="_self">English</a>
+								
+							</li> 
+							
+						</ul>
+						 
+					
+				</div> 
+			</div>
+		</div>
+	</div>
+</div> 
+<!--aside导航-->
+<div class="wp-navi-aside" id="wp-navi-aside">
+	<div class="aside-inner">
+		<div class="navi-aside-wrap"></div>
+	</div>
+	<div class="navi-aside-mask"></div>
+</div> 
+<!--Start||focus-->
+<div class="wp-wrapper" id="container-1">
+	<div class="wp-inner"  >
+		<div class="l-banner" frag="窗口84" portletmode="simpleColumnAttri">
+			
+				<img border="0" style="margin:0 auto;" src="" data-imgsrc="/_upload/tpl/04/03/1027/template1027/images/list_banner.png"> 
+			
+		</div>
+		<div class="col_news_head">
+			<ul class="col_metas clearfix" frag="窗口15" portletmode="simpleColumnAttri">
+			   
+					<li class="col_title"><h2>培养方案</h2></li>
+					<li class="col_path"><span class="path_name">当前位置：</span><a href="/main.htm" target="_self">首页</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/19062/list.htm" target="_self">人才培养</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/2485/list.htm" target="_self">研究生培养</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/2506/list.htm" target="_self">培养方案</a></li>
+			   
+			</ul>
+		</div>
+	</div>
+</div> 
+<!--Start||content-->
+<div class="wrapper" id="l-container">
+	<div class="inner">
+		<div class="mod clearfix">
+			<div class="col_menu">
+				<div class="col_menu_head">
+					<h3 class="col_name" frag="窗口13" portletmode="simpleColumnAnchor">
+						<span class="col_name_text">
+							<span class='Column_Anchor'>人才培养</span>
+						</span>
+					</h3>
+					<a class="column-switch"></a>
+				</div>
+				<div class="col_menu_con" frag="面板4">
+					<div class="col_list" frag="窗口14" portletmode="simpleColumnList">
+						
+							
+							<ul class="wp_listcolumn list-paddingleft-2">
+								
+								<li class="wp_column column-1 ">     
+									<a title="本科生培养" class="col_item_link " href="/2484/list.htm"><span class="column-name">本科生培养</span></a>
+									
+								</li>
+								
+								<li class="wp_column column-2 parent">     
+									<a title="研究生培养" class="col_item_link parent" href="/2485/list.htm"><span class="column-name">研究生培养</span></a>
+									      
+									<ul class="sub_list list-paddingleft-2">
+										
+										<li class="sub-item column-2-1 ">             
+												<a title="学位授权点介绍" class="sub-item-link " href="/2505/list.htm" target="_self"><span class="column-name">学位授权点介绍</span></a>               
+										</li>
+										
+										<li class="sub-item column-2-2 selected">             
+												<a title="培养方案" class="sub-item-link selected" href="/2506/list.htm" target="_self"><span class="column-name">培养方案</span></a>               
+										</li>
+										
+										<li class="sub-item column-2-3 ">             
+												<a title="学位分委员会" class="sub-item-link " href="/xwfwyh/list.htm" target="_self"><span class="column-name">学位分委员会</span></a>               
+										</li>
+										
+										<li class="sub-item column-2-4 ">             
+												<a title="教学文件" class="sub-item-link " href="/jxwj_11737/list.htm" target="_self"><span class="column-name">教学文件</span></a>               
+										</li>
+										
+										<li class="sub-item column-2-5 ">             
+												<a title="教学成果" class="sub-item-link " href="/jxcg_11740/list.htm" target="_self"><span class="column-name">教学成果</span></a>               
+										</li>
+										
+										<li class="sub-item column-2-6 ">             
+												<a title="实践教学" class="sub-item-link " href="/sjjx_11741/list.htm" target="_self"><span class="column-name">实践教学</span></a>               
+										</li>
+										
+									</ul>
+									
+								</li>
+								
+							</ul>
+										
+						
+					</div>
+				</div>
+			</div>
+			<div class="col_news">
+				<div class="col_news_box"> 
+					<div class="col_news_con" >
+						<div class="col_news_list listcon">
+							<div frag="窗口16" portletmode="simpleList" configs="{'c1':'1','c27':'1','c33':'1','c4':'1','c6':'45','c9':'0','c12':'0','c28':'0','c16':'1','c30':'0','c25':'320','c15':'0','c29':'1','c5':'_blank','c17':'0','c19':'yyyy-MM-dd','c2':'序号,标题,发布时间','c21':'1','c7':'1','c13':'200','c22':'240','c3':'10','c8':'1','c34':'0','c31':'1','c32':'1','c23':'320','c18':'yyyy-MM-dd','c20':'0','c10':'50','c11':'1','c24':'1'}">
+													
+										<ul class="news_list list2">
+											
+											<li class="news n1 clearfix">
+												<span class="news_meta">2024-09-27</span>
+												<div class="news_title"><a href='/2024/0927/c4234a353554/page.htm' target='_blank' title='学术研究生硕博贯通培养方案-化学工程与技术'>学术研究生硕博贯通培养方案-化学工程与技术</a></div>
+											</li>
+											
+											<li class="news n2 clearfix">
+												<span class="news_meta">2024-09-27</span>
+												<div class="news_title"><a href='/2024/0927/c4234a353555/page.htm' target='_blank' title='学术博士研究生培养方案-化学工程与技术'>学术博士研究生培养方案-化学工程与技术</a></div>
+											</li>
+											
+											<li class="news n3 clearfix">
+												<span class="news_meta">2024-09-27</span>
+												<div class="news_title"><a href='/2024/0927/c4234a353556/page.htm' target='_blank' title='专业博士研究生培养方案-资源与环境、能源动力'>专业博士研究生培养方案-资源与环境、能源动力</a></div>
+											</li>
+											
+											<li class="news n4 clearfix">
+												<span class="news_meta">2024-09-27</span>
+												<div class="news_title"><a href='/2024/0927/c4234a353557/page.htm' target='_blank' title='学术硕士研究生培养方案-化学'>学术硕士研究生培养方案-化学</a></div>
+											</li>
+											
+											<li class="news n5 clearfix">
+												<span class="news_meta">2024-09-27</span>
+												<div class="news_title"><a href='/2024/0927/c4234a353558/page.htm' target='_blank' title='专业硕士研究生培养方案-材料与化工'>专业硕士研究生培养方案-材料与化工</a></div>
+											</li>
+											
+										</ul>
+								
+ <div id="wp_paging_w16"> 
+<ul class="wp_paging clearfix"> 
+     <li class="pages_count"> 
+         <span class="per_page">每页&nbsp;<em class="per_count">10</em>&nbsp;记录&nbsp;</span> 
+         <span class="all_count">总共&nbsp;<em class="all_count">5</em>&nbsp;记录&nbsp;</span> 
+     </li> 
+     <li class="page_nav"> 
+         <a class="first" href="javascript:void(0);" target="_self"><span>第一页</span></a> 
+         <a class="prev" href="javascript:void(0);" target="_self"><span>&lt;&lt;上一页</span></a> 
+         <a class="next" href="javascript:void(0);" target="_self"><span>下一页&gt;&gt;</span></a> 
+         <a class="last" href="javascript:void(0);" target="_self"><span>尾页</span></a> 
+     </li> 
+     <li class="page_jump"> 
+         <span class="pages">页码&nbsp;<em class="curr_page">1</em>/<em class="all_pages">1</em></span> 
+         <span><input class="pageNum" type="text" /><input type="hidden" class="currPageURL" value=""></span></span> 
+         <span><a class="pagingJump" href="javascript:void(0);" target="_self">跳转到&nbsp;</a></span> 
+     </li> 
+</ul> 
+</div> 
+<script type="text/javascript"> 
+     $().ready(function() { 
+         $("#wp_paging_w16 .pagingJump").click(function() { 
+             var pageNum = $("#wp_paging_w16 .pageNum").val(); 
+             if (pageNum === "") { alert('请输入页码！'); return; } 
+             if (isNaN(pageNum) || pageNum <= 0 || pageNum > 1) { alert('请输入正确页码！'); return; } 
+             var reg = new RegExp("/list", "g"); 
+             var url = "/2506/list.htm"; 
+             window.location.href = url.replace(reg, "/list" + pageNum); 
+         }); 
+     }); 
+</script> 
+
+							</div>
+							<div class="pagelist">
+								<div class="perPage">每页<span></span>条</div>
+								<div class="my-page"></div>
+								<div class="diy">
+									<span class="single">第</span>
+								   	<input type="text">
+								  	<span class="single total"></span> 
+								  	<span class="goto">跳转</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+<!--End||content-->
+<!--Start||footer-->
+<div class="wrapper footer" id="footer">
+	<div class="inner">
+		<div class="mod clearfix">
+			<div class="foot-left" >
+				<img src="/_upload/tpl/04/03/1027/template1027/images/foot_logo.png" alt="">
+				<img src="/_upload/tpl/04/03/1027/template1027/images/foot_xx.svg" alt="">
+			</div>
+			<div class="foot-right clearfix" >
+				<div class="foot-mid clearfix">
+					<div class="flinks foot_wz" frag="窗口92" portletmode="simpleNews" configs="{'c28':'320','c14':'1','c1':'1','c29':'1','c39':'300','c38':'100','c21':'0','c4':'1','c6':'15','c9':'0','c12':'0','c30':'0','c37':'1','c31':'0','c16':'1','c27':'320','c15':'0','c32':'','c5':'_blank','c40':'1','c17':'0','c19':'yyyy-MM-dd','c33':'500','c2':'序号,标题,发布时间','c23':'1','c41':'240','c7':'1','c13':'200','c43':'0','c24':'240','c35':'-1:-1','c3':'4','c8':'1','c44':'0','c25':'320','c34':'300','c18':'yyyy-MM-dd','c20':'0','c42':'320','c10':'50','c11':'1','c36':'0','c26':'1'}" contents="{'c2':'0', 'c1':'/友情链接'}">
+						<div class="_tt">友情链接</div>
+						<div class="con">
+							
+								
+								<div class="news n1 clearfix">
+									<div class="txt"><a href='https://hxsy.hit.edu.cn/main.htm' target='_blank' title='化学国家级实验教学示范中心'>化学国家级实验教学示范中心</a></div>
+								</div>
+								
+								<div class="news n2 clearfix">
+									<div class="txt"><a href='https://news.hit.edu.cn/' target='_blank' title='新闻网'>新闻网</a></div>
+								</div>
+								
+								<div class="news n3 clearfix">
+									<div class="txt"><a href='https://www.hit.edu.cn/' target='_blank' title='学校主页'>学校主页</a></div>
+								</div>
+								
+								<div class="news n4 clearfix">
+									<div class="txt"><a href='http://myweb.hit.edu.cn/_s79/_t1027/2491/list.psp' target='_blank' title='常用下载'>常用下载</a></div>
+								</div>
+								
+							
+						</div>
+					</div>
+					<div class="contacts foot_wz" frag="窗口93" portletmode="simpleSiteAttri">						<div class="_tt">联系我们</div>
+						<div class="con">
+							<div class="news clearfix">
+								<div class="txt">地址：哈尔滨市南岗区西大直街92号</div>
+								<div class="txt">电话：0451-86403609</div>
+								<div class="txt">邮编：150001</div>
+								<div class="txt">电子邮箱：<a href="mailto:hgxy@hit.edu.cn">hgxy@hit.edu.cn</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="shares" frag="窗口91" portletmode="simpleNews" configs="{'c28':'320','c14':'1','c1':'1','c29':'1','c39':'300','c38':'100','c21':'0','c4':'1','c6':'15','c9':'0','c12':'0','c30':'0','c37':'1','c31':'0','c16':'1','c27':'320','c15':'0','c32':'','c5':'_blank','c40':'1','c17':'0','c19':'yyyy-MM-dd','c33':'500','c2':'序号,标题,发布时间','c23':'1','c41':'240','c7':'1','c13':'200','c43':'0','c24':'240','c35':'-1:-1','c3':'1','c8':'0','c44':'0','c25':'320','c34':'300','c18':'yyyy-MM-dd','c20':'0','c42':'320','c10':'50','c11':'1','c36':'0','c26':'1'}" contents="{'c2':'0', 'c1':'/二维码'}">
+						
+							<ul class="clearfix">
+								
+								<li class="i1"> 
+									<img src="/_upload/article/images/2e/fe/86e824d1443ea8174f516c32e553/48299432-88a6-491c-abb9-7936b8adf07b_s.jpg" alt="">
+									<div>微信</div>
+								</li>
+								
+							</ul>
+						
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="bq" frag="窗口90" portletmode="simpleSiteAttri">
+				<p class="copyright"><span>Copyright © 2024 哈尔滨工业大学化工与化学学院 All Rights Reserved.</span></p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--End||footer-->
+</body>
+<script type="text/javascript" src="/_upload/tpl/04/03/1027/template1027/js/page.js"></script>
+<script type="text/javascript" src="/_upload/tpl/04/03/1027/template1027/js/page_index.js"></script>
+<script type="text/javascript" src="/_upload/tpl/04/03/1027/template1027/js/comcus.js"></script>
+<script type="text/javascript" src="/_upload/tpl/04/03/1027/template1027/js/list.js"></script>
+<script type="text/javascript" src="/_upload/tpl/04/03/1027/template1027/js/app.js"></script>
+<script type="text/javascript">
+$(function(){
+	// 初始化SDAPP
+	new SDAPP({
+		"menu":{
+			type:"aside"
+		}
+	});
+});
+</script>
+</html>
+
+ <img src="/_visitcount?siteId=79&type=2&columnId=4234" style="display:none" width="0" height="0"/>

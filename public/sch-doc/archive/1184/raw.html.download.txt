@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>上海交通大学2026年博士研究生招生简章（校本部） - 上海交通大学研究生招生网</title>
+    <meta charset="UTF-8">
+    <base href="/yzb">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://yzb.sjtu.edu.cn/assets/layui/css/layui.css">
+    <link rel="stylesheet" href="https://yzb.sjtu.edu.cn/assets/css/video-js.min.css">
+    <link rel="stylesheet" href="https://yzb.sjtu.edu.cn/assets/css/swiper-bundle.min.css">
+    <!-- <link rel="stylesheet" href="https://at.alicdn.com/t/c/font_4498299_lh7ixs3t7db.css"> -->
+    <link rel="stylesheet" href="https://yzb.sjtu.edu.cn/assets/css/iconfont.css">
+    <link rel="stylesheet" href="https://yzb.sjtu.edu.cn/assets/css/fancybox.css">
+    <link rel="stylesheet" href="https://yzb.sjtu.edu.cn/assets/css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="https://yzb.sjtu.edu.cn/assets/css/animate.min.css">
+    <link rel="stylesheet" href="https://yzb.sjtu.edu.cn/assets/css/css.css?v=2024062501">
+    <link rel="stylesheet" href="https://yzb.sjtu.edu.cn/assets/css/style.css?v=2024062502">
+    </head>
+
+<body   class="theme-grey detail-block" >
+<div class="headerTemp"></div>
+<header>
+    <div class="header">
+        <div class="header-top">
+            <div class="layui-container">
+                <div class="flex">
+                    <div class="logo">
+                        <a href="/"><img src="https://yzb.sjtu.edu.cn/assets/images/logo_white.png" alt=""></a>
+                    </div>
+                    <div class="header-main">
+                        <div class="secondary-nav">
+                            <div class="secondary-bg"></div>
+                            <div class="flex">
+                                <ul class="layui-nav nav-horizon">
+                                                                        <li class="layui-nav-item">
+                                        <a  href="/contact" target="_self"  class="language-btn">
+                                            <i class="ala-iconfont icon-people"></i> 联系我们
+                                        </a>
+                                                                            </li>
+                                                                        <li class="layui-nav-item">
+                                        <a  class="language-btn">
+                                            <i class="ala-iconfont icon-people"></i> 选择身份
+                                        </a>
+                                                                                    <dl class="layui-nav-child"> <!-- 二级菜单 -->
+                                                                                                    <dd><a  href="/kjrk/bszs" target="_self"  >博士</a></dd>
+                                                                                                    <dd><a  href="/kjrk/sszs" target="_self"  >硕士</a></dd>
+                                                                                                    <dd><a  href="/kjrk/gatzs" target="_self"  >港澳台</a></dd>
+                                                                                                    <dd><a  href="http://ga.sjtu.edu.cn/zsgl/xlygl/" target="_self"  >夏令营</a></dd>
+                                                                                                    <dd><a  href="http://ga.sjtu.edu.cn/zsgl/ytmgl" target="_self"  >预推免</a></dd>
+                                                                                                    <dd><a  href="https://ga.sjtu.edu.cn/zsgl/login.aspx" target="_self"  >管理人员</a></dd>
+                                                                                            </dl>
+                                                                            </li>
+                                                                        <li class="layui-nav-item">
+                                        <a  class="language-btn">
+                                            <i class="ala-iconfont icon-people"></i> 信息系统登录
+                                        </a>
+                                                                                    <dl class="layui-nav-child"> <!-- 二级菜单 -->
+                                                                                                    <dd><a  href="/xxxtdl/ksdl" target="_self"  >考生登录</a></dd>
+                                                                                                    <dd><a  href="/xxxtdl/glrydl" target="_self"  >管理人员登录</a></dd>
+                                                                                            </dl>
+                                                                            </li>
+                                                                    </ul>
+                                <div class="search-btn">
+                                    <i class="ala-iconfont icon-search1"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-nav">
+                            <div class="mobile-bg"></div>
+                            <ul class="layui-nav nav-horizon" lay-filter="" id="resText">
+                                <li class="show-mobile"><div class="close-btn"><i class="ala-iconfont icon-close"></i></div></li>
+                                                                <li class="layui-nav-item">
+                                    <a  href="/" target="_self"  >首页</a>
+                                                                    </li>
+                                                                <li class="layui-nav-item">
+                                    <a  href="/zkxx/bszs" target="_self"  >招考信息</a>
+                                                                            <dl class="layui-nav-child">
+                                            <div class="show-mobile flex is-center is-between">
+                                                <div class="back-btn"><i class="ala-iconfont icon-left"></i></div>
+                                                <div class="close-btn"><i class="ala-iconfont icon-close"></i></div>
+                                            </div>
+                                            <div class="dropmenu">
+                                                <div class="dropmenu-container">
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/zkxx/bszs" >博士招生</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/zkxx/sszs" >硕士招生</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/zkxx/gatzs" >港澳台招生</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/zkxx/kdxx" >考点信息</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/zkxx/yxdt" >院系动态</a></dd>
+                                                                                                    </div>
+                                            </div>
+                                        </dl>
+                                                                    </li>
+                                                                <li class="layui-nav-item">
+                                    <a  href="/zsjz/bsszs" target="_self"  >招生简章</a>
+                                                                            <dl class="layui-nav-child">
+                                            <div class="show-mobile flex is-center is-between">
+                                                <div class="back-btn"><i class="ala-iconfont icon-left"></i></div>
+                                                <div class="close-btn"><i class="ala-iconfont icon-close"></i></div>
+                                            </div>
+                                            <div class="dropmenu">
+                                                <div class="dropmenu-container">
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/zsjz/bsszs" >博士生招生</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/zsjz/sszs" >硕士生招生</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/zsjz/gatzs" >港澳台招生</a></dd>
+                                                                                                    </div>
+                                            </div>
+                                        </dl>
+                                                                    </li>
+                                                                <li class="layui-nav-item">
+                                    <a  href="/wsbm/ssbm" target="_self"  >网上报名</a>
+                                                                            <dl class="layui-nav-child">
+                                            <div class="show-mobile flex is-center is-between">
+                                                <div class="back-btn"><i class="ala-iconfont icon-left"></i></div>
+                                                <div class="close-btn"><i class="ala-iconfont icon-close"></i></div>
+                                            </div>
+                                            <div class="dropmenu">
+                                                <div class="dropmenu-container">
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/wsbm/ssbm" >硕士报名</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/wsbm/bsbm" >博士报名</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_blank"   href="http://www.gatzs.com.cn/" >港澳台报名</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_blank"   href="http://ga.sjtu.edu.cn/zsgl/jkgl/" >监考报名与培训</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_blank"   href="http://ga.sjtu.edu.cn/zsgl/xlygl/default.aspx" >夏令营报名</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_blank"   href="http://ga.sjtu.edu.cn/zsgl/ytmgl/" >预推免报名</a></dd>
+                                                                                                    </div>
+                                            </div>
+                                        </dl>
+                                                                    </li>
+                                                                <li class="layui-nav-item">
+                                    <a  href="/xxgs/zsbf" target="_self"  >信息公示</a>
+                                                                            <dl class="layui-nav-child">
+                                            <div class="show-mobile flex is-center is-between">
+                                                <div class="back-btn"><i class="ala-iconfont icon-left"></i></div>
+                                                <div class="close-btn"><i class="ala-iconfont icon-close"></i></div>
+                                            </div>
+                                            <div class="dropmenu">
+                                                <div class="dropmenu-container">
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/xxgs/zsbf" >招生办法</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/xxgs/fsxx" >复试信息</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/xxgs/lqxx" >录取信息</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/xxgs/lssj" >历史数据</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/xxgs/xlygs" >夏令营公示</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/xxgs/ytmgs" >预推免公示</a></dd>
+                                                                                                    </div>
+                                            </div>
+                                        </dl>
+                                                                    </li>
+                                                                <li class="layui-nav-item">
+                                    <a  href="/zkzc/gjzc" target="_self"  >招考政策</a>
+                                                                            <dl class="layui-nav-child">
+                                            <div class="show-mobile flex is-center is-between">
+                                                <div class="back-btn"><i class="ala-iconfont icon-left"></i></div>
+                                                <div class="close-btn"><i class="ala-iconfont icon-close"></i></div>
+                                            </div>
+                                            <div class="dropmenu">
+                                                <div class="dropmenu-container">
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/zkzc/yxzc" >院校政策</a></dd>
+                                                                                                        <dd class="sub-title"><a target="_self"   href="/zkzc/gjzc" >国家政策</a></dd>
+                                                                                                    </div>
+                                            </div>
+                                        </dl>
+                                                                    </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-btn mobile-search-btn">
+            <i class="ala-iconfont icon-search1"></i>
+        </div>
+        <div class="header-mobile">
+            <div class="site-tree-mobile">
+                <span class="icon-reorder"></span>
+                <span class="icon-reorder"></span>
+                <span class="icon-reorder"></span>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="search-box" style="display: none;">
+    <div class="layui-container">
+        <div class="container">
+            <form class="layui-form">
+                <div class="input-box">
+                    <input type="text" id="keyword" class="layui-input" placeholder="请输入搜索关键词...">
+                    <div class="bg"></div>
+                    <button type="button" class="form-submit" onclick="jumpSearch()"><i class="ala-iconfont icon-search1"></i></button>
+                </div>
+            </form>
+            <div class="popular-search">
+                <!-- <div class="title">热门搜索</div> -->
+                <ul>
+                                            <li><a href="" target="false" >招生办公室</a></li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="nav-container tc-box">
+    <div class="tc-body">
+        <div class="tc-body-content">
+            <div class="mobile-main-nav">
+                <div class="layui-container">
+                    <ul>
+                                                <li class="item">
+                            <div class="title">
+                                <a  href="/"  target="_self" >首页</a>
+                                                            </div>
+                                                    </li>
+                                                <li class="item">
+                            <div class="title">
+                                <a  href="/zkxx/bszs"  target="_self" >招考信息</a>
+                                                                    <div class="icon-box">
+                                        <i class="ala-iconfont icon-right"></i>
+                                    </div>
+                                                            </div>
+                                                        <div class="nav-child">
+                                <div class="nav-child-item">
+                                                                            <a  href="/zkxx/bszs"  target="_self"  class="child-title">
+                                            博士招生
+                                        </a>
+                                                                            <a  href="/zkxx/sszs"  target="_self"  class="child-title">
+                                            硕士招生
+                                        </a>
+                                                                            <a  href="/zkxx/gatzs"  target="_self"  class="child-title">
+                                            港澳台招生
+                                        </a>
+                                                                            <a  href="/zkxx/kdxx"  target="_self"  class="child-title">
+                                            考点信息
+                                        </a>
+                                                                            <a  href="/zkxx/yxdt"  target="_self"  class="child-title">
+                                            院系动态
+                                        </a>
+                                                                    </div>
+
+                            </div>
+                                                    </li>
+                                                <li class="item">
+                            <div class="title">
+                                <a  href="/zsjz/bsszs"  target="_self" >招生简章</a>
+                                                                    <div class="icon-box">
+                                        <i class="ala-iconfont icon-right"></i>
+                                    </div>
+                                                            </div>
+                                                        <div class="nav-child">
+                                <div class="nav-child-item">
+                                                                            <a  href="/zsjz/bsszs"  target="_self"  class="child-title">
+                                            博士生招生
+                                        </a>
+                                                                            <a  href="/zsjz/sszs"  target="_self"  class="child-title">
+                                            硕士生招生
+                                        </a>
+                                                                            <a  href="/zsjz/gatzs"  target="_self"  class="child-title">
+                                            港澳台招生
+                                        </a>
+                                                                    </div>
+
+                            </div>
+                                                    </li>
+                                                <li class="item">
+                            <div class="title">
+                                <a  href="/wsbm/ssbm"  target="_self" >网上报名</a>
+                                                                    <div class="icon-box">
+                                        <i class="ala-iconfont icon-right"></i>
+                                    </div>
+                                                            </div>
+                                                        <div class="nav-child">
+                                <div class="nav-child-item">
+                                                                            <a  href="/wsbm/ssbm"  target="_self"  class="child-title">
+                                            硕士报名
+                                        </a>
+                                                                            <a  href="/wsbm/bsbm"  target="_self"  class="child-title">
+                                            博士报名
+                                        </a>
+                                                                            <a  href="http://www.gatzs.com.cn/"  target="_blank"  class="child-title">
+                                            港澳台报名
+                                        </a>
+                                                                            <a  href="http://ga.sjtu.edu.cn/zsgl/jkgl/"  target="_blank"  class="child-title">
+                                            监考报名与培训
+                                        </a>
+                                                                            <a  href="http://ga.sjtu.edu.cn/zsgl/xlygl/default.aspx"  target="_blank"  class="child-title">
+                                            夏令营报名
+                                        </a>
+                                                                            <a  href="http://ga.sjtu.edu.cn/zsgl/ytmgl/"  target="_blank"  class="child-title">
+                                            预推免报名
+                                        </a>
+                                                                    </div>
+
+                            </div>
+                                                    </li>
+                                                <li class="item">
+                            <div class="title">
+                                <a  href="/xxgs/zsbf"  target="_self" >信息公示</a>
+                                                                    <div class="icon-box">
+                                        <i class="ala-iconfont icon-right"></i>
+                                    </div>
+                                                            </div>
+                                                        <div class="nav-child">
+                                <div class="nav-child-item">
+                                                                            <a  href="/xxgs/zsbf"  target="_self"  class="child-title">
+                                            招生办法
+                                        </a>
+                                                                            <a  href="/xxgs/fsxx"  target="_self"  class="child-title">
+                                            复试信息
+                                        </a>
+                                                                            <a  href="/xxgs/lqxx"  target="_self"  class="child-title">
+                                            录取信息
+                                        </a>
+                                                                            <a  href="/xxgs/lssj"  target="_self"  class="child-title">
+                                            历史数据
+                                        </a>
+                                                                            <a  href="/xxgs/xlygs"  target="_self"  class="child-title">
+                                            夏令营公示
+                                        </a>
+                                                                            <a  href="/xxgs/ytmgs"  target="_self"  class="child-title">
+                                            预推免公示
+                                        </a>
+                                                                    </div>
+
+                            </div>
+                                                    </li>
+                                                <li class="item">
+                            <div class="title">
+                                <a  href="/zkzc/gjzc"  target="_self" >招考政策</a>
+                                                                    <div class="icon-box">
+                                        <i class="ala-iconfont icon-right"></i>
+                                    </div>
+                                                            </div>
+                                                        <div class="nav-child">
+                                <div class="nav-child-item">
+                                                                            <a  href="/zkzc/yxzc"  target="_self"  class="child-title">
+                                            院校政策
+                                        </a>
+                                                                            <a  href="/zkzc/gjzc"  target="_self"  class="child-title">
+                                            国家政策
+                                        </a>
+                                                                    </div>
+
+                            </div>
+                                                    </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="fold-nav">
+                <div class="layui-container">
+                    <ul>
+                                                                                                                                        <li class="item">
+                                    <a class="title">
+                                        <span>
+                                            选择身份
+                                        </span>
+                                        <div class="icon-box">
+                                            <i class="ala-iconfont icon-right"></i>
+                                        </div>
+                                    </a>
+                                    <div class="nav-child">
+                                                                                <a href="/kjrk/bszs" target="_self"  class="nav-child-item">
+                                            博士
+                                        </a>
+                                                                                <a href="/kjrk/sszs" target="_self"  class="nav-child-item">
+                                            硕士
+                                        </a>
+                                                                                <a href="/kjrk/gatzs" target="_self"  class="nav-child-item">
+                                            港澳台
+                                        </a>
+                                                                                <a href="http://ga.sjtu.edu.cn/zsgl/xlygl/" target="_self"  class="nav-child-item">
+                                            夏令营
+                                        </a>
+                                                                                <a href="http://ga.sjtu.edu.cn/zsgl/ytmgl" target="_self"  class="nav-child-item">
+                                            预推免
+                                        </a>
+                                                                                <a href="https://ga.sjtu.edu.cn/zsgl/login.aspx" target="_self"  class="nav-child-item">
+                                            管理人员
+                                        </a>
+                                                                            </div>
+                                </li>
+                                                                                                                <li class="item">
+                                    <a class="title">
+                                        <span>
+                                            信息系统登录
+                                        </span>
+                                        <div class="icon-box">
+                                            <i class="ala-iconfont icon-right"></i>
+                                        </div>
+                                    </a>
+                                    <div class="nav-child">
+                                                                                <a href="/xxxtdl/ksdl" target="_self"  class="nav-child-item">
+                                            考生登录
+                                        </a>
+                                                                                <a href="/xxxtdl/glrydl" target="_self"  class="nav-child-item">
+                                            管理人员登录
+                                        </a>
+                                                                            </div>
+                                </li>
+                                                                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tc-body-bottom">
+        <ul class="flex  is-center">
+                                                <li class="item">
+                        <a href="/contact" target="_self" ><i class="ala-iconfont icon-nav-download"></i>联系我们</a>
+                    </li>
+                                                                                    
+            <!-- <li class="item">
+                <a href="https://en.gs.sjtu.edu.cn/"><i class="ala-iconfont icon-language"></i> EN</a>
+            </li> -->
+        </ul>
+
+    </div>
+</div>
+    <!-- banner -->
+    <div class="inner-banner" style="background-image: url(https://yzb.sjtu.edu.cn/assets/images/banner-zsjz.jpg)">
+        <div class="breadcrumb">
+            <div class="layui-container">
+                <span class="layui-breadcrumb">
+                    <a  href="/" >
+                    <i class="ala-iconfont icon-home-o"></i>
+        
+                    首页
+            </a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- banner END -->
+    <div class="main">
+        <div class="block small-block">
+            <div class="layui-container">
+                <div class="page-container">
+                    <div class="article-title">
+                        <h3>上海交通大学2026年博士研究生招生简章（校本部）</h3>
+                        <div class="article-other">
+                            <div class="article-otherBase">
+                                <span>
+                                    <i class="ala-iconfont icon-clock-o"></i>发布时间：2025-10-22
+                                </span>
+                                <span>
+                                    <i class="ala-iconfont icon-eye"></i>点击数：443633
+                                </span>
+                            </div>
+                            <div class="share-btn">
+                                <span>分享至：</span>
+                                <span class="icon" id="shareToWeixin" style="background-color: #14BD03;"><i class="ala-iconfont icon-weixin"></i></span>
+                                <span class="icon" id="shareToWeibo" style="background-color: #CE1C02;"><i class="ala-iconfont icon-weibo"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mce-content-body">
+                        <p class="p" style="text-indent: 28.1000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><strong><span class="16" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">一、招生规模</span></strong></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">2026年博士研究生计划招生规模5000名左右，其中校本部招生规模4000名左右。学校将根据学科建设需求和生源情况适当调整，最终招生规模以教育部正式下达的招生计划为准。</span></p>
+<p class="p" style="text-indent: 28.1000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><strong><span class="16" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">二、学习形式和学习年限</span></strong></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">博士研究生的学习形式分为全日制和非全日制。学术学位博士研究生的学习形式一般为全日制（少量专项计划除外），专业学位博士研究生的学习形式包括全日制和非全日制。非全日制专业学位博士的招生简章另行发布。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">直博生的基本学习年限为</span><span style="font-family: 宋体;">5年，其他博士生的基本学习年限为4年。</span></span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">三、</span><strong><span class="16" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">选拔方式</span></strong></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">1.本科直博。国内应届本科毕业生申请直博，申请条件、申请材料、申请办法等与推免生相同，详见</span><a href="https://yzb.sjtu.edu.cn/post/3297"><span class="15" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">《上海交通大学</span><span style="font-family: 宋体;">2026年招收优秀应届本科毕业生免试攻读研究生（含直博）办法》</span></span></a><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">2．硕博连读。面向已按学科培养方案要求修完全部硕士学位课程、各科成绩优秀，经导师同意可申请硕博连读的本校二年级、三年级非定向就业在读优秀硕士研究生。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">3.申请-考核。面向已获硕士或博士学位人员，应届硕士毕业生最迟须在录取当年入学前取得国家承认的硕士毕业证书和硕士学位证书或教育部留学服务中心出具的《国（境）外学历学位认证书》。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">四、</span><strong><span class="16" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">申请条件</span></strong></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">1.中华人民共和国公民。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">2.拥护中国共产党的领导，品德良好，遵纪守法。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">3.身体健康状况符合国家和学校的要求。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">4.英语水平一般须符合下述条件之一：</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">（</span><span style="font-family: 宋体;">1）全国大学英语六级成绩&ge;425分；</span></span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">（</span><span style="font-family: 宋体;">2）TOEFL iBT&ge;90分（不含家庭版托福）；</span></span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">（</span><span style="font-family: 宋体;">3）IELTS学术类&ge;6.0分（不含IELTS Online）；</span></span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">（</span><span style="font-family: 宋体;">4）在英语为母语的国家参加全英文授课学位项目并获得学位。</span></span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">2026年不举行学校层面的英语统一考试，院系可以设置不低于上述要求的其他条件，考生报名时须符合学校和院系的英语水平条件。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">5.通过硕博连读方式申请的考生须符合下列条件：</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">（</span><span style="font-family: 宋体;">1）符合申请条件中1、2、3、4的要求；</span></span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">（</span><span style="font-family: 宋体;">2）本校在读二年级、三年级硕士研究生，已完成硕士培养方案规定的课程学习，成绩优秀，具有较强的学术研究能力和取得创新性成果的潜力，获硕士导师的同意和推荐；</span></span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">（</span><span style="font-family: 宋体;">3）博士报考专业与硕士所学专业属于相同一级学科或专业领域。</span></span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">6.通过申请-考核方式申请的考生须符合下列条件：</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">（</span><span style="font-family: 宋体;">1）符合申请条件中1、2、3、4的要求；</span></span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">（</span><span style="font-family: 宋体;">2）已获硕士学位的人员或应届硕士毕业生（须在博士生入学前取得硕士学位）。持境外大学硕士学位证书者，须通过教育部留学服务中心认证，提交认证报告。境外在读尚未获得硕士学位的考生须提供就读学校出具的学籍证明（写明预计获硕士学位时间）；若被录取，在报到时须提供硕士学位证书和教育部留学服务中心认证报告，否则取消入学资格。</span></span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">7.院系规定的其它学术性条件和要求。</span></p>
+<p class="p" style="text-indent: 28.1000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><strong><span class="16" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">五、申请及考核流程</span></strong></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">1.申请人在上海交通大学研究生招生网（<a href="https://yzb.sjtu.edu.cn">https://yzb.sjtu.edu.cn</a>/）报名，报名路径：研招网首页-网上报名-博士报名。学校报名系统开放时间为</span><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">2025年11月1日至12月15日</span><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">、</span><span style="font-family: 宋体;">2026年3月15日至4月20日，各院系具体报名截止时间，以拟报考院系的招生办法（<a href="https://yzb.sjtu.edu.cn/xxgs/zsbf">https://yzb.sjtu.edu.cn/xxgs/zsbf</a>）公布为准。</span></span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">2.院系组织&ldquo;遴选委员会&rdquo;对材料初审通过的申请人进行遴选，通知遴选合格的申请人参加综合考核。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">3.院系组织综合考核，一般包括专业测试、综合面试和导师（组）评价。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">4.</span><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">院系研究生招生委员会根据综合考核结果确定建议录取名单，报研究生院审核。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">5.拟录取博士生可选择在2026年春季或秋季入学。选择在基本学制内最后一学年申请硕博连读的，应在硕士最后一学年的秋季学期申请，并在2026年春季学期入学。</span></p>
+<p class="p" style="text-indent: 28.1000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><strong><span class="16" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">六、申请材料</span></strong><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">（申请材料在网上提交，是否寄送纸质版详见报考院系要求）</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">1.毕业院校的正式成绩单；应届硕士毕业生提供学生证和学籍认证报告，境外在读尚未获得硕士学位的考生须提供就读学校出具的学籍证明（写明预计获硕士学位时间）。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">2.有至少两名所报考学科专业领域内具有副教授以上职称（或相当专业技术职称的专家）人员提供的推荐信，其中一名推荐人须为考生硕士导师；所有推荐信须由推荐专家通过系统提交。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">3.最高学历、学位证书和相关认证报告。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">4.身份证。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">5.硕士学位论文（应届硕士毕业生可提供论文摘要和论文目录等）。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">6.拟攻读博士学位的科学研究计划书。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">7.外语水平证明材料（全国大学英语六级证书、新TOEFL成绩单、IELTS成绩单、全英文授课学位项目学位证书等）。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">8.报考院系要求提交的其他相关材料。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">考生保证上述材料的真实、准确，对提供虚假、不实信息的考生，一经查实一律取消录取资格。</span></p>
+<p class="p" style="text-indent: 28.1000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><strong><span class="16" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">七、报名费用</span></strong></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">参加</span><span style="font-family: 宋体;">&ldquo;申请-考核&rdquo;招生的报名者，需缴纳报名费每人次250元，网上报名时支付。报名信息一经本人确认提交，报名费用不予退还。申请本科直博的国内高校应届毕业生请按照教育部推免服务系统规定交费。</span></span></p>
+<p class="p" style="text-indent: 28.1000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><strong><span class="16" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">八、录取</span></strong></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">符合我校申请条件的考生，经全面考核、综合评价，在招生计划内择优录取，宁缺毋滥。研究生院审核院系上报的建议录取名单后，分别于</span><span style="font-family: 宋体;">2026年1月底前和6月底前在上海交通大学研招网上公示拟录取名单。</span></span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">拟录取定向就业博士生须在录取前签订定向就业协议书；录取为非定向的博士生须全脱产学习，在入学前将人事档案转入我校。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">申请人与签约单位之间因合同产生的各类责任关系，由申请人本人与签约单位协商处理，与招生单位无关。</span></p>
+<p class="p" style="text-indent: 28.1000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><strong><span class="16" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">九、体检</span></strong></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">入学后，学校统一组织体检，体检标准按照教育部和学校有关规定执行。</span></p>
+<p class="p" style="text-indent: 28.1000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><strong><span class="16" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">十、学费与奖助学金</span></strong></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">1.学费</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">按照国家政策，研究生实行收费制度。在学制内，博士生均应按学校相关规定缴纳学费，学费标准附后。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">2.奖助学金</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">为激励博士生科研创新，上海交通大学为</span><span style="font-family: 宋体;">&ldquo;全日制非定向&rdquo;博士研究生提供奖助学金，包括国家助学金、学业奖学金和博士生三助津贴等。强军计划博士生奖助学金按相关规定执行。</span></span></p>
+<p class="p" style="text-indent: 28.1000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><strong><span class="16" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">十一、学生住宿</span></strong></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">1.录取为全日制的博士生，在学制内实行住宿申请制，住宿费用自理。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">2.联合培养博士生，赴联培单位学习期间，须办理校内退宿。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">3.录取为非全日制的博士生，学校不提供住宿。</span></p>
+<p class="p" style="text-indent: 28.1000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><strong><span class="16" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">十二、违规处理</span></strong></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">对在报名或考核中存在违规或弄虚作假等行为的，按《国家教育考试违规处理办法》及相关规定严肃处理。对在校生，将通知其所在学校，由其所在学校按有关规定给予处分，直至开除学籍；对在职考生，将通知考生所在单位，由考生所在单位视情节给予党纪或政纪处分。构成犯罪的，由司法机关依法追究刑事责任。</span></p>
+<p class="p" style="text-indent: 28.1000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><strong><span class="16" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">十三、其他说明</span></strong></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">1.医学院招生简章及相关政策详见</span><span class="17" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">《上海交通大学医学院2026年博士研究生招生简章》</span><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">。港澳台学生招生简章另行发布。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">2.申请&ldquo;少民骨干计划&rdquo;、&ldquo;思政骨干计划&rdquo;、&ldquo;强军计划&rdquo;、&ldquo;非全日制工程博士&rdquo;的考生，由学校统一组织评审后，确定进入各院系的综合考核环节名单。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">3.根据教育部规定，研究生不能同时拥有两个及以上学籍。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">4.我校不举办任何形式的辅导班，不提供历年试题、参考书籍和复习资料。</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">5.若国家出台新的博士生招生政策，我校将做相应调整，并将及时予以公告。</span></p>
+<p class="p" style="text-indent: 28.1000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><strong><span class="16" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">十四、咨询、申诉和监督</span></strong></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">1.上海交通大学研究生招生办公室</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">电话：</span><span style="font-family: 宋体;">021</span></span><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">-</span><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">34206123</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Email：yzb-bs@sjtu.edu.cn</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">地址：上海市闵行区东川路</span><span style="font-family: 宋体;">800号</span></span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">邮编：</span><span style="font-family: 宋体;">200240</span></span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">上海交通大学研究生招生网：</span><a href="https://yzb.sjtu.edu.cn/"><span class="17" style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">https://yzb.sjtu.edu.cn</span></a></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff; mso-list: l0 level1 lfo1;"><!-- [if !supportLists]--><span style="font-family: 宋体; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">2.</span><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">上海交通大学（校本部）各招生院系联系方式详见如下链接： &nbsp;&nbsp; &nbsp;&nbsp;</span><a href="https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bslxfscx.aspx"><span style="font-family: 宋体;">https://ga.sjtu.edu.cn/zsgl/zsmlgl/zsml_bslxfscx.aspx</span></a></span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">3.纪检监察机构</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;"><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-family: 宋体;">电话：</span><span style="font-family: 宋体;">021</span></span><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">-</span><span style="font-family: 宋体; line-height: 150%; font-size: 14pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">34206217</span></p>
+<p class="p" style="text-indent: 28.0000pt; mso-char-indent-count: 2.0000; text-autospace: ideograph-numeric; mso-pagination: widow-orphan; line-height: 150%; background: #ffffff;">&nbsp;</p>
+<p class="p" style="text-indent: 24.1000pt; mso-pagination: widow-orphan; line-height: 26.0000pt; mso-line-height-rule: exactly; background: #ffffff;"><span style="font-family: simsun, serif; font-size: 16px;"><a href="/storage/gs/web/yzbcn/article/2025/10/eb44e279ef3da017a3d73824e04b939c.docx" download="附件：学费标准">附件：学费标准</a></span></p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <div id="qrcode-img" style="display: none;">
+        <div id="qrcode"></div>
+        <p>微信扫描二维码，分享给好友</p>
+    </div>
+<footer>
+    <div class="footer-top">
+        <div class="layui-container">
+            <div class="layui-row layui-col-space30 row-flex">
+                <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+                    <p><img src="https://yzb.sjtu.edu.cn/assets/images/logo_white.png?v=20220811" alt="" style="max-width:100%;max-height:40px;margin-bottom:15px"></p>
+                </div>
+                <div class="layui-col-md3 layui-col-sm4 layui-col-xs12">
+                    <div class="title">
+                        快速链接
+                    </div>
+                    <ul class="footer-link">
+                                                <li><a href="https://www.sjtu.edu.cn" target="_blank">上海交通大学</a></li>
+                                                <li><a href="https://www.gs.sjtu.edu.cn" target="_blank">研究生院</a></li>
+                                                <li><a href="https://www.jdcw.sjtu.edu.cn/" target="_blank">财务处</a></li>
+                                                <li><a href="https://archives.sjtu.edu.cn/" target="_blank">档案馆</a></li>
+                                            </ul>
+                </div>
+                <div class="layui-col-md3 layui-col-sm4 layui-col-xs12">
+                    <div class="title">
+                        联系我们
+                    </div>
+                    <p>地址：上海市东川路800号陈瑞球楼339室</p>
+                    <p>博士招生：021-34206123</p>
+                    <p>硕士招生：021-62821069</p>
+                    <p>邮编:200240</p>
+                </div>
+                <div class="layui-col-md2 layui-col-sm4 layui-col-xs12">
+                    <div class="qrcode-list flex ">
+                        <div class="item">
+                            <img src="https://yzb.sjtu.edu.cn/assets/images/qrcode_goSJTU202501.jpg" alt="">
+                            <p>上交大研招（Go_SJTU）</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="layui-container">
+            版权所有 &copy; 2024 上海交通大学研究生院 <a href="http://cert.sjtu.edu.cn/beian_user/show.asp?number=1082" target="_blank">沪交ICP 备 05034</a>，技术支持：<a href="http://www.alawang.com" target="_blank">ALA</a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+<a href="#" id="button-to-top" style="display: block;"><i class="ala-iconfont icon-totop"></i></a>
+<script type="text/javascript" src="https://yzb.sjtu.edu.cn/assets/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://yzb.sjtu.edu.cn/assets/layui/layui.js"></script>
+<script type="text/javascript" src="https://yzb.sjtu.edu.cn/assets/js/scrollReveal.min.js"></script>
+<script type="text/javascript" src="https://yzb.sjtu.edu.cn/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<!-- Swiper JS -->
+<script src="https://yzb.sjtu.edu.cn/assets/js/swiper-bundle.min.js?v=2"></script>
+<script src="https://yzb.sjtu.edu.cn/assets/js/index.js?v=2023110802"></script>
+
+<script
+async
+defer
+src="https://hi.sjtu.edu.cn/api/application/embed?protocol=https&host=hi.sjtu.edu.cn&token=e830d8c51027121e">
+</script>
+    <script type="text/javascript" src="https://yzb.sjtu.edu.cn/assets/js/jquery.qrcode.min.js"></script>
+<script type="text/javascript">
+    //滚动动画
+    (function () {
+        'use strict';
+        window.scrollReveal = new scrollReveal({ reset: false, move: '50px' });
+
+    })();
+
+    $(function() {
+        
+        $('.fold-nav .item .title').click(function () {
+            var hideBox = $(this).next('.nav-child');
+            if (hideBox.css("display") == "none") {
+                hideBox.slideDown("200");
+                $(this).parent('.item').siblings().find('.nav-child').slideUp("200");
+                $(this).parent('.item').addClass('active').siblings().removeClass('active')
+            } else {
+                hideBox.slideUp("200");
+                $(this).parent('.item').removeClass('active')
+
+            }
+        })
+        $('.mobile-main-nav .item .title .icon-box').click(function () {
+            console.log($(this));
+            var hideBox = $(this).parents('.item').find('.nav-child');
+            console.log(hideBox);
+            if (hideBox.css("display") == "none") {
+                hideBox.slideDown("200");
+                $(this).parents('.item').siblings().find('.nav-child').slideUp("200");
+                $(this).parents('.item').addClass('active').siblings().removeClass('active')
+            } else {
+                hideBox.slideUp("200");
+                $(this).parents('.item').removeClass('active')
+
+            }
+        })
+
+        //手机设备的简单适配
+        var treeMobile = $('header .header-mobile')
+        var _body = $("body");
+        treeMobile.on('click', function () {
+            if (!_body.hasClass('mobile-nav-show')) {
+                _body.addClass('mobile-nav-show');
+            } else {
+                _body.removeClass('mobile-nav-show');
+            }
+        });
+
+
+        $('.header-nav .close-btn').click(function () {
+            $('body').removeClass('mobile-site').removeClass('body-hidden');
+            $(this).parents('.layui-nav-child').removeClass("layui-show");
+        })
+        $('.header-nav .back-btn').click(function () {
+            $(this).parents('.layui-nav-child').removeClass("layui-show");
+        })
+        $(".nav-container .tc-body").mCustomScrollbar({
+            scrollButtons: {
+                enable: true
+            }
+        });
+
+
+
+        // 三级菜单
+        if ($('.category-nav').length > 0) {
+            var aIndex = $('.category-nav .swiper-slide.active').index();
+            var categoryNav = new Swiper('.category-nav .swiper-container', {
+                watchOverflow: true,
+                initialSlide: aIndex,
+                resistanceRatio: 0,
+                spaceBetween: 0,
+                slidesPerView: 'auto',
+                slideToClickedSlide: true,
+                watchSlidesVisibility: true,
+                normalizeSlideIndex: false,
+                breakpoints: {
+                    768: {
+                        // spaceBetween: 3,
+                        spaceBetween: 40,
+                    }
+                },
+            });
+        }
+    })
+
+    function isExitsVariable(variableName) {
+        try {
+            if (typeof(eval(variableName)) == "undefined") {
+                return false;
+            } else {
+                return true;
+            }
+        } catch(e) {
+
+        }
+        return false;
+    }
+
+    if(!isExitsVariable('total')){
+        var total = 0;
+    }
+    if(!isExitsVariable('page')){
+        var page = 1;
+    }
+    if(!isExitsVariable('limit')){
+        var limit = 12;
+    }
+    if(!isExitsVariable('keyWord')){
+        var keyWord = '';
+    }
+
+
+
+
+        var total = '0';
+        var page = '1';
+        var limit = '12';
+
+        var path = '';
+        var category_id = '';
+
+        var keyword = '';
+        console.log("total:", total, 'page:', page, 'limit:', limit, 'path:', path, 'category_id:', category_id, 'keyword:', keyword);
+
+        layui.use(['element', 'form', 'layer', 'laypage'], function () {
+            var $ = layui.jquery
+                , element = layui.element
+                , layer = layui.layer
+                , laypage = layui.laypage
+                , form = layui.form;
+
+            // 分页
+            laypage.render({
+                elem: 'pages'
+                , count: total
+                , curr: page
+                ,theme: '#004098'
+                ,prev: '<i class="ala-iconfont icon-left"></i>'
+                ,next: '<i class="ala-iconfont icon-right"></i>'
+                , groups: 3
+                , limit: limit
+                , jump: function (obj, first) {
+//obj包含了当前分页的所有参数，比如：
+                    //首次不执行
+                    if (!first) {
+                        let url = "https://yzb.sjtu.edu.cn/post/3340?page=" + obj.curr;
+                        
+                        if (keyword) url += "&keyword=" + keyword;
+                        if (path) url += "&path=" + path;
+                        if (category_id) url += "&category_id=" + category_id;
+
+                        window.location.href = url;
+                    }
+                }
+            });
+
+        });
+
+    layui.use(['element', 'form', 'layer', 'laypage'], function() {
+        var $ = layui.jquery,
+            element = layui.element,
+            layer = layui.layer,
+            laypage = layui.laypage,
+            form = layui.form;
+
+
+//         laypage.render({
+//             elem: 'pages'
+//             ,count: total
+//             ,curr:page
+//             ,theme: '#004098'
+//             ,prev: '<i class="ala-iconfont icon-left"></i>'
+//             ,next: '<i class="ala-iconfont icon-right"></i>'
+//             ,groups:3
+//             ,limit:limit
+//             ,jump:function(obj, first){
+// //obj包含了当前分页的所有参数，比如：
+// //                         console.log(obj.curr); //得到当前页，以便向服务端请求对应页的数据。
+// //                         console.log(obj.limit); //得到每页显示的条数
+//                 //首次不执行
+//                 if(!first){
+//                     //do something
+//                     window.location.href=jump(obj.curr)
+//                 }
+//             }
+//         });
+
+
+        $('header .search-btn').click(function(){
+            layer.open({
+                type: 1,
+                title: false,
+                shade: [.85,'#000'],
+                shadeClose: false,
+                scrollbar: false,
+                anim: 1,
+                area: ['100vw','100vh'],
+                skin: 'tc-search',
+                content: $('.search-box'),
+                // success: function(layero, index){
+                //     $('.search-box .layui-input').focus();
+                // }
+            })
+        });
+    })
+
+    function jumpSearch(){
+        let keyword = $("#keyword").val()
+        if(!keyword){
+            return
+        }
+        window.location.href=`/search?keyword=${keyword}`
+    }
+
+    $(document).ready(function() {
+        $('#keyword').keypress(function(event) {
+            var keycode = event.which || event.keyCode;
+            if (keycode == '13') {
+                // 用户按下了回车键
+                // 在这里编写你的逻辑
+                // alert('回车键被按下了！');
+                jumpSearch()
+                return false
+            }
+        });
+    });
+
+</script>
+    <script>
+        $(function(){
+            //分享到新浪微博
+            var ShareTip = function () {
+            };
+            ShareTip.prototype.sharetosina = function (title, url) {
+                var sharesinastring = 'https://service.weibo.com/share/share.php?title=' + title + '&url=' + url + '&content=utf-8&sourceUrl=' + url;
+                window.open(sharesinastring, '_blank');
+            }
+            $('#shareToWeibo').on('click', function () {
+                var shareTitle = $('.article-title h3').text();
+                var shareUrl = window.location.href;
+                var share = new ShareTip();
+                share.sharetosina(shareTitle, shareUrl);
+            })
+
+            // 微信生成二维码
+            function generateQRCode(url) {
+                $("#qrcode").qrcode({
+                    render: "canvas", // 渲染方式有table方式和canvas方式
+                    width: 200,   //默认宽度
+                    height: 200, //默认高度
+                    text: utf16to8(url), //二维码内容
+                    typeNumber: -1,   //计算模式一般默认为-1
+                    correctLevel: 2, //二维码纠错级别
+                    background: "#ffffff",  //背景颜色
+                    foreground: "#000000"  //二维码颜色
+                });
+            }
+
+            function init() {
+                generateQRCode(window.location.href);
+            }
+
+            function utf16to8(str) {
+                var out, i, len, c;
+                out = "";
+                len = str.length;
+                for (i = 0; i < len; i++) {
+                    c = str.charCodeAt(i);
+                    if ((c >= 0x0001) && (c <= 0x007F)) {
+                        out += str.charAt(i);
+                    } else if (c > 0x07FF) {
+                        out += String.fromCharCode(0xE0 | ((c >> 12) & 0x0F));
+                        out += String.fromCharCode(0x80 | ((c >> 6) & 0x3F));
+                        out += String.fromCharCode(0x80 | ((c >> 0) & 0x3F));
+                    } else {
+                        out += String.fromCharCode(0xC0 | ((c >> 6) & 0x1F));
+                        out += String.fromCharCode(0x80 | ((c >> 0) & 0x3F));
+                    }
+                }
+                return out;
+            }
+
+            init();
+            layui.use('layer', function () {
+                var layer = layui.layer;
+                $('#shareToWeixin').on('click', function () {
+                    layer.open({
+                        type: 1,
+                        closeBtn: 0,
+                        title: false,
+                        shade: [0.8, '#000'],
+                        shadeClose: true, //点击遮罩关闭
+                        content: $('#qrcode-img'),
+                        anim: 5,
+                        resize: false,
+                    });
+                });
+            });
+        })
+    </script>
+</body>
+</html>

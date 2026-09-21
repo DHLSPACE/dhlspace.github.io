@@ -1,0 +1,971 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><title>大连理工大学研究生院（新）</title><meta name="pageType" content="1">
+<meta name="pageTitle" content="大连理工大学研究生院（新）">
+<META Name="keywords" Content="研究院new" />
+
+
+
+
+
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta content="IE=EmulateIE9" http-equiv="X-UA-Compatible">
+
+<meta name="description" content="">
+<meta name="generator" content="">
+<meta name="copyright" content="大连理工大学研究生院">
+
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow"><link rel="stylesheet" type="text/css" href="css/global.css">
+
+
+
+
+
+<style type="text/css">
+body{font-size:12px;font-family:"微软雅黑", Verdana, Geneva, sans-serif, "宋体";}
+dl, dt, dd, ul, li, p, h5{padding:0;margin:0;}
+blockquote{background-color:#f3f3f3;margin:5px 0;padding:8px 15px 10px;}
+blockquote code{font-family:"Courier New", Courier, monospace;}
+.demo{width:340px;margin:0 auto;}
+.demo h2{font-size:16px;text-align:center;}
+.demo h5{font-size:13px;}
+/* switchBox */
+.switchBox, .slideBox{width:340px;}
+.switchBox dt, .slideBox dt{height:40px;}
+.switchBox span, .switchBox dt a, .switchBox em, .slideBox span, .slideBox dt a, .slideBox em{background-color:#0073bd;color:#ffffff;cursor:pointer;float:left;font-size:18px;height:40px;line-height:40px;text-align:center;text-decoration:none;width:85px;font-style:normal;}
+.switchBox dt .on, .slideBox dt .on{background-color:#2ab4db;font-weight:normal;}
+.switchBox dt .active, .slideBox dt .active{background-color:#ffffcc;font-weight:bolder;}
+.switchBox dt .on, .switchBox dt .active, .switchBox a:hover, .slideBox dt .on, .slideBox dt .active, .slideBox a:hover{color:#ffffff;}
+.switchBox dt .fat{color:#0000ff;width:150px;}
+.switchBox dt .fat:hover{color:#ffff00;}
+.switchBox dd, .slideBox dd{clear:both;display:none;height:auto;height:100px;min-height:100px!important;line-height:20px;padding:10px 5px 10px 5px;font-family:"宋体";}
+.switchBox li{margin-left:0px;}
+#switchBox2, #switchBox7{width:360px;}
+#switchBox5{width:750px;}
+#switchBox5 dd{display:block;}
+#switchBox5 dd ul{display:none;}
+</style>
+
+<!--Announced by Visual SiteBuilder 9-->
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307973475d52575742000500004f524f53 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1502106601)</script>
+</head>
+<body>
+<div class="bg01">
+<div class="wrapper">
+<div class="fl"><a href="index.htm"><img alt="" src="images/logo.png"></a></div>
+<div class="index_header fr">
+<div class="index_lan"><a href="index.htm">中文</a><a href="javascript:void(0)">ENGLISH</a><a href="http://gmis.dlut.edu.cn" target="_blank">返回旧版</a></div>
+<div class="index_search"><!-- 3.1.3版本 -->
+
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script><script language="javascript" src="/system/resource/vue/vue.js"></script><script language="javascript" src="/system/resource/vue/bluebird.min.js"></script><script language="javascript" src="/system/resource/vue/axios.js"></script><script language="javascript" src="/system/resource/vue/polyfill.js"></script><script language="javascript" src="/system/resource/vue/token.js"></script><LINK href="/system/resource/vue/static/element/index.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/vue/static/element/index.js"></script><script language="javascript" src="/system/resource/vue/static/public.js"></script><script language="javascript" src="/system/resource/openapp/search/js/containsHtmlTags.js"></script><script language="javascript" src="/system/resource/openapp/search/layui/layui.js"></script><div id="divu0"></div>
+<script type="text/html" id="htmlu0">
+    <div id="appu0">
+        <div v-if="!isError">
+           <table border="0" cellspacing="1" cellpadding="0">
+      <tbody><tr>
+           <td valign="middle" nowrap="nowrap" height="22">
+            
+                    </td><td>
+            
+                
+                <input class="input" name="INTEXT"  v-model=query.keyWord @keyup.enter="onSubmit">
+           </td>
+           <td align="absmiddle" nowrap="nowrap" height="1">
+                    <input class="btn" type="submit" v-on:click="onSubmit()"  name="FindButton" value="  ">
+
+           </td>
+      </tr>
+ </tbody></table>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu0").html($("#htmlu0").text());
+</script>
+<script>
+    var appOwner = "1502106601";
+    var token = gettoken(10);
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu0",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script>
+
+<script>
+   var appElementu0 = document.querySelector("#appu0");
+   if (appElementu0 && appElementu0.__vue__) {
+
+   } else {
+      $("#divu0").html($("#htmlu0").text());
+      var appOwner = "1502106601";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou0 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu0(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu0();
+        }
+      };
+
+      function onSubmitu0(e) {
+        queryInfou0.query.keyWord= $("#appu0  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou0.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+</script></div></div>
+<div class="cb"></div><UL id="nav" class="nav clearfix">
+<LI class="nLi on">
+<H3><A href="index.htm">首页</A></H3></LI>
+<LI class="nLi">
+<H3><A href="jgshe_zhi/yan_j.htm">机构设置</A></H3>
+<UL class="sub" style="width:190px;">
+<LI><A href="jgshe_zhi/yan_j.htm">研院简介</A> </LI>
+<LI><A href="jgshe_zhi/jgshe_zhi.htm">机构设置</A> </LI>
+<LI><A href="jgshe_zhi/jgren_yuan.htm">机构人员</A> </LI>
+<LI><A href="jgshe_zhi/yxgzrenyuan.htm">院系工作人员</A> </LI>
+</UL></LI>
+
+<LI class="nLi">
+<H3><A href="yjszs.htm" target="_blank">研究生招生</A></H3>
+</LI>
+
+<LI class="nLi">
+<H3><A href="yjspy/pygcguan_li/zytz.htm">研究生培养</A></H3>
+<UL class="sub" style="width:207px;">
+<LI><A href="yjspy/pygcguan_li/zytz.htm">培养过程管理</A> </LI>
+<LI><A href="yjspy/xwgl12/zxgong_goa.htm">学位管理</A> </LI>
+<LI><A href="yjspy/wjxz.htm">文件下载</A> </LI>
+</ul>
+</LI>
+<LI class="nLi">
+<H3><A href="" style="padding:0 66px 0 67px;">导师队伍</A></H3>
+<UL class="sub" style="width:201px;">
+<LI><A href="http://faculty.dlut.edu.cn" style="padding:0 66px 0 67px;">导师信息</A> </LI>
+<LI><A href="dsdw/zcfg.htm" style="padding:0 66px 0 67px;">政策文件</A> </LI>
+<LI><A href="dsdw/wjxz.htm" style="padding:0 66px 0 67px;">文件下载</A> </LI>
+</UL>
+</LI>
+
+<LI class="nLi">
+<H3><A href="kcsj.htm" target="_blank">科创实践</A></H3>
+</LI>
+
+</UL>
+
+</div></div>
+<div class="fullSlide">
+<div class="bd">    <script language="javascript" src="/system/resource/js/dynclicks.js"></script><UL>
+     
+           
+                     <LI style="background: url(images/20181227162527.jpg) #fff no-repeat center 0px"></LI>
+             
+     
+</UL></div>
+<div class="hd">
+<ul>
+</ul></div></div>
+
+<script type="text/javascript" src="tab/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/jsd.js"></script>
+
+<script type="text/javascript" src="tab/ks-switch.pack.js"></script>
+
+<script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
+<script id="jsID" type="text/javascript">
+            
+            jQuery("#nav").slide({ 
+                type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+                titCell:".nLi", //鼠标触发对象
+                targetCell:".sub", //titCell里面包含的要显示/消失的对象
+                effect:"slideDown", //targetCell下拉效果
+                delayTime:300 , //效果时间
+                triggerTime:0, //鼠标延迟触发时间（默认150）
+                returnDefault:true //鼠标移走后返回默认状态，例如默认频道是“预告片”，鼠标移走后会返回“预告片”（默认false）
+            });
+        </script>
+<script type="text/javascript">
+    jQuery(".fullSlide").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click" });
+</script>
+
+<script type="text/javascript">
+$(function($){
+       $("#switchBox3").switchTab({titCell: "dt a", trigger: "mouseover", delayTime: 0});
+});
+</script>
+
+
+<div class="wrapper">
+<div align="center" style="width:100%;font-size:16px;font-family:微软雅黑;"><!-- <a href="http://gs.dlut.edu.cn/info/1173/11367.htm" target="_blank" style="font-size:16px;font-family:微软雅黑;color:#ff0000;">2021年各学部（学院）硕士研究生复试录取办法公示</a> --></div>
+<div class="index_news01 fl" style="height:865px;">
+
+<div class="demo">
+
+    <dl class="switchBox" id="switchBox3">
+        <dt>
+            <a href="">通知</a>
+            <a href="http://gs.dlut.edu.cn/yjspy/pygcguan_li/zytz.htm">培养</a>
+            <a href="http://gs.dlut.edu.cn/yjszs.htm">招生</a>
+            <a href="zytz/yjsyzhb.htm">综合</a>
+        </dt>
+        <dd>
+          
+
+<script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><ul>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/08</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+     <span style="font-family:微软雅黑;height:20px;width:30px;float:left;border-radius:4px;color:#fff;font-size:12px;text-align:center;background-color:#0da5e5;line-height:20px">置顶</span> 
+<A href="info/1173/51622.htm" target="_blank" style="font-family: 黑体;font-size:14px">
+<font color="#0073BD">大连理工大学2027年“国优计划”专项招生选拔通知</font></A> 
+<P>为深入贯彻习近平总书记关于教育、科技、人才一体化发展的重要论述，落实党的...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/02</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+     <span style="font-family:微软雅黑;height:20px;width:30px;float:left;border-radius:4px;color:#fff;font-size:12px;text-align:center;background-color:#0da5e5;line-height:20px">置顶</span> 
+<A href="info/1173/51592.htm" target="_blank" style="font-family: 黑体;font-size:14px">
+<font color="#0073BD">关于开展大连理工大学2026级研究生新生入学资格复查工作的通...</font></A> 
+<P>为贯彻落实《教育部办公厅关于做好全国硕士研究生复试工作的通知》以及新生入...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">01/04</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+     <span style="font-family:微软雅黑;height:20px;width:30px;float:left;border-radius:4px;color:#fff;font-size:12px;text-align:center;background-color:#0da5e5;line-height:20px">置顶</span> 
+<A href="info/1206/48652.htm" target="_blank" style="font-family: 黑体;font-size:14px">
+<font color="#0073BD">关于2026年硕士研究生学位论文答辩及相关工作安排</font></A> 
+<P>根据学校工作安排，现将2026年硕士研究生学位论文答辩，工作流程通知如下：一...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/16</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1089/51692.htm" target="_blank" style="font-family: 黑体;font-size:14px">
+<font color="#0073BD">关于2026级研究生新生课程免修的补充通知</font></A> 
+<P>为做好 2026 级研究生新生课程免修申请工作，现就有关事项补充通知如下：一、...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/15</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1173/51682.htm" target="_blank" style="font-family: 黑体;font-size:14px">
+<font color="#0073BD">我校各学部（学院）2027年接收推荐免试攻读硕士（博士）学位...</font></A> 
+<P>各位考生：现将我校各学部（学院）2027年接收推荐免试攻读硕士（博士）学位研...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/14</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1206/51652.htm" target="_blank" style="font-family: 黑体;font-size:14px">
+<font color="#0073BD">关于开展2026年优秀博士论文特别奖学金评选工作的通知</font></A> 
+<P>各学院：根据《大连理工大学博士研究生奖助学金实施细则》的文件要求，对于成...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/14</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1206/51642.htm" target="_blank" style="font-family: 黑体;font-size:14px">
+<font color="#0073BD">关于开展2026年优秀博士论文单项奖学金评选工作的通知</font></A> 
+<P>各学院：根据《大连理工大学博士研究生奖助学金实施细则》的文件要求，对于第...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/10</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1089/51632.htm" target="_blank" style="font-family: 黑体;font-size:14px">
+<font color="#0073BD">2027年春季第二批研究生赴国（境）外校际交换项目报名通知</font></A> 
+<P>各学院（医学部）：赴国（境）外友好高校校际交换学习项目是根据我校与国（境...</P></DIV>
+<DIV class="cb"></DIV></LI>
+</ul><script>_showDynClickBatch(['dynclicks_u3_51622','dynclicks_u3_51592','dynclicks_u3_48652','dynclicks_u3_51692','dynclicks_u3_51682','dynclicks_u3_51652','dynclicks_u3_51642','dynclicks_u3_51632'],[51622,51592,48652,51692,51682,51652,51642,51632],"wbnews", 1502106601)</script>
+ 
+        </dd>
+        <dd>
+           
+
+<ul>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">01/04</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+     <span style="font-family:微软雅黑;height:20px;width:30px;float:left;border-radius:4px;color:#fff;font-size:12px;text-align:center;background-color:#0da5e5;line-height:20px">置顶</span> 
+<A href="info/1206/48652.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">关于2026年硕士研究生学位论文答辩及相关工作安排</font></A> 
+<P>根据学校工作安排，现将2026年硕士研究生学位论文答辩，工作流程通知如下：一...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/16</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1089/51692.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">关于2026级研究生新生课程免修的补充通知</font></A> 
+<P>为做好 2026 级研究生新生课程免修申请工作，现就有关事项补充通知如下：一、...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/14</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1206/51652.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">关于开展2026年优秀博士论文特别奖学金评选工作的通知</font></A> 
+<P>各学院：根据《大连理工大学博士研究生奖助学金实施细则》的文件要求，对于成...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/14</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1206/51642.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">关于开展2026年优秀博士论文单项奖学金评选工作的通知</font></A> 
+<P>各学院：根据《大连理工大学博士研究生奖助学金实施细则》的文件要求，对于第...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/10</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1089/51632.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">2027年春季第二批研究生赴国（境）外校际交换项目报名通知</font></A> 
+<P>各学院（医学部）：赴国（境）外友好高校校际交换学习项目是根据我校与国（境...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/01</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1089/51582.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">关于2026级研究生外语免修的通知</font></A> 
+<P>2026级新入学研究生，在本通知要求的申请截止日期前满足下列情况之一的，可以...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">08/29</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1089/51572.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">2027年春季研究生赴国（境）外校际交换项目报名通知</font></A> 
+<P>各学院（医学部）：赴国（境）外友好高校校际交换学习项目是根据我校与国（境...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">08/21</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1089/51552.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">关于申报国家留学基金委2027年创新型人才国际合作培养项目的...</font></A> 
+<P>各学部（学院）：为进一步推动国内外合作培养创新型国际化人才，加大对一流大...</P></DIV>
+<DIV class="cb"></DIV></LI>
+</ul><script>_showDynClickBatch(['dynclicks_u4_48652','dynclicks_u4_51692','dynclicks_u4_51652','dynclicks_u4_51642','dynclicks_u4_51632','dynclicks_u4_51582','dynclicks_u4_51572','dynclicks_u4_51552'],[48652,51692,51652,51642,51632,51582,51572,51552],"wbnews", 1502106601)</script>
+
+        </dd>
+        <dd>
+           
+
+<ul>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/08</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+     <span style="font-family:微软雅黑;height:20px;width:30px;float:left;border-radius:4px;color:#fff;font-size:12px;text-align:center;background-color:#0da5e5;line-height:20px">置顶</span> 
+<A href="info/1173/51622.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">大连理工大学2027年“国优计划”专项招生选拔通知</font></A> 
+<P>为深入贯彻习近平总书记关于教育、科技、人才一体化发展的重要论述，落实党的...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/02</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+     <span style="font-family:微软雅黑;height:20px;width:30px;float:left;border-radius:4px;color:#fff;font-size:12px;text-align:center;background-color:#0da5e5;line-height:20px">置顶</span> 
+<A href="info/1173/51592.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">关于开展大连理工大学2026级研究生新生入学资格复查工作的通...</font></A> 
+<P>为贯彻落实《教育部办公厅关于做好全国硕士研究生复试工作的通知》以及新生入...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/15</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1173/51682.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">我校各学部（学院）2027年接收推荐免试攻读硕士（博士）学位...</font></A> 
+<P>各位考生：现将我校各学部（学院）2027年接收推荐免试攻读硕士（博士）学位研...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">09/03</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1173/51602.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">大连理工大学2027年秋季批次硕博连读预报名通知（更新）</font></A> 
+<P>一、报考条件1、拥护中国共产党的领导，具有正确的政治方向，热爱祖国，愿意为...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">07/14</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1173/51492.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">关于大连理工大学各院系接收2027年推荐免试研究生预报名陆续...</font></A> 
+<P>各位考生：为方便各位考生申报大连理工大学，现开通“大连理工大学接收推荐免...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">07/07</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1173/51482.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">关于发放大连理工大学2026年研究生录取通知书的通知</font></A> 
+<P>各位同学：大连理工大学研究生录取通知书将于近日发放，具体事宜如下：一、录...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">06/30</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1173/51462.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">大连理工大学2026年博士研究生拟录取名单公示-增补名单2</font></A> 
+<P>各位考生：        现对我校2026年攻读博士学位研究生拟录取名单进行公示（增...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">06/18</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1173/51412.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">大连理工大学2026年博士研究生拟录取名单公示-增补名单</font></A> 
+<P>各位考生：        现对我校2026年攻读博士学位研究生拟录取名单进行公示（增...</P></DIV>
+<DIV class="cb"></DIV></LI>
+</ul><script>_showDynClickBatch(['dynclicks_u5_51622','dynclicks_u5_51592','dynclicks_u5_51682','dynclicks_u5_51602','dynclicks_u5_51492','dynclicks_u5_51482','dynclicks_u5_51462','dynclicks_u5_51412'],[51622,51592,51682,51602,51492,51482,51462,51412],"wbnews", 1502106601)</script>
+
+        </dd>
+        <dd>
+           
+
+<ul>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">08/18</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="https://news.dlut.edu.cn/info/1022/148805.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">学校举办2026年首聘研究生导师培训会</font></A> 
+<P></P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">07/25</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1004/51522.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">研究生院2026年暑假值班安排</font></A> 
+<P></P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">03/24</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2026</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1004/49672.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">关于开展2026年“1+X学科交叉导师团队”专项申报及2025年立项...</font></A> 
+<P>各研究生培养单位、有关团队：为加快推进博士研究生教育高质量发展，推动学校...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">07/19</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2025</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1004/17036.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">研究生院2025年暑假值班安排</font></A> 
+<P></P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">07/18</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2025</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1004/17026.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">关于2025年基础学科导师创新基金评审结果公示</font></A> 
+<P>经本人申请、相关学部（院）初审推荐，研究生院审核，拟定对以下导师给予导师...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">07/16</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2025</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="https://portal.dlut.edu.cn/tp/index.html#act=sems-tp-nup_28585749&contentid=&ownerid=&website=0&pim_id=11857642000556032" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">关于召开2025年首聘研究生导师培训会的通知</font></A> 
+<P></P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">07/07</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2025</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1004/16936.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">关于申报2025年研究生导师创新基金的通知</font></A> 
+<P>根据研究生奖助学金实施细则相关要求，学校自2007年开始设立了研究生导师创新...</P></DIV>
+<DIV class="cb"></DIV></LI>
+<LI>
+<DIV class="date fl">
+<SPAN style="font-size:18px;font-weight:bold; width:58px">03/20</SPAN>
+<span style="display:block; width:58px;height:27px; line-height:27px; background:#0073bd; color:#ffffff; font-size:12px">2025</span>
+
+</DIV>
+<DIV class="txt fr">
+
+<A href="info/1004/16256.htm" target="_blank" style="font-family: 黑体;font-size:14px"><font color="#0073BD">关于开展2025年“1+X学科交叉导师团队” 专项申报工作的通知</font></A> 
+<P>各研究生培养单位、有关团队：为加快推动博士研究生教育高质量发展，推动学校...</P></DIV>
+<DIV class="cb"></DIV></LI>
+</ul><script>_showDynClickBatch(['dynclicks_u6_51542','dynclicks_u6_51522','dynclicks_u6_49672','dynclicks_u6_17036','dynclicks_u6_17026','dynclicks_u6_17016','dynclicks_u6_16936','dynclicks_u6_16256'],[51542,51522,49672,17036,17026,17016,16936,16256],"wbnews", 1502106601)</script>
+
+        </dd>
+    </dl> </div>
+
+</div>
+
+<div class="index_news02 fl">
+<div class="t"><span>工作动态</span><a href="gzdt1.htm" target="_blank">&gt;&gt;更多</a></div>
+
+
+
+
+<ul>
+  <LI><A href="https://news.dlut.edu.cn/info/1022/148805.htm" target="_blank" style="font-size:13px"><font color="#0073BD">学校举办2026年首聘研究生导师培训会</font></A><SPAN class="date">[2026-08-18]</SPAN> 
+<DIV class="cb"></DIV></LI>
+  <LI><A href="info/1005/50392.htm" target="_blank" style="font-size:13px"><font color="#0073BD">聚焦交叉融合、深耕人才培养——学科交叉导师团队育人机制改...</font></A><SPAN class="date">[2026-04-29]</SPAN> 
+<DIV class="cb"></DIV></LI>
+  <LI><A href="https://news.dlut.edu.cn/info/1022/136495.htm" target="_blank" style="font-size:13px"><font color="#0073BD">学校召开新学期研究生教育工作部署会</font></A><SPAN class="date">[2026-03-18]</SPAN> 
+<DIV class="cb"></DIV></LI>
+  <LI><A href="https://news.dlut.edu.cn/info/1026/136255.htm" target="_blank" style="font-size:13px"><font color="#0073BD">研究生院（卓工学院）召开新学期全体会议</font></A><SPAN class="date">[2026-03-16]</SPAN> 
+<DIV class="cb"></DIV></LI>
+  <LI><A href="https://news.dlut.edu.cn/info/1011/132115.htm" target="_blank" style="font-size:13px"><font color="#0073BD">【锻造新优势】卓越工程师培养，大工在行动！</font></A><SPAN class="date">[2025-12-12]</SPAN> 
+<DIV class="cb"></DIV></LI>
+  <LI><A href="info/1005/17316.htm" target="_blank" style="font-size:13px"><font color="#0073BD">凝心聚力，卓越发展 ——研究生院召开新学期全体会议</font></A><SPAN class="date">[2025-09-16]</SPAN> 
+<DIV class="cb"></DIV></LI>
+  <LI><A href="https://news.dlut.edu.cn/info/1022/122474.htm" target="_blank" style="font-size:13px"><font color="#0073BD">2025年全国研究生招生工作学术研讨及培训会在我校召开</font></A><SPAN class="date">[2025-07-09]</SPAN> 
+<DIV class="cb"></DIV></LI>
+</ul><script>_showDynClickBatch(['dynclicks_u8_51532','dynclicks_u8_50392','dynclicks_u8_49622','dynclicks_u8_49602','dynclicks_u8_48452','dynclicks_u8_17316','dynclicks_u8_16966'],[51532,50392,49622,49602,48452,17316,16966],"wbnews", 1502106601)</script>
+</div>
+<div class="index_quick fr"><a href="https://dutgs.dlut.edu.cn/gmis/LoginCAS.aspx?a=1" target="_blank"><img class="fl" alt="" src="images/index04.jpg"></a> <a href="https://dutgs.dlut.edu.cn/gmis/LoginCAS.aspx?a=1" target="_blank"><img class="fl mt3" alt="" src="images/index05.jpg"></a> <a href="https://dutgs.dlut.edu.cn/pyxx/LoginCAS.aspx?a=1" target="_blank"><img class="fl mt3 ml3" alt="" src="images/index06.jpg"></a> 
+<a href="http://202.118.65.202" target="_blank"><img class="fl mt3" alt="" src="images/202403221.png"></a>
+
+<hr>
+        
+   
+           
+                       <div align="center" style="height:40px;"> <a href="https://yjszs.dlut.edu.cn/zsbm/logon/" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1502106601, 39752)" target="_blank">
+                            <img src="images/xialingyingwangbaoxitong.jpg" border="0">
+                        </a>  </div>
+       
+   
+
+   
+           
+                       <div align="center" style="height:40px;"> <a href="https://yjszs.dlut.edu.cn/zsbm/logon/" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1502106601, 39753)" target="_blank">
+                            <img src="images/tuimianshengyubaomingxitong.jpg" border="0">
+                        </a>  </div>
+       
+   
+
+   
+           
+                       <div align="center" style="height:40px;"> <a href="https://yjszs.dlut.edu.cn/zsbm/logon/" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1502106601, 39754)" target="_blank">
+                            <img src="images/boshiyanjiushengwangbaoxitong.jpg" border="0">
+                        </a>  </div>
+       
+   
+
+   
+           
+                       <div align="center" style="height:40px;"> <a href="https://yjszs.dlut.edu.cn/zsbm/logon" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1502106601, 39755)" target="_blank">
+                            <img src="images/shuoshishengchengjiyuluquxinxichaxunxitong.jpg" border="0">
+                        </a>  </div>
+       
+   
+</div>
+
+
+
+<div class="index_news04 fl">
+<div class="t"><span>政策法规</span><a href="dsdw/zcfg.htm" target="_blank">&gt;&gt;更多</a></div>
+<div class="con">
+
+  
+<H3><A href="info/1031/50922.htm" target="_blank">关于公布2025年度大连理工大学优秀博士学位论文评选结果及推荐辽宁省优秀博</A></H3>
+
+<script>_showDynClickBatch(['dynclicks_u10_50922'],[50922],"wbnews", 1502106601)</script>
+</div>
+<div class="cb"></div>
+
+<ul>
+ <LI><A href="info/1031/50922.htm" target="_blank" style="font-size:13px"><font color="#0073BD">关于公布2025年度大连理工大学优秀博士学位论文评选结...</font></A><SPAN class="date">[2026-05-25]</SPAN> 
+<DIV class="cb"></DIV></LI>
+ <LI><A href="info/1031/49702.htm" target="_blank" style="font-size:13px"><font color="#0073BD">大连理工大学研究生招生工作管理规定（修订）</font></A><SPAN class="date">[2026-03-25]</SPAN> 
+<DIV class="cb"></DIV></LI>
+ <LI><A href="info/1031/48712.htm" target="_blank" style="font-size:13px"><font color="#0073BD">关于公布2025年大连理工大学优秀教学成果奖（研究生类...</font></A><SPAN class="date">[2026-01-10]</SPAN> 
+<DIV class="cb"></DIV></LI>
+ <LI><A href="info/1031/48002.htm" target="_blank" style="font-size:13px"><font color="#0073BD">大连理工大学2026年博士研究生 复试录取工作办法</font></A><SPAN class="date">[2025-11-07]</SPAN> 
+<DIV class="cb"></DIV></LI>
+ <LI><A href="info/1031/17386.htm" target="_blank" style="font-size:13px"><font color="#0073BD">大连理工大学研究生学位论文过程管理办法</font></A><SPAN class="date">[2025-09-30]</SPAN> 
+<DIV class="cb"></DIV></LI>
+ <LI><A href="info/1031/17286.htm" target="_blank" style="font-size:13px"><font color="#0073BD">关于公布2025年大连理工大学博士学位论文单项、特别奖...</font></A><SPAN class="date">[2025-09-16]</SPAN> 
+<DIV class="cb"></DIV></LI>
+ <LI><A href="info/1031/50742.htm" target="_blank" style="font-size:13px"><font color="#0073BD">关于确定2026年大连理工大学研究生教育教学改革研究项...</font></A><SPAN class="date">[2026-05-18]</SPAN> 
+<DIV class="cb"></DIV></LI>
+ <LI><A href="info/1031/50022.htm" target="_blank" style="font-size:13px"><font color="#0073BD">关于公布2026年“1+X学科交叉导师团队”专项立项结果的...</font></A><SPAN class="date">[2026-04-27]</SPAN> 
+<DIV class="cb"></DIV></LI>
+</ul><script>_showDynClickBatch(['dynclicks_u11_50922','dynclicks_u11_49702','dynclicks_u11_48712','dynclicks_u11_48002','dynclicks_u11_17386','dynclicks_u11_17286','dynclicks_u11_50742','dynclicks_u11_50022'],[50922,49702,48712,48002,17386,17286,50742,50022],"wbnews", 1502106601)</script>
+</div>
+<div class="index_link fr slideTxtBox01">
+<div class="t"><span>友情链接</span> 
+<div class="hd">
+<ul>
+<li>校内链接 </li>
+<li>校外链接</li></ul></div>
+<div class="bd">
+<ul>
+<div class="cb">     
+     
+  
+     
+ 
+
+<table border="0" width="0">     
+    <tr>   
+            <td align="absmiddle">
+<span class="leaderstyle1048432"></span></td>     
+            <td width="0" align="left">   
+                <A class="c1048432" HREF="https://www.dlut.edu.cn/xbyx/dllszxq.htm" onclick="_addDynClicks('wburl',1502106601,79296)">凌水主校区学部学院</A>
+                 
+            </td>     
+</tr><tr>   
+            <td align="absmiddle">
+<span class="leaderstyle1048432"></span></td>     
+            <td width="0" align="left">   
+                <A class="c1048432" HREF="https://www.dlut.edu.cn/xbyx/kfqxq.htm" onclick="_addDynClicks('wburl',1502106601,79297)" title="包含开发区校区的所有学部学院">开发区校区学部学院</A>
+                 
+            </td>     
+</tr><tr>   
+            <td align="absmiddle">
+<span class="leaderstyle1048432"></span></td>     
+            <td width="0" align="left">   
+                <A class="c1048432" HREF="https://www.dlut.edu.cn/xbyx/pjxq.htm" onclick="_addDynClicks('wburl',1502106601,79298)" title="包含盘锦校区的所有学部学院">盘锦校区学部学院</A>
+                 
+            </td>     
+</tr><tr>   
+            <td align="absmiddle">
+<span class="leaderstyle1048432"></span></td>     
+            <td width="0" align="left">   
+                <A class="c1048432" HREF="http://gs.dlut.edu.cn/info/1207/3998.htm" onclick="_addDynClicks('wburl',1502106601,79387)">管理信息系统博士学位部分使用说明</A>
+                 
+            </td>     
+</tr><tr>   
+            <td align="absmiddle">
+<span class="leaderstyle1048432"></span></td>     
+            <td width="0" align="left">   
+                <A class="c1048432" HREF="https://dutgs.dlut.edu.cn/gmis/xw/dbgggs.aspx" onclick="_addDynClicks('wburl',1502106601,79318)" title="显示博士学位论文答辩公告">博士答辩公告</A>
+                 
+            </td>     
+</tr><tr>   
+            <td align="absmiddle">
+<span class="leaderstyle1048432"></span></td>     
+            <td width="0" align="left">   
+                <A class="c1048432" HREF="https://dutgs.dlut.edu.cn/gmis/xw/dbggssgs.aspx" onclick="_addDynClicks('wburl',1502106601,100631)">硕士答辩公告</A>
+                 
+            </td>     
+</tr><tr>   
+            <td align="absmiddle">
+<span class="leaderstyle1048432"></span></td>     
+            <td width="0" align="left">   
+                <A class="c1048432" HREF="http://gs.dlut.edu.cn/yjspy/pygcguan_li/bszn.htm" onclick="_addDynClicks('wburl',1502106601,79386)">培养相关办事指南</A>
+                 
+            </td>     
+</tr><tr>   
+            <td align="absmiddle">
+<span class="leaderstyle1048432"></span></td>     
+            <td width="0" align="left">   
+                <A class="c1048432" HREF="http://xkb.dlut.edu.cn/xksj/xksj.htm" onclick="_addDynClicks('wburl',1502106601,79317)" title="包含我校可授予的博硕专业，学科在学部学院分布等">学科相关数据</A>
+                 
+            </td>     
+</tr><tr>   
+            <td align="absmiddle">
+<span class="leaderstyle1048432"></span></td>     
+            <td width="0" align="left">   
+                <A class="c1048432" HREF="https://dutgs.dlut.edu.cn/gmis/xw/xwxxgs.aspx" onclick="_addDynClicks('wburl',1502106601,100544)">学位授予名单公开</A>
+                 
+            </td>     
+</tr></table></div></ul>
+<ul>        
+
+   
+                 <LI><A href="http://www.cdgdc.edu.cn/" target="_blank"><IMG alt="" src="images/logo.jpg"><BR></A> </LI>
+            
+   
+
+
+   
+                         <LI><IMG alt="" src="images/index15.jpg"><BR></LI>
+            
+   
+
+<div class="cb"></div></ul></div></div><script type="text/javascript">jQuery(".slideTxtBox01").slide();</script></div>
+
+<div class="index_news04 fl" style="width:1208px;height:290px;margin-left:0px">
+
+
+
+
+
+
+<table class="winstyle1048492" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+    <td><a href="https://ehall.dlut.edu.cn/fp/view?m=fp#act=fp/serveapply&amp;from=hall&amp;serveID=2f5c4a6f-5139-49bd-9219-28606507bdd3" target="_blank" onclick="_addDynClicks('wbimage',1502106601,67300)"><img src="sykslj/xueji.jpg" width="230" height="120" hspace="6" vspace="5" border="0" alt="学籍异动申请（门户）" title="学籍异动申请（门户）"></a><div class="titlestyle1048492" align="center">
+            学籍异动申请（门户）
+             
+
+          </div></td>
+        <td><a href="https://v.dlut.edu.cn" target="_blank" onclick="_addDynClicks('wbimage',1502106601,67299)"><img src="sykslj/vpn.jpg" width="230" height="120" hspace="6" vspace="5" border="0" alt="校内vpn" title="校内vpn"></a><div class="titlestyle1048492" align="center">
+            校内vpn
+             
+
+          </div></td>
+        <td><a href="http://tulip.dlut.edu.cn" target="_blank" onclick="_addDynClicks('wbimage',1502106601,67298)"><img src="sykslj/tulip.jpg" width="230" height="120" hspace="6" vspace="5" border="0" alt="上网服务和明细，邮件服务" title="上网服务和明细，邮件服务"></a><div class="titlestyle1048492" align="center">
+            上网服务和明细，邮件服务
+             
+
+          </div></td>
+        <td><a href="http://eproof.dlut.edu.cn/#/student-manage/online-apply" target="_blank" onclick="_addDynClicks('wbimage',1502106601,67297)"><img src="sykslj/print.jpg" width="230" height="120" hspace="6" vspace="5" border="0" alt="在读证明，无违纪证明，成绩单等" title="在读证明，无违纪证明，成绩单等"></a><div class="titlestyle1048492" align="center">
+            在读证明，无违纪证明，成绩单等
+             
+
+          </div></td>
+        <td><a href="http://pan.dlut.edu.cn" target="_blank" onclick="_addDynClicks('wbimage',1502106601,67296)"><img src="sykslj/pan.jpg" width="230" height="120" hspace="6" vspace="5" border="0" alt="网络云盘" title="网络云盘"></a><div class="titlestyle1048492" align="center">
+            网络云盘
+             
+
+          </div></td>
+        </tr>
+        <tr>
+    <td><a href="http://map.dlut.edu.cn" target="_blank" onclick="_addDynClicks('wbimage',1502106601,67294)"><img src="sykslj/map.jpg" width="230" height="120" hspace="6" vspace="5" border="0" alt="校园地图" title="校园地图"></a><div class="titlestyle1048492" align="center">
+            校园地图
+             
+
+          </div></td>
+        <td><a href="http://lx.dlut.edu.cn:8080/lx/login/sso" target="_blank" onclick="_addDynClicks('wbimage',1502106601,67293)"><img src="sykslj/lx.jpg" width="230" height="120" hspace="6" vspace="5" border="0" alt="离校系统" title="离校系统"></a><div class="titlestyle1048492" align="center">
+            离校系统
+             
+
+          </div></td>
+        <td><a href="https://www.lib.dlut.edu.cn" target="_blank" onclick="_addDynClicks('wbimage',1502106601,67292)"><img src="sykslj/lib.jpg" width="230" height="120" hspace="6" vspace="5" border="0" alt="图书馆" title="图书馆"></a><div class="titlestyle1048492" align="center">
+            图书馆
+             
+
+          </div></td>
+        <td><a href="http://dlutir.dlut.edu.cn/" target="_blank" onclick="_addDynClicks('wbimage',1502106601,67291)"><img src="sykslj/jgzsk.jpg" width="230" height="120" hspace="6" vspace="5" border="0" alt="机构知识库" title="机构知识库"></a><div class="titlestyle1048492" align="center">
+            机构知识库
+             
+
+          </div></td>
+        <td><a href="http://ecard.dlut.edu.cn" target="_blank" onclick="_addDynClicks('wbimage',1502106601,67290)"><img src="sykslj/ecard.jpg" width="230" height="120" hspace="6" vspace="5" border="0" alt="玉兰卡查询，业务办理" title="玉兰卡查询，业务办理"></a><div class="titlestyle1048492" align="center">
+            玉兰卡查询，业务办理
+             
+
+          </div></td>
+        </tr>
+        </table>
+</div>
+
+
+<div class="cb"></div>
+
+
+
+<div class="footer"><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>邮政编码：116024 传真：0411-84707700 电话：0411-84708330 E-mail:yjsyzhb@dlut.edu.cn<br />通讯地址：辽宁省大连市甘井子区凌工路2号，大连理工大学研究生院</p></div></div>
+<script type="text/javascript" src="zhineng/imin.js" id="robot" access_token="" business_system=""></script>
+</body></html>

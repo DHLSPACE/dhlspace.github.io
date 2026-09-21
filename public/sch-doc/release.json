@@ -1,11 +1,8 @@
 {
-  "version": 8,
-  "runtime_version": 7,
-  "built_at": "2026-09-20T08:30:46+08:00",
-  "data_published_at": "2026-09-18T20:27:43+08:00",
-  "source_data": "existing public HEAD only",
+  "version": 9,
+  "built_at": "2026-09-21T15:16:55+08:00",
   "assets": {
-    "index.html": "38980a1b858d56ace8e739de700689d22d1460bf592469c2cf30f7005ae2de1e",
+    "index.html": "0dc1413a39bd88a84f3e23795396c12ce03233059368f4a4c59b79d2808cd86d",
     "style.css": "06c2839fadf599542c9b5537a3797218ba5ddb435757f4801adf8bedf18c037a",
     "glass.css": "f5d8f2f1e7d27361648b758202dedf657fe3330e9e6c38dc8fbf3b7b31e3e52b",
     "library.css": "837beedfdfd1f8029ee477fc1da0404cd26e42eb81e568affd61260ee02ad8d8",
@@ -14,9 +11,9 @@
     "workspace.js": "0032fb50bc394c9f41ec1030ae6d078f4809e24b66c23fdbe5f0e9102de0dc42",
     "library.js": "15208a5c19cde81ec7a1a6b900697fc85a23d27ec1d60c44f959341ae658d857",
     "focus.js": "687c9122a73719e303d7ba2dcb27c21490f32a1abc553cf5c678ad120b393028",
-    "help.html": "24525740636b839ecc208b321699499fb90883badf98663b30e30611c55e352a",
+    "help.html": "01b8eb35fe4373ce26304fdb918c7294b995e3f7ca9e5bcd3a54ef634b4311ba",
     "public.js": "3c0d16d6164a688d4fa02e9164a3a9785f3cb2aed6649c15a86a49de7dafa362",
-    "public.css": "2766db07c368b226853a485d5a6e86b0db1f10390389190c817babdf1f6d344e",
+    "public.css": "5bd728057fa6de54660b2f494051d9c67dd880e59c8770f9ce28869ce6c57c08",
     "local-tools.js": "02befca8ab2bc8f1d05adf2de0235a57cef200cd87686ba9274fb7c4d24d1df0",
     "local-tools.css": "8e1936a400a21d621387e80e1629b373990d90287a5c398b09971d1bce581884",
     "experience.js": "2f576291b804c814ef44628e2adc18b44dc8cdb407da9457c5d474dd835755e8",
@@ -26,7 +23,9 @@
     "snapshot-guide.html": "b5a1107f86f44c3ddbc02d1d44a5009146e6963edd35ece4cc97235b9726dda5",
     "card-browser.js": "ddcaa39cc031b0d26567145940cee3342363c376f3de8e58e16229ce249195fa",
     "card-browser.css": "8f37179790a8d233bd02d9387876e1222a4d714b4d5b5d543213af45e4cb73fe",
+    "atlas-upgrade.js": "c01892de3c76d3312aedffed9d7ebe8bac99a65deaa9c934c09ef2b1b122d9eb",
+    "atlas-upgrade.css": "d1087bf14ef11b2b130f27a0d7f7300daf388fe2acce695d7320f35f8ead12cd",
     "icon.svg": "7f2f1d1244fae898bfd3ee81bbd657adf52655ea18f80892545d2fc8ee0fb469",
-    "data.json": "29d48d4c4789315423daa5090d182879a31ec8301d4600be408711234e050361"
+    "data.json": "d1c5952b5d36306706e9debb903194590c8eca87fc17133a66d9ec0100186b28"
   }
 }

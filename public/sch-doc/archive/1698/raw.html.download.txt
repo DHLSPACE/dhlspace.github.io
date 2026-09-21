@@ -1,0 +1,776 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7]><html class="no-js lt-ie7" lang="zh"><![endif]-->
+<!--[if IE 7]> <html class="no-js ie7" lang="zh"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="zh"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="zh"> <![endif]-->
+<!--[if IE 10]><html class="no-js ie ie10 lt-ie11" lang="zh"><![endif]-->
+<!--[if !IE]><!--> 
+
+<html class="no-js" lang="zh"> <!--<![endif]-->
+    <head>
+		<title>中国科学院大学化学工程学院</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+		<base href="https://sce.ucas.ac.cn/index.php/zh/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="化学工程学院" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>首页</title>
+	<link href="/index.php/zh/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+	<link href="/index.php/zh/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+	<link href="https://sce.ucas.ac.cn/index.php/zh/" rel="alternate" hreflang="zh-CN" />
+	<link href="https://sce.ucas.ac.cn/index.php/en/" rel="alternate" hreflang="en-GB" />
+	<link href="/templates/yuanxi/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://sce.ucas.ac.cn/index.php/zh/component/search/?layout=blog&amp;id=8&amp;Itemid=176&amp;format=opensearch" rel="search" title="搜索 化学工程学院" type="application/opensearchdescription+xml" />
+	<script src="/media/jui/js/jquery.min.js?02cf8fcd652c6db90f8dfc73583dd418" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?02cf8fcd652c6db90f8dfc73583dd418" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?02cf8fcd652c6db90f8dfc73583dd418" type="text/javascript"></script>
+	<script src="/media/system/js/caption.js?02cf8fcd652c6db90f8dfc73583dd418" type="text/javascript"></script>
+	<script src="/media/jui/js/bootstrap.min.js?02cf8fcd652c6db90f8dfc73583dd418" type="text/javascript"></script>
+	<!--[if lt IE 9]><script src="/media/system/js/html5fallback.js?02cf8fcd652c6db90f8dfc73583dd418" type="text/javascript"></script><![endif]-->
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+	</script>
+	<link href="https://sce.ucas.ac.cn/index.php/zh/" rel="alternate" hreflang="x-default" />
+
+		
+        <link href="/templates/stylelib/base.css" rel="stylesheet" type="text/css" />
+        <link href="/templates/stylelib/theme_tow/screen.css" rel="stylesheet" type="text/css" />
+        <link href="/templates/stylelib/theme_tow/blue.css" rel="stylesheet" type="text/css" />
+        <script src="/templates/stylelib/plugins/modernizr.js"></script>
+		<script src="/templates/stylelib/jquery-1.10.2.min.js"></script>
+		
+		
+    </head>
+    <body
+		style="background:0 0 repeat #ffffff"
+	>
+
+       <!--//topbar:start ***********************************************-->
+        <div id="alert-upgrade-nojs">
+            <ul>
+                <li class="aun-up">
+                    <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">
+                        Internet Explorer is missing updates required to properly view this site. Click here to update…
+                    </a>
+                </li>
+                <li class="aun-js">您的浏览器已禁用JavaScript,(da)启(kai)用才能正常访问！</li>
+            </ul>
+        </div>
+        <!--//topbar:end-->
+        
+
+        <!--//header:start ***********************************************-->
+        <div id="header"
+		style="background:0 0 repeat #ffffff"
+		>
+            <div class="container">
+                <h1 id="logo">
+					                    <a href="http://www.ucas.ac.cn/" class="m-logo-ucas" title="返回" alt="">
+                        <img src="/images/headers/logo_ucas3.png" alt="">
+                        <span></span>
+                    </a>
+															 <a href="/" class="m-logo-sys" title="返回化学工程学院" alt="化学工程学院">
+                        <img src="/images/headers/logo_ucas3_w.png" title="返回化学工程学院" alt="化学工程学院">
+                        <span>化学工程学院</span>
+                    </a>
+				
+					                </h1>
+				
+				
+				<ul class="b-toplink">
+					<li>
+
+<div class="custom"  >
+	<p><a href="#" target="_blank">English</a>&nbsp; &nbsp; &nbsp;<a href="https://mail.cstnet.cn" target="_blank" rel="noopener">邮箱</a><a href="#" target="_blank">&nbsp; &nbsp; &nbsp;</a><a href="/index.php/zh/lxwm" target="_blank">联系我们</a></p></div>
+</li>
+				</ul>
+
+				<div style="float: right;margin-top:20px;"><div class="search">
+	<form action="/index.php/zh/" method="post" class="form-inline" role="search">
+		<label for="mod-search-searchword108" class="element-invisible">站内搜索</label> <input name="searchword" id="mod-search-searchword108" maxlength="200"  class="inputbox search-query input-medium" type="search" placeholder="搜索..." />		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="176" />
+	</form>
+</div>
+</div>
+            </div><!--//container-fluid:end-->
+        </div><!--//header:end-->
+	
+       	 <div class="b-pagenavbar"
+			 >
+            <div class="container"> 
+				<!--
+                // b-menu
+                // 在后台里需要这只这里是否添加 no-line 这个类名，添加上这个类名导航各个选项之间的分割线样式取消。
+                -->
+				<ul class="b-menu">
+					
+<li class="bm-node active"><a bm-node active class="bm-btn "href="/index.php/zh/" >首页</a></li><li class="bm-node"><a bm-node class="bm-btn "href="/index.php/zh/xeuyuangaikuang/xeuyuanjianjie" >学院概况</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh/xeuyuangaikuang/xeuyuanjianjie" >学院简介</a></li><li class=""><a  class=" "href="/index.php/zh/xeuyuangaikuang/xeuyuanlingdao" >学院领导</a></li><li class=""><a  class=" "href="/index.php/zh/xeuyuangaikuang/xeuyuanbangongshi" >学院办公室</a></li><li class=""><a  class=" "href="/index.php/zh/xeuyuangaikuang/xeuyuanjiaoyanshi" >学院教研室</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn "href="/index.php/zh/shiziduiwu" >师资队伍</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh/shiziduiwu/liangyuanyuanshi" >两院院士</a></li><li class=""><a  class=" "href="/index.php/zh/shiziduiwu/jiechurencai" >杰出青年</a></li><li class=""><a  class=" "href="/index.php/zh/shiziduiwu/fulltimeteacher" >专任教师</a></li><li class=""><a  class=" "href="/index.php/zh/shiziduiwu/graduateteacher" >研究生导师</a></li><li class=""><a  class=" "href="/index.php/zh/shiziduiwu/jyglgb" >教育管理干部</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn "href="/index.php/zh/xueshuyanjiu/keyantuandui" >学术研究</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh/xueshuyanjiu/keyantuandui" >科研团队</a></li><li class=""><a  class=" "href="/index.php/zh/xueshuyanjiu/keyanchengguo" >科研成果</a></li><li class=""><a  class=" "href="/index.php/zh/xueshuyanjiu/xueshuhuodong" >学术活动</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn "href="/index.php/zh/jiaoyujiaoxue/kechengshezhi" >教育教学</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh/jiaoyujiaoxue/kechengshezhi" >课程设置</a></li><li class=""><a  class=" "href="/index.php/zh/jiaoyujiaoxue/jiaowuxinxi" >教务信息</a></li><li class=""><a  class=" "href="/index.php/zh/jiaoyujiaoxue/xiangguanxiaza" >相关下载</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn "href="/index.php/zh/zhaoshengjiuye/zhaoshengshuoshi" >招生就业</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh/zhaoshengjiuye/zhaoshengshuoshi" >硕士招生</a></li><li class=""><a  class=" "href="/index.php/zh/zhaoshengjiuye/boshizhaosheng" >博士招生</a></li><li class=""><a  class=" "href="/index.php/zh/zhaoshengjiuye/xiangguanxiaz" >相关下载</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn "href="/index.php/zh/dangjianyuandi/zuzhijianshe" >党建园地</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh/dangjianyuandi/zuzhijianshe" >组织建设</a></li><li class=""><a  class=" "href="/index.php/zh/dangjianyuandi/shishenghuodong" >师生活动</a></li><li class=""><a  class=" "href="/index.php/zh/dangjianyuandi/xiangguanxia" >相关下载</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn "href="/index.php/zh/xueshengyuandi/zhuzhijianshe" >学生园地</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh/xueshengyuandi/zhuzhijianshe" >组织建设</a></li><li class=""><a  class=" "href="/index.php/zh/xueshengyuandi/xueshenghuodong" >学生活动</a></li><li class=""><a  class=" "href="/index.php/zh/xueshengyuandi/xiangguanxiazai" >相关下载</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn "href="/index.php/zh/rencaizhaopin/zhaopingangwei" >人才招聘</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh/rencaizhaopin/zhaopingangwei" >招聘岗位</a></li><li class=""><a  class=" "href="/index.php/zh/rencaizhaopin/xiangguanxiazai" >相关下载</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn "href="/index.php/zh/xiangguanyuansuo" >相关院所</a></li></ul>
+				</ul>
+	     </div><!--//container:end-->
+    </div><!--//b-pagenavbar:end-->
+	
+					<div class="b-maincontent">
+			 <div class="container">
+                <div class="row-fluid">
+									<div class="span8">
+												      
+                        <div class="b-hero">
+                            <div id="homecarousel" class="carousel slide full">
+                                 <ol class="carousel-indicators">
+                                    								  <li  data-target="#homecarousel" data-slide-to="0"
+								   								   class="active" 
+								  								  ></li>
+									
+																  <li  data-target="#homecarousel" data-slide-to="1"
+								   								  ></li>
+									
+																  <li  data-target="#homecarousel" data-slide-to="2"
+								   								  ></li>
+									
+																  <li  data-target="#homecarousel" data-slide-to="3"
+								   								  ></li>
+									
+																  <li  data-target="#homecarousel" data-slide-to="4"
+								   								  ></li>
+									
+								                                </ol>
+                                <div class="carousel-inner" >
+                              
+                                  								  <div class="item 
+								  								  active
+								  								  ">
+								  								  <a href="/index.php/zh/xueyuanxinwen/1094-2024-2">
+										 <img  src="/images/2024/202410/214817_656452_22.png" alt="2024年全国化工学院学科建设">
+								</a>
+									
+									<div class="carousel-caption" >
+									
+									 <a href="/index.php/zh/xueyuanxinwen/1094-2024-2" target="_blank">
+                                            <h4 >
+											   	2024年全国化工学院学科建设与发展高端论坛成功举办											 </h4>											 
+                                      </a>     
+                                        </div>
+									
+                                  </div>
+																  <div class="item 
+								  								  ">
+								  								  <a href="/index.php/zh/xueyuanxinwen/1087-2024">
+										 <img  src="/images/2024/202408/204532_618773_1.jpg" alt="灼灼少年风华起，开学逐梦展新篇">
+								</a>
+									
+									<div class="carousel-caption" >
+									
+									 <a href="/index.php/zh/xueyuanxinwen/1087-2024" target="_blank">
+                                            <h4 >
+											   	灼灼少年风华起，开学逐梦展新篇｜国科大化工学院举行2024级新生开学典礼											 </h4>											 
+                                      </a>     
+                                        </div>
+									
+                                  </div>
+																  <div class="item 
+								  								  ">
+								  								  <a href="/index.php/zh/xueyuanxinwen/1053-2024-04-19-07-40-29">
+										 <img  src="/images/2024/202404/154019_788994_CF4A1200.JPG" alt="岁月如歌，感恩有您——化学化工">
+								</a>
+									
+									<div class="carousel-caption" >
+									
+									 <a href="/index.php/zh/xueyuanxinwen/1053-2024-04-19-07-40-29" target="_blank">
+                                            <h4 >
+											   	岁月如歌，感恩有您——化学化工纳米学院党委举行教师荣退仪式											 </h4>											 
+                                      </a>     
+                                        </div>
+									
+                                  </div>
+																  <div class="item 
+								  								  ">
+								  								  <a href="/index.php/zh/xueyuanxinwen/824-2022-10-29-10-22-07">
+										 <img  src="/images/2022/202210/10.29-11_-_副本.jpg" alt="化学院联合党委理论学习中心组（">
+								</a>
+									
+									<div class="carousel-caption" >
+									
+									 <a href="/index.php/zh/xueyuanxinwen/824-2022-10-29-10-22-07" target="_blank">
+                                            <h4 >
+											   	化学院联合党委理论学习中心组（扩大）会议专题学习党的二十大精神											 </h4>											 
+                                      </a>     
+                                        </div>
+									
+                                  </div>
+																  <div class="item 
+								  								  ">
+								  								  <a href="/index.php/zh/xueyuanxinwen/787-2022">
+										 <img  src="/images/2022/202208/140646_432372_IMG_4793.JPG" alt="中国科学院大学化学工程学院举办">
+								</a>
+									
+									<div class="carousel-caption" >
+									
+									 <a href="/index.php/zh/xueyuanxinwen/787-2022" target="_blank">
+                                            <h4 >
+											   	中国科学院大学化学工程学院举办2022级新生开学典礼											 </h4>											 
+                                      </a>     
+                                        </div>
+									
+                                  </div>
+								                                </div>
+                            </div>
+                        </div>    
+				
+
+					</div>
+					<div class="span4">					
+						 <div class="m-pagebox" >
+    <a href="/"><h2 class="mp-title"><span class="mpt-text icon">通知公告</span><span class="hr-after"></span> </h2>	</a>								
+		
+	<ul  class="mp-list tzgg">                              
+		      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2026-06-15</span>
+										<a class="top " href="/index.php/zh/tongzhigonggao/1207-2026-06-15-08-15-22" title="第三届“张懿院士杰出青年教师奖”奖励公示" >
+				第三届“张懿院士杰出青年教师奖”奖励公示				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2026-06-05</span>
+										<a class="top " href="/index.php/zh/tongzhigonggao/1206-2026-22" title="化学工程学院2026级集中教学新生党团组织关系转接说明" >
+				化学工程学院2026级集中教学新生党团组织关系转接说明				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2026-05-19</span>
+										<a class="top " href="/index.php/zh/tongzhigonggao/1197-2025-2027" title="化学工程学院2025-2026学年集中教学优秀学生初评结果公示" >
+				化学工程学院2025-2026学年集中教学优秀学生初评结果公示				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2026-04-23</span>
+										<a class="top " href="/index.php/zh/tongzhigonggao/1185-2026-04-23-04-36-33" title="校党委巡察组向化学化工纳米学院党委反馈巡察情况" >
+				校党委巡察组向化学化工纳米学院党委反馈巡察情况				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2026-04-02</span>
+										<a class="top " href="/index.php/zh/tongzhigonggao/1182-2026-2" title="化学工程学院关于2026年研究生优秀课程（春季学期）遴选推荐名单的公示" >
+				化学工程学院关于2026年研究生优秀课程（春季学期）遴选推荐名单的公示				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2026-03-18</span>
+										<a class="top " href="/index.php/zh/tongzhigonggao/1178-2025-2026" title="化学化工纳米学院团委2025-2026学年“两红两优”初评公示" >
+				化学化工纳米学院团委2025-2026学年“两红两优”初评公示				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2025-10-31</span>
+										<a class="top " href="/index.php/zh/tongzhigonggao/1131-2025-3" title="化学工程学院2025年中国科学院大学 “小米青年学者”  候选人推荐名单公示" >
+				化学工程学院2025年中国科学院大学 “小米青年学者”  候选人推荐名单公示				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2025-10-20</span>
+										<a class="top " href="/index.php/zh/tongzhigonggao/1129-2025-10-20-10-26-02" title="关于巡察化学化工纳米学院党委的公告" >
+				关于巡察化学化工纳米学院党委的公告				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2025-10-14</span>
+										<a class="top " href="/index.php/zh/tongzhigonggao/1128-2026" title="化学工程学院2026年研究生优秀课程遴选拟推荐名单公示" >
+				化学工程学院2026年研究生优秀课程遴选拟推荐名单公示				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2025-10-14</span>
+										<a class="top " href="/index.php/zh/tongzhigonggao/1127-2025-10-14-02-10-10" title="化学工程学院2025年研究生优秀课程拟推荐名单公示" >
+				化学工程学院2025年研究生优秀课程拟推荐名单公示				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2025-10-14</span>
+										<a class="top " href="/index.php/zh/tongzhigonggao/1126-2025-2" title="化学工程学院2025年李佩优秀教师奖候选人推荐名单公示" >
+				化学工程学院2025年李佩优秀教师奖候选人推荐名单公示				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	
+<a href="/index.php/zh/tongzhigonggao" class="m-more" ><span>更多</span></a>
+
+	</ul>
+<!--//m-pagebox:end-->
+ </div><!--//span4:end-->			
+										
+					</div>
+					
+                </div><!--//row-fluid:end-->
+
+                <div class="row-fluid">
+									<div class="span4"> <div class="m-pagebox" >
+    <a href="/"><h2 class="mp-title"><span class="mpt-text icon">学院新闻</span><span class="hr-after"></span> </h2>	</a>								
+		
+	<ul  class="mp-list ">                              
+		      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon totop">
+								<span class="mpl-date">2026-09-06</span>
+										<a class="top " href="/index.php/zh/xueyuanxinwen/1211-2026-09-06-13-56-38" title="开学第一课｜张锁江院士——化工新范式下研究生的学习与成长" >
+				开学第一课｜张锁江院士——化工新范式下研究生的学习与成长				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon totop">
+								<span class="mpl-date">2026-09-06</span>
+										<a class="top " href="/index.php/zh/xueyuanxinwen/1210-2026" title="丹桂扬辉开新序 科创砺志育英才 ——中国科学院大学化学工程学院举行2026级新生开学典礼" >
+				丹桂扬辉开新序 科创砺志育英才 ——中国科学院大学化学工程学院举行2026级新生开学典礼				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2026-09-20</span>
+										<a class="top " href="/index.php/zh/xueyuanxinwen/1212-2026-09-20-09-11-30" title="深学民族法治，共筑精神家园——中国科学院大学化学化工纳米学院党委教工党支部联合开展《民族团结进步促进法》专题学习" >
+				深学民族法治，共筑精神家园——中国科学院大学化学化工纳米学院党委教工党支部联合开展《民族团结进步促进法》专题学习				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2026-06-23</span>
+										<a class="top " href="/index.php/zh/xueyuanxinwen/1209-2026-06-23-08-07-45" title="深学细悟总书记重要讲话精神，筑牢基础研究发展根基——化学化工纳米学院党委召开理论学习中心组专题学习会" >
+				深学细悟总书记重要讲话精神，筑牢基础研究发展根基——化学化工纳米学院党委召开理论学习中心组专题学习会				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2026-05-25</span>
+										<a class="top " href="/index.php/zh/xueyuanxinwen/1203-2026-05-25-06-20-45" title="凝心聚力抓整改，实干担当促发展 ——化学化工纳米学院党委召开党政联席会暨巡察整改专题民主生活会" >
+				凝心聚力抓整改，实干担当促发展 ——化学化工纳米学院党委召开党政联席会暨巡察整改专题民主生活会				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	
+<a href="/index.php/zh/xueyuanxinwen" class="m-more" ><span>更多</span></a>
+
+	</ul>
+<!--//m-pagebox:end-->
+ </div><!--//span4:end-->			
+</div>
+					<div class="span4"> <div class="m-pagebox" >
+    <a href="/"><h2 class="mp-title"><span class="mpt-text icon">学生活动</span><span class="hr-after"></span> </h2>	</a>								
+		
+	<ul  class="mp-list ">                              
+		      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2026-06-16</span>
+										<a class="top " href="/index.php/zh/xueshengyuandi/xueshenghuodong/1208-20252101-14" title="严格发展程序，发扬党内民主 ——化工学院20252101党支部召开接收郭玉炫同志为预备党员支部大会" >
+				严格发展程序，发扬党内民主 ——化工学院20252101党支部召开接收郭玉炫同志为预备党员支部大会				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2026-05-28</span>
+										<a class="top " href="/index.php/zh/xueshengyuandi/xueshenghuodong/1205-20252101-20252104" title="深研历史根脉，同心共铸意识 ——化工学院20252101、20252104党支部线上线下联动开展“铸牢中华民族共同体意识”实践教育活动" >
+				深研历史根脉，同心共铸意识 ——化工学院20252101、20252104党支部线上线下联动开展“铸牢中华民族共同体意识”实践教育活动				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2026-05-26</span>
+										<a class="top " href="/index.php/zh/xueshengyuandi/xueshenghuodong/1204-20252105-9" title="寻根溯源悟中华文脉，凝心聚力筑民族之魂——化工学院20252105党支部开展5月主题实践教育活动" >
+				寻根溯源悟中华文脉，凝心聚力筑民族之魂——化工学院20252105党支部开展5月主题实践教育活动				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2026-05-25</span>
+										<a class="top " href="/index.php/zh/xueshengyuandi/xueshenghuodong/1201-20252103-4" title="华夏文脉薪火传，同心聚力共同体——化工学院20252103党支部开展“铸牢中华民族共同体意识”实践教育活动" >
+				华夏文脉薪火传，同心聚力共同体——化工学院20252103党支部开展“铸牢中华民族共同体意识”实践教育活动				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+								<span class="mpl-date">2026-05-22</span>
+										<a class="top " href="/index.php/zh/xueshengyuandi/xueshenghuodong/1200-2026-05-22-07-06-08" title="书香育英才，科研砺初心丨化学化工纳米学院党委举办“好书伴我科研行”读书交流分享会" >
+				书香育英才，科研砺初心丨化学化工纳米学院党委举办“好书伴我科研行”读书交流分享会				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	
+<a href="/index.php/zh/xueshengyuandi/xueshenghuodong" class="m-more" ><span>更多</span></a>
+
+	</ul>
+<!--//m-pagebox:end-->
+ </div><!--//span4:end-->			
+</div>
+					<div class="span4"> <div class="m-pagebox" >
+    <a href="/"><h2 class="mp-title"><span class="mpt-text icon">教学培养</span><span class="hr-after"></span> </h2>	</a>								
+		
+	<ul  class="mp-list ">                              
+		      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+											<a class="top " href="/index.php/zh/jiaoxuepeiyang/1124-2024-2025" title="2024-2025学年选课须知" >
+				2024-2025学年选课须知				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+											<a class="top " href="/index.php/zh/jiaoxuepeiyang/786-2022-2023" title="2022-2023学年选课须知" >
+				2022-2023学年选课须知				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+											<a class="top " href="/index.php/zh/jiaoxuepeiyang/602-2021-2022" title="2021-2022学年选课须知" >
+				2021-2022学年选课须知				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+											<a class="top " href="/index.php/zh/jiaoxuepeiyang/387-2020-2021" title="2020-2021学年选课须知" >
+				2020-2021学年选课须知				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+											<a class="top " href="/index.php/zh/jiaoxuepeiyang/252-2019-2020" title="2019-2020学年选课须知" >
+				2019-2020学年选课须知				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	
+<a href="/index.php/zh/jiaoxuepeiyang" class="m-more" ><span>更多</span></a>
+
+	</ul>
+<!--//m-pagebox:end-->
+ </div><!--//span4:end-->			
+</div>
+				                </div><!--//row-fluid:end-->
+				 
+				<div class="row-fluid">
+									<div class="span4"> <div class="m-pagebox" >
+    <a href="/"><h2 class="mp-title"><span class="mpt-text icon">学术研究</span><span class="hr-after"></span> </h2>	</a>								
+		
+	<ul  class="mp-list ">                              
+		      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon totop">
+											<a class="top " href="/index.php/zh/xueshuyanjiu/xueshuhuodong/973-2023-09-26-06-47-26" title="科学前沿讲座｜张涛院士：科研选题实践与思考" >
+				科学前沿讲座｜张涛院士：科研选题实践与思考				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+											<a class="top " href="/index.php/zh/xueshuyanjiu/xueshuhuodong/999-act" title="过程工程所在瘤内基因编辑增效ACT疗法研究方面取得新进展" >
+				过程工程所在瘤内基因编辑增效ACT疗法研究方面取得新进展				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+											<a class="top " href="/index.php/zh/xueshuyanjiu/xueshuhuodong/998-2023-11-08-07-36-43" title="过程工程所在光控增效型全肿瘤细胞疫苗方面取得新进展" >
+				过程工程所在光控增效型全肿瘤细胞疫苗方面取得新进展				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+											<a class="top " href="/index.php/zh/xueshuyanjiu/xueshuhuodong/997-2023-11-08-07-29-55" title="电荷变构外泌体用于类风湿关节炎协同治疗取得新进展" >
+				电荷变构外泌体用于类风湿关节炎协同治疗取得新进展				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+											<a class="top " href="/index.php/zh/xueshuyanjiu/xueshuhuodong/996-2023-11-08-07-06-44" title="基于自愈合大孔微球的外泌体眼内缓释剂型研究取得新进展" >
+				基于自愈合大孔微球的外泌体眼内缓释剂型研究取得新进展				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+											<a class="top " href="/index.php/zh/xueshuyanjiu/xueshuhuodong/960-2023-06-09-08-12-05" title="隔板塔应用于非均相共沸精馏的节能工艺取得新进展" >
+				隔板塔应用于非均相共沸精馏的节能工艺取得新进展				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	      <!--//首页内容 小框框 内容列表 -->
+		<li class="icon ">
+											<a class="top " href="/index.php/zh/xueshuyanjiu/xueshuhuodong/957-2023-06-06-01-20-41" title="离子液体催化丁烯可控齐聚取得新进展" >
+				离子液体催化丁烯可控齐聚取得新进展				</a>
+			
+			
+			
+			
+						
+			
+			
+		</li>
+	
+<a href="/index.php/zh/xueshuyanjiu/xueshuhuodong" class="m-more" ><span>更多</span></a>
+
+	</ul>
+<!--//m-pagebox:end-->
+ </div><!--//span4:end-->			
+</div>
+					<div class="span4"> <div class="m-pagebox" >
+    <a href="/"><h2 class="mp-title"><span class="mpt-text icon">常用信息</span><span class="hr-after"></span> </h2>	</a>								
+		
+	<ul  class="mp-list cyxx">                              
+	
+<ul class="menu b-menu">
+<li class="bm-node item-170"><a  class="bm-node item-170" class="bm-btn "href="http://hqfw.ucas.edu.cn/" ><img src="/images/x1.png" alt="校园服务网" /><span class="image-title">校园服务网</span> </a></li><li class="bm-node item-171"><a  class="bm-node item-171" class="bm-btn "href="http://onestop.ucas.ac.cn/home/newslist/6432ba53-ba4b-4c3c-b609-8fa81bc7868a" ><img src="/images/x2.png" alt="教务信息" /><span class="image-title">教务信息</span> </a></li><li class="bm-node item-172"><a  class="bm-node item-172" class="bm-btn "href="https://onestop.ucas.ac.cn/home/tool/98d55d93-48ae-488e-8ce8-7c0801a03149/2" ><img src="/images/x3.png" alt="班车信息" /><span class="image-title">班车信息</span> </a></li></ul>
+	</ul>
+<!--//m-pagebox:end-->
+ </div><!--//span4:end-->			
+</div>
+					<div class="span4"> <div class="" >
+    <a href="/"><h2 class="page-header"><span>链接</span><span class="hr-after"></span></h2>	</a>								
+		
+	<ul  class="index-link">                              
+	
+
+<div class="customindex-link"  >
+	<table style="height: 245px; width: 309px;" border="0">
+<tbody>
+<tr>
+<td><a href="http://sep.ucas.ac.cn/"><img src="https://sce.ucas.ac.cn/images/01.png" alt="01" /></a></td>
+<td rowspan="3"><a href="http://www.ucas.ac.cn/"><img src="https://sce.ucas.ac.cn/images/04.png" alt="01" width="97" height="267" /></a></td>
+</tr>
+<tr>
+<td><a href="https://lib.ucas.ac.cn/"><img src="https://sce.ucas.ac.cn/images/02.png" alt="01" /></a></td>
+</tr>
+<tr>
+<td><a href="http://duzhi.ucas.ac.cn/"><img src="https://sce.ucas.ac.cn/images/03.png" alt="01" /></a></td>
+</tr>
+</tbody>
+</table></div>
+	</ul>
+<!--//m-pagebox:end-->
+ </div><!--//span4:end-->					
+</div>
+				                </div><!--//row-fluid:end-->
+                  
+            </div><!--//container:end-->
+			</div>		
+			           
+
+        <!--//footer:start ***********************************************-->
+        <footer id="footer">
+		   <div class="container">
+				<div class="b-footer-link">                
+                    
+                </div>
+				
+
+<div class="custom"  >
+	<div style="padding-left: 140px; padding-top: 20px; color: #fff;">
+<p>@ 中国科学院大学版权所有&nbsp;</p>
+<p>地址：北京市石景山区玉泉路19号（甲） 邮编:100049&nbsp; &nbsp; 京ICP备07017956号</p>
+</div></div>
+
+			</div>
+        </footer><!--//footer:end-->
+
+        <!--// Loading JS -->
+       
+        <script src="/templates/stylelib/base.js"></script>
+        
+        <!--common script for all pages-->
+        <script src="/templates/stylelib/theme_tow/global.js"></script>
+		
+        <!--// JS End -->
+		
+    </body>
+</html>

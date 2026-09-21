@@ -1,0 +1,246 @@
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
+	    <meta name="format-detection" content="telephone=no"/>
+	    <meta name="renderer" content="webkit" />
+	    <title>综合信息平台</title>
+		
+
+
+
+
+
+
+<link href="/static/xxpt/css/main.css?1.0.5" rel="stylesheet">
+<link rel="stylesheet" href="/static/xxpt/js/swiper/swiper-3.4.2.min.css">
+<script type="text/javascript" src="/static/xxpt/js/jquery-3.6.0.min.js"></script>
+<script defer src="/static/xxpt/js/main.js?1.0.5"></script>
+<script type="text/javascript" src="/static/xxpt/js/TweenMax.min.js"></script>
+<script type="text/javascript" src="/static/xxpt/js/swiper/swiper-3.4.2.jquery.min.js"></script>
+
+
+	</head>
+	<body>
+		<div class="g-headD"></div>
+<div class="g-head">
+    <div class="wal">
+        <a href="/publish/infors" class="logo"></a>
+        <div class="side">
+            <ul>
+                <li class="li_01">
+                   <a href="/index"> 网上报名
+                       </a></li>
+                <li class="li_02">
+                   <a href="https://yz.tsinghua.edu.cn">清华大学研究生招生网
+                       </a></li>
+                </ul>
+        </div>
+        <div class="navA">
+            <span>&#xe601;</span>
+            <span>&#xe61d;</span>
+        </div>
+        <div class="phone-nav">
+            <div class="list">
+                <ul>
+                    <li>
+                        <a href="/publish/s02/s0201/list" class="name">硕士招生</a>
+                    </li>
+                    <li>
+                        <a href="/publish/s03/s0301/list" class="name on">博士招生</a>
+                    </li>
+                    <li>
+                        <a href="/publish/s01/s0101/list" class="name">推免招生</a>
+                    </li>
+                    <li>
+                        <a href="/publish/s04/s0401/list" class="name">港澳台招生</a>
+                    </li>
+                    <li>
+                        <a href="/publish/s05/s0501/list" class="name">国际招生<span>International Admissions</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="foot">
+               <ul>
+	               <li class="li_01"><a href="">网上报名</a></li>
+	               <li class="li_02"><a href="https://yz.tsinghua.edu.cn">清华大学研究生招生网 </a></li>
+	               <li class="li_03"><a href="/robot/index" target="_blank" rel="noopener">智能客服</a></li>
+	           </ul>
+            </div>
+        </div>
+    </div>
+</div>
+		
+		<div class="p-banner p-banner-2">
+		    <div class="banner"  style=""></div>
+		    <div class="wal">
+		    	
+		        <div class="g-nav">
+	<form action="" method="post" id="listForm">
+    	<input type="hidden" id="pageNoInput" name="pageNo" value="">
+    	<input type="hidden" name="pageSize" value="20">
+    </form>
+    <ul id="menu">
+        <li>
+            <a href="javascript:void(0);" class="name " data-val="s02">硕士招生</a>
+        </li>
+        <li>
+            <a href="javascript:void(0);" class="name on" data-val="s03">博士招生</a>
+        </li>
+        <li>
+            <a href="javascript:void(0);" class="name " data-val="s01">推免招生</a>
+        </li>
+        <li>
+            <a href="javascript:void(0);" class="name " data-val="s04">港澳台招生</a>
+        </li>
+        <li>
+            <a href="javascript:void(0);" class="name " data-val="s05">International Admissions<span>国际招生</span></a>
+        </li>
+    </ul>
+</div>
+		        
+		        	<div class="select"><span id="select-name">
+	按院系筛选</span>
+        <div id="select-layer" class="layer">
+        </div>
+    </div>
+
+<script>
+	(function($) {
+		$(document).ready(function() {
+			getYxs();
+		});
+	})(jQuery);
+	
+	function getYxs() {
+		$.ajax({
+			type: 'post',
+			async: false,
+			url: '/publish/infors/getYxs',
+			dataType: 'json',
+			success: function(data) {
+				if (data) {
+					var html = '';
+					$.each(data,function(key,values){
+						html += '<dl><dt>'+key+'</dt>';
+					    $(values).each(function(){
+					    	var obj = $(this)[0];
+					    	var curMenu = 's03';
+					    	if(curMenu == 's05'){
+					    		html += '<dd><a href="'+getYxsUrl(obj.yxsdm)+'">'+obj.yxsmc+' '+obj.yxsywmc+'</a></dd>';
+					    	}else{
+					    		html += '<dd><a href="'+getYxsUrl(obj.yxsdm)+'">'+obj.yxsmc+'</a></dd>';
+					    	}
+					    });
+					    html += '</dl>';
+					});
+					$('#select-layer').html(html);
+				}
+			}
+		});
+	}
+	
+	function getYxsUrl(yxsdm) {
+		return '/publish/s03/s0302/list?yxsdm='+yxsdm;
+	}
+</script>
+		        
+		        <div class="curr">
+	<a href="/publish/infors">首页</a><em>→</em>
+	<a href="/publish/s03/s0301/list">
+		博士招生</a><em>→</em>
+	<a href="/publish/s03/s0302/list">
+		招生简章</a>
+</div>
+		    </div>
+		</div>
+	
+		<div class="wal notice-show">
+		    <div class="side">
+		
+	        <div class="time">
+	            <b>30</b>
+	            <div>2026.06</div>
+	        </div>
+		
+        <!-- <div class="share">
+            <div class="name">分享</div>
+            <dl>
+                <dd><a href="javascript:" class="iconfont">&#xe61a;</a>
+                    <div class="layer"><img src="image/ewm.jpg" alt=""></div>
+                </dd>
+                <dd><a href="" class="iconfont">&#xe600;</a></dd>
+            </dl>
+        </div> -->
+    </div>
+    <h1 class="title">清华大学2027年博士研究生招生简章</h1>
+
+	
+		
+		
+			<div class="article-title">
+		        <div class="container-fluid">
+		            <div class="article-info">
+		            	
+		            	
+		            	
+		            	
+		                <span>发布日期：
+		                2026-06-30</span>
+		                <span>浏览量：
+		                85835</span>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="container-fluid">
+		        <div class="article-content">
+		        	
+	            		
+	            		
+	            			<div class="content">
+									<p style="text-align:center;line-height:150%"><strong><span style="font-size: 29px;line-height: 150%;font-family: 楷体">清华大学</span></strong><strong><span style="font-size: 29px;line-height: 150%">2027</span></strong><strong><span style="font-size: 29px;line-height: 150%;font-family: 楷体">年博士研究生招生简章</span></strong></p><p style="line-height:150%"><strong><span style="font-size: 19px;line-height: 150%">&nbsp;</span></strong></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:24px"><strong><span style="font-size: 19px;font-family: 楷体">一、申请条件</span></strong></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">1.&nbsp;</span><span style="font-family: 楷体">拥护中国共产党的领导，具有正确的政治方向，热爱祖国，愿意为社会主义现代化建设服务，遵纪守法，品行端正；</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">2.&nbsp;</span><span style="font-family: 楷体">硕士研究生毕业或已获硕士学位的人员、应届硕士毕业生（最迟须在入学前毕业或取得硕士学位）可申请普通博士生；本校二、三年级非定向就业在读硕士生已按学科培养方案的要求学完全部硕士学位课程并完成开题、各科成绩优秀，经导师同意可申请硕博<span style="font-family: 楷体; text-indent: 32px; text-wrap-mode: wrap;">连读</span>生；应届本科毕业生符合推荐免试条件可申请直博生；</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">3</span><span style="font-family: 楷体">．身体健康状况符合规定的体检标准，心理健康；</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">4</span><span style="font-family: 楷体">．有两位与申请学科有关的副教授（或相当职称）以上的专家推荐；</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">5</span><span style="font-family: 楷体">．论文博士生申请人一般应为获硕士学位后有五年以上实际工作经历者，以及个别获学士学位后有八年以上实际工作经历的优秀人才；在本人所从事的学科或专门技术上取得了优异成绩，在国内外核心刊物或重要学术会议上发表过一定数量的研究论文或作为主要完成人获得过国家级、省部级科技成果奖励；具有独立从事科学研究工作的能力，已作出有创新性的成果，基本达到或接近博士学位水平；</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">6</span><span style="font-family: 楷体">．非全日制<span style="font-family: 楷体; text-indent: 32px; text-wrap-mode: wrap;">专业学位</span>博士的申请人具体要求详见项目相关招生简章；</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif;">7</span><span style="font-family: 楷体;">．对以同等学力身份申请的人员，需在本人所从事的学科或专门技术上取得了优异成绩，发表过高水平的研究论文或作为主要完成人获得过国家级、省部级科技成果奖励。还必须同时具备下列条件：</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">1</span><span style="font-family: 楷体">）获得学士学位后在所要申请专业、学科或相近的领域工作六年及以上（从获得学士学位到博士生入学之日）；</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">2</span><span style="font-family: 楷体">）已修完所申请专业的硕士学位课程及选修课程且成绩合格（须提供授课单位的成绩证明）；</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">8. 我校部分专业启动面向海外高校中国籍优秀本科毕业生招收直接攻读博士学位，申请条件详见参与招生院系的招生简章；</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">9<span style="font-family: 楷体; text-indent: 32px; text-wrap-mode: wrap;">.</span></span><span style="font-family: 楷体">非学历教育的申请人在资格审查时须已获硕士学位，尚未获得硕士学位申请人按同等学力申请人员对待；</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">10.</span><span style="font-family: 楷体">申请人持境外获得的学位证书申请，须通过教育部留学服务中心认证，须提交认证报告；</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">11.&nbsp;</span><span style="font-family: 楷体">申请人须承诺学历、学位证书和所提交报名材料的真实性，一经招生单位或认证部门查证为不属实，即取消学习资格；</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">12.&nbsp;</span><span style="font-family: 楷体">申请人存在学术道德、专业伦理、诚实守信等方面问题者，一经查实，不予录取或取消学习资格。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0"><span style="font-family: Arial, sans-serif">&nbsp;</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:24px"><strong><span style="font-size: 19px;font-family: 楷体">二、申请</span></strong></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">申请人申请前应仔细核对本人是否符合申请条件，凡不符合申请条件的申请人将不予录取，相关后果由申请人本人承担。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:24px"><span style="font-family: Arial, sans-serif">1</span><span style="font-family: 楷体">、申请报名时间：</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:24px"><span style="font-family: Calibri, sans-serif">&nbsp;</span> <span style="font-family: Calibri, sans-serif">&nbsp;</span><span style="font-family: 楷体">我校博士生招生申请报名结束时间分为秋季与冬季两个时间节点。其中：</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:24px"><span style="font-family: Calibri, sans-serif">&nbsp;</span> <span style="font-family: 楷体">（</span><span style="font-family: Arial, sans-serif">1</span><span style="font-family: 楷体">）</span><span style="font-family: Arial, sans-serif"></span><span style="font-family: 楷体; text-wrap-mode: wrap;">秋季</span><span style="font-family: 楷体">报名申请时间段为：</span><span style="font-family: Arial, sans-serif">2026</span><span style="font-family: 楷体">年</span><span style="font-family:Arial, sans-serif">7</span><span style="font-family: 楷体">月</span><span style="font-family:Arial, sans-serif">1</span><span style="font-family: 楷体">日10:00</span><span style="font-family: Arial, sans-serif">-7</span><span style="font-family: 楷体">月28日15:00，适用于我校所有院系推荐免试生的申请人，以及除计算机系、金融学院、网络研究院外其他院系的普通招考博士生申请人。综合考核时间由院系另行通知；</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:24px"><span style="font-family: Calibri, sans-serif">&nbsp;</span> <span style="font-family: 楷体">（</span><span style="font-family: Arial, sans-serif">2</span><span style="font-family: 楷体">）</span><span style="font-family: Arial, sans-serif"></span><span style="font-family: 楷体; text-wrap-mode: wrap;">冬季</span><span style="font-family: 楷体">报名申请时间段为：</span><span style="font-family: Arial, sans-serif">2026</span><span style="font-family: 楷体">年</span><span style="font-family: Arial, sans-serif">11</span><span style="font-family: 楷体">月</span><span style="font-family: Arial, sans-serif">1</span><span style="font-family: 楷体">日<span style="font-family: 楷体; text-wrap-mode: wrap;">10:00</span></span><span style="font-family: Arial, sans-serif">-11</span><span style="font-family: 楷体">月</span><span style="font-family: Arial, sans-serif">30</span><span style="font-family: 楷体">日<span style="font-family: 楷体; text-wrap-mode: wrap;">15:00</span>，</span><span style="font-size: 16px;"><span style="font-family: 楷体;">适用于<span style="font-family: 楷体;">计</span><span style="font-family: 楷体;">算机科学与技术系、五道口金融学院、网络科学与网络空间研究院的普通招考博士生申请人</span>，综合考核时间预计为</span><span style="font-family: Arial, sans-serif;">2027</span><span style="font-family: 楷体;">年</span><span style="font-family: Arial, sans-serif;">3</span><span style="font-family: 楷体;">月-4月，具体时间<span style="font-family: 楷体; text-wrap-mode: wrap;">另行通知</span>。</span></span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:24px"><span style="font-family: 楷体; text-wrap-mode: wrap;">&nbsp;（3）非全日制专业学位博士报名申请时间详见项目相关招生简章（待公布）。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:24px"><span style="font-family: Calibri, sans-serif;">&nbsp;</span> <span style="font-family: Calibri, sans-serif;">&nbsp;</span><span style="font-family: 楷体;">注：①</span><span style="text-indent: 32px; font-family: 楷体;">我校所有院系强军计划（限推荐单位推荐的报考学科）、少数民族骨干计划、对口支援（省部共建）计划、政治课教师（含<span style="font-family: 楷体; text-indent: 32px; text-wrap-mode: wrap;">思政骨干）</span>仅在</span><span style="text-indent: 32px; font-family: Arial, sans-serif;">2026</span><span style="text-indent: 32px; font-family: 楷体;">年</span><span style="text-indent: 32px; font-family: Arial, sans-serif;"></span><span style="font-family: 楷体;">秋季</span><span style="text-indent: 32px; font-family: 楷体;">招生，后期不再继续招生。与科研院所联合培养博士研究生等专项计划与院系普通计划同期申请、考核。</span><span style="font-family: 楷体"></span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Calibri, sans-serif">&nbsp;</span> <span style="font-family: Calibri, sans-serif">&nbsp;</span>②<span style="font-family: 楷体;">部分院系如<span style="font-family: 楷体; text-wrap-mode: wrap;">秋季</span>未完成招生计划，将启动<span style="font-family: 楷体; text-wrap-mode: wrap;">冬季</span>报名申请。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:24px"><span style="font-family: Calibri, sans-serif">&nbsp;</span> <span style="font-family: Calibri, sans-serif">&nbsp;</span><span style="font-family: 楷体">各院系具体申请时间及办法详见各院系招生简章。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">2</span><span style="font-family: 楷体">、申请流程</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:24px"><span style="font-family: Calibri, sans-serif">&nbsp;</span> <span style="font-family: Calibri, sans-serif">&nbsp;</span><span style="font-family: 楷体">我校博士生招生采用</span><span style="font-family: 楷体">“申请-考核”制，采</span><span style="font-family: 楷体">取网上报名并提交电子材料方式申请。中国内地所有申请人（含军人）报名、考核所用证件必须为二代身份证。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:29px"><span style="font-family: 楷体">（</span><span style="font-family: Arial, sans-serif">1</span><span style="font-family: 楷体">）网上开放申请时间：申请</span><span style="font-family: Arial, sans-serif"></span><span style="font-family: 楷体; text-wrap-mode: wrap;">秋季</span><span style="font-family: 楷体">招生院系（不含申请非全日制专业博士）博士生，网上报名时间为</span><span style="font-family: Arial, sans-serif">2026</span><span style="font-family: 楷体">年</span><span style="font-family:Arial, sans-serif">7</span><span style="font-family: 楷体">月</span><span style="font-family:Arial, sans-serif">1</span><span style="font-family: 楷体">日</span><span style="font-family: Arial, sans-serif">10</span><span style="font-family: 楷体">：</span><span style="font-family: Arial, sans-serif">00</span><span style="font-family: 楷体">～</span><span style="font-family:Arial, sans-serif">7</span><span style="font-family: 楷体">月</span><span style="font-family:Arial, sans-serif">28</span><span style="font-family: 楷体">日</span><span style="font-family:Arial, sans-serif">15</span><span style="font-family: 楷体">：</span><span style="font-family: Arial, sans-serif">00</span><span style="font-family: 楷体">；申请</span><span style="font-family:Arial, sans-serif">冬季</span><span style="font-family: 楷体">招生院系博士生，网上报名时间为</span><span style="font-family: Arial, sans-serif">2026</span><span style="font-family: 楷体">年</span><span style="font-family: Arial, sans-serif">11</span><span style="font-family: 楷体">月</span><span style="font-family: Arial, sans-serif">1</span><span style="font-family: 楷体">日</span><span style="font-family:Arial, sans-serif">10</span><span style="font-family: 楷体">：</span><span style="font-family: Arial, sans-serif">00</span><span style="font-family: 楷体">～</span><span style="font-family: Arial, sans-serif">11</span><span style="font-family: 楷体">月</span><span style="font-family: Arial, sans-serif">30</span><span style="font-family: 楷体">日</span><span style="font-family: Arial, sans-serif">15</span><span style="font-family: 楷体">：</span><span style="font-family: Arial, sans-serif">00</span><span style="font-family: 楷体">，逾期不予受理；<span style="font-family: 楷体; text-indent: 32px; text-wrap-mode: wrap;">非全日制专业学位博士<span style="font-family: 楷体; text-indent: 32px; text-wrap-mode: wrap;">网上申请时间</span>详见项目相关招生简章<span style="font-family: 楷体; text-indent: 32px; text-wrap-mode: wrap;">（待公布）。</span></span></span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:29px"><span style="font-family: 楷体;">（</span><span style="font-family: Arial, sans-serif;">2</span><span style="font-family: 楷体;">）申请报名流程</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">具体申请要求、流程请在网上报名申请期间查阅网上报名系统相关说明。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">对于<span style="font-family: 楷体; text-indent: 32px;"><span style="font-family: 楷体; text-indent: 32px;">推荐免试</span>直博生<span style="font-family: 楷体; text-indent: 32px;">基本流程如下：</span></span></span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体"><span style="text-indent: 32px; font-family: Arial, sans-serif;">1</span><span style="text-indent: 32px; font-family: 楷体;">）登录清华大学研究生申请服务系统（https://yzbm.tsinghua.edu.cn），进入网上报名系统报名。</span></span><strong style="font-family: 楷体; text-indent: 32px; white-space: normal;">报名申请环节包含两个步骤：报名登记、提交材料。两个步骤均完成后表示报名申请成功，缺一不可。</strong></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体; text-indent: 32px;">2）</span><strong style="font-family: 楷体; text-indent: 32px; white-space: normal;">报名登记：</strong><span style="font-family: 楷体; text-indent: 32px;">申请人进入报名系统后，应按照系统要求，如实填写各项信息。</span><strong style="font-family: 楷体; text-indent: 32px; white-space: normal;">所填写信息确认无误后，须“确认”完成“报名登记”流程，信息确认提交后，所填信息不得修改。</strong></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体"><span style="text-indent: 32px; font-family: 楷体;">3）<strong>提交材料：</strong>申请人在申请服务系统开放时间内，按规定将身份证明、本科在学证明、本科学业成绩单、本人自述、考生承诺书、报名申请表、申请院系招生简章要求的其他材料等以电子文档形式在申请服务系统内提交并确认</span><strong style="text-indent: 32px; white-space: normal; font-family: 楷体;">,完成“<strong>提交材料</strong>”环节方为报名完成</strong><span style="text-indent: 32px; font-family: 楷体;">。<span style="font-family: 楷体; text-wrap-mode: wrap;">秋季</span>招生院系申请人材料需在申请服务系统内提交的截止时间为7月28日15：00，特殊要求的见各院系及项目招生简章。</span></span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体;">对于普通招考及硕博连读生基本流程如下：</span><br/></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">1</span><span style="font-family: 楷体">）登录清华大学研究生申请服务系统（https://yzbm.tsinghua.edu.cn），进入网上报名系统报名。<strong>报名申请环节包含三个步骤：报名登记、在线交费、提交材料。三个步骤均完成后表示报名申请成功，缺一不可。</strong></span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">2）<strong style="font-family: 楷体; text-indent: 32px; white-space: normal;">报名登记：</strong>申请人进入报名系统后，应按照系统要求，如实填写各项信息。<strong>所填写信息确认无误后，须“确认”完成“报名登记”流程，信息确认提交后，所填信息不得修改。</strong></span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体;">3）<strong style="font-family: 楷体; text-indent: 32px; white-space: normal;">在线交费：</strong>申请人应在在线缴费前，认真阅读申请所需的每项材料的“材料说明”，确认本人能否提交相应材料。<strong>一经确认交费提交后，如申请人放弃申请，报名费不退。</strong></span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体;">4<span style="font-family: 楷体; text-indent: 32px;">）<strong style="font-family: 楷体; text-indent: 32px; white-space: normal;">提交材料：</strong></span>申请人在申请服务系统开放时间内，填写报名信息并缴费确认后，按规定将身份证明、本科和硕士阶段成绩单、学士和硕士学位（学历）证书、考生承诺书、报名申请表、申请院系招生简章要求的其他材料等以电子文档形式在申请服务系统内提交并确认</span><strong style="font-family: 楷体;">,完成“<strong>提交材料</strong>”环节方为报名完成</strong><span style="font-family: 楷体;">。<span style="font-family: 楷体; text-wrap-mode: wrap;">秋季</span>招生院系申请人材料需在申请服务系统内提交的截止时间为7月28日15：00，特殊要求的见各院系及项目招生简章。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体;">注1：提交材料阶段，申请人需在线邀请</span><span style="font-family: 楷体;">两位所申请学科专业领域内</span><span style="font-family: 楷体;">的相关的副教授（或相当专业技术职称）以上职称专家在</span><span style="font-family: 楷体;">线填写推荐信。推荐专家按申请服务系统要求，在规定的时间内填写、上传专家推荐信，同时请专家协助妥善保存推荐信原件，待后续接收通知将书面版寄至申请人所申请院系的研究生教学办公室，或在线完成推荐书后将书面版密封（在密封信封的封口骑缝处签字）交申请人寄至所申请院系的研究生教学办公室。</span><br/></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">注2：<span style="text-indent: 32px; text-wrap-mode: wrap; font-family: 楷体;">非全日制专业学位博士</span>申请人提交材料要求详见项目相关招生简章（待公布）。</span><span style="font-family: Arial, sans-serif;">&nbsp;</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:29px"><strong><span style="font-size: 19px;font-family: 楷体">三、报考费</span></strong></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">报考费</span><span style="font-family: Arial, sans-serif">200</span><span style="font-family: 楷体">元，支付方式详见网上招生系统说明。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:29px"><strong><span style="font-size: 19px;font-family: 楷体">四、材料审查</span></strong></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">院系组织材料审查组对全部申请人的材料进行审阅，根据形式审查、综合评价结果择优确定参加综合考核名单，并通知申请人参加综合考核，申请电子材料不予退还</span><span style="font-family: Arial, sans-serif">&nbsp;</span><span style="font-family: 楷体">。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:29px"><strong><span style="font-size: 19px;font-family: 楷体">五、资格审查</span></strong></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">申请人申请资格审查于综合考核期间<span style="font-family: 楷体; text-indent: 32px; text-wrap-mode: wrap;">统</span>一进行，具体安排<span style="font-family: 楷体; text-wrap-mode: wrap;">由院系另行通知</span>。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:29px"><strong><span style="font-size: 19px;font-family: 楷体">六、综合考核</span></strong></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:29px"><span style="font-family: 楷体; text-indent: 32px;">综合考核地点、内容、形式等具体要求及时间，</span><span style="font-family: 楷体">请申请人实时关注各院系官网、招生简章及<span style="font-family: 楷体; text-indent: 32px;">清华大学研究生申请服务系统等渠道发送的</span>相关通知。其中，对同等学力申请人在综合考核阶段须加试（笔试）两门本专业硕士学位主干课程。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:29px"><strong><span style="font-size: 19px;font-family: 楷体">七、录取</span></strong></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:29px"><span style="font-family: 楷体">符合我校申请条件的申请人，经考核及综合考察其平时学习成绩和思想政治表现、业务素质以及身心健康状况，在招生计划内择优录取，宁缺毋滥。定向就业博士生，须在录取前签订定向就业协议书；非定向就业博士生，按教育部规定向存档单位调取档案。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:29px"><span style="font-family: 楷体;">拟录取博士研究生经资格复审确认合格后发给录取通知书。资格复审包括学历学业复审及思想政治素质与品德情况复审。录取申请人于2027年秋季入学，在<span style="font-family: 楷体; text-indent: 32px;">我校研究生新生入学报到日</span>须携带本人录取通知书和全部申请条件所需学位（学历）证书原件（直博生和</span><span style="font-family: 楷体;">同等学力申请人带学士学位</span><span style="font-family: 楷体;">证书原件）。录取申请人入学报到前不得变更申请报名时使用的姓名及证件号码信息。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:29px"><span style="font-family: Calibri, sans-serif;">&nbsp;</span> <span style="font-family: Calibri, sans-serif;">&nbsp;</span> <span style="font-family: 楷体;">申请人与签约单位之间由合同产生的各类责任关系，由申请人本人与签约单位协商处理，与招生单位无关。</span><br/></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:29px"><strong><span style="font-size: 19px;font-family: 楷体">八、说明</span></strong></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">1.&nbsp;</span><span style="font-family: 楷体">港澳台地区学生及国际学生招生简章另行发布。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="background-color: rgb(255, 255, 255);"><span style="font-family: Arial, sans-serif;">2.&nbsp;</span><span style="font-family: 楷体;">学校将按照国家和北京市的规定收取学费（学费标准附后），同时向全国研究生招生计划内的全日制博士研究生（有固定工资收入的除外）发放学校基本奖助金，详见《清华大学研究生奖助工作实施办法》。</span></span><span style="background-color: rgb(192, 0, 0); font-family: 楷体;"></span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif;">3.&nbsp;</span><span style="font-family: 楷体;">部分院系秋季如未完成招生计划，可能在后期继续招生，我校将在</span><span style="font-family: Arial, sans-serif;">2026</span><span style="font-family: 楷体;">年</span><span style="font-family:Arial, sans-serif">冬季</span><span style="font-family: 楷体;">网上申请前在清华大学研究生招生网上公布各招生院系具体招生人数及对外招生导师，请申请人留意查询。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体;">4.</span><span style="font-family: 楷体;">未通过或未完成学历（学籍）审核的申请人取消报考（申请）资格、不予录取、取消录取资格或取消学籍。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">5.&nbsp;</span><span style="font-family: 楷体">持</span><span style="font-family: 楷体">国（境）外获得的学位证</span><span style="font-family: 楷体">书申请人，须在发放录取通知书前，提交教育部留学服务中心认证报告。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">6.&nbsp;</span><span style="font-family: 楷体">请在安全场所上网申请、支付报考费，因自己操作失误或网上支付帐号和密码泄露造成的损失，我校概不负责。网上支付报考费前务必慎重考虑，因各种原因不能申请者，已支付的报考费不予退还。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">7.&nbsp;</span><span style="font-family: 楷体">有关申请专业、申请导师及招生目录备注栏中的特殊说明等申请问题咨询，请直接与申请院系研究生教学办公室联系，导师个人信息请在申请院系网页查询。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">8.&nbsp;</span><span style="font-family: 楷体">如无特殊说明，各专业均可招收定向就业博士研究生，招生名额含在各招生院系的总招生名额中。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">9. 2027</span><span style="font-family: 楷体">年招收少数民族高层次骨干人才专项计划、高校思想政治理论课教师、高校思想政治工作骨干专项计划按教育部和学校相关规定执行，专项计划仅在</span><span style="font-family: Arial, sans-serif">2026</span><span style="font-family: 楷体">年秋季进行招生，后期不再接收专项计划申请。未按期提供相关专项计划审批原件的考生不予录取，也不得转为普通计划博士生录取。少数民族高层次骨干人才专项计划录取申请人入学不迁转户口。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">10.</span><span style="font-family: 楷体;">我校研究生实行住宿收费制，</span><span style="font-family: 楷体;">2027级博士研究生学校住宿收费标准为375-850元/学期·人。具有学校住宿资格的新生，可申请住宿。定向就业（不转档案）博士研究生不安排学生宿舍住宿。部分院系、项目制、专项计划</span><span style="font-family: 楷体;">、联合培养项目及临床医学专业学生等住宿依据专业培养方案及院系、项目制、相关专项计划、联合培养项目发布的简章另行安排。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">11.&nbsp;</span><span style="font-family: 楷体">清华大学深圳国际研究生院是国家教育部正式批准的国内唯一的异地办学机构，其录取标准、培养质量与全校完全一致。深圳国际研究生院招收的博士研究生全程在深圳学习，不安排校本部住宿。全日制博士生安排学生公寓宿舍，2026级博士研究生住宿标准为500-1000元人民币/学期/人（视楼栋和房型情况），2027年住宿费标准将在入学时说明。深圳国际研究生院联培专项住宿以招生简章说明为准。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;line-height:24px"><strong><span style="font-size: 19px;font-family: 楷体">九、信息查询、申诉、联系方式</span></strong></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">1</span><span style="font-family: 楷体">．信息查询：</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">博士研究生招生的申请、成绩、录取等信息可在清华大学研究生招生网或<span style="font-family: 楷体; text-indent: 32px;">清华大学研究生申请服务系统</span>上查询，我校将及时在网上公布新的招生信息。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">清华大学研究生招生网网址：&nbsp;</span><a href="http://yz.tsinghua.edu.cn/" style="font-family: 楷体; text-decoration: underline;"><span style="font-family: 楷体">http://yz.tsinghua.edu.cn</span></a></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">清华大学研究生申请服务系统：https://yzbm.tsinghua.edu.cn</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">2</span><span style="font-family: 楷体">．申诉：</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">申请人对院系博士研究生招生环节有异议的，可向院系书面形式具名提起申诉，院系应当受理并予以答复。申诉人对答复有异议的，可向研究生招生办公室提起申诉。</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: Arial, sans-serif">3</span><span style="font-family: 楷体">．咨询及申诉联系方式：</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">清华大学研究生招生办公室位于清华大学二校门东侧</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">通信地址：北京市清华大学研究生招生办公室</span><span style="font-family: Arial, sans-serif">&nbsp;&nbsp; &nbsp;</span><span style="font-family: 楷体">邮政编码：</span><span style="font-family: Arial, sans-serif">100084</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">电</span><span style="font-family: Arial, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-family: 楷体">话：</span><span style="font-family: Arial, sans-serif">&nbsp;010-62782192 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-family: 楷体">传</span><span style="font-family: Arial, sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-family: 楷体">真：</span><span style="font-family: Arial, sans-serif">&nbsp;010-62770325</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">咨询电子邮件：</span><span style="font-family: Arial, sans-serif"><a href="mailto:yjszb@mail.tsinghua.edu.cn">yjszb@mail.tsinghua.edu.cn</a></span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:32px;line-height:24px"><span style="font-family: 楷体">申诉电子邮件：</span><span style="font-family: Arial, sans-serif">yanzhaoban@mail.tsinghua.edu.cn</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:28px;line-height:24px"><span style="font-family: Arial, sans-serif">4</span><span style="font-family: 楷体">．清华大学查号台：</span><span style="font-family: Arial, sans-serif">62793001</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:28px;line-height:24px"><span style="font-family: Arial, sans-serif"><br/></span></p><p style="margin: 5px 0px; text-indent: 28px; line-height: 24px; text-align: right;"><span style="font-family:Arial, sans-serif">清华大学研究生招生办公室</span></p><p style="margin: 5px 0px; text-indent: 28px; line-height: 24px; text-align: right;"><span style="font-family:Arial, sans-serif">2026年6月30日</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:28px;line-height:24px"><span style="font-family: Arial, sans-serif"><br/></span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:28px;line-height:24px"><span style="font-family: Arial, sans-serif">附：学费标准</span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:28px;line-height:24px"><span style="font-family: Arial, sans-serif"></span></p><table border="0" cellspacing="0" cellpadding="0" width="1274" style="width: 1061px;"><tbody><tr style=";height:18px" class="firstRow"><td style="border: 1px solid rgb(0, 0, 0); padding: 0px 7px;" height="18" width="367"><p><strong><span style="font-size:12px;font-family:等线;color:black">专业名称</span></strong></p></td><td style="border: 1px solid rgb(0, 0, 0); padding: 0px 7px;" height="18" width="308"><p><strong><span style="font-size:12px;font-family:等线;color:black">代码</span></strong></p></td><td style="border: 1px solid rgb(0, 0, 0); padding: 0px 7px;" height="18" width="117"><p><strong><span style="font-size:12px;font-family:等线;color:black">学费标准</span></strong></p></td><td style="border: 1px solid rgb(0, 0, 0); padding: 0px 7px;" height="18" width="481"><p><strong><span style="font-size:12px;font-family:等线;color:black">备注</span></strong></p></td></tr><tr style=";height:18px"><td style="border: 1px solid rgb(0, 0, 0); padding: 0px 7px;" height="18" width="367"><p><span style="font-size:16px;font-family:华文楷体">所有学术型专业</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="18" width="308"><p><span style="font-size:16px;font-family:华文楷体">-</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="18" width="117"><p><span style="font-size:16px;font-family:华文楷体">1万元/生学年</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="18" width="481"><p><span style="font-size:16px;font-family:华文楷体">按学期交</span></p></td></tr><tr style=";height:18px"><td style="border: 1px solid rgb(0, 0, 0); padding: 0px 7px;" height="18" width="367"><p><span style="font-size:16px;font-family:华文楷体">全日制工程博士</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" height="18" width="308"><p><span style="font-size:16px;font-family:华文楷体">0854、0855、0856、0857、0858、0859、0860</span></p></td><td style="border-width: 1px; border-color: rgb(0, 0, 0); border-style: solid; padding: 0px 7px; word-break: break-all;" height="18" width="117"><p><span style="font-size:16px;font-family:华文楷体">1.2万元/生学年</span></p></td><td style="border-width: 1px; border-color: rgb(0, 0, 0); border-style: solid; padding: 0px 7px;" height="18" width="481"><p><span style="font-size:16px;font-family:华文楷体">按学期交</span></p></td></tr><tr style=";height:18px"><td style="border: 1px solid rgb(0, 0, 0); padding: 0px 7px;" height="18" width="367"><p><span style="font-size:16px;font-family:华文楷体">全日制临床博士</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="18" width="308"><p><span style="font-size:16px;font-family:华文楷体">1051</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="18" width="117"><p><span style="font-size:16px;font-family:华文楷体">1万元/生学年</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="18" width="481"><p><span style="font-size:16px;font-family:华文楷体">按学期交</span></p></td></tr><tr style=";height:18px"><td style="border: 1px solid rgb(0, 0, 0); padding: 0px 7px;" height="18" width="367"><p><span style="font-size:16px;font-family:华文楷体">全日制风景园林</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="18" width="308"><p><span style="font-size:16px;font-family:华文楷体">0862</span></p></td><td style="border-width: 1px; border-color: rgb(0, 0, 0); border-style: solid; padding: 0px 7px; word-break: break-all;" height="18" width="117"><p><span style="font-size:16px;font-family:华文楷体">1.2万元/生学年</span></p></td><td style="border-width: 1px; border-color: rgb(0, 0, 0); border-style: solid; padding: 0px 7px; word-break: break-all;" height="18" width="481"><p><span style="font-size:16px;font-family:华文楷体">按学期交</span></p></td></tr><tr style=";height:18px"><td style="border: 1px solid rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" height="18" width="367"><p style="margin-top:10px;margin-right:0;margin-bottom:10px;margin-left:0;text-align:left;background:white"><span style="font-size:16px;font-family:华文楷体">全日制美术与书法</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="18" width="308"><p><span style="font-size:16px;font-family:华文楷体">1356</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" height="18" width="117"><p><span style="font-size: 16px; font-family: 华文楷体; text-wrap-mode: wrap;">2.8万元/生学年</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" height="18" width="481"><p><span style="font-size: 16px; font-family: 华文楷体; text-wrap-mode: wrap;">按学期交</span></p></td></tr><tr style=";height:18px"><td style="border: 1px solid rgb(0, 0, 0); padding: 0px 7px;" height="18" width="367"><p><span style="font-size:16px;font-family:华文楷体">非全日制教育博士（教育学院）</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="18" width="308"><p><span style="font-size:16px;font-family:华文楷体">0451</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="18" width="117"><p><span style="font-size:16px;font-family:华文楷体">15万元/生</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="18" width="481"><p><span style="font-size:16px;font-family:华文楷体">第一年8万元，第二年5万元，第三年1万元，第四年1万元。</span></p></td></tr><tr style=";height:19px"><td style="border: 1px solid rgb(0, 0, 0); padding: 0px 7px;" height="19" width="367"><p><span style="font-size:16px;font-family:华文楷体">非全日制教育博士（思政课骨干教师提升计划项目）</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" height="19" width="308"><p><span style="font-size: 16px; font-family: 华文楷体; text-wrap-mode: wrap;">1051</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="19" width="117"><p><span style="font-size:16px;font-family:华文楷体">6万元/生</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="19" width="481"><p><span style="font-size:16px;font-family:华文楷体">第一年2万元，第二年2万元，第三年2万元。</span></p></td></tr><tr style=";height:18px"><td style="border: 1px solid rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" height="18" width="367"><p><span style="font-size:16px;font-family:华文楷体">非全日制工程博士（北京、深圳国际研究生院）</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" height="18" width="308"><p><span style="font-size:16px;font-family:华文楷体"><span style="color: rgba(0, 0, 0, 0.7); font-family: 华文楷体; text-wrap: wrap; background-color: rgb(255, 255, 255);">0854、</span>0855、0856、0857、0858、0859、0860</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="18" width="117"><p><span style="font-size:16px;font-family:华文楷体">24万元/生</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="18" width="481"><p><span style="font-size:16px;font-family:华文楷体">第一年8万元，第二年8万元，第三年8万元。</span></p></td></tr><tr style=";height:18px"><td style="border: 1px solid rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" height="18" width="367"><span style="font-size:16px;font-family:华文楷体">工程硕博士培养改革专项 （全日制、非全日制）</span></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" height="18" width="308"><p><span style="font-size:16px;font-family:华文楷体"><span style="color: rgba(0, 0, 0, 0.7); font-family: 华文楷体; text-wrap: wrap; background-color: rgb(255, 255, 255);">0854、</span>0855、0856、0857、0858、0859、0860</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" height="18" width="117"><p><span style="font-size:16px;font-family:华文楷体">1.2万元/生学年</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" height="18" width="481"><p><span style="font-size:16px;font-family:华文楷体">按学期交</span></p></td></tr><tr style=";height:18px"><td style="border: 1px solid rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" height="18" width="367"><p><span style="font-size:16px;font-family:华文楷体">非全日制临床博士</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" height="18" width="308"><p><span style="font-size:16px;font-family:华文楷体">1051</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="18" width="117"><p><span style="font-size:16px;font-family:华文楷体">15万元/生</span></p></td><td style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" height="18" width="481"><p><span style="font-size:16px;font-family:华文楷体">第一年9万元，第二年6万元。</span></p></td></tr><tr><td colspan="1" rowspan="1" style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); word-break: break-all;" width="367"><p><span style="font-family: 华文楷体; text-wrap-mode: wrap;">非全日制法律博士</span></p></td><td colspan="1" rowspan="1" style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); word-break: break-all;" width="308"><span style="font-family:华文楷体">0351</span></td><td colspan="1" rowspan="1" style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" width="117"><p><span style="font-size:16px;font-family:华文楷体">54万元/生</span></p></td><td colspan="1" rowspan="1" style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" width="481"><p><span style="font-size:16px;font-family:华文楷体">第一年13.5万元，第二年13.5万元，第三年13.5万元，<span style="font-family: 华文楷体; text-wrap-mode: wrap;">第四年13.5万元</span>。</span></p></td></tr><tr><td colspan="1" rowspan="1" style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); word-break: break-all;" width="367"><p><span style="font-family: 华文楷体; text-wrap-mode: wrap;">非全日制社会工作博士</span></p></td><td colspan="1" rowspan="1" style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); word-break: break-all;" width="308"><span style="font-family: 华文楷体; text-wrap-mode: wrap;">0352</span></td><td colspan="1" rowspan="1" style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px; word-break: break-all;" width="117"><p><span style="font-size:16px;font-family:华文楷体">24万元/生</span></p></td><td colspan="1" rowspan="1" style="border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0); padding: 0px 7px;" width="481"><p><span style="font-size:16px;font-family:华文楷体">第一年8万元，第二年8万元，第三年8万元。</span></p></td></tr></tbody></table><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:28px;line-height:24px"><span style="font-family: 华文楷体; text-wrap-mode: wrap;">注：（无特殊说明，金额币种为人民币。本简章内未涉及的专业的学费标准，详见相关项目<span style="font-family: 华文楷体; text-indent: 28px; text-wrap-mode: wrap;">待发布的</span>招生简章）</span><br/></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:28px;line-height:24px"><span style="font-family: Arial, sans-serif"><br/></span></p><p style="margin-top:5px;margin-right:0;margin-bottom:5px;margin-left: 0;text-indent:28px;line-height:24px"><span style="font-family: Arial, sans-serif"><br/></span></p><p><br/></p>
+						    </div>
+	            		
+	            	
+		            
+		        </div>
+		    </div>
+		</div>
+	
+		<div class="g-foot">
+    <div class="wal">
+        <div class="msg">
+		    
+				            清华大学研究生招生办公室（境内）：010-62782192  yjszb@tsinghua.edu.cn<br>
+				            清华大学研究生招生办公室（港澳台及国际）：010-62781380　grad@tsinghua.edu.cn
+		       </div>
+        <div class="msg">Copyright © 2021 All rights reserved. 清华大学 版权所有</div>
+    </div>
+</div>
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var curXxlb = sessionStorage.getItem("curXxlb");
+			
+			$('#menu li a').click(function() {
+				$(this).addClass('on');
+				$(this).parent().siblings().find('a').removeClass('on');
+				
+				var curKslb = $('#menu li a[class*=on]').attr('data-val');
+				if (curKslb != 'sy') {
+					$('#listForm').attr('action', '/publish/'+curKslb+'/'+ curKslb +'01/list');
+					$('#listForm').submit();
+				}
+			});
+			
+		});
+		
+	</script>
+</html>

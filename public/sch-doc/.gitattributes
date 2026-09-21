@@ -1,4 +1,4 @@
-# Official originals must retain their byte-for-byte SHA256 on every platform.
+# Official originals retain byte-for-byte hashes.
 *.html text eol=lf
 *.css text eol=lf
 *.js text eol=lf

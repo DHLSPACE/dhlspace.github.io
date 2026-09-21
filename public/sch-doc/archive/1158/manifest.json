@@ -1,0 +1,12 @@
+{
+  "source": "东北大学 · 招生信息",
+  "requested_url": "http://sfie.neu.edu.cn/zsjz/list.htm",
+  "final_url": "http://sfie.neu.edu.cn/zsjz/list.htm",
+  "fetched_at": "2026-09-21T11:59:59+08:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "sha256": "407fe6bbc5ec62c1b916b70ad24d4afc1e7b19163abb9328338c12931d8daaed",
+  "bytes": 20566,
+  "kind": "list",
+  "provenance": "本机直接获取的公开网站原始响应"
+}
