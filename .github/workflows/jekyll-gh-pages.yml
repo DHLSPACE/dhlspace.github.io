@@ -28,6 +28,11 @@ jobs:
           cp -R html-2d-svg-subagent _site/
           cp -R public/sch-doc _site/sch-doc
           cp -R date-invite _site/date-invite
+          cp -R public/legacy-assets _site/legacy-assets
+          cp public/favicon.svg _site/favicon.svg
+          for route in hm about projects links; do
+            cp -R "public/$route" "_site/$route"
+          done
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
