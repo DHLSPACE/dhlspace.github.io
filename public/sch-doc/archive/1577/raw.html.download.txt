@@ -1,0 +1,332 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv=Content-Type>
+  <title>
+   西北农林科技大学水利与建筑工程学院 
+  </title>
+  <meta name="Keywords" content="西北农林科技大学—水利与建筑工程学院">
+  <meta name="Description" content="西北农林科技大学—水利与建筑工程学院">
+
+   <!--新闻焦点图-->
+   <script type="text/javascript" src="/pub/sjxy//js/jquery-3.7.1.min.js">
+   </script><script type="text/javascript" src="/pub/sjxy//js/jquery.SuperSlide.2.1.3.js"></script>
+   <!--标签切换-->
+   </script><script type="text/javascript" src="https://cem.nwsuaf.edu.cn/pub/jgxy/js/2020/tabbedContent0520.js"></script>
+
+  <link rel=stylesheet href="/pub/sjxy//css/style2020.css">
+ </head>
+<body>
+<!--顶部开始-->
+<div class="head">
+    <div class="header">
+        
+        <div class="head_right" style="width: 48px;">    
+        	<div class="label" ><p><a href="https://sjxy.nwafu.edu.cn/en" target="_blank" style="color:#000000;">English</a></div>
+            
+
+                <span class="sousou">
+
+                      <form  id=search_form name="dataForm" action="/cms/web/search/index.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+						<input name="siteID" value="23B" type = "hidden" maxlength=50>
+                        <input name="query" type="text" style="float: left;padding: 0;border: 0;background: none;font-size: 12px;height:38px;width:170px;"value="   搜索关键字" onClick="javascript:if (this.value=='   搜索关键字'){this.value=''}">
+						 <input name="Submit"  id=go  alt=search src="/pub/sjxy/images/sjxy2020/search.png" width="53" height="38" value="" class="so_btn" style="float:right;margin: 0 0 0 0;"  type=image >   
+                    </form>
+
+
+                </span>
+        </div>
+    </div>
+</div>
+
+<!--最新导航开始-->
+    <div class="nav2018">
+         <ul id="nav" class="nav clearfix">
+            <li class="nLi">
+                <h3><a href="../../index.htm" >首页</a></h3>
+            </li>
+            
+        
+ <li class="nLi">
+                    <h3><a href="../../xygkB/xyjjB/index.htm">学院概况</a></h3>
+                    <ul class="sub">
+                        <li><a href="../../xygkB/xyjjB/index.htm">学院简介</a></li>
+                        <li><a href="../../xygkB/lsygB/index.htm"> 历史沿革</a></li>
+                        <li><a href="../../xygkB/xyldB/index.htm">现任领导</a></li>
+                        <li><a href="../../xygkB/lrld/index.htm">历任领导</a></li>
+                        <li><a href="../../xygkB/jgszB/index.htm">机构设置</a></li>
+                    </ul>
+            </li>
+            <li class="nLi">
+                    <h3><a href="../../szdwB/szgkB/index.htm">师资队伍</a></h3>
+                    <ul class="sub">
+                        <li><a href="../../szdwB/szgkB/index.htm">师资概况</a></li>
+                        <li><a href="../../szdwB/gjzcB/index.htm">科教队伍</a></li>
+                        <li><a href="../../szdwB/rsgl/index.htm">人事管理</a></li>
+
+                    </ul>
+            </li>
+            
+                <li class="nLi">
+                    <h3><a href="">人才培养</a></h3>
+                    <ul class="sub">
+                        <li><a href="../../bksjyB/bksjyxB/index.htm">本科生教育</a></li>
+                        <li><a href="index.htm">研究生教育</a></li>
+                    </ul>
+            </li>
+        
+            <li class="nLi">
+                    <h3><a href="../../xkjs/index.htm">学科建设</a></h3>
+                    <ul class="sub">
+                        <li><a href="../../xkjs/xkjj/index.htm">学科简介</a></li>
+                        <li><a href="../../xkjs/xktd/index.htm">学科团队</a></li>
+                        <li><a href="../../xkjs/glbf/index.htm">管理办法</a></li>
+                    </ul>
+            </li>
+        
+        
+            <li class="nLi">
+                    <h3><a href="../../kxyjB/kygk/index.htm">科学研究</a></h3>
+                    <ul class="sub">
+                        <li><a href="../../kxyjB/kygk/index.htm">科研概况</a></li>
+                        <li><a href="../../kxyjB/cxtd/index.htm">创新团队</a></li>
+                        <li><a href="../../kxyjB/kyxmB/index.htm">科研获奖</a></li>
+                        <li><a href="../../kxyjB/kycgB/index.htm">发表论文</a></li>
+                        <li><a href="../../kxyjB/zcfgB/index.htm">规章制度</a></li>
+                    </ul>
+            </li>
+            <li class="nLi">
+                    <h3><a href="../../pttj/ptgk/index.htm">平台条件</a></h3>
+                    <ul class="sub">
+                        <li><a href="../../pttj/ptgk/index.htm">平台概况</a></li>
+                        <li><a href="../../pttj/gldw/index.htm">管理队伍</a></li>
+                        <li><a href="../../pttj/jxsys/index.htm">教学实验室</a></li>
+                        <li><a href="../../pttj/kysys/index.htm">科研平台</a></li>
+                        <li><a href="../../pttj/xwsjjxjd/index.htm">校外产学研基地</a></li>
+                        <li><a href="../../pttj/yqsb/index.htm">仪器设备</a></li>
+                        <li><a href="../../pttj/gzzd2/index.htm">规章制度</a></li>
+                    </ul>
+            </li>
+            <li class="nLi">
+                    <h3><a href="../../djgzB/xsdzb/index.htm">党建工作</a></h3>
+                    <ul class="sub">
+                        <li><a href="../../djgzB/xsdzb/index.htm">党支部设置</a></li>
+                        <li><a href="../../djgzB/djdtB/index.htm">党建动态</a></li>
+                        <li><a href="../../djgzB/rdznB/index.htm">党务知识</a></li>
+                        <li><a href="../../djgzB/gzzdB/index.htm">规章制度</a></li>
+                    </ul>
+            </li>
+            <li class="nLi">
+                    <h3><a href="../../xsgzB/xgzz/index.htm">学生工作</a></h3>
+                    <ul class="sub">
+                        <li><a href="../../xsgzB/xgzz/index.htm">学工组织</a></li>
+                        <li><a href="../../xsgzB/xsgzxB/index.htm">学工动态</a></li>
+                        <li><a href="../../xsgzB/zsjyB/index.htm">就业信息</a></li>
+                        <li><a href="../../xsgzB/glzd/index.htm">管理制度</a></li>
+                    </ul>
+            </li>
+            <li class="nLi">
+                    <h3><a href="../../shfw/index.htm">社会服务</a></h3>
+                    <ul class="sub">
+                        <li><a href="../../shfw/jg/index.htm">机构设置</a></li>
+                        <li><a href="../../shfw/zzgk/index.htm">资质概况</a></li>
+                        <li><a href="../../shfw/yjzs/index.htm">业绩展示</a></li>
+                    </ul>
+            </li>
+            <li class="nLi">
+                    <h3><a href="../../crjyB/jjB/index.htm">成人教育</a></h3>
+                    <ul class="sub">
+                        <li><a href="../../crjyB/jjB/index.htm">专业简介</a></li>
+                        <li><a href="../../crjyB/zsxxB/index.htm">招生信息</a></li>
+                        <li><a href="../../crjyB/jxglB/index.htm">教学管理</a></li>
+                        <li><a href="../../crjyB/xwksB/index.htm">学位管理</a></li>
+                        <li><a href="../../crjyB/bgxzxB/index.htm">表格下载</a></li>
+                        <li><a href="../../crjyB/skpxB/index.htm">社会培训</a></li>
+                    </ul>
+            </li>
+            <li class="nLi">
+                    <h3><a href="">科技期刊</a></h3>
+                    <ul class="sub" style="width: 190px;">
+                        <li><a target="_blank" href="http://szyysgcxb.alljournals.ac.cn/szyysgcxb/ch/index.aspx">水资源与水工程学报</a></li> 
+                        <li><a target="_blank"  href="http://slyjzgcxb.paperonce.org/">水利与建筑工程学报</a></li>
+                    </ul>
+            </li>
+            <li class="nLi">
+                    <h3><a href="../../xyzj/hyc/index.htm">校友之家</a></h3>
+                    <ul class="sub">
+                        <li><a href="../../xyzj/hyc/index.htm">欢迎词</a></li>
+                        <li><a href="../../xyzj/xydt/index.htm">校友动态</a></li>
+                        <li><a href="../../xyzj/ljxy/index.htm">历届校友</a></li>
+                        <li><a href="../../xyzj/jcxydb/index.htm">杰出校友代表</a></li>
+                        <li><a href="../../xyzj/wsjy/index.htm">往事记忆</a></li>
+                    </ul>
+            </li>
+        
+        </ul>
+        <script id="j.id" type="text/javascript">
+        
+            jQuery("#nav").slide({ type:"menu", titCell:".nLi", targetCell:".sub",effect:"slideDown",delayTime:300,triggerTime:0,returnDefault:false});
+    
+        </script>
+    </div><!--sorthome开始-->
+<div class="sort_main">
+
+
+	<div class="sort_main2">
+		<div class="name">招生专业</div>
+		<div class="name_r">             <a href="../../index.htm">首页</a>&raquo;
+             <a href="../index.htm">研究生教育</a>&raquo;
+    招生专业
+</div>
+		<div class="name_right"> </div>
+		
+	</div>
+	<div class="sort_left" >
+			
+			<div class="sort_leftcont">
+				<ul>
+                                     <li><a href="index.htm">招生专业</a> </li>
+                                     <li><a href="../dsjjB/index.htm">导师队伍</a> </li>
+                                     <li><a href="../pyfaB/index.htm">培养工作</a> </li>
+                                     <li><a href="../xwglB/index.htm">学位管理</a> </li>
+				</ul>
+			</div>
+	</div>
+
+	<div class="sort_right">
+	
+		
+		
+		<div class="sort_rightcont">
+			<ul>
+                               <li><span class="date">(2021-10-29)</span><a href="https://yz.nwafu.edu.cn/zsxx/bsszs/4791928a30e54bdd9c4891f1e24d9709.htm">2022年博士研究生招生章程及专业目录</a></li>
+
+                               <li><span class="date">(2021-10-13)</span><a href="https://yz.nwafu.edu.cn/tzgg/8d0ab16455d949bb989bc9554760fde6.htm">【转发】2022年专业学位硕士研究生专项招生公告</a></li>
+
+                               <li><span class="date">(2021-10-09)</span><a href="https://sjxy.nwafu.edu.cn/tzggB/6c2c6a27727a4a11ae107490bfb51893.htm">关于2022年硕士研究生全国统考招生计划调整的通知</a></li>
+
+                               <li><span class="date">(2021-10-09)</span><a href="https://yz.nwafu.edu.cn/tzgg/fcbd81cb4d154a5a902e9264f0a7848c.htm">2022年专业学位硕士研究生考试招生章程</a></li>
+
+                               <li><span class="date">(2021-10-09)</span><a href="https://yz.nwafu.edu.cn/tzgg/dbbb97da688e49d7b7e28224134b7c8e.htm">2022年全日制学术型硕士研究生考试招生章程</a></li>
+
+                               <li><span class="date">(2021-10-09)</span><a href="3a33db43b34d433fa1cb2ef93a127687.htm">全国硕士研究生入学考试初试专业课考试大纲（2021版）</a></li>
+
+                               <li><span class="date">(2020-09-02)</span><a href="382337aef5414c0fa1b8a839906125d3.htm">全国硕士研究生入学考试初试专业课考试大纲</a></li>
+
+                               <li><span class="date">(2020-07-10)</span><a href="5b52d564e7974cf988d69e5afb7ce80e.htm">招生专业</a></li>
+
+                               <li><span class="date">(2017-04-14)</span><a href="22268B.htm">2017年招生专业及方向</a></li>
+
+			</ul>
+		</div>
+
+		
+	   <div class="pagenav" style="text-align:center;"><table>
+ <tr>
+ <td>共29条新闻，分2页，当前第<font color=red>2</font>页&nbsp;&nbsp;</td>
+ <td><a href="index.htm">最前页</a>&nbsp;&nbsp;</td>
+ <td><a href="index.htm">上一页</a>&nbsp;&nbsp;</td>
+ <td><a href="index1.htm">下一页</a>&nbsp;&nbsp;</td>
+ <td><a href="index1.htm">最后页</a></td>
+ </tr>
+ </table>
+</div>
+             
+	</div>
+	<div style="clear:both;"></div>
+</div>
+<!--sorthome结束-->
+
+<div class="main5">
+    <div class="main5_1">
+        <div class="xxmh">
+            <div class="xxmh_head">
+                    <dt>信息门户</dt>
+            </div>
+            <div class="xxmh_cont">
+                <ul>
+                    <li><a href="https://fwoa.nwafu.edu.cn/wui/main.jsp" target="_blank">电子政务</a></li>
+                    <li><a href="http://jwgl.nwsuaf.edu.cn/academic/login/nwsuaf/loginIds6.jsp" target="_blank">本科教务管理系统</a></li>
+                    <li><a href="http://yjspy.nwsuaf.edu.cn/sso/nwsuaf/calogin.jsp" target="_blank">研究生管理系统</a></li>
+                    <li><a href="http://eol.nwsuaf.edu.cn/meol/index.do" target="_blank">网络教学综合平台</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="yqlj">
+            <div class="yqlj_head">
+                    <dt>友情链接</dt>
+            </div>
+            <div class="yqlj_cont">
+                <ul>
+                    <li><a href="http://www.moe.gov.cn" target="_blank">教育部</a></li>
+                    <li><a href="http://www.mwr.gov.cn" target="_blank">水利部</a></li>
+                    <li><a href="http://www.most.gov.cn" target="_blank">科技部</a></li>
+                    <li><a href="http://www.nsfc.gov.cn" target="_blank">基金委</a></li>
+                </ul>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+<!--foot开始-->
+<div class="foot">
+  <div class="footer">
+    <div class="foot_l">
+        <img src="/pub/sjxy/images/sjxy2020/weixin.png " />
+        
+     </div>
+     <div class="foot_r">
+        
+        <ul style="lang">
+            <li>地址&nbsp;:&nbsp;陕西·杨凌·西农路22号&nbsp;&nbsp;&nbsp;</li>
+            <li>邮编&nbsp;:&nbsp;712100</li>
+            <li>电话&nbsp;:&nbsp;029-87082902&nbsp;&nbsp;</li>
+            <li>学院邮箱&nbsp;:&nbsp;sjxy208@163.com </li>
+            <li>主管领导&nbsp;:&nbsp;郑伟&nbsp;&nbsp;网管员&nbsp;:&nbsp;蔡胤凝&nbsp;&nbsp;革明鸣&nbsp;&nbsp;技术支持&nbsp;:&nbsp;绿道软件</li>
+        </ul>
+
+    </div>
+  </div>
+    
+</div>
+<!--foot结束-->
+<script type="text/javascript">
+	jQuery.ajax({
+		url: '/wm/api/visit/write/channel',
+		type: 'get',
+		data: {
+			siteID: 'c9b8c56fa9934e4f9ed02ba09259d83a',
+			channelID:'$curChannel.ID',
+			channelName:encodeURIComponent("招生专业")
+		}
+	})
+</script>
+																																																												
+<script type="text/javascript">
+	jQuery.ajax({
+		url: '/wm/api/visit/write/site',
+		type: 'get',
+		data: {
+			siteID: 'c9b8c56fa9934e4f9ed02ba09259d83a'
+		}
+	})
+</script>
+
+
+
+<script type="text/javascript">
+	jQuery.ajax({
+		url: '/wm/api/visit/write/article',
+		type: 'get',
+		data: {
+			siteID: 'c9b8c56fa9934e4f9ed02ba09259d83a',
+			articleID:'$curArticle.id',
+			articleName:encodeURIComponent("$curArticle.name")
+		}
+	})
+</script>
+ </body>
+</html><script type='text/javascript' src='../../g_style/g_list.js'></script><script type='text/javascript' src='../../g_style/319B_g_channel_index.js'></script><script src='/cms/web/writeLog.jsp?siteID=23B&channelID=319B' async='async'></script>
+<meta name="author" content="" /><meta name="description" content="" /><meta name="keywords" content="" /><meta name="author" content="" /><meta name="description" content="" /><meta name="keywords" content="" /><meta name="ColumnName" content="招生专业" /><meta name="ColumnDescription" content="" /><meta name="ColumnKeywords" content="" /><meta name="ColumnType" content="招生专业" /><link rel='shortcut icon' href=''><script type='text/javascript' src='/publish/gPublic/all.js'></script></head><style>.selectTdClass{background-color:#edf5fa !important}.gpTable{ border-collapse:collapse;border:1px solid #000 }.gpTable td,.gpTable th{border:1px solid #000;  padding: 2px 3px;}.gpTable caption{border:1px dashed #DDD;border-bottom:0;padding:3px;text-align:center;}.gpTable th{border-top:1px solid #BBB;background-color:#F7F7F7;}.gpTable tr.firstRow th{border-top-width:2px;}.ue-table-interlace-color-single{ background-color: #fcfcfc; } .ue-table-interlace-color-double{ background-color: #f7faff; }td p{margin:0;padding:0;} th p{margin:0;padding:0;}blockquote {padding: 0 0 0 15px;margin: 0 0 18px;border-left: 5px solid #EEE;}</style>
+</body></html>

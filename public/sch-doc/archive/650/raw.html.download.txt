@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>北京师范大学研究生招生网</title>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="author" content="Beijing Normal University" /> 
+        <meta name="description" content="北京师范大学是教育部直属重点大学，是一所以教师教育、教育科学和文理基础学科为主要特色的著名学府。学校的前身是1902年创立的京师大学堂师范馆，1908年改称京师优级师范学堂，独立设校。1912年改名为北京高等师范学校。1923年更名为北京师范大学，成为中国历史上第一所师范大学。1931年、1952年北平女子师范大学、辅仁大学先后并入北京师范大学。" />
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?e85d7e3fab5d4d96143892e9384d8146";
+                var s = document.getElementsByTagName("script")[0]; 
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+        <script src="/content/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="/content/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+        <script src="/content/ajax/libs/linq.js/2.2.0.2/jquery.linq.min.js"></script>
+        <script src="/content/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
+        <script src="/scripts/dengdu/dengdu.js"></script>
+        <script src="/scripts/dengdu/dengdu.bootstrap.js"></script>
+        <link href="/content/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/content/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/scripts/miniui/themes/icons.css" rel="stylesheet" />
+        <link href="/scripts/miniui/themes/default/miniui.css" rel="stylesheet" />
+        <link href="/scripts/miniui/themes/metro-white/skin.css?v=20201109" rel="stylesheet" />
+        <link href="/scripts/areas/core/atom.css?v=20201109" rel="stylesheet" />
+        <link href="/scripts/areas/core/area.css?v=20201109" rel="stylesheet" />
+        <link href="/scripts/areas/core/xlarge-mode.css?v=20201109" rel="stylesheet" />
+        
+        <link href="/content/script/flexslider.min.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]><script src="/content/script/html5shiv.min.js"></script><script src="/content/script/respond.min.js"></script><![endif]-->
+        <style type="text/css">
+            body {
+                font-family: "微软雅黑";
+            }
+            #header{
+                padding-top:20px;
+                padding-bottom:15px;
+                background-color:#004EA2;
+            }
+            #footer{
+                text-align:center;
+                background-color:#004EA2;
+                color:white;
+                height:60px;
+                line-height:60px;
+                margin-top: 20px;
+            }
+            #nav{
+                margin-bottom:0px;                
+            }
+            #nav a{
+                font-size:16px;
+            }
+            #content{
+                margin-top:20px;
+            }
+            .sidebar{
+                background-color: #f3f9fc;
+                padding:20px 0px 20px 0px;
+            }
+            .sidebar span {
+                width:100%;
+                display:block;
+                text-align: center;
+                margin-top:5px;
+            }
+            .sidebar .morelinks{                
+                color: #BF2501;
+                font-size: 16px;                
+            }
+
+            .flexslider {
+                border:0;
+                margin-bottom:0px; 
+            }
+            .flex-control-nav {
+                display:none;
+            }
+            .article-list {
+                margin-top:10px;
+            }
+            .article-list .boxtitle {
+                border-bottom: 1px solid #c9c9c9;
+                padding-bottom: 10px;
+                margin-bottom:10px;
+            }
+            .article-list .boxtitle .title{
+                font-size: 20px;
+                color: #141414;
+                font-weight: bold;
+            }
+            .article-list .boxtitle .more{
+                position: absolute;
+                right:20px;
+                color:#a9a9a9;
+            }
+            .article-list .boxlist{
+                margin-left:10px;
+            }
+            .article-list .boxlist ul{
+                list-style:none;
+                margin:0;
+                padding:0;
+            }
+            .article-list .boxlist ul li{
+                margin-top:10px;
+            }
+            .article-list .boxcontent{
+                margin-top:20px;
+            }
+            .article-list .boxpager{
+                border-top: 1px solid #c9c9c9;
+                margin-top:10px;
+                padding-top:10px;
+                color:#999;
+            }
+            .my-breadcrumb {
+                margin-top:10px;
+                color:#999;
+            }
+            .my-breadcrumb a {
+                color:#999;
+            }
+            td {
+                padding: 5px 2px 5px 2px;
+            }
+            td p {
+                /* margin: 5px 2px 5px 2px; */
+                margin: 0px;
+            }
+            .container {
+                max-width: 1200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <a href="/" style="font-size:2em; color:white;"><img src="/content/style/yz-logo.png" alt="北京师范大学" /></a>
+                    </div>
+                    <div class="col-md-3">
+                        <form name="dataForm" action="/search" method="post" style="margin-top:5px;">
+                            <div class="input-group">                                
+                                <input type="text" name="pattern" class="form-control" placeholder="搜索关键字">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="nav" class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">首页</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="/list/master" class="dropdown-toggle" data-hover="dropdown">硕士生招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="/list/master_board">最新消息</a></li>
+                                <li><a href="/list/master_brochure">招生简章</a></li>
+                                <li><a href="/list/master_info">历年数据</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/list/doctor" class="dropdown-toggle" data-hover="dropdown">博士生招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="/list/doctor_board">最新消息</a></li>
+                                <li><a href="/list/doctor_brochure">招生简章</a></li>
+                                <li><a href="/list/doctor_info">历年数据</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/list/gat">港澳台招生</a></li>
+                        <li><a href="https://admission-is.bnu.edu.cn/" target="_blank">留学生招生</a></li>
+                        <li><a href="/list/open">信息公开</a></li>
+                        <li><a href="/list/faq">常见问题</a></li>
+                        <li><a href="/list/contact">联系我们</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="navbar navbar-bg hidden-md hidden-lg">
+            <div class="container">
+                <div class="row">
+                    <ul class="nav">
+                        <li class="col-sm-4 col-xs-6"><a href="/list/master">硕士生招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/doctor">博士生招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/gat">港澳台招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/foreign">留学生招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/open">信息公开</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/faq">常见问题</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/contact">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="content" class="container">
+            <div class="row">
+                <div class="col-sm-10">
+    <div class="article-list">
+        <div class="boxtitle">
+            <span class="title" style="font-size:30px;">最新消息</span>
+            <div class="my-breadcrumb">
+                当前位置：<a href="/">首页</a> 
+                <a href="/list/master">&raquo;  硕士生招生</a>
+                <a href="/list/master_board">&raquo;  最新消息</a>
+                &raquo;
+                详细页
+            </div>
+        </div>        
+        <div class="boxcontent">
+            <h4 class="text-center strong">
+                <strong>北京师范大学各院（系）2027年推荐免试综合考核实施细则（持续更新中）</strong>
+            </h4>
+            <div class="text-center text-muted">发布时间：2026-09-04　<span>阅读 60148 次</span></div>
+            <div class="article-content" style="margin-top:10px;">
+                <div style="text-align: center">
+	<table style="width: 60%; margin: 0 auto; text-align: left" cellpadding="1" cellspacing="0" border="1">
+		<tbody>
+			<tr>
+				<td>
+					<strong>院（系）</strong> 
+				</td>
+				<td>
+					<strong>综合考核实施细则</strong> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">001哲学学院</span><br>
+				</td>
+				<td>
+					<a href="https://phil.bnu.edu.cn/jyjx/yjszs/zsjysss/c8b06fca0f374d04b405622870ded874.html" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">002经济与工商管理学院</span><br>
+				</td>
+				<td>
+					<a href="https://bs.bnu.edu.cn/yjsjx/yjszsxx/fadacdf476354f7e98db48a2c06b8f18.html" target="_blank">学术学位</a>&nbsp;<a href="https://bs.bnu.edu.cn/zyxwssjyzx/zxgg2/90dad95514a04cd199aeca0ecf288f0d.html" target="_blank">专业学位</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">003马克思主义学院</span><br>
+				</td>
+				<td>
+					<a href="https://marx.bnu.edu.cn/xstd/tzgg/64d5c415b003464d8983c704ea1fb58c.html" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">004教育学部</span><br>
+				</td>
+				<td>
+					<a href="https://fe.bnu.edu.cn/html/1/news/20260907/n9556.html" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">005法学院</span><br>
+				</td>
+				<td>
+					<a href="https://law.bnu.edu.cn/xwzx/xygg/zszp/zs/12fcfc91a77c46cf8b56277a0b013270.htm" target="_blank">学术学位</a>&nbsp;<a href="https://law.bnu.edu.cn/zspy/zyxwssyjszs/155d7e9f864f4d4ea8d0862fdf4959af.htm" target="_blank">专业学位</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">006政府管理学院</span><br>
+				</td>
+				<td>
+					<a href="http://www.sg.bnu.edu.cn/tzgg1/559049d2fb1140eb8d41a22a48b4257f.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">009体育与运动学院</span><br>
+				</td>
+				<td>
+					<a href="http://www.tyx.bnu.edu.cn/xwzx/tzgg4/bd2c3eff98344f5eb86ecdadc4321d9e.htm" target="_blank">学术学位</a>&nbsp;<a href="http://www.tyx.bnu.edu.cn/xwzx/tzgg4/4ed679f228b0422e853e511a0d7b698e.htm" target="_blank">专业学位</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">010文学院</span><br>
+				</td>
+				<td>
+					<a href="https://wxy.bnu.edu.cn/sytzgg/52272551400b48e79db52ade02e90c34.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">011外国语言文学学院</span><br>
+				</td>
+				<td>
+					<a href="http://www.sfll.bnu.edu.cn/xwgg/tzgg/73f7b171d72c4167912eabff59a55d15.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">012历史学院</span><br>
+				</td>
+				<td>
+					<a href="https://history.bnu.edu.cn/docs/2026-09/2dba7faff63942f394ae37f812484dcd.pdf" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">015数学科学学院</span><br>
+				</td>
+				<td>
+					<a href="https://math.bnu.edu.cn/yjshd/93cf6f2c10d240689b4ae168a835cbd9.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">019化学学院</span><br>
+				</td>
+				<td>
+					<a href="http://www.chem.bnu.edu.cn/rcpy/yjs/yjszxxx/9f73740ca7c44b71946b3f931f0190a1.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">022环境学院</span><br>
+				</td>
+				<td>
+					<a href="https://env.bnu.edu.cn/xwtzgg/68c2fd7bad014f6da7ae141ea1031b7e.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">023生命科学学院</span><br>
+				</td>
+				<td>
+					<a href="https://cls.bnu.edu.cn/xwzx/tzgg/d5edd0d8c6a546c3be2f65a040d17f8d.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">026系统科学学院</span><br>
+				</td>
+				<td>
+					<a href="https://sss.bnu.edu.cn/szszp/zsxx/59b4c9863dcc40e9b35d2a24f9bf5d51.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">029艺术与传媒学院</span><br>
+				</td>
+				<td>
+					<a href="http://www.art.bnu.edu.cn/docs/2026-09/e2a95f2b7e404832ae1cf9c27ffe219d.pdf" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">030水科学研究院</span><br>
+				</td>
+				<td>
+					<a href="https://cws.bnu.edu.cn/xwzx/tzgg/fa102d50cb724b829b8f9d8a46ef8cc7.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">034统计学院</span><br>
+				</td>
+				<td>
+					<a href="https://stat.bnu.edu.cn/tzgg4/d59b458f72d24646b94f935d70696615.htm" target="_blank">查看</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">035中国基础教育质量监测协同创新中心</span><br>
+				</td>
+				<td>
+					<a href="https://cicabeq.bnu.edu.cn/rcpy/xtpy/8ac61768cfd542a5ace78f3217e146e1.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">036社会学院</span><br>
+				</td>
+				<td>
+					<a href="https://soc.bnu.edu.cn/zsjy/tzgg1/55de6f2252ea4a38a9225b633e2bad3d.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">037新闻传播学院</span><br>
+				</td>
+				<td>
+					<a href="https://sjc.bnu.edu.cn/xwdt/tzgg/e77be02ea0b54aec81fd61d1e9b80621.html" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">038心理学部</span><br>
+				</td>
+				<td>
+					<a href="https://psych.bnu.edu.cn/xwzx/tzgg/064ffd543231447c86a7ceff7b8797bd.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">039地理科学学部</span><br>
+				</td>
+				<td>
+					<a href="https://geo.bnu.edu.cn/tzgg/7a52d3608e2440c299446af22a50f18a.html" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">040人工智能学院</span><br>
+				</td>
+				<td>
+					<a href="https://ai.bnu.edu.cn/ggjxz/tzgg/15afe30275d644d0aae6fe510ceb0bae.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">042未来教育学院</span><br>
+				</td>
+				<td>
+					<a href="https://cef.bnu.edu.cn/xwgg/tzgg/274a502941d04964bf7ee352dc8a5cb4.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">043未来设计学院</span><br>
+				</td>
+				<td>
+					<a href="https://design.bnu.edu.cn/admissions/master/f8f39c8bc26d429c903c28b3144eda5c.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">045湾区国际商学院</span><br>
+				</td>
+				<td>
+					<a href="https://bibs.bnu.edu.cn/news/notice/0c59f00b319941f4b41a8e82c25d3e15.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">046国际中文教育学院</span><br>
+				</td>
+				<td>
+					<a href="https://gjzw.bnu.edu.cn/tzgg/cc2090fe3f3a42f8a7faf7f48e2d5d54.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">047国家安全与应急管理学院</span><br>
+				</td>
+				<td>
+					<a href="https://mp.weixin.qq.com/s/Sn-fIUnzM3Kt2HnYoauf_g" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">048文理学院</span> 
+				</td>
+				<td>
+					<a href="https://fas.bnu.edu.cn/zsjy/yjszs/8df9ac47eb484ebf95be70a157f8b36e.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">050物理与天文学院</span><br>
+				</td>
+				<td>
+					<a href="https://physics.bnu.edu.cn/tzgg/39eaf70d157a410e949fca489ebb067b.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">051未来技术学院</span><br>
+				</td>
+				<td>
+					<a href="https://tecs.bnu.edu.cn/tzgg/a8126d5707474931a2e8d1e7d7d14f27.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #444444; font-family: 微软雅黑; background-color: #FFFFFF">052中华文化研究院丨京师书院</span><br>
+				</td>
+				<td>
+					<a href="https://jssy.bnu.edu.cn/zs/04dc5de3e340432aa93d9186a95ba8c1.htm" target="_blank">查看</a> 
+				</td>
+			</tr>
+		</tbody>
+	</table>
+<br>
+<span></span><br>
+<span></span> 
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="sidebar" style="min-height: 300px;">
+                        <div class="col-md-12 col-sm-4 nopadding"> 
+                            <span class="morelinks">常用链接</span>
+                            <span><a href="http://www.bnu.edu.cn" target="_blank">学校主页</a></span>
+                            <span><a href="http://jwb.bnu.edu.cn/" target="_blank">教务部</a></span>
+                            <span><a href="http://www.bnu.edu.cn/kxyj/" target="_blank">科学研究</a></span>
+                            <span><a href="https://yz.bnu.edu.cn/content/dsfc/index_dsfc.html" target="_blank">导师风采</a></span>
+                            <span><a href="http://www.bnu.edu.cn/xbyx/" target="_blank">学部院系</a></span>
+                            <span><a href="http://www.bnu.edu.cn/zzjg/" target="_blank">组织机构</a></span>
+
+                            <div style="text-align:center; margin-top: 20px;">
+                                <img src="/content/style/wx_jsyz.jpg" style="width: 100%;">
+                                微信公众号
+                            </div>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>	
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            &copy; 版权所有 北京师范大学　地址：北京市新街口外大街19号　邮编：100875
+        </div>
+        <div class="text-center small" style="display:none;">
+
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="/content/script/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="/content/script/bootstrap-hover-dropdown.min.js"></script>
+        <script src="/content/script/jquery.flexslider-min.js"></script>
+        <script src="/content/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/scripts/miniui/miniui.js"></script>    
+        <script id="seajsid" type="text/javascript" src="/scripts/seajs/sea.js"></script>
+        <script type="text/javascript" src="/scripts/seajs/seajs-css.js"></script>
+        <script type="text/javascript" src="/scripts/areas/core/config.js?v=41"></script>
+        <script type="text/javascript" src="/scripts/areas/core/core.miniui.js?v=41"></script>
+        <script>
+            // Can also be used with $(document).ready()
+            $(document).ready(function(){
+                $('.flexslider').flexslider({
+                    animation: "slide",
+                    slideshowSpeed: 10000
+                    //controlsContainer: ".flex-container"
+                });
+
+            });
+        </script>
+    </body>
+</html>

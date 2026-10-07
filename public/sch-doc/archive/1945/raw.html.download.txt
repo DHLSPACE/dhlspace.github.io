@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="liwen@cashq.ac.cn">
+<meta name="keywords" content="广州能源所、中国科学院、新能源、再生能源、清洁能源工程、生物质能源、天然气水合物成"> 
+<meta name="description" content="广州能源所定位是新能源与可再生能源领域的研究与开发利用，主要从事清洁能源工程科学领域的高技术研究，并以后续能源中的新能源与可再生能源为主要研究方向，兼顾发展节能与能源环境技术，发挥能源战略的重要支撑作用。近期目标：在生物质能源高值化转化与规模化利用，分布式可再生能源独立系统应用示范2个方向实现重大突破；在天然气水合物成藏理论与开发研究，海洋能/深层地热规模化发电关键技术，太阳能直接利用功能材料及关键技术，低碳发展及能源战略研究4个方向重点培育方向取得重大进展。"> 
+<title>学术活动----中国科学院广州能源研究所</title>
+<link href="../images/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="../images/style2016.css" rel="stylesheet" type="text/css" />
+
+<script type="text/JavaScript">
+        function __loadFlash(url,w,h)
+        {
+            document.write
+            (
+                    '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="'+w+'" height="'+h+'">'+
+                    '<param name="movie" value="'+url+'">'+
+                    '<param name="quality" value="high">'+
+                    '<param name="wmode" value="transparent">'+
+                    '<embed src="'+url+'" width="'+w+'" height="'+h+'" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed>'+
+                    '</object>'
+            );
+        }
+</script>
+
+</head>
+<body>
+
+<style>
+    #navigation #menu ul li .m{display:block;margin:0 10px;padding: 10px 8px 10px 0px;font-size:14px;color:#ffffff;}
+</style>
+<div style="background:url(//giec.cas.cn/images/nys_bg02.png);">
+    <div class="topnav">
+        <div class="left heidata ml15"><script language='javascript' type="text/javascript">
+            <!--
+            tmpDate = new Date();
+            date = tmpDate.getDate();
+            month = tmpDate.getMonth() + 1 ;
+            year = tmpDate.getYear();
+            year = tmpDate.getYear();
+            year = year>1900 ? year : year+1900;
+            document.write(year + "年" + month + "月" + date + "日&nbsp;");
+
+            myArray = new Array(6);
+            myArray[0] = "星期日"
+            myArray[1] = "星期一"
+            myArray[2] = "星期二"
+            myArray[3] = "星期三"
+            myArray[4] = "星期四"
+            myArray[5] = "星期五"
+            myArray[6] = "星期六"
+            weekday = tmpDate.getDay();
+            document.write(myArray[weekday])
+            //-->
+        </script></div>
+        <div class="weather">
+            <iframe allowtransparency="true" frameborder="0" width="180" height="36" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=3&z=2&t=0&v=0&d=3&bd=0&k=000000&f=&q=1&e=1&a=1&c=54511&w=180&h=36&align=left"></iframe>
+        </div>
+        <div class="right heidata mr15"><a href="javascript:void(0);" onclick="javascript:AddFavorite('//giec.cas.cn/', '中国科学院广州能源研究所');return false" style="cursor:pointer;" class="heidata">收藏本站</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://giec.cas.cn/wzdt2016/" class="heidata">网站地图</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://giec.cas.cn/lxwm2016/" class="heidata">联系我们</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="http://english.giec.cas.cn/" class="heidata" target="_blank">ENGLISH</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="//cas.cn/" class="heidata" target="_blank">中国科学院</a></div>
+
+        <script type="text/javascript">
+            //设为首页 www.giec.cas.cn
+            function SetHome(obj,url){
+                try{
+                    obj.style.behavior='url(#default#homepage)';
+                    obj.setHomePage(url);
+                }catch(e){
+                    if(window.netscape){
+                        try{
+                            netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                        }catch(e){
+                            alert("抱歉，此操作被浏览器拒绝！\n\n请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为'true'");
+                        }
+                    }else{
+                        alert("抱歉，您所使用的浏览器无法完成此操作。\n\n您需要手动将【"+url+"】设置为首页。");
+                    }
+                }
+            }    //收藏本站 www.lasg.ac.cn
+            function AddFavorite(title, url) {
+                try {
+                    window.external.addFavorite(url, title);
+                } catch (e) {
+                    try {
+                        window.sidebar.addPanel(title, url, "");
+                    }    catch (e) {
+                        alert("抱歉，您所使用的浏览器无法完成此操作。\n\n加入收藏失败，请进入新网站后使用Ctrl+D进行添加");
+                    }  } }
+        </script>
+    </div>
+</div>
+<div class="contents">
+    <div class="topbanner"><!--<script type="text/javascript">__loadFlash("//giec.cas.cn/images/feiniao2016.swf",900,200);</script>--></div>
+    <div id="navigation">
+        <div id="nav">
+            <div id="navsearch">
+
+                <div class="TopSearch">
+                    <form name="searchform" action="/qwjs/" method="get"  target="_top" onsubmit="return search_check()">
+
+
+                        <input type="text" class="SearchText" value="请输入关键字" name="keyword" id="iptSword" onClick="javascript:if(this.value=='请输入关键字') this.value=''" />
+                        <input type="submit" class="SearchBtn" value="" style="height: 28px;" />
+
+                        <script type="text/javascript">
+                            function escapeTrs(str){//转义trs关键字
+                                var arr = new Array("\\\\","!","@","#","\\$","\%","\\^","\&","\\*","\\(","\\)","\\_","\\+","\-","\=","\\{","\\}","\\|","\\[","\\]",";","'",":","\"","\<","\>","\\?","\,","\\.","\/");
+
+                                for(var i=0;i<arr.length;i++){
+                                    var re = new RegExp(arr[i],"img");
+                                    str = str.replace(re, '\\' + arr[i]);
+                                }
+
+                                return str;
+                            }
+                            function dealKeywords(sword, relation)
+                            {
+                                var sTemp = "";
+                                var swordtemp = "";
+                                var sArray;
+
+                                if(sword.indexOf("*")<0&&sword.indexOf("+")<0&&sword.indexOf(")")<0&&sword.indexOf("(")<0&&sword.indexOf("\\")<0)
+                                {
+                                    sword = escapeTrs(sword);
+                                    //不含trs关键字
+                                    sArray = sword.split(" ");//输入框空格处理,空格表示 relation 关系
+                                    for(var i=0; i<sArray.length;i++)
+                                    {
+                                        sTemp = sArray[i].replace(/^\s+|\s+$/g,"");//去掉sword前后空格
+                                        if(sTemp!="")
+                                        {
+                                            swordtemp += "'"+ sTemp + "' "+relation+" ";/*加上''符号,处理trs带运算符的检索词报错的问题*/
+                                        }
+                                    }
+                                    if(swordtemp.lastIndexOf(" "+relation+" ")!=-1)//去掉relation结尾
+                                    {
+                                        swordtemp = swordtemp.substring(0,swordtemp.length-relation.length-2);
+                                    }
+                                }
+
+                                else//包含trs关键字
+                                {
+                                    if(sword.indexOf("\\")!=-1){
+                                        var re = new RegExp("\\\\","img");
+                                        sword = sword.replace(re, '\\\\');
+                                    }
+                                    swordtemp = "'"+sword+"'";
+                                }
+                                return swordtemp;
+                            }
+
+                            function search_check() {
+                                var sword =document.getElementById("iptSword").value.replace(/^\s+|\s+$/g,"");
+
+                                if (sword=='' || sword=='请输入关键字') {
+                                    alert('请请输入关键字!');
+                                    return false;
+                                } else {
+                                    document.searchform.keyword.value = encodeURI(document.getElementById("iptSword").value);//传参前进行编码
+                                    document.searchform.submit();
+                                }
+                            }
+                            window.onload=function () { $("input").attr('onkeydown',"if(event.keyCode===13){return false;}"); };
+                        </script>
+                    </FORM>
+
+                </div>
+
+            </div>
+            <div id="menu">
+                <ul>
+                    <li id="ul0" style="margin-left:10px;"><a class="m" href="//giec.cas.cn/" target="_top">首页</a></li>
+                    <li id="ul1"><a class="m" href="http://giec.cas.cn/yjsgk2016/" target="_top">研究所概况</a>
+
+
+                    </li>
+                    <li id="ul2"><a class="m" href="http://giec.cas.cn/jgdy2016/" target="_top">组织架构</a>
+                        <ul id="menu_ul2" style="background:#4baec1 url(//giec.cas.cn/images/nav-org02.jpg) left bottom no-repeat; width:1170px; left:50%; margin:0 0 0 -585px; height:365px;">
+                            <table cellpadding="0" cellspacing="0" border="0" style="margin:0 auto;">
+                                <tr>
+                                    <td width="82">&nbsp;</td>
+                                    <td align="left" valign="top" width="200">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td class="title">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="lnk-wyh w">
+                                                    <div style="margin-top:22px; display:block;"><a href="http://giec.cas.cn/jgdy2016/xswyh2016/" target="_top">学术委员会</a></div>
+                                                    <div style="margin-top:116px; display:block;"><a href="http://giec.cas.cn/jgdy2016/xwwyh2016/" target="_top">学位委员会</a></div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <td align="left" valign="top" width="380">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td class="title"><img src="//nimte.cas.cn/images/arr04.gif" />&nbsp;<a href="http://giec.cas.cn/jgdy2016/kybm2016/">科研部门</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="lnk-kybm w">
+                                                    <div style="margin-top:10px; display:block;"><a href="http://giec.cas.cn/jgdy2016/kybm2016/swzgzhly_2024/" target="_blank">生物质高值化利用研究中心</a></div>
+                                                    <div style="margin-top:50px; display:block;"><a href="http://giec.cas.cn/jgdy2016/kybm2016/hsny/" target="_blank">海上能源研究中心</a></div>
+                                                    <div style="margin-top:90px; display:block;"><a href="http://giec.cas.cn/jgdy2016/kybm2016/trqshw/" target="_blank">天然气水合物研究中心</a></div>
+                                                    <div style="margin-top:130px; display:block;"><a href="http://giec.cas.cn/jgdy2016/kybm2016/nyzlytzc/" target="_blank">能源战略与碳资产研究中心</a></div>
+                                                    <div style="margin-top:170px; display:block;"><a href="http://giec.cas.cn/jgdy2016/kybm2016/xxgfgzxh/" target="_blank">新兴固废高值循环研究中心</a></div>
+                                                    <div style="margin-top:210px; display:block;"><a href="http://giec.cas.cn/jgdy2016/kybm2016/drnyjnjs/" target="_blank">地热能与节能技术研究中心</a></div>
+                                                </td>
+                                            <tr>
+                                        </table>
+                                    </td>
+                                    <td align="left" valign="top" width="240">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td class="title"><img src="//nimte.cas.cn/images/arr04.gif" tppabs="arr04.gif" />&nbsp;<a href="http://giec.cas.cn/jgdy2016/glbm2016/">管理部门</a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="lnk-glbm w">
+                                                    <div style="margin-top:10px; display:block;"><a style="width: 190px;" href="http://giec.cas.cn/jgdy2016/glbm2016/bgs2019/" target="_top">综合办公室（保密办公室）</a></div>
+                                                    <div style="margin-top:50px; display:block;"><a style="width: 190px;" href="http://giec.cas.cn/jgdy2016/glbm2016/dzbgs2016/" target="_top">党委办公室（纪监审办公室）</a></div>
+                                                    <div style="margin-top:90px; display:block;"><a style="width: 190px;" href="http://giec.cas.cn/jgdy2016/glbm2016/kjc2016/" target="_top">科技处</a></div>
+                                                    <div style="margin-top:130px; display:block;"><a style="width: 190px;" href="http://giec.cas.cn/jgdy2016/glbm2016/rsjyc2016/" target="_top">人事教育处</a></div>
+                                                    <div style="margin-top:170px; display:block;"><a style="width: 190px;" href="http://giec.cas.cn/jgdy2016/glbm2016/cwc2016/" target="_top">财务处</a></div>
+                                                    <div style="margin-top:210px; display:block;"><a style="width: 190px;" href="http://giec.cas.cn/jgdy2016/glbm2016/zcc2016/" target="_top">资产处</a></div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td align="left" valign="top" width="240">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td class="title"><img src="//nimte.cas.cn/images/arr04.gif" />&nbsp;<a href="http://giec.cas.cn/jgdy2016/zcbm2016/">支撑部门</a></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="lnk-zcbm w">
+                                                    <div style="margin-top:10px; display:block;"><a style="width: 145px;" href="http://giec.cas.cn/jgdy2016/zcbm2016/ggjszx_2024/" target="_top">公共技术中心</a></div>
+                                                    <div style="margin-top:50px; display:block;"><a style="width: 145px;" href="http://giec.cas.cn/jgdy2016/zcbm2016/bjb2016/" target="_top">学术期刊与文献中心</a></div>
+                                                    
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <a href="http://giec.cas.cn/jgdy2016/" style="float:right;padding-right:30px;">更多>></a>
+                        </ul>
+                    </li>
+                    <li id="ul3"><a class="m" href="http://giec.cas.cn/kypt2016/" target="_top">科研平台</a>
+                        <ul id="menu_ul3">
+                            
+                                <li><a href="http://giec.cas.cn/kypt2016/kypt_zdsys/" target="_top">重点实验室</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/kypt2016/kypt_guyfpt/" target="_top">国家研发平台</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/kypt2016/kypt_dfyfpt/" target="_top">地方研发平台</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li id="ul4"><a class="m" href="http://giec.cas.cn/kxyj2016/" target="_top">科学研究</a>
+                        <ul id="menu_ul4">
+                            
+                                <li><a href="http://giec.cas.cn/kxyj2016/kyjz2016/" target="_top">科研进展</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/kxyj2016/yjlyyfx2016/" target="_top">研究领域与方向</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/kxyj2016/kycg2016/" target="_top">科研成果</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li id="ul5"><a class="m" href="http://giec.cas.cn/jlhz2016/" target="_top">交流合作</a>
+                        <ul id="menu_ul5">
+                            
+                                <li><a href="http://giec.cas.cn/jlhz2016/gjhz2016/" target="_top">国际合作</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/jlhz2016/sdhz2016/" target="_top">院地合作</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li id="ul6"><a class="m" href="http://giec.cas.cn/rlzy2016/" target="_top">人才队伍</a>
+                        <ul id="menu_ul6">
+                            
+                                <li><a href="http://giec.cas.cn/rlzy2016/jcrc2016/" target="_top">杰出人才</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/rlzy2016/yjszr2016/" target="_top">科研部门负责人</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/rlzy2016/kygg2016/" target="_top">科研骨干</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/rlzy2016/bsh2016/" target="_top">博士后</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/rlzy2016/rczp2016/" target="_top">人事公告</a></li>
+                            
+                                <li><a href="https://casgiec.zhiye.com/" target="_top">人才招聘网</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li id="ul7"><a class="m" href="http://giec.cas.cn/yjsjy2016/" target="_top">研究生教育</a>
+                        <ul id="menu_ul7">
+                            
+                                <li><a href="http://giec.cas.cn/yjsjy2016/gk2016/" target="_top">研究生教育概况及通知</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/yjsjy2016/zs2016/" target="_top">招生信息</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/yjsjy2016/ds2016/" target="_top">导师工作</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/yjsjy2016/pyxjyxwgl/" target="_top">培养、学籍与学位管理</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/yjsjy2016/jyzd2016/" target="_top">就业指导</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/yjsjy2016/lxsgl2016/" target="_top">留学生管理</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/yjsjy2016/wdxz2016/" target="_top">常见下载</a></li>
+                            
+                        </ul>
+
+                    </li>
+                    <li id="ul8"><a class="m" href="http://giec.cas.cn/dqwh2016/" target="_top">党群文化</a>
+                        <ul id="menu_ul8">
+                            
+                                <li><a href="http://giec.cas.cn/dqwh2016/ztxx/" target="_top">专题学习</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/dqwh2016/zzjg2016/" target="_top">组织架构</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/dqwh2016/gzzn2016/" target="_top">工作指南</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/dqwh2016/gzdt2016/" target="_top">工作动态</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/dqwh2016/xxyd2016/" target="_top">学习园地</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/dqwh2016/lzjs2016/" target="_top">廉政建设</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/dqwh2016/cxwh2016/" target="_top">创新文化</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/dqwh2016/zcfg/" target="_top">政策法规</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/dqwh2016/zhuanti2024/" target="_top">专题</a></li>
+                            
+                        </ul>
+
+                    </li>
+                    <li id="ul9"><a class="m" href="http://www.giec.cas.cn/kxcb/" target="_blank">科学传播</a></li>
+                    <li id="ul10"><a class="m" href="http://giec.cas.cn/xxgk2016/" target="_top">信息公开</a>
+                        <ul id="menu_ul10">
+                            
+                                <li><a href="http://giec.cas.cn/xxgk2016/xxgkml2016/" target="_top">信息公开目录</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/xxgk2016/xxgkgd2016/" target="_top">信息公开规定</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/xxgk2016/xxgkzn2016/" target="_top">信息公开指南</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/xxgk2016/xxgksq2016/" target="_top">依申请公开</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/xxgk2016/xxgkxndbg2016_131907/" target="_top">信息公开年度报告</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/xxgk2016/xxgkxndbg2016/" target="_top">预算决算</a></li>
+                            
+                                <li><a href="http://giec.cas.cn/xxgk2016/xxgklxfs2016/" target="_top">信息公开联系方式</a></li>
+                            
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contents bgbai pl15 pr15" style=" padding-top:10px; padding-bottom:10px;">
+   <div class="location">当前位置：<a href="../" title="首页" class="CurrChnlCls">首页</a>&nbsp;&gt;&nbsp;<a href="./" title="学术活动" class="CurrChnlCls">学术活动</a></div>
+</div>
+<div class="contents bgbai pl15 pr15 mb18">
+<div class="m_l800 mb18">
+   <div class="m_l800 bgbai1" style="min-height:586px;">
+      <div class="column1">
+          <div class="column_l">学术活动</div>
+      </div>
+      <div class="textlist4" style="margin:20px 40px 20px 36px;">
+          	<ul>
+          	
+                <li><span>2018-07-10</span><a href="./201807/t20180710_5040577.html" target="_blank" class="hei1">首都经济贸易大学来所交流自然资源资产负债表编制经验</a></li>
+                
+                <li><span>2018-07-02</span><a href="./201807/t20180702_5035504.html" target="_blank" class="hei1">广州能源所研究生参加第五届能源与气候经济论坛</a></li>
+                
+                <li><span>2018-06-29</span><a href="./201806/t20180629_5032805.html" target="_blank" class="hei1">美国北卡罗莱纳州立大学李凡星访问广州能源所并作学术报告</a></li>
+                
+                <li><span>2018-06-11</span><a href="./201806/t20180611_5024963.html" target="_blank" class="hei1">美国西弗吉尼亚大学田含晶访问广州能源所并作学术报告</a></li>
+                
+                <li><span>2018-06-05</span><a href="./201806/t20180605_5022061.html" target="_blank" class="hei1">中国社会科学院城市发展与环境研究所庄贵阳一行来访并作学术报告</a></li>
+                
+                <li><span>2018-06-05</span><a href="./201806/t20180605_5021987.html" target="_blank" class="hei1">广州能源所举办“第一届波浪能气动式一体化技术研讨会”</a></li>
+                
+                <li><span>2018-05-21</span><a href="./201805/t20180521_5014126.html" target="_blank" class="hei1">陈勇院士参加乡村振兴高峰论坛</a></li>
+                
+                <li><span>2018-05-16</span><a href="./201805/t20180516_5012306.html" target="_blank" class="hei1">中科院可再生能源重点实验室召开2018年度学术委员会会议</a></li>
+                
+                <li><span>2018-04-20</span><a href="./201804/t20180420_4999655.html" target="_blank" class="hei1">广东省新能源和可再生能源研究开发与应用重点实验室召开2018年度学术委员会会议</a></li>
+                
+                <li><span>2018-04-20</span><a href="./201804/t20180420_4999647.html" target="_blank" class="hei1">中国科学院天然气水合物重点实验室召开2018年度学术委员会会议</a></li>
+                
+                <li><span>2018-04-16</span><a href="./201804/t20180416_4997580.html" target="_blank" class="hei1">广州中瑞低碳城市项目一期合作项目终期报告会暨指导委员会第二次会议圆满召开</a></li>
+                
+                <li><span>2018-04-08</span><a href="./201804/t20180408_4992729.html" target="_blank" class="hei1">上海崇明生态研究院等一行到广州能源所调研交流</a></li>
+                
+                <li><span>2018-03-29</span><a href="./201803/t20180329_4987860.html" target="_blank" class="hei1">中广核集团可持续发展战略咨询项目中期评审会在深圳召开</a></li>
+                
+                <li><span>2018-03-05</span><a href="./201803/t20180305_4969660.html" target="_blank" class="hei1">广州能源所赴巴新参加亚太经合组织PPSTI第11次例会</a></li>
+                
+                <li><span>2018-02-13</span><a href="./201802/t20180213_4951681.html" target="_blank" class="hei1">国家973项目“微型能源动力系统的科学问题”2017年度总结会议顺利召开</a></li>
+                
+                <li><span>2018-02-01</span><a href="./201802/t20180201_4941286.html" target="_blank" class="hei1">可再生能源实施方法学和工具开发及应用研讨会在广州召开</a></li>
+                
+                <li><span>2018-01-15</span><a href="./201801/t20180115_4933287.html" target="_blank" class="hei1">Springer Nature“成就您的研究”专题活动走进中国科学院广州能源研究所</a></li>
+                
+                <li><span>2017-12-22</span><a href="./201712/t20171222_4922036.html" target="_blank" class="hei1">中国地质大学（武汉）蒋国盛教授一行访问水合物中心</a></li>
+                
+                <li><span>2017-11-28</span><a href="./201711/t20171128_4900609.html" target="_blank" class="hei1">广州能源所举办X射线分析技术交流与培训会</a></li>
+                
+                <li><span>2017-11-08</span><a href="./201711/t20171108_4889325.html" target="_blank" class="hei1">广州能源所青促会小组参加院青促会2017年学术年会</a></li>
+                
+          	</ul>
+            <div class="pageline"></div>
+            <div id="pages">
+                        共24页&nbsp;&nbsp;<a id='pagenav_head' class=\"Slan_12c \" style=\"padding-left:3px;padding-right:3px;\"target='_self' href='index.html'>首页</a><a id='pagenav_pregroup' class=\"Slan_12c \" style=\"padding-left:3px;padding-right:3px;\"target='_self' href='index_9.html'>上5页</a><a id='pagenav_9' class=\"Slan_12c \" style=\"padding-left:3px;padding-right:3px;\"target='_self' href='index_9.html'>上一页</a><span id='pagenav_10' style=\"color:#FF0000;padding-left:3px;padding-right:3px;\">11</span><a id='pagenav_11' class=\"Slan_12c \" style=\"padding-left:3px;padding-right:3px;\"target='_self' href='index_11.html'>12</a><a id='pagenav_12' class=\"Slan_12c \" style=\"padding-left:3px;padding-right:3px;\"target='_self' href='index_12.html'>13</a><a id='pagenav_13' class=\"Slan_12c \" style=\"padding-left:3px;padding-right:3px;\"target='_self' href='index_13.html'>14</a><a id='pagenav_14' class=\"Slan_12c \" style=\"padding-left:3px;padding-right:3px;\"target='_self' href='index_14.html'>15</a><a id='pagenav_11' class=\"Slan_12c \" style=\"padding-left:3px;padding-right:3px;\"target='_self' href='index_11.html'>下一页</a><a id='pagenav_nextgroup' class=\"Slan_12c \" style=\"padding-left:3px;padding-right:3px;\"target='_self' href='index_19.html'>下5页</a><a id='pagenav_tail' class=\"Slan_12c \" style=\"padding-left:3px;padding-right:3px;\"target='_self' href='index_23.html'>尾页</a> 					
+<script>
+var currentPage = 10;//所在页从0开始
+var countPage = 24//共多少页	
+//跳转页面
+document.write("<font class='9ptb'>转到第<input type='text' id='num' value="+(currentPage+1)+" style='height:24px;width:30px;font-size:12px;-webkit-appearance: textfield;padding: 1px;background-color: white;border: 2px inset;border-image-source: initial;border-image-slice: initial;border-image-width: initial;border-image-outset: initial;border-image-repeat: initial;-webkit-rtl-ordering: logical;-webkit-user-select: text;cursor: auto;' />页"+"&nbsp;<input style='height:24px;font-size:12px;padding: 1px 6px; border-box;background-color: buttonface;border: 2px outset buttonface;' type='submit' value='跳转' onClick=javascript:toPage() /></font>");
+	             
+function toPage(){
+	var _num = document.getElementById("num").value;
+	if(isNaN(_num)){
+		alert("请输入数字");
+		return false;
+	}
+	var str = "index"+"_"+(_num-1)+"."+"html";
+	var url = location.href.substring(0,location.href.lastIndexOf("/")+1);
+	if(_num<=1||_num==null)
+		location.href = url+"index"+"."+"html";
+	else if(_num>countPage)
+		alert("本频道最多"+countPage+"页");
+	else
+		location.href = url+str;
+}
+</script>
+           </div>
+   </div>
+   </div>
+</div>
+
+<div class="m_r322 ml18">
+    <div class="m_r322">
+        <div class="lanmu">
+            <div class="lanmu_l"><strong>通知公告</strong></div>
+            <div class="lanmu_r"><a href="../tzgg2016/" target="_blank">更多 +</a></div>
+        </div>
+        <div class="column_gd border-not">
+            <div id="marquee4">
+                <ul>
+                    
+                        <li class="lan"><span>▪</span> <a href="../tzgg2016/202112/t20211210_6293628.html" class="hei1">中国科学院广州能源研究所声明</a> [2021-12-10]</li>
+                    
+                        <li class="lan"><span>▪</span> <a href="https://www.gbadoctor.com/policy-news/330529380537208832?from=home" class="hei1">转发《关于发布第三届粤港澳大湾区博士博士后创新创业大赛揭榜领题赛张榜项目榜单的公告》<br/></a> [2026-07-09]</li>
+                    
+                        <li class="lan"><span>▪</span> <a href="../yjsjy2016/zs2016/sqxly2016/202607/t20260701_8236626.html" class="hei1">中国科学技术大学能源科学与技术学院（广州能源所）2026年新能源科学营报名通知（第二期）</a> [2026-07-01]</li>
+                    
+                        <li class="lan"><span>▪</span> <a href="../tzgg2016/202606/t20260603_8213471.html" class="hei1">转发：关于举办第三届粤港澳大湾区博士博士后创新创业大赛的通知</a> [2026-06-03]</li>
+                    
+                        <li class="lan"><span>▪</span> <a href="../yjsjy2016/zs2016/bszsxx/202604/t20260415_8185889.html" class="hei1">中国科学技术大学能源科学与技术学院（广州能源所）2026年普通招考（申请-考核制）博士生综合考核实施细则</a> [2026-04-15]</li>
+                    
+                        <li class="lan"><span>▪</span> <a href="../yjsjy2016/zs2016/bszsxx/202603/t20260331_8179783.html" class="hei1">关于延长2026年博士研究生报名时间的通告</a> [2026-03-31]</li>
+                    
+                    <li style="height:30px;"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="m_r322 mt15">
+        <div class="lanmu">
+            <div class="lanmu_l"><strong>学术报告</strong></div>
+            <div class="lanmu_r"><a href="../xsbg2016/" target="_blank">更多 +</a></div>
+        </div>
+        <div class="column_gd border-not">
+            <ul style="margin:10px;">
+                
+                    <li style="margin-bottom:7px;">
+                        <table width="298" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td width="12"><img src="../images/nysico_hd.gif" width="11" height="11" alt="" /></td>
+                                <td colspan="2"><a href="../xsbg2016/202609/t20260918_8284926.html" target="_blank" class="hei1">重点实验室学术报告会通知（2026.9.24）</a></td>
+                            </tr>
+                            <tr>
+                                <td width="12">&nbsp;</td>
+                                <td width="40" class="lan1">时间：</td>
+                                <td class="hei12">2026年9月24日10:00-12:00</td>
+                            </tr>
+                            <tr>
+                                <td width="12">&nbsp;</td>
+                                <td width="40" class="lan1">地点：</td>
+                                <td class="hei12">生物质能源大楼911会议室</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                
+                    <li style="margin-bottom:7px;">
+                        <table width="298" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td width="12"><img src="../images/nysico_hd.gif" width="11" height="11" alt="" /></td>
+                                <td colspan="2"><a href="../xsbg2016/202609/t20260914_8281310.html" target="_blank" class="hei1">重点实验室学术报告会通知（2026.9.16）</a></td>
+                            </tr>
+                            <tr>
+                                <td width="12">&nbsp;</td>
+                                <td width="40" class="lan1">时间：</td>
+                                <td class="hei12">2026年9月16日上午9:30-11:30</td>
+                            </tr>
+                            <tr>
+                                <td width="12">&nbsp;</td>
+                                <td width="40" class="lan1">地点：</td>
+                                <td class="hei12">生物质能源大楼911会议室</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                
+                    <li style="margin-bottom:7px;">
+                        <table width="298" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                            <tr>
+                                <td width="12"><img src="../images/nysico_hd.gif" width="11" height="11" alt="" /></td>
+                                <td colspan="2"><a href="../xsbg2016/202608/t20260827_8266035.html" target="_blank" class="hei1">青促会开讲啦第三十三期学术报告会通知（2026.08.31）</a></td>
+                            </tr>
+                            <tr>
+                                <td width="12">&nbsp;</td>
+                                <td width="40" class="lan1">时间：</td>
+                                <td class="hei12">2026年8月31日15:30</td>
+                            </tr>
+                            <tr>
+                                <td width="12">&nbsp;</td>
+                                <td width="40" class="lan1">地点：</td>
+                                <td class="hei12">节能与环保大楼10层报告厅</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="m_r322 mt15 mb18"><a href="http://lib.giec.ac.cn/" target="_blank"><img src="../images/tsg.jpg" width="323" height="56" alt="" /></a></div>
+</div>
+
+</div>
+
+<div class="foot">
+    <div class="logo"><a href="http://www.cas.cn/" target="_blank"><img src="//giec.cas.cn/images/logo-cas.png" alt="中国科学院" /></a></div>
+    <p>版权所有 &copy; 中国科学院广州能源研究所　备案号：<a href="http://beian.miit.gov.cn">粤ICP备11089167号-2</a><br />
+        地址: 广州市天河区能源路2号　　邮编：510640　　电话：020-87057639（办公室）　87057637（科技处）<br />传真：020-87057677   　E-mail：<a href="mailto:web@ms.giec.ac.cn">web@ms.giec.ac.cn</a>  
+
+        </a></p>
+    <div class="sydw"><a href="https://bszs.conac.cn/sitename?method=show&id=08D8E7D864EE4508E053022819AC3D7D" target="_blank"><img src="//giec.cas.cn/images/giec-sydw.png" alt="giec-sydw.png" title="giec-sydw.png" /></a></div>
+</div>
+
+<script type="text/javascript" src="../images/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="../images/bootstrap.min.js"></script>
+<script type="text/javascript"> 
+$(document).ready(function(){
+	$("#menu li[id!='']").mouseover(function(){
+		if($(this).attr('class')=='culture'){
+		var offset = $('#nav').offset();
+		$('#menu_'+ this.id).css("left",offset.left+'px');
+		}
+		$('#menu_'+ this.id).fadeIn();}
+	);
+	$("#menu li[id!='']").mouseleave(function(){$('#menu_'+ this.id).fadeOut();});
+});
+</script>
+<script type="text/javascript" src="../images/jquery.kxbdMarquee.js"></script>
+<script>
+(function(){
+	$("#marquee4").kxbdMarquee({direction:"up",isEqual:false});
+	$("#marquee5").kxbdMarquee({direction:"up",isEqual:false});
+})();
+</script>
+</body>
+</html>

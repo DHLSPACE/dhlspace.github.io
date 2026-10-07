@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>研究生教育网</title>
+<link rel="stylesheet" type="text/css" href="./style/reset.css">
+<link rel="stylesheet" type="text/css" href="./style/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./style/bootstrap.reset.css">
+<link rel="stylesheet" type="text/css" href="./style/common.css">
+<script src="./script/popper.min.js"></script>
+<script src="./script/jquery.min.js"></script>
+<style>
+    .search-link{border:0; background: transparent; width:28px!important;}
+</style>
+	<link rel="stylesheet" type="text/css" href="./style/historic.css" />
+	<link rel="stylesheet" type="text/css" href="./style/list.css" />
+</head>
+<body>
+<div class="page-top">
+	<div class="top-line d-none d-xl-block"></div>
+	<div class="d-xl-none m-nav" style="height: 58px;"></div>
+	<div class="back-wuli d-none d-xl-block"><a href="https://www.iop.cas.cn/">返回物理所首页</a><img src="./static/back-home.png" alt=""></div>
+	<div class="container-fluid page-header d-none d-xl-flex">
+		<div class="logo-area">
+			<a href="."><img src="./static/logo.png" class="page-logo" alt="" /></a>
+			<!-- <a href=""><img src="./static/logo-2.png" class="page-logo" alt=""></a> -->
+			<!-- <a href=""><img src="./static/logo-3.png" class="page-logo" alt=""></a> -->
+		</div>
+		<form class="search" action="?q=search">
+			<input name="q" type="hidden" value="search">
+			<input name="key" type="text" class="search-input" placeholder="请输入关键字" maxlength="10">
+			<button class="search-link"><img src="./static/search-icon.png" class="search-icon" alt=""></button>
+		</form>
+	</div>
+	<div class="d-block d-xl-none m-nav">
+		<nav class="navbar navbar-expand-xl navbar-light bg-white fixed-top">
+			<div class="top-line-m"></div>
+			<a class="navbar-brand navbar-brand-m" href="." style="width: 50%;">
+				<img src="./static/logo-m.png" class="page-logo-m" alt=""/>
+				<img src="./static/logo-m-w.png" class="page-logo-m-w" alt=""/>
+			</a>
+			<div
+					class="toggle-btn-m collapsed"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarCollapse"
+					aria-controls="navbarCollapse"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+					id="toggleBtnM"
+			>
+				<!-- <span class="navbar-toggler-icon"></span> -->
+			</div>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" href=".">首&nbsp;&nbsp;&nbsp;&nbsp;页</a>
+					</li>
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3267" role="button" aria-expanded="false">
+							概况
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list_first&amp;id=3268">历史沿革</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3269">学科简介</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3646">学位委员会</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3648">教育督导委员会</a>
+							
+							<a class="dropdown-item" href="?q=contactus&amp;id=3270">联系我们</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3271" role="button" aria-expanded="false">
+							硕博招生
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3277">推荐免试</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3278">硕士招生</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3279">博士招生</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3280">International Students</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3272" role="button" aria-expanded="false">
+							联合培养
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3281">硕博联培</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3282">本科毕设</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3284">短期交流</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item">
+						<a class="nav-link" href="?q=list_teacher&amp;id=3285">导师介绍</a>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3273" role="button" aria-expanded="false">
+							培养学位
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3653">学籍管理</a>
+							
+							<a class="dropdown-item" href="?q=list_top&amp;id=3286">培养方案</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3287">学位申请</a>
+							
+							<a class="dropdown-item" href="?q=list2&amp;id=3288">所内课程</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3289">评奖评优</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3652">规章制度</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3274" role="button" aria-expanded="false">
+							团学思政
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3290">毕业典礼合影</a>
+							
+							<a class="dropdown-item" href="?q=list_top&amp;id=3291">明理时空</a>
+							
+							<a class="dropdown-item" href="?q=list_top&amp;id=3292">研究生会</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3275" role="button" aria-expanded="false">
+							严济慈班
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3293">选拔公告</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3294">前沿讲座</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3295">严班奖学金</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3296">活动交流</a>
+							
+						</div>
+					</li>
+					
+					
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3276" role="button" aria-expanded="false">
+							毕业就业
+						</a>
+						<div class="dropdown-menu">
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3297">毕业流程</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3298">就业去向</a>
+							
+							<a class="dropdown-item" href="?q=list&amp;id=3299">选调信息</a>
+							
+						</div>
+					</li>
+					
+					
+				</ul>
+				<div class="back-btn"><a href="https://www.iop.cas.cn/">返回物理所首页</a><img src="./static/back-home.png" alt=""></div>
+			</div>
+		</nav>
+	</div>
+</div>
+<div class="page-main">
+	<div class="main-banner d-none d-xl-block"></div>
+<div class="main-top d-block d-xl-none">
+	<img src="./static/banner-2.jpg" class="d-none d-md-block" alt="" style="width: 100%;height: auto;">
+	<img src="./static/m-banner-1.jpg" class="d-block d-md-none" alt="" style="width: 100%;height: auto;">
+	<div class="search">
+		<form class="search-content" action="?q=search">
+			<input name="q" type="hidden" value="search">
+			<input name="key" type="text" class="search-input" placeholder="请输入关键字" maxlength="10">
+			<button class="search-link"><img src="./static/search-icon-m.png" class="search-icon" alt=""></button>
+		</form>
+	</div>
+</div>
+	<div class="container-fluid main-content p-0">
+		<div class="d-none d-xl-block" style="height: 200px;"></div>
+<div class="nav-area d-none d-xl-block">
+	<ul class="nav justify-content-center">
+		<li class="nav-item">
+			<a class="nav-link " href=".">首&nbsp;&nbsp;&nbsp;&nbsp;页</a>
+		</li>
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3267" role="button" aria-expanded="false">
+				概况
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list_first&amp;id=3268">历史沿革</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3269">学科简介</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3646">学位委员会</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3648">教育督导委员会</a>
+				
+				<a class="dropdown-item" href="?q=contactus&amp;id=3270">联系我们</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3271" role="button" aria-expanded="false">
+				硕博招生
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3277">推荐免试</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3278">硕士招生</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3279">博士招生</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3280">International Students</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3272" role="button" aria-expanded="false">
+				联合培养
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3281">硕博联培</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3282">本科毕设</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3284">短期交流</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item">
+			<a class="nav-link " href="?q=list_teacher&amp;id=3285">导师介绍</a>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3273" role="button" aria-expanded="false">
+				培养学位
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3653">学籍管理</a>
+				
+				<a class="dropdown-item" href="?q=list_top&amp;id=3286">培养方案</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3287">学位申请</a>
+				
+				<a class="dropdown-item" href="?q=list2&amp;id=3288">所内课程</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3289">评奖评优</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3652">规章制度</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3274" role="button" aria-expanded="false">
+				团学思政
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3290">毕业典礼合影</a>
+				
+				<a class="dropdown-item" href="?q=list_top&amp;id=3291">明理时空</a>
+				
+				<a class="dropdown-item" href="?q=list_top&amp;id=3292">研究生会</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3275" role="button" aria-expanded="false">
+				严济慈班
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3293">选拔公告</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3294">前沿讲座</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3295">严班奖学金</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3296">活动交流</a>
+				
+			</div>
+		</li>
+		
+		
+		
+		<li class="nav-item dropdown">
+			<a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="?q=list_top&amp;id=3276" role="button" aria-expanded="false">
+				毕业就业
+			</a>
+			<div class="dropdown-menu">
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3297">毕业流程</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3298">就业去向</a>
+				
+				<a class="dropdown-item" href="?q=list&amp;id=3299">选调信息</a>
+				
+			</div>
+		</li>
+		
+		
+	</ul>
+</div>
+
+		<div class="container-fluid main-center">
+			<div class="row">
+				<div class="col-12 col-xl-3">
+	<div class="nav-left d-none d-xl-flex">
+		<div class="nav-list">
+			<div class="top-bg"></div>
+			
+		</div>
+	</div>
+	<div class="nav-left_m d-flex d-xl-none">
+		<div class="nav-list" id="accordionExample">
+			<div class="top-bg" type="button" data-toggle="collapse" data-target="#navToggle" aria-expanded="true" aria-controls="navToggle">
+				<span></span>
+				<img class="toggle-icon" src="./static/toggle-icon.png" alt="">
+			</div>
+			<div id="navToggle" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				
+			</div>
+		</div>
+	</div>
+</div>
+				<div class="col-12 col-xl-9">
+					<nav aria-label="breadcrumb">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href=".">首页</a></li>
+							
+							<li class="breadcrumb-item breadcrumb-item-item" aria-current="page">
+								<a href="?q=moreinform&amp;id=272">招生通知</a>
+							</li>
+							
+							<li class="breadcrumb-item breadcrumb-item-item active" aria-current="page">
+								详情
+							</li>
+						</ol>
+					</nav>
+					<div class="info-wrap">
+						<div class="onece-title">招生通知</div>
+						<div class="article">
+							<div class="big-title">关于物理所2025年秋季入学推免生拟录取资格复查的通知</div>
+							<div class="article-body"><p align="justify">根据中国科学院大学《关于做好2025年硕士研究生招生复试录取工作的通知》要求，请拟录取为物理所2025年入学的推免生（包括硕士生和直博生）最晚于2025年3月28日前，将以下材料纸质版原件邮寄至物理所。</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">1、《政审表》（附件1）</p>
+<p align="justify">2、《复查表》（附件2）</p>
+<p align="justify">3、最新成绩单原件</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">上述材料签字部分必须手签，其它内容可打印，并由相关部门盖章，邮寄至物理所研究生部<strong>（请尽量通过EMS或顺丰邮寄）</strong>，邮寄地址如下：</p>
+<p align="justify">地址：北京市海淀区中关村南三街8号M楼229室 物理所研究生部</p>
+<p align="justify">邮编：100190</p>
+<p align="justify">联系人：汪老师</p>
+<p align="justify">联系电话：010-82649631</p>
+<p align="justify">&nbsp;</p>
+<p align="justify">说明：</p>
+<p align="justify">1、《政审表》中的&ldquo;参加工作时间&rdquo;，如果没有工作过，填&ldquo;无&rdquo;；</p>
+<p align="justify">2、《政审表》中的&ldquo;现任职务&rdquo;，如果仍是在校生，填&ldquo;学生&rdquo;；</p>
+<p align="justify">3、《政审表》中的&ldquo;填表人&rdquo;，为填写单位政审意见的人，一般为辅导员、学院党委书记/副书记。</p>
+<p align="right"><br>中国科学院物理研究所&nbsp;研究生部</p>
+<p align="right">二〇二五年三月十一日</p></div>
+						</div>
+						
+						<div class="attachments">
+							
+							<a class="attachments-item" href="https://edu.iphy.ac.cn/cmsfiles/a/02942_2025031117201356437.docx" download="政审表.docx">
+								<img src="./static/attachments.png" alt="">
+								<span>政审表.docx</span>
+							</a>
+							
+							<a class="attachments-item" href="https://edu.iphy.ac.cn/cmsfiles/a/02942_2025031117201612357.docx" download="复查表.docx">
+								<img src="./static/attachments.png" alt="">
+								<span>复查表.docx</span>
+							</a>
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="page-bottom">
+	<div class="container bottom-content">
+		<div class="row bottom-content_wrap">
+			<div class="bottom-left col-lg-8 col-md-12">
+				<p>版权：版权所有@2015-2026中国科学院物理研究所研究生部</p>
+				<p>地址：北京中关村南三街8号M楼229</p>
+				<p>邮编：100190 ｜邮箱：education@iphy.ac.cn</p>
+			</div>
+			<div class="bottom-right col-lg-4 col-md-12">
+				
+				<div class="code-wrap">
+					<img src="https://edu.iphy.ac.cn/cmsfiles/t/202408151135401895.png" class="code-img" alt="">
+					<p>物理所研究生教育微信公众号</p>
+				</div>
+				
+				<div class="code-wrap">
+					<img src="https://edu.iphy.ac.cn/cmsfiles/t/202408151135201891.png" class="code-img" alt="">
+					<p>物理所官方微信公众号</p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./script/bootstrap.min.js"></script>
+<script src="./script/common.js"></script>
+</body>
+</html>

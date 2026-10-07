@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Cache-control" content="no-cache">
+        <meta http-equiv="Cache" content="no-cache">
+        <link href="/scripts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/scripts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!--[if lt IE 9]><script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script><script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script><![endif]-->        
+        <script src="/scripts/jquery/jquery.min.js"></script>
+        <title>北京师范大学2026年招生专业目录</title>
+    </head>
+    <body>
+        <style>
+            body {
+                font-family: 'Microsoft YaHei';
+                padding-top: 50px;
+                background-color:#fffffe;
+            }
+            #logob{
+                background-image: url(/content/cdn/lb.jpg);
+                height:138px;
+                border-bottom:5px solid #990000;
+            }
+            #logo{
+                background-image: url(https://yz.bnu.edu.cn/content/img/yz-logo-L.png);
+                background-size: 70%;
+                background-repeat: no-repeat;
+                background-position: center;
+                height:133px;
+                
+            }
+            .ti2 {
+                text-indent:2em;
+            }
+            .footer {
+                color: #777;
+                text-align: center;
+                padding: 30px 0;
+                margin-top: 30px;
+                border-top: 1px solid #e5e5e5;
+                background-color: #f5f5f5;
+            }
+        </style>
+        <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+        <!-- Docs master nav -->
+        <header class="navbar navbar-default navbar-fixed-top" id="top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="https://yz.bnu.edu.cn" class="navbar-brand">北京师范大学研究生招生网</a>
+                </div>
+                <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="ssyx.html">硕士专业目录</a>
+                        </li>
+                        <li>
+                            <a href="bsyx.html">博士专业目录</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="logob">
+            <div id="logo" class="container"></div>
+        </div>
+        <div class="container">
+    <div class="page-header text-center">
+        <h1>
+            2026年北京师范大学硕士研究生招生专业目录
+        </h1>
+    </div>
+    <div class="text-center" class="btn-group" role="group">
+        <a type="button" class="btn btn-primary" href="ssyx.html">学院查询</a>
+        <a type="button" class="btn btn-primary" href="sszy.html">专业查询</a>       
+        <a type="button" class="btn btn-primary" href="ssdg.html">考试大纲</a>
+        <!-- <a type="button" class="btn btn-primary" href="zyxwjz.html">专业学位说明</a> -->
+    </div>
+    <hr/>
+    <div>
+        说明：1.点击院（系）名称可查询专业目录、联系方式等内容。2.研招办不提供往年试题，不出售参考书，也不办理代购业务。3.自命题考试大纲已公布，如需咨询，请直接联系报考院（系）。
+        <hr/>
+    </div>    <table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>专业代码/名称</th>
+            <th>院系代码/名称</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>　010100哲学</td>
+            <td>
+                <a href="ssxx_yxsm-001.html">
+                    001哲学学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　010100哲学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　020100理论经济学</td>
+            <td>
+                <a href="ssxx_yxsm-002.html">
+                    002经济与工商管理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　020106人口、资源与环境经济学</td>
+            <td>
+                <a href="ssxx_yxsm-022.html">
+                    022环境学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　020200应用经济学</td>
+            <td>
+                <a href="ssxx_yxsm-002.html">
+                    002经济与工商管理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　025100金融</td>
+            <td>
+                <a href="ssxx_yxsm-045.html">
+                    045湾区国际商学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　025200应用统计</td>
+            <td>
+                <a href="ssxx_yxsm-034.html">
+                    034统计学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　025400国际商务</td>
+            <td>
+                <a href="ssxx_yxsm-002.html">
+                    002经济与工商管理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　025400国际商务</td>
+            <td>
+                <a href="ssxx_yxsm-045.html">
+                    045湾区国际商学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　030101法学理论</td>
+            <td>
+                <a href="ssxx_yxsm-005.html">
+                    005法学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　030103宪法学与行政法学</td>
+            <td>
+                <a href="ssxx_yxsm-005.html">
+                    005法学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　030104刑法学</td>
+            <td>
+                <a href="ssxx_yxsm-005.html">
+                    005法学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　030105民商法学</td>
+            <td>
+                <a href="ssxx_yxsm-005.html">
+                    005法学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　030106诉讼法学</td>
+            <td>
+                <a href="ssxx_yxsm-005.html">
+                    005法学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　030107经济法学</td>
+            <td>
+                <a href="ssxx_yxsm-005.html">
+                    005法学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　030109国际法学</td>
+            <td>
+                <a href="ssxx_yxsm-005.html">
+                    005法学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　030300社会学</td>
+            <td>
+                <a href="ssxx_yxsm-036.html">
+                    036社会学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　030500马克思主义理论</td>
+            <td>
+                <a href="ssxx_yxsm-003.html">
+                    003马克思主义学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　035101法律（非法学）</td>
+            <td>
+                <a href="ssxx_yxsm-005.html">
+                    005法学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　035102法律（法学）</td>
+            <td>
+                <a href="ssxx_yxsm-005.html">
+                    005法学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　035200社会工作</td>
+            <td>
+                <a href="ssxx_yxsm-036.html">
+                    036社会学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040100教育学</td>
+            <td>
+                <a href="ssxx_yxsm-035.html">
+                    035中国基础教育质量监测协同创新中心
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040101教育学原理</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040101教育学原理</td>
+            <td>
+                <a href="ssxx_yxsm-042.html">
+                    042未来教育学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040102课程与教学论</td>
+            <td>
+                <a href="ssxx_yxsm-001.html">
+                    001哲学学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040102课程与教学论</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040102课程与教学论</td>
+            <td>
+                <a href="ssxx_yxsm-010.html">
+                    010文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040102课程与教学论</td>
+            <td>
+                <a href="ssxx_yxsm-012.html">
+                    012历史学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040102课程与教学论</td>
+            <td>
+                <a href="ssxx_yxsm-015.html">
+                    015数学科学学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040102课程与教学论</td>
+            <td>
+                <a href="ssxx_yxsm-019.html">
+                    019化学学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040102课程与教学论</td>
+            <td>
+                <a href="ssxx_yxsm-023.html">
+                    023生命科学学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040102课程与教学论</td>
+            <td>
+                <a href="ssxx_yxsm-038.html">
+                    038心理学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040102课程与教学论</td>
+            <td>
+                <a href="ssxx_yxsm-039.html">
+                    039地理科学学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040102课程与教学论</td>
+            <td>
+                <a href="ssxx_yxsm-042.html">
+                    042未来教育学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040102课程与教学论</td>
+            <td>
+                <a href="ssxx_yxsm-050.html">
+                    050物理与天文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040103教育史</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040104比较教育学</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040105学前教育学</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040106高等教育学</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040107成人教育学</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040108职业技术教育学</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040109特殊教育学</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　0401Z1教师教育</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　0401Z2互联网教育</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040200心理学</td>
+            <td>
+                <a href="ssxx_yxsm-035.html">
+                    035中国基础教育质量监测协同创新中心
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040200心理学</td>
+            <td>
+                <a href="ssxx_yxsm-038.html">
+                    038心理学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040301体育人文社会学</td>
+            <td>
+                <a href="ssxx_yxsm-009.html">
+                    009体育与运动学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040302运动人体科学</td>
+            <td>
+                <a href="ssxx_yxsm-009.html">
+                    009体育与运动学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040303体育教育训练学</td>
+            <td>
+                <a href="ssxx_yxsm-009.html">
+                    009体育与运动学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　040304民族传统体育学</td>
+            <td>
+                <a href="ssxx_yxsm-009.html">
+                    009体育与运动学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045101教育管理</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045101教育管理</td>
+            <td>
+                <a href="ssxx_yxsm-042.html">
+                    042未来教育学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045102学科教学（思政）</td>
+            <td>
+                <a href="ssxx_yxsm-003.html">
+                    003马克思主义学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045103学科教学（语文）</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045103学科教学（语文）</td>
+            <td>
+                <a href="ssxx_yxsm-010.html">
+                    010文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045104学科教学（数学）</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045104学科教学（数学）</td>
+            <td>
+                <a href="ssxx_yxsm-015.html">
+                    015数学科学学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045104学科教学（数学）</td>
+            <td>
+                <a href="ssxx_yxsm-042.html">
+                    042未来教育学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045105学科教学（物理）</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045106学科教学（化学）</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045107学科教学（生物）</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045108学科教学（英语）</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045108学科教学（英语）</td>
+            <td>
+                <a href="ssxx_yxsm-011.html">
+                    011外国语言文学学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045109学科教学（历史）</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045110学科教学（地理）</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045114现代教育技术</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045115小学教育</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045116心理健康教育</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045117科学与技术教育</td>
+            <td>
+                <a href="ssxx_yxsm-042.html">
+                    042未来教育学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045118学前教育</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045119特殊教育</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045201体育教学</td>
+            <td>
+                <a href="ssxx_yxsm-009.html">
+                    009体育与运动学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045300国际中文教育</td>
+            <td>
+                <a href="ssxx_yxsm-046.html">
+                    046国际中文教育学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　045400应用心理</td>
+            <td>
+                <a href="ssxx_yxsm-038.html">
+                    038心理学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　047101教育经济与管理</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050101文艺学</td>
+            <td>
+                <a href="ssxx_yxsm-010.html">
+                    010文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050102语言学及应用语言学</td>
+            <td>
+                <a href="ssxx_yxsm-010.html">
+                    010文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050102语言学及应用语言学</td>
+            <td>
+                <a href="ssxx_yxsm-046.html">
+                    046国际中文教育学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050102语言学及应用语言学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050103汉语言文字学</td>
+            <td>
+                <a href="ssxx_yxsm-010.html">
+                    010文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050103汉语言文字学</td>
+            <td>
+                <a href="ssxx_yxsm-046.html">
+                    046国际中文教育学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050103汉语言文字学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050104中国古典文献学</td>
+            <td>
+                <a href="ssxx_yxsm-010.html">
+                    010文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050104中国古典文献学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050105中国古代文学</td>
+            <td>
+                <a href="ssxx_yxsm-010.html">
+                    010文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050105中国古代文学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050106中国现当代文学</td>
+            <td>
+                <a href="ssxx_yxsm-010.html">
+                    010文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050108比较文学与世界文学</td>
+            <td>
+                <a href="ssxx_yxsm-010.html">
+                    010文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050108比较文学与世界文学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　0501Z1中国民间文学</td>
+            <td>
+                <a href="ssxx_yxsm-010.html">
+                    010文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　0501Z2儿童文学</td>
+            <td>
+                <a href="ssxx_yxsm-010.html">
+                    010文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050200外国语言文学</td>
+            <td>
+                <a href="ssxx_yxsm-011.html">
+                    011外国语言文学学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050302传播学</td>
+            <td>
+                <a href="ssxx_yxsm-037.html">
+                    037新闻传播学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　050302传播学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　055101英语笔译</td>
+            <td>
+                <a href="ssxx_yxsm-011.html">
+                    011外国语言文学学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　055200新闻与传播</td>
+            <td>
+                <a href="ssxx_yxsm-037.html">
+                    037新闻传播学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　0554S1中文创意写作</td>
+            <td>
+                <a href="ssxx_yxsm-010.html">
+                    010文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　060100考古学</td>
+            <td>
+                <a href="ssxx_yxsm-012.html">
+                    012历史学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　060200中国史</td>
+            <td>
+                <a href="ssxx_yxsm-012.html">
+                    012历史学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　060200中国史</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　060300世界史</td>
+            <td>
+                <a href="ssxx_yxsm-012.html">
+                    012历史学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　060300世界史</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070100数学</td>
+            <td>
+                <a href="ssxx_yxsm-015.html">
+                    015数学科学学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070101基础数学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070102计算数学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070103概率论与数理统计</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070104应用数学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070201理论物理</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070201理论物理</td>
+            <td>
+                <a href="ssxx_yxsm-050.html">
+                    050物理与天文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070202粒子物理与原子核物理</td>
+            <td>
+                <a href="ssxx_yxsm-050.html">
+                    050物理与天文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070205凝聚态物理</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070205凝聚态物理</td>
+            <td>
+                <a href="ssxx_yxsm-050.html">
+                    050物理与天文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070207光学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070207光学</td>
+            <td>
+                <a href="ssxx_yxsm-050.html">
+                    050物理与天文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070300化学</td>
+            <td>
+                <a href="ssxx_yxsm-019.html">
+                    019化学学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070300化学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070400天文学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070400天文学</td>
+            <td>
+                <a href="ssxx_yxsm-050.html">
+                    050物理与天文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070501自然地理学</td>
+            <td>
+                <a href="ssxx_yxsm-039.html">
+                    039地理科学学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070501自然地理学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070502人文地理学</td>
+            <td>
+                <a href="ssxx_yxsm-039.html">
+                    039地理科学学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070502人文地理学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070503地图学与地理信息系统</td>
+            <td>
+                <a href="ssxx_yxsm-039.html">
+                    039地理科学学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　070503地图学与地理信息系统</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　0705Z1自然资源</td>
+            <td>
+                <a href="ssxx_yxsm-039.html">
+                    039地理科学学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　0705Z2全球环境变化</td>
+            <td>
+                <a href="ssxx_yxsm-039.html">
+                    039地理科学学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　0705Z3自然灾害学</td>
+            <td>
+                <a href="ssxx_yxsm-039.html">
+                    039地理科学学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　071000生物学</td>
+            <td>
+                <a href="ssxx_yxsm-023.html">
+                    023生命科学学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　071000生物学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　071100系统科学</td>
+            <td>
+                <a href="ssxx_yxsm-026.html">
+                    026系统科学学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　071101系统理论</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　071102系统分析与集成</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　071300生态学</td>
+            <td>
+                <a href="ssxx_yxsm-023.html">
+                    023生命科学学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　071400统计学</td>
+            <td>
+                <a href="ssxx_yxsm-034.html">
+                    034统计学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　071400统计学</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　078401教育技术学</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　078401教育技术学</td>
+            <td>
+                <a href="ssxx_yxsm-042.html">
+                    042未来教育学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　081200计算机科学与技术</td>
+            <td>
+                <a href="ssxx_yxsm-040.html">
+                    040人工智能学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　081200计算机科学与技术</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　081202计算机软件与理论</td>
+            <td>
+                <a href="ssxx_yxsm-004.html">
+                    004教育学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　081203计算机应用技术</td>
+            <td>
+                <a href="ssxx_yxsm-038.html">
+                    038心理学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　081500水利工程</td>
+            <td>
+                <a href="ssxx_yxsm-022.html">
+                    022环境学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　081500水利工程</td>
+            <td>
+                <a href="ssxx_yxsm-030.html">
+                    030水科学研究院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　081500水利工程</td>
+            <td>
+                <a href="ssxx_yxsm-051.html">
+                    051未来技术学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　082700核科学与技术</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　082700核科学与技术</td>
+            <td>
+                <a href="ssxx_yxsm-050.html">
+                    050物理与天文学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　083000环境科学与工程</td>
+            <td>
+                <a href="ssxx_yxsm-022.html">
+                    022环境学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　083000环境科学与工程</td>
+            <td>
+                <a href="ssxx_yxsm-030.html">
+                    030水科学研究院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　083000环境科学与工程</td>
+            <td>
+                <a href="ssxx_yxsm-051.html">
+                    051未来技术学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　085400电子信息</td>
+            <td>
+                <a href="ssxx_yxsm-040.html">
+                    040人工智能学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　085600材料与化工</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　085700资源与环境</td>
+            <td>
+                <a href="ssxx_yxsm-022.html">
+                    022环境学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　085700资源与环境</td>
+            <td>
+                <a href="ssxx_yxsm-030.html">
+                    030水科学研究院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　085700资源与环境</td>
+            <td>
+                <a href="ssxx_yxsm-039.html">
+                    039地理科学学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　120200工商管理学</td>
+            <td>
+                <a href="ssxx_yxsm-002.html">
+                    002经济与工商管理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　120400公共管理学</td>
+            <td>
+                <a href="ssxx_yxsm-006.html">
+                    006政府管理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　120500信息资源管理</td>
+            <td>
+                <a href="ssxx_yxsm-006.html">
+                    006政府管理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　125100工商管理</td>
+            <td>
+                <a href="ssxx_yxsm-002.html">
+                    002经济与工商管理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　125200公共管理</td>
+            <td>
+                <a href="ssxx_yxsm-006.html">
+                    006政府管理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　125300会计</td>
+            <td>
+                <a href="ssxx_yxsm-045.html">
+                    045湾区国际商学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　125600工程管理</td>
+            <td>
+                <a href="ssxx_yxsm-026.html">
+                    026系统科学学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　125600工程管理</td>
+            <td>
+                <a href="ssxx_yxsm-047.html">
+                    047国家安全与应急管理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　130100艺术学</td>
+            <td>
+                <a href="ssxx_yxsm-029.html">
+                    029艺术与传媒学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　135200音乐</td>
+            <td>
+                <a href="ssxx_yxsm-029.html">
+                    029艺术与传媒学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　135300舞蹈</td>
+            <td>
+                <a href="ssxx_yxsm-029.html">
+                    029艺术与传媒学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　135400戏剧与影视</td>
+            <td>
+                <a href="ssxx_yxsm-029.html">
+                    029艺术与传媒学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　135600美术与书法</td>
+            <td>
+                <a href="ssxx_yxsm-029.html">
+                    029艺术与传媒学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　135700设计</td>
+            <td>
+                <a href="ssxx_yxsm-043.html">
+                    043未来设计学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　140200国家安全学</td>
+            <td>
+                <a href="ssxx_yxsm-047.html">
+                    047国家安全与应急管理学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　140400遥感科学与技术</td>
+            <td>
+                <a href="ssxx_yxsm-039.html">
+                    039地理科学学部
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　140500智能科学与技术</td>
+            <td>
+                <a href="ssxx_yxsm-040.html">
+                    040人工智能学院
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>　140500智能科学与技术</td>
+            <td>
+                <a href="ssxx_yxsm-048.html">
+                    048文理学院
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+        <footer class="footer">
+            Copyright &copy; 北京师范大学招生办公室
+        </footer>        
+        <script src="/scripts/bootstrap/js/bootstrap.min.js"></script>
+        <div style="display:none;"><script src="http://s13.cnzz.com/stat.php?id=3085101&web_id=3085101" language="JavaScript"></script></div>
+    </body>
+</html>

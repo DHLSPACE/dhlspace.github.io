@@ -1,0 +1,500 @@
+﻿<!DOCTYPE html><HTML lang="zh-CN"><HEAD><TITLE>中国人民大学研究生院</TITLE><META Name="keywords" Content="人大研究生院主站" />
+
+
+
+
+
+<META charset="utf-8">
+<META content="IE=edge, chrome=1" http-equiv="X-UA-Compatible">
+<META name="renderer" content="webkit">
+<META name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+<META name="format-detection" content="telephone=no">
+<META name="description" content=""><LINK rel="stylesheet" href="css/module-less.css"><LINK rel="stylesheet" href="css/slick.css"><LINK rel="stylesheet" href="css/style.css"><script src="js/bdtxk.js"></script><script src="js/slick.js"></script><script src="js/lib.js"></script>
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307e78475150555742000100004254 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc"></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1420949611)</script>
+</HEAD>
+<BODY><!-- 头部 -->
+
+
+<DIV class="header">
+<DIV class="header-top">
+<div style="display:none;"><a href="http://webscan.360.cn/index/checkwebsite/url/grs.ruc.edu.cn"><img border="0" src="http://webscan.360.cn/status/pai/hash/293adfce817a18a33178c2960182455a" /></a></div>
+<DIV class="wp">
+<DIV class="logo">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.htm" title="研究生院主站"><img src="images/logo.png"></a></DIV>
+<DIV class="header-top-r"><EM class="btn"></EM>
+<DIV class="sobox">
+
+
+
+
+
+<form action="search.jsp?wbtreeid=1001" method="post" name="a1002a" onsubmit="return subsearchdataa1002a()" style="display: inline;">
+  <input type="hidden" name="Find" value="find"><input type="hidden" name="entrymode" value="1"><input type="hidden" id="INTEXT2" name="INTEXT2" value=""><input type="hidden" name="news_search_code">
+ <table border="0" cellspacing="1" cellpadding="0">
+  <tr>
+   <td>
+       <span id="intextspana1002a"></span>
+       <iframe id="intextframea1002a" src="about:blank" scrolling="no" frameborder="0" style="position:absolute;top:0px;left:0px;display:none;"></iframe>
+       <input class="inp" placeholder="搜索相关信息" size="12" name="INTEXT">
+   </td>
+   <td align="absmiddle" nowrap="nowrap" height="1">
+       <input class="sub" type="submit" value="" name="FindButton" />
+   </td>
+  </tr>
+ </table>
+</form>
+<script>
+String.prototype.trim　= function()       
+{              
+    var t = this.replace(/(^\s*)|(\s*$)/g, "");     
+    return t.replace(/(^　*)|(　*$)/g, "");     
+}
+function subsearchdataa1002a()
+{ 
+    if(document.a1002a.INTEXT.value.trim()=="")
+    {
+         alert("请输入查询关键字！");
+         return false;
+    }
+    if(checkDataa1002a(document.a1002a))
+    {
+       return true;  
+    }
+    return false;
+}       
+</script>
+
+    <script language="JavaScript" src="_dwr/engine.js"></script>
+    <script language="JavaScript" src="_dwr/util.js"></script>
+    <script language="JavaScript" src="_dwr/interface/NewsSearchDWR.js"></script>
+    <script language="JavaScript" src="/system/resource/js/vsb_news_search.js"></script>
+    <script language="JavaScript" src="/system/resource/js/vsb_news_search_entry.js"></script>    
+    <script language="JavaScript" src="/system/resource/js/language.js"></script>
+    <script language="JavaScript" src="/system/resource/js/base64.js"></script>
+    <script language="JavaScript" src="/system/resource/js/formfunc.js"></script>    
+    <script>    
+    news_searcha1002a = new vsb_news_search();
+    news_searcha1002a.isShowCode=false;
+    news_searcha1002a.tooltipid = 'tooltipa1002a';
+    news_searcha1002a.apptag = 'intextspana1002a';
+    news_searcha1002a.frametag = 'intextframea1002a';
+    news_search_entrya1002a = new vsb_news_search_entry();
+    news_search_entrya1002a.formname = "a1002a";
+    news_search_entrya1002a.news_search_obj = news_searcha1002a; 
+    news_search_entrya1002a.querytxtsize = 155
+    news_search_entrya1002a.yzmts ="您的查询过于频繁，请输入验证码后继续查询";
+    news_search_entrya1002a.qdstyle ="";
+    news_search_entrya1002a.qdname = "确定";
+    news_search_entrya1002a.qxstyle = "";
+    news_search_entrya1002a.qxname = "取消";
+    news_search_entrya1002a.showstr='请输入查询验证码！';    
+    function checkDataa1002a(formname)
+    {    
+        return news_search_entrya1002a.checkdata(formname)   
+    }
+    </script>
+<script language="javascript" src="/system/resource/js/base64.js"></script> 
+</DIV></DIV></DIV></DIV><A class="menuBtn" href="javascript:;"><EM class="em1"></EM><EM class="em2"></EM><EM class="em3"></EM></A>
+<DIV class="header-bd">
+<DIV class="wp">
+<UL class="nav"><ul id="topnav">
+
+
+
+      <li> <a href="index.htm" class="active">首页</a>
+
+
+      <li> <a href="yygk1/yyjj.htm">研院概况</a>
+
+
+<div class="sub" style="z-index: 10000;">
+
+
+
+
+ <dl>
+
+            <dd><a href="yygk1/yyjj.htm">研院简介</a></dd>
+
+            <dd><a href="yygk1/xrld.htm">现任领导</a></dd>
+
+            <dd><a href="bmsz.htm">部门设置</a></dd>
+
+
+ </dl>
+
+
+
+  </div>
+
+      <li> <a href="http://pgs.ruc.edu.cn/">招生信息</a>
+
+
+<div class="sub" style="z-index: 10000;">
+
+
+
+
+
+  </div>
+
+      <li> <a href="pygl.htm">培养管理</a>
+
+
+<div class="sub" style="z-index: 10000;">
+
+
+
+
+ <dl>
+
+            <dd><a href="pygl/dwjl.htm">对外交流</a></dd>
+
+            <dd><a href="pygl/jzgl.htm">奖助管理</a></dd>
+
+            <dd><a href="pygl/rcjx.htm">日常教学</a></dd>
+
+            <dd><a href="pygl/xgxz.htm">相关下载</a></dd>
+
+
+ </dl>
+
+
+
+  </div>
+
+      <li> <a href="xwgl.htm">学位管理</a>
+
+
+<div class="sub" style="z-index: 10000;">
+
+
+
+
+ <dl>
+
+            <dd><a href="xwgl/zysz.htm">专业设置</a></dd>
+
+            <dd><a href="xwgl/yxlw.htm">优秀论文</a></dd>
+
+            <dd><a href="xwgl/xwwy.htm">学位委员</a></dd>
+
+            <dd><a href="xwgl/mybs.htm">名誉博士</a></dd>
+
+            <dd><a href="gzzd/xwzd.htm">学位制度</a></dd>
+
+
+ </dl>
+
+
+
+  </div>
+
+      <li> <a href="tdxl/gzdt.htm">同等学力</a>
+
+
+<div class="sub" style="z-index: 10000;">
+
+
+
+
+ <dl>
+
+            <dd><a href="tdxl/gzdt.htm">工作动态</a></dd>
+
+            <dd><a href="tdxl/tkks.htm">题库考试</a></dd>
+
+            <dd><a href="https://yjs2.ruc.edu.cn/gsapp/sys/yjsrzfwapp/dbLogin/index.do">答辩申请</a></dd>
+
+            <dd><a href="tdxl/xggd.htm">相关规定</a></dd>
+
+            <dd><a href="tdxl/wjxz.htm">文件下载</a></dd>
+
+
+ </dl>
+
+
+
+  </div>
+
+      <li> <a href="djgz.htm">党建工作</a>
+
+
+<div class="sub" style="z-index: 10000;">
+
+
+
+
+ <dl>
+
+            <dd><a href="djgz/zbhd.htm">支部活动</a></dd>
+
+            <dd><a href="djgz/xxcl.htm">学习材料</a></dd>
+
+            <dd><a href="djgz/djfg.htm">党纪法规</a></dd>
+
+            <dd><a href="djgz/xsxq.htm">校史校情</a></dd>
+
+
+ </dl>
+
+
+
+  </div>
+
+      <li> <a href="gzzd.htm">规章制度</a>
+
+
+<div class="sub" style="z-index: 10000;">
+
+
+
+
+ <dl>
+
+            <dd><a href="http://pgs.ruc.edu.cn/zcfg.htm">招生制度</a></dd>
+
+            <dd><a href="gzzd/pyzd.htm">培养制度</a></dd>
+
+            <dd><a href="gzzd/xwzd.htm">学位制度</a></dd>
+
+            <dd><a href="gzzd/dszd.htm">导师制度</a></dd>
+
+            <dd><a href="tdxl/xggd.htm">同等学力</a></dd>
+
+
+ </dl>
+
+
+
+  </div>
+
+      <li> <a href="bszn.htm">办事指南</a>
+
+
+<div class="sub" style="z-index: 10000;">
+
+
+
+
+ <dl>
+
+            <dd><a href="bszn/bslc.htm">办事流程</a></dd>
+
+
+ </dl>
+
+
+
+  </div>
+ </ul></UL></DIV></DIV></DIV><!-- 头部 end--><!-- banner -->
+<DIV class="banner">
+<DIV class="slider">    <script language="javascript" src="/system/resource/js/dynclicks.js"></script><DIV class="items"><A href="" style="background-image: url(banner/4d54f17a3e081176c56928412f01c86.jpg);"></A></DIV>
+<DIV class="items"><A href="" style="background-image: url(banner/7e21ab3c2ead892a9450115bec1a9cb.jpg);"></A></DIV>
+<DIV class="items"><A href="" style="background-image: url(banner/e4c07b79d257428992ea1dfbd34fccbd.jpg);"></A></DIV>
+<DIV class="items"><A href="" style="background-image: url(banner/2a5a1ff289514c238522c4764f3cb191.jpg);"></A></DIV>
+<DIV class="items"><A href="" style="background-image: url(banner/b5ac3e77e6c142e498df93a1c1a9e59e.jpg);"></A></DIV>
+</DIV></DIV><!-- banner end -->
+<DIV class="ban">    <DIV class="item" style=" background-image: url(banner/4d54f17a3e081176c56928412f01c86.jpg)"><a href=""></a></DIV>
+<DIV class="item" style=" background-image: url(banner/7e21ab3c2ead892a9450115bec1a9cb.jpg)"><a href=""></a></DIV>
+<DIV class="item" style=" background-image: url(banner/e4c07b79d257428992ea1dfbd34fccbd.jpg)"><a href=""></a></DIV>
+<DIV class="item" style=" background-image: url(banner/2a5a1ff289514c238522c4764f3cb191.jpg)"><a href=""></a></DIV>
+<DIV class="item" style=" background-image: url(banner/b5ac3e77e6c142e498df93a1c1a9e59e.jpg)"><a href=""></a></DIV>
+</DIV>
+<DIV class="main">
+<DIV class="m-txtd1">
+<DIV class="wp">
+<UL><script language="javascript" src="/system/resource/js/openlink.js"></script><LI class="i1"><A href="https://my.ruc.edu.cn" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 1001)"><SPAN></SPAN>
+<H3>教育信息系统</H3></A></LI>
+<LI class="i2"><A href="https://yjs2.ruc.edu.cn/gsapp/sys/yjhbzmptappruc/*default/index.do?v=f09e2c44-0621-49c3-8133-fc21b0ea4fdf&amp;THEME=blue&amp;EMAP_LANG=zh&amp;min=1#/xmzmgs" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 1002)"><SPAN></SPAN>
+<H3>师生学术合作</H3></A></LI>
+<LI class="i3"><A href="http://www.lib.ruc.edu.cn/dhl/wxzy/tjyjz/bfee01255c094ce2bd88e3b5a391e1b8.htm" target="_blank" title="中国人民大学研究生学位论文提交" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 1003)"><SPAN></SPAN>
+<H3>学位论文</H3></A></LI>
+<LI class="i4"><A href="https://yjs2.ruc.edu.cn/gsapp/sys/dbgsglappecupl/*default/index.do#/dbgs" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 1006)"><SPAN></SPAN>
+<H3>答辩公示</H3></A></LI>
+<LI class="i5"><A href="https://vsign.ruc.edu.cn/verify/#/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 1005)"><SPAN></SPAN>
+<H3>电子证明验证</H3></A></LI>
+<LI class="i6"><A href="https://www.ruc.edu.cn/xiaoli.html" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 1004)"><SPAN></SPAN>
+<H3>人大校历</H3></A></LI>
+
+
+
+</UL></DIV></DIV>
+<DIV class="row-2d">
+<DIV class="wp">
+<DIV class="col-l">
+<DIV class="m-titd1"> 
+<UL id=".ul-txtd1" class="link TAB_CLICK">
+<LI class="on">
+<H3 class="icon1"><A href="xxfb/tzkx.htm">通知快讯</A></H3>
+<LI>
+<H3 class="a1"><A href="pygl/dwjl.htm">对外交流</A></H3>
+</UL></DIV>
+<UL class="ul-txtd1 on"><script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script>   <LI><A href="info/1033/3328.htm" target="_blank" title="29个教学单位的2026级本科新生和硕士新生将入驻通州校区"><SPAN>2026-03-18</SPAN> <EM>1</EM><P>29个教学单位的2026级本科新生和硕士新生将入驻通州校区</P></A></LI>
+   <LI><A href="info/1033/3394.htm" target="_blank" title="关于研究生报考2026年下半年全国大学英语四、六级考试的通知"><SPAN>2026-09-11</SPAN> <EM>2</EM><P>关于研究生报考2026年下半年全国大学英语四、六级考试的通知</P></A></LI>
+   <LI><A href="info/1033/3376.htm" target="_blank" title="2026年度第一批研究生参加学术科研活动资助名单公示"><SPAN>2026-07-08</SPAN> <EM>3</EM><P>2026年度第一批研究生参加学术科研活动资助名单公示</P></A></LI>
+   <LI><A href="info/1033/3346.htm" target="_blank" title="关于开展2025年“求是学术-栋梁”项目中期检查工作的通知"><SPAN>2026-04-24</SPAN> <EM>4</EM><P>关于开展2025年“求是学术-栋梁”项目中期检查工作的通知</P></A></LI>
+   <LI><A href="info/1033/3284.htm" target="_blank" title="关于组织2024年中国人民大学“求是学术-栋梁”品牌研究项目结项工作的通知"><SPAN>2025-10-15</SPAN> <EM>5</EM><P>关于组织2024年中国人民大学“求是学术-栋梁”品牌研究项目结项工作的通...</P></A></LI>
+   <LI><A href="info/1033/3174.htm" target="_blank" title="崭新的通州校区欢迎你！"><SPAN>2025-03-21</SPAN> <EM>6</EM><P>崭新的通州校区欢迎你！</P></A></LI>
+   <LI><A href="info/1033/3170.htm" target="_blank" title="关于研究生报考2025年上半年全国大学英语四、六级考试的通知"><SPAN>2025-03-13</SPAN> <EM>7</EM><P>关于研究生报考2025年上半年全国大学英语四、六级考试的通知</P></A></LI>
+   <LI><A href="info/1033/3075.htm" target="_blank" title="关于开展2024年中国人民大学专业学位研究生教学案例建设奖评选工作的通知"><SPAN>2024-06-26</SPAN> <EM>8</EM><P>关于开展2024年中国人民大学专业学位研究生教学案例建设奖评选工作的通...</P></A></LI>
+
+
+
+
+<script>_showDynClickBatch(['dynclicks_u6_3328','dynclicks_u6_3394','dynclicks_u6_3376','dynclicks_u6_3346','dynclicks_u6_3284','dynclicks_u6_3174','dynclicks_u6_3170','dynclicks_u6_3075'],[3328,3394,3376,3346,3284,3174,3170,3075],"wbnews", 1420949611)</script>
+</UL>
+<UL class="ul-txtd1"><LI><A href="info/1017/3395.htm" target="_blank" title="2026-2027学年秋季学期选拔赴境外校际交换研究生第一批综合面试通知"><SPAN>2026-09-20</SPAN> <EM>1</EM> 
+<P>2026-2027学年秋季学期选拔赴境外校际交换研究生第一批综合面试通知</P></A></LI>
+<LI><A href="info/1017/3393.htm" target="_blank" title="关于2026-2027学年秋季学期选拔赴澳门与台湾地区校际交换研究生的通知"><SPAN>2026-09-10</SPAN> <EM>2</EM> 
+<P>关于2026-2027学年秋季学期选拔赴澳门与台湾地区校际交换研究生的通知</P></A></LI>
+<LI><A href="info/1017/3392.htm" target="_blank" title="关于2026-2027学年秋季学期选拔赴境外校际交换研究生的通知"><SPAN>2026-09-08</SPAN> <EM>3</EM> 
+<P>关于2026-2027学年秋季学期选拔赴境外校际交换研究生的通知</P></A></LI>
+<LI><A href="info/1017/3391.htm" target="_blank" title="关于延长国家留学基金委2027年度与澳大利亚、新西兰、加拿大部分高校合作奖学金项目申报时间的通知"><SPAN>2026-09-07</SPAN> <EM>4</EM> 
+<P>关于延长国家留学基金委2027年度与澳大利亚、新西兰、加拿大部分高校合...</P></A></LI>
+<LI><A href="info/1017/3390.htm" target="_blank" title="关于申报2027年国家留学基金委乡村振兴人才培养专项立项的通知"><SPAN>2026-09-03</SPAN> <EM>5</EM> 
+<P>关于申报2027年国家留学基金委乡村振兴人才培养专项立项的通知</P></A></LI>
+<LI><A href="info/1017/3389.htm" target="_blank" title="关于申报2027年国家留学基金委艺术类人才培养特别项目立项的通知"><SPAN>2026-09-03</SPAN> <EM>6</EM> 
+<P>关于申报2027年国家留学基金委艺术类人才培养特别项目立项的通知</P></A></LI>
+<LI><A href="info/1017/3388.htm" target="_blank" title="关于申报2027年国家留学基金委创新型人才国际合作培养项目立项的通知"><SPAN>2026-09-03</SPAN> <EM>7</EM> 
+<P>关于申报2027年国家留学基金委创新型人才国际合作培养项目立项的通知</P></A></LI>
+<LI><A href="info/1017/3383.htm" target="_blank" title="关于申报国家留学基金委2027年国别和区域研究人才支持计划项目立项的通知"><SPAN>2026-07-17</SPAN> <EM>8</EM> 
+<P>关于申报国家留学基金委2027年国别和区域研究人才支持计划项目立项的通...</P></A></LI>
+
+
+
+<script>_showDynClickBatch(['dynclicks_u7_3395','dynclicks_u7_3393','dynclicks_u7_3392','dynclicks_u7_3391','dynclicks_u7_3390','dynclicks_u7_3389','dynclicks_u7_3388','dynclicks_u7_3383'],[3395,3393,3392,3391,3390,3389,3388,3383],"wbnews", 1420949611)</script>
+</UL>
+</DIV>
+<DIV class="col-r">
+<DIV class="m-titd1">
+<H3 class="icon2">新闻动态</H3><A class="m-more" href="xxfb/xwdt.htm">更多</A> </DIV>
+<UL class="ul-picd1"><LI><A href="info/1034/3379.htm" target="_blank" title="中国人民大学2026年学位授予仪式举办"><IMG alt="" src="/__local/F/D2/7A/2226CF432A9595764E57379C5E6_3C43D099_7983C.jpeg?e=.jpeg"> 
+<H3>中国人民大学2026年学位授...</H3></A></LI>
+<LI><A href="info/1034/3365.htm" target="_blank" title="2025—2026学年第6期“研究生教学开放日”活动顺利举行"><IMG alt="" src="/__local/A/6F/EF/0A58CCCB6BA3A621968936DE116_2401615F_6F22A.jpg"> 
+<H3>2025—2026学年第6期“研究...</H3></A></LI>
+<LI><A href="info/1034/3364.htm" target="_blank" title="2025—2026学年第5期“研究生教学开放日”活动举行"><IMG alt="" src="/__local/5/3C/F0/904DC446B4C3FD1863F259FD5D8_9092734A_635CD.jpg"> 
+<H3>2025—2026学年第5期“研究...</H3></A></LI>
+<LI><A href="info/1034/3362.htm" target="_blank" title="2025—2026学年第4期“研究生教学开放日”活动顺利举行"><IMG alt="" src="/__local/9/EC/3F/9B419A50EE71CB9DD128BAB3C88_A5ADEACD_6EE66.jpg"> 
+<H3>2025—2026学年第4期“研究...</H3></A></LI>
+<script>_showDynClickBatch(['dynclicks_u8_3379','dynclicks_u8_3365','dynclicks_u8_3364','dynclicks_u8_3362'],[3379,3365,3364,3362],"wbnews", 1420949611)</script>
+</UL></DIV></DIV></DIV>
+<DIV class="m-tabd1">
+<DIV class="wp">
+<UL id=".m-desc" class=" TAB_CLICK">
+<LI class="hover"><SPAN>综合管理办公室</SPAN> </LI>
+<LI><SPAN>招生管理办公室</SPAN> </LI>
+<LI><SPAN>培养管理办公室</SPAN> </LI>
+<LI><SPAN>教务运行办公室</SPAN> </LI>
+<LI><SPAN>学位管理办公室</SPAN> </LI>
+<LI><SPAN>导师队伍建设办公室</SPAN> </LI></UL></DIV></DIV>
+<DIV class="m-desc">
+<DIV class="wp"><DIV class="pic"><IMG alt="" src="/__local/2/4E/F3/FACC383988EDCF73C9475BCF7EF_598DAA5C_7BEE.jpg"></DIV><A class="m-more" href="bmsz/zhbgs.htm">更多</A> 
+<DIV class="txt">
+<H3>综合管理办公室</H3>
+<P>主要职责：研究生院内部日常行政、财务、财产物资管理；综合协调工作，为院领导各项决策提供信息支持；会议通知传达与落实；院内会务安排；研究生院人事管理；公文管理，院内综合类文件的汇总及发放，传阅文件及各类简报印发，院办文书档案管理；印信的管...</P></DIV>
+
+
+
+<script>_showDynClickBatch(['dynclicks_u9_1173'],[1173],"wbnews", 1420949611)</script>
+</DIV></DIV>
+<DIV class="m-desc dn">
+<DIV class="wp"><DIV class="pic"><IMG alt="" src="/__local/1/08/FB/BF6CC07B050056DD2CCB9E2B4FF_02901964_1035B.jpg"></DIV><A class="m-more" href="bmsz/zsglbgs.htm">更多</A> 
+<DIV class="txt">
+<H3>招生管理办公室</H3>
+<P>主要职责：承担招生委员会办公室具体工作，落实上级部门和学校有关政策规定，拟定学校研究生招生政策、招生计划和制度规定，编制研究生招生章程和招生专业目录。负责研究生招生信息化建设、数据管理和信息公开工作。监督指导各研究生培养单位招生工作。招...</P></DIV>
+
+
+
+<script>_showDynClickBatch(['dynclicks_u10_1174'],[1174],"wbnews", 1420949611)</script>
+</DIV></DIV>
+<DIV class="m-desc dn">
+<DIV class="wp"><DIV class="pic"><IMG alt="" src="/__local/F/34/DF/78835B08AD5AF6DCAE8A6409378_656A044F_E005.jpg"></DIV><A class="m-more" href="bmsz/pyglbgs.htm">更多</A> 
+<DIV class="txt">
+<H3>培养管理办公室</H3>
+<P>主要职责：负责全校学术学位研究生、全日制专业学位研究生培养管理工作。研究拟定并组织实施培养方案，统筹协调、监督管理全日制专业学位办学项目，协调推进课程、教材、案例、实践基地等建设管理。负责研究生拔尖创新人才项目、研究生求是学术项目、学术...</P></DIV>
+
+
+
+<script>_showDynClickBatch(['dynclicks_u11_1175'],[1175],"wbnews", 1420949611)</script>
+</DIV></DIV>
+<DIV class="m-desc dn">
+<DIV class="wp"><DIV class="pic"><IMG alt="" src="/__local/E/79/9B/7D45AF7C189BE49E55BF7CC1D2C_71A362EF_12284.jpg"></DIV><A class="m-more" href="bmsz/jwyxbgs.htm">更多</A> 
+<DIV class="txt">
+<H3>教务运行办公室</H3>
+<P>主要职责：负责研究生教学管理和教务运行相 关工作。负责研究生学籍管理，组织实施研究生保留入学资格审核、转专业、学术科研评价、毕业结业肄业退学审核、延期审核、毕业管理等相关工作。负责研究生课程管理、成绩管理、学业进展监测与学业预警、研究生学...</P></DIV>
+
+
+
+<script>_showDynClickBatch(['dynclicks_u12_1177'],[1177],"wbnews", 1420949611)</script>
+</DIV></DIV>
+<DIV class="m-desc dn">
+<DIV class="wp"><DIV class="pic"><IMG alt="" src="/__local/B/B9/90/8184C1C7A23BC52091B4F4BA476_098497C6_E1F3.jpg"></DIV><A class="m-more" href="bmsz/xwglbgs.htm">更多</A> 
+<DIV class="txt">
+<H3>学位管理办公室</H3>
+<P>主要职责：      承担学位评定委员会办公室具体工作，负责全校研究生学位管理，学位授权点建设及质量保障工作。组织开展研究生学位申请及授予工作。负责硕士、博士专业设置工作和研究生学位授权点布局、论证、申报、调整、审核评估等工作，协同配合学科评...</P></DIV>
+
+
+
+<script>_showDynClickBatch(['dynclicks_u13_1176'],[1176],"wbnews", 1420949611)</script>
+</DIV></DIV>
+<DIV class="m-desc dn">
+<DIV class="wp"><DIV class="pic"><IMG alt="" src="/__local/9/B1/4E/2DD6E00BEB384898D72BCFEF31A_24627431_E6BF.jpg"></DIV><A class="m-more" href="bmsz/dsdwjsbgs.htm">更多</A> 
+<DIV class="txt">
+<H3>导师队伍建设办公室</H3>
+<P>主要职责：负责研究生导师队伍建设与管理服务等工作。组织开展硕士生导师、博士生导师、专业学位校外导师的遴选、备案、考核等工作。负责组织研究生导学关系的指定、变更、指导和规范管理工作。组织开展各级各类导师教育培训、奖惩、管理服务等工作。组织...</P></DIV>
+
+
+
+<script>_showDynClickBatch(['dynclicks_u14_1178'],[1178],"wbnews", 1420949611)</script>
+</DIV></DIV>
+<DIV class="m-titd1 m-linkd1">
+<DIV class="wp">
+<H3 class="icon3">友情链接：</H3>    <a href="http://www.ruc.edu.cn/" title="人大官网" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 1011)">中国人民大学</a>
+    <a href="http://tzxq.ruc.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 74509)">通州校区</a>
+    <a href="http://sc.ruc.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 74510)">苏州校区</a>
+    <a href="http://www.moe.gov.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 1007)">教育部</a>
+    <a href="http://jw.beijing.gov.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 74430)">北京市教委</a>
+    <a href="https://www.chsi.com.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 74429)">学信网</a>
+    <a href="http://www.csc.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 1008)">留学基金委</a>
+</DIV></DIV></DIV>
+<DIV class="go-top">top</DIV>
+<DIV class="foot">
+<DIV class="fd-top">
+<DIV class="wp">
+<DIV class="fd-logo">    <img src="images/fd-logo.png" border="0">
+</DIV>
+<DIV class="fd-center">
+<DIV class="in"><script language="javascript" src="/system/resource/js/news/mp4video.js"></script>
+<p><a class="a1" href="javascript:void(0)">北京市海淀区中关村大街59号</a><a class="a2" href="javascript:void(0)" style="white-space: normal;">院长信箱：yjsyleader@ruc.edu.cn</a><br></p></DIV></DIV>
+<DIV class="fd-link">    <A class="qq" href="javascript:void(0);"></A>
+    <A class="wx" href="javascript:void(0);"><span style="display: none;"><IMG title="" border="0" hspace="0" alt="" src="images/xmt_wxgzh.jpg" width="94" height="94"></span></A>    <A class="wb" href="javascript:void(0);"></A>
+</DIV></DIV></DIV>
+<DIV class="fd-btm">
+<DIV class="wp">
+<DIV class="l"><a href="wzdt.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 1032)">网站地图</a>丨 
+<a href="flsm1.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 1033)">法律声明</a>丨 
+<a href="lxdz.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1420949611, 1034)">联系地址</a> 
+</DIV>
+<DIV class="r"><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>Copyright © 2005-2023 RUC.EDU.CN&nbsp; 京公网安备110402430004号&nbsp; 京ICP备05066828号-1&nbsp;</p><p><br /></p></DIV></DIV></DIV></DIV><script>
+        $('.ban').slick({
+            dots: true, // 导航条
+            autoplay: true, //自动变
+            autoplaySpeed: 2000,
+            arrows: false
+        });
+    </script>
+
+
+
+</BODY></HTML>

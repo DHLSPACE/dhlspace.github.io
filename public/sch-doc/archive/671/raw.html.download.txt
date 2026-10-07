@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>规章制度-上海交通大学化学化工学院</title>
+    <meta name="keywords" content="上海交通大学化学化工学院" />
+    <meta name="description" content="上海交通大学化学化工学院" />
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/bs/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="/css/public.css?v=1.0.7"/>
+    <link type="text/css" rel="stylesheet" href="/css/css.css?v=1.0.7"/>
+    <script src="/js/jquery-3.5.1.js"></script>
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="/css/swiper.min.css">
+    <script src="/js/swiper.min.js"></script>
+    <script src="/bs/js/bootstrap.min.js"></script>
+    <script src="/js/scrollbar.js"></script>
+    <!-- 美化alert -->
+    <link rel="stylesheet" href="/public/js/alert/BeAlert.css">
+    <script src="/public/js/alert/BeAlert.js"></script>
+    <script type="text/javascript">
+        function search_validate(){
+            if(document.getElementById('search_keywords').value == ''){
+                alert('请输入搜索关键字');
+                return false;
+            }
+        }
+    </script>
+    <!--视频-->
+    <link href="/public/css/css.css?v=1.0.7" rel="stylesheet">
+    <link href="/public/css/video-js.css" rel="stylesheet">
+    <script src="/public/js/video.min.js"></script> 
+    <script src="/public/js/zh-CN.js"></script>
+    <!-- 美化alert -->
+    <link href="/public/js/jqueryxtiper/css/xtiper.css" type="text/css" rel="stylesheet" />
+    <script src="/public/js/jqueryxtiper/js/xtiper.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="top">
+        <div class="main">
+            <a href="/" title="" class="logo"></a>
+            <span class="menu2" id="menu2"><a href="javascript:void(0)">&nbsp;</a></span>
+        </div>
+    </div>
+    <div id=navk>
+        <div class="main">
+            <div class="top_r">
+                <div class="top_yy">
+                    <div class="ss">
+                        <form method="get" action="https://scce.sjtu.edu.cn/active/search.html" onsubmit="return search_validate();">
+                        <div class="txtk">
+                            <input type="text" class="form-control" placeholder="Search" id="search_keywords" name="search_keywords">
+                            <button class="an_ss" type="submit"></button>
+                        </div>
+                        </form>
+                    </div>
+                    <div class="top_nav">
+                        <a href="https://scce.sjtu.edu.cn/user/jaccount_login.html">使用jAccount登录</a>|<a href="/en">English</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="menu">
+                <!--当前栏目请在Li里引用on-->
+                <!-- <li class=""><a href="/" class="dbt">首页</a></li> -->
+                                <li class=""><a href="https://scce.sjtu.edu.cn/ddscce.html" class="dbt">读懂SCCE</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xyinfo.html">学院简介</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/yzjy.html">院长寄语</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xyld.html">领导班子</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xywyh.html">学院委员会</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xszx.html">系所中心</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/szdw.html" class="dbt">师资队伍</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gk.html">概况</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/lyys.html">两院院士</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/teachers.html">教师名录</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xzry.html">行政人员</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class="on"><a href="https://scce.sjtu.edu.cn/rcpy.html" class="dbt">人才培养</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/rcpygk.html">概况</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/bks.html">本科生</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/yjs.html">研究生</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xsgz.html">学生工作</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/kxyj.html" class="dbt">科学研究</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/kycg.html">科研成果</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/sysgl.html">实验室管理</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/xyysh.html" class="dbt">校友与社会</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/byzp.html">毕业照片</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xyml.html">校友名录</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xyfc.html">校友风采</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/fzjj.html">SCCE发展基金</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/lxwm.html">联系我们</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/gjhz.html" class="dbt">国际合作</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/wszn.html">外事指南</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/hwyxxm.html">海外游学项目</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/zsgz.html" class="dbt">招生工作</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/zsbks.html">本科生</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/zsyjs.html">研究生</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/zsmem.html">MEM</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/djyd.html" class="dbt">党建园地</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd7.html">中央八项规定精神学习</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd4.html">党纪学习</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd3.html">第二次党代会</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd1.html">党的二十大</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd2.html">主题教育</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/jgzjj.html">工会队伍</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/jgzj.html">教工之家</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/djyddjdw.html">党建队伍</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/djhdd.html">党建活动</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/llxx.html">理论学习</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd.html">规章制度</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/banshi.html" class="dbt">办事指南</a>
+                                    </li>
+                            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="top_jg"></div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var pk = document.body.clientWidth;
+            if (pk < 1200) {
+                //手机菜单
+                $("#menu2").click(function () {
+                    if ($("#navk").css("display") == "none") {
+                        $(this).find("a").addClass("on");
+                        $("#navk").css("display", "block").stop().animate({left: '0%'});
+                    } else {
+                        $(this).find("a").removeClass("on");
+                        $("#navk").css("display", "none").stop().animate({left: '100%'});
+                    }
+                });
+            } else {
+                //下拉
+                $(".menu li").hover(function () {
+                    $(this).find("dl").stop().css("display", "block").animate({
+                        opacity: '1',
+                    });
+                }, function () {
+                    $(this).find("dl").stop().css("display", "none").animate({
+                        opacity: '0',
+                    });
+                });
+            }
+        });
+    </script>
+<div class="ny_ban" style='background-image:url("/images/ban_cd3.jpg")'></div>
+
+<div class="lm1k">
+    <div class="main">
+        <div class="lm1_bt mob"><a href="javascript:void(0)" id="cd_lm">人才培养</a></div>
+        <ul class="lm1 left" id="lm">
+                        <li><a href="https://scce.sjtu.edu.cn/rcpygk.html" class="">概况</a></li>
+                        <li><a href="https://scce.sjtu.edu.cn/bks.html" class="">本科生</a></li>
+                        <li><a href="https://scce.sjtu.edu.cn/yjs.html" class="on">研究生</a></li>
+                        <li><a href="https://scce.sjtu.edu.cn/xsgz.html" class="">学生工作</a></li>
+                    </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $("#cd_lm").click(function () {
+        if ($("#lm").css("display") == "none") {
+            $(this).addClass("on");
+            $("#lm").slideDown("slow");
+        } else {
+            $(this).removeClass("on");
+            $("#lm").slideUp("slow");
+        }
+    });
+</script>
+
+<div class="ny">
+    <div class="main">
+                        <div class="lm1_bt md15"><a href="javascript:void(0)" id="cd_lm2">规章制度</a></div>
+        <div class="lm2" id="lm2">
+                        <a href="https://scce.sjtu.edu.cn/yjs_gzzd.html" class="on">规章制度</a>
+                        <a href="https://scce.sjtu.edu.cn/yjs_xjcl.html" >学籍处理</a>
+                    </div>
+        <script type="text/javascript">
+            $("#cd_lm2").click(function(){
+                if($("#lm2").css("display")=="none"){
+                    $(this).addClass("on");
+                    $("#lm2").slideDown("slow");
+                }
+                else{
+                    $(this).removeClass("on");
+                    $("#lm2").slideUp("slow");
+                }
+            });
+        </script>
+                                <ul class="n1 mh md40">
+                        <li>
+                <a href="https://scce.sjtu.edu.cn/yjs_gzzd/4619.html">
+                    <h5 class="bt">化学化工学院博士专业学位授予标准</h5>
+                    <span class="sj">2025-09-24</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://scce.sjtu.edu.cn/yjs_gzzd/4618.html">
+                    <h5 class="bt">化学化工学院博士学位（学术型）授予标准</h5>
+                    <span class="sj">2025-09-24</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://scce.sjtu.edu.cn/yjs_gzzd/4615.html">
+                    <h5 class="bt">上海交通大学化学化工学院研究生学位论文评阅办法（试行）</h5>
+                    <span class="sj">2025-09-23</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://scce.sjtu.edu.cn/yjs_gzzd/4614.html">
+                    <h5 class="bt">上海交通大学化学化工学院关于申请授予硕士、博士学位的实施细则（试行）</h5>
+                    <span class="sj">2025-09-23</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://scce.sjtu.edu.cn/yjs_gzzd/2930.html">
+                    <h5 class="bt">上海交通大学研究生课程建设与管理办法</h5>
+                    <span class="sj">2021-11-05</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://scce.sjtu.edu.cn/yjs_gzzd/2929.html">
+                    <h5 class="bt">上海交通大学研究生教学管理规定</h5>
+                    <span class="sj">2021-11-05</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://scce.sjtu.edu.cn/yjs_gzzd/2928.html">
+                    <h5 class="bt">上海交通大学研究生培养管理规定</h5>
+                    <span class="sj">2021-11-05</span>
+                </a>
+            </li>
+                        <li>
+                <a href="https://scce.sjtu.edu.cn/yjs_gzzd/2927.html">
+                    <h5 class="bt">上海交通大学研究生培养方案管理办法</h5>
+                    <span class="sj">2021-11-05</span>
+                </a>
+            </li>
+                    </ul>
+                <!--分页-->
+        <div class="fy1">
+                    </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="foot">
+    <div class="main">
+                <div class="f1">
+            <p>地址：上海市东川路800号 200240<br/></p><p><br/></p><p><br/></p>            <div class="d_logo"></div>
+        </div>
+        <!-- <div class="f0">
+                                                            <a href="https://scce.sjtu.edu.cn/review/login.html" class="a3">专家评审专栏</a>
+        </div> -->
+        <div class="link">
+                                    <a href="https://sklscbs.sjtu.edu.cn/" target="_blank">化学生物协同物质创制全国重点实验室</a>
+                        <a href="https://fsctm.sjtu.edu.cn/" target="_blank">变革性分子前沿科学中心</a>
+                        <a href="https://ecc.sjtu.edu.cn/index.htm" target="_blank">基础化学实验中心</a>
+                        <a href="https://dnastorage.sjtu.edu.cn/" target="_blank">DNA存储研究中心</a>
+                        <a href="http://cal.sjtu.edu.cn/genee/">测试中心</a>
+                        <a href="/user/jaccount_login.html">教师信息维护平台</a>
+                        <a href="https://net.sjtu.edu.cn/" target="_blank">我的数字交大</a>
+                        <a href="https://ky.sjtu.edu.cn/" target="_blank">科研信息服务系统</a>
+                        <a href="https://dangjian.sjtu.edu.cn" target="_blank">智慧党建</a>
+                        <a href=" https://sccemem.sjtu.edu.cn/" target="_blank">工程管理硕士</a>
+                        <a href="/review/login.html">专家评审专栏</a>
+                        <a href=" https://ly.sjtu.edu.cn" target="_blank">会议室共享预约系统</a>
+                    </div>
+        <div class="f2">
+            <div class="ewm"><img src="/images/qr2025.jpg"><p>全重实验室<br>官方微信</p></div>
+            <div class="fx">
+            </div>
+        </div>
+        <div class="f2">
+            <div class="ewm"><img src="/upload/image/20211012/20211012173713.jpeg"><p>化学化工学院<br>官方微信</p></div>
+            <div class="fx">
+                <!--
+                <a href="javascript:;" class="cd_wx"></a>
+                <a href="javascript:;" class="cd_wb"></a>
+                <a href="javascript:;" class="cd_qq"></a>
+            -->
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+
+    </div>
+</div>
+<div class="foot2">
+    Copyright 2020 <a href="http://beian.miit.gov.cn" target="_blank">沪交ICP备2010917</a> 上海交通大学化学化工学院</div>
+<script language="javascript">
+    $(document).ready(function () {
+        //解决IOS手机端hover兼容问题
+        document.body.addEventListener('touchstart', function () {
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('.fy1 a').each(function(){
+            if($(this).text()=='上一页' || $(this).text()=='下一页'){
+                $(this).addClass('cd_sx');
+            }
+        });
+    });
+</script>
+<script>
+    $('.cd_qq').click(function(){
+        $(this).attr('href','https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+encodeURIComponent(document.location.href)+'&amp;title='+encodeURIComponent(document.title));
+    })
+    $('.cd_wx').click(function(){
+        $(this).attr('href','http://bshare.optimix.cn/barCode?site=weixin&url='+encodeURIComponent(document.location.href)+'&amp;title='+encodeURIComponent(document.title));
+    })
+    $('.cd_wb').click(function(){
+        // $(this).attr('href','http://bshare.optimix.cn/bshare_redirect?type=4&site=sinaminiblog&url='+encodeURIComponent(document.location.href)+'&amp;title='+encodeURIComponent(document.title));
+        $(this).attr('href','http://service.weibo.com/share/share.php?appkey=&title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(document.location.href)+'&searchPic=false&style=simple');
+    })
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?1d5fa61d4ce942edb5d9b01f61664e27";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</body>
+</html>

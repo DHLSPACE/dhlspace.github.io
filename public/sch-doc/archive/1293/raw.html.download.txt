@@ -1,0 +1,960 @@
+    <!doctype html>
+    <html lang="ZH-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="always" name="referrer"/>
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <meta name="keywords" content="相关系统">
+            <meta name="description" content="相关系统"/>
+        <title>相关系统</title>
+        <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico"/>
+        <link rel="stylesheet" href="/static/css/style.css?v=20260422">
+        <!--2019-12-31-->
+        <link rel="stylesheet" href="/static/css/20191231.css?v=3.8">
+        <!--20200108-->
+        <link rel="stylesheet" href="/static/css/20200108.css?v=240923">
+        <link rel="stylesheet" href="/static/css/20200229.css?v=3.8">
+        <link rel="stylesheet" href="/static/css/20200317.css?v=3.8">
+        <link rel="stylesheet" href="/static/css/20200321.css?v=3.8">
+        <link rel="stylesheet" href="/static/css/20200428.css?v=3.8">
+        <link rel="stylesheet" href="/static/css/20200514.css?v=3.8">
+        <style>
+            .system .system-box > img:last-child {
+                left: inherit;
+            }
+
+            .search > .search-box {
+                position: relative;
+            }
+
+            .search > .search-box .search-box-wrap {
+                position: relative;
+                z-index: 9;
+            }
+
+            .search > .search-box > .placeholder {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                color: #999;
+                z-index: 1;
+            }
+
+            .navli {
+                font-size: 14px;
+            }
+
+            .retrun_laoban {
+                position: absolute;
+                right: 20px;
+                top: 51px;
+                display: block;
+                width: 68px;
+                line-height: 30px;
+                border-radius: 50px;
+                background-color: #1c356e;
+                color: #FFFFFF;
+                font-size: 14px;
+                text-align: center;
+                border: 1px solid;
+                text-decoration: none;
+            }
+
+            .retrun_laoban_feedback {
+                position: absolute;
+                right: 95px;
+                top: 51px;
+                display: block;
+                width: 90px;
+                line-height: 30px;
+                border-radius: 50px;
+                background-color: #1c356e;
+                color: #FFFFFF;
+                font-size: 14px;
+                text-align: center;
+                border: 1px solid red;
+                text-decoration: none;
+            }
+
+            .info-item {
+                color: #FFF;
+            }
+        </style>
+        <script src="/static/js/html5.min.js"></script>
+        <script src="/static/js/jquery/jquery-v1.10.2.min.js"></script>
+    </head>
+    <body>
+
+    <header>
+        <div class="center-wrapper">
+                <a class="retrun_laoban_feedback" href="/feedback">问题与建议</a>
+            <a class="retrun_laoban" href="http://gs.ustc.edu.cn/">英文版</a>
+            <div class="logo">
+                <img src="/static/img/logo.png" alt="">
+            </div>
+            <div class="search">
+                <!--20200108-->
+                <!--20200108-->
+                <div class="search-box">
+                    <div class="search-box-wrap" style="width: 100%; height: 100%;">
+                        <label>
+                            <input id="search" value="" placeholder="站内搜索" type="text"
+                                   style="border-radius:10px;">
+                        </label>
+                    </div>
+                    <img src="/static/img/search.png" alt="" onclick="toSearch()">
+                </div>
+            </div>
+        </div>
+        <!--2020-03-05-->
+        <script>
+            $('#search').on('focus', function () {
+                $('#placeholder').hide();
+            }).on('blur', function () {
+                if ($(this).val() === '') {
+                    $('#placeholder').show();
+                }
+            });
+            $('#placeholder').click(function () {
+                console.log(66);
+            })
+        </script>
+        <!--2020-03-05-->
+        <script>
+            $("#search").keypress(function (e) {
+                if (e.which == 13) {
+                    toSearch();
+                }
+            });
+
+            function toSearch() {
+                var words = document.getElementById("search").value;
+                window.location.href = "/search?keyword=" + encodeURI(words)
+                /*var words = $("#search").val();
+                window.open("https://cn.bing.com/search?q=" + words + "+site%3Agradschool.ustc.edu.cn",
+                    "_self");*/
+            }
+        </script>
+    </header>
+
+    <nav id="nav">
+        <div class="center-wrapper clearfix">
+            <div class="nav-item">
+                <span><a href="/">首页</a></span>
+            </div>
+                    <div class="nav-item">
+                            <span target="_blank"
+                                  data-id="2"
+                                  data-type="1"
+                                  data-link="/column/1">概况</span>
+                            <ul>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="10"
+                                            data-type="1"
+                                            data-link="/column/13">研究生教育概况
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="74"
+                                            data-type="1"
+                                            data-link="/column/14">机构设置
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="12"
+                                            data-type="1"
+                                            data-link="/column/139">《研究生教育研究》
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="137"
+                                            data-type="1"
+                                            data-link="/column/235">研究生教育工作简报
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <li style="list-style: none" target="_blank"
+                                data-id="3"
+                                data-type="1"
+                                data-link="https://yz.ustc.edu.cn/">招生
+                            </li>
+                            <ul>
+                                        <li target="_blank"
+                                            class="navli"
+                                            data-id="131"
+                                            data-type="1"
+                                            data-link="https://yz.ustc.edu.cn">研招在线
+                                        </li>
+                                        <li target="_blank"
+                                            class="navli"
+                                            data-id="13"
+                                            data-type="1"
+                                            data-link="https://yz.ustc.edu.cn/zsjz_index/index.htm">招生简章
+                                        </li>
+                                        <li target="_blank"
+                                            class="navli"
+                                            data-id="14"
+                                            data-type="1"
+                                            data-link="https://yz.ustc.edu.cn/list_1.htm">硕士招生
+                                        </li>
+                                        <li target="_blank"
+                                            class="navli"
+                                            data-id="15"
+                                            data-type="1"
+                                            data-link="https://yz.ustc.edu.cn/list_2.htm">博士招生
+                                        </li>
+                                        <li target="_blank"
+                                            class="navli"
+                                            data-id="16"
+                                            data-type="1"
+                                            data-link="https://xly.ustc.edu.cn/">夏令营
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <span target="_blank"
+                                  data-id="69"
+                                  data-type="1"
+                                  data-link="/column/3">培养</span>
+                            <ul>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="70"
+                                            data-type="1"
+                                            data-link="/column/95">培养工作
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="71"
+                                            data-type="1"
+                                            data-link="/column/96">教学管理
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="72"
+                                            data-type="1"
+                                            data-link="/column/97">学籍奖助
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="146"
+                                            data-type="1"
+                                            data-link="/column/248">国际合作
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="114"
+                                            data-type="1"
+                                            data-link="/column/136">创新计划
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <span target="_blank"
+                                  data-id="5"
+                                  data-type="1"
+                                  data-link="/column/4">学位</span>
+                            <ul>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="21"
+                                            data-type="1"
+                                            data-link="/column/25">组织机构
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="22"
+                                            data-type="1"
+                                            data-link="/column/26">学位授予
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="24"
+                                            data-type="1"
+                                            data-link="/column/28">导师工作
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="126"
+                                            data-type="1"
+                                            data-link="/column/175">校优博论文
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <span target="_blank"
+                                  data-id="118"
+                                  data-type="1"
+                                  data-link="/column/148">专业学位</span>
+                            <ul>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="119"
+                                            data-type="1"
+                                            data-link="/column/149">组织机构
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="120"
+                                            data-type="1"
+                                            data-link="/column/205">教育教学
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="121"
+                                            data-type="1"
+                                            data-link="/column/206">实践实训
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="122"
+                                            data-type="1"
+                                            data-link="/column/207">创业就业
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="124"
+                                            data-type="1"
+                                            data-link="/column/208">评奖评优
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="123"
+                                            data-type="1"
+                                            data-link="/column/166">规章制度
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <span target="_blank"
+                                  data-id="6"
+                                  data-type="1"
+                                  data-link="/column/5">学科</span>
+                            <ul>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="25"
+                                            data-type="1"
+                                            data-link="/column/30">学科概况
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="27"
+                                            data-type="1"
+                                            data-link="/column/32">重点学科
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="28"
+                                            data-type="1"
+                                            data-link="/column/80">学科授权
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="26"
+                                            data-type="1"
+                                            data-link="/column/31">学科评估
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="125"
+                                            data-type="1"
+                                            data-link="/column/27">优博论文
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="148"
+                                            data-type="1"
+                                            data-link="/column/5">质量督导
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <li style="list-style: none" target="_blank"
+                                data-id="7"
+                                data-type="1"
+                                data-link="http://qybx.ustc.edu.cn/main.htm">所系结合
+                            </li>
+                    </div>
+                    <div class="nav-item">
+                            <span target="_blank"
+                                  data-id="87"
+                                  data-type="1"
+                                  data-link="/column/11">制度文档</span>
+                            <ul>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="127"
+                                            data-type="1"
+                                            data-link="/column/7">规章制度
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="128"
+                                            data-type="1"
+                                            data-link="/column/11">文档下载
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="129"
+                                            data-type="1"
+                                            data-link="/column/12">事务指南
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <span target="_blank"
+                                  data-id="133"
+                                  data-type="1"
+                                  data-link="/column/232">德创导师学校</span>
+                            <ul>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="134"
+                                            data-type="1"
+                                            data-link="/column/236">杰出讲座
+                                        </li>
+                                        <li target="_self"
+                                            class="navli"
+                                            data-id="136"
+                                            data-type="1"
+                                            data-link="/column/234">导师论坛
+                                        </li>
+                                        <li target="_blank"
+                                            class="navli"
+                                            data-id="135"
+                                            data-type="1"
+                                            data-link="https://dspx.ustc.edu.cn">导师培训
+                                        </li>
+                            </ul>
+                    </div>
+                    <div class="nav-item">
+                            <li style="list-style: none" target="_blank"
+                                data-id="147"
+                                data-type="1"
+                                data-link="https://fxl.ustc.edu.cn/">非学历教育中心
+                            </li>
+                    </div>
+        </div>
+    </nav>
+    <div class="main-wrapper">
+        <div class="bg-wrapper">
+            <div class="content-page center-wrapper">
+                <div class="address-box">
+                    <span>当前位置：<span target="_self" style="cursor:pointer" data-link="/">首页</span>
+                        ><span style="cursor:pointer">信息系统</span>
+                    </span>
+                </div>
+                <div class="module-seven">
+                    <div class="center-wrapper">
+                        <h2>信息系统</h2>
+                        <div class="sys-list">
+                            <ul class="clearfix">
+                                    <li data-link="http://yjs1.ustc.edu.cn/" target="_blank">
+                                        <img src="/static/upload/relate/b4cdce56e5a34976be43f7980904cb6c.png"/>
+                                        <h4 title="研究生综合服务平台">
+                                                研究生综合服务平台
+                                        </h4>
+                                    </li>
+                                    <li data-link="https://xspt.ustc.edu.cn/logon" target="_blank">
+                                        <img src="/static/upload/relate/726085ad2e754e40b553905e0f08fc76.png"/>
+                                        <h4 title="研究生报考服务系统">
+                                                研究生报考服务系统
+                                        </h4>
+                                    </li>
+                                    <li data-link="https://xspt.ustc.edu.cn/logon" target="_blank">
+                                        <img src="/static/upload/relate/df0fbaa44957456c9635fc03083f8526.png"/>
+                                        <h4 title="预面试">
+                                                预面试
+                                        </h4>
+                                    </li>
+                                    <li data-link="http://pyxt.ustc.edu.cn/" target="_blank">
+                                        <img src="/static/upload/relate/37c8a50c29854bccbcb58b8001e1bedc.png"/>
+                                        <h4 title="学位论文评阅">
+                                                学位论文评阅
+                                        </h4>
+                                    </li>
+                                    <li data-link="https://xsxwsq.ustc.edu.cn/login" target="_blank">
+                                        <img src="/static/upload/relate/c5df0110014540e7a6458e50b151c920.png"/>
+                                        <h4 title="学位申请系统">
+                                                学位申请系统
+                                        </h4>
+                                    </li>
+                                    <li data-link="http://dslx.ustc.edu.cn/" target="_blank">
+                                        <img src="/static/upload/relate/1725eff428864b0c9ddd3276305e8c0a.png"/>
+                                        <h4 title="导师遴选系统">
+                                                导师遴选系统
+                                        </h4>
+                                    </li>
+                                    <li data-link="http://sjds.ustc.edu.cn/" target="_blank">
+                                        <img src="/static/upload/relate/a0e8c5fc636d4d8998da9d64914fc9ba.png"/>
+                                        <h4 title="实践导师遴选">
+                                                实践导师遴选
+                                        </h4>
+                                    </li>
+                                    <li data-link="http://wlkt.ustc.edu.cn/" target="_blank">
+                                        <img src="/static/upload/relate/7c6f64fa9b784d8f8fef195e2ab92914.png"/>
+                                        <h4 title="网络课堂">
+                                                网络课堂
+                                        </h4>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="center-wrapper-bottom clearfix">
+                        <div class="white-p20 half-width">
+                            <h2 class="public-title">
+                                新闻动态
+                                <a href="/column/10"
+                                   onclick="setAccess('10','2'); ">查看更多+</a>
+                            </h2>
+                            <ul class="pic-list clearfix">
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3521','3')"
+                                                        href="/article/3521"
+                                            >校长常进赴长春应用化学研究所调研</a>
+                                            <time style="float: right">2026-09-18</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3516','3')"
+                                                        href="/article/3516"
+                                            >中国科学院武汉岩土力学研究所来校调研交流</a>
+                                            <time style="float: right">2026-09-11</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3507','3')"
+                                                        href="/article/3507"
+                                            >深耕思政育人课堂 聚力研究生人才培养——我校召开2026 年春季学期研究生思政课程建设专题研讨会</a>
+                                            <time style="float: right">2026-07-30</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3509','3')"
+                                                        href="/article/3509"
+                                            >中国科大2026年BASICS“计数问题”暑期学校成功举办</a>
+                                            <time style="float: right">2026-07-30</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3506','3')"
+                                                        href="/article/3506"
+                                            >研究生院与合肥物质科学研究院研究生处联合开展主题党日活动</a>
+                                            <time style="float: right">2026-07-22</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3491','3')"
+                                                        href="/article/3491"
+                                            >我校第七届工程类研究生学术论坛暨“德创·精尖创新”博士生学术论坛成功举办</a>
+                                            <time style="float: right">2026-06-17</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3486','3')"
+                                                        href="/article/3486"
+                                            >学校召开2026年春季学期第三次研究生教育分管院长工作会议</a>
+                                            <time style="float: right">2026-05-28</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3483','3')"
+                                                        href="/article/3483"
+                                            >校研究生教育督导专家组赴合肥物质院开展导师和学生调研座谈</a>
+                                            <time style="float: right">2026-05-27</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3477','3')"
+                                                        href="/article/3477"
+                                            >学校召开2026年春季学期第二次研究生教育分管院长工作会议</a>
+                                            <time style="float: right">2026-04-30</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3475','3')"
+                                                        href="/article/3475"
+                                            >学校召开2026年所系结合研究生培养基地建设研讨会</a>
+                                            <time style="float: right">2026-04-27</time>
+                                        </li>
+                            </ul>
+                        </div>
+
+                        <div class="white-p20 half-width">
+                            <h2 class="public-title">
+                                通知公告
+                                <a href="/column/9"
+                                   onclick="setAccess('9','2'); ">查看更多+</a>
+                            </h2>
+                            <ul class="notice-list clearfix">
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3419','3')"
+                                                        href="/static/upload/article/file/1763085598360/1789606113595-303269.pdf"
+                                            >研究生院高频业务办理索引</a>
+                                            <time style="float: right">2025-11-14</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3520','3')"
+                                                        href="/article/3520"
+                                            >关于2026年中国科学技术大学—香港理工大学联合培养博士生项目招生宣讲会的通知</a>
+                                            <time style="float: right">2026-09-21</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3517','3')"
+                                                        href="/article/3517"
+                                            >关于部分专业学位类别领域设置的通知</a>
+                                            <time style="float: right">2026-09-17</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3510','3')"
+                                                        href="/article/3510"
+                                            >关于做好2026-2027学年第一学期研究生学期注册工作的通知</a>
+                                            <time style="float: right">2026-07-31</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3511','3')"
+                                                        href="/article/3511"
+                                            >2026年学科交叉中心 “经纬”交叉创业青年项目申报通知</a>
+                                            <time style="float: right">2026-07-31</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3508','3')"
+                                                        href="/article/3508"
+                                            >关于开展 2026 年度急需紧缺领域博士培养工程申报遴选工作的通知</a>
+                                            <time style="float: right">2026-07-29</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3384','3')"
+                                                        href="/article/3384"
+                                            >2026-2027学年第一学期研究生课程助教申报通知</a>
+                                            <time style="float: right">2026-07-24</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3502','3')"
+                                                        href="/article/3502"
+                                            >2026年秋季研究生毕(结)业日程</a>
+                                            <time style="float: right">2026-07-17</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3503','3')"
+                                                        href="/article/3503"
+                                            >中国科学技术大学研究生教材获2026年出版专项奖励教材信息公示</a>
+                                            <time style="float: right">2026-07-17</time>
+                                        </li>
+                                        <li>
+                                            <a
+                                                    class="a-length"
+                                                    target="_self"
+                                                    onclick="setAccess('3501','3')"
+                                                        href="/article/3501"
+                                            >【转发】2026年中国科大学科交叉中心 “璧合”交叉创新青年项目申报通知</a>
+                                            <time style="float: right">2026-07-14</time>
+                                        </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .module-seven {
+            background-color: white;
+            padding-top: 80px;
+            padding-bottom: 150px;
+        }
+
+        .module-seven h2 {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .module-seven .sys-list {
+            margin-top: 50px;
+        }
+
+        .module-seven .sys-list h3 {
+            font-size: 24px;
+        }
+
+        .module-seven .sys-list ul {
+            text-align: center;
+            margin-top: 28px;
+            margin-right: -4px;
+            margin-left: 90px
+        }
+
+        .module-seven .sys-list ul li {
+            width: 200px;
+            margin-right: 84px;
+            margin-bottom: 30px;
+            padding: 14px 15px;
+            float: left;
+            background: #fff;
+            box-shadow: 0 0 8px #999;
+            cursor: pointer;
+        }
+
+        .module-seven .sys-list ul li img {
+            width: 88px;
+        }
+
+        .module-seven .sys-list ul li h4 {
+            margin-top: 26px;
+            text-align: center;
+            line-height: 26px;
+            font-size: 16px;
+        }
+
+        .center-wrapper-bottom {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .half-width {
+            width: 48%; /* 留出一些间距 */
+            box-sizing: border-box;
+        }
+
+        .pic-list, .notice-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .pic-list li, .notice-list li {
+            line-height: 50px;
+            margin-bottom: 0;
+            align-items: center; /* 垂直居中 */
+            position: relative; /* 确保子元素相对定位 */
+            border-bottom: 1px dashed #ddd
+        }
+
+        .pic-list li a,
+        .notice-list li a {
+            display: inline-block; /* 确保链接是内联块级元素 */
+        }
+
+
+        h2.public-title {
+            position: relative;
+            height: 24px;
+            padding: 0 0 7px;
+            box-sizing: content-box;
+            font-size: 22px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        h2.public-title > img {
+            height: 24px;
+            margin-right: 12px;
+        }
+
+        h2.public-title > span {
+
+            display: inline-block;
+            padding-left: 20px;
+            font-size: 12px;
+            color: #999;
+        }
+
+        h2.public-title > a {
+            position: absolute;
+            bottom: 10px;
+            right: 0;
+            font-size: 12px;
+            color: #5e9cea;
+            text-decoration: none;
+        }
+
+        h2.public-title > a:hover {
+            text-decoration: underline;
+        }
+
+        .a-length {
+            font-size: 16px;
+            display: inline-block;
+            width: 450px; /*要显示文字的宽度*/
+            text-overflow: ellipsis; /*让截断的文字显示为点点。还有一个值是clip意截断不显示点点*/
+            white-space: nowrap; /*让文字不换行*/
+            overflow: hidden; /*超出要隐藏*/
+            text-decoration: none;
+            color: #333;
+            box-sizing: border-box; /* 确保宽度计算包括内边距和边框 */
+            vertical-align: middle; /* 确保垂直居中 */
+        }
+
+    </style>
+    <style>
+    </style>
+    <div class="bottom-wrapper">
+        <div class="other" style="background: url('/static/img/bottom-pattern.jpg')">
+            <div class="center-wrapper clearfix">
+                <div class="r-box">
+                    <div class="other-website">
+                    </div>
+                    <div class="school-info">
+                        <div class="top">
+                            <div class="info-item" style="color: #FFF;font-size: 18px;">
+                                <img src="/static/img/address.png" alt="">
+                                地址：安徽省合肥市包河区金寨路96号
+                            </div>
+                            <div class="info-item" style="margin-left: 45px;color: #FFF;font-size: 18px;">
+                                <img src="/static/img/tel.png" style="height: 18px;" alt="">
+                                电话：0551-63601958
+                            </div>
+                            <div class="info-item" style="margin-left: 45px;color: #FFF;font-size: 18px;">
+                                <img src="/static/img/email.png" alt="">
+                                Email：yjsy@ustc.edu.cn
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--20200108-->
+        <footer>
+            copyright © 2007-2020 中国科学技术大学研究生院 校学位办 All Rights Reserved
+            <span>
+    总浏览量<span class="red">62784626</span>人次
+  </span>
+        </footer>
+    </div>
+    </div>
+    <script>
+        (function ($) {
+            var InitPage = {};
+            // 导航菜单下拉
+            InitPage.navSlide = function () {
+                var navItem = $('#nav').find('.nav-item');
+
+                navItem.hover(function () {
+                    $(this).find('ul')
+                        .stop(true, true)
+                        .slideDown('fast', 'linear');
+                }, function () {
+                    $(this).find('ul')
+                        .stop(true, true)
+                        .slideUp('fast', 'linear');
+                });
+
+                return this
+            };
+
+            InitPage.init = function () {
+                this.navSlide()
+                    .initLink();
+            };
+
+            InitPage.initLink = function () {
+                $('body').on('click', '*[data-link]', function (e) {
+                    e.stopPropagation();
+                    var url = $(this).attr('data-link');
+                    var accessId = $(this).attr('data-id');
+                    var type = $(this).attr('data-type');
+
+                    InitPage.saveAccessData(accessId, type)
+                    if (!!url) {
+                        if ($(this).attr('target') === '_blank') {
+                            window.open(url, '_blank');
+                        } else {
+                            location.href = url;
+                        }
+                    }
+                });
+                return this
+            };
+
+            InitPage.init();
+
+            // 保存访问记录
+            InitPage.saveAccessData = function (accessId, type) {
+                setAccess(accessId, type);
+            }
+
+        })(jQuery);
+
+        /*     $('#search').on('focus', function () {
+                 $('#placeholder').hide();
+             }).on('blur', function () {
+                 if ($(this).val() === '') {
+                     $('#placeholder').show();
+                 }
+             });*/
+        function setAccess(accessId, type) {
+            $.ajax({
+                url: '/access/saveData',
+                type: 'post',
+                async: true,
+                data: {
+                    "accessId": accessId,
+                    "type": type
+                },
+                dataType: 'text',
+                success: function (data) {
+                    console.log(data)
+                },
+                error: function (data) {
+                    console.log(data)
+                }
+            })
+        }
+    </script>
+
+    </body>
+    </html>

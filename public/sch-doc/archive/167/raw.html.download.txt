@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>北京大学研究生招生网</title>		
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/share.css"/>
+		<link rel="stylesheet" type="text/css" href="css/resp.css"/>
+		<link rel="stylesheet" href="css/layout.css">
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>		
+		<script src="js/jquery.SuperSlide.2.1.2.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/TouchSlide.1.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+	<body>
+
+
+		
+<script>
+function search_onclick(){
+document.searchForm.submit();
+}
+function msearch_onclick(){
+document.msearchForm.submit();
+}
+</script>
+			<div class="header">
+				<div class="headermain clearfix">
+					<div class="headerlogo fl" >
+						<a href="index.htm"><img src="images/headlogo.png"/></a>
+					</div>
+					<div class="comshow fl">
+						<div class="search fr"><img src="images/searchbtn.png"/></div>
+						<div class="searchHover">
+							<form id="searchForm" name="searchForm" action="/cms/search/searchResults.jsp" method="post" target="_blank" accept-charset="utf-8" onsubmit="document.charset='utf-8'" class="search-form">
+<script src="/cms/JavaScriptServlet"></script>
+								<input name="siteID" value="3" type="hidden"/>
+								<input class="searchInp" type="text" name="query" id="" value="" placeholder="输入关键字" />
+								<div class="searchsearch"><img src="images/search_search.png"/ onclick="search_onclick();"></div>
+							
+
+</form>
+						</div>
+						<ul class="nav fr">
+							<li><a href="index.htm">首页</a></li>
+																																													<li><a href="zsxx/sszs/index.htm" >招生信息</a>
+												<ul class="nav_list">
+																											<li><a href="zsxx/sszs/index.htm">硕士招生</a></li>
+																											<li><a href="zsxx/bszs/index.htm">博士招生</a></li>
+																											<li><a href="zsxx/gatzs/index.htm">港澳台招生</a></li>
+																											<li><a href="zsxx/lxszs/index.htm">留学生招生</a></li>
+																									</ul>   
+											</li>  
+																																																																								<li><a href="xxgk/xxgkssbm/index.htm" >信息公开</a>
+												<ul class="nav_list">
+																											<li><a href="xxgk/xxgkssbm/index.htm">硕士招生公示</a></li>
+																											<li><a href="xxgk/xxgkbsbm/index.htm">博士招生公示</a></li>
+																											<li><a href="xxgk/xxgkyxgs/index.htm">院系招生公示</a></li>
+																									</ul>   
+											</li>  
+																																																																								<li><a href="xly/index.htm"  class="">夏令营</a></li> 
+																																																																								<li><a href="https://admission.pku.edu.cn/applications/" target="_blank">网上报名</a></li>
+											<!--<li><a href="wsbm/index.htm"  class="">网上报名</a></li>-->
+																																																																								<li><a href="lxxx/lxzb/index.htm" >联系信息</a>
+												<ul class="nav_list">
+																											<li><a href="lxxx/lxzb/index.htm">联系招办</a></li>
+																											<li><a href="lxxx/lxyx/index.htm">联系院系</a></li>
+																									</ul>   
+											</li>  
+																																								</ul>
+					</div>
+					<div class="comshow fr" style="margin-top:35px;"><a href="https://admission.pku.edu.cn/applications/" class="active" target="_blank" style="color:blue;">注册登录</a></div>
+					<div class="menubtn fr"><a href="https://admission.pku.edu.cn/applications/" class="active" target="_blank" style="color:blue;">注册登录</a>&nbsp;<img src="images/menu_icon.png"/></div>
+				</div>
+			</div>
+			<div class="m-menu">
+				<div class="top-box">
+					<div class="fl stt">
+						<form id="msearchForm" name="msearchForm" action="/cms/search/searchResults.jsp" method="post" target="_blank" accept-charset="utf-8" onsubmit="document.charset='utf-8'" class="search-form">
+							<input name="siteID" value="3" type="hidden"/>
+							<input type="text" class="m-search" name="query" id="" value="SEARCH" />
+							<div class="m-searchbtn">
+								<img src="images/m-searchbtn.png" onclick="msearch_onclick();"/>
+							</div>
+						</form>
+					</div>
+					<span class="fr close"></span>
+				</div>
+				<div class="list-wrap">
+					<ul>
+						<li>
+							<span class="col-box clearfix">
+								<a href="index.htm"  class="active"><span class="tit">首页</span></a>
+							</span>
+						</li>
+																																								<li>
+											<span class="col-box clearfix">
+												<span class="fl tit"><a href="zsxx/sszs/index.htm"  class="">招生信息</a></span>
+												<span class="fr point"></span>
+											</span>
+										</li>
+																																																																<li>
+											<span class="col-box clearfix">
+												<span class="fl tit"><a href="xxgk/xxgkssbm/index.htm"  class="">信息公开</a></span>
+												<span class="fr point"></span>
+											</span>
+										</li>
+																																																						<li>
+																					<a class="col-box" href="xly/index.htm"><span class="tit">夏令营</span></a>
+																			</li>
+																																													<li>
+																					<a class="col-box" href="https://admission.pku.edu.cn/applications/" target="_blank"><span class="tit">网上报名</span></a>
+											<!--<a class="col-box" href="wsbm/index.htm"><span class="tit">网上报名</span></a>-->
+																			</li>
+																																																							<li>
+											<span class="col-box clearfix">
+												<span class="fl tit"><a href="lxxx/lxzb/index.htm"  class="">联系信息</a></span>
+												<span class="fr point"></span>
+											</span>
+										</li>
+																																			</ul>
+				</div>
+				<div class="sec-list">
+					<div class="boxs">
+					</div>							
+																		<div class="boxs">
+								<span class="return-first"><p>招生信息</p></span>
+								<ul>
+																			<li><a href="zsxx/sszs/index.htm">硕士招生</a></li>
+																			<li><a href="zsxx/bszs/index.htm">博士招生</a></li>
+																			<li><a href="zsxx/gatzs/index.htm">港澳台招生</a></li>
+																			<li><a href="zsxx/lxszs/index.htm">留学生招生</a></li>
+																	</ul>
+							</div>
+																								<div class="boxs">
+								<span class="return-first"><p>信息公开</p></span>
+								<ul>
+																			<li><a href="xxgk/xxgkssbm/index.htm">硕士招生公示</a></li>
+																			<li><a href="xxgk/xxgkbsbm/index.htm">博士招生公示</a></li>
+																			<li><a href="xxgk/xxgkyxgs/index.htm">院系招生公示</a></li>
+																	</ul>
+							</div>
+																								<div class="boxs">
+							</div>							
+																								<div class="boxs">
+							</div>							
+																								<div class="boxs">
+								<span class="return-first"><p>联系信息</p></span>
+								<ul>
+																			<li><a href="lxxx/lxzb/index.htm">联系招办</a></li>
+																			<li><a href="lxxx/lxyx/index.htm">联系院系</a></li>
+																	</ul>
+							</div>
+															</div>
+			</div>
+			<div class="main_wrap">
+				<div class="swiper-container swiper0">
+				    <div class="swiper-wrapper">
+																					    	<div class="swiper-slide">
+							<img src="images/content/2025-09/20250904091102497838.jpg"/>
+														<div class="swiper_notice">
+								<b>北大研招公众号上线，欢迎关注</b>
+								<p></p>
+								<p><a href="https://mp.weixin.qq.com/s/YAmUW1PLveZGBX8dJ-PCCQ">点击查看详情</a></p>
+							</div>
+											    	</div>
+																					    	<div class="swiper-slide">
+							<img src="images/content/2024-04/20240412090609092382.jpg"/>
+											    	</div>
+																					    	<div class="swiper-slide">
+							<img src="images/content/2018-05/20180518133246780168.jpg"/>
+											    	</div>
+																					    	<div class="swiper-slide">
+							<img src="images/content/2018-05/20180518164043236472.jpg"/>
+														<div class="swiper_notice">
+								<b>海阔凭鱼跃 天高任鸟飞</b>
+								<p>——北京大学研究生招生网欢迎您</p>
+								<p><a href="ttxw/2.htm">点击查看详情</a></p>
+							</div>
+											    	</div>
+																					    	<div class="swiper-slide">
+							<img src="images/content/2024-04/20240412090816152460.jpg"/>
+											    	</div>
+																					    	<div class="swiper-slide">
+							<img src="images/content/2018-05/20180527224232324536.jpg"/>
+											    	</div>
+									    </div>
+    				<!-- 分页器 -->
+					<div class="swiper-pagination swiper-pagination-bullets swiper-pagination-bullets-dynamic" style="width: 80px;">
+						<span class="swiper-pagination-bullet swiper-pagination-bullet-active-prev" style="left: 16px;"></span>
+						<span class="swiper-pagination-bullet swiper-pagination-bullet-active swiper-pagination-bullet-active-main" style="left: 16px;"></span>
+						<span class="swiper-pagination-bullet swiper-pagination-bullet-active-next" style="left: 16px;"></span>
+						<span class="swiper-pagination-bullet swiper-pagination-bullet-active-next-next" style="left: 16px;"></span><span class="swiper-pagination-bullet" style="left: 16px;"></span>
+						<span class="swiper-pagination-bullet" style="left: 16px;"></span>
+						<span class="swiper-pagination-bullet" style="left: 16px;"></span>
+						<span class="swiper-pagination-bullet" style="left: 16px;"></span>
+						<span class="swiper-pagination-bullet" style="left: 16px;"></span>
+						<span class="swiper-pagination-bullet" style="left: 16px;"></span>
+					</div>    
+    				<!-- 导航按钮 -->
+    				<div class="swiper-button-prev"></div>
+    				<div class="swiper-button-next"></div>
+				</div>
+			</div>
+			<!--<div class="indexLine"></div>-->
+			<div class="tblist">
+				<div class="tblistBox clearfix">
+					<a href="zsxx/sszs/index.htm">
+						<div class="tblistdlbox" style="border-top-color: #1bbc9b;">
+							<dl class="tblistdl">
+								<dt class=""><i class="iconfont">&#xe603;</i></dt>
+								<dd>硕士招生</dd>
+							</dl>
+							<div class="tblistdl_zhe" style="background: #1bbc9b;"></div>
+						</div>
+					</a>
+					<a href="zsxx/bszs/index.htm">
+						<div class="tblistdlbox" style="border-top-color: #2dcc70;">
+							<dl class="tblistdl">
+								<dt class=""><i class="iconfont">&#xe61e;</i></dt>
+								<dd>博士招生</dd>
+							</dl>
+							<div class="tblistdl_zhe" style="background: #2dcc70;"></div>
+						</div>
+					</a>
+					<a href="zsxx/gatzs/index.htm">
+						<div class="tblistdlbox" style="border-top-color: #3598db;">
+							<dl class="tblistdl">
+								<dt class=""><i class="iconfont">&#xe886;</i></dt>
+								<dd>港澳台招生</dd>
+							</dl>
+							<div class="tblistdl_zhe" style="background: #3598db;"></div>
+						</div>
+					</a>
+					<a href="zsxx/lxszs/index.htm">
+						<div class="tblistdlbox" style="border-top-color: #c12c20;">
+							<dl class="tblistdl">
+								<dt class=""><i class="iconfont">&#xe607;</i></dt>
+								<dd>留学生招生</dd>
+							</dl>
+							<div class="tblistdl_zhe" style="background: #c12c20;"></div>
+						</div>
+					</a>
+					<a href="xly/index.htm">
+						<div class="tblistdlbox" style="border-top-color: #9a59b5;">
+							<dl class="tblistdl">
+								<dt class=""><i class="iconfont">&#xe622;</i></dt>
+								<dd>夏令营</dd>
+							</dl>
+							<div class="tblistdl_zhe" style="background: #9a59b5;"></div>
+						</div>
+					</a>
+					<a href="https://admission.pku.edu.cn/applications/" target="_blank">
+					<!--<a href="wsbm/index.htm">-->
+						<div class="tblistdlbox" style="border-top-color: #f65344;">
+							<dl class="tblistdl backnone">
+								<dt class=""><i class="iconfont">&#xe61d;</i></dt>
+								<dd>网上报名</dd>
+							</dl>
+							<div class="tblistdl_zhe" style="background: #f65344;"></div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="announce">	
+				<div class="swiper-container swiper1">
+					<div class="clearfix">
+						<h1 class="announce_h1"><div>通知公告</div><span><!--Announcements-->&nbsp;</span></h1>
+						<div class="fr"><a class="more_announce" href="tzgg/index.htm">More</a></div>
+					</div>					
+				    <div class="swiper-wrapper">
+					  <div class="swiper-slide">
+				      	<ul class="slideUl clearfix">
+																																		<li class="fl"><a href="docs/20260831123041610549.pdf" class="fl" title="北京大学2027年接收推荐免试研究生办法（校本部）" target="_blank">            北京大学2027年接收推荐免试研究生办法（校本部） 
+      </a><span class="fr">2026-08-31</span></li>	
+																																																			<li class="fl"><a href="tzgg/4048.htm" class="fl" title="北京大学 2026 年高校思想政治工作骨干在职攻读博士学位 专项计划招生说明 （第二批）" target="_blank">            北京大学 2026 年高校思想政治工作骨干在职攻读博士学位 专项计划招生说明 （第二批） 
+    </a><span class="fr">2026-06-16</span></li>	
+																																									<li class="fl"><a href="docs/20260615110827088250.pdf" class="fl" title="关于核对并确认录取通知书邮寄地址的通知" target="_blank">            关于核对并确认录取通知书邮寄地址的通知 
+    </a><span class="fr">2026-06-15</span></li>	
+																																										<li class="fl"><a href="tzgg/4011.htm" class="fl" title="北京大学2026年高校思想政治工作骨干在职攻读博士学位专项计划招生说明" target="_blank">            北京大学2026年高校思想政治工作骨干在职攻读博士学位专项计划招生说明 
+    </a><span class="fr">2026-05-09</span></li>	
+																																									<li class="fl"><a href="docs/20260508113136030813.pdf" class="fl" title="筑梦北大，未名启航  北京大学研究生招生宣讲咨询会（成都场） " target="_blank">            筑梦北大，未名启航  北京大学研究生招生宣讲咨询会（成都场）  
+    </a><span class="fr">2026-05-08</span></li>	
+																																										<li class="fl"><a href="docs/20260313205736606717.pdf" class="fl" title="北京大学2026年研究生招生复试与录取工作有关规定" target="_blank">            北京大学2026年研究生招生复试与录取工作有关规定 
+      </a><span class="fr">2026-03-14</span></li>	
+																																																			<li class="fl"><a href="docs/20260313100201705627.pdf" class="fl" title="北京大学2026年硕士研究生招生复试基本分数线" target="_blank">            北京大学2026年硕士研究生招生复试基本分数线 
+      </a><span class="fr">2026-03-13</span></li>	
+																																									<li class="fl"><a href="docs/20260227145642851518.pdf" class="fl" title="北京大学2026年硕士研究生招生考试初试成绩查询及相关事宜" target="_blank">            北京大学2026年硕士研究生招生考试初试成绩查询及相关事宜 
+    </a><span class="fr">2026-02-27</span></li>	
+																																										<li class="fl"><a href="docs/20251216213609234453.pdf" class="fl" title="2026年全国硕士研究生招生考试北京大学考点校本部考场考生须知" target="_blank">            2026年全国硕士研究生招生考试北京大学考点校本部考场考生须知 
+      </a><span class="fr">2025-12-16</span></li>	
+																																																			<li class="fl"><a href="docs/20251210144317372344.pdf" class="fl" title="北京大学2026年研考自命题科目重要提示" target="_blank">            北京大学2026年研考自命题科目重要提示 
+      </a><span class="fr">2025-12-10</span></li>	
+																														</ul>
+				      </div>
+					  					  				      <div class="swiper-slide">
+				      	<ul class="slideUl clearfix">
+																								<li class="fl"><a href="docs/20251106105459083299.pdf" class="fl" title="北京大学2026年面向香港、澳门、台湾地区招收硕士研究生、博士研究生网上报名事项说明" target="_blank">            北京大学2026年面向香港、澳门、台湾地区招收硕士研究生、博士研究生网上报名事项说明 
+    </a><span class="fr">2025-11-06</span></li>								
+																																<li class="fl"><a href="docs/20251106104113194034.pdf" class="fl" title="北京大学2026年面向香港、澳门、台湾地区招收硕士研究生、博士研究生招生简章（校本部）" target="_blank">            北京大学2026年面向香港、澳门、台湾地区招收硕士研究生、博士研究生招生简章（校本部） 
+    </a><span class="fr">2025-11-06</span></li>								
+																																<li class="fl"><a href="tzgg/1680.htm" class="fl" title=" 北京大学(10001)关于核对（修改）2026年应试硕士生网报信息项公告" target="_blank">             北京大学(10001)关于核对（修改）2026年应试硕士生网报信息项公告 
+    </a><span class="fr">2025-11-04</span></li>								
+																																<li class="fl"><a href="docs/20251104154849799754.pdf" class="fl" title="北京大学2026年“前沿工程博士专业学位”项目成都宣讲会" target="_blank">            北京大学2026年“前沿工程博士专业学位”项目成都宣讲会 
+    </a><span class="fr">2025-11-04</span></li>								
+																																<li class="fl"><a href="docs/20251029232559463316.pdf" class="fl" title="北京大学报考点（代码 1101）2026 年硕士研究生报名网上确认通知" target="_blank">            北京大学报考点（代码 1101）2026 年硕士研究生报名网上确认通知 
+    </a><span class="fr">2025-10-29</span></li>								
+																																<li class="fl"><a href="docs/20251020095346239221.pdf" class="fl" title="北京大学2026年外国留学生研究生招生简章（校本部）" target="_blank">            北京大学2026年外国留学生研究生招生简章（校本部） 
+    </a><span class="fr">2025-10-20</span></li>								
+																																<li class="fl"><a href="docs/20251018000501752018.pdf" class="fl" title="北京大学2026年“前沿工程博士专业学位”项目招生说明" target="_blank">            北京大学2026年“前沿工程博士专业学位”项目招生说明 
+    </a><span class="fr">2025-10-18</span></li>								
+																																<li class="fl"><a href="docs/20251015110237141921.pdf" class="fl" title="北京大学2026年高级管理人员工商管理（EMBA）专业学位硕士研究生招生简章" target="_blank">            北京大学2026年高级管理人员工商管理（EMBA）专业学位硕士研究生招生简章 
+    </a><span class="fr">2025-10-15</span></li>								
+																																<li class="fl"><a href="docs/20251013161723499893.pdf" class="fl" title="2026年全国硕士研究生招生考试北京大学报考点（1101）公告" target="_blank">            2026年全国硕士研究生招生考试北京大学报考点（1101）公告 
+    </a><span class="fr">2025-10-13</span></li>								
+																																<li class="fl"><a href="docs/20251011105645009634.pdf" class="fl" title="2026年全国硕士研究生招生考试北京大学（10001）网报公告" target="_blank">            2026年全国硕士研究生招生考试北京大学（10001）网报公告 
+    </a><span class="fr">2025-10-11</span></li>								
+																					</ul>
+				      </div>
+					  					  				      <div class="swiper-slide">
+				      	<ul class="slideUl clearfix">
+																								<li class="fl"><a href="docs/20251010134140836566.pdf" class="fl" title="北京大学2026年博士研究生招生简章(校本部)" target="_blank">            北京大学2026年博士研究生招生简章(校本部) 
+    </a><span class="fr">2025-10-10</span></li>								
+																																<li class="fl"><a href="docs/20251009101959431969.pdf" class="fl" title="北京大学2026年硕士研究生招生简章（校本部）" target="_blank">            北京大学2026年硕士研究生招生简章（校本部） 
+    </a><span class="fr">2025-10-09</span></li>	
+																																<li class="fl"><a href="https://mp.weixin.qq.com/s/YAmUW1PLveZGBX8dJ-PCCQ" class="fl" title="北大研招公众号上线，欢迎关注" target="_blank">            北大研招公众号上线，欢迎关注 
+    </a><span class="fr">2025-09-01</span></li>								
+																																<li class="fl"><a href="docs/20250312160154148797.pdf" class="fl" title="北京大学2025年硕士研究生招生复试基本分数线" target="_blank">            北京大学2025年硕士研究生招生复试基本分数线 
+    </a><span class="fr">2025-03-12</span></li>								
+																																<li class="fl"><a href="tzgg/3338.htm" class="fl" title="北京大学关于报考2025年少数民族高层次骨干人才计划有关事项的说明" target="_blank">            北京大学关于报考2025年少数民族高层次骨干人才计划有关事项的说明 
+    </a><span class="fr">2024-10-16</span></li>								
+																																<li class="fl"><a href="docs/20230904123632003647.pdf" class="fl" title="北京大学2024年接收推荐免试研究生办法（校本部）" target="_blank">            北京大学2024年接收推荐免试研究生办法（校本部） 
+    </a><span class="fr">2023-09-04</span></li>	
+																																<li class="fl"><a href="https://news.pku.edu.cn/xwzh/c7ede316876844348ddf4bda70da5e80.htm" class="fl" title="“研”途等你——“北大研招”宣传周即将开启" target="_blank">            “研”途等你——“北大研招”宣传周即将开启 
+    </a><span class="fr">2021-07-09</span></li>								
+																																<li class="fl"><a href="tzgg/1889.htm" class="fl" title="关于2021级新生确认录取通知书邮寄地址的通知" target="_blank">            关于2021级新生确认录取通知书邮寄地址的通知 
+    </a><span class="fr">2021-06-18</span></li>								
+																																<li class="fl"><a href="https://www.bjeea.cn/html/yk/sszkzc/2020/1210/77238.html" class="fl" title="北京市2021年全国硕士研究生招生考试新冠肺炎病毒核酸检测告知书" target="_blank">            北京市2021年全国硕士研究生招生考试新冠肺炎病毒核酸检测告知书 
+    </a><span class="fr">2020-12-10</span></li>								
+																																<li class="fl"><a href="https://www.bjeea.cn/html/yk/sszkzc/2020/1210/77237.html" class="fl" title="北京市2021年全国硕士研究生招生考试疫情防控考生须知" target="_blank">            北京市2021年全国硕士研究生招生考试疫情防控考生须知 
+    </a><span class="fr">2020-12-10</span></li>								
+																					</ul>
+				      </div>
+					  				    </div>
+				    <!-- Add Pagination -->
+				    <div class="swiper-pagination"></div>
+				</div>
+			</div>
+			<div class="announce clearfix">
+				<div class="swiper-container twocolumns">
+					<div class="announce_first">
+						<div class="clearfix">
+							<h1 class="announce_h1"><div>招生信息</div><!--Announcements-->&nbsp;</h1>
+							<div class="fr"><a class="more_announce" href="zsxx/index.htm">More</a></div>
+						</div>	
+					<div id="tabs">
+						<div style="height:38px">
+							<ul class="tabs-nav">
+																																			<li><a href="#tabs-1">硕士招生</a></li>
+																																				<li><a href="#tabs-2">博士招生</a></li>
+																																				<li><a href="#tabs-3">港澳台招生</a></li>
+																																				<li><a href="#tabs-4">留学生招生</a></li>
+																								</ul>
+						</div>
+																			<div id="tabs-1" class="tab-content" >
+								<ul class="slideUl2 clearfix">
+																			<li class="fl"><a href="https://admission.pku.edu.cn/zsxx/sszs/tjms/2027/yx/zsml_ss_tm.html" class="fl" title="北京大学2027年推荐免试攻读硕士学位研究生专业目录(校本部)" target="_blank">北京大学2027年推荐免试攻读硕士学位研究生专业目录(校本部)</a><span class="fr">2026-09-15</span></li>
+																			<li class="fl"><a href="docs/20260831123041610549.pdf" class="fl" title="北京大学2027年接收推荐免试研究生办法（校本部）" target="_blank">北京大学2027年接收推荐免试研究生办法（校本部）</a><span class="fr">2026-08-31</span></li>
+																			<li class="fl"><a href="docs/20260313205736606717.pdf" class="fl" title="北京大学2026年研究生招生复试与录取工作有关规定" target="_blank">北京大学2026年研究生招生复试与录取工作有关规定</a><span class="fr">2026-03-14</span></li>
+																			<li class="fl"><a href="docs/20260313100201705627.pdf" class="fl" title="北京大学2026年硕士研究生招生复试基本分数线" target="_blank">北京大学2026年硕士研究生招生复试基本分数线</a><span class="fr">2026-03-13</span></li>
+																			<li class="fl"><a href="docs/20251216213609234453.pdf" class="fl" title="2026年全国硕士研究生招生考试北京大学考点校本部考场考生须知" target="_blank">2026年全国硕士研究生招生考试北京大学考点校本部考场考生须知</a><span class="fr">2025-12-16</span></li>
+																	</ul>
+							</div>
+													<div id="tabs-2" class="tab-content" >
+								<ul class="slideUl2 clearfix">
+																			<li class="fl"><a href="https://admission.pku.edu.cn/zsxx/bszs/bstjms/2027/yx/zsml_bs_tm.html" class="fl" title="北京大学2027年推荐免试攻读博士学位研究生专业目录(校本部)" target="_blank">北京大学2027年推荐免试攻读博士学位研究生专业目录(校本部)</a><span class="fr">2026-09-15</span></li>
+																			<li class="fl"><a href="docs/20251104154849799754.pdf" class="fl" title="北京大学2026年“前沿工程博士专业学位”项目成都宣讲会" target="_blank">北京大学2026年“前沿工程博士专业学位”项目成都宣讲会</a><span class="fr">2025-11-04</span></li>
+																			<li class="fl"><a href="https://www.law.pku.edu.cn/xwzx/ggtz/zsjx/307f10d30e7245629adef344c7679d86.htm" class="fl" title="北京大学法学院2026年非全日制法律博士专业学位研究生招生说明" target="_blank">北京大学法学院2026年非全日制法律博士专业学位研究生招生说明</a><span class="fr">2025-11-03</span></li>
+																			<li class="fl"><a href="https://www.art.pku.edu.cn/rcpyjxxm/bssjy/yjs_tzgg/1eba6cf3cc6c4d03a5f1286f62ef86d9.htm" class="fl" title="北京大学艺术学院2026年“申请-考核制”博士研究生招生说明" target="_blank">北京大学艺术学院2026年“申请-考核制”博士研究生招生说明</a><span class="fr">2025-10-20</span></li>
+																			<li class="fl"><a href="https://ipr.pku.edu.cn/tzgg/2025-10-18/efa4c23559384cf29c162efdd19835b1.htm" class="fl" title="北京大学人口研究所2026年“申请-考核制”博士研究生招生说明" target="_blank">北京大学人口研究所2026年“申请-考核制”博士研究生招生说明</a><span class="fr">2025-10-20</span></li>
+																	</ul>
+							</div>
+													<div id="tabs-3" class="tab-content" >
+								<ul class="slideUl2 clearfix">
+																			<li class="fl"><a href="docs/20251106105459083299.pdf" class="fl" title="北京大学2026年面向香港、澳门、台湾地区招收硕士研究生、博士研究生网上报名事项说明" target="_blank">北京大学2026年面向香港、澳门、台湾地区招收硕士研究生、博士研究生网上报名事项说明</a><span class="fr">2025-11-06</span></li>
+																			<li class="fl"><a href="docs/20251106104113194034.pdf" class="fl" title="北京大学2026年面向香港、澳门、台湾地区招收硕士研究生、博士研究生招生简章（校本部）" target="_blank">北京大学2026年面向香港、澳门、台湾地区招收硕士研究生、博士研究生招生简章（校本部）</a><span class="fr">2025-11-06</span></li>
+																			<li class="fl"><a href="https://admission.pku.edu.cn/zsxx/gatzs/gatzyml/2026/bs/zsml_bs_got.html" class="fl" title="北京大学2026年博士研究生招生专业目录(港澳台)" target="_blank">北京大学2026年博士研究生招生专业目录(港澳台)</a><span class="fr">2025-11-06</span></li>
+																			<li class="fl"><a href="https://admission.pku.edu.cn/zsxx/gatzs/gatzyml/2026/ss/zsml_ss_got.html" class="fl" title="北京大学2026年硕士研究生招生专业目录(港澳台)" target="_blank">北京大学2026年硕士研究生招生专业目录(港澳台)</a><span class="fr">2025-11-06</span></li>
+																			<li class="fl"><a href="docs/20200921114252482211.doc" class="fl" title="下载：港、澳、台人士申请攻读北京大学硕士/博士学位研究生专家推荐信" target="_blank">下载：港、澳、台人士申请攻读北京大学硕士/博士学位研究生专家推荐信</a><span class="fr">2020-09-21</span></li>
+																	</ul>
+							</div>
+													<div id="tabs-4" class="tab-content" >
+								<ul class="slideUl2 clearfix">
+																			<li class="fl"><a href="https://admission.pku.edu.cn/zsxx/lxszs/lxszyml/2026/bs/zsml_bs_lxs_en.html" class="fl" title="北京大学2026年博士研究生招生专业目录(校本部,留学生,English-taught)" target="_blank">北京大学2026年博士研究生招生专业目录(校本部,留学生,English-taught)</a><span class="fr">2025-10-20</span></li>
+																			<li class="fl"><a href="https://admission.pku.edu.cn/zsxx/lxszs/lxszyml/2026/ss/zsml_ss_lxs_cn.html" class="fl" title="北京大学2026年硕士研究生招生专业目录(校本部,留学生,中文授课) " target="_blank">北京大学2026年硕士研究生招生专业目录(校本部,留学生,中文授课) </a><span class="fr">2025-10-20</span></li>
+																			<li class="fl"><a href="https://admission.pku.edu.cn/zsxx/lxszs/lxszyml/2026/ss/zsml_ss_lxs_en.html" class="fl" title="北京大学2026年硕士研究生招生专业目录(校本部,留学生,English-taught)" target="_blank">北京大学2026年硕士研究生招生专业目录(校本部,留学生,English-taught)</a><span class="fr">2025-10-20</span></li>
+																			<li class="fl"><a href="https://admission.pku.edu.cn/zsxx/lxszs/lxszyml/2026/bs/zsml_bs_lxs_cn.html" class="fl" title="北京大学2026年博士研究生招生专业目录(校本部,留学生,中文授课)" target="_blank">北京大学2026年博士研究生招生专业目录(校本部,留学生,中文授课)</a><span class="fr">2025-10-20</span></li>
+																			<li class="fl"><a href="docs/20251020095346239221.pdf" class="fl" title="北京大学2026年外国留学生研究生招生简章（校本部）" target="_blank">北京大学2026年外国留学生研究生招生简章（校本部）</a><span class="fr">2025-10-20</span></li>
+																	</ul>
+							</div>
+											</div>
+
+<!--						<ul class="slideUl2 clearfix">
+																								<li class="fl"><a href="https://admission.pku.edu.cn/zsxx/sszs/tjms/2027/yx/zsml_ss_tm.html" class="fl" title="北京大学2027年推荐免试攻读硕士学位研究生专业目录(校本部)" target="_blank">北京大学2027年推荐免试攻读硕士学位研究生专业目录(校本部)</a><span class="fr">2026-09-15</span></li>								
+																																<li class="fl"><a href="https://admission.pku.edu.cn/zsxx/bszs/bstjms/2027/yx/zsml_bs_tm.html" class="fl" title="北京大学2027年推荐免试攻读博士学位研究生专业目录(校本部)" target="_blank">北京大学2027年推荐免试攻读博士学位研究生专业目录(校本部)</a><span class="fr">2026-09-15</span></li>								
+																																<li class="fl"><a href="docs/20260831123041610549.pdf" class="fl" title="北京大学2027年接收推荐免试研究生办法（校本部）" target="_blank">北京大学2027年接收推荐免试研究生办法（校本部）</a><span class="fr">2026-08-31</span></li>								
+																																<li class="fl"><a href="docs/20260313205736606717.pdf" class="fl" title="北京大学2026年研究生招生复试与录取工作有关规定" target="_blank">北京大学2026年研究生招生复试与录取工作有关规定</a><span class="fr">2026-03-14</span></li>								
+																																<li class="fl"><a href="docs/20260313100201705627.pdf" class="fl" title="北京大学2026年硕士研究生招生复试基本分数线" target="_blank">北京大学2026年硕士研究生招生复试基本分数线</a><span class="fr">2026-03-13</span></li>								
+																					</ul>-->
+					</div>
+					<div class="announce_second">
+						<div class="clearfix">
+							<h1 class="announce_h1"><div>信息公开</div><!--Announcements-->&nbsp;</h1>
+							<div class="fr"><a class="more_announce" href="xxgk/index.htm">More</a></div>
+						</div>	
+						<ul class="slideUl2 clearfix">
+																								<li class="fl"><a href="https://sess.pku.edu.cn/info/1107/31221.htm" class="fl" title="北京大学地球与空间科学学院2026年学术博士研究生拟录取公示名单（不含专项计划）" target="_blank">北京大学地球与空间科学学院2026年学术博士研究生拟录取公示名单（不含专项计划）</a><span class="fr">2026-04-29</span></li>								
+																																<li class="fl"><a href="https://www.chem.pku.edu.cn/tzgg11/ceb0668320844d92b3618a7cf1726628.htm" class="fl" title="北京大学化学与分子工程学院2026年申请-考核制、留学生博士招生拟录取公示名单" target="_blank">北京大学化学与分子工程学院2026年申请-考核制、留学生博士招生拟录取公示名单</a><span class="fr">2026-04-27</span></li>								
+																																<li class="fl"><a href="https://econ.pku.edu.cn/jxxm/zsxxfb_20211202144549787517/2c75c4ab924f4fed91694779881e51a0.htm" class="fl" title="北京大学经济学院2026年博士招生拟录取名单公示" target="_blank">北京大学经济学院2026年博士招生拟录取名单公示</a><span class="fr">2026-04-17</span></li>								
+																																<li class="fl"><a href="https://www.gsm.pku.edu.cn/emba/info/1158/14179.htm" class="fl" title="北京大学光华管理学院2026年高级管理人员工商管理硕士招生拟录取公示" target="_blank">北京大学光华管理学院2026年高级管理人员工商管理硕士招生拟录取公示</a><span class="fr">2026-04-16</span></li>								
+																																<li class="fl"><a href="https://future.pku.edu.cn/xwzk/543476ceb01a4ed9b264996d10e0a764.htm" class="fl" title="北京大学未来技术学院2026年“申请-考核制”学术型全日制博士招生拟录取公示名单（不含专项计划）" target="_blank">北京大学未来技术学院2026年“申请-考核制”学术型全日制博士招生拟录取公示名单（不含专项计划）</a><span class="fr">2026-04-15</span></li>								
+																																<li class="fl"><a href="https://www.sis.pku.edu.cn/postgraduate/enrollment89101/08b39ee539704ec19277de1f7b36e8ce.htm" class="fl" title="北京大学国际关系学院2026年博士研究生招生拟录取名单公示" target="_blank">北京大学国际关系学院2026年博士研究生招生拟录取名单公示</a><span class="fr">2026-04-15</span></li>								
+																					</ul>
+					</div>
+				</div>
+			</div>
+		</div>	
+		
+		
+<!--Footer Section-->
+<script>
+function relatedlinks_onchange(){
+	var obj=document.getElementById('relatedlinks');
+	var index=obj.selectedIndex; //序号，取当前选中选项的序号
+	var val = obj.options[index].value;
+	window.location.href = val;
+}
+</script>
+			<div class="zsxxw_foot">
+					<div class="zsxxw_foot_cont clearfix">
+						<div class="zsxxw_foot_l fl">
+							<div class="fl">
+								<p>地址：北京大学燕园大厦13层</p>
+								<p>咨询电话：010-62751354    监督电话：010-62756913</p>
+								<p>Copyright © 2003-2025 北京大学研究生院</p>
+							</div>
+							<div class="fr">
+								<p>相关链接：<a href="http://grs.pku.edu.cn" target="_blank" style="color:#fff;">北京大学研究生院</a><br><a href="http://yz.chsi.com.cn" target="_blank" style="color:#fff; margin-left:60px;">中国研究生招生信息网</a></p>
+								<!--<div class="zsccw_select">
+									<select id="relatedlinks" name="relatedlinks" onchange="relatedlinks_onchange();">
+										<option value="请选择">请选择</option>
+										<option value="http://www.pku.edu.cn">北京大学</option>
+										<option value="http://grs.pku.edu.cn">北京大学研究生院</option>
+										<option value="http://yz.chsi.com.cn">中国研究生招生信息网</option>
+									</select>
+								</div>-->
+								
+								<nav class="social">
+									<span class="fl">分享到：</span>
+									<ul>
+										<li><a href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));" class="facebook">facebook</a></li>
+										<li><a href="javascript: void(window.open('http://twitter.com/home/?status='.concat(encodeURIComponent(document.title)) .concat(' ') .concat(encodeURIComponent(location.href))));" class="twitter">twitter</a></li>
+										<li><a href="javascript:(function(){window.open('http://v.t.sina.com.cn/share/share.php?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href)+'&source=bookmark','_blank');})()" class="weibo">weibo</a></li>
+										<li>
+											<script type="text/javascript">
+											(function(){
+												var p = {
+													url:location.href, /*获取URL，可加上来自分享到QQ标识，方便统计*/
+													title:document.title, /*分享标题(可选)*/
+													desc:'', /*分享理由(风格应模拟用户对话),支持多分享语随机展现（使用|分隔）*/
+													summary:'', /*分享摘要(可选)*/
+													site:'' /*分享来源(可选) 如：QQ分享*/
+												};
+												var s = [];
+												for(var i in p){
+													s.push(i + '=' + encodeURIComponent(p[i]||''));
+												}
+												document.write(['<a class="qq" href="http://connect.qq.com/widget/shareqq/index.html?',s.join('&'),'" target="_blank">分享到QQ</a>'].join(''));
+											})();
+											</script>
+											<!--<script src="js/loader.js" widget="shareqq" charset="utf-8"></script>-->
+										</li>
+										<script src="js/qrcode.js" type="text/javascript" charset="utf-8"></script>
+										<li>
+											<script>
+												function CreateQRCode(){     
+													var qrcode = new QRCode(document.getElementById("qrcode"), {
+														width : 96,//设置宽高
+														height : 96
+													});
+													qrcode.makeCode(document.URL);
+													document.getElementById("qrcode").style.display="block";    
+												}
+											</script>
+											<a href="javascript:CreateQRCode();" class="weixin">weixin</a>
+										</li>
+									</ul>
+								</nav>
+								<div id="qrcode" style="display: none; right:15px; bottom: 15px;position:fixed;" onclick="javascript:this.style.display='none';"></div>     
+							</div>
+						</div>
+						<div class="zsxxw_foot_r fr">
+							<div class="foot_ewm fl">
+								<dl class="zsxxw_foot_ewm">
+									<dt><img width="60" src="https://admission.pku.edu.cn/images/content/2025-09/20250901151044480603.jpg"/></dt>
+									<dd>微信公众号</dd>
+								</dl>
+							</div>
+							<div class="zsxxw_foot_link fr">
+								<a href="#">关于本站</a><br />
+							</div>
+						</div>
+					</div>
+				</div>		
+	
+</body></html>

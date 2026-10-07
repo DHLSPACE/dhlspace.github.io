@@ -1,0 +1,1151 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="toTop" content="true">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <link href="../../favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <title>上海交通大学化学化工学院（含变革性分子前沿科学中心） 2026年申请-考核、硕博连读博士研究生招生复试办法-变革性分子前沿科学中心</title><meta name="pageType" content="3">
+<meta name="pageTitle" content="上海交通大学化学化工学院（含变革性分子前沿科学中心） 2026年申请-考核、硕博连读博士研究生招生复试办法">
+<META Name="keywords" Content="变革性分子前沿科学中心,化工,博士,连读,学院,硕博,含,变革,考核,-,性,分子,申请,前沿,中心,科学,研究生,化学,大学,招生,交通" />
+<META Name="description" Content="上海交通大学化学化工学院（含变革性分子前沿科学中心）2026年申请-考核、硕博连读博士研究生招生复试办法一、招生专业1.学术型博士：化学（070300）化学工程与技术（081700）2.专业学位博士（工程博士）：材料与化工（085600）（包括“全日制”和“非全日制”)二、选拔方式1.硕博连读：面向已按学科培养方案要求修完全部硕士学位课程、各科成绩优秀，经导师同意可申请硕博连读生的本院二年级、三年级非定向就业在读优秀硕士研究生（..." />
+
+    <link rel="stylesheet" href="../../style/bootstrap.min.css">
+    <link href="../../style/swiper.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../style/animate.css">
+    <link type="text/css" href="../../style/common.css" rel="stylesheet">
+    <link type="text/css" href="../../style/index.css" rel="stylesheet">
+    <link type="text/css" href="../../style/ny.css" rel="stylesheet">
+    <script type="text/javascript" src="../../script/jquery.min.js"></script>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307468475d5051574200030003455c -->
+<link rel="stylesheet" type="text/css" href="../../view.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1047,'/view.jsp',6054,1721367394)</script>
+</head>
+
+<body>
+    <div class="box ">
+        <div class="search-box hidden-xs">
+            <div class="container">
+                <h2>搜索</h2>
+                <div class="search-form">
+                    
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/vue/vue.js"></script><script language="javascript" src="/system/resource/vue/bluebird.min.js"></script><script language="javascript" src="/system/resource/vue/axios.js"></script><script language="javascript" src="/system/resource/vue/polyfill.js"></script><script language="javascript" src="/system/resource/vue/token.js"></script><LINK href="/system/resource/vue/static/element/index.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/vue/static/element/index.js"></script><script language="javascript" src="/system/resource/vue/static/public.js"></script><div id="divu0"></div>
+<script type="text/html" id="htmlu0">
+    <div id="appu0">
+        <div v-if="!isError">
+            <input type="text" class="form-text" placeholder="输入关键词..." autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit">
+            <button type="submit" class="form-submit" v-on:click="onSubmit()" name="submit_button"><i class="fa fa-search"></i></button>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu0").html($("#htmlu0").text());
+</script>
+<script>
+    var appOwner = "1721367394";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu0",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "http://10.119.10.191:8083/" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script>
+                </div>
+                <div class="close">
+                    关闭<i class="iconfont icon-close"> X</i>
+                </div>
+            </div>
+        </div>
+        <!--search-box end-->
+        <!-- nav导航开始 -->
+        <nav class="header navbar navbar-default visible-xs visible-sm">
+            <!--大屏头部-->
+            <div class="navbar-header ">
+                <div class="container">
+                    <div class="row">
+                        <a href="../../" class="visible-xs visible-sm logo1">
+                            <img src="../../images/logo.png" id="img" class="img-responsive">
+                        </a>
+                        <div class="header-mobile visible-xs visible-sm">
+                            <div class="site-tree-mobile">
+                                <span class="fa fa-reorder"></span>
+                            </div>
+                            <div class="site-mobile-shade"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-nav">
+    <div class="container">
+        <div class="row">
+
+            <ul class="nav nav-pills " id="nav-animate" data-animation="fadeIndown">
+                <li class="mobile-nav-header">
+                    <div class="closeIcon">×</div>
+                </li>
+
+                
+                    <li role="presentation" class="dropdown">
+                        <a data-href="../../index.htm" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <span>首页</span>
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                    </li>
+
+
+                    <li role="presentation" class="dropdown">
+                        <a data-href="../../zxgk1/zxjs.htm" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <span>中心概况</span>
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                            <ul class="dropdown-menu animated" data-animation="fadeIn">
+
+                                <div class="row">
+
+                                    <li class="col-md-12 mobile-nav-header">
+                                        <div class="back"><i class="fa fa-long-arrow-left"></i></div>
+                                        <div class="closeIcon">×</div>
+                                    </li>
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../zxgk1/zxjs.htm" class="sub-title">中心介绍</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../zxgk1/sxkxjjy.htm" class="sub-title">首席科学家寄语</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../zxgk1/zxld.htm" class="sub-title">中心领导</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../zxgk1/zzjg.htm" class="sub-title">组织架构</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../zxgk1/xue_shu_wei_yuan_hui.htm" class="sub-title">学术委员会</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../zxgk1/dsj.htm" class="sub-title">大事记</a>
+                                        </li>
+
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </ul>
+                    </li>
+
+
+                    <li role="presentation" class="dropdown">
+                        <a data-href="../../ryxx1/ktzz.htm" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <span>人员信息</span>
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                            <ul class="dropdown-menu animated" data-animation="fadeIn">
+
+                                <div class="row">
+
+                                    <li class="col-md-12 mobile-nav-header">
+                                        <div class="back"><i class="fa fa-long-arrow-left"></i></div>
+                                        <div class="closeIcon">×</div>
+                                    </li>
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../ryxx1/ktzz.htm" class="sub-title">课题组长</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../ryxx1/tdcy.htm" class="sub-title">团队成员</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../ryxx1/bsh.htm" class="sub-title">博士后</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../ryxx1/yjs.htm" class="sub-title">研究生</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../ryxx1/glzcry.htm" class="sub-title">管理支撑人员</a>
+                                        </li>
+
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </ul>
+                    </li>
+
+
+                    <li role="presentation" class="dropdown">
+                        <a data-href="../../kxyj1/yjfx.htm" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <span>科学研究</span>
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                            <ul class="dropdown-menu animated" data-animation="fadeIn">
+
+                                <div class="row">
+
+                                    <li class="col-md-12 mobile-nav-header">
+                                        <div class="back"><i class="fa fa-long-arrow-left"></i></div>
+                                        <div class="closeIcon">×</div>
+                                    </li>
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../kxyj1/yjfx.htm" class="sub-title">研究方向</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../kxyj1/kydt.htm" class="sub-title">科研动态</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../kxyj1/ryhj/gjjjx.htm" class="sub-title">荣誉获奖</a>
+                                                <ul class="no-style outside">
+
+                                                        <li>
+                                                            <a target="" href="../../kxyj1/ryhj/gjjjx.htm">国家级奖项</a>
+                                                        </li>
+                                                        <li>
+                                                            <a target="" href="../../kxyj1/ryhj/sbjjx.htm">省部级奖项</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../1075/1195.htm" class="sub-title">专著论文</a>
+                                                <ul class="no-style outside">
+
+                                                        <li>
+                                                            <a target="" href="../../kxyj1/zzlw/n2021.htm">2021年</a>
+                                                        </li>
+                                                        <li>
+                                                            <a target="" href="../../kxyj1/zzlw/n2020.htm">2020年</a>
+                                                        </li>
+                                                        <li>
+                                                            <a target="" href="../../kxyj1/zzlw/kyzz.htm">科研专著</a>
+                                                        </li>
+                                                </ul>
+                                        </li>
+
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </ul>
+                    </li>
+
+
+                    <li role="presentation" class="dropdown">
+                        <a data-href="../../xshd1/jzbg.htm" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <span>学术活动</span>
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                            <ul class="dropdown-menu animated" data-animation="fadeIn">
+
+                                <div class="row">
+
+                                    <li class="col-md-12 mobile-nav-header">
+                                        <div class="back"><i class="fa fa-long-arrow-left"></i></div>
+                                        <div class="closeIcon">×</div>
+                                    </li>
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../xshd1/jzbg.htm" class="sub-title">讲座报告</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../xshd1/xshy.htm" class="sub-title">学术会议</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../xshd1/hzjl.htm" class="sub-title">合作交流</a>
+                                        </li>
+
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </ul>
+                    </li>
+
+
+                    <li role="presentation" class="dropdown">
+                        <a data-href="../../GTTJS/qysq.htm" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <span>共同体建设</span>
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                            <ul class="dropdown-menu animated" data-animation="fadeIn">
+
+                                <div class="row">
+
+                                    <li class="col-md-12 mobile-nav-header">
+                                        <div class="back"><i class="fa fa-long-arrow-left"></i></div>
+                                        <div class="closeIcon">×</div>
+                                    </li>
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../GTTJS/zbdj.htm" class="sub-title">支部党建</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../GTTJS/qysq.htm" class="sub-title">前沿社群</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../GTTJS/shgy.htm" class="sub-title">社会公益</a>
+                                        </li>
+
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </ul>
+                    </li>
+
+
+                    <li role="presentation" class="dropdown">
+                        <a data-href="../../fwzn1/shzn.htm" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <span>服务指南</span>
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                            <ul class="dropdown-menu animated" data-animation="fadeIn">
+
+                                <div class="row">
+
+                                    <li class="col-md-12 mobile-nav-header">
+                                        <div class="back"><i class="fa fa-long-arrow-left"></i></div>
+                                        <div class="closeIcon">×</div>
+                                    </li>
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../news.jsp?urltype=tree.TreeTempUrl&wbtreeid=1022" class="sub-title">规章制度</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../fwzn1/shzn.htm" class="sub-title">生活指南</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../fwzn1/gzzn.htm" class="sub-title">工作指南</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../fwzn1/hysyd.htm" class="sub-title">会议室预定</a>
+                                        </li>
+
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </ul>
+                    </li>
+
+
+                    <li role="presentation" class="dropdown">
+                        <a data-href="../../zszp1/PI.htm" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <span>招生招聘</span>
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                            <ul class="dropdown-menu animated" data-animation="fadeIn">
+
+                                <div class="row">
+
+                                    <li class="col-md-12 mobile-nav-header">
+                                        <div class="back"><i class="fa fa-long-arrow-left"></i></div>
+                                        <div class="closeIcon">×</div>
+                                    </li>
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../zszp1/PI.htm" class="sub-title">PI</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../zszp1/bsh.htm" class="sub-title">博士后</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../zszp1/yjs.htm" class="sub-title">研究生</a>
+                                        </li>
+
+
+                                        <li class="col-md-3">
+                                            <a target="" href="../../zszp1/glry.htm" class="sub-title">管理人员</a>
+                                        </li>
+
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </ul>
+                    </li>
+
+
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+        </nav>
+        <!-- nav导航end -->
+        
+        <div class="wc-top hidden-xs d-none">
+            <div class="container">
+                <div class="row tbg">
+                    <div class="logo  col-lg-8 col-md-9 col-sm-9 ">
+                        <a href="../../">
+                            <img src="../../images/logox.png" class="img-responsive" alt="上海交通大学变革性分子前沿科学中心" title="上海交通大学变革性分子前沿科学中心" />
+                        </a>
+                    </div>
+                    <div class="top-right col-lg-4 col-md-3 col-sm-3">
+                        <ul>
+                            <li><a href="javascript:;" onclick="FClick()">EN</a></li>
+                            <li><a class=" search-btn"><img src="../../images/search.png" /></a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <!--wc-top end-->
+        <div class="wc-menu hidden-xs d-none">
+            <div class="container">
+                <div class="row">
+                    <ul class="col-lg-12 col-md-12 col-xsm-12">
+<li>
+       <a href="../../index.htm" class="sub-title">
+    <span>首页</span>
+    </a>
+ </li>
+<li>
+       <a href="../../zxgk1/zxjs.htm" class="sub-title">
+    <span>中心概况</span>
+    </a>
+      <div class="ernav">
+         <ul>
+            <li>
+                <a href="../../zxgk1/zxjs.htm">
+                 中心介绍
+                </a>
+            </li>
+            <li>
+                <a href="../../zxgk1/sxkxjjy.htm">
+                 首席科学家寄语
+                </a>
+            </li>
+            <li>
+                <a href="../../zxgk1/zxld.htm">
+                 中心领导
+                </a>
+            </li>
+            <li>
+                <a href="../../zxgk1/zzjg.htm">
+                 组织架构
+                </a>
+            </li>
+            <li>
+                <a href="../../zxgk1/xue_shu_wei_yuan_hui.htm">
+                 学术委员会
+                </a>
+            </li>
+            <li>
+                <a href="../../zxgk1/dsj.htm">
+                 大事记
+                </a>
+            </li>
+          </ul>
+      </div>
+ </li>
+<li>
+       <a href="../../ryxx1/ktzz.htm" class="sub-title">
+    <span>人员信息</span>
+    </a>
+      <div class="ernav">
+         <ul>
+            <li>
+                <a href="../../ryxx1/ktzz.htm">
+                 课题组长
+                </a>
+            </li>
+            <li>
+                <a href="../../ryxx1/tdcy.htm">
+                 团队成员
+                </a>
+            </li>
+            <li>
+                <a href="../../ryxx1/bsh.htm">
+                 博士后
+                </a>
+            </li>
+            <li>
+                <a href="../../ryxx1/yjs.htm">
+                 研究生
+                </a>
+            </li>
+            <li>
+                <a href="../../ryxx1/glzcry.htm">
+                 管理支撑人员
+                </a>
+            </li>
+          </ul>
+      </div>
+ </li>
+<li>
+       <a href="../../kxyj1/yjfx.htm" class="sub-title">
+    <span>科学研究</span>
+    </a>
+      <div class="ernav">
+         <ul>
+            <li>
+                <a href="../../kxyj1/yjfx.htm">
+                 研究方向
+                </a>
+            </li>
+            <li>
+                <a href="../../kxyj1/kydt.htm">
+                 科研动态
+                </a>
+            </li>
+            <li>
+                <a href="../../kxyj1/ryhj/gjjjx.htm">
+                 荣誉获奖
+                </a>
+            </li>
+            <li>
+                <a href="../1075/1195.htm">
+                 专著论文
+                </a>
+            </li>
+          </ul>
+      </div>
+ </li>
+<li>
+       <a href="../../xshd1/jzbg.htm" class="sub-title">
+    <span>学术活动</span>
+    </a>
+      <div class="ernav">
+         <ul>
+            <li>
+                <a href="../../xshd1/jzbg.htm">
+                 讲座报告
+                </a>
+            </li>
+            <li>
+                <a href="../../xshd1/xshy.htm">
+                 学术会议
+                </a>
+            </li>
+            <li>
+                <a href="../../xshd1/hzjl.htm">
+                 合作交流
+                </a>
+            </li>
+          </ul>
+      </div>
+ </li>
+<li>
+       <a href="../../GTTJS/qysq.htm" class="sub-title">
+    <span>共同体建设</span>
+    </a>
+      <div class="ernav">
+         <ul>
+            <li>
+                <a href="../../GTTJS/zbdj.htm">
+                 支部党建
+                </a>
+            </li>
+            <li>
+                <a href="../../GTTJS/qysq.htm">
+                 前沿社群
+                </a>
+            </li>
+            <li>
+                <a href="../../GTTJS/shgy.htm">
+                 社会公益
+                </a>
+            </li>
+          </ul>
+      </div>
+ </li>
+<li>
+       <a href="../../fwzn1/shzn.htm" class="sub-title">
+    <span>服务指南</span>
+    </a>
+      <div class="ernav">
+         <ul>
+            <li>
+                <a href="../../news.jsp?urltype=tree.TreeTempUrl&wbtreeid=1022">
+                 规章制度
+                </a>
+            </li>
+            <li>
+                <a href="../../fwzn1/shzn.htm">
+                 生活指南
+                </a>
+            </li>
+            <li>
+                <a href="../../fwzn1/gzzn.htm">
+                 工作指南
+                </a>
+            </li>
+            <li>
+                <a href="../../fwzn1/hysyd.htm">
+                 会议室预定
+                </a>
+            </li>
+          </ul>
+      </div>
+ </li>
+<li>
+       <a href="../../zszp1/PI.htm" class="sub-title">
+    <span>招生招聘</span>
+    </a>
+      <div class="ernav">
+         <ul>
+            <li>
+                <a href="../../zszp1/PI.htm">
+                 PI
+                </a>
+            </li>
+            <li>
+                <a href="../../zszp1/bsh.htm">
+                 博士后
+                </a>
+            </li>
+            <li>
+                <a href="../../zszp1/yjs.htm">
+                 研究生
+                </a>
+            </li>
+            <li>
+                <a href="../../zszp1/glry.htm">
+                 管理人员
+                </a>
+            </li>
+          </ul>
+      </div>
+ </li>
+</ul>
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+        </div>
+        <!--wc-menu end-->
+
+        <div class="nycon">
+            <div class="nyban pos">
+                <div class="in-top">
+                    <div class="wc-top hidden-xs hidden-sm">
+                        <div class="container container1">
+                            <div class="row pos" style="display: flex;align-items: center;justify-content: space-between;">
+                                <div class="logo col-lg-5 col-md-4 col-sm-4 ">
+                                    <a href="">
+                                        <img src="../../images/logo.png" class="img-responsive" alt="上海交通大学变革性分子前沿科学中心" title="上海交通大学变革性分子前沿科学中心" />
+                                    </a>
+                                </div>
+                                <div class="top-right col-lg-7 col-md-8 col-sm-8">
+                                    <div class="top-rr">
+                                        <ul>
+                                            <li><a href="" class="english">EN</a></li>
+                                            <li><a class="search-btn"><img src="../../images/search.png" /></a></li>
+                                        </ul>
+                                    </div>
+                                    <!--top-rr end-->
+    
+                                    <div class="wc-menu">                                   
+                                         <ul class="col-lg-12 col-md-12 col-xsm-12">
+<li>
+       <a href="../../index.htm" class="sub-title">
+    <span>首页</span>
+    </a>
+ </li>
+<li>
+       <a href="../../zxgk1/zxjs.htm" class="sub-title">
+    <span>中心概况</span>
+    </a>
+      <div class="ernav">
+         <ul>
+            <li>
+                <a href="../../zxgk1/zxjs.htm">
+                 中心介绍
+                </a>
+            </li>
+            <li>
+                <a href="../../zxgk1/sxkxjjy.htm">
+                 首席科学家寄语
+                </a>
+            </li>
+            <li>
+                <a href="../../zxgk1/zxld.htm">
+                 中心领导
+                </a>
+            </li>
+            <li>
+                <a href="../../zxgk1/zzjg.htm">
+                 组织架构
+                </a>
+            </li>
+            <li>
+                <a href="../../zxgk1/xue_shu_wei_yuan_hui.htm">
+                 学术委员会
+                </a>
+            </li>
+            <li>
+                <a href="../../zxgk1/dsj.htm">
+                 大事记
+                </a>
+            </li>
+          </ul>
+      </div>
+ </li>
+<li>
+       <a href="../../ryxx1/ktzz.htm" class="sub-title">
+    <span>人员信息</span>
+    </a>
+      <div class="ernav">
+         <ul>
+            <li>
+                <a href="../../ryxx1/ktzz.htm">
+                 课题组长
+                </a>
+            </li>
+            <li>
+                <a href="../../ryxx1/tdcy.htm">
+                 团队成员
+                </a>
+            </li>
+            <li>
+                <a href="../../ryxx1/bsh.htm">
+                 博士后
+                </a>
+            </li>
+            <li>
+                <a href="../../ryxx1/yjs.htm">
+                 研究生
+                </a>
+            </li>
+            <li>
+                <a href="../../ryxx1/glzcry.htm">
+                 管理支撑人员
+                </a>
+            </li>
+          </ul>
+      </div>
+ </li>
+<li>
+       <a href="../../kxyj1/yjfx.htm" class="sub-title">
+    <span>科学研究</span>
+    </a>
+      <div class="ernav">
+         <ul>
+            <li>
+                <a href="../../kxyj1/yjfx.htm">
+                 研究方向
+                </a>
+            </li>
+            <li>
+                <a href="../../kxyj1/kydt.htm">
+                 科研动态
+                </a>
+            </li>
+            <li>
+                <a href="../../kxyj1/ryhj/gjjjx.htm">
+                 荣誉获奖
+                </a>
+            </li>
+            <li>
+                <a href="../1075/1195.htm">
+                 专著论文
+                </a>
+            </li>
+          </ul>
+      </div>
+ </li>
+<li>
+       <a href="../../xshd1/jzbg.htm" class="sub-title">
+    <span>学术活动</span>
+    </a>
+      <div class="ernav">
+         <ul>
+            <li>
+                <a href="../../xshd1/jzbg.htm">
+                 讲座报告
+                </a>
+            </li>
+            <li>
+                <a href="../../xshd1/xshy.htm">
+                 学术会议
+                </a>
+            </li>
+            <li>
+                <a href="../../xshd1/hzjl.htm">
+                 合作交流
+                </a>
+            </li>
+          </ul>
+      </div>
+ </li>
+<li>
+       <a href="../../GTTJS/qysq.htm" class="sub-title">
+    <span>共同体建设</span>
+    </a>
+      <div class="ernav">
+         <ul>
+            <li>
+                <a href="../../GTTJS/zbdj.htm">
+                 支部党建
+                </a>
+            </li>
+            <li>
+                <a href="../../GTTJS/qysq.htm">
+                 前沿社群
+                </a>
+            </li>
+            <li>
+                <a href="../../GTTJS/shgy.htm">
+                 社会公益
+                </a>
+            </li>
+          </ul>
+      </div>
+ </li>
+<li>
+       <a href="../../fwzn1/shzn.htm" class="sub-title">
+    <span>服务指南</span>
+    </a>
+      <div class="ernav">
+         <ul>
+            <li>
+                <a href="../../news.jsp?urltype=tree.TreeTempUrl&wbtreeid=1022">
+                 规章制度
+                </a>
+            </li>
+            <li>
+                <a href="../../fwzn1/shzn.htm">
+                 生活指南
+                </a>
+            </li>
+            <li>
+                <a href="../../fwzn1/gzzn.htm">
+                 工作指南
+                </a>
+            </li>
+            <li>
+                <a href="../../fwzn1/hysyd.htm">
+                 会议室预定
+                </a>
+            </li>
+          </ul>
+      </div>
+ </li>
+<li>
+       <a href="../../zszp1/PI.htm" class="sub-title">
+    <span>招生招聘</span>
+    </a>
+      <div class="ernav">
+         <ul>
+            <li>
+                <a href="../../zszp1/PI.htm">
+                 PI
+                </a>
+            </li>
+            <li>
+                <a href="../../zszp1/bsh.htm">
+                 博士后
+                </a>
+            </li>
+            <li>
+                <a href="../../zszp1/yjs.htm">
+                 研究生
+                </a>
+            </li>
+            <li>
+                <a href="../../zszp1/glry.htm">
+                 管理人员
+                </a>
+            </li>
+          </ul>
+      </div>
+ </li>
+</ul>
+                                    </div>
+    
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--wc-top end-->    
+                </div>
+                <!--in-top end-->
+                
+                <div class="nybanbg"></div>
+                    <img src="../../images/xxzx.jpg" class="hidden-xs" />
+
+                    <img src="../../images/XXZXSJ.jpg" class="visible-xs" />
+
+                <div class="ke-tit visible-xs">
+                    <div class="container">
+                        <div class="ke">
+通知公告</div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <!--/ke-tit end-->
+                </div>
+            </div>
+            <!--nyban end-->
+
+            <div class="dd1 container">
+                <div class="row">
+
+
+                    <div class="main-left col-lg-3 col-md-4 col-sm-4 ">
+                        <div class="nav-panel-title hidden-xs">
+信息中心<i></i></div>
+
+
+                        <div class="nav_name pos visible-xs">
+信息中心<img src="../../images/menu-dot-w.png" /></div>
+
+                        <div class="side-nav-panel">
+                            <ul class="slide-nav-ul">
+              <li>
+         <a href="../../xxzx/xwzx.htm">新闻中心</a>
+            <div class="clear"></div>
+        </li>
+        <li>
+         <a href="../../xxzx/tzgg.htm" class="active">通知公告</a>
+            <div class="clear"></div>
+        </li>
+ </ul>
+ <div class="clearfix"></div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!--/side-nav-panel-->
+
+                    </div>
+                    <!--main-left End-->
+
+                    <div class="main-right col-lg-9 col-md-8 col-sm-8 col-xs-12">
+                        <div class="ke-tit hidden-xs">
+
+                            <div class="ke fl">
+通知公告</div>
+                            <div class="nav-path fr">
+                                <a href="../../index.htm">首页</a> /
+<a href="../../xxzx/tzgg.htm">通知公告</a> /
+<a href="">正文</a>
+
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="right-nr">
+                            
+
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><div class="view-title">
+上海交通大学化学化工学院（含变革性分子前沿科学中心） 2026年申请-考核、硕博连读博士研究生招生复试办法
+</div>
+<div class="view-info">                    
+<span>发布时间：2025年10月31日</span>              
+</div>
+<div class="view-cnt">
+  <div class="v_news_content">
+<p style="text-align: center;"><strong><span style="font-size: 18px;">上海交通大学化学化工学院（含变革性分子前沿科学中心）</span></strong></p><p style="text-align: center;"><span style="font-size: 18px;"><strong>2026年申请-考核、硕博连读博士研究生招生复试办法</strong></span></p><p><strong>一、招生专业</strong></p><p>1.学术型博士：</p><p>化学（070300）</p><p>化学工程与技术（081700）</p><p>2.专业学位博士（工程博士）：</p><p>材料与化工（085600）（包括“全日制”和“非全日制”)<br><br></p><p><strong>二、选拔方式</strong></p><p>1.硕博连读：面向已按学科培养方案要求修完全部硕士学位课程、各科成绩优秀，经导师同意可申请硕博连读生的本院二年级、三年级非定向就业在读优秀硕士研究生（三年级在读硕士生必须选择春季入学）。</p><p>2.申请-考核：面向已获硕士学位人员和应届硕士毕业生（最迟须在录取当年入学前取得硕士学位）。境外在读尚未获得硕士学位的考生须提供就读学校出具的学籍证明（写明预计获硕士学位时间）。<br><br></p><p><strong>三、申请条件</strong></p><p>1、符合《上海交通大学2026年博士研究生招生简章》（<a href="https://yzb.sjtu.edu.cn/post/3340" target="_blank">https://yzb.sjtu.edu.cn/post/3340</a>）规定的申请条件；</p><p>2、英语水平须满足学校招生简章所列要求之一：</p><p>（1）全国大学英语六级成绩≥425分；</p><p>（2）TOEFL iBT≥90分（不含家庭版托福）；</p><p>（3）IELTS学术类≥6.0分（不含IELTS Online）；</p><p>（4）在英语为母语的国家参加全英文授课学位项目并获得学位。</p><p>注：2026年交大不举行学校层面的英语统一考试。</p><p>3、其它要求：</p><p>（1）考生本科及硕士所属高校或所在专业为纳入教育部“双一流”建设的高校或学科；</p><p>（2）如不符合前款（1）要求的考生，但学术能力符合以下情形之一者：</p><p>① 考生在硕士期间基于本人硕士学位论文课题，以第一作者公开发表本学科高水平SCI论文；</p><p>② 考生硕士学位论文获得省部级优秀硕士学位论文奖项或本学科顶级学会优秀学位论文奖项；</p><p>③ 考生硕士期间综合成绩排序在本学科位于前5%；</p><p>④ 考生在硕士期间参加本学科较高层次国际会议并做口头报告。</p><p>（3）如考生在境外获得学位的，要求为取得国外一流大学（USNEWS, QS，THE，ARWU，ESI等国际公认学科排名位于前200名）硕士学位，或所在专业为国际公认学科排名位于前50的生源，考生国籍须为中国；</p><p>注：报考导师同意且符合以上条件之一者可优先进入初审阶段。</p><p>（4）考生本科和硕士所学专业一般应为化学化工相关学科，如本科和硕士所学专业均不是化学化工相关学科，根据学院招生领导小组审议，并结合所报考导师的意见，判断考生是否需要加试一门所报考学科的专业基础课，如需加试，则须加试合格后方可进入综合复试环节；</p><p>4、报考非全日制工程博士的考生须来自与我院有实质性产学研合作的企业或科研机构。<br><br></p><p><strong>四、申请流程</strong></p><p>1、网上报名：</p><p>申请人在上海交通大学研究生招生网上报名（<a href="https://ga.sjtu.edu.cn/zsgl/bswb/" target="_blank">https://ga.sjtu.edu.cn/zsgl/bswb/</a>）并通过网上银行缴纳报名费，网报时间如下：</p><p><strong>第一批次</strong>---- <span style="text-decoration: underline;">2025年11月1日至12月5日</span>（<strong><span style="color: rgb(192, 0, 0);">选择春季入学考生考生必须在此期间完成网报</span></strong>）</p><p><span style="color: rgb(192, 0, 0);">请注意：第一批次网报截止日期为2025年12月5日，与学校招生简章所列时间不同。</span></p><p><strong>第二批次</strong>---- <span style="text-decoration: underline;">2026年3月15日至4月20日</span></p><p><strong><span style="color: rgb(192, 0, 0);">注：非全日制工程博士均在第二批次进行报考，学院将在第二批次报考结束后开启初审及复试流程。</span></strong></p><p>2、提交申请材料：</p><p>考生将所需申请材料按照学校招生简章要求统一在网报系统中进行提交，无需发送电子版材料至学院；</p><p>3、网报结束后，学院组织“遴选委员会”对申请材料进行初审，确认进入综合考核的人员名单，同时初审结果及时告知申请人，并在学院网站公示进入综合考核的人员名单；</p><p>4、由各学科组织“复试专家委员会”，对初审通过者进行综合考核复试；</p><p>5、通过复试的考生将依所报考导师的招生名额按照复试成绩从高到低进行录取。拟录取结果将及时以邮件通知考生及其所报考导师；</p><p>6、拟录取结果上报研究生院审核，审核通过后公示在学院主页及研招网信息公示平台；</p><p>7、研究生院网上公示拟录取名单；</p><p>8、全日制学术型博士和全日制工程博士拟录取考生可选择“春季”或“秋季”入学；非全日制工程博士拟录取考生仅可选择“秋季”入学。</p><p>9、申请“少民骨干计划”、“思政骨干计划”、“强军计划”、“非全日制工程博士”的考生，由学校统一组织评审后，确定进入各院系的综合考核环节名单。</p><p><strong><span style="color: rgb(192, 0, 0);">特别注意事项：考生在报考前必须与拟报考导师取得联系，征得导师同意后方可报考，否则将影响初审结果。<br><br></span></strong></p><p><strong>五、申请材料：</strong></p><p>（1）报考材料，包括以下内容：</p><p>① 上海交通大学博士学位研究生报考登记表1份（复试时携带纸质版，从研招网报名系统下载）；</p><p>② <strong>本科及硕士</strong>课程成绩单（须在报考系统提交扫描件，复试时携带纸质版，加盖管理部门成绩公章或考生档案所在管理部门公章）；</p><p>③ 各类获奖证明（在报考系统提交，复试时携带纸质版）；</p><p>④ 在学或工作期间的科研成果（含已取得的专利）、公开发表的学术性论文或专著等证明（在报考系统提交，复试时携带纸质版）；</p><p>⑤ 两封专家推荐信（本学科或相近学科的副高及以上职称专家推荐，原则上必须有申请人的硕士生导师推荐），考生只需在系统里提交专家联系方式，推荐专家自行通过系统提交；</p><p>⑥ 相关外语水平成绩证明（在报考系统提交，复试时携带纸质版）;</p><p>⑦ 硕士学位论文摘要和目录（在报考系统提交，复试时携带纸质版）;⑧ 拟攻读博士学位的科学研究计划书（在报考系统提交，复试时携带纸质版）；</p><p>⑨ 个人简历（一页）（在报考系统提交，复试时携带纸质版）。</p><p>（2）资格审查材料(复试时须携带原件)，包括以下内容：</p><p>① 本人第二代居民身份证；</p><p>② 研究生毕业学历证书/硕士学位证书复印件及学位在线验证报告（考生需登录“中国学位与研究生教育信息网”<a href="http://www.chinadegrees.cn" target="_blank">http://www.chinadegrees.cn</a>，进入“学位查询”在线申请学位验证，打印下载本人的学位在线验证报告）；</p><p>③ 应届硕士毕业生提供（学籍）认证报告（考生需登录“高等教育学生信息咨询网”<a href="http://www.chsi.com.cn" target="_blank">www.chsi.com.cn</a>，进入“学信档案”在线申请学籍验证，打印下载本人的学籍认证报告。如不成功可根据要求申请书面认证，获得“学籍认证报告”）；</p><p>④ 持在境外获得学历/学位的考生，须提交教育部留学服务中心出具的认证报告。</p><p><strong>注：考生务必保证提交材料的真实准确，对提供虚假信息的考生，一律取消考试录取资格。<br><br></strong></p><p><strong>六、复试办法</strong></p><p>1、 复试专家委员会构成：根据二级学科方向设立若干平行的专家小组，每组至少由五位副高或以上的专家（博导）组成，组长为正高专家；</p><p>2、 复试环节：由专业知识综合考查、现场面试、导师评价三部分组成：</p><p>（1）专业知识综合考查：按照专业方向进行专业笔试考查。</p><p>（2）现场面试：主要考察考生的专业英语水平、专业基础知识及前沿热点问题掌握情况、创新能力、综合能力以及科研潜力等。复试流程为考生介绍其硕士期间科研工作及今后科研工作设想（PPT 15分钟），而后进行专家提问（15分钟）。复试时长为30分钟/人。现场面试要求全程录音录像，资料留存学院备查。</p><p>（3）导师评价：由考生所报考导师全权负责进行评价打分。</p><p>3、 复试成绩：总分为300分，构成如下：</p><p>（1）专业知识综合考察---100分；</p><p>（2）面试成绩---100分；</p><p>（3）导师评价---100分。<br><br></p><p><strong>七、录取原则</strong></p><p>1、择优录取。学院按照考生复试总成绩，根据所报考导师的本年度博士生招生名额，在所报考导师组内排序，从高至低依次录取；</p><p>2、复试成绩总分在180分以下（不包括180分）或单科成绩在60分以下（不包含60分）为不及格，不予录取；</p><p>3、如因所报考导师名额不足而无法录取的考生，综合考生复试成绩、考生意向研究方向、导师录取意愿等，可调剂到学院其它合适的专业方向下其他有招生名额的导师名下；</p><p>4、政审、体检不通过者将取消拟录取资格；</p><p>5、递交虚假材料，一经查实，立即取消拟录取资格。<br><br></p><p><strong>八、学费与奖助学金</strong></p><p>1、学费</p><p>按照国家政策，研究生实行收费制度。在学制内，博士生均应按学校相关规定缴纳学费。</p><p>2、奖助学金</p><p>为激励博士生科研创新，上海交通大学为“全日制非定向”博士研究生提供奖助学金，包括国家助学金、学业奖学金和博士生三助津贴等。强军计划博士生奖助学金按相关规定执行。<br><br></p><p><strong>九、咨询联系方式</strong></p><p>化学化工学院</p><p>邮箱：sccezs@sjtu.edu.cn</p><p>电话：021-54745426 孙老师、钱老师</p><p>变革性分子前沿科学中心</p><p>邮箱：xiaozhentian2019@sjtu.edu.cn</p><p>电话：021-68696038 田老师</p><p><br></p><p style="text-align: right;"><br></p>
+</div>
+</div>
+
+
+                        </div><!--right-nr-->
+                        <div class="clearfix"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--ny-con end-->
+
+
+
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="f-left col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <script language="javascript" src="/system/resource/js/news/mp4video.js"></script>
+<p><br></p>
+<p>地址：上海市浦东新区张衡路429号</p>
+<p>邮编：200240</p>
+<p class="p1"><a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank" style="color: rgb(255, 255, 255); text-decoration: underline;"><span style="color: rgb(255, 255, 255);">沪ICP备20210169号</span></a> <a href="http://www.shjbzx.cn/" target="_blank" style="color: rgb(255, 255, 255); text-decoration: underline;"><span style="color: rgb(255, 255, 255);">沪举报中心</span></a><span style="color: rgb(255, 255, 255);">&nbsp; </span>版权所有©上海交通大学</p>
+<p><br></p>
+                        </div>
+                        <div class="f-right col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <script language="javascript" src="/system/resource/js/centerCutImg.js"></script><ul>
+    <li class="pos">
+        <a href="https://fsctm-faculty.sjtu.edu.cn/" target="_blank">
+            <img src="/__local/A/CA/CC/47C2AC23B25079670335CC6075B_D6B151A5_B89.png" />
+            <span>教职工登陆</span>
+        </a>
+    </li>
+    <li class="pos">
+        <a href="../1043/1036.htm" target="_blank">
+            <img src="/__local/B/3D/60/527C032BD60F1A292465FC8130C_F35D5EFD_75E.png" />
+            <span>交通指南</span>
+        </a>
+    </li>
+    <li class="pos">
+        <a href="https://safexam.sjtu.edu.cn/safeedu/client/index.jsp" target="_blank">
+            <img src="/__local/D/3D/D9/7544C9D3F50A4D55EE1E2FB2D9F_786AE132_7A7.png" />
+            <span>实验室安全管理系统</span>
+        </a>
+    </li>
+    <li class="WeChat pos">
+        <a href="javascript:;">
+            <img src="/__local/0/F3/5D/194C010304C8731F6CEE75F6DC7_4B0E511E_8E8.png" />
+            <span>中心微信号</span>
+            <div class="codeBox">
+                 <img src="../../images/WeChat.jpg" alt="">
+            </div>
+        </a>
+    </li>
+</ul>
+<script>_showDynClickBatch(['dynclicks_u14_3224','dynclicks_u14_1036','dynclicks_u14_1035','dynclicks_u14_1034'],[3224,1036,1035,1034],"wbnews", 1721367394)</script>
+
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <!--footer end-->
+
+        </div>
+
+    </div>
+    <!-- box End-->
+
+    <script type="text/javascript" src="../../script/jquery.SuperSlide.js"></script>
+    <script src="../../script/swiper.min.js"></script>
+    <script type="text/javascript" src="../../script/toTop.js"></script>
+    <script type="text/javascript" src="../../script/index.js"></script>
+    <script type="text/javascript" src="../../script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../script/bootstrap-dropdown-on-hover.js"></script>
+    <script type="text/javascript" src="../../script/nav.js"></script>
+    <script type="text/javascript">
+
+
+    </script>
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

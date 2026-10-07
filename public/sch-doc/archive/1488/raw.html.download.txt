@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META NAME="Keywords" CONTENT='四川大学研究生招生信息网 四川大学研究生院招生办 研招网 研究生招生网 四川大学研招网 四川大学博士招生 四川大学研究生院 四川大学研究生招生办公室新闻通知'/>
+    <meta name="Description" content='四川大学研究生招生信息网为 四川大学全日制硕士、博士研究生招生办公室官方网站，发布每年硕、博士招生专业目录，招生简章，招生说明，分数线发布，权威通知，提供招生咨询，提供硕士、博士成绩查询，推免生申请，夏令营申请等等'/>
+    <title>四川大学报考点（5101、5189）2026年全国硕士研究生招生考试报名信息网上确认公告_四川大学研究生招生信息网</title>
+
+    <link href="/Content/newskin/bootstrap.min.css" rel="stylesheet">
+    <link href="/Content/newskin/style.css?v=2.0.3" rel="stylesheet">
+    <link href="/Content/newskin/icon.css" rel="stylesheet">
+    <link href="/Content/newskin/header-footer.css?v=2.0.3" rel="stylesheet">
+    <link href="/Content/newskin/owl.carousel.min.css" rel="stylesheet">
+    <script src="/Scripts/newskin/jquery.min.js"></script>
+    <script src="/Scripts/newskin/respond.min.js"></script>
+
+    
+    
+    
+</head>
+<body>
+<header>
+    <section class="scu-one">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-5">
+                    <img src="/Content/images/newskin/logo.png" class="logo">
+                    <div class="pull-right">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"></button>
+                    </div>
+
+                </div>
+                <div class="col-md-8 col-sm-7">
+                    <div class="user-xs">
+
+
+
+
+
+    <div class=" tel-one">
+        <span class="icon-user hidden-xs"></span>&nbsp;  <span id="welcomes">[ <a href="/Account/Login">登录</a> /<a href='/xly'>夏令营&预推免</a>/<a href='/ksfw'>考生服务</a> ] </span>
+    </div>
+
+<div class="search-box ">
+    <script type="text/javascript" language="javascript">
+        
+        function dsubmit() {
+            var key = $("#skey").val().trim();
+            if (key.length > 1) {
+                $('#searchform').submit();
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        function csubmit() {
+            var key = $("#skey").val().trim();
+            if (key.length > 1) {
+                // $('#searchform').submit();
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+
+    </script>
+    <form id="searchform" name="searchform" action="/zsxx/search" method="GET" onsubmit="csubmit()">
+        <input type="text" id="skey" name="s" value="" placeholder="站内搜索">
+        <span class="icon-search-solid" onclick="dsubmit()"></span>
+    </form>
+
+</div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="scu-head">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/">首页 </a></li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">硕士招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zsxx/newslist/ss/zc">招生章程</a></li>
+                                <li><a href="/sszyml/index">招生专业目录</a></li>
+                                <li><a href="/sszyml/tmsml">推免生（直博）专业目录</a></li>
+                                <li><a href="/zsxx/newslist/ss/gg">公告通知</a></li>
+                                <li><a href="/score" target="_blank">成绩查询</a></li>
+                                <li><a href="/xly">夏令营报名</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">博士招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zsxx/newslist/bs/zc">招生章程</a></li>
+                                <li><a href="/bszyml/index">招生专业目录</a></li>
+                                 <li><a href="/sszyml/tmsml">推免生（直博）专业目录</a></li>
+                                <li><a href="/zsxx/newslist/bs/gg">公告通知</a></li>
+                                <li><a href="/bsqr/index">报名审核查询</a></li>
+                                 <li><a href="/score/bs"  target="_blank">成绩查询</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">港澳台招生  <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zsxx/newslist/gat/zc">招生章程</a></li>
+                                    <li><a href="/ssgat">港澳台硕士招生专业目录</a></li>
+                                    <li><a href="/bsgat">港澳台博士招生专业目录</a></li>
+                                <li><a href="/zsxx/newslist/gat/gg">公告通知</a></li>
+                           
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/zsxx/newslist/a/gk" role="button" aria-haspopup="false" aria-expanded="false" >信息公开  </a>
+                            
+                        </li>
+                        <li class="dropdown">
+                            <a href="/zsxx/newslist/a/ls" role="button" aria-haspopup="false" aria-expanded="false">历年数据 </a>
+                            
+                        </li>
+                        <li class="dropdown">
+                            <a href="/help/index" role="button" aria-haspopup="false" aria-expanded="false" >常见问题 </a>
+                           
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >联系我们   <span class="caret"></span> </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/contact/index">研招办</a></li>
+                                <li><a href="/contact/yxs">招生学院(系/所)</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </section>
+
+</header>
+
+
+<section class="bread-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- <h3><span class="icon-pin"></span> 硕士招生</h3> -->
+            </div>
+        </div>
+        <div class="bread-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="breadcrumb">
+                            <li><a href="/">首页</a></li>
+                            <li>四川大学报考点（5101、5189）2026年全国硕士研究生招生考试报名信息网上确认公告                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="share-box">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="list-recruit">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12">
+
+                    <ul class="list-name">
+
+        <li>
+            <a href="/zsxx/newslist/zt/1">
+                <span class="icon-recruit-3 list-icon"></span>
+                <span class="list-detail">优秀大学生暑期夏令营</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+        <li>
+            <a href="/zsxx/newslist/a/gk">
+                <span class="icon-score list-icon"></span>
+                <span class="list-detail">信息公开</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+        <li>
+            <a href="/zsxx/newslist/a/ls">
+                <span class="icon-data list-icon"></span>
+                <span class="list-detail">历年数据</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+        <li>
+            <a href="/help">
+                <span class="icon-question1 list-icon"></span>
+                <span class="list-detail">常见问题</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+
+
+
+
+    </ul>
+
+
+            </div>
+            <div class="col-md-9 col-sm-9 content-one col-xs-12">
+
+                
+
+
+
+
+    <h3 class="content-title" style="margin:10px;font-weight:bold; text-align: center;">四川大学报考点（5101、5189）2026年全国硕士研究生招生考试报名信息网上确认公告</h3>
+
+
+<p class="add-time" style="text-align: center;">
+    添加时间 2025/10/29 16:38 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;访问次数  29450
+
+</p>
+
+    <div class="content-box">
+
+        <h3 style="margin-right:6px"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;按照《四川省2026年全国硕士研究生招生考试报名信息网上确认公告》要求，为更好地服务考生，四川大学报考点（望江校区考点5101和江安校区考点5189）2026年全国硕士研究生招生考试网上报名信息全部实行网上确认（以下简称网上确认）。确认期间，考点将在网上集中审核考生上传的材料并通过确认系统向考生反馈审核结果，请各位考生务必仔细阅读本公告，了解相关信息并按公告要求提交相关材料。未在规定的时间内进行网上确认报名信息或因自身原因未通过网上确认审核的考生，其报名信息无效。为确保考生顺利进行网上确认，现将有关事项公告如下：</span></span></span></span></span></span></h3>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:黑体"><span style="color:#444444"><span style="font-family:黑体">一、网上确认时间</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">考生材料上传截止时间：</span><span style="font-family:宋体">2025年11月5日12：00。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">审核未通过重新提交材料或补充材料</span></span></span></span><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><strong><span style="font-family:宋体">截止</span></strong></span></span></span></strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">时间：</span></span></span></span><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><strong><span style="font-family:宋体">2025年11月5日16:00</span></strong></span></span></span></strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">考点集中网上审核材料时间：</span></span></span></span><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><strong><span style="font-family:宋体">2025年10月31日9:00-11月5日16:00。</span></strong></span></span></span></strong></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><strong><span style="font-family:宋体">温馨提醒：考生请尽早并在规定时间内上传材料或要求的补充材料，上传成功后请及时查看审核结果，逾期不再受理。</span></strong></span></span></span></strong></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:黑体"><span style="color:#444444"><span style="font-family:黑体">二、网上确认对象</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">选择报考点为</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">四川大学报考点（望江校区考点</span><span style="font-family:Calibri">5101</span><span style="font-family:宋体">和江安校区考点</span><span style="font-family:Calibri">5189</span><span style="font-family:宋体">）</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">且报名缴费成功的考生（必须符合四川大学考点接收要求的考生）。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:黑体"><span style="color:#444444"><span style="font-family:黑体">三、网上确认系统</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">网上确认系统网址：</span><span style="font-family:宋体">https://yz.chsi.com.cn/wsqr/stu</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">二维码：</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:center"><img src="/Content/newsfiles/0.192450841978402_image.png" style="height:296px; width:296px" /><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp;</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">考生可以使用手机、电脑等方式进入网上确认系统。进入登录页面后，输入本人网上报名的学信网账号、密码即可登录系统。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:黑体"><span style="color:#444444"><span style="font-family:黑体">四、考生上传材料</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">1.彩色证件电子照。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:center"><img src="/Content/newsfiles/0.534479039504416_image.png" style="height:273px; width:206px" /></p>
+
+<p style="margin-right:6px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">（证件照标准示例照片）</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">证件照上传要求：</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">①本人近</span></span></span></span><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><strong><span style="font-family:宋体">3个月</span></strong></span></span></span></strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">内正面、免冠、无妆、彩色电子证件照</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#ff0000"><span style="font-family:宋体">（</span></span></span></span><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#ff0000"><strong><span style="font-family:宋体">必须用白色背景</span></strong></span></span></span></strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#ff0000"><span style="font-family:宋体">）</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">；</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">②仅支持jpg或jpeg格式，建议大小不超过10M，宽高比例3:4；</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">③正脸头像，人像水平居中，人脸的水平转动角，倾斜角，俯视角应在&plusmn;10度之内。眼睛所在位置距离照片上边沿为图像高度的30%-50%之间。头像左右对称。姿态端正，双眼自然睁开并平视，双耳对称，嘴巴自然闭合，双肩平衡。头部和肩部要端正且勿过大或过小，以整体占照片的比例2/3为宜；</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">④请不要化妆，</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#ff0000"><span style="font-family:宋体">不得佩戴眼镜</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">、隐形眼镜、美瞳拍照；</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">⑤照明光线均匀，脸部不能发光，无高光、光斑，无阴影、红眼等；</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">⑥脸部无遮挡，</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#ff0000"><span style="font-family:宋体">头发不得遮挡脸部或造成阴影</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">，要露出五官；</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">⑦人像对焦准确、层次清晰，不模糊；</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">⑧图像应真实表达考生本人近期相貌，照片内容要求真实有效，不得做任何修改，如不得使用PS等照片编辑软件处理，不得对人像特征（如伤疤、痣、发型等）进行技术处理，不得用照片翻拍。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">该照片后期将用作准考证、录取通知书、入学后学籍管理、档案材料以及在校证件等用途，请按上述要求对照准备。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">2.本人手持身份证照片</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:center"><img src="/Content/newsfiles/0.0105111361530196_image.png" style="height:316px; width:200px" /><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp; &nbsp;</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">(手持身份证照片示例）</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">本人手持身份证照拍摄时请注意：</span></span></span></span></span></span></p>
+
+<p style="text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">①</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">仅支持</span><span style="font-family:宋体">jpg或jpeg格式，建议大小不超过10M；</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:left"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">②拍摄时，手持本人身份证，持证的手臂和上半身整体拍进照片，姿态端正，双眼自然睁开并平视，耳朵对称，嘴巴自然闭合，左右肩膀平衡，头部和肩部要端正；</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">③脸部无遮挡，头发不得遮挡脸部、眼睛、眉毛、耳朵或造成阴影，要露出五官；</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">④确保身份证人像面上的所有信息清晰可见、完整（没有被遮挡或者被手指捏住）；</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">⑤照明光线均匀，脸部不能发光，无高光、光斑，无阴影、红眼等；</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">⑥人像对焦准确、层次清晰，不模糊；</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">⑦不得化妆，不得佩戴眼镜、隐形眼镜、美瞳拍照；</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">⑧图像应真实表达考生本人近期相貌，照片内容要求真实有效，不得做任何修改，如不得使用PS等照片编辑软件处理，不得对人像特征（如伤疤、痣、发型等）进行技术处理，不得用照片翻拍。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#ff0000"><strong><span style="font-family:宋体">⑨</span></strong></span></span></span></strong><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#ff0000"><strong><span style="font-family:宋体">在手持身份证照片下方正中备注考生本人</span><span style="font-family:宋体">24小时畅通的手机号码。</span></strong></span></span></span></strong></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">特别提醒：</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">请务必谨慎上传符合上述要求的全部照片，否则会影响审核结果。如身份证遗失，须使用临时身份证进行网上确认。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">3.非应届本科毕业生还需要上传的材料：</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">户籍所在地为四川省的考生须上传本人有效居民户口簿（包括盖有省级公安机关户口专用章、户口登记机关户口专用章的户口簿首页和登载本人户籍信息的</span><span style="font-family:宋体">&ldquo;常住人口登记卡&rdquo;页）；集体户口仅提供首页及个人单页。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">工作地为四川省，但户口未迁入四川省的考生须上传就业单位出具的在职工作证明及近三个月社保缴费清单。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">4.</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">在校研究生和已在校攻读第二学位的本科生报考还应上传所在培养单位同意报考并加盖公章的书面证明材料。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:16.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">5.</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">需另行上传的材料：</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">①报考&ldquo;退役大学生士兵&rdquo;专项硕士研究生招生计划的考生应上传本人《退出现役证》、《入伍批准书》（注意不是入伍通知书）以及入伍前学籍在线认证备案表。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:center"><img src="/Content/newsfiles/0.36646183643791_image.png" style="height:299px; width:512px" /></p>
+
+<p style="margin-right:6px; text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">《入伍批准书》示例</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">②报考&ldquo;强军计划&rdquo;的考生应上传《军队在职干部报考研究生推荐审批表》并于11月14日前将原件邮寄至研究生院招生办公室。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">③获得高职高专毕业及国家承认学历的本科结业生</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">报考川大</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#ff0000"><span style="font-family:宋体">（工商管理（含</span><span style="font-family:宋体">EMBA方向）、公共管理、工程管理硕士中的工程管理（代码为125601）和旅游管理专业学位硕士的考生除外）</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">，需上传外语国家四级</span><span style="font-family:宋体">425分以上成绩单或通过在职人员申请学士学位外语考试证明、核心期刊以第一作者身份发表的论文正文、期刊封面及目录页以及提供国家考试机构或高校教务部门开具的与报考相关专业本科的8门及以上专业课程成绩单。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">④报名时工作单位和户籍在国务院公布的民族区域自治地方，且定向就业单位为原单位的少数民族在职人员考生</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">，</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">应上传工作证明、户籍所在地证明。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">⑤在2026年我校新生入学前（以新生录取通知书报到时间为准），可取得国家承认本科毕业证书的自学考试本科生，须上传注册地招考机构打印加盖公章的考生考籍表和专科学历的证明材料（专科文凭或学信网的学籍在线验证报告）。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">⑥未通过网上学历（学籍）校验的考生，网上确认时应上传学信网的学历（学籍）在线验证报告；未上传学历（学籍）认证报告的，不予网上确认。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">⑦境外获得学历学位证书的考生，须上传教育部留学服务中心出具的学历认证报告。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">⑧因变更姓名或身份证号码导致学历（学籍）信息验证未通过的考生须上传学信网的学历（学籍）在线验证报告和本人信息变更的证明（记载曾用名和现用名的户口簿或公安机关出具的证明）。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="color:#ff0000"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="font-family:宋体">⑨证件类型为居民身份证但身份核验未通过的考生须分别上传本人身份证人像面、本人身份证国徽面等补充材料进行核验。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="color:#ff0000"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="font-family:宋体">⑩</span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="font-family:宋体">证件类型为非居民身份证的须提交有效证件照片。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><strong><span style="font-family:宋体">特别提醒：考生上传时，选择自己所需提报的材料窗口点击上传相应材料即可，不属于自己所属类别所需的材料窗口，可以点击下一步跳过。</span></strong></span></span></span></strong></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:黑体"><span style="font-family:黑体">五、查询审核结果</span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="font-family:宋体">报考点审核完毕后将通过系统向考生反馈审核结果，请考生及时通过网上确认系统查询审核结果。</span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="font-family:宋体">审核结果说明：</span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="font-family:宋体">（一）审核通过：考生已完成报名信息网上确认。</span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="font-family:宋体">（二）审核不通过，需要补充（或修改）材料：考生需根据系统提示在规定时间内补充（或修改）有关材料并重新提交上传。</span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="font-family:宋体">（三）审核不通过及处理办法：因不符合国家报考条件或报考点接收条件导致最终审核不通过的考生，报名信息无效。如有异议可向四川大学报考点咨询。咨询电话：</span><span style="font-family:宋体">028-85466153、85407858。</span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="font-family:宋体">1.身份证问题</span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">身份证照片与近期免冠照验证始终不通过，须考生本人到报考点现场审核。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">身份证过期或遗失，须尽快到公安机关办理临时身份证，并重新提交照片。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">2.学生身份问题</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">境外应届生暂时无法提供学历认证报告的，可提交书面承诺书及相关辅助证明材料，并在规定时间内按要求补齐</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:黑体"><span style="color:#444444"><span style="font-family:黑体">六、注意事项</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">1.根据教育部、四川省教育考试院有关文件规定：</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">①&ldquo;</span></span></span></span><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><strong><span style="font-family:宋体">招生单位</span></strong></span></span></span></strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&rdquo;、&ldquo;</span></span></span></span><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><strong><span style="font-family:宋体">报考点</span></strong></span></span></span></strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&rdquo;、&ldquo;</span></span></span></span><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><strong><span style="font-family:宋体">考试方式</span></strong></span></span></span></strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&rdquo;等为报考关键信息，在提交信息生成报名号后都不允许修改。考生未按要求，错选报考点、招生单位、考试方式，或未在规定时间内完成网上确认的，报名无效，已支付的报名考试费不予退还。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">②未交费考生不予网上确认；已交费考生但未按规定完成网报信息确认、或完成网报信息确认但未参加考试，或因网报信息不准确、弄虚作假、学籍学历问题等原因无法参考的，已支付的报名费不予退还。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">2.考前十天左右，通过网上确认的考生可凭网报&ldquo;</span></span></span></span><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><strong><span style="font-family:宋体">用户名</span></strong></span></span></span></strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&rdquo;和&ldquo;</span></span></span></span><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><strong><span style="font-family:宋体">密码</span></strong></span></span></span></strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&rdquo;登录研招网下载打印《准考证》。考生打印准考证时，须使用A4幅面白纸，</span></span></span></span><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><strong><span style="font-family:宋体">《准考证》正反两面在使用期间均不得有涂改或其他记录</span></strong></span></span></span></strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">。</span></span></span></span></span></span><br />
+<span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">3.我校设望江校区（考点代码5101）、江安校区（考点代码5189）两个考点，具体考试地点以报名时选择报考点为准。</span></span></span></span><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; </span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">4.请各位考生按照网上确认公告要求，合理安排网上确认时间。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">5</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">.根据教育部有关规定，网上确认阶段，研招网系统对考生身份信息进行核对；报考点对考生学历学位信息、网上报名编号及申请享受少数民族照顾政策等资格进行核对和初审；招生单位根据规定对考生报考信息进行全面审查，确定考生的考试资格，</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">招生单位审核不通过的考生不允许网上确认</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">。复试录取阶段，招生单位要对考生的有效身份证件、学历学位证书、学历学籍核验结果、学生证等报名材料及考生资格进行严格审查，对不符合规定者，不予复试。考生因不符合报考条件及政策要求或网报信息填写错误、填报虚假信息，造成后续不能网上确认、考试、复试或录取的，后果由考生本人承担。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">6.对需要报考点提供合理便利的残疾考生，请按照教育部、中国残联《关于印发〈残疾人参加普通高等学校招生全国统一考试管理规定〉的通知》（教学〔2017〕4号）（可在省教育考试院官网https://www.sceea.cn/Html/201811/Newsdetail_857.html查询下载）要求，在网上确认报名信息上传材料时间（10月31日至11月5日）向报考点提交书面的&ldquo;合理便利申请表&rdquo;等材料，过时将不再受理申请。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">7.所有考生均应当对本人网上报名信息进行认真核对并确认。</span></span></span></span><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><strong><span style="font-family:宋体">报名信息经考生确认后一律不作修改</span></strong></span></span></span></strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">，因考生填写错误引起的一切后果由其自行承担。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="color:#ff0000"><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="font-family:宋体">8</span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="font-family:宋体">.</span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="font-family:宋体">原则上，本报考点所有考生均在网上确认，未经批准请勿到现场。特殊情况需现场审核的，请在得到通知后前往。现场服务时间：2025年11月4日上午9:00-11:30；下午14:30-16:30。咨询服务站地址：四川大学望江校区研究生教学楼3区225研究生招生办公室，咨询电话：028-85466153、85407858。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="color:#ff0000"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><strong><span style="font-size:14.0000pt"><span style="font-family:宋体"><strong><span style="font-family:宋体">温馨提示：经我办同意现场审核的考生可凭身份证进校。</span></strong></span></span></strong></span></span></span></p>
+
+<p style="margin-right:6px; text-align:justify"><span style="font-size:13.5pt"><span style="font-family:宋体"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp; &nbsp;</span></span></span></span></span></span><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">希望各位考生认真阅读教育部《</span><span style="font-family:宋体">2026年全国硕士研究生招生工作管理规定》、四川省教育考试院和四川大学网上确认公告，谨遵承诺，诚实守信，顺利确认。</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:right"><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:12.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">&nbsp;&nbsp;&nbsp;</span></span></span></span><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">四川大学研究生招生办公室</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:right"><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">2025年10月28日</span></span></span></span></span></span></p>
+
+<p style="margin-right:6px; text-align:left"><span style="font-size:12pt"><span style="font-family:Calibri"><span style="font-size:14.0000pt"><span style="font-family:宋体"><span style="color:#444444"><span style="font-family:宋体">附：提供材料一览表</span></span></span></span></span></span></p>
+
+<table align="center" cellspacing="0" class="MsoTableGrid" style="border-collapse:collapse; border:none; font-family:Calibri; font-size:13px; width:549px">
+	<tbody>
+		<tr>
+			<td style="background-color:#1e376a; border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:1px solid black; vertical-align:center; width:44px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><strong><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="color:#ffffff"><strong><span style="font-family:宋体">排序</span></strong></span></span></span></strong></span></span></p>
+			</td>
+			<td style="background-color:#1e376a; border-bottom:1px solid black; border-left:none; border-right:none; border-top:1px solid black; vertical-align:center; width:101px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><strong><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="color:#ffffff"><strong><span style="font-family:宋体">材料名称</span></strong></span></span></span></strong></span></span></p>
+			</td>
+			<td style="background-color:#1e376a; border-bottom:1px solid black; border-left:none; border-right:none; border-top:1px solid black; vertical-align:center; width:206px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><strong><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="color:#ffffff"><strong><span style="font-family:宋体">材料说明</span></strong></span></span></span></strong></span></span></p>
+			</td>
+			<td style="background-color:#1e376a; border-bottom:1px solid black; border-left:none; border-right:none; border-top:1px solid black; vertical-align:center; width:155px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><strong><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="color:#ffffff"><strong><span style="font-family:宋体">适用对象</span></strong></span></span></span></strong></span></span></p>
+			</td>
+			<td style="background-color:#1e376a; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:1px solid black; vertical-align:center; width:40px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><strong><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="color:#ffffff"><strong><span style="font-family:宋体">是否必传</span></strong></span></span></span></strong></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; vertical-align:center; width:44px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">1</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:101px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">彩色电子证件照</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:206px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">严格按研招网公告提交，用以准考证、学籍、相关证件制作等（注：</span></span></span><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="color:#ff0000"><span style="font-family:宋体">证件照必须用白色背景）</span></span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:155px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">全体考生</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:center; width:40px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">是</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; vertical-align:center; width:44px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">2</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:101px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">本人手持身份证照片</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:206px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">严格参照网上确认公告提供</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:155px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">全体考生</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:center; width:40px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">是</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; vertical-align:center; width:44px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">3</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:101px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">所在培养单位同意报考并加盖公章的书面证明材料</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:206px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">严格参照网上确认公告提供，请上传所在培养单位同意报考并加盖公章的书面证明材料</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:155px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">在校研究生和已在校攻读第二学位的本科生</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:center; width:40px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">是</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; vertical-align:center; width:44px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">4</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:101px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">《退出现役证》、《入伍批准书》、入伍前学籍在线认证备案表</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:206px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">《退出现役证》和《入伍批准书》（注意不是入伍通知书），以及入伍前学籍在线认证备案表。无需上传封皮等无关页面</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:155px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">退役大学生计划考生</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:center; width:40px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">是</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; vertical-align:center; width:44px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">5</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:101px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">自考相关材料</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:206px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">在</span><span style="font-family:宋体">当年入学前，可取得国家承认本科毕业证书的自学考试本科生，须上传注册地招考机构打印加盖公章的考生考籍表和专科学历的证明材料(专科文凭或学信网的学籍在线验证报告)</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:155px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">成人应届本科毕业生</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:center; width:40px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">是</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; vertical-align:center; width:44px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">6</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:101px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">学历（学籍）认证报告</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:206px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">学历</span><span style="font-family:宋体">(学籍)认证不通过的，请提交学信网出具的学历(学籍)认证报告，或《中国高等教育学历认证报告》。境外获得学历学位证书的考生，须上传教育部留学服务中心出具的学历认证报告。</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:155px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">学籍学历认证不通过的全体考生，境外学历考生</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:center; width:40px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">是</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; vertical-align:center; width:44px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">7</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:101px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">姓名变更、身份证变更证明或其他原因的证明材料</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:206px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">严格参照网上确认公告提供</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:155px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">因身份证变更或姓名变更等原因造成学籍学历认证不通过考生</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:center; width:40px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">相关考生必传</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; vertical-align:center; width:44px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">8</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:101px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">军队在职干部报考研究生推荐审批表</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:206px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">由中央军委训练管理部审批，确认后请及时将原件寄送川大研招办</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:155px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">强军计划</span></span></span></span></span></p>
+			</td>
+			<td style="border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:center; width:40px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">是</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; vertical-align:center; width:44px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">9</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:101px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">同等学历考生相关材料</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:206px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">招生章程中规定的外语证明、发表的论文以及提供国家考试机构或高校教务部门开具的与报考相关专业本科的</span><span style="font-family:宋体">8门及以上专业课程成绩单等</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:155px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">以同等学力身份报考的考生</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#cfcece; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:center; width:40px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">是</span></span></span></span></span></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="background-color:#ffffff; border-bottom:1px solid black; border-left:1px solid black; border-right:none; border-top:none; vertical-align:center; width:44px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">10</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#ffffff; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:101px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">少数民族照顾政策考生</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#ffffff; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:206px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">工作证明、户籍所在地证明</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#ffffff; border-bottom:1px solid black; border-left:none; border-right:none; border-top:none; vertical-align:center; width:155px">
+			<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">报名时工作单位和户籍在国务院公布的民族区域自治地方，且定向就业单位为原单位的少数民族在职人员考生，可按规定享受少数民族照顾政策。</span></span></span></span></span></p>
+			</td>
+			<td style="background-color:#ffffff; border-bottom:1px solid black; border-left:none; border-right:1px solid black; border-top:none; vertical-align:center; width:40px">
+			<p style="text-align:center"><span style="font-size:10.5pt"><span style="font-family:Calibri"><span style="font-size:10.5000pt"><span style="font-family:宋体"><span style="font-family:宋体">是</span></span></span></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="margin-right:6px; text-align:left">&nbsp;</p>
+
+
+
+    </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<div class="back-top">
+    <div class="code-box"><a href="#">
+            <img src="/Content/images/newskin/qrcode.jpg" width="80px"></a>
+    </div>
+    <div id="back-to-top" class="back-icon"><span class="icon-arrow-up"></span>
+    </div>
+</div>
+
+<section class="mobile-nav visible-xs">
+
+
+    <ul class="nav nav-pills">
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">公告通知
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/zsxx/newslist/a/gg">公告通知</a></li>
+                <li><a href="/zsxx/newslist/a/gk">信息公开</a></li>
+            </ul>
+        </li>
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">目录查询
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/sszyml/index">硕士目录</a></li>
+                <li><a href="/sszyml/tmsml">硕士推免目录</a></li>
+                <li><a href="/bszyml/index">博士目录</a></li>
+                <li><a href="/ssgat">港澳台硕士目录</a></li>
+                <li><a href="/bsgat">港澳台博士目录</a></li>
+            </ul>
+        </li>
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">自助服务
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/zsxx/newslist/a/ls">历年数据</a></li>
+                <li><a href="/help">常见问题</a></li>
+                <li><a href="/contact/yxs">招生单位联系方式</a></li>
+                <li><a href="/contact/index">研招办联系方式</a></li>
+            </ul>
+        </li>
+    </ul>
+    <a id="defaultwboxid"></a>
+</section>
+
+<section class="footer">
+    <div class="container">
+        <ul>
+            <li>版权所有：四川大学研究生院招生办公室</li>
+            <li>通信地址：四川省成都市一环路南一段24号 四川大学研究生院（610065）</li>
+
+            <li>联系方式：<a href="http://yz.scu.edu.cn/contact/index" style="color: white; text-decoration: underline;">研招办</a> <a href="http://yz.scu.edu.cn/contact/yxs" style="color: white; text-decoration: underline;">招生单位</a></li>
+
+            <li>友情链接： <a href="http://www.scu.edu.cn" target="_blank" style="color: white; text-decoration: underline;">四川大学</a>
+                <a href="http://gs.scu.edu.cn" target="_blank" style="color: white; text-decoration: underline;">四川大学研究生院</a>
+                <a href="http://yz.chsi.com.cn" target="_blank" style="color: white; text-decoration: underline;">中国研究生招生信息网</a>
+                <a href="http://www.sceea.cn/" target="_blank" style="color: white; text-decoration: underline;">四川省教育考试院</a> </li>
+        </ul>
+    </div>
+    <a id="defaultwboxid"></a>
+
+</section>
+
+
+
+<script src="/Scripts/newskin/bootstrap.min.js"></script>
+<!--导航-->
+<script src="/Scripts/newskin/stickUp.js"></script>
+<script type="text/javascript">
+    //initiating jQuery
+    jQuery(function($) {
+        $(document).ready(function() {
+            $('.scu-head').stickUp();
+        });
+    });
+
+    $(document).ready(function() {
+        var getWindow = $(window).width();
+        if (getWindow > 1000) {
+            $('.scu-head li.dropdown').off('click.bs.dropdown.data-api');
+            dropdownOpen();
+        }
+    });
+
+    function dropdownOpen() {
+        var $dropdownLi = $('.scu-head li.dropdown');
+        $dropdownLi.mouseover(function() {
+            $(this).addClass('open');
+        }).mouseout(function() {
+            $(this).removeClass('open');
+        });
+    }
+</script>
+<!--导航-->
+
+<!--返回顶部-->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#back-to-top").hide();
+        $(function() {
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 100) {
+                    $("#back-to-top").fadeIn(500);
+                } else {
+                    $("#back-to-top").fadeOut(500);
+                }
+            });
+            $("#back-to-top").click(function() {
+                $('body,html').animate({ scrollTop: 0 }, 100);
+                return false;
+            });
+        });
+    });
+</script>
+<!--返回顶部-->
+
+    
+
+
+
+</body>
+</html>

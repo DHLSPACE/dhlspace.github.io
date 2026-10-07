@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=1200">
+    <title>南京工业大学2025年招收攻读博士学位研究生简章-南京工业大学研究生招生网</title><META Name="keywords" Content="南京工业大学研究生招生网,通知公告,南京工业大学,南京,工业大学,工业大,工业,业大,大学,2025,招收,攻读,博士学位,博士,学位,研究生,研究,简章" />
+<META Name="description" Content="我校2025年博士研究生(下简称博士生)计划在化学（0703）、光学工程（0803）、材料科学与工程（0805）、动力工程及工程热物理（0807）、土木工程（0814）、化学工程与技术（0817）、地质资源与地质工程（0818）、生物工程（0836）、安全科学与工程（0837）9个一级学科招收学术学位博士生，在材料与化工（0856）、资源与环境（0857）、生物与医药（0860）3个专业学位门类招收专业学位博士生。招生方式包括普通招考和硕博连读两种..." />
+
+    <link rel="stylesheet" type="text/css" href="../../style/common.css" />
+    <link rel="stylesheet" type="text/css" href="../../style/article.css">
+    <script type="text/javascript" src="../../js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.SuperSlide.js"></script> <!-- 导航菜单 -->
+    <script type="text/javascript" src="../../js/footer.js"></script>
+    <script type="text/javascript">
+    
+        function y2k(number)
+        {
+            return (number < 1000) ? number + 1900 : number;
+        }
+        function dispdate()
+        {
+            var now = new Date();
+            var dd = now.getDate() , mt = now.getMonth() + 1 , yy = y2k(now.getYear()) , weekVal = now.getDay();
+            if (weekVal==0)
+                msg1="星期日";
+            else if (weekVal==1)
+            msg1="星期一"; 
+            else if (weekVal==2)
+                msg1="星期二";
+            else if (weekVal==3)
+            msg1="星期三";
+            else if (weekVal==4)
+            msg1="星期四";
+            else if (weekVal==5)
+            msg1="星期五";
+            else if (weekVal==6)
+            msg1="星期六";
+            document.write(yy+"年"+mt+"月"+dd+"日 "+msg1);
+        }
+        var flasher = false
+        function updateTime()
+        {
+            var now = new Date();
+            var theHour = now.getHours();
+            var theMin = now.getMinutes();
+            var theSec = now.getSeconds();
+            if (theHour<10)
+            {
+                theHour="0"+theHour
+            }
+            if(theMin<10)
+            {
+                theMin="0"+theMin
+            }
+            if(theSec<10)
+            {
+                theSec="0"+theSec
+            }
+            var theTime = theHour + ":" + theMin + ":" + theSec;
+            flasher = !flasher;
+            document.getElementById("spanTime").innerHTML = theTime; 
+            // recursively call this function every second to keep timer going
+            timerID = setTimeout("updateTime()",1000)
+        } 
+    </script>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230776447565352574103080004 -->
+<link rel="stylesheet" type="text/css" href="../../article.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1006,'/article.jsp',1483,1816331650)</script>
+</head>
+
+<body>
+    <div>
+        <div id="header-line"></div>
+        <div id="header">
+            <div id="header-logo">
+                
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="../../index.htm" title="研究生招生网"><img src="../../images/zslogo2.png" width="737" height="80" border="0" alt="研究生招生网" title="研究生招生网"></a>
+            </div>
+            <script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode1015159').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey1015159").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey1015159").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1015159").value = base64.encode(document.getElementById("lucenenewssearchkey1015159").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1015159"));
+        return true;
+    } 
+</script>
+<form action="../../search.jsp?wbtreeid=1006" method="post" id="au1a" name="au1a" onsubmit="return _nl_ys_check()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkey1015159" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype1015159" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope1015159" name="searchScope" value="0">
+   <div id="search" class="clearfix fr">
+      <input name="showkeycode" id="showkeycode1015159" class="text" type="text" />
+      <input class="button" type="image" src="../../images/icon_search.png" align="absmiddle" style="cursor: hand">
+    </div>
+</form>
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+
+        </div>
+        <div id="nav">
+            <div class="wrap clearfix">
+                <ul>
+        <li class="nLi"><a href="../../index.htm">网站首页</a></li>
+      <li class="firstmenu nLi">
+        <a href="../../sszs.htm">硕士招生</a>
+            <ul class="secmenu clearfix">
+                  <li class="secul"><a href="../../sszs/tzgg.htm">通知公告</a></li>
+                  <li class="secul"><a href="../../sszs/gs.htm">公示</a></li>
+                  <li class="secul"><a href="../../sszs/zsjz.htm">招生简章</a></li>
+                  <li class="secul"><a href="../../sszs/zyml.htm">专业目录</a></li>
+            </ul>
+      </li>
+      <li class="firstmenu nLi">
+        <a href="../../bszs.htm">博士招生</a>
+            <ul class="secmenu clearfix">
+                  <li class="secul"><a href="../../bszs/tzgg.htm">通知公告</a></li>
+                  <li class="secul"><a href="../../bszs/gs.htm">公示</a></li>
+                  <li class="secul"><a href="../../bszs/zsjz.htm">招生简章</a></li>
+                  <li class="secul"><a href="../../bszs/zyml.htm">专业目录</a></li>
+            </ul>
+      </li>
+      <li class="firstmenu nLi">
+        <a href="../../cjwt.htm">常见问题</a>
+      </li>
+      <li class="firstmenu nLi">
+        <a href="../../lxfs.htm">联系方式</a>
+      </li>
+</ul>
+                <div id="nav-date"><script type="text/javascript">dispdate();</script></div>
+            </div>
+        </div>
+    </div>
+    <div id="content" class="clearfix">
+        <div class="photo">
+            <!-- <img src="images/photo.png"> -->
+        </div>
+        <div class="wrap clearfix">
+            <div id="sidebar">
+                <div class="title bgColor">博士招生</div>
+                <ul>
+            <li class="borderColor">
+            <a href="../../bszs/tzgg.htm">
+                通知公告 <img src="../../images/off.png">
+            </a>
+        </li>
+        <li class="borderColor">
+            <a href="../../bszs/gs.htm">
+                公示 <img src="../../images/off.png">
+            </a>
+        </li>
+        <li class="borderColor">
+            <a href="../../bszs/zsjz.htm">
+                招生简章 <img src="../../images/off.png">
+            </a>
+        </li>
+        <li class="borderColor">
+            <a href="../../bszs/zyml.htm">
+                专业目录 <img src="../../images/off.png">
+            </a>
+        </li>
+</ul>
+            </div>
+            <div id="mainRight">
+                
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname"><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script>
+<div class="title">南京工业大学2025年招收攻读博士学位研究生简章</div>
+<div class="time">
+    <ul class="clearfix">
+        <li>阅读次数：<script>_showDynClicks("wbnews", 1816331650, 1483)</script></li>
+        <li>发布时间：2024-11-25</li>
+        <li>更新时间：2024-11-28</li>
+    </ul>
+</div>
+<div class="txt">
+<div id="vsb_content"><div class="v_news_content">
+<p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-justify:inter-ideograph;line-height:32px"><br></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><br></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">我校</span><span style="font-family:Times New Roman">2025</span><span style="font-family:方正仿宋_GBK">年博士研究生</span><span style="font-family:Times New Roman">(</span><span style="font-family:方正仿宋_GBK">下简称博士生</span><span style="font-family:Times New Roman">)</span><span style="font-family:方正仿宋_GBK">计划在化学（</span><span style="font-family:Times New Roman">0703</span><span style="font-family:方正仿宋_GBK">）、光学工程（</span><span style="font-family:Times New Roman">0803</span><span style="font-family:方正仿宋_GBK">）、材料科学与工程（</span><span style="font-family:Times New Roman">0805</span><span style="font-family:方正仿宋_GBK">）、动力工程及工程热物理（</span><span style="font-family:Times New Roman">0807</span><span style="font-family:方正仿宋_GBK">）、土木工程（</span><span style="font-family:Times New Roman">0814</span><span style="font-family:方正仿宋_GBK">）、化学工程与技术（</span><span style="font-family:Times New Roman">0817</span><span style="font-family:方正仿宋_GBK">）、地质资源与地质工程（</span><span style="font-family:Times New Roman">0818</span><span style="font-family:方正仿宋_GBK">）、生物工程（</span><span style="font-family:Times New Roman">0836</span><span style="font-family:方正仿宋_GBK">）、安全科学与工程（</span><span style="font-family:Times New Roman">0837</span><span style="font-family:方正仿宋_GBK">）</span><span style="font-family:Times New Roman">9</span><span style="font-family:方正仿宋_GBK">个一级学科招收学术学位博士生，在材料与化工（</span><span style="font-family:Times New Roman">0856</span><span style="font-family:方正仿宋_GBK">）、资源与环境（</span><span style="font-family:Times New Roman">0857</span><span style="font-family:方正仿宋_GBK">）、生物与医药（</span><span style="font-family:Times New Roman">0860</span><span style="font-family:方正仿宋_GBK">）</span><span style="font-family:Times New Roman">3</span><span style="font-family:方正仿宋_GBK">个专业学位门类招收专业学位博士生。招生方式包括普通招考和硕博连读两种方式，考核方式全部实行申请考核制，录取类别分为非定向和定向两类。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">根据教育部要求，</span><span style="font-family:Times New Roman">2025</span><span style="font-family:方正仿宋_GBK">年我校继续与苏州实验室开展联合培养博士生，继续开展“少数民族高层次骨干人才计划”专项招生，详见相应通知。</span></span></p><p style="margin-left:0;text-indent:28px;line-height:37px"><strong><span style="font-family:方正黑体_gbk;font-size:21px">一、</span><span style="font-family:方正黑体_gbk;font-size:21px">报考条件</span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正楷体_gbk;font-size:21px">（一）基本条件</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">1</span><span style="font-family:方正仿宋_GBK">．拥护中国共产党的领导，具有正确的政治方向，热爱祖国，愿意为社会主义现代化建设服务，遵纪守法，品行端正。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">2</span><span style="font-family:方正仿宋_GBK">．必须符合教育部和江苏省关于做好当年招收攻读博士学位研究生工作等相关文件中明确的基本条件。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">3</span><span style="font-family:方正仿宋_GBK">．身体健康状况符合国家和我校规定的体检要求。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">4</span><span style="font-family:方正仿宋_GBK">．考生报考前须征得拟报考导师同意。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正楷体_gbk;font-size:21px">（二）普通招考方式报考博士生条件</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px">除满足第（一）条基本条件外还需满足以下条件：</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">1.</span><span style="font-family:方正仿宋_GBK">学历学位应符合下列条件之一：</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">1</span><span style="font-family:方正仿宋_GBK">）应届硕士毕业生（</span><span style="font-family:Times New Roman">2025</span><span style="font-family:方正仿宋_GBK">年入学前毕业或取得硕士学位）。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">2</span><span style="font-family:方正仿宋_GBK">）研究生毕业或已获硕士学位人员。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">3</span><span style="font-family:方正仿宋_GBK">）获得学士学位</span><span style="font-family:Times New Roman">6</span><span style="font-family:方正仿宋_GBK">年及以上，从获得学士学位之日算起到博士生入学之日并达到与硕士毕业生同等学力的人员。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">2.</span><span style="font-family:方正仿宋_GBK">提供至少两名所报考学科领域内的教授（或相当专业技术职称的专家）书面推荐意见。</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">3.</span><span style="font-family:方正仿宋_GBK">在校博士生报考需征得所在学校同意，并在入学前完成原学籍所在学校退学手续。</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">4.</span><span style="font-family:方正仿宋_GBK">符合报考学科或专业学位提出的其它要求。</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正楷体_gbk;font-size:21px">（三）硕博连读方式报考博士生条件</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px">除满足第（一）条基本条件外还须为本校二年级及以上全日制在籍研究生。硕士生期间已完成规定的课程学习和考核，成绩优秀。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正楷体_gbk;font-size:21px">（四）学术条件</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px">参见我校各学科和专业学位的博士招生实施细则。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正黑体_gbk;font-size:21px">二、报名申请</span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正楷体_gbk;font-size:21px">（一）报名</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">1.</span><span style="font-family:方正仿宋_GBK">网报须知</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">1</span><span style="font-family:方正仿宋_GBK">）所有考生均须在规定时间按照报名考核通知要求进行网上报名。未完成网上报名者报名无效，责任自负。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">2</span><span style="font-family:方正仿宋_GBK">）考生网报前需仔细阅读我校发布的招生简章及各学科和专业学位的博士招生实施细则。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">3</span><span style="font-family:方正仿宋_GBK">）考生网报时请慎重选择报考类别，报考类别即为录取类别。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">2.</span><span style="font-family:方正仿宋_GBK">网报时间</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">1</span><span style="font-family:方正仿宋_GBK">）硕博连读考生：</span><span style="font-family:Times New Roman">2024</span><span style="font-family:方正仿宋_GBK">年</span><span style="font-family:Times New Roman">11</span><span style="font-family:方正仿宋_GBK">月下旬；</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">2</span><span style="font-family:方正仿宋_GBK">）普通招考考生：</span><span style="font-family:Times New Roman">2025</span><span style="font-family:方正仿宋_GBK">年</span><span style="font-family:Times New Roman">2</span><span style="font-family:方正仿宋_GBK">月下旬；</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px">具体时间以我校研究生招生网通知为准。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正楷体_gbk;font-size:21px">（二）申请</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">1.</span><span style="font-family:方正仿宋_GBK">申请材料</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px">请考生严格按照以下清单准备申请材料，并按顺序装订成册。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">1</span><span style="font-family:方正仿宋_GBK">）南京工业大学</span><span style="font-family:Times New Roman">2025</span><span style="font-family:方正仿宋_GBK">年招收攻读博士学位研究生报名登记表（网报结束后打印）。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">2</span><span style="font-family:方正仿宋_GBK">）身份证复印件正反面。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">3</span><span style="font-family:方正仿宋_GBK">）最后学位证书及毕业证书复印件，在国外获得的学位须提供教育部留学服务中心的认证书；应届硕士毕业生由所在学校提供应届生证明或学生证。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">4</span><span style="font-family:方正仿宋_GBK">）课程成绩单。应届硕士毕业生和硕博连读考生，成绩单由考生所在学校研究生院</span><span style="font-family:Times New Roman">(</span><span style="font-family:方正仿宋_GBK">处、部</span><span style="font-family:Times New Roman">)</span><span style="font-family:方正仿宋_GBK">提供并加盖公章；非应届硕士毕业生（含同等学力考生），成绩单由考生档案所在单位人事部门提供并加盖公章。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">5</span><span style="font-family:方正仿宋_GBK">）英语水平证明复印件。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">6</span><span style="font-family:方正仿宋_GBK">）科研计划书。简要介绍本人的学术背景与学习动机、已经从事的科学研究情况及其成果，着重阐述准备攻博的学位论文研究计划及预期达到的目标。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">7</span><span style="font-family:方正仿宋_GBK">）科研成果复印件，具体要求参照各学科和专业学位的博士招生实施细则。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">8</span><span style="font-family:方正仿宋_GBK">）专家推荐信两份，含专家职称证明。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">2.</span><span style="font-family:方正仿宋_GBK">申请材料提交</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px">考生根据所报考学科或专业学位的博士招生实施细则，在规定的交寄截止时间之前（以寄出邮局邮戳为准），将报考材料寄送到指定地址。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正黑体_gbk;font-size:21px">三、考核</span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正楷体_gbk;font-size:21px">（一）材料审核</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px">相关研究生招生工作小组于规定时间内组织专家对考生的申请材料进行审核、评议，并确定参加综合考核的名单。综合考核名单由研究生院统一公示。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正楷体_gbk;font-size:21px">（二）综合考核</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">1.</span><span style="font-family:方正仿宋_GBK">普通招考考生的综合考核安排</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">普通招考考生的综合考核时间暂定</span><span style="font-family:Times New Roman">2025</span><span style="font-family:方正仿宋_GBK">年</span><span style="font-family:Times New Roman">4</span><span style="font-family:方正仿宋_GBK">月下旬至</span><span style="font-family:Times New Roman">5</span><span style="font-family:方正仿宋_GBK">月下旬进行，考试地点为我校江浦校区（具体地点见准考证），具体安排以学校通知为准。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">1</span><span style="font-family:方正仿宋_GBK">）综合考核初试</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px">材料审核合格被列入综合考核名单的考生可参加初试。初试科目为英语和两门专业课。其中，外国语为合格考试，成绩不计入综合成绩，两门专业课成绩计入综合成绩。同等学力考生须参加我校统一组织的思想政治理论考试。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px">外国语考核科目为英语，考核形式为笔试，由学校统一组织。英语水平符合下述条件之一者，可免于参加外国语水平考试：</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">CET-6</span><span style="font-family:方正仿宋_GBK">≥</span><span style="font-family:Times New Roman">425</span><span style="font-family:方正仿宋_GBK">；</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">IELTS</span><span style="font-family:方正仿宋_GBK">≥</span><span style="font-family:Times New Roman">6.0</span><span style="font-family:方正仿宋_GBK">；</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">TOEFL</span><span style="font-family:方正仿宋_GBK">≥</span><span style="font-family:Times New Roman">85</span><span style="font-family:方正仿宋_GBK">；</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px">在英文国际期刊上（会议论文除外）以第一作者发表过英文学术论文。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">2</span><span style="font-family:方正仿宋_GBK">）综合考核复试</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">综合考核复试由各博士生培养单位组织实施。考核内容分为专业知识、综合能力两部分，重点考察考生攻读博士&nbsp;学位目的、科研兴趣和态度、外语听说应用能力、专业理论知识水平、语言表达与逻辑思维能力、科研潜质与创新能力以及对本学科前沿领域及最新研究动态的掌握情况，同时还将考核考生的思想政治素质与品德、心理健康等。考核形式采取面试、实验技能操作、</span><span style="font-family:Times New Roman">PPT</span><span style="font-family:方正仿宋_GBK">汇报、撰写科研报告等多种形式相结合进行。考核专家组对考生考核情况打分，最终形成综合考核成绩。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">（</span><span style="font-family:Times New Roman">3</span><span style="font-family:方正仿宋_GBK">）综合成绩</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">综合成绩</span><span style="font-family:Times New Roman">=</span><span style="font-family:方正仿宋_GBK">材料审核成绩×</span><span style="font-family:Times New Roman">A+</span><span style="font-family:方正仿宋_GBK">综合考核初试成绩×</span><span style="font-family:Times New Roman">B+</span><span style="font-family:方正仿宋_GBK">综合考核复试成绩×</span><span style="font-family:Times New Roman">C</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">A</span><span style="font-family:方正仿宋_GBK">、</span><span style="font-family:Times New Roman">B</span><span style="font-family:方正仿宋_GBK">、</span><span style="font-family:Times New Roman">C</span><span style="font-family:方正仿宋_GBK">为各阶段考核项目占综合成绩的权重，</span><span style="font-family:Times New Roman">A</span><span style="font-family:方正仿宋_GBK">、</span><span style="font-family:Times New Roman">B</span><span style="font-family:方正仿宋_GBK">、</span><span style="font-family:Times New Roman">C</span><span style="font-family:方正仿宋_GBK">加和为</span><span style="font-family:Times New Roman">100%</span><span style="font-family:方正仿宋_GBK">，具体比例由各一级学科或专业学位门类招生实施细则中明确。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">2.</span><span style="font-family:方正仿宋_GBK">硕博连读考生的考核安排</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px">以我校研究生院公布的工作通知为准。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正黑体_gbk;font-size:21px">四、录取</span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">各相关单位按照考生报考方式，根据综合成绩，经招生工作小组审议择优确定上报名单提交至研究生院。学校研究生招生工作领导小组对符合我校招生条件并达到我校博士生录取要求的考生，进行思想政治表现和身心健康状况综合考察，确定拟录取名单由研究生院进行公示。公示期为</span><span style="font-family:Times New Roman">10</span><span style="font-family:方正仿宋_GBK">个工作日，公示结束，经体检、政审、调档等流程后，向合格考生发放录取通知书。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px">拟录取为定向就业的考生，须签订定向培养协议。在职考生在报名时须征得所在单位的同意，与所在单位因报考问题引起的纠纷而造成不能录取等后果由考生本人承担。拟录取为非定向就业的考生须将本人档案于博士新生报到前调入我校，否则取消录取资格。应届硕士毕业生入学前未取得国家承认的相应学位学历证书者，录取资格无效。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正黑体_gbk;font-size:21px">五、信息公开</span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px">学校按有关要求，在我校研究生招生网公布博士招生实施细则、材料审核结果、综合考核复试考生的各考核阶段成绩、综合成绩、拟录取名单及其它重要信息。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正黑体_gbk;font-size:21px">六、学制与学费</span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family: 方正仿宋_gbk;font-size: 21px">（一）</span><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">博士生基本学制为</span><span style="font-family:Times New Roman">4</span><span style="font-family:方正仿宋_GBK">年。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family: 方正仿宋_gbk;font-size: 21px">（二）</span><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">博士生均需交纳学费，费用标准为每生每年</span><span style="font-family:Times New Roman">10000</span><span style="font-family:方正仿宋_GBK">元。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正黑体_gbk;font-size:21px">七、奖、助学金</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family:方正仿宋_gbk;font-size:21px">被录取的非定向全日制博士生将有机会获得国家奖学金、国家助学金、学业奖学金、新生优秀奖学金、校长特别奖学金、导师助研费等资助，困难学生还可以申请国家助学贷款和研究生特殊困难补助。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><strong><span style="font-family:方正黑体_gbk;font-size:21px">八、其他</span></strong></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family: 方正仿宋_gbk;font-size: 21px">（一）</span><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">对弄虚作假者</span><span style="font-family:Times New Roman">(</span><span style="font-family:方正仿宋_GBK">含硕博连读</span><span style="font-family:Times New Roman">)</span><span style="font-family:方正仿宋_GBK">或有学术不端行为者，不论何时，一经查实，即按有关规定取消报考资格、录取资格、入学资格或学籍。</span></span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family: 方正仿宋_gbk;font-size: 21px">（二）</span><span style="font-family:方正仿宋_gbk;font-size:21px">考生报名前应仔细核对本人是否符合报考条件，报考资格审查在初试前进行，凡不符合报考条件或放弃报考者报名费用不退。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family: 方正仿宋_gbk;font-size: 21px">（三）</span><span style="font-family:方正仿宋_gbk;font-size:21px">考生体检工作应在收到复试通知后进行，学校原则上不组织集中体检，体检报告于复试前提交至各博士培养单位。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family: 方正仿宋_gbk;font-size: 21px">（四）</span><span style="font-family:方正仿宋_gbk;font-size:21px">如有招生政策办法调整，将及时在我校研究生院网站公布，请考生关注相关公告。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family: 方正仿宋_gbk;font-size: 21px">（五）</span><span style="font-family:方正仿宋_gbk;font-size:21px">以上内容如与教育部相关文件冲突，则以教育部相关文件为准。</span></p><p style="text-align:justify;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><span style="font-family: 方正仿宋_gbk;font-size: 21px">（六）</span><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:方正仿宋_GBK">未尽事宜请与我校研究生院招生办公室联系，联系电话：</span><span style="font-family:Times New Roman">025-58139194</span><span style="font-family:方正仿宋_GBK">。</span></span></p><p style="text-align:right;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;"><br></p><p style="text-align:right;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;"><span style="font-family:方正仿宋_gbk;font-size:21px">研究生院</span></p><p style="text-align:right;margin-top:0;margin-bottom:0;margin-left:0;text-indent:43px;text-autospace:ideograph-numeric;"><span style="font-family:方正仿宋_gbk;font-size:21px"><span style="font-family:Times New Roman">2024</span><span style="font-family:方正仿宋_GBK">年</span><span style="font-family:Times New Roman">11</span><span style="font-family:方正仿宋_GBK">月</span><span style="font-family:Times New Roman">25</span><span style="font-family:方正仿宋_GBK">日</span></span></p><p><br></p>
+</div></div>
+
+    <p>
+        <UL style="list-style-type:none;"> 
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1816331650&wbfileid=5373062" target="_blank">附件1：关于印发《南京工业大学博士研究生“申请-考核制”招生选拔实施办法（修订）》的通知.pdf</a>】</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1816331650&wbfileid=5374758" target="_blank">附件2（a）南京工业大学2025博士研究生招生专业目录-学博.pdf</a>】</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1816331650&wbfileid=5374757" target="_blank">附件2（b）南京工业大学2025博士研究生招生专业目录-专博.pdf</a>】</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1816331650&wbfileid=5373082" target="_blank">附件3（a）学博-0703化学学科2025年博士生招生实施细则.pdf</a>】</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1816331650&wbfileid=5373081" target="_blank">附件3（b）学博-0803光学工程学科2025年博士研究生招生实施细则.pdf</a>】</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1816331650&wbfileid=5373067" target="_blank">附件3（c）学博-0805材料科学与工程学科2025年博士研究生招生实施细则.pdf</a>】</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1816331650&wbfileid=5373069" target="_blank">附件3（d）学博-0807动力工程及工程热物理学科2025年博士研究生招生实施细则.pdf</a>】</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1816331650&wbfileid=5373068" target="_blank">附件3（e）学博-0814土木工程学科2025年博士研究生招生实施细则.pdf</a>】</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1816331650&wbfileid=5373070" target="_blank">附件3（f）学博-0817化学工程与技术学科2025年博士研究生招生实施细则.pdf</a>】</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1816331650&wbfileid=5373071" target="_blank">附件3（g）学博-0818地质资源与地质工程学科 2025 年博士研究生招生实施细则.pdf</a>】</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1816331650&wbfileid=5373072" target="_blank">附件3（h）学博-0836生物与制药工程学院2025年博士研究生招生实施细则.pdf</a>】</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1816331650&wbfileid=5373073" target="_blank">附件3（i）学博-0837安全科学与工程学科2025年博士招生实施细则.pdf</a>】</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1816331650&wbfileid=5373074" target="_blank">附件3（j）专博-0856材料与化工专业学位类别2025年博士研究生招生实施细则.pdf</a>】</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1816331650&wbfileid=5373075" target="_blank">附件3（k）专博-0857资源与环境专业学位类别2025年博士招生实施细则.pdf</a>】</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1816331650&wbfileid=5373076" target="_blank">附件3（l）专博-0860生物与医药专业学位类别2025年博士研究生招生实施细则.pdf</a>】</li>
+        </UL>
+    </p>
+
+</div>
+</form>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="clearfix">
+        <div class="wrap">
+            <div class="copyright fl">
+                <!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>Copyright © 2021 南京工业大学研究生招生网 版权所有</p><p>地址：江苏省南京市浦口区浦珠南路30号</p><p>邮编：211816</p><p><br /></p>
+            </div>
+            <div class="copyright-line fl" style="display:none;"></div>
+            <div class="footer-link-box fl" style="display:none;">
+                <script language="javascript" src="/system/resource/js/openlink.js"></script><select class="footer-link" id="zsxy">
+    <option value="">--招生学院链接--</option>
+              
+            <option value="http://cces.njtech.edu.cn/">安全科学与工程学院</option>
+        <option value="http://hj.njtech.edu.cn/">环境科学与工程学院</option>
+        <option value="http://cly.njtech.edu.cn/">材料科学与工程学院</option>
+        <option value="http://hgy.njtech.edu.cn/">化工学院</option>
+        <option value="http://chem.njtech.edu.cn/">化学与分子工程学院</option>
+        <option value="http://eecs.njtech.edu.cn/">电气工程与控制科学学院</option>
+        <option value="http://mech.njtech.edu.cn/">机械与动力工程学院</option>
+        <option value="http://ny.njtech.edu.cn/">能源科学与工程学院</option>
+        <option value="http://arch.njtech.edu.cn/">建筑学院</option>
+        <option value="http://art.njtech.edu.cn/">艺术设计学院</option>
+        <option value="http://jgy.njtech.edu.cn/">经济与管理学院</option>
+        <option value="http://fzxy.njtech.edu.cn/">法政学院</option>
+        <option value="http://zjy.njtech.edu.cn/">马克思主义学院</option>
+        <option value="http://english.njtech.edu.cn/">外国语言文学学院</option>
+        <option value="http://life-phar.njtech.edu.cn/">生物与制药工程学院</option>
+        <option value="http://spy.njtech.edu.cn/">食品与轻工学院</option>
+        <option value="http://pharm.njtech.edu.cn/">药学院</option>
+        <option value="http://cise.njtech.edu.cn/">计算机科学与技术学院</option>
+        <option value="http://lxy.njtech.edu.cn/">数理科学学院</option>
+        <option value="http://iam.njtech.edu.cn/">先进材料研究院</option>
+        <option value="http://cge.njtech.edu.cn/">测绘科学与技术学院</option>
+        <option value="http://csjsxy.njtech.edu.cn/">城市建设学院</option>
+        <option value="http://trans.njtech.edu.cn/">交通运输工程学院</option>
+        <option value="http://cce.njtech.edu.cn/">土木工程学院</option>
+        <option value="http://tyxy.njtech.edu.cn/">体育学院</option>
+</select>
+        
+                <select class="footer-link" id="xwlj">
+    <option value="">--校外链接--</option>
+              
+            <option value="https://www.nju.edu.cn">南京大学</option>
+</select>
+            </div>
+            <div class="erweima clearfix fr">
+                <div class="txt fl">
+                    <p>请扫描二维码</p>
+                    <p>关注官方微信</p>
+                </div>
+                <div class="pic fl">
+                            <img src="../../images/1.jpg">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        //导航栏----开始
+        $("#nav .wrap ul").slide({
+            type: "menu",
+            titCell: ".nLi",
+            targetCell: ".secmenu",
+            effect: "slideDown",
+            delayTime: 300,
+            triggerTime: 0,
+            returnDefault: true
+        });//导航栏----结束
+        
+         $('#zsxy').change(function () {
+            var val = $(this).val();
+            window.open(val)
+          }); 
+          
+          $('#xwlj').change(function () {
+            var val = $(this).val();
+            window.open(val)
+          });
+    </script>
+</body>
+
+</html>

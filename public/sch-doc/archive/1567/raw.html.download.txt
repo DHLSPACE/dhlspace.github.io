@@ -1,0 +1,874 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>兰州大学物理学院</title><META Name="keywords" Content="兰州大学物理学院,sy" />
+
+    <link rel="stylesheet" href="asset-end/endIndex.css">
+    <link rel="stylesheet" href="asset-end/mobile.css">
+        <style>
+    @media only screen and (max-width: 768px) {
+    .header{
+        height:4.58rem !important;}
+
+    }
+
+    </style>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307003475455525643055748 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1865896955)</script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="wrapper header-top">
+            <div class="logo-box">
+                <img src="asset-end/logo.png" alt="">
+            </div>
+            <div class="top-tools">
+                <div class="search-box"><!--#begineditable name="全文检索end" action="" layout="" tpltype="" contype="" clone="" viewid="1181355" contentviewid="" tagname="全文检索end"--><style>
+/* 消除输入框双层边框，适配红色背景 */
+#showkeycode1181355 {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 4px 8px;
+    font-size: 14px;}
+/* 搜索图标按钮样式 */
+.search-svg-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 6px;
+    vertical-align: middle;}
+.search-svg-btn svg {
+    stroke: #fff;}
+</style>
+
+<script type="text/javascript">
+function _nl_ys_check(){
+    var keyword = document.getElementById('showkeycode1181355').value;
+    if(keyword==null||keyword==""){
+        alert("请输入你要检索的内容！");
+        return false;
+    }
+    if(window.toFF==1)
+    {
+        document.getElementById("lucenenewssearchkeyword1181355").value = Simplized(keyword );
+    }else
+    {
+        document.getElementById("lucenenewssearchkeyword1181355").value = keyword;            
+    }
+    var  base64 = new Base64();
+    document.getElementById("lucenenewssearchkeyword1181355").value = base64.encode(document.getElementById("lucenenewssearchkeyword1181355").value);
+    new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1181355"));
+    return true; 
+} 
+</script>
+
+<form action="search.jsp?wbtreeid=1001" method="post" id="au0a" name="au0a" onsubmit="return _nl_ys_check()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkeyword1181355" name="lucenenewssearchkeyword" value=""><input type="hidden" id="_lucenesearchtype1181355" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope1181355" name="searchScope" value="1">
+ <div style="padding:3px;margin:0px;display:inline;font-family:宋体;font-size:12px;">
+    <input name="showkeycode" id="showkeycode1181355" placeholder="请输入关键字">
+    <!-- 替换为SVG搜索图标提交按钮 -->
+    <button type="submit" class="search-svg-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="10.5" cy="10.5" r="7.5" />
+            <line x1="16" y1="16" x2="22" y2="22" />
+        </svg>
+    </button>
+ </div>
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+<!--#endeditable--></div>
+                <div class="top-links"><!--#begineditable name="链接列表end" action="" layout="" tpltype="" contype="" clone="" viewid="1181356" contentviewid="" tagname="链接列表end"--><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script>
+<a href="http://www.lzu.edu.cn/">兰大首页&nbsp</a>|
+<a href="#">EN&nbsp</a>
+<!--#endeditable--></div>
+            </div>
+            <button class="nav-toggle mobile-menu-toggle" type="button" aria-label="切换导航菜单" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="wrapper header-bottom"><!--#begineditable name="网站导航end" action="" layout="" tpltype="" contype="" clone="" viewid="1181353" contentviewid="" tagname="网站导航end"--><nav class="nav-links" aria-label="主导航">
+            <div class="nav-item">
+                <a class="nav-link" href="indexs.htm">首页</a>
+
+        </div>
+        <div class="nav-item has-submenu">
+                <a class="nav-link" href="xyjj/xyjs.htm">学院简介</a>
+
+                <div class="submenu">
+                        <div class="submenu-item">
+                                <a href="xyjj/xyjs.htm">学院介绍</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="xyjj/zzjg.htm">组织机构</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="xyjj/xrld.htm">现任领导</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="xyjj/lsyg.htm">历史沿革</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="xyjj/yxyh.htm">院训院徽</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="https://www.720yun.com/vr/8a9j5p4uvw7">院史馆</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="xyjj/nb.htm">年报</a>
+                        </div>
+                </div>
+        </div>
+        <div class="nav-item has-submenu">
+                <a class="nav-link" href="http://physz.lzu.edu.cn/system/phyqt/teacher-list.jsp#rcjh">师资队伍</a>
+
+                <div class="submenu">
+                        <div class="submenu-item">
+                                <a href="http://physz.lzu.edu.cn/system/phyqt/teacher-list.jsp#rcjh">人才计划</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="http://physz.lzu.edu.cn/system/phyqt/teacher-list.jsp#js">教授</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="http://physz.lzu.edu.cn/system/phyqt/teacher-list.jsp#js">研究员</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="http://physz.lzu.edu.cn/system/phyqt/teacher-list.jsp#fjs">青年研究员</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="http://physz.lzu.edu.cn/system/phyqt/teacher-list.jsp#yjy">副教授</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="http://physz.lzu.edu.cn/system/phyqt/teacher-list.jsp#fyjy">讲师</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="http://physz.lzu.edu.cn/system/phyqt/teacher-list.jsp#jsa">博士后</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="http://physz.lzu.edu.cn/system/phyqt/teacher-list.jsp#jsa">教授级实验师</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="http://physz.lzu.edu.cn/system/phyqt/teacher-list.jsp#szbsh">高级实验师</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="http://physz.lzu.edu.cn/system/phyqt/teacher-list.jsp#sys">实验师 </a>
+                        </div>
+                </div>
+        </div>
+        <div class="nav-item has-submenu">
+                <a class="nav-link" href="kxyj/xkjs.htm">科学研究</a>
+
+                <div class="submenu">
+                        <div class="submenu-item">
+                                <a href="kxyj/xkjs.htm">学科建设</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="kxyj/kyjk.htm">科研近况</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="kxyj/kycg.htm">科研成果</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="kxyj/kypt.htm">科研平台</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="http://ir.lzu.edu.cn/handle/262010/2">物理学院机构知识库</a>
+                        </div>
+                </div>
+        </div>
+        <div class="nav-item has-submenu">
+                <a class="nav-link" href="rcpy/jxzz.htm">人才培养</a>
+
+                <div class="submenu">
+                        <div class="submenu-item">
+                                <a href="rcpy/jxzz.htm">教学组织</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="rcpy/pyfa.htm">培养方案</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="rcpy/jxdt.htm">教学动态</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="rcpy/zszk.htm">招生招考</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="rcpy/jxtz.htm">教学通知</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="rcpy/cgjl.htm">成果奖励</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="rcpy/zcwj.htm">政策文件</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="rcpy/kczy.htm">课程资源</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="rcpy/kcsz.htm">课程思政</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="rcpy/sqxx.htm">暑期学校</a>
+                        </div>
+                </div>
+        </div>
+        <div class="nav-item has-submenu">
+                <a class="nav-link" href="xsyd/xgtz.htm">学生园地</a>
+
+                <div class="submenu">
+                        <div class="submenu-item">
+                                <a href="xsyd/dtzs.htm">党团之声</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="xsyd/xgtz.htm">学工通知</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="xsyd/jycy.htm">就业创业</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="xsyd/xgfc.htm">学工风采</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="xsyd/gzzd.htm">规章制度</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="xsyd/cyzl.htm">常用资料</a>
+                        </div>
+                </div>
+        </div>
+        <div class="nav-item has-submenu">
+                <a class="nav-link" href="dwgz/djfc.htm">党群工作</a>
+
+                <div class="submenu">
+                        <div class="submenu-item">
+                                <a href="dwgz/djfc.htm">党建风采</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="dwgz/dflz.htm">党风廉政</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="dwgz/dwck.htm">党务参考</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="dwgz/ll.htm">理论学习</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="dwgz/ghzj.htm">工会之家</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="dwgz/jglt.htm">巾帼论坛</a>
+                        </div>
+                </div>
+        </div>
+        <div class="nav-item has-submenu">
+                <a class="nav-link" href="xyzc1/xydt.htm">校友之窗</a>
+
+                <div class="submenu">
+                        <div class="submenu-item">
+                                <a href="xyzc1/xydt.htm">校友动态</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="xyzc1/xyjz.htm">校友捐赠</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="xyzc1/byly1.htm">毕业留影</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="xyzc1/xyml1.htm">校友名录</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="http://alumni.lzu.edu.cn/">兰大校友网</a>
+                        </div>
+                </div>
+        </div>
+        <div class="nav-item">
+                <a class="nav-link" href="yqzl.htm">院庆专栏</a>
+
+        </div>
+        <div class="nav-item has-submenu">
+                <a class="nav-link" href="ywgz/ryfg.htm">管理服务</a>
+
+                <div class="submenu">
+                        <div class="submenu-item">
+                                <a href="ywgz/ryfg.htm">人员分工</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="ywgz/gwfb.htm">公文发布</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="ywgz/xygzzd.htm">学院规章制度</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="ywgz/cyxz.htm">常用下载</a>
+                        </div>
+                        <div class="submenu-item">
+                                <a href="http://202.201.13.16/lims/!meeting">会议室预约</a>
+                        </div>
+                </div>
+        </div>
+</nav><!--#endeditable--></div>
+        </div>
+    </header>
+
+    <section class="hero" id="heroCarousel" aria-label="学院宣传轮播"><!--#begineditable name="图片列表end" action="" layout="" tpltype="" contype="" clone="" viewid="1181358" contentviewid="" tagname="图片列表end"-->    <div class="hero-track">
+<div class="hero-slide active"><img src="images/2026.9.3.jpg" alt="images/2026.9.3.jpg">
+          <div class="hero-overlay"></div></div>
+        
+<div class="hero-slide active"><img src="images/edj.jpg" alt="images/edj.jpg">
+          <div class="hero-overlay"></div></div>
+        
+<div class="hero-slide active"><img src="images/20260829.jpg" alt="images/20260829.jpg">
+          <div class="hero-overlay"></div></div>
+        
+<div class="hero-slide active"><img src="images/2026.8.22.jpg" alt="images/2026.8.22.jpg">
+          <div class="hero-overlay"></div></div>
+        
+</div>
+      <button class="hero-arrow prev" aria-label="上一张">
+        <span>‹</span>
+      </button>
+      <button class="hero-arrow next" aria-label="下一张">
+        <span>›</span>
+      </button>
+       <div class="hero-controls" aria-label="轮播控制"></div><!--#endeditable--></section>
+
+    <section class="xyxwbg">
+        <div class="wrapper"><!--#begineditable name="学院动态end" action="" layout="" tpltype="" contype="" clone="" viewid="1181371" contentviewid="" tagname="学院动态end"--><div class="section-title line-title">
+    <img src="asset-end/title1.png" alt="学院动态图标">
+    <a href="xydt.htm" class="section-title-more">
+        <span>更多</span>
+        <img src="asset-end/rjt.png" alt="更多图标">
+    </a>
+</div>
+<div class="news-module">
+    <div class="news-focus" id="newsFocusCarousel">
+        <div class="focus-track">
+                    <div class="focus-slide active" data-title="81岁仍战十项全能 兰大物理学院退休老师钟灿华大邱世界田径大师赛摘铜献礼院庆">
+                        <a href="info/1051/16602.htm">
+                            <img src="/__local/7/F5/9D/240AFBEB3041D717C1625E0E832_67DF36B4_134ED3.jpg" alt="81岁仍战十项全能 兰大物理学院退休老师钟灿华大邱世界田径大师赛摘铜献礼院庆">
+                        </a>
+                    </div>
+                    <div class="focus-slide" data-title="2026级学生军训团四营十四连临时党支部召开入党启蒙教育大会">
+                        <a href="info/1051/16539.htm">
+                            <img src="/__local/8/37/D6/AE4A59D55CA5BA001C8538DCDA1_68DD7F25_2C25C5.jpg" alt="2026级学生军训团四营十四连临时党支部召开入党启蒙教育大会">
+                        </a>
+                    </div>
+                    <div class="focus-slide" data-title="柔性电子课题组研究生在第十届全国大学生集成电路创新创业大赛中荣获全国二等奖">
+                        <a href="info/1051/16529.htm">
+                            <img src="/__local/5/6A/8C/A8FF4FC660A8DF456F5AB58EE45_E6C00737_40190.png" alt="柔性电子课题组研究生在第十届全国大学生集成电路创新创业大赛中荣获全国二等奖">
+                        </a>
+                    </div>
+        </div>
+        <button class="focus-arrow prev" aria-label="上一张">‹</button>
+        <button class="focus-arrow next" aria-label="下一张">›</button>
+        <div class="news-focus-title">
+            <span class="news-focus-title-text"></span>
+            <div class="news-focus-dots" aria-hidden="true">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+    <ul class="news-list">
+                <li>
+                    <div class="date-box-bg">
+                        <!--<div class="day">09.16</div>
+                        <div class="year-month">2026</div>-->
+                    </div>
+                    <a href="info/1051/16602.htm" class="news-text">81岁仍战十项全能 兰大物理学院退休老师钟灿华大邱世界田径大师赛摘铜献礼院庆</a>
+                </li>
+                <li>
+                    <div class="date-box-bg">
+                        <!--<div class="day">09.15</div>
+                        <div class="year-month">2026</div>-->
+                    </div>
+                    <a href="info/1051/16596.htm" class="news-text">物理学院科研团队在液态金属基柔性可穿戴电子领域取得新进展</a>
+                </li>
+                <li>
+                    <div class="date-box-bg">
+                        <!--<div class="day">09.14</div>
+                        <div class="year-month">2026</div>-->
+                    </div>
+                    <a href="https://mp.weixin.qq.com/s/nYN-XRqAOc9vrjBd7qDpbw" class="news-text">全球仅6位！兰大校友丁世谦获2026世界顶尖科学家奖“青年科学家奖”</a>
+                </li>
+                <li>
+                    <div class="date-box-bg">
+                        <!--<div class="day">09.11</div>
+                        <div class="year-month">2026</div>-->
+                    </div>
+                    <a href="info/1051/16578.htm" class="news-text">物理学院开展2026级新生军训慰问活动</a>
+                </li>
+    </ul>
+</div>
+<script>_showDynClickBatch(['dynclicks_u4_16602','dynclicks_u4_16596','dynclicks_u4_16593','dynclicks_u4_16578','dynclicks_u4_16575','dynclicks_u4_16574','dynclicks_u4_16581','dynclicks_u4_16571','dynclicks_u4_16549','dynclicks_u4_16551','dynclicks_u4_16540','dynclicks_u4_16539','dynclicks_u4_16535','dynclicks_u4_16534','dynclicks_u4_16529','dynclicks_u4_16526','dynclicks_u4_16524','dynclicks_u4_16523','dynclicks_u4_16520','dynclicks_u4_16519','dynclicks_u4_16511','dynclicks_u4_16501','dynclicks_u4_16497','dynclicks_u4_16492','dynclicks_u4_16481','dynclicks_u4_16478','dynclicks_u4_16476','dynclicks_u4_16470','dynclicks_u4_16469','dynclicks_u4_16468','dynclicks_u4_16467','dynclicks_u4_16463','dynclicks_u4_16461','dynclicks_u4_16459','dynclicks_u4_16458','dynclicks_u4_16450','dynclicks_u4_16453','dynclicks_u4_16448','dynclicks_u4_16443','dynclicks_u4_16439','dynclicks_u4_16436','dynclicks_u4_16425','dynclicks_u4_16423','dynclicks_u4_16398','dynclicks_u4_16397','dynclicks_u4_16391','dynclicks_u4_16386','dynclicks_u4_16382','dynclicks_u4_16362','dynclicks_u4_16357'],[16602,16596,16593,16578,16575,16574,16581,16571,16549,16551,16540,16539,16535,16534,16529,16526,16524,16523,16520,16519,16511,16501,16497,16492,16481,16478,16476,16470,16469,16468,16467,16463,16461,16459,16458,16450,16453,16448,16443,16439,16436,16425,16423,16398,16397,16391,16386,16382,16362,16357],"wbnews", 1865896955)</script>
+<!--#endeditable--></div>
+    </section>
+
+    <section class="red-bg-section">
+        <div class="wrapper red-module-container">
+            <div class="half-col" style="            margin-top: 18px">
+                <div class="sub-title" style="padding-bottom: 0">
+                    <div class="tab-group" id="noticeTabs">
+                        <div class="tab-item notice-tab active" data-target="notice"><span style="color: #231916">通知</span><span style="color: #ac0600">公告</span></div>
+                        <div class="tab-item" data-target="recruit" style="color: #231916">招生</div>
+                        <div class="tab-item" data-target="job" style="color: #231916">就业</div>
+                    </div>
+                    <img src="asset-end/tzgg2.png" alt="" style="width: 34%">
+                <a href="tzgg.htm" class="sub-title-more notice-more-link active" data-target="notice" style="color: #231916;">更多<img src="asset-end/rjt.png" alt="更多图标"></a>
+                        <a href="rcpy/zszk.htm" class="sub-title-more notice-more-link" data-target="recruit" style="color: #231916;">更多<img src="asset-end/rjt.png" alt="更多图标"></a>
+                        <a href="xsyd/jycy.htm" class="sub-title-more notice-more-link" data-target="job" style="color: #231916;">更多<img src="asset-end/rjt.png" alt="更多图标"></a>
+                </div>
+
+                <!-- 通知公告面板 -->
+                <div class="notice-panel active" id="panel-notice">
+                                        <ul class="notice-list"><!--#begineditable name="通知公告end" action="webber.wbst.com.news.ColumnNews" layout="/system/_component/news/list/tpltitlelist.jsp" tpltype="1" contype="news" clone="" viewid="1181401" contentviewid="" tagname="通知公告end"--><li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="https://news.lzu.edu.cn/info/1056/1174445.htm" class="news-texts">兰州大学物理系（学院）建立80周年院庆公告（第4号）</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2026-09-20</span>
+                            </div>
+                        </li>
+                        
+<li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="info/1065/16422.htm" class="news-texts">兰州大学物理系（学院）建立80周年院庆公告（第3号）</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2026-07-09</span>
+                            </div>
+                        </li>
+                        
+<li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="info/1065/16371.htm" class="news-texts">兰州大学物理系（学院）建立80周年院庆标识发布通告</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2026-06-17</span>
+                            </div>
+                        </li>
+                        
+<li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="https://news.lzu.edu.cn/info/1056/1113555.htm" class="news-texts">兰州大学物理系（学院）建立80周年院庆公告（第2号）</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2026-01-25</span>
+                            </div>
+                        </li>
+                        
+<li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="https://news.lzu.edu.cn/info/1056/1049525.htm" class="news-texts">兰州大学物理系（学院）建立80周年院庆公告（第1号）</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2025-07-07</span>
+                            </div>
+                        </li>
+                        
+<li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="info/1065/16621.htm" class="news-texts">物理学院2027年推免生复试成绩公示</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2026-09-20</span>
+                            </div>
+                        </li>
+                        
+<script>_showDynClickBatch(['dynclicks_u5_16617','dynclicks_u5_16422','dynclicks_u5_16371','dynclicks_u5_15922','dynclicks_u5_15322','dynclicks_u5_16621'],[16617,16422,16371,15922,15322,16621],"wbnews", 1865896955)</script>
+<!--#endeditable--></ul>
+                </div>
+
+                <!-- 招生面板 -->
+                <div class="notice-panel" id="panel-recruit">
+                                      <ul class="notice-list"><!--#begineditable name="招生end" action="webber.wbst.com.news.ColumnNews" layout="/system/_component/news/list/tpltitlelist.jsp" tpltype="1" contype="news" clone="" viewid="1181402" contentviewid="" tagname="招生end"--><li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="info/1046/16620.htm" class="news-texts">物理学院2027年推免生复试成绩公示</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2026-09-20</span>
+                            </div>
+                        </li>
+                        
+<li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="info/1046/16605.htm" class="news-texts">物理学院2027年推免生复试名单补充公示</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2026-09-16</span>
+                            </div>
+                        </li>
+                        
+<li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="info/1046/16603.htm" class="news-texts">物理学院2027年推免生复试名单公示</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2026-09-16</span>
+                            </div>
+                        </li>
+                        
+<li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="info/1046/16579.htm" class="news-texts">物理学院2027年推荐优秀应届本科毕业生免试攻读研究生总成绩及拟推荐名单补充公示</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2026-09-13</span>
+                            </div>
+                        </li>
+                        
+<li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="info/1046/16576.htm" class="news-texts">物理学院2027年推荐优秀应届本科毕业生免试攻读研究生总成绩及拟推荐名单公示</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2026-09-12</span>
+                            </div>
+                        </li>
+                        
+<li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="info/1046/16570.htm" class="news-texts">物理学院2027年接收推免生（直博生）复试录取实施细则</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2026-09-11</span>
+                            </div>
+                        </li>
+                        
+<script>_showDynClickBatch(['dynclicks_u6_16620','dynclicks_u6_16605','dynclicks_u6_16603','dynclicks_u6_16579','dynclicks_u6_16576','dynclicks_u6_16570'],[16620,16605,16603,16579,16576,16570],"wbnews", 1865896955)</script>
+<!--#endeditable--></ul>
+                </div>
+
+                <!-- 就业面板 -->
+                <div class="notice-panel" id="panel-job">
+                    <ul class="notice-list"><!--#begineditable name="就业end" action="webber.wbst.com.news.ColumnNews" layout="/system/_component/news/list/tpltitlelist.jsp" tpltype="1" contype="news" clone="" viewid="1181403" contentviewid="" tagname="就业end"--><li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="https://job.lzu.edu.cn/html/74/article/2026/88388.html" class="news-texts">【实习信息】 2026年实习岗位发布:中国航空工业集团 金航数码2026年度实习生招聘</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2026-04-27</span>
+                            </div>
+                        </li>
+                        
+<li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="https://job.lzu.edu.cn/html/76/article/2026/88155.html" class="news-texts">【实习信息】 2026年实习岗位发布:包头“鹿城小齿轮计划”实习信息</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2026-04-13</span>
+                            </div>
+                        </li>
+                        
+<li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="https://job.lzu.edu.cn/html/76/article/2026/87388.html" class="news-texts">【实习信息】 2026年实习岗位发布:宁德新能源(ATL)27届实习生招聘简章</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2026-03-23</span>
+                            </div>
+                        </li>
+                        
+<li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="info/1854/15597.htm" class="news-texts">【12月10日更新】选调2026届优秀大学生信息汇总</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2025-12-10</span>
+                            </div>
+                        </li>
+                        
+<li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="info/1854/15594.htm" class="news-texts">【12月10日更新】科研与技术服务业招聘信息汇总</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2025-12-10</span>
+                            </div>
+                        </li>
+                        
+<li class="notice-item">
+                            <div class="notice-item-head">
+                                <img src="asset-end/tb2.png" alt="" class="notice-item-icon">
+                                <a href="https://job.lzu.edu.cn/html/76/article/2025/85632.html" class="news-texts">【实习信息】 2025年实习岗位发布:北京建工集团有限责任公司党校实习生招聘简章</a>
+                            </div>
+                            <div class="notice-date-line">
+                                <span class="notice-date">2025-12-09</span>
+                            </div>
+                        </li>
+                        
+<script>_showDynClickBatch(['dynclicks_u7_16150','dynclicks_u7_16148','dynclicks_u7_16147','dynclicks_u7_15597','dynclicks_u7_15594','dynclicks_u7_15743'],[16150,16148,16147,15597,15594,15743],"wbnews", 1865896955)</script>
+<!--#endeditable--></ul>
+                </div>
+            </div>
+
+            <div class="half-col"><!--#begineditable name="学术活动end" action="" layout="" tpltype="" contype="" clone="" viewid="1181363" contentviewid="" tagname="学术活动end"-->  <div class="sub-title">
+                <!-- <h3>学术活动</h3> -->
+                <!-- <img src="asset-end/title3.png" alt="学术活动图标"> -->
+                <img src="asset-end/title6.png" alt="" style="width: 23%">
+                <img src="asset-end/tzgg2.png" alt="" style="    margin-top: 26px;    height: 21%;    width: 43%">
+                <a href="xshd.htm" class="sub-title-more" style="margin-top: 35px; color: #231916">更多<img src="asset-end/rjt.png" alt="更多图标"></a>
+            </div>
+
+
+            <a href="https://lctp.lzu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1053&wbnewsid=3634">
+                <div class="activity-card">
+                    <div class="act-header">
+                        <div class="act-date-tag">09.21 <span>2026</span></div>
+                        <div class="act-speaker">
+                            <div class="act-line">
+                                <p>孟新河 教授（南开大学）</p>
+                                <span style="margin-left: 10px"></span>
+                            </div>
+                            <div class="act-title">物理学院80周年院庆系列报告暨兰州理论物理中心学术报告-孟新河 教授</div>
+                            <div class="act-info">
+                                <span><img src="asset-end/time.png" alt="时间图标">
+                                    2026年9月24日（周四）上午09:30</span>
+                                <span><img src="asset-end/dizbhi.png" alt="位置图标">理工楼1216</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://lctp.lzu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1053&wbnewsid=3632">
+                <div class="activity-card">
+                    <div class="act-header">
+                        <div class="act-date-tag">09.20 <span>2026</span></div>
+                        <div class="act-speaker">
+                            <div class="act-line">
+                                <p>丁世谦 副教授（清华大学）</p>
+                                <span style="margin-left: 10px"></span>
+                            </div>
+                            <div class="act-title">物理学院80周年院庆系列报告暨兰州理论物理中心学术报告-丁世谦 副教授</div>
+                            <div class="act-info">
+                                <span><img src="asset-end/time.png" alt="时间图标">
+                                    2026年9月24日（周四）下午17：00</span>
+                                <span><img src="asset-end/dizbhi.png" alt="位置图标">理工楼1226</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="info/1085/16612.htm">
+                <div class="activity-card">
+                    <div class="act-header">
+                        <div class="act-date-tag">09.20 <span>2026</span></div>
+                        <div class="act-speaker">
+                            <div class="act-line">
+                                <p> Gu Min 院士（上海理工大学）</p>
+                                <span style="margin-left: 10px"></span>
+                            </div>
+                            <div class="act-title">物理学院80周年院庆系列报告暨“格致•悟道”论坛-顾敏 院士</div>
+                            <div class="act-info">
+                                <span><img src="asset-end/time.png" alt="时间图标">
+                                    2026年9月24日（星期四）上午10:30</span>
+                                <span><img src="asset-end/dizbhi.png" alt="位置图标">榆中校区宏远楼一楼报告厅</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+<script>_showDynClickBatch(['dynclicks_u8_16622','dynclicks_u8_16618','dynclicks_u8_16612'],[16622,16618,16612],"wbnews", 1865896955)</script>
+<!--#endeditable--></div>
+        </div>
+    </section>
+
+    <div class="wrapper research-content"><!--#begineditable name="教学科研2" action="webber.wbst.com.news.ColumnNews" layout="/system/_component/news/list/tpltitlelist.jsp" tpltype="1" contype="news" clone="" viewid="1181376" contentviewid="" tagname="教学科研2"--><div class="section-title section-title-right">
+    <img src="asset-end/title4.png" alt="教学科研图标">
+    <a href="jxky.htm" class="section-title-more">
+        <span>更多</span>
+        <img src="asset-end/rjt.png" alt="更多图标">
+    </a>
+</div>
+<div class="research-grid">
+    <div class="research-card" style="border-bottom: 2px solid #ad0400">
+<a href="https://mp.weixin.qq.com/s/IUBHM6JV3ZoPxSBSieaiag">
+        <div class="rs-top">
+            <div class="rs-date">06-10 <span>/2026</span></div>
+            <div class="rs-tag">教学科研</div>
+        </div>
+        <div class="rs-title">强基系列报告——拓扑量子物相的非平衡表征</div>
+        <div class="rs-meta"> <img src="asset-end/time.png" alt="时间图标">2026年6月12日10：30</div>
+        <div class="rs-meta"><img src="asset-end/dizbhi.png" alt="位置图标">天山堂A106</div>
+        <div class="rs-author">
+            <div class="rs-author-avatar">
+                    <img src="/__local/3/3C/7A/642B0667E2D325C5E27B6BB0A17_DF5FDF85_BF05.png" alt="">
+            </div>
+            <div>
+            <div class="rs-author-name">贾伟</div>
+            <div class="rs-author-title">青年研究员</div></div>
+        </div>
+</a>
+    </div> <!-- ✅补全 research-card闭合 -->
+    <div class="research-card" style="border-bottom: 2px solid #ad0400">
+<a href="https://mp.weixin.qq.com/s/duIKJq5DoyoLSQpM6382iQ">
+        <div class="rs-top">
+            <div class="rs-date">06-04 <span>/2026</span></div>
+            <div class="rs-tag">教学科研</div>
+        </div>
+        <div class="rs-title">强基系列报告——量子相变与量子临界性</div>
+        <div class="rs-meta"> <img src="asset-end/time.png" alt="时间图标">2026年6月5日  10：30</div>
+        <div class="rs-meta"><img src="asset-end/dizbhi.png" alt="位置图标">天山堂A208</div>
+        <div class="rs-author">
+            <div class="rs-author-avatar">
+                    <img src="asset/tx.png" alt="默认头像">
+            </div>
+            <div>
+            <div class="rs-author-name">王振九</div>
+            <div class="rs-author-title">兰州大学青年研究员</div></div>
+        </div>
+</a>
+    </div> <!-- ✅补全 research-card闭合 -->
+    <div class="research-card" style="border-bottom: 2px solid #ad0400">
+<a href="https://mp.weixin.qq.com/s/ZjzFhr3eI4sYhah1h0QbAA">
+        <div class="rs-top">
+            <div class="rs-date">05-27 <span>/2026</span></div>
+            <div class="rs-tag">教学科研</div>
+        </div>
+        <div class="rs-title">强基系列报告——冷冻透射电子显微学及其在软物质结构研究中的应用</div>
+        <div class="rs-meta"> <img src="asset-end/time.png" alt="时间图标">2026年5月28日  16：30</div>
+        <div class="rs-meta"><img src="asset-end/dizbhi.png" alt="位置图标">天山堂A104</div>
+        <div class="rs-author">
+            <div class="rs-author-avatar">
+                    <img src="/__local/D/FB/0C/79427E414A0B42E7C4ABCADD4BB_2AC1EB2F_11CF6.png" alt="">
+            </div>
+            <div>
+            <div class="rs-author-name">雷东升</div>
+            <div class="rs-author-title">教授</div></div>
+        </div>
+</a>
+    </div> <!-- ✅补全 research-card闭合 -->
+    <div class="research-card" style="border-bottom: 2px solid #ad0400">
+<a href="https://mp.weixin.qq.com/s/ctP0u80X1PBTW_DeO_ed5A">
+        <div class="rs-top">
+            <div class="rs-date">05-12 <span>/2026</span></div>
+            <div class="rs-tag">教学科研</div>
+        </div>
+        <div class="rs-title">强基系列报告——量子Mpemba效应</div>
+        <div class="rs-meta"> <img src="asset-end/time.png" alt="时间图标">2026年5月13日  16:30</div>
+        <div class="rs-meta"><img src="asset-end/dizbhi.png" alt="位置图标">天山堂B605</div>
+        <div class="rs-author">
+            <div class="rs-author-avatar">
+                    <img src="/__local/F/08/5F/7BD424562E70DDE7F2D8C41BC75_ADDAC62C_11CB5.png" alt="">
+            </div>
+            <div>
+            <div class="rs-author-name">吴威</div>
+            <div class="rs-author-title">教授、博士生导师</div></div>
+        </div>
+</a>
+    </div> <!-- ✅补全 research-card闭合 -->
+</div>
+          <div class="quick-links">
+                    <a href="https://phylab.lzu.edu.cn/">
+        <div class="q-item">
+            <img src="asset-end/ic02.png" alt="物理学国家级实验教学示范中心">
+            <div class="q-text">物理学国家级实验教学示范中心</div>
+        </div>
+    </a>
+        <a href="https://magnetism.lzu.edu.cn/">
+        <div class="q-item">
+            <img src="asset-end/ic04.png" alt="磁学与磁功能材料教育部重点实验室">
+            <div class="q-text">磁学与磁功能材料教育部重点实验室</div>
+        </div>
+    </a>
+    <a href="https://lctp.lzu.edu.cn/">
+        <div class="q-item">
+            <img src="asset-end/ic01.png" alt="兰州理论物理中心">
+            <div class="q-text">兰州理论物理中心</div>
+        </div>
+    </a>
+
+    <a href="cpyc.htm">
+        <div class="q-item">
+            <img src="asset-end/ic1.png" alt="诚聘英才图标">
+            <div class="q-text">诚聘英才</div>
+        </div>
+    </a>
+    <a href="zsjy.htm">
+        <div class="q-item">
+            <img src="asset-end/ic2.png" alt="招生就业图标">
+            <div class="q-text">招生就业</div>
+        </div>
+    </a>
+    <a href="aqjy.htm">
+        <div class="q-item">
+            <img src="asset-end/ic3.png" alt="安全教育图标">
+            <div class="q-text">安全教育</div>
+        </div>
+    </a>
+</div><script>_showDynClickBatch(['dynclicks_u9_16360','dynclicks_u9_16312','dynclicks_u9_16271','dynclicks_u9_16206'],[16360,16312,16271,16206],"wbnews", 1865896955)</script>
+<!--#endeditable--></div>
+
+    <footer class="footer"><!--#begineditable name="底部链接列表end" action="" layout="" tpltype="" contype="" clone="" viewid="1181361" contentviewid="" tagname="底部链接列表end"-->
+
+<div class="wrapper footer-layout">
+            <div class="footer-links">
+                <div class="footer-nav">
+                    <h4>校内链接</h4>
+
+
+                    <div class="footer-link-list">
+                                             <a href="http://xxb.lzu.edu.cn/">学校办公室</a>                        <a href="http://jwc.lzu.edu.cn/">教务处</a>                        <a href="https://kyy.lzu.edu.cn/">科学技术发展研究院</a>                        <a href="http://ge.lzu.edu.cn/">研究生院</a>                        <a href="http://ldrsc.lzu.edu.cn/">人力资源部</a>                        <a href="https://rcb.lzu.edu.cn/">党委人才办</a>                        <a href="https://faoffice.lzu.edu.cn/">国际合作与交流处</a>                        <a href="http://lzuedf.lzu.edu.cn/">教育发展基金会</a>                        <a href="https://lib.lzu.edu.cn/">图书馆</a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <h4>校外链接</h4>
+                    <div class="footer-link-list">
+                        <a href="http://www.moe.gov.cn/index.html">教育部</a>
+                        <a href="https://www.most.gov.cn/index.html">科技部</a>
+                        <a href="https://www.nsfc.gov.cn/">国家自然科学基金委员会</a>
+                        <a href="https://www.phys.tsinghua.edu.cn/">清华大学物理系</a>
+                        <a href="https://www.phy.pku.edu.cn/">北京大学物理学院</a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <h4>联系我们</h4>
+                    <div class="footer-link-list">
+                        <span>电话：0931-8912753&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 邮编：730000</span>
+                        <span>电子邮箱：phys@lzu.edu.cn</span>
+                        <span>学院地址：甘肃省兰州市城关区天水南路222号</span>
+                        <span>师德师风和学术不端举报电话：0931-8912753</span>
+                        <span>师德师风举报邮箱：zjmzjx@lzu.edu.cn</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright"> Copyright © 2017 兰州大学物理科学与技术学院 All rights reserved.<img src="asset-end/sy.png" alt=""></div>
+
+<!--#endeditable--></footer>
+
+    <script src="asset-end/main.js"></script>
+</body>
+
+</html>

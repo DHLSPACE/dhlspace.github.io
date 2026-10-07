@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META NAME="Keywords" CONTENT='四川大学研究生招生信息网 四川大学研究生院招生办 研招网 研究生招生网 四川大学研招网 四川大学博士招生 四川大学研究生院 四川大学研究生招生办公室新闻通知'/>
+    <meta name="Description" content='四川大学研究生招生信息网为 四川大学全日制硕士、博士研究生招生办公室官方网站，发布每年硕、博士招生专业目录，招生简章，招生说明，分数线发布，权威通知，提供招生咨询，提供硕士、博士成绩查询，推免生申请，夏令营申请等等'/>
+    <title>四川大学2024年硕士研究生招生章程_四川大学研究生招生信息网</title>
+
+    <link href="/Content/newskin/bootstrap.min.css" rel="stylesheet">
+    <link href="/Content/newskin/style.css?v=2.0.3" rel="stylesheet">
+    <link href="/Content/newskin/icon.css" rel="stylesheet">
+    <link href="/Content/newskin/header-footer.css?v=2.0.3" rel="stylesheet">
+    <link href="/Content/newskin/owl.carousel.min.css" rel="stylesheet">
+    <script src="/Scripts/newskin/jquery.min.js"></script>
+    <script src="/Scripts/newskin/respond.min.js"></script>
+
+    
+    
+    
+</head>
+<body>
+<header>
+    <section class="scu-one">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-5">
+                    <img src="/Content/images/newskin/logo.png" class="logo">
+                    <div class="pull-right">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"></button>
+                    </div>
+
+                </div>
+                <div class="col-md-8 col-sm-7">
+                    <div class="user-xs">
+
+
+
+
+
+    <div class=" tel-one">
+        <span class="icon-user hidden-xs"></span>&nbsp;  <span id="welcomes">[ <a href="/Account/Login">登录</a> /<a href='/xly'>夏令营&预推免</a>/<a href='/ksfw'>考生服务</a> ] </span>
+    </div>
+
+<div class="search-box ">
+    <script type="text/javascript" language="javascript">
+        
+        function dsubmit() {
+            var key = $("#skey").val().trim();
+            if (key.length > 1) {
+                $('#searchform').submit();
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        function csubmit() {
+            var key = $("#skey").val().trim();
+            if (key.length > 1) {
+                // $('#searchform').submit();
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+
+    </script>
+    <form id="searchform" name="searchform" action="/zsxx/search" method="GET" onsubmit="csubmit()">
+        <input type="text" id="skey" name="s" value="" placeholder="站内搜索">
+        <span class="icon-search-solid" onclick="dsubmit()"></span>
+    </form>
+
+</div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="scu-head">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/">首页 </a></li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">硕士招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zsxx/newslist/ss/zc">招生章程</a></li>
+                                <li><a href="/sszyml/index">招生专业目录</a></li>
+                                <li><a href="/sszyml/tmsml">推免生（直博）专业目录</a></li>
+                                <li><a href="/zsxx/newslist/ss/gg">公告通知</a></li>
+                                <li><a href="/score" target="_blank">成绩查询</a></li>
+                                <li><a href="/xly">夏令营报名</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">博士招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zsxx/newslist/bs/zc">招生章程</a></li>
+                                <li><a href="/bszyml/index">招生专业目录</a></li>
+                                 <li><a href="/sszyml/tmsml">推免生（直博）专业目录</a></li>
+                                <li><a href="/zsxx/newslist/bs/gg">公告通知</a></li>
+                                <li><a href="/bsqr/index">报名审核查询</a></li>
+                                 <li><a href="/score/bs"  target="_blank">成绩查询</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">港澳台招生  <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zsxx/newslist/gat/zc">招生章程</a></li>
+                                    <li><a href="/ssgat">港澳台硕士招生专业目录</a></li>
+                                    <li><a href="/bsgat">港澳台博士招生专业目录</a></li>
+                                <li><a href="/zsxx/newslist/gat/gg">公告通知</a></li>
+                           
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/zsxx/newslist/a/gk" role="button" aria-haspopup="false" aria-expanded="false" >信息公开  </a>
+                            
+                        </li>
+                        <li class="dropdown">
+                            <a href="/zsxx/newslist/a/ls" role="button" aria-haspopup="false" aria-expanded="false">历年数据 </a>
+                            
+                        </li>
+                        <li class="dropdown">
+                            <a href="/help/index" role="button" aria-haspopup="false" aria-expanded="false" >常见问题 </a>
+                           
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >联系我们   <span class="caret"></span> </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/contact/index">研招办</a></li>
+                                <li><a href="/contact/yxs">招生学院(系/所)</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </section>
+
+</header>
+
+
+<section class="bread-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- <h3><span class="icon-pin"></span> 硕士招生</h3> -->
+            </div>
+        </div>
+        <div class="bread-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="breadcrumb">
+                            <li><a href="/">首页</a></li>
+                            <li>四川大学2024年硕士研究生招生章程                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="share-box">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="list-recruit">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12">
+
+                    <ul class="list-name">
+
+        <li>
+            <a href="/zsxx/newslist/zt/1">
+                <span class="icon-recruit-3 list-icon"></span>
+                <span class="list-detail">优秀大学生暑期夏令营</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+        <li>
+            <a href="/zsxx/newslist/a/gk">
+                <span class="icon-score list-icon"></span>
+                <span class="list-detail">信息公开</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+        <li>
+            <a href="/zsxx/newslist/a/ls">
+                <span class="icon-data list-icon"></span>
+                <span class="list-detail">历年数据</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+        <li>
+            <a href="/help">
+                <span class="icon-question1 list-icon"></span>
+                <span class="list-detail">常见问题</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+
+
+
+
+    </ul>
+
+
+            </div>
+            <div class="col-md-9 col-sm-9 content-one col-xs-12">
+
+                
+
+
+
+
+    <h3 class="content-title" style="margin:10px;font-weight:bold;color:#FF0000; text-align: center;">四川大学2024年硕士研究生招生章程</h3>
+
+
+<p class="add-time" style="text-align: center;">
+    添加时间 2023/9/19 17:50 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;访问次数  571716
+
+</p>
+
+    <div class="content-box">
+
+        <p><span style="font-size:16px">&nbsp; &nbsp; 四川大学是教育部直属全国重点大学，是国家布局在中国西部的重点建设的高水平研究型综合大学，是国家&ldquo;双一流&rdquo;建设高校(A类)。四川大学地处中国历史文化名城&mdash;&mdash;&ldquo;天府之国&rdquo;的成都，有望江、华西和江安三个校区，占地面积7050亩，校舍建筑面积282.18万平方米。学校正与眉山市合作共建四川大学眉山校区。校园环境幽雅、花木繁茂、碧草如茵、景色宜人，是读书治学的理想园地。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; <strong>本章程适用于全日制和非全日制考生。</strong></span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 硕士研究生学习方式分为全日制和非全日制两种。全日制和非全日制研究生考试招生依据国家统一要求，执行相同的政策和标准。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 按照教育部《2024年全国硕士研究生招生工作管理规定》，我校2024年非全日制硕士研究生原则上招收在职定向人员。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; <strong>一、招生人数</strong></span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 2024年我校预计招收硕士研究生7360名，其中全日制硕士研究生5960名，非全日制硕士研究生1400名。全日制硕士研究生中学术学位约招3570名，专业学位约招2390名，非全日制硕士研究生全部招收专业学位。所有专业代码中第三位为&ldquo;5&rdquo;或者&ldquo;6&rdquo;的学科专业为专业学位类别或领域。各招生单位招生人数为预计招生人数，包括接收推荐免试生、统考生（含联考生）等，实际录取数待国家招生计划下达后综合考生报考情况、考试情况方能确定。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 凡按规定可接受应届本科毕业生报考的学科（类别）、专业（领域）均可接收推免生，2024年预计接收推荐免试生2900名。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; <strong>二、报考条件</strong></span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （一）报名参加全国硕士研究生招生考试的人员，须符合下列条件：</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 1.中华人民共和国公民。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 2.拥护中国共产党的领导，品德良好，遵纪守法。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 3.身体健康状况符合国家和招生单位规定的体检要求。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 4.考生学业水平必须符合下列条件之一：</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （1）国家承认学历的应届本科毕业生（含普通高校、成人高校、普通高校举办的成人高等学历教育等应届本科毕业生）及自学考试和网络教育届时可毕业本科生。考生录取当年入学前必须取得国家承认的本科毕业证书或教育部留学服务中心出具的《国（境）外学历学位认证书》，否则录取资格无效。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （2）具有国家承认的大学本科毕业学历的人员。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （3）获得国家承认的高职高专毕业学历后满2年（毕业后到录取当年入学前，下同）或2年以上，以及国家承认学历的本科结业生，且外语国家四级425分以上或通过在职人员申请学士学位外语考试，以及在核心期刊上至少有一篇以第一作者身份发表的论文，按本科毕业生同等学力身份报考。复试时须加试（笔试）两门本科主干课程。复试时应交验大专毕业证书、结业证书及同等学力证明材料原件。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （4）已获硕士、博士研究生学历或学位的人员。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 在校研究生报考须在报名前征得所在培养单位同意。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （二）报名参加以下专业学位全国硕士研究生招生考试的，按下列规定执行。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 1.报名参加法律（非法学）专业学位硕士研究生招生考试的人员，须符合下列条件：</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （1）符合第(一)中的各项要求。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （2）报考前所学专业为非法学专业。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 2.报名参加法律（法学）专业学位硕士研究生招生考试的人员，须符合下列条件：</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （1）符合第(一)中的各项要求。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （2）报考前所学专业为法学专业（获得法学第二学士学位的人员可报考）。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 3.报名参加工商管理（含EMBA方向）、公共管理、工程管理硕士中的工程管理（代码为125601）和旅游管理专业学位硕士研究生招生考试的人员，须符合下列条件：</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （1）符合第（一）中第1、2、3各项的要求。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （2）大学本科毕业后有3年以上工作经验的人员；或获得国家承认的高职高专毕业学历或大学本科结业后，达到大学本科毕业同等学力并有5年以上工作经验的人员；或已获硕士、博士研究生学历或学位后有2年以上工作经验的人员。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 工商管理硕士专业学位研究生相关考试招生政策同时按照《教育部关于进一步规范工商管理硕士专业学位研究生教育的意见》（教研〔2016〕2号）有关规定执行。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 4.报名参加除法律（非法学）、法律（法学）、工商管理（含EMBA方向）、公共管理、工程管理硕士中的工程管理（代码为125601）和旅游管理外的其他专业学位硕士研究生招生考试的人员，须符合第（一）中的各项要求。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （三）除上述条件外，考生应同时符合招生院系所对相关专业提出的报考要求（具体详见招生专业目录中各院系所及相关专业要求）。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （四）推免生的报考</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 具有推荐免试资格的考生，须在国家规定时间内登录&ldquo;全国推荐免试攻读研究生（免初试、转段）信息公开暨管理服务系统&rdquo;（网址：https://yz.chsi.com.cn/tm）填报志愿并参加复试。在规定截止日期仍未被招生单位录取的推免生不再保留推免资格。已被招生单位录取的推免生，不得再报名参加当年硕士研究生招生考试，否则取消其推免录取资格。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 其他符合免初试资格（如在部队荣立二等功以上退役人员等）的考生，应在国家规定的全国统考报名时间内登录&ldquo;全国推荐免试攻读研究生（免初试、转段）信息公开暨管理服务系统&rdquo;报名。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 具体情况详见《<a href="https://yz.scu.edu.cn/zsxx/Details/92a0542b-7f9d-48ef-87b1-87f3adc475e4" target="https://yz.scu.edu.cn/zsxx/Details/_blank">四川大学2024年接收推荐免试攻读硕士学位研究生和直接攻读博士学位研究生章程</a>》。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; <strong>三、报名</strong></span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 报名包括网上报名和网上确认两个阶段。所有考生均须在规定时间内参加网上报名和网上确认，逾期不再补办。应届本科毕业生原则上应选择就读学校所在地省级教育招生考试机构指定的报考点，其中成人高校应届本科毕业生也可选择教学点所在地省级教育招生考试机构指定的报考点。其他考生（含工商管理、公共管理、旅游管理、工程管理等专业学位考生）应选择工作所在地或户口所在地省级教育招生考试机构指定的报考点（相关具体要求由所在地省级教育招生考试机构因地制宜、合理确定）。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （一）网上报名</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 2023年10月8日至10月25日，每天9：00至22：00。网上预报名时间为2023年9月24日至9月27日，每天9：00至22：00。网上报名地址：https://yz.chsi.com.cn（以下简称&ldquo;研招网&rdquo;）。逾期不再补报，也不得再修改报名信息。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 考生网上报名成功后，应通过定期查阅省级教育招生考试机构、报考点、招生单位官方网站等方式，主动了解网上确认、考试安排及注意事项等，积极配合完成相关工作。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 考生应当按规定缴纳报考费。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （二）网上确认</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 详见考生网报时选择报考点的网上确认公告。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; （三）注意事项</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 1.在网上报名期间，考生可自行修改网上报名信息或重新填报报名信息，但每位考生只能保留一条有效报名信息。逾期不再补报，也不得修改报名信息。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 2.考生报名时只能填报一个招生单位的一个专业。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 3.考生应按招生单位要求如实填写学习情况和提供真实材料。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 4.考生要如实填写本人所受奖惩情况，特别是在参加普通和成人高等学校招生考试、全国硕士研究生招生考试、高等教育自学考试等国家教育考试过程中因违纪、作弊所受处罚情况。对弄虚作假者，将按照《国家教育考试违规处理办法》《普通高等学校招生违规行为处理暂行办法》严肃处理。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 5.报名期间将对考生学历（学籍）信息进行网上校验，考生可上网查看学历（学籍）校验结果。考生可在报名前或报名期间自行登录&ldquo;中国高等教育学生信息网&rdquo;（网址：https://www.chsi.com.cn）查询本人学历（学籍）信息。未通过学历（学籍）网上校验的考生应在2023年10月25日前完成学历（学籍）核验。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 6.报考&ldquo;少数民族高层次骨干人才计划&rdquo;考生，须在网上确认时间截止前将《报考2024年少数民族高层次骨干人才计划硕士研究生考生登记表》寄送到四川大学研招办，否则将不被纳入本计划报考。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 报考&ldquo;少数民族高层次骨干人才计划&rdquo;考生，请仔细查阅我校2024年硕士研究生招生专业目录。我校少数民族高层次骨干人才计划集中在学校优势学科，特别是理工农医类专业学位以及国家急需发展相关学科专业。仅在我校招生专业目录中明确备注有&ldquo;可招收少干计划&rdquo;的专业，方可接收&ldquo;少数民族高层次骨干人才计划&rdquo;考生报考，其余专业报名无效。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 面向西藏基层干部报考公共管理硕士专业学位的考生，必须选择&ldquo;少数民族高层次骨干人才计划&rdquo;，学习方式为全日制。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 7.符合相关规定条件并申请享受初试加分政策的考生，须在网上报名时按要求填报相关信息。未按规定申报的，不享受相应照顾或加分政策。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 8.报考&ldquo;退役大学生士兵&rdquo;专项硕士研究生招生计划的考生，应为高校学生应征入伍退出现役，且符合硕士研究生报考条件者〔高校学生指全日制普通本专科（含高职）、研究生、第二学士学位的应（往）届毕业生、在校生和入学新生，以及成人高校招收的普通本专科（含高职）应（往）届毕业生、在校生和入学新生，下同〕。考生报名时应当选择填报退役大学生士兵专项计划，并按要求填报本人入伍前的入学信息以及入伍、退役等相关信息，复试前须向招生单位提供《入伍批准书》和《退出现役证》进行复核。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 报考&ldquo;退役大学生士兵计划&rdquo;考生，请仔细查阅我校2024年硕士研究生招生专业目录。我校退役大学生士兵计划集中在学校优势学科，特别是理工农医类专业学位以及国家急需发展相关学科专业。仅在我校招生专业目录中明确备注有&ldquo;可招收退役大学生士兵计划&rdquo;的专业，方可接收&ldquo;退役大学生士兵计划&rdquo;考生报考，其余专业不可报名。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 9.报考强军计划考生的报考点必须选择为5101（四川大学），必须按四川大学规定进行网上确认和考试。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 10.考生应认真了解并严格按照报考条件及相关政策要求填报志愿并选择报考点。考生应当对本人网上报名信息进行认真核对并确认。报名信息经考生确认后一律不作修改，因不符合报考条件及相关政策要求，造成后续不能网上确认、考试（含初试和复试）或录取的，后果由考生本人承担。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; <strong>四、考试</strong></span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 1.入学考试分初试和复试。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 2.初试时间为2023年12月23日至12月24日（每天上午8:30-11:30，下午14:00-17:00）。初试科目详见《四川大学2024年硕士研究生招生专业目录》。考试科目中的101-思想政治理论、199-管理类综合能力、201-英语（一）、202-俄语、203-日语、204-英语（二）、 301-数学（一）、302-数学（二）、303-数学（三）、306-临床医学综合能力（西医）、307-临床医学综合能力（中医）、397-法律硕士专业基础（法学）、398-法律硕士专业基础（非法学）、497-法律硕士综合（法学）、498-法律硕士综合（非法学）均由教育部考试中心统一命题。其余考试科目由我校自主命题，参考书目或考试大纲详询各招生单位（<a href="https://yz.scu.edu.cn/contact/yxs" target="https://yz.scu.edu.cn/zsxx/Details/_blank">四川大学各硕博士研究生招生单位信息</a>）。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 3.初试方式均为笔试。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 4.学校根据人才培养需要划定初试合格分数线。初试成绩满足学校和院系要求的考生参加复试。复试地点统一安排在四川大学，具体时间、地点另行通知。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 5.我校采用综合复试，包含专业理论测试、综合素质及能力测试等，详见复试前各院系所发布的复试公告。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 6.考生应诚信参加考试，自觉遵守考试管理各项规定。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; <strong>五、体检</strong></span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 体检对象：获得拟录取资格的考生。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 体检时间：考生复试期间，具体时间详见校内各招生单位复试通知。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 体检医院：四川大学校医院或政府设立的二级甲等及以上医院。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 体检标准：参照教育部、原卫生部、中国残联印发的《普通高等学校招生体检工作指导意见》（教学〔2003〕3 号）要求，按照《教育部办公厅 卫生部办公厅关于普通高等学校招生学生入学身体检查取消乙肝项目检测有关问题的通知》（教学厅〔2010〕2 号）规定和要求执行。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; <strong>六、录取</strong></span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 考生入学考试总成绩由初试成绩和复试成绩综合加权计算得出，考生按入学考试总成绩排名录取。所有拟录考生必须进行思想政治和道德品质考核及体检，考核结果不合格者不予录取。拟录取的非定向就业类别硕士生，须调档审查合格后，发给录取通知书；定向就业的硕士研究生均须在被录取前与招生单位、用人单位分别签订定向就业合同。定向就业的考生报考前应征得定向就业单位同意，如不能签订定向就业协议导致的相关后果，由考生本人承担。录取考生于2024年秋季入学，报到时须携带本人录取通知书、本科毕业证书和学位证书原件。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 国家专项计划（少民骨干计划、强军计划、援藏计划、对口支援计划等）的录取，根据教育部相关文件，结合生源质量、招生计划以及学科分布，按学科单独划线、择优录取。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; <strong>七、联系方式</strong></span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 四川大学研究生招生办公室：</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 咨询电话：028-85466153、85407858、<strong>&nbsp;</strong>028-85467270（文科），028-85461353（理科），028-85460721（工科），028-85400638（医科）</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; Email：<a href="mailto:scuyz@scu.edu.cn">scuyz@scu.edu.cn</a></span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 四川大学研究生招生信息网：<a href="https://yz.scu.edu.cn/" target="https://yz.scu.edu.cn/zsxx/Details/_blank">https://yz.scu.edu.cn/</a></span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 各招生单位联系方式：请查阅<a href="https://yz.scu.edu.cn/contact/yxs" target="https://yz.scu.edu.cn/zsxx/Details/_blank">四川大学各硕博士研究生招生单位信息</a></span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; <strong>八、其它说明</strong></span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 1.学费与奖助金：四川大学全日制和非全日制研究生的投入机制、奖助和收费等政策按《财政部国家发展改革委教育部关于完善研究生教育投入机制的意见》（财教〔2013〕19号）和四川省《关于继续执行我省研究生教育收费政策及有关问题的通知》（川发改价格〔2019〕357号）文件规定执行，各专业详细收费标准见我校研招网招生专业目录备注栏。四川大学全日制研究生奖助体系完备，由国家奖助金和学校奖助金两部分构成。国家奖助金包括国家奖学金和国家助学金，学校奖助金包括学校学业奖学金和学校&ldquo;三助&rdquo;岗位津贴。具体情况请详见《四川大学研究生奖助体系实施方案》（修订）（详情参见我校研究生院官网）。非全日制硕士研究生不享受奖助金，学校不安排住宿。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 2.学习年限：我校硕士研究生学制一般为3年，部分专业研究生学制为2年或2.5年。最长学习年限不得超过4年，学制为2年的专业学位最长学习年限不得超过3年。非全日制专业学位最长学习年限若教指委另有规定，则按相关文件执行，各专业学制信息见我校研招网专业目录备注栏。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 3.2024年四川大学所有专业不接收考试方式为单独考试的报考。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 4.考生报考须符合报考条件。请广大考生认真阅读本章程的报考条件及<a href="https://yz.scu.edu.cn/sszyml/index" target="https://yz.scu.edu.cn/zsxx/Details/_blank"><strong>四川大学2024</strong><strong>年硕士研究生招生专业目录</strong></a>中相关招生单位及相关学科的报考要求，网上报名、网上确认、复试录取、开学报到等各环节均会对报考资格进行审查，对不符合报考条件的，一经查实，将取消报考、复试及录取资格，由此造成的一切后果由考生本人承担。</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 5.有关研究生招生信息和动态请密切关注：</span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 中国研究生招生信息网<a href="https://yz.chsi.com.cn/">https://yz.chsi.com.cn</a></span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 四川大学研招网<a href="https://yz.scu.edu.cn/">https://yz.scu.edu.cn/</a></span></p>
+
+<p><span style="font-size:16px">&nbsp; &nbsp; 各研究生招生院系所网站<a href="https://yz.scu.edu.cn/contact/yxs">https://yz.scu.edu.cn/contact/yxs</a></span></p>
+
+<p style="text-align:center"><span style="font-size:16px">&nbsp; &nbsp; 欢迎关注我办微信公众号</span></p>
+
+<p style="text-align:center"><span style="font-size:16px"><img alt="" src="https://yz.scu.edu.cn/Content/newsfiles/0.682532869597214_qrcode.jpg" /></span></p>
+
+<p>&nbsp;</p>
+
+
+
+    </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<div class="back-top">
+    <div class="code-box"><a href="#">
+            <img src="/Content/images/newskin/qrcode.jpg" width="80px"></a>
+    </div>
+    <div id="back-to-top" class="back-icon"><span class="icon-arrow-up"></span>
+    </div>
+</div>
+
+<section class="mobile-nav visible-xs">
+
+
+    <ul class="nav nav-pills">
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">公告通知
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/zsxx/newslist/a/gg">公告通知</a></li>
+                <li><a href="/zsxx/newslist/a/gk">信息公开</a></li>
+            </ul>
+        </li>
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">目录查询
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/sszyml/index">硕士目录</a></li>
+                <li><a href="/sszyml/tmsml">硕士推免目录</a></li>
+                <li><a href="/bszyml/index">博士目录</a></li>
+                <li><a href="/ssgat">港澳台硕士目录</a></li>
+                <li><a href="/bsgat">港澳台博士目录</a></li>
+            </ul>
+        </li>
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">自助服务
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/zsxx/newslist/a/ls">历年数据</a></li>
+                <li><a href="/help">常见问题</a></li>
+                <li><a href="/contact/yxs">招生单位联系方式</a></li>
+                <li><a href="/contact/index">研招办联系方式</a></li>
+            </ul>
+        </li>
+    </ul>
+    <a id="defaultwboxid"></a>
+</section>
+
+<section class="footer">
+    <div class="container">
+        <ul>
+            <li>版权所有：四川大学研究生院招生办公室</li>
+            <li>通信地址：四川省成都市一环路南一段24号 四川大学研究生院（610065）</li>
+
+            <li>联系方式：<a href="http://yz.scu.edu.cn/contact/index" style="color: white; text-decoration: underline;">研招办</a> <a href="http://yz.scu.edu.cn/contact/yxs" style="color: white; text-decoration: underline;">招生单位</a></li>
+
+            <li>友情链接： <a href="http://www.scu.edu.cn" target="_blank" style="color: white; text-decoration: underline;">四川大学</a>
+                <a href="http://gs.scu.edu.cn" target="_blank" style="color: white; text-decoration: underline;">四川大学研究生院</a>
+                <a href="http://yz.chsi.com.cn" target="_blank" style="color: white; text-decoration: underline;">中国研究生招生信息网</a>
+                <a href="http://www.sceea.cn/" target="_blank" style="color: white; text-decoration: underline;">四川省教育考试院</a> </li>
+        </ul>
+    </div>
+    <a id="defaultwboxid"></a>
+
+</section>
+
+
+
+<script src="/Scripts/newskin/bootstrap.min.js"></script>
+<!--导航-->
+<script src="/Scripts/newskin/stickUp.js"></script>
+<script type="text/javascript">
+    //initiating jQuery
+    jQuery(function($) {
+        $(document).ready(function() {
+            $('.scu-head').stickUp();
+        });
+    });
+
+    $(document).ready(function() {
+        var getWindow = $(window).width();
+        if (getWindow > 1000) {
+            $('.scu-head li.dropdown').off('click.bs.dropdown.data-api');
+            dropdownOpen();
+        }
+    });
+
+    function dropdownOpen() {
+        var $dropdownLi = $('.scu-head li.dropdown');
+        $dropdownLi.mouseover(function() {
+            $(this).addClass('open');
+        }).mouseout(function() {
+            $(this).removeClass('open');
+        });
+    }
+</script>
+<!--导航-->
+
+<!--返回顶部-->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#back-to-top").hide();
+        $(function() {
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 100) {
+                    $("#back-to-top").fadeIn(500);
+                } else {
+                    $("#back-to-top").fadeOut(500);
+                }
+            });
+            $("#back-to-top").click(function() {
+                $('body,html').animate({ scrollTop: 0 }, 100);
+                return false;
+            });
+        });
+    });
+</script>
+<!--返回顶部-->
+
+    
+
+
+
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="liwen@cashq.ac.cn">
+<meta name="keywords" content="上海微系统所、研究生、通信与信息系统、微电子学与固体电子学、材料物理化学"> 
+<meta name="description" content="上海微系统所是中科院硕士、博士研究生重点培养基地之一，拥有“通信与信息系统”、“微电子学与固体电子学”和“材料物理化学”三个博士学位培养点。随着知识创新工程的深入，我所科研工作体量大幅度增加，研究生的招生规模也不断扩大。在创新二期期间，我所“以系统带动器件，以器件带动材料”的理念及获得的一系列科研成果吸引了大批优秀生源。我所还一直保持与上海宏力半导体有限公司、中芯国际等企业合作培养研究生，这种全新的培养模式让产学研结合得更加紧密，为国家的集成电路产业培养高级专业人才。"> 
+<title>中国科学院上海微系统与信息技术研究所2026年招收推荐免试研究生公告----中国科学院上海微系统与信息技术研究所</title>
+<link rel="stylesheet" href="../../../../images/bootstrap.css">
+<link href="//libsub.cas.cn/lib/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="../../../../images/animations.css" rel="stylesheet">
+<link href="../../../../images/owl.carousel.css" rel="stylesheet">
+<link href="../../../../images/yjsstyle.css" rel="stylesheet" type="text/css" />
+<link href="../../../../images/yjs.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../../../images/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="[JS library]"></script>
+<!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="../../../../images/selectivizr.js"></script>
+  <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+<![endif]-->
+<!--[if lt IE 9]>
+    <script type="text/javascript" src="../../../../images/html5shiv.min.js"></script>
+    <script type="text/javascript" src="../../../../images/respond.min.js"></script>
+<![endif]-->
+
+
+<SCRIPT LANGUAGE="JavaScript">
+function num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt){
+		var nCurrIndex = _nCurrIndex || 0;
+		if(nCurrIndex == 0)
+			document.write("<a href='#' class='nolink'>1</a>");
+		else
+			document.write("<a class='nolink' href=\""+_sPageName+"."+_sPageExt+"\">1</a>");
+		
+		for(var i=1; i<_nPageCount; i++){
+		if(nCurrIndex == i)
+			document.write("<a href='#' class='nolink'>"+(i+1)+"</a>");
+		else
+			document.write("<a class='nolink' href=\""+_sPageName+"_" + i + "."+_sPageExt+"\">"+(i+1)+"</a>");
+			}
+		return "";
+		}
+		
+function createPageHTML(_nPageCount, _nCurrIndex, _sPageName, _sPageExt){
+	if(_nPageCount == null || _nPageCount<=1){
+		return;
+	}
+	
+	var nCurrIndex = _nCurrIndex || 0;
+	
+	if (_nPageCount==2){
+		if(nCurrIndex == 0){
+		document.write("<a href='#' class='nolink'>1</a><a href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">2</a><a href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">下一页>></a>");
+		}
+		else if (nCurrIndex == 1){
+		document.write("<a class='nolink' href=\""+_sPageName+ "."+_sPageExt+"\"><<上一页</a><a href=\""+_sPageName+ "."+_sPageExt+"\">1</a><a href='#' class='nolink'>2</a>");
+		}
+	}
+	else{
+
+	if(nCurrIndex == 0){
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		document.write("<a class='nolink' href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">下一页>></a>");
+		}
+	else if (nCurrIndex == 1){
+		document.write("<a class='nolink' href=\""+_sPageName+"."+_sPageExt+"\" style='float:left;margin-left:10px;'><<上一页</a>");
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		document.write("<a class='nolink' href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">下一页>></a>");
+		}
+	else if(nCurrIndex == (_nPageCount-1)){
+		document.write("<a class='nolink' href=\""+_sPageName+"_" + (nCurrIndex-1) + "."+_sPageExt+"\" style='float:left;margin-left:10px;'><<上一页</a>");
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		}
+	else{
+		document.write("<a class='nolink' href=\""+_sPageName+"_" + (nCurrIndex-1) + "."+_sPageExt+"\" style='float:left;margin-left:10px;'><<上一页</a>");
+		document.write(num(_nPageCount, _nCurrIndex, _sPageName, _sPageExt));
+		document.write("<a class='nolink' href=\""+_sPageName+"_" + (nCurrIndex+1) + "."+_sPageExt+"\">下一页>></a>");
+		}
+		} 
+	
+}
+</SCRIPT>
+</head>
+<body>
+<div class="scrollToTop"><i class="fa fa-chevron-up"></i></div>
+<div class="wivtop">
+  <div class="container">
+    <div class="logo"><a href="//www.sim.cas.cn/yjs/"><img class="img-responsive" src="//sim.cas.cn/images/simit-yjs-logo.png" alt="中国科学院上海微系统与信息技术研究所研究生教育网" /></a></div>
+  </div>
+</div>
+<div class="container-fluid menubg"><div class="container">
+   <div class="h_menu">
+   <div class="main-navigation animated">
+   <nav class="navbar navbar-default navbar-left" role="navigation">
+										<div class="container-fluid">
+
+											<!-- Toggle get grouped for better mobile display -->
+											<div class="navbar-header">
+												<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+													<span class="sr-only">Toggle navigation</span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+												</button>
+											</div>
+
+											<!-- Collect the nav links, forms, and other content for toggling -->
+											<div class="collapse navbar-collapse" id="navbar-collapse-1">
+												<ul class="nav navbar-nav">
+													<li class="dropdown">
+														<a href="http://www.sim.cas.cn/yjs/">首 页</a>
+													</li>
+													<!-- mega-menu start -->
+													<li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/yjs_gk/">概 况</a>
+													</li>
+													<li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/gwzz/">岗位职责</a>
+													</li>
+                                                    <li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/zsxx/" class="dropdown-toggle" data-toggle="dropdown">招生信息</a>
+														<ul class="dropdown-menu">
+														    
+															<li><a href="http://sim.cas.cn/yjs/zsxx/yjs_bszs/">博士招生</a></li>
+                                                                                                                    
+															<li><a href="http://sim.cas.cn/yjs/zsxx/yjs_sszs/">硕士招生</a></li>
+                                                                                                                    
+														</ul>
+													</li>
+                                                    <li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/jyzd/">就业指导</a>
+													</li>
+                                                    <li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/dsjs/" class="dropdown-toggle" data-toggle="dropdown">导师介绍</a>
+														
+													</li>
+                                                    <li class="dropdown">
+														<a href="http://sim.cas.cn/xyh2017/" class="dropdown-toggle" data-toggle="dropdown">校友网站</a>
+														
+													</li>
+                                                    <li class="dropdown">
+														<a href="http://sim.cas.cn/yjs/xzzx/">下载中心</a>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+									</nav>
+   </div>
+   
+   </div>
+</div></div>
+<div class="main-container">
+<div class="container-fluid" style="background:#f9fdff; border-bottom:#deeef3 solid 1px;">
+     <div class="container">
+     <div class="page-intro">
+			<div class="row">
+				<ol class="breadcrumb">
+								<li><i class="fa fa-home pr-10"></i><a href="../../../">首页</a> &gt; <a href="../../" title="招生信息" class="CurrChnlCls">招生信息</a>&gt;<a href="../" title="硕士招生" class="CurrChnlCls">硕士招生</a></li>
+				</ol>
+			</div>
+     </div>
+     </div>
+</div>
+  <div class="container">
+  <div class="secondarybox">
+  <div class="row">
+   
+    <div class="col-md-12">
+    <div class="main-article bgbai">
+<!-- 正文开始 -->
+    <div id="xlmain">
+      <p class="wztitle">中国科学院上海微系统与信息技术研究所2026年招收推荐免试研究生公告</p>
+      <p class="qtinfo hidden-lg hidden-md hidden-sm">文章来源：&nbsp;&nbsp;|&nbsp;&nbsp;发布时间：2025-08-20</p>
+      <p class="qtinfo hidden-xs">文章来源：&nbsp;&nbsp;|&nbsp;&nbsp;发布时间：2025-08-20&nbsp;&nbsp;|&nbsp;&nbsp;【<a onclick="window.print()" href="#">打印</a>】&nbsp;【<a onclick="window.close();" href="#">关闭</a>】</p>
+          <div class="textxl nrhei">　　
+
+                <div class="trs_editor_view TRS_UEDITOR trs_paper_default trs_web"><p style="margin-top: 0px;font-size: 16px;text-wrap-mode: wrap"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">    中国科学院上海微系统与信息技术研究所2026年招收推荐免试研究生（含直博生）报名已经开始。欢迎全国各高校大学本科微电子学、物理学、化学、材料类、电子信息类、计算机等相关专业可以取得推荐免试的本科生报名。</span></p><p style="font-size: 16px;text-wrap-mode: wrap"><span data-index="18" style="text-wrap-style: initial;font-family: 微软雅黑, &#39;Microsoft YaHei&#39;"><strong style="color: rgb(66, 66, 66)">一、申请条件 </strong>  </span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　<span style="color: rgb(66, 66, 66)">2026年我所接收推荐免试研究生，含直博生、学术型硕士和全日制专业型硕士。申请者应具备如下条件： </span></span></p><p style="font-size: 16px;text-wrap: wrap;margin: 0px;padding: 0px;outline: 0px;max-width: 100%;box-sizing: border-box;clear: both;min-height: 1em;font-family: &#39;PingFang SC&#39;, system-ui, -apple-system, BlinkMacSystemFont, &#39;Helvetica Neue&#39;, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei UI&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif;letter-spacing: 0.544px;text-align: justify;background-color: rgb(255, 255, 255);text-indent: 2em;overflow-wrap: break-word !important"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">1、中华人民共和国公民，拥护中国共产党的领导，热爱科学事业，道德品质良好，遵纪守法。</span></p><p style="font-size: 16px;text-wrap: wrap;margin: 0px;padding: 0px;outline: 0px;max-width: 100%;box-sizing: border-box;clear: both;min-height: 1em;font-family: &#39;PingFang SC&#39;, system-ui, -apple-system, BlinkMacSystemFont, &#39;Helvetica Neue&#39;, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei UI&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif;letter-spacing: 0.544px;text-align: justify;background-color: rgb(255, 255, 255);text-indent: 2em;overflow-wrap: break-word !important"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">2、申请者获得所在高校当年推荐免试资格，并在教育部推免服务系统中获得母校推荐免试资格名单备案；</span></p><p style="font-size: 16px;text-wrap: wrap;margin: 0px;padding: 0px;outline: 0px;max-width: 100%;box-sizing: border-box;clear: both;min-height: 1em;font-family: &#39;PingFang SC&#39;, system-ui, -apple-system, BlinkMacSystemFont, &#39;Helvetica Neue&#39;, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei UI&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif;letter-spacing: 0.544px;text-align: justify;background-color: rgb(255, 255, 255);text-indent: 2em;overflow-wrap: break-word !important"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">3、诚实守信，品行端正，学风优良，无任何考试作弊和剽窃他人学术成果记录，无任何违法违纪受处分记录。</span></p><p style="font-size: 16px;text-wrap: wrap;margin: 0px;padding: 0px;outline: 0px;max-width: 100%;box-sizing: border-box;clear: both;min-height: 1em;font-family: &#39;PingFang SC&#39;, system-ui, -apple-system, BlinkMacSystemFont, &#39;Helvetica Neue&#39;, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei UI&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif;letter-spacing: 0.544px;text-align: justify;background-color: rgb(255, 255, 255);text-indent: 2em;overflow-wrap: break-word !important"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">4、申请者在大学本科阶段学习成绩优异，有较好的科研潜力，具有较强的调查研究、分析问题、解决问题能力。</span></p><p style="font-size: 16px;text-wrap: wrap;margin: 0px;padding: 0px;outline: 0px;max-width: 100%;box-sizing: border-box;clear: both;min-height: 1em;font-family: &#39;PingFang SC&#39;, system-ui, -apple-system, BlinkMacSystemFont, &#39;Helvetica Neue&#39;, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei UI&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif;letter-spacing: 0.544px;text-align: justify;background-color: rgb(255, 255, 255);text-indent: 2em;overflow-wrap: break-word !important"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">5、外语程度良好，具有较强的外语听、说、读、写应用能力。</span></p><p style="font-size: 16px;text-wrap: wrap;margin: 0px;padding: 0px;outline: 0px;max-width: 100%;box-sizing: border-box;clear: both;min-height: 1em;font-family: &#39;PingFang SC&#39;, system-ui, -apple-system, BlinkMacSystemFont, &#39;Helvetica Neue&#39;, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei UI&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif;letter-spacing: 0.544px;text-align: justify;background-color: rgb(255, 255, 255);text-indent: 2em;overflow-wrap: break-word !important"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">6、身体健康状况符合规定的体检标准，心理健康状况良好。</span></p><p style="font-size: 16px;text-wrap: wrap;margin: 0px;padding: 0px;outline: 0px;max-width: 100%;box-sizing: border-box;clear: both;min-height: 1em;font-family: &#39;PingFang SC&#39;, system-ui, -apple-system, BlinkMacSystemFont, &#39;Helvetica Neue&#39;, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei UI&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif;letter-spacing: 0.544px;text-align: justify;background-color: rgb(255, 255, 255);overflow-wrap: break-word !important"><br/></p><p style="font-size: 16px;text-wrap: wrap;margin: 0px;padding: 0px;outline: 0px;max-width: 100%;box-sizing: border-box;clear: both;min-height: 1em;font-family: &#39;PingFang SC&#39;, system-ui, -apple-system, BlinkMacSystemFont, &#39;Helvetica Neue&#39;, &#39;Hiragino Sans GB&#39;, &#39;Microsoft YaHei UI&#39;, &#39;Microsoft YaHei&#39;, Arial, sans-serif;letter-spacing: 0.544px;text-align: justify;background-color: rgb(255, 255, 255);overflow-wrap: break-word !important"><span data-index="18" style="text-wrap-style: initial;font-family: 微软雅黑, &#39;Microsoft YaHei&#39;"><strong style="color: rgb(66, 66, 66)">二、接收程序 </strong></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　（一）网上提交申请 </span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　  登录中国科学院大学推荐免试生申请系统 (http://zhaosheng.ucas.ac.cn/sign_up/TMS/views/index.aspx)，填写申请表。</span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18"><span data-index="17" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　（二）提交</span><span data-index="17" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">电子扫描件材料 <strong>（合并在一份</strong><strong>PDF</strong><strong>文件</strong><strong>内，容量不超过</strong><strong>10M</strong><strong>，统一命名格式为：推免生申请</strong><strong>+</strong><strong>学校</strong><strong>+</strong><strong>姓名）</strong>，发送至邮箱：yjs@mail.sim.ac.cn</span></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px">     1．《中国科学院大学推荐免试攻读硕士学位研究生/直博生申请表》,申请表可通过网上申请系统打印，经申请人签字确认（签字可打印后手签或使用电子签名）。</p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px">　　 2．前三年所修课程成绩单原件（五年制的提供前四年课程成绩单），学校教务处或所在院系盖章有效。</p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 20.75px">   3.  有效居民身份证复印件（正反两面复印在一张A4纸的同一面上）。</p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 20px">   4．英语等级证书复印件。</p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 20px">   5. 大学期间获奖证书复印件。</p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 20px">   6. 在公开发行的学术刊物或全国性学术会议上发表的学术论文、所获专利或其他原创性工作成果的证明材料。</p><p style="font-family: &#39;Microsoft YaHei&#39;;font-size: 16px;text-indent: 0em;text-wrap: wrap;text-align: justify;margin-bottom: 0px">      7. 《政审表》（详见资料下载区，电子版可不交，面试通过后提交纸质版原件）。 </p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 20px">    8. 体检结果（体检由考生自行在当地二级甲等以上医院进行，资料下载区体检表供参考，电子版可不交，面试通过后提交纸质版）。 </p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 20px">   9. 对申请有参考价值的其他材料。</p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 20px"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;"><strong>申请者应在</strong><strong>2025</strong><strong>年</strong><strong>9</strong><strong>月</strong><strong>25</strong><strong>日前将申请材料电子版发送到指定邮箱（在确定申请人满足条件后，分批进行面试）。</strong></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 20px"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;"><strong>特别说明：</strong></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 2em"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;"><strong>1</strong><strong>）</strong><strong>网报时“推荐免试生申请系统”中可暂不填导师，研究方向可任选一个。</strong></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 2em"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;"><strong>2</strong><strong>）</strong><strong>请各位同学同时准备好上述资料</strong><strong>纸质版，根据后续通知要求提交。</strong></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　（三）考核和体检 </span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　<span style="color: rgb(66, 66, 66)">1. 研究生部对申请人提交的申请信息进行初审，确定参加复试人员名单，并将<strong>考核的时间、地点、方式</strong><strong>通过</strong><strong>email</strong><strong>方式</strong>通知考生，预计于<strong>9月中旬后分批进行</strong>。 </span></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　<span style="color: rgb(66, 66, 66)">2. 我所组成考核小组对推荐免试申请者进行考核，考核以面试的形式进行。内容主要包括思想政治品德考核、专业知识和外语水平考核。 </span></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　<span style="color: rgb(66, 66, 66)">3. 思想政治品德考核主要考核考生本人的现实表现，主要包括考生的政治态度、思想表现、道德品德、人生观、价值观、工作学习态度、团队合作精神、诚实守信、科研道德及遵纪守法等方面的基本情况。思想品德考核不合格的申请者不予录取。</span></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　<span style="color: rgb(66, 66, 66)">4. 专业知识考核重点考查考生对知识掌握的深度和广度，对知识灵活运用的程度以及考生的实验技能和实际动手能力等，了解考生从事科研工作的潜力和创造性。考核既核查学生历年的学习成绩，特别是本科所学专业必修课成绩，同时也考查学生的学习能力、创新精神和其他特长等综合素质方面。 考核成绩为百分制，60分为及格，不及格者不予录取。</span></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　<span style="color: rgb(66, 66, 66)">5. 外语考核主要考查考生的听、说能力及语言运用能力。 </span></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　<span style="color: rgb(66, 66, 66)">6. 体检主要考查考生的身体健康状况，也包括体能、体质和心理素质等方面的考查。</span><strong style="color: rgb(51, 51, 51)"><span style="overflow-wrap: break-word;color: red">体检由考生在当地二级甲等以上医院进行，体检结果必须贴有本人照片并在照片与体检单交接处加盖骑缝公章。</span></strong><strong style="color: rgb(51, 51, 51)"><span style="overflow-wrap: break-word;color: red"><a href="http://www.sim.cas.cn/yjs/xzzx/" style="font-size: 14px;text-wrap-style: initial;text-indent: 20px;color: rgb(255, 0, 0)"><span style="overflow-wrap: break-word;font-size: 16px">资料下载</span></a><span style="overflow-wrap: break-word"><span style="text-wrap-style: initial;text-indent: 20px">区</span>体</span>检表供参考，可使用体检医院表格，体检内容包含附件所列内容即可。</span></strong><strong style="color: rgb(51, 51, 51)"></strong><span style="color: rgb(66, 66, 66)">体检标准参照教育部、卫生部、中国残疾人联合会印发的《普通高等学校招生体检工作指导意见》（教学[2003]3号），人力资源和社会保障部、教育部、卫生部《关于进一步规范入学和就业体检项目维护乙肝表面抗原携带者入学和就业权利的通知》（人社部发[2010]12号）以及《教育部办公厅卫生部办公厅关于普通高等学校招生学生入学身体检查取消乙肝项目检测有关问题的通知》（教学厅[2010]2号）执行。 </span></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">   </span><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">（四）拟录取 </span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　<span style="color: rgb(66, 66, 66)">1．我所招生领导小组对考核结果进行审议确定拟录取名单并进行公示。 </span></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　<span style="color: rgb(66, 66, 66)">2．被确定接收的推荐免试硕士生或直博生必须在教育部规定的时间里通过教育部“推免服务系统”同我所互动完成网上报名、复试确认、拟录取等各项网上操作。此后，未完成相关接收手续或未落实接收单位的推荐免试生不再保留推荐免试生的录取资格。 </span></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　<span style="color: rgb(66, 66, 66)">3．录取层次（硕士研究生或直博生）、录取类型（学术型或专业型）、录取专业等以教育部“推免服务系统”的数据为准，后期各工作阶段无法进行改变。 </span></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　<span style="color: rgb(66, 66, 66)">4．被拟录取的推荐免试生不得再以统考生身份报名参加全国硕士生统一入学考试。 </span></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　<span style="color: rgb(66, 66, 66)">5．推荐免试生的录取类别一般为计划内非定向。 </span></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　6．对拟录取的推荐免试生，通过教育部审核通过后与对应统考生同时发放录取通知书。 </span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">  （五）学制</span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">    </span><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">1.</span><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">  </span><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">推荐免试硕士研究生学制一般为3年，最长修读年限（含休学）不得超过4年。</span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">    2.  </span><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">直博生基本学制一般为5年，最长修读年限（含休学）不得超过8年。</span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;"><span style="color: rgb(66, 66, 66)"><strong><br/></strong></span></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;"><span style="color: rgb(66, 66, 66)"><strong>三、其他 </strong></span>　 </span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">   1、对拟录取的推荐免试生，出现下列情况之一的，取消其录取资格： </span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　（1）已被我所接收的推免生，若再报名参加当年硕士研究生招生考试，取消其推免录取资格。</span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">    <span style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;font-size: 16px;text-wrap-mode: wrap">（2）</span>在本科阶段最后一学年（四年制的指第七、八学期，五年制的指第九、十学期）专业主干课程学习成绩有不及格科目。 </span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　（3）毕业设计（论文）未取得良好以上（含良好）成绩。 </span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　（4）新生入学报到前未获得本科毕业证书或学士学位。 </span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　（5）政审不合格者。 </span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">　　（6）考试作弊或违纪（法）受到“警告”以上处分的，或有其他情节严重的违法乱纪行为受到处罚者。 </span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;"><span style="color: rgb(66, 66, 66)">　　（7）申请人提交的材料有弄虚作假者。 </span> </span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">    2、本公告如有与国家或中国科学院大学新出台的招生政策（含相关时间节点）不符的事项，以上级单位新政策为准。</span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;"><br/></span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 2em"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">地址：上海市长宁路865号5号楼708室   </span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 2em"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">邮编：200050</span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 2em"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">联系部门：研究生部</span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 2em"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">联系人：张老师 </span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 2em"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">电话：021-62528319</span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px;text-indent: 2em"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;">E-mail：yjs@mail.sim.ac.cn</span></p><p style="font-size: 16px;text-wrap: wrap;text-align: justify;margin-bottom: 0px"><span data-index="18" style="font-family: 微软雅黑, &#39;Microsoft YaHei&#39;"><strong style="color: rgb(51, 51, 51)"><span style="overflow-wrap: break-word;color: red">注：我所博士、硕士的招生简章尚未发布，预计<span style="overflow-wrap: break-word">9</span>月中旬待国科大审核完成后对外发布。请考生们关注我所研究生教育网页招生信息。</span></strong></span></p><p style="font-size: 16px;text-wrap-mode: wrap"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;"><br/></span></p><div style="text-wrap: wrap;text-align: right"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;font-size: 16px">中国科学院上海微系统与信息技术研究所研究生部</span></div><div style="text-wrap: wrap; text-align: right;"><span data-index="18" style="color: rgb(66, 66, 66);font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;font-size: 16px">2025年8月20日</span></div></div>
+ 
+           <div id="appendix"  style="display:none;">
+		<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin:0 auto; margin-bottom:5px;background-color:#cccccc">
+          <tr>
+            <td height="25" style="padding-left:8px;" align="left" class="hh16b">附件下载：</td>
+          </tr>
+        </table>
+        <table width="90%" border="0" cellpadding="0" cellspacing="0">
+                    <tr id="attach">
+                      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td align="left" style="padding:10px 0 10px 40px;"><ol>
+                                
+                                
+                              </ol></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table>
+					<script>
+					var s = '';
+					var c = '';
+					var a = document.getElementById("appendix");
+					if(s.length >0 || c.length >0){
+						a.style.display = '';
+					}
+					</script>
+		</div>
+
+
+<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin:0 auto;">
+            <tr>
+              <td height="30" align="center"><SCRIPT LANGUAGE="JavaScript">
+createPageHTML(1, 0, "t20250820_7907445", "html");	
+</SCRIPT></td>
+            </tr>
+          </table>
+
+</div>
+   </div>
+<!-- 正文结束 -->
+    </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+  <style>
+.copyright a.links{
+color:#fff;
+}
+</style>
+<div class="container-fluid" style="background:#074988;">
+  <div class="container"><div class="row">
+  <div class="col-md-12"><div class="copyright">
+  <div class="left">
+         版权所有 &copy; 中国科学院上海微系统与信息技术研究所　<a href="https://beian.miit.gov.cn/" class="links" target="_blank">沪ICP备05005483号-1</a><br>地址：上海市长宁路865号　邮编：200050　电话：021-62511070</div>
+  </div></div>
+  </div></div>
+  </div>
+
+<script type="text/javascript" src="../../../../images/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../../../images/modernizr.js"></script>
+<script type="text/javascript" src="../../../../images/owl.carousel.js"></script>
+<script type="text/javascript" src="../../../../images/template.js"></script>
+<script type="text/javascript" src="../../../../images/initializers.js"></script>
+<script type="text/javascript" src="../../../../images/jquery.kxbdMarquee.js"></script>
+<script>
+(function(){
+	$("#marquee4").kxbdMarquee({direction:"up",isEqual:false});
+})();
+</script>
+</body>
+</html>

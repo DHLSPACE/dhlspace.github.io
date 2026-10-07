@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>山东大学留学山大</title><META Name="keywords" Content="山东大学留学山大" />
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="山东大学">
+<link href="dfiles/22071/views/sdu_cn/css/style.css" rel="stylesheet" type="text/css">
+<link href="dfiles/22071/views/sdu_cn/css/smartmenu.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="dfiles/22071/views/sdu_cn/js/jquery.min.js"></script>
+<script type="text/javascript" src="dfiles/22071/views/sdu_cn/js/smartmenu-min.js"></script>
+<script type="text/javascript">
+     $(function(){
+        $("#navigation").Smartmenu({animationDuration: 350, zjjTop:5});
+        $(".top .lan").mouseover(function(){
+                $(this).find(".choose").show();
+        });
+        $(".top .lan").mouseleave(function(){
+            $(this).find(".choose").hide();
+        });
+        /*菜单显示隐藏*/
+        $(".f_l li").click(function(){
+            $(this).find("dl").toggle();
+            $(".l_menu ul li").removeClass('active');
+            $(this).toggleClass("active");
+        });
+        /*右侧显示隐藏*/
+        $(".q_l h4").click(function(){
+            $(this).next("div").toggle();
+        });
+        
+        $(".l_menu dl dd a.active").parents().eq(2).addClass('active');
+     });
+    </script>
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307b784657505b5742000000074457 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1572479274)</script>
+</head>
+<body >
+<div class="top">
+<div>   
+   
+   
+   
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script>   
+</SCRIPT></div>
+<div class="w_1110">
+<div class="fr lan"><script language="javascript" src="/system/resource/js/openlink.js"></script><A class="language" href="English/Home.htm"  title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 60026)"><I class="united kingdom  flag"></I><SPAN>ENGLISH</SPAN></A> 
+<DIV class="choose" style="display: none;"  ><A class="language" href="http://www.istudy.sdu.edu.cn/xyz/Japanese/zy1.htm"  title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 91828)"><I class="china flag"></I><SPAN>日本語</SPAN></A> </DIV>
+<DIV class="choose" style="display: none; top: 59px; "  ><A class="language" href="http://www.istudy.sdu.edu.cn/lxsdxyz2/index.jsp?urltype=tree.TreeTempUrl&amp;wbtreeid=1001"  title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 91827)"><I class="china flag"></I><SPAN>Русский</SPAN></A> </DIV>
+<DIV class="choose" style="display: none; top: 82px; "  ><A class="language" href="http://www.istudy.sdu.edu.cn/xyz/index.jsp?urltype=tree.TreeTempUrl&amp;wbtreeid=1001"  title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 91826)"><I class="china flag"></I><SPAN>한국어</SPAN></A> </DIV>
+
+
+
+</div>
+<div class="share fr" style="position: relative;">
+
+<!--
+<A href="javascript:;"></A><A class="s_2" href="javascript:;"></A>
+
+-->
+
+
+<a class="s_3" href="javascript:;">
+<div class="ewm_box">    
+    
+
+                        <DIV class="ewm_l">
+			<IMG src="dfiles/22071/uploadfiles/image/201809/28.jpg" width="100"> 
+			<P>访问移动端</P>
+			</DIV>
+
+
+
+
+
+</div></a></div>
+<div class="clear"></div></div></div>
+<div class="header">
+<div class="w_1110">
+<div class="logo fl">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.jsp" title="国际事务部（留学山大）"><img src="dfiles/22071/views/sdu_cn/images/sdu_logo.png" width="483" height="90"   border="0" alt="国际事务部（留学山大）" title="国际事务部（留学山大）" ></a></div>
+<div class="h_r fr">    <a class="apply fl" href="http://www.apply.sdu.edu.cn/" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 60016)">在线申请</a>
+<script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode248724').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey248724").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey248724").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey248724").value = base64.encode(document.getElementById("lucenenewssearchkey248724").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode248724"));
+        return true;
+    } 
+</script>
+<form action="index.htm" method="post" id="au5a" name="au5a" onsubmit="return _nl_ys_check()" class="search fl">
+ <input type="hidden" id="lucenenewssearchkey248724"  name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype248724"  name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope248724"  name="searchScope" value="0">
+<input name='showkeycode' id="showkeycode248724" placeholder="请输入关键词" type="text">
+<INPUT class="s_btn" type="submit" value=" "> 
+</form>
+
+
+
+
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script></div>
+<div class="clear"></div></div></div>
+<div class="nav smartmenu" id="navigation">
+<div class="w_1110"><UL class="nav_ul">
+					<LI class="home">
+					<a href="index.jsp"  title="首页"></a>
+				</LI>
+					<LI>
+						<a href="http://www.sdu.edu.cn/sdgk/sdjj.htm"  title="关于山大">关于山大</a>
+					</LI>
+					<LI>
+						<a href="lxxm/xlxm.htm"  title="留学项目">留学项目</a>
+							<UL>
+									<LI>
+										<a href="lxxm/xlxm.htm"  title="学历项目">学历项目</a>
+									</LI>
+									<LI>
+										<a href="lxxm/fxlxm1/jhsxm.htm"  title="非学历项目">非学历项目</a>
+									</LI>
+									<LI>
+										<a href="http://www.apply.sdu.edu.cn/" target="_blank" title="我要申请">我要申请</a>
+									</LI>
+							</UL>
+					</LI>
+					<LI>
+						<a href="zsjz.htm"  title="招生简章">招生简章</a>
+					</LI>
+					<LI>
+						<a href="jxj/jxjgs.htm"  title="奖学金">奖学金</a>
+							<UL>
+									<LI>
+										<a href="jxj/jxjgs.htm"  title="奖学金概述">奖学金概述</a>
+									</LI>
+							</UL>
+					</LI>
+					<LI>
+						<a href="xysh/qzsw1.htm"  title="签证事务">签证事务</a>
+					</LI>
+					<LI>
+						<a href="FAQ/gyjxj.htm"  title="FAQ">FAQ</a>
+							<UL>
+									<LI>
+										<a href="FAQ/gyrxsq.htm"  title="关于入学申请">关于入学申请</a>
+									</LI>
+									<LI>
+										<a href="FAQ/gyqzhjl.htm"  title="关于签证和居留">关于签证和居留</a>
+									</LI>
+									<LI>
+										<a href="FAQ/gyzs.htm"  title="关于住宿">关于住宿</a>
+									</LI>
+									<LI>
+										<a href="FAQ/gybx.htm"  title="关于保险">关于保险</a>
+									</LI>
+									<LI>
+										<a href="FAQ/gyxysh.htm"  title="关于校园生活">关于校园生活</a>
+									</LI>
+									<LI>
+										<a href="FAQ/gyzxxx.htm"  title="关于在校学习">关于在校学习</a>
+									</LI>
+									<LI>
+										<a href="FAQ/rhddsd.htm"  title="如何到达山大">如何到达山大</a>
+									</LI>
+									<LI>
+										<a href="FAQ/gyjhxmcjwtjd.htm"  title="关于交换项目常见问题解答">关于交换项目常见问题解答</a>
+									</LI>
+							</UL>
+					</LI>
+					<LI>
+						<a href="cyxz.htm"  title="常用下载">常用下载</a>
+					</LI>
+</UL></div></div><link href="dfiles/22071/views/sdu_cn/css/pikaday.css" rel="stylesheet" type="text/css">
+<div class="slider">    <DIV class="bd">
+<UL>
+<!-- 首页banner轮播 -->
+    
+
+                       <LI> <a href="jingjixueyuanliuxueshengxiangmuxuanchuanpianFinal.mp4" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1572479274, 60639)" target="_blank">
+                            <img src="images/aaaaaa1.png" border="0" width="1110" height="400">
+                        </a>  </LI>
+
+
+
+
+                       <LI> <a href="gysd/xydt/zxxq.htm" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1572479274, 51629)" target="_blank">
+                            <img src="dfiles/22071/uploadfiles/image/201701/3.jpg" border="0" width="1110" height="400">
+                        </a>  </LI>
+
+
+
+
+                       <LI> <a href="lxxm/zsjz.htm" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1572479274, 51628)" target="_blank">
+                            <img src="dfiles/22071/uploadfiles/image/201701/1.jpg" border="0" width="1110" height="400">
+                        </a>  </LI>
+
+
+
+
+                       <LI> <a href="gysd/xyfg.htm" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1572479274, 53006)" target="_blank">
+                            <img src="dfiles/22071/uploadfiles/image/201702/6.jpg" border="0" width="1110" height="400">
+                        </a>  </LI>
+
+
+
+
+                       <LI> <a href="dcxy/zxxx.htm" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1572479274, 53007)" target="_blank">
+                            <img src="dfiles/22071/uploadfiles/image/201702/7.jpg" border="0" width="1110" height="400">
+                        </a>  </LI>
+
+
+
+
+                       <LI> <img src="images/wwwwwwww.png" border="0" width="1110" height="400"></LI>
+
+
+
+
+                       <LI> <a href="<span style=%27color:red;font-size:9pt%27>转换链接错误</span>" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1572479274, 53008)" target="_blank">
+                            <img src="dfiles/22071/uploadfiles/image/201702/13.jpg" border="0" width="1110" height="400">
+                        </a>  </LI>
+
+
+</UL>
+</DIV>
+
+<DIV class="pnBtn prev"><SPAN class="blackBg"></SPAN><A class="arrow" href="javascript:void(0)"></A></DIV>
+<DIV class="pnBtn next"><SPAN class="blackBg"></SPAN><A class="arrow" href="javascript:void(0)"></A></DIV></div>
+<div class="main">
+<div class="w_1110"><!--首页快捷图片--><UL class="tags clearfix">
+                <LI class="t_1">
+                <a href="http://www.apply.sdu.edu.cn/" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 60017)">
+                    <SPAN></SPAN>
+                    <P>我要申请</P>
+                </A>
+            </LI>
+                
+                
+                    <LI class="t_2">
+                        <a href="xysh/qzsw1.htm" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 60018)">
+                            <SPAN></SPAN>
+                            <P>签证居留</P>
+                        </A>
+                    </LI>   
+                    
+                
+                
+                
+                
+                
+                    <LI class="t_3">
+                        <a href="http://www.apply.sdu.edu.cn/en/student/login?back_url=http%3A%2F%2Fwww.apply.sdu.edu.cn%2Fen%2Fstudent%2Fapply_accommodation" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 60019)">
+                            <SPAN></SPAN>
+                            <P>校内住宿</P>
+                        </A>
+                    </LI>   
+                    
+                
+                
+                
+                
+                
+                    <LI class="t_4">
+                        <a href="xsrx/wxts.htm" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 60020)">
+                            <SPAN></SPAN>
+                            <P>新生入学</P>
+                        </A>
+                    </LI>   
+                    
+                
+                
+                
+                
+                
+                    
+                    <LI class="t_5" style="display: none;">
+                        <a href="xk/bksxk.htm" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 60021)">
+                            <SPAN></SPAN>
+                            <P>选课</P>
+                        </A>
+                    </LI>
+                
+                
+                
+                
+                
+                    <LI class="t_6">
+                        <a href="xysh/yljbx.htm" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 60022)">
+                            <SPAN></SPAN>
+                            <P>医疗保险</P>
+                        </A>
+                    </LI>   
+                    
+                
+                
+                
+</UL>
+<!--首页快捷图片-->
+<div class="s_life">
+<div class="campus fl">
+<div class="tit" style="background: rgb(150, 16, 13); height: 50px; line-height: 50px; padding-left: 20px;"><a>
+<h3 class="fl">招生简章</h3></a><a class="fr" href="zsjz.htm">更多</a> </div><script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><UL>
+<LI class="clearfix zs">
+<A href="info/1282/3968.htm" target=_blank title="山东大学2026年国际学生（本科）招生简章" style="">山东大学2026年国际学生（本科）招生简章</A>
+<span class="date fr">2025-11-14</span>
+</LI>
+<LI class="clearfix zs">
+<A href="info/1282/3967.htm" target=_blank title="山东大学2026年国际学生（硕士）招生简章" style="">山东大学2026年国际学生（硕士）招生简章</A>
+<span class="date fr">2025-11-14</span>
+</LI>
+<LI class="clearfix zs">
+<A href="info/1282/3966.htm" target=_blank title="山东大学2026年国际学生（博士）招生简章" style="">山东大学2026年国际学生（博士）招生简章</A>
+<span class="date fr">2025-11-14</span>
+</LI>
+<LI class="clearfix zs">
+<A href="info/1282/3965.htm" target=_blank title="山东大学2026年国际学生（本科预科项目）招生简章" style="">山东大学2026年国际学生（本科预科项目）招生简章</A>
+<span class="date fr">2025-11-14</span>
+</LI>
+<LI class="clearfix zs">
+<A href="info/1282/3964.htm" target=_blank title="山东大学2026年国际学生（中文研修项目）招生简章" style="">山东大学2026年国际学生（中文研修项目）招生简章</A>
+<span class="date fr">2025-11-14</span>
+</LI>
+</UL><script>_showDynClickBatch(['dynclicks_u9_3968','dynclicks_u9_3967','dynclicks_u9_3966','dynclicks_u9_3965','dynclicks_u9_3964'],[3968,3967,3966,3965,3964],"wbnews", 1572479274)</script>
+</div>
+<div class="notice fr">
+<div class="tit"><i class="fl"></i><a href="tzgg2.htm">
+<h3 class="fl">通知公告</h3></a></div>
+<div class="no_list">
+<A class="more" href="">更多...</A> 
+</div></div>
+<div class="clear"></div></div></div></div>
+<div class="student">
+<div class="w_1110">
+<div class="calendar fl">
+<a href="">
+<h3>日历</h3></a>
+<style>
+.rl table td{color:#fff;}
+.rl table select{height:24px !important;}
+</style>
+<div class="rl">
+
+
+
+
+<script type="text/javascript">
+  var newsdays248772 = [];
+  var flag=true;
+  function hasnews248772(c_year,c_month,c_day)
+  {
+     c_month = c_month+1;
+     for(var i=0;i<newsdays248772.length;i++)
+     {
+        var t_date = newsdays248772[i].split("-");
+        if(c_year==t_date[0]&&c_month==t_date[1]&&c_day==t_date[2])
+        {
+            return true;
+        }
+     }
+     flag=false;
+     return false;
+  }
+  
+  function tosubmit248772(c_year,c_month,c_day)
+  {
+      document.forms['when248772'].calendarselecteddate.value = c_year+"-"+(c_month+1)+"-"+c_day;
+      document.forms['when248772'].showyear.value = "";
+      document.forms['when248772'].showmonth.value = "";
+      document.forms['when248772'].action="rllist.jsp?wbtreeid=1001";
+      document.forms['when248772'].submit();
+  }
+    
+  var Selected_Month248772;
+  var Selected_Year248772; 
+  var shownews_date248772 = "2026-9-21";
+  var Days_in_Month248772 = new Array(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31); 
+  var Current_Year248772 = new Date().getFullYear();
+  var Current_Month248772 = new Date().getMonth();
+  var Today248772 = new Date().getDate(); 
+  function fzctjqu(s)
+  {
+    var obj = document.getElementById(s);
+    if(obj) return obj;
+    return s.value;
+  }
+ 
+  function Make_Calendar248772(Year, Month) { 
+   var First_Date = new Date(Year, Month, 1); 
+   var First_Day = First_Date.getDay() + 1; 
+   if (((Days_in_Month248772[Month] == 31) && (First_Day >= 6)) || 
+   ((Days_in_Month248772[Month] == 30) && (First_Day == 7))) { 
+   var Rows = 6; 
+   } 
+   else if ((Days_in_Month248772[Month] == 28) && (First_Day == 1)) { 
+   var Rows = 4; 
+   } 
+   else { 
+   var Rows = 5; 
+   } 
+   
+   var HTML_String = '<table width="100%"><tr><td valign="top"><table cellpadding="2" cellspacing="2" width="100%">';    
+   //HTML_String += '<tr  class="fontstyle248772"  ><th>Su</th><th>Mo</th><th>Tu</th><th>We</th><th>Th</th><th>Fr</th><th>Sa</th></tr>';  
+   HTML_String += '<tr  class="fontstyle248772"  ><th>日</th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th></tr>';  
+   
+   var Day_Counter = 1; 
+   var Loop_Counter = 1; 
+   for (var j = 1; j <= Rows; j++) { 
+   HTML_String += '<tr align="centert" valign="top">'; 
+   for (var i = 1; i < 8; i++) { 
+   if ((Loop_Counter >= First_Day) && (Day_Counter <= Days_in_Month248772[Month])) { 
+   if ((Day_Counter == Today248772) && (Year == Current_Year248772) && (Month == Current_Month248772)) { 
+   HTML_String += '<td align=center style="cursor:pointer;cursor:pointer;" title="今天" onclick="javascript:tosubmit248772('+Year+','+Month+','+Day_Counter+')"  class="todaystyle248772" >' + Day_Counter + '</td>'; 
+   } else if(shownews_date248772 && (shownews_date248772==Year+'-'+(Month+1)+'-'+Day_Counter)) {
+   HTML_String += '<td align=center style="cursor:pointer;cursor:pointer;" title="您选中了这一天" onclick="javascript:tosubmit248772('+Year+','+Month+','+Day_Counter+')"  class="focusstyle248772"  >' + Day_Counter + '</td>';
+   } else if(hasnews248772(Year,Month,Day_Counter)){ 
+   HTML_String += '<td align=center style="cursor:pointer;cursor:pointer;" title="在这一天有文章发布" onclick="javascript:tosubmit248772('+Year+','+Month+','+Day_Counter+')"  class="astyle248772"  >' + Day_Counter + '</td>'; 
+   } else{ 
+   HTML_String += '<td align=center  class="nonewsstyle248772"  >' + Day_Counter + '</td>'; 
+   } 
+   Day_Counter++; 
+   } 
+   else { 
+   HTML_String += '<td> </td>'; 
+   } 
+   Loop_Counter++; 
+   } 
+   HTML_String += '</tr>'; 
+   } 
+   HTML_String += '</table></td></tr></table>'; 
+   fzctjqu('Calendar248772').innerHTML = HTML_String; 
+  } 
+   
+  function Check_Nums248772() { 
+   if ((event.keyCode < 48) || (event.keyCode > 57)) { 
+   return false; 
+   } 
+  } 
+   
+  function On_Year248772() { 
+   var Year = fzctjqu('year248772').value; 
+   if (Year.length == 4) { 
+   Selected_Month248772 = fzctjqu('month248772').selectedIndex; 
+   Selected_Year248772 = Year; 
+   //Make_Calendar248772(Selected_Year248772, Selected_Month248772); 
+    document.forms['when248772'].showyear.value = Selected_Year248772;
+    document.forms['when248772'].showmonth.value = Selected_Month248772;
+    document.forms['when248772'].action="";
+    document.forms['when248772'].submit();
+   } 
+  } 
+   
+  function On_Month248772() { 
+   var Year = fzctjqu('year248772').value; 
+   if (Year.length == 4) { 
+   Selected_Month248772 = fzctjqu('month248772').selectedIndex; 
+   Selected_Year248772 = Year; 
+   //Make_Calendar248772(Selected_Year248772, Selected_Month248772); 
+    document.forms['when248772'].showyear.value = Selected_Year248772;
+    document.forms['when248772'].showmonth.value = Selected_Month248772;
+    document.forms['when248772'].action="";
+    document.forms['when248772'].submit();
+   } 
+   else { 
+   alert('Please enter a valid year.'); 
+   fzctjqu('year248772').focus(); 
+   } 
+  } 
+   
+   
+  function Defaults248772() {
+   var cyear =  Current_Year248772;
+   var cmonth= Current_Month248772;
+   
+   var showyear="";
+   var showmonth = "";
+
+   if(showyear&&showmonth)
+   {
+     cyear = showyear;
+     cmonth= showmonth-1;
+   }
+   else if(shownews_date248772)
+   {
+     var td = shownews_date248772.split("-");
+     cyear = td[0];
+     cmonth= td[1]-1;
+   }
+   //alert(shownews_date248772.split("-")[0]+"--select--"+(shownews_date248772.split("-")[1]-1))
+   for(i=0; i<fzctjqu('month248772').length; i++)
+   {
+if((showyear?cmonth+1:cmonth) == i) fzctjqu('month248772').options[i].selected = true;
+   }
+   fzctjqu('year248772').value = cyear; 
+   Selected_Month248772 = showyear?cmonth+1:cmonth; 
+   Selected_Year248772 = cyear; 
+   Make_Calendar248772(Selected_Year248772, Selected_Month248772); 
+  } 
+
+  function Skip248772(Direction) { 
+   if (Direction == '+') { 
+   if (Selected_Month248772== 11) { 
+   Selected_Month248772 = 0; 
+   Selected_Year248772++; 
+   } 
+   else { 
+   Selected_Month248772++; 
+   } 
+   } 
+   else { 
+   if (Selected_Month248772 == 0) { 
+   Selected_Month248772 = 11; 
+   Selected_Year248772--; 
+   } 
+   else { 
+   Selected_Month248772--; 
+   } 
+   } 
+   //Make_Calendar248772(Selected_Year248772, Selected_Month248772); 
+   document.forms['when248772'].showyear.value = Selected_Year248772;
+   document.forms['when248772'].showmonth.value = Selected_Month248772;
+   document.forms['when248772'].action="";
+   document.forms['when248772'].submit();
+   //$('month248772').selectedIndex = Selected_Month248772; 
+   //$('year248772').value = Selected_Year248772; 
+  } 
+   
+  function set_year248772(str)
+  {
+    if(str=='-'){fzctjqu('year248772').value=Number(fzctjqu('year248772').value)-1}else{fzctjqu('year248772').value=Number(fzctjqu('year248772').value)+1};
+    On_Year248772();
+  }
+  
+  if (document.all) window.attachEvent('onload',Defaults248772);// IE in   
+  else window.addEventListener('load',Defaults248772,false);// Firefox 
+  </script> 
+<table width="240" cellspacing="0" cellpadding="0" align="center"  class="winstyle248772"  > 
+<form name="when248772" method=post action=""> 
+    <input type=hidden name=showyear value="" />
+    <input type=hidden name=showmonth value="" />
+    <input type=hidden name=calendarselecteddate value="" /> 
+ <tr> 
+<td align="center" style="font-size:9pt"> 
+<div id="NavBar" style="position:relative;top:-1px; font-family: 宋体; font-size:12px;">
+<a href="javascript:set_year248772('-')"  class="fontstyle248772"  title="上一年" >&lt;&lt;</a>&nbsp;
+<a href="javascript:Skip248772('-');"  class="fontstyle248772"  title="上一月" >&lt;</a>
+<span  class="fontstyle248772"  ><input type="text" name="year248772" size="4" maxlength="4" onKeyPress="return Check_Nums248772()" value="" onKeyUp="On_Year248772()" id="year248772" style="text-align:center;font-size:12px;height:20px">年<select name="month248772" id="month248772" onChange="On_Month248772()" style="width:40px;font-size:12px;height:20px">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+</select>月</span>
+<a href="javascript:Skip248772('+')"  class="fontstyle248772"  title="下一月">&gt;</a>&nbsp;
+<a href="javascript:set_year248772('+')"  class="fontstyle248772"  title="下一年">&gt;&gt;</a>
+</div> 
+
+<div id="Calendar248772" style="position:relative;top:-3px;"></div>
+</td>
+</tr>
+</form>
+</table>
+</div></div>
+<div class="speak fr">
+<a href=""><h3>山大映像</h3></a>
+<script language="javascript" src="/system/resource/js/image/imagescroll.js"></script><div id="u_u12_demo" align="center" style="OVERFLOW: hidden; WIDTH:680px;">
+ <table cellpadding="0" align="center" border="0" cellspace="0">
+     <tr>
+       <td valign="top">
+           <table cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+                <tr>
+                    <td>
+                        <table cellspacing=0 cellpadding=0 width=260 align=center border=0>
+                         <tr>
+                           <td align=center width=210>
+                                <a href="shandongdaxuexuanchuanpianzhongban.mp4" onclick="_addDynClicks(&#34;wbimage&#34;, 1572479274, 60725)" target="_blank">
+                                    <img src="images/campus1.jpg" border="0" width="250" height="200">
+                                </a>
+                           </td>
+                         </tr>
+                       </table>   
+                    </td>
+                    <td>
+                        <table cellspacing=0 cellpadding=0 width=260 align=center border=0>
+                         <tr>
+                           <td align=center width=210>
+                                <a href="images/19/12/03/14i4lbfkyk/_20191203123001.jpg" onclick="_addDynClicks(&#34;wbimage&#34;, 1572479274, 53530)" target="_blank">
+                                    <img src="images/19/12/03/14i4lbfkyk/_20191203123001.jpg" border="0" width="250" height="200">
+                                </a>
+                           </td>
+                         </tr>
+                       </table>   
+                    </td>
+                    <td>
+                        <table cellspacing=0 cellpadding=0 width=260 align=center border=0>
+                         <tr>
+                           <td align=center width=210>
+                                <a href="images/19/12/03/14i4lbfkyk/_20191203122952.png" onclick="_addDynClicks(&#34;wbimage&#34;, 1572479274, 53529)" target="_blank">
+                                    <img src="images/19/12/03/14i4lbfkyk/_20191203122952.png" border="0" width="250" height="200">
+                                </a>
+                           </td>
+                         </tr>
+                       </table>   
+                    </td>
+                    <td>
+                        <table cellspacing=0 cellpadding=0 width=260 align=center border=0>
+                         <tr>
+                           <td align=center width=210>
+                                <a href="images/19/12/03/14i4lbfkyk/_20191203122948.png" onclick="_addDynClicks(&#34;wbimage&#34;, 1572479274, 53528)" target="_blank">
+                                    <img src="images/19/12/03/14i4lbfkyk/_20191203122948.png" border="0" width="250" height="200">
+                                </a>
+                           </td>
+                         </tr>
+                       </table>   
+                    </td>
+                    <td>
+                        <table cellspacing=0 cellpadding=0 width=260 align=center border=0>
+                         <tr>
+                           <td align=center width=210>
+                                <a href="images/19/12/03/14i4lbfkyk/_20191203122939.jpg" onclick="_addDynClicks(&#34;wbimage&#34;, 1572479274, 53527)" target="_blank">
+                                    <img src="images/19/12/03/14i4lbfkyk/_20191203122939.jpg" border="0" width="250" height="200">
+                                </a>
+                           </td>
+                         </tr>
+                       </table>   
+                    </td>
+                </tr>
+            </table>
+       </td>
+       <td valign=top></td>
+     </tr>
+ </table>
+</div>
+<script>
+/*第一个参数保证与div的Id一致。*/
+/*第二个参数为图片滚动速度，越小越快。*/
+_tplimagescroll_LeftInit("u_u12_demo",50);
+</script>
+
+
+
+
+
+</div>
+<div class="clear"></div></div></div>
+<script src="dfiles/22071/views/sdu_cn/js/pikaday.js" type="text/javascript"></script>
+<script type="text/javascript" src="dfiles/22071/views/sdu_cn/js/jquery.superslide.js"></script>
+
+<div class="link">
+<div class="w_1110">
+<div class="wechat fl">    
+    </div>
+<div class="l_r fl"><UL>
+<LI>友情链接： <!-- 友情链接 --></LI>
+<LI><a href="http://www.cie.sdu.edu.cn/" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 60023)">山东大学国际教育学院</a></li>
+<LI><a href="http://www.sdu.edu.cn/" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 60024)">山大首页</a></li>
+<LI><a href="http://www.ipo.sdu.edu.cn/" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 60025)">山东大学国际事务部</a></li>
+<LI><a href="http://www.csc.edu.cn/" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 59773)">国家留学基金委</a></li>
+<LI><a href="http://www.moe.gov.cn/" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 59774)">教育部</a></li>
+<LI><a href="http://www.mofcom.gov.cn/" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 59775)">商务部</a></li>
+<LI><a href="http://www.cdb.com.cn/" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 59776)">国家开发银行</a></li>
+<LI><a href="http://www.cntour.cn/" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 59826)">中国旅游网</a></li>
+<LI><a href="http://www.jinan.gov.cn/" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 59827)">济南市人民政府</a></li>
+<LI><a href="http://www.chinadaily.com.cn/" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 59828)">中国日报</a></li>
+</UL></div>
+
+<div class="fzxsq">    <a class="apply fl" href="http://www.apply.sdu.edu.cn/" target=_blank title="" onclick="_addDynClicks(&#34;wburl&#34;, 1572479274, 60016)">在线申请</a>
+</div>
+
+
+<div class="clear"></div></div></div>
+<div class="footer">
+<div class="w_1110"><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p class="add">地址:中国山东省济南市山大南路27号山东大学 250100</p><p class="copy">版权所有 © 2015山东大学&nbsp;</p>
+
+<script type="text/javascript">
+/* 轮播图 */
+    $(".slider .bd li").first().before( jQuery(".slider .bd li").last() );
+    $(".slider").slide({  mainCell:".bd ul", effect:"leftLoop",  autoPlay:true, vis:3, autoPage:true, trigger:"click"});
+</script>
+
+
+</body></html>

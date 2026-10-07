@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html class="webplus-main"  >
+
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport"
+		content="width=1300" />
+	<title>研究生招生网</title>
+	<meta name="keywords" content="南京大学-研究生招生网">
+	<meta name="description" content="南京大学-研究生招生网">
+	
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/datepicker/css/datepicker.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/jquery.min.js" sudy-wp-context="" sudy-wp-siteId="734"></script>
+<script language="javascript" src="/_js2/loadStyle.js" sys-path="/_upload/site/1/style/49/49.css"  site-path="/_upload/site/02/de/734/style/570/570.css" ></script>
+<script language="javascript" src="/_js2/grayscale.js"   ></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/jquery.datepicker.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/datepicker_lang_HK.js"></script>
+<script type="text/javascript" src="/_upload/tpl/07/86/1926/template1926/extends/extends.js"></script>
+	<link rel="stylesheet" href="/_upload/tpl/07/86/1926/template1926/style.css" type="text/css" />
+	<link rel="stylesheet" href="/_upload/tpl/07/86/1926/template1926/js/swiper.css" type="text/css" />
+	<!--[if lt IE 9]>
+<script src="/_upload/tpl/07/86/1926/template1926/extends/libs/html5.js"></script>
+<![endif]-->
+</head>
+
+<body class="main">
+	<!--Start||head-->
+	<div class="wrapper header" id="header">
+		<div class="inner">
+			<div class="mod clearfix">
+				<div class="head-left" frag="面板01">
+					<!--logo开始-->
+					<div class="sitelogo" frag="窗口01" portletmode="simpleSiteAttri">
+						<a href="/main.htm" title="返回研究生招生网首页"><img border='0' src='/_upload/site/02/de/734/logo.png' /><span
+									class="sitetitle">研究生招生网</span></a>
+					</div>
+					<!--//logo结束-->
+				</div>
+				<!--Start||nav-->
+				<div class="wrapper nav wp-navi" id="nav">
+					<div class="wp-panel clearfix">
+						<div class="wp-window" frag="窗口1">
+							
+								
+								<ul class="wp-menu">
+									
+									<li class="menu-item i1"><a class="menu-link" href="https://yzb.nju.edu.cn/"
+											target="_self">首页</a>
+										
+									</li>
+									
+									<li class="menu-item i2"><a class="menu-link" href="/47831/list.htm"
+											target="_self">招生信息</a>
+										
+										<em class="menu-switch-arrow"></em>
+										<ul class="sub-menu ">
+											
+											<li class="sub-item i2-1"><a class="sub-link" href="/47840/list.htm"
+													target="_self">硕士招生</a>
+												
+										<em class="menu-switch-arrow"></em>
+										<ul class="sub-menu ">
+											
+											<li class="sub-item i2-1-1"><a class="sub-link" href="/47862/list.htm"
+													target="_self">简章目录</a>
+												
+											</li>
+											
+											<li class="sub-item i2-1-2"><a class="sub-link" href="/47863/list.htm"
+													target="_self">硕士最新通知</a>
+												
+											</li>
+											
+										</ul>
+										
+											</li>
+											
+											<li class="sub-item i2-2"><a class="sub-link" href="/47841/list.htm"
+													target="_self">博士招生</a>
+												
+										<em class="menu-switch-arrow"></em>
+										<ul class="sub-menu ">
+											
+											<li class="sub-item i2-2-1"><a class="sub-link" href="/47864/list.htm"
+													target="_self">简章目录</a>
+												
+											</li>
+											
+											<li class="sub-item i2-2-2"><a class="sub-link" href="/47865/list.htm"
+													target="_self">博士最新通知</a>
+												
+											</li>
+											
+										</ul>
+										
+											</li>
+											
+											<li class="sub-item i2-3"><a class="sub-link" href="https://hwxy.nju.edu.cn"
+													target="_self">留学生招生</a>
+												
+											</li>
+											
+											<li class="sub-item i2-4"><a class="sub-link" href="/xlyxx/list.htm"
+													target="_self">夏令营/推免</a>
+												
+										<em class="menu-switch-arrow"></em>
+										<ul class="sub-menu ">
+											
+											<li class="sub-item i2-4-1"><a class="sub-link" href="/zxgg/list.htm"
+													target="_self">最新公告</a>
+												
+											</li>
+											
+										</ul>
+										
+											</li>
+											
+											<li class="sub-item i2-5"><a class="sub-link" href="/47842/list.htm"
+													target="_self">港澳台招生</a>
+												
+										<em class="menu-switch-arrow"></em>
+										<ul class="sub-menu ">
+											
+											<li class="sub-item i2-5-1"><a class="sub-link" href="/47866/list.htm"
+													target="_self">简章目录</a>
+												
+											</li>
+											
+											<li class="sub-item i2-5-2"><a class="sub-link" href="/47867/list.htm"
+													target="_self">港澳台最新通知</a>
+												
+											</li>
+											
+										</ul>
+										
+											</li>
+											
+										</ul>
+										
+									</li>
+									
+									<li class="menu-item i3"><a class="menu-link" href="/wsbm/list.htm"
+											target="_self">网上报名</a>
+										
+										<em class="menu-switch-arrow"></em>
+										<ul class="sub-menu ">
+											
+											<li class="sub-item i3-1"><a class="sub-link" href="https://yz.chsi.com.cn/"
+													target="_self">硕士报名</a>
+												
+											</li>
+											
+											<li class="sub-item i3-2"><a class="sub-link" href="https://gs.nju.edu.cn/geapp/sys/yjsbmxsd/entrance.do"
+													target="_self">博士报名</a>
+												
+											</li>
+											
+											<li class="sub-item i3-3"><a class="sub-link" href="http://yzb.nju.edu.cn/main.htm"
+													target="_self">港澳台报名</a>
+												
+											</li>
+											
+											<li class="sub-item i3-4"><a class="sub-link" href="http://yzb.nju.edu.cn/main.htm"
+													target="_self">夏令营报名</a>
+												
+											</li>
+											
+										</ul>
+										
+									</li>
+									
+									<li class="menu-item i4"><a class="menu-link" href="/47832/list.htm"
+											target="_self">信息公开</a>
+										
+										<em class="menu-switch-arrow"></em>
+										<ul class="sub-menu ">
+											
+											<li class="sub-item i4-1"><a class="sub-link" href="/48335/list.htm"
+													target="_self">公示</a>
+												
+											</li>
+											
+											<li class="sub-item i4-2"><a class="sub-link" href="/48336/list.htm"
+													target="_self">复试基本分数线</a>
+												
+											</li>
+											
+											<li class="sub-item i4-3"><a class="sub-link" href="/48337/list.htm"
+													target="_self">往年报考录取统计</a>
+												
+											</li>
+											
+										</ul>
+										
+									</li>
+									
+									<li class="menu-item i5"><a class="menu-link" href="/47833/list.htm"
+											target="_self">联系我们</a>
+										
+										<em class="menu-switch-arrow"></em>
+										<ul class="sub-menu ">
+											
+											<li class="sub-item i5-1"><a class="sub-link" href="/lxzb/list.htm"
+													target="_self">联系招办</a>
+												
+											</li>
+											
+											<li class="sub-item i5-2"><a class="sub-link" href="/lxyx/list.htm"
+													target="_self">联系学院</a>
+												
+											</li>
+											
+										</ul>
+										
+									</li>
+									
+								</ul>
+								
+							
+						</div>
+					</div>
+				</div>
+				<!--End||nav-->
+				<div class="head-right">
+					<div class="site-lang clearfix" frag="窗口02">
+						
+							
+							<ul class="clearfix">
+								
+								<li class="links i1"><a href="https://gs.nju.edu.cn/geapp/sys/yjsemaphome/*default/ioriginalindex.do?min=1&t_s=1664866122912#/gzzm" target="_self">研究生招生管理信息系统</a> </li>
+								
+								<li class="links i2"><a href="https://yzb.nju.edu.cn/yw/main.htm" target="_self">English</a> </li>
+								
+							</ul>
+							
+						
+					</div>
+					<div class="searchbox" frag="窗口03" portletmode="search">
+													<!--搜索组件-->
+							<div class="wp-search clearfix">
+								<form action="/_web/_search/api/search/new.rst?locale=zh_CN&request_locale=zh_CN&context=&_p=YXM9NzM0JnQ9MTkyNiZkPTk0NDQmcD0xJm09U04m" method="post" target="_blank">
+									<div class="search-input">
+										<input name="keyword" class="search-title" type="text" value="请输入关键词..."
+											onblur="if(this.value == '') { this.value = '请输入关键词...'; }"
+											onfocus="if(this.value == '请输入关键词...') { this.value = ''; }"
+											placeholder="请输入关键词..." />
+									</div>
+									<div class="search-btn">
+										<input name="submit" class="search-submit" type="submit" value="" />
+									</div>
+								</form>
+							</div>
+							<!--//复制以上代码到自定义搜索-->
+						
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!--End||head-->
+
+	<!--Start||focus-->
+	<div class="wrapper mbanner" id="banner">
+		<div class="inner clearfix">
+			<div frag="窗口2"><div id="wp_news_w2"> 
+
+				<div class="focus"></div>
+				<script type="text/javascript">
+					var w2imgJsons = [
+				
+						{
+							title: "大哉.南大！南京大学2026年研究生招生宣传片温暖上线",
+							src: "/_upload/article/images/e4/fc/98d8f63e4af39bb5b2db12624c89/e6ccd685-195b-4266-80dd-3a41aee36fc8.jpg",
+							url: "https://mp.weixin.qq.com/s/jzzgMVW4U8BU45ibAUYGXA"
+						},
+				
+						{
+							title: "首页图-考研加油！",
+							src: "/_upload/article/images/69/37/69d807ba4bf2bd38ccdf19477f10/62951eef-d39f-4ef8-9ecf-2a30e628ea93.png",
+							url: "/19/3f/c47852a727359/page.htm"
+						},
+				
+						{}
+					];
+					w2imgJsons.pop();							
+				</script>
+			</div> 
+</div>
+		</div>
+	</div>
+	<!--End||focus-->
+	<!--Start||content-->
+
+
+	<div class="wrapper main1" id="container-1">
+		<div class="inner">
+			<div class="mod clearfix">
+				<div class="ml">
+					<div class="post post1 post-31 mbox" frag="窗口31">
+						<div class="tt">
+							<h3 class="tit"><span class="title" frag="标题">硕士最新通知<span
+										class="lmbm">MASTER</span></span> </h3>
+							<div class="more_btn" frag="按钮" type="更多"> <a href="/47863/list.htm" class="w31_more"><span class="more_text" frag="按钮内容">MORE</span></a>
+							</div>
+						</div>
+						<div class="con rili2">
+							<div id="wp_news_w31"> 
+
+								<ul class="news_list clearfix">
+									
+									<li class="news n1 clearfix">
+										<div class="news_date">
+											<div class="news_year">14</div>
+											<div class="news_days">2026-09</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/e0/0f/c47863a843791/page.htm' target='_blank' title='关于查看南京大学2027年重要专项推免批次进入复试考生名单的通知'>关于查看南京大学2027年重要专项推免批次进入复试考生名单的通知</a></div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="news n2 clearfix">
+										<div class="news_date">
+											<div class="news_year">08</div>
+											<div class="news_days">2026-09</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/dd/dc/c47863a843228/page.htm' target='_blank' title='南京大学2027年接收推荐免试研究生工作办法'>南京大学2027年接收推荐免试研究生工作办法</a></div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="news n3 clearfix">
+										<div class="news_date">
+											<div class="news_year">31</div>
+											<div class="news_days">2026-08</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/db/7f/c47863a842623/page.htm' target='_blank' title='南京大学2027年重要专项推荐免试研究生报名通知'>南京大学2027年重要专项推荐免试研究生报名通知</a></div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="news n4 clearfix">
+										<div class="news_date">
+											<div class="news_year">07</div>
+											<div class="news_days">2026-08</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/d5/21/c47863a840993/page.htm' target='_blank' title='南京大学2027年接收推荐免试研究生预报名截止时间汇总'>南京大学2027年接收推荐免试研究生预报名截止时间汇总</a></div>
+											</div>
+										</div>
+									</li>
+									
+								</ul>
+							</div> 
+
+						</div>
+					</div>
+				</div>
+				<div class="mr">
+					<div class="post post1 post-32 mbox" frag="窗口32">
+						<div class="tt">
+							<h3 class="tit"><span class="title" frag="标题">博士最新通知<span
+										class="lmbm">doctor</span></span> </h3>
+							<div class="more_btn" frag="按钮" type="更多"> <a href="/47865/list.htm" class="w32_more"><span class="more_text" frag="按钮内容">MORE</span></a>
+							</div>
+						</div>
+						<div class="con rili2">
+							<div id="wp_news_w32"> 
+
+								<ul class="news_list clearfix">
+									
+									<li class="news n1 clearfix">
+										<div class="news_date">
+											<div class="news_year">14</div>
+											<div class="news_days">2026-09</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/e0/10/c47865a843792/page.htm' target='_blank' title='关于查看南京大学2027年重要专项推免批次进入复试考生名单的通知'>关于查看南京大学2027年重要专项推免批次进入复试考生名单的通知</a></div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="news n2 clearfix">
+										<div class="news_date">
+											<div class="news_year">08</div>
+											<div class="news_days">2026-09</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/dd/de/c47865a843230/page.htm' target='_blank' title='南京大学2027年接收推荐免试研究生工作办法'>南京大学2027年接收推荐免试研究生工作办法</a></div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="news n3 clearfix">
+										<div class="news_date">
+											<div class="news_year">03</div>
+											<div class="news_days">2026-09</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/dc/74/c47865a842868/page.htm' target='_blank' title='关于开展2027年南京大学博士研究生校长特别奖学金评选工作的通知'>关于开展2027年南京大学博士研究生校长特别奖学金评选工作的通知</a></div>
+											</div>
+										</div>
+									</li>
+									
+									<li class="news n4 clearfix">
+										<div class="news_date">
+											<div class="news_year">31</div>
+											<div class="news_days">2026-08</div>
+										</div>
+										<div class="news_wz">
+											<div class="news_con">
+												<div class="news_title"><a href='/db/80/c47865a842624/page.htm' target='_blank' title='南京大学2027年重要专项推荐免试研究生报名通知'>南京大学2027年重要专项推荐免试研究生报名通知</a></div>
+											</div>
+										</div>
+									</li>
+									
+								</ul>
+							</div> 
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper main2" id="container-2">
+		<div class="inner">
+			<div class="mod clearfix">
+				<div class="post post1 post-33 mbox" frag="窗口33">
+					
+						
+						<ul class="clearfix">
+							
+							<li class="links i1"><a href="/47840/list.htm" target="_self">硕士招生</a> </li>
+							
+							<li class="links i2"><a href="/47841/list.htm" target="_self">博士招生</a> </li>
+							
+							<li class="links i3"><a href="/47842/list.htm" target="_self">港澳台招生</a> </li>
+							
+							<li class="links i4"><a href="https://hwxy.nju.edu.cn" target="_self">留学生招生</a> </li>
+							
+							<li class="links i5"><a href="/xlyxx/list.htm" target="_self">夏令营/推免</a> </li>
+							
+						</ul>
+						
+					
+				</div>
+			</div>
+		</div>
+	</div>
+    <div class="wrapper main3" id="container-3">
+        <div class="inner">
+            <div class="post post1 post-33 mbox">
+                <div class="tt">
+                    <h3 class="tit">
+                        <span class="title t1" frag="窗口3311" portletmode="windowTitle">校园风采</span>
+                        <span class="title t2" frag="窗口3321" portletmode="windowTitle">学科风采</span>
+                       <span class="title t2" frag="窗口3322" portletmode="windowTitle" style="display:none;">学长风采</span>
+                    </h3>
+                    <div class="more_btn">
+                        <span class="more_text" frag="窗口3411" portletmode="windowMore"><span class="more"><a class="more-link" href="/xyfc/list.htm" title="显示更多"><span class="moretext"><img src="/_js/_portletPlugs/simpleNews/css/icon_more_1.gif" border="0"/></span></a></span></span>
+                        <span class="more_text" frag="窗口3421" portletmode="windowMore"><span class="more"><a class="more-link" href="/47837/list.htm" title="显示更多"><span class="moretext"><img src="/_js/_portletPlugs/simpleNews/css/icon_more_1.gif" border="0"/></span></a></span></span>
+                        <span class="more_text" frag="窗口3431" portletmode="windowMore"><span class="more"><a class="more-link" href="/xzfc/list.htm" title="显示更多"><span class="moretext"><img src="/_js/_portletPlugs/simpleNews/css/icon_more_1.gif" border="0"/></span></a></span></span>
+                    </div>
+                </div>
+                <div class="con">
+                    <div class="boxm">
+                                <div class="post post1 post-34 mbox" frag="窗口34">
+                                    <div class="con">
+                                        <div id="wp_news_w34"> 
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper news_list ">
+  
+        <div class="news   swiper-slide">
+                                        <div class="ml">
+                                                    <a href='/ed/69/c48346a585065/page.htm' target='_blank' title='校园风采'><img src='/_upload/article/images/cf/2f/983fb7c54c10bd7f05b8fb7ce053/5da182fa-43ba-4834-a8ea-377a4373ed69.png' width='640' /></a>
+                                        </div>
+                                        <div class="mr">
+                                                    <span class="news_title"><p class="MsoNormal" style="text-indent:32px;line-height:1.5em;"><span style="font-size:16px;font-family:微软雅黑, sans-serif;line-height:1.5em;"><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">南京大学目前拥有仙林、鼓楼、浦口、苏州四个校区，设有</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">40</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个学院，本科生</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">15448</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">人、硕士研究生</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">19066</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">人、博士研究生</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">10269</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">人、留学生</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">1332</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">人。现有</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">“</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">双一流</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">”</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">建设学科</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">16</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，江苏高校优势学科建设工程三期项目立项学科</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">19</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，博士学位授权一级学科点</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">43</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，博士学位授权二级学科点</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">(</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">不含一级学科覆盖点</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">)1</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，专业博士学位授权点</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">7</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，硕士学位授权一级学科点</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">4</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，专业硕士学位授权点</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">23</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，本科专业</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">91</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，国家生命科学与技术人才培养基地</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">1</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，基础学科拔尖学生培养</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">2.0</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">基地</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">14</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个。全国重点实验室</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">4</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，国家重点实验室</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">5</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，国家工程技术研究中心</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">1</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，国家科技资源共享服务平台</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">1</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，国家应用数学中心</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">1</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，国家野外科学观测研究站</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">1</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，国家级</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">2011</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">协同创新中心</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">2</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，教育部人文社会科学重点研究基地</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">6</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个（含</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">2</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个教育部等部委联合认定基地），教育部哲学社会科学实验室（培育）</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">1</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，国家高端智库建设培育单位</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">1</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">个，各类省部级科研平台</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">80</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">余个。</span></span></p><p style="line-height:1.5em;"><span style="font-size:16px;font-family:微软雅黑, sans-serif;line-height:1.5em;"><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">&nbsp; &nbsp; &nbsp; &nbsp;南京大学拥有一支高素质的师资队伍，其中包括中国科学院院士</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">31</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">人，中国工程院院士</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">4</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">人，国家级领军人才近</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">400</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">人次，国家级青年人才</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">450</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">余人次，国家科技重大专项、</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">“973</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">计划</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">”</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">、</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">“863</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">计划</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">”</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">、科技创新</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">2030—</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">重大项目、国家重点研发计划等重大项目首席科学家</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">135</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">人次，国务院学位委员会学科评议组成员</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">22</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">人，国家级教学名师</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">11</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">人，</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">“</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">百千万人才工程</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">”</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">国家级人选</span><span lang="EN-US" style="line-height:1.5em;font-size:14px;">38</span><span style="font-family:微软雅黑, sans-serif;line-height:1.5em;font-size:14px;">人。</span></span></p><p><br /></p></span>
+                                        </div>
+        </div>
+  
+        <div class="news   swiper-slide">
+                                        <div class="ml">
+                                                    <a href='/93/81/c48346a627585/page.htm' target='_blank' title='校园风采'><img src='/_upload/article/images/f4/35/3fc57b914279852ea1e74189b13a/1f64cf31-4f03-48c4-961c-08e028fd894a.png' width='640' /></a>
+                                        </div>
+                                        <div class="mr">
+                                                    <span class="news_title"><p style="line-height:1.5em;">&nbsp; &nbsp;&nbsp;<span style="font-size:14px;font-family:等线;line-height:1.5em;"><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;line-height:1.5em;"></span><span style="text-align:justify;text-indent:34.56px;text-wrap:wrap;font-family:微软雅黑, &quot;microsoft yahei&quot;;color:#000000;font-size:14px;line-height:1.5em;">当前，南京大学的办学事业已经踏上新的百廿征程。面向未来，南京大学坚持以习近平新时代中国特色社会主义思想为指导，深入学习宣传贯彻党的二十大精神，牢记习近平总书记建设“第一个南大”的殷切嘱托，认真落实习近平总书记给南京大学留学归国青年学者的重要回信精神，心系“国家事”、肩扛“国家责”，聚力内涵式发展，着力高质量提升，充分运用“全面贯彻二十大精神 加快建设‘第一个南大’”大讨论成果，全面实施“奋进行动”，以系统性、协同性、前瞻性的综合改革为动力，以提升服务发展能力、开放办学能力、执行落实能力为抓手，团结奋斗、争先进位、坐言起行、应势而动，力争在坚持立德树人、推动科技自立自强上再创佳绩，在坚定文化自信、讲好中国故事上争做表率，加快建设中国特色、南大特质、时代特点、世界一流的“第一个南大”，努力为全面实现中华民族伟大复兴和共同推进人类文明进步做出新的更大贡献。</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;line-height:1.5em;"></span></span></p></span>
+                                        </div>
+        </div>
+  
+      </div>
+    <div class="swiper-pagination"></div><!--分页器。如果放置在swiper外面，需要自定义样式。-->
+    </div>
+                                        </div> 
+
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="boxm">
+                                <div class="post post1 post-341 mbox" frag="窗口341">
+                                    <div class="con">
+                                        <div id="wp_news_w341"> 
+
+    <div class="swiper mySwiper2">
+      <div class="swiper-wrapper news_list ">
+  
+        <div class="news   swiper-slide">
+                                        <div class="ml">
+                                                    <a href='/3e/ac/c47837a605868/page.htm' target='_blank' title='集成电路学院 学科风采'><img src='/_upload/article/images/bb/65/f531e3a0465f9a8c139e8839f036/5e42f49e-41ba-408f-a137-333f9da1b2ed.png' width='640' /></a>
+                                        </div>
+                                        <div class="mr">
+                                                    <span class="news_title"><p class="MsoNormal" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">南京大学集成电路学院是南京大学在苏州校区首批建设的学院之一，以新获批的一级交叉学科“集成电路科学与工程”为依托，以南京大学传统优势学科如物理、化学、材料、电子、信息科学等学科群为基础，重点建设六个研究方向，包括：（<span lang="EN-US">1</span>）微纳电子科学、（<span lang="EN-US">2</span>）器件与制造工艺、（<span lang="EN-US">3</span>）集成光电子、（<span lang="EN-US">4</span>）材料与装备、（<span lang="EN-US">5</span>）集成电路设计、（<span lang="EN-US">6</span>）封装与系统集成。学院围绕集成电路国家重大需求，致力于解决集成电路器件、设计及制造等相关核心环节的重大基础科学及工程问题，培养集成电路基础性人才、工程型人才、创新型人才及领军型人才，支撑和推动集成电路科学技术与产业的持续发展。<br /></p><p class="MsoNormal" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;"><br /></p><p class="MsoNormal"><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">学院拥有全国首批集成电路科学与工程一级学科博士点。</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">2021</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">年</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">5</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">月，获批建设</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">“</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">国家集成电路产教融合创新平台</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">”</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">，建设集人才培养、科学研究、学科建设和产业赋能为一体的区域共享型集成电路产教融合创新平台。</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">2021</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">年</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">7</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">月，成立开源芯片技术创新中心，致力于打造国家平台，发展成为开源芯片技术发展策源地。</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">2021</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">年</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">12</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">月，南京大学集成电路科学与工程一级学科入选</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">“</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">十四五</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">”</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">江苏省重点学科。</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">2022</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">年</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">2</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">月，完成</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">“</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">十四五</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">”</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">江苏省重点学科论证。</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">2022</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">年</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">6</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">月，获批成立江苏省集成电路先进制程工程技术联合实验室，是江苏省首批获批的工程技术联合实验室。</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">2022</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">年，创建自旋芯片与技术全国重点实验室。</span></p><p class="MsoNormal"><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">在学校及上述平台的支持下，集成电路学院正在建设集成电路微纳工艺平台与集成电路设计实训平台，为学院的工艺、设计、封测等科研方向提供开放、共享、基础的实验平台支撑。上述两个平台将于</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">2023</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">年</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">9</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">月启用，总面积近</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">4000m2</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">。其中，集成电路微纳工艺平台将建设一个集材料（包括低维半导体、宽禁带半导体、量子材料等）晶圆级生长、器件加工、原位测试表征、功能集成与封装为一体的先进制程研发平台，开展后摩尔时代先进制程的新理论、新材料、新器件、新工艺、新架构等前瞻性、变革性技术研究。集成电路设计实训云平台与超算中心将建设完整的</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">EDA</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">线上实训环境，拥有</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">40</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">个高性能计算节点，满足</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">200</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">人同时在线实训的需求。</span></p><p class="MsoNormal" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;"><br /></p><p class="MsoNormal" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">学院成立以来，引进了一批集成电路方向的高水平人才队伍，现已形成了由包括教育部长江特聘教授、国家杰出青年科学基金获得者等学术带头人和高素质青年学术骨干教师组成的团队，涵盖了材料、器件、设计、应用多个方向，形成了一系列高水平原创性成果。</p><p class="MsoNormal" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">二维半导体材料、器件与集成技术</p><p class="MsoNormal"><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">学院执行院长王欣然教授作为该方向的领军学者，已在该方向深耕十余年，实现了从“材料生长表征</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">-</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">器件制备测量</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">-</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">集成电路设计与工艺</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">”</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">全链条国际领先的技术积累。该研究方向先后获批科技部重点研发计划、基金委创新研究群体项目、基金委重大科研仪器项目、基金委重点项目、江苏省前沿引领项目技术基础研究重大项目等省部级重大项目支持。目前在该研究方向学院已与产业界龙头企业开展了全面深入合作，并将与产业界共同探索二维半导体在未来集成电路中的应用道路。</span></p><p class="MsoNormal"><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">&nbsp;</span></p><p class="MsoNormal"><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;"></span></p><p><img data-layer="photo" src="/_upload/article/images/bb/65/f531e3a0465f9a8c139e8839f036/7fe9c1ad-0253-4885-877a-3b2cfd217cff.png" style="float:none;" sudyfile-attr="{'title':'01.png'}" /></p><p class="MsoNormal"><br /></p><p class="MsoNormal" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">高能效计算加速芯片设计与应用</p><p class="MsoNormal"><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">依托国家集成电路产教融合创新平台，学院建设了国内一流的</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">IC</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">设计软硬件环境，该方向在满足国家和产业界重大需求的芯片研制领域成果丰硕。学院研发团队设计了高性能数字信号处理芯片，已完成工程示范性应用，关键性能国际领先；在深度学习系统的硬件加速器方面也取得了突破，领先国际同类设计；此外，设计的航天级芯片经过严苛测试，也已进入应用阶段。</span></p><p class="MsoNormal" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">宽禁带半导体材料与集成光电子器件</p><p class="MsoNormal"><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">学院研发团队在材料外延和器件微纳加工方面具有丰富的研究成果和技术积累，相关成果在</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">Nature Nanotechnology</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">、</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">Advanced Materials</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">等高水平期刊上发表，多项成果获国家级和省部级科技奖励。该方向长期致力于研究宽禁带半导体材料与器件的产业化技术，近年来获得多项科技部重点研发计划支持，并与产业界龙头企业深入开展合作，部分技术成果已实现转化。</span></p><p class="MsoNormal"><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">&nbsp;</span></p><p class="MsoNormal"><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">&nbsp;</span></p><p><img data-layer="photo" src="/_upload/article/images/bb/65/f531e3a0465f9a8c139e8839f036/d85fdeeb-683f-4c09-9062-4d9571b12d4e.png" original-src="/_upload/article/images/bb/65/f531e3a0465f9a8c139e8839f036/d85fdeeb-683f-4c09-9062-4d9571b12d4e_d.png" style="float:none;" sudyfile-attr="{'title':'02.png'}" /></p><p class="MsoNormal"><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><br /></p><p class="MsoNormal" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">自旋电子器件与技术</p><p class="MsoNormal"><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">相关团队在先进工艺节点下取得全方位产业级关键技术突破，首创多项界面精准制程工艺级控制技术，形成特色工艺集成技术，助力国内首款、国际先进</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">256Mb</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">自旋存储芯片的研制。围绕未来信息产业对超高速、低功耗自旋芯片的需求，建成了国内首套飞秒级时间分辨并自旋分辨极深紫外光电子能谱系统，获得了基金委重大仪器研发项目优秀结题，支撑了自旋量子态的探测与精准调控。</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">相关成果在</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">Nature</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">子刊与</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">Physical Review Letters</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">发表一系列高水平论文。</span></p><p class="MsoNormal"><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">&nbsp;</span></p><p class="MsoNormal"><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">近年来，学院相关成果共发表</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">2</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">篇</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">Nature</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">正刊，</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">21 </span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">篇</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">Nature/Science</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">子刊，获得国家自然科学二等奖</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">2</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">项，江苏省科技突出贡献奖</span><span lang="EN-US" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">1</span><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">项，入选中国光学十大进展。</span></p><p class="MsoNormal" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;"><br /></p><p class="MsoNormal" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">南京大学集成电路学院目前拥有一个一级学科“集成电路科学与工程”，并设有一级学科博士授权点。同时，学院拥有“集成电路设计与集成系统”本科专业。集成电路学院自<span lang="EN-US">2022</span>年开始同时招收、培养集成电路本、硕学生，<span lang="EN-US">2023</span>年开始招收集成电路博士，拥有完整的专业设置和人才培养体系。</p><p class="MsoNormal"><br /></p><p class="MsoNormal" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">南京大学集成电路学院发挥南京大学的“学科群”优势、“微结构”优势、“多校区”优势、“后发”优势，通过建设一流师资，一流学科方向，推进学科交叉，催生新兴学科。学院践行融合贯通式“新工科”人才培养模式，推动集成电路工程人才宽口径大类培养。</p><p class="MsoNormal" style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">学院注重本科教学，打造了集设计、制造、封测一体完备课程体系，培养集成电路全链条综合性人才。学院开设涵盖数理化基础、装备与材料、集成电路设计、制造工艺、封装与测试、系统与应用的多元化课程，通过物理类课程、电路类课程、计算机类课程的交叉设计，为学生构建扎实、稳固的集成电路知识体系。为培养“顶天立地”的集成电路人才，开阔学生的视野，学院设立了“科沃斯高端论坛”，邀请国内外顶尖学者包括黄维院士、清华大学集成电路学院院长吴华强、北京大学集成电路学院院长蔡一茂、西安电子科技大学集成电路研究院院长朱樟明、中科院计算所韩银和等来校授课、讲座、交流，深化学生对集成电路科学研究和产业发展的认识。</p><p><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;">在研究生的培养中，学院致力于打造有学科特色、科教融合的研究生课程体系。学院以优势学科为牵引，将科学研究与研究生教学紧密结合，在公共基础课程上打造多方向的模块化课程，建设可自由定制化的课程体系。另外，学院积极深化校地融合、产教融合，通过与苏州集成电路领军企业共建研究生工作站，探索内外联动、开放办学的新工科人才培养新范式。目前，已经与苏州国芯科技股份有限公司、江苏省第三代半导体研究院联合成立了研究生工作站，作为研究生培养的校外基地。实验室申报的大国智造主题案例“力与造化争纤毫——超高清未来显示芯片产学研融合创新”获教育部立项支持。</span></p><p><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;"></span></p><p><img data-layer="photo" src="/_upload/article/images/bb/65/f531e3a0465f9a8c139e8839f036/e7943ab6-24f5-4de3-b8bf-88d43039be7d.png" original-src="/_upload/article/images/bb/65/f531e3a0465f9a8c139e8839f036/e7943ab6-24f5-4de3-b8bf-88d43039be7d_d.png" style="float:none;" sudyfile-attr="{'title':'04.png'}" /></p><p><span style="font-family:微软雅黑, &quot;microsoft yahei&quot;;font-size:16px;"></span><br /></p><p><br /></p></span>
+                                        </div>
+        </div>
+  
+      </div>
+    <div class="swiper-pagination"></div><!--分页器。如果放置在swiper外面，需要自定义样式。-->
+    </div>
+                                        </div> 
+
+                                    </div>
+                                </div>
+                    </div>
+             
+
+<div class="boxm">
+                                <div class="post post1 post-34 mbox" frag="窗口342">
+                                    <div class="con">
+                                        <!-- No Data -->
+                                    </div>
+                                </div>
+                    </div>   </div>
+            </div>
+        </div>
+    </div>
+	<div class="wrapper main4" id="container-4">
+		<div class="inner">
+			<div class="mod clearfix">
+				<div class="ml">
+					<div class="post post1 post-36 mbox" frag="窗口36">
+						
+							
+							<ul class="clearfix">
+								
+								<li class="links i1"><a href="/47838/list.htm" target="_self">学院链接</a> </li>
+								
+								<li class="links i2"><a href="/dsxx/list.htm" target="_self">导师信息</a> </li>
+								
+								<li class="links i3"><a href="/47839/list.htm" target="_self">常见问题</a> </li>
+								
+								<li class="links i4"><a href="https://gs.nju.edu.cn/geapp/sys/yjsemaphome/*default/ioriginalindex.do?min=1&t_s=1664866122912#/gzzm" target="_self">研究生招生管理信息系统</a> </li>
+								
+							</ul>
+							
+						
+					</div>
+				</div>
+					<div class="mr">
+						<div class="post post1 post-37 mbox" frag="窗口37">
+							<div class="tt">
+								<h3 class="tit"><span class="title" frag="标题">导师风采<span
+											class="lmbm">mentors</span></span> </h3>
+								<div class="more_btn" frag="按钮" type="更多"> <a href="/47836/list.htm" class="w37_more"><span class="more_text" frag="按钮内容">MORE</span></a>
+								</div>
+							</div>
+							<div class="con" style="height:398px;overflow:hidden;">
+								<div id="wp_news_w37"> 
+	<div class="mn-swiper">								<ul class="news_list swiper-wrapper">
+										
+										<li class="news n1 swiper-slide"><div class="news_boxs">
+<div class="news_imgs"><a href="/25/73/c47836a599411/page.htm" target="_blank" style="height: 240px; display:block; background: #eee  url(/_upload/article/images/df/d6/6aecb4fc45cf9e8fe431b9d08e49/c150339c-69a5-4b66-92c3-4e8094ebed6b.png) center no-repeat;     background-size: 221px 271px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_upload/article/images/df/d6/6aecb4fc45cf9e8fe431b9d08e49/c150339c-69a5-4b66-92c3-4e8094ebed6b.png', sizingMethod='scale'); "></a></div>
+<div class="news_box"><span class="news_title">朱俊杰</span><span class="news_titles">化学化工学院</span></div>
+<div class="news_text"><a href='/25/73/c47836a599411/page.htm' target='_blank' title='朱俊杰'>教授（特聘教授）。1984年本科毕业于南京大学化学系，1993年在南京大学获得博士学位，1998-1999年在以色列...</a></div></div>
+										</li>
+										
+										<li class="news n2 swiper-slide"><div class="news_boxs">
+<div class="news_imgs"><a href="/25/6d/c47836a599405/page.htm" target="_blank" style="height: 240px; display:block; background: #eee  url(/_upload/article/images/5a/2a/e42f472243e28868324064c6155c/8397774c-15e8-4d0a-a087-01addb27b9ab.png) center no-repeat;     background-size: 221px 271px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_upload/article/images/5a/2a/e42f472243e28868324064c6155c/8397774c-15e8-4d0a-a087-01addb27b9ab.png', sizingMethod='scale'); "></a></div>
+<div class="news_box"><span class="news_title">鞠熀先</span><span class="news_titles">化学化工学院</span></div>
+<div class="news_text"><a href='/25/6d/c47836a599405/page.htm' target='_blank' title='鞠熀先'>1986、1989、1992年分别获南京大学理学学士、硕士与博士学位，1992年留校工作，1993年副教授，1999年教授、...</a></div></div>
+										</li>
+										
+										<li class="news n3 swiper-slide"><div class="news_boxs">
+<div class="news_imgs"><a href="/8d/a4/c47836a626084/page.htm" target="_blank" style="height: 240px; display:block; background: #eee  url(/_upload/article/images/8d/13/9c5da81a4f49be7cd8c43ed933ee/6a4ad6c2-9612-404b-a005-4caec360efca.jpg) center no-repeat;     background-size: 221px 271px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_upload/article/images/8d/13/9c5da81a4f49be7cd8c43ed933ee/6a4ad6c2-9612-404b-a005-4caec360efca.jpg', sizingMethod='scale'); "></a></div>
+<div class="news_box"><span class="news_title">朱马光</span><span class="news_titles">集成电路学院</span></div>
+<div class="news_text"><a href='/8d/a4/c47836a626084/page.htm' target='_blank' title='朱马光'>特聘研究员、助理教授、博导。2015年本科毕业于南京大学现代工程与应用科学学院材料物理专业，2020年获得北...</a></div></div>
+										</li>
+										
+										<li class="news n4 swiper-slide"><div class="news_boxs">
+<div class="news_imgs"><a href="/11/b0/c47836a594352/page.htm" target="_blank" style="height: 240px; display:block; background: #eee  url(/_upload/article/images/6c/62/22fac8a7413f93e1c8141c5551c6/932e6b20-b304-4318-a3fd-f54ad2c14e20.jpg) center no-repeat;     background-size: 221px 271px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_upload/article/images/6c/62/22fac8a7413f93e1c8141c5551c6/932e6b20-b304-4318-a3fd-f54ad2c14e20.jpg', sizingMethod='scale'); "></a></div>
+<div class="news_box"><span class="news_title">汤怒江</span><span class="news_titles">物理学院</span></div>
+<div class="news_text"><a href='/11/b0/c47836a594352/page.htm' target='_blank' title='汤怒江'>职称：教授。研究方向：二维材料的磁性。个人简介：于2005.6在南京大学物理系获得博士学位；2005.11-2008.6...</a></div></div>
+										</li>
+										
+										<li class="news n5 swiper-slide"><div class="news_boxs">
+<div class="news_imgs"><a href="/25/a6/c47836a599462/page.htm" target="_blank" style="height: 240px; display:block; background: #eee  url(/_upload/article/images/90/74/ac8a51e74333b8f2bd55ca17328f/a8314477-5a6c-46ae-9896-5e3d86765e8d.png) center no-repeat;     background-size: 221px 271px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_upload/article/images/90/74/ac8a51e74333b8f2bd55ca17328f/a8314477-5a6c-46ae-9896-5e3d86765e8d.png', sizingMethod='scale'); "></a></div>
+<div class="news_box"><span class="news_title">吴雪军</span><span class="news_titles">化学化工学院</span></div>
+<div class="news_text"><a href='/25/a6/c47836a599462/page.htm' target='_blank' title='吴雪军'>教授，博士生导师。2005年本科毕业于武汉理工大学理学院，2010年博士毕业于北京大学化学与分子工程学院。之...</a></div></div>
+										</li>
+										
+										<li class="news n6 swiper-slide"><div class="news_boxs">
+<div class="news_imgs"><a href="/94/c7/c47836a627911/page.htm" target="_blank" style="height: 240px; display:block; background: #eee  url(/_upload/article/images/39/3d/3c8f564e4ad8bca58a547ea741ba/fb69c141-bedc-4491-95b1-bb2ae59ddcca.jpg) center no-repeat;     background-size: 221px 271px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_upload/article/images/39/3d/3c8f564e4ad8bca58a547ea741ba/fb69c141-bedc-4491-95b1-bb2ae59ddcca.jpg', sizingMethod='scale'); "></a></div>
+<div class="news_box"><span class="news_title">张建</span><span class="news_titles">物理学院</span></div>
+<div class="news_text"><a href='/94/c7/c47836a627911/page.htm' target='_blank' title='张建'>教授，物理学院、生物医学物理研究所、南京大学脑科学研究院。简历：2002年于南京大学物理学院获博士学位，...</a></div></div>
+										</li>
+										
+										<li class="news n7 swiper-slide"><div class="news_boxs">
+<div class="news_imgs"><a href="/8d/a5/c47836a626085/page.htm" target="_blank" style="height: 240px; display:block; background: #eee  url(/_upload/article/images/ee/f9/36d06fcc40a0b5a3c89faf66911e/49b88371-71a1-478a-ae58-ae9431030d82.jpg) center no-repeat;     background-size: 221px 271px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_upload/article/images/ee/f9/36d06fcc40a0b5a3c89faf66911e/49b88371-71a1-478a-ae58-ae9431030d82.jpg', sizingMethod='scale'); "></a></div>
+<div class="news_box"><span class="news_title">邱红松</span><span class="news_titles">集成电路学院</span></div>
+<div class="news_text"><a href='/8d/a5/c47836a626085/page.htm' target='_blank' title='邱红松'>助理教授、博导。2012年本科毕业于山东师范大学物理与电子科学学院，2018年博士毕业于日本大阪大学激光工程...</a></div></div>
+										</li>
+										
+										<li class="news n8 swiper-slide"><div class="news_boxs">
+<div class="news_imgs"><a href="/8e/3a/c47836a626234/page.htm" target="_blank" style="height: 240px; display:block; background: #eee  url(/_upload/article/images/38/4a/9bb10fb54afda3c85576138c42c4/9ce00bb3-c8b1-49a2-9eb5-a5873c5ef0aa.jpg) center no-repeat;     background-size: 221px 271px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_upload/article/images/38/4a/9bb10fb54afda3c85576138c42c4/9ce00bb3-c8b1-49a2-9eb5-a5873c5ef0aa.jpg', sizingMethod='scale'); "></a></div>
+<div class="news_box"><span class="news_title">周海波</span><span class="news_titles">电子科学与工程学院</span></div>
+<div class="news_text"><a href='/8e/3a/c47836a626234/page.htm' target='_blank' title='周海波'>教授、博导。研究方向：1、网联无人驾驶与超脑智能交通；2、类脑神经元6G移动通信网络；3、超大规模低轨卫...</a></div></div>
+										</li>
+										
+										<li class="news n9 swiper-slide"><div class="news_boxs">
+<div class="news_imgs"><a href="/8d/a1/c47836a626081/page.htm" target="_blank" style="height: 240px; display:block; background: #eee  url(/_upload/article/images/f1/d3/80fc8f504418a93399c8d848dc6d/1381a1cc-928e-4dc4-b2e1-457bb766a9d4.jpg) center no-repeat;     background-size: 221px 271px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_upload/article/images/f1/d3/80fc8f504418a93399c8d848dc6d/1381a1cc-928e-4dc4-b2e1-457bb766a9d4.jpg', sizingMethod='scale'); "></a></div>
+<div class="news_box"><span class="news_title">庄喆</span><span class="news_titles">集成电路学院</span></div>
+<div class="news_text"><a href='/8d/a1/c47836a626081/page.htm' target='_blank' title='庄喆'>助理教授、特聘研究员、博导。本科/博士毕业于南京大学，曾赴英国谢菲尔德大学III-V族半导体国家研究中心作...</a></div></div>
+										</li>
+										
+										<li class="news n10 swiper-slide"><div class="news_boxs">
+<div class="news_imgs"><a href="/25/94/c47836a599444/page.htm" target="_blank" style="height: 240px; display:block; background: #eee  url(/_upload/article/images/1d/d1/cc3571e1468fa9fd6ea4ca089eab/1c48fbe7-c8c6-44a2-a672-b548db3ba07a.png) center no-repeat;     background-size: 221px 271px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_upload/article/images/1d/d1/cc3571e1468fa9fd6ea4ca089eab/1c48fbe7-c8c6-44a2-a672-b548db3ba07a.png', sizingMethod='scale'); "></a></div>
+<div class="news_box"><span class="news_title">金钟</span><span class="news_titles">化学化工学院</span></div>
+<div class="news_text"><a href='/25/94/c47836a599444/page.htm' target='_blank' title='金钟'>教授、博士生导师、南京大学天长新材料与能源技术研发中心主任。2003年和2008年分别获得获北京大学化学与分...</a></div></div>
+										</li>
+										
+									</ul>
+								</div></div> 
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper main5" id="container-5">
+			<div class="inner">
+				<div class="mod clearfix">
+					<div class="ml">
+						<div class="post post1 post-35 mbox">
+							<div class="tt">
+								<h3 class="tit"><span class="title"><span>快速链接</span><span
+											class="lmbm">Quick Links</span></span> </h3>
+							</div>
+						</div>
+					</div>
+					<div class="mr" frag="窗口38">
+						
+							
+							<ul class="clearfix">
+								
+								<li class="links i1"><a href="/47838/list.htm" target="_self">学院链接</a> </li>
+								
+								<li class="links i2"><a href="https://yz.chsi.com.cn/" target="_self">中国研招网</a> </li>
+								
+								<li class="links i3"><a href="https://news.nju.edu.cn/" target="_self">南大新闻</a> </li>
+								
+								<li class="links i4"><a href="https://grawww.nju.edu.cn/" target="_self">研究生院主页</a> </li>
+								
+								<li class="links i5"><a href="/47833/list.htm" target="_self">联系我们</a> </li>
+								
+							</ul>
+							
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End||content-->
+		<!--Start||footer-->
+		<div class="wrapper footer" id="footer">
+			<div class="inner">
+				<div class="mod clearfix">
+					<div class="foot-left" frag="窗口90" portletmode="simpleSiteAttri">
+						<p class="foottitle"><img src="/_upload/tpl/07/86/1926/template1926/images/logo.png" alt=""></p>
+						<p class="copyright"><span>地址：南京市仙林大道163号，南京大学研究生院    邮政编码：210046</span></p>
+					</div>
+					<div class="foot-right" >
+						<div class="shares" frag="窗口91">
+							<div id="wp_news_w91"> 
+
+								<ul class="clearfix">
+									
+									<li class="i1">
+										<a href="/c4/8a/c47851a574602/page.htm" target="_blank"></a>
+										<div class="con"><a href='/c4/8a/c47851a574602/page.htm' target='_blank' title='南京大学研究生招生网二维码'><img src='/_upload/article/images/86/c9/9e19807141f9a7a3933f83f4d2bb/5fafea01-93e0-4029-bc23-30e5bcef8d8e_s.jpg' width='160' /></a></div>
+									</li>
+									
+								</ul>
+							</div> 
+
+						</div>
+						<div class="mlink botlinks">
+						<div class="links-wrap" frag="窗口80">
+							<a class="links-arrow" frag="标题">友情链接</a>
+							<div class="link-items">
+								<!-- No Data -->
+							</div>
+						</div>
+
+						</div>
+						<p class="copyright"><span>Copyright © 2022 All rights reserved. 南京大学研究生招生网 版权所有</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End||footer-->
+</body>
+<script type="text/javascript" src="/_upload/tpl/07/86/1926/template1926/js/swiper.js"></script>
+<script type="text/javascript" src="/_upload/tpl/07/86/1926/template1926/js/comcus.js"></script>
+<script type="text/javascript" src="/_upload/tpl/07/86/1926/template1926/js/main.js"></script>
+    <script>
+        var mySwiper = new Swiper(".mySwiper", {
+            autoplay: true,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            clickable: true,
+        });
+        //鼠标滑过pagination控制swiper切换
+        for (i = 0; i < mySwiper.pagination.bullets.length; i++) {
+            mySwiper.pagination.bullets[i].onmouseover = function () {
+                this.click();
+            };
+        }
+        mySwiper.params.pagination.clickable = true;
+        //此外还需要重新初始化pagination
+        mySwiper.pagination.destroy()
+        mySwiper.pagination.init()
+        mySwiper.pagination.bullets.eq(0).addClass('swiper-pagination-bullet-active');
+        var mySwiper2 = new Swiper(".mySwiper2", {
+            autoplay: true,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            clickable: true,
+        });
+        //鼠标滑过pagination控制swiper切换
+        for (i = 0; i < mySwiper2.pagination.bullets.length; i++) {
+            mySwiper2.pagination.bullets[i].onmouseover = function () {
+                this.click();
+            };
+        }
+        mySwiper2.params.pagination.clickable = true;
+        //此外还需要重新初始化pagination
+        mySwiper2.pagination.destroy()
+        mySwiper2.pagination.init()
+        mySwiper2.pagination.bullets.eq(0).addClass('swiper-pagination-bullet-active');
+    </script>
+
+						
+<script>
+
+						$(function(){   
+								var swiper = new Swiper ('.mn-swiper', {
+								        	    loop : true,       //允许从第一张到最后一张，或者从最后一张到第一张  循环属性
+								        	    slidesPerView :5,   // 设置显示5张
+								        	    //centeredSlides : true,     //使当前图片居中显示
+												freeMode:true,        // 使幻灯片滑动时不止滑动一格，且不会自动贴合 
+												slidesPerGroup :1 ,   //定义1张图片为一组
+								        	   	autoplay: true,//可选选项，自动滑动
+								        	   	speed:1500,//设置过度时间
+											    grabCursor: true,//鼠标样式根据浏览器不同而定 
+								        	   	 autoplay : {
+								        	   		 delay:1,
+													 disableOnInteraction: false,
+								        	   	  },                 /*  设置每隔3000毫秒切换 */
+								        	   	<!-- 分页器 -->
+								        	   	 pagination: {
+								        	   		  el: '.swiper-pagination',
+								        	   		  clickable :true,
+								        	   		},
+								        	   	 scrollbar: {
+								        	   		  el: '.swiper-scrollbar',
+								        	   		  hide:true,
+								        	   		}, 
+								});
+								/* 鼠标悬停 停止动画 */
+							/* 	$('.swiper-slide').mouseenter(function () {
+								   swiper.autoplay.stop();
+								})
+								$('.swiper-slide').mouseleave(function () {
+								   swiper.autoplay.start();
+								})
+							 */
+						});
+</script>
+</html>
+ <img src="/_visitcount?siteId=734&type=1&columnId=47829" style="display:none" width="0" height="0"/>

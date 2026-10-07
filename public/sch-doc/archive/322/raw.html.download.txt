@@ -1,0 +1,426 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>华中科技大学2021年硕士研究生招生简章及专业目录</title><META Name="keywords" Content="华中科技大学研究生招生信息网,华中科技大学,华中科技,华中,中科,科技大学,科技大,科技,大学,2021,20,21,硕士研究生,硕士,研究生,研究,招生简章,招生,简章,专业,目录" />
+<META Name="description" Content="欢迎报考华中科技大学2021年硕士研究生!请考生用电脑端查看我校招生简章及专业目录，及时关注我校研招网发布的各项公告" />
+
+<link rel="stylesheet" href="../../css/style.css" type="text/css">
+<link rel="stylesheet" href="../../css/publice.css" type="text/css">
+<script type="text/javascript" src="../../js/jquery.min.js"></script>
+<script type="text/javascript" src="../../js/jquery.js"></script>
+<script type="text/javascript" src="../../js/superslide.js"></script>
+<script type="text/javascript" src="../../js/jquery.soChange.js"></script>
+<script type="text/javascript" src="../../js/index.js"></script>
+<script type="text/javascript">
+$(function(){
+    $(".mainmenu dl").hide();
+    $("li.mainmenu").hover(function(){
+        $(this).find("dl").stop(true,true);
+        $(this).find("dl").slideDown();
+    },function(){
+        $(this).find("dl").stop(true,true);
+        $(this).find("dl").slideUp();
+    });
+})
+</script>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230747f4757535b574200000001475c -->
+<link rel="stylesheet" type="text/css" href="../../content.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1106,'/content.jsp',3008,1680431565)</script>
+</head>
+<body>
+<!--top s-->    
+<div class="topWrap clearfix">
+    <div class="topDiv">
+        
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+
+<div class="logo">
+<a href="../../index.htm"><img src="../../images/web-logo.png" /></a>
+</div>
+
+        <div class="topR fr">
+            
+<script language="javascript">
+function dosuba273795a()
+{
+    try{
+        var ua = navigator.userAgent.toLowerCase();
+        if(ua.indexOf("msie 8")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE8
+        }else if(ua.toLowerCase().indexOf("rv:")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE11+
+        }else{
+            if (document.all) 
+            {
+                window.external.addFavorite(document.location.href, document.title);
+            }else if(window.sidebar)
+            {
+                window.sidebar.addPanel( document.title, document.location.href, "");//firefox
+            }
+            else
+            {
+                alert(hotKeysa273795a());
+            }
+        }
+
+    }
+    catch (e){alert("无法自动添加到收藏夹，请使用 Ctrl + d 手动添加");}
+}
+function hotKeysa273795a() 
+{
+    var ua = navigator.userAgent.toLowerCase(); 
+    var str = "";    
+    var isWebkit = (ua.indexOf('webkit') != - 1); 
+    var isMac = (ua.indexOf('mac') != - 1);     
+    if (ua.indexOf('konqueror') != - 1) 
+    {  
+        str = 'CTRL + B'; // Konqueror   
+    } 
+    else if (window.home || isWebkit || isMac) 
+    {        
+        str = (isMac ? 'Command/Cmd' : 'CTRL') + ' + D'; // Netscape, Safari, iCab, IE5/Mac   
+    }
+    return ((str) ? '无法自动添加到收藏夹，请使用' + str + '手动添加' : str);
+}
+function setHomepagea273795a()
+{
+    var url = document.location.href;
+    if (document.all)
+    {
+        document.body.style.behavior='url(#default#homepage)';
+        document.body.setHomePage(url);
+    }
+    else if (window.sidebar)
+    {
+        if(window.netscape)
+        {
+             try{
+                  netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+             }catch (e){
+                   alert("该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+             }
+        }
+    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+    prefs.setCharPref('browser.startup.homepage',url);
+    }
+    else
+    {
+        alert("浏览器不支持自动设为首页，请手动设置");
+    }
+}
+</script>
+<div class="topR_t fr">
+            <A href="javascript:setHomepagea273795a()" style="TEXT-DECORATION: none;">
+                设为首页
+            </A>
+        |
+            <A onclick="javascript:dosuba273795a();" href="#" style="TEXT-DECORATION: none;">
+               加入收藏
+            </A>
+        </div>
+            <script type="text/javascript">
+                function test3()
+                {
+                    var tempStr=document.getElementById('test2').value;
+                    if(tempStr=="请输入关键字搜索")
+                    {
+                        document.getElementById('test2').value="";
+                    }
+                }
+                function test4()
+                {
+                    var tempStr=document.getElementById('test2').value;
+                    if(tempStr=="")
+                    {
+                        document.getElementById('test2').value="请输入关键字搜索";
+                    }
+                }
+            </script>   
+        </div>
+    </div>
+</div>
+<!--nav-->
+<div class="navWrap  clearfix">
+    <div class="nav">
+    <ul>
+			<li>
+			<a class="link" href="../../index.htm">网站首页</a>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../xxgk/xxjj.htm">学校概况</a>
+			
+			<dl class="chang">
+
+					<dd>
+
+
+<a href="../../xxgk/xxjj.htm">学校简介</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../xxgk/lsyg.htm">历史沿革</a>
+
+</dd>
+			</dl>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../zsxx/ggtz.htm">招生信息</a>
+			
+			<dl class="chang">
+
+					<dd>
+
+
+<a href="../../zsxx/ggtz.htm">公告通知</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../zsxx/zszc.htm">招生政策</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../zsxx/ksdg.htm">考试大纲</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../zsxx/lnfsx.htm">历年分数线</a>
+
+</dd>
+			</dl>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../zsjz/sszs.htm">招生简章</a>
+			
+			<dl class="chang">
+
+					<dd>
+
+
+<a href="../../zsjz/sszs.htm">硕士招生</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../zsjz/bszs.htm">博士招生</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../zsjz/gatzs.htm">港澳台招生</a>
+
+</dd>
+			</dl>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../wsbm/tmswbxt.htm">网上报名</a>
+			
+			<dl class="chang">
+
+					<dd>
+
+
+<a href="../../wsbm/tmswbxt.htm">推免生网报系统</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../wsbm/ss_bswsbmxt.htm">硕士/博士网上报名系统</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../wsbm/ss_bswsqrxt.htm">硕士/博士网上确认系统</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../wsbm/ss_bscjcxxt.htm">硕士/博士成绩查询系统</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../wsbm/xlywsbmxt.htm">夏令营网上报名系统</a>
+
+</dd>
+			</dl>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../zyxz.htm">资源下载</a>
+		</li>
+		<li class="mainmenu">
+		    <a class="link" href="../../lxwm/zszxjssqd.htm">联系我们</a>
+			
+			<dl class="chang">
+
+					<dd>
+
+
+<a href="../../lxwm/zszxjssqd.htm">招生咨询及申诉渠道</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../lxwm/yxlxfs.htm">院系联系方式</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../lxwm/cjwt.htm">常见问题</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../lxwm/lyb.htm">留言板</a>
+
+</dd>
+
+					<dd>
+
+
+<a href="../../lxwm/wjdc.htm">问卷调查</a>
+
+</dd>
+			</dl>
+		</li>
+     
+    </ul>
+</div>
+</div>
+<script type="text/javascript">
+
+	$(".mainmenu dl").hide();
+
+</script>
+
+<!--main--> 
+<div class="mainWrap clearfix">
+    <div class="main_tit">
+        <div class="main_titT main_titTa">
+            <img src="../../img/bri_icon1.png">
+
+<a href="../../index.htm">网站首页</a>>
+<a href="../../zsxx/ggtz.htm">招生信息</a>>
+<a href="../../zsxx/ggtz.htm">公告通知</a>>
+<a href="" class="cur">正文</a>
+        </div>
+    </div>
+<div class="main_content" style="min-height:450px;">
+    
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname">
+<div class="main_contit">
+			<h2>华中科技大学2021年硕士研究生招生简章及专业目录</h2>
+			<p>作者：    时间：2020-09-23    点击数：<script>_showDynClicks("wbnews", 1680431565, 3008)</script></p>
+</div>
+<div class="main_conDiv">
+<div class="main_reporter">
+<dl>
+<dd>
+    <div id="vsb_content"><div class="v_news_content">
+<p><span style="font-family: 黑体, SimHei; font-size: 21px;">欢迎报考华中科技大学2021年硕士研究生!</span></p>
+<p><span style="font-family: 黑体, SimHei; font-size: 21px;">请考生用电脑端查看我校招生简章及专业目录，及时关注我校研招网发布的各项公告。</span></p>
+<p><span style="font-size: 21px;"></span><embed width="880" height="660" pluginspage="http://www.macromedia.com/go/getflashplayer" src="/__local/8/FB/59/DDDE6E533AC7BD1855EE6130B4D_1CBFA8B3_5E0B00.swf?e=.swf" type="application/x-shockwave-flash" wmode="Opaque" quality="high"></p>
+</div></div></dd>
+				</dl>
+			</div></div>
+<div id="div_vote_id"></div>
+
+
+
+
+
+    <div class="main_art">
+<ul>
+        <li><lable>上一条：</lable><a href="3009.htm">2021年硕士研究生入学考试华中科技大学考点（4202）报名公告</a></li>
+        <li><lable>下一条：</lable><a href="3004.htm">华中科技大学2021年各院系接收推荐免试攻读硕士学位和直接攻读博士学位研究生工作细则</a></li>
+ 
+</ul>
+</div>
+   
+</form>
+
+</div>
+</div>
+<!--link--> 
+<div class="linkWrap clearfix">
+
+    <div class="linkDiv_two">
+        <script language="javascript" src="/system/resource/js/openlink.js"></script>     <div class="linkDiv_one">
+<div class="link_one">
+			   <dl>
+                <dt>友情链接</dt>
+<dd>
+  <a href="http://www.hust.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63089)">华中科技大学</a>
+  <a href="#" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63090)">研究生工作部</a>
+  <a href="http://gszz.hust.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63091)">研究生资助网</a>
+  <a href="http://gs.hust.edu.cn/category-3" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63092)">研究生培养</a>
+  <a href="http://gs.hust.edu.cn/category-6" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63093)">研究生学位管理</a>
+  <a href="#" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63094)">研究生就业</a>
+  <a href="http://www.hust.edu.cn/759/list.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63095)">学科建设</a>
+  <a href="http://gs.hust.edu.cn/category-7" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1680431565, 63096)">非全日制教育</a>
+</dd></dl></div>
+        </div>
+
+ 
+
+
+
+    </div>
+    
+</div>
+<!--foot-->
+<div class="footWrap clearfix"><div class="footDiv_one">
+        <div class="foot_one">
+            <p style="text-align: center">Copyright © 2016&nbsp;华中科技大学研究生院招生办公室 All Rights Reserved</p>
+        </div>
+    </div>
+</div>  
+</body>
+</html>
+<script type="text/javascript">
+$(function () {
+
+//切换对象为其他，这里为包含图片和标题的层
+    $('#change_32 div.changeDiv').soChange({//对象指向层，层内包含图片及标题
+        thumbObj:'#change_32 .ul_change_a2 span',
+        thumbNowClass:'on'//自定义导航对象当前class为on
+    });
+
+});
+</script>

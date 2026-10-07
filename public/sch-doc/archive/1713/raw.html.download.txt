@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie7" lang="zh"><![endif]-->
+<!--[if IE 7]> <html class="no-js ie7" lang="zh"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="zh"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="zh"> <![endif]-->
+<!--[if IE 10]><html class="no-js ie ie10 lt-ie11" lang="zh"><![endif]-->
+<!--[if !IE]><!-->
+<html class="no-js" lang="zh">
+<!--<![endif]-->
+<head>
+    <title>2026年中国科学院大学国际研究生项目招生简章- 中国科学院大学招生信息网</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!-- // base css -->
+    <link href="/stylelib/base.css" rel="stylesheet" type="text/css" />
+    <!-- // plugins css -->
+    <!-- // theme css -->
+    <link href="/stylelib/theme_default/screen.css" rel="stylesheet" type="text/css" />
+    <link href="/stylelib/theme_default/pangbin.css" rel="stylesheet" type="text/css" />
+    <link href="/stylelib/theme_default/blue.css" rel="stylesheet" type="text/css" />
+    <link href="/stylelib/theme_default/zzsc-new.css" rel="stylesheet" type="text/css" />
+    <!-- // head js -->
+    <script src="/stylelib/plugins/modernizr.js"></script>
+    
+    <link href="/stylelib/theme_default/sanji_new.css" rel="stylesheet" type="text/css">
+
+
+
+</head>
+<body>
+    <!--//topbar:start ***********************************************-->
+    <div id="alert-upgrade-nojs">
+        <ul>
+            <li class="aun-up">
+                <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">
+                    Internet Explorer is missing updates required to properly view this site. Click
+                    here to update…
+                </a>
+            </li>
+            <li class="aun-js">您的浏览器已禁用JavaScript,(da)启(kai)用才能正常访问！</li>
+        </ul>
+    </div>
+    <div class="b-maincontent">
+        <div class="container">
+            <div class="leftServer">
+                <div class="container-A">
+                    <a title="AI校园助手" href="https://zhaosheng.arp.cn/" target="_blank"><img src="/stylelib/images/ZSAI.png"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--//topbar:end-->
+
+<!--//header:start ***********************************************-->
+<div id="header">
+    <!-- 
+        // #header
+        // 在后台可以设置这里的背景图片和平铺不平铺的属性及位置 style代码,背景图片高度限制在 64px 。
+        // style="background: transparent url("****") 0 0 no-repeat;"
+        // url:是图片地址
+        // 0 0: 定位属性，如果是横向平铺图片的话不用修改。X轴 Y轴
+        // no-repeat: 不平铺。 这里可以指定是横向平铺还是竖向平铺 repeat-x , repeat-y
+         -->
+    <div class="container">
+        <h1 id="logo">
+            <a href="http://www.ucas.ac.cn" class="m-logo-ucas" alt="中国科学院大学中文网">
+                <img src="/stylelib/index_img/logo_01.png" alt="">
+                <span>中国科学院大学招生信息</span> </a>
+            <a href="/" class="m-logo-ucas" title="返回首页" alt="中国科学院大学招生信息网">
+                    <img src="/stylelib/index_img/logo_02.png" alt="">
+                    <span>中国科学院大学招生信息网</span> </a>
+        </h1>
+        
+        <ul class="b-toplink">
+            
+        </ul>
+        <div class="b-topsearch">
+                
+                <form action="/info/search" method="get">
+                    <select name="select" id="" class="input-small m-wrap">
+                        <!--<option value="all">全部</option>-->
+                        <option value="01">博士目录</option>
+                        <option value="02">硕士目录</option>
+                        <option value="03">招生专业</option>
+                        
+                        <option value="05">导师姓名</option>
+                        <option value="06">硕士大纲</option>
+                        <option value="07">历史数据</option>
+                        <option value="08">博士公告</option>
+                        <option value="09">硕士公告</option>
+                        <option value="10">本科公告</option>
+                    </select>
+                    <input type="text" class="span2" name="text">
+                    <button class="btn btn-small">
+                        <i class="icon-search"></i><span>搜索</span></button>
+                </form>
+            </div>
+    </div>
+    <!--//container-fluid:end-->
+</div>
+<div class="b-pagenavbar">
+    <div class="container">
+        <ul class="b-menu">
+                    <li class="bm-node m-first " >
+                        
+                        <a href="/" class="bm-btn" target="_self">首页</a>
+
+                    </li>
+                    <li class="bm-node  " >
+                        
+                        <a href="/ShowArticle/newslist1/90a894e4-866c-4db5-8d65-d72606a323cb" class="bm-btn" target="_self">博士招生</a>
+                                <ul class="bm-tomenu">
+                                            <li><a href="/ShowArticle/newslist/94e6b364-4d3b-4e7c-9eea-37bb18b5ace0">通知公告</a></li>
+                                            <li><a href="/info/ZhaoshengDanwei/9adf9e50-424b-44c8-b2dc-900ef9344373">招生目录</a></li>
+                                            <li><a href="/info/ZhaoshengDanwei/0498302B-8BDB-4F34-B4F8-48740BAD4FC3">直博目录</a></li>
+                                            <li><a href="/info/ZhaoshengZhuangye/30810fbd-9a35-4a03-8991-50c7a2c0c5f9">招生专业</a></li>
+                                            <li><a href="/ShowArticle/newslist/622b63c0-7fd3-4297-af92-822f0d82fc5f">考试大纲</a></li>
+                                            <li><a href="/showarticle/news/0dc36b62-4f9e-49ba-8ebb-77ebff57fbc4">报考流程</a></li>
+                                            <li><a href="http://zhaosheng.ucas.ac.cn/sign_up/BSBM/index.aspx" target="_blank">网上报名</a></li>
+                                            <li><a href="https://zhaosheng.ucas.ac.cn/zhaosheng/login/BSZS_Enroll.aspx" target="_blank">录取查询</a></li>
+                                            <li><a href="/ShowArticle/newslist/a0d2ca25-2b79-4ba2-89bf-2f8f4603e35a">历年分数线</a></li>
+                                            <li><a href="/ShowArticle/news/2a31a411-c793-4bcb-9ece-253b29a6ac23">常见问题</a></li>
+                                            <li><a href="/Assistant/DownloadFiles/04043b78-4ce2-497b-9cc8-dd9b953144d7">资料下载</a></li>
+                                            <li><a href="/Assistant/QuestionList/9240ef78-c96e-4098-b6fd-e170d0741710">我要提问</a></li>
+                                            <li><a href="/ShowArticle/news/6ff8678c-1d0a-4f70-9358-60ebfb32b3d6">咨询与监督</a></li>
+                                </ul>
+
+                    </li>
+                    <li class="bm-node  " >
+                        
+                        <a href="/ShowArticle/newslist1/0134e73f-f9d8-4ea0-a3df-1b912769325f" class="bm-btn" target="_self">硕士招生</a>
+                                <ul class="bm-tomenu">
+                                            <li><a href="/ShowArticle/newslist/4c7e0e9f-2311-47a0-8f12-b0ec992078ac">通知公告</a></li>
+                                            <li><a href="/info/ZhaoshengDanwei/0C5EE6E2-3029-4855-BB6A-8C0E6C43CC74">推免目录</a></li>
+                                            <li><a href="/info/ZhaoshengDanwei/9e780c52-baf5-4020-b453-bc4510579559">招生目录</a></li>
+                                            <li><a href="https://zhaosheng.ucas.ac.cn/sign_up/TJ/views/index.aspx" target="_blank">缺额查询</a></li>
+                                            <li><a href="/info/ZhaoshengZhuangye/b24c54a0-634f-4546-9403-798924fa04b1">招生专业</a></li>
+                                            <li><a href="/info/KaoshiDagang/28257ae0-ef1c-4d1e-8823-5b1b557016e0">考试大纲</a></li>
+                                            <li><a href="/ShowArticle/news/739dc8ce-7ee7-4f7e-9dab-833075df8a05">报考流程</a></li>
+                                            <li><a href="http://yz.chsi.com.cn/" target="_blank">网上报名</a></li>
+                                            <li><a href="https://zhaosheng.ucas.ac.cn/zhaosheng/login/SSZS_Enroll.aspx" target="_blank">录取查询</a></li>
+                                            <li><a href="/Assistant/FractionLine/79e1e9fe-31f8-43c7-9b72-3d2e11c95a52">历年分数线</a></li>
+                                            <li><a href="/ShowArticle/news/fd47c18f-ea5e-4f7e-82c7-38c2d808a9b8">历年真题</a></li>
+                                            <li><a href="/Assistant/DownloadFiles/00a95f8f-6b93-48f3-8c50-2053156981e6">资料下载</a></li>
+                                            <li><a href="/Assistant/QuestionList/f3b10e1a-5faf-4d2d-91b5-4b900b4d6d80">我要提问</a></li>
+                                            <li><a href="/ShowArticle/news/f864bf25-0497-423f-8ed0-ebe421ce8370">常见问题</a></li>
+                                            <li><a href="/ShowArticle/news/959dee36-7bb2-4515-80c2-56fffa64f086">咨询与监督</a></li>
+                                </ul>
+
+                    </li>
+                    <li class="bm-node  " >
+                        
+                        <a href="/ShowArticle/newslist1/0659c1ad-c6df-4c2a-8c53-dacb1c2b69e8" class="bm-btn" target="_self">本科招生</a>
+                                <ul class="bm-tomenu">
+                                            <li><a href="/ShowArticle/newslist/dc7dc7f7-1b95-4d46-80e9-b6b29c4278a2">通知公告</a></li>
+                                            <li><a href="/ShowArticle/news/46225e08-3a7b-4232-acef-0aa8ef1fb9a1">招生计划</a></li>
+                                            <li><a href="/ShowArticle/news/fb5ffe1a-dd5f-46f3-b449-f2febd19ca28">招生专业</a></li>
+                                            <li><a href="/ShowArticle/newslist/4719aea6-edb5-4446-9f2d-cbcc771da521">章程及简章</a></li>
+                                            <li><a href="/ShowArticle/news/3817b46d-7d9a-4e2a-be3c-c38f9e0332bd">综合评价选拔</a></li>
+                                            <li><a href="https://bm.chsi.com.cn/" target="_blank">网上报名</a></li>
+                                            <li><a href="/ShowArticle/Enroll/0659c1ad-c6df-4c2a-8c53-dacb1c2b69e8/877ea281-9205-4360-9ff4-b49cb043c30e">录取查询</a></li>
+                                            <li><a href="/ShowArticle/news/e659426a-b687-40be-ae68-7c82866abf8c">分省招生组</a></li>
+                                            <li><a href="/Assistant/DownloadFiles/a8ab5dec-dfca-4e0f-bd03-ae723306278b">资料下载</a></li>
+                                            <li><a href="/ShowArticle/news/b132a85f-1cfa-455f-9184-bca24413a19b">常见问题</a></li>
+                                            <li><a href="/Assistant/QuestionList/a4b41d63-0899-4bdd-ace9-8b9bb301e505">我要提问</a></li>
+                                            <li><a href="/info/FractionalLine/b68c5086-59cb-413f-8edf-5723f2902baa">历年分数线</a></li>
+                                            <li><a href="/ShowArticle/news/810db7b7-9a3d-48ef-a550-f4f8b1bb7e04">咨询与监督</a></li>
+                                </ul>
+
+                    </li>
+                    <li class="bm-node  " >
+                        
+                        <a href="/ShowArticle/newslist1/e066a64c-8a84-4779-8018-f7ff1eb97f35" class="bm-btn" target="_self">港澳台招生</a>
+                                <ul class="bm-tomenu">
+                                            <li><a href="/ShowArticle/newslist/2327fec8-7a1e-4b65-b25c-8d521e1d251a">通知公告</a></li>
+                                            <li><a href="/info/ZhaoshengDanwei/727dd5d7-4aa6-49da-87c3-ba63c88423b0">硕士目录</a></li>
+                                            <li><a href="/info/ZhaoshengDanwei/ceb3fb8f-a432-424a-9e45-7ded64e07a41">博士目录</a></li>
+                                            <li><a href="https://zhaosheng.ucas.ac.cn/zhaosheng/login/GATZS_Enroll.aspx" target="_blank">录取查询</a></li>
+                                            <li><a href="/ShowArticle/news/992372bf-bddf-44fc-a790-90767663c7b4">咨询与监督</a></li>
+                                </ul>
+
+                    </li>
+                    <li class="bm-node  active" >
+                        
+                        <a href="/ShowArticle/newslist1/9bebf12d-fc49-4d67-a8f0-76997f2d114e" class="bm-btn" target="_self">留学生招生</a>
+                                <ul class="bm-tomenu">
+                                            <li><a href="/ShowArticle/newslist/6dca61d2-4d40-4dc9-9484-e95d3f457b10">留学生招生</a></li>
+                                </ul>
+
+                    </li>
+                    <li class="bm-node  " >
+                        
+                        <a href="/ShowArticle/newslist/1c728213-9f12-4d05-abeb-eb80ced363ee" class="bm-btn" target="_self">政策法规</a>
+
+                    </li>
+                    <li class="bm-node  " >
+                        
+                        <a href="/ShowArticle/newslist1/94932b5c-05ae-4bd6-9714-014f51325587" class="bm-btn" target="_self">大学生夏令营</a>
+                                <ul class="bm-tomenu">
+                                            <li><a href="/ShowArticle/newslist/f824c2a9-f94a-48c7-bbe2-a4bf2a22bcab">夏令营</a></li>
+                                            <li><a href="/ShowArticle/newslist/f17d7cfd-4e6e-4470-be9d-f39e73c73b02">暑期学校</a></li>
+                                </ul>
+
+                    </li>
+                    <li class="bm-node  " >
+                        
+                        <a href="/ShowArticle/newslist1/ce0c9d09-6148-4214-ac7f-a56df82cf1fe" class="bm-btn" target="_self">宣传专栏</a>
+                                <ul class="bm-tomenu">
+                                            <li><a href="https://v.ucas.ac.cn/" target="_blank">实景课堂</a></li>
+                                            <li><a href="/ShowArticle/newslist/f8d33d7b-b1d5-4d99-8760-99cfc9c40725">培养单位介绍</a></li>
+                                </ul>
+
+                    </li>
+                    <li class="bm-node  " >
+                        
+                        <a href="/Assistant/ContactInformation/b6230dd9-bc46-4bbf-ad1f-7c4c6ba6ae58" class="bm-btn" target="_self">联系我们</a>
+
+                    </li>
+
+        </ul>
+    </div>
+</div>
+
+    
+
+
+
+
+<div class="erji_pic">
+    <img src="/stylelib/index_img/erji-pic.jpg" width="980" height="220"></div>
+
+
+<div class="b-maincontent">
+    <div class="container">
+
+<ul class="b-pagepath breadcrumb">
+    <li><i class="icon-map-marker icon-grey"></i><span class="divider">/</span></li>
+    <li><a href="/">首页</a> <span class="divider">/</span> </li>
+        <li><a href="/ShowArticle/newslist1/9bebf12d-fc49-4d67-a8f0-76997f2d114e">留学生招生</a> <span class="divider">/</span>
+        </li>
+    <li class="active">留学生招生 </li>
+
+    
+</ul>
+
+        <div class="row-fluid">
+
+<div class="span3">
+    <div class="b-side">
+        <ul class="b-sidenav">
+            <li class="erji_nav">留学生招生</li>
+                <li id="6dca61d2-4d40-4dc9-9484-e95d3f457b10" class="active"><a href="/ShowArticle/newslist/6dca61d2-4d40-4dc9-9484-e95d3f457b10">
+                    <span>留学生招生</span></a></li>
+
+        </ul>
+        <!--//b-sidenav:end-->
+    </div>
+    <!--//b-side:end-->
+    <div style="height: 20px">
+    </div>
+            
+    
+</div>
+
+            <!-- //span3:end -->
+            <div class="span9">
+                        <div class="fxb">
+                            <h3>2026年中国科学院大学国际研究生项目招生简章</h3>
+                        </div>
+                        <div class="b-pagecontent">
+                            <div class="sanji_tag">
+                                <ul class="b-ainf">
+                                    <li><i class="icon-user icon-grey"></i>招生办公室 </li>
+                                    <li>
+                                        <i class="icon-time icon-grey"></i>2025年11月12日
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="b-abody sanji_content">
+                                <p style="line-height: 150%; text-indent: 38px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体,SimSun;">中国科学院大学简称“国科大”，是一所以科教融合为办学模式、研究生教育为办学主体、精英化本科教育为办学特色的创新型大学。国科大</span><span style="line-height: 150%; font-family:;" new="" times="">有20多个学院和100多个研究所招收国际学生</span><span style="line-height: 150%; font-family: 宋体,SimSun;">，招生专业分布在哲学、经济学、法学、教育学、文学、历史学、理学、工学、农学、医学、管理学、交叉学科等12个学科门类。招生专业、导师、学院和研究所信息可通过国科大英文网站查询（</span></span><a style="color: rgb(149, 79, 114); line-height: 150%; font-family: 宋体; font-size: 16px; text-decoration: underline;" href="http://english.ucas.ac.cn/index.php/admission/international-students"><span style="color: rgb(149, 79, 114); line-height: 150%; font-family: 宋体; font-size: 16px; text-decoration: underline;">点击链接</span></a><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">）。<a name="_GoBack"></a></span></p><p><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="font-family:; font-size: 16px;" new="" times="">&nbsp;</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">一</span></strong><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">、</span></strong><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">专业和学期期限</span></strong></span></p><p style="line-height: 150%; text-indent: 38px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">国科大面向全球招收硕士、博士研究生。中文授课招生专业请参考国科大招生信息网（</span><a style="color: rgb(149, 79, 114); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px; text-decoration: underline;" href="https://admission.ucas.ac.cn/info/ZhaoshengZhuangye/b24c54a0-634f-4546-9403-798924fa04b1"><span style="color: rgb(149, 79, 114); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px; text-decoration: underline;">点击链接</span></a><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">），英文授课专业可参考留学生招生网（</span><a style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px; text-decoration: underline;" href="https://english.ucas.ac.cn/index.php/admission/international-students/major"><span style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">点击链接</span></a><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">）。</span><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times=""><span style="font-family: 宋体; font-size: 16px;">硕士研究生的修业年限一般为</span>3<span style="font-family: 宋体; font-size: 16px;">年</span></span><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;">，博士研究生修业年限一般为</span><span style="font-family: Times New Roman; font-size: 16px;">3</span><span style="font-family: 宋体; font-size: 16px;">年至</span><span style="font-family: Times New Roman; font-size: 16px;">4</span><span style="font-family: 宋体; font-size: 16px;">年</span></span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">。修业期满，完成培养计划，成绩合格并通过论文答辩者颁发毕业证书，获得相应学位。</span></span></p><p><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="font-family:; font-size: 16px;" new="" times="">&nbsp;</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">二、申请条件</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">1</span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">. </span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">持外国护照的非中国籍公民，遵守中国法律法规及国科大规章制度。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family:; font-size: 16px;">2. <span style="line-height: 150%; font-family: 宋体; font-size: 16px;">品行端正、身心健康，无传染病和影响正常学习的身体或精神疾患。</span></span></p><p style="margin: 1em 0px; line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="font-family:; font-size: 16px;" new="" times="">3</span><span style="font-family: Times New Roman; font-size: 16px;">. </span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 16px;">申请硕士项目者需</span><span style="font-family: 宋体; font-size: 16px;" new="" times="">具有与中国学士学位相当的学位或学历；</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 16px;">申请博士项目者需具有与中国硕士学位相当的学位或学历。由于部分国家教育体制与中国教育体制有所不同，对部分国家申请者的学历学位要求参见</span><span style="font-family:; font-size: 16px;" new="" times=""><span style="font-family: 宋体; font-size: 16px;">附件</span>1</span><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 16px;" new="" times="">。</span></span></p><p style="margin: 1em 0px; line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="font-family:; font-size: 16px;" new="" times="">4</span><span style="font-family: Times New Roman; font-size: 16px;">. </span><span style="font-family:; font-size: 16px;" new="" times=""><span style="font-family: 宋体; font-size: 16px;">有较高的英语水平。申请汉语授课的，汉语水平需达到</span>HSK<span style="font-family: 宋体; font-size: 16px;">五级</span><span style="font-family: Times New Roman; font-size: 16px;">180</span><span style="font-family: 宋体; font-size: 16px;">分（含）以上水平。</span></span></span></p><p style="margin: 1em 0px 1em 19px; line-height: 150%; text-indent: 0px;"><span style="font-family: 宋体,SimSun; font-size: 16px;">&nbsp;</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">三、</span></strong><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">申请</span></strong><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">截止时间</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">2025</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">年</span><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">10</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">月</span><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">15</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">日至</span><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">2026</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">年</span><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">4</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;">月</span><span style="font-family: Times New Roman; font-size: 16px;">15</span><span style="font-family: 宋体; font-size: 16px;">日。</span>申请国科大各类奖学金的，请在奖学金项目的申请截止日期之前完成申请手续，具体参考各类奖学金申请办法（</span></span><a style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体; font-size: 16px; text-decoration: underline;" href="https://english.ucas.ac.cn/index.php/admission/international-students/financial-aid/"><span style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体; font-size: 16px;">点击链接</span></a><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">）。</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">&nbsp;</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">四、</span></strong><strong><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">申请</span></strong><strong><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">材料</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;">申请人应严格按要求认真准备申请材料。须</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">确保所交证明材料真实、完整、有效。否则，对于未注册入学的，将取消申请资格或录取资格</span><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;">；对于已注册入学的，将取消其学籍。</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">申请材料不全或不符合要求的，可能不被受理。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;">各种证书、证明需是中文或英文撰写的。如为其他语言撰写的，还须同时提供其中文或英文翻译件，并与其原件合并为一个</span><span style="font-family: Times New Roman; font-size: 16px;">PDF</span><span style="font-family: 宋体; font-size: 16px;">文件。请用彩色扫描仪扫描各类证书证明的原件。</span></span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">学校在审核申请材料过程中，可能会要求部分申请者提供申请材料的纸版原件、指定认证机构出具的认证文件以及其他文件，以供进一步审查之需。</span></span></p><p style="line-height: 150%;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">&nbsp; 1. </span></strong><strong><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">护照个人信息页</span></strong><strong><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;">扫描件</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;">护照类型必须是普通类。护照有效期须</span><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: Times New Roman; font-size: 16px;">1</span><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">年以上。根据《中华人民共和国国籍法》，原为中国公民、后加入外国国籍者，还须提供无中国户籍证明。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">2. <span style="font-family: 宋体; font-size: 16px;">两寸免冠近照</span></span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">应与护照个人信息页上的照片相同。</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="color: rgb(0, 0, 0); line-height: 150%; font-family:; font-size: 16px;" new="" times="">3. <span style="font-family: 宋体; font-size: 16px;">个人</span></span></strong><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">简历</span></strong><strong><span style="color: rgb(255, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px; font-weight: bold;">（其中须包括从</span></strong><strong><span style="color: rgb(255, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px; font-weight: bold;">大学</span></strong><strong><span style="color: rgb(255, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px; font-weight: bold;">起</span></strong><strong><span style="color: rgb(255, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px; font-weight: bold;">至今的</span></strong><strong><span style="color: rgb(255, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px; font-weight: bold;">全部学历教育经历）</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">在职人员应当在简历之后随附在职证明。</span></p><p style="text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="font-family:; font-size: 16px;" new="" times="">4. <span style="font-family: 宋体; font-size: 16px;">学位</span></span></strong><strong><span style="font-family: 宋体; font-size: 16px;" new="" times="">证书</span></strong><strong><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 16px;">原件的扫描件</span></strong></span></p><p style="margin: 1em 0px; line-height: 150%;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;">申请硕士项目须提交学士学位证书，申请博士项目须提交硕士和学士学位证书。申请人已经毕业的，须提交学位证书原件扫描件；预计将于</span><span style="font-family: Times New Roman; font-size: 16px;">202</span></span><span style="font-family:; font-size: 16px;" new="" times="">6</span><span style="font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;">年</span><span style="font-family: Times New Roman; font-size: 16px;">9</span><span style="font-family: 宋体; font-size: 16px;">月前毕业的，可先提交由所在学校学生主管部门提供的预毕业证明，学位证书须在来校报到入学前，经学院</span><span style="font-family: Times New Roman; font-size: 16px;">/</span><span style="font-family: 宋体; font-size: 16px;">研究所向国科大留学生办公室补交。</span></span></span></p><p style="text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="font-family:; font-size: 16px;" new="" times="">5. </span></strong><strong><span style="font-family: 宋体; font-size: 16px;" new="" times="">成绩单</span></strong><strong><span style="color: rgb(0, 0, 0); font-family: 宋体; font-size: 16px;">原件的扫描件</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;">申请硕士项目须提交本科学习期间完整的成绩单原件扫描件，申请博士项目须提交硕士和学士学习期间完整的成绩单原件扫描件。预计将于</span><span style="font-family: Times New Roman; font-size: 16px;">202</span></span><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">6</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;">年</span><span style="font-family: Times New Roman; font-size: 16px;">9</span><span style="font-family: 宋体; font-size: 16px;">月前毕业的，可先提交现阶段成绩单，最终成绩单须在来校报到入学前，经学院</span><span style="font-family: Times New Roman; font-size: 16px;">/</span><span style="font-family: 宋体; font-size: 16px;">研究所向国科大留学生办公室补交。</span></span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">6. </span></strong><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">英语或汉语水平证明</span></strong><strong><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;">原件的扫描件</span></strong></span></span></span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">申请人需具有较高的英语水平，应提供</span>TOEFL<span style="line-height: 150%; font-family: 宋体; font-size: 16px;">或</span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">IELTS</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">的成绩证明，或其它能体现申请人英语水平的证明材料（母语为英语者无需提供）。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family:; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">中文授课项目申请者需具有较高的汉语水平，应提供</span>HSK5<span style="line-height: 150%; font-family: 宋体; font-size: 16px;">级</span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">180</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">分（含）以上的成绩证明，或其它可以体现申请人汉语水平的证明材料。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">7. </span></strong><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">已发表论文首页及摘要（如有）</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;"><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;">最多提交</span>5<span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;">篇具有代表性的论文。请勿提供未经发表的论文。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="color: rgb(0, 0, 0); line-height: 150%; font-family:; font-size: 16px;" new="" times="">8. <span style="font-family: 宋体; font-size: 16px;">动机信</span></span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">动机信应含来华求学目的、相关专业背景、报考理由、学习计划、毕业后的就业目标等，申请博士项目者还需介绍研究经历。</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">9. </span></strong><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">两位教授或</span></strong><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">副教授</span></strong><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">的推荐信</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">推荐人应为熟悉申请人学术背景的专家学者。推荐人不应是拟接收该生的导师。推荐信需使用推荐人所在单位抬头的纸，并需推荐人本人签名、注明日期。</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">10. <span style="font-family: 宋体; font-size: 16px;">《导师接收意向表》（如有）</span></span></strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times=""><span style="font-family: 宋体; font-size: 16px;">（模板见附件</span>2<span style="font-family: 宋体; font-size: 16px;">）</span></span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;"><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;">《导师接收意向表》为入学申请的补充材料，旨在让学院</span>/<span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;">研究所及时了解导师接收申请人的意向。申请人在提交申请时，如已获得导师接收，应将《导师接收意向表》上传网申系统。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">学校</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">鼓励申请人自行联系并获得导师接收。</span><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">导师信息可通过学校英文网站（</span></span><a style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体; font-size: 16px; text-decoration: underline;" href="https://english.ucas.ac.cn/index.php/admission/international-students/supervisors"><span style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体; font-size: 16px; text-decoration: underline;">点击链接</span></a><span style="color: rgb(0, 0, 0); line-height: 150%; font-family:; font-size: 16px;"><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;">）查询，也可通拟申请学院</span>/<span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;">研究所的官方网站查询。申请人找到与自己科研兴趣相符的导师后，可向该导师发送上述申请材料，并在邮件中说明自己的求学志向。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">11. </span></strong><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">资助证明</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">已从国科大以外其他途径获得资助的申请人，请提供相应的资助证明；拟自费来华学习的，请提交担保人出具的经济担保函及银行存款证明（原件或公证件）；需向学校申请奖学金的，请完成相应奖学金的申请手续。</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="color: rgb(0, 0, 0); line-height: 150%; font-family:; font-size: 16px;" new="" times="">12. </span></strong><strong><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">报名费缴纳凭证</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">申请中国政府奖学金、</span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">“</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">一带一路</span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">”</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">国际科学组织联盟奖学金或中国科学院大学国际学生奖学金的，可以免交报名费。报名费任何情况下均不予退还。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="color: rgb(0, 0, 0); line-height: 150%; font-family:; font-size: 16px;" new="" times="">&nbsp;</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">五、</span></strong><strong><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">网上申请</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;">申请人应在申请时间内，通过网申系统</span><span style="color: rgb(0, 0, 0); line-height: 150%; font-family:; font-size: 16px;" new="" times=""><span style="font-family: 宋体; font-size: 16px;">（</span>https://is.ucas.ac.cn/</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">）</span><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;">提交入学申请。请尽早完成在线申请，以便学院</span><span style="font-family: Times New Roman; font-size: 16px;">/</span><span style="font-family: 宋体; font-size: 16px;">研究所审核并及时提醒申请者补充或更正相关材料。请注意：</span></span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="color: rgb(0, 0, 0); line-height: 150%; font-family:; font-size: 16px;" new="" times="">1. <span style="font-family: 宋体; font-size: 16px;">导师接收不再是入学申请的前提条件。符合申请条件者无论是否找到导师接收，均可</span></span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">在线</span><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">提交入学申请。<span style="font-family: 宋体; font-size: 16px;">对于没有找到导师接收的申请人，学院</span><span style="font-family: Times New Roman; font-size: 16px;">/</span><span style="font-family: 宋体; font-size: 16px;">研究所在审核通过后，会帮他们将申请材料转发给感兴趣的导师参考。</span></span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="color: rgb(0, 0, 0); line-height: 150%; font-family:; font-size: 16px;" new="" times="">2</span><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;"><span style="font-family: Times New Roman; font-size: 16px;">. </span><span style="font-family: 宋体; font-size: 16px;">申请人所填写的信息非常重要，将用于制作录取通知书和签证申请表等，请务必</span></span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">确保所填信息准确无误，以免影响后续相关事宜。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="color: rgb(0, 0, 0); line-height: 150%; font-family:; font-size: 16px;" new="" times="">3</span><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: Times New Roman; font-size: 16px;">. </span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">请勿注册多个账户，向学校重复提交入学申请。学校会进行查重。一经查实，将取消其申请资格或录取资格。</span></span></p><p style="line-height: 150%;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">&nbsp;</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">六、材料审核与考查录取</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">国科大采用</span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">“</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">申请</span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">-</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">审核制</span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">”</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">，即申请材料审核加复试的方式选拔录取国际研究生。学院</span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">/</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">研究所组织专家组进行材料审查，择优遴选出参加入学考核的人选。入学考核以面试为主，部分学院</span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">/</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">研究所会要求申请人进行笔试。入学考核的具体内容、方式、要求和时间安排由所申请的学院</span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">/</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">研究所确定并通知通过材料审核的申请人。</span></span></p><p style="line-height: 150%; text-indent: 38px;"><span style="line-height: 150%; font-family:; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">国科大根据申请材料审核、入学考核结果，择优选拔，确定录取名单。录取结果可通过在线入学申请系统查询</span>(</span><a style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体; font-size: 16px; text-decoration: underline;" href="https://is.ucas.ac.cn/"><span style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体; font-size: 16px; text-decoration: underline;">点击链接</span></a><span style="line-height: 150%; font-family:; font-size: 16px;">)<span style="line-height: 150%; font-family: 宋体; font-size: 16px;">。《中国科学院大学录取通知书》、《外国来华学习签证申请表》（</span>JW202/201<span style="line-height: 150%; font-family: 宋体; font-size: 16px;">表）等相关材料将经所申请的学院</span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">/</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">研究所邮寄给学生本人。</span></span></p><p style="line-height: 150%; text-indent: 38px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">&nbsp;</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">七、签证申请与报到注册</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">被录取者应持申请入学所用的普通护照、《中国科学院大学录取通知书》、《外国来华留学人员签证申请表》、《外国人体格检查记录》及所有体格检查报告原件等前往中国驻国际学生所在国使（领）馆办理来华学习类签证。请保存好录取通知书及</span>JW202/201<span style="line-height: 150%; font-family: 宋体; font-size: 16px;">表原件，以供入境后申请居留许可使用。请勿免签或持其他类别的签证入境。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">被录取者应按《中国科学院大学录取通知书》规定的日期和指定的地点报到入学。未能按时报到的，应事先征得学校同意。</span></p><p style="line-height: 150%;"><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">&nbsp;</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">八、费用和奖学金</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">（一）费用</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">1. <span style="font-family: 宋体; font-size: 16px;">报名费</span></span></strong></span></p><p style="line-height: 150%; text-indent: 38px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times=""><span style="font-family: 宋体; font-size: 16px;">人民币</span>600<span style="font-family: 宋体; font-size: 16px;">元。</span></span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">报名费不论录取与否，均不退还。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">2. <span style="font-family: 宋体; font-size: 16px;">学费</span></span></strong></span></p><p style="background: rgb(255, 255, 255); text-align: left; line-height: 150%; text-indent: 38px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">硕士项目：</span><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times=""><span style="font-family: 宋体; font-size: 16px;">人民币</span>30</span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">,</span><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">000<span style="font-family: 宋体; font-size: 16px;">元。</span></span></span></p><p style="background: rgb(255, 255, 255); text-align: left; line-height: 150%; text-indent: 38px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">博士项目：</span><span style="color: rgb(0, 0, 0); line-height: 150%; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;">人民币</span><span style="font-family: Times New Roman; font-size: 16px;">40,000</span><span style="font-family: 宋体; font-size: 16px;">元</span><span style="font-family: Times New Roman; font-size: 16px;">/</span><span style="font-family: 宋体; font-size: 16px;">人</span><span style="font-family: Times New Roman; font-size: 16px;">/</span><span style="font-family: 宋体; font-size: 16px;">学年（理工类）；人民币</span><span style="font-family: Times New Roman; font-size: 16px;">34,000</span><span style="font-family: 宋体; font-size: 16px;">元</span><span style="font-family: Times New Roman; font-size: 16px;">/</span><span style="font-family: 宋体; font-size: 16px;">人</span><span style="font-family: Times New Roman; font-size: 16px;">/</span><span style="font-family: 宋体; font-size: 16px;">学年（文科类）。</span></span></span></p><p style="line-height: 150%; text-indent: 38px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">获得中国政府奖学金、中国科学院</span><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times=""><span style="font-family: Times New Roman; font-size: 16px;">“</span><span style="font-family: 宋体; font-size: 16px;">一带一路</span><span style="font-family: Times New Roman; font-size: 16px;">”</span><span style="font-family: 宋体; font-size: 16px;">国际科学组织联盟奖学金或中国科学院大学国际学生奖学金</span></span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">资助的，可以免交学费。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">3. <span style="font-family: 宋体; font-size: 16px;">住宿费</span></span></strong></span></p><p style="line-height: 150%; text-indent: 40px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">双人间或三人间</span><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times=""><span style="font-family: 宋体; font-size: 16px;">：人民币</span>30<span style="font-family: 宋体; font-size: 16px;">元</span><span style="font-family: Times New Roman; font-size: 16px;">/</span><span style="font-family: 宋体; font-size: 16px;">人</span><span style="font-family: Times New Roman; font-size: 16px;">/</span></span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">天；单人间：人民币</span><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">60</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;">元</span><span style="font-family: Times New Roman; font-size: 16px;">/</span><span style="font-family: 宋体; font-size: 16px;">床</span><span style="font-family: Times New Roman; font-size: 16px;">/</span><span style="font-family: 宋体; font-size: 16px;">天。</span></span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">4. <span style="font-family: 宋体; font-size: 16px;">其他费用</span></span></strong></span></p><p style="line-height: 150%; text-indent: 40px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">医疗费根据医保方案由保险公司赔付。伙食费、交通费以及培养计划之外的实验、会议、培训等所需费用均由本人按需支付。</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">&nbsp;</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">注意事项：</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">1. <span style="font-family: 宋体; font-size: 16px;">国科大账户只接收人民币</span></span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">、美元或欧元。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">2. <span style="line-height: 150%; font-family: 宋体; font-size: 16px;">国科大银行账户信息如下</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">开户名称：中国科学院大学</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">开户银行：中国建设银行北京东方广场支行</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">银行账号：</span>11001059200053002790</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">银行国际代码：</span>PCBCCNBJBJX</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">3. <span style="line-height: 150%; font-family: 宋体; font-size: 16px;">向国科大账户汇款时，请务必注明汇款用途及学生姓名、国籍和护照号码。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">4. <span style="line-height: 150%; font-family: 宋体; font-size: 16px;">国际学生宿舍数量有限，未预订成功的学生，须自行联系校外住宿。</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">&nbsp;</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">（二）奖学金</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">1. <span style="font-family: 宋体; font-size: 16px;">中国政府奖学金</span></span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">中国政府奖学金下设国别双边项目、中国</span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">—</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">欧盟学生交流项目、中国</span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">—</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">东盟大学组织奖学金项目等资助相关国家学生来华攻读研究生学位。奖学金内容包括免交学费、报名费，提供生活费、校内基本住宿和医疗保险等。详细内容见国家留学基金管理委员会网站（</span></span><a style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px; text-decoration: underline;" href="http://www.csc.edu.cn/Laihua/"><span style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">http://www.csc.edu.cn/Laihua/</span></a><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">）。国科大是中国政府奖学金院校。符合条件的申请者可通过本国有关部门和中国驻外使领馆推荐，申请这些项目</span><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times=""><span style="font-family: 宋体; font-size: 16px;">。申请时间一般为上年</span>11<span style="font-family: 宋体; font-size: 16px;">月至当年</span></span><span style="line-height: 150%; font-family: Times New Roman; font-size: 16px;">4</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">月。各个国家申请截止时间不同，请注意提前查询。申请时如需提供国科大预录取证明，请提前与国科大留学生办公室联系。申请者亦可通过国科大推荐，申请中国政府奖学金高水平研究生项目及</span><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">丝绸之路项目</span></span><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;"><a name="_Hlk152580615"></a>。</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">2. </span></strong><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">中国科学院</span></strong><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times=""><span style="font-family: Times New Roman; font-size: 16px;">“</span><span style="font-family: 宋体; font-size: 16px;">一带一路</span><span style="font-family: Times New Roman; font-size: 16px;">”</span><span style="font-family: 宋体; font-size: 16px;">国际科学组织联盟奖学金</span></span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">该奖学金为来自世界各国的优秀青年到国科大攻读研究生学位提供全额奖学金资助。资助内容包括免交学费和报名费，提供生活费和医疗保险。国科大是该计划资助机构之一。符合条件者，可按照其申请办法提交相关材料。</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">3. <span style="font-family: 宋体; font-size: 16px;">中国科学院大学国际学生奖学金</span></span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">该奖学金为外国优秀青年来国科大攻读研究生学位提供全额奖学金。资助内容包括免交学费，提供基本住宿、生活费和医疗保险。符合条件者可按照其申请办法提出申请。</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">以上项目申请办法详见中国科学院大学招生信息网（</span></strong></span><a style="font-family: 宋体,SimSun; font-size: 16px; text-decoration: underline;" href="https://admission.ucas.ac.cn/ShowArticle/newslist1/9bebf12d-fc49-4d67-a8f0-76997f2d114e"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体; font-size: 16px;">点击链接</span></strong></span></a><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">）。</span></strong></span></p><p style="line-height: 150%;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">&nbsp;</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><strong><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">九、联系方式</span></strong></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">中国科学院大学留学生办公室</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;" new="" times="">通讯地址：北京市</span><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times=""><span style="font-family: 宋体; font-size: 16px;">海淀区中关村东路</span>80<span style="font-family: 宋体; font-size: 16px;">号</span></span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;">联系人：胡老师</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="font-family: 宋体,SimSun; font-size: 16px;"><span style="line-height: 150%; font-family: 宋体; font-size: 16px;"><span style="font-family: 宋体; font-size: 16px;">电话：</span><span style="font-family: Times New Roman; font-size: 16px;">0</span></span><span style="line-height: 150%; font-family:; font-size: 16px;" new="" times="">10-82672900</span></span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">Email<span style="line-height: 150%; font-family: 宋体; font-size: 16px;">：</span></span><a style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px; text-decoration: underline;"><span style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">master@ucas.ac.cn</span></a><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">（硕士项目）</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><a style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px; text-decoration: underline;"><span style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">phd@ucas.ac.cn</span></a><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">（博士项目）</span></p><p style="line-height: 150%; text-indent: 32px;"><span style="line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">网站：</span><a style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px; text-decoration: underline;" href="http://english.ucas.ac.cn/"><span style="color: rgb(56, 148, 193); line-height: 150%; font-family: 宋体,SimSun; font-size: 16px;">http://english.ucas.ac.cn</span></a></p>
+                            </div>
+                                <ul class="b-aannex">
+
+                                        <li>
+                                            <span><i class="icon-download icon-grey"></i>附件 1 </span><a href="/Content/Upload/2025/11/4.docx">附件1</a>
+                                        </li>
+                                        <li>
+                                            <span><i class="icon-download icon-grey"></i>附件 2 </span><a href="/Content/Upload/2025/11/6.docx">附件2</a>
+                                        </li>
+                                </ul>
+                        </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer id="footer">
+        <div class="container">
+            <!--//footer:start ***********************************************-->
+
+
+<div class="b-footer-link">
+    <div class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">友情连接 <b class="caret"></b></a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                    <li>
+                        <a href="http://www.ucas.ac.cn">中国科学院大学主页</a>
+                    </li>
+                    <li>
+                        <a href="http://www.cas.ac.cn/">中国科学院主页</a>
+                    </li>
+                    <li>
+                        <a href="http://www.moe.edu.cn/">中华人民共和国教育部</a>
+                    </li>
+                    <li>
+                        <a href="http://gaokao.chsi.com.cn/">教育部阳光高考平台</a>
+                    </li>
+                    <li>
+                        <a href="http://news.ucas.ac.cn/">中国科学院大学新闻网</a>
+                    </li>
+                    <li>
+                        <a href="http://job.ucas.ac.cn/">中国科学院大学就业信息网</a>
+                    </li>
+
+            
+        </ul>
+    </div>
+</div>
+<div class="b-footer-copy">&copy; 中国科学院大学版权所有</div>
+<div class="b-footer-add">地址：北京市石景山区玉泉路19号（甲）  邮编:100049</div>
+                
+<div class="b-weibo" id="page-wrap">
+    <div id="content-wrap">
+            <div id="content-left" class="demo" >
+            <ul id="imglist">
+        <li><a ><img src="/Images/gkdgw.png" style="width:44px;height:44px;" alt="国科大官方微信公众号"></a><span>国科大官方微信公众号</span></li>
+    </ul></div>
+    </div>
+</div>
+               
+<div class="b-footer-beian"><a href="">京ICP备07017956号</a><br /><img src="/Images/bah.png" alt=""/>
+<a>京公网安备 11010702001635号</a></div>
+
+        </div>
+        <!--//container:end-->
+    </footer><!--//footer:end-->
+    <!--// Loading JS -->
+    
+    <script src="/stylelib/jquery-3.5.1.min.js"></script>
+    <script src="/stylelib/base.js"></script>
+    <!--[if lt IE 9]><script src="/content/stylelib/plugins/jquery.placeholder.min.js"></script><![endif]-->
+    <!--common script for all pages-->
+    <script src="/stylelib/theme_tow/global.js"></script>
+    
+    <!--script for this page only-->
+
+    <script type="text/javascript">
+        var ShowImage = function () {
+            xOffset = 230;
+            yOffset = 20;
+            $("#imglist").find("img").hover(function (e) {
+                $("<img id='imgshow' src='" + this.src + "' />").appendTo("body");
+
+                $("#imgshow").css({ "top": (e.pageY - xOffset) + "px", "left": (e.pageX + yOffset) + "px" }).fadeIn("slow");
+            }, function () {
+                $("#imgshow").remove();
+            });
+        };
+
+        jQuery(document).ready(function () {
+            ShowImage();
+        });
+    </script>
+    <!--// JS End -->
+    <script type="text/javascript">
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fc2482f5d664a9a1cb5916139ab90d407' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+</body>
+</html>

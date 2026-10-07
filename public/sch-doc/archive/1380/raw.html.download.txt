@@ -1,0 +1,563 @@
+﻿<!DOCTYPE html>
+
+
+<!--[if IE 7 ]>
+<html class="ie7"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>研究生招生-武汉大学信息公开网</title><meta name="pageType" content="2">
+<meta name="pageTitle" content="研究生招生">
+
+
+<META Name="SiteName" Content="武汉大学信息公开网" />
+<META Name="SiteDomain" Content="info.whu.edu.cn" />
+<META Name="ColumnName" Content="研究生招生" />
+
+    
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <link href="../../css/Info-main.css" rel="stylesheet">
+    <link href="../../css/moblie1.css" rel="stylesheet">
+    <script src="../../js/jquery-1.9.1.min.js"></script>
+    <script src="../../js/main.js"></script>
+<style>
+.listBox{}
+
+.listBox .g {
+    height: 1px;
+    background: #c5d1e8;
+    margin-top: 5px;
+    margin-bottom: 20px;}
+
+.listBox .ltitle{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #003570;
+    position: relative;
+    padding-left: 15px;}
+
+.listBox .ltitle:after {
+    display: block;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #335379;
+    position: absolute;
+    left: 0;
+    top: 8px;}
+
+.lists ul li{
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 1px dashed #dae6f0;}
+
+.lists ul li a {
+    padding-left: 15px;
+    height: 46px;
+    font-size: 14px;
+    color: #525252;
+    background: url(../../images/dian.png) 3px center no-repeat;
+    display:block;
+    width:80%;
+    float:left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+
+.lists ul li:last-child{
+    border-bottom:0;}
+
+.lists ul li span {
+    display: block;
+    float: right;
+    text-align: right;
+    width: 15%;
+    color: #8a8a8a;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: right;}
+
+.lists:last-child div{
+    background: transparent;}
+
+
+@media screen and (max-width: 600px){
+    .lists ul li a{
+        width:100%;}
+    .lists ul li span{
+        display:none;}
+}
+</style>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230747f475750515742000300014351 -->
+<link rel="stylesheet" type="text/css" href="../../uints/submenu_pagelist.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1489,'/uints/submenu_pagelist.jsp',-1,1945530180)</script>
+</head>
+
+<body>
+    <div class="header-top">
+        <div class="container">
+                <script language="javascript" src="/system/resource/js/dynclicks.js"></script><ul class="clearfix">
+        <li>
+        <a href="../../student/index3.jsp?urltype=tree.TreeTempUrl&wbtreeid=1032" onclick="_addDynClicks(&#34;wbimage&#34;, 1945530180, 39120)" target="_blank">
+            <img src="../../images/min-student.png">
+                学生
+        </a>
+    </li>               
+    <li>
+        <a href="../../faculty/index1.jsp?urltype=tree.TreeTempUrl&wbtreeid=1010" onclick="_addDynClicks(&#34;wbimage&#34;, 1945530180, 39119)" target="_blank">
+            <img src="../../images/min-Teaching.png">
+                教职工
+        </a>
+    </li>               
+    <li>
+        <a href="#" onclick="_addDynClicks(&#34;wbimage&#34;, 1945530180, 39118)" target="_blank">
+            <img src="../../images/fanhui.png">
+                怀念旧版
+        </a>
+    </li>               
+</ul>
+            <div class="header-right">
+                    <ul class="clearfix search-top">
+    <li>
+        <a href="#" target="_blank" onclick="_addDynClicks(&#34;wbimage&#34;, 1945530180, 39128)">
+            <img src="../../images/mailbox.png">
+            书记信箱 
+        </a>
+    </li>
+    <li>
+        <a href="#" target="_blank" onclick="_addDynClicks(&#34;wbimage&#34;, 1945530180, 39127)">
+            <img src="../../images/mailbox1.png">
+            校长信箱 
+        </a>
+    </li>
+    <li>
+        <a href="http://www.whu.edu.cn" target="_blank" onclick="_addDynClicks(&#34;wbimage&#34;, 1945530180, 39126)">
+            <img src="../../images/home.png">
+            学校首页 
+        </a>
+    </li>
+    <li>
+        <a href="http://my.whu.edu.cn" target="_blank" onclick="_addDynClicks(&#34;wbimage&#34;, 1945530180, 39125)">
+            <img src="../../images/menhu.png">
+            信息门户 
+        </a>
+    </li>
+</ul>
+                <!--  搜索开始 --> 
+                
+                <!-- 3.1.3版本 -->
+
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script><script language="javascript" src="/system/resource/vue/vue.js"></script><script language="javascript" src="/system/resource/vue/bluebird.min.js"></script><script language="javascript" src="/system/resource/vue/axios.js"></script><script language="javascript" src="/system/resource/vue/polyfill.js"></script><script language="javascript" src="/system/resource/vue/token.js"></script><LINK href="/system/resource/vue/static/element/index.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/vue/static/element/index.js"></script><script language="javascript" src="/system/resource/vue/static/public.js"></script><script language="javascript" src="/system/resource/openapp/search/js/containsHtmlTags.js"></script><script language="javascript" src="/system/resource/openapp/search/layui/layui.js"></script><div id="appu2">
+    <div class="search search-gzbox clearfix" v-if="!isError">
+        <div class="searchbox">
+            <input type="text" class="search_kang" placeholder="请输入关键字" autocomplete="off" v-model="query.keyWord" @keyup.enter="onSubmit" style="background: #182440;border: 1px solid #182440;">
+            <input type="image" name="search_submit" class="search_submit" src="../../images/search.png" v-on:click="onSubmit()" />
+        </div>
+    </div>
+    <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+        应用维护中！
+    </div>
+</div>
+<script>
+    var appOwner = "1945530180";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+    jQuery.support.cors = true;
+
+    $.ajaxSetup({
+        beforeSend:function(request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu2",
+        data: function() {
+            return {
+                query:{
+                    keyWord:"",
+                    owner:appOwner,
+                    token:token,
+                    urlPrefix:urlPrefix,
+                },
+                isError: false
+            }
+        },
+        mounted: function() {
+            var _this = this;
+            // _this.init();
+        },
+        methods:{
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type:"get",
+                    success: function(response){
+                        if(response.code=="0000"){
+                        }else if(response.code =="220"){
+                            _this.isError = true;
+                            console.log(response);
+                        }else if(!response.code){
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function(response){
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit:function(e){
+                var _this = this;
+                var query = _this.query;
+                if(query.keyWord){
+                    query["fields"] = _this.fields;
+                    var query=new Base64().encode(JSON.stringify(query));
+                    if("/system/resource/code/notemp.jsp?owner=1945530180&wbtreeid=1489&tempname=%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E9%A1%B5&notuse=notuse".indexOf("?") != -1){
+                        window.location.href="../../gzz_ss.htm?query=" + query;
+                    }else{
+                        window.location.href="../../gzz_ss.htm?query=" + query;
+                    }
+                }else{alert("请填写搜索内容")}
+            },
+
+        }
+    })
+</script>
+
+<script>
+    var appElementu2 = document.querySelector("#appu2");
+    if(appElementu2 && appElementu2.__vue__) {
+     
+    } else {
+      $("#divu2").html($("#htmlu2").text());
+      var appOwner = "1945530180";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) {
+         token = 'tourist';
+      }
+      var urlPrefix = "/aop_component/";
+      jQuery.support.cors = true;
+
+      $.ajaxSetup({
+        beforeSend:function(request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfo = {
+        query:{
+            keyWord:"",
+            owner:appOwner,
+            token:token,
+            urlPrefix:urlPrefix,
+        },
+        isError: false
+      };
+
+      function keyUpFun(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+        onSubmitu2();
+        }
+      };   
+      
+      function onSubmitu2(){ 
+       queryInfo.query.keyWord= $(".qwss").val();           
+        var query = queryInfo.query;
+        if(query.keyWord){           
+            var query=new Base64().encode(JSON.stringify(query));
+            if("/system/resource/code/notemp.jsp?owner=1945530180&wbtreeid=1489&tempname=%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E9%A1%B5&notuse=notuse".indexOf("?") != -1){
+                window.location.href="/system/resource/code/notemp.jsp?owner=1945530180&wbtreeid=1489&tempname=%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E9%A1%B5&notuse=notuse&query=" + query;
+            }else{
+                window.location.href="/system/resource/code/notemp.jsp?owner=1945530180&wbtreeid=1489&tempname=%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C%E9%A1%B5&notuse=notuse?query=" + query;
+            }
+        }else{
+          alert("请填写搜索内容");
+          return;
+        }
+      };
+    }       
+</script>
+               <!-- 搜索结束 --> 
+               
+           </div>
+            
+        </div>
+        
+    </div>
+    <div class="header">
+        <div class="container">
+            <!--网站logo-->
+            
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="../../gz/index.htm" target="_blank" class="logo">
+    <img src="../../images/gongkai-logo.png">
+</a>
+<button type="button" class="navbar-toggle">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</button>
+<div class="haotai">
+    <img src="../../images/chahao.png">
+</div>
+            <!--网站logo结束-->   
+            
+<span class="units_header">研究生院专栏</span>                  
+        </div>        
+    </div>
+    <!--导航栏目-->
+<div class="nav">
+    <div class="container">
+        <ul>
+            <li><a href="../../gz/index.htm" target="_blank">首页 <img src="../../images/nav-arrow.png"></a></li>
+            <li><a href="../../gz/xxgkgz1.htm" target="_blank">信息公开规章 <img src="../../images/nav-arrow.png"></a></li>
+            <li><a href="../../gz/xxgkzn.htm" target="_blank">信息公开指南 <img src="../../images/nav-arrow.png"></a></li>
+            <li><a href="../../gz/xxgkml.htm" target="_blank">信息公开目录 <img src="../../images/nav-arrow.png"></a></li>
+            <li><a href="../../gz/xxgklm2lj/xxjbxx.htm" target="_blank">信息公开栏目 <img src="../../images/nav-arrow.png"></a></li>
+            <li><a href="../../gz/xxgknb.htm" target="_blank">信息公开年报 <img src="../../images/nav-arrow.png"></a></li>
+            <li><a href="../../gz/sqgongkai/ysqgklc.htm" target="_blank">申请公开 <img src="../../images/nav-arrow.png"></a></li>
+        </ul>
+    </div>    
+</div> 
+ <!--导航栏目结束-->
+    <div class="content-page">
+        <div class="container">
+            <div class="location">
+    当前位置 :&nbsp;&nbsp; 
+        <a href="javascript:;">首页</a>
+    &nbsp;>&nbsp;
+    <a href="javascript:;">研究生院</a>
+    &nbsp;>&nbsp;
+    <a href="javascript:;" class="on">研究生招生</a>
+</div>
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-12 nav-left">
+                    
+<div class="current"><img src="../../images/current.png">研究生招生</div>
+                    <ul>
+        <li>
+        <a href="yjszs/zytz.htm" target="_blank">重要通知</a>
+    </li>
+    <li>
+        <a href="yjszs/zsjz.htm" target="_blank">招生简章</a>
+    </li>
+    <li>
+        <a href="yjszs/zszyml_hzsjh_.htm" target="_blank">招生专业目录（含招生计划）</a>
+    </li>
+    <li>
+        <a href="yjszs/cscjcx_fcjfcjggg.htm" target="_blank">初试成绩查询、复查及复查结果公告</a>
+    </li>
+    <li>
+        <a href="yjszs/fslqgghlqbf_hzyzsrs__.htm" target="_blank">复试录取公告和录取办法（含专业招收人数））</a>
+    </li>
+    <li>
+        <a href="yjszs/zszxbfjssqd.htm" target="_blank">招收咨询办法及申述渠道</a>
+    </li>
+    <li>
+        <a href="yjszs/jstmyjsgg.htm" target="_blank">接受推免研究生公告</a>
+    </li>
+</ul>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-12 nav-right" style="border:0;">  
+                    
+<div class="current_menu_title">
+    <span>研究生招生</span>
+</div>
+                   <div class="listBox"><script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script>
+
+         <div class="lists">
+   
+        <div class="ltitle"> 规章制度 </div>
+        
+        <ul>        
+            <li>
+               <a href="../../info/2402/301203.htm" target="_blank" title="武汉大学研究生学籍管理实施细则（2018修订）">武汉大学研究生学籍管理实施细则（2018修订）</a>
+                <span>2018年12月13日 </span>
+            </li>
+        </ul>
+        <div class="g"></div>
+         
+    </div>
+     
+
+
+<script>_showDynClickBatch(['dynclicks_u10_301203'],[301203],"wbnews", 1945530180)</script>
+</div>
+                   <div class="listBox">
+
+         <div class="lists">
+   
+        <div class="ltitle"> 初试成绩查询、复查及复查结果公告 </div>
+        
+        <ul>        
+            <li>
+               <a href="https://wdyz.whu.edu.cn/info/1008/7943.htm" target="_blank" title="武汉大学2026年第三批次（专项计划）博士外语综合水平考试成绩查询及复查公告" onclick="_addDynClicks('wbnews','1945530180', 294053) ">武汉大学2026年第三批次（专项计划）博士外语综合水平考试成绩查询及复查公告</a>
+                <span>2026年06月01日 </span>
+            </li>
+
+            <li>
+               <a href="https://wdyz.whu.edu.cn/info/1012/7813.htm" target="_blank" title="关于做好2026年面向港澳台地区招收研究生复试录取工作的通知" onclick="_addDynClicks('wbnews','1945530180', 291913) ">关于做好2026年面向港澳台地区招收研究生复试录取工作的通知</a>
+                <span>2026年05月13日 </span>
+            </li>
+
+            <li>
+               <a href="https://wdyz.whu.edu.cn/info/1012/7763.htm" target="_blank" title="武汉大学2026年港澳台研究生招生考试初试成绩查询及复核工作的通知" onclick="_addDynClicks('wbnews','1945530180', 289183) ">武汉大学2026年港澳台研究生招生考试初试成绩查询及复核工作的通知</a>
+                <span>2026年04月17日 </span>
+            </li>
+
+            <li>
+               <a href="https://wdyz.whu.edu.cn/info/1008/7703.htm" target="_blank" title="武汉大学2026年“少数民族高层次骨干人才计划”招收攻读博士学位研究生简章" onclick="_addDynClicks('wbnews','1945530180', 287213) ">武汉大学2026年“少数民族高层次骨干人才计划”招收攻读博士学位研究生简章</a>
+                <span>2026年03月27日 </span>
+            </li>
+
+            <li>
+               <a href="https://wdyz.whu.edu.cn/info/1008/7693.htm" target="_blank" title="武汉大学2026年招收高校思想政治理论课教师在职攻读博士学位研究生简章" onclick="_addDynClicks('wbnews','1945530180', 287173) ">武汉大学2026年招收高校思想政治理论课教师在职攻读博士学位研究生简章</a>
+                <span>2026年03月27日 </span>
+            </li>
+        </ul>
+        <div class="g"></div>
+         
+    </div>
+     
+
+
+<script>_showDynClickBatch(['dynclicks_u11_294053','dynclicks_u11_291913','dynclicks_u11_289183','dynclicks_u11_287213','dynclicks_u11_287173'],[294053,291913,289183,287213,287173],"wbnews", 1945530180)</script>
+</div>
+                   <div class="listBox">
+
+         <div class="lists">
+   
+        <div class="ltitle"> 拟新增学位授权学科或专业学位授权点的申报及论证材料 </div>
+        
+        <ul>        
+            <li>
+               <a href="../../info/2103/6449.htm" target="_blank" title="申请增设博士（硕士）学位授权一级学科点专家评议意见表（药学）">申请增设博士（硕士）学位授权一级学科点专家评议意见表（药学）</a>
+                <span>2016年01月19日 </span>
+            </li>
+
+            <li>
+               <a href="../../info/2103/6450.htm" target="_blank" title="申请增设博士（硕士）学位授权一级学科点专家评议意见表：戏剧影视学">申请增设博士（硕士）学位授权一级学科点专家评议意见表：戏剧影视学</a>
+                <span>2016年01月19日 </span>
+            </li>
+
+            <li>
+               <a href="../../info/2103/6451.htm" target="_blank" title="申报硕士学位授权一级学科点简况表：戏剧影视学">申报硕士学位授权一级学科点简况表：戏剧影视学</a>
+                <span>2016年01月19日 </span>
+            </li>
+
+            <li>
+               <a href="../../info/1681/6440.htm" target="_blank" title="新增博士学位授权一级学科点初审和硕士学位授权一级学科点审核工作办法">新增博士学位授权一级学科点初审和硕士学位授权一级学科点审核工作办法</a>
+                <span>2014年11月12日 </span>
+            </li>
+
+            <li>
+               <a href="../../info/1679/6397.htm" target="_blank" title="武汉大学学位授予工作（博硕士）">武汉大学学位授予工作（博硕士）</a>
+                <span>2014年11月12日 </span>
+            </li>
+        </ul>
+        <div class="g"></div>
+         
+    </div>
+     
+
+
+<script>_showDynClickBatch(['dynclicks_u12_6449','dynclicks_u12_6450','dynclicks_u12_6451','dynclicks_u12_6440','dynclicks_u12_6397'],[6449,6450,6451,6440,6397],"wbnews", 1945530180)</script>
+</div>
+                   <div class="listBox">
+
+          
+
+
+
+</div>
+                   <div class="listBox">
+
+          
+
+
+
+</div>
+                   <div class="listBox">
+
+          
+
+
+
+</div>
+                   <div class="listBox">
+
+          
+
+
+
+</div>
+                   <div class="listBox">
+
+          
+
+
+
+</div>
+                   <div class="listBox">
+
+          
+
+
+
+</div>
+                   <div class="listBox">
+
+          
+
+
+
+</div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container">
+            <div class="footer-left">
+                <!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<div class="footer-left"> 
+    
+    <p>武汉大学信息公开领导小组办公室&nbsp;&nbsp;EMAIL:xxgk_whu@whu.edu.cn</p>
+ 
+</div>
+            </div>        
+            <div class="footer-right">
+                <script language="javascript" src="/system/resource/js/openlink.js"></script><select onchange="window.location=this.value;">
+    <option value="">友情链接</option>
+    </select>
+            
+                <select onchange="window.location=this.value;">
+    <option value="">校内链接</option>
+    </select>
+                <div class="wechat-xin">
+    <img src="../../images/wechat.png" class="wechat">
+    <div class="ewmbox"><img src="../../images/code.png" width="70"></div>
+    <a href="https://weibo.com/wuda" target="_blank"><img src="../../images/Sina.png" class="sina"></a>  
+</div>
+            </div>
+        </div>
+   </div>
+</body>
+</html>

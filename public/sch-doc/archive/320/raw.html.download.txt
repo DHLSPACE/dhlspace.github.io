@@ -1,0 +1,380 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>研究生院</title><META Name="keywords" Content="研究生院" />
+
+    <link href="dfiles/9753/css/common.css" rel="stylesheet">
+    <link href="dfiles/9753/css/style.css" rel="stylesheet">
+    <script src="dfiles/9753/js/jquery.min.js"></script>
+    <script src="dfiles/9753/js/superslide.js"></script>
+    <style>
+        body { background: #f3f3f3;}
+        /*.is2-card1-list li .top { height: 8px; }
+        .is2-card1-list li .top .title { font-size: 16px; }*/
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            $(document).attr("title","欢迎访问中南大学研究生院");
+            $(".ahead").click(function () {
+                $(".ahead").removeClass("active");
+                $(this).addClass("active");
+            });
+        });
+    </script>
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230747a475c52505742000000004055 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc|pad"></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1750464579)</script>
+</head>
+<body>
+    <!-- 公用头部 -->
+    <header>
+        
+        <div class="header-main">
+            <div class="wrapper">
+                <div class="header-logo">
+                    
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.htm" title="研究生院门户网站"><img src="dfiles/9753/images/logo.jpg"></a>
+                </div>
+                <div class="hearder-search">
+                    <script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode1029748').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey1029748").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey1029748").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1029748").value = base64.encode(document.getElementById("lucenenewssearchkey1029748").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1029748"));
+        return true;
+    } 
+</script>
+<form action="jsjg.jsp?wbtreeid=1001" method="post" id="au1a" name="au1a" onsubmit="return _nl_ys_check()">
+ <input type="hidden" id="lucenenewssearchkey1029748" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype1029748" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope1029748" name="searchScope" value="0">
+    <input name="showkeycode" type="text" id="showkeycode1029748" placeholder="请输入您要查找内容的关键字">
+    <input type="submit" value="搜索">
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+
+                </div>
+            </div>
+        </div>
+        <nav class="header-nav">
+            <div class="container">
+                <ul>
+        <li><a href="index.htm" class="active ahead">首页</a></li>
+    <li><a href="jgjj/bmgk.htm" class=" ahead">机构简介</a></li>
+    <li><a href="zhgl/zhbgz.htm" class=" ahead">综合管理</a></li>
+    <li><a href="dsgz/dsxx.htm" class=" ahead">导师工作</a></li>
+    <li><a href="https://yz.csu.edu.cn/" class=" ahead">招生工作</a></li>
+    <li><a href="xwgll/xwdjsypg.htm" class=" ahead">学位管理</a></li>
+    <li><a href="pygl/jxgl.htm" class=" ahead">培养管理</a></li>
+    <li><a href="zlgl/dcdd.htm" class=" ahead">质量管理</a></li>
+    <li><a href="xjjz/xjgl.htm" class=" ahead">学籍奖助</a></li>
+    <li><a href="xzzq/pygz.htm" class=" ahead">下载专区</a></li>
+    <li><a href="bszn/pygz.htm" class=" ahead">办事指南</a></li>
+</ul>
+            </div>
+        </nav>
+    </header>
+    <div class="bannerbox">
+            <script language="javascript" src="/system/resource/js/dynclicks.js"></script><div class="bd">
+    <ul>
+            <li>
+            <img src="images/2026jiaoshijiezhuhuamian.jpg" />
+        </li>
+        <li>
+            <img src="images/20260826zhutu.jpg" />
+        </li>
+        <li>
+            <img src="images/qiyixunzhang.jpg" />
+        </li>
+    </ul>
+</div>
+<div class="hd">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+    </div>
+    <script type="text/javascript">
+        jQuery(".bannerbox").slide({
+            mainCell: ".bd ul",
+            titleCell: ".hd ul",
+            effect: "leftLoop",
+            autoPlay: true,
+            interTime:60000
+        });
+    </script>
+    <section class="index-section2">
+        <div class="container" style="height: 600px;">
+            <div class="style-card is2-card1" style="height: 600px;">
+                <script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><div class="card-header">
+    <span>研究生院通知</span>
+    <a href="yjsytz.htm">MORE +</a>
+</div>
+<div class="card-body">
+    <ul class="is2-card1-list">
+        <li>
+            <div class="top">
+                <a href="info/1021/41013.htm" target="_blank" class="title">关于2026年下学期研究生学位授予工作有关事项的通知</a>
+                <div class="time-view">
+                    <div class="time">2026-09-16</div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="top">
+                <a href="https://oa.csu.edu.cn/con/PDFPage?YWMC=ZNDX_ZHBG_GGTZ&JLNM=EF3666CFE5604981B9CDD05AFBC9B243" target="_blank" class="title">关于组织开展2026年“中南大学力拓低碳创新奖”评选工作的通知</a>
+                <div class="time-view">
+                    <div class="time">2026-09-14</div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="top">
+                <a href="info/1029/41008.htm" target="_blank" class="title">新能源领域研究生“智慧创新班”简介</a>
+                <div class="time-view">
+                    <div class="time">2026-09-12</div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="top">
+                <a href="info/1029/41007.htm" target="_blank" class="title">智能医学领域研究生“智慧创新班”简介</a>
+                <div class="time-view">
+                    <div class="time">2026-09-11</div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="top">
+                <a href="info/1029/41006.htm" target="_blank" class="title">新材料领域研究生“智慧创新班”简介</a>
+                <div class="time-view">
+                    <div class="time">2026-09-11</div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="top">
+                <a href="info/1029/41005.htm" target="_blank" class="title">新材料（大飞机）领域研究生“智慧创新班”简介</a>
+                <div class="time-view">
+                    <div class="time">2026-09-11</div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="top">
+                <a href="info/1029/41004.htm" target="_blank" class="title">生物医药领域研究生“智慧创新班”简介</a>
+                <div class="time-view">
+                    <div class="time">2026-09-11</div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="top">
+                <a href="info/1029/40999.htm" target="_blank" class="title">人工智能领域研究生“智慧创新班”简介</a>
+                <div class="time-view">
+                    <div class="time">2026-09-11</div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="top">
+                <a href="info/1031/40998.htm" target="_blank" class="title">关于开展2026年下半年度研究生创新项目中期检查及结题验收的通知</a>
+                <div class="time-view">
+                    <div class="time">2026-09-11</div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div><script>_showDynClickBatch(['dynclicks_u4_41013','dynclicks_u4_41009','dynclicks_u4_41008','dynclicks_u4_41007','dynclicks_u4_41006','dynclicks_u4_41005','dynclicks_u4_41004','dynclicks_u4_40999','dynclicks_u4_40998'],[41013,41009,41008,41007,41006,41005,41004,40999,40998],"wbnews", 1750464579)</script>
+
+            </div>
+            <div class="style-card is2-card2" style="height: 600px;">
+                <div class="card-header">
+                    <span>新闻动态</span>
+                    <a href="tzgg/xwdt.htm">MORE +</a>
+                </div>
+                <div class="card-body">
+                    <ul class="is2-card2-list1 clearfix">
+                        <li>
+                                <a href="" target="_blank" onclick="_addDynClicks(&#34;wbimage&#34;, 1750464579, 63790)">
+    <img src="dfiles/9753/images/news1_pic.png" border="0" width="355" height="190">
+</a>
+
+                            <a href="info/1093/41014.htm" target="_blank">
+    <div class="title">研究生院召开2026年秋季学期研究生教育督查督导工作会</div>
+</a>
+<script>_showDynClickBatch(['dynclicks_u6_41014'],[41014],"wbnews", 1750464579)</script>
+
+                        </li>
+                        <li>
+                                <a href="" target="_blank" onclick="_addDynClicks(&#34;wbimage&#34;, 1750464579, 63792)">
+    <img src="dfiles/9753/images/news2_pic.jpg" border="0" width="355" height="190">
+</a>
+
+                            <a href="https://ngce.csu.edu.cn/info/1014/1793.htm" target="_blank">
+    <div class="title">卓越工程师培养高质量发展研讨会顺利召开</div>
+</a>
+<script>_showDynClickBatch(['dynclicks_u8_41014','dynclicks_u8_40959'],[41014,40959],"wbnews", 1750464579)</script>
+
+                        </li>
+                    </ul>
+                    <ul class="is2-card2-list2" style="margin-top:10px; padding-top:5px">
+        <li>
+        <a href="info/1089/40919.htm" target="_blank" class="title">我校召开“健康导学”课程建设专题研讨会</a>
+        <span class="time">2026-06-10</span>
+    </li>
+    <li>
+        <a href="https://news.csu.edu.cn/sp/#/news/info?id=131678" target="_blank" class="title">中国－印度尼西亚卓越工程师学院在中南大学揭牌</a>
+        <span class="time">2026-06-04</span>
+    </li>
+    <li>
+        <a href="info/1089/40912.htm" target="_blank" class="title">军事科学院研究生院政委秦国保一行来院调研</a>
+        <span class="time">2026-06-01</span>
+    </li>
+    <li>
+        <a href="https://news2.csu.edu.cn/info/1003/163938.htm" target="_blank" class="title">暨南大学校长邢锋来校访问</a>
+        <span class="time">2026-04-24</span>
+    </li>
+    <li>
+        <a href="info/1092/40870.htm" target="_blank" class="title">研究生院党支部召开树立和践行正确政绩观学习教育工作动员会</a>
+        <span class="time">2026-03-30</span>
+    </li>
+    <li>
+        <a href="info/1093/40866.htm" target="_blank" class="title">研究生院召开2026年春季学期研究生教育督查督导工作会</a>
+        <span class="time">2026-03-18</span>
+    </li>
+</ul><script>_showDynClickBatch(['dynclicks_u9_41014','dynclicks_u9_40959','dynclicks_u9_40919','dynclicks_u9_40913','dynclicks_u9_40912','dynclicks_u9_40892','dynclicks_u9_40870','dynclicks_u9_40866'],[41014,40959,40919,40913,40912,40892,40870,40866],"wbnews", 1750464579)</script>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="index-section3">
+        <div class="container">
+                <ul class="is3-list">
+        <li>
+        <img src="dfiles/9753/images/master-hat.jpg" border="0" class="icon">
+        <p class="title">研究生教育管理入口</p>
+        <a href="http://gms.csu.edu.cn/" onclick="_addDynClicks(&#34;wbimage&#34;, 1750464579, 63698)" target="_blank" class="btn">点击进入</a>
+    </li>
+    <li>
+        <img src="dfiles/9753/images/reward.jpg" border="0" class="icon">
+        <p class="title">奖助学金管理系统</p>
+        <a href="http://award.csu.edu.cn/" onclick="_addDynClicks(&#34;wbimage&#34;, 1750464579, 63699)" target="_blank" class="btn">点击进入</a>
+    </li>
+    <li>
+        <img src="dfiles/9753/images/recruit.jpg" border="0" class="icon">
+        <p class="title">全国研究生招生信息网</p>
+        <a href="https://yz.chsi.com.cn/" onclick="_addDynClicks(&#34;wbimage&#34;, 1750464579, 63700)" target="_blank" class="btn">点击进入</a>
+    </li>
+</ul>
+        </div>
+    </section>
+    <section class="index-section4" style="display: none;">
+        <div class="container">
+            <div class="style-card">
+                <div class="card-header">
+    <span>二级培养单位通知</span>
+    <a href="">MORE +</a>
+</div>
+<div class="cart-body">
+    <div class="is4-content clearfix">
+        
+        <div class="is4-first">
+        </div>
+        <ul class="is4-list">
+        </ul>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+    <section class="index-section5">
+        <div class="container">
+            <div class="is5-title">
+                <span>友情<br>链接</span>
+            </div>
+            <div class="is5-link">
+                <script language="javascript" src="/system/resource/js/openlink.js"></script><a href="http://www.gov.cn" onclick="_addDynClicks(&#34;wburl&#34;, 1750464579, 75789)">中华人民共和国中央人民政府网</a>
+<a href="http://www.moe.gov.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 1750464579, 75791)">中华人民共和国教育部</a>
+<a href="http://cpc.people.com.cn" onclick="_addDynClicks(&#34;wburl&#34;, 1750464579, 75790)">中国共产党新闻网</a>
+<a href="https://www.cdgdc.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 1750464579, 101692)">教育部学位与研究生教育发展中心</a>
+<a href="https://xwb.jyt.hunan.gov.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 1750464579, 75793)">湖南省学位办</a>
+
+            </div>
+        </div>
+    </section>
+    <!-- 公用底部 -->
+    <footer>
+        <div class="wrapper">
+            <div class="footer-content">
+                <nav class="footer-nav">
+                    <a href="index.htm">首页</a>
+<a href="jgjj/bmgk.htm">机构简介</a>
+<a href="zhgl/zhbgz.htm">综合管理</a>
+<a href="dsgz/dsxx.htm">导师工作</a>
+<a href="https://yz.csu.edu.cn/">招生工作</a>
+<a href="xwgll/xwdjsypg.htm">学位管理</a>
+<a href="pygl/jxgl.htm">培养管理</a>
+<a href="zlgl/dcdd.htm">质量管理</a>
+<a href="xjjz/xjgl.htm">学籍奖助</a>
+
+                </nav>
+                <div class="footer-address">
+                    <!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>地址：湖南省长沙市麓山南路932号&nbsp;&nbsp;邮编：410012</p><p>中南大学研究生院(410083)</p><p>CopyRights © 2015-2018 All rights reserved Gra.csu.edu.cn</p>
+                </div>
+                <div class="footer-copyright">
+                    
+                </div>
+            </div>
+            <div class="footer-logo">
+                <img src="dfiles/9753/images/logo.jpg">
+            </div>
+        </div>
+    </footer>
+    <script>
+        function getNowDate() {
+            var weeks = ["日", "一", "二", "三", "四", "五", "六"];
+            var myDate = new Date();
+            var year = myDate.getFullYear();
+            var month = myDate.getMonth() + 1;
+            var date = myDate.getDate();
+            var day = myDate.getDay();
+            month = month < 10 ? "0" + month : month;
+            date = date < 10 ? "0" + date : date;
+            return year + "年" + month + "月" + date + "日 星期" + weeks[day]
+        }
+        window.onload = function () {
+            //document.getElementById("pageTopDate").innerHTML = getNowDate();
+        }
+    </script>
+
+
+
+
+</body></html>

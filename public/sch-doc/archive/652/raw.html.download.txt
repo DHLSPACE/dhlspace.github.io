@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>北京师范大学研究生招生网</title>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="author" content="Beijing Normal University" /> 
+        <meta name="description" content="北京师范大学是教育部直属重点大学，是一所以教师教育、教育科学和文理基础学科为主要特色的著名学府。学校的前身是1902年创立的京师大学堂师范馆，1908年改称京师优级师范学堂，独立设校。1912年改名为北京高等师范学校。1923年更名为北京师范大学，成为中国历史上第一所师范大学。1931年、1952年北平女子师范大学、辅仁大学先后并入北京师范大学。" />
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?e85d7e3fab5d4d96143892e9384d8146";
+                var s = document.getElementsByTagName("script")[0]; 
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+        <script src="/content/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="/content/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+        <script src="/content/ajax/libs/linq.js/2.2.0.2/jquery.linq.min.js"></script>
+        <script src="/content/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
+        <script src="/scripts/dengdu/dengdu.js"></script>
+        <script src="/scripts/dengdu/dengdu.bootstrap.js"></script>
+        <link href="/content/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/content/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/scripts/miniui/themes/icons.css" rel="stylesheet" />
+        <link href="/scripts/miniui/themes/default/miniui.css" rel="stylesheet" />
+        <link href="/scripts/miniui/themes/metro-white/skin.css?v=20201109" rel="stylesheet" />
+        <link href="/scripts/areas/core/atom.css?v=20201109" rel="stylesheet" />
+        <link href="/scripts/areas/core/area.css?v=20201109" rel="stylesheet" />
+        <link href="/scripts/areas/core/xlarge-mode.css?v=20201109" rel="stylesheet" />
+        
+        <link href="/content/script/flexslider.min.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]><script src="/content/script/html5shiv.min.js"></script><script src="/content/script/respond.min.js"></script><![endif]-->
+        <style type="text/css">
+            body {
+                font-family: "微软雅黑";
+            }
+            #header{
+                padding-top:20px;
+                padding-bottom:15px;
+                background-color:#004EA2;
+            }
+            #footer{
+                text-align:center;
+                background-color:#004EA2;
+                color:white;
+                height:60px;
+                line-height:60px;
+                margin-top: 20px;
+            }
+            #nav{
+                margin-bottom:0px;                
+            }
+            #nav a{
+                font-size:16px;
+            }
+            #content{
+                margin-top:20px;
+            }
+            .sidebar{
+                background-color: #f3f9fc;
+                padding:20px 0px 20px 0px;
+            }
+            .sidebar span {
+                width:100%;
+                display:block;
+                text-align: center;
+                margin-top:5px;
+            }
+            .sidebar .morelinks{                
+                color: #BF2501;
+                font-size: 16px;                
+            }
+
+            .flexslider {
+                border:0;
+                margin-bottom:0px; 
+            }
+            .flex-control-nav {
+                display:none;
+            }
+            .article-list {
+                margin-top:10px;
+            }
+            .article-list .boxtitle {
+                border-bottom: 1px solid #c9c9c9;
+                padding-bottom: 10px;
+                margin-bottom:10px;
+            }
+            .article-list .boxtitle .title{
+                font-size: 20px;
+                color: #141414;
+                font-weight: bold;
+            }
+            .article-list .boxtitle .more{
+                position: absolute;
+                right:20px;
+                color:#a9a9a9;
+            }
+            .article-list .boxlist{
+                margin-left:10px;
+            }
+            .article-list .boxlist ul{
+                list-style:none;
+                margin:0;
+                padding:0;
+            }
+            .article-list .boxlist ul li{
+                margin-top:10px;
+            }
+            .article-list .boxcontent{
+                margin-top:20px;
+            }
+            .article-list .boxpager{
+                border-top: 1px solid #c9c9c9;
+                margin-top:10px;
+                padding-top:10px;
+                color:#999;
+            }
+            .my-breadcrumb {
+                margin-top:10px;
+                color:#999;
+            }
+            .my-breadcrumb a {
+                color:#999;
+            }
+            td {
+                padding: 5px 2px 5px 2px;
+            }
+            td p {
+                /* margin: 5px 2px 5px 2px; */
+                margin: 0px;
+            }
+            .container {
+                max-width: 1200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <a href="/" style="font-size:2em; color:white;"><img src="/content/style/yz-logo.png" alt="北京师范大学" /></a>
+                    </div>
+                    <div class="col-md-3">
+                        <form name="dataForm" action="/search" method="post" style="margin-top:5px;">
+                            <div class="input-group">                                
+                                <input type="text" name="pattern" class="form-control" placeholder="搜索关键字">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="nav" class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">首页</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="/list/master" class="dropdown-toggle" data-hover="dropdown">硕士生招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="/list/master_board">最新消息</a></li>
+                                <li><a href="/list/master_brochure">招生简章</a></li>
+                                <li><a href="/list/master_info">历年数据</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/list/doctor" class="dropdown-toggle" data-hover="dropdown">博士生招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="/list/doctor_board">最新消息</a></li>
+                                <li><a href="/list/doctor_brochure">招生简章</a></li>
+                                <li><a href="/list/doctor_info">历年数据</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/list/gat">港澳台招生</a></li>
+                        <li><a href="https://admission-is.bnu.edu.cn/" target="_blank">留学生招生</a></li>
+                        <li><a href="/list/open">信息公开</a></li>
+                        <li><a href="/list/faq">常见问题</a></li>
+                        <li><a href="/list/contact">联系我们</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="navbar navbar-bg hidden-md hidden-lg">
+            <div class="container">
+                <div class="row">
+                    <ul class="nav">
+                        <li class="col-sm-4 col-xs-6"><a href="/list/master">硕士生招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/doctor">博士生招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/gat">港澳台招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/foreign">留学生招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/open">信息公开</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/faq">常见问题</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/contact">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="content" class="container">
+            <div class="row">
+                <div class="col-sm-10">
+    <div class="article-list">
+        <div class="boxtitle">
+            <span class="title" style="font-size:30px;">最新消息</span>
+            <div class="my-breadcrumb">
+                当前位置：<a href="/">首页</a> 
+                <a href="/list/master">&raquo;  硕士生招生</a>
+                <a href="/list/master_board">&raquo;  最新消息</a>
+                &raquo;
+                详细页
+            </div>
+        </div>        
+        <div class="boxcontent">
+            <h4 class="text-center strong">
+                <strong>北京师范大学关于接收2027年“国优计划”推荐免试研究生的通知</strong>
+            </h4>
+            <div class="text-center text-muted">发布时间：2026-09-03　<span>阅读 28779 次</span></div>
+            <div class="article-content" style="margin-top:10px;">
+                <p style="text-indent: 32pt">
+	<span>根据《教育部关于实施国家优秀中小学教师培养计划的意见》（教师〔</span><span>2023〕5号）、《教育部办公厅关于深入推进实施国家优秀中小学教师培养计划的通知》（教师厅函〔2024〕16号）文件精神及要求，为进一步推动高水平高校为中小学培养研究生层次高素质教师，202</span><span>7</span><span>年继续招收培养</span><span>“国家优秀中小学教师培养计划”（以下简称“国优计划”）研究生，结合我校实际情况，现就北京师范大学202</span><span>7</span><span>年接收</span><span>“国优计划”推荐免试研究生通知如下：</span> 
+</p>
+<p style="text-indent: 32pt">
+	<span>一、申请条件</span> 
+</p>
+<p style="text-indent: 32pt">
+	<span>1.符合《北京师范大学202</span><span>7</span><span>年</span><span>推荐免试硕士</span><span>/博士研究生</span><span>招生录取工作</span><span>办法</span><span>》的申请条件。</span> 
+</p>
+<p style="text-indent: 32pt">
+	<span>2.本科所学专业为理工科。</span> 
+</p>
+<p style="text-indent: 32pt">
+	<span>3.热爱基础教育事业且有志于从事中小学教育工作。</span> 
+</p>
+<p style="text-indent: 32.15pt">
+	<span>二、</span><span>招生院（系）、专业及可修读教育硕士专业学位</span> 
+</p>
+<div align="center">
+	<table border="0" cellspacing="0" style="width: 100%; border: none">
+		<tbody>
+			<tr>
+				<td width="15.4600%" valign="center" colspan="2" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<b><span style="font-family: &quot;font-size:11pt;&quot;">招生院（系）</span></b><b><span style="font-family: 仿宋_GB2312; font-size: 11pt"></span></b>
+					</p>
+				</td>
+				<td width="12.6600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<b><span style="font-family: &quot;font-size:11pt;&quot;">招生类型</span></b><b><span style="font-family: 仿宋_GB2312; font-size: 11pt"></span></b> 
+					</p>
+				</td>
+				<td width="37.8400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<b><span style="font-family: &quot;font-size:11pt;&quot;">招生专业</span></b><b><span style="font-family: 仿宋_GB2312; font-size: 11pt"></span></b> 
+					</p>
+				</td>
+				<td width="6.1600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<b><span style="font-family: &quot;font-size:11pt;&quot;">招生计划</span></b><b><span style="font-family: 仿宋_GB2312; font-size: 11pt"></span></b> 
+					</p>
+				</td>
+				<td width="6.7800%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<b><span style="font-family: &quot;font-size:11pt;&quot;">培养地点</span></b><b><span style="font-family: 仿宋_GB2312; font-size: 11pt"></span></b> 
+					</p>
+				</td>
+				<td width="11.2600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<b><span style="font-family: &quot;font-size:11pt;&quot;">教育硕士专业学位</span></b><b><span style="font-family: 仿宋_GB2312; font-size: 11pt"></span></b> 
+					</p>
+				</td>
+				<td valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<b><span style="font-family: &quot;font-size:11pt;&quot;">教育硕士培养单位</span></b><b><span style="font-family: 仿宋_GB2312; font-size: 11pt"></span></b> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">015</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="11.7400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">数学科学学院</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="12.6600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">硕士、本直博</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="37.8400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p style="vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">0701数学一级学科下所有招生专业</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="6.1600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">2</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="6.7800%" valign="center" rowspan="13" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">北京校区</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="11.2600%" valign="center" rowspan="13" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">以下专业，任选其一：学科教学（数学）、学科教学（化学</span><span style="font-family: &quot;font-size:10pt;&quot;">）、学科教学（地理）、学科教学（生物）、学科教学（物理）</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td valign="center" rowspan="13" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">教育学部</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">019</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="11.7400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">化学学院</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="12.6600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">硕士、本直博</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="37.8400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p style="vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">0703化学一级学科下所有招生专业</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="6.1600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">5</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">022</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="11.7400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">环境学院</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="12.6600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">本直博</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="37.8400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p style="vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">0830环境科学与工程一级学科下所有招生专业</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="6.1600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">2</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">023</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="11.7400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">生命科学学院</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="12.6600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">硕士、本直博</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="37.8400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p style="vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">0710生物学一级学科下所有招生专业</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="6.1600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">4</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">023</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="11.7400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">生命科学学院</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="12.6600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">硕士、本直博</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="37.8400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p style="vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">0713生态学一级学科下所有招生专业</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="6.1600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">1</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">026</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="11.7400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">系统科学学院</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="12.6600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">本直博</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="37.8400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p style="vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">071101系统理论、071102系统分析与集成</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="6.1600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">1</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">030</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="11.7400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">水科学研究院</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="12.6600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">硕士、本直博</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="37.8400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p style="vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">0815水利工程一级学科下所有招生专业</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="6.1600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">2</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">034</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="11.7400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">统计学院</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="12.6600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">本直博</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="37.8400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p style="vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">0714统计学一级学科下所有招生专业</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="6.1600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">2</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">039</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="11.7400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">地理科学学部</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="12.6600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">硕士</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="37.8400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p style="vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">0705Z1自然资源、0705Z3自然灾害学</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="6.1600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">2</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">039</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="11.7400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">地理科学学部</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="12.6600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">硕士</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="37.8400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p style="vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">1404遥感科学与技术一级学科下所有招生专业</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="6.1600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">1</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">040</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="11.7400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">人工智能学院</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="12.6600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">硕士</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="37.8400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p style="vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">0812计算机科学与技术一级学科下所有招生专业</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="6.1600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">3</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">040</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="11.7400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">人工智能学院</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="12.6600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">硕士</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="37.8400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p style="vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">1405智能科学与技术一级学科下所有招生专业</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="6.1600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">1</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">050</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="11.7400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">物理与天文学院</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="12.6600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">硕士、本直博</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="37.8400%" valign="center" style="border: 1.0000pt solid #000000">
+					<p style="vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">0702物理学、0704天文学、0827核科学与技术一级学科下所有招生专业</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+				<td width="6.1600%" valign="center" style="border: 1.0000pt solid #000000">
+					<p align="center" style="text-align: center; vertical-align: middle">
+						<span style="font-family: &quot;font-size:10pt;&quot;">4</span><span style="font-family: 仿宋_GB2312; font-size: 10pt"></span> 
+					</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p style="margin-left: 0.0000pt">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>&nbsp;&nbsp;&nbsp;&nbsp;学校、招生院（系）可根据生源情况对招生计划进行调整。</span> 
+</p>
+<p style="text-indent: 32pt">
+	<span>三、报名程序</span> 
+</p>
+<p style="text-indent: 32pt">
+	<span>报名时间：详见《北京师范大学</span><span>202</span><span>7</span><span>年</span><span>推荐免试硕士</span><span>/博士研究生</span><span>招生录取工作</span><span>办法</span><span>》</span> 
+</p>
+<p style="text-indent: 32pt">
+	<span>报名方式：符合前述报考条件的申请人，登录北京师范大学推免申请系统（</span><span>https://xly.bnu.edu.cn/tm）报名，具体流程参照《北京师范大学202</span><span>7</span><span>年</span><span>推荐免试硕士</span><span>/博士研究生</span><span>招生录取</span><span>工作</span><span>办法》，其中填写</span><span>“申请意向”时，</span><b><span>“专项计划”一栏须选择“国优计划”</span></b><b><span>；</span></b><b><span>同时</span></b><b><span>在</span></b><b><span>“</span></b><b><span>上传</span></b><b><span>材料</span></b><b><span>”</span></b><b><span>-</span></b><b><span>“</span></b><b><span>其他材料</span></b><b><span>”</span></b><b><span>中</span></b><b><span>同步</span></b><b><span>上传</span></b><b><span>《</span><span>“国优计划”</span></b><b><span>推荐</span></b><b><span>免试</span></b><b><span>申请表》（</span></b><b><span>详见</span></b><b><span>附件）</span></b><b><span>，申请表</span></b><b><span>纸质版</span></b><b><span>在</span></b><b><span>综合考核</span></b><b><span>时提交院（系）审核备案</span></b><b><span>。</span></b><b></b> 
+</p>
+<p style="text-indent: 32pt">
+	<span>四、其他</span> 
+</p>
+<p style="text-indent: 32pt">
+	<span>我校</span><span>“国优计划”推免生，在攻读本学科学位的同时还应修读教师教育模块课程；学生除申请本学科学位外，如修完</span><span>全部</span><span>规定</span><span>学分教师教育模块课程且通过教育硕士专业学位论文答辩，毕业时可申请对应的教育硕士专业学位证书。</span> 
+</p>
+<p style="text-indent: 32pt">
+	<span>修完规定学分的</span><span>“国优计划”研究生可参照教育类研究生免试认定相关规定，按程序申领中小学教师资格证书。</span> 
+</p>
+<p style="text-indent: 32pt">
+	<span>五、联系方式</span> 
+</p>
+<p style="text-indent: 32pt">
+	<span>相关招生院（系）联系方式详见北京师范大学研究生招生网（网址</span><span><a href="https://yz.bnu.edu.cn/detail/d145d708" target="_blank">https://yz.bnu.edu.cn/detail/d145d708</a>）。</span> 
+</p>
+<p style="text-indent: 32pt">
+	<br>
+</p>
+<p style="text-indent: 32pt">
+	<span>附</span><span>件：</span><span>“国优计划”</span><span>推荐免试</span><span>申请表</span> 
+</p>
+<p style="text-align: right; text-indent: 32pt">
+	<br>
+</p>
+<p align="right" style="margin-left: 0.0000pt; text-indent: 220.0000pt; text-align: right; background: #FFFFFF">
+	北京师范大学招生办公室
+</p>
+<span> 
+<div style="text-align: right">
+	2026年9月3日
+</div>
+</span>
+
+                <div>
+                    <hr/>
+                    <p>
+                        <strong>附件列表</strong>
+                    </p>
+                    <ol>
+                        <li><a target="_blank" href="/core/ucontent/fmfile/dd_article_attachment?attname=opath&amp;attvalue=/202609/902f2fc897361df495af774d781fd765.docx&amp;name=“国优计划”推荐免试申请表.docx"><span>“国优计划”推荐免试申请表.docx</span></a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="sidebar" style="min-height: 300px;">
+                        <div class="col-md-12 col-sm-4 nopadding"> 
+                            <span class="morelinks">常用链接</span>
+                            <span><a href="http://www.bnu.edu.cn" target="_blank">学校主页</a></span>
+                            <span><a href="http://jwb.bnu.edu.cn/" target="_blank">教务部</a></span>
+                            <span><a href="http://www.bnu.edu.cn/kxyj/" target="_blank">科学研究</a></span>
+                            <span><a href="https://yz.bnu.edu.cn/content/dsfc/index_dsfc.html" target="_blank">导师风采</a></span>
+                            <span><a href="http://www.bnu.edu.cn/xbyx/" target="_blank">学部院系</a></span>
+                            <span><a href="http://www.bnu.edu.cn/zzjg/" target="_blank">组织机构</a></span>
+
+                            <div style="text-align:center; margin-top: 20px;">
+                                <img src="/content/style/wx_jsyz.jpg" style="width: 100%;">
+                                微信公众号
+                            </div>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>	
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            &copy; 版权所有 北京师范大学　地址：北京市新街口外大街19号　邮编：100875
+        </div>
+        <div class="text-center small" style="display:none;">
+
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="/content/script/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="/content/script/bootstrap-hover-dropdown.min.js"></script>
+        <script src="/content/script/jquery.flexslider-min.js"></script>
+        <script src="/content/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/scripts/miniui/miniui.js"></script>    
+        <script id="seajsid" type="text/javascript" src="/scripts/seajs/sea.js"></script>
+        <script type="text/javascript" src="/scripts/seajs/seajs-css.js"></script>
+        <script type="text/javascript" src="/scripts/areas/core/config.js?v=41"></script>
+        <script type="text/javascript" src="/scripts/areas/core/core.miniui.js?v=41"></script>
+        <script>
+            // Can also be used with $(document).ready()
+            $(document).ready(function(){
+                $('.flexslider').flexslider({
+                    animation: "slide",
+                    slideshowSpeed: 10000
+                    //controlsContainer: ".flex-container"
+                });
+
+            });
+        </script>
+    </body>
+</html>

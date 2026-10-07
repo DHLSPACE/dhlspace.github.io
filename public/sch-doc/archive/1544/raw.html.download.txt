@@ -1,0 +1,681 @@
+﻿<!DOCTYPE html>
+<html><head>
+
+    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" wraptent="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=0.3">
+        <title>西安交通大学化学学院</title><META Name="keywords" Content="西安交通大学化学学院" />
+
+        <link href="style/style.css" rel="stylesheet" type="text/css">
+        <link href="style/animate.min.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
+        
+        <script type="text/javascript">
+// 判断浏览器版本过低提示
+(function(window) {
+    var theUA = window.navigator.userAgent.toLowerCase();
+    if ((theUA.match(/msie\s\d+/) && theUA.match(/msie\s\d+/)[0]) || (theUA.match(/trident\s?\d+/) && theUA.match(/trident\s?\d+/)[0])) {
+        var ieVersion = theUA.match(/msie\s\d+/)[0].match(/\d+/)[0] || theUA.match(/trident\s?\d+/)[0];
+        if (ieVersion < 9) {
+            var str = "本站不再支持您的浏览器，360、sogou等浏览器请切换到<strong>极速模式</strong>，<br>或升级您的浏览器到 <a href='http://browsehappy.osfipin.com/' target='_blank' style='text-decoration:underline'>更高的版本</a>！以获得更好的观看效果。";
+            document.writeln("<pre class='ie8'>" + 
+            "<p style='margin:0 auto; position:fixed; top:0px; left:0px; background:#555; padding-top:20%; height:80%; width:100%; text-align:center; font-size:14px; color:#efefef; line-height:30px;'>" + str + "</p></pre>");
+            document.execCommand("Stop");
+        };
+    }
+})(window);
+</script>
+        
+    <!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:776562626572323069754756535a574200000001465d -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc|pad"></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1668967517)</script>
+</head>
+    <body>
+        <div class="head">
+            <div class="container">
+                <div class="top clearfix">
+                    <!--logo-s-->
+                    <div class="logo fl">
+
+<a href="index.htm" title="化学学院"><img src="images/20210329huaxue.png" width="399px" style="margin-top: -10px;"></a>
+                        
+                    </div>
+                    <div class="top_right fr clearfix">
+                    
+                    <div class="topyw"><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script><UL>
+    <LI><a href="http://chem.xjtu.edu.cn" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1668967517, 70489)">中文</a></li>
+    <LI><a href="http://chem.xjtu.edu.cn/English.htm" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1668967517, 70490)">英文</a></li>
+</UL></div>
+                    
+                    
+<script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode270257').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey270257").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey270257").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey270257").value = base64.encode(document.getElementById("lucenenewssearchkey270257").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode270257"));
+        return true;
+    } 
+</script>
+
+
+<form action="search.jsp?wbtreeid=1001" method="post" id="au2a" name="au2a" onsubmit="return _nl_ys_check()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkey270257" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype270257" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope270257" name="searchScope" value="0">
+<div class="login clearfix fr">
+	<input class="login_txt fl" type="text" name="showkeycode" id="showkeycode270257">
+	<input class="login_img fl" type="image" src="images/searh.png" align="absmiddle" style="cursor: hand">
+</div>
+</form>
+
+
+
+
+
+
+
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--nav-s-->
+        <div class="menu">
+<ul class="clearfix" id="nav">
+	<li class="mainlevel">
+			<a href="index.htm" title="首页">首页</a>
+</li>
+		<li class="mainlevel">
+			<a href="xygk1.htm" title="学院概况">学院概况</a>
+				<ul style="display: none;">
+
+						<li>
+							<a href="xygk1/xyjj.htm" title="学院简介">学院简介</a>
+						</li>
+
+						<li>
+							<a href="xygk1/lsyg.htm" title="历史沿革">历史沿革</a>
+						</li>
+
+						<li>
+							<a href="xygk1/xyld1.htm" title="学院领导">学院领导</a>
+						</li>
+
+						<li>
+							<a href="xygk1/jgsz.htm" title="机构设置">机构设置</a>
+						</li>
+
+						<li>
+							<a href="xygk1/xybs.htm" title="学院标识">学院标识</a>
+						</li>
+				</ul>
+		</li>
+		<li class="mainlevel">
+			<a href="szdw1.htm" title="师资队伍">师资队伍</a>
+				<ul style="display: none;">
+
+						<li>
+							<a href="szdw1/szgk.htm" title="师资概况">师资概况</a>
+						</li>
+
+						<li>
+							<a href="szdw1/jsml.htm" title="教师名录">教师名录</a>
+						</li>
+
+						<li>
+							<a href="szdw1/bssds.htm" title="博士生导师">博士生导师</a>
+						</li>
+
+						<li>
+							<a href="szdw1/gccrc.htm" title="高层次人才">高层次人才</a>
+						</li>
+
+						<li>
+							<a href="szdw1/syjsry.htm" title="实验技术人员">实验技术人员</a>
+						</li>
+
+						<li>
+							<a href="szdw1/rtjg.htm" title="荣退教工">荣退教工</a>
+						</li>
+
+						<li>
+							<a href="http://pdc.xjtu.edu.cn/" title="博士后站">博士后站</a>
+						</li>
+				</ul>
+		</li>
+		<li class="mainlevel">
+			<a href="kxyj1.htm" title="科学研究">科学研究</a>
+				<ul style="display: none;">
+
+						<li>
+							<a href="kxyj1/kyjd.htm" title="科研基地">科研基地</a>
+						</li>
+
+						<li>
+							<a href="kxyj1/kycg.htm" title="科研成果">科研成果</a>
+						</li>
+
+						<li>
+							<a href="kxyj1/sys_sb.htm" title="实验室&amp;设备">实验室&amp;设备</a>
+						</li>
+
+						<li>
+							<a href="kxyj1/gjjl.htm" title="国际交流">国际交流</a>
+						</li>
+				</ul>
+		</li>
+		<li class="mainlevel">
+			<a href="rcpy1.htm" title="人才培养">人才培养</a>
+				<ul style="display: none;">
+
+						<li>
+							<a href="rcpy1/bkspy1.htm" title="本科生培养">本科生培养</a>
+						</li>
+
+						<li>
+							<a href="rcpy1/yjspy.htm" title="研究生培养">研究生培养</a>
+						</li>
+				</ul>
+		</li>
+		<li class="mainlevel">
+			<a href="dtgh1.htm" title="党团工会">党团工会</a>
+				<ul style="display: none;">
+
+						<li>
+							<a href="dtgh1/dzzgs.htm" title="党组织概述">党组织概述</a>
+						</li>
+
+						<li>
+							<a href="dtgh1/zbfc.htm" title="支部风采">支部风采</a>
+						</li>
+
+						<li>
+							<a href="dtgh1/ghgs.htm" title="工会概述">工会概述</a>
+						</li>
+
+						<li>
+							<a href="dtgh1/ghhd.htm" title="工会活动">工会活动</a>
+						</li>
+				</ul>
+		</li>
+		<li class="mainlevel">
+			<a href="tzgg.htm" title="通知公告">通知公告</a>
+		</li>
+		<li class="mainlevel">
+			<a href="xsgz.htm" title="学生工作">学生工作</a>
+				<ul style="display: none;">
+
+						<li>
+							<a href="xsgz/xgdt.htm" title="学工动态">学工动态</a>
+						</li>
+
+						<li>
+							<a href="xsgz/tzgg.htm" title="通知公告">通知公告</a>
+						</li>
+
+						<li>
+							<a href="xsgz/jycy.htm" title="就业创业">就业创业</a>
+						</li>
+				</ul>
+		</li>
+</ul>
+            
+            <script type="text/javascript">
+                $(document).ready(function() {
+
+                    $('li.mainlevel').mousemove(function() {
+                        $(this).find('ul').slideDown(300); //you can give it a speed
+                    });
+                    $('li.mainlevel').mouseleave(function() {
+                        $(this).find('ul').slideUp("fast");
+                    });
+                });
+            </script>
+        </div>
+        <div class="slideBox" id="slideBox">
+            <div class="bd">
+    
+<ul>
+			<li><a href="1200-320.jpg" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1668967517, 1027991)" target="_blank"><img src="images/1200-320.png"></a></li>
+
+		<li><a href="" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1668967517, 1027924)" target="_blank"><img src="images/20/08/13/1x7lj3yyux/1200-320.jpg"></a></li>
+
+		<li><a href="" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1668967517, 81787)" target="_blank"><img src="images/20240423105007.jpg"></a></li>
+
+		<li><a href="" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1668967517, 78871)" target="_blank"><img src="images/1.jpg"></a></li>
+
+		<li><a href="" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1668967517, 77837)" target="_blank"><img src="images/1.1.jpg"></a></li>
+
+</ul>
+                
+            </div>
+            <span class="pageState wow fadeInUpBig"></span>
+
+            <a class="prev" href="javascript:void(0)"></a>
+            <a class="next" href="javascript:void(0)"></a>
+            <script type="text/javascript">
+                jQuery(".slideBox").slide({
+                    mainCell: ".bd ul",
+                    autoPlay: true,
+                    effect: "fold",
+                    autoPlay: true,
+                    delayTime: 1000
+                });
+            </script>
+        </div>
+        <div class="banner-b-l">
+    
+<ul class="container clearfix">
+
+	<li class="fl wow fadeInUpBig" style="width: 196px;">
+		<a href="http://zs.xjtu.edu.cn/" title="本科招生" onclick="_addDynClicks(&#34;wbimage&#34;, 1668967517, 57328)" target="_blank">
+			<img src="images/20/08/13/1x7lj3yyux/bkzs-icon.png">
+			本科招生
+		</a>
+	</li>
+	<li class="fl wow fadeInUpBig" style="width: 196px;">
+		<a href="http://yz.xjtu.edu.cn/" title="研究生招生" onclick="_addDynClicks(&#34;wbimage&#34;, 1668967517, 57329)" target="_blank">
+			<img src="images/20/08/13/1x7lj3yyux/yjszs-icon.png">
+			研究生招生
+		</a>
+	</li>
+	<li class="fl wow fadeInUpBig" style="width: 196px;">
+		<a href="index/zpxx.htm" title="招聘信息" onclick="_addDynClicks(&#34;wbimage&#34;, 1668967517, 57331)" target="_blank">
+			<img src="images/20/08/13/1x7lj3yyux/zpxx-icon.png">
+			招聘信息
+		</a>
+	</li>
+	<li class="fl wow fadeInUpBig" style="width: 196px;">
+		<a href="https://www.icourse163.org/" title="在线资源" onclick="_addDynClicks(&#34;wbimage&#34;, 1668967517, 57332)" target="_blank">
+			<img src="images/20/08/13/1x7lj3yyux/zxzy-icon.png">
+			在线资源
+		</a>
+	</li>
+	<li class="fl wow fadeInUpBig" style="width: 196px;">
+		<a href="zlxz.htm" title="资料下载" onclick="_addDynClicks(&#34;wbimage&#34;, 1668967517, 57330)" target="_blank">
+			<img src="images/20/08/13/1x7lj3yyux/zlxz-icon.png">
+			资料下载
+		</a>
+	</li>
+	<li class="fl wow fadeInUpBig" style="width: 196px;">
+		<a href="mailto:bliu@njnu.edu.cn" title="书记院长信箱" onclick="_addDynClicks(&#34;wbimage&#34;, 1668967517, 60256)" target="_blank">
+			<img src="images/bkzs-icon1.png">
+			书记院长信箱
+		</a>
+	</li>
+</ul>
+            
+        </div>
+        <div class="xwdt">
+            <div class="container">
+                <div class="lm clearfix">
+                    <a class="fr" href="index/xwdt.htm">更多</a>
+                    <h2 class="fl">新闻动态</h2>
+                    <i class="fl">NEWS</i>
+                </div>
+                <div class="xwdt-xia clearfix">
+                    <i class="banner-zsj wow fadeInUpBig"></i>
+                    <i class="banner-ywzm wow fadeInUpBig"></i>
+                    <div class="zyrw fl wow fadeInUpBig">
+<script language="javascript" src="/system/resource/js/ajax.js"></script><div class="zyrwfocus">
+	<ul class="focus_pic clearfix" id="focus_pic_list">
+					<li>
+				<a href="info/1003/5082.htm" target="_blank" title="中共西安交通大学化学学院第二次代表大会召开"><img src="/__local/1/D5/D0/F5EDE299B74881C5E278BA61DCA_028CE11E_1A7DA.jpg?e=.jpg"></a>
+			</li>
+			<li>
+				<a href="info/1003/4997.htm" target="_blank" title="化学学院党委召开支部书记例会部署重点工作"><img src="/__local/9/FE/24/D4E7FA8BCEED5C38A18FC5F5537_45539750_1DB95.jpg"></a>
+			</li>
+			<li>
+				<a href="info/1003/4980.htm" target="_blank" title="西安交通大学第十二届丝绸之路青年学者秋季研讨会——化学学院分论坛顺利召开"><img src="/__local/4/64/9A/8543CB0EF1BC2293B98A9E27D27_4D9B9207_2B6EB.jpg"></a>
+			</li>
+			<li>
+				<a href="info/1003/4972.htm" target="_blank" title="第一届新港AI化学国际研讨会顺利举办"><img src="/__local/2/14/54/FC43815E7F8479CD1C95AF05851_81E4516E_7CDE.jpg"></a>
+			</li>
+			<li>
+				<a href="info/1003/4813.htm" target="_blank" title="西安交大化学系成立97周年、化学学院成立5周年庆祝大会暨化学学科发展论坛举行"><img src="/__local/E/74/FB/6DA1A278A2C9B09ED1FC270105A_99B74EDC_15E9B.jpg"></a>
+			</li>
+	</ul>
+	<a class="prev" href="javascript:void(0)"></a>
+	<a class="next" href="javascript:void(0)"></a>
+	<div class="focus_text clearfix">
+		<ul id="focus_content_list">
+				<li>
+					<h2>
+						<p class="sub_tit"><a href="info/1003/5082.htm" target="_blank" title="中共西安交通大学化学学院第二次代表大会召开">中共西安交通大学化学学院第二次代表大会召开</a></p>
+					</h2>
+				</li>
+				<li>
+					<h2>
+						<p class="sub_tit"><a href="info/1003/4997.htm" target="_blank" title="化学学院党委召开支部书记例会部署重点工作">化学学院党委召开支部书记例会部署重点工作</a></p>
+					</h2>
+				</li>
+				<li>
+					<h2>
+						<p class="sub_tit"><a href="info/1003/4980.htm" target="_blank" title="西安交通大学第十二届丝绸之路青年学者秋季研讨会——化学学院分论坛顺利召开">西安交通大学第十二届丝绸之路青年学者秋季研讨会——化学学院分论坛顺利召开</a></p>
+					</h2>
+				</li>
+				<li>
+					<h2>
+						<p class="sub_tit"><a href="info/1003/4972.htm" target="_blank" title="第一届新港AI化学国际研讨会顺利举办">第一届新港AI化学国际研讨会顺利举办</a></p>
+					</h2>
+				</li>
+				<li>
+					<h2>
+						<p class="sub_tit"><a href="info/1003/4813.htm" target="_blank" title="西安交大化学系成立97周年、化学学院成立5周年庆祝大会暨化学学科发展论坛举行">西安交大化学系成立97周年、化学学院成立5周年庆祝大会暨化学学科发展论坛举行</a></p>
+					</h2>
+				</li>
+		</ul>
+	</div>
+</div>
+<script type="text/javascript">
+	//大图和文字切换
+	jQuery(".zyrwfocus").slide({
+		mainCell: ".focus_pic",
+		targetCell: ".focus_text li",
+		autoPlay: true,
+		effect: "leftLoop",
+		interTime: 5000,
+		delayTime: 200,
+	});
+</script>
+<script>_showDynClickBatch(['dynclicks_u6_5082','dynclicks_u6_4997','dynclicks_u6_4980','dynclicks_u6_4972','dynclicks_u6_4813'],[5082,4997,4980,4972,4813],"wbnews", 1668967517)</script>
+
+                        
+                    </div>
+<ul class="fr xwdt-bt wow fadeInUpBig" data-wow-delay="0.3s">
+		<li>
+		<div class="date fr">
+			<span class="day">18</span>
+			<span class="n-y">2026-09</span>
+		</div>
+		<a href="info/1003/5506.htm" target="_blank" title="【科技自立自强】西安交大张志成在介电储能领域取得重要进展">
+			<span>【科技自立自强】西安交大张志成在介电储能领域取得...</span>
+			<p>电动汽车、可再生能源系统和航空航天设备等高功率电气化领域，对直流母线电容器的工作条件提出更高要求，材料需要在高电场、...</p>
+		</a>
+	</li>
+	<li>
+		<div class="date fr">
+			<span class="day">16</span>
+			<span class="n-y">2026-09</span>
+		</div>
+		<a href="info/1003/5505.htm" target="_blank" title="大庆化工研究中心来院开展交流">
+			<span>大庆化工研究中心来院开展交流</span>
+			<p>为深化产学研协同创新，促进高校基础研究与产业技术需求对接，进一步拓展科研合作空间，9月15日下午，中国石油大庆化工研究中...</p>
+		</a>
+	</li>
+	<li>
+		<div class="date fr">
+			<span class="day">15</span>
+			<span class="n-y">2026-09</span>
+		</div>
+		<a href="info/1003/5504.htm" target="_blank" title="化学学院举行2026级研究生新生开学典礼">
+			<span>化学学院举行2026级研究生新生开学典礼</span>
+			<p>金秋送爽，逐梦启航。2026年9月12日，西安交通大学化学学院2026级研究生新生开学典礼在泓润楼19-4110教室隆重举行。学院领导...</p>
+		</a>
+	</li>
+	<li>
+		<div class="date fr">
+			<span class="day">15</span>
+			<span class="n-y">2026-09</span>
+		</div>
+		<a href="info/1003/5503.htm" target="_blank" title="以赛砺技，逐光而行——化学学院学子暑期全国学科竞赛再创佳绩">
+			<span>以赛砺技，逐光而行——化学学院学子暑期全国学科竞...</span>
+			<p>盛夏蝉鸣灼灼，实验室灯火不息。今夏，化院学子扎根实验台前，把课堂所学、反复打磨的实操功底，化作赛场上的从容与锋芒，在...</p>
+		</a>
+	</li>
+</ul>
+
+<script>_showDynClickBatch(['dynclicks_u7_5506','dynclicks_u7_5505','dynclicks_u7_5504','dynclicks_u7_5503'],[5506,5505,5504,5503],"wbnews", 1668967517)</script>
+
+                </div>
+            </div>
+        </div>
+        <div class="zb-sglm">
+            <div class="container clearfix">
+                <div class="tzgg zb-sglm-bt fl wow fadeInUpBig">
+                    <div class="sglm">
+                        <h2>通知公告</h2>
+                        <i>NOTICES</i>
+                    </div>
+<ul>
+	<li class="clearfix">
+		<div class="date fl">
+			<span class="day">09</span>
+			<span class="n-y">2026-03</span>
+		</div>
+		<a class="fl" href="info/1002/5134.htm" target="_blank" title="2026年化学学院“腾飞杯”院赛安排">2026年化学学院“腾飞杯”院赛安排</a>
+	</li>
+	<li class="clearfix">
+		<div class="date fl">
+			<span class="day">10</span>
+			<span class="n-y">2025-09</span>
+		</div>
+		<a class="fl" href="info/1002/4933.htm" target="_blank" title="化学学院2026年接收推荐免试研究生实施细则" style="font-weight:bold;">化学学院2026年接收推荐免试研究生实施细则</a>
+	</li>
+	<li class="clearfix">
+		<div class="date fl">
+			<span class="day">01</span>
+			<span class="n-y">2025-07</span>
+		</div>
+		<a class="fl" href="info/1002/4823.htm" target="_blank" title="西安交通大学国际月西交·通全球暑期学校(XJTISS)光功能材料化学专题讲座预告">西安交通大学国际月西交·通全球暑期学校(XJTISS)光功能材料化...</a>
+	</li>
+	<li class="clearfix">
+		<div class="date fl">
+			<span class="day">24</span>
+			<span class="n-y">2024-09</span>
+		</div>
+		<a class="fl" href="info/1002/4442.htm" target="_blank" title="化学学院2025年招收推荐免试研究生工作实施细则">化学学院2025年招收推荐免试研究生工作实施细则</a>
+	</li>
+</ul>
+<a class="zb-sglm-more" href="index/tzgg.htm"></a>
+
+<script>_showDynClickBatch(['dynclicks_u8_5134','dynclicks_u8_4933','dynclicks_u8_4823','dynclicks_u8_4442'],[5134,4933,4823,4442],"wbnews", 1668967517)</script>
+
+                    
+                </div>
+                <div class="jxjw zb-sglm-bt fl wow fadeInUpBig" data-wow-delay="0.3s">
+                    <div class="sglm">
+                        <h2>教学教务</h2>
+                        <i>TEACHING</i>
+                    </div>
+<ul>
+	<li class="clearfix">
+		<div class="date fl">
+			<span class="day">04</span>
+			<span class="n-y">2026-09</span>
+		</div>
+		<a class="fl" href="info/1034/5486.htm" target="_blank" title="化学学院2027年接收推荐免试研究生实施细则" style="font-weight:bold;">化学学院2027年接收推荐免试研究生实施细则</a>
+	</li>
+	<li class="clearfix">
+		<div class="date fl">
+			<span class="day">21</span>
+			<span class="n-y">2026-05</span>
+		</div>
+		<a class="fl" href="info/1034/5292.htm" target="_blank" title="化学学院2026年全国优秀大学生夏令营通知" style="font-weight:bold;">化学学院2026年全国优秀大学生夏令营通知</a>
+	</li>
+	<li class="clearfix">
+		<div class="date fl">
+			<span class="day">21</span>
+			<span class="n-y">2026-04</span>
+		</div>
+		<a class="fl" href="info/1034/5212.htm" target="_blank" title="2026年化学学院博士研究生资格考核实施细则" style="font-weight:bold;">2026年化学学院博士研究生资格考核实施细则</a>
+	</li>
+	<li class="clearfix">
+		<div class="date fl">
+			<span class="day">12</span>
+			<span class="n-y">2026-06</span>
+		</div>
+		<a class="fl" href="info/1034/5388.htm" target="_blank" title="2026年化学学院本科生转专业工作实施方案">2026年化学学院本科生转专业工作实施方案</a>
+	</li>
+</ul>
+<a class="zb-sglm-more" href="index/jxjw.htm"></a>
+
+
+
+<script>_showDynClickBatch(['dynclicks_u9_5486','dynclicks_u9_5292','dynclicks_u9_5212','dynclicks_u9_5388'],[5486,5292,5212,5388],"wbnews", 1668967517)</script>
+
+                    
+                </div>
+                <div class="xsdt zb-sglm-bt fl wow fadeInUpBig" data-wow-delay="0.6s">
+                    <div class="sglm">
+                        <h2>学术动态</h2>
+                        <i>LEARNING</i>
+                    </div>
+<ul>
+		
+
+		<li class="clearfix">
+			<div class="date fl">
+				<span class="day">05</span>
+				<span class="xie">/</span>
+				<span class="n-y">06</span>
+			</div>
+		
+		<a class="fl" href="info/1033/5384.htm" target="_blank" title="黄月圆教授：学术论文写作的核心——“五问”">黄月圆教授：学术论文写作的核心——“五问”</a>
+	</li>
+	<li class="clearfix">
+			<div class="date fl">
+				<span class="day">05</span>
+				<span class="xie">/</span>
+				<span class="n-y">06</span>
+			</div>
+		
+		<a class="fl" href="info/1033/5383.htm" target="_blank" title="吴奇院士：何为科学研究？">吴奇院士：何为科学研究？</a>
+	</li>
+	<li class="clearfix">
+			<div class="date fl">
+				<span class="day">08</span>
+				<span class="xie">/</span>
+				<span class="n-y">11</span>
+			</div>
+		
+		<a class="fl" href="info/1033/4473.htm" target="_blank" title="光电氢催化转化:原理、材料与应用探索">光电氢催化转化:原理、材料与应用探索</a>
+	</li>
+	<li class="clearfix">
+			<div class="date fl">
+				<span class="day">06</span>
+				<span class="xie">/</span>
+				<span class="n-y">11</span>
+			</div>
+		
+		<a class="fl" href="info/1033/4475.htm" target="_blank" title="新型高比能锂电池电解液研究">新型高比能锂电池电解液研究</a>
+	</li>
+</ul>
+<a class="zb-sglm-more" href="index/xsjz.htm"></a>
+<script>_showDynClickBatch(['dynclicks_u10_5384','dynclicks_u10_5383','dynclicks_u10_4473','dynclicks_u10_4475'],[5384,5383,4473,4475],"wbnews", 1668967517)</script>
+
+                    
+                </div>
+            </div>
+        </div>
+        <div class="sydb-bg">
+            <div class="container jykyjd">
+                <div class="lm clearfix">
+                    <h2 class="fl">教育科研基地</h2>
+                    <i class="fl">SCIENTIFIC RESEARCH</i>
+                </div>
+<ul class="container clearfix">
+			<li class="fl jykyjd-li1 wow fadeInUpBig" data-wow-delay="0.1s">
+			<a href="http://afm.xjtu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1668967517, 63568)">
+				<i></i>
+				教育部物质非平衡合成与调控重点实验室
+			</a>
+		</li>
+		<li class="fl jykyjd-li2 wow fadeInUpBig" data-wow-delay="0.2s">
+			<a href="http://semc.xjtu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1668967517, 63569)">
+				<i></i>
+				西安市新能源材料化学重点实验室
+			</a>
+		</li>
+		<li class="fl jykyjd-li3 wow fadeInUpBig" data-wow-delay="0.3s">
+			<a href="http://www.xjtu.edu.cn/xynr.jsp?urltype=tree.TreeTempUrl&amp;wbtreeid=1634&amp;wbxjtucollegeid=178" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1668967517, 63570)">
+				<i></i>
+				交大化学教学
+			</a>
+		</li>
+		<li class="fl jykyjd-li4 wow fadeInUpBig" data-wow-delay="0.4s">
+			<a href="http://chemlab.xjtu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1668967517, 63605)">
+				<i></i>
+				化学实验教学中心
+			</a>
+		</li>
+		<li class="fl jykyjd-li5 wow fadeInUpBig" data-wow-delay="0.5s">
+			<a href="http://msac.xjtu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1668967517, 63571)">
+				<i></i>
+				分子科学与应用化学研究所
+			</a>
+		</li>
+		<li class="fl jykyjd-li6 wow fadeInUpBig" data-wow-delay="0.6s">
+			<a href="http://iopc.xjtu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1668967517, 63572)">
+				<i></i>
+				有机与高分子研究所
+			</a>
+		</li>
+		<li class="fl jykyjd-li7 wow fadeInUpBig" data-wow-delay="0.7s">
+			<a href="http://inec.xjtu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1668967517, 63573)">
+				<i></i>
+				新能源材料化学研究所
+			</a>
+		</li>
+</ul>
+
+                
+            </div>
+            <div class="foot-top-bg"></div>
+            <div class="footer">
+                <div class="container clearfix">
+                    
+    
+<div class="fl ">
+	<img src="images/foot-logo.png">
+</div>
+
+<!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p class="fl">版权所有：西安交通大学化学学院 &nbsp;<br />技术支持：西安交通大学网络信息中心<br />地址：陕西省西安市碑林区咸宁西路28号 &nbsp; 邮编：710049</p>
+                    
+                    <div class="ewm-sys fr clearfix">
+                        <img class="sys fl" src="images/sys.png">
+                        
+    
+
+<img class="ewm fr" src="images/h2.jpg">
+
+                        <i class="clear"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/wow.js" type="text/javascript" charset="utf-8"></script>
+        <script>
+        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+            new WOW().init();
+        };
+        </script>
+        
+    
+
+
+
+</body></html>

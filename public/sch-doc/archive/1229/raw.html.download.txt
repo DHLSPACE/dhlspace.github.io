@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html  class="webplus-list"  >
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="pragma" content="no-cache" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="telephone=no" name="format-detection" />
+<title>硕士生</title>
+
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/datepicker/css/datepicker.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/jquery.min.js" sudy-wp-context="" sudy-wp-siteId="297"></script>
+<script language="javascript" src="/_js2/loadStyle.js" sys-path="/_upload/site/1/style/49/49.css"  site-path="/_upload/site/01/29/297/style/184/184.css" ></script>
+<script language="javascript" src="/_js2/grayscale.js"   ></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/jquery.datepicker.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/datepicker_lang_HK.js"></script>
+<link rel="stylesheet" type="text/css" href="/_upload/tpl/07/ac/1964/template1964/wap_resources/libs/swiper/swiper.min.css">
+<link href="/_upload/tpl/07/ac/1964/template1964/wap_resources/style.css" rel="stylesheet">
+<script type="text/javascript"> 
+/*取设备宽度*/
+function rem(){
+	var iWidth=document.documentElement.getBoundingClientRect().width;
+	iWidth=iWidth>1000?1000:iWidth;
+	document.getElementsByTagName("html")[0].style.fontSize=iWidth/10+"px";
+};
+rem();
+window.onorientationchange=window.onresize=rem      
+</script>
+</head>
+<body class="list" style="margin:0 auto;">
+
+<!--Start||Header-->
+<div class="wrapper header">
+  <div class="inner clearfix">
+    <div class="panel" frag="面板2">
+      <div class="post post1 post-2" frag="窗口2" portletmode="simpleSiteAttri">
+        <a href="/mainm.htm" title="返回教育研究院首页"><img border='0' src='/_upload/site/01/29/297/logo.png' /></a>
+      </div>
+    </div>
+    <a class="navi-slide-arrow">导航</a> 
+  </div>
+</div>
+<div class="searchbox" frag="窗口03" portletmode="search">
+      <!--搜索组件-->
+    <div class="wp-search clearfix">
+      <form action="/_web/_search/api/search/new.rst?locale=zh_CN&request_locale=zh_CN&context=&_p=YXM9Mjk3JnQ9MTk2NCZkPTk3MTcmcD0xMiZmPTg3MzYmbT1TTiZ8Ym5uQ29sdW1uVmlydHVhbE5hbWU9ODczNiY_" method="post" target="_blank">
+        <div class="search-input">
+          <input name="keyword" class="search-title" type="text" value="请输入关键词..." onblur="if(this.value == '') { this.value = '请输入关键词...'; }" onfocus="if(this.value == '请输入关键词...') { this.value = ''; }" placeholder="请输入关键词..."/>
+        </div>
+        <div class="search-btn">
+          <input name="submit" class="search-submit" type="submit" value=""/>
+        </div>
+      </form>
+    </div>
+    <!--//复制以上代码到自定义搜索-->
+  
+</div>	
+<!--End||Header--> 
+<div class="wrapper" id="nav">
+  <div class=" nav wp-panel panel-2" frag="面板5">
+    <div class="main-nav wp-window window-2" frag="窗口5">
+      
+    </div>
+  </div>
+</div>
+<!--Start||Banner-->
+<div class="wrapper banner">
+  <div class="inner clearfix">
+    <div class="banner"><img src="/_upload/tpl/07/ac/1964/template1964/wap_resources/images/list_banner.jpg"></div>
+  </div>
+</div>
+<!--End||Banner--> 
+<!--Start||Container-->
+<div class="wrapper container">
+  <div class="inner clearfix">
+    <div class="wp-column-menu">
+      <div class="column-head" frag="面板21">
+        <div class="column-anchor clearfix" frag="窗口21" portletmode="simpleColumnAnchor">
+          <h3 class="anchor-title"><span class='Column_Anchor'>招生信息</span></h3>
+          <a class="column-switch"></a> </div>
+      </div>
+      <div class="column-body" frag="面板22">
+        <div class="column-list" frag="窗口22" portletmode="simpleColumnList">
+           
+            
+            <ul class="column-list-wrap">
+              
+              <li class="column-item column-1 "> <a href="/ds/listm.htm" title="导师" class="column-item-link "><span class="column-name">导师</span></a> 
+                 
+              </li>
+              
+              <li class="column-item column-2 selected"> <a href="/51884/listm.htm" title="硕士生" class="column-item-link selected"><span class="column-name">硕士生</span></a> 
+                 
+              </li>
+              
+              <li class="column-item column-3 "> <a href="/51885/listm.htm" title="博士生" class="column-item-link "><span class="column-name">博士生</span></a> 
+                 
+              </li>
+              
+            </ul>
+             
+          
+        </div>
+      </div>
+    </div>
+    <div class="wp-column-news">
+      <div class="column-news-box">
+        <div class="list-head" frag="面板23">
+          <div class="list-meta clearfix" frag="窗口23" portletmode="simpleColumnAttri">
+            
+              <h2 class="column-title">硕士生</h2>
+              <div class="column-path"><span class="path-name">当前位置：</span><a href="/mainm.htm" target="_self">首页</a><span class='possplit'>&nbsp;&nbsp;</span><a href="http://edu.nju.edu.cn/51884/list.htm" target="_self">招生信息</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/51884/listm.htm" target="_self">硕士生</a></div>
+            
+          </div>
+        </div>
+        <div class="column-news-con" frag="面板24">
+          <div class="column-news-list clearfix" frag="窗口24" portletmode="simpleList">
+            <div id="wp_news_w24"> 
+ 
+<ul class="wp_article_list"> 
+      
+     <li class="list_item i1"> 
+         <div class="fields pr_fields"> 
+             <span class='Article_Index'>1</span> 
+             <span class='Article_Title'><a href='/dd/e3/c51884a843235/pagem.htm' target='_blank' title='南京大学教育研究院2027年接收推荐免试研究生工作实施细则'><font style='font-weight:bold;color:#d33115;'>南京大学教育研究院2027年接收推荐免试研究生工作实施细则</font></a></span> 
+         </div> 
+         <div class="fields ex_fields"> 
+              
+             <span class='Article_PublishDate'>2026-09-08</span> 
+              
+         </div> 
+     </li> 
+      
+     <li class="list_item i2"> 
+         <div class="fields pr_fields"> 
+             <span class='Article_Index'>2</span> 
+             <span class='Article_Title'><a href='/de/dc/c51884a843484/pagem.htm' target='_blank' title='2027年接收推荐免试研究生复试名单'>2027年接收推荐免试研究生复试名单</a></span> 
+         </div> 
+         <div class="fields ex_fields"> 
+              
+             <span class='Article_PublishDate'>2026-09-11</span> 
+              
+         </div> 
+     </li> 
+      
+     <li class="list_item i3"> 
+         <div class="fields pr_fields"> 
+             <span class='Article_Index'>3</span> 
+             <span class='Article_Title'><a href='/9e/7d/c51884a827005/pagem.htm' target='_blank' title='2026年硕士研究生招生复试录取工作细则'><font style='color:#000000;'>2026年硕士研究生招生复试录取工作细则</font></a></span> 
+         </div> 
+         <div class="fields ex_fields"> 
+              
+             <span class='Article_PublishDate'>2026-03-19</span> 
+              
+         </div> 
+     </li> 
+      
+     <li class="list_item i4"> 
+         <div class="fields pr_fields"> 
+             <span class='Article_Index'>4</span> 
+             <span class='Article_Title'><a href='/23/77/c51884a795511/pagem.htm' target='_blank' title='2026 年非全日制教育管理硕士专业学位招生简章'><font style='color:#000000;'>2026 年非全日制教育管理硕士专业学位招生简章</font></a></span> 
+         </div> 
+         <div class="fields ex_fields"> 
+              
+             <span class='Article_PublishDate'>2025-10-21</span> 
+              
+         </div> 
+     </li> 
+      
+     <li class="list_item i5"> 
+         <div class="fields pr_fields"> 
+             <span class='Article_Index'>5</span> 
+             <span class='Article_Title'><a href='/07/41/c51884a788289/pagem.htm' target='_blank' title='2026年接收推荐免试研究生工作实施细则'><font style='color:#0F0201;'>2026年接收推荐免试研究生工作实施细则</font></a></span> 
+         </div> 
+         <div class="fields ex_fields"> 
+              
+             <span class='Article_PublishDate'>2025-09-11</span> 
+              
+         </div> 
+     </li> 
+      
+     <li class="list_item i6"> 
+         <div class="fields pr_fields"> 
+             <span class='Article_Index'>6</span> 
+             <span class='Article_Title'><a href='/ca/79/c51884a772729/pagem.htm' target='_blank' title='调整硕士研究生招生专业目录的公告'><font style='color:#050100;'>调整硕士研究生招生专业目录的公告</font></a></span> 
+         </div> 
+         <div class="fields ex_fields"> 
+              
+             <span class='Article_PublishDate'>2025-07-30</span> 
+              
+         </div> 
+     </li> 
+      
+</ul> 
+</div> 
+
+ <div id="wp_paging_w24"> 
+<ul class="wp_paging clearfix"> 
+     <li class="pages_count"> 
+         <span class="per_page">每页&nbsp;<em class="per_count">14</em>&nbsp;记录&nbsp;</span> 
+         <span class="all_count">总共&nbsp;<em class="all_count">6</em>&nbsp;记录&nbsp;</span> 
+     </li> 
+     <li class="page_nav"> 
+         <a class="first" href="javascript:void(0);" target="_self"><span>第一页</span></a> 
+         <a class="prev" href="javascript:void(0);" target="_self"><span>&lt;&lt;上一页</span></a> 
+         <a class="next" href="javascript:void(0);" target="_self"><span>下一页&gt;&gt;</span></a> 
+         <a class="last" href="javascript:void(0);" target="_self"><span>尾页</span></a> 
+     </li> 
+     <li class="page_jump"> 
+         <span class="pages">页码&nbsp;<em class="curr_page">1</em>/<em class="all_pages">1</em></span> 
+         <span><input class="pageNum" type="text" /><input type="hidden" class="currPageURL" value=""></span></span> 
+         <span><a class="pagingJump" href="javascript:void(0);" target="_self">跳转到&nbsp;</a></span> 
+     </li> 
+</ul> 
+</div> 
+<script type="text/javascript"> 
+     $().ready(function() { 
+         $("#wp_paging_w24 .pagingJump").click(function() { 
+             var pageNum = $("#wp_paging_w24 .pageNum").val(); 
+             if (pageNum === "") { alert('请输入页码！'); return; } 
+             if (isNaN(pageNum) || pageNum <= 0 || pageNum > 1) { alert('请输入正确页码！'); return; } 
+             var reg = new RegExp("/list", "g"); 
+             var url = "/51884/listm.htm"; 
+             window.location.href = url.replace(reg, "/list" + pageNum); 
+         }); 
+     }); 
+</script> 
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--End||Container--> 
+<!--Start||footer-->
+<div class="wrapper footer" id="footer">
+	<div class="inner">
+		<div class="mod clearfix">
+			<div class="foot-left" frag="窗口90" portletmode="simpleSiteAttri">
+				<p class="copyright"><span>南京市栖霞区仙林大道163号南京大学仙林校区潘琦楼B座</span></p>
+        <p class="copyright"><span>邮编：210023 电话：025-89682869</span></p>
+        <p class="copyright"><span>备案信息: 苏ICP备10085945-1号 南信备131号 responsive indicator 本网站已为移动设备优化，请扫描二维码</span></p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--End||footer-->
+
+</body>
+<script type="text/javascript" src="/_upload/tpl/07/ac/1964/template1964/wap_resources/libs/swiper/swiper.min.js"></script>
+<script type="text/javascript" src="/_upload/tpl/07/ac/1964/template1964/wap_resources/js/base.js"></script>
+</html>
+ <img src="/_visitcount?siteId=297&type=2&columnId=51884" style="display:none" width="0" height="0"/>

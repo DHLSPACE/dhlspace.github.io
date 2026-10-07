@@ -1,0 +1,752 @@
+
+
+
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>通知公告-教务处</title><meta name="pageType" content="2">
+<meta name="pageTitle" content="通知公告">
+<META Name="keywords" Content="教务处" />
+
+    <script src="./libs/tailwindcss.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        ncu: {
+                            primary: '#004e97', // Deep Academic Blue similar to NCU official
+                            secondary: '#b30e16', // Accent red
+                            light: '#f4f8fb',
+                            text: '#333333'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+                        sans: ['system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+ <script>
+// 移动端菜单功能 - 使用图标切换
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM loaded - initializing mobile menu with icon toggle');
+    
+    const menuButton = document.querySelector('button.lg\\:hidden');
+    console.log('Menu button found:', menuButton);
+    
+    // 使用更准确的选择器找到移动菜单
+    const mobileMenu = document.querySelector('.lg\\:hidden.bg-white');
+    console.log('Mobile menu found:', mobileMenu);
+    
+    if (!menuButton || !mobileMenu) {
+        console.error('Menu elements not found');
+        return;
+    }
+    
+    // 保存原始菜单图标HTML
+    const menuIconHTML = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true">
+            <path d="M4 5h16"></path>
+            <path d="M4 12h16"></path>
+            <path d="M4 19h16"></path>
+        </svg>
+    `;
+    
+    const closeIconHTML = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x" aria-hidden="true">
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+        </svg>
+    `;
+    
+    // 初始隐藏移动菜单
+    mobileMenu.style.display = 'none';
+    
+    // 切换菜单显示/隐藏和图标
+    function toggleMenu() {
+        console.log('Menu button clicked');
+        
+        if (mobileMenu.style.display === 'none') {
+            // 打开菜单
+            mobileMenu.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+            // 切换为关闭图标
+            menuButton.innerHTML = closeIconHTML;
+        } else {
+            // 关闭菜单
+            mobileMenu.style.display = 'none';
+            document.body.style.overflow = '';
+            // 切换为菜单图标
+            menuButton.innerHTML = menuIconHTML;
+        }
+    }
+    
+    // 关闭菜单函数
+    function closeMenu() {
+        console.log('Closing menu');
+        mobileMenu.style.display = 'none';
+        document.body.style.overflow = '';
+        // 切换回菜单图标
+        menuButton.innerHTML = menuIconHTML;
+    }
+    
+    // 打开菜单函数
+    function openMenu() {
+        console.log('Opening menu');
+        mobileMenu.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+        // 切换为关闭图标
+        menuButton.innerHTML = closeIconHTML;
+    }
+    
+    // 绑定菜单按钮点击事件
+    menuButton.addEventListener('click', function(e) {
+        e.stopPropagation();
+        toggleMenu();
+    });
+    
+    // 点击菜单链接时关闭菜单
+    const menuLinks = mobileMenu.querySelectorAll('a');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            closeMenu();
+        });
+    });
+    
+    // 点击菜单外部区域关闭菜单
+    document.addEventListener('click', function(e) {
+        if (mobileMenu.style.display === 'block' && 
+            !mobileMenu.contains(e.target) && 
+            e.target !== menuButton) {
+            closeMenu();
+        }
+    });
+    
+    // 防止菜单内部点击事件冒泡
+    mobileMenu.addEventListener('click', function(e) {
+        e.stopPropagation();
+    });
+    
+    // 响应式处理：窗口大小变化时，如果切换到桌面端，确保菜单关闭且图标重置
+    window.addEventListener('resize', function() {
+        if (window.innerWidth >= 1024) { // lg breakpoint
+            closeMenu();
+        }
+    });
+    
+    console.log('Mobile menu with icon toggle initialized successfully');
+});
+</script>
+    <style>
+      /* Custom scrollbar for webkit */
+      ::-webkit-scrollbar {
+        width: 8px;}
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;}
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 4px;}
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8;}
+    </style>
+    
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@19.2.0",
+        "react-dom/client": "https://esm.sh/react-dom@19.2.0/client",
+        "react-dom": "https://esm.sh/react-dom@19.2.0",
+        "react-router-dom": "https://esm.sh/react-router-dom@7.9.6"
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" crossorigin="" href="../assets/index.css">
+    
+    
+<!--Announced by Visual SiteBuilder 9-->
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307775465753515742000300024f56 -->
+<link rel="stylesheet" type="text/css" href="Notices.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" ></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1541,'/Notices.jsp',-1,2135078690)</script>
+</head>
+
+
+<body class="bg-gray-50 text-ncu-text font-sans antialiased selection:bg-ncu-primary selection:text-white" >
+    <div id="root">
+        <div class="min-h-screen flex flex-col bg-gray-50">
+            <div class="bg-ncu-primary text-white text-xs py-1"><div class="container mx-auto px-4 flex justify-between items-center">
+    <span class="opacity-80 hidden md:block">欢迎访问南昌大学教务处官方网站</span>
+    <div class="flex items-center space-x-4 ml-auto">
+        <a href="/English.jsp?urltype=news.NewsContentUrl&wbtreeid=1531&wbnewsid=34421" class="hover:text-gray-200 transition">
+            <button class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe mr-1" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                    <path d="M2 12h20"></path>
+                </svg>
+                English Version
+            </button>
+        </a>
+        <a href="http://www.ncu.edu.cn" class="hover:text-gray-200 transition hidden md:block">南昌大学主页</a>
+        <a href="https://jwpt.ncu.edu.cn/jsxsd/sso.jsp" class="hover:text-gray-200 transition">本科教务服务平台</a>
+    </div>
+</div></div>
+            <header class="bg-white shadow-md relative z-50">
+                <div class="container mx-auto px-4">
+                    <div class="flex justify-between items-center h-24">
+                        <div class="flex items-center space-x-3 cursor-pointer">
+                            <div class="w-12 h-12  rounded-full flex items-center justify-center text-white font-serif font-bold text-xl">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.jsp" title="教务处测试站点"><img src="img/ncu-logo3.png" width="320" height="320"   border="0" alt="教务处测试站点" title="教务处测试站点" ></a></div>
+                            <div class="flex flex-col"><div class="flex items-center space-x-3 cursor-pointer">
+    <!-- 单位名称图片 - 替换原来的文字 -->
+    <div class="flex flex-col">
+        <!-- PC端显示完整图片 -->
+        <a href="index.jsp" title="南昌大学教务处" class="hidden md:block">
+            <img src="img/jwc1.png" 
+                 alt="南昌大学教务处" 
+                 class="h-8 md:h-10 object-contain" 
+                 style="max-height: 120px;">
+        </a>
+        
+        <!-- 移动端显示图片 -->
+        <a href="index.jsp" title="南昌大学教务处" class="md:hidden">
+            <img src="img/jwc1.png" 
+                 alt="南昌大学教务处" 
+                 class="object-contain" 
+                 style="max-height: 80px; max-width: 200px;">
+        </a>
+    </div>
+</div></div>
+                        </div>
+                        <div class="hidden lg:flex flex-col items-end space-y-2">
+                            <form class="relative"><input placeholder="请输入关键字..." class="pl-3 pr-8 py-1 text-sm border border-gray-300 rounded-full focus:outline-none focus:border-ncu-primary w-48 transition-all focus:w-64" type="text" value=""><button type="submit" class="absolute right-2 top-1.5 text-gray-400 hover:text-ncu-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search" aria-hidden="true"><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg></button></form><nav class="flex space-x-1">
+        
+                <a class="px-3 py-2 text-base font-medium rounded-t-md transition-colors bg-ncu-primary text-white"
+                href="index.jsp" data-discover="true" aria-current="page">
+                
+                首页</a>
+        
+                <a class="px-3 py-2 text-base font-medium rounded-t-md transition-colors text-gray-700 hover:text-ncu-primary hover:bg-blue-50"
+                href="news.jsp?urltype=tree.TreeTempUrl&wbtreeid=1431" data-discover="true" >
+                
+                教务动态</a>
+        
+                <a class="px-3 py-2 text-base font-medium rounded-t-md transition-colors text-gray-700 hover:text-ncu-primary hover:bg-blue-50"
+                href="organization.jsp?urltype=tree.TreeTempUrl&wbtreeid=1451" data-discover="true" >
+                
+                机构设置</a>
+        
+                <a class="px-3 py-2 text-base font-medium rounded-t-md transition-colors text-gray-700 hover:text-ncu-primary hover:bg-blue-50"
+                href="teaching.jsp?urltype=tree.TreeTempUrl&wbtreeid=1461" data-discover="true" >
+                
+                本科教学</a>
+        
+                <a class="px-3 py-2 text-base font-medium rounded-t-md transition-colors text-gray-700 hover:text-ncu-primary hover:bg-blue-50"
+                href="regulations.jsp?urltype=tree.TreeTempUrl&wbtreeid=1471" data-discover="true" >
+                
+                规章制度</a>
+        
+                <a class="px-3 py-2 text-base font-medium rounded-t-md transition-colors text-gray-700 hover:text-ncu-primary hover:bg-blue-50"
+                href="guide.jsp?urltype=tree.TreeTempUrl&wbtreeid=1481" data-discover="true" >
+                
+                办事指南</a>
+        
+                <a class="px-3 py-2 text-base font-medium rounded-t-md transition-colors text-gray-700 hover:text-ncu-primary hover:bg-blue-50"
+                href="downloads.jsp?urltype=tree.TreeTempUrl&wbtreeid=1491" data-discover="true" >
+                
+                下载中心</a>
+        
+                <a class="px-3 py-2 text-base font-medium rounded-t-md transition-colors text-gray-700 hover:text-ncu-primary hover:bg-blue-50"
+                href="alumni.jsp?urltype=tree.TreeTempUrl&wbtreeid=1501" data-discover="true" >
+                
+                校友服务</a>
+</nav>
+                        </div><button class="lg:hidden text-gray-700 hover:text-ncu-primary"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true">
+                                <path d="M4 5h16"></path>
+                                <path d="M4 12h16"></path>
+                                <path d="M4 19h16"></path>
+                            </svg></button>
+                    </div>
+                </div>
+                <div class="lg:hidden bg-white border-t border-gray-100 absolute w-full shadow-lg"><div class="px-4 py-2 space-y-1">
+                        <form class="relative mb-4 mt-2"><input placeholder="搜索..." class="w-full pl-3 pr-10 py-2 border border-gray-300 rounded focus:outline-none focus:border-ncu-primary" type="text" value=""><button type="submit" class="absolute right-3 top-2.5 text-gray-400"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search" aria-hidden="true">
+                                    <path d="m21 21-4.34-4.34"></path>
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                </svg></button></form>
+                                
+                                
+
+
+
+                <a aria-current="page"  class="block px-3 py-2 rounded-md text-base font-medium bg-ncu-primary text-white" href="index.jsp" data-discover="true">
+                首页</a>
+
+
+
+                <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100"
+                            href="news.jsp?urltype=tree.TreeTempUrl&wbtreeid=1431" data-discover="true">
+                教务动态</a>
+
+
+
+                <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100"
+                            href="organization.jsp?urltype=tree.TreeTempUrl&wbtreeid=1451" data-discover="true">
+                机构设置</a>
+
+
+
+                <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100"
+                            href="teaching.jsp?urltype=tree.TreeTempUrl&wbtreeid=1461" data-discover="true">
+                本科教学</a>
+
+
+
+                <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100"
+                            href="regulations.jsp?urltype=tree.TreeTempUrl&wbtreeid=1471" data-discover="true">
+                规章制度</a>
+
+
+
+                <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100"
+                            href="guide.jsp?urltype=tree.TreeTempUrl&wbtreeid=1481" data-discover="true">
+                办事指南</a>
+
+
+
+                <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100"
+                            href="downloads.jsp?urltype=tree.TreeTempUrl&wbtreeid=1491" data-discover="true">
+                下载中心</a>
+
+
+
+                <a class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100"
+                            href="alumni.jsp?urltype=tree.TreeTempUrl&wbtreeid=1501" data-discover="true">
+                校友服务</a>
+</div>
+                </div>
+            </header>
+            <main class="flex-grow">
+                <div class="container mx-auto px-4 py-8">
+                    <div class="hidden md: flex items-center text-sm text-gray-500 mb-8"><a class="hover:text-ncu-primary" href="#/" data-discover="true">首页</a><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right mx-2" aria-hidden="true">
+                            <path d="m9 18 6-6-6-6"></path>
+                        </svg><span class="text-ncu-primary font-medium">通知公告</span></div>
+                    <div class="flex flex-col lg:flex-row gap-8">
+                        <div class="lg:w-1/4 hidden lg:block">
+                            <div class="bg-white rounded shadow p-4">
+                                <h3 class="text-lg font-bold text-gray-800 mb-4 px-2 border-l-4 border-ncu-primary">栏目导航
+                                </h3>
+                                <ul class="space-y-1">
+                                    <li><a class="block px-4 py-2 rounded transition-colors bg-ncu-primary text-white" href="news.jsp?urltype=tree.TreeTempUrl&wbtreeid=1431" data-discover="true">教务动态</a></li>
+                                    <li><a class="block px-4 py-2 rounded transition-colors text-gray-600 hover:bg-gray-50" href="organization.jsp?urltype=tree.TreeTempUrl&wbtreeid=1451" data-discover="true">机构设置</a></li>
+                                    <li><a class="block px-4 py-2 rounded transition-colors text-gray-600 hover:bg-gray-50" href="teaching.jsp?urltype=tree.TreeTempUrl&wbtreeid=1461" data-discover="true">本科教学</a></li>
+                                    <li><a class="block px-4 py-2 rounded transition-colors text-gray-600 hover:bg-gray-50" href="regulations.jsp?urltype=tree.TreeTempUrl&wbtreeid=1471" data-discover="true">规章制度</a></li>
+                                    <li><a class="block px-4 py-2 rounded transition-colors text-gray-600 hover:bg-gray-50" href="guide.jsp?urltype=tree.TreeTempUrl&wbtreeid=1481" data-discover="true">办事指南</a></li>
+                                    <li><a class="block px-4 py-2 rounded transition-colors text-gray-600 hover:bg-gray-50" href="downloads.jsp?urltype=tree.TreeTempUrl&wbtreeid=1491" data-discover="true">下载中心</a></li>
+                                    <li><a class="block px-4 py-2 rounded transition-colors text-gray-600 hover:bg-gray-50" href="alumni.jsp?urltype=tree.TreeTempUrl&wbtreeid=1501" data-discover="true">校友服务</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="lg:w-3/4">
+
+
+<script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/dynclicks.js"></script><h2 class="text-lg md:text-2xl font-serif font-bold text-ncu-primary mb-4 md:mb-6 border-b pb-3 md:pb-4 flex items-center">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text mr-3" aria-hidden="true">
+        <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path>
+        <path d="M14 2v5a1 1 0 0 0 1 1h5"></path>
+        <path d="M10 9H8"></path>
+        <path d="M16 13H8"></path>
+        <path d="M16 17H8"></path>
+    </svg>
+    通知公告
+</h2>
+
+<div class="space-y-2">
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=56971" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于2026-2027学年秋季学期专业类课程选课的通知</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-05-19</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">19</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">5月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=56961" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">2026-2027学年夏季学期、秋季学期各类课程选课时间预告</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-05-19</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">19</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">5月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57701" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于2026年南昌大学拔尖创新人才实验班拟录取名单的公示</span>
+        </a>
+            <span class="ml-2 px-1.5 py-0.5 bg-red-100 group-hover:bg-red-200 text-red-600 text-xs rounded transition-colors duration-200">NEW</span>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-09-18</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">18</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">9月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57651" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于增设2026年下半年全国大学英语六级考试考场的通知</span>
+        </a>
+            <span class="ml-2 px-1.5 py-0.5 bg-red-100 group-hover:bg-red-200 text-red-600 text-xs rounded transition-colors duration-200">NEW</span>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-09-18</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">18</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">9月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57641" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">南昌大学2026级江铜实验班学生选拔通知</span>
+        </a>
+            <span class="ml-2 px-1.5 py-0.5 bg-red-100 group-hover:bg-red-200 text-red-600 text-xs rounded transition-colors duration-200">NEW</span>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-09-17</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">17</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">9月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57611" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于2026年中秋节、国庆节期间教学安排调整的通知</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-09-15</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">15</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">9月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57601" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于开展2026年度科研训练项目学生选题工作的通知</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-09-14</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">14</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">9月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57591" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于举行2026-2027-1学期南昌大学外语综合测试的通知</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-09-10</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">10</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">9月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57581" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于2026级新生英语演讲实验班选拔的通知</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-09-10</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">10</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">9月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57571" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于2026-2027学年秋季学期“名师领衔科技前沿通识选修课”选课的通知</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-09-09</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">09</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">9月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57561" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于2026-2027学年秋季学期本科教材选用结果的公示</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-09-09</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">09</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">9月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57541" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于南昌大学2026年下半年高等学历继续教育学士学位外语水平考试期间封闭教学楼的通告</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-09-07</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">07</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">9月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57531" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于2026年下半年中小学教师资格证考试期间封闭教学楼的通告</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-09-07</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">07</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">9月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57521" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">南昌大学关于2026年下半年全国大学英语四、六级考试笔试及口语考试报名的通知</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-09-03</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">03</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">9月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57501" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于南昌大学2026级英语水平测试考试期间封闭教学楼的通告</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-09-02</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">02</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">9月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57491" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于开展2026-2027学年秋季学期2026级本科生学科基础课选课的通知</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-09-01</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">01</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">9月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57481" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于公布2026级外语类公共基础课修读方案及组织2026-2027学年秋季学期高阶英语类课程选课的通知</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-08-31</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">31</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">8月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57471" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于2026-2027学年秋季学期《体育(1)》选课的通知</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-08-31</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">31</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">8月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57461" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于开展2026级本科生模拟选课预演工作的通知</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-08-31</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">31</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">8月</span>
+        </span>
+    </span>
+</div>
+<div class="flex items-center justify-between group cursor-pointer border-b border-dashed border-gray-200 pb-2 hover:bg-gray-50 transition-colors duration-200 px-3 py-2 rounded-lg -mx-3">
+    <div class="flex items-center flex-1 min-w-0">
+        <a target="_blank" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1541&wbnewsid=57451" data-discover="true" class="flex items-center flex-1 min-w-0">
+            <span class="hidden md:block w-1.5 h-1.5 bg-gray-300 rounded-full mr-3 group-hover:bg-ncu-secondary transition-colors duration-200"></span>
+            <span class="text-gray-700 group-hover:text-ncu-blue transition-colors text-sm md:text-base break-words flex-1 min-w-0 leading-relaxed">关于2026年稀土实验班增补选拔学生的通知</span>
+        </a>
+    </div>
+    <span class="text-gray-400 text-xs md:text-sm ml-4 whitespace-nowrap font-mono text-right flex-shrink-0">
+        <!-- PC端显示完整日期 -->
+        <span class="hidden md:inline group-hover:text-gray-600 transition-colors duration-200">2026-08-29</span>
+        <!-- 移动端显示优化后的日期块 -->
+        <span class="md:hidden bg-gray-100 group-hover:bg-gray-200 rounded text-center py-1 px-2 flex flex-col justify-center items-center min-w-[45px] transition-colors duration-200">
+            <span class="text-xs font-bold text-ncu-secondary leading-tight">29</span>
+            <div class="w-3 h-px bg-ncu-secondary my-0.5 opacity-60"></div>
+            <span class="text-[10px] text-gray-500 font-medium">8月</span>
+        </span>
+    </span>
+</div>
+</div>
+<link rel="stylesheet" Content-type="text/css" href="/system/resource/css/pagedown/sys.css">
+<div style="margin-top:10px;text-align:center;" class="pb_sys_common pb_sys_normal pb_sys_style5"><span class="p_pages"><span class="p_first_d p_fun_d">首页</span><span class="p_prev_d p_fun_d">上页</span><span class="p_no_d">1</span><span class="p_no"><a href="?a1175762t=26&a1175762p=2&a1175762c=20&urltype=tree.TreeTempUrl&wbtreeid=1541">2</a></span><span class="p_no"><a href="?a1175762t=26&a1175762p=3&a1175762c=20&urltype=tree.TreeTempUrl&wbtreeid=1541">3</a></span><span class="p_no"><a href="?a1175762t=26&a1175762p=4&a1175762c=20&urltype=tree.TreeTempUrl&wbtreeid=1541">4</a></span><span class="p_no"><a href="?a1175762t=26&a1175762p=5&a1175762c=20&urltype=tree.TreeTempUrl&wbtreeid=1541">5</a></span><span class="p_dot">...</span><span class="p_no"><a href="?a1175762t=26&a1175762p=26&a1175762c=20&urltype=tree.TreeTempUrl&wbtreeid=1541">26</a></span><span class="p_next p_fun"><a href="?a1175762t=26&a1175762p=2&a1175762c=20&urltype=tree.TreeTempUrl&wbtreeid=1541">下页</a></span><span class="p_last p_fun"><a href="?a1175762t=26&a1175762p=26&a1175762c=20&urltype=tree.TreeTempUrl&wbtreeid=1541">尾页</a></span></span></div><script>_showDynClickBatch(['dynclicks_u5_56971','dynclicks_u5_56961','dynclicks_u5_57701','dynclicks_u5_57651','dynclicks_u5_57641','dynclicks_u5_57611','dynclicks_u5_57601','dynclicks_u5_57591','dynclicks_u5_57581','dynclicks_u5_57571','dynclicks_u5_57561','dynclicks_u5_57541','dynclicks_u5_57531','dynclicks_u5_57521','dynclicks_u5_57501','dynclicks_u5_57491','dynclicks_u5_57481','dynclicks_u5_57471','dynclicks_u5_57461','dynclicks_u5_57451'],[56971,56961,57701,57651,57641,57611,57601,57591,57581,57571,57561,57541,57531,57521,57501,57491,57481,57471,57461,57451],"wbnews", 2135078690)</script>
+</div>
+                    </div>
+                </div>
+            </main>
+            <footer class="bg-[#1a202c] text-gray-300 py-10 border-t-4 border-ncu-secondary">
+                <!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<div class="container mx-auto px-4 relative"><!-- 背景图片层 --><div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-35 z-0" style="background-image: url(/img/hyl.PNG);"></div><!-- 内容层 --><div class="relative z-10"><div class="grid grid-cols-1 md:grid-cols-3 gap-8"><div><h4 class="text-white text-base md:text-lg font-bold mb-4 border-b border-gray-600 pb-2 inline-block">联系我们</h4><ul class="space-y-2 text-xs md:text-sm"><li>地址：江西省南昌市红谷滩区学府大道999号前湖校区办公楼1楼</li><li>邮编：330031</li><li>电话：0791-83969100</li><li>邮箱：dean@ncu.edu.cn</li></ul></div><div><h4 class="text-white text-base md:text-lg font-bold mb-4 border-b border-gray-600 pb-2 inline-block">相关链接</h4><ul class="grid grid-cols-2 gap-2 text-xs md:text-sm"><li><a href="http://www.moe.gov.cn/" class="hover:text-white transition flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right mr-1" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>教育部</a></li><li><a href="https://jyt.jiangxi.gov.cn/" class="hover:text-white transition flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right mr-1" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>江西省教育厅</a></li><li><a href="https://www.chsi.com.cn/" class="hover:text-white transition flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right mr-1" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>中国高等教育学生信息网(学信网)</a></li><li><a href="https://lib.ncu.edu.cn/" class="hover:text-white transition flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right mr-1" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>南昌大学图书馆</a></li></ul></div><div class="flex flex-row md:flex-col items-center justify-center md:items-end gap-2 md:gap-0"><!-- 图片容器 --><div class="w-16 h-16 md:w-24 md:h-24 rounded overflow-hidden bg-white p-0.5 md:p-1 flex-shrink-0"><img src="img/weixin.jpg" alt="教务处公众号二维码" class="w-full h-full object-cover" title="扫描关注教务处公众号" /></div><!-- 文字 --><p class="text-xs text-gray-500 text-center md:text-right md:mt-2">关注教务处公众号</p></div><div class="border-t border-gray-700 mt-8 pt-6 text-center text-xs text-gray-500"><p>© 2025 南昌大学教务处 版权所有<br /> (本站采用AIGC建站)</p></div></div></div></div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>

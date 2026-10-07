@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META NAME="Keywords" CONTENT='四川大学研究生招生信息网 四川大学研究生院招生办 研招网 研究生招生网 四川大学研招网 四川大学博士招生 四川大学研究生院 四川大学研究生招生办公室新闻通知'/>
+    <meta name="Description" content='四川大学研究生招生信息网为 四川大学全日制硕士、博士研究生招生办公室官方网站，发布每年硕、博士招生专业目录，招生简章，招生说明，分数线发布，权威通知，提供招生咨询，提供硕士、博士成绩查询，推免生申请，夏令营申请等等'/>
+    <title>四川大学关于2026年硕士研究生招生考试初试成绩查询及有关工作的通知_四川大学研究生招生信息网</title>
+
+    <link href="/Content/newskin/bootstrap.min.css" rel="stylesheet">
+    <link href="/Content/newskin/style.css?v=2.0.3" rel="stylesheet">
+    <link href="/Content/newskin/icon.css" rel="stylesheet">
+    <link href="/Content/newskin/header-footer.css?v=2.0.3" rel="stylesheet">
+    <link href="/Content/newskin/owl.carousel.min.css" rel="stylesheet">
+    <script src="/Scripts/newskin/jquery.min.js"></script>
+    <script src="/Scripts/newskin/respond.min.js"></script>
+
+    
+    
+    
+</head>
+<body>
+<header>
+    <section class="scu-one">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-5">
+                    <img src="/Content/images/newskin/logo.png" class="logo">
+                    <div class="pull-right">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"></button>
+                    </div>
+
+                </div>
+                <div class="col-md-8 col-sm-7">
+                    <div class="user-xs">
+
+
+
+
+
+    <div class=" tel-one">
+        <span class="icon-user hidden-xs"></span>&nbsp;  <span id="welcomes">[ <a href="/Account/Login">登录</a> /<a href='/xly'>夏令营&预推免</a>/<a href='/ksfw'>考生服务</a> ] </span>
+    </div>
+
+<div class="search-box ">
+    <script type="text/javascript" language="javascript">
+        
+        function dsubmit() {
+            var key = $("#skey").val().trim();
+            if (key.length > 1) {
+                $('#searchform').submit();
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        function csubmit() {
+            var key = $("#skey").val().trim();
+            if (key.length > 1) {
+                // $('#searchform').submit();
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+
+    </script>
+    <form id="searchform" name="searchform" action="/zsxx/search" method="GET" onsubmit="csubmit()">
+        <input type="text" id="skey" name="s" value="" placeholder="站内搜索">
+        <span class="icon-search-solid" onclick="dsubmit()"></span>
+    </form>
+
+</div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="scu-head">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/">首页 </a></li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">硕士招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zsxx/newslist/ss/zc">招生章程</a></li>
+                                <li><a href="/sszyml/index">招生专业目录</a></li>
+                                <li><a href="/sszyml/tmsml">推免生（直博）专业目录</a></li>
+                                <li><a href="/zsxx/newslist/ss/gg">公告通知</a></li>
+                                <li><a href="/score" target="_blank">成绩查询</a></li>
+                                <li><a href="/xly">夏令营报名</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">博士招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zsxx/newslist/bs/zc">招生章程</a></li>
+                                <li><a href="/bszyml/index">招生专业目录</a></li>
+                                 <li><a href="/sszyml/tmsml">推免生（直博）专业目录</a></li>
+                                <li><a href="/zsxx/newslist/bs/gg">公告通知</a></li>
+                                <li><a href="/bsqr/index">报名审核查询</a></li>
+                                 <li><a href="/score/bs"  target="_blank">成绩查询</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">港澳台招生  <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/zsxx/newslist/gat/zc">招生章程</a></li>
+                                    <li><a href="/ssgat">港澳台硕士招生专业目录</a></li>
+                                    <li><a href="/bsgat">港澳台博士招生专业目录</a></li>
+                                <li><a href="/zsxx/newslist/gat/gg">公告通知</a></li>
+                           
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/zsxx/newslist/a/gk" role="button" aria-haspopup="false" aria-expanded="false" >信息公开  </a>
+                            
+                        </li>
+                        <li class="dropdown">
+                            <a href="/zsxx/newslist/a/ls" role="button" aria-haspopup="false" aria-expanded="false">历年数据 </a>
+                            
+                        </li>
+                        <li class="dropdown">
+                            <a href="/help/index" role="button" aria-haspopup="false" aria-expanded="false" >常见问题 </a>
+                           
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" >联系我们   <span class="caret"></span> </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/contact/index">研招办</a></li>
+                                <li><a href="/contact/yxs">招生学院(系/所)</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </section>
+
+</header>
+
+
+<section class="bread-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- <h3><span class="icon-pin"></span> 硕士招生</h3> -->
+            </div>
+        </div>
+        <div class="bread-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="breadcrumb">
+                            <li><a href="/">首页</a></li>
+                            <li>四川大学关于2026年硕士研究生招生考试初试成绩查询及有关工作的通知                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="share-box">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="list-recruit">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12">
+
+                    <ul class="list-name">
+
+        <li>
+            <a href="/zsxx/newslist/zt/1">
+                <span class="icon-recruit-3 list-icon"></span>
+                <span class="list-detail">优秀大学生暑期夏令营</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+        <li>
+            <a href="/zsxx/newslist/a/gk">
+                <span class="icon-score list-icon"></span>
+                <span class="list-detail">信息公开</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+        <li>
+            <a href="/zsxx/newslist/a/ls">
+                <span class="icon-data list-icon"></span>
+                <span class="list-detail">历年数据</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+        <li>
+            <a href="/help">
+                <span class="icon-question1 list-icon"></span>
+                <span class="list-detail">常见问题</span>
+                <span class="list-three"></span>
+            </a>
+        </li>
+
+
+
+
+    </ul>
+
+
+            </div>
+            <div class="col-md-9 col-sm-9 content-one col-xs-12">
+
+                
+
+
+
+
+    <h3 class="content-title" style="margin:10px; text-align: center;">四川大学关于2026年硕士研究生招生考试初试成绩查询及有关工作的通知</h3>
+
+
+<p class="add-time" style="text-align: center;">
+    添加时间 2026/2/27 15:01 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;访问次数  87509
+
+</p>
+
+    <div class="content-box">
+
+        <p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">&nbsp; 根据教育部和四川省教育考试院的相关要求，现将报考我校2026年硕士研究生招生考试有关初试成绩查询、复核工作安排通知如下：</span></span></span></span></p>
+
+<p style="text-align:left"><strong><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">一、初试成绩查询</span></span></span></span></strong></p>
+
+<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">&nbsp; 2026</span></span><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">年硕士研究生招生考试初试成绩将于2月28日9时公布，届时，报考四川大学的考生可通过以下网址进行查询：中国研招网（</span></span><u><a href="https://yz.chsi.com.cn/apply/cjcx/" style="color:#467886; text-decoration:underline" target="_blank"><span style="color:#2980b9">https://yz.chsi.com.cn/apply/cjcx/</span></a></u><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">）或四川省教育考试院（</span></span><u><a href="https://www.sceea.cn/" style="color:#467886; text-decoration:underline" target="_blank"><span style="color:#2980b9">https://www.sceea.cn/</span></a></u><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">） 或 四川大学研究生招生信息网（</span></span><u><a href="https://yz.scu.edu.cn/score" style="color:#467886; text-decoration:underline" target="_blank"><span style="color:#2980b9">https://yz.scu.edu.cn/score</span></a></u><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">）。</span></span></span></span></p>
+
+<p style="text-align:left"><strong><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">二、初试成绩复核</span></span></span></span></strong></p>
+
+<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">&nbsp; </span></span></span></span><span style="font-family:仿宋_GB2312; font-size:14pt">如考生对本人成绩有异议，可提交复核申请，学校将组织专门人员进行复核，考生本人不得查阅答卷。复核只核实是否有漏评、成绩累计错误，不再重新组织评阅答卷。成绩复核结果将在十个工作日后在成绩查询系统中更新，不再另行通知。</span></p>
+
+<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线">&nbsp; &nbsp;&nbsp;<strong><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">申请时间：</span></span></strong><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">3</span></span><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">月1-2日，每天10:00-17:00。</span></span></span></span></p>
+
+<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线">&nbsp; &nbsp;&nbsp;<strong><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">申请方式：</span></span></strong><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">网上申请（网址：</span></span><u><a href="https://yz.scu.edu.cn/cjcx" style="color:#467886; text-decoration:underline" target="_blank"><span style="color:#2980b9">https://yz.scu.edu.cn/cjcx</span></a></u><span style="font-family:仿宋_GB2312">，</span><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">我校不接受现场、电话、邮件等形式的复核申请）。</span></span></span></span></p>
+
+<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线">&nbsp; &nbsp;&nbsp;<strong><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">申请流程：</span></span></strong></span></span></p>
+
+<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线">&nbsp; &nbsp; <span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">（1）准备成绩复核申请书（<u><strong><a href="/Content/newsfiles/0.669545912961264_四川大学研究生招生考试成绩复核申请.docx"><span style="color:#2980b9">点击下载</span></a></strong></u>），申请书需写明申请理由，本人签字后扫描成电子文件，如有申请多科的，需要每科单独填写；</span></span></span></span></p>
+
+<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线">&nbsp; &nbsp; <span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">（2）准备考生本人身份证扫描件（正反面）；</span></span></span></span></p>
+
+<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线">&nbsp; &nbsp; <span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">（3）进入2026年硕士成绩复核登记系统（</span></span><u><a href="https://yz.scu.edu.cn/cjcx" style="color:#467886; text-decoration:underline" target="_blank"><span style="color:#2980b9">https://yz.scu.edu.cn/cjcx</span></a></u><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">），选择复核科目，填写相关内容，并上传上述扫描件；</span></span></span></span></p>
+
+<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线">&nbsp; &nbsp; <span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">（4）提交申请，提交后不得更改。如申请多门科目复核的，请提前准备所有科目复核申请电子材料，一次性勾选需要复核的科目，并按科目逐一上传材料后一次提交。</span></span></span></span></p>
+
+<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线">&nbsp; &nbsp;&nbsp;<strong><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">特别提醒：</span></span></strong><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">所有扫描件请提供pdf 或者 jpg 格式，文件名不得使用特殊字符，单个文件大小不超过2MB。</span></span></span></span></p>
+
+<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线">&nbsp;<strong><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">三、其他后续工作</span></span></strong></span></span></p>
+
+<p style="text-align:left"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">&nbsp; 我校进入复试的基本分数线、复试安排等有关工作将另行通知，请考生密切关注我校研招网（<u><a href="https://yz.scu.edu.cn/" target="_blank"><span style="color:#2980b9">https://yz.scu.edu.cn/</span></a></u>）、&ldquo;川大研招办&rdquo;微信公众号有关通知信息。</span></span></span></span></p>
+
+<p style="text-align:left">&nbsp;</p>
+
+<p style="text-align:left">&nbsp;</p>
+
+<p style="text-align:right"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">四川大学研究生招生办公室</span></span></span></span></p>
+
+<p style="text-align:right"><span style="font-size:10.5pt"><span style="font-family:等线"><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">2026</span></span><span style="font-size:14.0pt"><span style="font-family:仿宋_GB2312">年2月27日</span></span></span></span></p>
+
+
+
+    </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+<div class="back-top">
+    <div class="code-box"><a href="#">
+            <img src="/Content/images/newskin/qrcode.jpg" width="80px"></a>
+    </div>
+    <div id="back-to-top" class="back-icon"><span class="icon-arrow-up"></span>
+    </div>
+</div>
+
+<section class="mobile-nav visible-xs">
+
+
+    <ul class="nav nav-pills">
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">公告通知
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/zsxx/newslist/a/gg">公告通知</a></li>
+                <li><a href="/zsxx/newslist/a/gk">信息公开</a></li>
+            </ul>
+        </li>
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">目录查询
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/sszyml/index">硕士目录</a></li>
+                <li><a href="/sszyml/tmsml">硕士推免目录</a></li>
+                <li><a href="/bszyml/index">博士目录</a></li>
+                <li><a href="/ssgat">港澳台硕士目录</a></li>
+                <li><a href="/bsgat">港澳台博士目录</a></li>
+            </ul>
+        </li>
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">自助服务
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="/zsxx/newslist/a/ls">历年数据</a></li>
+                <li><a href="/help">常见问题</a></li>
+                <li><a href="/contact/yxs">招生单位联系方式</a></li>
+                <li><a href="/contact/index">研招办联系方式</a></li>
+            </ul>
+        </li>
+    </ul>
+    <a id="defaultwboxid"></a>
+</section>
+
+<section class="footer">
+    <div class="container">
+        <ul>
+            <li>版权所有：四川大学研究生院招生办公室</li>
+            <li>通信地址：四川省成都市一环路南一段24号 四川大学研究生院（610065）</li>
+
+            <li>联系方式：<a href="http://yz.scu.edu.cn/contact/index" style="color: white; text-decoration: underline;">研招办</a> <a href="http://yz.scu.edu.cn/contact/yxs" style="color: white; text-decoration: underline;">招生单位</a></li>
+
+            <li>友情链接： <a href="http://www.scu.edu.cn" target="_blank" style="color: white; text-decoration: underline;">四川大学</a>
+                <a href="http://gs.scu.edu.cn" target="_blank" style="color: white; text-decoration: underline;">四川大学研究生院</a>
+                <a href="http://yz.chsi.com.cn" target="_blank" style="color: white; text-decoration: underline;">中国研究生招生信息网</a>
+                <a href="http://www.sceea.cn/" target="_blank" style="color: white; text-decoration: underline;">四川省教育考试院</a> </li>
+        </ul>
+    </div>
+    <a id="defaultwboxid"></a>
+
+</section>
+
+
+
+<script src="/Scripts/newskin/bootstrap.min.js"></script>
+<!--导航-->
+<script src="/Scripts/newskin/stickUp.js"></script>
+<script type="text/javascript">
+    //initiating jQuery
+    jQuery(function($) {
+        $(document).ready(function() {
+            $('.scu-head').stickUp();
+        });
+    });
+
+    $(document).ready(function() {
+        var getWindow = $(window).width();
+        if (getWindow > 1000) {
+            $('.scu-head li.dropdown').off('click.bs.dropdown.data-api');
+            dropdownOpen();
+        }
+    });
+
+    function dropdownOpen() {
+        var $dropdownLi = $('.scu-head li.dropdown');
+        $dropdownLi.mouseover(function() {
+            $(this).addClass('open');
+        }).mouseout(function() {
+            $(this).removeClass('open');
+        });
+    }
+</script>
+<!--导航-->
+
+<!--返回顶部-->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#back-to-top").hide();
+        $(function() {
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 100) {
+                    $("#back-to-top").fadeIn(500);
+                } else {
+                    $("#back-to-top").fadeOut(500);
+                }
+            });
+            $("#back-to-top").click(function() {
+                $('body,html').animate({ scrollTop: 0 }, 100);
+                return false;
+            });
+        });
+    });
+</script>
+<!--返回顶部-->
+
+    
+
+
+
+</body>
+</html>

@@ -1,0 +1,684 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>南昌大学2026年硕士研究生招生复试考生须知-南昌大学研究生院</title><meta name="pageType" content="3">
+<meta name="pageTitle" content="南昌大学2026年硕士研究生招生复试考生须知">
+<META Name="keywords" Content="南昌大学研究生院,通知公告,招生,研究生,复试,硕士,考生,大学,南昌,须知" />
+<META Name="description" Content="各位考生：取得我校复试资格的考生登录“南昌大学研究生报考服务系统”（https://gsas.ncu.edu.cn/logon，用户名为考生编号，初始密码为网报时填写的个人证件号码，预计将于2026年3月25日开通复试功能），缴费后（同等学力考生缴费300元，其他考生缴费200元）下载、打印复试准考证、体检表（双面打印），并做好复试的各项准备工作。现将复试录取工作相关内容通知如下。一、复试形式我校采取线下现场复试形式，一志愿和调剂复试分阶段进行。..." />
+
+    <link rel="stylesheet" href="../../style/ny.css">
+    <link rel="stylesheet" href="../../style/public.css">
+    <link rel="stylesheet" href="../../style/slick.css">
+    <link rel="stylesheet" href="../../style/slick-theme.css">
+
+<!--Announced by Visual SiteBuilder 9-->
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307775465753515742000300024f56 -->
+<link rel="stylesheet" type="text/css" href="../../content.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1012,'/content.jsp',47196,2125996941)</script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="head px1400">
+             <div>
+                    <div class="dh"><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script><UL>
+    <li>
+        <a href="../../glyfw/yzxx.htm" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 114514)">院长信箱</a>
+    </li>
+    <li>
+        <a href="../../index.htm" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97947)">网站首页</a>
+    </li>
+    <li>
+        <a href="https://www.ncu.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97946)">南昌大学</a>
+    </li>
+</UL></div>
+                    <div class="seach"><!-- 3.1.3版本 -->
+
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script><script language="javascript" src="/system/resource/vue/vue.js"></script><script language="javascript" src="/system/resource/vue/bluebird.min.js"></script><script language="javascript" src="/system/resource/vue/axios.js"></script><script language="javascript" src="/system/resource/vue/polyfill.js"></script><script language="javascript" src="/system/resource/vue/token.js"></script><LINK href="/system/resource/vue/static/element/index.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/vue/static/element/index.js"></script><script language="javascript" src="/system/resource/vue/static/public.js"></script><script language="javascript" src="/system/resource/openapp/search/js/containsHtmlTags.js"></script><script language="javascript" src="/system/resource/openapp/search/layui/layui.js"></script><div id="divu1"></div>
+<script type="text/html" id="htmlu1">
+    <div id="appu1">
+        <div v-if="!isError">
+
+<input type="text" class="qwss" placeholder="请输入关键字.." v-model=query.keyWord @keyup.enter="onSubmit">
+<div class="ser_img">
+<input type="image" class="tj" src="../../image/seach.png" v-on:click="onSubmit()">
+</div>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu1").html($("#htmlu1").text());
+</script>
+<script>
+    var appOwner = "2125996941";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu1",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script>
+
+<script>
+   var appElementu1 = document.querySelector("#appu1");
+   if (appElementu1 && appElementu1.__vue__) {
+
+   } else {
+      $("#divu1").html($("#htmlu1").text());
+      var appOwner = "2125996941";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou1 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu1(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu1();
+        }
+      };
+
+      function onSubmitu1(e) {
+        queryInfou1.query.keyWord= $("#appu1  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou1.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+</script></div>
+                </div>
+        </div>
+        <div id="ft-link">
+            <div class="ft-link wp"><span>快速访问</span>
+ <a href="https://gmsadm.ncu.edu.cn/navigation/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112876)">研究生教育管理系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22176.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112877)">博士研究生招生简章</a>
+ <a href="https://gsas.ncu.edu.cn/logon" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112878)">博士网报系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22166.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112879)">硕士研究生招生简章</a>
+ <a href="https://ygb.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112880)">党委研究生工作部</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/bszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112882)">博士招生</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/sszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112883)">硕士招生</a>
+ <a href="https://teacher.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112884)">教师个人主页</a>
+ <a href="https://yjsy.ncu.edu.cn/yygk/ryjdh.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112885)">联系方式</a>
+</div>
+        </div>
+    </div>
+    <div id="logo">
+        <div class="px1400" id="nav">
+                <div class="logo">
+<a href="../../index.htm"><img src="../../images/LOGO.png" alt=""></a>
+</div>
+                <div class="nav"><ul>
+<li>
+    <a href="../../index.htm">网站首页</a>
+</li>  
+<li>
+    <a href="../../yygk/yyjj.htm">研院概况</a>
+    <ul>
+       
+            <li><a href="../../yygk/yyjj.htm">研院简介</a></li>
+       
+            <li><a href="../../yygk/jgsz.htm">机构设置</a></li>
+       
+            <li><a href="../../yygk/glzn.htm">管理职能</a></li>
+       
+            <li><a href="../../yygk/ryjdh.htm">人员及电话</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../zsgz/zsjz.htm">招生工作</a>
+    <ul>
+       
+            <li><a href="../../zsgz/zsjz.htm">招生简章</a></li>
+       
+            <li><a href="../../zsgz/sszs.htm">硕士招生</a></li>
+       
+            <li><a href="../../zsgz/bszs.htm">博士招生</a></li>
+       
+            <li><a href="../../zsgz/tmgz.htm">推免工作</a></li>
+       
+            <li><a href="../../zsgz/gatyz.htm">港澳台研招</a></li>
+       
+            <li><a href="../../zsgz/gzzd.htm">规章制度</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../pygz/gzzd.htm">培养工作</a>
+    <ul>
+       
+            <li><a href="../../pygz/gzzd.htm">规章制度</a></li>
+       
+            <li><a href="../../pygz/gzlc.htm">工作流程</a></li>
+       
+            <li><a href="../../pygz/pydt.htm">培养动态</a></li>
+       
+            <li><a href="../../pygz/zyxw.htm">专业学位</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../xwgz/xwgzzz.htm">学位工作</a>
+    <ul>
+       
+            <li><a href="../../xwgz/xwgzzz.htm">学位工作组织</a></li>
+       
+            <li><a href="../../xwgz/sqxwwj.htm">申请学位文件</a></li>
+       
+            <li><a href="../../xwgz/sqxwlc.htm">申请学位流程</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../xwdjs/xwsqd.htm">学位点建设</a>
+    <ul>
+       
+            <li><a href="../../xwdjs/xwsqd.htm">学位授权点</a></li>
+       
+            <li><a href="../../xwdjs/xwdsb.htm">学位点申报</a></li>
+       
+            <li><a href="../../xwdjs/ejxkzzsz.htm">二级学科自主设置</a></li>
+       
+            <li><a href="../../xwdjs/xwdpg_hy_.htm">学位点评估（核验）</a></li>
+       
+            <li><a href="../../xwdjs/xwddtdz_yh_.htm">学位点动态调整（优化）</a></li>
+       
+            <li><a href="../../xwdjs/gjxksz.htm">国家学科设置</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../zgxy/zgxyjj.htm">卓工学院</a>
+    <ul>
+       
+            <li><a href="../../zgxy/zgxyjj.htm">卓工学院简介</a></li>
+       
+            <li><a href="../../zgxy/zsdt.htm">招生动态</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../glyfw/bszn.htm">管理与服务</a>
+    <ul>
+       
+            <li><a href="../../glyfw/bszn.htm">办事指南</a></li>
+       
+            <li><a href="../../glyfw/yzxx.htm">院长信箱</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../xzzx.htm">下载中心</a>
+</li>  
+</ul></div>
+            </div>
+    </div>
+    <div class="banner">
+        <div><a href="#">
+    <img src="../../images/nandaban1.jpg" alt="">
+</a></div>
+    </div>
+    <!-- 移动端top -->
+    <div class="top">
+        <div class="wap wap-menu">
+            <img src="../../image/menu.png" class="menu" alt="">
+            <img src="../../image/close.png" class="close-menu" alt="">
+        </div>
+    </div>
+    <div class="wap m-head">
+            <div class="m-logo">        <a href="../../index.htm" onclick="_addDynClicks(&#34;wbimage&#34;, 2125996941, 1024740)"><img src="../../images/yunnandaxuelogoshouji.png" alt=""></a>           
+</div>
+            <div class="m-nav">
+                <div class="m-tlink">
+    <a href="../../index.htm" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97954)">网站首页</a>    
+    <a href="https://www.ncu.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97955)">南昌大学</a>    
+</div>
+                
+                         <div class="yddtblj"><span>快速访问</span>
+ <a href="https://gmsadm.ncu.edu.cn/navigation/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112876)">研究生教育管理系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22176.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112877)">博士研究生招生简章</a>
+ <a href="https://gsas.ncu.edu.cn/logon" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112878)">博士网报系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22166.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112879)">硕士研究生招生简章</a>
+ <a href="https://ygb.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112880)">党委研究生工作部</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/bszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112882)">博士招生</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/sszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112883)">硕士招生</a>
+ <a href="https://teacher.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112884)">教师个人主页</a>
+ <a href="https://yjsy.ncu.edu.cn/yygk/ryjdh.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112885)">联系方式</a>
+</div>
+                <div class="m-search"><!-- 3.1.3版本 -->
+
+
+
+<div id="divu9"></div>
+<script type="text/html" id="htmlu9">
+    <div id="appu9">
+               <div v-if="!isError">
+
+<input type="text" class="qwss" placeholder="请输入内容" v-model=query.keyWord @keyup.enter="onSubmit">
+<input type="image" class="tj" src="../../image/seach.png" v-on:click="onSubmit()">
+</div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu9").html($("#htmlu9").text());
+</script>
+<script>
+    var appOwner = "2125996941";
+    var token = gettoken(10);
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu9",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script>
+
+<script>
+   var appElementu9 = document.querySelector("#appu9");
+   if (appElementu9 && appElementu9.__vue__) {
+
+   } else {
+      $("#divu9").html($("#htmlu9").text());
+      var appOwner = "2125996941";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou9 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu9(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu9();
+        }
+      };
+
+      function onSubmitu9(e) {
+        queryInfou9.query.keyWord= $("#appu9  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou9.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+</script></div>
+                <ul class=""><li>
+    <a href="../../index.htm">网站首页</a>
+    <span></span>
+    <ul>
+            <a href="../../index/zxdt.htm">最新动态</a>        
+            <a href="../../index/tzgg.htm">通知公告</a>        
+            <a href="../../index/zsgz.htm">招生工作</a>        
+            <a href="../../index/gszl.htm">公示专栏</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../yygk/yyjj.htm">研院概况</a>
+    <span></span>
+    <ul>
+            <a href="../../yygk/yyjj.htm">研院简介</a>        
+            <a href="../../yygk/jgsz.htm">机构设置</a>        
+            <a href="../../yygk/glzn.htm">管理职能</a>        
+            <a href="../../yygk/ryjdh.htm">人员及电话</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../zsgz/zsjz.htm">招生工作</a>
+    <span></span>
+    <ul>
+            <a href="../../zsgz/zsjz.htm">招生简章</a>        
+            <a href="../../zsgz/sszs.htm">硕士招生</a>        
+            <a href="../../zsgz/bszs.htm">博士招生</a>        
+            <a href="../../zsgz/tmgz.htm">推免工作</a>        
+            <a href="../../zsgz/gatyz.htm">港澳台研招</a>        
+            <a href="../../zsgz/gzzd.htm">规章制度</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../pygz/gzzd.htm">培养工作</a>
+    <span></span>
+    <ul>
+            <a href="../../pygz/gzzd.htm">规章制度</a>        
+            <a href="../../pygz/gzlc.htm">工作流程</a>        
+            <a href="../../pygz/pydt.htm">培养动态</a>        
+            <a href="../../pygz/zyxw.htm">专业学位</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../xwgz/xwgzzz.htm">学位工作</a>
+    <span></span>
+    <ul>
+            <a href="../../xwgz/xwgzzz.htm">学位工作组织</a>        
+            <a href="../../xwgz/sqxwwj.htm">申请学位文件</a>        
+            <a href="../../xwgz/sqxwlc.htm">申请学位流程</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../xwdjs/xwsqd.htm">学位点建设</a>
+    <span></span>
+    <ul>
+            <a href="../../xwdjs/xwsqd.htm">学位授权点</a>        
+            <a href="../../xwdjs/xwdsb.htm">学位点申报</a>        
+            <a href="../../xwdjs/ejxkzzsz.htm">二级学科自主设置</a>        
+            <a href="../../xwdjs/xwdpg_hy_.htm">学位点评估（核验）</a>        
+            <a href="../../xwdjs/xwddtdz_yh_.htm">学位点动态调整（优化）</a>        
+            <a href="../../xwdjs/gjxksz.htm">国家学科设置</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../zgxy/zgxyjj.htm">卓工学院</a>
+    <span></span>
+    <ul>
+            <a href="../../zgxy/zgxyjj.htm">卓工学院简介</a>        
+            <a href="../../zgxy/zsdt.htm">招生动态</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../glyfw/bszn.htm">管理与服务</a>
+    <span></span>
+    <ul>
+            <a href="../../glyfw/bszn.htm">办事指南</a>        
+            <a href="../../glyfw/yzxx.htm">院长信箱</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../xzzx.htm">下载中心</a>
+    </li>
+</ul>
+            </div>
+        </div>
+    <div class="nymain">
+        <div class="px1400">
+            <div class="channl-menu leftNav">
+                <h2>
+网站首页<span></span></h2>
+                <ul>
+<li>
+    <a href="../../index/zxdt.htm">最新动态</a><span></span>
+</li>
+
+
+<li class="active on">
+    <a href="../../index/tzgg.htm">通知公告</a><span></span>
+</li>
+
+
+<li>
+    <a href="../../index/zsgz.htm">招生工作</a><span></span>
+</li>
+
+
+<li>
+    <a href="../../index/gszl.htm">公示专栏</a><span></span>
+</li>
+
+</ul>
+            </div>
+            <div class="ny-right">
+                <div class="position">
+                    <div class="">
+                        <h3>
+通知公告</h3>
+                        <img src="../../image/weizhi.png" alt=""><span>当前位置：</span>
+                <a href="../../index.htm">网站首页</a>                
+                <span>-></span>
+                <a href="../../index/tzgg.htm">通知公告</a>                
+                <span>-></span>
+                <span>正文</span>
+
+                    </div>
+                </div>
+                <div class="art-main">
+
+<script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><LINK href="/system/resource/js/photoswipe/3.0.5.1/photoswipe.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/js/photoswipe/3.0.5.1/pw.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname">
+<div class="art-tit cont-tit">
+    <h3>南昌大学2026年硕士研究生招生复试考生须知</h3>
+    <p>
+        <span>信息来源：
+    </span>
+        <span>发布日期：2026-03-24</span>
+         <span>访问量：<script>_showDynClicks("wbnews", 2125996941, 47196)</script></span>
+    </p>
+</div>
+    <div id="vsb_content" class="art-body"><div class="v_news_content">
+<p style="text-align: left; text-indent: 0em; margin-top: 5px; margin-bottom: 5px;"><style><!--         p.MsoNormal, li.MsoNormal, div.MsoNormal{ mso-style-update:auto; mso-style-parent:""; margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-justify:inter-ideograph; margin-left:0.0pt; text-indent:0.0pt; line-height:normal; font-size:10.5pt; font-family:Calibri; font-weight:normal;}                  p.MsoFooter, li.MsoFooter, div.MsoFooter{ margin-top:0.0pt; margin-bottom:0.0pt; text-align:left; margin-left:0.0pt; text-indent:0.0pt; line-height:normal; vsb_temp-mode:char; tab-stops:center Blank 207.65pt right Blank 415.3pt ; font-size:9.0pt; font-family:Calibri; font-weight:normal;}                  p.MsoHeader, li.MsoHeader, div.MsoHeader{ margin-top:0.0pt; margin-bottom:0.0pt; text-align:justify; text-justify:inter-ideograph; margin-left:0.0pt; text-indent:0.0pt; line-height:normal; vsb_temp-mode:char; tab-stops:center Blank 207.65pt right Blank 415.3pt ; font-size:9.0pt; font-family:Calibri; font-weight:normal;}                  p{ mso-style-update:auto; text-align:left; margin-left:0.0pt; text-indent:0.0pt; line-height:normal; font-size:12.0pt; font-family:Calibri; font-weight:normal;}                  @list l0{ mso-list-id:268435337; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l0:level1{ mso-level-number-format:bullet; mso-level-style-link:"列表项目符号"; mso-level-text:"●"; mso-level-tab-stop:18.0pt; mso-level-number-position:left; margin-left:18.0pt; text-indent:-18.0pt; font-family:Dialog;}                  @list l1{ mso-list-id:268435336; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l1:level1{ mso-level-style-link:"列表编号"; mso-level-text:"%1."; mso-level-tab-stop:18.0pt; mso-level-number-position:left; margin-left:18.0pt; text-indent:-18.0pt;}                  @list l2{ mso-list-id:268435331; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l2:level1{ mso-level-number-format:bullet; mso-level-style-link:"列表项目符号 2"; mso-level-text:"●"; mso-level-tab-stop:39.0pt; mso-level-number-position:left; margin-left:39.0pt; text-indent:-18.0pt; font-family:Dialog;}                  @list l3{ mso-list-id:268435330; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l3:level1{ mso-level-number-format:bullet; mso-level-style-link:"列表项目符号 3"; mso-level-text:"●"; mso-level-tab-stop:60.0pt; mso-level-number-position:left; margin-left:60.0pt; text-indent:-18.0pt; font-family:Dialog;}                  @list l4{ mso-list-id:268435329; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l4:level1{ mso-level-number-format:bullet; mso-level-style-link:"列表项目符号 4"; mso-level-text:"●"; mso-level-tab-stop:81.0pt; mso-level-number-position:left; margin-left:81.0pt; text-indent:-18.0pt; font-family:Dialog;}                  @list l5{ mso-list-id:268435328; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l5:level1{ mso-level-number-format:bullet; mso-level-style-link:"列表项目符号 5"; mso-level-text:"●"; mso-level-tab-stop:102.0pt; mso-level-number-position:left; margin-left:102.0pt; text-indent:-18.0pt; font-family:Dialog;}                  @list l6{ mso-list-id:268435327; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l6:level1{ mso-level-style-link:"列表编号 2"; mso-level-text:"%1."; mso-level-tab-stop:39.0pt; mso-level-number-position:left; margin-left:39.0pt; text-indent:-18.0pt;}                  @list l7{ mso-list-id:268435326; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l7:level1{ mso-level-style-link:"列表编号 3"; mso-level-text:"%1."; mso-level-tab-stop:60.0pt; mso-level-number-position:left; margin-left:60.0pt; text-indent:-18.0pt;}                  @list l8{ mso-list-id:268435325; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l8:level1{ mso-level-style-link:"列表编号 4"; mso-level-text:"%1."; mso-level-tab-stop:81.0pt; mso-level-number-position:left; margin-left:81.0pt; text-indent:-18.0pt;}                  @list l9{ mso-list-id:268435324; mso-list-type:hybrid; mso-list-template-ids:0;}                  @list l9:level1{ mso-level-style-link:"列表编号 5"; mso-level-text:"%1."; mso-level-tab-stop:102.0pt; mso-level-number-position:left; margin-left:102.0pt; text-indent:-18.0pt;}                  @page{}                  @page Section1{ size:595.3pt 841.9pt; margin:79.35pt 78.35pt 79.35pt 73.7pt; padding:24.0pt 24.0pt 24.0pt 24.0pt; vsb_temp:15.6pt;}                  div.Section1{ page:Section1;}                  @font-face{ font-family:黑体; panose-1:2 1 6 9 6 1 1 1 1 1; mso-font-alt:Dialog; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:-2147482945 953122042 22 0 262145 0;}                  @font-face{ font-family:Dialog; panose-1:0 0 0 0 0 0 0 0 0 0; mso-font-charset:0; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:0 0 0 0 0 0;}                  @font-face{ font-family:仿宋; panose-1:2 1 6 9 6 1 1 1 1 1; mso-font-alt:Dialog; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:-2147482945 953122042 22 0 262145 0;}                  @font-face{ font-family:Calibri; panose-1:2 15 5 2 2 2 4 3 2 4; mso-font-alt:Lucida Sans; mso-font-charset:0; mso-generic-font-family:swiss; mso-font-pitch:variable; mso-font-signature:-469750017 -1073732485 9 0 536871423 0;}                  @font-face{ font-family:方正仿宋_GB2312; panose-1:2 0 0 0 0 0 0 0 0 0; mso-font-alt:Dialog; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:-1610612033 407858426 18 0 262145 0;}                  @font-face{ font-family:宋体; panose-1:2 1 6 0 3 1 1 1 1 1; mso-font-alt:Dialog; mso-font-charset:134; mso-generic-font-family:auto; mso-font-pitch:variable; mso-font-signature:515 680460288 6 0 262145 0;}                  @font-face{ font-family:Arial; panose-1:2 11 6 4 2 2 2 2 2 4; mso-font-alt:Lucida Sans; mso-font-charset:1; mso-generic-font-family:swiss; mso-font-pitch:variable; mso-font-signature:-536858881 -1073711013 9 0 1073742335 -65536;}                --></style><span style="background-color: rgb(255, 255, 255); color: rgb(37, 37, 37); font-family: 仿宋; font-size: 16pt; letter-spacing: 0pt; text-align: justify; text-indent: 0pt;">各位考生：</span></p><div class="Section1"><p style="margin-right: 0%; text-align: left; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">取得我校复试资格的考生登录“南昌大学研究生报考服务系统”（</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:bold; font-style:normal; background:#FFFFFF">https://gsas.ncu.edu.cn/logon，用户名为考生编号，初始密码为网报时填写的个人证件号码，</span><span style="background-color: rgb(255, 255, 255);"><span style="background: rgb(255, 255, 255); font-size: 16pt; font-family: 仿宋; color: rgb(37, 37, 37); font-variant: normal; text-transform: none; letter-spacing: 0pt; font-weight: bold; font-style: normal;">预计将于2026年3月25日开通复试功能</span><span style="background: rgb(255, 255, 255); font-size: 16pt; font-family: 仿宋; color: rgb(37, 37, 37); font-variant: normal; text-transform: none; letter-spacing: 0pt; font-style: normal;">）</span></span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">，缴费后（同等学力考生缴费300元，其他考生缴费200元）下载、打印</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:bold; font-style:normal; background:#FFFFFF">复试准考证、体检表</span><span style="background: rgb(255, 255, 255); font-size: 16pt; font-family: 仿宋; color: rgb(37, 37, 37); font-variant: normal; text-transform: none; letter-spacing: 0pt; font-weight: bold; font-style: normal;">（双面打印）</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">，并做好复试的各项准备工作。现将复试录取工作相关内容通知如下。</span></p><p style="text-align: center; margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:方正仿宋_GB2312"><img src="/__local/6/79/31/8B4FB91C183E5DFEFC9F6169538_984E688A_314F8.png" class="img_vsb_content" xmlns:v="urn:schemas-microsoft-com:vml" width="800" height="360" border="0" vspace="0" hspace="0" title="" alt="" vsbhref="vurl" vurl="/_vsl/679318B4FB91C183E5DFEFC9F6169538/984E688A/314F8" vheight=" 360px" vwidth=" 800px" orisrc="/__local/7/60/FA/13AE1E68EE91A35F2A85959BD52_D5B30FC5_842CC.png" style="width: 800px; height: 360px;"></span></p><p style="margin-right: 0%; text-align: justify; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:黑体; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">一、复试形式</span></p><p style="margin-right: 0%; text-align: justify; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">我校采取线下</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">现场复试</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">形式，一志愿和调剂复试分阶段进行。</span></p><p style="margin-right: 0%; text-align: justify; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:黑体; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">二、复试时间、地点</span><span lang="EN-US" style="font-size:16.0pt; font-family:方正仿宋_GB2312; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:bold; font-style:normal; background:#FFFFFF"><span style="mso-tab-count:1 Blank">&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p><p style="margin-right: 0%; text-align: justify; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">具体复试时间、地点和复试工作实施细则在各学院网站公布。</span></p><p style="margin-right: 0%; text-align: justify; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:黑体; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">三、复试报到及资格审查</span></p><p style="margin-right: 0%; text-align: justify; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">所有参加复试的考生均需持复试准考证按规定时间到相关学院报到，提交个人资料，由学院进行资格审查。通过资格审查的考生方可参加复试，资格审查未通过或未进行资格审查的考生一律不得参加复试。资格审查材料提交的方式和时间以学院通知为准。考生需如实、准确提交各项材料。如存在弄虚作假行为，由考生本人承担由此造成的一切后果。</span></p><p style="margin-right: 0%; text-align: justify; text-indent: 25.8pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:bold; font-style:normal; background:#FFFFFF">步行的考生需提前在</span><span style="font-size:16.0pt; font-family:仿宋; color:#FF0000; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:bold; font-style:normal; background:#FFFFFF">南昌大学微信公众号</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:bold; font-style:normal; background:#FFFFFF">里申请入校备案（选择因私来访申请）后，可刷身份证入校，部分驾驶机动车的考生可凭初试准考证（可在研招网下载打印）或复试准考证入校。</span></p><p style="text-align: center; margin-top: 5px; margin-bottom: 5px;"><img src="/__local/6/00/FE/9428C965CE4A027FC05F15AC1A9_C27F271D_1907E.png" class="img_vsb_content" xmlns:v="urn:schemas-microsoft-com:vml" width="471.0" height="664.0" vsbhref="vurl" vurl="/_vsl/600FE9428C965CE4A027FC05F15AC1A9/C27F271D/1907E" vheight="664.0" vwidth="471.0" orisrc="/__local/6/00/FE/9428C965CE4A027FC05F15AC1A9_C27F271D_1907E.png" style="text-align: center; color: rgb(37, 37, 37); font-family: 方正仿宋_GB2312; font-size: 16pt; font-weight: bold; letter-spacing: 0pt; text-indent: 25.8pt;"></p><p style="margin-right: 0%; text-align: justify; text-indent: 25.8pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:bold; font-style:normal; background:#FFFFFF">资格审查需提交材料清单</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:bold; font-style:normal; background:#FFFFFF">详见复试通知及“<a href="https://yjsy.ncu.edu.cn/info/1012/47016.htm" target="_blank">[温馨提示]南昌大学关于2026年硕士研究生招生复试的相关事宜解答</a>”或各学院的复试细则。</span></p><p style="margin-right: 0%; text-align: justify; text-indent: 25.8pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:黑体; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">四、复试提示</span></p><p style="margin-right: 0%; text-align: justify; text-indent: 25.8pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">1.</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">复试的内容、形式、复试阶段各专业的专业课笔试和同等学力考生加试的科目以及所指定的参考教材等信息，请考生登陆南昌大学研究生院网站</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">（http://yjsy.ncu.edu.cn/）</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">查询招生简章</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">或查看各学院公布的复试细则；</span></p><p style="margin-right: 0%; text-align: justify; text-indent: 25.8pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">2.</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">复试成绩的公示请关注报考学院网站</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">的</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">通知</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">。</span></p><p style="margin-right: 0%; text-align: justify; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:黑体; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">五、体检要求</span></p><p style="margin-right: 0%; text-align: justify; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">南昌大学</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">前湖校区</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">和东湖校区校医院均可进行体检，</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">体检费90元。体检地点为</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:bold; font-style:normal; background:#FFFFFF">前湖校医院一楼体检大厅（学府大道999号）</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">、</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:bold; font-style:normal; background:#FFFFFF">东湖校医院医技楼一楼（八一大道461号）</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">，</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">考生须在规定时间内到南昌大学校医院接受体检，未体检或体检结果不合格者，不予录取。</span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">具体要求可以查看“</span><a href="https://yjsy.ncu.edu.cn/info/1012/47186.htm" target="_self"><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:bold; font-style:normal; background:#FFFFFF">2026年硕士研究生一志愿考生体检须知</span></a><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">”。</span></p><p style="margin-right: 0%; text-align: justify; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:黑体; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-weight:normal; font-style:normal; background:#FFFFFF">六、其他</span></p><p style="margin-right: 0%; text-align: justify; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">1.考生须自觉服从学校和学院的统一安排，按照规定时间节点参加各项复试环节。考生在复试的整个阶段须保持联系畅通，以便学院联系。考生</span><span style="mso-bookmark:_GoBack"><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">无故失联造成无法完成复试的，视为自</span></span><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">动放弃本次复试。</span></p><p style="margin-right: 0%; text-align: justify; text-indent: 32pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:16.0pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">2.其他未尽事项，复试期间由相关学院另行通知。</span></p><p style="margin-right: 0%; text-align: justify; text-indent: 31pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255); margin-top: 5px; margin-bottom: 5px;"><span style="font-size:15.5pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">研招办联系电话：</span><span style="font-size:15.5pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF">0791-83969340。</span></p><p style="margin-top:0.0pt; margin-right:0%; margin-bottom:0.0pt; text-align:justify; text-justify:inter-ideograph; text-indent:31.0pt; line-height:28.0pt; page-break-before:auto; page-break-after:auto; vsb_temp-mode:both; punctuation-trim:none; punctuation-wrap:hanging; text-autospace:ideograph-numeric ideograph-other; word-break:normal; direction:ltr; background:#FFFFFF"><span style="font-size:15.5pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal; background:#FFFFFF"><span style="mso-spacerun:yes">&nbsp;</span></span></p><p style="margin-top: 0pt; margin-right: 0%; margin-bottom: 0pt; text-align: right; text-indent: 279pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255);"><span style="font-size:15.5pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal">南昌大学研究生院</span></p><p style="margin-top: 0pt; margin-right: 0%; margin-bottom: 0pt; text-align: right; text-indent: 279pt; line-height: 28pt; break-before: auto; break-after: auto; word-break: normal; direction: ltr; background: rgb(255, 255, 255);"><span style="font-size:15.5pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal">202</span><span style="font-size:15.5pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal">6</span><span style="font-size:15.5pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal">年3月2</span><span style="font-size:15.5pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal">4</span><span style="font-size:15.5pt; font-family:仿宋; color:#252525; font-variant:normal; text-transform:none; letter-spacing:0.0pt; font-style:normal">日</span></p></div>
+</div></div><div id="div_vote_id"></div>
+        <div class="art-info">
+    <div class="pnext">
+                            <p>
+        上一条：<a href="47216.htm">南昌大学2026年硕士研究生招生复试工作的通知</a>
+        </p>
+        <p>
+        下一条：<a href="47186.htm">2026年硕士研究生一志愿考生体检须知</a>
+    </p>
+    </div>   
+    </div>
+
+</form>
+</div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="footer">
+            <div class="foot px1400">
+                <div class="foot-l">
+                    <div class="ft-top">    <div class="ft-top">
+<a href="https://www.ncu.edu.cn/?from=edurank.org" onclick="_addDynClicks(&#34;wbimage&#34;, 2125996941, 1024367)"><img src="../../images/logo-nandibu.png" alt=""></a>                  
+</div>
+</div>
+                    <p><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>南昌大学研究生院　版权所有&nbsp;</p></p>
+                </div>
+                <div class="foot-m"><script language="javascript" src="/system/resource/js/news/mp4video.js"></script>
+<h2 style="text-align: left;">联系我们</h2>
+<p><img src="/__local/2/CB/60/DCE0F10B1A419BA38671F3A39EB_1054C582_13A.png?e=.png" alt="" vsbhref="vurl" vurl="/_vsl/2CB60DCE0F10B1A419BA38671F3A39EB/1054C582/13A?e=.png" vheight="" vwidth="" orisrc="/__local/2/CB/60/DCE0F10B1A419BA38671F3A39EB_1054C582_13A.png" class="img_vsb_content"><span style="font-family: 宋体, SimSun;">E-mail：yjsy@ncu.edu.cn</span></p>
+<p><img src="/__local/A/E2/C6/2BFBDAF9B340CAAAE2FFBB36BD8_2EE15AA2_1FB.png?e=.png" alt="" vsbhref="vurl" vurl="/_vsl/AE2C62BFBDAF9B340CAAAE2FFBB36BD8/2EE15AA2/1FB?e=.png" vheight="" vwidth="" orisrc="/__local/A/E2/C6/2BFBDAF9B340CAAAE2FFBB36BD8_2EE15AA2_1FB.png" class="img_vsb_content"><span style="font-family: 宋体, SimSun;">电话：0791-83969337&nbsp;</span><span style="font-family: 宋体, SimSun;">邮编：330031</span></p>
+<p><img src="/__local/2/D0/6D/0970123C91FE76B1619D6287E03_BE47C9E0_22F.png?e=.png" alt="" vsbhref="vurl" vurl="/_vsl/2D06D0970123C91FE76B1619D6287E03/BE47C9E0/22F?e=.png" vheight="" vwidth="" orisrc="/__local/2/D0/6D/0970123C91FE76B1619D6287E03_BE47C9E0_22F.png" class="img_vsb_content"><span style="font-family: 宋体, SimSun;">地址：江西省南昌市红谷滩区学府大道999号研究生楼</span></p></div>
+                <div class="foot-r">
+                    <div class="rwm">    
+</div>
+                </div>
+            </div>
+        </div>
+</body>
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/slick.js"></script>
+    <script src="../../js/public.js"></script>
+</html>
+
+
+
+
+

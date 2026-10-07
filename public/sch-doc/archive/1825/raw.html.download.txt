@@ -1,0 +1,1487 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport"
+        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="keywords"
+        content="中国科学院、海岸带研究所、海岸带研究、海岸带、海岸带所、海岸带环境过程与生态修复、海岸带生物学与生物资源保护、海岸带环境工程技术、海岸带生物资源高效利用、海岸带信息集成与战略规划">
+<meta name="description" content="烟台海岸带所现有中国科学院海岸带环境过程与生态修复重点实验室、山东省海岸带环境过程与生态安全重点实验室、山东省海岸带环境工程技术研究中心、海岸带生态环境监测技术与装备山东省工程研究中心、烟台市海洋生态环境核安全保障重点实验室、烟台市扇贝育种重点实验室；下设海岸带环境过程与生态修复研究室、海岸带信息集成与综合管理研究室、海岸带生物学与资源利用研究室。研究所还拥有中国科学院牟平海岸带环境综合试验站、中国科学院黄河三角洲滨海湿地生态试验站、黄河三角洲盐碱地农田生态系统观测研究站、长岛温带群岛生态系统野外观测研究站（筹）、500吨级“创新一”科学考察船等科研平台。烟台海岸带所为中国海洋工程咨询协会海岸科学与工程分会、中国太平洋学会海岸管理科学分会、中国海洋湖沼学会海洋生物技术分会、中国海洋湖沼学会海岸带可持续发展分会、“未来地球海岸国际计划”首席国际项目办公室的依托单位。">
+<title>
+中国科学院烟台海岸带研究所
+</title>
+<link rel="stylesheet" type="text/css" href="//yic.cas.cn/images/webstyle.css">
+<link rel="stylesheet" href="//yic.cas.cn/images/bootstrap2023.css" type="text/css">
+<link href="//api.cas.cn/lib/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="//api.cas.cn/favicon/yic.ico" rel="shortcut icon" type="image/x-icon">
+<link href="//yic.cas.cn/images/flexslider.css" rel="stylesheet" type="text/css">
+<link href="//yic.cas.cn/images/ui-select.css" rel="stylesheet" type="text/css">
+<link href="//yic.cas.cn/images/animations.css" rel="stylesheet" type="text/css">
+<link href="//yic.cas.cn/images/publicstyle.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.adfd {
+    position: absolute;
+    z-index: 10001;
+    bottom: 20px;
+}
+.list-img-link a div{position:absolute;left:0;right:0;bottom: 0;background-color:rgba(58, 58, 58, 0.4);color:#fff;font-size: 18px; font-family: 'Microsoft YaHei'; font-weight: bold; overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+@media (min-width: 1580px) {
+.adfd .img1 {
+    width: 160px;
+}
+}
+.slogan_yic {
+width: 70%; margin: 0px auto; text-align-last: justify;
+}
+.slogan_yic span {
+font-size: 36px;color: #3d55a7;font-weight: bold;
+}
+@media (max-width: 1536px) {
+.adfd .img1 {
+    width: 140px;
+}
+}
+@media(min-width: 1200px) and  (max-width:1500px) {
+.navbar-default .navbar-nav > li > a {
+font-size: 20px;
+padding: 14px 16px;
+}
+.flexslider .slides img {
+    height: 434px;
+    -moz-user-select: none;
+}
+.slogan_yic span {
+font-size: 28px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+.navbar-default .navbar-nav > li > a {
+    font-size: 16px;
+    padding: 14px 14px;
+}
+.slogan h4 {
+font-size:14px;
+line-height:20px;
+}
+.slogan p {
+font-size:13px;
+}
+.slogan_yic span {
+font-size: 23px;
+}
+.top_l {
+width:40%;float:left;
+}
+.top_r {
+width:60%;
+}
+.webheader .suoxun {
+height: 100px;
+}
+}
+@media (max-width: 1366px) {
+.adfd .img1 {
+    width: 120px;
+}
+}
+
+@media (max-width: 767px) {
+.breadcrumb > li {
+    color: #fff;
+}
+.breadcrumb > li > a {
+    color: #fff;
+}
+.adfd {
+    display: none;
+}
+.flexslider .slides img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+}
+.bannerad {
+    margin: 0 0 24px 0;
+    overflow: hidden;
+}
+</style>
+<style type="text/css">
+.yic_guang{display: block; background:#ffffff;height:190px;margin-top:10px;}
+.video_left{width:69%; height:95%; float:left; margin-top:4px; overflow:hidden }
+.video_right{overflow:hidden; float:right; margin-top:4px;width: 29%; height: 100%;}
+.adfd {
+    position: absolute;
+    z-index: 10001;
+    bottom: 20px;
+}
+.slogan_yic {
+width: 70%; margin: 0px auto; text-align-last: justify;
+}
+.slogan_yic span {
+font-size: 36px;color: #3d55a7;font-weight: bold;
+}
+.list-img-link a div{position:absolute;left:0;right:0;bottom: 0;background-color:rgba(58, 58, 58, 0.4);color:#fff;font-size: 18px; font-family: 'Microsoft YaHei'; font-weight: bold; overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+@media (min-width: 1580px) {
+.adfd .img1 {
+    width: 160px;
+}
+}
+
+@media (max-width: 1536px) {
+.adfd .img1 {
+    width: 140px;
+}
+}
+@media(min-width: 1200px) and  (max-width:1500px) {
+.navbar-default .navbar-nav > li > a {
+font-size: 20px;
+padding: 14px 16px;
+}
+.flexslider .slides img {
+    height: 434px;
+    -moz-user-select: none;
+}
+.slogan_yic span {
+font-size: 28px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+.navbar-default .navbar-nav > li > a {
+    font-size: 16px;
+    padding: 14px 14px;
+}
+.slogan h4 {
+font-size:14px;
+line-height:20px;
+}
+.slogan p {
+font-size:13px;
+}
+.slogan_yic span {
+font-size: 23px;
+}
+.top_l {
+width:40%;float:left;
+}
+.top_r {
+width:60%;
+}
+.webheader .suoxun {
+height: 100px;
+}
+}
+@media (max-width: 1366px) {
+.adfd .img1 {
+    width: 120px;
+}
+}
+
+@media (max-width: 767px) {
+.caption {
+    width: 6%;
+}
+.breadcrumb > li > a {
+    color: #fff;
+}
+.adfd {
+    display: none;
+}
+.flexslider .slides img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+}
+.bannerad {
+    margin: 0 0 24px 0;
+    overflow: hidden;
+}
+#float_ad img {
+    width: 250px;
+}
+</style>
+<script type="text/javascript">
+        //js无缝滚动代码
+        function marquee(i, direction) {
+            var obj = document.getElementById("marquee" + i);
+            var obj1 = document.getElementById("marquee" + i + "_1");
+            var obj2 = document.getElementById("marquee" + i + "_2");
+            if (direction == "up") {
+                if (obj2.offsetTop - obj.scrollTop <= 0) {
+                    obj.scrollTop -= (obj1.offsetHeight + 20);
+                } else {
+                    var tmp = obj.scrollTop;
+                    obj.scrollTop++;
+                    if (obj.scrollTop == tmp) {
+                        obj.scrollTop = 1;
+                    }
+                }
+            } else {
+                if (obj2.offsetWidth - obj.scrollLeft <= 0) {
+                    obj.scrollLeft -= obj1.offsetWidth;
+                } else {
+                    obj.scrollLeft++;
+                }
+            }
+        }
+
+        function marqueeStart(i, direction) {
+            var obj = document.getElementById("marquee" + i);
+            var obj1 = document.getElementById("marquee" + i + "_1");
+            var obj2 = document.getElementById("marquee" + i + "_2");
+
+            obj2.innerHTML = obj1.innerHTML;
+            var marqueeVar = window.setInterval("marquee(" + i + ", '" + direction + "')", 50);
+            obj.onmouseover = function () {
+                window.clearInterval(marqueeVar);
+            }
+            obj.onmouseout = function () {
+                marqueeVar = window.setInterval("marquee(" + i + ", '" + direction + "')", 50);
+            }
+        }
+    </script>
+</head>
+
+<body style="background-image: url(./images/background-all.png); background-size: fill;">
+<div class="scrollToTop"><i class="fa fa-chevron-up"></i></div>
+<!-- header-top start -->
+<div class="webheader header-top">
+  <div class="container">
+    <div class="top-r">
+      <div class="relatedlink">
+        <div class="soc_icons">
+          <div class="searchbox right">
+            <form name="searchform"
+                            action="https://yic.cas.cn/search/index.html" method="get"
+                            target="_top">
+              <input type="hidden" name="keyword" id="keywords" value="" />
+              <input type="text" class="SearchText" value="" id="searchword" name="searchword" placeholder="请输入关键字" required />
+              <input type="submit" class="SearchBtn" id="sub-pc" value="" />
+            </form>
+          </div>
+        </div>
+        <div class="header-top-first clearfix">
+          <ul class="social-links clearfix hidden-xs hidden-sm">
+            <li class="toplink"><a href="https://yic.arp.cn" target="_blank">ARP</a></li>
+            <li class="toplink"><a href="https://mail.cstnet.cn/" target="_blank">邮箱</a></li>
+            <li class="toplink"><a href="http://info.yic.ac.cn/" target="_blank">内部信息网</a></li>
+            <li class="toplink"><a href="http://www.cas.cn/" target="_blank">中国科学院</a></li>
+            <li class="toplink"><a href="http://english.yic.cas.cn/" target="_blank">ENGLISH</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="top-r">
+      <div class="suoxun hidden-sm hidden-xs" style="text-align:center;padding-top: 5px;">
+        <div class="flexsliderSlogan">
+          <div class="slogan">
+            <h4>加快打造原始创新策源地，加快突破关键核心技术，努力抢占科技制高点，为把我国建设成为世界科技强国作出新的更大的贡献。</h4>
+            <p>——习近平总书记在致中国科学院建院70周年贺信中作出的“两加快一努力”重要指示要求</p>
+          </div>
+          <!--<div class="slogan">
+            <h4>面向世界科技前沿、面向经济主战场、面向国家重大需求、面向人民生命健康，率先实现科学技术跨越发展，率先建成国家创新人才高地，率先建成国家高水平科技智库，率先建设国际一流科研机构。</h4>
+            <p>——中国科学院办院方针</p>
+          </div>-->
+          <div class="slogan slogan_yic"> <span>认知海岸带规律，支持可持续发展 <br>
+            跨越界限，共创价值</span> </div>
+        </div>
+      </div>
+    </div>
+    <div class="top-l"> <a href="http://www.yic.ac.cn">
+      <div class="logo hidden-xs"></div>
+      </a> <a href="http://www.yic.ac.cn">
+      <div class="moblogo hidden-lg hidden-md hidden-sm"><img class="center-block" src="//yic.cas.cn/images/2023logosmall.png" alt="" /></div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="banner-video">
+  <video id="video_" controls muted loop x5-playsinline="" playsinline="" webkit-playsinline="" preload="auto">
+      <source src="//videosz.cas.cn/masvod/public/2024/01/26/20240126_18d45f9e67e_r36.mp4" type="video/mp4">
+  </video>
+</div>
+<!--------导航栏 start------------------------->
+<div class="container-fluid">
+  <div class="container">
+    <div class="h_menu">
+      <div class="main-navigation animated">
+        <nav class="navbar navbar-default" role="navigation" style="background: #3d55a7;">
+          <div class="container-fluid"> 
+            <!-- Toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target="#navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+              <ul class="nav navbar-nav" style="padding-left: 20px;">
+                <!-- mega-menu start -->
+                <li class="dropdown"> <a href="https://yic.cas.cn/" target="_top">首页</a> </li>
+                <li class="dropdown"> <a href="https://yic.cas.cn/yjsgk/"
+                                        class="dropdown-toggle" data-toggle="dropdown">单位概况</a>
+                  <ul class="dropdown-menu">
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/yjsgk/yjsjj/">所况简介</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/yjsgk/szzc/">所长致辞</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/yjsgk/xrld/">现任领导</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/yjsgk/lrld/">历任领导</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/yjsgk/xswyh/">学术委员会</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/yjsgk/xwwyh/">学位委员会</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/yjsgk/lxwm/">联系我们</a>
+                        </li>
+                      
+                    
+                  </ul>
+                </li>
+                <li class="dropdown"> <a href="https://yic.cas.cn/jgsz/"
+                                        class="dropdown-toggle" data-toggle="dropdown">机构设置</a>
+                  <ul class="dropdown-menu">
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/jgsz/kyxt/">科研系统</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/jgsz/glxt/">管理系统</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/jgsz/zcxt/">支撑系统</a>
+                        </li>
+                      
+                    
+                  </ul>
+                </li>
+                <li class="dropdown"> <a href="https://yic.cas.cn/kycg/"
+                                        class="dropdown-toggle" data-toggle="dropdown">科研成果</a>
+                  <ul class="dropdown-menu">
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/kycg/kycggk/">概况</a>
+                        </li>
+                      
+                    
+                      
+                        <li>
+                          <a href="http://ir.yic.ac.cn/simple-search?&fq=dc.type_filter%3A%E6%9C%9F%E5%88%8A%E8%AE%BA%E6%96%87" target="_blank">论文</a>
+                        </li>
+                      
+                      
+                    
+                      
+                        <li>
+                          <a href="http://ir.yic.ac.cn/simple-search?&fq=dc.type_filter%3A%E4%B8%93%E5%88%A9" target="_blank">专利</a>
+                        </li>
+                      
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/kycg/zlxkml/">专利开放许可名录</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/kycg/kycgzz/">专著</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/kycg/kycgzs/">科研奖励</a>
+                        </li>
+                      
+                    
+                      
+                        <li>
+                          <a href="http://ir.yic.ac.cn/" target="_blank">机构知识库</a>
+                        </li>
+                      
+                      
+                    
+                  </ul>
+                </li>
+                <li class="dropdown"> <a href="https://yic.cas.cn/yjdw/"
+                                        class="dropdown-toggle" data-toggle="dropdown">人才队伍</a>
+                  <ul class="dropdown-menu">
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/yjdw/yjy/">研究员/正高级工程师</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/yjdw/fyjy/">副研究员/高级工程师</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/yjdw/jcqnjj/">杰出青年基金获得者</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/yjdw/bqwrc/">新世纪百千万人才国家级人选</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/yjdw/tcgxzqnzj/">有突出贡献的中青年专家</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/yjdw/gjjsrc/">中国科学院技术支撑人才</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/yjdw/qncxcjh/">中国科学院青年创新促进会会员</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/yjdw/ytsbjh/">烟台市双百计划</a>
+                        </li>
+                      
+                    
+                  </ul>
+                </li>
+                <li class="dropdown"> <a href="https://yic.cas.cn/yjsjy/"
+                                        class="dropdown-toggle" data-toggle="dropdown">研究生教育</a>
+                  <ul class="dropdown-menu">
+                    <li><a
+                                                href="https://yic.cas.cn/yjsjy/yjsdsjj/">导师简介</a> </li>
+                    <li><a
+                                                href="https://yic.cas.cn/yjsjy/yjssszs/">硕士招生</a> </li>
+                    <li><a
+                                                href="https://yic.cas.cn/yjsjy/yjsbszs/">博士招生</a> </li>
+                    <li><a
+                                                href="https://yic.cas.cn/yjsjy/pyyxw/">培养与学位</a> </li>
+                  </ul>
+                </li>
+                <li class="dropdown"> <a href="https://yic.cas.cn/zytj/"
+                                        class="dropdown-toggle" data-toggle="dropdown">资源平台</a>
+                  <ul class="dropdown-menu">
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/zytj/wxzypt/">文献资源平台</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/zytj/tsxxxt/">特色信息系统</a>
+                        </li>
+                      
+                    
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/jgsz/zcxt/yicamc/" target="_blank">分析测试平台</a>
+                        </li>
+                      
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/zytj/tzgc/">台站观测网</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/zytj/chxykkch/">创新一科考船</a>
+                        </li>
+                      
+                    
+                  </ul>
+                </li>
+                <li class="dropdown"> 
+                  <!--<a href="https://yic.cas.cn/kxpj/" class="my_nav_a">科学普及</a>--> 
+                  <a href="http://kepu.yic.ac.cn" target="_blank" class="my_nav_a">科学普及</a> </li>
+                <li class="dropdown"> <a href="https://yic.cas.cn/dqwh/"
+                                        class="my_nav_a">党建文化</a> 
+                  <ul class="dropdown-menu">
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/dqwh/ddjs/">党的建设</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/dqwh/jjsylzjs/">纪监审与廉政建设</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/dqwh/wh/">创新文化</a>
+                        </li>
+                      
+                    
+                  </ul>
+                </li>
+                <li class="dropdown"> <a href="https://yic.cas.cn/xxgk/"
+                                        class="dropdown-toggle" data-toggle="dropdown">信息公开</a>
+                  <ul class="dropdown-menu">
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/xxgk/xxgkgd/">信息公开规定</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/xxgk/xxgkzn/">信息公开指南</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/xxgk/xxgkml/">信息公开目录</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/xxgk/ysqgk/">依申请公开</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/xxgk/xxgklxfs/">信息公开联系方式</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/xxgk/xxgkzzjg/">信息公开组织机构</a>
+                        </li>
+                      
+                    
+                      
+                      
+                        <li>
+                          <a href="https://yic.cas.cn/xxgk/xxgkjdjg/">信息公开监督机构</a>
+                        </li>
+                      
+                    
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      
+      <!-------搜索框 start-------> 
+      
+    </div>
+  </div>
+</div>
+<!--头条新闻start-->
+<div class="hotnews t3d">
+  <div class="container webmp">
+    <div class="focusimgbox">
+      <div class="flexslider">
+        <ul class="slides">
+          
+            <li>
+              <div class="banner-left"> <a href='./xwzx/ttxw/202609/t20260908_8279532.html' target="_blank"> <img src='./xwzx/ttxw/202609/W020260908568085660236_ORIGIN.jpg' alt="要闻" /> </a>
+                <div class="caption" style="overflow: hidden; text-overflow: ellipsis">
+                  <a href="./xwzx/ttxw/202609/t20260908_8279532.html" target="_blank">海岸带学科建设战略研讨会在烟台海岸带所召开</a>
+                </div>
+                <div class="captionmore"> <a>更多>></a> </div>
+              </div>
+              <div class="clearfix"> </div>
+            </li>
+          
+            <li>
+              <div class="banner-left"> <a href='./xwzx/ttxw/202607/t20260724_8255150.html' target="_blank"> <img src='./xwzx/ttxw/202607/W020260724782870871808_ORIGIN.jpg' alt="要闻" /> </a>
+                <div class="caption" style="overflow: hidden; text-overflow: ellipsis">
+                  <a href="./xwzx/ttxw/202607/t20260724_8255150.html" target="_blank">烟台海岸带所召开领导人员个别调整宣布会议</a>
+                </div>
+                <div class="captionmore"> <a>更多>></a> </div>
+              </div>
+              <div class="clearfix"> </div>
+            </li>
+          
+            <li>
+              <div class="banner-left"> <a href='./xwzx/ttxw/202607/t20260701_8236793.html' target="_blank"> <img src='./xwzx/ttxw/202607/W020260701633910045172_ORIGIN.jpg' alt="要闻" /> </a>
+                <div class="caption" style="overflow: hidden; text-overflow: ellipsis">
+                  <a href="./xwzx/ttxw/202607/t20260701_8236793.html" target="_blank">烟台海岸带所召开庆祝中国共产党成立105周年表彰大会暨专题党课报告会</a>
+                </div>
+                <div class="captionmore"> <a>更多>></a> </div>
+              </div>
+              <div class="clearfix"> </div>
+            </li>
+          
+            <li>
+              <div class="banner-left"> <a href='http://www.shandong.gov.cn/art/2026/7/1/art_97560_731585.html' target="_blank"> <img src='./xwzx/ttxw/202607/W020260701416598101617_ORIGIN.jpg' alt="要闻" /> </a>
+                <div class="caption" style="overflow: hidden; text-overflow: ellipsis">
+                  <a href="http://www.shandong.gov.cn/art/2026/7/1/art_97560_731585.html" target="_blank">省委副书记、省长周乃翔调研烟台海岸带所</a>
+                </div>
+                <div class="captionmore"> <a>更多>></a> </div>
+              </div>
+              <div class="clearfix"> </div>
+            </li>
+          
+            <li>
+              <div class="banner-left"> <a href='https://mp.weixin.qq.com/s/9wSNJia_2hlCDlwwgnkttg' target="_blank"> <img src='./xwzx/ttxw/202606/W020260629343131527606_ORIGIN.jpg' alt="要闻" /> </a>
+                <div class="caption" style="overflow: hidden; text-overflow: ellipsis">
+                  <a href="https://mp.weixin.qq.com/s/9wSNJia_2hlCDlwwgnkttg" target="_blank"><span class="rich_media_title " id="activity-name">王沪宁主持召开全国政协双周协商座谈会</span></a>
+                </div>
+                <div class="captionmore"> <a>更多>></a> </div>
+              </div>
+              <div class="clearfix"> </div>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!--头条新闻end-->
+<div class="container webmp t3d">
+  <div class="firstpart"> 
+    <div class="win-l left">
+      <div class="borderstyle mb24">
+        <div class="column">
+          <div class="column_l" > <span style="padding-left:30px; line-height: 35px; background: url(./images/2023kyjz.png) no-repeat;background-size: 28px 28px;">科研动态</span> </div>
+          <div class="column_r"><a href="https://yic.cas.cn/xwzx/kydt/"
+                                target="_blank">更多 +</a></div>
+        </div>
+        <div class="homenews">
+          
+            <div class="winimg left hvr-grow-img" style="overflow: hidden;"> <a href="https://yic.cas.cn/xwzx/kydt/202609/t20260914_8281304.html" target="_blank"
+                                    title="烟台海岸带所在黄河口波浪破碎与地貌动力响应研究取得新进展"><img class="img-hover" src="./xwzx/kydt/202609/W020260914390112651566_ORIGIN.jpg" alt="" /></a>
+              <h4><a href="https://yic.cas.cn/xwzx/kydt/202609/t20260914_8281304.html" target="_blank">
+                烟台海岸带所在黄河口波浪破碎与地貌动力响应研究取得新进展
+                </a></h4>
+            </div>
+          
+          <div class="wintext right">
+            <div class="focustext">
+              <div class="list-tab">
+                <ul>
+                  
+                    <li><span class="right">
+                      2026-09-14
+                      </span> <a href="https://yic.cas.cn/xwzx/kydt/202609/t20260914_8281304.html"
+                                                    target="_blank">
+                      烟台海岸带所在黄河口波浪破碎与地貌动力响应研究取得新进展
+                      </a></li>
+                  
+                    <li><span class="right">
+                      2026-09-08
+                      </span> <a href="https://yic.cas.cn/xwzx/kydt/202609/t20260908_8279411.html"
+                                                    target="_blank">
+                      烟台海岸带所综述：共价有机框架结构功能设计赋能海水放射性核素高效提取与捕获<br/>
+                      </a></li>
+                  
+                    <li><span class="right">
+                      2026-09-06
+                      </span> <a href="https://yic.cas.cn/xwzx/kydt/202609/t20260906_8278853.html"
+                                                    target="_blank">
+                      烟台海岸带所在低浓度新污染物生态风险评估领域取得重要进展
+                      </a></li>
+                  
+                    <li><span class="right">
+                      2026-09-02
+                      </span> <a href="https://yic.cas.cn/xwzx/kydt/202609/t20260902_8276283.html"
+                                                    target="_blank">
+                      烟台海岸带所在海湾扇贝属种间杂交后代雌性不育机制领域取得新进展
+                      </a></li>
+                  
+                    <li><span class="right">
+                      2026-09-01
+                      </span> <a href="https://yic.cas.cn/xwzx/kydt/202609/t20260901_8274888.html"
+                                                    target="_blank">
+                      烟台海岸带所揭示潮间带地下水溶解有机质“源-存-排”解耦机制
+                      </a></li>
+                  
+                    <li><span class="right">
+                      2026-08-28
+                      </span> <a href="https://yic.cas.cn/xwzx/kydt/202608/t20260828_8266556.html"
+                                                    target="_blank">
+                      烟台海岸带所联合崂山实验室实现深海冷泉氰化物原位探测 揭示极端微生物"节能固氮"新机制
+                      </a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="borderstyle mb24">
+        <div class="column">
+          <div class="column_l"> <span style="padding-left:30px; line-height: 35px; background: url(./images/2023xwdt.png) no-repeat; background-size: 28px 28px;">新闻动态</span> </div>
+          <div class="column_r"><a href="https://yic.cas.cn/xwzx/zhxw/"
+                                target="_blank">更多 +</a></div>
+        </div>
+        <div class="homenews">
+          
+            <div class="winimg left hvr-grow-img" style="overflow: hidden;"> <a href="https://yic.cas.cn/xwzx/zhxw/202609/t20260917_8284386.html" target="_blank"
+                                    title="第十四届亚太海洋生物技术大会（The 14th Asia-Pacific Marine Biotechnology Conference, APMBC 2026）在山东烟台成功举办"><img class="img-hover" src="./xwzx/zhxw/202609/W020260917629841899885_ORIGIN.jpg" alt="" /></a>
+              <h4><a href="https://yic.cas.cn/xwzx/zhxw/202609/t20260917_8284386.html" target="_blank">
+                第十四届亚太海洋生物技术大会（The 14th Asia-Pacific Marine Biotechnology Conference, APMBC 2026）在山东烟台成功举办
+                </a></h4>
+            </div>
+          
+          <div class="wintext right">
+            <div class="focustext">
+              <div class="list-tab">
+                <ul>
+                  
+                    <li><span class="right">
+                      2026-09-17
+                      </span><a href="https://yic.cas.cn/xwzx/zhxw/202609/t20260917_8284386.html"
+                                                    target="_blank">
+                      第十四届亚太海洋生物技术大会（The 14th Asia-Pacific Marine Biotechnology Conference, APMBC 2026）在山东烟台成功举办
+                      </a></li>
+                  
+                    <li><span class="right">
+                      2026-09-15
+                      </span><a href="https://news.sciencenet.cn/htmlnews/2026/9/571330.shtm"
+                                                    target="_blank">
+                      【科学网】二十载深耕海岸带 陆海统筹谋新篇
+                      </a></li>
+                  
+                    <li><span class="right">
+                      2026-09-09
+                      </span><a href="https://sdqy.dzwww.com/lqyw/202609/t20260909_18098988.htm"
+                                                    target="_blank">
+                      山东海洋人才风采录丨肖凯研究员：十年俯身，在潮间带“听”海探秘
+                      </a></li>
+                  
+                    <li><span class="right">
+                      2026-09-02
+                      </span><a href="https://yic.cas.cn/xwzx/zhxw/202609/t20260902_8276286.html"
+                                                    target="_blank">
+                      国家卫星海洋应用中心林明森研究员应邀到访烟台海岸带所
+                      </a></li>
+                  
+                    <li><span class="right">
+                      2026-08-28
+                      </span><a href="https://yic.cas.cn/xwzx/zhxw/202608/t20260828_8266440.html"
+                                                    target="_blank">
+                      烟台海岸带所召开党委理论学习中心组学习（扩大）会
+                      </a></li>
+                  
+                    <li><span class="right">
+                      2026-08-25
+                      </span><a href="https://yic.cas.cn/xwzx/zhxw/202608/t20260825_8265133.html"
+                                                    target="_blank">
+                      烟台海岸带所召开 2026 年度上半年工作总结会议
+                      </a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="borderstyle mb24">
+        <div class="column">
+          <div class="column_l"> <span style="padding-left:30px; line-height: 35px; background: url(./images/2023jydt.png) no-repeat; background-size: 28px 28px;">教育动态</span> </div>
+          <div class="column_r"><a href="https://yic.cas.cn/yjsjy/yjsjydt/"
+                                target="_blank">更多 +</a></div>
+        </div>
+        <div class="homenews">
+          
+            <div class="winimg left hvr-grow-img" style="overflow: hidden;"> <a href="https://yic.cas.cn/yjsjy/yjsjydt/202609/t20260911_8281046.html" target="_blank"
+                                    title="烟台海岸带所举办“立德树人·协同育人”工作经验交流会"><img class="img-hover" src="./yjsjy/yjsjydt/202609/W020260911581912300869_ORIGIN.png" alt="" /></a>
+              <h4><a href="https://yic.cas.cn/yjsjy/yjsjydt/202609/t20260911_8281046.html" target="_blank">
+                烟台海岸带所举办“立德树人·协同育人”工作经验交流会
+                </a></h4>
+            </div>
+          
+          <div class="wintext right">
+            <div class="focustext">
+              <div class="list-tab">
+                <ul>
+                  
+                    <li><span class="right">
+                      2026-09-11
+                      </span><a href="https://yic.cas.cn/yjsjy/yjsjydt/202609/t20260911_8281046.html"
+                                                    target="_blank">
+                      烟台海岸带所举办“立德树人·协同育人”工作经验交流会
+                      </a></li>
+                  
+                    <li><span class="right">
+                      2026-09-08
+                      </span><a href="https://yic.cas.cn/yjsjy/yjsjydt/202609/t20260911_8281047.html"
+                                                    target="_blank">
+                      烟台海岸带所举办2026年校友论坛暨校友就业分享会
+                      </a></li>
+                  
+                    <li><span class="right">
+                      2026-09-02
+                      </span><a href="https://yic.cas.cn/yjsjy/yjsjydt/202609/t20260903_8277522.html"
+                                                    target="_blank">
+                      烟台海岸带所开展“研路同行，缘聚海岸”新生主题拓展训练活动
+                      </a></li>
+                  
+                    <li><span class="right">
+                      2026-07-23
+                      </span><a href="https://yic.cas.cn/yjsjy/yjsjydt/202607/t20260723_8254542.html"
+                                                    target="_blank">
+                      中国科学院大学党委常委、副校长金德鹏一行到烟台海岸带所调研研究生思政工作
+                      </a></li>
+                  
+                    <li><span class="right">
+                      2026-06-17
+                      </span><a href="https://yic.cas.cn/yjsjy/yjsjydt/202606/t20260617_8229864.html"
+                                                    target="_blank">
+                      烟台海岸带所举行2026届研究生毕业典礼
+                      </a></li>
+                  
+                    <li><span class="right">
+                      2026-06-08
+                      </span><a href="https://yic.cas.cn/yjsjy/yjsjydt/202606/t20260617_8229848.html"
+                                                    target="_blank">
+                      烟台海岸带所开展“赓续红脉，勇担使命”研学实践教育活动
+                      </a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="borderstyle mb24" style="padding: 15px 5px 15px 5px;">
+        <div class="column">
+          <div class="column_l"> <span style="padding-left:30px; line-height: 35px; background: url(./images/2023cxpt.png) no-repeat;background-size: 28px 28px;">创新平台</span> </div>
+        </div>
+        <div class="cyljcontent" style="margin-top: 16px;">
+          <div class="col-xs-6 col-sm-4 col-lg-4 col-xl-4 list-img-link hvr-grow-img"> <a href="https://yic.cas.cn/klcep/" target="_blank"> <img src="./images/2023caszdsys.png" alt="" style="height: 100%; width: 100%" />
+            <div title="中国科学院海岸带环境过程重点实验室">中国科学院海岸带环境过程重点实验室</div>
+            </a> </div>
+          <div class="col-xs-6 col-sm-4 col-lg-4 col-xl-4 list-img-link hvr-grow-img"> <a href="https://yic.cas.cn/lep/"  target="_blank"> <img src="./images/2023sdzdsys.png" alt="" />
+            <div title="山东省海岸带环境过程与生态安全重点实验室">山东省海岸带环境过程与生态安全重点实验室</div>
+            </a> </div>
+           <div class="col-xs-6 col-sm-4 col-lg-4 col-xl-4 list-img-link hvr-grow-img"> <a href="http://hhm.cern.ac.cn/" target="_blank"> <img src="./images/2023dytz.png" alt="" />
+            <div title="黄河三角洲滨海湿地生态站">黄河三角洲滨海湿地生态站</div>
+            </a> </div>
+
+          <div class="col-xs-6 col-sm-4 col-lg-4 col-xl-4 list-img-link hvr-grow-img"> <a href="https://yic.cas.cn/mps/" target="_blank"> <img src="./images/2023mptz.png" alt="" />
+            <div title="牟平海岸带环境综合试验站">牟平海岸带环境综合试验站</div>
+            </a> </div>
+          <div class="col-xs-6 col-sm-4 col-lg-4 col-xl-4 list-img-link hvr-grow-img"> <a href="http://yas.yic.ac.cn/" target="_blank"> <img src="./images/2023ngz.png" alt="" />
+            <div title="黄河三角洲盐碱地农田生态系统观测研究站">黄河三角洲盐碱地农业观测研究站</div>
+            </a> </div>
+          <div class="col-xs-6 col-sm-4 col-lg-4 col-xl-4 list-img-link hvr-grow-img"> <a href="http://yic.cas.cn/zytj/chxykkch/chbjj/" target="_blank"> <img src="./images/2023ship.png" alt="" />
+            <div title="“创新一”近海综合科学考察船">“创新一”近海综合科学考察船</div>
+            </a> </div>
+
+          <div class="col-xs-6 col-sm-4  col-lg-4 col-xl-4 list-img-link hvr-grow-img"> <a> <img src="./images/2023iczm.png" alt="" />
+            <div title="山东省海岸带环境工程技术研究中心">山东省海岸带环境工程技术研究中心</div>
+            </a> </div>
+          <div class="col-xs-6 col-sm-4 col-lg-4 col-xl-4 list-img-link hvr-grow-img"> <a href="https://yic.cas.cn/jgsz/zcxt/yicamc/" target="_blank"> <img src="./images/2023atc.png" alt="" />
+            <div title="所级公共技术服务中心">所级公共技术中心</div>
+            </a> </div>
+          <div class="col-xs-6 col-sm-4 col-lg-4 col-xl-4 list-img-link hvr-grow-img"> <a href="https://www.futureearthcoasts.org/" target="_blank"> <img src="./images/2023fec.png" alt="" />
+            <div title="FEC 中国 IPO">FEC-首席国际项目办公室</div>
+            </a> </div>
+        </div>
+      </div>
+    </div>
+    <div class="win-r right"> 
+      <!---选项卡 --->
+      <div class="row">
+        <div class="col-md-12 col-sm-12 mb24" style="margin-bottom: -5px;">
+          <div class="borderstyle" style="background-color: transparent; padding:0 0 15px 0;">
+            <ul class="videoBox zjxu_cent">
+              <li class="hvr-grow-img video_mar padhide yzzc" style="width:100%; height: 100%;margin-bottom: 5px;"> <a href="http://yic.cas.cn/yjsgk/szzc/" target="_blank"> <img class="hvr-grow" src="./images/2023szzc.png" style="width:100%;" /> </a> </li>
+              <li class="hvr-grow-img video_mar l_zjzky" style="height: 115px;"> <a href="http://yic.cas.cn/yjsgk/yjsjj/"> <img src="./images/2023zjhad.jpg" class="hvr-grow zj_pcblock" /> <img src="./images/2023zjhad.jpg" class="zj_mobblock" />
+                <div class="video_bg"><span><i class="line_blue"></i>走进海岸带</span></div>
+                </a> </li>
+              <li class="hvr-grow-img video_mar r_zjxb" style="height: 115px;"> <a href="http://yic.cas.cn/zytj/tzgc/" target="_blank" ignoreapd="1"> <img src="./images/2023zjtz.jpg" class="hvr-grow zj_pcblock" /> <img src="./images/2023zjtz.jpg" class="zj_mobblock" />
+                <div class="video_bg"><span><i class="line_blue"></i>走进台站</span></div>
+                </a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12 mb24">
+          <div class="borderstyle">
+            <div class="index_tab">
+              <div class="tabmenu">
+                <ul>
+                  <li class="selected"><span class="tabg" style="padding-left:30px; line-height: 30px; background: url(./images/2023tzgg.png) no-repeat; background-size: 28px 28px;">通知</span></li>
+                  <li><span class="tabg" style="padding-left:30px; line-height: 30px; background: url(./images/2023zp.png) no-repeat; background-size: 28px 28px;">招聘</span></li>
+					
+                </ul>
+                <div class="clear">&nbsp;</div>
+              </div>
+              <div class="tabox" style="margin-top: 16px;">
+                <div class="tab_con" style="display: block;">
+                  <div id="marquee1" class="marquee-1">
+                    <div style="height:8000px;">
+                      <ul id="marquee1_1">
+                        
+                          <li class="lan1"><a href="https://yic.cas.cn/tzgg/202606/t20260615_8228362.html"
+                                                                class="hei1" target="_blank">
+                            中国科学院烟台海岸带研究所声明
+                            </a> [
+                            2026-06-15
+                            ] </li>
+                        
+                          <li class="lan1"><a href="https://yic.cas.cn/tzgg/202604/t20260409_8183185.html"
+                                                                class="hei1" target="_blank">
+                            中国科学院烟台海岸带研究所形象标识管理办法
+                            </a> [
+                            2026-04-09
+                            ] </li>
+                        
+                      </ul>
+                      <ul id="marquee1_2">
+                      </ul>
+                    </div>
+                  </div>
+                  <!--marqueeleft end--> 
+                  <script type="text/javascript">marqueeStart(1, "up");</script>
+                  <div class="more"><a href="https://yic.cas.cn/tzgg/" target="_blank">
+                    <button type="button" class="btn btn-text" style="margin: 2px 0 0 0;">更多 +</button>
+                    </a></div>
+                </div>
+                <div class="tab_con" style="display: none;">
+                  <div id="marquee2" class="marquee-1">
+                    <div style="height:8000px;">
+                      <ul id="marquee2_1">
+                        
+                          <li class="lan1"><a href="https://yic.cas.cn/zpxx/202604/t20260405_8181774.html"
+                                                                class="hei1" target="_blank">
+                            中国科学院烟台海岸带研究所诚邀优秀青年人才申报优秀青年科学基金项目（海外）
+                            </a> [
+                            2026-04-05
+                            ] </li>
+                        
+                          <li class="lan1"><a href="https://yic.cas.cn/zpxx/202609/t20260918_8284682.html"
+                                                                class="hei1" target="_blank">
+                            中国科学院烟台海岸带研究所公共技术中心招聘公告
+                            </a> [
+                            2026-09-18
+                            ] </li>
+                        
+                          <li class="lan1"><a href="https://yic.cas.cn/zpxx/202608/t20260831_8272706.html"
+                                                                class="hei1" target="_blank">
+                            中国科学院烟台海岸带研究所海岸带生态环境核安全研究组招聘特别研究助理/博士后
+                            </a> [
+                            2026-08-31
+                            ] </li>
+                        
+                          <li class="lan1"><a href="https://yic.cas.cn/zpxx/202608/t20260831_8272198.html"
+                                                                class="hei1" target="_blank">
+                            中国科学院烟台海岸带研究所2026年度特别研究助理拟聘人员公示
+                            </a> [
+                            2026-08-31
+                            ] </li>
+                        
+                      </ul>
+                      <ul id="marquee2_2">
+                      </ul>
+                    </div>
+                  </div>
+                  <!--marqueeleft end--> 
+                  <script type="text/javascript">marqueeStart(2, "up");</script>
+                  <div class="more"><a href="https://yic.cas.cn/zpxx/" target="_blank">
+                    <button type="button" class="btn btn-text" style="margin: 2px 0 0 0;">更多 +</button>
+                    </a></div>
+                </div>
+				  <div class="tab_con" style="display: none;">
+                  <div id="marquee3" class="marquee-1">
+                    <div style="height:8000px;">
+                      <ul id="marquee3_1">
+                        
+                          <li class="lan1"><a href="https://yic.cas.cn/yjsjy/yjsxxgg/202609/t20260920_8285041.html"
+                                                                class="hei1" target="_blank">
+                            2027年冬季批次学位申报工作的通知
+                            </a> [
+                            2026-06-29
+                            ] </li>
+                        
+                          <li class="lan1"><a href="https://yic.cas.cn/yjsjy/yjsxxgg/202609/t20260918_8284520.html"
+                                                                class="hei1" target="_blank">
+                            关于申请2026年烟台海岸带所所长奖学金的通知
+                            </a> [
+                            2026-09-18
+                            ] </li>
+                        
+                          <li class="lan1"><a href="https://yic.cas.cn/yjsjy/yjsxxgg/202609/t20260918_8284519.html"
+                                                                class="hei1" target="_blank">
+                            关于申请2026年研究生国家奖学金的通知
+                            </a> [
+                            2026-09-18
+                            ] </li>
+                        
+                          <li class="lan1"><a href="https://yic.cas.cn/yjsjy/yjsxxgg/202609/t20260909_8280112.html"
+                                                                class="hei1" target="_blank">
+                            烟台海岸带所2027年推荐免试生复试安排预通知（第二批）
+                            </a> [
+                            2026-09-09
+                            ] </li>
+                        
+                          <li class="lan1"><a href="https://yic.cas.cn/yjsjy/yjsxxgg/202609/t20260909_8280110.html"
+                                                                class="hei1" target="_blank">
+                            烟台海岸带研究所2027年推荐免试生（含直博生）接收公告
+                            </a> [
+                            2026-09-09
+                            ] </li>
+                        
+                          <li class="lan1"><a href="https://yic.cas.cn/yjsjy/yjsxxgg/202609/t20260901_8274940.html"
+                                                                class="hei1" target="_blank">
+                            关于开展2026年中国科协青年人才培养工程博士生专项计划候选人推荐工作的通知
+                            </a> [
+                            2026-09-01
+                            ] </li>
+                        
+                          <li class="lan1"><a href="https://yic.cas.cn/yjsjy/yjsxxgg/202607/t20260701_8236490.html"
+                                                                class="hei1" target="_blank">
+                            2026年“亲近蔚蓝，走进海岸带”暑期夏令营第二轮通知
+                            </a> [
+                            2026-07-01
+                            ] </li>
+                        
+                          <li class="lan1"><a href="https://yic.cas.cn/yjsjy/yjsxxgg/202606/t20260629_8235024.html"
+                                                                class="hei1" target="_blank">
+                            2026年秋季批次学位申报工作的通知
+                            </a> [
+                            2026-06-29
+                            ] </li>
+                        
+                      </ul>
+                      <ul id="marquee3_2">
+                      </ul>
+                    </div>
+                  </div>
+                 
+                  <script type="text/javascript">marqueeStart(3, "up");</script>
+                  <div class="more"><a href="https://yic.cas.cn/yjsjy/yjsxxgg/"
+                                                target="_blank">
+                    <button type="button" class="btn btn-text" style="margin: 2px 0 0 0;">更多 +</button>
+                    </a></div>
+                </div>
+				  
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12 mb24">
+			<div class="borderstyle hvr-grow-img" style="padding:0px; overflow: hidden;">
+				<a href="https://yic.cas.cn/xwzx/zmltdjsz/"><img src="./images/2023zmltd.jpg" width="100%" /></a>
+			</div>
+        </div>
+        <div class="col-md-12 col-sm-12 mb24">
+          <div class="borderstyle" style="padding:15px 5px 0px 5px;">
+            <div class="column">
+              <div class="column_l"><span class="tabg" style="padding-left:30px; line-height: 30px; background: url(./images/2023sp.png) no-repeat; background-size: 28px 28px;">海岸带之光</span></div>
+              <div class="column_r"><a href="https://yic.cas.cn/xwzx/spxw/" target="_blank">更多 +</a></div>
+            </div>
+            <div class="tab_con yic_guang">
+              
+              <div class="video_left video_img hvr-grow-img"> <a href="https://yic.cas.cn/xwzx/spxw/202401/t20240127_6972739.html" target="_blank"> <img src="./xwzx/spxw/202401/W020240127297896141415.png" />
+                <div class="video_black">
+                  <p>
+                     【寻·未故事】“花”漾盐碱地
+                  </p>
+                </div>
+                <div class="video_time">
+                  <p>
+                    01-27
+                  </p>
+                  <span>-
+                  2024
+                  -</span></div>
+                <img src="./images/2023video_play.png" class="video_play2" /> </a>
+                </div>
+                
+             
+              <div class="video_right">
+				  
+                <div class="video_img video_img2 hvr-grow-img" style="height: 78px;"> <a href="https://yic.cas.cn/xwzx/spxw/202401/t20240127_6972727.html" title=" 【专家力量】海洋使者" target="_blank"> <img src="./xwzx/spxw/202401/W020240127292453835980.png" /> <img src="./images/2023video_play.png" class="video_play2" />
+                  <div class="video_black">
+                    <p> 【专家力量】海洋使者</p>
+                  </div>
+                  </a> </div>
+               
+				  
+                <div class="video_img video_img2 video_img_top hvr-grow-img" style="height: 78px;"> <a href="https://yic.cas.cn/xwzx/spxw/202311/t20231128_6912252.html" title="盐碱地“变身记”" target="_blank"> <img src="./xwzx/spxw/202311/W020231128539835878122.png" /> <img src="./images/2023video_play.png" class="video_play2" />
+                  <div class="video_black">
+                    <p>盐碱地“变身记”</p>
+                  </div>
+                  </a> </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+ 
+        <div class="col-md-12 col-sm-12 mb24">
+          <div class="borderstyle" style="padding:15px 5px 0px 5px;">
+            <div class="index_tab">
+              <div class="tabmenu">
+                <ul>
+                  <li class="selected"><span class="tabg" style="padding-left:30px; line-height: 30px; background: url(./images/2023cylj.png) no-repeat; background-size: 28px 28px;">常用链接</span></li>
+                </ul>
+                <div class="clear">&nbsp;</div>
+              </div>
+              <div class="tabox" style="margin-top: 16px;">
+                <ul class="column_gd" style="display:block;  margin-bottom: 0px;">
+                  <li style="float:left;width:47%;margin-bottom:10px;margin-left:2%;margin-right:1%;padding:8px 0;text-align:center;background-color:#e7f8fe;"> <a href="http://lib.yic.ac.cn/" target="_blank" style="font-size:16px;font-weight:600;display:block;width:100%;height:100%;color:#0b7c04;">图书馆</a> </li>
+                  <li style="float:left;width:47%;margin-bottom:10px;margin-left:1%;margin-right:2%;padding:8px 0;text-align:center;background-color:#e7f8fe;"> <a href="http://ir.yic.ac.cn/" target="_blank" style="font-size:16px;font-weight:600;display:block;width:100%;height:100%;color:#0b7c04;">机构知识库</a> </li>
+                  <li style="float:left;width:47%;margin-bottom:10px;margin-left:2%;margin-right:1%;padding:8px 0;text-align:center;background-color:#e7f8fe;"> <a href="https://yic.arp.cn" target="_blank" style="font-size:16px;font-weight:600;display:block;width:100%;height:100%;color:#0b7c04;">办公平台</a> </li>
+                  <li style="float:left;width:47%;margin-bottom:10px;margin-left:1%;margin-right:2%;padding:8px 0;text-align:center;background-color:#e7f8fe;"> <a href="http://info.yic.ac.cn/" target="_blank" style="font-size:16px;font-weight:600;display:block;width:100%;height:100%;color:#0b7c04;">内部信息网</a> </li>
+                  <li style="float:left;width:47%;margin-bottom:10px;margin-left:2%;margin-right:1%;padding:8px 0;text-align:center;background-color:#e7f8fe;"> <a href="https://mail.cstnet.cn/" target="_blank" style="font-size:16px;font-weight:600;display:block;width:100%;height:100%;color:#0b7c04;">邮箱</a> </li>
+                  <li style="float:left;width:47%;margin-bottom:10px;margin-left:1%;margin-right:2%;padding:8px 0;text-align:center;background-color:#e7f8fe;"> <a href="./zytj/tsxxxt/" target="_blank" 
+                           style="font-size:16px;font-weight:600;display:block;width:100%;height:100%;color:#0b7c04;">特色信息系统</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 col-sm-12 mb24">
+          <div class="borderstyle" style="padding: 5px;">
+            <div class="index_tab">
+              <div class="tabmenu">
+                <ul>
+                  <li class="selected"><span class="tabg" style="padding-left:30px; line-height: 30px; background: url(./images/2023zt.png) no-repeat; background-size: 28px 28px;">专题</span></li>
+                </ul>
+                <div class="clear">&nbsp;</div>
+              </div>
+              <div class="tabox" style="margin-top: 4px;">
+                <div>
+                  <div class="row" style="margin:0 auto;padding-top:8px;">
+                    
+                      <div class="col-xs-12 col-sm-4 col-md-12 hvr-grow-img" style="overflow: hidden;"> <a href="https://www.cas.cn/zt/sszt/zjg/" TARGET="_blank"><img class="center-block" style="padding-bottom:3px;height:150px;width: 100%" src="./zt_109419/245009/images/P020260720352325602062.jpg" /></a> </div>
+                    
+                    <!----特别专题 end-----> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      <!---选项卡 ---> 
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+  <div class="thirdpart">
+    <div class="row">
+      <div class="col-sm-4 col-md-4 col-lg-4">
+        <select name="select" class="frm_link"
+                        onchange="if (this.value!=&quot;&quot;) {window.open(this.value)}">
+          <option selected="selected">== 政府机构 ==</option>
+          <option value="http://www.most.gov.cn/">科学技术部</option>
+          <option value="http://www.nsfc.gov.cn/">国家自然科学基金委员会</option>
+          <option value="http://www.mnr.gov.cn/">自然资源部</option>
+          <option value="http://kjt.shandong.gov.cn/">山东省科技厅</option>
+          <option value="http://hyj.shandong.gov.cn/">山东省海洋局</option>
+          <option value="http://kjj.yantai.gov.cn/">烟台市科学技术局</option>
+          <option value="http://hyj.yantai.gov.cn/">烟台市海洋与渔业局</option>
+        </select>
+      </div>
+      <div class="col-sm-4 col-md-4 col-lg-4">
+        <select name="select" class="frm_link"
+                        onchange="if (this.value!=&quot;&quot;) {window.open(this.value)}">
+          <option selected="selected">== 科研院校 ==</option>
+          <option value="http://www.coms.ac.cn/">中国科学院海洋大科学研究中心</option>
+          <option value="http://www.qdio.cas.cn/">中国科学院海洋研究所</option>
+          <option value="http://www.scsio.cas.cn/">中国科学院南海海洋研究所</option>
+          <option value="http://www.idsse.ac.cn/">中国科学院三亚深海科学与工程研究所</option>
+          <option value="http://www.ucas.ac.cn/">中国科学院大学</option>
+          <option value="http://www.qnlm.ac/index">青岛海洋科学与技术试点国家实验室</option>
+        </select>
+      </div>
+      <div class="col-sm-4 col-md-4 col-lg-4">
+        <select name="select" class="frm_link"
+                        onchange="if (this.value!=&quot;&quot;) {window.open(this.value)}">
+          <option selected="selected">== 其他网站 ==</option>
+          <option value="http://www.nmdis.org.cn/">中国海洋信息网</option>
+          <option value="http://www.cistc.gov.cn/">中国国际科技合作网</option>
+          <option value="http://www.cnic.cas.cn/">中国科学院计算机网络信息中心</option>
+          <option value="http://www.cstcloud.cn/#/">中国科技云</option>
+          <option value="http://www.csdb.cn/">中国科学院科学数据中心</option>
+          <option value="http://www.cstnet.cn/">中国科技网</option>
+          <option value="http://www.kepu.net.cn/">中国科普博览</option>
+          <option value="http://istpa.cas.cn/">科学传播局智能科学与技术科普工作协作组</option>
+          <option value="http://www.las.ac.cn/">中科院国家科学图书馆</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+</div>
+<script src="//api.cas.cn/lib/jquery/1.12.4/jquery.min.js"></script> 
+<script type="text/javascript" src="//yic.cas.cn/images/owl.carousel.js"></script> 
+<script src="//yic.cas.cn/images/jweixin-1.0.0.js" type="text/javascript"></script> 
+<script type="text/javascript" src="//yic.cas.cn/images/bootstrap.min.js"></script> 
+<script type="text/javascript" src="//yic.cas.cn/images/modernizr.js"></script> 
+<script type="text/javascript" src="//yic.cas.cn/images/template.js"></script> 
+<script type="text/javascript" src="//yic.cas.cn/images/jquery.tabslet.min.js"></script>
+<script src="//yic.cas.cn/images/ui-select.js" type="text/javascript"></script> 
+<script>
+    $('#myModal').modal('show');
+    setTimeout(function () { $('#myModal').fadeOut(); $(".modal-backdrop.in").fadeOut(); }, ("self.close()", 5000));
+</script> 
+<script defer src="//yic.cas.cn/images/jquery.flexslider.js"></script> 
+<script type="text/javascript">
+    $(function () {
+        $(".flexslider").flexslider({
+            slideshowSpeed: 6000, //展示时间间隔ms
+            animationSpeed: 400, //滚动时间ms
+            touch: true //是否支持触屏滑动
+        });
+    });	
+</script> 
+<!-- 滚动公告 --> 
+<script type="text/javascript" src="//yic.cas.cn/images/jquery.kxbdMarquee.js"></script> 
+<script>
+    (function () {
+        $("#marquee").kxbdMarquee({ direction: "up", isEqual: false });
+    })();
+</script> 
+<!-- 选项卡 --> 
+<script type="text/javascript">
+    $(function(){   
+        /*Tab*/
+    $(".index_tab").each(function () {
+        $(this).find(".tabmenu li").mouseover(function () {
+            index = $(".index_tab .tabmenu li").index(this);
+            $(this).addClass("selected").siblings().removeClass("selected");
+            $(".tabox .tab_con").eq(index).show().siblings().hide();
+        });
+    })
+    $(".index_tab .index_list01 li").each(function () {
+        $(this).width(function () {
+            return $(this).width();
+        })
+    })
+})
+</script> 
+<!-- 图片滚动 --> 
+<script type="text/javascript" src="//yic.cas.cn/images/jquery.flexisel.js"></script> 
+<script type="text/javascript">
+        $(window).load(function () {
+            $("#flexiselDemo1").flexisel({
+                visibleItems: 3,
+                animationSpeed: 1000,
+                autoPlay: true,
+                autoPlaySpeed: 2500,
+                pauseOnHover: true,
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint: 680,
+                        visibleItems: 2
+                    },
+                    landscape: {
+                        changePoint: 992,
+                        visibleItems: 3
+                    },
+                    tablet: {
+                        changePoint: 1200,
+                        visibleItems: 2
+                    }
+                }
+            });
+
+        });
+</script> 
+<script>
+$(function() {
+    var i = 0;
+    $(".slogan").eq(0).show().siblings().hide();
+    setInterval(function() {
+        i++;
+        if (i == 3) {
+            i = 0;
+        }
+        $(".slogan").eq(i).show().siblings().hide(); 
+    }, 6000);
+});
+</script> 
+<script type="text/javascript">
+function isValid(str){
+  if(str.indexOf('&') != -1 || str.indexOf('<') != -1 || str.indexOf('>') != -1 || str.indexOf('\'') != -1
+    || str.indexOf('\\') != -1 || str.indexOf('/') != -1 || str.indexOf('"') != -1 
+    || str.indexOf('%') != -1 || str.indexOf('#') != -1){
+    return false;
+  }
+  return true;
+}
+$(function(){
+  $('#sub-pc').click(function(){
+    var searchword = $.trim($('#searchword').val());
+	if(searchword == "" || searchword == "请输入关键字" || !isValid(searchword)){
+	  alert("请输入关键词后再进行提交。");
+      return false;
+	}
+	$('input[name="keyword"]').val(encodeURI(searchword));
+	$('form[name="searchform"]').submit();
+  });
+  
+  $('#sub-mobile').click(function(){
+    var iptSword = $.trim($('#iptSword').val());
+	if(iptSword == "" || iptSword == "请输入关键字" || !isValid(iptSword)){
+	  alert("请输入关键词后再进行提交。");
+      return false;
+	}
+	$('input[name="keyword"]').val(encodeURI(iptSword));
+	$('form[name="searchform"]').submit();
+  });
+});
+</script>
+<!---------------页尾 start------------------>
+<div style="border-top:#0388cd solid 3px; margin-top: 15px; ">
+<div class="container">
+    <div class="row" style=" padding-top:16px; padding-bottom:15px;">
+      <div class="col-sm-3" style="border-right:#a8c7dd solid 1px; text-align:center; margin-top:10px;"> <a href="http://www.cas.cn/" target="_blank"> <img class="center-block" src="//yic.cas.cn/images/caslogo.png" /> </a> </div>
+      <div class="col-sm-6 wei-word"> 版权所有&copy;中国科学院烟台海岸带研究所</br>
+        地址：山东省烟台市莱山区春晖路17号&nbsp;&nbsp;邮编：264003</br>
+        备案序号：<a href="https://beian.miit.gov.cn" target="_blank">鲁ICP备10010756号-1</a>&nbsp;&nbsp;烟公网安备37060202000025号 
+       
+      </div>
+      <div class="col-sm-3 wei-r-pic"> 
+<a href="https://bszs.conac.cn/sitename?method=show&id=08AB38C958B550E5E053012819AC1E49" target="_blank"><img class="sydw" src="//yic.cas.cn/images/blue.png" /> </a><img class="weixin" src="//yic.cas.cn/images/swx.jpg" /> </div>
+    </div>
+  </div>
+</div>
+</div>
+<!---------------页尾 end------------------>  
+<script>
+    $(function () {
+        $(function () {
+            $('.ui-select').ui_select();
+            $('.ui-select-list li').click(function () { });
+        });
+    });
+    $(function () {
+        $('.ui-select').ui_select();
+        $('.ui-select-list li').click(function () {
+            var val = $(this).attr("data-value");
+
+            if (val != '政府机构' && val != '涉海科研院所、高校' && val != '学会和专业网站') {
+                window.open($(this).attr("data-value"));
+            }
+        });
+    });
+    const video = document.getElementById('video_')
+    // 一般情况下，这样就可以自动播放了，但是一些奇葩iPhone机不可以
+    video.play()
+    // 必须在微信Weixin JSAPI的WeixinJSBridgeReady才能生效
+    document.addEventListener('WeixinJSBridgeReady', () => {
+        video.play()
+    }, false)
+</script> 
+<!--
+<script src="//api.cas.cn/plugin/floatwindow/jquery.floatwindow.min.js"></script>
+<script type="text/javascript">
+$(function(){
+  $("body").floatwindow({
+    imgsrc: './piaochuang2020/202405/W020240507609799525066.jpg', //飘窗图片路径
+    url: 'https://kepu.yic.ac.cn/index.php?m=home&c=View&a=index&aid=183' //链接路径
+  });
+});
+</script>-->
+
+
+</body>
+</html>

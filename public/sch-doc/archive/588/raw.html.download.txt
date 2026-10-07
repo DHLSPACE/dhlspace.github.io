@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=1200">
+    <title>南京工业大学2026年硕士研究生复试录取工作办法-南京工业大学研究生招生网</title><META Name="keywords" Content="南京工业大学研究生招生网,通知公告,南京工业大学,南京,工业大学,工业大,工业,业大,大学,2026,硕士研究生,硕士,研究生,研究,复试,录取,工作,办法" />
+<META Name="description" Content="为切实做好我校2026年硕士研究生复试录取工作，根据《教育部关于印发&lt;2026年全国硕士研究生招生工作管理规定&gt;的通知》（教学〔2025〕2号）等文件精神，结合我校实际，特制定本复试录取工作办法。一、指导思想与总体要求2026年我校硕士研究生招生录取工作坚持服务战略、按需招生、全面衡量、择优录取和宁缺毋滥的原则，非全日制与全日制统一要求，进一步提高招生选拔质量，继续优化研究生教育结构，深入推进信息公开，不断加强监..." />
+
+    <link rel="stylesheet" type="text/css" href="../../style/common.css" />
+    <link rel="stylesheet" type="text/css" href="../../style/article.css">
+    <script type="text/javascript" src="../../js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.SuperSlide.js"></script> <!-- 导航菜单 -->
+    <script type="text/javascript" src="../../js/footer.js"></script>
+    <script type="text/javascript">
+    
+        function y2k(number)
+        {
+            return (number < 1000) ? number + 1900 : number;
+        }
+        function dispdate()
+        {
+            var now = new Date();
+            var dd = now.getDate() , mt = now.getMonth() + 1 , yy = y2k(now.getYear()) , weekVal = now.getDay();
+            if (weekVal==0)
+                msg1="星期日";
+            else if (weekVal==1)
+            msg1="星期一"; 
+            else if (weekVal==2)
+                msg1="星期二";
+            else if (weekVal==3)
+            msg1="星期三";
+            else if (weekVal==4)
+            msg1="星期四";
+            else if (weekVal==5)
+            msg1="星期五";
+            else if (weekVal==6)
+            msg1="星期六";
+            document.write(yy+"年"+mt+"月"+dd+"日 "+msg1);
+        }
+        var flasher = false
+        function updateTime()
+        {
+            var now = new Date();
+            var theHour = now.getHours();
+            var theMin = now.getMinutes();
+            var theSec = now.getSeconds();
+            if (theHour<10)
+            {
+                theHour="0"+theHour
+            }
+            if(theMin<10)
+            {
+                theMin="0"+theMin
+            }
+            if(theSec<10)
+            {
+                theSec="0"+theSec
+            }
+            var theTime = theHour + ":" + theMin + ":" + theSec;
+            flasher = !flasher;
+            document.getElementById("spanTime").innerHTML = theTime; 
+            // recursively call this function every second to keep timer going
+            timerID = setTimeout("updateTime()",1000)
+        } 
+    </script>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230776447565352574103080004 -->
+<link rel="stylesheet" type="text/css" href="../../article.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1021,'/article.jsp',1620,1816331650)</script>
+</head>
+
+<body>
+    <div>
+        <div id="header-line"></div>
+        <div id="header">
+            <div id="header-logo">
+                
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="../../index.htm" title="研究生招生网"><img src="../../images/zslogo2.png" width="737" height="80" border="0" alt="研究生招生网" title="研究生招生网"></a>
+            </div>
+            <script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode1015159').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey1015159").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey1015159").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1015159").value = base64.encode(document.getElementById("lucenenewssearchkey1015159").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1015159"));
+        return true;
+    } 
+</script>
+<form action="../../search.jsp?wbtreeid=1021" method="post" id="au1a" name="au1a" onsubmit="return _nl_ys_check()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkey1015159" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype1015159" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope1015159" name="searchScope" value="0">
+   <div id="search" class="clearfix fr">
+      <input name="showkeycode" id="showkeycode1015159" class="text" type="text" />
+      <input class="button" type="image" src="../../images/icon_search.png" align="absmiddle" style="cursor: hand">
+    </div>
+</form>
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+
+        </div>
+        <div id="nav">
+            <div class="wrap clearfix">
+                <ul>
+        <li class="nLi"><a href="../../index.htm">网站首页</a></li>
+      <li class="firstmenu nLi">
+        <a href="../../sszs.htm">硕士招生</a>
+            <ul class="secmenu clearfix">
+                  <li class="secul"><a href="../../sszs/tzgg.htm">通知公告</a></li>
+                  <li class="secul"><a href="../../sszs/gs.htm">公示</a></li>
+                  <li class="secul"><a href="../../sszs/zsjz.htm">招生简章</a></li>
+                  <li class="secul"><a href="../../sszs/zyml.htm">专业目录</a></li>
+            </ul>
+      </li>
+      <li class="firstmenu nLi">
+        <a href="../../bszs.htm">博士招生</a>
+            <ul class="secmenu clearfix">
+                  <li class="secul"><a href="../../bszs/tzgg.htm">通知公告</a></li>
+                  <li class="secul"><a href="../../bszs/gs.htm">公示</a></li>
+                  <li class="secul"><a href="../../bszs/zsjz.htm">招生简章</a></li>
+                  <li class="secul"><a href="../../bszs/zyml.htm">专业目录</a></li>
+            </ul>
+      </li>
+      <li class="firstmenu nLi">
+        <a href="../../cjwt.htm">常见问题</a>
+      </li>
+      <li class="firstmenu nLi">
+        <a href="../../lxfs.htm">联系方式</a>
+      </li>
+</ul>
+                <div id="nav-date"><script type="text/javascript">dispdate();</script></div>
+            </div>
+        </div>
+    </div>
+    <div id="content" class="clearfix">
+        <div class="photo">
+            <!-- <img src="images/photo.png"> -->
+        </div>
+        <div class="wrap clearfix">
+            <div id="sidebar">
+                <div class="title bgColor">硕士招生</div>
+                <ul>
+            <li class="borderColor">
+            <a href="../../sszs/tzgg.htm">
+                通知公告 <img src="../../images/off.png">
+            </a>
+        </li>
+        <li class="borderColor">
+            <a href="../../sszs/gs.htm">
+                公示 <img src="../../images/off.png">
+            </a>
+        </li>
+        <li class="borderColor">
+            <a href="../../sszs/zsjz.htm">
+                招生简章 <img src="../../images/off.png">
+            </a>
+        </li>
+        <li class="borderColor">
+            <a href="../../sszs/zyml.htm">
+                专业目录 <img src="../../images/off.png">
+            </a>
+        </li>
+</ul>
+            </div>
+            <div id="mainRight">
+                
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname"><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script>
+<div class="title">南京工业大学2026年硕士研究生复试录取工作办法</div>
+<div class="time">
+    <ul class="clearfix">
+        <li>阅读次数：<script>_showDynClicks("wbnews", 1816331650, 1620)</script></li>
+        <li>发布时间：2026-03-17</li>
+        <li>更新时间：2026-03-17</li>
+    </ul>
+</div>
+<div class="txt">
+<div id="vsb_content"><div class="v_news_content">
+<p style="text-align:center;"><br></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">为切实做好我校</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">2026年硕士研究生复试录取工作，根据《教育部关于印发</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">&lt;2026</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">年全国硕士研究生招生工作管理规定</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">&gt;</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">的通知》（教学〔</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">2025</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">〕</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">2</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">号）等文件精神，结合我校实际，特制定本复试录取工作办法。</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><strong><span style="font-family: 黑体;color: rgb(51, 51, 51);font-size: 21px">一、指导思想与总体要求</span></strong></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">2026年我校硕士研究生招生录取工作坚持服务战略、按需招生、全面衡量、择优录取和宁缺毋滥的原则，非全日制与全日制统一要求，进一步提高招生选拔质量，继续优化研究生教育结构，深入推进信息公开，不断加强监督管理，严明招生纪律，确保硕士研究生复试录取工作公平、公正、科学。</span></p><p style="text-align:justify;text-indent:35px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">复试录取将依据考生初试和复试的综合成绩，并结合考生思想政治素质、业务素质、创新能力、人文素养、心理健康以及身体状况等全面综合评价、择优录取。</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><strong><span style="font-family: 黑体;color: rgb(51, 51, 51);font-size: 21px">二、组织领导</span></strong></p><p style="text-align:justify;text-indent:41px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（一）组织形式</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">1.加强和规范</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">硕士</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">研究生复试工作，选拔出德才兼备、综合素质优秀的考生，硕士研究生复试录取工作采取学校统一领导、各招生学院具体组织的方式进行。学校研究生招生委员会负责并指导全校研究生的招生录取工作。</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">校研究生招生委会办公室设立在研究生院。</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">2.</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">各招生学院</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">负责组织成立</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">由学院主要负责人担任组长的</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">硕士研究生招生工作小组，</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px"><span style="font-family:仿宋">工作小组成员不少于</span><span style="font-family:仿宋">5人，</span></span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">成员</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">应包含招生学院分管</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">领导、各学科带头人、研究生导师</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">、</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">纪检委员</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">等</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">，</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">另设秘书一名，</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">可</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">由</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">招生学院的</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">研究生秘书担任。</span></p><p style="text-align:justify;text-indent:41px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（二）工作职责</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">1.学校研究生</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">招生委员会负责学校复试与录</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">取工作的统筹管理；负责对复试方案及实施细则、复试名单及建议录取名单的审核等；确定全校硕士研究生的复试录取工作办法、复试方案及拟录取名单并负责上报上级主管部门。复试录取管理工作由研究生院统一安排。</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">2.各硕士硕士研究生招生工作小组负责制定</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">本</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">学院</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">切实可行的复试方案、内容、程序及实施细则，并负责协调、监督和管理本</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">学院</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">复试录取工作全过程。</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">3.各研究</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">生招生工作小组</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">须根据复试</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">方案及实施细则</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">，组织复试考核、同等学力考生加试以及其它相关工作，并确定建议录取人员名单。硕士研究生招生工作小组</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">应认真组织工作人员开展</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">业务培训，确保复试工作严格按照既定方案和程序进行，并做好复试记录工作，确保复试工作的公平、公正、公开，科学性和有效性。</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><strong><span style="font-family: 黑体;color: rgb(51, 51, 51);font-size: 21px">三、硕士研究生考生复试</span></strong></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（一）复试形式。一志愿考生采用现场复试，调剂考生复试形式由学院明确，网络远程复试平台为研招网远程复试平台。</span></p><p style="text-align:justify;text-indent:41px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（二）复试时间。</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px"><span style="font-family:仿宋">参见我校</span><span style="font-family:仿宋">2026年硕士研究生复试公告和调剂公告。</span></span></p><p style="text-align:justify;text-indent:41px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（三）一志愿复试</span></p><p style="text-align: justify; text-indent: 43px; background: rgb(255, 255, 255); line-height: 3em;"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">1.复试比例。上线生源充足的专业，复试比例不得低于120%，上线生源不足的专业，按照实际上线情况安排复试。</span></p><p style="text-align: justify; text-indent: 41px; background: rgb(255, 255, 255); line-height: 3em;"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">2.复试内容和要求。复试成绩满分为300分，内容主要包括英语听力测试50分、专业知识笔试150分（笔试科目按招生目录要求执行）、面试100分（包括综合考察、口试以及必要的实验、实践操作等）三部分。英语听力测试和专业知识笔试考核统一在标准化考场中进行。面试工作由各招生学院具体组织实施，全程录音录像，并设立明确的评分标准。面试考核内容主要包括：英语听说、专业知识技能、创新能力、个人素养等。复试过程加强创新潜质考核，突出专业素养考察和考生的综合素质等。</span></p><p style="text-align: justify; text-indent: 41px; background: rgb(255, 255, 255); line-height: 3em;"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">各招生学院根据学科、专业特点明确复试总成绩合格标准，也可在此基础上，对复试中的单项考核成绩设立合格标准，详见各招生学院公布的复试实施细则。</span></p><p style="text-align: justify; text-indent: 41px; background: rgb(255, 255, 255); line-height: 3em;"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">3.各项考核时长安排。英语听力测试和专业知识笔试一并考核，总时长为180分钟，其中听力测试时长为30分钟，专业知识笔试时长150分钟；面试考核时长不少于20分钟。</span></p><p style="text-align: justify; text-indent: 43px; background: rgb(255, 255, 255); line-height: 3em;"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">4.总成绩核算方式。综合成绩=初试成绩+复试总成绩。</span></p><p style="text-align: justify; text-indent: 41px; background: rgb(255, 255, 255); line-height: 2em;"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（四）调剂复试</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">1.调剂条件。</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px"><span style="font-family:仿宋">参照《</span><span style="font-family:仿宋">2026年全国硕士研究生招生工作管理规定》执行。</span></span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">2.调剂方式。</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px"><span style="font-family:仿宋">我校接收调剂考生必须通过</span><span style="font-family:仿宋">“全国硕士研究生招生调剂服务系统”进行，每次开放调剂系统持续时间不低于12小时。对申请同一专业、初试科目完全相同的调剂考生，按考生初试成绩择优遴选进入复试的考生名单。考生调剂志愿锁定时间不超过36小时。</span></span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">3.调剂原则。</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px"><span style="font-family:仿宋">本着同等条件下一志愿优先的原则，线上生源充足的专业不接受调剂。学校将通过中国研究生招生信息网的调剂系统和我校研究生招生网对外公布调剂信息，符合调剂条件的考生均可通过</span><span style="font-family:仿宋">“全国硕士生招生调剂服务系统”进行申请。调剂缺额信息由研究生院统一发布，调剂复试工作的具体实施由各招生学院负责。符合调剂条件的考生在规定时间内登录中“全国硕士生招生调剂服务系统”填报调剂申请志愿。接到我校调剂复试通知的考生应在规定时间内在“全国硕士生招生调剂服务系统”确认参加复试，否则取消复试资格。</span></span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">4.调剂复试内容。</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px"><span style="font-family:仿宋">调剂复试总分</span><span style="font-family:仿宋">150分，内容包括：专业英语（50分）和综合面试（100分）。专业英语由各招生</span></span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">学院</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px"><span style="font-family:仿宋">自行确定，综合面试内容与一志愿考生相同。考核时长不少于</span><span style="font-family:仿宋">20分钟。</span></span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">5</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">.</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">综合</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">成绩核算方式。</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">综合</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px"><span style="font-family:仿宋">成绩</span><span style="font-family:仿宋">=</span></span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">初试统考科目</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">总</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">成绩</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">+复试</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">总</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">成绩</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">。复试的成绩和其他要求详见各招生学院公布的复试实施细则。</span></p><p style="text-align:justify;text-indent:41px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（五）关于同等学力考生的加试和复试。</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px"><span style="font-family:仿宋">达到复试基本要求的同等学力考生，复试时须加试至少两门所报考学科的本科主干课程，具体科目见我校</span><span style="font-family:仿宋">2026年硕士研究生招生专业目录。加试每科成绩满分为100分，加试科目的试卷要求与复试试卷要求相同。加试工作由各招生学院负责组织，加试成绩与复试成绩同时报研究生院公示。同等学力考生与非同等学力考生的复试方法相同。</span></span></p><p style="text-align:justify;text-indent:41px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（六）关于推荐免试生的复试。</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">已拟录取的推荐免试生不需要参加复试。</span></p><p style="text-align:justify;text-indent:41px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（七）关于复试加分项目</span></p><p style="text-align:justify;text-indent:41px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px"><span style="font-family:仿宋">申请享受初试加分的考生，在有关部门审核通过后，我校按照《</span><span style="font-family:仿宋">2026年全国硕士研究生招生工作管理规定》执行。</span></span></p><p style="text-align:justify;text-indent:41px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（八）</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">“退役</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">大学生士兵计划</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">”</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">考生的复试</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">1.报考“</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">退役大学生士兵计划</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">”的考生须按规定参加我校一志愿或调剂复试。</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">2.我校依据教育部有关政策，自主确定并公布报考“</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">退役大学生士兵计划</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">”考生进入复试的初试成绩要求和接受“</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">退役大学生士兵计划</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">”考生调剂的初试成绩要求。</span></p><p style="text-align:justify;text-indent:41px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（九）严肃考风考纪</span></p><p style="text-align:justify;text-indent:30px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">所有参加我校复试的考生，必须遵守考试纪律，须签订《诚信复试承诺书》，如在</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">复试</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">考核过程出现违规、作弊等行为，将按照相关规定严肃处理。</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><strong><span style="font-family: 黑体;color: rgb(51, 51, 51);font-size: 21px">四、工作要求</span></strong></p><p style="text-align:justify;text-indent:30px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（一）各</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">硕士研究生</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">招生</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">工作小组</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">应高度重视复试工作，制定细化、可行的复试工作方案，报研究生院审核备案。学校将严格落实复试录取工作各环节责任，实行责任追究制。</span></p><p style="text-align:justify;text-indent:30px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（二）各</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">招生学院</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">应建立和完善复试题库组建工作，确保复试题目内容规范、题量充足、难度适中，能够科学考查考生对专业知识的把握和创新能力。</span></p><p style="text-align:justify;text-indent:30px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（三）各</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">硕士研究生招生工作小组</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">应做好复试人员的选拔与培训工作。参与复试的工作人员必须是政治立场可靠、坚守原则、品行端正、遵纪守法、责任心强、业务熟练，参加面试的考官原则上应具备副教授及以上或相当职称，或为硕士研究生导师。所有参加复试工作人员都必须经过学院统一培训方能上岗，培训应强化政治意识、保密意识和责任意识。复试过程中必须严格执行复试程序和标准，统一尺度，坚决杜绝自行其是、擅自调整、破坏规则。</span></p><p style="text-align:justify;text-indent:30px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">四</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">）</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">强化招生回避制度落实。</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">我</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">校硕士研究生</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">招生相关工作人员，如本人报名参加本次研究生招生考试的，应主动向本单位申请全程回避；如有直系亲属或利益相关者报名的，应主动向本单位申请在影响保密、公平的必要环节和特定工作时期回避；有非直系亲属等报名的应主动报备，由</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">学校研究生招生委员会</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">研究决定是否需要回避及如何回避。</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">我校</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">中层及以上领导干部，其本人或直系亲属、其他利益相关者报名参加本单位研究生考试招生的，应主动向本单位报备并全程回避；如有非直系亲属等报名本单位的，应主动报备，由</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">学校研究生招生委员会</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">研究决定是否需要回避及如何回避。对未按规定报备或回避的相关工作人员，应依规依纪严肃处理。</span></p><p style="text-align:justify;text-indent:30px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">五</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px"><span style="font-family:仿宋">）各招生学院应加强对考生的资格审查。复试前应严格采取</span><span style="font-family:仿宋">“两识别”“四对比”对考生的有效身份证件、学历学位证书、学历学籍核验结果、考生准考证等报名材料原件严格审查，尤其是对报考专项计划和申请加分考生的相关材料严格审核、确认资格。对不符合政策规定者不予参加复试。考生学历学籍信息以网上报名时中国研招网网报系统提供的学籍学历审核结果为准（考生凭网上报名时的账号和密码登陆中国研招网报名系统查询），学历和学籍信息未通过系统审核的复试考生，须在我校规定时间内提供权威机构出具的认证证明，否则不予录取。</span></span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">六</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">）</span> <span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">各招生学院</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">一般应按学科专业成立复试面试组</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">，</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋">人数不得少于</span><span style="font-family:仿宋">5人。</span></span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">复试面试组</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">专家须具备高级职称或硕士研究导师身份。</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">鼓励聘请符合遴选标准的外单位（高校、科研院所、企业等）专家参与面试。</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px"><span style="font-family:仿宋">各招生学院可根据复试人数设立若干复试面试小组，每个复试面试小组的专家人数不少于</span><span style="font-family:仿宋">5人。复试面试专家必须严格按相应研究生招生工作小组制订的面试评分细则进行现场独立评分，并签字确认。</span></span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">原始评分记录和考生作答情况在本单元面试工作结束后立即交</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">由研究生院</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);letter-spacing: 0;font-size: 21px">集中统一保管，任何人不得改动。</span></p><p style="text-align:justify;text-indent:30px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><strong><span style="font-family: 黑体;color: rgb(51, 51, 51);font-size: 21px">五、思想政治素质和品德考核</span></strong></p><p style="text-align:justify;text-indent:30px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（一）思想政治素质和品德考核是保证培养质量的重要工作环节，各招生</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">学院</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">必须严格遵循实事求是的原则，坚持德智体美劳全面衡量，以德为先，切实将诚信考核作为专项环节加入复试工作，对于思想品德考核不合格者不予录取。</span></p><p style="text-align:justify;text-indent:30px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（二）思想政治素质和品德考核主要考核考生的现实表现，包括考生的政治态度、思想表现、道德品质、遵纪守法、诚实守信等方面。在复试的同时，应当组织思想政治工作部门、招生工作部门</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px"><span style="font-family:仿宋">与考生通过线下和线上方式，直接了解考生思想政治情况，必要时还可采取</span><span style="font-family:仿宋">“函调”或“派人外调”方式对考生思想政治素质和品德进行考核。</span></span></p><p style="text-align:justify;text-indent:30px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（三）强化对考生诚信的要求，充分利用《国家教育考试考生诚信档案》记录，对考生在报考时填写的考试作弊受处罚情况进行认真核查，将考生诚信状况作为思想品德考核的重要内容和录取的重要依据。凡有违反国家教育考试规定、情节严重受到停考处罚，在处罚结束后继续报名参加研究生招生考试的，由我校决定是否予以录取。</span></p><p style="text-align:justify;text-indent:30px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（四）拟录取名单确定后，我校向考生所在单位函调人事档案（或档案审查意见）和本人现实表现等材料，全面审查其政治思想情况。函调的考生现实表现材料，需由考生本人档案所在单位的人事、政工部门加盖印章。</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><strong><span style="font-family: 黑体;color: rgb(51, 51, 51);font-size: 21px">六、录取</span></strong></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（一）录取程序</span></p><p style="text-align:justify;text-indent:30px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">1.各招生</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">学院</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">根据报考志愿（第一志愿）的总体情况、考生初试成绩和复试成绩，按综合成绩（综合成绩计算方法见各招生学院复试录取实施细则）进行排序，择优提出拟录取名单。综合成绩相同情况下的拟录取排序则以公布的复试录取实施细则为准。复试不合格考生不予录取。录取工作依法保护残疾考生的合法权益。</span></p><p style="text-align:justify;text-indent:30px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">2.经考生确认的报考信息在录取阶段一律不作修改，对报考资格不符合规定者不予录取。应届本科毕业生及自学考试和网络教育届时可毕业本科生考生，入学时未取得国家承认的本科毕业证书者，录取资格无效。</span></p><p style="text-align:justify;text-indent:30px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">3.实行招生全程公示制度。公示内容包括复试录取办法、调剂系统开放时间、复试实施细则、复试考生名单、复试成绩、拟录取考生名单等。在公示相关信息的过程中，要处理好信息公开与维护考生隐私权的关系。学校研究生招生委员会将派出由校纪检监察及相关职能部门组成的督查组对各</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">招生学院</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">的复试录取工作全程监督检查。</span></p><p style="text-align:justify;text-indent:30px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">4.学校研究生招生委员会对各硕士研究生招生工作小组的建议录取名单审核后，确定拟录取名单，并在我校研究生招生网公示，公示时间不少于7日。</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">（二）录取计划与培养费</span></p><p style="text-align:justify;text-indent:37px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">各学科专业按实际</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">下达</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">计划</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">进行</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">录取，必须严格执行国家计划，不得超计划录取。学术</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">学位招生</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">计划可用作专业学位</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">招生</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">计划，专业学位</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">招生</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">计划不可用于学术</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">学位招生</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">计划。录取类别包括非定向和定向。学习形式包括全日制和非全日制。全日制招生计划与非全日制招生计划不得相互调整使用。</span></p><p style="text-align:justify;text-indent:37px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px"><span style="font-family:仿宋">学费标准：全日制金融硕士</span><span style="font-family:仿宋">10000元/生/学年，其他全日制硕士8000元/生/学年；非全日制工商管理硕士（MBA）30000元/生/学年，非全日工程管理硕士（MEM）30000元/生/学年，非全日会计硕士（MPAcc）40000元/生/学年（学制2年），其他非全日制硕士15000元/生/</span></span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">学</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">年。</span></p><p style="text-align:justify;text-indent:37px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">录取类别为定向的在职考生，入学后原则上不参加研究生新生优秀奖学金评比。</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><strong><span style="font-family: 黑体;color: rgb(51, 51, 51);font-size: 21px">七、体格检查</span></strong></p><p style="text-align:justify;text-indent:37px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px"><span style="font-family:仿宋">我校参照教育部、原卫生部、中国残联印发的《普通高等学校招生体检工作指导意见》（教学〔</span><span style="font-family:仿宋">2003〕3号）、《教育部办公厅卫生部办公厅关于普通高等学校招生学生入学身体检查取消乙肝项目检测有关问题的通知》（教学厅〔2010〕2 号）等文件规定，结合招生专业实际情况，提出体检要求。拟录取考生可参加我校入学后的体检或提供开学前一个月内的二甲及以上医院出具的体检报告，详细要求见我校</span></span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">后续发布的</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">2026级硕士研究生新生入学须知。</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><strong><span style="font-family: 黑体;color: rgb(51, 51, 51);font-size: 21px">八、严肃招生纪律</span></strong></p><p style="text-align:justify;text-indent:41px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">2026年我校硕士研究生录取工作应在学校研究生招生委员会的领导下，严格按照本办法执行。各硕士研究生招生工作小组要加强本单位研究生复试工作的领导和监督。</span></p><p style="text-align:justify;text-indent:41px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">研究生招生录取工作涉及面广，政策性强，关系到学校和社会的稳定，要</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">确保</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">招生工作的透明度，严肃招生纪律，抵制不正之风，努力营造招生工作公平公正的良好氛围，切实维护广大考生的权利和利益，维护学校研究生招生工作的良好声誉。</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">如发现复试工作中有违纪舞弊行为，一经查实，对所涉及的单位和工作人员按国家有关</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">法律法规、上级部门</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">和学校有关规定处理，考生</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">按相关规定</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">取消录取资格。</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">复试录取工作投诉举报电话：</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">025-58139194（研招办）</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">025-58139069（校纪委）。</span></p><p style="text-align:justify;text-indent:43px;text-justify:inter-ideograph;line-height:41px;background:rgb(255,255,255)"><strong><span style="font-family: 黑体;color: rgb(51, 51, 51);font-size: 21px">九、本办法由研究生院负责解释。</span></strong></p><p style="text-align:right;line-height:41px;background:rgb(255,255,255)"><br></p><p style="text-align:right;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">南京工业大学</span></p><p style="text-align:right;line-height:41px;background:rgb(255,255,255)"><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">2026年3月1</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">7</span><span style="font-family: 仿宋;color: rgb(51, 51, 51);font-size: 21px">日</span></p><p><br></p>
+</div></div>
+</div>
+</form>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="clearfix">
+        <div class="wrap">
+            <div class="copyright fl">
+                <!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>Copyright © 2021 南京工业大学研究生招生网 版权所有</p><p>地址：江苏省南京市浦口区浦珠南路30号</p><p>邮编：211816</p><p><br /></p>
+            </div>
+            <div class="copyright-line fl" style="display:none;"></div>
+            <div class="footer-link-box fl" style="display:none;">
+                <script language="javascript" src="/system/resource/js/openlink.js"></script><select class="footer-link" id="zsxy">
+    <option value="">--招生学院链接--</option>
+              
+            <option value="http://cces.njtech.edu.cn/">安全科学与工程学院</option>
+        <option value="http://hj.njtech.edu.cn/">环境科学与工程学院</option>
+        <option value="http://cly.njtech.edu.cn/">材料科学与工程学院</option>
+        <option value="http://hgy.njtech.edu.cn/">化工学院</option>
+        <option value="http://chem.njtech.edu.cn/">化学与分子工程学院</option>
+        <option value="http://eecs.njtech.edu.cn/">电气工程与控制科学学院</option>
+        <option value="http://mech.njtech.edu.cn/">机械与动力工程学院</option>
+        <option value="http://ny.njtech.edu.cn/">能源科学与工程学院</option>
+        <option value="http://arch.njtech.edu.cn/">建筑学院</option>
+        <option value="http://art.njtech.edu.cn/">艺术设计学院</option>
+        <option value="http://jgy.njtech.edu.cn/">经济与管理学院</option>
+        <option value="http://fzxy.njtech.edu.cn/">法政学院</option>
+        <option value="http://zjy.njtech.edu.cn/">马克思主义学院</option>
+        <option value="http://english.njtech.edu.cn/">外国语言文学学院</option>
+        <option value="http://life-phar.njtech.edu.cn/">生物与制药工程学院</option>
+        <option value="http://spy.njtech.edu.cn/">食品与轻工学院</option>
+        <option value="http://pharm.njtech.edu.cn/">药学院</option>
+        <option value="http://cise.njtech.edu.cn/">计算机科学与技术学院</option>
+        <option value="http://lxy.njtech.edu.cn/">数理科学学院</option>
+        <option value="http://iam.njtech.edu.cn/">先进材料研究院</option>
+        <option value="http://cge.njtech.edu.cn/">测绘科学与技术学院</option>
+        <option value="http://csjsxy.njtech.edu.cn/">城市建设学院</option>
+        <option value="http://trans.njtech.edu.cn/">交通运输工程学院</option>
+        <option value="http://cce.njtech.edu.cn/">土木工程学院</option>
+        <option value="http://tyxy.njtech.edu.cn/">体育学院</option>
+</select>
+        
+                <select class="footer-link" id="xwlj">
+    <option value="">--校外链接--</option>
+              
+            <option value="https://www.nju.edu.cn">南京大学</option>
+</select>
+            </div>
+            <div class="erweima clearfix fr">
+                <div class="txt fl">
+                    <p>请扫描二维码</p>
+                    <p>关注官方微信</p>
+                </div>
+                <div class="pic fl">
+                            <img src="../../images/1.jpg">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        //导航栏----开始
+        $("#nav .wrap ul").slide({
+            type: "menu",
+            titCell: ".nLi",
+            targetCell: ".secmenu",
+            effect: "slideDown",
+            delayTime: 300,
+            triggerTime: 0,
+            returnDefault: true
+        });//导航栏----结束
+        
+         $('#zsxy').change(function () {
+            var val = $(this).val();
+            window.open(val)
+          }); 
+          
+          $('#xwlj').change(function () {
+            var val = $(this).val();
+            window.open(val)
+          });
+    </script>
+</body>
+
+</html>

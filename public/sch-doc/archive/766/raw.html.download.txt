@@ -1,0 +1,471 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="新疆理化所研究生,新疆理化所研究生教育,研究生教育_新版, 中国科学院新疆理化技术研究所, 中国科学院">
+<meta name="description" content="研究生教育_新版, 中国科学院新疆理化技术研究所, 中国科学院">
+<title>研究生教育_新版----中国科学院新疆理化技术研究所</title>
+
+<link href="//xjipc.cas.cn/images/favicon.png" rel="icon" type="image/png" sizes="32x32">
+<link href="//xjipc.cas.cn/images/common_edu.css" rel="stylesheet" type="text/css">
+<link href="//xjipc.cas.cn/images/nav_edu.css" rel="stylesheet" type="text/css">
+<link href="//xjipc.cas.cn/images/style_edu.css" rel="stylesheet" type="text/css">
+<!--
+[if (gte IE 6)&(lte IE 8)]>
+	<script src="//xjipc.cas.cn/images/selectivizr.js"></script>
+<![endif]--> 
+<!--[if lt IE 9]>
+ 	<script src="//xjipc.cas.cn/images/html5shiv.min.js"></script>
+ 	<script src="//xjipc.cas.cn/images/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<!-- header begin -->
+<form  style="display:none;"  name="searchform" action="https://xjipc.cas.cn/yjs/yjsjs/index.html" method="get" target="_top">
+    <input type="hidden" name="keyword" value="" />
+</form>
+<!--全文检索end-->
+<div class="header clearfix">
+	<div class="container">
+		<div class="fr">
+			<a class="lg-0 search-m"><img src="//xjipc.cas.cn/images/ico_search_mobile.png" style="cursor:pointer;" /></a>
+			<a href="javascript:void(0);" class="icon" onclick="toggleNav()"><img src="//xjipc.cas.cn/images/ico_share.png" /></a>
+		</div>		
+		<ul class="navtop" id="navTop">
+			<li><a href="//www.xjipc.cas.cn/">新疆理化所</a></li>
+			<li class="line">|</li>
+			<li><a href="//www.cas.cn/">中国科学院</a></li>
+		</ul>
+                <form name="searchform" action="https://xjipc.cas.cn/yjs/yjsjs/" method="get" target="_blank" class="search fl">
+	             	<input type="hidden" name="keyword" id="keywords" value="" />
+	                <input type="text" value="" placeholder="搜索" id="searchword" name="searchword" />
+	                <input type="submit" value="" class="btn-search" id="sub-pc" />
+	             </form>
+
+		<div class="clearfix"></div>
+		<div class="logo">
+			<a href="https://xjipc.cas.cn/yjs/" ><img src="//xjipc.cas.cn/images/logo_edu.png" /></a>
+			<div class="menuico"></div>
+		</div>
+		<div class="search-model">
+                    <form name="searchforms" action="https://xjipc.cas.cn/yjs/yjsjs/" method="get" target="_blank">
+				<span class="search-close"><img src="//xjipc.cas.cn/images/ico_close.png" /></span>
+				<div class="search-box">
+                                  <input type="hidden" name="keyword" id="keywords" value="" />
+		                <input class="search-ipt" type="text" value="" placeholder="搜索" id="iptSword" name="iptSword" />
+		                <input type="submit" value="" id="sub-mobile" style="display:none;" />
+
+				</div>
+			</form>
+
+		</div>
+	</div>
+</div>
+<div class="nav">
+	<div class="container">
+		<ul class="dropmenu1">
+			<li><a href="https://xjipc.cas.cn/yjs/">首页</a></li>
+			<li><a href="https://xjipc.cas.cn/yjs/gk/">概况</a></li>
+			<li>
+				<a href="https://xjipc.cas.cn/yjs/gwzz/">岗位职责</a>
+				<ul class="one">
+					
+					<li><a href="https://xjipc.cas.cn/yjs/gwzz/zr/">主任</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/gwzz/zg/">主管</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/gwzz/fdy/">辅导员</a></li>
+					
+				</ul>
+			</li>
+			<li>
+				<a href="https://xjipc.cas.cn/yjs/zs/">招生</a>
+				<ul class="one">
+					
+					<li><a href="https://xjipc.cas.cn/yjs/zs/xkbj/">学科布局</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/zs/dsdw/">导师队伍</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/zs/bszs/">博士招生</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/zs/sszs/">硕士招生</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/zs/xly/">夏令营</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/zs/kcjh/">科创计划</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/zs/kjrh/">科教融合</a></li>
+					
+				</ul>
+			</li>
+			<li>
+				<a href="https://xjipc.cas.cn/yjs/py/">培养</a>
+				<ul class="one">
+					
+					<li><a href="https://xjipc.cas.cn/yjs/py/pyfa/">培养方案</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/py/kcap/">课程安排</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/py/khap/">考核安排</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/py/xfdd/">学风道德</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/py/xjgl/">学籍管理</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/py/lhpy/">联合培养</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/py/cglx/">出国留学</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/py/zlzx/">资料中心</a></li>
+					
+				</ul>
+			</li>
+			<li>
+				<a href="https://xjipc.cas.cn/yjs/xw/">学位</a>
+				<ul class="one">
+					
+					<li><a href="https://xjipc.cas.cn/yjs/xw/xwpdwyh/">学位评定委员会</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/xw/xwsq/">学位申请</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/xw/tdxl/">同等学力</a></li>
+					
+				</ul>
+			</li>
+			<li>
+				<a href="https://xjipc.cas.cn/yjs/jy/">就业</a>
+				<ul class="one">
+					
+					<li><a href="https://xjipc.cas.cn/yjs/jy/jyzc/">就业政策</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/jy/pxzd/">培训指导</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/jy/zpxx/">招聘信息</a></li>
+					
+				</ul>
+			</li>
+			<li>
+				<a href="https://xjipc.cas.cn/yjs/gzzd/">规章制度</a>
+				<ul class="one">
+					
+					<li><a href="https://xjipc.cas.cn/yjs/gzzd/kyddyxfjs/">科研道德与学风建设</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/gzzd/zs/">招生</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/gzzd/lxs/">留学生</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/gzzd/jxpy/">教学培养</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/gzzd/pj/">评奖</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/gzzd/xw/">学位</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/gzzd/jzxj/">奖助学金</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/gzzd/xsgl/">学生管理</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/gzzd/jyjxy/">就业及校友</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/gzzd/qt/">其他</a></li>
+					
+				</ul>
+			</li>
+			<li>
+				<a href="https://xjipc.cas.cn/yjs/xysh/">校园生活</a>
+				<ul class="one">
+					
+					<li><a href="https://xjipc.cas.cn/yjs/xysh/yjshznjj/">研究生会职能简介</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/xysh/yjshzzjg/">研究生会组织结构</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/xysh/hdbd/">活动报道</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/xysh/gxzy/">共享资源</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/xysh/yjshljcy/">研究生会历届成员</a></li>
+					
+				</ul>
+			</li>
+			<li>
+				<a href="https://xjipc.cas.cn/yjs/xzzx/">下载中心</a>
+				<ul class="one">
+					
+					<li><a href="https://xjipc.cas.cn/yjs/xzzx/zs/">招生</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/xzzx/py/">培养</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/xzzx/xsgl/">学生管理</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/xzzx/lwdb/">论文答辩</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/xzzx/xwsq/">学位申请</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/xzzx/cyzm/">常用证明</a></li>
+					
+					<li><a href="https://xjipc.cas.cn/yjs/xzzx/byls/">毕业离所</a></li>
+					
+				</ul>
+			</li>
+			<li><a href="//www.xjipc.cas.cn/">所网站</a></li>
+		</ul>
+	</div>
+</div>
+<div class="clearfix"></div>
+<!-- header end -->
+
+<!-- main begin -->
+<div class="main container">
+	<div class="flexslider clearfix">
+		<ul class="slides">
+			
+			<li>
+				<a href="../xwnew/zhxwnew/202607/t20260722_8254230.html" target="_blank"><img src="../xwnew/zhxwnew/202607/W020260722655096073411_ORIGIN.jpg" alt="新疆理化所2026年“科创丝路・大美新疆”大学生夏令营圆满落幕" /></a>
+				<div class="flex-caption">
+					<div class="banner_text">
+					<a href="../xwnew/zhxwnew/202607/t20260722_8254230.html" target="_blank">新疆理化所2026年“科创丝路・大美新疆”大学生夏令营圆满落幕</a>
+					</div>
+				</div>
+			</li>
+			
+			<li>
+				<a href="../xwnew/zhxwnew/202607/t20260720_8252466.html" target="_blank"><img src="../xwnew/zhxwnew/202607/W020260720711152572000_ORIGIN.png" alt="祝贺！新疆理化所2位同学荣获2026年度“中国科学院院长奖”" /></a>
+				<div class="flex-caption">
+					<div class="banner_text">
+					<a href="../xwnew/zhxwnew/202607/t20260720_8252466.html" target="_blank">祝贺！新疆理化所2位同学荣获2026年度“中国科学院院长奖”</a>
+					</div>
+				</div>
+			</li>
+			
+			<li>
+				<a href="../xwnew/zhxwnew/202606/t20260608_8219125.html" target="_blank"><img src="../xwnew/zhxwnew/202606/W020260608813723869438_ORIGIN.png" alt="逐梦新征程 青春再出发 —— 新疆理化所举行 2026 届研究生毕业典礼" /></a>
+				<div class="flex-caption">
+					<div class="banner_text">
+					<a href="../xwnew/zhxwnew/202606/t20260608_8219125.html" target="_blank">逐梦新征程 青春再出发 —— 新疆理化所举行 2026 届研究生毕业典礼</a>
+					</div>
+				</div>
+			</li>
+			
+			<li>
+				<a href="../xwnew/zhxwnew/202605/t20260522_8208730.html" target="_blank"><img src="../xwnew/zhxwnew/202605/W020260522646083477824_ORIGIN.jpg" alt="丝路科苑·追光同行——<div>西北地区中国科学院研究院所研究生学术交流会在乌鲁木齐成功举办</div>" /></a>
+				<div class="flex-caption">
+					<div class="banner_text">
+					<a href="../xwnew/zhxwnew/202605/t20260522_8208730.html" target="_blank">丝路科苑·追光同行——<div>西北地区中国科学院研究院所研究生学术交流会在乌鲁木齐成功举办</div></a>
+					</div>
+				</div>
+			</li>
+			
+		</ul>
+	</div>
+	<div class="news-top">
+		<div class="tit">
+			<div class="line">
+				<span class="line-text">综合新闻</span>
+				<div class="fr"><span><a href="./zhxw/" class="index-more">更多 &gt;&gt;</a></span></div>
+			</div>
+		</div>
+		<ul>
+			
+			<li class="txtdot-2"><time>[2026-07-22]</time><a href="../xwnew/zhxwnew/202607/t20260722_8254230.html" target="_blank" title="新疆理化所2026年“科创丝路・大美新疆”大学生夏令营圆满落幕">新疆理化所2026年“科创丝路・大美新疆”大学生夏令营圆满落幕</a></li>
+			
+			<li class="txtdot-2"><time>[2026-07-20]</time><a href="../xwnew/zhxwnew/202607/t20260720_8252466.html" target="_blank" title="祝贺！新疆理化所2位同学荣获2026年度“中国科学院院长奖”">祝贺！新疆理化所2位同学荣获2026年度“中国科学院院长奖”</a></li>
+			
+			<li class="txtdot-2"><time>[2026-06-08]</time><a href="../xwnew/zhxwnew/202606/t20260608_8219125.html" target="_blank" title="逐梦新征程 青春再出发 —— 新疆理化所举行 2026 届研究生毕业典礼">逐梦新征程 青春再出发 —— 新疆理化所举行 2026 届研究生毕业典礼</a></li>
+			
+			<li class="txtdot-2"><time>[2026-05-22]</time><a href="../xwnew/zhxwnew/202605/t20260522_8208730.html" target="_blank" title="丝路科苑·追光同行——&lt;div&gt;西北地区中国科学院研究院所研究生学术交流会在乌鲁木齐成功举办&lt;/div&gt;">丝路科苑·追光同行——<div>西北地区中国科学院研究院所研究生学术交流会在乌鲁木齐成功举办</div></a></li>
+			
+			<li class="txtdot-2"><time>[2026-04-30]</time><a href="../xwnew/zhxwnew/202604/t20260430_8195444.html" target="_blank" title="弘扬五四爱国志，勇攀科研创新峰——新疆理化所举办2026年五四主题团日活动">弘扬五四爱国志，勇攀科研创新峰——新疆理化所举办2026年五四主题团日活动</a></li>
+			
+			<li class="txtdot-2"><time>[2026-01-17]</time><a href="../xwnew/zhxwnew/202601/t20260117_8110230.html" target="_blank" title="倾听学生声音，厚植家国情怀——新疆理化所举办2026年所领导与学生见面会">倾听学生声音，厚植家国情怀——新疆理化所举办2026年所领导与学生见面会</a></li>
+			
+		</ul>
+	
+	</div>
+	<div class="clearfix"></div>
+	<ul class="lmlj">
+		<li><a href="./xw/xwpdwyh/"><img src="./xw/xwpdwyh/images/P020210106495736960329.jpg" /><span>学位评定委员会</span></a></li>
+		<li><a href="./zs/dsdw/"><img src="./zs/dsdw/images/P020210106503082259593.jpg" /><span>导师队伍</span></a></li>
+		<li><a href="./gzzd/jzxj/"><img src="./gzzd/jzxj/images/P020210106503165938087.jpg" /><span>奖助学金</span></a></li>
+		<li><a href="./gjxs/"><img src="./gjxs/images/P020210106502864610562.jpg" /><span class="lines_2">INTERNATIONAL STUDENT</span></a></li>
+	</ul>
+	<div class="clearfix"></div>
+	<div class="index-main">
+		<section>
+			<h3 style="background: #8c3100;">通知公告<span><a class="more" href="./tzgg/">+ 更多</a></span></h3>
+			<ul class="list-font">
+				
+				<li><time>2026-05-11</time><a href="./tzgg/202605/t20260511_8199711.html" target="_blank" title="&lt;span align=&quot;center&quot;&gt;中国科学院新疆理化所2026年“科创丝路·大美新疆”大学生夏令营报名通知&lt;/span&gt;" txtdot-2><span align="center">中国科学院新疆理化所2026年“科创丝路·大美新疆”大学生夏令营报名通知</span></a></li>
+				
+				<li><time>2025-10-21</time><a href="./tzgg/202510/t20251021_7994035.html" target="_blank" title="2025年国家奖学金评选结果公示" txtdot-2>2025年国家奖学金评选结果公示</a></li>
+				
+				<li><time>2025-07-03</time><a href="./tzgg/202507/t20250703_7878999.html" target="_blank" title="中国科学院新疆理化所2026年全国硕士研究生招生考试初试科目设置情况的公告" txtdot-2>中国科学院新疆理化所2026年全国硕士研究生招生考试初试科目设置情况的公告</a></li>
+				
+				<li><time>2025-05-13</time><a href="./tzgg/202505/t20250513_7650725.html" target="_blank" title="&lt;span align=&quot;center&quot;&gt;中国科学院新疆理化所“2025走进中科院，看大美之疆”大学生夏令营报名通知&lt;/span&gt;" txtdot-2><span align="center">中国科学院新疆理化所“2025走进中科院，看大美之疆”大学生夏令营报名通知</span></a></li>
+				
+			</ul>
+		</section>
+		<section>
+			<h3 style="background: #00368c;">招生信息<span><a class="more" href="./zs/">+ 更多</a></span></h3>
+			<ul class="list-font">
+				
+				<li><time>2026-08-27</time><a href="./zs/bszs/202608/t20260827_8266043.html" target="_blank" title="中国科学院新疆理化技术研究所2027年接收推荐免试生的通知" txtdot-2>中国科学院新疆理化技术研究所2027年接收推荐免试生的通知</a></li>
+				
+				<li><time>2026-05-27</time><a href="./zs/bszs/202605/t20260514_8202283.html" target="_blank" title="2026年秋季博士“申请-考核”制及硕转博拟录取名单（公示）" txtdot-2>2026年秋季博士“申请-考核”制及硕转博拟录取名单（公示）</a></li>
+				
+				<li><time>2026-05-14</time><a href="./zs/bszs/202605/t20260514_8202282.html" target="_blank" title="2026年秋季博士少数民族骨干计划（民族药专项）拟录取名单（公示）       " txtdot-2>2026年秋季博士少数民族骨干计划（民族药专项）拟录取名单（公示）       </a></li>
+				
+				<li><time>2026-04-22</time><a href="./zs/bszs/202604/t20260422_8189777.html" target="_blank" title="关于查询2026年秋季入学博士招生考试初试成绩的通知" txtdot-2>关于查询2026年秋季入学博士招生考试初试成绩的通知</a></li>
+				
+			</ul>
+		</section>
+		<section>
+			<h3 style="background: #095c32;">专题专栏</h3>
+			<ul class="list-pic">
+				
+				<li><a href="./ztzl/xfdd/"><img src="./ztzl/xfdd/images/P020210106530309944863.png" /><span>学风道德</span></a></li>
+				
+				<li><a href="./ztzl/xlyzm/"><img src="./ztzl/xlyzm/images/P020210106530365676037.png" /><span>夏令营招募</span></a></li>
+				
+				<li><a href="./ztzl/kcjhzm/"><img src="./ztzl/kcjhzm/images/P020210106530431639937.png" /><span>科创计划招募</span></a></li>
+				
+				<li><a href="./ztzl/gplx/"><img src="./ztzl/gplx/images/P020210106530500849376.png" /><span>公派留学</span></a></li>
+				
+				<li><a href="./ztzl/xlzx/"><img src="./ztzl/xlzx/images/P020210106530586415045.png" /><span>心理咨询</span></a></li>
+				
+			</ul>
+		</section>
+		<section>
+			<h3 style="background: #008c52;">学术活动<span><a class="more" href="./xshd/">+ 更多</a></span></h3>
+			<ul class="list-font">
+				
+			</ul>
+		</section>
+		<section>
+			<h3 style="background: #8a008c;">校园生活<span><a class="more" href="./xysh/">+ 更多</a></span></h3>
+			<ul class="list-font">
+				
+				<li><time>2024-03-13</time><a href="./xysh/hdbd/202403/t20240313_7031021.html" target="_blank" title="&lt;span ng-bind=&quot;showInfo.title || &#39;无标题&#39;&quot;&gt;致青春|新疆理化所2024年研究生秋季运动会胜利闭幕&lt;/span&gt;" txtdot-2><span ng-bind="showInfo.title || &#39;无标题&#39;">致青春|新疆理化所2024年研究生秋季运动会胜利闭幕</span></a></li>
+				
+			</ul>
+		</section>
+		<section>
+			<h3 style="background: #09535c;">信息服务系统</h3>
+			<ul class="list-system">
+				
+				<li><a href="http://sep.ucas.ac.cn/" target="_blank">中国科学院教育云</a></li>
+				
+				<li><a href="http://yjsgl.tianshanzw.cn:86/yjsgl/login" target="_blank">研究生管理系统</a></li>
+				
+				<li><a href="http://samp.cas.cn/" target="_blank">院仪器共享管理平台</a></li>
+				
+				<li><a href="http://dpaper.las.ac.cn/homeNew" target="_blank">学位论文知识发现系统</a></li>
+				
+				<li><a href="http://159.226.135.244/" target="_blank">理化所机构知识库</a></li>
+				
+				<li><a href="https://admission.ucas.ac.cn/" target="_blank">中国科学院大学招生信息网</a></li>
+				
+			</ul>
+		</section>
+	</div>
+	<div class="clearfix"></div>
+	
+	<div class="link">
+		<h3>友情链接</h3>
+		
+		<a href="https://www.ucas.ac.cn/">中国科学院大学</a>
+		
+		<a href="//www.cas.cn/">中国科学院</a>
+		
+		<a href="https://yz.chsi.com.cn/">中国研究生招生信息网</a>
+		
+		<a href="https://www.chsi.com.cn/">学信网</a>
+		
+		<a href="http://jyt.xinjiang.gov.cn/">新疆教育厅</a>
+		
+	</div>
+	<div class="clearfix"></div>
+</div>
+<div class="clearfix"></div>
+<!-- main end -->
+
+<!-- footer begin -->
+<footer>
+	<div class="row container">
+		<ul class="left">
+			<li><a href="https://xjipc.cas.cn/yjs/zs/">招生</a></li>
+			<li><a href="https://xjipc.cas.cn/yjs/py/">培养</a></li>
+			<li><a href="https://xjipc.cas.cn/yjs/gwzz/">管理</a></li>
+			<li><a href="https://xjipc.cas.cn/yjs/xw/">学位</a></li>
+			<li><a href="https://xjipc.cas.cn/yjs/jy/">就业</a></li>
+			<li><a href="https://xjipc.cas.cn/yjs/xysh/">校园生活</a></li>
+		</ul>
+		<div class="right">
+			<img src="//xjipc.cas.cn/images/img_ewm_edu.png" />
+			<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/33/000/0000/60933396/CA330000000609333960001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+		</div>
+		<div class="mid"><p>版权所有 &copy; <script>document.write((new Date()).getFullYear());</script>  中国科学院新疆理化技术研究所　新ICP备06001362号</p><p>地址：新疆乌鲁木齐市北京南路40-1号　　邮编：830011</p><p>咨询、建议电话：0991-3835823　传 真：0991-3838957</p></div>
+	</div>
+</footer>
+<!-- footer end -->
+<script src="//xjipc.cas.cn/images/jquery-1.12.4.min.js"></script>
+<script src="//xjipc.cas.cn/images/main.js"></script>
+<script type="text/javascript">
+	function isValid(str){
+		if(str.indexOf('&') != -1 || str.indexOf('<') != -1 || str.indexOf('>') != -1 || str.indexOf('\'') != -1
+			|| str.indexOf('\\') != -1 || str.indexOf('/') != -1 || str.indexOf('"') != -1
+			|| str.indexOf('%') != -1 || str.indexOf('#') != -1){
+			return false;
+	}
+	return true;
+}
+$(function(){
+	$('#sub-pc').click(function(){
+		var searchword = $.trim($('#searchword').val());
+		if(searchword == "" || searchword == "请输入关键字" || !isValid(searchword)){
+			alert("请输入关键词后再进行提交。");
+			return false;
+		}
+		$('input[name="keyword"]').val(encodeURI(searchword));
+		$('form[name="searchform"]').submit();
+	});
+
+	$('#sub-mobile').click(function(){
+		var iptSword = $.trim($('#iptSword').val());
+		if(iptSword == "" || iptSword == "请输入关键字" || !isValid(iptSword)){
+			alert("请输入关键词后再进行提交。");
+			return false;
+		}
+		$('input[name="keyword"]').val(encodeURI(iptSword));
+		$('form[name="searchforms"]').submit();
+	});
+});
+$(document).ready(function () {
+	$("body").keydown(function (e) {
+		e = e ? e : event;
+         if (e.keyCode == "13") {//keyCode=13是回车键
+         	$('#sub-pc').click();
+         	return false;
+         }
+     });
+});
+</script>
+	
+<script src="../images/jquery.flexslider.js"></script>
+<script>
+	//图片轮播
+    $(function() {
+        $(".flexslider").flexslider({
+            slideshowSpeed: 4000, //展示时间间隔ms
+            animationSpeed: 400, //滚动时间ms
+            slideshow: true, //是否自动播放
+            pausePlay: false,//是否显示播放暂停按钮
+            touch: true //是否支持触屏滑动
+        });
+    });
+</script>
+</body>
+</html>

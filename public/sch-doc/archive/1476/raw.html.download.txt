@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en"  class="webplus-list"  >
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>研究生培养</title>
+    
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/sudy-jquery-autoload.js" jquery-src="/_js/jquery-1.x.min.js" sudy-wp-context="" sudy-wp-siteId="100"></script>
+<script language="javascript" src="/_js/jquery-migrate.min.js"></script>
+<script language="javascript" src="/_js2/loadStyle.js" sys-path="/_upload/site/1/style/1/1.css"  site-path="/_upload/site/00/64/100/style/138/138.css" ></script>
+<script language="javascript" src="/_js2/grayscale.js"   ></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<link rel="stylesheet" href="/_upload/tpl/07/83/1923/template1923/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/_upload/tpl/07/83/1923/template1923/css/main.css">
+    
+</head>
+<body class="list">
+<div class="main-section container">
+    <div class="header">
+        <div class="logo_link centerArea clearfix">
+            <a class="logo" href="/ep"></a>
+            <div class="link">
+                <a href="http://www2.scut.edu.cn/ep_en/">English</a>
+                <a href="https://www.scut.edu.cn/new/">华工首页</a>
+                <a href="http://sites.scut.edu.cn">管理入口</a>
+            </div>
+            <div class="clear_both"></div>
+        </div>
+        <div class="nav_div web_show nav" frag="面板1">
+            <div class="nav_list clearfix center_area navContain centerArea" frag="窗口1" portletmode="simpleSudyNavi" configs="{'c1':'1','c7':'2','c4':'_self','c3':'666','c6':'0','c8':'2','c9':'0','c2':'1','c5':'1'}" contents="{'c2':'0'}">
+                
+                    
+                        <ul class="navUl">
+                            
+                                <li class="nav_li navLi i1 "> <a href="/ep" target="_self" class="nav_link">首页</a>
+                                    
+                                </li>
+                           
+                                <li class="nav_li navLi i2 "> <a href="/ep/xxgk/list.htm" target="_self" class="nav_link">学院概况</a>
+                                    
+                                        <ul class="sub_nav">
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18709/list.htm" target="_self">学院简介 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18710/list.htm" target="_self">学院领导 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18711/list.htm" target="_self">机构设置 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18714/list.htm" target="_self">历史沿革 </a>
+                                                   
+                                                </li>
+                                            
+                                        </ul>
+                                   
+                                </li>
+                           
+                                <li class="nav_li navLi i3 "> <a href="/ep/szdw/list.htm" target="_self" class="nav_link">师资队伍</a>
+                                    
+                                        <ul class="sub_nav">
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18716/list.htm" target="_self">高层次人才 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18717/list.htm" target="_self">教授(含正高) </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18718/list.htm" target="_self">副教授(含副高) </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18719/list.htm" target="_self">讲师(含中级) </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/zzyjxl/list.htm" target="_self">专职研究系列 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18720/list.htm" target="_self">电气工程学科 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18721/list.htm" target="_self">动力工程学科 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18722/list.htm" target="_self">退休教师 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/sdsfjs/list.htm" target="_self">师德师风建设 </a>
+                                                   
+                                                </li>
+                                            
+                                        </ul>
+                                   
+                                </li>
+                           
+                                <li class="nav_li navLi i4 "> <a href="/ep/18724/list.htm" target="_self" class="nav_link">科学研究</a>
+                                    
+                                        <ul class="sub_nav">
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18726/list.htm" target="_self">科研平台 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18727/list.htm" target="_self">研究团队 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18728/list.htm" target="_self">科研项目 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18729/list.htm" target="_self">科研成果 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18730/list.htm" target="_self">科研论著 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18731/list.htm" target="_self">最新进展 </a>
+                                                   
+                                                </li>
+                                            
+                                        </ul>
+                                   
+                                </li>
+                           
+                                <li class="nav_li navLi i5 "> <a href="/ep/18725/list.htm" target="_self" class="nav_link">人才培养</a>
+                                    
+                                        <ul class="sub_nav">
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18732/list.htm" target="_self">本科生培养 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18733/list.htm" target="_self">研究生培养 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18734/list.htm" target="_self">高级人才培训 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18735/list.htm" target="_self">实验教学中心 </a>
+                                                   
+                                                </li>
+                                            
+                                        </ul>
+                                   
+                                </li>
+                           
+                                <li class="nav_li navLi i6 "> <a href="/ep/5229/list.htm" target="_self" class="nav_link">党建园地</a>
+                                    
+                                        <ul class="sub_nav">
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/zzjg/list.htm" target="_self">基层组织机构 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/5230/list.htm" target="_self">党建工作动态 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/5232/list.htm" target="_self">通知公告 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/5233/list.htm" target="_self">理论学习园地 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/5234/list.htm" target="_self">党建规章制度 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/twlwxjgxh/list.htm" target="_self">退（离）休教工学会 </a>
+                                                   
+                                                </li>
+                                            
+                                        </ul>
+                                   
+                                </li>
+                           
+                                <li class="nav_li navLi i7 "> <a href="/ep/xsgz2/list.htm" target="_self" class="nav_link">学生工作</a>
+                                    
+                                        <ul class="sub_nav">
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/19002/list.htm" target="_self">党建工作 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/19003/list.htm" target="_self">规章制度 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/19004/list.htm" target="_self">事务通知 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/19005/list.htm" target="_self">团学工作 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/19006/list.htm" target="_self">榜样力量 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/19007/list.htm" target="_self">心理之窗 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/19008/list.htm" target="_self">下载专区 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/jyxx/list.htm" target="_self">就业信息 </a>
+                                                   
+                                                </li>
+                                            
+                                        </ul>
+                                   
+                                </li>
+                           
+                                <li class="nav_li navLi i8 "> <a href="/ep/zsjy/list.htm" target="_self" class="nav_link">人才引进</a>
+                                    
+                                </li>
+                           
+                                <li class="nav_li navLi i9 "> <a href="/ep/hzjl/list.htm" target="_self" class="nav_link">综合服务</a>
+                                    
+                                        <ul class="sub_nav">
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/bkjx/list.htm" target="_self">本科教学 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/yjspy/list.htm" target="_self">研究生培养 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/xsgz/list.htm" target="_self">学生工作 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/syzx/list.htm" target="_self">实验中心 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/gjjl/list.htm" target="_self">国际交流 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/cw/list.htm" target="_self">财务 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/xyh/list.htm" target="_self">校友服务 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18743/list.htm" target="_self">会议室预约 </a>
+                                                   
+                                                </li>
+                                            
+                                        </ul>
+                                   
+                                </li>
+                           
+                                <li class="nav_li navLi i10 "> <a href="/ep/xyfc/list.htm" target="_self" class="nav_link">校友风采</a>
+                                    
+                                        <ul class="sub_nav">
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18745/list.htm" target="_self">校友动态 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18746/list.htm" target="_self">杰出校友 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/18748/list.htm" target="_self">流金岁月 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/xyfg/list.htm" target="_self">校园风光 </a>
+                                                   
+                                                </li>
+                                            
+                                                <li class="sub_li navLi"> <a href="/ep/lzp_24113/list.htm" target="_self">老照片 </a>
+                                                   
+                                                </li>
+                                            
+                                        </ul>
+                                   
+                                </li>
+                           
+                        </ul>
+                  
+                
+                <div class="searched">
+
+                    <form method="POST"
+                          action="/_web/search/doSearch.do?locale=zh_CN&request_locale=zh_CN&_p=YXM9MTAwJnQ9MTkyMyZkPTYwNjImcD0yJmY9MTg2NzkmbT1OJg__"
+                          target="_blank" class="formed">
+                        <input id="keyword" name="keyword" class="keyword" type="text" value="搜索"
+                               onfocus="if(this.value=='搜索')this.value='';" onblur="if(this.value=='')this.value='搜索';">
+                        <input name="btnsearch" class="search glyphicon glyphicon-search" type="submit" value="">
+                    </form>
+
+                </div>
+                <div style="clear:both"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="list-container">
+    <div class="list-background">
+    </div>
+    <div class="centerArea list_section">
+        <div class="list-right">
+            <div class="bread" frag="面板20">
+                <div frag="窗口20" portletmode="simpleColumnPosition">
+                    
+                        <div class="bread-path">
+                            <div class="bread-link">
+                                <a href="/ep/main.htm" target="_self">首页</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/ep/18725/list.htm" target="_self">人才培养</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/ep/18733/list.htm" target="_self">研究生培养</a>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+            <div frag="面板21">
+                <div frag="窗口21" portletmode="simpleColumnName">
+                    
+                        <div class="arti-title">
+                            <h2 class="arti_til">研究生培养</h2>
+                        </div>
+                    
+                </div>
+            </div>
+            <div frag="面板22">
+                <div frag="窗口22" portletmode="simpleList" configs="{'c8':'1','c23':'320','c31':'1','c28':'0','c27':'1','c21':'1','c20':'0','c16':'1','c3':'10','c2':'标题,发布时间','c25':'480','c17':'0','c5':'_blank','c22':'240','c32':'1','c24':'1','c26':'640','c15':'0','c14':'1','c29':'1','c33':'1','c34':'0','c10':'50','c18':'yyyy-MM-dd','c1':'0','c6':'-1','c19':'yyyy-MM-dd','c4':'1','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c30':'0'}">
+                    <div id="wp_news_w22"> 
+
+                        <ul class="news_ul">
+                            
+                            <li class="news_li">
+                                <span class="news_title"><a href='/ep/2023/0309/c18733a493330/page.htm' target='_blank' title='关于2023年上半年毕业研究生学位授予相关工作的通知'>关于2023年上半年毕业研究生学位授予相关工作的通知</a> </span>
+                                <span class="news_meta">2023-03-09</span>
+                            </li>
+                            
+                            <li class="news_li">
+                                <span class="news_title"><a href='/ep/2021/0926/c18733a445125/page.htm' target='_blank' title='关于2021年12月批次硕士研究生学位授予相关工作安排的通知'>关于2021年12月批次硕士研究生学位授予相关工作安排的通知</a> </span>
+                                <span class="news_meta">2021-09-26</span>
+                            </li>
+                            
+                            <li class="news_li">
+                                <span class="news_title"><a href='/ep/2021/0908/c18733a440409/page.htm' target='_blank' title='电力学院2021年第二批学术型博士生导师  招生资格审核通过名单公示'>电力学院2021年第二批学术型博士生导师  招生资格审核通过名单公示</a> </span>
+                                <span class="news_meta">2021-09-08</span>
+                            </li>
+                            
+                        </ul>
+                    </div> 
+
+ <div id="wp_paging_w22"> 
+<ul class="wp_paging clearfix"> 
+     <li class="pages_count"> 
+         <span class="per_page">每页&nbsp;<em class="per_count">10</em>&nbsp;记录&nbsp;</span> 
+         <span class="all_count">总共&nbsp;<em class="all_count">3</em>&nbsp;记录&nbsp;</span> 
+     </li> 
+     <li class="page_nav"> 
+         <a class="first" href="javascript:void(0);" target="_self"><span>第一页</span></a> 
+         <a class="prev" href="javascript:void(0);" target="_self"><span>&lt;&lt;上一页</span></a> 
+         <a class="next" href="javascript:void(0);" target="_self"><span>下一页&gt;&gt;</span></a> 
+         <a class="last" href="javascript:void(0);" target="_self"><span>尾页</span></a> 
+     </li> 
+     <li class="page_jump"> 
+         <span class="pages">页码&nbsp;<em class="curr_page">1</em>/<em class="all_pages">1</em></span> 
+         <span><input class="pageNum" type="text" /><input type="hidden" class="currPageURL" value=""></span></span> 
+         <span><a class="pagingJump" href="javascript:void(0);" target="_self">跳转到&nbsp;</a></span> 
+     </li> 
+</ul> 
+</div> 
+<script type="text/javascript"> 
+     $().ready(function() { 
+         $("#wp_paging_w22 .pagingJump").click(function() { 
+             var pageNum = $("#wp_paging_w22 .pageNum").val(); 
+             if (pageNum === "") { alert('请输入页码！'); return; } 
+             if (isNaN(pageNum) || pageNum <= 0 || pageNum > 1) { alert('请输入正确页码！'); return; } 
+             var reg = new RegExp("/list", "g"); 
+             var url = "/ep/18733/list.htm"; 
+             window.location.href = url.replace(reg, "/list" + pageNum); 
+         }); 
+     }); 
+</script> 
+
+                    
+                </div>
+            </div>
+        </div>
+        <div class="list-left">
+            <div class="list-title" frag="面板23">
+                <div frag="窗口23" portletmode="simpleColumnAnchor">
+                    
+                        <h2>人才培养</h2>
+                    
+                </div>
+            </div>
+            <div class="list-nav" frag="面板24">
+                <div>
+                    <div class="nav_box sidebar" frag="窗口24" portletmode="simpleColumnList" configs="{'c4':'3','c5':'0','c6':'0','c1':'1','c3':'_self'}">
+                      
+                        
+                        <ul class="side_ul">
+                            
+                            <li class=" side_li">
+                                <a title="本科生培养" class=" side_link" href="/ep/18732/list.htm"><span>本科生培养</span><!--i class="fa fa-angle-up"></i--></a> 
+                            </li>
+                            
+                            <li class="selected side_li">
+                                <a title="研究生培养" class="selected side_link" href="/ep/18733/list.htm"><span>研究生培养</span><!--i class="fa fa-angle-up"></i--></a>
+                                <ul class="sub_list sub_ul">
+                                
+                                <li class="sub-item column-2-1  sub_li"> <a title="培养方案" class=" sub_link" href="/ep/pyfa/list.htm" target="_self"><span class="disc"></span><span>培养方案</span></a> 
+                                </li>
+                                
+                                <li class="sub-item column-2-2  sub_li"> <a title="培养过程" class=" sub_link" href="/ep/18957/list.htm" target="_self"><span class="disc"></span><span>培养过程</span></a> 
+                                </li>
+                                
+                                <li class="sub-item column-2-3  sub_li"> <a title="学位授予" class=" sub_link" href="/ep/18958/list.htm" target="_self"><span class="disc"></span><span>学位授予</span></a> 
+                                </li>
+                                
+                                <li class="sub-item column-2-4  sub_li"> <a title="国际交流" class=" sub_link" href="http://www2.scut.edu.cn/graduate/14557/list.htm" target="_self"><span class="disc"></span><span>国际交流</span></a> 
+                                </li>
+                                
+                                <li class="sub-item column-2-5  sub_li"> <a title="学生手册" class=" sub_link" href="http://www2.scut.edu.cn/graduate/yjssc/list.htm" target="_self"><span class="disc"></span><span>学生手册</span></a> 
+                                </li>
+                                
+                                <li class="sub-item column-2-6  sub_li"> <a title="课程安排" class=" sub_link" href="/ep/18961/list.htm" target="_self"><span class="disc"></span><span>课程安排</span></a> 
+                                </li>
+                                
+                                <li class="sub-item column-2-7  sub_li"> <a title="考试安排" class=" sub_link" href="/ep/18962/list.htm" target="_self"><span class="disc"></span><span>考试安排</span></a> 
+                                </li>
+                                
+                                <li class="sub-item column-2-8  sub_li"> <a title="招生信息" class=" sub_link" href="/ep/xzzq/list.htm" target="_self"><span class="disc"></span><span>招生信息</span></a> 
+                                </li>
+                                
+                                </ul>
+                                 
+                            </li>
+                            
+                            <li class=" side_li">
+                                <a title="高级人才培训" class=" side_link" href="/ep/18734/list.htm"><span>高级人才培训</span><!--i class="fa fa-angle-up"></i--></a> 
+                            </li>
+                            
+                            <li class=" side_li">
+                                <a title="实验教学中心" class=" side_link" href="/ep/18735/list.htm"><span>实验教学中心</span><!--i class="fa fa-angle-up"></i--></a> 
+                            </li>
+                            
+                           
+                        </ul>
+                        
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clear"></div>
+<div class="foot">
+    <div class="centerArea">
+        <div class="contaction">
+            <p class="adress">地址：广州市天河区五山路381号华南理工大学九号楼 邮编：510641   <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#fff;">粤ICP备05084312号</a></p>
+            <p class="phone"><a href="http://www2.scut.edu.cn/ep/_t1923/18712/list.htm">联系我们</a>   <span style="float:right;">公务邮箱：x2dl@scut.edu.cn</span></p>
+        </div>
+       
+    </div>
+</div>
+</body>
+<script src="/_upload/tpl/07/83/1923/template1923/js/template.js"></script>
+<script src="/_upload/tpl/07/83/1923/template1923/js/common.js"></script>
+<script src="/_upload/tpl/07/83/1923/template1923/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</html>
+ <img src="/_visitcount?siteId=100&type=2&columnId=18733" style="display:none" width="0" height="0"/>

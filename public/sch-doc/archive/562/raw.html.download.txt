@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="author" content="author,中国科学院计算机网络信息中心" />
+    <meta name="keywords" content="中国科学院山西煤化所研究生教育" />
+    <meta name="description" content="中国科学院山西煤化所研究生教育"/>
+    <title>中国科学院山西煤炭化学研究所研究生教育网</title>
+
+    <link href="http://edu.sxicc.ac.cn/images/animations.css" rel="stylesheet">
+    <link href="//edu.sxicc.ac.cn/images/bootstrap.css" rel="stylesheet" />
+<link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="//edu.sxicc.ac.cn/images/publicstyle.css" rel="stylesheet" type="text/css" />
+<link href="//edu.sxicc.ac.cn/images/webstyle.css" rel="stylesheet" type="text/css" />
+<!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="//edu.sxicc.ac.cn/images/selectivizr.js"></script>
+  <noscript>
+    <link rel="stylesheet" href="[fallback css]" /></noscript>
+<![endif]-->
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="//edu.sxicc.ac.cn/images/html5shiv.min.js"></script>
+  <script type="text/javascript" src="//edu.sxicc.ac.cn/images/respond.min.js"></script>
+<![endif]-->
+  </head>
+  
+  <body>
+    <div class="scrollToTop">
+  <i class="fa fa-chevron-up"></i>
+</div>
+<!-- header-top start -->
+<div class="header-top">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="cont_wrap">
+        <style>
+          .cont_wrap{background: #f7f7f7;padding: 0 15px;}
+          @media (max-width: 767px){
+            .header-top{background: #f7f7f7;}
+            .cont_wrap{padding:0;}
+          }
+        </style>
+        <div class="row">
+          <div class="col-xs-7 col-sm-3 col-md-3 data">
+            <div style="float:left; overflow:hidden;">
+              <script language="javascript" type="text/javascript">
+                tmpDate = new Date();
+                date = tmpDate.getDate();
+                month = tmpDate.getMonth() + 1;
+                year = tmpDate.getYear();
+                year = tmpDate.getYear();
+                year = year > 1900 ? year: year + 1900;
+                document.write(year + "年" + month + "月" + date + "日&nbsp;");
+                myArray = new Array(6);
+                myArray[0] = "星期日"
+                myArray[1] = "星期一"
+                myArray[2] = "星期二"
+                myArray[3] = "星期三"
+                myArray[4] = "星期四"
+                myArray[5] = "星期五"
+                myArray[6] = "星期六"
+                weekday = tmpDate.getDay();
+                document.write(myArray[weekday])
+              </script>
+            </div>
+          </div>
+          <div class="col-xs-5 col-sm-9 col-md-9 space">
+            <div class="header-top-first clearfix">
+              <ul class="social-links clearfix hidden-xs">
+                
+                  <li>
+                    <a href="http://edu.sxicc.ac.cn/qtlm/lxwm/" target="_blank">
+                      联系我们
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://www.ucas.ac.cn/" target="_blank">
+                      中国科学院大学
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="https://zxsq.ucas.ac.cn/login/index/sc" target="_blank">
+                      夏令营
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://sep.ucas.ac.cn/" target="_blank">
+                      教育业务管理平台
+                    </a>
+                  </li>
+                
+                  <li>
+                    <a href="http://www.sxicc.ac.cn/" target="_blank">
+                      所网站
+                    </a>
+                  </li>
+                
+              </ul>
+              <div class="social-links hidden-lg hidden-md hidden-sm">
+                <div class="btn-group dropdown">
+                  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                    <i class="fa fa-share-alt"></i>
+                  </button>
+                  <ul class="dropdown-menu dropdown-animation">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/qtlm/lxwm/" target="_blank">
+                          联系我们
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="https://www.ucas.ac.cn/" target="_blank">
+                          中国科学院大学
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="https://zxsq.ucas.ac.cn/login/index/sc" target="_blank">
+                          夏令营
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://sep.ucas.ac.cn/" target="_blank">
+                          教育业务管理平台
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://www.sxicc.ac.cn/" target="_blank">
+                          所网站
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- header-top-first end --></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="webheader">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="container">
+        <div class="header_banenr">
+          <div class="hidden-xs col-sm-7 col-md-8 logo">
+            <a href="//edu.sxicc.ac.cn/" target="_top">
+              <img class="hidden-xs" src="http://edu.sxicc.ac.cn/images/logo_new.png" alt="中科院陕西煤化所研究生教育" />
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-3">
+            <div class="relatedlink">
+             <!--  <form name="searchform" action="http://edu.sxicc.ac.cn/qwjs/index.html" method="get" target="_top">
+                <div class="TopSearch">
+                  <input type="text" class="SearchText" name="searchword" id="searchword" placeholder="请输入关键字" required="" />
+                  <input type="button" class="SearchBtn" value="" id="sub-pc" /></div>
+                  <input type="hidden" name="keyword" value="" />
+              </form> -->
+              <form name="searchform" action="http://irssub.cas.cn/irs-c-web/search.shtml" method="get" target="_top">
+                <div class="TopSearch">
+                  <input type="hidden" name="code" value="197819f6ca3" />
+                  <input type="text" class="SearchText" name="searchWord" id="searchword" placeholder="请输入关键字" required="" />
+                  <input type="button" class="SearchBtn" value="" id="sub-pc" /></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- header-top end -->
+<!-- style=" background: #0f569f;border-top: #2872bf solid 1px;" -->
+<div class="container-fluid phone_cont">
+  <div class="container">
+    <div class="h_menu">
+      <div class="main-navigation animated">
+        <nav class="navbar navbar-default navbar-left" role="navigation">
+          <div class="container-fluid">
+            <!-- Toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown active" style="">
+                  <a href="//edu.sxicc.ac.cn/" target="_top">首 页</a>
+                </li>
+                <!-- mega-menu start -->
+                <li class="dropdown" style="">
+                  <a href="http://edu.sxicc.ac.cn/jygk/" class="dropdown-toggle" data-toggle="dropdown" target="_top">教育概况</a>
+                  <ul class="dropdown-menu">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jygk/xzgs/" target="_top">
+                          现状概述
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+
+                <li class="dropdown" style="">
+                  <a href="http://edu.sxicc.ac.cn/gwzz/" class="dropdown-toggle" data-toggle="dropdown" target="_top">岗位职责</a>
+                  <ul class="dropdown-menu">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gwzz/gwzz/" target="_top">
+                          岗位职责
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+
+                <li class="dropdown" style="">
+                  <a href="http://edu.sxicc.ac.cn/zsgl/" class="dropdown-toggle" data-toggle="dropdown" target="_top">招生管理</a>
+                  <ul class="dropdown-menu">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/zsgl/bszs/" target="_top">
+                          博士招生
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/zsgl/sszs/" target="_top">
+                          硕士招生
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/zsgl/dsjs/" target="_top">
+                          导师介绍
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+                <li class="dropdown" style="">
+                  <a href="http://edu.sxicc.ac.cn/jxpy/" class="dropdown-toggle" data-toggle="dropdown" target="_top">教学培养</a>
+                  <ul class="dropdown-menu">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jxpy/jdxkh/" target="_top">
+                          阶段性考核
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jxpy/xjbg/" target="_top">
+                          学籍变更
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jxpy/rcsw/" target="_top">
+                          日常事务
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+                <li class="dropdown" style="">
+                  <a href="http://edu.sxicc.ac.cn/pjpy/" class="dropdown-toggle" data-toggle="dropdown" target="_top">评奖评优</a>
+                  <ul class="dropdown-menu">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/pjpy/gjjxj/" target="_top">
+                          国家奖学金
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/pjpy/yjjxj/" target="_top">
+                          院级奖学金
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+                <li class="dropdown" style="">
+                  <a href="http://edu.sxicc.ac.cn/jypq/" class="dropdown-toggle" data-toggle="dropdown" target="_top">就业派遣</a>
+                  <ul class="dropdown-menu">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jypq/jytz/" target="_top">
+                          就业通知
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jypq/glgd/" target="_top">
+                          管理规定
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jypq/zpxx/" target="_top">
+                          招聘信息
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/jypq/wzlj/" target="_top">
+                          网站链接
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+                <li class="dropdown" style="">
+                  <a href="http://edu.sxicc.ac.cn/gzzd/" class="dropdown-toggle" data-toggle="dropdown" target="_top">规章制度</a>
+                  <ul class="dropdown-menu">
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gzzd/gzzd/" target="_top">
+                          导师队伍
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gzzd/zdgz/" target="_top">
+                          辅导员队伍
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gzzd/jxpy/" target="_top">
+                          教学培养
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gzzd/pjpy/" target="_top">
+                          评奖
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gzzd/xw/" target="_top">
+                          学位
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gzzd/jzxj/" target="_top">
+                          奖助学金
+                        </a>
+                      </li>
+                    
+                      <li>
+                        <a href="http://edu.sxicc.ac.cn/gzzd/xsgl/" target="_top">
+                          学生管理
+                        </a>
+                      </li>
+                    
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="container-fluid">
+      <div class="container">
+        <div class="page-intro">
+          <div class="row">
+            <ol class="breadcrumb">
+              <li>
+                <i class="fa fa-home pr-10"></i>
+                <a href="../../../" title="首页" class="CurrChnlCls">首页</a>&gt;<a href="../../" title="招生管理" class="CurrChnlCls">招生管理</a>&gt;<a href="../" title="硕士招生" class="CurrChnlCls">硕士招生</a>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container hidden-lg hidden-md hidden-sm">
+      <div class="row">
+        <div class="panel-group panel-dark" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
+                  招生管理
+                </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+  <div class="contentLeft">
+    <ul class="leftNavigation">
+      
+        <li class="clickable">
+          <a href="http://edu.sxicc.ac.cn/zsgl/bszs/">
+            <i class="fa fa-angle-right leftNavIcon"></i>
+            博士招生
+          </a>
+        </li>
+      
+        <li class="clickable">
+          <a href="http://edu.sxicc.ac.cn/zsgl/sszs/">
+            <i class="fa fa-angle-right leftNavIcon"></i>
+            硕士招生
+          </a>
+        </li>
+      
+        <li class="clickable">
+          <a href="http://edu.sxicc.ac.cn/zsgl/dsjs/">
+            <i class="fa fa-angle-right leftNavIcon"></i>
+            导师介绍
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+<script src="http://edu.sxicc.ac.cn//images/jquery-1.12.4.min.js"></script>
+<script>
+    $(document).ready(function(){
+        var currentChannel = "硕士招生";
+        $('.clickable').each(function(){
+            var curtxt = $(this).text();
+            if(currentChannel == curtxt){
+                $(this).addClass("active");
+            }
+        });
+    });
+</script>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="secondarybox">
+        <div class="row">
+          <!-- sidebar start -->
+          <aside class="col-md-3 col-sm-4 hidden-xs">
+            <div class="sidebar">
+              <div class="block clearfix">
+                <h3 class="title">
+                  <img src="../../../images/dicp_ico_06.png" alt="" style="display: inline-block;margin-right: 12px;margin-top: -3px;" />
+                  招生管理
+                </h3>
+                <nav>
+  <ul class="nav nav-pills nav-stacked">
+  	
+  		<li class="clickable"><a href="http://edu.sxicc.ac.cn/zsgl/bszs/">博士招生</a></li>
+  	
+  		<li class="clickable"><a href="http://edu.sxicc.ac.cn/zsgl/sszs/">硕士招生</a></li>
+  	
+  		<li class="clickable"><a href="http://edu.sxicc.ac.cn/zsgl/dsjs/">导师介绍</a></li>
+  	
+  </ul>
+</nav>
+<script src="http://edu.sxicc.ac.cn//images/jquery-1.12.4.min.js"></script>
+<script>
+    $(document).ready(function(){
+        var currentChannel = "硕士招生";
+        $('.clickable').each(function(){
+            var curtxt = $(this).text();
+            if(currentChannel == curtxt){
+              $(this).addClass("active");
+            }
+        });
+    });
+</script>
+              </div>
+            </div>
+          </aside>
+          <!-- sidebar end -->
+          <div class="col-md-9 col-sm-8">
+            <!-- 正文开始 -->
+            <div id="xlmain">
+              <p class="wztitle">
+                中国科学院山西煤炭化学研究所2026年硕士统考生拟录取名单公示
+              </p>
+              <p class="qtinfo hidden-lg hidden-md hidden-sm">
+                <span>发布时间：2026-04-09&nbsp;&nbsp;</span>
+                <span>|&nbsp;&nbsp;供稿部门：</span>
+              </p>
+              <p class="qtinfo hidden-xs">
+                发布时间：2026-04-09&nbsp;&nbsp;
+                |&nbsp;&nbsp;<span id="author">供稿部门：<i id="source"></i></span>&nbsp;&nbsp;
+                |&nbsp;&nbsp;
+                【<a class="zoomIn">放大</a>】&nbsp;
+                【<a class="zoomOut">缩小</a>】&nbsp;&nbsp;
+                |&nbsp;&nbsp;
+                【<a onclick="window.print()" href="#">打印</a>】&nbsp;
+
+              <div class="textxl nrhei xilan-content-main">
+                <div class="TRS_Editor">
+                  <div class="trs_editor_view TRS_UEDITOR trs_paper_default trs_word trs_excel"><p style="text-align:left;text-indent:37px;line-height:30px;background:white"><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929;background:white">经初试、复试，我所决定拟录取以下</span><span style="font-size:18px;font-family:&#39;Arial&#39;,sans-serif;color:#292929;background:white">30</span><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929;background:white">名一志愿考生为山西煤化所</span><span style="font-size:18px;font-family:&#39;Arial&#39;,sans-serif;color:#292929;background:white">2026</span><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929;background:white">级硕士研究生。现将拟录取考生名单公示如下：</span></p><p style="text-align:left;text-indent:37px;line-height:30px;background:white"><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929;background:white"></span></p><div class="ue_table"><table cellpadding="0" cellspacing="0" border="1" style="border: rgb(51, 51, 51); border-collapse: collapse;"><colgroup><col width="92" style=";width:92px" /><col width="175" style=";width:175px" /><col width="92" span="2" style=";width:92px" /><col width="71" style=";width:71px" /></colgroup>
+<tbody>
+<tr height="29" style=";height:29px" class="firstRow">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">序号</td>
+<td height="29" align="center" width="64" style="">考生姓名</td>
+<td align="center" width="175" style="border-left: none;">考生编号</td>
+<td align="center" width="83" style="border-left: none;" valign="middle">笔试成绩</td>
+<td align="center" width="83" style="border-left: none;">面试成绩</td>
+<td align="center" width="83" style="border-left: none;">总成绩</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">1<br /></td>
+<td height="29" align="center" style="border-top: none;" width="65">李晓婷</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000001</td>
+<td align="center" style="border-top:none;border-left:none" width="83">316</td>
+<td align="center" style="border-top:none;border-left:none" width="83">77.6</td>
+<td align="center" style="border-top:none;border-left:none" width="83">68.96</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">2</td>
+<td height="29" align="center" style="border-top: none;" width="66">孙志航</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000005</td>
+<td align="center" style="border-top:none;border-left:none" width="83">295</td>
+<td align="center" style="border-top:none;border-left:none" width="83">68.6</td>
+<td align="center" style="border-top:none;border-left:none" width="83">62.84</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">3</td>
+<td height="29" align="center" style="border-top: none;" width="67">刘思成</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000007</td>
+<td align="center" style="border-top:none;border-left:none" width="83">367</td>
+<td align="center" style="border-top:none;border-left:none" width="83">87</td>
+<td align="center" style="border-top:none;border-left:none" width="83">78.84</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">4</td>
+<td height="29" align="center" style="border-top: none;" width="68">谷裕阳</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000015</td>
+<td align="center" style="border-top:none;border-left:none" width="83">330</td>
+<td align="center" style="border-top:none;border-left:none" width="83">79.6</td>
+<td align="center" style="border-top:none;border-left:none" width="83">71.44</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">5</td>
+<td height="29" align="center" style="border-top: none;" width="69">王明克</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000016</td>
+<td align="center" style="border-top:none;border-left:none" width="83">305</td>
+<td align="center" style="border-top:none;border-left:none" width="83">83.8</td>
+<td align="center" style="border-top:none;border-left:none" width="83">70.12</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">6</td>
+<td height="29" align="center" style="border-top: none;" width="70">段泓序</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000017</td>
+<td align="center" style="border-top:none;border-left:none" width="83">361</td>
+<td align="center" style="border-top:none;border-left:none" width="83">78.4</td>
+<td align="center" style="border-top:none;border-left:none" width="83">74.68</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">7</td>
+<td height="29" align="center" style="border-top: none;" width="71">刘潇彤</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000041</td>
+<td align="center" style="border-top:none;border-left:none" width="83">335</td>
+<td align="center" style="border-top:none;border-left:none" width="83">80.4</td>
+<td align="center" style="border-top:none;border-left:none" width="83">72.36</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">8</td>
+<td height="29" align="center" style="border-top: none;" width="72">崔昌宇</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000050</td>
+<td align="center" style="border-top:none;border-left:none" width="83">354</td>
+<td align="center" style="border-top:none;border-left:none" width="83">82.4</td>
+<td align="center" style="border-top:none;border-left:none" width="83">75.44</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">9</td>
+<td height="29" align="center" style="border-top: none;" width="73">毕莹</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000057</td>
+<td align="center" style="border-top:none;border-left:none" width="83">368</td>
+<td align="center" style="border-top:none;border-left:none" width="83">84.6</td>
+<td align="center" style="border-top:none;border-left:none" width="83">78</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">10</td>
+<td height="29" align="center" style="border-top: none;" width="74">何阳</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000061</td>
+<td align="center" style="border-top:none;border-left:none" width="83">309</td>
+<td align="center" style="border-top:none;border-left:none" width="83">77.6</td>
+<td align="center" style="border-top:none;border-left:none" width="83">68.12</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">11</td>
+<td height="29" align="center" style="border-top: none;" width="75">杜思瑶</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000062</td>
+<td align="center" style="border-top:none;border-left:none" width="83">335</td>
+<td align="center" style="border-top:none;border-left:none" width="83">88.2</td>
+<td align="center" style="border-top:none;border-left:none" width="83">75.48</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">12</td>
+<td height="29" align="center" style="border-top: none;" width="76">赵奕童</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000064</td>
+<td align="center" style="border-top:none;border-left:none" width="83">290</td>
+<td align="center" style="border-top:none;border-left:none" width="83">80.2</td>
+<td align="center" style="border-top:none;border-left:none" width="83">66.88</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">13</td>
+<td height="29" align="center" style="border-top: none;" width="77">贾昊睿</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000065</td>
+<td align="center" style="border-top:none;border-left:none" width="83">301</td>
+<td align="center" style="border-top:none;border-left:none" width="83">79.2</td>
+<td align="center" style="border-top:none;border-left:none" width="83">67.8</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">14</td>
+<td height="29" align="center" style="border-top: none;" width="78">崔亮</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000068</td>
+<td align="center" style="border-top:none;border-left:none" width="83">279</td>
+<td align="center" style="border-top:none;border-left:none" width="83">81.2</td>
+<td align="center" style="border-top:none;border-left:none" width="83">65.96</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">15</td>
+<td height="29" align="center" style="border-top: none;" width="79">王樱婕</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000078</td>
+<td align="center" style="border-top:none;border-left:none" width="83">291</td>
+<td align="center" style="border-top:none;border-left:none" width="83">80</td>
+<td align="center" style="border-top:none;border-left:none" width="83">66.92</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">16</td>
+<td height="29" align="center" style="border-top: none;" width="80">马千辉</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000081</td>
+<td align="center" style="border-top:none;border-left:none" width="83">354</td>
+<td align="center" style="border-top:none;border-left:none" width="83">83.4</td>
+<td align="center" style="border-top:none;border-left:none" width="83">75.84</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">17</td>
+<td height="29" align="center" style="border-top: none;" width="81">成崟煌</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000082</td>
+<td align="center" style="border-top:none;border-left:none" width="83">296</td>
+<td align="center" style="border-top:none;border-left:none" width="83">85.6</td>
+<td align="center" style="border-top:none;border-left:none" width="83">69.76</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">18</td>
+<td height="29" align="center" style="border-top: none;" width="82">姜子茹</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000086</td>
+<td align="center" style="border-top:none;border-left:none" width="83">279</td>
+<td align="center" style="border-top:none;border-left:none" width="83">77.8</td>
+<td align="center" style="border-top:none;border-left:none" width="83">64.6</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">19</td>
+<td height="29" align="center" style="border-top: none;" width="83">常嘉鑫</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000087</td>
+<td align="center" style="border-top:none;border-left:none" width="83">302</td>
+<td align="center" style="border-top:none;border-left:none" width="83">78.4</td>
+<td align="center" style="border-top:none;border-left:none" width="83">67.6</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">20</td>
+<td height="29" align="center" style="border-top: none;" width="84">宋子萱</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000089</td>
+<td align="center" style="border-top:none;border-left:none" width="83">295</td>
+<td align="center" style="border-top:none;border-left:none" width="83">77.6</td>
+<td align="center" style="border-top:none;border-left:none" width="83">66.44</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">21</td>
+<td height="29" align="center" style="border-top: none;" width="85">向盼</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000092</td>
+<td align="center" style="border-top:none;border-left:none" width="83">281</td>
+<td align="center" style="border-top:none;border-left:none" width="83">87.4</td>
+<td align="center" style="border-top:none;border-left:none" width="83">68.68</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">22</td>
+<td height="29" align="center" style="border-top: none;" width="86">宋诗文</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000095</td>
+<td align="center" style="border-top:none;border-left:none" width="83">313</td>
+<td align="center" style="border-top:none;border-left:none" width="83">89</td>
+<td align="center" style="border-top:none;border-left:none" width="83">73.16</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">23</td>
+<td height="29" align="center" style="border-top: none;" width="87">刘德凯</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000096</td>
+<td align="center" style="border-top:none;border-left:none" width="83">336</td>
+<td align="center" style="border-top:none;border-left:none" width="83">80.6</td>
+<td align="center" style="border-top:none;border-left:none" width="83">72.56</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">24</td>
+<td height="29" align="center" style="border-top: none;" width="88">晋慧杰</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000097</td>
+<td align="center" style="border-top:none;border-left:none" width="83">351</td>
+<td align="center" style="border-top:none;border-left:none" width="83">79.4</td>
+<td align="center" style="border-top:none;border-left:none" width="83">73.88</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">25</td>
+<td height="29" align="center" style="border-top: none;" width="89">王俊丽</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000098</td>
+<td align="center" style="border-top:none;border-left:none" width="83">339</td>
+<td align="center" style="border-top:none;border-left:none" width="83">85.2</td>
+<td align="center" style="border-top:none;border-left:none" width="83">74.76</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">26</td>
+<td height="29" align="center" style="border-top: none;" width="90">武树伦</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000101</td>
+<td align="center" style="border-top:none;border-left:none" width="83">358</td>
+<td align="center" style="border-top:none;border-left:none" width="83">86</td>
+<td align="center" style="border-top:none;border-left:none" width="83">77.36</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">27</td>
+<td height="29" align="center" style="border-top: none;" width="91">张红鸽</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000103</td>
+<td align="center" style="border-top:none;border-left:none" width="83">376</td>
+<td align="center" style="border-top:none;border-left:none" width="83">88.8</td>
+<td align="center" style="border-top:none;border-left:none" width="83">80.64</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">28</td>
+<td height="29" align="center" style="border-top: none;" width="92">陈鹏</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000104</td>
+<td align="center" style="border-top:none;border-left:none" width="83">307</td>
+<td align="center" style="border-top:none;border-left:none" width="83">81.2</td>
+<td align="center" style="border-top:none;border-left:none" width="83">69.32</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">29</td>
+<td height="29" align="center" style="border-top: none;" width="93">刘建玉</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000105</td>
+<td align="center" style="border-top:none;border-left:none" width="83">304</td>
+<td align="center" style="border-top:none;border-left:none" width="83">77.8</td>
+<td align="center" style="border-top:none;border-left:none" width="83">67.6</td></tr>
+<tr height="29" style=";height:29px">
+<td align="center" colspan="1" rowspan="1" valign="null" width="83" style="word-break: break-all;">30</td>
+<td height="29" align="center" style="border-top: none;" width="94">陈嘉咏</td>
+<td align="center" style="border-top:none;border-left:none" width="175">144306043000106</td>
+<td align="center" style="border-top:none;border-left:none" width="83">312</td>
+<td align="center" style="border-top:none;border-left:none" width="83">77.2</td>
+<td align="center" style="border-top:none;border-left:none" width="83">68.32</td></tr></tbody></table></div><p style="text-align:left;text-indent:37px;line-height:30px;background:white"><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929">对公示名单人员如有异议，请自公示之日起</span><span style="font-size:18px;font-family:&#39;Arial&#39;,sans-serif;color:#292929">7</span><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929">日内，通过电子邮件或书面形式，向人事教育处反映情况。</span></p><p style="text-align:left;text-indent:37px;line-height:30px;background:white"><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929">联</span><span style="font-size:18px;font-family:&#39;Arial&#39;,sans-serif;color:#292929"> </span><span style="font-size: 18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929">系</span><span style="font-size:18px;font-family:&#39;Arial&#39;,sans-serif;color:#292929"> </span><span style="font-size:18px;font-family: &#39;微软雅黑&#39;,sans-serif;color:#292929">人：袁老师</span></p><p style="text-align:left;text-indent:37px;line-height:30px;background:white"><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929">联系电话：</span><span style="font-size:18px;font-family:&#39;Arial&#39;,sans-serif;color:#292929">0351-4040494</span><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929">转</span><span style="font-size:18px;font-family:&#39;Arial&#39;,sans-serif;color:#292929">801</span></p><p style="text-align:left;text-indent:37px;line-height:30px;background:white"><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929">电子邮箱：</span><span style="font-size:18px;font-family:&#39;Arial&#39;,sans-serif;color:#292929">yzb@sxicc.ac.cn</span></p><p style="text-align:left;text-indent:37px;line-height:30px;background:white"><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929">地</span><span style="font-size:18px;font-family:&#39;Arial&#39;,sans-serif;color:#292929">    </span><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929">址：山西省太原市桃园南路</span><span style="font-size:18px;font-family:&#39;Arial&#39;,sans-serif;color:#292929">27</span><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929">号中国科学院山西煤炭化学研究所</span></p><p style="text-align:left;text-indent:37px;line-height:30px;background:white"><span style="font-size:18px;font-family:&#39;Arial&#39;,sans-serif;color:#292929"> </span></p><p style="text-align:right;text-indent:37px;line-height:30px;background:white"><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929">中国科学院山西煤炭化学研究所</span></p><p style="text-align:right;text-indent:37px;line-height:30px;background:white"><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929">人事教育处         </span></p><p style="text-align:right;text-indent:37px;line-height:30px;background:white"><span style="font-size:18px;font-family:&#39;Arial&#39;,sans-serif;color:#292929">2026</span><span style="font-size: 18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929">年</span><span style="font-size:18px;font-family:&#39;Arial&#39;,sans-serif;color:#292929">4</span><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929">月</span><span style="font-size:18px;font-family:&#39;Arial&#39;,sans-serif;color:#292929">9</span><span style="font-size:18px;font-family:&#39;微软雅黑&#39;,sans-serif;color:#292929">日       </span></p><p><br/></p></div>
+                </div>
+              </div>
+              <dl id="filedown">
+                <dt>附件下载</dt>
+                <dd>
+                  <ul>
+                    <li>
+                      <a href="" target="_blank" download="" title="" class="mt5"></a>
+                    </li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+            <!-- 正文结束 -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot">
+  <div class="secondhalf">
+    <!--<div class="container">
+      <span>
+        <a href="http://edu.sxicc.ac.cn/">网站首页</a>
+        &nbsp;|&nbsp;
+        <a href="http://edu.sxicc.ac.cn/qtlm/lxwm/">联系我们</a>
+        &nbsp;|&nbsp;
+        <a href="#">免责申明</a>
+        &nbsp;|&nbsp;
+        <a href="#">站点导航</a>
+        &nbsp;|&nbsp;
+        <a href="#">TAG标签</a>
+        &nbsp;|&nbsp;
+        <a href="#">RSS订阅</a>
+      </span>
+    </div>-->
+    <div class="container">
+      版权所有 &copy; 中国科学院山西煤炭化学研究所研究生教育 &nbsp; 地址:山西省太原市桃园南路27号
+      <style>
+        img.sitema {
+          vertical-align: middle;
+          margin: 0 10px 4px;
+        }
+      </style>
+      <script type="text/javascript" src="//api.cas.cn/app/sitema/cas.sitema.min.js" id="sitema" unitcode="" domain="http://edu.sxicc.ac.cn/" siteid="425" sysid="7"></script>
+      <br />
+      晋ICP备 05000519号
+      <br />
+      <!--<script src="http://s14.cnzz.com/stat.php?id=4716293&web_id=4716293&online=1&show=line" language="JavaScript"></script>-->
+    </div>
+  </div>
+</div>
+    <script type="text/javascript" src="//edu.sxicc.ac.cn/images/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="//edu.sxicc.ac.cn/images/bootstrap.min.js"></script>
+<script type="text/javascript" src="//edu.sxicc.ac.cn/images/modernizr.js"></script>
+<script type="text/javascript" src="//edu.sxicc.ac.cn/images/template.js"></script>
+<!--全文搜索-->
+<script type="text/javascript">
+    function isValid(str){
+        if(str.indexOf('&') != -1 || str.indexOf('<') != -1 || str.indexOf('>') != -1 || str.indexOf('\'') != -1
+            || str.indexOf('\\') != -1 || str.indexOf('/') != -1 || str.indexOf('"') != -1
+            || str.indexOf('%') != -1 || str.indexOf('#') != -1){
+            return false;
+        }
+        return true;
+    }
+    $(function(){
+        $('#sub-pc').click(function(){
+            var searchword = $.trim($('#searchword').val());
+            if(searchword == "" || searchword == "请输入关键字" || !isValid(searchword)){
+                alert("请输入关键词后再进行提交。");
+                return false;
+            }
+            // $('input[name="keyword"]').val(encodeURI(searchword));
+            $('form[name="searchform"]').submit();
+        });
+    });
+</script>
+    <script>  
+      var Dsource = $('#source').text();
+      if(Dsource == ""){
+        $("#author").hide();
+      }
+      var downNothing = $('#filedown li a').text();
+      if(downNothing  ==  ''){
+        $('#filedown').hide();
+      }
+    </script>
+    <script type="text/javascript">
+      $(function() {
+        // 细览页文字放大缩小
+        $('.zoomIn').on('click',function() {
+          $('.xilan-content-main').removeClass('zoomOut').addClass('zoomIn');
+        })
+        $('.zoomOut').on('click',function() {
+          $('.xilan-content-main').removeClass('zoomIn').addClass('zoomOut');
+        })
+      })
+    </script>
+  </body>
+
+</html>

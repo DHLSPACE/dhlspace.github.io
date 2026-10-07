@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,user-scalable=0,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+<title>国防科技大学-本科招生网</title>
+<script type="text/javascript" src="../../extends/extends.js"></script>
+<link rel="stylesheet" href="../../css/style.css" type="text/css" />
+<link rel="stylesheet" href="../../css/mobile.css" type="text/css"/>
+<link rel="stylesheet" href="../../css/media.css" type="text/css"/>
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+
+<!--[if lt IE 9]>
+<script src="../../extends/libs/html5.js"></script>
+<![endif]-->
+</head>
+<style type="text/css">
+  /*20210115*/
+  .divPlayerImgResponsive{max-width: 480px;overflow: hidden;position: relative;margin: 15px auto;}
+</style>
+<body class="list"><style>.selectTdClass{background-color:#edf5fa !important}caption{border:1px dashed #DDD;border-bottom:0;padding:3px;text-align:center;}th{border-top:1px solid #BBB;background-color:#F7F7F7;}table tr.firstRow th{border-top-width:2px;}.ue-table-interlace-color-single{ background-color: #fcfcfc; } .ue-table-interlace-color-double{ background-color: #f7faff; }td p{margin:0;padding:0;}</style>
+<div class="wrapper header" id="header">
+    
+<div class="top">    
+	<div class="topbg"></div>	
+  	<div class="inner mod" >
+        <div class="daohang f_between f_middle" >
+            <a class="navi-aside-toggle"></a>
+            <div class="head-left">
+                <!--logo开始-->
+                <div class="sitelogo">
+                    <a class="logo" href="../../" title="返回首页"><img src="../../images/logo.png"></a>
+                </div>
+                <!--//logo结束-->
+            </div>
+            <div class="head-right f_end f_middle">
+               
+                <div class="navbox">
+                    <!--Start||nav-->
+                    <div id="nav">
+                        <div class="nav wp-navi">
+                            <div class="wp-panel">
+                                  <div class="wp-window">
+                                    <div frag="窗口内容"> 
+                                        <div class="navi-slide-head clearfix">
+                                            <h3 class="navi-slide-title">导航</h3>
+                                            <a class="navi-slide-arrow"></a> 
+                                        </div>
+                                      <!--[NaviStructBegin]-->
+                                      <ul class="wp-menu f_between"  data-nav-aside='{"title":"导航","index":0}'>
+                                        <!--[NaviItemCycleBegin]-->
+                                        <li class="menu-item {级别样式} {级别样式}"><a class="menu-link" href="../../">首页</a> </li>
+                                                                                                                              <li class="menu-item {级别样式} {级别样式}"><a class="menu-link" href="javascript:void(0);">宣讲动态</a>
+                                                <!--[MenuStructBegin]--> 
+                                                <em class="menu-switch-arrow"></em>
+                                                <ul class="sub-menu ">
+                                                    <!--[MenuItemCycleBegin]-->
+                                                                                                                                                                     <li class="sub-item {级别样式}"><a class="sub-link" href="../xjap1/index.htm" target="_blank">宣讲预告</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="index.htm" target="_blank">宣讲回顾</a></li>
+                                                                                                                                                                <!--[MenuItemCycleEnd]-->
+                                                </ul>
+                                                <!--[MenuStructEnd]-->
+                                            </li>
+                                                                                                                                                                        <li class="menu-item {级别样式} {级别样式}"><a class="menu-link" href="javascript:void(0);">招生信息</a>
+                                                <!--[MenuStructBegin]--> 
+                                                <em class="menu-switch-arrow"></em>
+                                                <ul class="sub-menu ">
+                                                    <!--[MenuItemCycleBegin]-->
+                                                                                                                                                                     <li class="sub-item {级别样式}"><a class="sub-link" href="../../xxgk/tzgg/index.htm" target="_blank">通知公告</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../xxgk/zsjz/index.htm" target="_blank">招生简章</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../xxgk/zsjh/index.htm" target="_blank">招生计划</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../xxgk/zsls/index.htm" target="_blank">招生老师</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="https://www.nudt.edu.cn/admin/#/lqjgcx" target="_blank">录取查询</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../xxgk/lqfs/index.htm" target="_blank">录取分数</a></li>
+                                                                                                                                                                <!--[MenuItemCycleEnd]-->
+                                                </ul>
+                                                <!--[MenuStructEnd]-->
+                                            </li>
+                                                                                                                                                                        <li class="menu-item {级别样式} {级别样式}"><a class="menu-link" href="javascript:void(0);">院系专业</a>
+                                                <!--[MenuStructBegin]--> 
+                                                <em class="menu-switch-arrow"></em>
+                                                <ul class="sub-menu ">
+                                                    <!--[MenuItemCycleBegin]-->
+                                                                                                                                                                     <li class="sub-item {级别样式}"><a class="sub-link" href="../../yxzy/lxy1/index.htm" target="_blank">理学院</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../yxzy/jsjxy2/index.htm" target="_blank">计算机学院</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../yxzy/dzkxxy2/index.htm" target="_blank">电子科学学院</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../yxzy/qyjcxkxy2/index.htm" target="_blank">前沿交叉学科学院</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../yxzy/znkxxy2/index.htm" target="_blank">智能科学学院</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../yxzy/xtgcxy2/index.htm" target="_blank">系统工程学院</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../yxzy/ktkxxy2/index.htm" target="_blank">空天科学学院</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../yxzy/wgyxy2/index.htm" target="_blank">外国语学院</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../yxzy/dzdkxy2/index.htm" target="_blank">电子对抗学院</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../yxzy/qxhyxy2/index.htm" target="_blank">气象海洋学院</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../yxzy/jzjcjyxy/index.htm" target="_blank">军政基础教育学院</a></li>
+                                                                                                                                                                <!--[MenuItemCycleEnd]-->
+                                                </ul>
+                                                <!--[MenuStructEnd]-->
+                                            </li>
+                                                                                                                                                                        <li class="menu-item {级别样式} {级别样式}"><a class="menu-link" href="javascript:void(0);">NUDTlive</a>
+                                                <!--[MenuStructBegin]--> 
+                                                <em class="menu-switch-arrow"></em>
+                                                <ul class="sub-menu ">
+                                                    <!--[MenuItemCycleBegin]-->
+                                                                                                                                                                     <li class="sub-item {级别样式}"><a class="sub-link" href="../../NUDTlive/zsxcp/index.htm" target="_blank">招生宣传片</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../NUDTlive/ycljl/index.htm" target="_blank">院长零距离</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../NUDTlive/gfwjt/index.htm" target="_blank">国防微讲堂</a></li>
+                                                                                                                                                                                                                                <li class="sub-item {级别样式}"><a class="sub-link" href="../../yxzy/lxy1/index.htm" target="_blank">学科专业介绍</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../NUDTlive/xfyfx/index.htm" target="_blank">科大学员说</a></li>
+                                                                                                                                                                <!--[MenuItemCycleEnd]-->
+                                                </ul>
+                                                <!--[MenuStructEnd]-->
+                                            </li>
+                                                                                                                                                                        <li class="menu-item {级别样式} {级别样式}"><a class="menu-link" href="javascript:void(0);">招考政策</a>
+                                                <!--[MenuStructBegin]--> 
+                                                <em class="menu-switch-arrow"></em>
+                                                <ul class="sub-menu ">
+                                                    <!--[MenuItemCycleBegin]-->
+                                                                                                                                                                     <li class="sub-item {级别样式}"><a class="sub-link" href="../../zkzc/zzkh/index.htm" target="_blank">政治考核</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../zkzc/tjbz/index.htm" target="_blank">体检标准</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../zkzc/cjwt/index.htm" target="_blank">常见问题</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../zkzc/xkkm/index.htm" target="_blank">选考科目</a></li>
+                                                                                                                                                                <!--[MenuItemCycleEnd]-->
+                                                </ul>
+                                                <!--[MenuStructEnd]-->
+                                            </li>
+                                                                                                                                                                        <li class="menu-item {级别样式} {级别样式}"><a class="menu-link" href="javascript:void(0);">科大故事</a>
+                                                <!--[MenuStructBegin]--> 
+                                                <em class="menu-switch-arrow"></em>
+                                                <ul class="sub-menu ">
+                                                    <!--[MenuItemCycleBegin]-->
+                                                                                                                                                                     <li class="sub-item {级别样式}"><a class="sub-link" href="../../kdgs/xydt/index.htm" target="_blank">校园动态</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../kdgs/xyfc1/index.htm" target="_blank">学员风采</a></li>
+                                                                                                                                                                                                                             <li class="sub-item {级别样式}"><a class="sub-link" href="../../kdgs/wxsph1/index.htm" target="_blank">微视科大</a></li>
+                                                                                                                                                                <!--[MenuItemCycleEnd]-->
+                                                </ul>
+                                                <!--[MenuStructEnd]-->
+                                            </li>
+                                                                                                                          <!--[NaviItemCycleEnd]-->
+                                      </ul>
+                                      <!--[NaviStructEnd]--> 
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End||nav--> 
+                </div>
+                
+                <a href="https://www.nudt.edu.cn" target="_blank" class="top_links">国防科大首页</a>
+                 
+            </div>
+        </div>
+        
+    </div>
+</div>  	 <!--aside导航-->
+    <div class="wp-navi-aside" id="wp-navi-aside">
+      <div class="aside-inner">
+        <div class="navi-aside-wrap"></div>
+      </div>
+      <div class="navi-aside-mask"></div>
+    </div>
+    <!--End||head-->
+	<!--Start||focus-->
+   <div class="wrapper column-banner">
+        <div class="l-banner overlay min-h1">
+                    <img border="0" style="margin:0 auto;" src="../../rddt/zsdt/36f9171d9615477a878563f0388b92df_1760429001126.jpg" alt="栏目图片" /> 
+                </div>
+        <div class="place_name inner mod">
+        	<div class="place_bt">宣讲回顾</div>
+            <div class="place_wz"></div>
+        </div>
+    </div>
+    <!--End||focus-->
+</div>
+
+<div class="col_path f_middle">
+	<div class="inner mod">
+      
+            <a href="../../index.htm" target="_blank">首页</a>
+       
+             <a href="javascript:void(0);">宣讲动态</a>
+       
+      </div>
+    <a class="column-switch"></a>
+</div>
+
+
+
+<!--Start||content-->
+<div class="wrapper" id="l-container">
+	<div class="inner">
+		<div class="mod clearfix">
+			<div class="infobox">
+            
+                <div class="article">
+                      <h1 class="arti_title">国防科大气象海洋学院深入广东、海南、广西三地中学开展国防科普讲座和招生宣讲活动</h1>
+                      <p class="arti_metas"><span class="arti_update">发布日期：2026-09-20</span><span>|</span><span class="arti_views">访问量：<span id="visit_count"><script src="/wm/api/visit/get/article?siteID=9686902889fb4fbb80d61d1f90d3e386&articleID=e1d03b2e64bb44f2be2583769858c6d2" async></script></span></p>
+                      <div class="entry">
+                         <p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;">2026年秋季学期伊始，国防科技大学气象海洋学院结合高中军训，组织专家教授赴广东、海南、广西三省（自治区）多所重点中学，聚焦气象海洋学科特色开展10余场国防科普讲座与招生宣讲活动，覆盖师生逾万人次。</p> 
+<p style="line-height: 180%; font-size: 14pt; text-indent: 0em; text-align: center;"><strong><span style="color: rgb(0, 112, 192);">广东</span></strong></p> 
+<p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;">叶芳副教授赴深圳观澜中学，面向1000余名高一新生开展《在“不确定”中寻找决胜时刻：气象学的浪漫与硬核》专题讲座，讲解气象条件对作战部署和战争局势的重要影响；汪祥副研究员赴深圳外国语学校，面向约800名高一新生开展《AI“算”海：当人工智能遇见风暴海洋》专题讲座，聚焦人工智能与海洋科学交叉前沿，以生动案例展现智能技术赋能海洋环境保障的广阔前景；张文副教授先后走进广州大学附属中学和广州市庆丰实验学校，以“漫谈海洋”为主题，普及海洋基础知识与生态现状，结合我国深海装备科考实践介绍海洋科技发展成果。</p> 
+<p style="text-align:center;text-indent:0px;"><img src="../../images/2026-09/670c0c81dcb04fed807aa46983c158e5.png" width="553" height="312" style="-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline"></p> 
+<p style="text-align:center;text-indent:0px;"><img src="../../images/2026-09/e9640234769f49e389d312a418b13b04.png" width="553" height="369" style="-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline"></p> 
+<p style="text-align:center;text-indent:0px;"><img src="../../images/2026-09/472e094b8fac4718b244b9591a35bde3.png" width="553" height="369" style="-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline"></p> 
+<p style="line-height: 180%; font-size: 14pt; text-indent: 0em; text-align: center;"><strong><span style="color: rgb(0, 112, 192);">海南</span></strong></p> 
+<p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;">翁利斌副教授在海口中学面向1200名高一学生开展《空间环境在太空安全中的应用》专题讲座；周鹤峰副教授赴三亚中学，为1000名高一学生开展《水下机器人如何耳聪目明、心灵手巧》专题讲座，解析水下智能装备核心技术；在琼海市海桂中学，胡晓阳副研究员面向600名学生作《听海——声呐技术简介》报告，介绍声呐技术百年演进、前沿光纤水听器创新突破及发展趋势；彭军研究员为600名学生作《当超级算力遇上风云变幻：数值天气预报背后的秘密》专题讲座，以“科学方程描述大气、超级算力计算未来、精准预报守护生命”为主线，生动展现数值天气预报科技魅力。</p> 
+<p style="text-align:center;text-indent:0px;"><img src="../../images/2026-09/c752ccc5ca51413f9fc79e7229254de3.png" width="553" height="369" style="-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline"></p> 
+<p style="line-height: 180%; font-size: 14pt; text-indent: 0em; text-align: center;"><span style="color: rgb(0, 112, 192);"><strong>广西</strong></span></p> 
+<p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;">滕义超副教授为南宁市第三中学青山校区1300余名学生作《气象雷达探秘》讲座，介绍雷达基本原理，分析气象雷达主要分类及未来发展；李书磊副教授、刘欢老师在防城港北部湾中学为1100余名学生开展《认识极地：中国极地科考之路》报告，介绍我国极地科考事业，回顾我国极地科考发展历程；程盼副教授赴柳州铁一中学，为2600余名高一学生开展《战斗机发展与战争》讲座，结合欧美及我国战斗机发展分析战斗机在战争中的重要作用。</p> 
+<p style="text-align:center;text-indent:0px;"><img src="../../images/2026-09/8c787e8ceed54d6c85a1073a26da385d.png" width="553" height="369" style="-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline"></p> 
+<p style="text-align:center;text-indent:0px;"><img src="../../images/2026-09/624f2b737bf146baa2e575c1879999e3.png" width="553" height="311" style="-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline"></p> 
+<p style="text-align:center;text-indent:0px;"><img src="../../images/2026-09/eb35ed3a8981421582b7f9abf3a162c0.jpeg" width="553" height="369" style="-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline"></p> 
+<p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;">本次活动是气象海洋学院落实学校招生工作统一部署，结合中学军训做好2027年招生工作的重要举措。系列讲座紧扣气象海洋学科特色，内容涵盖气象、海洋、空间、智能计算等多个前沿领域，结合高一新生认知规律和兴趣特点设计，将深奥的国防科技知识转化为生动有趣的科普内容，有效拓宽中学生科学视野，让青年学子直观了解国防科技发展现状与前景，激发投身国防科技事业积极性。</p> 
+<p style="LINE-HEIGHT: 180%; text-indent: 2em; font-size: 14pt;">下一步，气象海洋学院将继续深化与各地中学的交流合作，不断创新国防科普形式内容、持续扩大宣讲覆盖范围，助力青年学子逐梦强军。</p>
+                      </div>
+                </div>
+                
+                <div class="share_con f_between f_middle">
+                	<div class="f_start f_middle">
+                    	<div class="bt">分享：</div>
+                       	<div class="link f_between"><span id="currentUrl" class="linkwz"></span><a class="copylink">复制链接</a></div>
+                       	    <script>
+                                document.getElementById('currentUrl').textContent = window.location.href;
+                            </script>
+                    </div>
+                    <!--<div class="share_btn">扫码分享<div class="img"><img src="../../images/ma1.png" ></div></div>-->
+                </div>
+                
+                <div class="tuijian">
+                	<div class="title">相关推荐</div>
+                    <ul class="xuanchuan_list f_start wrap removebtn">
+                                                                                                            <li>
+                                                                <a class="news_pho" href="d0cbd0b40ad4406ca113719a9d109f4a.htm" target="_blank"><div class="tupic"><img src="../../images/2026-06/b2031da6ff0f43a0b505c538d5f0d40fjpg"></div></a>
+                                                                <a class="info" href="d0cbd0b40ad4406ca113719a9d109f4a.htm" target="_blank">
+                                    <div class="news_bt">面对面交流 心贴心动员 | 国防科技大学校长雷勇军深入中学开展招生宣传</div>
+                                    <div class="time">2026-06-26</div>
+                                </a>
+                            </li>
+                                                                                                            <li>
+                                                                <a class="news_pho" href="b5ff48d3a1c842bb892f9bab43459ca0.htm" target="_blank"><div class="tupic"><img src="../../images/2026-05/9a3189627a764f2cb88290dd901a31d9jpeg"></div></a>
+                                                                <a class="info" href="b5ff48d3a1c842bb892f9bab43459ca0.htm" target="_blank">
+                                    <div class="news_bt">“戎”耀领航 | 国防科技大学空天科学学院王岩政委带队赴贵州开展本科招生宣传工作</div>
+                                    <div class="time">2026-05-21</div>
+                                </a>
+                            </li>
+                                                                                                            <li>
+                                                                <a class="news_pho" href="mxx/8e7c6a2a48ff48539648ee96c38cd044.htm" target="_blank"><div class="tupic"><img src="../../images/2026-03/015b7ce8878f4213b56465757a4ed867png"></div></a>
+                                                                <a class="info" href="mxx/8e7c6a2a48ff48539648ee96c38cd044.htm" target="_blank">
+                                    <div class="news_bt">强军事业，期待有你！国防科大2026年寒假“母校中学行”系列报道【广东、广西、海南篇】（第12期）</div>
+                                    <div class="time">2026-03-14</div>
+                                </a>
+                            </li>
+                                             
+                    </ul>
+                </div>
+                
+            </div>
+		</div>
+	</div>
+    
+</div>
+<!--End||content-->
+
+<!--Start||footer-->
+
+<div id="footer">
+	<div class="bg"></div>
+	<div class="inner mod">
+    	<div class="f_between f_middle wrap">
+        	<div class="sitelogo"><img src="../../images/logo.png" /></div>
+            <div class="sitelink"><a target="_blank" href="https://www.nudt.edu.cn/">科大首页</a><a href="../../kdgs/xydt/index.htm" target="_blank">科大故事</a><a target="_blank" href="../xjap1/index.htm">招生宣讲</a><a href="../../lxwm/acc93f43b8e2420093a673d95085a640.htm" target="_blank">联系我们</a></div>
+        </div>
+        <div class="f_end wrap bottom">
+        	
+            <div class="erweima">
+            	<ul class="f_center">
+                	<li>
+                    	<img src="../../images/ma1.png" />
+                        <div class="wz">招办公众号</div>
+                    </li>
+                    <li>
+                    	<img src="../../images/ma2.png" />
+                        <div class="wz">招办视频号</div>
+                    </li>
+                    <li>
+                    	<img src="../../images/ma3.png" />
+                        <div class="wz">考生服务系统</div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="copyright">
+            	<div class="footwz">
+                	<p>地址：长沙市开福区德雅路109号</p>
+                	<p>开设单位：国防科技大学</p>
+                	<p class="beian">备案号：京ICP备19038296号   Copyright © 2022-2025   国防科技大学版权所有</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+<!--<script src="https://robot.360eol.com/inc/robot.js?schoolId=3Ty6Cy8b87g%3D&type=1"></script>-->
+
+<link href="https://image.360eol.com/esrobot/inc/css/style_new_pc.css" rel="stylesheet" type="text/css">
+<div class="skin_type skin1 type2">
+
+    <div id="draggable" class="ui-draggable ui-draggable-handle">
+        <div class="xzgj">
+            <div class="xzgj-child">
+                <div class="topTitle">
+                    <div class="slidertx"></div>
+                    <a class="layk" href="https://robot.360eol.com/robot/homePage/chatIndex?schoolId=3Ty6Cy8b87g%3D&type=1" target="_blank">智能问答</a >
+                </div>
+
+                <div class="conbg">
+                    <ul class="menu_robot">
+    
+                    </ul>
+                    <div class="tu tu1">
+                        <div class="stu">学校微信</div>
+                        <div class="show">
+                            <div class="showk"><i><img src="https://image.360eol.com/Qiniu_Files/Files/cx_robot_for_menu/gfkjdxwxcode.png"></i><span>学校微信</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tu tu1">
+                        <div class="stu">本科招生</div>
+                        <div class="show">
+                            <div class="showk"><i><img src="https://gkbimg.360eol.com/192e2a706f24e50bb7da8f021a814ea1.png"></i><span>本科招生</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type='text/javascript' src='../../g_style/g_list.js'></script>
+</body></html><!--End||footer-->
+</body>
+<script type="text/javascript" src="../../js/comcus.js"></script>
+<script type="text/javascript" src="../../js/list.js"></script>
+<script type="text/javascript" src="../../js/app.js"></script>
+<script src="../../shipin/js/jquery-3.5.1.min.js"></script>
+<script src="../../shipin/js/videojs-ie8.min.js"></script>
+<script src="../../shipin/js/video.js"></script>
+<script src="../../shipin/js/videojs-flash.min.js"></script>
+<script src="../../shipin/js/share-video-player.js"></script>
+<link rel="stylesheet" href="../../shipin/css/iconfont2019.css">
+<link href="../../shipin/css/video-js-default.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">
+$(function(){
+	// 初始化SDAPP
+	new SDAPP({
+		"menu":{
+			type:"aside"
+		}
+	});
+
+	
+});	
+$(function(){
+  // 找到发布内容下所有表格
+  $('.entry table').each(function() {
+    var $table = $(this);
+    // 已经被包裹过的，就不要再包了
+    if (!$table.parent().hasClass('table-container')) {
+      $table.wrap('<div class="table-container"></div>');
+    }
+  });
+})
+</script>
+<script type="text/javascript">
+	jQuery.ajax({
+		url: '/wm/api/visit/write/article',
+		type: 'get',
+		data: {
+			siteID: '9686902889fb4fbb80d61d1f90d3e386',
+			articleID:'e1d03b2e64bb44f2be2583769858c6d2',
+			articleName:encodeURIComponent('国防科大气象海洋学院深入广东、海南、广西三地中学开展国防科普讲座和招生宣讲活动')
+		}
+	})
+</script>
+
+<script type="text/javascript">
+  // 渲染分享链接
+	var shareUrl = window.location.href;
+	$('.share_con .copylink').off('click').on('click', function() {
+		copyToClipboard(shareUrl);
+	});
+	// 复制到剪贴板
+function copyToClipboard(text) {
+	if (navigator.clipboard && navigator.clipboard.writeText) {
+		// 现代浏览器 API
+		navigator.clipboard.writeText(text).then(function() {
+			showCopySuccess();
+		}).catch(function(err) {
+			fallbackCopy(text);
+		});
+	} else {
+		// 兼容旧浏览器
+		fallbackCopy(text);
+	}
+}
+
+// 备用复制方法
+function fallbackCopy(text) {
+	var textarea = document.createElement('textarea');
+	textarea.value = text;
+	textarea.style.position = 'fixed';
+	textarea.style.opacity = '0';
+	document.body.appendChild(textarea);
+	textarea.select();
+	try {
+		document.execCommand('copy');
+		showCopySuccess();
+	} catch (err) {
+		alert('复制失败，请手动复制');
+	}
+	document.body.removeChild(textarea);
+}
+
+// 显示复制成功提示
+function showCopySuccess() {
+	// 使用 layui 的提示
+	if (typeof layui !== 'undefined' && layui.layer) {
+		layui.layer.msg('链接已复制到剪贴板', {time: 2000, icon: 1});
+	} else {
+		alert('链接已复制到剪贴板');
+	}
+}
+</script></html>
+<script type='text/javascript' src='../../g_style/g_article.js'></script>
+</body></html>

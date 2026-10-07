@@ -1,0 +1,886 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>招生目录</title>
+		<meta charset="utf-8">
+		<meta content="webkit" name="renderer">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+		<meta content="no-cache" http-equiv="Pragma">
+		<meta http-equiv="Expires" content="0">
+		<meta content="width=device-width, initial-scale=1, user-scalable=1" name="viewport">
+		<link rel="stylesheet" href="/static/xxpt/lib/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/static/login/css/style.css">
+		<script src="/static/xxpt/js/jquery-1.12.4.min.js"></script>
+		
+		<style>
+	        .side-nav {
+			    list-style: none;
+			    padding: 0;
+			    margin: 1rem;
+			}
+			.side-nav li {
+			    display: flex;
+			    justify-content: flex-start;
+			    align-items: center;
+			    margin-right: 1rem;
+			}
+			.side-nav li:before {
+			    content: "";
+			    display: block;
+			    width: 0.75rem;
+			    height: 0.125rem;
+			    margin-right: 0.75rem;
+			}
+			.side-nav li.active:before {
+			    background: linear-gradient(90deg,#AA6AFF,#706DFF);
+			}
+			.side-nav li.active a {
+			    color: #000;
+			}
+			.side-nav li a {
+			    display: block;
+			    color: #697B8C;
+			    margin: 0.5rem 0;
+			    padding: 0 0.25rem;
+			    text-decoration: none;
+			    border-radius: 0.25rem;
+			    font-size: 0.875rem;
+			}
+			.side-nav li a:hover {
+			    background-color: #AA6AFF;
+			    color: #fff;
+			}
+			.side-nav li.active a:hover {
+			    background-color: transparent;
+			    color: #000;
+			}
+			.table-jzml h5, .table-jzml h6 { margin: 0;}
+			.table-jzml a { color: #AA6AFF;}
+			.table-jzml a:hover { color: #873BF4;}
+			
+			#zsml-table td textarea{
+				width: 100%;
+			    border: 0;
+			    color: #3A5064;
+			    background-color: #FFF;
+			    vertical-align: top;
+			    font-size: 14px;
+			    font-family: '微软雅黑';
+			    resize: none;
+				outline: none;
+				overflow: auto;
+			}
+			
+			.content-container {
+				width: 100%;
+			    padding-right: 15px;
+			    padding-left: 15px;
+			    margin-right: auto;
+			    margin-left: auto;
+			}
+			
+			.right-container {
+			    float:left;
+			    width: calc(100% - 320px);
+			}
+			
+			#left-container {
+			    float:right;
+			    position:relative;
+			    width: 300px;
+				padding-left: 20px;
+			}
+			
+			/* #left-container #inner-sidebar.fixed {
+			    position:fixed;
+			    top: 0;
+			} */
+			
+			
+    	</style>
+    </head>
+    <body>
+	    <div id="sub-banner" class="sub-banner">
+	        <div class="container h-100 d-flex align-items-center justify-content-center">
+	        	<h1 class="text-white" style="font-size: 40px">
+	        	清华大学2026年硕士研究生招生专业目录_统招(含招生人数)
+	        	</h1>
+	        </div>
+	    </div>
+	    <div class="content-container mt-5 mb-5">
+        	<div class="row">
+        		<div id="left-container" class="left-container">
+        			<div id="inner-sidebar" class="inner-sidebar">
+        				<ul class="side-nav">
+		                    
+		                    
+								<li class="zsml-tree-node active"><a href="?yxsdm=000&ksfs=">000&nbsp;建筑学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=003&ksfs=">003&nbsp;土木工程系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=004&ksfs=">004&nbsp;水利水电工程系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=005&ksfs=">005&nbsp;环境学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=012&ksfs=">012&nbsp;机械工程系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=013&ksfs=">013&nbsp;精密仪器系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=014&ksfs=">014&nbsp;能源与动力工程系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=015&ksfs=">015&nbsp;车辆与运载学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=016&ksfs=">016&nbsp;工业工程系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=022&ksfs=">022&nbsp;电机工程与应用电子技术系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=023&ksfs=">023&nbsp;电子工程系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=024&ksfs=">024&nbsp;计算机科学与技术系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=025&ksfs=">025&nbsp;自动化系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=026&ksfs=">026&nbsp;集成电路学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=031&ksfs=">031&nbsp;航天航空学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=032&ksfs=">032&nbsp;工程物理系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=034&ksfs=">034&nbsp;化学工程系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=035&ksfs=">035&nbsp;材料学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=042&ksfs=">042&nbsp;数学科学系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=047&ksfs=">047&nbsp;交叉信息研究院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=051&ksfs=">051&nbsp;经济管理学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=059&ksfs=">059&nbsp;公共管理学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=060&ksfs=">060&nbsp;五道口金融学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=064&ksfs=">064&nbsp;外国语言文学系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=066&ksfs=">066&nbsp;法学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=067&ksfs=">067&nbsp;新闻与传播学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=068&ksfs=">068&nbsp;马克思主义学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=069&ksfs=">069&nbsp;人文学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=070&ksfs=">070&nbsp;社会科学学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=080&ksfs=">080&nbsp;美术学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=088&ksfs=">088&nbsp;统计与数据科学系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=093&ksfs=">093&nbsp;安全科学学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=095&ksfs=">095&nbsp;心理与认知科学系</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=096&ksfs=">096&nbsp;万科公共卫生与健康学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=097&ksfs=">097&nbsp;苏世民书院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=101&ksfs=">101&nbsp;核能与新能源技术研究院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=103&ksfs=">103&nbsp;教育学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=405&ksfs=">405&nbsp;临床医学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=410&ksfs=">410&nbsp;软件学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=412&ksfs=">412&nbsp;网络科学与网络空间研究院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=415&ksfs=">415&nbsp;航空发动机研究院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=476&ksfs=">476&nbsp;求真书院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=500&ksfs=">500&nbsp;医学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=502&ksfs=">502&nbsp;生物医学工程学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=503&ksfs=">503&nbsp;医疗管理学院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=599&ksfs=">599&nbsp;清华大学深圳国际研究生院</a></li>
+							
+								<li class="zsml-tree-node "><a href="?yxsdm=601&ksfs=">601&nbsp;清华大学全球创新学院</a></li>
+							
+		                </ul>
+        			</div>
+	            </div>
+			    <div class="right-container">
+		            <div class="process-content">
+		                <div class="card">
+		                    <div class="card-body">
+		                        <div class="mb-1">
+		                        	<table id="zsml-table" class="table table-bordered table-jzml mb-0" style="font-size: 14px;">
+		                        		<tbody>
+		                        			<tr>
+							                    <th style="width: 25%;text-align:center;">院系、专业、研究方向</th>
+							                    <th style="width: 5%;text-align:center;">招生计划</th>
+							                    <th style="width: 20%;text-align:center;">考试科目</th>
+							                 	 
+							                   <!--  <th style="width: 20%;">研究方向信息</th> -->
+							                    <th style="width: 20%;text-align:center;">招生说明</th> 
+								            </tr>
+		                        			
+							               
+							               
+							               		<tr>
+								                    <td colspan="3">
+								                    	<h5>
+								                    		<span>
+																<span>
+								                    				000&nbsp;建筑学院
+								                    				
+								                    			</span>
+								                    		</span>
+								                    	</h5>
+								                    </td>
+								                    
+								                    <td>
+								                    	
+								                    		<textarea readonly="readonly">邮寄地址：清华大学建筑学院研究生教学办公室
+
+邮政编码：100084
+
+联系电话：010-62783677
+
+电子邮箱：jyjxb@tsinghua.edu.cn
+
+</textarea>
+								                    		
+								                    	
+								                    </td>
+								               	</tr>
+								               	
+								               	
+								               		<tr>
+								                    	<td style="padding-left: 20px;" colspan="1">
+								                    		<h6 style="font-weight: bold;">
+								                    			<span>
+																	<span>
+																		085100
+																		
+																			
+																			（专业学位）
+																		
+							                   							建筑
+							                   						</span>
+																</span>
+								                    		</h6>
+								                    	</td>
+								                    	<td style="text-align:center;vertical-align:middle;">
+									                    	
+									                    		
+									                    			13
+									                    		
+									                    		
+									                    	
+								                    	</td>
+								                    	<td></td>
+								                      	<td>
+								                      		
+									                    		
+									                    		
+									                    	
+								                      	</td>
+								                	</tr>
+								                	
+									               	
+									               		<tr>
+								                     		<td style="padding-left: 40px;vertical-align: middle;" rowspan="1">
+						                   						
+								                     			01（全日制）建筑硕士
+						                   						
+								                     		</td>
+								                     		
+									                    		
+									                    			
+										                     			
+										                     			
+										                     				<td style="text-align:center;vertical-align:middle;">
+											                     				
+												                     				4
+											                     				
+											                     			</td>
+										                     			
+										                     		
+									                    		
+									                    		
+									                    	
+										                    
+							                     				
+							                     				
+							                     					
+											                   			<td style="text-align: left;" colspan="1" merge="1">①101 思想政治理论 ②201 英语（一） ③355 建筑学基础 ④930 建筑设计</td>
+											                   			
+												                   			
+																			
+																				
+														                    		
+														                    		<td style="text-align: left;" colspan="1" merge="1"><textarea readonly="readonly">930建筑设计科目考试时间为3小时，使用全国硕士研究生招生考试招生单位自命题科目统一答题纸。考生不得自带图纸和图板，需自备彩铅、针管笔(粗中细3种，不可用任何油性笔)、绘图尺规、比例尺等绘图工具，具体考生可携带的绘图工具以准考证为准。
+085100 建筑硕士含论文型培养模式、设计型培养模式。 </textarea></td>
+														                    		
+														                    		
+														                    	
+																		
+											                   		
+							                     				
+							                     			
+								               			</tr>
+									               	
+									               		<tr>
+								                     		<td style="padding-left: 40px;vertical-align: middle;" rowspan="1">
+						                   						
+								                     			03（非全日制）乡村振兴建设与管理
+						                   						
+								                     		</td>
+								                     		
+									                    		
+									                    			
+										                     			
+										                     			
+										                     				<td style="text-align:center;vertical-align:middle;">
+											                     				
+												                     				9
+											                     				
+											                     			</td>
+										                     			
+										                     		
+									                    		
+									                    		
+									                    	
+										                    
+							                     				
+							                     				
+							                     					
+											                   			<td style="text-align: left;" colspan="1" merge="1">①101 思想政治理论 ②201 英语（一） ③355 建筑学基础 ④935 乡村营建实务</td>
+											                   			
+												                   			
+																			
+																				
+														                    		
+														                    		<td style="text-align: left;" colspan="1" merge="1"><textarea readonly="readonly">935乡村营建实务考试时间为3小时，使用全国硕士研究生招生考试招生单位自命题科目统一答题纸。考生不得自带图纸和图板，需自备彩铅、针管笔(粗中细3种，不可用任何油性笔)、绘图尺规、比例尺等绘图工具，具体考生可携带的绘图工具以准考证为准。
+仅招收原单位定向生（在职培养），报考类别为定向就业，在学期间不转档案和户口 ，不提供住宿。</textarea></td>
+														                    		
+														                    		
+														                    	
+																		
+											                   		
+							                     				
+							                     			
+								               			</tr>
+									               	
+									               		<tr>
+								                     		<td style="padding-left: 40px;vertical-align: middle;" rowspan="1">
+						                   						
+								                     			04（全日制）强军计划
+						                   						
+								                     		</td>
+								                     		
+									                    		
+									                    			
+										                     			
+										                     			
+										                     				<td style="text-align:center;vertical-align:middle;">
+											                     				
+											                     			</td>
+										                     			
+										                     		
+									                    		
+									                    		
+									                    	
+										                    
+							                     				
+							                     				
+							                     					
+											                   			<td style="text-align: left;" colspan="1" merge="1">①101 思想政治理论 ②201 英语（一） ③355 建筑学基础 ④930 建筑设计</td>
+											                   			
+												                   			
+																			
+																				
+														                    		
+														                    		<td style="text-align: left;" colspan="1" merge="1"><textarea readonly="readonly">强军计划考生试题均与统考考生试题相同，具体招生数和复试分数线根据当年国家计划和生源质量综合确定，招生数以最终录取为准。930建筑设计科目考试时间为3小时，使用全国硕士研究生招生考试招生单位自命题科目统一答题纸。考生不得自带图纸和图板，需自备彩铅、针管笔(粗中细3种，不可用任何油性笔)、绘图尺规、比例尺等绘图工具，具体考生可携带的绘图工具以准考证为准。 085100 建筑硕士含论文型培养模式、设计型培养模式。</textarea></td>
+														                    		
+														                    		
+														                    	
+																		
+											                   		
+							                     				
+							                     			
+								               			</tr>
+									               	
+								               	
+								               		<tr>
+								                    	<td style="padding-left: 20px;" colspan="1">
+								                    		<h6 style="font-weight: bold;">
+								                    			<span>
+																	<span>
+																		085300
+																		
+																			
+																			（专业学位）
+																		
+							                   							城乡规划
+							                   						</span>
+																</span>
+								                    		</h6>
+								                    	</td>
+								                    	<td style="text-align:center;vertical-align:middle;">
+									                    	
+									                    		
+									                    			2
+									                    		
+									                    		
+									                    	
+								                    	</td>
+								                    	<td></td>
+								                      	<td>
+								                      		
+									                    		
+									                    		
+									                    	
+								                      	</td>
+								                	</tr>
+								                	
+									               	
+									               		<tr>
+								                     		<td style="padding-left: 40px;vertical-align: middle;" rowspan="1">
+						                   						
+								                     			01（全日制）城乡规划硕士
+						                   						
+								                     		</td>
+								                     		
+									                    		
+									                    			
+										                     			
+										                     			
+										                     				<td style="text-align:center;vertical-align:middle;">
+											                     				
+												                     				2
+											                     				
+											                     			</td>
+										                     			
+										                     		
+									                    		
+									                    		
+									                    	
+										                    
+							                     				
+							                     				
+							                     					
+											                   			<td style="text-align: left;" colspan="1" merge="1">①101 思想政治理论 ②201 英语（一） ③356 城乡规划基础 ④933 城乡规划设计（专业学位）</td>
+											                   			
+												                   			
+																			
+																				
+														                    		
+														                    		<td style="text-align: left;" colspan="1" merge="1"><textarea readonly="readonly">933城乡规划设计（专业学位）科目考试时间为3小时，使用全国硕士研究生招生考试招生单位自命题科目统一答题纸。考生不得自带图纸和图板，需自备彩铅、针管笔(粗中细3种，不可用任何油性笔)、绘图尺规、比例尺等绘图工具，具体考生可携带的绘图工具以准考证为准。</textarea></td>
+														                    		
+														                    		
+														                    	
+																		
+											                   		
+							                     				
+							                     			
+								               			</tr>
+									               	
+									               		<tr>
+								                     		<td style="padding-left: 40px;vertical-align: middle;" rowspan="1">
+						                   						
+								                     			02（全日制）强军计划
+						                   						
+								                     		</td>
+								                     		
+									                    		
+									                    			
+										                     			
+										                     			
+										                     				<td style="text-align:center;vertical-align:middle;">
+											                     				
+											                     			</td>
+										                     			
+										                     		
+									                    		
+									                    		
+									                    	
+										                    
+							                     				
+							                     				
+							                     					
+											                   			<td style="text-align: left;" colspan="1" merge="1">①101 思想政治理论 ②201 英语（一） ③356 城乡规划基础 ④933 城乡规划设计（专业学位）</td>
+											                   			
+												                   			
+																			
+																				
+														                    		
+														                    		<td style="text-align: left;" colspan="1" merge="1"><textarea readonly="readonly">933城乡规划设计（专业学位）科目考试时间为3小时，使用全国硕士研究生招生考试招生单位自命题科目统一答题纸。考生不得自带图纸和图板，需自备彩铅、针管笔(粗中细3种，不可用任何油性笔)、绘图尺规、比例尺等绘图工具，具体考生可携带的绘图工具以准考证为准。强军计划考生试题均与统考考生试题相同，具体招生数和复试分数线根据当年国家计划和生源质量综合确定，招生数以最终录取为准。</textarea></td>
+														                    		
+														                    		
+														                    	
+																		
+											                   		
+							                     				
+							                     			
+								               			</tr>
+									               	
+								               	
+								               		<tr>
+								                    	<td style="padding-left: 20px;" colspan="1">
+								                    		<h6 style="font-weight: bold;">
+								                    			<span>
+																	<span>
+																		085900
+																		
+																			
+																			（专业学位）
+																		
+							                   							土木水利
+							                   						</span>
+																</span>
+								                    		</h6>
+								                    	</td>
+								                    	<td style="text-align:center;vertical-align:middle;">
+									                    	
+									                    		
+									                    			2
+									                    		
+									                    		
+									                    	
+								                    	</td>
+								                    	<td></td>
+								                      	<td>
+								                      		
+									                    		
+									                    		
+									                    	
+								                      	</td>
+								                	</tr>
+								                	
+									               	
+									               		<tr>
+								                     		<td style="padding-left: 40px;vertical-align: middle;" rowspan="1">
+						                   						
+								                     			01（全日制）建筑与土木工程
+						                   						
+								                     		</td>
+								                     		
+									                    		
+									                    			
+										                     			
+										                     			
+										                     				<td style="text-align:center;vertical-align:middle;">
+											                     				
+												                     				2
+											                     				
+											                     			</td>
+										                     			
+										                     		
+									                    		
+									                    		
+									                    	
+										                    
+							                     				
+							                     				
+							                     					
+											                   			<td style="text-align: left;" colspan="1" merge="1">①101 思想政治理论 ②201 英语（一） ③301 数学（一） ④803 建筑环境与设备工程基础</td>
+											                   			
+												                   			
+																			
+																				
+														                    		
+														                    		<td style="text-align: left;" colspan="1" merge="1"><textarea readonly="readonly">供热、供燃气、通风及空调工程方向。803 建筑环境与设备工程基础 科目内容包含：供热、供燃气、通风及空调工程基础。</textarea></td>
+														                    		
+														                    		
+														                    	
+																		
+											                   		
+							                     				
+							                     			
+								               			</tr>
+									               	
+									               		<tr>
+								                     		<td style="padding-left: 40px;vertical-align: middle;" rowspan="1">
+						                   						
+								                     			02（全日制）强军计划
+						                   						
+								                     		</td>
+								                     		
+									                    		
+									                    			
+										                     			
+										                     			
+										                     				<td style="text-align:center;vertical-align:middle;">
+											                     				
+											                     			</td>
+										                     			
+										                     		
+									                    		
+									                    		
+									                    	
+										                    
+							                     				
+							                     				
+							                     					
+											                   			<td style="text-align: left;" colspan="1" merge="1">①101 思想政治理论 ②201 英语（一） ③301 数学（一） ④803 建筑环境与设备工程基础</td>
+											                   			
+												                   			
+																			
+																				
+														                    		
+														                    		<td style="text-align: left;" colspan="1" merge="1"><textarea readonly="readonly">强军计划考生试题均与统考考生试题相同，具体招生数和复试分数线根据当年国家计划和生源质量综合确定，招生数以最终录取为准。</textarea></td>
+														                    		
+														                    		
+														                    	
+																		
+											                   		
+							                     				
+							                     			
+								               			</tr>
+									               	
+								               	
+								               		<tr>
+								                    	<td style="padding-left: 20px;" colspan="1">
+								                    		<h6 style="font-weight: bold;">
+								                    			<span>
+																	<span>
+																		086200
+																		
+																			
+																			（专业学位）
+																		
+							                   							风景园林
+							                   						</span>
+																</span>
+								                    		</h6>
+								                    	</td>
+								                    	<td style="text-align:center;vertical-align:middle;">
+									                    	
+									                    		
+									                    			18
+									                    		
+									                    		
+									                    	
+								                    	</td>
+								                    	<td></td>
+								                      	<td>
+								                      		
+									                    		
+									                    		
+									                    	
+								                      	</td>
+								                	</tr>
+								                	
+									               	
+									               		<tr>
+								                     		<td style="padding-left: 40px;vertical-align: middle;" rowspan="1">
+						                   						
+								                     			01（全日制）风景园林硕士
+						                   						
+								                     		</td>
+								                     		
+									                    		
+									                    			
+										                     			
+										                     			
+										                     				<td style="text-align:center;vertical-align:middle;">
+											                     				
+												                     				2
+											                     				
+											                     			</td>
+										                     			
+										                     		
+									                    		
+									                    		
+									                    	
+										                    
+							                     				
+							                     				
+							                     					
+											                   			<td style="text-align: left;" colspan="1" merge="1">①101 思想政治理论 ②201 英语（一） ③344 风景园林基础 ④931 景观规划设计</td>
+											                   			
+												                   			
+																			
+																				
+														                    		
+														                    		<td style="text-align: left;" colspan="1" merge="1"><textarea readonly="readonly">931景观规划设计科目考试时间为3小时，使用全国硕士研究生招生考试招生单位自命题科目统一答题纸。考生不得自带图纸和图板，需自备彩铅、针管笔(粗中细3种，不可用任何油性笔)、绘图尺规、比例尺等绘图工具，具体考生可携带的绘图工具以准考证为准。
+</textarea></td>
+														                    		
+														                    		
+														                    	
+																		
+											                   		
+							                     				
+							                     			
+								               			</tr>
+									               	
+									               		<tr>
+								                     		<td style="padding-left: 40px;vertical-align: middle;" rowspan="1">
+						                   						
+								                     			02（非全日制）风景园林硕士（在职）
+						                   						
+								                     		</td>
+								                     		
+									                    		
+									                    			
+										                     			
+										                     			
+										                     				<td style="text-align:center;vertical-align:middle;">
+											                     				
+												                     				16
+											                     				
+											                     			</td>
+										                     			
+										                     		
+									                    		
+									                    		
+									                    	
+										                    
+							                     				
+							                     				
+							                     					
+											                   			<td style="text-align: left;" colspan="1" merge="1">①101 思想政治理论 ②201 英语（一） ③344 风景园林基础 ④931 景观规划设计</td>
+											                   			
+												                   			
+																			
+																				
+														                    		
+														                    		<td style="text-align: left;" colspan="1" merge="1"><textarea readonly="readonly">931景观规划设计科目考试时间为3小时，使用全国硕士研究生招生考试招生单位自命题科目统一答题纸。考生不得自带图纸和图板，需自备彩铅、针管笔(粗中细3种，不可用任何油性笔)、绘图尺规、比例尺等绘图工具，具体考生可携带的绘图工具以准考证为准。
+仅招收原单位定向生（在职培养），报考类别为定向就业，在学期间不转档案和户口 ，不提供住宿。考生必须具有风景园林规划设计、保护、建设与管理相关实践经验。
+</textarea></td>
+														                    		
+														                    		
+														                    	
+																		
+											                   		
+							                     				
+							                     			
+								               			</tr>
+									               	
+									               		<tr>
+								                     		<td style="padding-left: 40px;vertical-align: middle;" rowspan="1">
+						                   						
+								                     			03（全日制）强军计划
+						                   						
+								                     		</td>
+								                     		
+									                    		
+									                    			
+										                     			
+										                     			
+										                     				<td style="text-align:center;vertical-align:middle;">
+											                     				
+											                     			</td>
+										                     			
+										                     		
+									                    		
+									                    		
+									                    	
+										                    
+							                     				
+							                     				
+							                     					
+											                   			<td style="text-align: left;" colspan="1" merge="1">①101 思想政治理论 ②201 英语（一） ③344 风景园林基础 ④931 景观规划设计</td>
+											                   			
+												                   			
+																			
+																				
+														                    		
+														                    		<td style="text-align: left;" colspan="1" merge="1"><textarea readonly="readonly">931景观规划设计科目考试时间为3小时，使用全国硕士研究生招生考试招生单位自命题科目统一答题纸。考生不得自带图纸和图板，需自备彩铅、针管笔(粗中细3种，不可用任何油性笔)、绘图尺规、比例尺等绘图工具，具体考生可携带的绘图工具以准考证为准。强军计划考生试题均与统考考生试题相同，具体招生数和复试分数线根据当年国家计划和生源质量综合确定，招生数以最终录取为准。</textarea></td>
+														                    		
+														                    		
+														                    	
+																		
+											                   		
+							                     				
+							                     			
+								               			</tr>
+									               	
+								               	
+							               
+		                        		</tbody>
+		                        	</table>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+	        </div>
+        </div>
+   		<script>
+	    	(function($) {
+	    		$(document).ready(function() {
+	    			$.each($("textarea"), function(i, n){
+	    				$(n).css("height", n.scrollHeight + "px");
+	    			});
+
+    			    var height;
+    			    var subHeight = $('#sub-banner').height();
+    			    $(window).scroll(function(){
+    			    	height = $(this).scrollTop();  
+    			        
+    			        if(parseFloat(height) > subHeight){
+    			        	$("#inner-sidebar").addClass("fixed");
+    			        }else{
+    			        	$("#inner-sidebar").removeClass("fixed");
+    			        }
+    			    });
+    			    
+    			    mergeCells('zsml-table', 1, 0, 3, true); // 参数依次表示：表格ID，从第一行开始，到最后一行，第二列
+    			    mergeCells('zsml-table', 1, 0, 2, true); // 参数依次表示：表格ID，从第一行开始，到最后一行，第二列
+	    		});
+	    	})(jQuery);
+	    	
+	    	 /**
+	         * 合并单元格
+	         * @param tableId   表格的ID
+	         * @param startRow  起始行
+	         * @param endRow    结束行:0代表合并所有行
+	         * @param colIndex  合并的列号，对第几列进行合并(从0开始)。第一行从0开始
+	         * @param mergeBlank是否合并空值单元格，默认不合并
+	         */
+			function mergeCells(tableId, startRow, endRow, colIndex, mergeBlank) {
+	    		var tb = document.getElementById(tableId);
+	            if(!tb || !tb.rows || tb.rows.length <= 0) {
+	                return;
+	            }
+	            if(colIndex >= tb.rows[0].cells.length || (startRow >= endRow && endRow != 0)) {
+	                return;
+	            }
+	            if(endRow == 0) {
+	                endRow = tb.rows.length - 1;
+	            }
+	            for(var i = startRow; i < endRow; i++) {
+	            	if((!mergeBlank && (!tb.rows[startRow].cells[colIndex] || tb.rows[startRow].cells[colIndex].innerHTML == '')) 
+	            			|| (!tb.rows[startRow].cells[colIndex] || !tb.rows[i + 1].cells[colIndex])) {
+	            		mergeCells(tableId, i + 1, endRow, colIndex, mergeBlank);
+	                    break;
+	            	} 
+	                if(tb.rows[startRow].cells[colIndex].getAttribute('merge') && tb.rows[i + 1].cells[colIndex].getAttribute('merge') && tb.rows[startRow].cells[colIndex].innerHTML == tb.rows[i + 1].cells[colIndex].innerHTML) { //如果相等就合并单元格,合并之后跳过下一行
+	                    tb.rows[i + 1].removeChild(tb.rows[i + 1].cells[colIndex]);
+	                    tb.rows[startRow].cells[colIndex].rowSpan = (tb.rows[startRow].cells[colIndex].rowSpan) + 1;
+	                } else {
+	                    mergeCells(tableId, i + 1, endRow, colIndex, mergeBlank);
+	                    break;
+	                } 
+	            }
+	    	}
+
+			
+			$('.xmjjinfo').click(function() {
+				var newWindow = window.open('/publish/infors/view/xmjj/'+$(this).data('val'));
+				newWindow.opener = null;
+			});
+	    </script>
+    </body>
+</html>

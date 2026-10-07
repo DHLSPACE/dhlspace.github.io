@@ -1,0 +1,390 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>中央民族大学2025年硕士研究生招生网上报名公告-中央民族大学研究生院</title><meta name="pageType" content="3">
+<meta name="pageTitle" content="中央民族大学2025年硕士研究生招生网上报名公告">
+<META Name="keywords" Content="中央民族大学研究生院,招生工作最新通知,研究生,招生,硕士,大学,网上,报名,民族,公告,中央" />
+<META Name="description" Content="考生在报考前须认真阅读《教育部关于印发&lt;2025年全国硕士研究生招生工作管理规定&gt;的通知》(教学〔2024〕4号)（https://yz.chsi.com.cn/kyzx/jybzc/202410/20241008/2293342617.html）、《北京市2025年全国硕士研究生招生考试网上报名公告》及相关公告（https://www.bjeea.cn/html/yk/index.html）、报考点所在省级教育招生考试管理机构报考公告及我校研究生院网站公布的各项招生信息，确保本人知晓各项报考要求，符合所规定的报考条件。..." />
+
+<link rel="stylesheet" href="../../style/public.css" />
+<link rel="stylesheet" href="../../style/master.css" />
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307e784654525a5742000200024253 -->
+<link rel="stylesheet" type="text/css" href="../../content.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc|pad"></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1178,'/content.jsp',6694,1499287447)</script>
+</head>
+<body>
+<!--top-->
+<div class="topWrap">
+    <div class="top cleafix">
+        <span class="topLeft fl"><script language="javascript" src="/system/resource/js/news/mp4video.js"></script>
+<p>您好，欢迎访问中央民族大学研究生院！</p></span>
+        <div class="topRight fr"><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script></div>
+    </div>
+</div>
+
+<!--header-->
+<div class="header cleafix">
+    
+
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="../../index.htm" title="研究生院" class="logo"><img src="../../images/logo.jpg"></a>
+    
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script><script language="javascript" src="/system/resource/vue/vue.js"></script><script language="javascript" src="/system/resource/vue/bluebird.min.js"></script><script language="javascript" src="/system/resource/vue/axios.js"></script><script language="javascript" src="/system/resource/vue/polyfill.js"></script><script language="javascript" src="/system/resource/vue/token.js"></script><LINK href="/system/resource/vue/static/element/index.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/vue/static/element/index.js"></script><script language="javascript" src="/system/resource/vue/static/public.js"></script><style>
+    #appu3 .qwss{
+        height: 31px;
+        font-size: 12px;
+        min-width: 190px;
+        max-width: 600px;
+        width: 60%;
+        margin-top: -15px;
+        outline: none;
+        padding-left: 10px;
+        border-radius: 2px;
+        border: 1px solid #e4e7ed;}
+    #appu3 .tj{
+        padding-left: 6px;
+        letter-spacing: 5px;
+        color: white;
+        min-width: 53px;
+        max-width: 150px;
+        height: 32px;
+        border: 0;
+        border-radius: 2px;
+        background-color: #1890FF;
+        position: relative;
+        top: 1px;
+        width: 20%;
+        margin-top: -15px;}
+</style>
+<div id="divu3"></div>
+<script type="text/html" id="htmlu3">
+    <div id="appu3">
+        <div v-if="!isError">
+        
+        <div class="search">
+        <span><input   type="image"  src="../../images/search.png"   v-on:click="onSubmit()"/></span>
+        <input type="text" placeholder="请输入关键字进行搜索"  class="searchText"  autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit"  />
+</div>
+         
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu3").html($("#htmlu3").text());
+</script>
+<script>
+    var appOwner = "1499287447";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu3",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "http://10.119.129.127:8083/" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script>
+</div>
+
+<!--nav-->
+<div class="nav">
+    <div class="innav">
+        <ul class="cleafix">
+<li><a class="link cur" href="../../index.htm">本站首页</a>
+
+</li>
+<li class="mainMenu"><a class="link" href="../../yjsygk.htm">研究生院概况</a>
+
+      <div id="nav">
+      <a href="../../yjsygk/yjsyjj.htm">
+   研究生院简介
+
+      </a>               
+      <a href="../../yjsygk/xrld.htm">
+   现任领导
+
+      </a>               
+      <a href="../../yjsygk/bmsz.htm">
+   部门设置
+
+      </a>               
+</div> 
+</li>
+<li class="mainMenu"><a class="link" href="https://grs.muc.edu.cn/yjsyzsw/">招生工作</a>
+
+</li>
+<li class="mainMenu"><a class="link" href="../../pygz.htm">培养工作</a>
+
+      <div id="nav">
+      <a href="../../pygz/jxgl.htm">
+   教学管理
+
+      </a>               
+      <a href="../../pygz/kcjs.htm">
+   课程建设
+
+      </a>               
+      <a href="../../pygz/yjsgjh.htm">
+   研究生国际化
+
+      </a>               
+      <a href="../../pygz/gzzd.htm">
+   规章制度
+
+      </a>               
+      <a href="../../pygz/cywdxz.htm">
+   常用文档下载
+
+      </a>               
+</div> 
+</li>
+<li class="mainMenu"><a class="link" href="../../xj_xs_gz.htm">学籍（学生）工作</a>
+
+      <div id="nav">
+      <a href="../../xj_xs_gz/xjgl.htm">
+   学籍管理
+
+      </a>               
+      <a href="../../xj_xs_gz/xshd.htm">
+   学生活动
+
+      </a>               
+      <a href="../../xj_xs_gz/gzzd.htm">
+   规章制度
+
+      </a>               
+      <a href="../../xj_xs_gz/cywdxz.htm">
+   常用文档下载
+
+      </a>               
+</div> 
+</li>
+<li class="mainMenu"><a class="link" href="../../xwgz.htm">学位工作</a>
+
+      <div id="nav">
+      <a href="../../xwgz/xwsq.htm">
+   学位申请
+
+      </a>               
+      <a href="../../xwgz/lwps.htm">
+   论文评审
+
+      </a>               
+      <a href="../../xwgz/yxlwpx.htm">
+   优秀论文评选
+
+      </a>               
+      <a href="../../xwgz/dslx.htm">
+   导师遴选
+
+      </a>               
+      <a href="../../xwgz/dsfs.htm">
+   导师复审
+
+      </a>               
+      <a href="../../xwgz/xwsqd.htm">
+   学位授权点
+
+      </a>               
+      <a href="../../xwgz/xwpdwyh.htm">
+   学位评定委员会
+
+      </a>               
+      <a href="../../xwgz/tdxl.htm">
+   同等学力
+
+      </a>               
+      <a href="../../xwgz/gzzd.htm">
+   规章制度
+
+      </a>               
+      <a href="../../xwgz/cywdxz.htm">
+   常用文档下载
+
+      </a>               
+</div> 
+</li>
+<li class="mainMenu marr"><a class="link" href="../../zlglyzyxwjygz.htm">质量管理与专业学位教育工作</a>
+
+</li>
+</ul>
+    </div>
+</div>
+
+    <div class="n_ban">
+            
+                
+                        <img src="../../images/nytp.jpg" border="0">
+                
+        
+</div>
+
+<!--内页主体部分-->
+<div class="vsb-box cleafix">
+    <div class="vsb-container mainCon" containerid="2" columns="4">
+        <div class="n_tit cleafix">
+   <img src="../../images/ico7.png" /> 
+                <a href="../../index.htm">本站首页</a>
+                >
+                <a href="../../index/zsgzzxtz.htm">招生工作最新通知</a>
+                >
+                正文
+</div>
+
+        <div class="vsb-space n_con" columns="4">
+        
+
+<script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><link rel="stylesheet" Content-type="text/css" href="/system/resource/style/component/news/content/format4.css"><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname">
+    <h2 align="center">中央民族大学2025年硕士研究生招生网上报名公告</h2>
+
+
+    <div class="con_con" id="vsb_content_4"><div class="v_news_content">
+<p class="vsbcontent_start">考生在报考前须认真阅读《教育部关于印发&lt;2025年全国硕士研究生招生工作管理规定&gt;的通知》(教学〔2024〕4号)（https://yz.chsi.com.cn/kyzx/jybzc/202410/20241008/2293342617.html）、《北京市2025年全国硕士研究生招生考试网上报名公告》及相关公告（https://www.bjeea.cn/html/yk/index.html）、报考点所在省级教育招生考试管理机构报考公告及我校研究生院网站公布的各项招生信息，确保本人知晓各项报考要求，符合所规定的报考条件。凡不符合报考条件及相关政策要求或不按规定报考的考生，相关后果由考生本人承担。</p><p><strong>一、</strong><strong>报考资格</strong></p><p>考生请在报名前仔细阅读学校发布的招生简章、招生专业目录以及各专项计划招生说明等相关通知,详细了解各专业和各专项计划的报考条件和报考资格。</p><p><strong>二、</strong><strong>报名步骤</strong></p><p>报名包括网上报名和网上确认两个阶段。</p><p>（一）网报日期：预报名时间为2024年10月9日—12日，每天9:00—22:00。正式网上报名时间为2024年10月15日—28日，每天9:00—22:00。（逾期不再补报，也不得再修改报名信息）。</p><p>（二）报名网址：“中国研究生招生信息网”（https://yz.chsi.com.cn/）。</p><p>（三）网上确认</p><p>1.“中央民族大学”考点实行网上确认，确认时间：另行通知，网上确认须知和具体安排另行发布。其他考点网上确认安排请考生及时关注各省级教育招生考试机构发布的公告。考生应在网上确认的规定时间内完成网报信息确认、本人图像信息采集等相关工作，逾期不再补办，网上确认必须由考生本人办理，不得由他人代办。</p><p>2.考生应按照报考点要求提前准备网上确认材料。考生网上确认时应当积极配合报考点，根据核验工作要求提交有关补充材料。</p><p>3.特别提醒：请考生仔细阅读教育部、省级教育招生考试管理机构、报考点以及中央民族大学的网上公告或通知，凡不按要求报名或进行网上确认、网报信息误填、错填或填报虚假信息造成不能考试或录取的，后果由考生本人承担。网上确认时考生本人要对网上报名信息进行认真核对并确认，经考生确认的报名信息在考试、复试等阶段一律不作修改。</p><p>凡符合所报考招生单位和所选报考点要求的考生均须进行网上确认，未在报考点规定的时间内参加网上确认或因自身原因未被报考点或招生单位审核通过的考生，报名信息无效。</p><p><strong>三</strong><strong>、报考点选择</strong></p><p>（一）应届本科毕业生须选择就读学校所在省(区、市)的报考点。</p><p>（二）其他考生（非应届毕业生）（含工商管理、公共管理、旅游管理等专业学位考生）须选择户口或工作所在地报考。</p><p>（三）北京高校本科应届毕业生（含二学位在校生）、户口在北京或工作在北京（社保缴纳符合要求）的往届毕业生报考中央民族大学，在网上报名时须选择“中央民族大学”为报考点。</p><p>（四）报考我校单独考试的考生及报考<strong>我校美术学院的美术与书法（135600）、设计（135700）</strong>的考生在网上报名时必须选择“中央民族大学”为报考点，未选择我校作为考点或不按时参加网上确认者不予准考。</p><p>（五）<strong>非应届本科毕业生、毕业院校未设立报考点的应届本科毕业生、艺术类院校应届本科毕业生等3类考生（管理类联考、法硕联考除外）</strong>且报考招生单位所属省市为<strong>福建、新疆、内蒙古、吉林，</strong>可以按照北京教育考试院有关规定（https://www.bjeea.cn/html/yk/fujian/2024/1008/85801.html）选择“中央民族大学”为报考点。“业务课2”考试科目代码第1位为“5”或科目代码为“910-919”之间的，须选择1116北京建筑大学报考点。报考军事院校的，须选择1196陆军装甲兵学院报考点。</p><p>（六）“中央民族大学”考点特别提示</p><p>1.选择“中央民族大学”为报考点的非应届考生须具有在京户籍或者报名当年<strong>（1月至9月）在京连续缴纳6个月（含）</strong>以上社会保险中的基本养老保险或基本医疗保险（不含补缴），如不具备上述二条件之一，我校一律不准予网上确认。</p><p>2.<strong>非京籍非应届生</strong>在网上确认时须上传<strong>“报名当年（1月至9月）在京连续缴纳6个月（含）以上社会保险中的基本养老保险或基本医疗保险（不含补缴）缴费证明或缴费记录”</strong>“社保卡正反面”。</p><p>3.京籍非应届生须上传户口本首页（公安部门盖章页）及本人信息页照片（集体户口提供首页及个人单页，首页须有户口单位盖章），也可提供由公安部门出具的户籍证明原件照片。</p><p>4.学校将严格按照社保部门提供给我校的基本养老保险或基本医疗保险数据审核非京籍非应届考生选择我校作为报考点的资格，请考生严格按照要求选择报考点，以免影响考试。</p><p>5.提供虚假证明信息的，一经查实，将取消考试、录取资格。</p><p><strong>四</strong><strong>、网报信息填写</strong></p><p>（一）网上报名时，考生务必认真填写并仔细核对本人的姓名、性别、民族、身份证号、报考类别和考试科目等重要信息。报名期间，考生可进行网上报名信息修改或重新填报，每名考生只能保留一条有效报名信息。网上报名截止后，报名信息一律不得修改。需要注意的是：“报考单位”“报考点”和“考试方式”等三项关键信息，在考生提交报考信息后，无论初试费支付与否，均不得修改。如需修改，应在网上报名截止时间内，取消已填报的报名信息，重新进行报名并支付初试费。</p><p>（二）在预报名中成功提交报考信息的考生，牢记自己注册的用户名和设置的“密码”，以及网上报名系统给定的“报名号”。预报名结束后，“报考单位”“报考点”和“考试方式”不可再进行更改，如考生发现错选了“报考单位”“报考点”或“考试方式”，在网上报名正式开始后，则需作废原来的报名信息及报名号，重新进行网上报名，提交信息，获取新的报名号，并进行网上支付。</p><p>（三）考生要认真谨慎选择报考类别码，定向就业（代码12）或非定向就业（代码11），定向就业适合报考时有工作单位且毕业后回原单位工作的考生，定向就业考生入学时不需要转人事档案，非定向就业考生入学时需将人事档案转入学校。</p><p><strong>五</strong><strong>、报名费和交费方式</strong></p><p>各省(区、市)的报名费和交费方式并不一致，具体请查看报考点所在省(区、市)的报考公告或报考点的通知。</p><p>选择“中央民族大学”为报考点的报名费（初试费）为138元/人，请考生务必于网上报名期间在网上支付报考费（预报名期间已支付报考费的考生，正式网报时不需要再重复交费），逾期一律不接受补交费。对于已通过网上确认的考生，因已启动考务组织程序、安排考试资源，故一律不予退费。</p><p><strong>六</strong><strong>、学历学籍校验</strong></p><p>（一）考生可在报名前或报名期间登录“中国高等教育学生信息网”（网址：http://www.chsi.com.cn)查询本人学历（学籍）信息。报名系统也将对考生学历（学籍）信息进行网上校验，考生可随时上网查看学历（学籍）校验结果。因部分学历（学籍）认证报告认证时间周期长，建议考生在报名前及早登录“中国高等教育学生信息网”（网址：http://www.chsi.com.cn)查询本人学历（学籍）信息。</p><p>（二）未通过网上学历（学籍）校验的考生应及时到学籍学历权威认证机构进行认证，未在招生单位规定时间内完成学历（学籍）核验影响网上确认工作的，后果由考生本人承担。</p><p>（三）因更改姓名或身份证号导致学历（学籍）校验未通过的考生，网上确认时还须提供具有更改记录的户口本（簿）或公安机关开具的相关证明原件及复印件，用以报考点审核备案。</p><p>（四）考生学历学籍信息网上校验参见：http://www.chsi.com.cn/xlcx/rhsq.jsp</p><p><strong>七、打印《准考证》</strong></p><p>考生应当在考前十天左右（具体时间以研招网通知为准），凭网报用户名和密码登录研招网自行下载打印《准考证》。《准考证》使用A4幅面白纸打印，正、反两面在使用期间不得涂改或书写。考生凭下载打印的《准考证》及有效居民身份证参加初试和复试。</p><p><strong>八</strong><strong>、</strong><strong>合理便利申请</strong></p><p>在京报名参加全国硕士研究生招生考试的残疾人等特殊群体考生，可申请考试期间提供合理便利。选择1152中央民族大学考点的考生须在网上确认结束前联系报考点，并按要求提交申请材料。考点提出初审意见后报考试院研招办。考试院会同有关职能部门对申请考生进行联合评估，研究确定可提供的合理便利事项，由报考点告知考生。</p><p><strong>九、</strong><strong>联系方式</strong></p><p>通讯地址：北京市海淀区中关村南大街27号 邮编：100081</p><p>联系部门：中央民族大学研究生招生办公室</p><p>电话：010-68938708</p><p class="vsbcontent_end">网站：https://grs.muc.edu.cn/yjsyzsw/</p>
+</div></div><div id="div_vote_id"></div>
+        <div class="sx cleafix">
+        <a href="6714.htm" class="syp">上一篇：2025年硕士初试网报信息疑似错误重要提示</a>
+        <a href="6684.htm" class="xyp">下一篇：中央民族大学2025年单独考试硕士研究生招生说明</a>
+     </div>
+
+</form>
+
+        </div>
+    </div>
+</div>
+
+
+<!--footer-->
+<div class="footer">
+    <div class="footThree">
+        <div class="footMain cleafix">
+            <ul class="foottl">
+                <li>
+                        <a href="../../yjsygk.htm" onfocus="undefined" onclick="_addDynClicks(&#34;wburl&#34;, 1499287447, 29542)">研究生院概况</a>
+    <a href="http://182.92.155.200/yjsyzsw/index.htm" onfocus="undefined" onclick="_addDynClicks(&#34;wburl&#34;, 1499287447, 29543)">招生工作</a>
+    <a href="../../pygz.htm" onfocus="undefined" onclick="_addDynClicks(&#34;wburl&#34;, 1499287447, 29544)">培养工作</a>
+
+                </li>
+                <li>
+                        <a href="&lt;span style='color:red;font-size:9pt'&gt;转换链接错误&lt;/span&gt;" onfocus="undefined" onclick="_addDynClicks(&#34;wburl&#34;, 1499287447, 29503)">学生工作</a>
+    <a href="../../xj_xs_gz.htm" onfocus="undefined" onclick="_addDynClicks(&#34;wburl&#34;, 1499287447, 29505)">学籍工作</a>
+    <a href="../../xwgz.htm" onfocus="undefined" onclick="_addDynClicks(&#34;wburl&#34;, 1499287447, 29504)">学位工作</a>
+
+                </li>
+            </ul>
+            <div class="foott-logo">
+                            
+                
+                        <a href="../../index.htm" onfocus="undefined" title="" onclick="_addDynClicks(&#34;wbimage&#34;, 1499287447, 31263)" target="_blank">
+                            <img src="../../images/logo2.png" border="0">
+                        </a>  
+                
+        
+
+                
+<p>@ Copyright 2006 All rights reserved. | 中央民族大学研究生院版权所有</p>
+            </div>
+            <div class="foottr">
+                
+<p>地址：北京中关村南大街27号</p> 
+<p>邮编：100081</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../../js/jquery.min.js"></script>
+<script type="text/javascript" src="../../js/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="../../js/index.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

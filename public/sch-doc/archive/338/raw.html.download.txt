@@ -1,0 +1,2697 @@
+<html class="webplus-main"  >
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>材料科学与工程学院</title>
+    <meta name="keywords" content="华南理工大学 材料科学与工程学院" />
+    <meta name="description" content="华南理工大学 材料科学与工程学院" />
+    <meta
+      name="viewport"
+      id="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"
+    />
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/datepicker/css/datepicker.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/sudy-jquery-autoload.js" jquery-src="/_js/jquery-2.x.min.js" sudy-wp-context="" sudy-wp-siteId="42"></script>
+<script language="javascript" src="/_js/jquery-migrate.min.js"></script>
+<script language="javascript" src="/_js2/loadStyle.js" sys-path="/_upload/site/1/style/1/1.css"  site-path="/_upload/site/00/2a/42/style/95/95.css" ></script>
+<script language="javascript" src="/_js2/grayscale.js"   ></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/jquery.datepicker.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/datepicker_lang_HK.js"></script>
+<link rel="shortcut icon" href="/_upload/tpl/0e/d8/3800/template3800/images/logo.ico">
+    <link
+      href="https://www2.scut.edu.cn/_upload/tpl/05/8f/1423/template1423/resources/swiper.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" / -->
+    <link href="/_upload/tpl/0e/d8/3800/template3800/css/main_new.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="/_upload/tpl/0e/d8/3800/template3800/css/main.css?v=1.2.8" />
+  
+  <script
+    language="javascript"
+    src="https://www2.scut.edu.cn/_upload/tpl/05/8f/1423/template1423/resources/swiper.js"
+  ></script>
+    <!-- script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script -->
+    <script src="/_upload/tpl/0e/d8/3800/template3800/js/juery.waypoints.min.js"></script>
+    <script src="/_upload/tpl/0e/d8/3800/template3800/js/juery.countup.min.js"></script>
+  <script language="javascript" src="/_upload/tpl/0e/d8/3800/template3800/js/main.js"></script>
+  </head>
+
+  <body>
+ <!-- 飘窗 -->
+    <div class="bay-window" id="scrollElement" style="display:none;">
+      <a href="/materials/d18jgjqynyhy/main.htm" target="_blank">
+       <img class="bay-img" src="/_upload/tpl/0e/d8/3800/template3800/images/18th_meeting.png" alt="">
+        <!-- <video autoplay loop muted class="bay-img">
+          <source src="/_upload/tpl/09/8b/2443/template2443/static/video/bay-video.mp4" type="video/mp4">
+        </video> -->
+      </a>
+    </div>
+     <div class="nav">
+    <div class="container nav-contatiner">
+      <div class="logo">
+        <a href="/materials/">
+          <img src="/_upload/tpl/0e/d8/3800/template3800/images/header_logo.png" class="logo-img" />
+        </a>
+      </div>
+      <div class="nav-top-links">
+        <a href="http://sites.scut.edu.cn/" target="_blank">管理后台</a>
+        <a href="http://clgc.pod6.cas.scut.edu.cn" target="_blank">预算管理系统</a>
+        <!-- <a href="javascript:void(0)">师资系统</a> -->
+        <a href="http://www2.scut.edu.cn/materials_en/" class="lang-en">English</a>
+      </div>
+      <img src="/_upload/tpl/0e/d8/3800/template3800/images/menu-icon-arrow-white.png" class="menu-icon" />
+      <div class="searchbox" frag="窗口103" portletmode="search">
+        
+    <div class="wp_search">
+        <table>
+            <tr>
+                <td height="25px">
+                    <input id="keyword" name="keyword" style="width: 150px" class="keyword" type="text" value="请输入关键字" onfocus="if (this.value === '请输入关键字') { this.value = ''; }"
+                           onblur="if (this.value === '') { this.value = '请输入关键字'; }" onkeydown="return onKeyEvent(event);"/>
+                </td>
+                <td>
+					<input type="hidden" id="securl" value="/_web/_search/api/search/new.rst?locale=zh_CN&request_locale=zh_CN&_p=YXM9NDImdD0zODAwJmQ9MTQ1ODUmcD0xJm09U04m"/>
+                    <input name="btnsearch" class="search" type="submit" value="" onclick="checkValues();"/>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+<script>
+    function onKeyEvent(event){
+        if (event.keyCode != '13') {
+            return;
+        }
+        checkValues();
+    }
+    function checkValues(){
+		var url = $("#securl").val();
+        var keyword = $("input[name='keyword']").val();
+		if (keyword === '请输入关键字') {
+			keyword = ''; 
+		}
+		if (keyword !== '') {
+			keyword = encodeURI(encodeURI(keyword));
+			url = url + "&keyword=" + keyword;
+		}
+        window.open(url);
+    }
+</script>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-menu">
+    <div class="container">
+      <div class="navbar" frag="面板1">
+        <div class="navbox" frag="窗口1" portletmode="simpleSudyNavi" configs="{'c1':'1','c7':'2','c4':'_self','c3':'15','c6':'0','c8':'2','c9':'0','c2':'1','c5':'2'}" contents="{'c2':'0'}">
+          <div id="wp_nav_w1"> 
+
+ 
+<ul class="wp_nav" data-nav-config="{drop_v: 'down', drop_w: 'right', dir: 'y', opacity_main: '-1', opacity_sub: '-1', dWidth: '0'}">
+      
+     <li class="nav-item i1 "> 
+         <a href="https://www2.scut.edu.cn/materials/" title="首 页" target="_self"><span class="item-name">首 页</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i2 "> 
+         <a href="https://www2.scut.edu.cn/materials/2640/list.htm" title="学院概况" target="_self"><span class="item-name">学院概况</span></a><i class="mark"></i> 
+          
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i2-1 "> 
+                 <a href="/materials/2640/list.htm" title="学院简介" target="_self"><span class="item-name">学院简介</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-2 "> 
+                 <a href="/materials/xybs/list.htm" title="学院标识" target="_blank"><span class="item-name">学院标识</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-3 "> 
+                 <a href="http://www2.scut.edu.cn/materials/xyld/list.htm" title="组织架构" target="_blank"><span class="item-name">组织架构</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i2-3-1 "> 
+                 <a href="/materials/xyld/list.htm" title="学院领导" target="_blank"><span class="item-name">学院领导</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-3-2 "> 
+                 <a href="/materials/xs/list.htm" title="系所" target="_blank"><span class="item-name">系所</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-3-3 "> 
+                 <a href="/materials/ynzz/list.htm" title="院内组织" target="_blank"><span class="item-name">院内组织</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-3-4 "> 
+                 <a href="/materials/xybgs/list.htm" title="学院办公室" target="_blank"><span class="item-name">学院办公室</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i2-4 "> 
+                 <a href="/materials/jcdb/list.htm" title="师资概况" target="_blank"><span class="item-name">师资概况</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i2-4-1 "> 
+                 <a href="/materials/jcdb/list.htm" title="杰出代表" target="_blank"><span class="item-name">杰出代表</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-4-2 "> 
+                 <a href="/materials/szdw/list.htm" title="师资队伍" target="_blank"><span class="item-name">师资队伍</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i2-5 "> 
+                 <a href="/materials/lsyg/list.htm" title="历史沿革" target="_blank"><span class="item-name">历史沿革</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i2-5-1 "> 
+                 <a href="/materials/fzml/list.htm" title="发展脉络" target="_blank"><span class="item-name">发展脉络</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-5-2 "> 
+                 <a href="/materials/ESIxkpm/list.htm" title="ESI学科排名" target="_blank"><span class="item-name">ESI学科排名</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-5-3 "> 
+                 <a href="/materials/lszp/list.htm" title="历史照片" target="_blank"><span class="item-name">历史照片</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i2-6 "> 
+                 <a href="/materials/xyry/list.htm" title="学院荣誉" target="_blank"><span class="item-name">学院荣誉</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i2-6-1 "> 
+                 <a href="/materials/ddjs/list.htm" title="党的建设" target="_blank"><span class="item-name">党的建设</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-6-2 "> 
+                 <a href="/materials/bkspy/list.htm" title="本科生培养" target="_blank"><span class="item-name">本科生培养</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-6-3 "> 
+                 <a href="/materials/yjspy/list.htm" title="研究生培养" target="_blank"><span class="item-name">研究生培养</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-6-4 "> 
+                 <a href="/materials/xsky_23316/list.htm" title="学术科研" target="_blank"><span class="item-name">学术科研</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-6-5 "> 
+                 <a href="/materials/xsgz_23322/list.htm" title="学生工作" target="_blank"><span class="item-name">学生工作</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-6-6 "> 
+                 <a href="/materials/sysaq_23323/list.htm" title="实验室" target="_blank"><span class="item-name">实验室</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-6-7 "> 
+                 <a href="/materials/gjjl_23320/list.htm" title="国际交流" target="_blank"><span class="item-name">国际交流</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i2-6-8 "> 
+                 <a href="/materials/xygz/list.htm" title="校友工作" target="_blank"><span class="item-name">校友工作</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+         </ul> 
+          
+     </li> 
+      
+     <li class="nav-item i3 "> 
+         <a href="http://www2.scut.edu.cn/materials/kypt/list.htm" title="学术科研" target="_blank"><span class="item-name">学术科研</span></a><i class="mark"></i> 
+          
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i3-1 "> 
+                 <a href="/materials/kypt/list.htm" title="科研平台" target="_blank"><span class="item-name">科研平台</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i3-2 "> 
+                 <a href="/materials/yjz/list.htm" title="研究组" target="_blank"><span class="item-name">研究组</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i3-3 "> 
+                 <a href="/materials/kytz/list.htm" title="科研通知" target="_blank"><span class="item-name">科研通知</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i3-4 "> 
+                 <a href="/materials/xsyg/list.htm" title="学术预告" target="_blank"><span class="item-name">学术预告</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i3-5 "> 
+                 <a href="/materials/mmhkxcljt/list.htm" title="木棉花开 新材料讲坛" target="_blank"><span class="item-name">木棉花开 新材料...</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i3-5-1 "> 
+                 <a href="/materials/ltyg/list.htm" title="论坛预告" target="_blank"><span class="item-name">论坛预告</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i3-5-2 "> 
+                 <a href="/materials/ltxw/list.htm" title="论坛新闻" target="_blank"><span class="item-name">论坛新闻</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i3-6 "> 
+                 <a href="/materials/22705/list.htm" title="科研成果" target="_blank"><span class="item-name">科研成果</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i3-6-1 "> 
+                 <a href="/materials/22709/list.htm" title="成果展示" target="_blank"><span class="item-name">成果展示</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i3-6-2 "> 
+                 <a href="/materials/22710/list.htm" title="研究进展" target="_blank"><span class="item-name">研究进展</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i3-6-3 "> 
+                 <a href="/materials/22711/list.htm" title="成果推荐" target="_blank"><span class="item-name">成果推荐</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i3-7 "> 
+                 <a href="/materials/22706/list.htm" title="科研合作" target="_blank"><span class="item-name">科研合作</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i3-8 "> 
+                 <a href="/materials/22707/list.htm" title="办事指南" target="_blank"><span class="item-name">办事指南</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i3-9 "> 
+                 <a href="/materials/22708/list.htm" title="相关下载" target="_blank"><span class="item-name">相关下载</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+     </li> 
+      
+     <li class="nav-item i4 "> 
+         <a href="/materials/zspy/list.htm" title="招生培养" target="_blank"><span class="item-name">招生培养</span></a><i class="mark"></i> 
+          
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i4-1 "> 
+                 <a href="/materials/22713/list.htm" title="本科生招生" target="_blank"><span class="item-name">本科生招生</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i4-1-1 "> 
+                 <a href="/materials/zszy/list.htm" title="招生专业" target="_blank"><span class="item-name">招生专业</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i4-1-2 "> 
+                 <a href="/materials/zsjz_22971/list.htm" title="招生宣传" target="_blank"><span class="item-name">招生宣传</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i4-2 "> 
+                 <a href="/materials/22714/list.htm" title="研究生招生" target="_blank"><span class="item-name">研究生招生</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i4-2-1 "> 
+                 <a href="/materials/tzgg_22972/list.htm" title="通知公告" target="_blank"><span class="item-name">通知公告</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i4-2-2 "> 
+                 <a href="http://www2.scut.edu.cn/materials/dsjs/list.htm" title="导师介绍" target="_blank"><span class="item-name">导师介绍</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i4-3 "> 
+                 <a href="/materials/22715/list.htm" title="本科生培养" target="_blank"><span class="item-name">本科生培养</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i4-3-1 "> 
+                 <a href="/materials/zlgc/list.htm" title="质量工程" target="_blank"><span class="item-name">质量工程</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i4-3-2 "> 
+                 <a href="/materials/pyjh/list.htm" title="培养计划" target="_blank"><span class="item-name">培养计划</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i4-3-3 "> 
+                 <a href="/materials/tskc/list.htm" title="特色课程" target="_blank"><span class="item-name">特色课程</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i4-3-4 "> 
+                 <a href="/materials/kyxl/list.htm" title="科研训练" target="_blank"><span class="item-name">科研训练</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i4-3-5 "> 
+                 <a href="/materials/kcap/list.htm" title="课程安排" target="_blank"><span class="item-name">课程安排</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i4-3-6 "> 
+                 <a href="/materials/ksap/list.htm" title="考试安排" target="_blank"><span class="item-name">考试安排</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i4-4 "> 
+                 <a href="/materials/22716/list.htm" title="研究生培养" target="_blank"><span class="item-name">研究生培养</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i4-4-1 "> 
+                 <a href="/materials/tzgg_22980/list.htm" title="通知公告" target="_blank"><span class="item-name">通知公告</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i4-4-2 "> 
+                 <a href="/materials/xwgz/list.htm" title="学位工作" target="_blank"><span class="item-name">学位工作</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i4-4-3 "> 
+                 <a href="/materials/zcwj/list.htm" title="政策文件" target="_blank"><span class="item-name">政策文件</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i4-5 "> 
+                 <a href="/materials/22717/list.htm" title="导师工作" target="_blank"><span class="item-name">导师工作</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i4-6 "> 
+                 <a href="/materials/22718/list.htm" title="相关下载" target="_blank"><span class="item-name">相关下载</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i4-6-1 "> 
+                 <a href="/materials/bks/list.htm" title="本科生" target="_blank"><span class="item-name">本科生</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i4-6-2 "> 
+                 <a href="/materials/yjs/list.htm" title="研究生" target="_blank"><span class="item-name">研究生</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+         </ul> 
+          
+     </li> 
+      
+     <li class="nav-item i5 "> 
+         <a href="/materials/sysjs/list.htm" title="实验室建设" target="_blank"><span class="item-name">实验室建设</span></a><i class="mark"></i> 
+          
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i5-1 "> 
+                 <a href="/materials/tzgg/list.htm" title="通知公告" target="_blank"><span class="item-name">通知公告</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-2 "> 
+                 <a href="https://www2.scut.edu.cn/smseec/" title="实验中心" target="_blank"><span class="item-name">实验中心</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-3 "> 
+                 <a href="http://sites.scut.edu.cn/smseec/_t3792/gjjsyjxsfzx/main.htm" title="示范中心" target="_blank"><span class="item-name">示范中心</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-4 "> 
+                 <a href="/materials/kyss/list.htm" title="科研设施" target="_blank"><span class="item-name">科研设施</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i5-4-1 "> 
+                 <a href="/materials/bmfxzx/list.htm" title="表面分析中心" target="_blank"><span class="item-name">表面分析中心</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-4-2 "> 
+                 <a href="/materials/XRDzx/list.htm" title="XRD中心" target="_blank"><span class="item-name">XRD中心</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-4-3 "> 
+                 <a href="/materials/gjjzx/list.htm" title="共聚焦中心" target="_blank"><span class="item-name">共聚焦中心</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-4-4 "> 
+                 <a href="/materials/GPCzx/list.htm" title="GPC中心" target="_blank"><span class="item-name">GPC中心</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-4-5 "> 
+                 <a href="/materials/fwyy/list.htm" title="服务预约" target="_blank"><span class="item-name">服务预约</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i5-5 "> 
+                 <a href="/materials/aqfw/list.htm" title="安全管理" target="_blank"><span class="item-name">安全管理</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i5-5-1 "> 
+                 <a href="/materials/jctb/list.htm" title="规章制度" target="_blank"><span class="item-name">规章制度</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-5-2 "> 
+                 <a href="/materials/aqks/list.htm" title="安全检查" target="_blank"><span class="item-name">安全检查</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-5-3 "> 
+                 <a href="/materials/EHSpx/list.htm" title="EHS培训" target="_blank"><span class="item-name">EHS培训</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-5-4 "> 
+                 <a href="/materials/yhbg/list.htm" title="危化品管理" target="_blank"><span class="item-name">危化品管理</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-5-5 "> 
+                 <a href="/materials/xqsq/list.htm" title="隐患报告" target="_blank"><span class="item-name">隐患报告</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-5-6 "> 
+                 <a href="/materials/cjwt/list.htm" title="常见问题" target="_blank"><span class="item-name">常见问题</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-5-7 "> 
+                 <a href="/materials/jjlx/list.htm" title="紧急联系" target="_blank"><span class="item-name">紧急联系</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i5-6 "> 
+                 <a href="/materials/sysgl/list.htm" title="实验室管理" target="_blank"><span class="item-name">实验室管理</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i5-6-1 "> 
+                 <a href="/materials/gzzd_37483/list.htm" title="规章制度" target="_blank"><span class="item-name">规章制度</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-6-2 "> 
+                 <a href="/materials/bslc_37484/list.htm" title="办事流程" target="_blank"><span class="item-name">办事流程</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-6-3 "> 
+                 <a href="/materials/zcgl/list.htm" title="资产管理" target="_blank"><span class="item-name">资产管理</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-6-4 "> 
+                 <a href="/materials/hxpqtgl/list.htm" title="化学品气体管理" target="_blank"><span class="item-name">化学品气体管理</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-6-5 "> 
+                 <a href="/materials/yygl/list.htm" title="预约管理" target="_blank"><span class="item-name">预约管理</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i5-7 "> 
+                 <a href="/materials/xzzq/list.htm" title="下载专区" target="_blank"><span class="item-name">下载专区</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i5-7-1 "> 
+                 <a href="/materials/22925/list.htm" title="仪器设备" target="_blank"><span class="item-name">仪器设备</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-7-2 "> 
+                 <a href="/materials/22926/list.htm" title="实验室安全" target="_blank"><span class="item-name">实验室安全</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i5-7-3 "> 
+                 <a href="/materials/22927/list.htm" title="其他" target="_blank"><span class="item-name">其他</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+         </ul> 
+          
+     </li> 
+      
+     <li class="nav-item i6 "> 
+         <a href="/materials/dtjs/list.htm" title="党团建设" target="_blank"><span class="item-name">党团建设</span></a><i class="mark"></i> 
+          
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i6-1 "> 
+                 <a href="/materials/22743/list.htm" title="党团活动" target="_blank"><span class="item-name">党团活动</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i6-2 "> 
+                 <a href="/materials/22744/list.htm" title="通知公告" target="_blank"><span class="item-name">通知公告</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i6-3 "> 
+                 <a href="/materials/fdx/list.htm" title="分党校" target="_blank"><span class="item-name">分党校</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i6-3-1 "> 
+                 <a href="/materials/pxjh/list.htm" title="培训动态" target="_blank"><span class="item-name">培训动态</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i6-3-2 "> 
+                 <a href="/materials/dxjh/list.htm" title="组织机构" target="_blank"><span class="item-name">组织机构</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i6-3-3 "> 
+                 <a href="/materials/xxyd/list.htm" title="学习园地" target="_blank"><span class="item-name">学习园地</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i6-4 "> 
+                 <a href="/materials/22745/list.htm" title="组织机构" target="_blank"><span class="item-name">组织机构</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i6-4-1 "> 
+                 <a href="/materials/22750/list.htm" title="党支部" target="_blank"><span class="item-name">党支部</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i6-4-2 "> 
+                 <a href="/materials/22751/list.htm" title="团委学生会" target="_blank"><span class="item-name">团委学生会</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i6-4-3 "> 
+                 <a href="/materials/22752/list.htm" title="团支部" target="_blank"><span class="item-name">团支部</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i6-4-4 "> 
+                 <a href="/materials/fdx_32159/list.htm" title="分党校" target="_blank"><span class="item-name">分党校</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i6-5 "> 
+                 <a href="/materials/22746/list.htm" title="办事指南" target="_blank"><span class="item-name">办事指南</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i6-6 "> 
+                 <a href="/materials/22747/list.htm" title="制度公文" target="_blank"><span class="item-name">制度公文</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i6-7 "> 
+                 <a href="/materials/22749/list.htm" title="专题网站" target="_blank"><span class="item-name">专题网站</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i6-8 "> 
+                 <a href="/materials/gdcldzbsfpt/list.htm" title="国重光电系党支部示范平台" target="_blank"><span class="item-name">国重光电系党支部...</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i6-9 "> 
+                 <a href="/materials/sdjzxxjy/list.htm" title="师德集中学习教育" target="_blank"><span class="item-name">师德集中学习教育</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+     </li> 
+      
+     <li class="nav-item i7 "> 
+         <a href="/materials/gjjl/list.htm" title="国际交流" target="_blank"><span class="item-name">国际交流</span></a><i class="mark"></i> 
+          
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i7-1 "> 
+                 <a href="/materials/jldt/list.htm" title="交流动态" target="_blank"><span class="item-name">交流动态</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i7-1-1 "> 
+                 <a href="/materials/22761/list.htm" title="通知公告" target="_blank"><span class="item-name">通知公告</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i7-1-2 "> 
+                 <a href="/materials/22762/list.htm" title="新闻速递" target="_blank"><span class="item-name">新闻速递</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i7-1-3 "> 
+                 <a href="/materials/22763/list.htm" title="学术报告" target="_blank"><span class="item-name">学术报告</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i7-2 "> 
+                 <a href="/materials/22756/list.htm" title="出国事务" target="_blank"><span class="item-name">出国事务</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i7-3 "> 
+                 <a href="/materials/22757/list.htm" title="科研合作" target="_blank"><span class="item-name">科研合作</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i7-4 "> 
+                 <a href="/materials/22758/list.htm" title="教学合作" target="_blank"><span class="item-name">教学合作</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i7-5 "> 
+                 <a href="/materials/22759/list.htm" title="国际会议" target="_blank"><span class="item-name">国际会议</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i7-6 "> 
+                 <a href="/materials/22760/list.htm" title="政策文件" target="_blank"><span class="item-name">政策文件</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+     </li> 
+      
+     <li class="nav-item i8 "> 
+         <a href="/materials/xyzc/main.htm" title="校友之窗" target="_blank"><span class="item-name">校友之窗</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i9 "> 
+         <a href="/materials/xsgz/main.htm" title="学生工作" target="_blank"><span class="item-name">学生工作</span></a><i class="mark"></i> 
+          
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i9-1 "> 
+                 <a href="/materials/xsxw/list.htm" title="学生新闻" target="_blank"><span class="item-name">学生新闻</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i9-2 "> 
+                 <a href="/materials/22773/list.htm" title="班级风采" target="_blank"><span class="item-name">班级风采</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i9-3 "> 
+                 <a href="/materials/22774/list.htm" title="学生活动预告" target="_blank"><span class="item-name">学生活动预告</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i9-4 "> 
+                 <a href="/materials/22775/list.htm" title="事务通知" target="_blank"><span class="item-name">事务通知</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i9-5 "> 
+                 <a href="/materials/22777/list.htm" title="品牌活动" target="_blank"><span class="item-name">品牌活动</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i9-5-1 "> 
+                 <a href="/materials/cyclj/list.htm" title="彩愿材料节" target="_blank"><span class="item-name">彩愿材料节</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i9-5-2 "> 
+                 <a href="/materials/tqpywsxlhd/list.htm" title="团旗飘扬五四系列活动" target="_blank"><span class="item-name">团旗飘扬五四系列...</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i9-5-3 "> 
+                 <a href="/materials/cyzyzfwd/list.htm" title="彩愿志愿者服务队" target="_blank"><span class="item-name">彩愿志愿者服务队</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i9-5-4 "> 
+                 <a href="/materials/clcxds/list.htm" title="材料创新大赛" target="_blank"><span class="item-name">材料创新大赛</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i9-5-5 "> 
+                 <a href="/materials/lhyjswhj/list.htm" title="麟鸿研究生文化节" target="_blank"><span class="item-name">麟鸿研究生文化节</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i9-6 "> 
+                 <a href="/materials/22778/list.htm" title="就业在线" target="_blank"><span class="item-name">就业在线</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i9-6-1 "> 
+                 <a href="/materials/22933/list.htm" title="招聘信息" target="_blank"><span class="item-name">招聘信息</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i9-6-2 "> 
+                 <a href="/materials/22934/list.htm" title="就业流程" target="_blank"><span class="item-name">就业流程</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i9-6-3 "> 
+                 <a href="/materials/22935/list.htm" title="职业发展" target="_blank"><span class="item-name">职业发展</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i9-7 "> 
+                 <a href="/materials/22779/list.htm" title="科技创新" target="_blank"><span class="item-name">科技创新</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i9-8 "> 
+                 <a href="/materials/22780/list.htm" title="材料之星" target="_blank"><span class="item-name">材料之星</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i9-9 "> 
+                 <a href="/materials/22781/list.htm" title="心理之窗" target="_blank"><span class="item-name">心理之窗</span></a><i class="mark"></i> 
+                  
+         <ul class="sub-nav"> 
+              
+             <li class="nav-item i9-9-1 "> 
+                 <a href="/materials/xykj/list.htm" title="心育空间" target="_blank"><span class="item-name">心育空间</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+             <li class="nav-item i9-9-2 "> 
+                 <a href="/materials/xlxt/list.htm" title="心理学堂" target="_blank"><span class="item-name">心理学堂</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+             </li> 
+              
+             <li class="nav-item i9-10 "> 
+                 <a href="/materials/zptz/list.htm" title="招聘通知" target="_blank"><span class="item-name">招聘通知</span></a><i class="mark"></i> 
+                  
+             </li> 
+              
+         </ul> 
+          
+     </li> 
+      
+     <li class="nav-item i10 "> 
+         <a href="/materials/rczp/list.htm" title="人才招聘" target="_blank"><span class="item-name">人才招聘</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+     <li class="nav-item i11 "> 
+         <a href="/materials/lxwm/list.htm" title="联系我们" target="_blank"><span class="item-name">联系我们</span></a><i class="mark"></i> 
+          
+     </li> 
+      
+</ul> 
+ 
+ 
+ </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="banner-swiper" frag="面板2">
+      <div class="swiper-wrapper" frag="窗口2" portletmode="simpleNews" configs="{'c8':'0','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'6','c2':'序号,标题,发布时间','c27':'320','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'320','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'20','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0'}">
+                  
+          <div class="swiper-slide">
+            <a href="/materials/2026/0309/c22819a619299/page.htm"><img class="swiper-slide-img" src="/_upload/article/images/fc/2d/57d61faa49b4ba7e0dc618c99e88/9e2ab072-3ce0-4e18-9169-dc589cbe0284.jpg" alt="" /></a>
+              <a class="swiper-title" href="/materials/2026/0309/c22819a619299/page.htm">扎实开展树立和践行正确政绩观学习教育</a>
+          </div>
+          
+          <div class="swiper-slide">
+            <a href="http://news.scut.edu.cn/2025/1105/c41a58551/page.htm"><img class="swiper-slide-img" src="/_upload/article/images/75/f9/8be968544cbaa96cb018f5f93d4c/a72c3ed7-f9d5-4acb-b832-15f550d0c139.jpg" alt="" /></a>
+              <a class="swiper-title" href="http://news.scut.edu.cn/2025/1105/c41a58551/page.htm">七秩铸材开物　卅载淬华成章　材料学科73周年暨学院成立30周年发展论坛举行</a>
+          </div>
+          
+          <div class="swiper-slide">
+            <a href="http://news.scut.edu.cn/2025/1105/c41a58552/page.htm"><img class="swiper-slide-img" src="/_upload/article/images/9b/bf/f73548c04f0fb5fb9cca46b96e51/0112eb42-7447-4035-8daf-23ca791af0aa.jpg" alt="" /></a>
+              <a class="swiper-title" href="http://news.scut.edu.cn/2025/1105/c41a58552/page.htm">开门编规划　广纳专家言　材料科学与工程学院举行“十五五”规划研讨会</a>
+          </div>
+          
+        
+      </div>
+      <div class="swiper-box">
+        <a class="swiper-more" href="/materials/cyjj/list.htm" target="_blank">more+</a>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <div class="platform">
+      
+      <div class="container platform-container">
+  <a class="platform-item" href="/materials/2026/0304/c46181a618967/page.htm" target="_blank">
+        <img class="platform-icon" src="/_upload/tpl/0e/d8/3800/template3800/images/yzxx.png" alt="" />
+        <div class="platform-title">院长信箱</div>
+      </a>
+        <a class="platform-item" href="/materials/wqts/list.htm" target="_blank">
+        <img class="platform-icon" src="/_upload/tpl/0e/d8/3800/template3800/images/wqts.png" alt="" />
+        <div class="platform-title">维权投诉</div>
+      </a>
+      <a class="platform-item" href="http://222.16.4.94:8080/eqmgr" target="_blank">
+        <img class="platform-icon" src="/_upload/tpl/0e/d8/3800/template3800/images/dxyqyy.png" alt="" />
+        <div class="platform-title">大型仪器预约</div>
+      </a>
+      <a class="platform-item" href="http://clsyaq.7o.cas.scut.edu.cn/" target="_blank">
+        <img class="platform-icon" src="/_upload/tpl/0e/d8/3800/template3800/images/hysyy.png" alt="" />
+        <div class="platform-title">会议室预约</div>
+      </a>
+      <a class="platform-item" href="/materials/dsjswzsjz/list.htm" target="_blank">
+        <img class="platform-icon" src="/_upload/tpl/0e/d8/3800/template3800/images/dsjs.png" alt="" />
+        <div class="platform-title">招生简章</div>
+      </a>
+      <!-- <a class="platform-item" href="javascript:void(0)">
+        <img class="platform-icon" src="/_upload/tpl/0e/d8/3800/template3800/images/syaqpx.png" alt="" />
+        <div class="platform-title">实验安全培训</div>
+      </a> -->
+      <a class="platform-item" href="/materials/bslc/list.htm" target="_blank">
+        <img class="platform-icon" src="/_upload/tpl/0e/d8/3800/template3800/images/bslc.png" alt="" />
+        <div class="platform-title">办事流程</div>
+      </a>
+      <a class="platform-item" href="/materials/gzzd_23539/list.htm" target="_blank">
+        <img class="platform-icon" src="/_upload/tpl/0e/d8/3800/template3800/images/gzzd.png" alt="" />
+        <div class="platform-title">规章制度</div>
+      </a>
+      <a class="platform-item" href="http://jjh.psuo6.cas.scut.edu.cn:8080/funditem/online/index/materialDonate.jsp" target="_blank">
+        <img class="platform-icon" src="/_upload/tpl/0e/d8/3800/template3800/images/xyjz.png" alt="" />
+        <div class="platform-title">校友捐赠</div>
+      </a>
+    <!--  <a class="platform-item" href="/materials/bmtp/list.htm" target="_blank">
+        <img class="platform-icon" src="/_upload/tpl/0e/d8/3800/template3800/images/bmtp.png" alt="" />
+        <div class="platform-title">报名投票</div>
+      </a>
+      <a class="platform-item" href="/materials/hylt/list.htm" target="_blank">
+        <img class="platform-icon" src="/_upload/tpl/0e/d8/3800/template3800/images/hylt.png" alt="" />
+        <div class="platform-title">会议论坛</div>
+      </a>
+      <a class="platform-item" href="http://clsyaq.7o.cas.scut.edu.cn/front/apply" target="_blank">
+        <img class="platform-icon" src="/_upload/tpl/0e/d8/3800/template3800/images/yysq.png" alt="">
+        <div class="platform-title">用印申请</div>
+      </a> -->
+      </div>
+    </div>
+    <div class="clear-float"></div>
+
+    <div class="container4 focus-bg">
+      <div class="container2">
+        <div class="title-center">
+             <div class="text-center">
+          <div class="gen-title">
+            <span style="color: #000000">学院</span
+            ><span style="color: #871519">焦点</span>
+          </div>
+          <div class="title_under_line">
+            <div class="title_under_line_center"></div>
+          </div>
+        </div>
+        <div class="tab-more focus-more">
+          <a class="notice-more-text" href="/materials/xyjd/list.htm" target="_blank">
+            MORE+
+          </a>
+        </div>
+        </div>
+      </div>
+      <div class="container2" frag="面板4">
+        <div frag="窗口4" portletmode="simpleNews" configs="{'c8':'0','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'3','c2':'序号,标题,发布时间,缩略图路径,简介','c27':'320','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'320','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'150','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'30','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'0','c13':'200','c41':'240'}" contents="{'c2':'0'}">
+          	          
+            <div class="focus-above focus-above-show">
+              <div class="focus-left">
+                <a href="/materials/2026/0916/c22815a635466/page.htm" target="_blank"><img src="/_upload/article/images/aa/43/5483e14f46c79f4ed9d00d5d3b62/45b55968-259f-48dd-94c9-d5e00122e070.jpg" /></a>
+              </div>
+              <div class="focus-right">
+                <div class="focus-date">2026-09-16</div>
+                <a href="/materials/2026/0916/c22815a635466/page.htm" target="_blank"><div class="focus-title">深化产学研协同创新 广东鼎泰高科技术股份...</div></a>
+                <a href="/materials/2026/0916/c22815a635466/page.htm" target="_blank"><div class="focus-content">9月12日，广东鼎泰高科技术股份有限公司总裁、华工校友林侠一行来访华工。学校党委常委、副校长林艺文在大学城校区接待来访，双方围绕关键技术联合攻...</div></a>
+                <div class="focus-page">
+                  <div class="focus-arrow">
+                    <div class="focus-arrow-left"></div>
+                    <div class="focus-arrow-right"></div>
+                  </div>
+                  <div class="focus-page-num">
+                    <div class="focus-curr-num">1</div>
+                    <div class="focus-total-num">/3</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="focus-above focus-above-show">
+              <div class="focus-left">
+                <a href="http://news.scut.edu.cn/2026/0829/c41a60452/page.htm" target="_blank"><img src="/_upload/article/images/b7/e9/f8269e584fe580f6df065b2190e4/5b932553-c5be-40d4-8e9d-7e0110859da0.jpg" /></a>
+              </div>
+              <div class="focus-right">
+                <div class="focus-date">2026-09-03</div>
+                <a href="http://news.scut.edu.cn/2026/0829/c41a60452/page.htm" target="_blank"><div class="focus-title">【转载】推动先进核能领域产学研深度融合　...</div></a>
+                <a href="http://news.scut.edu.cn/2026/0829/c41a60452/page.htm" target="_blank"><div class="focus-content">8月26日，国家电力投资集团钍基能源科技有限公司（以下简称国电投钍基能源公司）董事长叶元伟一行访问华南理工大学，学校校长杨中民会见来宾。双方就...</div></a>
+                <div class="focus-page">
+                  <div class="focus-arrow">
+                    <div class="focus-arrow-left"></div>
+                    <div class="focus-arrow-right"></div>
+                  </div>
+                  <div class="focus-page-num">
+                    <div class="focus-curr-num">2</div>
+                    <div class="focus-total-num">/3</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="focus-above focus-above-show">
+              <div class="focus-left">
+                <a href="https://mp.weixin.qq.com/s/0Hze88i9TM344wfsgG9rsQ" target="_blank"><img src="/_upload/article/images/b4/8c/7a26327b4322b1770d5078d558b2/6f3e01c9-addf-4841-b7e3-f2f2e011981f.jpg" /></a>
+              </div>
+              <div class="focus-right">
+                <div class="focus-date">2026-08-19</div>
+                <a href="https://mp.weixin.qq.com/s/0Hze88i9TM344wfsgG9rsQ" target="_blank"><div class="focus-title">转载：《焦点访谈》报道！这家华南理工教授...</div></a>
+                <a href="https://mp.weixin.qq.com/s/0Hze88i9TM344wfsgG9rsQ" target="_blank"><div class="focus-content">近日，中央电视台《焦点访谈》栏目播出《开局“新”力量》系列节目第2集——《两创融合 向新向优》。节目中采访报道的广州市艾佛光通科技有限公司（以下...</div></a>
+                <div class="focus-page">
+                  <div class="focus-arrow">
+                    <div class="focus-arrow-left"></div>
+                    <div class="focus-arrow-right"></div>
+                  </div>
+                  <div class="focus-page-num">
+                    <div class="focus-curr-num">3</div>
+                    <div class="focus-total-num">/3</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          
+        </div>
+        <div frag="面板5">
+          <div class="focus-below" frag="窗口5" portletmode="simpleNews" configs="{'c8':'0','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'3','c2':'序号,标题,发布时间,缩略图路径','c27':'320','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'320','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'30','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0'}">
+                          
+              <a class="focus-below-item" data-index="1" href="/materials/2026/0916/c22815a635466/page.htm" target="_blank">
+                <img class="focus-below-item-image" src="/_upload/article/images/aa/43/5483e14f46c79f4ed9d00d5d3b62/45b55968-259f-48dd-94c9-d5e00122e070_s.jpg"/>
+                <div class="focus-below-item-content">
+                  <div class="focus-below-item-date">2026-09-16</div>
+                  <div class="focus-below-item-title">深化产学研协同创新 广东鼎泰高科技术股份有限公司来校交流</div>
+                </div>
+              </a>
+              
+              <a class="focus-below-item" data-index="2" href="http://news.scut.edu.cn/2026/0829/c41a60452/page.htm" target="_blank">
+                <img class="focus-below-item-image" src="/_upload/article/images/b7/e9/f8269e584fe580f6df065b2190e4/5b932553-c5be-40d4-8e9d-7e0110859da0_s.jpg"/>
+                <div class="focus-below-item-content">
+                  <div class="focus-below-item-date">2026-09-03</div>
+                  <div class="focus-below-item-title">【转载】推动先进核能领域产学研深度融合　国电投钍基能源公司来...</div>
+                </div>
+              </a>
+              
+              <a class="focus-below-item" data-index="3" href="https://mp.weixin.qq.com/s/0Hze88i9TM344wfsgG9rsQ" target="_blank">
+                <img class="focus-below-item-image" src="/_upload/article/images/b4/8c/7a26327b4322b1770d5078d558b2/6f3e01c9-addf-4841-b7e3-f2f2e011981f_s.jpg"/>
+                <div class="focus-below-item-content">
+                  <div class="focus-below-item-date">2026-08-19</div>
+                  <div class="focus-below-item-title">转载：《焦点访谈》报道！这家华南理工教授创立的公司，让更多“...</div>
+                </div>
+              </a>
+              
+              <!-- <div class="focus-below-item" data-index="1">
+                <img class="focus-below-item-image" src="/_upload/tpl/0e/d8/3800/template3800/./images/focus.png"/>
+                <div class="focus-below-item-content">
+                  <div class="focus-below-item-date">2022-11-11</div>
+                  <div class="focus-below-item-title">黄飞/李宁教授团队在Nature Energy报道有机太阳电池材料设计新思路</div>
+                </div>
+              </div>
+              <div class="focus-below-item" data-index="2">
+                <img class="focus-below-item-image" src="/_upload/tpl/0e/d8/3800/template3800/./images/focus.png"/>
+                <div class="focus-below-item-content">
+                  <div class="focus-below-item-date">2022-11-11</div>
+                  <div class="focus-below-item-title">黄飞/李宁教授团队在Nature Energy报道有机太阳电池材料设计新思路</div>
+                </div>
+              </div> -->
+            
+          </div>
+        </div>
+      </div>
+        
+     <!-- <div class="text-center row-center mt40 focus-more" style="margin-bottom: 60px">
+        <a href="/materials/xyjd/list.htm"
+          ><span class="more"
+            >查看更多<img
+              class="more-arrow"
+              src="/_upload/tpl/0e/d8/3800/template3800/images/arrow.png" /></span
+        ></a>
+      </div> -->
+    </div>
+
+  <!-- 学术预告 内容已去除 -->
+
+    <div class="container4 notice-bg">
+      <div class="container2">
+        <div class="text-center">
+          <div class="gen-title">
+            <span style="color: #000000">各类</span
+            ><span style="color: #871519">通知</span>
+          </div>
+          <div class="title_under_line">
+            <div class="title_under_line_center"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container2 notice-container column-center mt40">
+        <div class="container2 tabs-head">
+          <div class="tabs">
+            <div class="tab tab-selected" id="plan1" onMouseMove="showplan(1,5,1)">
+              院务通知
+              <div class="tab-line"></div>
+            </div>
+            <div class="tab" id="plan2" onMouseMove="showplan(1,5,2)">
+              本科生教务
+              <div class="tab-line"></div>
+            </div>
+            <div class="tab" id="plan3" onMouseMove="showplan(1,5,3)">
+              研究生教务
+              <div class="tab-line"></div>
+            </div>
+            <div class="tab" id="plan4" onMouseMove="showplan(1,5,4)">
+              科研通知
+              <div class="tab-line"></div>
+            </div>
+            <div class="tab" id="plan5" onMouseMove="showplan(1,5,5)">
+              学生工作
+              <div class="tab-line"></div>
+            </div>
+          </div>
+          <div class="tab-more notice-tab-more">
+            <a id="more1" class="notice-more-text" href="/materials/22783/list.htm" target="_blank">
+              MORE+
+            </a>
+            <a id="more2" class="notice-more-text" href="/materials/22784/list.htm" style="display:none;">
+              MORE+
+            </a>
+            <a id="more3" class="notice-more-text" href="/materials/22785/list.htm" style="display:none;">
+              MORE+
+            </a>
+            <a id="more4" class="notice-more-text" href="/materials/kytz/list.htm" style="display:none;">
+              MORE+
+            </a>
+            <a id="more5" class="notice-more-text" href="/materials/22775/list.htm" style="display:none;">
+              MORE+
+            </a>
+          </div>
+        </div>
+        <div frag="面板22" class="notice-panel" id="searchplan1">
+          <div class="tab-list" frag="窗口22" portletmode="simpleNews" configs="{'c8':'0','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'6','c2':'序号,标题,发布时间','c27':'320','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'320','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'40','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0'}">
+                          
+              <a class="tab-item" href="/materials/2026/0907/c22783a634606/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于拟聘用安康等人的公示
+                </div>
+                <div class="tab-item-date">2026-09-07</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0907/c22783a634602/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  材料科学与工程学院关于开展爱国卫生运动的通知
+                </div>
+                <div class="tab-item-date">2026-09-07</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0901/c22783a634160/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于开展“与你相约”联系日安排的通知
+                </div>
+                <div class="tab-item-date">2026-09-01</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0831/c22783a634053/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于公示专职研究系列人员聘期考核材料的通知
+                </div>
+                <div class="tab-item-date">2026-08-31</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0813/c22783a633464/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于举办第六届核电站材料与可靠性国际研讨会的通知
+                </div>
+                <div class="tab-item-date">2026-08-13</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0529/c22783a628240/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  材料科学与工程学院关于开展爱国卫生运动的通知
+                </div>
+                <div class="tab-item-date">2026-05-29</div>
+              </a>
+              
+            
+          </div>
+        </div>
+        <div frag="面板23" class="notice-panel" id="searchplan2" style="display:none;">
+          <div class="tab-list" frag="窗口23" portletmode="simpleNews" configs="{'c8':'0','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'6','c2':'序号,标题,发布时间','c27':'320','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'320','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'40','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0'}">
+            
+              
+              <a class="tab-item" href="/materials/2026/0915/c22784a635420/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于公示2026年9月结业换发毕业证 拟毕业和拟授予学士学位申请人名单的通知
+                </div>
+                <div class="tab-item-date">2026-09-15</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0825/c22784a633725/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于2023级材料类（创新班）预推免学生名单的补充公示
+                </div>
+                <div class="tab-item-date">2026-08-25</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0720/c22784a632732/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于公示2023级材料类（创新班）预推免学生名单的通知
+                </div>
+                <div class="tab-item-date">2026-07-20</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0718/c22784a632685/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  材料科学与工程学院关于公示2026届本科生第三批次拟授予学士学位名单的通知
+                </div>
+                <div class="tab-item-date">2026-07-18</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0701/c22784a631154/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  材料科学与工程学院关于公示2026届本科生第二批次拟授予学士学位名单的通知
+                </div>
+                <div class="tab-item-date">2026-07-01</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0602/c22784a628501/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  材料科学与工程学院关于公示2026届本科生第一批次拟授予学士学位名单的通知
+                </div>
+                <div class="tab-item-date">2026-06-05</div>
+              </a>
+              
+            
+          </div>
+        </div>
+        <div frag="面板24" class="notice-panel" id="searchplan3" style="display:none;">
+          <div class="tab-list" frag="窗口24" portletmode="simpleNews" configs="{'c8':'0','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'6','c2':'序号,标题,发布时间','c27':'320','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'320','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'40','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0'}">
+            
+              
+              <a class="tab-item" href="/materials/2026/0707/c22785a631630/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于公示2026年省公派项目的申请人员名单
+                </div>
+                <div class="tab-item-date">2026-07-07</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0629/c22785a630992/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于专业学位博士研究生毕业（学位）论文送审资格审核通过名单公示
+                </div>
+                <div class="tab-item-date">2026-06-30</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2025/0914/c22785a602432/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  2025-2026学年度第一学期2025级全日制硕士专业课表（材料学院）
+                </div>
+                <div class="tab-item-date">2025-09-14</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2025/0227/c22785a579684/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  2024-2025学年度第二学期 2024级全日制硕士专业课课表
+                </div>
+                <div class="tab-item-date">2025-02-27</div>
+              </a>
+              
+            
+          </div>
+        </div>
+        <div frag="面板25" class="notice-panel" id="searchplan4" style="display:none;">
+          <div class="tab-list" frag="窗口25" portletmode="simpleNews" configs="{'c8':'0','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'6','c2':'序号,标题,发布时间','c27':'320','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'320','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'40','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0'}">
+            
+              
+              <a class="tab-item" href="/_redirect?siteId=42&columnId=22698&articleId=329790" target="_blank">
+                <div class="tab-item-title">
+                  <font style='color:#AA4400;'>科技处“重要通知”入口</font>
+                </div>
+                <div class="tab-item-date">2018-03-29</div>
+              </a>
+              
+              <a class="tab-item" href="/_redirect?siteId=42&columnId=22698&articleId=329791" target="_blank">
+                <div class="tab-item-title">
+                  <font style='color:#AA4400;'>成果转化办“重要通知”入口</font>
+                </div>
+                <div class="tab-item-date">2018-09-26</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2025/1120/c22698a610658/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于2026年中国科协青年科技人才培育工程博士生专项计划的公示
+                </div>
+                <div class="tab-item-date">2026-09-16</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0831/c22698a634080/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于开展2026年中国科协青年科技人才培育工程博士生专项计划的通知
+                </div>
+                <div class="tab-item-date">2026-08-31</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0801/c22698a633240/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于组织申报2026年度国家自然科学基金青年学生基础研究项目（博士研究生）的通知
+                </div>
+                <div class="tab-item-date">2026-08-01</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0602/c22698a628485/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于组织申报2026年度中央高校基本科研业务费项目（自然科学类）的通知
+                </div>
+                <div class="tab-item-date">2026-06-03</div>
+              </a>
+              
+            
+          </div>
+        </div>
+        <div frag="面板26" class="notice-panel" id="searchplan5" style="display:none;">
+          <div class="tab-list" frag="窗口26" portletmode="simpleNews" configs="{'c8':'0','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'6','c2':'序号,标题,发布时间','c27':'320','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'320','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'40','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0'}">
+            
+              
+              <a class="tab-item" href="/materials/2026/0916/c22775a635658/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于做好2026年研究生社会捐赠奖学金申请表评审工作的通知
+                </div>
+                <div class="tab-item-date">2026-09-16</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0916/c22775a635627/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  材料科学与工程学院关于2026学年度家庭经济困难本科学生拟认定名单的公示
+                </div>
+                <div class="tab-item-date">2026-09-16</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0912/c22775a635148/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于开展2026年硕士研究生国家奖学金评审工作的通知
+                </div>
+                <div class="tab-item-date">2026-09-12</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0912/c22775a635147/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于开展2026年博士研究生国家奖学金评审工作的通知
+                </div>
+                <div class="tab-item-date">2026-09-12</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0910/c22775a634936/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于公示材料学院2026年学生暑期社会实践活动先进个人（含校级先进个人推荐名单）的通...
+                </div>
+                <div class="tab-item-date">2026-09-10</div>
+              </a>
+              
+              <a class="tab-item" href="/materials/2026/0907/c22775a634643/page.htm" target="_blank">
+                <div class="tab-item-title">
+                  关于公示材料学院2025-2026学年优秀学生骨干（第二批）名单的通知
+                </div>
+                <div class="tab-item-date">2026-09-07</div>
+              </a>
+              
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container4 view-bg">
+      <div class="container2 mt40">
+        <div class="text-center">
+          <div class="view-title">
+            数说材院
+          </div>
+        </div>
+      </div>
+      <div class="container2 mt40">
+        <div class="num-view-list">
+          <div class="num-view-item">
+            <a href="http://www2.scut.edu.cn/materials/jcdb/list.htm" target="_blank">
+               <div class="num-view-item-num" data-counterupNums="63">63</div>
+               <div class="num-view-item-label">国家级人才</div>
+            </a>
+          </div>
+          <div class="num-view-item">
+ <a href="http://www2.scut.edu.cn/materials/szdw/list.htm" target="_blank">
+            <div class="num-view-item-num" data-counterupNums="197">197</div>
+            <div class="num-view-item-label">专任教师</div>
+ </a>
+          </div>
+          <div class="num-view-item">
+            <div class="num-view-item-num"  data-counterupNums="3697">3697</div>
+            <div class="num-view-item-label">在校学生</div>
+          </div>
+          <div class="num-view-item mt24">
+            <div class="num-view-item-num" data-counterupNums="91">91</div>
+            <div class="num-view-item-label">博士后</div>
+          </div>
+          <div class="num-view-item mt24">
+            <div class="num-view-item-num" data-counterupNums="20">3</div>
+            <div class="num-view-item-label">国家级一流本科专业</div>
+          </div>
+          <div class="num-view-item mt24">
+ <a href="http://www2.scut.edu.cn/materials/kypt/list.htm" target="_blank">
+            <div style="display:flex;justify-content: center;">
+            <div class="num-view-item-num" data-counterupNums="2">2</div>
+            <div style="height: 70px;font-size: 48px;font-weight: 700;color: #FFFFFF;line-height: 70px;">/</div>
+            <div class="num-view-item-num" data-counterupNums="27">27</div>
+            </div>
+            <div class="num-view-item-label">国家级/省部级科研平台</div>
+ </a>
+          </div>
+        </div>
+      </div>
+      <div class="container2 mt80 forum">
+        <div class="text-center">
+          <div class="view-title">麟鸿论坛</div>
+        </div>
+        <div class="tab-more introduction-more tab-more-bg-color">
+          <a
+            class="notice-more-text"
+            href="/materials/_t3800/xsyg/list.htm"
+            target="_blank"
+          >
+            MORE+
+          </a>
+        </div>
+      </div>
+      
+       <div class="container4 preview-bg">
+      <div class="forum-container container2" frag="面板6">
+        <div class="swiper-wrapper  preview-list" frag="窗口6" portletmode="simpleNews"
+          configs="{'c8':'0','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'3','c2':'序号,标题,发布时间,简介','c27':'320','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'320','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'35','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'25','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'0','c13':'200','c41':'240'}"
+          contents="{'c2':'0'}">
+           
+            <a href="/materials/2026/0911/c22699a635035/page.htm" target="_blank" class="swiper-slide">
+              <div class="preview-item">
+                <div class="private-item-left">
+                  <div class="private-item-date" data-date="2026-09-11"  data-subdate="<a href='/materials/2026/0911/c22699a635035/page.htm' target='_blank' title='2026-09-17'>2026-09-17</a>">03/08</div>
+                  <div class="private-item-year" data-date="2026-09-11"  data-subdate="<a href='/materials/2026/0911/c22699a635035/page.htm' target='_blank' title='2026-09-17'>2026-09-17</a>">2023</div>
+                  <div class="private-item-day" data-date="2026-09-11" data-subdate="<a href='/materials/2026/0911/c22699a635035/page.htm' target='_blank' title='2026-09-17'>2026-09-17</a>">星期三</div>
+                </div>
+                <div class="preview-item-split"></div>
+                <div class="private-item-right">
+                  <div class="private-item-title">【“麟鸿论坛”第165场】关于举行大连理工大学韩宝国...</div>
+                  <div class="private-item-local">时间：10：00
+地点：14号楼205会议室
+
+</div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/materials/2026/0724/c22699a633056/page.htm" target="_blank" class="swiper-slide">
+              <div class="preview-item">
+                <div class="private-item-left">
+                  <div class="private-item-date" data-date="2026-07-24"  data-subdate="<a href='/materials/2026/0724/c22699a633056/page.htm' target='_blank' title='2026-08-04'>2026-08-04</a>">03/08</div>
+                  <div class="private-item-year" data-date="2026-07-24"  data-subdate="<a href='/materials/2026/0724/c22699a633056/page.htm' target='_blank' title='2026-08-04'>2026-08-04</a>">2023</div>
+                  <div class="private-item-day" data-date="2026-07-24" data-subdate="<a href='/materials/2026/0724/c22699a633056/page.htm' target='_blank' title='2026-08-04'>2026-08-04</a>">星期三</div>
+                </div>
+                <div class="preview-item-split"></div>
+                <div class="private-item-right">
+                  <div class="private-item-title">【“麟鸿论坛”第164场】新加坡国立大学耿国庆教授：T...</div>
+                  <div class="private-item-local">时间：2026年8月4日（星期二）14:30
+地点：五山校区14号楼205会议室</div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/materials/2026/0720/c22699a632751/page.htm" target="_blank" class="swiper-slide">
+              <div class="preview-item">
+                <div class="private-item-left">
+                  <div class="private-item-date" data-date="2026-07-20"  data-subdate="<a href='/materials/2026/0720/c22699a632751/page.htm' target='_blank' title='2026-07-29'>2026-07-29</a>">03/08</div>
+                  <div class="private-item-year" data-date="2026-07-20"  data-subdate="<a href='/materials/2026/0720/c22699a632751/page.htm' target='_blank' title='2026-07-29'>2026-07-29</a>">2023</div>
+                  <div class="private-item-day" data-date="2026-07-20" data-subdate="<a href='/materials/2026/0720/c22699a632751/page.htm' target='_blank' title='2026-07-29'>2026-07-29</a>">星期三</div>
+                </div>
+                <div class="preview-item-split"></div>
+                <div class="private-item-right">
+                  <div class="private-item-title">【“麟鸿论坛”第163场】 牛津大学Robert L. Z. Hoye...</div>
+                  <div class="private-item-local">时间：2026年7月29日（星期三）下午14:00
+地点：北区科技园1号楼501...</div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/materials/2026/0713/c22699a632168/page.htm" target="_blank" class="swiper-slide">
+              <div class="preview-item">
+                <div class="private-item-left">
+                  <div class="private-item-date" data-date="2026-07-13"  data-subdate="<a href='/materials/2026/0713/c22699a632168/page.htm' target='_blank' title='2026-07-16'>2026-07-16</a>">03/08</div>
+                  <div class="private-item-year" data-date="2026-07-13"  data-subdate="<a href='/materials/2026/0713/c22699a632168/page.htm' target='_blank' title='2026-07-16'>2026-07-16</a>">2023</div>
+                  <div class="private-item-day" data-date="2026-07-13" data-subdate="<a href='/materials/2026/0713/c22699a632168/page.htm' target='_blank' title='2026-07-16'>2026-07-16</a>">星期三</div>
+                </div>
+                <div class="preview-item-split"></div>
+                <div class="private-item-right">
+                  <div class="private-item-title">【麟鸿论坛第 162 期】Erick Carreira 教授学术报告会...</div>
+                  <div class="private-item-local">时间：2026年7月16日
+地点：8:30—12:00 逸夫科学馆
+         14:00...</div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/materials/2026/0701/c22699a631147/page.htm" target="_blank" class="swiper-slide">
+              <div class="preview-item">
+                <div class="private-item-left">
+                  <div class="private-item-date" data-date="2026-07-01"  data-subdate="<a href='/materials/2026/0701/c22699a631147/page.htm' target='_blank' title='2026-07-10'>2026-07-10</a>">03/08</div>
+                  <div class="private-item-year" data-date="2026-07-01"  data-subdate="<a href='/materials/2026/0701/c22699a631147/page.htm' target='_blank' title='2026-07-10'>2026-07-10</a>">2023</div>
+                  <div class="private-item-day" data-date="2026-07-01" data-subdate="<a href='/materials/2026/0701/c22699a631147/page.htm' target='_blank' title='2026-07-10'>2026-07-10</a>">星期三</div>
+                </div>
+                <div class="preview-item-split"></div>
+                <div class="private-item-right">
+                  <div class="private-item-title">【“麟鸿论坛”第161场】西北工业大学顾军渭教授：导...</div>
+                  <div class="private-item-local">时间：2026年7月10日9:30-11:00
+地点：国际校区C2a-201</div>
+                </div>
+              </div>
+            </a>
+            
+            <a href="/materials/2026/0602/c22699a629936/page.htm" target="_blank" class="swiper-slide">
+              <div class="preview-item">
+                <div class="private-item-left">
+                  <div class="private-item-date" data-date="2026-06-14"  data-subdate="<a href='/materials/2026/0602/c22699a629936/page.htm' target='_blank' title='2026-06-22'>2026-06-22</a>">03/08</div>
+                  <div class="private-item-year" data-date="2026-06-14"  data-subdate="<a href='/materials/2026/0602/c22699a629936/page.htm' target='_blank' title='2026-06-22'>2026-06-22</a>">2023</div>
+                  <div class="private-item-day" data-date="2026-06-14" data-subdate="<a href='/materials/2026/0602/c22699a629936/page.htm' target='_blank' title='2026-06-22'>2026-06-22</a>">星期三</div>
+                </div>
+                <div class="preview-item-split"></div>
+                <div class="private-item-right">
+                  <div class="private-item-title">【“麟鸿论坛”第160场】香港城市大学张树君教授学术...</div>
+                  <div class="private-item-local">时间：2026年6月22日10:00
+地点：逸夫科学馆2楼报告厅
+</div>
+                </div>
+              </div>
+            </a>
+            
+          
+        </div>
+
+      </div>
+<div class="forum-pagination"></div>
+ <div class="swiper-button-prev forum-swiper-button-prev"></div><!--左箭头。如果放置在swiper外面，需要自定义样式。-->
+    <div class="swiper-button-next forum-swiper-button-next"></div><!--右箭头。如果放置在swiper外面，需要自定义样式。-->
+    </div>
+    </div>
+    <div class="container4  introduction-bg">
+      <div class="main-container">
+         <div class="container2">
+           <div class="title-center">
+                 <div class="text-center">
+          <div class="gen-title">
+            <span style="color: #000000">导师</span
+            ><span style="color: #871519">介绍</span>
+          </div>
+          <div class="title_under_line">
+            <div class="title_under_line_center"></div>
+          </div>
+        </div>
+        <div class="tab-more introduction-more">
+          <a class="notice-more-text" href="/materials/_t3800/dsjs/list.htm" target="_blank">
+            MORE+
+          </a>
+        </div>
+           </div>
+       
+      </div>
+     
+       <div class="introduction-container mt40" frag="面板20">
+      <div class="swiper-wrapper  introduction-page" id="introduction-page" frag="窗口20">
+         
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/64/c2/c45b4952434b8f925ed260773fb9/d55a1ba6-385b-4cc4-be46-e1db368ab073.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/33/c5/0826ddf341b6bd46b3b9d8b125db/e3aa9e12-750f-45df-b11b-a7c77ae79b77_s.png" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/64/c2/c45b4952434b8f925ed260773fb9/d55a1ba6-385b-4cc4-be46-e1db368ab073.pdf' target='_blank' title='王迎军'>王迎军</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/64/c2/c45b4952434b8f925ed260773fb9/d55a1ba6-385b-4cc4-be46-e1db368ab073.pdf' target='_blank' title='王迎军'>教授，博士生导师，中国工程院院士，国家人体组织功能重建工程技术研究中心主任，生物医学科...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/b9/81/f222f40940ffa255695bebf1a68b/74142acd-13b4-4871-aa32-16bd7c687daa.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/1b/ca/48af11a04c6e992d692b823c2d73/770dba51-db5f-409f-84e5-a591d33c9a83_s.png" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/b9/81/f222f40940ffa255695bebf1a68b/74142acd-13b4-4871-aa32-16bd7c687daa.pdf' target='_blank' title='张立群'>张立群</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/b9/81/f222f40940ffa255695bebf1a68b/74142acd-13b4-4871-aa32-16bd7c687daa.pdf' target='_blank' title='张立群'>教授，博士生导师，中国工程院院士，华南理工大学校长</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/ae/03/11fe0c084cffa5497d902ddd015f/6333fc07-d9e1-44c3-8c4d-40a50c67515d.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/fd/3d/190224d949d3b14f33eddf422602/a438322e-5086-4b2f-925e-717a5ff51697_s.png" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/ae/03/11fe0c084cffa5497d902ddd015f/6333fc07-d9e1-44c3-8c4d-40a50c67515d.pdf' target='_blank' title='曹镛'>曹镛</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/ae/03/11fe0c084cffa5497d902ddd015f/6333fc07-d9e1-44c3-8c4d-40a50c67515d.pdf' target='_blank' title='曹镛'>教授，博士生导师，中国科学院院士</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/3e/89/eaa411d54029914e81b1bbc9696f/f966497f-168d-4d29-ad6f-57675481ab7e.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/40/b3/34bb4d234211beabe752dc89536a/56d1b42d-aad8-46f0-9760-0d6c45947608_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/3e/89/eaa411d54029914e81b1bbc9696f/f966497f-168d-4d29-ad6f-57675481ab7e.pdf' target='_blank' title='马於光'>马於光</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/3e/89/eaa411d54029914e81b1bbc9696f/f966497f-168d-4d29-ad6f-57675481ab7e.pdf' target='_blank' title='马於光'>教授，博士生导师，中国科学院院士，国家杰出青年基金获得者，教育部“长江学者”特聘教授，...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/93/84/b2b00f844de5b0159984517ea7f0/1206ba2b-b4ae-4f14-903d-3f1ba26e3b36.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/11/bd/9bf0883f4569b1f5f39718356583/af7b8998-c9b1-4d64-a397-30736e5d27b2_s.png" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/93/84/b2b00f844de5b0159984517ea7f0/1206ba2b-b4ae-4f14-903d-3f1ba26e3b36.pdf' target='_blank' title='韩恩厚'>韩恩厚</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/93/84/b2b00f844de5b0159984517ea7f0/1206ba2b-b4ae-4f14-903d-3f1ba26e3b36.pdf' target='_blank' title='韩恩厚'>教授，博士生导师，中国工程院院士，关键装备腐蚀控制技术研究中心主任，中国腐蚀控制产业技...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/5b/37/678db7d04745aa278380239bc450/88aa396c-922d-4226-97d6-1ed56e06ac8b.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/7f/c8/5c4846144ea5a8236fd9581ed50e/8695d4a7-b5c5-4ada-bae7-b3d09041c143_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/5b/37/678db7d04745aa278380239bc450/88aa396c-922d-4226-97d6-1ed56e06ac8b.pdf' target='_blank' title='朱敏'>朱敏</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/5b/37/678db7d04745aa278380239bc450/88aa396c-922d-4226-97d6-1ed56e06ac8b.pdf' target='_blank' title='朱敏'>教授，博士生导师，国家杰出青年科学基金获得者，教育部长江学者特聘教授，973首席科学家，...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/22/96/6987a7e44ffa99af6e727d97df4c/706ad228-3194-4916-9383-3651a17416f0.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/40/c6/39820c454a6dbd0bdcb5039ddb6f/0d194696-3105-4887-922c-18405a0e3cf3_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/22/96/6987a7e44ffa99af6e727d97df4c/706ad228-3194-4916-9383-3651a17416f0.pdf' target='_blank' title='张广照'>张广照</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/22/96/6987a7e44ffa99af6e727d97df4c/706ad228-3194-4916-9383-3651a17416f0.pdf' target='_blank' title='张广照'>教授，博士生导师，教育部长江学者特聘教授，国家杰出青年基金获得者</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/cf/64/eb4c369c4931b67fc122ebd67a92/9ddb8921-0bdb-4ff1-880c-558a1abdb5e8.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/5e/d4/8b409fc24089932b539d89e8a462/1ea9ed18-52ef-4cc1-ad12-00b87e7a1905_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/cf/64/eb4c369c4931b67fc122ebd67a92/9ddb8921-0bdb-4ff1-880c-558a1abdb5e8.pdf' target='_blank' title='张勤远'>张勤远</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/cf/64/eb4c369c4931b67fc122ebd67a92/9ddb8921-0bdb-4ff1-880c-558a1abdb5e8.pdf' target='_blank' title='张勤远'>教授，博士生导师，国家杰出青年基金获得者，教育部“长江学者”特聘教授，国家“万人计划”...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/ee/7f/6926d1c34fe9b0c57766d3ba0345/b46dc8d4-9dfb-4e63-a834-dde79db4bc40.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/bc/d1/a8ec1d794f36b2d8598db32a7ec2/79b6e80a-f72c-4e1d-9f1a-709cf4bf783e_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/ee/7f/6926d1c34fe9b0c57766d3ba0345/b46dc8d4-9dfb-4e63-a834-dde79db4bc40.pdf' target='_blank' title='黄飞'>黄飞</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/ee/7f/6926d1c34fe9b0c57766d3ba0345/b46dc8d4-9dfb-4e63-a834-dde79db4bc40.pdf' target='_blank' title='黄飞'>黄飞，教授，博士生导师、教育部长江学者特聘教授，国家杰出青年基金获得者，973首席科学家...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/a5/fa/ea3f43a44bf6bed5503f342f5763/9fdbe92a-3bb0-4695-a1b3-01c7e3c29d8c.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/a1/00/68314ecc476fa3edaa388739573f/24af6d69-3ade-4e6e-a3cb-511c5bd82a32_s.png" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/a5/fa/ea3f43a44bf6bed5503f342f5763/9fdbe92a-3bb0-4695-a1b3-01c7e3c29d8c.pdf' target='_blank' title='米绪军'>米绪军</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/a5/fa/ea3f43a44bf6bed5503f342f5763/9fdbe92a-3bb0-4695-a1b3-01c7e3c29d8c.pdf' target='_blank' title='米绪军'>教授级高级工程师，博士生导师</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/fc/8f/45bb782547b7925ba9150609f466/569e8194-72df-4b8a-a1e3-5b91b58b9039.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/50/d2/08be9e214155a2b2f0b6470ffcb5/29a8e3a2-19e3-4b7c-b445-84439d937548_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/fc/8f/45bb782547b7925ba9150609f466/569e8194-72df-4b8a-a1e3-5b91b58b9039.pdf' target='_blank' title='马东阁'>马东阁</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/fc/8f/45bb782547b7925ba9150609f466/569e8194-72df-4b8a-a1e3-5b91b58b9039.pdf' target='_blank' title='马东阁'>教授，博士生导师，入选中国科学院“百人计划”，国家杰出青年基金获得者，“新世纪百千万人...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/37/89/9b75ca404e329ef1b6b2feabf0a7/4ddad90f-3572-4529-8c1c-2a83cf5fa6bc.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/81/5d/bc6b96774e37ad7a70ad26860d2d/fe7a101a-e99e-4058-bdee-5901b79409c4_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/37/89/9b75ca404e329ef1b6b2feabf0a7/4ddad90f-3572-4529-8c1c-2a83cf5fa6bc.pdf' target='_blank' title='吴水珠'>吴水珠</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/37/89/9b75ca404e329ef1b6b2feabf0a7/4ddad90f-3572-4529-8c1c-2a83cf5fa6bc.pdf' target='_blank' title='吴水珠'>教授，博士生导师，国家杰出青年基金获得者</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/71/03/aef180314454aca994bb9f12bc46/97cad7aa-f9bd-4c21-8535-8c4d1e8723b5.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/82/45/14a6c0354caaae7425988870e6ae/f3d36800-e35a-4acf-bcd2-61980f796d7c_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/71/03/aef180314454aca994bb9f12bc46/97cad7aa-f9bd-4c21-8535-8c4d1e8723b5.pdf' target='_blank' title='陈军武'>陈军武</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/71/03/aef180314454aca994bb9f12bc46/97cad7aa-f9bd-4c21-8535-8c4d1e8723b5.pdf' target='_blank' title='陈军武'>教授，博士生导师，国家杰出青年科学基金获得者，广东省珠江学者特聘教授</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/51/28/20d0b12c479cad8a6d5077e42dee/62b9c385-19a0-4f92-957d-c13d455c2fac.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/97/19/a0426f434f0f8ec5d010cf1eabab/a3840213-136b-46df-8b2c-68eab4931c1f_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/51/28/20d0b12c479cad8a6d5077e42dee/62b9c385-19a0-4f92-957d-c13d455c2fac.pdf' target='_blank' title='王平'>王平</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/51/28/20d0b12c479cad8a6d5077e42dee/62b9c385-19a0-4f92-957d-c13d455c2fac.pdf' target='_blank' title='王平'>教授，博士生导师，中国科学院“百人计划”入选者，国家杰出青年基金获得者，科技部中青年科...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/42/52/c918f6404121b0cc6c9ecb2ffd6c/6ee667fe-1e22-434f-9696-37fca36b5078.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/66/9c/48f77cea4935aed45e8b8826c589/c0aeb09c-ec9d-43b4-8502-b6858515928a_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/42/52/c918f6404121b0cc6c9ecb2ffd6c/6ee667fe-1e22-434f-9696-37fca36b5078.pdf' target='_blank' title='秦安军'>秦安军</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/42/52/c918f6404121b0cc6c9ecb2ffd6c/6ee667fe-1e22-434f-9696-37fca36b5078.pdf' target='_blank' title='秦安军'>教授，博士生导师，国家杰出青年科学基金获得者，国家“万人计划”科技创新领军人才，青年拔...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/dd/36/1733940545feba35090256cf19f8/0edbfb16-fd5b-439c-85ac-37631c099f09.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/cc/0b/5cb1cefd41cabb2e15138da865e7/ef56617c-4e2c-4889-9274-70b1426cb373_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/dd/36/1733940545feba35090256cf19f8/0edbfb16-fd5b-439c-85ac-37631c099f09.pdf' target='_blank' title='苏仕健'>苏仕健</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/dd/36/1733940545feba35090256cf19f8/0edbfb16-fd5b-439c-85ac-37631c099f09.pdf' target='_blank' title='苏仕健'> 教授，博导，国家杰出青年基金获得者，教育部新世纪优秀人才，“广东特支计划”科技创新领...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/8c/6d/b856e6414d0b91ab66bad496d984/d6bc6ebb-f3f5-46cd-b39a-61378d1e2fec.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/1a/ef/d67f3756408888a2c4da5305db68/4a13b275-e300-45a4-a5c4-f16524a76abc_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/8c/6d/b856e6414d0b91ab66bad496d984/d6bc6ebb-f3f5-46cd-b39a-61378d1e2fec.pdf' target='_blank' title='郭宝春'>郭宝春</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/8c/6d/b856e6414d0b91ab66bad496d984/d6bc6ebb-f3f5-46cd-b39a-61378d1e2fec.pdf' target='_blank' title='郭宝春'>教授，博士生导师，国家杰出青年基金获得者，国家万人计划领军人才，材料学院院长</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/34/b3/faa53b6d410c97b1f9fbfce4f82a/c88f2b8b-a90d-4714-9681-69a8cd3dcc6b.pd" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/4b/7c/14f0082342c9a6bd061bba38766d/a9d9c88f-1b6d-413f-808f-d0cfabb065ff_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/34/b3/faa53b6d410c97b1f9fbfce4f82a/c88f2b8b-a90d-4714-9681-69a8cd3dcc6b.pd' target='_blank' title='周时凤'>周时凤</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/34/b3/faa53b6d410c97b1f9fbfce4f82a/c88f2b8b-a90d-4714-9681-69a8cd3dcc6b.pd' target='_blank' title='周时凤'>教授，博士生导师，国家杰出青年基金获得者，国家优秀青年基金获得者，教育部新世纪优秀人才...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/dc/c1/d5f769b949d093daf5ddd78c49cc/6a4ecbc3-5cc0-4521-a588-65855ff6f74c.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/4f/c9/fc68998f4379a692984df00b3e29/f9fd0068-04a6-488b-8b83-a771a15d7e83_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/dc/c1/d5f769b949d093daf5ddd78c49cc/6a4ecbc3-5cc0-4521-a588-65855ff6f74c.pdf' target='_blank' title='韦江雄'>韦江雄</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/dc/c1/d5f769b949d093daf5ddd78c49cc/6a4ecbc3-5cc0-4521-a588-65855ff6f74c.pdf' target='_blank' title='韦江雄'>教授，博士生导师，国家杰出青年基金获得者，广东省珠江学者特聘教授，硅酸盐学报、硅酸盐通...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/47/2d/184609e943e99a098ad1c6c360bd/22caceb5-2608-4382-b831-5bf4dd4e8d34.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/44/5f/c13cde1c4ac8b0196828880b3f4c/606f622e-a153-4690-935d-b0152231d5f0_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/47/2d/184609e943e99a098ad1c6c360bd/22caceb5-2608-4382-b831-5bf4dd4e8d34.pdf' target='_blank' title='胡蓉蓉'>胡蓉蓉</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/47/2d/184609e943e99a098ad1c6c360bd/22caceb5-2608-4382-b831-5bf4dd4e8d34.pdf' target='_blank' title='胡蓉蓉'>教授，博士生导师，国家杰出青年基金获得者，国家优秀青年基金获得者，中国科协第十次全国代...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/4d/44/6761dc11461d99e94924a113b5d1/9c437cd6-b2ea-4bec-9382-bbbac9488e47.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/03/c7/33b787f24bf1ac526563b99825a3/281442b1-b9fd-4640-8515-a69870b4b661_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/4d/44/6761dc11461d99e94924a113b5d1/9c437cd6-b2ea-4bec-9382-bbbac9488e47.pdf' target='_blank' title='李国强'>李国强</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/4d/44/6761dc11461d99e94924a113b5d1/9c437cd6-b2ea-4bec-9382-bbbac9488e47.pdf' target='_blank' title='李国强'>教授，博士生导师，国家重点研发计划首席科学家，中组部“万人计划”科技创新领军人才，长江...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/e1/82/d19a0d384376aa73da1c6505a2e8/aca06082-0c18-455e-815a-0b0179a17024.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/50/9b/7872217e4e66b54e3d945af4b811/204ed45a-adf3-469b-a65d-1a6beaf30689_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/e1/82/d19a0d384376aa73da1c6505a2e8/aca06082-0c18-455e-815a-0b0179a17024.pdf' target='_blank' title='宁成云'>宁成云</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/e1/82/d19a0d384376aa73da1c6505a2e8/aca06082-0c18-455e-815a-0b0179a17024.pdf' target='_blank' title='宁成云'>教授，博士生导师，高层次科技创新领军人才，中国生物材料学会理事，中国生物材料学会表界面...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/3d/05/cc2486bd48abaa56a9f6c8226149/8d6eca1a-e6b1-444f-aa74-0a95f65be5f2.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/06/2b/11154983407fbbd79303ca7c6ffe/e5196a4d-8003-4e1f-b2cb-705218a39223_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/3d/05/cc2486bd48abaa56a9f6c8226149/8d6eca1a-e6b1-444f-aa74-0a95f65be5f2.pdf' target='_blank' title='欧阳柳章'>欧阳柳章</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/3d/05/cc2486bd48abaa56a9f6c8226149/8d6eca1a-e6b1-444f-aa74-0a95f65be5f2.pdf' target='_blank' title='欧阳柳章'>教授，博士生导师，高层次科技创新领军人才，珠江学者特聘教授，中国机械学会材料分会常务理...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/44/40/d60da9974f1da570c9d23a3d162a/4554741e-fda4-4750-95eb-67ea9f319485.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/be/59/1489db7b411a9ec5d52b220f6734/07c841b1-1295-4dae-8fd5-5aac883ac7fe_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/44/40/d60da9974f1da570c9d23a3d162a/4554741e-fda4-4750-95eb-67ea9f319485.pdf' target='_blank' title='彭俊彪'>彭俊彪</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/44/40/d60da9974f1da570c9d23a3d162a/4554741e-fda4-4750-95eb-67ea9f319485.pdf' target='_blank' title='彭俊彪'>教授，博士生导师，广东省特聘教授（珠江学者），973首席科学家，发光材料与器件国家重点实...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/2f/57/1335956f462dbc51e3a53309c6e8/7754580b-1683-452d-8b71-28c3b0e37c23.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/2c/89/579e270c4c21ae913f1654c3a1e3/9dd64aa7-da74-4502-8bca-4c2e5bbcb232_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/2f/57/1335956f462dbc51e3a53309c6e8/7754580b-1683-452d-8b71-28c3b0e37c23.pdf' target='_blank' title='杜昶'>杜昶</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/2f/57/1335956f462dbc51e3a53309c6e8/7754580b-1683-452d-8b71-28c3b0e37c23.pdf' target='_blank' title='杜昶'>教授，博士生导师，广东省珠江学者特聘教授，教育部创新团队负责人，生物医学材料与工程教育...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/c7/ac/d985c5e340d99120ad61ea67c7ba/a9a8aa59-ccf4-4926-a11c-97b3b1ff6f36.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/c7/ac/d985c5e340d99120ad61ea67c7ba/70cc392e-ed8f-4fda-b62d-438b09206857_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/c7/ac/d985c5e340d99120ad61ea67c7ba/a9a8aa59-ccf4-4926-a11c-97b3b1ff6f36.pdf' target='_blank' title='任力'>任力</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/c7/ac/d985c5e340d99120ad61ea67c7ba/a9a8aa59-ccf4-4926-a11c-97b3b1ff6f36.pdf' target='_blank' title='任力'>教授，博士生导师，广东省“千百十”国家级人才，教育部新世纪优秀人才，国家人体组织功能重...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/03/4f/a068379c46a1aaa631c03c123795/d3dcb0ea-6a62-4c6c-b5f4-f26443c4e045.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/97/a9/dda629a94b328160b47c9694eff0/481027f7-5d4c-45c5-8f22-b58f64ef7f42_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/03/4f/a068379c46a1aaa631c03c123795/d3dcb0ea-6a62-4c6c-b5f4-f26443c4e045.pdf' target='_blank' title='朱旭辉'>朱旭辉</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/03/4f/a068379c46a1aaa631c03c123795/d3dcb0ea-6a62-4c6c-b5f4-f26443c4e045.pdf' target='_blank' title='朱旭辉'>教授，博士生导师，教育部新世纪优秀人才，广东省珠江学者特聘教授，中国化学会高级会员，任...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/fb/cb/ac585e58418f89362f35d235669f/6d2ac736-3831-441c-88b4-40b43a3df18f.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/de/32/0079996849c8a87ecb39d716f4aa/b99e0a36-de22-4e9d-9c3b-bcea38aebb61_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/fb/cb/ac585e58418f89362f35d235669f/6d2ac736-3831-441c-88b4-40b43a3df18f.pdf' target='_blank' title='何志才'>何志才</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/fb/cb/ac585e58418f89362f35d235669f/6d2ac736-3831-441c-88b4-40b43a3df18f.pdf' target='_blank' title='何志才'>教授，博士生导师，国家高层次人才计划青年拔尖人才，教育部青年长江学者，国家优青，广东青...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/c2/88/136e79134a54bd9a3713a5744833/fca0482f-fe87-4f89-aa24-9d4a5d7c5fa5.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/4f/8e/cd1cf165490997433819ceb6b7a3/bc2b3c6c-bcac-4b42-aed6-da0596befbe2_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/c2/88/136e79134a54bd9a3713a5744833/fca0482f-fe87-4f89-aa24-9d4a5d7c5fa5.pdf' target='_blank' title='胡仁宗'>胡仁宗</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/c2/88/136e79134a54bd9a3713a5744833/fca0482f-fe87-4f89-aa24-9d4a5d7c5fa5.pdf' target='_blank' title='胡仁宗'>教授，博士生导师，国家自然科学基金优秀青年科学基金获得者，“广东特支计划“科技创新青年...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/af/04/15fd16d64bf9862afa82515d1b1a/d3095989-f53a-48e5-b613-63cce379dbb8.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/57/68/4365fc4045bea5bc0f1590baed62/19093a4e-8666-4929-98f9-a1c957509eaf_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/af/04/15fd16d64bf9862afa82515d1b1a/d3095989-f53a-48e5-b613-63cce379dbb8.pdf' target='_blank' title='应磊'>应磊</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/af/04/15fd16d64bf9862afa82515d1b1a/d3095989-f53a-48e5-b613-63cce379dbb8.pdf' target='_blank' title='应磊'>研究员，博士生导师，国家优青，广东省杰青，“广东特支计划”青年拔尖人才</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/4d/e6/42dc1e864670a1ea5124c6578865/68a07afa-0b75-4bc2-a45f-fe3a64734d60.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/4d/e6/42dc1e864670a1ea5124c6578865/e47f9719-0ba7-4f21-a425-d1ce6e7d387e_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/4d/e6/42dc1e864670a1ea5124c6578865/68a07afa-0b75-4bc2-a45f-fe3a64734d60.pdf' target='_blank' title='兰林锋'>兰林锋</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/4d/e6/42dc1e864670a1ea5124c6578865/68a07afa-0b75-4bc2-a45f-fe3a64734d60.pdf' target='_blank' title='兰林锋'>研究员，博士生导师，国家优青，广东省杰青，青年珠江学者</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/25/43/d6c7b039413189ea8eec0ed86ed6/0ecc7b4c-276f-446d-82af-a266f03c6f57.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/7d/3e/a31af57e4a4b91f27357dc87ccc3/44390494-be2b-4337-9f71-3055f1ffc7e4_s.png" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/25/43/d6c7b039413189ea8eec0ed86ed6/0ecc7b4c-276f-446d-82af-a266f03c6f57.pdf' target='_blank' title='施雪涛'>施雪涛</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/25/43/d6c7b039413189ea8eec0ed86ed6/0ecc7b4c-276f-446d-82af-a266f03c6f57.pdf' target='_blank' title='施雪涛'>教授，博士生导师，十四五国家重点研发计划首席科学家，国家自然科学基金优青基金获得者，广...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/bc/de/3ece32de45cdb7bf223e0ec993ba/d02b1a78-3ceb-42f7-9d70-cbba94342970.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/67/b7/6feab99b4ec9a67f60d4b2361db3/4f3d88ad-1de4-4948-9bfd-b72c4f7d92dd_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/bc/de/3ece32de45cdb7bf223e0ec993ba/d02b1a78-3ceb-42f7-9d70-cbba94342970.pdf' target='_blank' title='赵俊鹏'>赵俊鹏</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/bc/de/3ece32de45cdb7bf223e0ec993ba/d02b1a78-3ceb-42f7-9d70-cbba94342970.pdf' target='_blank' title='赵俊鹏'>教授，博士生导师，国家优秀青年科学基金获得者</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/fb/92/edb5829540809420fc8cf0fbcb82/15954efc-ea69-440c-a979-543649c3b871.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/a8/1a/33041d9f4441be7c5b9b951e41f0/e359c9a5-fdf1-4aa2-8de4-6c73d81061cb_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/fb/92/edb5829540809420fc8cf0fbcb82/15954efc-ea69-440c-a979-543649c3b871.pdf' target='_blank' title='褚衍辉'>褚衍辉</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/fb/92/edb5829540809420fc8cf0fbcb82/15954efc-ea69-440c-a979-543649c3b871.pdf' target='_blank' title='褚衍辉'>研究员，博士生导师，国家优秀青年基金获得者，中科协青年人才托举工程项目入选者，中国硅酸...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/0c/f3/52e6a073416f80fcd7276fd5bdb3/4d166c0d-f8e3-4035-9629-83f65d578030.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/8b/b4/0d4c22cf42beac45d01aa59ebf35/da1f003a-1208-4334-8816-806da1ca9c3e_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/0c/f3/52e6a073416f80fcd7276fd5bdb3/4d166c0d-f8e3-4035-9629-83f65d578030.pdf' target='_blank' title='董国平'>董国平</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/0c/f3/52e6a073416f80fcd7276fd5bdb3/4d166c0d-f8e3-4035-9629-83f65d578030.pdf' target='_blank' title='董国平'>教授，博士生导师，国家优秀青年科学基金获得者，广东省自然科学杰出青年基金，广东特支计划...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/d3/89/f738be854906b960099c1af1fac6/3520f934-c18e-4705-882f-ff481393dbf4.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/c5/56/f24cd30f4fe3952a005451019b04/dbfe84f4-afe9-4cd4-b00a-f2d1d009c926_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/d3/89/f738be854906b960099c1af1fac6/3520f934-c18e-4705-882f-ff481393dbf4.pdf' target='_blank' title='张凯'>张凯</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/d3/89/f738be854906b960099c1af1fac6/3520f934-c18e-4705-882f-ff481393dbf4.pdf' target='_blank' title='张凯'>副研究员，博士生导师，国家优秀青年科学基金获得者，广东省杰青，珠江科技新星</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/f5/a2/12144d91472eb6aeedff4d96c3f8/58470f45-8065-480d-94f9-dfce5b71e427.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/41/7c/ad18a1224fc1a78c532fd78ac1eb/e500a80d-4d75-4183-8901-85729648e48a_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/f5/a2/12144d91472eb6aeedff4d96c3f8/58470f45-8065-480d-94f9-dfce5b71e427.pdf' target='_blank' title='张同生'>张同生</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/f5/a2/12144d91472eb6aeedff4d96c3f8/58470f45-8065-480d-94f9-dfce5b71e427.pdf' target='_blank' title='张同生'>研究员，博士生导师，国家优秀青年科学基金获得者，广东省科技创新青年拔尖人才，广州市珠江...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/08/bc/f5128dd74c62b0a164f5cde05f1e/5d18fdc7-8662-4867-83b3-53a56c6e0edc.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/08/bc/f5128dd74c62b0a164f5cde05f1e/087e5c3c-4909-4c46-b9bd-9bc1c7469622_s.png" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/08/bc/f5128dd74c62b0a164f5cde05f1e/5d18fdc7-8662-4867-83b3-53a56c6e0edc.pdf' target='_blank' title='宋恩海'>宋恩海</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/08/bc/f5128dd74c62b0a164f5cde05f1e/5d18fdc7-8662-4867-83b3-53a56c6e0edc.pdf' target='_blank' title='宋恩海'>副研究员，硕士生导师，国家优秀青年科学基金获得者</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/0a/0d/4ce21b6d4089babc66ffd4914551/5984e2ff-5357-4080-a6a3-35035277fee0.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/21/ea/25f16a8d4c24b6d9fe3fecd508a8/e4f49683-03ae-4f8e-8e55-2e4b6d08ee76_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/0a/0d/4ce21b6d4089babc66ffd4914551/5984e2ff-5357-4080-a6a3-35035277fee0.pdf' target='_blank' title='唐征海'>唐征海</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/0a/0d/4ce21b6d4089babc66ffd4914551/5984e2ff-5357-4080-a6a3-35035277fee0.pdf' target='_blank' title='唐征海'>研究员，博士生导师，国家优秀青年科学基金获得者，广东省杰出青年基金获得者，“广东特支计...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/bd/44/c5998e434c8f981ab7132f96755f/d8984944-a4fb-44bf-b92a-e3a911941c10.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/e0/bf/88319066488e91c88e2397edd756/5ce88b0b-037f-45e9-b3b1-802a98509ab9_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/bd/44/c5998e434c8f981ab7132f96755f/d8984944-a4fb-44bf-b92a-e3a911941c10.pdf' target='_blank' title='赵祖金'>赵祖金</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/bd/44/c5998e434c8f981ab7132f96755f/d8984944-a4fb-44bf-b92a-e3a911941c10.pdf' target='_blank' title='赵祖金'>教授，博士生导师，英国皇家化学会会士，中国化学会高级会员，2018高被引中国科学家，入选国...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/3e/c8/41b3493c4559a8cb197e0bc26f1c/784dd177-179b-4a3f-80ea-90ad8c3ab302.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/fe/47/ffaf11df401bbab640f0acff7b19/7f071a76-ed21-4d21-b464-7055403afb2e_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/3e/c8/41b3493c4559a8cb197e0bc26f1c/784dd177-179b-4a3f-80ea-90ad8c3ab302.pdf' target='_blank' title='马春风'>马春风</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/3e/c8/41b3493c4559a8cb197e0bc26f1c/784dd177-179b-4a3f-80ea-90ad8c3ab302.pdf' target='_blank' title='马春风'>教授，博士生导师，国家级青年人才项目入选者，广东省杰出青年基金获得者，广东特支计划“科...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/d4/ad/a23784ea4ac0b951cbd7ea292ba2/383f3446-a5ba-49e8-a45d-d1e29e9573cd.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/d4/ad/a23784ea4ac0b951cbd7ea292ba2/9e40d4bc-a11b-4f37-a1e2-fbbc3e0ee705_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/d4/ad/a23784ea4ac0b951cbd7ea292ba2/383f3446-a5ba-49e8-a45d-d1e29e9573cd.pdf' target='_blank' title='王文樑'>王文樑</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/d4/ad/a23784ea4ac0b951cbd7ea292ba2/383f3446-a5ba-49e8-a45d-d1e29e9573cd.pdf' target='_blank' title='王文樑'>副教授，博士生导师，国家级青年人才计划获得者，中国科协青年人才托举，广东省杰出青年科学...</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/e5/d7/221b2a014660a0368a389e8d8213/1e60fa01-c12d-40b0-8161-17265079182c.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/eb/9c/e33902be418ebc9ec0dec56f0424/6555576a-4661-4473-a24c-43f93f927d6f_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/e5/d7/221b2a014660a0368a389e8d8213/1e60fa01-c12d-40b0-8161-17265079182c.pdf' target='_blank' title='李宁'>李宁</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/e5/d7/221b2a014660a0368a389e8d8213/1e60fa01-c12d-40b0-8161-17265079182c.pdf' target='_blank' title='李宁'>教授，博士生导师，国家海外高层次引进人才</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/93/e6/f95fd64f40d4a8ae0662063dd22a/2ed2eba1-2deb-4168-9383-2e6148297112.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/2e/c3/5e1635484c43bc54633cc3ed43bc/75443ab5-266c-4701-a8ed-1ea8f9b33ecb_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/93/e6/f95fd64f40d4a8ae0662063dd22a/2ed2eba1-2deb-4168-9383-2e6148297112.pdf' target='_blank' title='周城'>周城</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/93/e6/f95fd64f40d4a8ae0662063dd22a/2ed2eba1-2deb-4168-9383-2e6148297112.pdf' target='_blank' title='周城'>教授，博士生导师，国家海外高层次引进人才</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/24/6c/1564ca514aca9edd81bf681f9187/82f609c3-ec57-4025-95ca-9d626b0ea988.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/0a/bf/de37de5e4df3a58115af7e945ba0/a8ad8442-8a89-4f3a-b209-4000c488abe6_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/24/6c/1564ca514aca9edd81bf681f9187/82f609c3-ec57-4025-95ca-9d626b0ea988.pdf' target='_blank' title='解增旗'>解增旗</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/24/6c/1564ca514aca9edd81bf681f9187/82f609c3-ec57-4025-95ca-9d626b0ea988.pdf' target='_blank' title='解增旗'>教授，博士生导师，国家海外高层次引进人才，广东省特支计划青年拔尖人才入选者</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/19/63/2f0a70594ae59ee2966bf500be1a/646bca3d-0c63-4902-be5e-2e3c5267e399.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/38/90/9caebd374990aab7a72dbce2c219/ea2764df-42b9-407c-86e3-dac6496416f7_s.png" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/19/63/2f0a70594ae59ee2966bf500be1a/646bca3d-0c63-4902-be5e-2e3c5267e399.pdf' target='_blank' title='牛泉'>牛泉</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/19/63/2f0a70594ae59ee2966bf500be1a/646bca3d-0c63-4902-be5e-2e3c5267e399.pdf' target='_blank' title='牛泉'>教授，博士生导师，国家海外高层次引进人才</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/6f/fb/e61a3cba49b4832c841753dafff0/744b5dcc-397c-400a-acd5-0c6815add840.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/0f/78/15d28d934c6588ea89acd2749aff/941fd8b1-c306-4d1b-84a2-25063b8ae814_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/6f/fb/e61a3cba49b4832c841753dafff0/744b5dcc-397c-400a-acd5-0c6815add840.pdf' target='_blank' title='刘军'>刘军</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/6f/fb/e61a3cba49b4832c841753dafff0/744b5dcc-397c-400a-acd5-0c6815add840.pdf' target='_blank' title='刘军'>教授，博士生导师，国家海外高层次引进人才，广东省“珠江人才计划”青年拔尖人才</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/66/86/55cca468434f92cd265357a4fffa/18221662-4be8-469e-8671-b25e13294aa0.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/31/7b/a1492f0648fca4e91a279ef13fa5/1119d62a-a347-493d-8b40-250825b4e9f7_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/66/86/55cca468434f92cd265357a4fffa/18221662-4be8-469e-8671-b25e13294aa0.pdf' target='_blank' title='周博'>周博</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/66/86/55cca468434f92cd265357a4fffa/18221662-4be8-469e-8671-b25e13294aa0.pdf' target='_blank' title='周博'>教授，博士生导师，国家海外高层次人才，发光材料与器件国家重点实验室固定研究人员</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/47/e2/09ea189b4030ac9246da7e6c725b/24235d4d-4ddb-46b1-a990-aab112f43c4f.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/9e/33/f102a91d472b94a052399e3c80b3/08aeeaa8-be1f-49c3-a1c2-709ecf367f70_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/47/e2/09ea189b4030ac9246da7e6c725b/24235d4d-4ddb-46b1-a990-aab112f43c4f.pdf' target='_blank' title='段春晖'>段春晖</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/47/e2/09ea189b4030ac9246da7e6c725b/24235d4d-4ddb-46b1-a990-aab112f43c4f.pdf' target='_blank' title='段春晖'>教授，博士生导师，国家级海外高层次引进人才，广东省“青年珠江学者“</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+<div class="teacher-item swiper-slide">
+<a  href="/_upload/article/files/7f/09/953d050d42a88a4dc23b1b4b749c/3d2dcf6a-50ee-4a63-a8ef-0414d60fae4d.pdf" target="_blank">
+          <div class="introduction-item ">
+            <div class="introduction-img" >
+              <img src="/_upload/article/images/94/d4/31b211194cf1a1a7146022d676e5/b7f16c02-8af9-4c58-be21-0df0f05c472f_s.jpg" / >
+            </div>
+            <div class="introduction">
+              <div class="introduction-title"><a href='/_upload/article/files/7f/09/953d050d42a88a4dc23b1b4b749c/3d2dcf6a-50ee-4a63-a8ef-0414d60fae4d.pdf' target='_blank' title='冯光雪'>冯光雪</a></div>
+              <div class="introduction-content"><a href='/_upload/article/files/7f/09/953d050d42a88a4dc23b1b4b749c/3d2dcf6a-50ee-4a63-a8ef-0414d60fae4d.pdf' target='_blank' title='冯光雪'>教授，博士生导师，国家“海外高层次人才引进计划”青年项目获得者</a></div>
+              
+            </div>
+          </div>
+</a>
+ </div>
+
+          
+
+        
+      </div>
+     <div class="introduction-pagination"></div>
+ <div class="swiper-button-prev"></div><!--左箭头。如果放置在swiper外面，需要自定义样式。-->
+    <div class="swiper-button-next"></div><!--右箭头。如果放置在swiper外面，需要自定义样式。-->
+    </div>
+    </div>
+    </div>
+    <div class="container4 video-bg">
+      <div class="container2">
+        <div class="title-center">
+            <div class="text-center">
+          <div class="gen-title">
+            <span style="color: #000000">学院</span
+            ><span style="color: #871519">视频</span>
+          </div>
+          <div class="title_under_line">
+            <div class="title_under_line_center"></div>
+          </div>
+        </div>
+        <div class="tab-more focus-more">
+          <a class="notice-more-text" href="/materials/xysp/list.htm" target="_blank">
+            MORE+
+          </a>
+        </div>
+        </div>
+      </div>
+      <div class="video-container mt40" frag="面板21">
+        <div class="video-left" frag="窗口21" portletmode="simpleNews" configs="{'c8':'0','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'1','c2':'序号,标题,发布时间','c27':'320','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'320','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'25','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0'}">
+          
+            
+            <div class="video-left-item">
+             <!-- <video id="foucs1" class="video-img video-js" controls  data-setup='{}' poster="/_upload/article/images/42/88/d52bb15742b1b49f3751b4f29c76/d314d8f8-9ef9-45b6-9167-bfc86ae946c7.jpg"> 
+              <source src="/_upload/article/videos/42/88/d52bb15742b1b49f3751b4f29c76/0b50fb08-9cd3-49df-958e-b78361097a71-B.mp4">
+              </video> -->
+              <div class="img" style="position:relative">
+                 <a href="/materials/2026/0909/c22817a634890/page.htm"><img src="/_upload/article/images/42/88/d52bb15742b1b49f3751b4f29c76/d314d8f8-9ef9-45b6-9167-bfc86ae946c7.jpg" style="width: 100%; height: 100%; object-fit: cover;object-position: 59%;"/></a>
+                 <a href="/materials/2026/0909/c22817a634890/page.htm" class="video-cover"></a>
+               </div>
+              <div class="video-title"><span>老师，您辛苦了！</span></div>
+            </div>
+            
+          
+        </div>
+        <div  frag="面板19">
+          <div class="video-right" frag="窗口19" portletmode="simpleNews" configs="{'c8':'0','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'3','c2':'序号,标题,发布时间','c27':'320','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'320','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'25','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0'}">
+            
+              
+              <div class="video-right-item">
+                <!-- <video class="video-img video-js" controls data-setup='{}' poster="/_upload/article/images/42/88/d52bb15742b1b49f3751b4f29c76/d314d8f8-9ef9-45b6-9167-bfc86ae946c7.jpg">
+                  <source src="/_upload/article/videos/42/88/d52bb15742b1b49f3751b4f29c76/0b50fb08-9cd3-49df-958e-b78361097a71-B.mp4">
+                </video> -->
+                <div class="img" style="position:relative">
+                  <a href="/materials/2026/0909/c22817a634890/page.htm"><img src="/_upload/article/images/42/88/d52bb15742b1b49f3751b4f29c76/d314d8f8-9ef9-45b6-9167-bfc86ae946c7.jpg" style="width: 100%; height: 100%; object-fit: cover;"/></a>
+                  <a href="/materials/2026/0909/c22817a634890/page.htm" class="video-cover"></a>
+                </div>
+                <div class="video-title"><span>老师，您辛苦了！</span></div>
+              </div>
+              
+              <div class="video-right-item">
+                <!-- <video class="video-img video-js" controls data-setup='{}' poster="/_upload/article/images/b0/e6/c0b8448d4baeb6309b3e340222d3/08cc9c0a-4a61-459b-8a0b-87e1b71d60c3.jpg">
+                  <source src="/_upload/article/videos/b0/e6/c0b8448d4baeb6309b3e340222d3/40e06d0c-1e9d-412d-a010-c59b3eb9b9a8-B.mp4">
+                </video> -->
+                <div class="img" style="position:relative">
+                  <a href="/materials/2026/0701/c22817a631196/page.htm"><img src="/_upload/article/images/b0/e6/c0b8448d4baeb6309b3e340222d3/08cc9c0a-4a61-459b-8a0b-87e1b71d60c3.jpg" style="width: 100%; height: 100%; object-fit: cover;"/></a>
+                  <a href="/materials/2026/0701/c22817a631196/page.htm" class="video-cover"></a>
+                </div>
+                <div class="video-title"><span>唱支山歌给党听</span></div>
+              </div>
+              
+              <div class="video-right-item">
+                <!-- <video class="video-img video-js" controls data-setup='{}' poster="/_upload/article/images/f1/c3/03a40e094142b8f366dccc30be1b/cea8a477-f272-47e9-99a7-11bf8fa7a73c.png">
+                  <source src="/_upload/article/videos/f1/c3/03a40e094142b8f366dccc30be1b/8e361a9e-e6dd-49ee-a553-0192365aa6be-B.mp4">
+                </video> -->
+                <div class="img" style="position:relative">
+                  <a href="/materials/2026/0615/c22817a629975/page.htm"><img src="/_upload/article/images/f1/c3/03a40e094142b8f366dccc30be1b/cea8a477-f272-47e9-99a7-11bf8fa7a73c.png" style="width: 100%; height: 100%; object-fit: cover;"/></a>
+                  <a href="/materials/2026/0615/c22817a629975/page.htm" class="video-cover"></a>
+                </div>
+                <div class="video-title"><span>致全体毕业生--希望你被这个世界爱着</span></div>
+              </div>
+              
+            
+            <!-- <div class="video-right-item">
+              <video id="foucs3" class="video-img video-js" controls data-setup='{}' poster >
+              <source src="http://admission.scut.edu.cn/_upload/article/videos/b1/9c/f96446fe4cfa9f2cf4e6a67ecfd2/2c82f27a-1d28-4253-9bd2-16afedc6140e-B.mp4">
+              </video>
+              <div class="video-title"><span>学校视频</span></div>
+            </div> -->
+          </div>
+        </div>
+       </div>
+       <!-- <div class="text-center row-center mt40">
+        <a href="/materials/xysp/list.htm"
+          ><span class="more"
+            >查看更多<img
+              class="more-arrow"
+              src="/_upload/tpl/0e/d8/3800/template3800/images/arrow.png" /></span
+        ></a>
+      </div>  -->
+    </div>
+    <div class="container4 organ-bg" frag="面板18">
+      <div class="container2">
+        <div class="text-center">
+          <div class="gen-title">
+            <span style="color: #000000">学术</span
+            ><span style="color: #871519">机构</span>
+          </div>
+          <div class="title_under_line">
+            <div class="title_under_line_center"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container2 organ-out-container mt40" frag="窗口18" portletmode="simpleNews" configs="{'c8':'0','c42':'320','c25':'320','c30':'0','c29':'1','c22':'0','c23':'1','c34':'300','c20':'0','c31':'0','c16':'1','c3':'3','c2':'序号,标题,发布时间','c27':'320','c43':'0','c17':'0','c5':'_blank','c24':'240','c32':'','c26':'1','c37':'1','c28':'320','c40':'1','c15':'0','c14':'1','c44':'0','c33':'500','c10':'50','c18':'yyyy-MM-dd','c36':'0','c1':'1','c6':'15','c19':'yyyy-MM-dd','c21':'0','c4':'1','c35':'-1:-1','c39':'300','c38':'100','c7':'1','c12':'0','c9':'0','c11':'1','c13':'200','c41':'240'}" contents="{'c2':'0'}">
+        <div class="organ-list organ-container">
+<div class="swiper-wrapper">
+
+          
+ <div class="swiper-slide">
+          <a class="organ-item" href="http://www2.scut.edu.cn/skllmd/" target="_blank">
+            <div class="organ-image">
+              <img src="/_upload/article/images/d4/36/dadca52e463dbab9f7e1f351b24e/bffb65a6-121a-49f2-8a9a-6d8a88fc9f7f_s.jpg" />
+            </div>
+            <div class="organ-title"><span>发光材料与器件全国重点实验室</span></div>
+          </a>
+</div>
+          
+ <div class="swiper-slide">
+          <a class="organ-item" href="http://www2.scut.edu.cn/nerc_trr/" target="_blank">
+            <div class="organ-image">
+              <img src="/_upload/article/images/12/fe/9b1a8df94e87afb6d9fbfede89cc/5a65071e-f946-490a-ba06-15119a556fce_s.jpg" />
+            </div>
+            <div class="organ-title"><span>国家人体组织功能重建工程技术研究中心</span></div>
+          </a>
+</div>
+          
+ <div class="swiper-slide">
+          <a class="organ-item" href="https://www2.scut.edu.cn/smseec/" target="_blank">
+            <div class="organ-image">
+              <img src="/_upload/article/images/71/34/1dd26b88443d9eb7f66e8d18d083/c828608c-7d65-4602-9cd2-8c5e51ccc2c6_s.jpg" />
+            </div>
+            <div class="organ-title"><span>材料科学与工程学院实验中心</span></div>
+          </a>
+</div>
+          
+ <div class="swiper-slide">
+          <a class="organ-item" href="https://www2.scut.edu.cn/cagcom" target="_blank">
+            <div class="organ-image">
+              <img src="/_upload/article/images/09/9a/9182402341fe94217aadb7c3a49a/d9d4b2de-4d81-4d6f-9162-0d33abe95c44_s.jpg" />
+            </div>
+            <div class="organ-title"><span>先进及绿色复合材料联合研究中心</span></div>
+          </a>
+</div>
+          
+
+</div>
+<div class="organ-pagination"></div>
+
+         
+        </div>
+ <div class="swiper-button-prev organ-swiper-button-prev"></div><!--左箭头。如果放置在swiper外面，需要自定义样式。-->
+    <div class="swiper-button-next organ-swiper-button-next"></div><!--右箭头。如果放置在swiper外面，需要自定义样式。-->
+      </div>
+    </div>
+    <div class="container4 contact-bg">
+      <div class="contact-container">
+        <!-- <div class="contact-title">
+            联系方式
+            <div class="link-title_under_line"></div>
+        </div> -->
+        <div class="contact-content" style="margin-top: 20px">
+          <div class="contact-item">地址：广州市天河区五山路381号/广州市番禺区广州大学城 邮政编码：510641/510006</div>
+          <div class="contact-item">Address: No. 381 Wushan Road, Tianhe District, Guangzhou / Guangzhou University City, Panyu District, Guangzhou Postcode: 510641/510006</div>
+        </div>
+      </div>
+    </div>
+    <div class="container4 foot-bg">
+      <div class="foot-container">
+        <div class="foot-item">版权所有©2018 华南理工大学 材料科学与工程学院</div>
+        <div class="foot-item"><a href="https://beian.miit.gov.cn"  target="_blank">粤ICP备05084312号</a></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+ <img src="/_visitcount?siteId=42&type=1&columnId=2633" style="display:none" width="0" height="0"/>

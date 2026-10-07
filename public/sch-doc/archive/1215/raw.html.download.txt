@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="renderer" content="webkit" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /> -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ <title>同济大学信息公开网- 2025年拟录取推荐免试研究生（含直接攻博）名单公示 - 同济大学信息公开网</title>
+ <!-- 指定以最新的IE版本模式来显示网页 -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=9" />
+        <!-- 360浏览器相关设置:http://se.360.cn/v6/help/meta.html -->
+        <!-- 针对360浏览器的内核调用,强制调用极速模式 -->
+        <meta name="renderer" content="webkit"/>
+        <!-- 针对360浏览器强制调用IE标准模式 -->
+        <!--[if lt IE 10]>
+<meta name="renderer" content="ie-stand" />
+<![endif]-->
+        <!--[if !IE]>
+<meta name="renderer" content="ie-stand" />
+<!<![endif]-->
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+
+<link rel="stylesheet" type="text/css" href="/themes/124/template/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="/themes/124/template/css/swiper.min.css"/>
+<link rel="stylesheet" type="text/css" href="/themes/124/template/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="/themes/124/template/css/media.css"/>
+
+
+<script type="text/javascript" src="/themes/124/template/js/jquery.min.js"></script>
+
+    <!--[if lt IE 9]>  
+
+<script type="text/javascript" src="/themes/124/template/js/html5.js"></script>         
+
+<script type="text/javascript" src="/themes/124/template/js/respond.min.js"></script> 
+
+<![endif]-->
+<script  type="text/javascript" src="/themes/124/template/js/swiper.min.js"></script>
+<script  type="text/javascript" src="/themes/124/template/js/js.js"></script>
+
+
+<script type="text/javascript">
+    var site_url = 'xxgk.tongji.edu.cn/';
+    var show_main_id = '';
+    var current_classid = '3148';
+
+$(function(){
+    $('.menu .sub_cate').hide();
+    $('#casea').click(function(){
+        $('.menu .sub_cate').show();
+        //$(this).parent().hover(function(){$('.menu .sub_cate').show();},function(){$('.menu .sub_cate').hide();});
+    });
+    //$('body').click(function(){$('.menu .sub_cate').hide();});
+
+    $(".nav a").each(function(i){
+        c_str = $(this).attr("href").match(/classid=\d+/);
+        if( c_str != null ){
+                eval(c_str[0]);
+                if ( show_main_id == classid){
+                    $(this).addClass("slt");
+                }
+          }
+
+        if($(this).attr("m") != null ){
+               if($(this).attr("m") == show_main_id){
+                   $(this).addClass("slt");
+               }
+          }
+          if(location.href.indexOf($(this).attr("href")) >-1){
+               $(this).addClass("slt");
+          }
+    })
+
+    // if(current_classid == "4579"){
+    //     $(".ctitle h3 a").css("font-size","13px");
+    // }
+
+    // $(".menu #xxgkml").hover(function(){
+    //     $(this).children('ul.sub_menu').show();
+    // },function(){
+    //     $(this).children('ul.sub_menu').hide();
+    // })
+    // $("#xxgkml ul.sub_menu").hover(function(){
+    //     $(this).parent().children("a").addClass("slted");
+    // },function(){
+    //     $(this).parent().children("a").removeClass("slted");
+    // })
+
+});
+
+//            function baidusearch() {
+//                var word=document.getElementById("textfield").value;
+//                var link="http://www.baidu.com/s?wd="+word+"+site%3A"+site_url;
+//                window.open(link);
+//            }
+
+</script>
+
+</head>
+<body>
+<div class="pc-header">
+        <div class="header-top">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.php?classid=3059"><img src="themes/124/template/images/logo.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="container">
+                <ul>
+                    <li><a href="index.php?classid=3059">首页</a></li>
+                    <li><a href="index.php?classid=3060">信息公开指南</a></li>
+                    <!-- 正式 -->
+                    <li><a href="index.php?classid=4528">信息公开目录</a></li>
+                    <!-- <li><a href="index.php?classid=4424">团委</a></li> -->
+                    <li><a href="index.php?classid=3061">信息公开栏目</a></li>
+                    <li><a href="index.php?classid=3062">信息公开申请</a></li>
+                    <li><a href="index.php?classid=3063">信息公开规定与制度</a></li>
+                    <li><a href="index.php?classid=3065">便民服务</a></li>
+                    <li><a href="index.php?classid=3066">网上互动</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mob-header navbar-default clearfix">
+            <a href="#" class="mob-logo"><img src="themes/124/template/images/logo.png" alt=""></a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="mob-nav">
+                <ul>
+                    <li><a href="index.php?classid=3059">首页</a></li>
+                    <li><a href="index.php?classid=3060">信息公开指南</a></li>
+                    <!-- 正式 -->
+                    <li><a href="index.php?classid=4528">信息公开目录</a></li>
+                    <!-- <li><a href="index.php?classid=4424">团委</a></li> -->
+                    <li><a href="index.php?classid=3061">信息公开栏目</a></li>
+                    <li><a href="index.php?classid=3062">信息公开申请</a></li>
+                    <li><a href="index.php?classid=3063">信息公开规定与制度</a></li>
+                    <li><a href="index.php?classid=3065">便民服务</a></li>
+                    <li><a href="index.php?classid=3066">网上互动</a></li>
+                </ul>
+            </div>
+        </div><div class="main clearfix">
+  <div class="container">
+  <div class="cmainleft">
+  	<div class="ctitle">
+   	  <h3><a href="index.php?classid=3148&t=list">拟录取名单</a></h3>
+      <span><a href="index.php?classid=3059">首页</a></span>
+    </div>
+    <div class="ccontent" id="content">
+        	<!--新闻展示开始-->
+<script type="text/javascript" src="js/jquery.fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox/jquery.fancybox-1.3.1.js"></script>
+<link rel="stylesheet" type="text/css" href="js/jquery.fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+<script  type="text/javascript">
+    var flag='';
+    var comment_successful='评论成功，您的评论将在管理员审核后发布';
+    var disable_fancybox='0';
+    
+    $().ready(function(){
+        if(disable_fancybox != 1){
+            $('.news_content').find('img').each(function(){
+    //            resize($(this));
+    //            $(this).bind('load', function(){
+    //                resize($(this));
+    //            });
+    //            $(this).wrap('<a rel="group" href="'+$(this).attr('src')+'"></a>');
+                    var old_width = $(this).width();
+                    var old_height = $(this).height();
+                    var max_width = 650;
+                    if(old_width>=max_width){
+                        $(this).width(max_width);
+                        $(this).height(max_width*old_height/old_width);
+                    }
+
+                $(this).wrap('<a rel="group" href="'+$(this).attr('src').replace('/650/', '/source/')+'"></a>');
+            });
+            function resize(o){
+                var old_width =  o.width();
+                var old_height =  o.height();
+    //            var max_width = 600;
+                var max_width = 650;
+                if(old_width>=max_width){
+                    o.width(max_width);
+                    o.height(max_width*old_height/old_width);
+                }
+            }
+
+            $('a[rel=group]').fancybox({
+                'transitionIn'		: 'none',
+                'transitionOut'		: 'none',
+                'titlePosition' 	: 'over',
+                'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+                    return '<span id="fancybox-title-over">照片 ' + (currentIndex + 1) + ' / ' + currentArray.length + (title ? ' &nbsp; ' + title : '') + '</span>';
+                }
+            });
+        }
+
+        if(flag == "success"){
+            $("#comment_content").html(comment_successful);
+            setTimeout(function(){
+                $("#comment_content").html('');
+            }, 4000);
+        }
+    });
+    
+</script>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="news-table">
+    <tr>
+        <td align="center" class="news_title">2025年拟录取推荐免试研究生（含直接攻博）名单公示</td>
+    </tr>
+        <tr>
+        <td align="center" class="news_info" >
+            索取号：G0030602005-2024-0008            来源：研究生招生网            作者：研究生院　
+            发表时间：2024-10-25　
+                                </td>
+    </tr>
+        <tr>
+        <td class="news_content">根据教育部有关文件要求，经学院复试，学生在教育部“推免服务系统”录取确认，学校招生领导小组审核批准，现将同济大学2025年推荐免试硕士研究生拟录取名单予以公示。公示期为七日（2024年10月25日至11月1日）。<br />
+若对公示名单有异议，请于公示期内与研招处或纪检监察机构联系，联系电话：021-65982944（研招处）。email：tjyzc@tongji.edu.cn（研招处），jcc@tongji.edu.cn（纪检监察机构）。<br /></td>
+    </tr>
+            <!--邻近新闻开始-->
+        <!--邻近新闻结束-->
+
+
+    <!--相关新闻开始-->
+        <!--相关新闻结束-->
+
+
+
+
+    <!--新闻评论开始-->
+        <!--新闻评论结束-->
+    <!--返回列表-->
+        <!--返回顶端-->
+    </table>
+<!--新闻展示结束-->
+	          </div>
+
+
+  </div>
+    </div>
+</div>
+<div class="copy">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-xs-12">
+					<div>Copyright © 2018 Tongji University. All Rights Reserved. <br>版权所有 同济大学校长办公室主办</div>
+				</div>
+				<div class="col-sm-6 col-xs-12">
+					<div class="copy-right">
+						<div class="link-box">
+							<input type="text" readonly="readonly" value="校内链接">
+							<div class="friendlylink_list">
+    <ul>
+                        <li><a href="http://dangban.tongji.edu.cn/" target="_blank">党委办公室</a></li>
+                                <li><a href="https://tjzzb.tongji.edu.cn/" target="_blank">党委组织部  党校 </a></li>
+                                <li><a href="https://tzb.tongji.edu.cn/" target="_blank">党委统战部</a></li>
+                                <li><a href="http://student.tongji.edu.cn/" target="_blank">党委学生工作部</a></li>
+                                <li><a href="https://wzb.tongji.edu.cn/" target="_blank">武装部  </a></li>
+                                <li><a href="http://jw.tongji.edu.cn/" target="_blank">纪委监察处 </a></li>
+                                <li><a href="https://jgdw.tongji.edu.cn/main.htm" target="_blank">机关党委</a></li>
+                                <li><a href="https://youth.tongji.edu.cn/" target="_blank">团委</a></li>
+                                <li><a href="http://gonghui.tongji.edu.cn/" target="_blank">工会 </a></li>
+                                <li><a href="http://deanoffi.tongji.edu.cn/" target="_blank">校长办公室 </a></li>
+                                <li><a href="http://fzgh.tongji.edu.cn/" target="_blank">发展规划部</a></li>
+                                <li><a href="http://jwc.tongji.edu.cn/" target="_blank">本科生院（招生办公室）</a></li>
+                                <li><a href="https://gs.tongji.edu.cn/" target="_blank">研究生院</a></li>
+                                <li><a href="https://bkzs.tongji.edu.cn/" target="_blank">本科招生网 </a></li>
+                                <li><a href=" http://yz.tongji.edu.cn/" target="_blank">研究生招生网 </a></li>
+                                <li><a href="https://qa.tongji.edu.cn/" target="_blank">教学质量办公室</a></li>
+                                <li><a href="http://tj91.tongji.edu.cn/" target="_blank">学生就业信息网 </a></li>
+                                <li><a href="http://kgb.tongji.edu.cn/" target="_blank">科研管理部</a></li>
+                                <li><a href="http://hr.tongji.edu.cn/" target="_blank">人事处、人才中心</a></li>
+                                <li><a href="http://tjcwc.tongji.edu.cn/" target="_blank">财务处 </a></li>
+                                <li><a href="https://fao.tongji.edu.cn/" target="_blank">外事办公室/港澳台办公室</a></li>
+                                <li><a href="http://sjc.tongji.edu.cn/" target="_blank">审计处 </a></li>
+                                <li><a href="https://jjc.tongji.edu.cn/" target="_blank">基建处 </a></li>
+                                <li><a href="http://zcsys.tongji.edu.cn/" target="_blank">资产与实验室管理处</a></li>
+                                <li><a href="http://baowei.tongji.edu.cn/" target="_blank">保卫处</a></li>
+                                <li><a href="http://tjkg.tongji.edu.cn/" target="_blank">同济创新创业控股有限公司</a></li>
+                                <li><a href="https://ltb.tongji.edu.cn/" target="_blank">离退休工作办公室</a></li>
+                                <li><a href="http://czb.tongji.edu.cn/sggl/cgw/index.jsp" target="_blank">采购与招标管理办公室</a></li>
+                                <li><a href="https://nic.tongji.edu.cn/" target="_blank">信息化办公室</a></li>
+                                <li><a href="https://tjee.tongji.edu.cn/" target="_blank">继续教育学院 </a></li>
+                                <li><a href="https://www.lib.tongji.edu.cn/" target="_blank">图书馆</a></li>
+                                <li><a href="https://tjhq.tongji.edu.cn/" target="_blank">上海同济后勤产业发展有限公司</a></li>
+                                <li><a href="http://www.tongji.edu.cn/" target="_blank">学校主页</a></li>
+                    </ul>
+</div>						</div>
+						<div class="link-box">
+							<input type="text" readonly="readonly" value="校外链接">
+							<div class="friendlylink_list">
+    <ul>
+                        <li><a href="http://edu.sh.gov.cn" target="_blank">上海市教委网站 edu.sh.gov.cn</a></li>
+                                <li><a href="http://www.shanghai.gov.cn" target="_blank">中国上海网站 shanghai.gov.cn</a></li>
+                                <li><a href="http://www.moe.gov.cn/jyb_xxgk/" target="_blank">教育部网站 moe.gov.cn</a></li>
+                    </ul>
+</div>						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--底部结束-->
+</body>
+</html>

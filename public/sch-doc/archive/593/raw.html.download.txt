@@ -1,0 +1,1024 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>电子信息与自动化学院</title>
+	<script src="../../js/jquery-1.12.1.min.js"></script>
+	<script src="../../js/index.js"></script>
+</head>
+<body>
+
+
+<STYLE type="text/css">
+	body,div,p,h1,h4,h5,ul,li,ol {margin:0;padding:0;	}
+	
+	h1 {font-size: 2em;	}
+	.lftMod .list li a,.rgtMod .list li a{display:block;width:205px;overflow:hidden;padding-left:6px;}
+	.ctMod .list li a{display:block;width:205px;overflow:hidden;padding-left:6px;}
+	.lftCon{ width:205px;float:left;padding-left:6px;}
+	.head{ color:#ffffff;font-weight:bold;text-indent: 2em;overflow:hidden;display: block;font-size:14px;padding-bottom:3px;}
+	list{ color:#fff;}
+	
+	ul,li,ol {	list-style: none;	}
+	
+	a {
+		font-size: 13px;
+		color:#064161;
+		text-decoration: none;
+	}
+	
+	a:hover{
+		font-size: 13px;
+		color:#3399cc;
+		text-decoration: none;
+	}
+	
+	body {
+		font-family: proxima-nova,"Microsoft YaHei",Helvetica,Arial,sans-serif;
+		font-size: 14px;
+		color:#333;
+		position: relative;
+		background: #f7f7f7;
+	}
+	.date {
+		font-size: 13px;
+		color:#000;
+	}
+	
+	.font13 {
+		font-size: 13px;
+		color:#fff;
+	}
+	.wznr {
+		font-size: 14px;
+		color:#000;
+		line-height:25.5px;
+	}
+	
+	.white {
+		background: #fff;
+	}
+	
+	.container {
+		position: relative;
+		width: 1061px;
+		margin:0 auto;
+	}
+	
+	.wrapper1 {
+		width:985px;
+		margin:0 auto;	
+	}
+	
+	.clear {	clear: both;	}
+	
+	.logo1 {
+		width:100%;
+		height:120px;
+		padding-top: 0px;
+		background: #fff;
+	}
+	.logo1 .top1 {
+		width:1061px;
+		margin:0 auto;
+		height:120px;
+		background: url(../../images/logo.jpg) no-repeat 0 0;
+	}
+	
+	.logo2 {
+		width:100%;
+		height:300px;
+		padding-top: 0px;
+		background: #fff;
+	}
+	.logo2 .banner1 {
+		width:1003px;
+		margin:0 auto;
+		height:232px;
+	}
+	.logo2 .banner2 {
+		width:1024px;
+		margin:0 auto;
+		height:300px;
+	}
+	
+	.top {
+		position: relative;
+		width: 100%;
+		height:40px;
+		z-index: 100;
+		background: #fff;
+	}
+	
+	.top .navLists {
+		width:100%;
+		height:40px;
+		/*background: #39528a;*/
+		background: #c1ae8d;
+		margin:0 auto;
+		z-index:100;
+	}
+	.wrapper {
+		background: #c1ae8d;
+		width:1061px;
+		margin:0 auto;
+	}
+	
+	.navLists .nav {
+		position: relative;
+		display: block;
+		float: left;
+		height: 35px;
+		line-height:33px;
+		text-align: center;
+		font-size: 16px;
+		font-weight: bold;
+		/*color:#064161;*/
+		color:#39528a;
+		z-index:100;
+	}
+	
+	.navLists .nav a {
+		font-size: 16px;
+		color:#39528a;
+	}
+	
+	.navLists .nav .subnavs {
+		display: none;
+		position: absolute;
+		left: 0;
+		line-height:33px;
+		font-weight:normal;
+		top:35px;
+		width:140px;
+		z-index:100;	
+	}
+	.navLists .subnavs a {
+		font-size: 14px;
+		color:#39528a;
+	}
+	
+	.navLists .nav .subnavs .subnav {
+		width:140px;
+		height:100%;
+		background: #c1ae8d;
+		z-index:100;
+	}
+	
+	.main {
+		position: relative;            
+		top:-5px;
+		width:100%;
+		margin:0 auto;
+		height:315px;
+
+		background: url(../../images/bannerbg.jpg) repeat-x;
+	}
+	
+	.main1 {
+		background: #f7f7f7;
+		width:1061px;
+		margin:0 auto;
+	}
+	
+	.content {
+		width:1061px;
+		margin-right: 0px;
+		margin-top: 0px;
+		background: #f7f7f7;
+	}
+	.main2 {
+		background: #fff;
+		width:1061px;
+		margin:0 auto;
+		min-height:535px;
+	}
+	.main3 {
+		background: #f7f7f7;
+		width:1061px;
+		margin:0 auto;
+		min-height:650px;
+	}
+	
+	.main .banner {
+		background: #f7f7f7;
+		position: relative;
+		margin：0 auto;
+		left: 50%;
+		margin-left: -530px;
+		margin-top: 2px;
+		width:1061px;
+		height:305px;
+		overflow: hidden;
+	}
+	
+	.main .banner .slides {
+		width:1061px;
+		margin-top: 6px;
+	}
+	
+	.main .banner .slides li {
+		display: none;
+		width: 1061px;
+		float: center;
+	}
+	.main .banner .slides li.active {
+		display: block;
+	}
+	
+	.main .banner .slides li img {
+		margin-top: 3px;
+		width: 1061px;
+		height:300px;
+	}
+	
+	.banner .slidesController {
+		position: absolute;
+		right:26px;
+		bottom: 5px;
+		z-index: 99;
+	}
+	
+	.banner .slidesController li {
+		display: inline-block;
+		width: 9px;
+		height:9px;
+		margin:0 4px;
+		border:1px solid #d1d1d1;
+		border-radius: 20px;
+		cursor: pointer;
+	}
+	
+	.banner .slidesController li.active {
+		background: #ff5b0b;
+		border-color: #ff5b0b;
+	}
+	
+	.cen  {
+		background: #fff;
+		margin-top: -10px;
+		width:100%;
+		height: 25px;
+	}
+	
+	.cen1 {
+		background: #f7f7f7;
+		width:100%;
+		height: 50px;
+	}
+	
+	.content .block {
+		float:left;
+	}
+	
+	.block .title {
+		width:100%;
+		height: 22px;
+		margin-bottom: 23px;
+		border-bottom: 3px solid #f3842b;
+		line-height: 22px;
+	}
+	
+	.block .title .caption {
+		display: inline-block;
+		height: 100%;
+	}
+	
+	.block .title .more {
+		display: inline-block;
+		float: right;
+		height: 22px;
+		line-height: 22px;
+		color:#979797;
+		font-size: 12px;
+	}
+	
+	.content .news {
+		margin-right: 15px;
+		width:370px;
+	}
+	
+	.news .title .caption {
+		width:193px;
+	}
+	
+	.content .notice {
+		width: 397px;
+	}
+	
+	.notice .title .caption {
+		width:140px;
+	}
+	
+	.news img {
+		margin-bottom: 5px;
+	}
+	
+	.block .links .link {
+		width:100%;
+		margin-bottom: 8px;
+		font-size: 12px;
+		color: #454545;
+		list-style: disc inside;
+	}
+	
+	.block .links .link a {
+		color: #000;
+	}
+	
+	.block .links .link .date {
+		float: right;
+	}
+	
+	.agency {
+		margin-top: 43px;
+	}
+	
+	.agency a img {
+	border:0 none;
+	}
+	
+	.agency .experiment,.agency .mba {
+		float:left;
+		margin-right: 2px;
+	}
+
+	.sidebar .side-nav {
+		display: block;
+		width:100%;
+		height:30px;
+		line-height: 30px;
+		color:#fff;
+		font-size: 14px;
+		text-align: center;
+		font-weight: bold;
+	}
+	
+	.bottom  {
+		width:100%;
+		height:130px;
+		/*background: #39528a;*/
+		background: #c1ae8d;
+	}
+
+	.bottom .footer {
+		width:1061px;
+		margin:0 auto;
+		height:130px;
+		text-align: center;
+		/*background: #3e78c2;*/
+		background: url(../../images/bbg.jpg) repeat-x;
+		color:#39528a;
+	}
+	
+	/*article*/
+	.articlebg{
+		width:100%;
+	}
+	
+	.c_title {
+		FONT-SIZE: 15px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, 宋体
+	}
+	
+	.c_content {
+		FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, 宋体
+	}
+	.wenzi {
+		font-size: 13px;
+		FONT-FAMILY: Verdana, Arial, 宋体;
+		line-height: 24px;
+		color: #000;
+	}
+	
+	.article {
+		width:990px;
+		margin:0 auto 45px auto;
+	}
+	
+	.article .left {
+		float: left;
+		margin-right: 27px;
+	}
+	
+	.article .left .survey {
+		width:270px;
+		height:210px;
+		margin-top: 48px;
+	}
+	
+	.survey .header {
+		width:100%;
+		height:20px;
+		line-height: 20px;
+		background: #3aadba;
+		color: #fff;
+		font-size: 13px;
+	}
+	
+	.survey .header p {
+		padding-left: 17px;
+	}
+	
+	.survey .body {
+		width:100%;
+		height:160px;
+		background: #f6fbfb;
+	}
+	
+	.survey .body ul {
+		padding:10px 17px;
+	}
+	
+	.survey .body .line {
+		width:100%;
+		height:30px;
+		border-bottom: 1px solid #e7ecec;
+		color:#3aadba;
+		font-size: 12px;
+		line-height: 30px;
+		background-image: url(../../images/arrow2.png);
+		background-repeat: no-repeat;
+		background-position-x:216px;
+		background-position-y:center;
+	}
+	
+	.survey .body .line.active {
+		background-image: url(../../images/arrow.png);
+	}
+	
+	.survey .body .line a {
+		display: block;
+		width:100%;
+		height:100%;
+		color:#3aadba;
+	}
+	
+	.article .left .notice {
+		width:270px;
+		height:230px;
+		border-bottom: 3px solid #f3842b;
+		list-style: none;
+		color: #454545;
+	}
+	
+	.rightc {
+		float: center;
+		width: 950px;
+	}
+	
+	.rightc .location {
+		width:100%;
+		height:48px;
+		font-size: 13px;
+		color: #ffffff;
+		line-height: 48px;
+	}
+	
+	.rightc .location a {
+		color:#6a6a6a;
+	}
+	
+	.rightc .substance {
+		width:100%;
+		min-height:100%;
+		border:1px solid #c2c2c2;
+	}
+	
+	.rightc .substance .outer {
+		padding:15px 27px 0 27px;
+	}
+	
+	.rightc.substance .title {
+		line-height: 48px;
+		margin-bottom: 18px;
+		text-align: center;
+		font-size: 17px;
+		color: #6f6f6f;
+		letter-spacing: 13px;
+		font-weight: normal;
+	}
+	
+	.rightc .substance .release-date {
+		width:100%;
+		height: 22px;
+		margin-bottom: 20px;
+		line-height: 25px;
+		text-align: center;
+		font-size: 13px;
+		color:#6a6a6a;
+		background: #efefef;
+	}
+	
+	.rightc .substance .text p {
+		line-height: 26px;
+		margin-bottom: 24px;
+		font-size: 13px;
+		color: #393939;
+		text-indent: 26px;
+	}
+	
+	.right {
+		float: left;
+		width: 1040px;
+		min-height:550px;
+	}
+	
+	.right .location {
+		width:100%;
+		height:48px;
+		font-size: 12px;
+		color: #6a6a6a;
+		line-height: 48px;
+	}
+	
+	.right .location a {
+		color:#6a6a6a;
+	}
+	
+	.right .substance {
+		width:100%;
+		min-height:500px;
+		background: #ffffff;
+		border:1px solid #c2c2c2;
+	}
+	
+	.right .substance .outer {
+		padding:15px 20px 0 20px;
+	}
+	
+	.alinks{
+		color:#3aadba;
+	}
+	
+	.right .substance .title {
+		margin-bottom: 18px;
+		text-align: center;
+		font-size: 18px;
+		color: #6f6f6f;
+		letter-spacing: 12px;
+		font-weight: normal;
+	}
+	
+	.right .substance .release-date {
+		width:100%;
+		height: 22px;
+		margin-bottom: 20px;
+		line-height: 22px;
+		text-align: center;
+		font-size: 13px;
+		color:#6a6a6a;
+		background: #efefef;
+	}
+	
+	.right .substance .text p {
+		line-height: 25px;
+		margin-bottom: 24px;
+		font-size: 13px;
+		color: #393939;
+		text-indent: 26px;
+	}
+	
+	.header  .search {
+		float:left;
+		margin:35px 200px 10px 600px;
+		width:130px;
+		height:26px;
+		position: relative;
+	}
+	
+	.header  .gh {
+		float:left;
+		margin:10px 110px 10px 915px;
+		width:80px;
+		height:25px;
+		position: relative;
+	}
+	
+	.header  .gh1 {
+		float:left;
+		margin:-50px 60px  10px 920px;
+		width:60px;
+		height:25px;
+		position: relative;
+	}
+	
+	.header {
+		width:1061px;
+		margin:0 auto;
+		height: 118px;
+	}
+	.search-bar {
+		float: right;
+		margin-top: 10px;
+		padding-left:-10px;
+	}
+	
+	.input {
+		float: left;
+		width: 190px;
+		height: 25px;
+		border: 1px solid #dcdcdc;
+		line-height: 25px;
+		font-size: 10px;
+	}
+	
+	.input>span {
+		display: inline-block;
+		float: left;
+		padding:0px  0px  0px -15px;
+		border-right: 1px solid #dcdcdc;
+		font-size: 10px;
+		color: #5d5d5d;
+	}
+	
+	.input>input {
+		float: right;;
+		width: 130px;
+		height: 23px;
+		border:0;
+	}
+	
+	.search-btn {
+		display: inline-block;
+		width: 27px;
+		height: 27px;
+		border:0;
+		background: url(../../images/btn.jpg) no-repeat 0 0;
+	}
+	
+	.menu {
+		FONT-FAMILY: verdana, arial, sans-serif; WIDTH: 288px; POSITION: relative; MARGIN-LEFT: 220px; MARGIN-top: 15px; Z-INDEX: 100; 
+	}
+	.menu UL {
+		LIST-STYLE-TYPE: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+	}
+	.menu UL LI {
+		HEIGHT: 30px; WIDTH: 288px; BACKGROUND-IMAGE: url(../../images/yqlj.png); BACKGROUND-REPEAT: no-repeat; POSITION: relative; BACKGROUND-POSITION: left center; MARGIN-RIGHT: 1px
+	}
+	.menu UL LI A {
+		FONT-SIZE: 11px; TEXT-DECORATION: none; HEIGHT: 30px; WIDTH: 288px; COLOR: #333; TEXT-ALIGN: left; DISPLAY: block; LINE-HEIGHT: 24px; TEXT-INDENT: 10px
+	}
+	.menu UL LI A:visited {
+		FONT-SIZE: 11px; TEXT-DECORATION: none; HEIGHT: 30px; WIDTH: 288px; COLOR: #333; TEXT-ALIGN: left; DISPLAY: block; LINE-HEIGHT: 24px; TEXT-INDENT: 10px
+	}
+	TABLE {
+		BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+	}
+	.menu UL LI UL {
+		POSITION: absolute; PADDING-BOTTOM: 20px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 20px; LEFT: -20px; Z-INDEX: 100; DISPLAY: none; TOP: 25px; PADDING-RIGHT: 30px
+	}
+	.menu UL LI:hover A {
+		BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; COLOR: #000; BORDER-LEFT: 0px
+	}
+	.menu UL LI A:hover {
+		BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; COLOR: #000; BORDER-LEFT: 0px
+	}
+	.menu UL LI:hover UL {
+		DISPLAY: block
+	}
+	.menu UL LI A:hover UL {
+		DISPLAY: block
+	}
+	.menu UL LI:hover UL LI {
+		OVERFLOW: auto; HEIGHT: 200px; WIDTH: 288px; BACKGROUND: #666666;COLOR: #000; BORDER-LEFT: #7a7a7a 1px solid
+	}
+	.menu UL LI A:hover UL LI {
+		OVERFLOW: auto; HEIGHT: 200px; WIDTH: 288px; BACKGROUND: #666666;COLOR: #000; BORDER-LEFT: #7a7a7a 1px solid
+	}
+	* HTML .menu UL LI A:hover UL LI {
+		WIDTH: 287px
+	}
+	.menu UL LI:hover UL LI A {
+		TEXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 270px; BACKGROUND: #363636; BORDER-BOTTOM: 0px; FLOAT: left; COLOR: #aaa; TEXT-ALIGN: left; BORDER-LEFT: 0px; DISPLAY: block; TEXT-INDENT: 10px
+	}
+	.menu UL LI A:hover UL LI A {
+		TEXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 270px; BACKGROUND: #363636; BORDER-BOTTOM: 0px; FLOAT: left; COLOR: #aaa; TEXT-ALIGN: left; BORDER-LEFT: 0px; DISPLAY: block; TEXT-INDENT: 10px
+	}
+	.menu UL LI:hover UL LI A:hover {
+		TEXT-DECORATION: none; BACKGROUND: #222; COLOR: #fff
+	}
+	.menu UL LI A:hover UL LI A:hover {
+		TEXT-DECORATION: none; BACKGROUND: #222; COLOR: #fff
+	}
+	.menu .fengge {
+		MARGIN-BOTTOM: 15px
+	}
+	.menu UL LI A:hover UL {
+		VISIBILITY: visible
+	}
+	
+	.menu1 {
+		FONT-FAMILY: verdana, arial, sans-serif; WIDTH: 288px; MARGIN-LEFT: 550px; MARGIN-top: -48px; Z-INDEX: 101; 
+	}
+	.menu1 UL {
+		LIST-STYLE-TYPE: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+	}
+	.menu1 UL LI {
+		HEIGHT: 30px; WIDTH: 288px; BACKGROUND-IMAGE: url(../../images/yqlj.png); BACKGROUND-REPEAT: no-repeat; POSITION: relative; BACKGROUND-POSITION: left center; MARGIN-RIGHT: 1px
+	}
+	.menu1 UL LI A {
+		FONT-SIZE: 11px; TEXT-DECORATION: none; HEIGHT: 30px; WIDTH: 288px; COLOR: #333; TEXT-ALIGN: left; DISPLAY: block; LINE-HEIGHT: 24px; TEXT-INDENT: 10px
+	}
+	.menu1 UL LI A:visited {
+		FONT-SIZE: 11px; TEXT-DECORATION: none; HEIGHT: 30px; WIDTH: 288px; COLOR: #333; TEXT-ALIGN: left; DISPLAY: block; LINE-HEIGHT: 24px; TEXT-INDENT: 10px
+	}
+	TABLE {
+		BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+	}
+	.menu1 UL LI UL {
+		POSITION: absolute; PADDING-BOTTOM: 20px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 20px; LEFT: -20px; Z-INDEX: 100; DISPLAY: none; TOP: 25px; PADDING-RIGHT: 30px
+	}
+	.menu1 UL LI:hover A {
+		BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; COLOR: #000; BORDER-LEFT: 0px
+	}
+	.menu1 UL LI A:hover {
+		BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; COLOR: #000; BORDER-LEFT: 0px
+	}
+	.menu1 UL LI:hover UL {
+		DISPLAY: block
+	}
+	.menu1 UL LI A:hover UL {
+		DISPLAY: block
+	}
+	.menu1 UL LI:hover UL LI {
+		OVERFLOW: auto; HEIGHT: 200px; WIDTH: 288px; BACKGROUND: #666666; COLOR: #000; BORDER-LEFT: #7a7a7a 1px solid
+	}
+	.menu1 UL LI A:hover UL LI {
+		OVERFLOW: auto; HEIGHT: 200px; WIDTH: 288px; BACKGROUND: #666666; COLOR: #000; BORDER-LEFT: #7a7a7a 1px solid
+	}
+	* HTML .menu1 UL LI A:hover UL LI {
+		WIDTH: 287px
+	}
+	.menu1 UL LI:hover UL LI A {
+		TEXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 270px; BACKGROUND: #363636; BORDER-BOTTOM: 0px; FLOAT: left; COLOR: #aaa; TEXT-ALIGN: left; BORDER-LEFT: 0px; DISPLAY: block; TEXT-INDENT: 10px
+	}
+	.menu1 UL LI A:hover UL LI A {
+		TEXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 270px; BACKGROUND: #363636; BORDER-BOTTOM: 0px; FLOAT: left; COLOR: #aaa; TEXT-ALIGN: left; BORDER-LEFT: 0px; DISPLAY: block; TEXT-INDENT: 10px
+	}
+	.menu1 UL LI:hover UL LI A:hover {
+		TEXT-DECORATION: none; BACKGROUND: #222; COLOR: #fff
+	}
+	.menu1 UL LI A:hover UL LI A:hover {
+		TEXT-DECORATION: none; BACKGROUND: #222; COLOR: #fff
+	}
+	.menu1 .fengge {
+		MARGIN-BOTTOM: 15px
+	}
+	.menu1 UL LI A:hover UL {
+		VISIBILITY: visible
+	}
+
+	#Marquee_x {
+		width: 1059px; overflow: hidden
+	}
+	#Marquee_x ul li {
+		line-height: 25px; float: left; overflow: hidden
+	}
+	#Marquee_x ul li div {
+		line-height: 25px; float: left; overflow: hidden
+	}
+	#Marquee_x ul li div {
+		line-height: 25px; width: 192px; float: left; height: 143px; overflow: hidden
+	}
+	#Marquee_x ul li div img {
+		border-bottom: #dadada 1px solid; border-left: #dadada 1px solid; width: 194px; display: block; height: 145px; border-top: #dadada 1px solid; border-right: #dadada 1px solid
+	}
+	#Marquee_x ul li div span {
+		display: block
+	}
+</style>
+
+<div class="logo1">			
+<div class="top1">
+<a href="../../">
+<div class="header">
+</div>
+</a>
+</div>
+</div>
+
+<div class="top">
+
+<div class="navLists">
+<div class="wrapper">
+
+<ul>
+	<li class="nav"><a href="../../">学院首页</a>&nbsp;|&nbsp;</li>
+	<li class="nav">
+		<a href="#">学院简介</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="../../xyjj/101107.htm">学院简介</a></li>
+			<li class="subnav"><a href="../../xyjj/8f7d6f6b45114485b3256f3bc3b3cdd9.htm">历史沿革</a></li>
+			<li class="subnav"><a href="../../xyjj/101108.htm">机构设置</a></li>
+		</ul>
+	</li>
+	<li class="nav">
+		<a href="#">新闻公告</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="../../xwgg/xyxw/">新闻动态</a></li>
+			<li class="subnav"><a href="../../xwgg/tzgg/">通知公告</a></li>
+		</ul>
+	</li>
+	<li class="nav">
+		<a href="#">本科教育</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="../../bkjy/zyjs/">专业介绍</a></li>
+			<li class="subnav"><a href="../../bkjy/pyfa/">培养方案</a></li>
+		</ul>
+	</li>
+	<li class="nav">
+		<a href="#">研究生教育</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="../../yjsjy/yjszy/">专业介绍</a></li>
+			<li class="subnav"><a href="../../yjsjy/101428.htm">导师简介</a></li>
+		</ul>
+	</li>
+	<li class="nav"><a href="../../szdw/101430.htm">师资队伍</a>&nbsp;|&nbsp;</li>
+	<li class="nav">
+		<a href="#">学院党建</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="../../xydj/djgz/">党建工作</a></li>
+			<li class="subnav"><a href="../../xydj/xfzx/">先锋在线</a></li>
+			<li class="subnav"><a href="../../xydj/ggwgz/">关工委工作</a></li>
+		</ul>
+	</li>
+	<li class="nav">
+		<a href="#">电信清风</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="../../dxqf/jwgz/">纪委工作</a></li>
+			<li class="subnav"><a href="../../dxqf/lzkt/">廉政课堂</a></li>
+			<li class="subnav"><a href="../../dxqf/jsjy/">警示教育</a></li>
+			<li class="subnav"><a href="../../dxqf/llsy/">理论视野</a></li>
+		</ul>
+	</li>
+	<li class="nav">
+		<a href="#">学生工作</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="../../xsgz/jgsz/">机构设置</a></li>
+			<li class="subnav"><a href="../../xsgz/xsfc/">学生风采</a></li>
+			<li class="subnav"><a href="../../xsgz/pjpy/">评奖评优</a></li>
+		</ul>
+	</li>
+	<li class="nav"><a href="/wdxz/jxgzwd/">文档下载</a>&nbsp;|&nbsp;</li>
+	<li class="nav"><a href="https://zdh.tust.edu.cn/en/">ENGLISH</a></li>
+</ul>
+</div>
+</div>
+</div><div class="main3">
+<div class="container">
+<table width="96%" border="0" cellspacing="0" cellpadding="0" align="center" >
+<tr><td>
+<br /><p class="location"><font style="color:#000">您现在的位置： 首页 >>  新闻公告 >>  通知公告 >> </font></p>
+<br /><br />
+<div  class="c_title">
+	<h2 align="center"><span>天津科技大学电子信息与自动化学院2027年推荐优秀应届本科毕业生免试攻读硕士学位研究生招生录取工作实施细则</span></h2>
+</div>
+<center>
+</center>
+<div  class="c_title">
+<h3 align="center"><span style="font-family:方正兰亭黑; size:14px"></span></h3><br />
+</div>
+<center>
+</center>
+<div  class="date1" align="center">   发布日期：2026-09-18 </div>
+ <hr class="hr" />
+<div  class="wznr"> <font color="#000000"> <html>
+ <head></head>
+ <body>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:30pt; widows:0; orphans:0"><span style="font-family:方正小标宋_GBK; font-size:22pt; -aw-import:ignore"> </span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:30pt; widows:0; orphans:0"><br></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:30pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:15pt; -aw-import:ignore"> </span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt; letter-spacing:-0.2pt">为进一步发挥推荐优秀应届本科毕业生免试攻读研究生工作在推动拔尖创新人才选拔、提</span><span style="font-family:方正仿宋_GBK; font-size:16pt; letter-spacing:-0.2pt">升</span><span style="font-family:方正仿宋_GBK; font-size:16pt; letter-spacing:-0.2pt">研究生招生质量等方面的重要作用，做好我院</span><span style="font-family:'Times New Roman'; font-size:16pt; letter-spacing:-0.2pt">202</span><span style="font-family:'Times New Roman'; font-size:16pt; letter-spacing:-0.2pt">7</span><span style="font-family:方正仿宋_GBK; font-size:16pt; letter-spacing:-0.2pt">年推荐</span><span style="font-family:方正仿宋_GBK; font-size:16pt; letter-spacing:-0.2pt">优秀应届本科毕业生免试攻读硕士学位研究生</span><span style="font-family:方正仿宋_GBK; font-size:16pt; letter-spacing:-0.2pt">招生录取</span><span style="font-family:方正仿宋_GBK; font-size:16pt; letter-spacing:-0.2pt">工作，按照教育部、天津市及学校相关文件精神和要求，制定本实施细则。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正黑体_GBK; font-size:16pt">一、申请条件</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">（一）获得所在高校推免生资格，遴选推荐手续与材料齐全。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">（二）遵守中华人民共和国宪法和法律、诚实守信。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">（三）不存在考试作弊和学术不端行为。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">（四）成绩优秀，系统掌握本学科专业领域的基础理论、专业知识和基本技能；具有从事科学研究、专业实践的能力和基础，以及较强的创新意识和潜质。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">（五）</span><span style="font-family:方正仿宋_GBK; font-size:16pt">身体健康状况符合国家和</span><span style="font-family:方正仿宋_GBK; font-size:16pt">我校</span><span style="font-family:方正仿宋_GBK; font-size:16pt">规定的体检要求。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正黑体_GBK; font-size:16pt">二、招生学科专业及人数</span></p>
+  <table cellspacing="0" cellpadding="0" style="width:99.94%; border:0.75pt solid #000000; border-collapse:collapse">
+   <tbody>
+    <tr class="firstRow">
+     <td style="width: 13.04%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">专业代码</span></p></td>
+     <td style="width: 14.32%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">专业名称</span></p></td>
+     <td style="width: 33.3%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">研究方向</span></p></td>
+     <td style="width: 13.76%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">学位类别</span></p></td>
+     <td style="width: 9.52%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">学制</span></p></td>
+     <td style="width: 16%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">拟招生人数</span></p></td>
+    </tr>
+    <tr>
+     <td style="width: 13.04%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">080400</span></p></td>
+     <td style="width: 14.32%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:方正仿宋_GBK; font-size:12pt">仪器科学与技术</span></p></td>
+     <td style="width: 33.3%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">01</span><span style="font-family:方正仿宋_GBK; font-size:12pt">测试计量技术及仪器</span></p><p style="margin-top:0pt; margin-bottom:0pt; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">02</span><span style="font-family:方正仿宋_GBK; font-size:12pt">精密仪器及机械</span></p><p style="margin-top:0pt; margin-bottom:0pt; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">03</span><span style="font-family:方正仿宋_GBK; font-size:12pt">光电技术与系统</span></p></td>
+     <td style="width: 13.76%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:方正仿宋_GBK; font-size:12pt">学术学位</span></p></td>
+     <td style="width: 9.52%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">3</span><span style="font-family:方正仿宋_GBK; font-size:12pt">年</span></p></td>
+     <td style="width: 16%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">5</span></p></td>
+    </tr>
+    <tr>
+     <td style="width: 13.04%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">081100</span></p></td>
+     <td style="width: 14.32%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:方正仿宋_GBK; font-size:12pt">控制科学与工程</span></p></td>
+     <td style="width: 33.3%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">01</span><span style="font-family:方正仿宋_GBK; font-size:12pt">控制理论与控制工程</span></p><p style="margin-top:0pt; margin-bottom:0pt; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">02</span><span style="font-family:方正仿宋_GBK; font-size:12pt">检测技术与自动化装置</span></p><p style="margin-top:0pt; margin-bottom:0pt; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">03</span><span style="font-family:方正仿宋_GBK; font-size:12pt">模式识别与机器人控制</span></p></td>
+     <td style="width: 13.76%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:方正仿宋_GBK; font-size:12pt">学术学位</span></p></td>
+     <td style="width: 9.52%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">3</span><span style="font-family:方正仿宋_GBK; font-size:12pt">年</span></p></td>
+     <td style="width: 16%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">5</span></p></td>
+    </tr>
+    <tr>
+     <td style="width: 13.04%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">085400</span></p></td>
+     <td style="width: 14.32%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:方正仿宋_GBK; font-size:12pt">电子信息</span></p></td>
+     <td style="width: 33.3%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">01</span><span style="font-family:方正仿宋_GBK; font-size:12pt">控制工程</span></p></td>
+     <td style="width: 13.76%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:方正仿宋_GBK; font-size:12pt">专业学位</span></p></td>
+     <td style="width: 9.52%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">3</span><span style="font-family:方正仿宋_GBK; font-size:12pt">年</span></p></td>
+     <td style="width: 16%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">5</span></p></td>
+    </tr>
+    <tr>
+     <td style="width: 13.04%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">085400</span></p></td>
+     <td style="width: 14.32%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:方正仿宋_GBK; font-size:12pt">电子信息</span></p></td>
+     <td style="width: 33.3%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">02</span><span style="font-family:方正仿宋_GBK; font-size:12pt">新一代电子信息技术</span></p></td>
+     <td style="width: 13.76%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:方正仿宋_GBK; font-size:12pt">专业学位</span></p></td>
+     <td style="width: 9.52%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">3</span><span style="font-family:方正仿宋_GBK; font-size:12pt">年</span></p></td>
+     <td style="width: 16%; border: 1px solid rgb(0, 0, 0); padding: 2px 3px; vertical-align: middle;"><p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:15pt"><span style="font-family:'Times New Roman'; font-size:12pt">5</span></p></td>
+    </tr>
+   </tbody>
+  </table>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">以上</span><span style="font-family:方正仿宋_GBK; font-size:16pt">各学科专业（研究方向）的拟招生人数</span><span style="font-family:方正仿宋_GBK; font-size:16pt">均为根据</span><span style="font-family:方正仿宋_GBK; font-size:16pt">往年</span><span style="font-family:方正仿宋_GBK; font-size:16pt">生源情况所做的预估数，实际推免招生人数将根据录取情况，报经学校研究生招生委员会同意后进行调整。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正黑体_GBK; font-size:16pt">三、招生录取程序</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">（一）填报志愿。所有申请我</span><span style="font-family:方正仿宋_GBK; font-size:16pt">院</span><span style="font-family:方正仿宋_GBK; font-size:16pt">的推免生，均须在规定时间内通过</span><span style="font-family:'Times New Roman'; font-size:16pt">“</span><span style="font-family:方正仿宋_GBK; font-size:16pt">全国推荐免试攻读研究生（免初试、转段）信息公开暨管理服务系统</span><span style="font-family:'Times New Roman'; font-size:16pt">”</span><span style="font-family:方正仿宋_GBK; font-size:16pt">（网址：</span><span style="font-family:'Times New Roman'; font-size:16pt">https://yz.chsi.com.cn/tm</span><span style="font-family:方正仿宋_GBK; font-size:16pt">，以下简称</span><span style="font-family:'Times New Roman'; font-size:16pt">“</span><span style="font-family:方正仿宋_GBK; font-size:16pt">推免服务系统</span><span style="font-family:'Times New Roman'; font-size:16pt">”</span><span style="font-family:方正仿宋_GBK; font-size:16pt">）填报志愿。我</span><span style="font-family:方正仿宋_GBK; font-size:16pt">院</span><span style="font-family:方正仿宋_GBK; font-size:16pt">分批次审核推免生申请信息，通过</span><span style="font-family:'Times New Roman'; font-size:16pt">“</span><span style="font-family:方正仿宋_GBK; font-size:16pt">推免服务系统</span><span style="font-family:'Times New Roman'; font-size:16pt">”</span><span style="font-family:方正仿宋_GBK; font-size:16pt">向符合条件的考生发送考核通知。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">（二）提交材料。考生收到考核通知并同意后，于</span><span style="font-family:'Times New Roman'; font-size:16pt">2</span><span style="font-family:方正仿宋_GBK; font-size:16pt">日内</span><span style="font-family:方正仿宋_GBK; font-size:16pt">通过</span><span style="font-family:方正仿宋_GBK; font-size:16pt">邮箱</span><span style="font-family:'Times New Roman'; font-size:16pt">dxyz@tust.edu.cn</span><span style="font-family:方正仿宋_GBK; font-size:16pt">提交</span><span style="font-family:方正仿宋_GBK; font-size:16pt">以下</span><span style="font-family:方正仿宋_GBK; font-size:16pt">材料扫描件。</span><span style="font-family:方正仿宋_GBK; font-size:16pt">材料须按顺序放至一个文件压缩包中，压缩包文档以</span><span style="font-family:方正仿宋_GBK; font-size:16pt">“</span><span style="font-family:'Times New Roman'; font-size:16pt">2027</span><span style="font-family:方正仿宋_GBK; font-size:16pt">推免材料</span><span style="font-family:'Times New Roman'; font-size:16pt">+</span><span style="font-family:方正仿宋_GBK; font-size:16pt">专业代码及专业名称</span><span style="font-family:'Times New Roman'; font-size:16pt">+</span><span style="font-family:方正仿宋_GBK; font-size:16pt">考生姓名</span><span style="font-family:方正仿宋_GBK; font-size:16pt">”</span><span style="font-family:方正仿宋_GBK; font-size:16pt">命名。</span><span style="font-family:方正仿宋_GBK; font-size:16pt">考生提交的全部材料必须保证真实准确，若弄虚作假，一经发现将取消其录取资格。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">1</span><span style="font-family:'Times New Roman'; font-size:16pt">.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">有效居民身份证</span><span style="font-family:方正仿宋_GBK; font-size:16pt">照片</span><span style="font-family:方正仿宋_GBK; font-size:16pt">（正反面）。若身份证丢失，须提交临时身份证（有效期内）或公安机关开具的户籍证明（贴有本人近期一寸免冠照片、盖骑缝章）。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">2</span><span style="font-family:'Times New Roman'; font-size:16pt">.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">教育部学籍在线验证报告（中国高等教育学生信息网）。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">3</span><span style="font-family:'Times New Roman'; font-size:16pt">.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">大学学习成绩单及排名证明（加盖所在学校教务处公章）。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">4</span><span style="font-family:'Times New Roman'; font-size:16pt">.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">外语水平证明。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">5</span><span style="font-family:'Times New Roman'; font-size:16pt">.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">遴选推荐阶段提交的科研创新成果、竞赛奖项等材料。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">6</span><span style="font-family:'Times New Roman'; font-size:16pt">.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">申请攻读硕士研究生报告。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">7</span><span style="font-family:'Times New Roman'; font-size:16pt">.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">考生诚信承诺书（打印纸质版，手写签名）。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">8</span><span style="font-family:'Times New Roman'; font-size:16pt">.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">思想政治素质和品德考核表。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">其中</span><span style="font-family:'Times New Roman'; font-size:16pt">6-8</span><span style="font-family:方正仿宋_GBK; font-size:16pt">项材料模板下载网址：</span><span style="font-family:'Times New Roman'; font-size:16pt">http://yjs.tust.edu.cn/zsgz/xzzxzs/</span><span style="font-family:方正仿宋_GBK; font-size:16pt">。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">（三）综合考核。综合考核内容包括材料审核</span><span style="font-family:方正仿宋_GBK; font-size:16pt">和综合</span><span style="font-family:方正仿宋_GBK; font-size:16pt">面试。综合考核采用现场考核的方式进行。考核时间确定</span><span style="font-family:方正仿宋_GBK; font-size:16pt">后另行</span><span style="font-family:方正仿宋_GBK; font-size:16pt">通知，所有考核工作在</span><span style="font-family:'Times New Roman'; font-size:16pt">2026</span><span style="font-family:方正仿宋_GBK; font-size:16pt">年</span><span style="font-family:'Times New Roman'; font-size:16pt">10</span><span style="font-family:方正仿宋_GBK; font-size:16pt">月</span><span style="font-family:'Times New Roman'; font-size:16pt">16</span><span style="font-family:方正仿宋_GBK; font-size:16pt">日前完成。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">1.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">学院材料审核专家组对考生提交材料进行审核</span><span style="font-family:方正仿宋_GBK; font-size:16pt">评</span><span style="font-family:方正仿宋_GBK; font-size:16pt">分，审核合格者方可进入后续考核。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">2.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">学院</span><span style="font-family:方正仿宋_GBK; font-size:16pt">综合面试</span><span style="font-family:方正仿宋_GBK; font-size:16pt">专家组对考生专业素养、研究能力、科研志趣、创新潜质、科学精神、学术道德、专业伦理、社会主义核心价值观等进行全面考核</span><span style="font-family:方正仿宋_GBK; font-size:16pt">，一般包含以下四方面内容：</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">①</span><span style="font-family:方正仿宋_GBK; font-size:16pt">思想政治素质（</span><span style="font-family:'Times New Roman'; font-size:16pt">25</span><span style="font-family:方正仿宋_GBK; font-size:16pt">分）</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">主要考察考生的政治态度与政治立场、社会公德意识及职业道德表现。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">②</span><span style="font-family:方正仿宋_GBK; font-size:16pt">科研能力与潜力、思维与反应能力（</span><span style="font-family:'Times New Roman'; font-size:16pt">25</span><span style="font-family:方正仿宋_GBK; font-size:16pt">分）</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">主要考察考生的知识储备、研究经验、实践能力和解决问题的能力。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">③</span><span style="font-family:方正仿宋_GBK; font-size:16pt">对所报考专业的认识（</span><span style="font-family:'Times New Roman'; font-size:16pt">25</span><span style="font-family:方正仿宋_GBK; font-size:16pt">分）</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">评估考生对所报考专业的理解程度，是否具备清晰的学术规划、扎实的专业基础、持续深耕的潜力以及较好的敬业精神。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">④</span><span style="font-family:方正仿宋_GBK; font-size:16pt">其他（创新精神、人文素养、外语水平等）（</span><span style="font-family:'Times New Roman'; font-size:16pt">25</span><span style="font-family:方正仿宋_GBK; font-size:16pt">分）</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">主要考察考生的思维活跃度、问题敏感度、社会责任意识、表达与沟通、跨文化理解等方面能力。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">（四）综合考核成绩。综合考核成绩满分为</span><span style="font-family:'Times New Roman'; font-size:16pt">100</span><span style="font-family:方正仿宋_GBK; font-size:16pt">分，成绩保留两位小数，</span><span style="font-family:'Times New Roman'; font-size:16pt">60</span><span style="font-family:方正仿宋_GBK; font-size:16pt">分及以上视为考核合格。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">（五）拟录取。学院按照综合考核成绩排名，根据招生计划，确定拟录取名单。通过</span><span style="font-family:'Times New Roman'; font-size:16pt">“</span><span style="font-family:方正仿宋_GBK; font-size:16pt">推免服务系统</span><span style="font-family:'Times New Roman'; font-size:16pt">”</span><span style="font-family:方正仿宋_GBK; font-size:16pt">向拟录取考生发送拟录取通知。拟录取考生须在规定时间内通过</span><span style="font-family:'Times New Roman'; font-size:16pt">“</span><span style="font-family:方正仿宋_GBK; font-size:16pt">推免服务系统</span><span style="font-family:'Times New Roman'; font-size:16pt">”</span><span style="font-family:方正仿宋_GBK; font-size:16pt">接受拟录取通知，否则视为放弃。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">对于获得</span><span style="font-family:'Times New Roman'; font-size:16pt">“</span><span style="font-family:方正仿宋_GBK; font-size:16pt">中国国际大学生创新大赛</span><span style="font-family:'Times New Roman'; font-size:16pt">”</span><span style="font-family:方正仿宋_GBK; font-size:16pt">国赛银奖及以上、</span><span style="font-family:'Times New Roman'; font-size:16pt">“</span><span style="font-family:方正仿宋_GBK; font-size:16pt">天开杯</span><span style="font-family:'Times New Roman'; font-size:16pt">”</span><span style="font-family:方正仿宋_GBK; font-size:16pt">创聚津门全国大学生智能科技创新创业挑战赛一等奖及以上等在科研创新方面具有突出表现的推免生，报考我</span><span style="font-family:方正仿宋_GBK; font-size:16pt">院</span><span style="font-family:方正仿宋_GBK; font-size:16pt">研究生进入考核后，考生提出申请的，综合考核成绩相同的情况下，予以优先录取。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">（六）名单公示。拟录取考生名单须通过学院研究生招生工作领导小组、学校研究生招生委员会逐级审议。审议通过后的拟录取考生名单（包括考生姓名、考生编号、综合考核成绩等信息）在学校研究生院网站公示</span><span style="font-family:'Times New Roman'; font-size:16pt">7</span><span style="font-family:方正仿宋_GBK; font-size:16pt">日。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">（七）数据上报。公示无异议后，学校在规定时间内将推免生拟录取数据上传至</span><span style="font-family:'Times New Roman'; font-size:16pt">“</span><span style="font-family:方正仿宋_GBK; font-size:16pt">推免服务系统</span><span style="font-family:'Times New Roman'; font-size:16pt">”</span><span style="font-family:方正仿宋_GBK; font-size:16pt">，经市级审核后上报教育部。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正黑体_GBK; font-size:16pt">四、录取要求</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">（一）已被我校录取的推免生，不得再报名参加当年全国统一考试、单独考试。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">（二）推免生出现下列情况之一的，不予录取或取消录取资格。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">1.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">未经综合考核的考生，不予录取。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">2.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">对报考资格不符合规定的考生，不予录取。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">3.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">综合考核成绩不合格的考生，不予录取。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">4.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">思想政治素质和品德考核结果不合格的考生，不予录取。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">5.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">未经我校公示的考生，不予录取。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">6.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">在我校规定的入学报到之日前未取得学士学位或本科毕业证书的考生，取消录取资格。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">7.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">受违法处理或违纪、作弊处分的考生，不予录取或取消录取资格。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">8.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">经查实存在弄虚作假，论文抄袭，虚报获奖、科研成果等学术不端行为或有其他影响招生录取过程和结果公平公正行为的考生，不予录取或取消录取资格。如入学后查实，取消学籍。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:'Times New Roman'; font-size:16pt">9.</span><span style="font-family:方正仿宋_GBK; font-size:16pt">其他不予录取或取消录取资格的情形。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正黑体_GBK; font-size:16pt">五</span><span style="font-family:方正黑体_GBK; font-size:16pt">、管理</span><span style="font-family:方正黑体_GBK; font-size:16pt">与监督</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">学院成立以</span><span style="font-family:方正仿宋_GBK; font-size:16pt">院长</span><span style="font-family:方正仿宋_GBK; font-size:16pt">为组长的研究生招生工作领导小组，负责</span><span style="font-family:方正仿宋_GBK; font-size:16pt">领导和组织</span><span style="font-family:方正仿宋_GBK; font-size:16pt">本学院推免生</span><span style="font-family:方正仿宋_GBK; font-size:16pt">招生</span><span style="font-family:方正仿宋_GBK; font-size:16pt">录取工作。</span><span style="font-family:方正仿宋_GBK; font-size:16pt">学院按学科专业成立材料审核专家组和面试考核专家组，负责推免生的材料审核、评分以及综合考核工作。</span><span style="font-family:方正仿宋_GBK; font-size:16pt">学</span><span style="font-family:方正仿宋_GBK; font-size:16pt">院</span><span style="font-family:方正仿宋_GBK; font-size:16pt">推免招生录取工作接受社会和广大考生的监督，考生可通过电话或信函向我</span><span style="font-family:方正仿宋_GBK; font-size:16pt">院</span><span style="font-family:方正仿宋_GBK; font-size:16pt">反映或投诉，具体方式见文末。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正黑体_GBK; font-size:16pt">六、联系方式</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:30pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:15pt">联系人：</span><span style="font-family:方正仿宋_GBK; font-size:15pt">何</span><span style="font-family:方正仿宋_GBK; font-size:15pt">老师</span><span style="font-family:'Times New Roman'; font-size:15pt"> </span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:30pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:15pt">电话：</span><span style="font-family:'Times New Roman'; font-size:15pt">022-60600776</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:30pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:15pt">邮箱：</span><a href="mailto:dxyz@tust.edu.cn" style="text-decoration:none"><span style="font-family:'Times New Roman'; font-size:15pt; text-decoration:underline; color:#0000ff">dxyz</span><span style="font-family:'Times New Roman'; font-size:15pt; text-decoration:underline; color:#0000ff">@tust.edu.cn</span></a></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:30pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:15pt">学院网址：</span><a href="https://zdh.tust.edu.cn/" style="text-decoration:none"><span style="font-family:'Times New Roman'; font-size:15pt; text-decoration:underline; color:#0000ff">https://zdh.tust.edu.cn/</span></a></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">学院</span><span style="font-family:方正仿宋_GBK; font-size:16pt">纪检监察举报投诉</span><span style="font-family:方正仿宋_GBK; font-size:16pt">电话</span><span style="font-family:方正仿宋_GBK; font-size:16pt">：</span><span style="font-family:'Times New Roman'; font-size:16pt">022-60600771</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; widows:0; orphans:0; font-size:16pt"><span style="font-family:仿宋_GB2312">联系地址：天津市经济技术开发区第十三大街9号滨海西校区11号楼304室</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; widows:0; orphans:0; font-size:16pt"><span style="font-family:'Times New Roman'; -aw-import:ignore"> </span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; widows:0; orphans:0; font-size:16pt"><span style="font-family:'Times New Roman'; -aw-import:ignore"> </span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:right; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">天津科技大学</span><span style="font-family:方正仿宋_GBK; font-size:16pt">电子信息与自动化</span><span style="font-family:方正仿宋_GBK; font-size:16pt">学院</span></p>
+  <p style="margin-top: 0pt; margin-bottom: 0pt; text-indent: 32pt; text-align: right; line-height: 28pt;"><span style="font-family:方正仿宋_GBK; font-size:16pt; -aw-import:spaces"> </span><span style="font-family:'Times New Roman'; font-size:16pt">202</span><span style="font-family:'Times New Roman'; font-size:16pt">6</span><span style="font-family:方正仿宋_GBK; font-size:16pt">年</span><span style="font-family:'Times New Roman'; font-size:16pt">9</span><span style="font-family:方正仿宋_GBK; font-size:16pt">月</span><span style="font-family:'Times New Roman'; font-size:16pt">18</span><span style="font-family:方正仿宋_GBK; font-size:16pt">日</span></p>
+  <div style="-aw-headerfooter-type:footer-primary">
+   <p style="margin-top:0pt; margin-bottom:0pt; widows:0; orphans:0; font-size:9pt"><span style="height:0pt; display:block; position:absolute; z-index:-65536"><img src="../../images/2026-09/95027f8367fc4cc48c46907d58bdb720.png" width="57" height="22" style="margin-left:400.07pt; -aw-left-pos:0pt; -aw-rel-hpos:margin; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:none; position:absolute"></span><span style="font-family:'Times New Roman'; -aw-import:ignore"> </span></p>
+  </div>
+ </body>
+</html> <br />
+ </div>
+</div>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>	
+
+</div>
+</div>
+
+
+<div class="bottom">
+<div class="footer">
+<br>
+天津科技大学电子信息与自动化学院版权所有<br>
+联系电话：022-60600771<br>
+管理员信箱：e_auto@tust.edu.cn<br>
+津科备02号<br>
+</div>
+</div>
+
+</body></html>

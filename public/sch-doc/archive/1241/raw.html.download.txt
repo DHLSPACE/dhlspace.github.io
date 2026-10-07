@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>上海交通大学化学化工学院（含变革性分子前沿科学中心） 2026年第二批次申请-考核、硕博连读博士生招生报名通知-上海交通大学化学化工学院</title>
+    <meta name="keywords" content="上海交通大学化学化工学院" />
+    <meta name="description" content="上海交通大学化学化工学院" />
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/bs/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="/css/public.css?v=1.0.7"/>
+    <link type="text/css" rel="stylesheet" href="/css/css.css?v=1.0.7"/>
+    <script src="/js/jquery-3.5.1.js"></script>
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="/css/swiper.min.css">
+    <script src="/js/swiper.min.js"></script>
+    <script src="/bs/js/bootstrap.min.js"></script>
+    <script src="/js/scrollbar.js"></script>
+    <!-- 美化alert -->
+    <link rel="stylesheet" href="/public/js/alert/BeAlert.css">
+    <script src="/public/js/alert/BeAlert.js"></script>
+    <script type="text/javascript">
+        function search_validate(){
+            if(document.getElementById('search_keywords').value == ''){
+                alert('请输入搜索关键字');
+                return false;
+            }
+        }
+    </script>
+    <!--视频-->
+    <link href="/public/css/css.css?v=1.0.7" rel="stylesheet">
+    <link href="/public/css/video-js.css" rel="stylesheet">
+    <script src="/public/js/video.min.js"></script> 
+    <script src="/public/js/zh-CN.js"></script>
+    <!-- 美化alert -->
+    <link href="/public/js/jqueryxtiper/css/xtiper.css" type="text/css" rel="stylesheet" />
+    <script src="/public/js/jqueryxtiper/js/xtiper.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="top">
+        <div class="main">
+            <a href="/" title="" class="logo"></a>
+            <span class="menu2" id="menu2"><a href="javascript:void(0)">&nbsp;</a></span>
+        </div>
+    </div>
+    <div id=navk>
+        <div class="main">
+            <div class="top_r">
+                <div class="top_yy">
+                    <div class="ss">
+                        <form method="get" action="https://scce.sjtu.edu.cn/active/search.html" onsubmit="return search_validate();">
+                        <div class="txtk">
+                            <input type="text" class="form-control" placeholder="Search" id="search_keywords" name="search_keywords">
+                            <button class="an_ss" type="submit"></button>
+                        </div>
+                        </form>
+                    </div>
+                    <div class="top_nav">
+                        <a href="https://scce.sjtu.edu.cn/user/jaccount_login.html">使用jAccount登录</a>|<a href="/en">English</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="menu">
+                <!--当前栏目请在Li里引用on-->
+                <!-- <li class=""><a href="/" class="dbt">首页</a></li> -->
+                                <li class=""><a href="https://scce.sjtu.edu.cn/ddscce.html" class="dbt">读懂SCCE</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xyinfo.html">学院简介</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/yzjy.html">院长寄语</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xyld.html">领导班子</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xywyh.html">学院委员会</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xszx.html">系所中心</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/szdw.html" class="dbt">师资队伍</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gk.html">概况</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/lyys.html">两院院士</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/teachers.html">教师名录</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xzry.html">行政人员</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/rcpy.html" class="dbt">人才培养</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/rcpygk.html">概况</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/bks.html">本科生</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/yjs.html">研究生</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xsgz.html">学生工作</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/kxyj.html" class="dbt">科学研究</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/kycg.html">科研成果</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/sysgl.html">实验室管理</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/xyysh.html" class="dbt">校友与社会</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/byzp.html">毕业照片</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xyml.html">校友名录</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/xyfc.html">校友风采</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/fzjj.html">SCCE发展基金</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/lxwm.html">联系我们</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/gjhz.html" class="dbt">国际合作</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/wszn.html">外事指南</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/hwyxxm.html">海外游学项目</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/zsgz.html" class="dbt">招生工作</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/zsbks.html">本科生</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/zsyjs.html">研究生</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/zsmem.html">MEM</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/djyd.html" class="dbt">党建园地</a>
+                                        <dl>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd7.html">中央八项规定精神学习</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd4.html">党纪学习</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd3.html">第二次党代会</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd1.html">党的二十大</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd2.html">主题教育</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/jgzjj.html">工会队伍</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/jgzj.html">教工之家</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/djyddjdw.html">党建队伍</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/djhdd.html">党建活动</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/llxx.html">理论学习</a></dd>
+                                                <dd><a href="https://scce.sjtu.edu.cn/gzzd.html">规章制度</a></dd>
+                                            </dl>
+                                    </li>
+                                <li class=""><a href="https://scce.sjtu.edu.cn/banshi.html" class="dbt">办事指南</a>
+                                    </li>
+                            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="top_jg"></div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var pk = document.body.clientWidth;
+            if (pk < 1200) {
+                //手机菜单
+                $("#menu2").click(function () {
+                    if ($("#navk").css("display") == "none") {
+                        $(this).find("a").addClass("on");
+                        $("#navk").css("display", "block").stop().animate({left: '0%'});
+                    } else {
+                        $(this).find("a").removeClass("on");
+                        $("#navk").css("display", "none").stop().animate({left: '100%'});
+                    }
+                });
+            } else {
+                //下拉
+                $(".menu li").hover(function () {
+                    $(this).find("dl").stop().css("display", "block").animate({
+                        opacity: '1',
+                    });
+                }, function () {
+                    $(this).find("dl").stop().css("display", "none").animate({
+                        opacity: '0',
+                    });
+                });
+            }
+        });
+    </script>
+<div class="ny_ban" style='background-image:url("/images/ban_cd1.jpg")'></div>
+
+<div class="lm1k">
+    <div class="main">
+        <div class="lm1_bt mob"><a href="javascript:void(0)" id="cd_lm">首页管理</a></div>
+        <ul class="lm1 left" id="lm">
+                        <li><a href="https://scce.sjtu.edu.cn/index_news.html" class="">新闻动态</a></li>
+                        <li><a href="https://scce.sjtu.edu.cn/index_hyzh.html" class="">化院智慧</a></li>
+                        <li><a href="https://scce.sjtu.edu.cn/index_notice.html" class="on">通知公告</a></li>
+                        <li><a href="https://scce.sjtu.edu.cn/index_xsrl.html" class="">学术日历</a></li>
+                        <li><a href="https://scce.sjtu.edu.cn/index_ssfc.html" class="">师生风采</a></li>
+                        <li><a href="https://scce.sjtu.edu.cn/index_video.html" class="">视觉化院</a></li>
+                        <li><a href="https://scce.sjtu.edu.cn/index_rczp.html" class="">人才招聘</a></li>
+                    </ul>
+        <div class="clear"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $("#cd_lm").click(function () {
+        if ($("#lm").css("display") == "none") {
+            $(this).addClass("on");
+            $("#lm").slideDown("slow");
+        } else {
+            $(this).removeClass("on");
+            $("#lm").slideUp("slow");
+        }
+    });
+</script>
+
+<div class="ny">
+        <div class="main">
+        <div class="ny_k3 mh">
+            <div class="sbt">上海交通大学化学化工学院（含变革性分子前沿科学中心） 2026年第二批次申请-考核、硕博连读博士生招生报名通知</div>
+            <div class="ssj">
+                                                                日期：2026-05-11<em class="em1"></em>
+                                阅读：12447            </div>
+            <div class="ab_nr mh md50">
+                <!--视频-->
+				<div class="my-video2-div">
+									</div>
+                <p style="margin-bottom:0;text-autospace:ideograph-numeric;text-align:center;line-height:150%"></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;font-size: 19px">一、</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">招生专业</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">1.学术型博士：</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">化学（</span><span style="font-family:仿宋_GB2312">070300）</span></span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">化学工程与技术（</span><span style="font-family:仿宋_GB2312">081700）</span></span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">2.专业学位博士（工程博士）：</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">材料与化工（</span><span style="font-family:仿宋_GB2312">085600）（包括“全日制”和“非全日制”)</span></span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">二、选拔方式</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">1．硕博连读。</span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">面向已按学科培养方案要求修完全部硕士学位课程、各科成绩优秀，经导师同意可申请硕博连读生的本院二年级非定向就业在读优秀硕士研究生。</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">2.申请-考核。</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">（</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">1</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">）</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">面向已获硕士或博士学位人员，应届硕士毕业生最迟须在录取当年入学前取得国家承认的硕士毕业证书和硕士学位证书或教育部留学服务中心出具的《国（境）外学历学位认证书》。</span></p><p style="margin-right:0;margin-bottom:0;margin-left:0;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">（</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">2</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">）</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">面向</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">海外高校优秀中国籍本科毕业生直接攻读博士。</span></p><p style="margin-right:0;margin-bottom:0;margin-left:0;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">招生专业：</span><span style="font-family:仿宋_GB2312">070300 化学</span></span></p><p style="margin-top:0;margin-right:0;margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;letter-spacing: 1px;font-size: 19px;background: rgb(255, 255, 255)"><span style="font-family:仿宋_GB2312">1）</span></span><span style="font-family: 仿宋_GB2312;line-height: 150%;letter-spacing: 1px;font-size: 19px;background: rgb(255, 255, 255)"><span style="font-family:仿宋_GB2312">本科阶段就读的海外高校同时进入</span><span style="font-family:仿宋_GB2312">THE、U.S.News、QS、ARWU主流世界大学排行榜前100位。</span></span></p><p style="margin-top:0;margin-right:0;margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px;background: rgb(255, 255, 255)"><span style="font-family:仿宋_GB2312">2）</span></span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px;background: rgb(255, 255, 255)"><span style="font-family:仿宋_GB2312">申请学生在本科毕业高校的</span></span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px;background: rgb(255, 255, 255)"><span style="font-family:仿宋_GB2312">GPA</span></span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px;background: rgb(255, 255, 255)"><span style="font-family:仿宋_GB2312">不低于</span></span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px;background: rgb(255, 255, 255)"><span style="font-family:仿宋_GB2312">3.5</span></span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px;background: rgb(255, 255, 255)"><span style="font-family:仿宋_GB2312">（满分为</span></span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px;background: rgb(255, 255, 255)"><span style="font-family:仿宋_GB2312">4</span></span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px;background: rgb(255, 255, 255)"><span style="font-family:仿宋_GB2312">分制）。</span></span></p><p style="margin-top:0;margin-right:0;margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px;background: rgb(255, 255, 255)"><span style="font-family:仿宋_GB2312">3）</span></span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px;background: rgb(255, 255, 255)"><span style="font-family:仿宋_GB2312">基本学习年限为</span></span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px;background: rgb(255, 255, 255)"><span style="font-family:仿宋_GB2312">5</span></span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px;background: rgb(255, 255, 255)"><span style="font-family:仿宋_GB2312">年，学习方式为全日制，就业方式为非定向。在学费、奖助学金、住宿、就业和日常管理等方面与普通直博生执行相同政策。</span></span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">三、申请条件</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">1、考生需满足上海交通大学2026年博士研究生招生简章报考条件。</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">2、英语水平须满足学校招生简章所列要求之一：</span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span><span style="font-family:仿宋_GB2312">1）全国大学英语六级成绩≥425分；</span></span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span><span style="font-family:仿宋_GB2312">2）TOEFL iBT≥90分（不含家庭版托福）；</span></span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span><span style="font-family:仿宋_GB2312">3）IELTS学术类≥6.0分（不含IELTS Online）；</span></span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span><span style="font-family:仿宋_GB2312">4）在英语为母语的国家参加全英文授课学位项目并获得学位。</span></span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">* 报考非全日制博士生的考生，外语水平不满足上述第（1）至（4）条要求者，须参加综合考核中的英语加试，成绩达标者可进入后续流程。</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">3、其它要求：</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span>1）考生本科及硕士所属高校或所在专业为纳入教育部“双一流”建设的高校或学科；</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span>2）如不符合前款（1）要求的考生，但学术能力符合以下情形之一者： </span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">① 考生在硕士期间基于本人硕士学位论文课题，以第一作者公开发表本学科高水平SCI论文；</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">② 考生硕士学位论文获得省部级优秀硕士学位论文奖项或本学科顶级学会优秀学位论文奖项；</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">③ 考生硕士期间综合成绩排序在本学科位于前5%；</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">④ 考生在硕士期间参加本学科较高层次国际会议并做口头报告。</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span>3）如考生在境外获得学位的，要求为取得国外一流大学（USNEWS, QS，THE，ARWU，ESI等国际公认学科排名位于前</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">1</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">00名）硕士学位，或所在专业为国际公认学科排名位于前50的生源，考生国籍须为中国；</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;font-size: 19px">（4）</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">考生本科和硕士所学专业一般应为化学化工相关学科，如本科和硕士所学专业均不是化学化工相关学科，根据学院招生领导小组审议，并结合所报考导师的意见，判断考生是否需要加试一门所报考学科的专业基础课，如需加试，则须加试合格后方可进入综合</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">考核</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">环节</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">；</span></p><p><span style=";font-family:华文仿宋;font-size:19px;background:rgb(255,255,255)"><span style="font-family:华文仿宋">4、报考非全日制工程博士的考生</span></span><span style=";font-family:华文仿宋;font-size:19px;background:rgb(255,255,255)"><span style="font-family:华文仿宋">，</span></span><span style=";font-family:华文仿宋;font-size:19px;background:rgb(255,255,255)"><span style="font-family:华文仿宋">须满足《上海交通大学</span><span style="font-family:华文仿宋">2026年非全日制工程类专业学位博士研究生招生简章》（https://yzb.sjtu.edu.cn/post/3618）中的申请条件，且</span></span><span style=";font-family:华文仿宋;font-size:19px;background:rgb(255,255,255)"><span style="font-family:华文仿宋">须来自与我院有实质性产学研合作的企业或科研机构。</span></span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">四、</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">申请时间</span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">申请人在上海交通大学研究生招生网（</span><a href="https://yzb.sjtu.edu.cn/"><span style="text-decoration:underline;"><span style="font-family: 仿宋_GB2312;line-height: 150%;color: rgb(70, 120, 134);font-size: 19px">https://yzb.sjtu.edu.cn</span></span></a><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">/）报名，报名路径：研招网首页-网上报名-博士报名。</span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">报名时间：</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">即日起至</span><span style="font-family:仿宋_GB2312">5月25日17:00</span></span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">。</span></p><p style="margin-bottom:0;margin-left:4px;text-indent:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;font-size: 19px">五、</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">申请</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">流程</span></p><p style="margin-bottom:0;margin-left:4px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">（</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">一</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">）</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">申请材料</span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">请在上海交通大学研招网报名系统中报名并提交以下申请材料，申请人须保证材料的真实、准确，对提供虚假信息者，一律取消综合考核资格或录取资格。</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span><span style="font-family:仿宋_GB2312">1）报考材料，包括以下内容：</span></span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">① 上海交通大学博士学位研究生报考登记表1份（综合考核时携带纸质版，从研招网报名系统下载）；</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">② 本科及硕士课程成绩单（须在报考系统提交扫描件，综合考核时携带纸质版，加盖管理部门成绩公章或考生档案所在管理部门公章）；</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">③ 各类获奖证明（在报考系统提交，综合考核时携带纸质版）；</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">④ 在学或工作期间的科研成果（含已取得的专利）、公开发表的学术性论文或专著等证明（在报考系统提交，综合考核时携带纸质版）；</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">⑤ 两封专家推荐信（本学科或相近学科的副高及以上职称专家推荐，原则上必须有申请人的硕士生导师推荐），考生只需在系统里提交专家联系方式，推荐专家自行通过系统提交；</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">⑥ 相关外语水平成绩证明（在报考系统提交，综合考核时携带纸质版）;</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">⑦ 硕士学位论文摘要和目录（在报考系统提交，综合考核时携带纸质版）;</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">⑧ 拟攻读博士学位的科学研究计划书（在报考系统提交，综合考核时携带纸质版）；</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">⑨ 个人简历（一页）（在报考系统提交，综合考核时携带纸质版）。</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span><span style="font-family:仿宋_GB2312">2）资格审查材料(综合考核时须携带原件)，包括以下内容：</span></span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">① 本人第二代居民身份证；</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">② 研究生毕业学历证书/硕士学位证书复印件及学位在线验证报告（考生需登录“中国学位与研究生教育信息网”http://www.chinadegrees.cn，进入“学位查询”在线申请学位验证，打印下载本人的学位在线验证报告）；</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">③ 应届硕士毕业生提供（学籍）认证报告（考生需登录“高等教育学生信息咨询网”www.chsi.com.cn，进入“学信档案”在线申请学籍验证，打印下载本人的学籍认证报告。如不成功可根据要求申请书面认证，获得“学籍认证报告”）；</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">④ 持在境外获得学历/学位的考生，须提交教育部留学服务中心出具的认证报告。</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">注：考生务必保证提交材料的真实准确，对提供虚假信息的考生，一律取消考试录取资格。</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;font-size: 19px">（二）</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">初审遴选</span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">院系组织</span><span style="font-family:仿宋_GB2312">“遴选委员会”对申请人进行初审遴选，遴选结果报学校审核通过后，通知遴选合格的申请人参加综合考核。进入综合考核名单将</span></span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">在</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">学院网站或学校研招</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">网站公布。</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">（三）综合考核</span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">学院组织</span><span style="font-family:仿宋_GB2312">“专家委员会”对初审通过的申请者进行综合考核。</span></span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">综合考核内容及录取原则以我院将于综合考核前公布的博士研究生综合考核办法为准。</span></p><p style="margin-bottom:0;text-indent:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">六、其他事项</span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">1. 对在报名或考核中存在违规或弄虚作假等行为的，按有关规定严肃处理。</span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">2. 入学后，学校统一组织体检，体检标准按照教育部和学校有关规定执行。</span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">3. 我校不举办任何形式的辅导班，不提供历年试题、参考书籍和复习资料。 </span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">七、</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">联系方式</span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">化学化工学院</span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">邮箱：</span><span style="font-family:仿宋_GB2312">sccezs@sjtu.edu.cn</span></span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">电话：</span><span style="font-family:仿宋_GB2312">021-54745426 孙老师、钱老师</span></span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">&nbsp;</span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">变革性分子前沿科学中心</span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">邮箱：</span><span style="font-family:仿宋_GB2312">xiaozhentian2019@sjtu.edu.cn</span></span></p><p style="margin-bottom:0;text-indent:37px;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px"><span style="font-family:仿宋_GB2312">电话：</span><span style="font-family:仿宋_GB2312">021-68696038 田老师</span></span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">&nbsp;</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">&nbsp;</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">&nbsp;</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">&nbsp;</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;text-align:right;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">化学化工</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">学院</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;text-align:right;line-height:150%"><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">2026</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">年</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">5</span><span style="font-family: 仿宋_GB2312;line-height: 150%;font-size: 19px">月</span></p><p style="margin-bottom:0;text-autospace:ideograph-numeric;line-height:32px"><span style="font-family: 仿宋_GB2312;font-size: 19px">&nbsp;</span></p><p><br/></p>            </div>
+            <div class="sgd">
+                上一条：<a href="https://scce.sjtu.edu.cn/index_notice/4918.html">化学化工学院关于申报及评选2026年优异硕士学位论文的通知</a><br>                下一条：<a href="https://scce.sjtu.edu.cn/index_notice/4913.html">关于化学化工学院2026年“五四评优”推荐名单的公示</a>                <a href="https://scce.sjtu.edu.cn/index_notice.html" class="cd_fh">返回列表</a>
+                <div class="ab_fx">
+                    <span class="s1">分享到：</span><a href="javascript:;" class="cd_wx"><img src="/images/ny/fx1.png"></a><a href="javascript:;" class="cd_wb"><img src="/images/ny/fx2.png"></a><a href="javascript:;" class="cd_qq"><img src="/images/ny/fx3.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="foot">
+    <div class="main">
+                <div class="f1">
+            <p>地址：上海市东川路800号 200240<br/></p><p><br/></p><p><br/></p>            <div class="d_logo"></div>
+        </div>
+        <!-- <div class="f0">
+                                                            <a href="https://scce.sjtu.edu.cn/review/login.html" class="a3">专家评审专栏</a>
+        </div> -->
+        <div class="link">
+                                    <a href="https://sklscbs.sjtu.edu.cn/" target="_blank">化学生物协同物质创制全国重点实验室</a>
+                        <a href="https://fsctm.sjtu.edu.cn/" target="_blank">变革性分子前沿科学中心</a>
+                        <a href="https://ecc.sjtu.edu.cn/index.htm" target="_blank">基础化学实验中心</a>
+                        <a href="https://dnastorage.sjtu.edu.cn/" target="_blank">DNA存储研究中心</a>
+                        <a href="http://cal.sjtu.edu.cn/genee/">测试中心</a>
+                        <a href="/user/jaccount_login.html">教师信息维护平台</a>
+                        <a href="https://net.sjtu.edu.cn/" target="_blank">我的数字交大</a>
+                        <a href="https://ky.sjtu.edu.cn/" target="_blank">科研信息服务系统</a>
+                        <a href="https://dangjian.sjtu.edu.cn" target="_blank">智慧党建</a>
+                        <a href=" https://sccemem.sjtu.edu.cn/" target="_blank">工程管理硕士</a>
+                        <a href="/review/login.html">专家评审专栏</a>
+                        <a href=" https://ly.sjtu.edu.cn" target="_blank">会议室共享预约系统</a>
+                    </div>
+        <div class="f2">
+            <div class="ewm"><img src="/images/qr2025.jpg"><p>全重实验室<br>官方微信</p></div>
+            <div class="fx">
+            </div>
+        </div>
+        <div class="f2">
+            <div class="ewm"><img src="/upload/image/20211012/20211012173713.jpeg"><p>化学化工学院<br>官方微信</p></div>
+            <div class="fx">
+                <!--
+                <a href="javascript:;" class="cd_wx"></a>
+                <a href="javascript:;" class="cd_wb"></a>
+                <a href="javascript:;" class="cd_qq"></a>
+            -->
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+
+    </div>
+</div>
+<div class="foot2">
+    Copyright 2020 <a href="http://beian.miit.gov.cn" target="_blank">沪交ICP备2010917</a> 上海交通大学化学化工学院</div>
+<script language="javascript">
+    $(document).ready(function () {
+        //解决IOS手机端hover兼容问题
+        document.body.addEventListener('touchstart', function () {
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('.fy1 a').each(function(){
+            if($(this).text()=='上一页' || $(this).text()=='下一页'){
+                $(this).addClass('cd_sx');
+            }
+        });
+    });
+</script>
+<script>
+    $('.cd_qq').click(function(){
+        $(this).attr('href','https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+encodeURIComponent(document.location.href)+'&amp;title='+encodeURIComponent(document.title));
+    })
+    $('.cd_wx').click(function(){
+        $(this).attr('href','http://bshare.optimix.cn/barCode?site=weixin&url='+encodeURIComponent(document.location.href)+'&amp;title='+encodeURIComponent(document.title));
+    })
+    $('.cd_wb').click(function(){
+        // $(this).attr('href','http://bshare.optimix.cn/bshare_redirect?type=4&site=sinaminiblog&url='+encodeURIComponent(document.location.href)+'&amp;title='+encodeURIComponent(document.title));
+        $(this).attr('href','http://service.weibo.com/share/share.php?appkey=&title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(document.location.href)+'&searchPic=false&style=simple');
+    })
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?1d5fa61d4ce942edb5d9b01f61664e27";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</body>
+</html>

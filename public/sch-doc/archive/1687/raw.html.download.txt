@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie7" lang="zh"><![endif]-->
+<!--[if IE 7]> <html class="no-js ie7" lang="zh"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="zh"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="zh"> <![endif]-->
+<!--[if IE 10]><html class="no-js ie ie10 lt-ie11" lang="zh"><![endif]-->
+<!--[if !IE]><!--> <html class="no-js" lang="zh"> <!--<![endif]-->
+    <head>
+		
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+		<base href="https://chem.ucas.ac.cn/index.php/zh-cn/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="关键词" />
+	<meta name="description" content="中国战略发展研究院简介" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>首页 - 化学科学学院</title>
+	<link href="https://chem.ucas.ac.cn/index.php/zh-cn/" rel="alternate" hreflang="zh-CN" />
+	<link href="https://chem.ucas.ac.cn/index.php/en/" rel="alternate" hreflang="en-GB" />
+	<link href="/templates/yuanxi/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://chem.ucas.ac.cn/index.php/zh-cn/component/search/?id=3&amp;Itemid=244&amp;format=opensearch" rel="search" title="搜索 化学科学学院" type="application/opensearchdescription+xml" />
+	<link href="/media/mod_languages/css/template.css?a6da738a0a0fd5b815e86cdc2a1daa70" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+div.mod_search139 input[type="search"]{ width:auto; }
+	</style>
+	<script src="/media/jui/js/jquery.min.js?a6da738a0a0fd5b815e86cdc2a1daa70" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?a6da738a0a0fd5b815e86cdc2a1daa70" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?a6da738a0a0fd5b815e86cdc2a1daa70" type="text/javascript"></script>
+	<!--[if lt IE 9]><script src="/media/system/js/html5fallback.js?a6da738a0a0fd5b815e86cdc2a1daa70" type="text/javascript"></script><![endif]-->
+	<link href="https://chem.ucas.ac.cn/index.php/zh-cn/" rel="alternate" hreflang="x-default" />
+
+        <!-- // base css -->
+        <link href="/templates/stylelib/base.css" rel="stylesheet" type="text/css" />
+        <!-- // plugins css -->
+
+        <!-- // theme css -->
+        <link href="/templates/stylelib/theme_tow/screen.css" rel="stylesheet" type="text/css" />
+        <link href="/templates/stylelib/theme_tow/color/blue.css" rel="stylesheet" type="text/css" />
+
+        <!-- // head js -->
+        <script src="/templates/stylelib/plugins/modernizr.js"></script>
+    </head>
+    <body
+		style="background: url('/images/bodybg/body_bg3.jpg') center -60px transparent no-repeat "
+	>
+    <!-- 
+    // body
+    // 在后台可以设置这里的背景图片和平铺不平铺的属性及位置 style代码。
+    // style="background: transparent url("****") 0 0 no-repeat;"
+    // transparent 表示透明色，可是只#f6f6f6类似的16进制的颜色值
+    // url:是图片地址
+    // 0 0: 定位属性，如果是横向平铺图片的话不用修改。X轴 Y轴
+    // no-repeat: 不平铺。 这里可以指定是横向平铺还是竖向平铺 repeat-x , repeat-y
+     -->
+
+        <!--//topbar:start ***********************************************-->
+        <div id="alert-upgrade-nojs">
+            <ul>
+                <li class="aun-up"><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Internet Explorer is missing updates required to properly view this site. Click here to update…</a></li>
+                <li class="aun-js">您的浏览器已禁用JavaScript,(da)启(kai)用才能正常访问！</li>
+            </ul>
+        </div><!--//topbar:end-->
+        
+
+        <!--//header:start ***********************************************-->
+        <div id="header"
+		style="background:0 0 repeat "
+		>
+        <!-- 
+        // #header
+        // 在后台可以设置这里的背景图片和平铺不平铺的属性及位置 style代码,背景图片高度限制在 64px 。
+        // style="background: transparent url("****") 0 0 no-repeat;"
+        // url:是图片地址
+        // 0 0: 定位属性，如果是横向平铺图片的话不用修改。X轴 Y轴
+        // no-repeat: 不平铺。 这里可以指定是横向平铺还是竖向平铺 repeat-x , repeat-y
+         -->
+
+            <div class="container">
+                <h1 id="logo">
+					                    <a href="http://www.ucas.ac.cn" class="m-logo-ucas" title="返回中国科学院大学" alt="中国科学院大学">
+                        <img src="/images/sys/ucaslogo3.png" alt="中国科学院大学">
+                        <span>中国科学院大学</span>
+                    </a>
+					                    <!-- m-logo-ucas: a标签的连接地址（title与alt属性）和img图片在后台可编辑和选择（上传）（默认地址指向科学院大学中文网首页） -->
+                    <!--a href="/" class="m-logo-sys" title="返回院系网站名称" alt="院系网站名称">
+                        <img src="/../stylelib/images/test/logo_sys.png" title="返回虚拟经济与数据科学研究中心" alt="虚拟经济与数据科学研究中心">
+                        <span>院系网站名称</span>
+                    </a-->
+                    <!-- m-logo-sys: a标签的连接地址（title与alt属性）和img图片在后台可编辑和选择（上传）（默认连接为本网站首页） -->
+										 <a href="/" class="m-logo-sys" title="返回化学科学学院" alt="化学科学学院">
+                        <img src="/images/cclogo.png" title="返回化学科学学院" alt="化学科学学院">
+                        <span>化学科学学院</span>
+                    </a>
+				
+					                </h1>
+                <ul class="b-toplink">
+                    <li><div class="mod-languages">
+
+	<ul class="lang-inline" dir="ltr">
+									<li>
+			<a href="/index.php/en/">
+							English						</a>
+			</li>
+				</ul>
+
+</div>
+</li>
+					<li>
+
+<div class="custom"  >
+	<p><a href="https://mail.cstnet.cn">邮箱</a>&nbsp; &nbsp; &nbsp;<a href="https://chem.ucas.ac.cn/index.php/lxwm">联系我们</a></p></div>
+</li>
+                    <li></li>
+                </ul>
+				<div style="float: right;margin-top:20px;"><div class="search mod_search139">
+	<form action="/index.php/zh-cn/" method="post" class="form-inline form-search" role="search">
+		<label for="mod-search-searchword139" class="element-invisible"> </label> <input name="searchword" id="mod-search-searchword139" maxlength="200"  class="inputbox " type="search" size="20" placeholder="搜索..." />		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="244" />
+	</form>
+</div>
+</div>
+            </div><!--//container-fluid:end-->
+        </div><!--//header:end-->
+
+        <!--//page nav bar:start *****************************************-->
+       
+				 <div class="b-pagenavbar"
+			 >
+            <div class="container"> 
+				<!--
+                // b-menu
+                // 在后台里需要这只这里是否添加 no-line 这个类名，添加上这个类名导航各个选项之间的分割线样式取消。
+                -->
+				<ul class="b-menu b-menu1">
+					
+<li class="bm-node active"><a bm-node active class="bm-btn bm-btn"href="/index.php/zh-cn/" >首页</a></li><li class="bm-node"><a bm-node class="bm-btn bm-btn"href="/index.php/zh-cn/composition" >学院概况</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh-cn/composition/rczwh" >学院简介</a></li><li class=""><a  class=" "href="/index.php/zh-cn/composition/xyld" >学院领导</a></li><li class=""><a  class=" "href="/index.php/zh-cn/composition/xybgs" >学院办公室</a></li><li class=""><a  class=" "href="/index.php/zh-cn/composition/ktzjj" >教研室简介</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn bm-btn"href="/index.php/zh-cn/jyjx" >教育教学</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh-cn/jyjx/2016-03-28-06-53-56" >课程设置</a></li><li class=""><a  class=" "href="/index.php/zh-cn/jyjx/2016-03-28-06-53-57" >教务信息</a></li><li class=""><a  class=" "href="/index.php/zh-cn/jyjx/2016-03-28-06-53-58" >相关下载</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn bm-btn"href="/index.php/zh-cn/szdw" >师资队伍</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh-cn/szdw/fulltimeteacher" >专任教师</a></li><li class=""><a  class=" "href="/index.php/zh-cn/szdw/graduateteacher" >研究生导师</a></li><li class=""><a  class=" "href="/index.php/zh-cn/szdw/jyglgb" >教育管理干部</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn "href="/index.php/zh-cn/2016-03-28-07-05-32" >科学研究</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh-cn/2016-03-28-07-05-32/2016-03-28-07-06-46" >课题组简介</a></li><li class=""><a  class=" "href="/index.php/zh-cn/2016-03-28-07-05-32/2016-03-28-07-06-47" >科研动态</a></li><li class=""><a  class=" "href="/index.php/zh-cn/2016-03-28-07-05-32/2016-03-28-07-06-48" >学术活动</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn bm-btn"href="/index.php/zh-cn/djyd" >党建园地</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh-cn/djyd/zzjs" >组织建设</a></li><li class=""><a  class=" "href="/index.php/zh-cn/djyd/zbhd" >支部活动</a></li><li class=""><a  class=" "href="/index.php/zh-cn/djyd/2016-03-28-07-09-13" >相关下载</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn bm-btn"href="/index.php/zh-cn/txhd/yxsh" >学生园地</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh-cn/txhd/yxsh" >学生概况</a></li><li class=""><a  class=" "href="/index.php/zh-cn/txhd/2016-03-28-08-05-12" >学生会风采</a></li><li class=""><a  class=" "href="/index.php/zh-cn/txhd/2016-03-28-08-05-34" >规章制度</a></li><li class=""><a  class=" "href="/index.php/zh-cn/txhd/xshd-3" >生活信息</a></li><li class=""><a  class=" "href="/index.php/zh-cn/txhd/2016-03-28-08-05-56" >班级活动</a></li><li class=""><a  class=" "href="/index.php/zh-cn/txhd/2016-03-28-08-06-21" >相关下载</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn bm-btn"href="/index.php/zh-cn/zsxx" >招生信息</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh-cn/zsxx/2016-03-28-08-09-26" >硕士招生</a></li><li class=""><a  class=" "href="/index.php/zh-cn/zsxx/2016-03-28-08-09-27" >博士招生</a></li><li class=""><a  class=" "href="/index.php/zh-cn/zsxx/2016-03-28-08-09-28" >培养工作</a></li><li class=""><a  class=" "href="/index.php/zh-cn/zsxx/2016-03-28-08-09-29" >相关下载</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn bm-btn"href="/index.php/zh-cn/rczp" >就业招聘</a><ul class="bm-tomenu "><li class=""><a  class=" "href="/index.php/zh-cn/rczp/2016-03-28-08-12-00" >就业指导</a></li><li class=""><a  class=" "href="/index.php/zh-cn/rczp/2016-03-28-08-12-1" >人才招聘</a></li></ul></li><li class="bm-node"><a bm-node class="bm-btn "href="/index.php/zh-cn/2016-03-28-08-13-10" >相关院所</a></li></ul>
+				</ul>
+	     </div><!--//container:end-->
+    </div><!--//b-pagenavbar:end-->
+	
+        
+		<!--//b-pagenavbar:end-->
+		
+        <div class="b-maincontent"> 
+		            <div class="container">
+			
+                <div class="row-fluid">
+													<div class="span8">								<div style="overflow:hidden">
+		      
+                        <div class="span4" style="float:left;width:648px;">
+                            <div id="homecarousel" class="carousel slide ">
+                                 <ol class="carousel-indicators">
+                                    								  <li style="height:10px;" data-target="#homecarousel" data-slide-to="0"
+								   								   class="active" 
+								  								  >1</li>
+									
+																  <li style="height:10px;" data-target="#homecarousel" data-slide-to="1"
+								   								  >2</li>
+									
+																  <li style="height:10px;" data-target="#homecarousel" data-slide-to="2"
+								   								  >3</li>
+									
+																  <li style="height:10px;" data-target="#homecarousel" data-slide-to="3"
+								   								  >4</li>
+									
+																  <li style="height:10px;" data-target="#homecarousel" data-slide-to="4"
+								   								  >5</li>
+									
+								                                </ol>
+                                <div class="carousel-inner" style="height:370px;">
+                              
+                                  								  <div class="item 
+								  								  active
+								  								  ">
+								  <a href="/index.php/zh-cn/xyxw/7340-2026-3">
+										 <img  style="width:648px;height:370px;" src="/images/2026年学院新闻/20260906-0.jpg" alt="警校联动筑牢安全防线思政领航开">
+								</a>
+									<div class="carousel-caption" >
+									
+									 
+                                            <h4 >
+											   	<a href="/index.php/zh-cn/xyxw/7340-2026-3">警校联动筑牢安全防线 思政领航开启科研新程——化学化工纳米学院党委开展2026级新生第一课</a>
+											 </h4>											 
+                                           
+                                        </div>
+									
+                                  </div>
+																  <div class="item 
+								  								  ">
+								  <a href="/index.php/zh-cn/xyxw/7339-2026-2">
+										 <img  style="width:648px;height:370px;" src="/images/2026年学院新闻/20260830-1.jpg" alt="扬帆雁栖，筑梦化学——中国科学">
+								</a>
+									<div class="carousel-caption" >
+									
+									 
+                                            <h4 >
+											   	<a href="/index.php/zh-cn/xyxw/7339-2026-2">扬帆雁栖，筑梦化学——中国科学院大学化学科学学院2026级新生开学典礼隆重举行</a>
+											 </h4>											 
+                                           
+                                        </div>
+									
+                                  </div>
+																  <div class="item 
+								  								  ">
+								  <a href="/index.php/zh-cn/xyxw/7210-2025">
+										 <img  style="width:648px;height:370px;" src="/images/2025年学院新闻/20250926-0.jpg" alt="化学科学学院2025级新生开学">
+								</a>
+									<div class="carousel-caption" >
+									
+									 
+                                            <h4 >
+											   	<a href="/index.php/zh-cn/xyxw/7210-2025">化学科学学院2025级新生开学典礼隆重举行</a>
+											 </h4>											 
+                                           
+                                        </div>
+									
+                                  </div>
+																  <div class="item 
+								  								  ">
+								  <a href="/index.php/zh-cn/xyxw/7102-2024-4">
+										 <img  style="width:648px;height:370px;" src="/images/2024学院新闻/20240830-0.jpg" alt="化学科学学院2024级新生开学">
+								</a>
+									<div class="carousel-caption" >
+									
+									 
+                                            <h4 >
+											   	<a href="/index.php/zh-cn/xyxw/7102-2024-4">化学科学学院2024级新生开学典礼隆重举行</a>
+											 </h4>											 
+                                           
+                                        </div>
+									
+                                  </div>
+																  <div class="item 
+								  								  ">
+								  <a href="/index.php/zh-cn/xyxw/7092-2024-06-26-03-53-16">
+										 <img  style="width:648px;height:370px;" src="/images/2023学院新闻/20240626-0.jpg" alt="中国科学院大学第五届雁栖分子科">
+								</a>
+									<div class="carousel-caption" >
+									
+									 
+                                            <h4 >
+											   	<a href="/index.php/zh-cn/xyxw/7092-2024-06-26-03-53-16">中国科学院大学第五届雁栖分子科学论坛在雁栖湖校区成功举行</a>
+											 </h4>											 
+                                           
+                                        </div>
+									
+                                  </div>
+								                                </div>
+                            </div>
+                        </div>
+						
+	         </div>      
+				
+</div>
+					<div class="span4"> <div class="m-pagebox">
+    <h2 class="mp-title"><span>通知公告</span></h2>									
+  <ul class="mp-list js-newhot date">                              <!-- js-newhot,列表前三行连接标红。（需要在后台能设置） -->
+				<li>
+								<span class="mpl-date">2025-10-20</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/tzgg/7220-2025-10-20-09-58-10" title="关于巡察化学化工纳米学院党委的公告">
+				关于巡察化学化工纳米学院党委的公告				</a>
+			
+			
+			
+			
+							<p class="mod-articles-category-introtext">
+				&nbsp; 根据校党委统一部署，校党委巡察组于10月20日至11月4日对化学化工纳米学院党委开展常规巡察。 
+&nbsp;...				</p>
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-09-18</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/tzgg/7344-2026-10" title="关于对2026年度化学科学学院研究生学业奖学金评选结果进行公示的通知">
+				关于对2026年度化学科学学院研究生学业奖学金评选结果进行公示的通知				</a>
+			
+			
+			
+			
+							<p class="mod-articles-category-introtext">
+				&nbsp; 根据《中国科学院大学关于2026年研究生学业奖学金评选工作的通知》和《中国科学院大学研究生学业奖学金实施细则》相关要求，结合我院研究生培养特点和实际情况，经学院评审委员会评议，有<strong>143</strong>名博士生获学业奖学金，每人标准<strong>13000</strong>元；<strong>228</strong>名硕士生获学业奖学金，每人标准<strong>8000</strong>元，名单见附件。 
+ &nbsp; 现对获奖学生进行公示： 
+ &nbsp; 时间：2026年9月18日至9月22日 
+ &nbsp; 公示期间，如有异议请及时向学院反映。 
+ &nbsp; 联系人：宋老师 
+ &nbsp; 电话：010-69672581 
+化学科学学院...				</p>
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-08-31</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/tzgg/7337-2025-2031" title="化学科学学院2025-2026学年春季学期本科课程助教评优拟推荐名单公示">
+				化学科学学院2025-2026学年春季学期本科课程助教评优拟推荐名单公示				</a>
+			
+			
+			
+			
+							<p class="mod-articles-category-introtext">
+				&nbsp; 根据《2025-2026学年春季学期优秀本科课程助教评选工作通知》要求，化学科学学院拟推荐优秀本科课程助教名单如下： 
+
+
+
+
+ 序号 
+
+
+ 姓名 
+
+
+ 课程名称 
+
+
+
+
+ 1 
+
+
+ 钟方琳 
+
+
+ 基础化学实验II（分析化学实验—仪器分析） 
+
+
+
+
+ 2...				</p>
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-08-29</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/tzgg/7336-2026-9" title="关于对2026年度化学科学学院中国科协青年科技人才培育工程博士生专项计划(中国化学会渠道)推荐结果进行公示的通知">
+				关于对2026年度化学科学学院中国科协青年科技人才培育工程博士生专项计划(中国化学会渠道)推荐结果进行公示的通知				</a>
+			
+			
+			
+			
+							<p class="mod-articles-category-introtext">
+				&nbsp;...				</p>
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-06-08</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/tzgg/7330-2026-8" title="中国科学院大学化学科学学院2026级集中教学新生党、团组织关系转接说明">
+				中国科学院大学化学科学学院2026级集中教学新生党、团组织关系转接说明				</a>
+			
+			
+			
+			
+							<p class="mod-articles-category-introtext">
+				<strong>&nbsp; 一、党组织关系转接</strong> 
+&nbsp;...				</p>
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-05-20</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/tzgg/7323-2026-7" title="化学专业2026届优秀本科毕业论文（设计）推荐名单公示">
+				化学专业2026届优秀本科毕业论文（设计）推荐名单公示				</a>
+			
+			
+			
+			
+							<p class="mod-articles-category-introtext">
+				&nbsp;...				</p>
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-05-19</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/tzgg/7322-2025-2030" title="化学科学学院关于2025-2026年度集中教学学生优秀学生评选结果的公示">
+				化学科学学院关于2025-2026年度集中教学学生优秀学生评选结果的公示				</a>
+			
+			
+			
+			
+							<p class="mod-articles-category-introtext">
+				&nbsp;...				</p>
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-05-06</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/tzgg/7318-2026-6" title="化学科学学院关于2026年高年级学生评优结果的公示">
+				化学科学学院关于2026年高年级学生评优结果的公示				</a>
+			
+			
+			
+			
+							<p class="mod-articles-category-introtext">
+				&nbsp;...				</p>
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-04-23</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/tzgg/7315-2026-5" title="关于对2026年度化学科学学院研究生中国科学院院长奖学金初评结果进行公示的通知">
+				关于对2026年度化学科学学院研究生中国科学院院长奖学金初评结果进行公示的通知				</a>
+			
+			
+			
+			
+							<p class="mod-articles-category-introtext">
+				&nbsp;...				</p>
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-04-22</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/tzgg/7314-2025-11" title="2025级本科生主修化学专业预确认申请通过名单公示">
+				2025级本科生主修化学专业预确认申请通过名单公示				</a>
+			
+			
+			
+			
+							<p class="mod-articles-category-introtext">
+				&nbsp;...				</p>
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-04-07</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/tzgg/7311-2025-2029" title="2025-2026学年春季学期化学科学学院本科生优秀课程拟推荐名单公示">
+				2025-2026学年春季学期化学科学学院本科生优秀课程拟推荐名单公示				</a>
+			
+			
+			
+			
+							<p class="mod-articles-category-introtext">
+				&nbsp; 根据《关于做好2025-2026学年春季学期本科生优秀课程遴选推荐工作的通知》，经学院教学委员会遴选评审，现将2025-2026学年春季学期化学科学学院本科生优秀课程拟推荐名单在学院网站予以公示： 
+
+
+
+
+ 序号 
+
+
+ 课程编号 
+
+
+ 课程名称 
+
+
+ 课程属性 
+
+
+ 授课教师 
+
+
+
+
+ 1 
+
+
+ B0411001H-01 
+
+
+ 化学原理 
+
+
+ 专业必修课 
+
+
+ 宋卫国 
+
+
+
+
+ &nbsp; 
+ &nbsp; 如对公示名单有异议，请在公示期间及时反映情况。 
+ &nbsp; 公示时间：2026年4月7日-2026年4月15日。 
+ &nbsp; 联系人：王彤 
+ &nbsp;...				</p>
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-03-31</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/tzgg/7309-2026-03-31-02-44-38" title="化学科学学院关于2026年研究生优秀课程（春季学期）遴选推荐名单的公示">
+				化学科学学院关于2026年研究生优秀课程（春季学期）遴选推荐名单的公示				</a>
+			
+			
+			
+			
+							<p class="mod-articles-category-introtext">
+				根据教务部《关于做好2025-2026学年春季学期研究生优秀课程遴选推荐工作的通知》要求，经学院教学委员会遴选评审，现将2026年研究生优秀课程遴选（春季学期）拟推荐名单及排序在学院网站予以公示：
+
+
+2026年研究生优秀课程遴选（春季学期）拟推荐名单： 
+
+
+
+
+ 序号 
+
+
+课程编号 
+
+
+ 课程名称 
+
+
+ 课程属性 
+
+
+ 授课教师 
+
+
+
+
+ 1 
+
+
+ 180082070302P3003H 
+
+
+ 磁共振新技术及应用 
+
+
+ 专业课 
+
+
+ 唐亚林 
+
+
+
+
+ 2 
+
+
+ 180082070305P3001H 
+
+
+ 高分子材料加工前沿 
+
+
+ 专业课 
+
+
+ 董侠 
+
+
+
+
+ 3...				</p>
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-03-18</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/tzgg/7308-2025-2028" title="化学化工纳米学院团委 2025-2026学年“五四评优”初评公示">
+				化学化工纳米学院团委 2025-2026学年“五四评优”初评公示				</a>
+			
+			
+			
+			
+							<p class="mod-articles-category-introtext">
+				&nbsp;...				</p>
+			
+		</li>
+	<a href="/index.php/zh-cn/tzgg" class="m-more" style="right:10px;"><i class="icon-chevron-right"></i><span>更多</span></a>
+
+	</ul>
+<!--//m-pagebox:end-->
+ </div><!--//span4:end-->					
+</div>
+				
+				
+					
+					
+                </div><!--//row-fluid:end-->
+
+                <div class="row-fluid">
+									<div class="span4"> <div class="m-pagebox">
+    <h2 class="mp-title"><span>学院新闻</span></h2>									
+  <ul class="mp-list  date">                              <!-- js-newhot,列表前三行连接标红。（需要在后台能设置） -->
+				<li>
+								<span class="mpl-date">2026-09-14</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/xyxw/7343-20260914" title="化学科学学院组织2026级全体新生集中收看"开学第一课"">
+				化学科学学院组织2026级全体新生集中收看"开学第一课"				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-09-14</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/xyxw/7342-2026-4" title="化学科学学院举行2026级本部新生班会">
+				化学科学学院举行2026级本部新生班会				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-09-06</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/xyxw/7340-2026-3" title="警校联动筑牢安全防线 思政领航开启科研新程——化学化工纳米学院党委开展2026级新生第一课">
+				警校联动筑牢安全防线 思政领航开启科研新程——化学化工纳米学院党委开展2026级新生第一课				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-08-31</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/xyxw/7339-2026-2" title="扬帆雁栖，筑梦化学——中国科学院大学化学科学学院2026级新生开学典礼隆重举行">
+				扬帆雁栖，筑梦化学——中国科学院大学化学科学学院2026级新生开学典礼隆重举行				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-08-31</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/xyxw/7338-2026" title="化梦为实，启航雁栖——化学科学学院2026级集中教学研究生报到">
+				化梦为实，启航雁栖——化学科学学院2026级集中教学研究生报到				</a>
+			
+			
+			
+			
+			
+		</li>
+	<a href="/index.php/zh-cn/xyxw" class="m-more" style="right:10px;"><i class="icon-chevron-right"></i><span>更多</span></a>
+
+	</ul>
+<!--//m-pagebox:end-->
+ </div><!--//span4:end-->					
+ <div class="m-pagebox">
+    <h2 class="mp-title"><span>教务信息</span></h2>									
+  <ul class="mp-list  date">                              <!-- js-newhot,列表前三行连接标红。（需要在后台能设置） -->
+				<li>
+								<span class="mpl-date">2026-08-28</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/jyjx/2016-03-28-06-53-57/7335-2026-08-28-07-34-16" title="入学教育选课材料（2026年）">
+				入学教育选课材料（2026年）				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-01-15</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/jyjx/2016-03-28-06-53-57/7209-2026-01-15-06-02-22" title="关于2026年部分节假日期间教学安排的通知">
+				关于2026年部分节假日期间教学安排的通知				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-01-15</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/jyjx/2016-03-28-06-53-57/6540-2026-01-15-06-09-01" title="2025-2026学年春季学期集中教学研究生课程选课说明">
+				2025-2026学年春季学期集中教学研究生课程选课说明				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2025-09-23</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/jyjx/2016-03-28-06-53-57/7208-2025-09-23-02-42-24" title="Program10项目方案-《分析技术及应用》项目分则">
+				Program10项目方案-《分析技术及应用》项目分则				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2025-09-16</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/jyjx/2016-03-28-06-53-57/6474-2025-9-16" title="入学教育选课说明PPT（2025年）">
+				入学教育选课说明PPT（2025年）				</a>
+			
+			
+			
+			
+			
+		</li>
+	<a href="/index.php/zh-cn/jyjx/2016-03-28-06-53-57" class="m-more" style="right:10px;"><i class="icon-chevron-right"></i><span>更多</span></a>
+
+	</ul>
+<!--//m-pagebox:end-->
+ </div><!--//span4:end-->					
+</div>
+					<div class="span4"> <div class="m-pagebox">
+    <h2 class="mp-title"><span>学生活动</span></h2>									
+  <ul class="mp-list  date">                              <!-- js-newhot,列表前三行连接标红。（需要在后台能设置） -->
+				<li>
+								<span class="mpl-date">2026-09-20</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/djyd/zbhd/7346-2026-09-20-08-22-41" title="在产业一线感悟科技报国担当 ——化学科学学院师生代表参加首都产业一线科技人才走进高校系列宣讲">
+				在产业一线感悟科技报国担当 ——化学科学学院师生代表参加首都产业一线科技人才走进高校系列宣讲				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-09-20</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/djyd/zbhd/7345-20260404" title="严把入党入口关 凝心铸魂育新人化学学院20260404党支部开展入党申请人集中谈心谈话">
+				严把入党入口关 凝心铸魂育新人化学学院20260404党支部开展入党申请人集中谈心谈话				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-05-29</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/djyd/zbhd/7327-2026-05-29-01-20-09" title="化学化工纳米学院党委举行“优秀共产党员”与“先进基层党组织”推优答辩会">
+				化学化工纳米学院党委举行“优秀共产党员”与“先进基层党组织”推优答辩会				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-05-29</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/djyd/zbhd/7326-2026-05-29-01-06-02" title="化学化工纳米学院党委组织学生参观民族文化宫">
+				化学化工纳米学院党委组织学生参观民族文化宫				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-05-25</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/djyd/zbhd/7325-2026-05-25-07-46-24" title="感悟千年运河文脉，凝聚奋进使命担当——化学化工纳米学院党委教工党支部组织参观北京大运河博物馆">
+				感悟千年运河文脉，凝聚奋进使命担当——化学化工纳米学院党委教工党支部组织参观北京大运河博物馆				</a>
+			
+			
+			
+			
+			
+		</li>
+	<a href="/index.php/zh-cn/djyd/zbhd" class="m-more" style="right:10px;"><i class="icon-chevron-right"></i><span>更多</span></a>
+
+	</ul>
+<!--//m-pagebox:end-->
+ </div><!--//span4:end-->					
+ <div class="m-pagebox">
+    <h2 class="mp-title"><span>科研动态</span></h2>									
+  <ul class="mp-list  date">                              <!-- js-newhot,列表前三行连接标红。（需要在后台能设置） -->
+				<li>
+								<span class="mpl-date">2026-07-07</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/2016-03-28-07-05-32/2016-03-28-07-06-47/7332-2026-07-07-03-38-57" title="国科大化学科学学院楚甲祥课题组与合作者在镍氮宾氧化还原化学方面取得进展">
+				国科大化学科学学院楚甲祥课题组与合作者在镍氮宾氧化还原化学方面取得进展				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-06-05</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/2016-03-28-07-05-32/2016-03-28-07-06-47/7329-ai" title="从本科课堂到科研实践：AI赋能锂电材料设计的“智能梦工厂”">
+				从本科课堂到科研实践：AI赋能锂电材料设计的“智能梦工厂”				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-06-05</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/2016-03-28-07-05-32/2016-03-28-07-06-47/7328-2026-06-05-07-04-18" title="国科大化学科学学院郭存悦课题组与合作者在仿生热电/聚集诱导发光双模态电子皮肤方面取得进展">
+				国科大化学科学学院郭存悦课题组与合作者在仿生热电/聚集诱导发光双模态电子皮肤方面取得进展				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2025-11-13</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/2016-03-28-07-05-32/2016-03-28-07-06-47/7238-2025-11-13-01-32-44" title="国科大化学科学学院楚甲祥课题组与合作者在稀土参与的苯环开环反应方面取得进展">
+				国科大化学科学学院楚甲祥课题组与合作者在稀土参与的苯环开环反应方面取得进展				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2025-11-13</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/2016-03-28-07-05-32/2016-03-28-07-06-47/7237-2025-11-13-01-24-48" title="国科大化学科学学院楚甲祥课题组与合作者在烯酮的氧化还原反应方面取得进展">
+				国科大化学科学学院楚甲祥课题组与合作者在烯酮的氧化还原反应方面取得进展				</a>
+			
+			
+			
+			
+			
+		</li>
+	<a href="/index.php/zh-cn/2016-03-28-07-05-32/2016-03-28-07-06-47" class="m-more" style="right:10px;"><i class="icon-chevron-right"></i><span>更多</span></a>
+
+	</ul>
+<!--//m-pagebox:end-->
+ </div><!--//span4:end-->					
+</div>
+					<div class="span4"> <div class="m-pagebox">
+    <h2 class="mp-title"><span>招生信息</span></h2>									
+  <ul class="mp-list js-newhot date">                              <!-- js-newhot,列表前三行连接标红。（需要在后台能设置） -->
+				<li>
+								<span class="mpl-date">2026-08-27</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/zsxx/7334-2027-2" title="中国科学院大学化学科学学院2027年接收推荐免试研究生公告（含直博生）">
+				中国科学院大学化学科学学院2027年接收推荐免试研究生公告（含直博生）				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-08-27</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/zsxx/7333-2027" title="中国科学院大学化学科学学院2027年推荐免试考生复试规程">
+				中国科学院大学化学科学学院2027年推荐免试考生复试规程				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-03-13</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/zsxx/7307-2026-6" title="化学科学学院2026年招生导师一览表">
+				化学科学学院2026年招生导师一览表				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2026-03-13</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/zsxx/7306-2026-5" title="中国科学院大学化学科学学院2026年硕士统考生复试工作规程">
+				中国科学院大学化学科学学院2026年硕士统考生复试工作规程				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2025-12-05</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/zsxx/2016-03-28-08-09-27/7243-2025-12-05-03-40-53" title="化学科学学院博士报名材料邮寄地址及注意事项">
+				化学科学学院博士报名材料邮寄地址及注意事项				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2025-10-29</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/zsxx/2016-03-28-08-09-27/7225-2026-3" title="化学科学学院2026年博士招考“申请-考核”制实施方案">
+				化学科学学院2026年博士招考“申请-考核”制实施方案				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2025-10-20</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/zsxx/2016-03-28-08-09-27/7217-2026-2" title="中国科学院大学2026年博士研究生招生章程">
+				中国科学院大学2026年博士研究生招生章程				</a>
+			
+			
+			
+			
+			
+		</li>
+			<li>
+								<span class="mpl-date">2025-10-20</span>
+										<a class="mod-articles-category-title " href="/index.php/zh-cn/zsxx/2016-03-28-08-09-27/7216-2026" title="中国科学院大学2026年春季入学博士招生网上报名公告">
+				中国科学院大学2026年春季入学博士招生网上报名公告				</a>
+			
+			
+			
+			
+			
+		</li>
+	<a href="/index.php/zh-cn/zsxx" class="m-more" style="right:10px;"><i class="icon-chevron-right"></i><span>更多</span></a>
+
+	</ul>
+<!--//m-pagebox:end-->
+ </div><!--//span4:end-->					
+   
+<ul class="mh-imglink2" style="margin-left:0px;padding-left:30px;height:100px;border:1px solid #ccc">
+							  <li style="list-style:none;float:left;margin-left:10px;margin-right:10px;">
+                        <a href="https://chem.ucas.ac.cn/images/articles/2016/201603/031928_470712.444.png" title="中国科学院大学"><p><img src="https://chem.ucas.ac.cn/images/articles/_thumbs/2016/201603/031928_470712.444.png" alt="中国科学院大学" style="height: 100px;" title="中国科学院大学" /></p></a>
+                            </li>
+							  <li style="list-style:none;float:left;margin-left:10px;margin-right:10px;">
+                        <a href="https://chem.ucas.ac.cn/images/articles/2016/201603/030426_781595.333.png" title="国科大化学院讯息平台"><p><img src="https://chem.ucas.ac.cn/images/articles/_thumbs/2016/201603/030426_781595.333.png" alt="国科大化学院讯息平台" style="height: 100px;" title="国科大化学院讯息平台" /></p></a>
+                            </li>
+	</ul>
+</div>
+					
+								                 </div><!--//row-fluid:end-->
+
+            </div><!--//container:end-->
+			        </div>
+
+
+        <!--//footer:start ***********************************************-->
+        <footer id="footer">
+            
+		   
+		   <div class="container">
+				 <div class="b-footer-link">
+    <div class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">友情链接<b class="caret"></b></a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">      
+				<li>
+					<a href="http://portal.acs.org" rel="follow">American Chemical Society</a>					
+									</li>
+				<li>
+					<a href="https://pubs.chemsoc.org.cn/journal/ccschem" rel="follow">CCS Chemistry</a>					
+									</li>
+				<li>
+					<a href="http://english.ciac.cas.cn/" rel="follow">Changchun Institute of Applied Chemistry,CAS</a>					
+									</li>
+				<li>
+					<a href="http://english.cas.cn/" rel="follow">Chinese Academy of Aciences</a>					
+									</li>
+				<li>
+					<a href="http://english.dicp.cas.cn/" rel="follow">Dalian Institute of Chemical Physics,CAS</a>					
+									</li>
+		</ul>
+	</div>
+</div>
+
+
+				
+
+<div class="custom"  >
+	<div class="b-footer-copy" style="text-align: center;">@中国科学院大学版权所有</div>
+<div class="b-footer-add" style="text-align: center;">地址：北京市海淀区中关村东路80号 邮编：100190</div>
+<div class="b-footer-beian" style="text-align: center;"><a>京ICP备07017956号 | 京公网安备 11010702001635号</a></div></div>
+
+			</div>
+		   
+		   
+        </footer><!--//footer:end-->
+        
+
+        <!--// Loading JS -->
+        
+        <script src="/templates/stylelib/base.js"></script>
+        
+        <!--common script for all pages-->
+        <script src="/templates/stylelib/theme_tow/global.js"></script>
+
+        <!--script for this page only-->
+        
+        <!--// JS End -->
+    </body>
+</html>

@@ -1,0 +1,696 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>南昌大学2024年接收推荐免试研究生（含直博生）招生章程-南昌大学研究生院</title><meta name="pageType" content="3">
+<meta name="pageTitle" content="南昌大学2024年接收推荐免试研究生（含直博生）招生章程">
+<META Name="keywords" Content="南昌大学研究生院,招生简章,南昌大学2024年接收推荐免试研究生（含直博生）招生章程" />
+<META Name="description" Content="南昌大学2024年接收推荐免试研究生（含直博生）招生章程推荐优秀应届本科毕业生免试攻读研究生（以下简称推免）是研究生多元招生体系的重要组成部分，是加强拔尖创新人才选拔、提高研究生生源质量的重要举措。我校根据教育部有关推免生工作管理办法，..." />
+
+    <link rel="stylesheet" href="../../style/ny.css">
+    <link rel="stylesheet" href="../../style/public.css">
+    <link rel="stylesheet" href="../../style/slick.css">
+    <link rel="stylesheet" href="../../style/slick-theme.css">
+
+<!--Announced by Visual SiteBuilder 9-->
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307775465753515742000300024f56 -->
+<link rel="stylesheet" type="text/css" href="../../content.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1171,'/content.jsp',22126,2125996941)</script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="head px1400">
+             <div>
+                    <div class="dh"><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script><UL>
+    <li>
+        <a href="../../glyfw/yzxx.htm" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 114514)">院长信箱</a>
+    </li>
+    <li>
+        <a href="../../index.htm" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97947)">网站首页</a>
+    </li>
+    <li>
+        <a href="https://www.ncu.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97946)">南昌大学</a>
+    </li>
+</UL></div>
+                    <div class="seach"><!-- 3.1.3版本 -->
+
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script><script language="javascript" src="/system/resource/vue/vue.js"></script><script language="javascript" src="/system/resource/vue/bluebird.min.js"></script><script language="javascript" src="/system/resource/vue/axios.js"></script><script language="javascript" src="/system/resource/vue/polyfill.js"></script><script language="javascript" src="/system/resource/vue/token.js"></script><LINK href="/system/resource/vue/static/element/index.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/vue/static/element/index.js"></script><script language="javascript" src="/system/resource/vue/static/public.js"></script><script language="javascript" src="/system/resource/openapp/search/js/containsHtmlTags.js"></script><script language="javascript" src="/system/resource/openapp/search/layui/layui.js"></script><div id="divu1"></div>
+<script type="text/html" id="htmlu1">
+    <div id="appu1">
+        <div v-if="!isError">
+
+<input type="text" class="qwss" placeholder="请输入关键字.." v-model=query.keyWord @keyup.enter="onSubmit">
+<div class="ser_img">
+<input type="image" class="tj" src="../../image/seach.png" v-on:click="onSubmit()">
+</div>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu1").html($("#htmlu1").text());
+</script>
+<script>
+    var appOwner = "2125996941";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu1",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script>
+
+<script>
+   var appElementu1 = document.querySelector("#appu1");
+   if (appElementu1 && appElementu1.__vue__) {
+
+   } else {
+      $("#divu1").html($("#htmlu1").text());
+      var appOwner = "2125996941";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou1 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu1(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu1();
+        }
+      };
+
+      function onSubmitu1(e) {
+        queryInfou1.query.keyWord= $("#appu1  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou1.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+</script></div>
+                </div>
+        </div>
+        <div id="ft-link">
+            <div class="ft-link wp"><span>快速访问</span>
+ <a href="https://gmsadm.ncu.edu.cn/navigation/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112876)">研究生教育管理系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22176.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112877)">博士研究生招生简章</a>
+ <a href="https://gsas.ncu.edu.cn/logon" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112878)">博士网报系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22166.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112879)">硕士研究生招生简章</a>
+ <a href="https://ygb.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112880)">党委研究生工作部</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/bszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112882)">博士招生</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/sszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112883)">硕士招生</a>
+ <a href="https://teacher.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112884)">教师个人主页</a>
+ <a href="https://yjsy.ncu.edu.cn/yygk/ryjdh.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112885)">联系方式</a>
+</div>
+        </div>
+    </div>
+    <div id="logo">
+        <div class="px1400" id="nav">
+                <div class="logo">
+<a href="../../index.htm"><img src="../../images/LOGO.png" alt=""></a>
+</div>
+                <div class="nav"><ul>
+<li>
+    <a href="../../index.htm">网站首页</a>
+</li>  
+<li>
+    <a href="../../yygk/yyjj.htm">研院概况</a>
+    <ul>
+       
+            <li><a href="../../yygk/yyjj.htm">研院简介</a></li>
+       
+            <li><a href="../../yygk/jgsz.htm">机构设置</a></li>
+       
+            <li><a href="../../yygk/glzn.htm">管理职能</a></li>
+       
+            <li><a href="../../yygk/ryjdh.htm">人员及电话</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../zsgz/zsjz.htm">招生工作</a>
+    <ul>
+       
+            <li><a href="../../zsgz/zsjz.htm">招生简章</a></li>
+       
+            <li><a href="../../zsgz/sszs.htm">硕士招生</a></li>
+       
+            <li><a href="../../zsgz/bszs.htm">博士招生</a></li>
+       
+            <li><a href="../../zsgz/tmgz.htm">推免工作</a></li>
+       
+            <li><a href="../../zsgz/gatyz.htm">港澳台研招</a></li>
+       
+            <li><a href="../../zsgz/gzzd.htm">规章制度</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../pygz/gzzd.htm">培养工作</a>
+    <ul>
+       
+            <li><a href="../../pygz/gzzd.htm">规章制度</a></li>
+       
+            <li><a href="../../pygz/gzlc.htm">工作流程</a></li>
+       
+            <li><a href="../../pygz/pydt.htm">培养动态</a></li>
+       
+            <li><a href="../../pygz/zyxw.htm">专业学位</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../xwgz/xwgzzz.htm">学位工作</a>
+    <ul>
+       
+            <li><a href="../../xwgz/xwgzzz.htm">学位工作组织</a></li>
+       
+            <li><a href="../../xwgz/sqxwwj.htm">申请学位文件</a></li>
+       
+            <li><a href="../../xwgz/sqxwlc.htm">申请学位流程</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../xwdjs/xwsqd.htm">学位点建设</a>
+    <ul>
+       
+            <li><a href="../../xwdjs/xwsqd.htm">学位授权点</a></li>
+       
+            <li><a href="../../xwdjs/xwdsb.htm">学位点申报</a></li>
+       
+            <li><a href="../../xwdjs/ejxkzzsz.htm">二级学科自主设置</a></li>
+       
+            <li><a href="../../xwdjs/xwdpg_hy_.htm">学位点评估（核验）</a></li>
+       
+            <li><a href="../../xwdjs/xwddtdz_yh_.htm">学位点动态调整（优化）</a></li>
+       
+            <li><a href="../../xwdjs/gjxksz.htm">国家学科设置</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../zgxy/zgxyjj.htm">卓工学院</a>
+    <ul>
+       
+            <li><a href="../../zgxy/zgxyjj.htm">卓工学院简介</a></li>
+       
+            <li><a href="../../zgxy/zsdt.htm">招生动态</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../glyfw/bszn.htm">管理与服务</a>
+    <ul>
+       
+            <li><a href="../../glyfw/bszn.htm">办事指南</a></li>
+       
+            <li><a href="../../glyfw/yzxx.htm">院长信箱</a></li>
+    </ul>
+</li>  
+<li>
+    <a href="../../xzzx.htm">下载中心</a>
+</li>  
+</ul></div>
+            </div>
+    </div>
+    <div class="banner">
+        <div><a href="#">
+    <img src="../../images/nandaban1.jpg" alt="">
+</a></div>
+    </div>
+    <!-- 移动端top -->
+    <div class="top">
+        <div class="wap wap-menu">
+            <img src="../../image/menu.png" class="menu" alt="">
+            <img src="../../image/close.png" class="close-menu" alt="">
+        </div>
+    </div>
+    <div class="wap m-head">
+            <div class="m-logo">        <a href="../../index.htm" onclick="_addDynClicks(&#34;wbimage&#34;, 2125996941, 1024740)"><img src="../../images/yunnandaxuelogoshouji.png" alt=""></a>           
+</div>
+            <div class="m-nav">
+                <div class="m-tlink">
+    <a href="../../index.htm" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97954)">网站首页</a>    
+    <a href="https://www.ncu.edu.cn/" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 97955)">南昌大学</a>    
+</div>
+                
+                         <div class="yddtblj"><span>快速访问</span>
+ <a href="https://gmsadm.ncu.edu.cn/navigation/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112876)">研究生教育管理系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22176.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112877)">博士研究生招生简章</a>
+ <a href="https://gsas.ncu.edu.cn/logon" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112878)">博士网报系统</a>
+ <a href="https://yjsy.ncu.edu.cn/info/1171/22166.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112879)">硕士研究生招生简章</a>
+ <a href="https://ygb.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112880)">党委研究生工作部</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/bszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112882)">博士招生</a>
+ <a href="https://yjsy.ncu.edu.cn/zsgz/sszs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112883)">硕士招生</a>
+ <a href="https://teacher.ncu.edu.cn/" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112884)">教师个人主页</a>
+ <a href="https://yjsy.ncu.edu.cn/yygk/ryjdh.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 2125996941, 112885)">联系方式</a>
+</div>
+                <div class="m-search"><!-- 3.1.3版本 -->
+
+
+
+<div id="divu9"></div>
+<script type="text/html" id="htmlu9">
+    <div id="appu9">
+               <div v-if="!isError">
+
+<input type="text" class="qwss" placeholder="请输入内容" v-model=query.keyWord @keyup.enter="onSubmit">
+<input type="image" class="tj" src="../../image/seach.png" v-on:click="onSubmit()">
+</div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu9").html($("#htmlu9").text());
+</script>
+<script>
+    var appOwner = "2125996941";
+    var token = gettoken(10);
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu9",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script>
+
+<script>
+   var appElementu9 = document.querySelector("#appu9");
+   if (appElementu9 && appElementu9.__vue__) {
+
+   } else {
+      $("#divu9").html($("#htmlu9").text());
+      var appOwner = "2125996941";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou9 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu9(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu9();
+        }
+      };
+
+      function onSubmitu9(e) {
+        queryInfou9.query.keyWord= $("#appu9  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou9.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+</script></div>
+                <ul class=""><li>
+    <a href="../../index.htm">网站首页</a>
+    <span></span>
+    <ul>
+            <a href="../../index/zxdt.htm">最新动态</a>        
+            <a href="../../index/tzgg.htm">通知公告</a>        
+            <a href="../../index/zsgz.htm">招生工作</a>        
+            <a href="../../index/gszl.htm">公示专栏</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../yygk/yyjj.htm">研院概况</a>
+    <span></span>
+    <ul>
+            <a href="../../yygk/yyjj.htm">研院简介</a>        
+            <a href="../../yygk/jgsz.htm">机构设置</a>        
+            <a href="../../yygk/glzn.htm">管理职能</a>        
+            <a href="../../yygk/ryjdh.htm">人员及电话</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../zsgz/zsjz.htm">招生工作</a>
+    <span></span>
+    <ul>
+            <a href="../../zsgz/zsjz.htm">招生简章</a>        
+            <a href="../../zsgz/sszs.htm">硕士招生</a>        
+            <a href="../../zsgz/bszs.htm">博士招生</a>        
+            <a href="../../zsgz/tmgz.htm">推免工作</a>        
+            <a href="../../zsgz/gatyz.htm">港澳台研招</a>        
+            <a href="../../zsgz/gzzd.htm">规章制度</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../pygz/gzzd.htm">培养工作</a>
+    <span></span>
+    <ul>
+            <a href="../../pygz/gzzd.htm">规章制度</a>        
+            <a href="../../pygz/gzlc.htm">工作流程</a>        
+            <a href="../../pygz/pydt.htm">培养动态</a>        
+            <a href="../../pygz/zyxw.htm">专业学位</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../xwgz/xwgzzz.htm">学位工作</a>
+    <span></span>
+    <ul>
+            <a href="../../xwgz/xwgzzz.htm">学位工作组织</a>        
+            <a href="../../xwgz/sqxwwj.htm">申请学位文件</a>        
+            <a href="../../xwgz/sqxwlc.htm">申请学位流程</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../xwdjs/xwsqd.htm">学位点建设</a>
+    <span></span>
+    <ul>
+            <a href="../../xwdjs/xwsqd.htm">学位授权点</a>        
+            <a href="../../xwdjs/xwdsb.htm">学位点申报</a>        
+            <a href="../../xwdjs/ejxkzzsz.htm">二级学科自主设置</a>        
+            <a href="../../xwdjs/xwdpg_hy_.htm">学位点评估（核验）</a>        
+            <a href="../../xwdjs/xwddtdz_yh_.htm">学位点动态调整（优化）</a>        
+            <a href="../../xwdjs/gjxksz.htm">国家学科设置</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../zgxy/zgxyjj.htm">卓工学院</a>
+    <span></span>
+    <ul>
+            <a href="../../zgxy/zgxyjj.htm">卓工学院简介</a>        
+            <a href="../../zgxy/zsdt.htm">招生动态</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../glyfw/bszn.htm">管理与服务</a>
+    <span></span>
+    <ul>
+            <a href="../../glyfw/bszn.htm">办事指南</a>        
+            <a href="../../glyfw/yzxx.htm">院长信箱</a>        
+    </ul>
+</li>
+<li>
+    <a href="../../xzzx.htm">下载中心</a>
+    </li>
+</ul>
+            </div>
+        </div>
+    <div class="nymain">
+        <div class="px1400">
+            <div class="channl-menu leftNav">
+                <h2>
+招生工作<span></span></h2>
+                <ul>
+<li class="active on">
+    <a href="../../zsgz/zsjz.htm">招生简章</a><span></span>
+</li>
+
+
+<li>
+    <a href="../../zsgz/sszs.htm">硕士招生</a><span></span>
+</li>
+
+
+<li>
+    <a href="../../zsgz/bszs.htm">博士招生</a><span></span>
+</li>
+
+
+<li>
+    <a href="../../zsgz/tmgz.htm">推免工作</a><span></span>
+</li>
+
+
+<li>
+    <a href="../../zsgz/gatyz.htm">港澳台研招</a><span></span>
+</li>
+
+
+<li>
+    <a href="../../zsgz/gzzd.htm">规章制度</a><span></span>
+</li>
+
+</ul>
+            </div>
+            <div class="ny-right">
+                <div class="position">
+                    <div class="">
+                        <h3>
+招生简章</h3>
+                        <img src="../../image/weizhi.png" alt=""><span>当前位置：</span>
+                <a href="../../index.htm">网站首页</a>                
+                <span>-></span>
+                <a href="../../zsgz/zsjz.htm">招生工作</a>                
+                <span>-></span>
+                <a href="../../zsgz/zsjz.htm">招生简章</a>                
+                <span>-></span>
+                <span>正文</span>
+
+                    </div>
+                </div>
+                <div class="art-main">
+
+<script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname">
+<div class="art-tit cont-tit">
+    <h3>南昌大学2024年接收推荐免试研究生（含直博生）招生章程</h3>
+    <p>
+        <span>信息来源：
+    </span>
+        <span>发布日期：2023-09-28</span>
+         <span>访问量：<script>_showDynClicks("wbnews", 2125996941, 22126)</script></span>
+    </p>
+</div>
+    <div id="vsb_content" class="art-body"><div class="v_news_content">
+<p style="text-align:center;margin-top:0;margin-right:0;margin-bottom:0;padding:0 0 0 0 ;text-autospace:ideograph-numeric;"><br></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:28px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph"><br></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">推荐优秀应届本科毕业生免试攻读研究生（以下简称推免）是研究生多元招生体系的重要组成部分，是加强拔尖创新人才选拔、提高研究生</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">生源</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">质量的重要举措。我校根据教育部有关推免生工作管理办法，结合我校实际情况，特制定本章程（本章程所涉及的规定如有更新，以教育部下达最新文件为准）。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><strong><span style="font-family: 黑体;letter-spacing: 0;font-size: 19px"><span style="font-family:黑体">一、申请条件</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">一</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">）</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">申请人必须是具有推荐免试授权高校的应届本科毕业生，并</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">且</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">获得所在院校推荐免试资格，占用其本科就读学校的推荐免试指标，推荐手续完备，材料齐全；</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">二</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">）</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">202</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">4</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">年</span><span style="font-family:仿宋_GB2312">9月1日前获得本科毕业证书、学士学位证书。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><strong><span style="font-family: 黑体;letter-spacing: 0;font-size: 19px"><span style="font-family:黑体">二、接收专业、人数及其它</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">我校接收推免生的专业及其它具体要求请参阅《南昌大学</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">2024年硕士研究生招生专业目录</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">》，</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">全日制学术学位和专业学位专业（除工商管理、工程管理外）均可接收推免生（具体以推免系统中开放接收专业为准）；</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">登陆</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">研招网推免系统</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">后可详细查看（</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">报名系统内的推免生接收计划数为上年度实际接收人数，仅供参考</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">），或可直接咨询相关招生学院。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><strong><span style="font-family: 黑体;letter-spacing: 0;font-size: 19px"><span style="font-family:黑体">三、申请与选拔考核程序</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">根据教育部《全国普通高等学校推荐优秀应届本科毕业生免试攻读硕士学位研究生工作管理办法（试行）》（教学〔</span><span style="font-family:仿宋_GB2312">2006〕14 号）、《教育部办公厅关于进一步规范和加强推荐优秀应届本科毕业生免试攻读研究生工作的通知》（教学厅〔2020〕12 号），教育部《关于做好 2023 年推荐优秀应届本科毕业生免试攻读研究生工作的通知》的</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">有关精神，今年我校接收推荐免试攻读硕士学位研究生的基本程序如下：</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">一</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">）考生填报专业志愿。获得推免生资格的应届本科毕业生确定拟申请的专业后，在中国研究生招生信息网（以下简称研招网）的</span><span style="font-family:仿宋_GB2312">“推免服务系统”（网址：</span></span><a href="https://yz.chsi.com.cn/tm/"><span style="font-family: 仿宋_GB2312;color: rgb(0, 0, 0);letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">https://yz.chsi.com.cn/tm/</span></span></a><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">）填报专业志愿；学院严格按照复试条件审查考生报名材料。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">二</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">）学校发出复试通知。学校的招生学院通过研招网</span><span style="font-family:仿宋_GB2312">“推免服务系统”向申请考生发出复试通知；考生接到复试通知后</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">必须在学院要求的时间</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">内确认是否同意复试。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">三</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">）考生参加复试。同意参加本校复试的申请人，请在规定的时间内参加复试（复试报到时间由相关学院通知）。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">考生在复试报到时需</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">交验</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">以下书面材料：</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">1.核</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">验第二代身份证、学生证原件，交复印件（身份证复印正反面，学生证复印学生信息和注册情况）；</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">2.</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">历年在校学习成绩单原件，并加盖推荐院校教务处公章；</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">3.</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">其他有关材料（如大学英语四、六级考试成绩单复印件，其他获奖证书、本人代表性学术论文、出版物或原创性工作成果等）复印件。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">四</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">）复试内容包括：</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">专业课笔试、专业及综合素质面试、外语听力和口语测试；</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">跨一级学科申请免试攻读研究生的申请人，由学院决定是否需要在复试时加试一门专业课。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">五</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">）复试将根据实际情况采取线上或者线下的形式进行。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">六</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">）考生在复试期间须在二甲以上（含）医院体检。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">七</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">）办理拟录取手续。复试、</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">政审</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">及体检合格者名单由学院上报学校研究生</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">院</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">招生办公室后，学校研究生招生工作小组审核并确定拟录取名单。我校在教育部推荐免试服务系统发送待录取通知，推免生在</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">规定的时间内</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">确认接受我校发送的待录取通知，逾期未确认者视为放弃。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">八</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">）省教育考试院审核与公示。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><strong><span style="font-family: 黑体;letter-spacing: 0;font-size: 19px"><span style="font-family:黑体">四、特别说明</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（一）获得了我校预推免拟录取资格的考生，请按学院要求在规定的时间内通过研招网</span><span style="font-family:仿宋_GB2312">“推免服务系统”（网址：</span></span><a href="https://yz.chsi.com.cn/tm/"><span style="font-family: 仿宋_GB2312;color: rgb(0, 0, 0);letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">https://yz.chsi.com.cn/tm/</span></span></a><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">）进行正式报名并办理拟录取手续，逾期未报名或未确认录取者，不再保留拟录取资格。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（二）推免生报名前，请与报考学院联系，咨询拟接收名额。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（三）推免生提供的申请材料应真实准确，如有弄虚作假行为，一经发现即取消其研究生录取资格。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（四）我校确定接收的推免生，在入学报到时未获得毕业证书、学位证书者，取消其录取资格。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（五）已被接收的推荐免试生不得再参加全国硕士研究生入学考试。否则，取消其推免录取资格。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（六）我校部分专业接收直博生，可在研招网推免系统中查看，请有意报考者与学院及导师及时取得联系。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">（七）推免生接收办法以教育部最新文件规定为准，如本办法所列申请时间及流程有变，我校研究生招生网将另行发布通知，请申请者密切关注。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><strong><span style="font-family: 黑体;letter-spacing: 0;font-size: 19px"><span style="font-family:黑体">五、咨询、监督与申诉渠道</span></span></strong></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">南昌大学研究生</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">院</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">招生办公室电话：</span><span style="font-family:仿宋_GB2312">0791-83969340 &nbsp; </span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">邮箱：</span><span style="font-family:仿宋_GB2312">yzb@ncu.edu.cn</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">南昌大学纪委办公室电话：</span><span style="font-family:仿宋_GB2312">0791-83969025。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">本</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">章程</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">由南昌大学研究生院招生办公室负责解释。</span></span></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:28px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><br></p><p style="text-align:justify;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:28px;padding:0 0 0 0 ;text-autospace:ideograph-numeric;text-justify:inter-ideograph;line-height:31px"><br></p><p style="text-align: right; margin: 0px; text-indent: 37px; padding: 0px; line-height: 31px;"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"> </span> <span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">研究生院</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">招生办公室</span></span></p><p style="text-align: right; margin: 0px; text-indent: 37px; padding: 0px; line-height: 31px;"><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 二〇二</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">三</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">年九月</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">二十八</span></span><span style="font-family: 仿宋_GB2312;letter-spacing: 0;font-size: 19px"><span style="font-family:仿宋_GB2312">日</span></span></p><p style="text-align: right; margin: 0px; text-indent: 37px; padding: 0px; line-height: 31px;"><br></p><p style="margin: 0px; padding: 0px; list-style: none; text-align: justify; line-height: 31px;"><strong style="margin: 0px; padding: 0px; list-style: none;"><span style="margin: 0px; padding: 0px; list-style: none; font-size: 19px; font-family: 楷体;">附：各学院联系方式</span></strong></p><table align="center" style="border-collapse: collapse;"><tbody style="margin: 0px; padding: 0px; list-style: none;"><tr class="firstRow"><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><strong style="margin: 0px; padding: 0px; list-style: none;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">学院代码</span></strong></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><strong style="margin: 0px; padding: 0px; list-style: none;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">学院名称</span></strong></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><strong style="margin: 0px; padding: 0px; list-style: none;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">联系人</span></strong></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><strong style="margin: 0px; padding: 0px; list-style: none;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">联系电话</span></strong></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">001</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">法学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">陈老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83969437</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">002</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">经济管理学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">赵老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83868480</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">003</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">人文学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">张老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83968827</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">004</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">外国语学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">徐老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83969974</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">005</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">艺术学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">李老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83969408</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">006</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">数学与计算机学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">张老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83969508</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">007</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">体育学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">章老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83969724</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">008</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">生命科学学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">李老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83968957</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">009</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">先进制造学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">丁老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83969622</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">010</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">信息工程学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">蒋老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83969613</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">011</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">工程建设学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">谌老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83969657</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">012</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">资源与环境学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">李老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83969590</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">013</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">物理与材料学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">孙老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83969329</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">015</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">公共政策与管理学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体;">&nbsp; 蒋老师</span> &nbsp;</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83969442</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">016</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">马克思主义学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">陈老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83968290</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">017</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">软件学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">史老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-88305081</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">018</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">新闻与传播学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">卢老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83968734</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">019</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">食品学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">饶老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-88304002</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">020</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">建筑与设计学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">裘老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83969396</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">021</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">化学化工学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">付老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83968217</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">022</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">旅游学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">程老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83968258</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">023</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">高等研究院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">孙老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83969963</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">024</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">教育发展研究院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">张老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83968103</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">026</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">基础医学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">祝老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-86360556</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">027</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">转化医学研究院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">王老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-83827165</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">028</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">药学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">熊老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-86365161</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">029</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">公共卫生学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">刘老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-86353050</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">030</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">护理学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">刘老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-86360530</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">031</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">口腔医学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">欧阳老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-86360308</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">032</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">眼视光学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">胡老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-86310819</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">033</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">第一临床医学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">葛老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-88692714</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">034</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">第二临床医学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">李老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-86262733</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">035</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">第四临床医学院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">赖老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-86721652</span></p></td></tr><tr><td width="106" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">036</span></p></td><td width="186" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">非直属附属医院</span></p></td><td width="111" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">陈老师</span></p></td><td width="169" style="border-color: rgb(221, 221, 221); border-style: solid; border-width: 1px; padding: 5px 10px;"><p style="list-style: none; text-align: center; vertical-align: middle;text-indent:0px;"><span style="margin: 0px; padding: 0px; list-style: none; font-family: 楷体; font-size: 19px;">0791-86296747</span></p></td></tr></tbody></table><p><br></p>
+</div></div><div id="div_vote_id"></div>
+        <div class="art-info">
+    <div class="pnext">
+                            <p>
+        上一条：<a href="22136.htm">南昌大学2024年博士研究生招生简章</a>
+        </p>
+        <p>
+        下一条：<a href="22116.htm">南昌大学2024年硕士研究生招生简章</a>
+    </p>
+    </div>   
+    </div>
+
+</form>
+</div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="footer">
+            <div class="foot px1400">
+                <div class="foot-l">
+                    <div class="ft-top">    <div class="ft-top">
+<a href="https://www.ncu.edu.cn/?from=edurank.org" onclick="_addDynClicks(&#34;wbimage&#34;, 2125996941, 1024367)"><img src="../../images/logo-nandibu.png" alt=""></a>                  
+</div>
+</div>
+                    <p><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>南昌大学研究生院　版权所有&nbsp;</p></p>
+                </div>
+                <div class="foot-m"><script language="javascript" src="/system/resource/js/news/mp4video.js"></script>
+<h2 style="text-align: left;">联系我们</h2>
+<p><img src="/__local/2/CB/60/DCE0F10B1A419BA38671F3A39EB_1054C582_13A.png?e=.png" alt="" vsbhref="vurl" vurl="/_vsl/2CB60DCE0F10B1A419BA38671F3A39EB/1054C582/13A?e=.png" vheight="" vwidth="" orisrc="/__local/2/CB/60/DCE0F10B1A419BA38671F3A39EB_1054C582_13A.png" class="img_vsb_content"><span style="font-family: 宋体, SimSun;">E-mail：yjsy@ncu.edu.cn</span></p>
+<p><img src="/__local/A/E2/C6/2BFBDAF9B340CAAAE2FFBB36BD8_2EE15AA2_1FB.png?e=.png" alt="" vsbhref="vurl" vurl="/_vsl/AE2C62BFBDAF9B340CAAAE2FFBB36BD8/2EE15AA2/1FB?e=.png" vheight="" vwidth="" orisrc="/__local/A/E2/C6/2BFBDAF9B340CAAAE2FFBB36BD8_2EE15AA2_1FB.png" class="img_vsb_content"><span style="font-family: 宋体, SimSun;">电话：0791-83969337&nbsp;</span><span style="font-family: 宋体, SimSun;">邮编：330031</span></p>
+<p><img src="/__local/2/D0/6D/0970123C91FE76B1619D6287E03_BE47C9E0_22F.png?e=.png" alt="" vsbhref="vurl" vurl="/_vsl/2D06D0970123C91FE76B1619D6287E03/BE47C9E0/22F?e=.png" vheight="" vwidth="" orisrc="/__local/2/D0/6D/0970123C91FE76B1619D6287E03_BE47C9E0_22F.png" class="img_vsb_content"><span style="font-family: 宋体, SimSun;">地址：江西省南昌市红谷滩区学府大道999号研究生楼</span></p></div>
+                <div class="foot-r">
+                    <div class="rwm">    
+</div>
+                </div>
+            </div>
+        </div>
+</body>
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/slick.js"></script>
+    <script src="../../js/public.js"></script>
+</html>
+
+
+
+
+

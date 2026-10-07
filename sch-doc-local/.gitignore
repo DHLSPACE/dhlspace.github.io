@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+data/
+node_modules/
+research/browser-qa/
+research/upgrade-probes/
+*.zip
+*.log
+*.tmp
+.env
+.env.*

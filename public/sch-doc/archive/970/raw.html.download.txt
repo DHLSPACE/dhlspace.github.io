@@ -1,0 +1,1123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>电子信息与自动化学院</title>
+	<script src="js/jquery-1.12.1.min.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+
+<STYLE type="text/css">
+	body,div,p,h1,h4,h5,ul,li,ol {margin:0;padding:0;	}
+	
+	h1 {font-size: 2em;	}
+	.lftMod .list li a,.rgtMod .list li a{display:block;width:205px;overflow:hidden;padding-left:6px;}
+	.ctMod .list li a{display:block;width:205px;overflow:hidden;padding-left:6px;}
+	.lftCon{ width:205px;float:left;padding-left:6px;}
+	.head{ color:#ffffff;font-weight:bold;text-indent: 2em;overflow:hidden;display: block;font-size:14px;padding-bottom:3px;}
+	list{ color:#fff;}
+	
+	ul,li,ol {	list-style: none;	}
+	
+	a {
+		font-size: 13px;
+		color:#064161;
+		text-decoration: none;
+	}
+	
+	a:hover{
+		font-size: 13px;
+		color:#3399cc;
+		text-decoration: none;
+	}
+	
+	body {
+		font-family: proxima-nova,"Microsoft YaHei",Helvetica,Arial,sans-serif;
+		font-size: 14px;
+		color:#333;
+		position: relative;
+		background: #f7f7f7;
+	}
+	.date {
+		font-size: 13px;
+		color:#000;
+	}
+	
+	.font13 {
+		font-size: 13px;
+		color:#fff;
+	}
+	.wznr {
+		font-size: 14px;
+		color:#000;
+		line-height:25.5px;
+	}
+	
+	.white {
+		background: #fff;
+	}
+	
+	.container {
+		position: relative;
+		width: 1061px;
+		margin:0 auto;
+	}
+	
+	.wrapper1 {
+		width:985px;
+		margin:0 auto;	
+	}
+	
+	.clear {	clear: both;	}
+	
+	.logo1 {
+		width:100%;
+		height:120px;
+		padding-top: 0px;
+		background: #fff;
+	}
+	.logo1 .top1 {
+		width:1061px;
+		margin:0 auto;
+		height:120px;
+		background: url(images/logo.jpg) no-repeat 0 0;
+	}
+	
+	.logo2 {
+		width:100%;
+		height:300px;
+		padding-top: 0px;
+		background: #fff;
+	}
+	.logo2 .banner1 {
+		width:1003px;
+		margin:0 auto;
+		height:232px;
+	}
+	.logo2 .banner2 {
+		width:1024px;
+		margin:0 auto;
+		height:300px;
+	}
+	
+	.top {
+		position: relative;
+		width: 100%;
+		height:40px;
+		z-index: 100;
+		background: #fff;
+	}
+	
+	.top .navLists {
+		width:100%;
+		height:40px;
+		/*background: #39528a;*/
+		background: #c1ae8d;
+		margin:0 auto;
+		z-index:100;
+	}
+	.wrapper {
+		background: #c1ae8d;
+		width:1061px;
+		margin:0 auto;
+	}
+	
+	.navLists .nav {
+		position: relative;
+		display: block;
+		float: left;
+		height: 35px;
+		line-height:33px;
+		text-align: center;
+		font-size: 16px;
+		font-weight: bold;
+		/*color:#064161;*/
+		color:#39528a;
+		z-index:100;
+	}
+	
+	.navLists .nav a {
+		font-size: 16px;
+		color:#39528a;
+	}
+	
+	.navLists .nav .subnavs {
+		display: none;
+		position: absolute;
+		left: 0;
+		line-height:33px;
+		font-weight:normal;
+		top:35px;
+		width:140px;
+		z-index:100;	
+	}
+	.navLists .subnavs a {
+		font-size: 14px;
+		color:#39528a;
+	}
+	
+	.navLists .nav .subnavs .subnav {
+		width:140px;
+		height:100%;
+		background: #c1ae8d;
+		z-index:100;
+	}
+	
+	.main {
+		position: relative;            
+		top:-5px;
+		width:100%;
+		margin:0 auto;
+		height:315px;
+
+		background: url(images/bannerbg.jpg) repeat-x;
+	}
+	
+	.main1 {
+		background: #f7f7f7;
+		width:1061px;
+		margin:0 auto;
+	}
+	
+	.content {
+		width:1061px;
+		margin-right: 0px;
+		margin-top: 0px;
+		background: #f7f7f7;
+	}
+	.main2 {
+		background: #fff;
+		width:1061px;
+		margin:0 auto;
+		min-height:535px;
+	}
+	.main3 {
+		background: #f7f7f7;
+		width:1061px;
+		margin:0 auto;
+		min-height:650px;
+	}
+	
+	.main .banner {
+		background: #f7f7f7;
+		position: relative;
+		margin：0 auto;
+		left: 50%;
+		margin-left: -530px;
+		margin-top: 2px;
+		width:1061px;
+		height:305px;
+		overflow: hidden;
+	}
+	
+	.main .banner .slides {
+		width:1061px;
+		margin-top: 6px;
+	}
+	
+	.main .banner .slides li {
+		display: none;
+		width: 1061px;
+		float: center;
+	}
+	.main .banner .slides li.active {
+		display: block;
+	}
+	
+	.main .banner .slides li img {
+		margin-top: 3px;
+		width: 1061px;
+		height:300px;
+	}
+	
+	.banner .slidesController {
+		position: absolute;
+		right:26px;
+		bottom: 5px;
+		z-index: 99;
+	}
+	
+	.banner .slidesController li {
+		display: inline-block;
+		width: 9px;
+		height:9px;
+		margin:0 4px;
+		border:1px solid #d1d1d1;
+		border-radius: 20px;
+		cursor: pointer;
+	}
+	
+	.banner .slidesController li.active {
+		background: #ff5b0b;
+		border-color: #ff5b0b;
+	}
+	
+	.cen  {
+		background: #fff;
+		margin-top: -10px;
+		width:100%;
+		height: 25px;
+	}
+	
+	.cen1 {
+		background: #f7f7f7;
+		width:100%;
+		height: 50px;
+	}
+	
+	.content .block {
+		float:left;
+	}
+	
+	.block .title {
+		width:100%;
+		height: 22px;
+		margin-bottom: 23px;
+		border-bottom: 3px solid #f3842b;
+		line-height: 22px;
+	}
+	
+	.block .title .caption {
+		display: inline-block;
+		height: 100%;
+	}
+	
+	.block .title .more {
+		display: inline-block;
+		float: right;
+		height: 22px;
+		line-height: 22px;
+		color:#979797;
+		font-size: 12px;
+	}
+	
+	.content .news {
+		margin-right: 15px;
+		width:370px;
+	}
+	
+	.news .title .caption {
+		width:193px;
+	}
+	
+	.content .notice {
+		width: 397px;
+	}
+	
+	.notice .title .caption {
+		width:140px;
+	}
+	
+	.news img {
+		margin-bottom: 5px;
+	}
+	
+	.block .links .link {
+		width:100%;
+		margin-bottom: 8px;
+		font-size: 12px;
+		color: #454545;
+		list-style: disc inside;
+	}
+	
+	.block .links .link a {
+		color: #000;
+	}
+	
+	.block .links .link .date {
+		float: right;
+	}
+	
+	.agency {
+		margin-top: 43px;
+	}
+	
+	.agency a img {
+	border:0 none;
+	}
+	
+	.agency .experiment,.agency .mba {
+		float:left;
+		margin-right: 2px;
+	}
+
+	.sidebar .side-nav {
+		display: block;
+		width:100%;
+		height:30px;
+		line-height: 30px;
+		color:#fff;
+		font-size: 14px;
+		text-align: center;
+		font-weight: bold;
+	}
+	
+	.bottom  {
+		width:100%;
+		height:130px;
+		/*background: #39528a;*/
+		background: #c1ae8d;
+	}
+
+	.bottom .footer {
+		width:1061px;
+		margin:0 auto;
+		height:130px;
+		text-align: center;
+		/*background: #3e78c2;*/
+		background: url(images/bbg.jpg) repeat-x;
+		color:#39528a;
+	}
+	
+	/*article*/
+	.articlebg{
+		width:100%;
+	}
+	
+	.c_title {
+		FONT-SIZE: 15px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, 宋体
+	}
+	
+	.c_content {
+		FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, 宋体
+	}
+	.wenzi {
+		font-size: 13px;
+		FONT-FAMILY: Verdana, Arial, 宋体;
+		line-height: 24px;
+		color: #000;
+	}
+	
+	.article {
+		width:990px;
+		margin:0 auto 45px auto;
+	}
+	
+	.article .left {
+		float: left;
+		margin-right: 27px;
+	}
+	
+	.article .left .survey {
+		width:270px;
+		height:210px;
+		margin-top: 48px;
+	}
+	
+	.survey .header {
+		width:100%;
+		height:20px;
+		line-height: 20px;
+		background: #3aadba;
+		color: #fff;
+		font-size: 13px;
+	}
+	
+	.survey .header p {
+		padding-left: 17px;
+	}
+	
+	.survey .body {
+		width:100%;
+		height:160px;
+		background: #f6fbfb;
+	}
+	
+	.survey .body ul {
+		padding:10px 17px;
+	}
+	
+	.survey .body .line {
+		width:100%;
+		height:30px;
+		border-bottom: 1px solid #e7ecec;
+		color:#3aadba;
+		font-size: 12px;
+		line-height: 30px;
+		background-image: url(images/arrow2.png);
+		background-repeat: no-repeat;
+		background-position-x:216px;
+		background-position-y:center;
+	}
+	
+	.survey .body .line.active {
+		background-image: url(images/arrow.png);
+	}
+	
+	.survey .body .line a {
+		display: block;
+		width:100%;
+		height:100%;
+		color:#3aadba;
+	}
+	
+	.article .left .notice {
+		width:270px;
+		height:230px;
+		border-bottom: 3px solid #f3842b;
+		list-style: none;
+		color: #454545;
+	}
+	
+	.rightc {
+		float: center;
+		width: 950px;
+	}
+	
+	.rightc .location {
+		width:100%;
+		height:48px;
+		font-size: 13px;
+		color: #ffffff;
+		line-height: 48px;
+	}
+	
+	.rightc .location a {
+		color:#6a6a6a;
+	}
+	
+	.rightc .substance {
+		width:100%;
+		min-height:100%;
+		border:1px solid #c2c2c2;
+	}
+	
+	.rightc .substance .outer {
+		padding:15px 27px 0 27px;
+	}
+	
+	.rightc.substance .title {
+		line-height: 48px;
+		margin-bottom: 18px;
+		text-align: center;
+		font-size: 17px;
+		color: #6f6f6f;
+		letter-spacing: 13px;
+		font-weight: normal;
+	}
+	
+	.rightc .substance .release-date {
+		width:100%;
+		height: 22px;
+		margin-bottom: 20px;
+		line-height: 25px;
+		text-align: center;
+		font-size: 13px;
+		color:#6a6a6a;
+		background: #efefef;
+	}
+	
+	.rightc .substance .text p {
+		line-height: 26px;
+		margin-bottom: 24px;
+		font-size: 13px;
+		color: #393939;
+		text-indent: 26px;
+	}
+	
+	.right {
+		float: left;
+		width: 1040px;
+		min-height:550px;
+	}
+	
+	.right .location {
+		width:100%;
+		height:48px;
+		font-size: 12px;
+		color: #6a6a6a;
+		line-height: 48px;
+	}
+	
+	.right .location a {
+		color:#6a6a6a;
+	}
+	
+	.right .substance {
+		width:100%;
+		min-height:500px;
+		background: #ffffff;
+		border:1px solid #c2c2c2;
+	}
+	
+	.right .substance .outer {
+		padding:15px 20px 0 20px;
+	}
+	
+	.alinks{
+		color:#3aadba;
+	}
+	
+	.right .substance .title {
+		margin-bottom: 18px;
+		text-align: center;
+		font-size: 18px;
+		color: #6f6f6f;
+		letter-spacing: 12px;
+		font-weight: normal;
+	}
+	
+	.right .substance .release-date {
+		width:100%;
+		height: 22px;
+		margin-bottom: 20px;
+		line-height: 22px;
+		text-align: center;
+		font-size: 13px;
+		color:#6a6a6a;
+		background: #efefef;
+	}
+	
+	.right .substance .text p {
+		line-height: 25px;
+		margin-bottom: 24px;
+		font-size: 13px;
+		color: #393939;
+		text-indent: 26px;
+	}
+	
+	.header  .search {
+		float:left;
+		margin:35px 200px 10px 600px;
+		width:130px;
+		height:26px;
+		position: relative;
+	}
+	
+	.header  .gh {
+		float:left;
+		margin:10px 110px 10px 915px;
+		width:80px;
+		height:25px;
+		position: relative;
+	}
+	
+	.header  .gh1 {
+		float:left;
+		margin:-50px 60px  10px 920px;
+		width:60px;
+		height:25px;
+		position: relative;
+	}
+	
+	.header {
+		width:1061px;
+		margin:0 auto;
+		height: 118px;
+	}
+	.search-bar {
+		float: right;
+		margin-top: 10px;
+		padding-left:-10px;
+	}
+	
+	.input {
+		float: left;
+		width: 190px;
+		height: 25px;
+		border: 1px solid #dcdcdc;
+		line-height: 25px;
+		font-size: 10px;
+	}
+	
+	.input>span {
+		display: inline-block;
+		float: left;
+		padding:0px  0px  0px -15px;
+		border-right: 1px solid #dcdcdc;
+		font-size: 10px;
+		color: #5d5d5d;
+	}
+	
+	.input>input {
+		float: right;;
+		width: 130px;
+		height: 23px;
+		border:0;
+	}
+	
+	.search-btn {
+		display: inline-block;
+		width: 27px;
+		height: 27px;
+		border:0;
+		background: url(images/btn.jpg) no-repeat 0 0;
+	}
+	
+	.menu {
+		FONT-FAMILY: verdana, arial, sans-serif; WIDTH: 288px; POSITION: relative; MARGIN-LEFT: 220px; MARGIN-top: 15px; Z-INDEX: 100; 
+	}
+	.menu UL {
+		LIST-STYLE-TYPE: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+	}
+	.menu UL LI {
+		HEIGHT: 30px; WIDTH: 288px; BACKGROUND-IMAGE: url(images/yqlj.png); BACKGROUND-REPEAT: no-repeat; POSITION: relative; BACKGROUND-POSITION: left center; MARGIN-RIGHT: 1px
+	}
+	.menu UL LI A {
+		FONT-SIZE: 11px; TEXT-DECORATION: none; HEIGHT: 30px; WIDTH: 288px; COLOR: #333; TEXT-ALIGN: left; DISPLAY: block; LINE-HEIGHT: 24px; TEXT-INDENT: 10px
+	}
+	.menu UL LI A:visited {
+		FONT-SIZE: 11px; TEXT-DECORATION: none; HEIGHT: 30px; WIDTH: 288px; COLOR: #333; TEXT-ALIGN: left; DISPLAY: block; LINE-HEIGHT: 24px; TEXT-INDENT: 10px
+	}
+	TABLE {
+		BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+	}
+	.menu UL LI UL {
+		POSITION: absolute; PADDING-BOTTOM: 20px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 20px; LEFT: -20px; Z-INDEX: 100; DISPLAY: none; TOP: 25px; PADDING-RIGHT: 30px
+	}
+	.menu UL LI:hover A {
+		BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; COLOR: #000; BORDER-LEFT: 0px
+	}
+	.menu UL LI A:hover {
+		BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; COLOR: #000; BORDER-LEFT: 0px
+	}
+	.menu UL LI:hover UL {
+		DISPLAY: block
+	}
+	.menu UL LI A:hover UL {
+		DISPLAY: block
+	}
+	.menu UL LI:hover UL LI {
+		OVERFLOW: auto; HEIGHT: 200px; WIDTH: 288px; BACKGROUND: #666666;COLOR: #000; BORDER-LEFT: #7a7a7a 1px solid
+	}
+	.menu UL LI A:hover UL LI {
+		OVERFLOW: auto; HEIGHT: 200px; WIDTH: 288px; BACKGROUND: #666666;COLOR: #000; BORDER-LEFT: #7a7a7a 1px solid
+	}
+	* HTML .menu UL LI A:hover UL LI {
+		WIDTH: 287px
+	}
+	.menu UL LI:hover UL LI A {
+		TEXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 270px; BACKGROUND: #363636; BORDER-BOTTOM: 0px; FLOAT: left; COLOR: #aaa; TEXT-ALIGN: left; BORDER-LEFT: 0px; DISPLAY: block; TEXT-INDENT: 10px
+	}
+	.menu UL LI A:hover UL LI A {
+		TEXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 270px; BACKGROUND: #363636; BORDER-BOTTOM: 0px; FLOAT: left; COLOR: #aaa; TEXT-ALIGN: left; BORDER-LEFT: 0px; DISPLAY: block; TEXT-INDENT: 10px
+	}
+	.menu UL LI:hover UL LI A:hover {
+		TEXT-DECORATION: none; BACKGROUND: #222; COLOR: #fff
+	}
+	.menu UL LI A:hover UL LI A:hover {
+		TEXT-DECORATION: none; BACKGROUND: #222; COLOR: #fff
+	}
+	.menu .fengge {
+		MARGIN-BOTTOM: 15px
+	}
+	.menu UL LI A:hover UL {
+		VISIBILITY: visible
+	}
+	
+	.menu1 {
+		FONT-FAMILY: verdana, arial, sans-serif; WIDTH: 288px; MARGIN-LEFT: 550px; MARGIN-top: -48px; Z-INDEX: 101; 
+	}
+	.menu1 UL {
+		LIST-STYLE-TYPE: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+	}
+	.menu1 UL LI {
+		HEIGHT: 30px; WIDTH: 288px; BACKGROUND-IMAGE: url(images/yqlj.png); BACKGROUND-REPEAT: no-repeat; POSITION: relative; BACKGROUND-POSITION: left center; MARGIN-RIGHT: 1px
+	}
+	.menu1 UL LI A {
+		FONT-SIZE: 11px; TEXT-DECORATION: none; HEIGHT: 30px; WIDTH: 288px; COLOR: #333; TEXT-ALIGN: left; DISPLAY: block; LINE-HEIGHT: 24px; TEXT-INDENT: 10px
+	}
+	.menu1 UL LI A:visited {
+		FONT-SIZE: 11px; TEXT-DECORATION: none; HEIGHT: 30px; WIDTH: 288px; COLOR: #333; TEXT-ALIGN: left; DISPLAY: block; LINE-HEIGHT: 24px; TEXT-INDENT: 10px
+	}
+	TABLE {
+		BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+	}
+	.menu1 UL LI UL {
+		POSITION: absolute; PADDING-BOTTOM: 20px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 20px; LEFT: -20px; Z-INDEX: 100; DISPLAY: none; TOP: 25px; PADDING-RIGHT: 30px
+	}
+	.menu1 UL LI:hover A {
+		BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; COLOR: #000; BORDER-LEFT: 0px
+	}
+	.menu1 UL LI A:hover {
+		BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; COLOR: #000; BORDER-LEFT: 0px
+	}
+	.menu1 UL LI:hover UL {
+		DISPLAY: block
+	}
+	.menu1 UL LI A:hover UL {
+		DISPLAY: block
+	}
+	.menu1 UL LI:hover UL LI {
+		OVERFLOW: auto; HEIGHT: 200px; WIDTH: 288px; BACKGROUND: #666666; COLOR: #000; BORDER-LEFT: #7a7a7a 1px solid
+	}
+	.menu1 UL LI A:hover UL LI {
+		OVERFLOW: auto; HEIGHT: 200px; WIDTH: 288px; BACKGROUND: #666666; COLOR: #000; BORDER-LEFT: #7a7a7a 1px solid
+	}
+	* HTML .menu1 UL LI A:hover UL LI {
+		WIDTH: 287px
+	}
+	.menu1 UL LI:hover UL LI A {
+		TEXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 270px; BACKGROUND: #363636; BORDER-BOTTOM: 0px; FLOAT: left; COLOR: #aaa; TEXT-ALIGN: left; BORDER-LEFT: 0px; DISPLAY: block; TEXT-INDENT: 10px
+	}
+	.menu1 UL LI A:hover UL LI A {
+		TEXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 270px; BACKGROUND: #363636; BORDER-BOTTOM: 0px; FLOAT: left; COLOR: #aaa; TEXT-ALIGN: left; BORDER-LEFT: 0px; DISPLAY: block; TEXT-INDENT: 10px
+	}
+	.menu1 UL LI:hover UL LI A:hover {
+		TEXT-DECORATION: none; BACKGROUND: #222; COLOR: #fff
+	}
+	.menu1 UL LI A:hover UL LI A:hover {
+		TEXT-DECORATION: none; BACKGROUND: #222; COLOR: #fff
+	}
+	.menu1 .fengge {
+		MARGIN-BOTTOM: 15px
+	}
+	.menu1 UL LI A:hover UL {
+		VISIBILITY: visible
+	}
+
+	#Marquee_x {
+		width: 1059px; overflow: hidden
+	}
+	#Marquee_x ul li {
+		line-height: 25px; float: left; overflow: hidden
+	}
+	#Marquee_x ul li div {
+		line-height: 25px; float: left; overflow: hidden
+	}
+	#Marquee_x ul li div {
+		line-height: 25px; width: 192px; float: left; height: 143px; overflow: hidden
+	}
+	#Marquee_x ul li div img {
+		border-bottom: #dadada 1px solid; border-left: #dadada 1px solid; width: 194px; display: block; height: 145px; border-top: #dadada 1px solid; border-right: #dadada 1px solid
+	}
+	#Marquee_x ul li div span {
+		display: block
+	}
+</style>
+
+<div class="logo1">			
+<div class="top1">
+<a href="">
+<div class="header">
+</div>
+</a>
+</div>
+</div>
+
+<div class="top">
+
+<div class="navLists">
+<div class="wrapper">
+
+<ul>
+	<li class="nav"><a href="">学院首页</a>&nbsp;|&nbsp;</li>
+	<li class="nav">
+		<a href="#">学院简介</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="xyjj/101107.htm">学院简介</a></li>
+			<li class="subnav"><a href="xyjj/8f7d6f6b45114485b3256f3bc3b3cdd9.htm">历史沿革</a></li>
+			<li class="subnav"><a href="xyjj/101108.htm">机构设置</a></li>
+		</ul>
+	</li>
+	<li class="nav">
+		<a href="#">新闻公告</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="xwgg/xyxw/">新闻动态</a></li>
+			<li class="subnav"><a href="xwgg/tzgg/">通知公告</a></li>
+		</ul>
+	</li>
+	<li class="nav">
+		<a href="#">本科教育</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="bkjy/zyjs/">专业介绍</a></li>
+			<li class="subnav"><a href="bkjy/pyfa/">培养方案</a></li>
+		</ul>
+	</li>
+	<li class="nav">
+		<a href="#">研究生教育</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="yjsjy/yjszy/">专业介绍</a></li>
+			<li class="subnav"><a href="yjsjy/101428.htm">导师简介</a></li>
+		</ul>
+	</li>
+	<li class="nav"><a href="szdw/101430.htm">师资队伍</a>&nbsp;|&nbsp;</li>
+	<li class="nav">
+		<a href="#">学院党建</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="xydj/djgz/">党建工作</a></li>
+			<li class="subnav"><a href="xydj/xfzx/">先锋在线</a></li>
+			<li class="subnav"><a href="xydj/ggwgz/">关工委工作</a></li>
+		</ul>
+	</li>
+	<li class="nav">
+		<a href="#">电信清风</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="dxqf/jwgz/">纪委工作</a></li>
+			<li class="subnav"><a href="dxqf/lzkt/">廉政课堂</a></li>
+			<li class="subnav"><a href="dxqf/jsjy/">警示教育</a></li>
+			<li class="subnav"><a href="dxqf/llsy/">理论视野</a></li>
+		</ul>
+	</li>
+	<li class="nav">
+		<a href="#">学生工作</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="xsgz/jgsz/">机构设置</a></li>
+			<li class="subnav"><a href="xsgz/xsfc/">学生风采</a></li>
+			<li class="subnav"><a href="xsgz/pjpy/">评奖评优</a></li>
+		</ul>
+	</li>
+	<li class="nav"><a href="/wdxz/jxgzwd/">文档下载</a>&nbsp;|&nbsp;</li>
+	<li class="nav"><a href="https://zdh.tust.edu.cn/en/">ENGLISH</a></li>
+</ul>
+</div>
+</div>
+</div><div class="main">
+	<div class="banner">
+	<ul class="slides">
+                				                		<li class="active"><a href="https://www.xuexi.cn/xxqg.html?id=a2543113741d4a2285f86f88f0afd87f" target="_blank"><img src="images/2024-05/078aea6750c948f58fea83067e180453.jpg" width="1055" height="300" border="0"></a></li>
+                						                		<li><a href="https://zdh.tust.edu.cn/docs/2026-05/9ddd20f7bd4747ce9042806af508eb9b.pdf" target="_blank"><img src="images/2026-05/25fc2935422944c3a9622cb5c92ebfd4.png" width="1055" height="300" border="0"></a></li>
+								                		<li><a href="https://news.tust.edu.cn/tjkjdxdscddh/" target="_blank"><img src="images/2025-04/e0cf4c44513c4f0ea6219065d26a8abc.png" width="1055" height="300" border="0"></a></li>
+								                		<li><a href="https://cpc.people.com.cn/GB/67481/461139/index.html" target="_blank"><img src="images/2026-01/03a79e4d7ab9488a88e6f73ec4cbdbc2.png" width="1055" height="300" border="0"></a></li>
+								                		<li><a href="https://zdh.tust.edu.cn/xwgg/tzgg/a0c34309a41d4469a6fac681ca7743b1.htm" target="_blank"><img src="images/2026-05/c28559d033804705bbf0f815a7540447.png" width="1055" height="300" border="0"></a></li>
+								                		<li><a href="https://cpc.people.com.cn/GB/67481/461783/index.html" target="_blank"><img src="images/2026-04/e316e8f3a03e43a795a9d210b48bf9ec.jpg" width="1055" height="300" border="0"></a></li>
+							</ul>
+	<ol class="slidesController">
+	</ol>
+	</div>
+</div>
+<div class="main1">
+<div class="content">
+<table width="1061" border="0" cellspacing="0" cellpadding="0">
+  <tr><td>&nbsp;</td></tr>
+  <tr>
+    <td width="409"><a href="xwgg/xyxw/"><img src="images/xwdt.jpg" width="409" height="35" border="0" /></a></td>
+   	<td width="10"></td>
+    <td width="409"><a href="xwgg/tzgg/"><img src="images/xygg.jpg" width="409" height="35" border="0" /></a></td>
+   	<td width="10"></td>
+    <td width="223"><img src="images/lj.jpg" width="223" height="35" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="409" height="200" background="images/tb1.jpg" valign="top">
+      <table width="401" border="0" cellspacing="0" cellpadding="0" align="left">
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="https://mp.weixin.qq.com/s/TCY7OK6pfJeAzYZtG0vFbQ" title="启迪科研思维 聚力交叉创新 助力青年成长——电信学院成功举办“尚学讲堂”青年教师学术交流会" >启迪科研思维 聚力交叉创新 助力青年成长...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-09-17</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="https://mp.weixin.qq.com/s/gtOege9U2NpHZGUr58Ur_g" title="师恩如光 —— 春风化雨润桃李，学子手作传心意" >师恩如光 —— 春风化雨润桃李，学子手作...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-09-10</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="https://mp.weixin.qq.com/s/XTXakaH_jtTbBnvYb-OnPA?scene=1" title="电子信息与自动化学院举办U35/U40分层人才培育行动汇报交流会" >电子信息与自动化学院举办U35/U40分...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-07-26</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="https://mp.weixin.qq.com/s/Z-vSfdxnMIaq-mdlKWvlfQ" title="天津科技大学校领导带队走访紫光云技术有限公司" >天津科技大学校领导带队走访紫光云技术有限...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-06-03</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="https://mp.weixin.qq.com/s/yZBLaQY4aJc-CQoYWSHjSw" title="电信学院2026年第一季度教师先锋岗事迹展示" >电信学院2026年第一季度教师先锋岗事迹...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-05-14</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="https://mp.weixin.qq.com/s/l5s9a2xUJ188f4MT1zf03g" title="电信学院开展党风廉政建设宣传教育月活动" >电信学院开展党风廉政建设宣传教育月活动</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-05-06</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="https://mp.weixin.qq.com/s/ETekcxXtyF6HyHoZYuU1sg" title="电信学院赴广东工业大学集成电路学院交流调研" >电信学院赴广东工业大学集成电路学院交流调...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-04-27</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="https://mp.weixin.qq.com/s/IRT0ZHvCyKgSONG2JPVM3Q" title="电信学院赴中国石化销售股份有限公司华北分公司走访交流" >电信学院赴中国石化销售股份有限公司华北分...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-04-26</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="https://mp.weixin.qq.com/s/XISKpmh5-DmgbTCMZyH_-Q" title="电子信息与自动化学院第一届理事会第二次会议顺利召开" >电子信息与自动化学院第一届理事会第二次会...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-04-15</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="https://mp.weixin.qq.com/s/YDGLIisXobm-4GuFtKOlqw" title="校领导带队走访华利集团 深化校企协同拓展育人新局" >校领导带队走访华利集团 深化校企协同拓展...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-03-31</td>
+        </tr>
+              </table>
+    </td>
+   	<td width="10"></td>
+    <td width="409" background="images/tb1.jpg" valign="top">
+      <table width="401" border="0" cellspacing="0" cellpadding="0" align="left">
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="xwgg/tzgg/6dc8b5f63e53406c8dbfb8c164ae71d7.htm" title="天津科技大学电子信息与自动化学院2027年推荐优秀应届本科毕业生免试攻读硕士学位研究生招生录取工作实施细则" >天津科技大学电子信息与自动化学院2027...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-09-18</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="xwgg/tzgg/440334b78e004d92895ef6a41d16e951.htm" title="天津科技大学电子信息与自动化学院关于推荐2027届优秀本科毕业生免试攻读研究生补充公示" >天津科技大学电子信息与自动化学院关于推荐...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-09-11</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="xwgg/tzgg/aa8e4243dffd4b27a1776efd6d5e8431.htm" title="电子信息与自动化学院关于教师节期间廉洁自律的工作提醒" >电子信息与自动化学院关于教师节期间廉洁自...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-09-10</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="xwgg/tzgg/fa3cc6acb3474f3a99521131696dc24e.htm" title="天津科技大学电子信息与自动化学院关于推荐2027届优秀本科毕业生免试攻读研究生的公示" >天津科技大学电子信息与自动化学院关于推荐...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-09-09</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="xwgg/tzgg/614b26b716b14fc5b7445271dc8643c3.htm" title="电子信息与自动化学院推荐2027届优秀应届本科毕业生免试攻读研究生工作实施细则" >电子信息与自动化学院推荐2027届优秀应...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-09-02</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="xwgg/tzgg/051d5d705f7c49038aea265d596ff763.htm" title="电子信息与自动化学院关于公布 2027 年硕士研究生招生考试初试业务课二考试大纲的通知" >电子信息与自动化学院关于公布 2027 ...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-07-20</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="xwgg/tzgg/9dff29fa34d0423fabdc150d82cead76.htm" title="电子信息与自动化学院2026年拟接收本科生转专业名单公示" >电子信息与自动化学院2026年拟接收本科...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-06-10</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="xwgg/tzgg/a4031c88e7594ea39b93dab4bf313a2b.htm" title="2026年6月份批次天津科技大学硕士研究生学位论文答辩公告（电信学院 第二批）" >2026年6月份批次天津科技大学硕士研究...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-05-29</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="xwgg/tzgg/b300a6dba3e5476994e8918dbea5a1ee.htm" title="2026年6月份批次天津科技大学硕士研究生学位论文答辩公告（电信学院 第一批）" >2026年6月份批次天津科技大学硕士研究...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-05-27</td>
+        </tr>
+                <tr>
+        	<td width="2"></td>
+          <td height="30" width="20" align="left" style="border-bottom:1px dashed #cccccc; "><img src="images/li.jpg" width="10" height="10" /></td>
+          <td height="30" width="75%" style="border-bottom:1px dashed #cccccc; " ><font class="notice_title"><a target="_blank" href="docs/2026-05/9ddd20f7bd4747ce9042806af508eb9b.pdf" title="第六届电气工程与机电一体化技术国际学术会议（ICEEMT 2026）-会议通知" >第六届电气工程与机电一体化技术国际学术会...</a></font></td>
+          <td align=left class="date" height="30" style="border-bottom:1px dashed #cccccc; " >2026-05-12</td>
+        </tr>
+              </table>
+    </td>
+   	<td width="10"></td>
+   	<td width="223" background="images/tb3.jpg" valign="top">
+	  	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  		<tr>
+  		<td width="6"></td>
+  		<td>
+   		<img src="images/links.jpg" width="206" height="307" border="0" usemap="#linkmap"/>
+   		<map name="linkmap" id="linkmap">
+	   		<area shape="rect" coords="0,10,206,46" href="mailto:dxjw@tust.edu.cn" />
+	   		<area shape="rect" coords="0,266,206,302" href="http://zdh.tust.edu.cn/xyjj/f24e4839252747599c5215c48e6115ac.htm" target="_blank"/>
+	   	</map>
+	  	</td>
+	   	</tr>
+	   	</table>
+   	</td>
+  </tr>
+  <tr>
+    <td width="409"><img src="images/tb2.jpg" width="409" height="20" /></td>
+   	<td width="10"></td>
+    <td width="409"><img src="images/tb2.jpg" alt="" width="409" height="20" /></td>
+   	<td width="10"></td>
+    <td width="223"><img src="/pub/zdh/images/tb4.jpg" width="223" height="20" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td width="1061" colspan="5"><img src="images/tp1.jpg" width="1061" height="20" /></td>
+  </tr>
+  <tr>
+    <td width="1061" height="150" colspan="5" background="images/tp2.jpg" align="center">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" align="left">
+			<tr> 
+									<td align="center" width="192" border="0">
+				<p><a href="http://xuexi.12371.cn/special/dsgs100/" target="_blank"><img src="images/2020-09/4c95cb4a70b2467bbd842c6e46ea1d12.jpg" width="192" height="143" border="0"></a>
+			</td>
+			<td align="center" width="10" border="0">&nbsp;
+			</td>
+												<td align="center" width="192" border="0">
+				<p><a href="dbtpzs/b9857fb776224b3cbaff5c48f64523e2.htm" target="_blank"><img src="images/2024-09/45ac0933ef994e07a3c6ea80bd990086.jpg" width="192" height="143" border="0"></a>
+			</td>
+			<td align="center" width="10" border="0">&nbsp;
+			</td>
+												<td align="center" width="192" border="0">
+				<p><a href="dbtpzs/102438.htm" target="_blank"><img src="images/2025-11/18eda8f995c0425cb346978bed70647e.jpg" width="192" height="143" border="0"></a>
+			</td>
+			<td align="center" width="10" border="0">&nbsp;
+			</td>
+												<td align="center" width="192" border="0">
+				<p><a href="dbtpzs/102437.htm" target="_blank"><img src="images/2024-10/6d9c28eb675843608b36bc9e3e4cd683.jpg" width="192" height="143" border="0"></a>
+			</td>
+			<td align="center" width="10" border="0">&nbsp;
+			</td>
+												<td align="center" width="192" border="0">
+				<p><a href="dbtpzs/102435.htm" target="_blank"><img src="images/2024-09/9f6f4159428b4af7a4d3c4aa79c63af9.jpg" width="192" height="143" border="0"></a>
+			</td>
+			<td align="center" width="10" border="0">&nbsp;
+			</td>
+									</tr></table>
+    </td>
+  </tr>
+  <tr>
+    <td width="1061" colspan="5"><img src="images/tp3.jpg" width="1061" height="20" /></td>
+  </tr>
+</table>
+</div>        
+
+<center>
+<div  class="cen1">
+<select onChange="if(this.value != '')window.open(this.value);" style="width:280px;background-color:#dddddd;">
+<option selected="selected">校内链接</option>
+<option value="http://jw.tust.edu.cn/" target="_blank">天津科技大学教务处</option>
+<option value="http://kjc.tust.edu.cn/" target="_blank">天津科技大学科技处</option>
+<option value="http://xgzc.tust.edu.cn/" target="_blank">天津科技大学学生处</option>
+<option value="http://yjs.tust.edu.cn/" target="_blank">天津科技大学研究生院</option>
+<option value="http://lib.tust.edu.cn/" target="_blank">天津科技大学图书馆</option>
+<option value="http://wxb.tust.edu.cn/" target="_blank">网络安全和信息化办公室</option>
+<option value="https://www.tust.edu.cn/xxfw/d2fbffbfcdb14027abcb84c69f474d19.htm" target="_blank">电话查询</option>
+<option value="https://www.tust.edu.cn/xxfw/e5e0cb8e715e4ff1ad508aff6de8f9bf.htm" target="_blank">班车信息</option>
+</select>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<select onChange="if(this.value != '')window.open(this.value);" style="width:280px;background-color:#dddddd;">
+<option selected="selected">校外链接</option>
+<option value="http://www.most.gov.cn/" target="_blank">中华人民共和国科学技术部</option>
+<option value="http://kxjs.tj.gov.cn/" target="_blank">天津市科学技术局</option>
+<option value="http://www.tsinghua.edu.cn/" target="_blank">清华大学</option>
+<option value="http://www.pku.edu.cn/" target="_blank">北京大学</option>
+<option value="http://www.tju.edu.cn/" target="_blank">天津大学</option>
+<option value="http://www.nankai.edu.cn/" target="_blank">南开大学</option>
+<option value="http://www.tjpu.edu.cn/" target="_blank">天津工业大学</option>
+<option value="http://www.tjut.edu.cn/" target="_blank">天津理工大学</option>
+</select>
+</div>        
+</center>
+</div> 
+</div>
+
+<div class="bottom">
+<div class="footer">
+<br>
+天津科技大学电子信息与自动化学院版权所有<br>
+联系电话：022-60600771<br>
+管理员信箱：e_auto@tust.edu.cn<br>
+津科备02号<br>
+</div>
+</div></body></html>

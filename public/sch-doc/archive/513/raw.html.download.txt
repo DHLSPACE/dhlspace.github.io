@@ -1,0 +1,1774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>中国科学院大学宁波材料工程学院 - ncmte.nimte.ac.cn</title>
+	<meta name="keywords" content="中国科学院大学宁波材料工程学院" />
+	<meta name="description" content="中国科学院大学宁波材料工程学院" />
+    <link rel="stylesheet" href="/template/ncmte.nimte.ac.cn/css/common.css">
+    <link rel="stylesheet" href="/template/ncmte.nimte.ac.cn/css/swiper.css">
+    <style>
+        .home {
+            width: 100%;
+        }
+        .home .banner {
+			/*margin-top:287px;*/
+            width: 100%;
+            position: relative;
+        }
+        .home .banner .swiper-container {
+            width: 100%;
+        }
+        .home .banner .swiper-container .swiper-wrapper .swiper-slide {
+            position: relative;
+        }
+        .home .banner .swiper-container .swiper-wrapper .swiper-slide img {
+            vertical-align: middle;
+            object-fit: cover;
+            width: 100%;
+            height: 600px;
+        }
+        .home .banner .swiper-container .swiper-wrapper .swiper-slide .text {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%;
+            max-width: 1400px;
+            text-align: center;
+        }
+        .home .banner .swiper-container .swiper-wrapper .swiper-slide .text .cn {
+            color: white;
+            font-size: 60px;
+            font-weight: bold;
+            letter-spacing: 8px;
+        }
+        .home .banner .prev {
+            width: 65px;
+            height: 65px;
+            background: rgba(207, 207, 207, 0.5);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 600ms;
+            position: absolute;
+            left: 5%;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 100;
+        }
+        .home .banner .prev:hover {
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .home .banner .next {
+            width: 65px;
+            height: 65px;
+            background: rgba(207, 207, 207, 0.5);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 600ms;
+            position: absolute;
+            right: 5%;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 100;
+        }
+        .home .banner .next:hover {
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .home .main .news {
+            width: 90%;
+            max-width: 1400px;
+            margin: 0px auto;
+        }
+        .home .main .news .tab {
+            width: 45%;
+            margin-left: 55%;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #CFCFCF;
+            padding: 20px 0;
+        }
+        .home .main .news .tab .types {
+            display: flex;
+        }
+        .home .main .news .tab .types p {
+            color: #333333;
+            font-size: 26px;
+            transition: all 600ms;
+            cursor: pointer;
+            font-weight: bolder;
+            margin-right: 40px;
+        }
+        .home .main .news .tab .types p:hover {
+            color: #006CAE;
+        }
+        .home .main .news .tab .types .active {
+            color: #006CAE;
+        }
+        .home .main .news .tab a {
+            display: flex;
+            align-items: center;
+            color: #999999;
+        }
+        .home .main .news .tab a span {
+            width: 12px;
+            height: 12px;
+            background: #006CAE;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+        }
+        .home .main .news .ncon {
+            display: flex;
+            justify-content: space-between;
+        }
+        .home .main .news .ncon .l {
+            width: 53%;
+        }
+        .home .main .news .ncon .l a {
+            display: block;
+            position: relative;
+            height: 100%;
+        }
+        .home .main .news .ncon .l a .pic {
+            overflow: hidden;
+            height: 100%;
+        }
+        .home .main .news .ncon .l a .pic img {
+            width: 100%;
+            display: block;
+            object-fit: cover;
+            transition: all 2s;
+            height: 420px;
+        }
+        .home .main .news .ncon .l a .pic:hover img {
+            transform: scale(1.05);
+        }
+        .home .main .news .ncon .l a .text {
+            padding: 15px 25px;
+            width: calc(100% - 50px);
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            background: rgba(23, 73, 122, 0.8);
+        }
+        .home .main .news .ncon .l a .text .t1 {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: white;
+            font-size: 22px;
+        }
+        .home .main .news .ncon .l a .text .t2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-top: 5px;
+        }
+        .home .main .news .ncon .l a .text .t2 .des {
+            color: white;
+            line-height: 1.6;
+            word-break: break-all;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            font-size: 14px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        .home .main .news .ncon .l a .text .t2 .time {
+            color: white;
+            font-size: 18px;
+        }
+        .home .main .news .ncon .right {
+            width: 45%;
+        }
+        .home .main .news .ncon .right .nr .allItems a {
+            cursor: pointer;
+            display: flex;
+            position: relative;
+            border-bottom: 1px solid #CFCFCF;
+            padding: 15px;
+            transition: all 600ms;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .home .main .news .ncon .right .nr .allItems a .p1 {
+            width: calc(98% - 100px);
+            color: #333333;
+            font-size: 18px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            transition: all 600ms;
+        }
+        .home .main .news .ncon .right .nr .allItems a .time {
+            width: 100px;
+            color: #999999;
+            font-size: 16px;
+            transition: all 600ms;
+            text-align: right;
+        }
+        .home .main .news .ncon .right .nr .allItems a:hover {
+            background: #17497A;
+        }
+        .home .main .news .ncon .right .nr .allItems a:hover .p1, .home .main .news .ncon .right .nr .allItems a:hover span {
+            color: white;
+        }
+        .home .main .news2 {
+            width: 90%;
+            max-width: 1400px;
+            margin: 80px auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .home .main .news2 .l {
+            width: 48%;
+        }
+        .home .main .news2 .l .t1 {
+            color: #333333;
+            font-size: 26px;
+            font-weight: bolder;
+            border-bottom: 1px solid #CFCFCF;
+            padding-bottom: 15px;
+        }
+        .home .main .news2 .l .content {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .home .main .news2 .l .content .pic img {
+            width: 175px;
+            display: block;
+            object-fit: cover;
+            height: 100%;
+        }
+        .home .main .news2 .l .content .list {
+            width: calc(95% - 175px);
+        }
+        .home .main .news2 .l .content .list a {
+            display: flex;
+            border-bottom: 1px solid #CFCFCF;
+            transition: all 600ms;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0 15px 15px;
+            position: relative;
+        }
+        .home .main .news2 .l .content .list a::before {
+            content: "";
+            width: 6px;
+            height: 6px;
+            background: #006CAE;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .home .main .news2 .l .content .list a p {
+            /*width: calc(98% - 100px);*/
+            color: #333333;
+            font-size: 18px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            transition: all 600ms;
+        }
+        .home .main .news2 .l .content .list a .time {
+            width: 100px;
+            color: #999999;
+            font-size: 16px;
+            transition: all 600ms;
+            text-align: right;
+        }
+        .home .main .news2 .l .content .list a:hover p, .home .main .news2 .l .content .list a:hover span {
+            color: #006CAE;
+        }
+        .home .main .manage {
+            width: 100%;
+            background: url("/template/ncmte.nimte.ac.cn/images/bg.png") no-repeat;
+            background-size: cover;
+            padding: 60px 0 140px 0;
+            margin-top: 60px;
+            position: relative;
+        }
+        .home .main .manage .title {
+            text-align: center;
+            position: relative;
+            margin: 40px 0 60px 0;
+        }
+        .home .main .manage .title .en {
+            color: rgba(255, 255, 255, 0.1);
+            font-size: 40px;
+            text-transform: uppercase;
+            font-weight: bolder;
+        }
+        .home .main .manage .title .cn {
+            color: white;
+            font-size: 32px;
+            font-weight: bolder;
+            position: absolute;
+            left: 50%;
+            bottom: -10px;
+            transform: translateX(-50%);
+        }
+        .home .main .manage .des {
+            width: 80%;
+            text-align: center;
+            margin: 40px auto;
+            color: white;
+            line-height: 3;
+        }
+        .home .main .manage .allItems {
+            width: 1400px;
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            left: 50%;
+            bottom: -160px;
+            transform: translateX(-50%);
+            z-index: 10;
+        }
+        .home .main .manage .allItems .item {
+            width: 23%;
+            background: white;
+            box-shadow: 0px 6px 9px 1px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 25px 0;
+            text-align: center;
+            cursor: pointer;
+            transition: all 600ms;
+        }
+        .home .main .manage .allItems .item .icon {
+            position: relative;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        .home .main .manage .allItems .item .icon img {
+            transition: all 600ms;
+            width: 100%;
+            display: block;
+            object-fit: contain;
+        }
+        .home .main .manage .allItems .item .icon img:nth-child(2) {
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+        }
+        .home .main .manage .allItems .item .tag {
+            margin: 10px 0 60px 0;
+        }
+        .home .main .manage .allItems .item .tag p {
+            font-size: 18px;
+            color: #2E2E2E;
+            transition: all 600ms;
+        }
+        .home .main .manage .allItems .item .tag .des2 {
+            color: #999999;
+            line-height: 1.8;
+            margin-top: 10px;
+        }
+        .home .main .manage .allItems .item .tag .des2 a{
+            display: block;
+            color: #999999;
+            transition: all 600ms;
+        }
+        .home .main .manage .allItems .item:hover {
+            background: #2050A4;
+        }
+        .home .main .manage .allItems .item:hover .icon img:nth-child(1) {
+            opacity: 0;
+        }
+        .home .main .manage .allItems .item:hover .icon img:nth-child(2) {
+            opacity: 1;
+        }
+        .home .main .manage .allItems .item:hover .tag p, .home .main .manage .allItems .item:hover .tag .des2 a{
+            color: white;
+        }
+        .home .main .activities {
+            width: 100%;
+            background: #F1F5F8;
+            padding: 240px 0 80px 0;
+            position: relative;
+        }
+        .home .main .activities .bg {
+            position: absolute;
+            left: 0;
+            bottom: 200px;
+        }
+        .home .main .activities .nr .dom1 .title {
+            width: 90%;
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .home .main .activities .nr .dom1 .title .en {
+            color: rgba(0, 108, 174, 0.1);
+            font-size: 40px;
+            text-transform: uppercase;
+            font-weight: bolder;
+        }
+        .home .main .activities .nr .dom1 .title .cn {
+            color: #333333;
+            font-size: 32px;
+            font-weight: bolder;
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+        }
+        .home .main .activities .nr .dom1 .content {
+            width: 90%;
+            max-width: 1400px;
+            margin: 40px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .home .main .activities .nr .dom1 .content .l {
+            width: 45%;
+        }
+        .home .main .activities .nr .dom1 .content .l .swiper-container {
+            height: 300px;
+        }
+        .home .main .activities .nr .dom1 .content .l .swiper-container .swiper-wrapper .swiper-slide a {
+            color: #2E2E2E;
+            font-size: 18px;
+            transition: all 600ms;
+            cursor: pointer;
+            opacity: 0.43;
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .home .main .activities .nr .dom1 .content .l .swiper-container .swiper-wrapper .swiper-slide-active a {
+            opacity: 1;
+        }
+        .home .main .activities .nr .dom1 .content .r {
+            width: calc(55% - 60px);
+            border: 1px solid #CFCFCF;
+            border-radius: 10px;
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .home .main .activities .nr .dom1 .content .r .pic {
+            width: 35%;
+        }
+        .home .main .activities .nr .dom1 .content .r .pic img {
+            width: 100%;
+            display: block;
+            object-fit: cover;
+        }
+        .home .main .activities .nr .dom1 .content .r .text {
+            width: 62%;
+        }
+        .home .main .activities .nr .dom1 .content .r .text .t1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .home .main .activities .nr .dom1 .content .r .text .t1 .name {
+            color: #2E2E2E;
+            font-size: 18px;
+            width: calc(98% - 100px);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .home .main .activities .nr .dom1 .content .r .text .t1 .time {
+            color: #999999;
+            text-align: right;
+            width: 100px;
+        }
+        .home .main .activities .nr .dom1 .content .r .text .des {
+            line-height: 1.8;
+            color:#777;
+        }
+        .home .main .activities .nr .dom1 .content .r .text .des p {
+            color: #333333;
+            font-size: 17px;
+            position: relative;
+            padding-left: 15px;
+        }
+        .home .main .activities .nr .dom1 .content .r .text .des p::before {
+            content: "";
+            display: block;
+            height: 5px;
+            width: 5px;
+            border-radius: 50%;
+            background: #333333;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .home .main .activities .nr .dom1 .content .r .text .btn {
+            float: right;
+            margin-top: 10px;
+        }
+        .home .main .activities .nr .dom1 .content .r .text .btn a {
+            display: flex;
+            align-items: center;
+            color: #999999;
+        }
+        .home .main .activities .nr .dom1 .content .r .text .btn a span {
+            width: 12px;
+            height: 12px;
+            background: #006CAE;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+        }
+        .home .main .activities .types {
+            width: 90%;
+            max-width: 1400px;
+            padding: 0 calc((100% - 1400px)/2);
+            border-top: 2px solid #CFCFCF;
+            display: flex;
+            justify-content: space-between;
+            margin: 40px auto;
+        }
+        .home .main .activities .types p {
+            width: 18%;
+            color: #2E2E2E;
+            font-size: 24px;
+            position: relative;
+            padding: 20px 0;
+            cursor: pointer;
+        }
+        .home .main .activities .types p::before {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            top: -1px;
+            width: 0;
+            background: #17497A;
+            height: 2px;
+            transition: all 600ms;
+        }
+        .home .main .activities .types p:hover::before {
+            width: 100%;
+        }
+        .home .main .activities .types .active::before {
+            width: 100%;
+        }
+        .home .main .research {
+            width: 100%;
+            padding: 60px 0;
+            background: url("/template/ncmte.nimte.ac.cn/images/dsbg.png") no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .home .main .research .title {
+            text-align: center;
+            position: absolute;
+            left: 0;
+            top: 15%;
+            width: 100%;
+        }
+        .home .main .research .title .en {
+            color: rgba(255, 255, 255, 0.15);
+            font-size: 40px;
+            text-transform: uppercase;
+            font-weight: bolder;
+        }
+        .home .main .research .title .cn {
+            color: white;
+            font-size: 32px;
+            font-weight: bolder;
+            position: absolute;
+            left: 50%;
+            bottom: -10px;
+            transform: translateX(-50%);
+        }
+        .home .main .research .content {
+            width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .home .main .research .content .item {
+            width: 151px;
+            height: 161px;
+            background: rgba(114, 181, 244, 0.5);
+            margin-bottom: 8px;
+            position: relative;
+			cursor:pointer;
+        }
+        .home .main .research .content .item .pinfo {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: rgba(114, 181, 244, 0.5);
+            color: white;
+            line-height: 1.5;
+            opacity: 0;
+        }
+        .home .main .research .content .item .pinfo .f22 {
+            font-size: 18px;
+        }
+        .home .main .research .content .item .pinfo .f18 {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        .home .main .research .content .item img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+            transition: all 600ms;
+        }
+        .home .main .research .content .item:hover .pinfo {
+            opacity: 1;
+        }
+        .home .main .research .content .item:hover img {
+            opacity: 0;
+        }
+        .home .main .research .content .txt {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            line-height: 1.5;
+        }
+        .home .main .research .content .txt .f22 {
+            font-size: 18px;
+        }
+        .home .main .research .content .txt .f18 {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        .home .main .research .content .hidden {
+            opacity: 0;
+        }
+        .home .main .download {
+            background: linear-gradient(2deg, #17497A 0%, #0F51C4 100%);
+            width: 100%;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            padding: 40px 0;
+        }
+        .home .main .download a {
+            display: flex;
+            align-items: center;
+            margin: 0 40px;
+        }
+        .home .main .download a p {
+            color: white;
+            font-size: 24px;
+            margin-right: 20px;
+            transition: all 600ms;
+        }
+        .home .main .download a img {
+            transition: all 600ms;
+        }
+        .home .main .download a:hover p, .home .main .download a:hover img {
+            transform: translateX(10px);
+        }
+        @media screen and (max-width: 1399px) {
+            .home .main .research .content {
+                transform: scale(0.8);
+            }
+        }
+        @media screen and (max-width: 1200px) {
+            .home .banner .swiper-container .swiper-wrapper .swiper-slide img {
+                height: 500px;
+            }
+            .home .banner .swiper-container .swiper-wrapper .swiper-slide .text .cn {
+                font-size: 30px;
+            }
+            .home .banner .swiper-container .swiper-wrapper .swiper-slide .text .en {
+                font-size: 18px;
+            }
+            .home .banner .prev, .home .banner .next {
+                display: none;
+            }
+            .home .main .news {
+                width: 90%;
+                margin:100px auto 20px auto;
+            }
+            .home .main .news .tab {
+                padding: 10px 0;
+                margin-left: 0;
+                width: 100%;
+            }
+            .home .main .news .tab .types p {
+                font-size: 20px;
+                margin-right: 15px;
+            }
+            .home .main .news .ncon {
+                flex-direction: column;
+                margin-top: 15px;
+            }
+            .home .main .news .ncon .l {
+                width: 100%;
+            }
+            .home .main .news .ncon .l a .text .t1 {
+                font-size: 18px;
+            }
+            .home .main .news .ncon .l a .text .t2 {
+                margin-top: 5px;
+            }
+            .home .main .news .ncon .l a .text .t2 .time {
+                margin-left: 10px;
+                font-size: 18px;
+            }
+            .home .main .news .ncon .right {
+                width: 100%;
+            }
+            .home .main .news .ncon .right .nr .allItems a {
+                padding: 10px;
+            }
+            .home .main .news .ncon .right .nr .allItems a .p1 {
+                font-size: 16px;
+            }
+            .home .main .news .ncon .right .nr .allItems a .des {
+                margin: 5px 0;
+            }
+            .home .main .news .ncon .right .nr .allItems a span {
+                position: static;
+            }
+            .home .main .news .ncon .right .nr .allItems a .time {
+                font-size: 16px;
+            }
+            .home .main .news2 {
+                flex-direction: column;
+                margin: 0 auto;
+            }
+            .home .main .news2 .l {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .home .main .news2 .l .t1 {
+                font-size: 20px;
+            }
+            .home .main .news2 .l .content {
+                flex-direction: column;
+            }
+            .home .main .news2 .l .content .pic img {
+                width: 100%;
+                height: 120px;
+            }
+            .home .main .news2 .l .content .list {
+                width: 100%;
+            }
+            .home .main .news2 .l .content .list a p, .home .main .news2 .l .content .list a .time {
+                font-size: 16px;
+            }
+            .home .main .manage {
+                margin-top: 30px;
+                padding: 40px 0;
+            }
+            .home .main .manage .title {
+                margin: 20px 0;
+            }
+            .home .main .manage .title .en {
+                font-size: 24px;
+            }
+            .home .main .manage .title .cn {
+                font-size: 20px;
+            }
+            .home .main .manage .des {
+                width: 90%;
+                line-height: 2;
+            }
+            .home .main .manage .allItems {
+                position: static;
+                width: 90%;
+                transform: translateX(0);
+                margin: 0 auto;
+                flex-wrap: wrap;
+            }
+            .home .main .manage .allItems .item {
+                width: 48%;
+                margin-bottom: 20px;
+            }
+            .home .main .manage .allItems .item .tag {
+                margin-bottom: 0;
+            }
+            .home .main .manage .allItems .item .tag .des2 {
+                font-size: 14px;
+            }
+            .home .main .activities {
+                padding: 60px 0 0 0;
+            }
+            .home .main .activities .bg {
+                display: none;
+            }
+            .home .main .activities .nr .dom1 .title .en {
+                font-size: 24px;
+            }
+            .home .main .activities .nr .dom1 .title .cn {
+                font-size: 20px;
+            }
+            .home .main .activities .nr .dom1 .content {
+                flex-direction: column;
+            }
+            .home .main .activities .nr .dom1 .content .l {
+                width: 100%;
+            }
+            .home .main .activities .nr .dom1 .content .l .swiper-container {
+                height: auto;
+            }
+            .home .main .activities .nr .dom1 .content .r {
+                width: 90%;
+                flex-direction: column;
+                padding: 20px 5%;
+                margin-top: 20px;
+            }
+            .home .main .activities .nr .dom1 .content .r .pic {
+                width: 100%;
+            }
+            .home .main .activities .nr .dom1 .content .r .text {
+                width: 100%;
+                margin-top: 20px;
+            }
+            .home .main .activities .types {
+                margin: 0 auto;
+            }
+            .home .main .activities .types p {
+                font-size: 14px;
+            }
+            .home .main .research {
+                padding: 30px 0;
+            }
+            .home .main .research .title {
+                position: relative;
+            }
+            .home .main .research .title .en {
+                font-size: 24px;
+            }
+            .home .main .research .title .cn {
+                font-size: 20px;
+            }
+            .home .main .research .content {
+                width: 90%;
+                margin: 30px auto;
+                transform: scale(1);
+            }
+            .home .main .research .content .item {
+                display: none;
+                width: 48.5%;
+                margin-bottom: 10px;
+            }
+            .home .main .research .content .item:nth-child(-n+18) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+            .home .main .research .content .hidden, .home .main .research .content .txt {
+                display: none !important;
+            }
+            .home .main .download {
+                padding: 20px 0;
+                flex-direction: column;
+            }
+            .home .main .download a {
+                margin: 0 10px 10px 10px;
+            }
+            .home .main .download a p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="home" >
+
+	 <div class="header">
+    <div class="dom1">
+        <div class="plogo">
+            <img src="/template/ncmte.nimte.ac.cn/images/ncmte.png" alt="">
+        </div>
+        <div class="dc">
+            <p>
+            <form method="get" action="/">
+                <input type="hidden" name="m" value="_search" />
+                <input type="text" name="keywords" style="height:22px;border:0;font-size:14px;color:#fff;background:#29639f;width:150px;padding:1px 5px;" /><input type="submit" value="GO" style="height:23px;font-size:13px;padding:2px 3px;color:#fff;border:0;background:#235b96">
+            </form>
+            </p>
+            <div class="links">
+                <a href="https://iam.nimte.ac.cn/" target="_blank">内网</a>
+                <span>|</span>
+                <a href="https://mail.cstnet.cn" target="_blank">邮箱登录</a>
+                <span>|</span>
+                <a href="/sitemap.html">园区导航</a>
+                <span>|</span>
+                <a href="/contact.html">联系我们</a>
+                <span>|</span>
+                <a href="https://www.nimte.ac.cn" target="_blank">宁波材料所</a>
+            </div>
+        </div>
+    </div>
+    <div class="dom2">
+        <a href="/" class="logo">
+            <img  src="/template/ncmte.nimte.ac.cn/images/mlogo.png" alt="">
+        </a>
+        <div class="r">
+            <div class="links">
+                <div  class="item active">
+                    <a class="a1" href="/" data-page="/">首 页</a>
+                </div>
+				                <div class="item">
+					                    <a class="a1" data-page="/intro.html">学院概况</a>
+                    <div class="aList">
+												<a href="/about.html">学院简介</a>
+												<a href="/leader.html">领导介绍</a>
+												<a href="/contact.html">联系我们</a>
+												<a href="/videos.html">研途映像</a>
+						                    </div>
+					                </div>
+				                <div class="item">
+					                    <a class="a1" data-page="/discipline.html">学科建设</a>
+                    <div class="aList">
+												<a href="/major.html">学科设置</a>
+												<a href="/subjects.html">学科简介</a>
+												<a href="/review.html">学科评估</a>
+						                    </div>
+					                </div>
+				                <div class="item">
+					                    <a class="a1" data-page="/supervisor.html">导师队伍</a>
+                    <div class="aList">
+												<a href="/direction.html">方向及导师介绍</a>
+												<a href="/instructors.html">研究生辅导员</a>
+												<a href="/ikae.html">导师风采</a>
+												<a href="/acquaintance.html">导师赋能</a>
+						                    </div>
+					                </div>
+				                <div class="item">
+					                    <a class="a1" data-page="/enroll.html">招生工作</a>
+                    <div class="aList">
+												<a href="/zhaosheng.html">招生概况</a>
+												<a href="/masterenroll.html">国科大硕士招生</a>
+												<a href="/doctoralenroll.html">国科大博士招生</a>
+												<a href="/joint.html">合培生招生</a>
+												<a href="/kejiaoronghexueyuancailiaosuoyuningbodaxuelianpei.html">科教融合学院(材料所与宁波大学联培)</a>
+						                    </div>
+					                </div>
+				                <div class="item">
+					                    <a class="a1" data-page="/education.html">培养管理</a>
+                    <div class="aList">
+												<a href="/department.html">培养部门</a>
+												<a href="/plain.html">培养方案</a>
+												<a href="/schoolroll.html">学籍管理</a>
+												<a href="/awards.html">评奖评优</a>
+												<a href="/courses.html">课程建设</a>
+												<a href="/excellent.html">材梓佳仁</a>
+												<a href="/punishment.html">通报处分</a>
+						                    </div>
+					                </div>
+				                <div class="item">
+					                    <a class="a1" data-page="/degree.html">学位管理</a>
+                    <div class="aList">
+												<a href="/xuewei.html">学位机构</a>
+												<a href="/conferment.html">学位授予</a>
+												<a href="/degreeflow.html">学位工作流程</a>
+						                    </div>
+					                </div>
+				                <div class="item">
+					                    <a class="a1" data-page="/graduation.html">毕业就业</a>
+                    <div class="aList">
+												<a href="/jobs.html">就业信息</a>
+												<a href="/commencement.html">毕业生通知</a>
+												<a href="/usefullwebsite.html">就业服务</a>
+												<a href="/tongji.html">就业分析</a>
+												<a href="/alumnus.html">优秀校友</a>
+						                    </div>
+					                </div>
+				                <div class="item">
+										<a class="a1" href="/rules.html" data-page="/rules.html">规章制度</a>
+					                </div>
+				            </div>
+        </div>
+    </div>
+    <div class="navbox">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</div>
+
+
+    <div id="luxy">
+
+
+        <div class="main">
+
+
+<!--            新闻-->
+            <div class="news">
+                <div class="tab">
+                    <div class="types">
+                        <p class="active">综合新闻</p>
+                    </div>
+                    <a href="/dynamic.html">查看更多<span><img src="/template/ncmte.nimte.ac.cn/images/right.png" alt=""></span></a>
+                </div>
+                <div class="ncon">
+                    <div class="l wow fadeInLeft">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+																                                <div class="swiper-slide">
+                                    <a href="/view-34073.html">
+                                        <div class="pic">
+                                            <img src="/uploadfiles/site8/202608/20260831154225-1095943872.jpg" alt="" onerror="this.src='/template/ncmte.nimte.ac.cn/images/news.png'">
+                                        </div>
+                                        <div class="text">
+                                            <p class="t1">2026年化学与材料前沿所校联合学术论坛成功举办</p>
+                                            <div class="t2">
+                                                <div class="des"></div>
+                                                <div class="time" style="display:none">2026-08-31</div>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+																								                                <div class="swiper-slide">
+                                    <a href="/view-34072.html">
+                                        <div class="pic">
+                                            <img src="/uploadfiles/site8/202608/20260831153856-5033238686.png" alt="" onerror="this.src='/template/ncmte.nimte.ac.cn/images/news.png'">
+                                        </div>
+                                        <div class="text">
+                                            <p class="t1">宁波材料所召开第十三届研究生代表大会</p>
+                                            <div class="t2">
+                                                <div class="des"></div>
+                                                <div class="time" style="display:none">2026-08-31</div>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+																								                                <div class="swiper-slide">
+                                    <a href="/view-34074.html">
+                                        <div class="pic">
+                                            <img src="/uploadfiles/site8/202608/20260831154442-6164966551.jpg" alt="" onerror="this.src='/template/ncmte.nimte.ac.cn/images/news.png'">
+                                        </div>
+                                        <div class="text">
+                                            <p class="t1">宁波材料所举办2026年秋季新生入所教育活动</p>
+                                            <div class="t2">
+                                                <div class="des"></div>
+                                                <div class="time" style="display:none">2026-08-29</div>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+																								                                <div class="swiper-slide">
+                                    <a href="/view-34051.html">
+                                        <div class="pic">
+                                            <img src="/uploadfiles/site8/202608/20260831155721-5667216324.jpg" alt="" onerror="this.src='/template/ncmte.nimte.ac.cn/images/news.png'">
+                                        </div>
+                                        <div class="text">
+                                            <p class="t1">宁波材料所举办2026年“梦启甬城，心动科苑”暑期夏令营</p>
+                                            <div class="t2">
+                                                <div class="des"></div>
+                                                <div class="time" style="display:none">2026-08-02</div>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+																								                                <div class="swiper-slide">
+                                    <a href="/view-33959.html">
+                                        <div class="pic">
+                                            <img src="/uploadfiles/site8/202607/20260709083505-6532957644.png" alt="" onerror="this.src='/template/ncmte.nimte.ac.cn/images/news.png'">
+                                        </div>
+                                        <div class="text">
+                                            <p class="t1">“秉承初心使命，汇聚青年力量”——宁波材料所研究生党总支召开庆祝建党105周年大会</p>
+                                            <div class="t2">
+                                                <div class="des"></div>
+                                                <div class="time" style="display:none">2026-07-03</div>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+																																																																																																																																																																																																																																																																                            </div>
+                        </div>
+                    </div>
+                    <div class="right wow fadeInRight">
+                        <div class="nr">
+                            <div class="allItems">
+																                                <a class="item" href="/view-34073.html" target="_blank">
+                                    <p class="p1">2026年化学与材料前沿所校联合学术论坛成功举办</p>
+                                    <span class="time">2026-08-31</span>
+                                </a>
+																								                                <a class="item" href="/view-34072.html" target="_blank">
+                                    <p class="p1">宁波材料所召开第十三届研究生代表大会</p>
+                                    <span class="time">2026-08-31</span>
+                                </a>
+																								                                <a class="item" href="/view-34074.html" target="_blank">
+                                    <p class="p1">宁波材料所举办2026年秋季新生入所教育活动</p>
+                                    <span class="time">2026-08-29</span>
+                                </a>
+																								                                <a class="item" href="/view-34051.html" target="_blank">
+                                    <p class="p1">宁波材料所举办2026年“梦启甬城，心动科苑”暑期夏令营</p>
+                                    <span class="time">2026-08-02</span>
+                                </a>
+																								                                <a class="item" href="/view-33959.html" target="_blank">
+                                    <p class="p1">“秉承初心使命，汇聚青年力量”——宁波材料所研究生党总支召开庆祝建党105周年大会</p>
+                                    <span class="time">2026-07-03</span>
+                                </a>
+																								                                <a class="item" href="/view-33595.html" target="_blank">
+                                    <p class="p1">宁波材料所举行2026年研究生毕业典礼暨学位授予仪式</p>
+                                    <span class="time">2026-06-12</span>
+                                </a>
+																								                                <a class="item" href="/view-33597.html" target="_blank">
+                                    <p class="p1">宁波材料所举行2026年度冠名奖学金颁奖仪式</p>
+                                    <span class="time">2026-06-10</span>
+                                </a>
+																								                                <a class="item" href="/view-33596.html" target="_blank">
+                                    <p class="p1">宁波材料所举办2026届毕业生红色研学暨梅山湾沙滩公园毅行活动</p>
+                                    <span class="time">2026-06-04</span>
+                                </a>
+																																																																																																																																																																																																																                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<!--            通知公告+招生工作-->
+            <div class="news2">
+                <div class="l">
+                    <div class="t1"><a href="/notice.html" style="color:#777;font-size:14px;font-weight:400;padding:8px 0 0 0;display:block;float:right;">更多>></a>通知公告</div>
+                    <div class="content">
+                        <div class="pic">
+                            <img src="/template/ncmte.nimte.ac.cn/images/h2.png" alt="">
+                        </div>
+                        <div class="list">
+																					<a href="/view-34124.html" target="_blank">
+								<p>关于做好2026年比亚迪奖学金评选工作的通知</p>
+								<span class="time" style="display:none">2026-09-17</span>
+							</a>
+																												<a href="/view-34123.html" target="_blank">
+								<p>关于做好2026年研究生国家奖学金评审工作的通知</p>
+								<span class="time" style="display:none">2026-09-17</span>
+							</a>
+																												<a href="/view-34050.html" target="_blank">
+								<p>关于组织全所研究生进行2026年学年考核的通知</p>
+								<span class="time" style="display:none">2026-08-24</span>
+							</a>
+																												<a href="/view-34049.html" target="_blank">
+								<p>关于组织研究生进行论文阶段报告的通知</p>
+								<span class="time" style="display:none">2026-08-24</span>
+							</a>
+																																																																																																																																																																																																																																														                        </div>
+                    </div>
+                </div>
+                <div class="l">
+                    <div class="t1"><a href="/zhaosheng.html" style="color:#777;font-size:14px;font-weight:400;padding:8px 0 0 0;display:block;float:right;">更多>></a>招生工作</div>
+                    <div class="content">
+                        <div class="pic">
+                            <img src="/template/ncmte.nimte.ac.cn/images/h1.png" alt="">
+                        </div>
+                        <div class="list">
+																					<a href="/view-34008.html" target="_blank">
+								<p>中国科学院宁波材料技术与工程研究所接收2027年推荐免试硕士生及直博生规程</p>
+								<span class="time" style="display:none">2026-08-01</span>
+							</a>
+																												<a href="/view-33404.html" target="_blank">
+								<p>中国科学院宁波材料所2026年“梦启甬城，心动科苑”大学生暑期夏令营招募通知</p>
+								<span class="time" style="display:none">2026-04-21</span>
+							</a>
+																												<a href="/view-32524.html" target="_blank">
+								<p>中国科学院宁波材料技术与工程研究所 2026年招收攻读硕士学位研究生章程</p>
+								<span class="time" style="display:none">2025-10-10</span>
+							</a>
+																												<a href="/view-31953.html" target="_blank">
+								<p>中国科学院宁波材料技术与工程研究所 2026年接收推荐免试硕士生及直博生规程</p>
+								<span class="time" style="display:none">2025-08-11</span>
+							</a>
+																																																																																																																																																																																																																																														                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="manage">
+                <div class="title">
+                    <p class="en">Cultivation management</p>
+                    <p class="cn">培养管理</p>
+                </div>
+                <div class="des">
+                    为了确保攻读学术型硕士学位研究生（以下简称：学术型硕士生）的培养质量，根据《中华人民共和国学位条例》规定，<br>
+                    以及中国科学院研究生院的有关文件精神，结合我所学科需求，特制定学术型硕士生培养方案。
+                </div>
+                <div class="allItems">
+                    <div class="item" onclick="location.href='/education.html'">
+                        <div class="icon">
+                            <img src="/template/ncmte.nimte.ac.cn/images/h1l.png" alt="">
+                            <img src="/template/ncmte.nimte.ac.cn/images/h1b.png" alt="">
+                        </div>
+                        <div class="tag">
+                            <p>材料科学与工程</p>
+                            <div class="des2">
+                                <a href="/education.html">材料物理与化学</a>
+                                <a href="/education.html">材料加工工程</a>
+                                <a href="/education.html">材料与化工(专业学位)</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="item" onclick="location.href='/education.html'">
+                        <div class="icon">
+                            <img src="/template/ncmte.nimte.ac.cn/images/h2l.png" alt="">
+                            <img src="/template/ncmte.nimte.ac.cn/images/h2b.png" alt="">
+                        </div>
+                        <div class="tag">
+                            <p>化学</p>
+                            <div class="des2">
+                                <a href="/education.html">高分子化学与物理</a>
+                                <a href="/education.html">有机化学</a>
+                                <a href="/education.html">物理化学</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="item" onclick="location.href='/education.html'">
+                        <div class="icon">
+                            <img src="/template/ncmte.nimte.ac.cn/images/h3l.png" alt="">
+                            <img src="/template/ncmte.nimte.ac.cn/images/h3b.png" alt="">
+                        </div>
+                        <div class="tag">
+                            <p>机械</p>
+                            <div class="des2">
+                                <a href="/education.html">机械制造及其自动化</a>
+                                <a href="/education.html">机械电子工程</a>
+                                <a href="/education.html">机械(专业学位)</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="item" onclick="location.href='/education.html'">
+                        <div class="icon">
+                            <img src="/template/ncmte.nimte.ac.cn/images/h4l.png" alt="">
+                            <img src="/template/ncmte.nimte.ac.cn/images/h4b.png" alt="">
+                        </div>
+                        <div class="tag">
+                            <p>生物医学工程</p>
+                            <div class="des2"><a href="">生物医学工程</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activities">
+                <div class="nr">
+                     <div class="dom1 sw1">
+                         <div class="title">
+                             <p class="en">Graduate News</p>
+                             <p class="cn">研会快讯</p>
+                         </div>
+                         <div class="content">
+                             <div class="l">
+                                 <div class="swiper-container">
+                                     <div class="swiper-wrapper">
+																															<div class="swiper-slide">
+												<a href="/view-33143.html" target="_blank">2025年宁波材料所招生季团队宣传系列NIMTEAM（1）——《苛刻环境材料耦合损伤与延寿》团队</a>
+											</div>
+																																									<div class="swiper-slide">
+												<a href="/view-33142.html" target="_blank">2025年宁波材料所招生季团队宣传系列NIMTEAM（2）——《基因诊疗材料》团队</a>
+											</div>
+																																									<div class="swiper-slide">
+												<a href="/view-33140.html" target="_blank">宁波材料所2025回忆录||在宁波材料所的那些小光亮</a>
+											</div>
+																																									<div class="swiper-slide">
+												<a href="/view-33139.html" target="_blank">别让拖延吞噬时间！《吃掉那只青蛙》读书会暨“重启2025·展望2026”圆桌活动圆满结束</a>
+											</div>
+																																									<div class="swiper-slide">
+												<a href="/view-33138.html" target="_blank">2026“春启新程·福满研途”迎新春游园会顺利举办</a>
+											</div>
+																																									<div class="swiper-slide">
+												<a href="/view-32436.html" target="_blank">“研途师引”感恩教师节|“我与老师一起度过的科研岁月”主题线上照片展</a>
+											</div>
+																																									<div class="swiper-slide">
+												<a href="/view-32437.html" target="_blank">甬者有材2025招新启航！携手并进，共创未来！</a>
+											</div>
+																																									<div class="swiper-slide">
+												<a href="/view-32433.html" target="_blank">第十九届研究生会‖“研”续精彩，“新”火相传</a>
+											</div>
+																																									<div class="swiper-slide">
+												<a href="/view-32208.html" target="_blank">第三届科研绘图大赛</a>
+											</div>
+																																									<div class="swiper-slide">
+												<a href="/view-32202.html" target="_blank">“心灵奇旅·向阳而生”心理健康主题游园会</a>
+											</div>
+																																																																																																																																																																																																																												                                     </div>
+                                 </div>
+                             </div>
+                             <div class="r">
+                                 <div class="pic">
+                                     <img src="/template/ncmte.nimte.ac.cn/images/acti.png" alt="">
+                                 </div>
+								 								                                  <div class="text">
+                                     <div class="t1">
+                                         <p class="name">2025年研究生融媒体中心，我们来了！</p>
+                                         <p class="time">2025-10-08</p>
+                                     </div>
+                                     <div class="des">
+                                         
+                                     </div>
+                                     <div class="btn">
+                                         <a href="/view-32678.html">
+                                             查看更多
+											 <span><img src="/template/ncmte.nimte.ac.cn/images/right.png" alt=""></span>
+                                         </a>
+                                     </div>
+                                 </div>
+								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								 								                              </div>
+                         </div>
+                     </div>
+                </div>
+                <div class="bg">
+                    <img src="/template/ncmte.nimte.ac.cn/images/abg.png" alt="">
+                </div>
+            </div>
+
+            <div class="research">
+                <div class="title">
+                    <p class="en">Research  Center</p>
+                    <p class="cn">导师队伍</p>
+                </div>
+                 <div class="content">
+                    <!-- todo:第一行-->
+                     <div class="item">
+						<img src="/template/ncmte.nimte.ac.cn/images/pi/shenbaogen.jpg" alt="">
+						<div class="pinfo">
+		                     <p class="f22">沈宝根</p>
+	                         <p class="f18">院士</p>
+						 </div>
+                     </div>
+                     <div class="item">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/liwei.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">李卫</p>
+                             <p class="f18">院士</p>
+                         </div>
+                     </div>
+                     <div class="item hidden"></div>
+                     <div class="item hidden"></div>
+                     <div class="item hidden"></div>
+                     <div class="item hidden"></div>
+                     <div class="item hidden"></div>
+                     <div class="item" onclick="location.href='http://marinelab.nimte.cas.cn'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/xuequnji.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">薛群基</p>
+                             <p class="f18">院士</p>
+                         </div>
+                     </div>
+                     <div class="item"  onclick="location.href='https://graduate.nimte.ac.cn/view-26529.html'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/lilin.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">李琳</p>
+                             <p class="f18">院士</p>
+                         </div>
+                     </div>
+                     <!-- todo:第二行-->
+                     <div class="item" onclick="location.href='https://jjun.nimte.ac.cn'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/jiangjun.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">蒋俊 </p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家人才计划专家</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://way.nimte.ac.cn/'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/wangaiying.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">汪爱英</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家杰青</p>
+                         </div>
+                     </div>                     
+                     <div class="item" onclick="location.href='http://marinelab.nimte.cas.cn/team/nationaltalents/201904/t20190423_426004.html'">
+						 <img src="/template/ncmte.nimte.ac.cn/images/pi/wangliping.jpg" alt="">
+						 <div class="pinfo">
+							 <p class="f22">王立平</p>
+							 <p class="f18">研究员</p>
+							 <p class="f18">国家杰青</p>
+						 </div>
+                     </div>
+                     <div class="item hidden"></div>
+                     <div class="item hidden"></div>
+                     <div class="item hidden"></div>
+                     <div class="item" onclick="location.href='https://graduate.nimte.ac.cn/view-2327.html'">
+						 <img src="/template/ncmte.nimte.ac.cn/images/pi/chenliang.jpg" alt="">
+						 <div class="pinfo">
+		                     <p class="f22">陈亮</p>
+	                         <p class="f18">研究员</p>
+						 </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://geziyi.nimte.ac.cn/'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/geziyi.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">葛子义</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家杰青</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://zj.nimte.ac.cn/'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/zhujin.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">朱锦</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家人才计划专家</p>
+                         </div>
+                     </div>
+                     <!-- todo:第三行-->
+                     <div class="item" onclick="location.href='https://battery.nimte.ac.cn/'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/liuzhaoping.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">刘兆平</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家人才计划专家</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://graduate.nimte.ac.cn/view-2687.html'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/jiangnan.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">江南</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家人才计划专家</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://remag.nimte.ac.cn/'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/yanaru.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">闫阿儒</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家人才计划专家</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://jichunye.nimte.ac.cn/'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/yejichun.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">叶继春</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家人才计划专家</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://non-crystal.nimte.ac.cn/view-18284.html'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/wangjunqiang.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">王军强</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家杰青</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://smartpolymers.nimte.ac.cn/'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/chentao.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">陈涛</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家人才计划专家</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://wgzheng.nimte.ac.cn/'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/zhengwenge.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">郑文革</p>
+                             <p class="f18">研究员</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://membrane.nimte.ac.cn/'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/liufu.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">刘富</p>
+                             <p class="f18">研究员</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://yzhu.nimte.ac.cn/'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/zhuyindan.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">祝颖丹</p>
+                             <p class="f18">研究员</p>
+                         </div>
+                     </div>
+                     <!-- todo:第四行-->
+                     <div class="item hidden"></div>
+                     <div class="item" onclick="location.href='https://ncmte.nimte.ac.cn/view-2276.html'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/zhangwenwu.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">张文武</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家人才计划专家</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://robotics.nimte.ac.cn/'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/zhangchi.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">张驰</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家人才计划专家</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://robotics.nimte.ac.cn/'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/yangguilin.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">杨桂林</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家人才计划专家</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://frankcheng.nimte.ac.cn/'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/chengyufeng.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">程玉峰</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">院士</p>
+                         </div>
+                     </div>  
+                     <div class="item" onclick="location.href='https://ncmte.nimte.ac.cn/view-2386.html'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/wuaiguo.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">吴爱国</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家杰青</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://spray.nimte.ac.cn/'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/lihua.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">李华</p>
+                             <p class="f18">研究员</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://graduate.nimte.ac.cn/view-6072.html'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/xicun.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">西村一仁</p>
+                             <p class="f18">院士</p>
+                             <p class="f18"></p>
+                         </div>
+                     </div>
+                     <div class="item hidden"></div>
+                     <!--第五行-->
+                     <div class="item hidden"></div>
+                     <div class="item hidden"></div>
+                     <div class="item" onclick="location.href='https://people.ucas.ac.cn/~0042747'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/fangzaojun.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">方灶军</p>
+                             <p class="f18">研究员</p>
+                         </div>
+                     </div>  
+                     <div class="item" onclick="location.href='/view-16791.html'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/wangzhen.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">王震</p>
+                             <p class="f18">研究员</p>
+                         </div>
+                     </div>
+                     <div class="item" onclick="location.href='https://pujibin.nimte.ac.cn'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/pujibin.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">蒲吉斌</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家杰青</p>
+                         </div>
+                     </div> 
+                     <div class="item" onclick="location.href='https://h2-lab.nimte.ac.cn/view-31357.html'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/wangyunan.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">王宇楠</p>
+                             <p class="f18">研究员</p>
+                         </div>
+                     </div>  
+                     <div class="item" onclick="location.href='/view-29816.html'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/guanpengfei.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">管鹏飞</p>
+                             <p class="f18">研究员</p>
+                             <p class="f18">国家杰青</p>
+                         </div>
+                     </div>   
+                     <div class="item hidden"></div>
+                     <div class="item hidden"></div>
+                     <!--第六行-->
+                     <div class="item hidden"></div>
+                     <div class="item hidden"></div>
+                     <div class="item hidden"></div>
+                     <div class="item" onclick="location.href='http://marinelab.nimte.cas.cn/team/nationaltalents/202202/t20220209_426249.html'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/changkeke.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">常可可</p>
+                             <p class="f18">研究员</p>
+                             <p class="f22">国家优青</p>
+                         </div>
+                     </div>    
+                     <div class="item" onclick="location.href='https://memdl.nimte.ac.cn/view-29498.html'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/liuyiwei.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">刘宜伟</p>
+                             <p class="f18">研究员</p>
+                         </div>
+                     </div>   
+                     <div class="item" onclick="location.href='https://people.ucas.edu.cn/~huojuntao'">
+                         <img src="/template/ncmte.nimte.ac.cn/images/pi/huojuntao.jpg" alt="">
+                         <div class="pinfo">
+                             <p class="f22">霍军涛</p>
+                             <p class="f18">研究员</p>
+                             <p class="f22">国家优青</p>
+                         </div>
+                     </div>                      
+                     <div class="item hidden"></div>
+                     <div class="item hidden"></div>
+                     <div class="item hidden"></div>
+                 </div>
+            </div>
+
+            <div class="download">
+                <a href="/download.html">
+                    <p>立即前往下载专区</p>
+                    <img src="/template/ncmte.nimte.ac.cn/images/download.png" alt="">
+                </a>
+                <a href="https://appj.nimte.ac.cn/gims" target="_blank">
+                    <p>学生信息管理系统</p>
+                    <img src="/template/ncmte.nimte.ac.cn/images/download.png" alt="">
+                </a>
+                <a href="http://192.168.192.211/login" target="_blank">
+                    <p>智慧校园管理系统</p>
+                    <img src="/template/ncmte.nimte.ac.cn/images/download.png" alt="">
+                </a>
+            </div>
+
+
+        </div>
+
+        <div class="foot">
+    <div class="dom1">
+        <div class="l">
+            <div class="pic">
+                <img src="/template/ncmte.nimte.ac.cn/images/logo.png" alt="">
+            </div>
+            <div class="links">
+                <a href="#">
+                    <img src="/template/ncmte.nimte.ac.cn/images/f1.png" alt="">
+                    <p>官方微信</p>
+                </a>
+                <a href="https://www.nimte.ac.cn/contact">
+                    <img src="/template/ncmte.nimte.ac.cn/images/f2.png" alt="">
+                    <p>所长信箱</p>
+                </a>
+                <a href="https://www.nimte.ac.cn/">
+                    <img src="/template/ncmte.nimte.ac.cn/images/f3.png" alt="">
+                    <p>材料所官网</p>
+                </a>
+            </div>
+        </div>
+        <div class="r">
+            <div class="links">
+                <a href="/">首页</a>
+								<a href="/intro.html">学院概况</a>
+								<a href="/discipline.html">学科建设</a>
+								<a href="/supervisor.html">导师队伍</a>
+								<a href="/enroll.html">招生工作</a>
+								<a href="/education.html">培养管理</a>
+								<a href="/degree.html">学位管理</a>
+								<a href="/graduation.html">毕业就业</a>
+								<a href="/rules.html">规章制度</a>
+				            </div>
+            <div class="chose">
+                <div class="item">
+                    <select>
+                        <option value="" style="color:black;">友情链接</option>
+                        <option value="https://www.nimtea.c.cn" style="color:black;">宁波材料所</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <select>
+                        <option value="" style="color:black;">快速链接</option>
+                        <option value="https://www.nimtea.c.cn" style="color:black;">宁波材料所</option>
+                    </select>
+                </div>
+                <div class="pics">
+                    <div class="pic">
+                        <img src="/template/ncmte.nimte.ac.cn/images/code1.jpg" alt="">
+                    </div>
+                    <div class="pic">
+                        <img src="/template/ncmte.nimte.ac.cn/images/code2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="l">
+            中国科学院宁波材料技术与工程研究所 © 2007- 2026 版权所有 <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备05023821号</a>
+        </div>
+        <div class="r">
+            <select>
+                <option value="" style="color:black;">中科院宁波材料所</option>
+                <option value="https://www.nimtea.c.cn" style="color:black;">宁波材料所</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+
+    </div>
+
+</div>
+<script src="/template/ncmte.nimte.ac.cn/js/swiper.js"></script>
+<script src="/template/ncmte.nimte.ac.cn/js/jquery-3.6.1.min.js" type="text/javascript"></script>
+<script src="/template/ncmte.nimte.ac.cn/js/luxy.js"></script>
+<script src="/template/ncmte.nimte.ac.cn/js/common.js"></script>
+<script>
+    //新闻
+    var swiper2 = new Swiper('.news .swiper-container',{
+        speed:1000,
+        init:true,
+        loop:true,
+        autoplay:true,
+        spaceBetween:10
+    });
+
+    var swiper3 = new Swiper('.sw1 .swiper-container',{
+        speed:1000,
+        init:true,
+        slidesPerView: 2,
+        loop:true,
+        autoplay:true,
+        breakpoints: {
+            1000: {  //当屏幕宽度大于等于1280
+                slidesPerView: 6,
+                direction: 'vertical',
+                centeredSlides: true,
+            }
+        }
+    });
+
+</script>
+<script src="/analytics.js"></script></body>
+</html>

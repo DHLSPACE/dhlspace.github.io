@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        合肥物质科学研究院研究生处
+    </title>
+    <link href="//hf.cas.cn/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <meta name="keywords" content="合肥物质科学研究院研究生处" />
+    <meta name="description" content="合肥物质科学研究院研究生处" />
+    <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="../../../../../../images/202509151739-index.css">
+    <script type="text/javascript" src="../../../../../../images/jquery.min.js"></script>
+    <link href="//api.cas.cn/lib/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <style>
+        html, body, div, a, p, span { font-family: \5FAE\8F6F\96C5\9ED1, "Microsoft YaHei", SimHei, sans-serif; } th, td { text-align: center; vertical-align: middle; } strong, span { font: revert; } .article-detail-box{ min-height: 400px; } .detail-box img { width: auto; } .detaildown li { margin-bottom: .8rem; } @media (min-width: 641px) { .container { max-width: 92vw; } .container-nav { max-width: 85vw; } .logo { height: 4rem; } .top-nav-right { display: flex; align-items: center; gap: 1rem; } .logo-zkd { height: 4rem; } .main-nav { border-top: 1px solid rgba(255, 255, 255, 0.4); background-color: #084990; } .nav-list { padding-top: 0; } .nav-list .nav-item { font-size: 1.25rem; } .children-nav-list>a { font-size: 0.83rem; } .children-nav-list-item { position: relative; height: 1.664rem; } .nav-list .nav-item .children-nav-list-item .label { height: 1.664rem; background-color: #fff; font-weight: 500; font-size: 0.83rem; color: rgba(0, 0, 0, 0.88); padding: 0 0.832rem; display: flex; flex-direction: row; align-items: center; white-space: nowrap; } .nav-list .children-nav-list-item .children-nav-sub-list { position: absolute; top: 0; left: 100%; height: 0; transition: height .4s; overflow: hidden; padding-left: 0.3rem; } .nav-list .children-nav-list-item:hover .children-nav-sub-list { height: 100%; overflow: visible; } .children-nav-sub-list>a { height: 1.664rem; background-color: #fff; font-weight: 500; font-size: 0.83rem; color: rgba(0, 0, 0, 0.88); padding: 0 0.832rem; display: flex; flex-direction: row; align-items: center; white-space: nowrap; } .children-nav-sub-list>a:hover { background: #084799; color: #fff; } } @media (max-width: 640px) { .detaildown dl { flex-direction: column; } .detaildown dl dt { top: -0.5rem; } .detaildown dl dd { padding-left: 4px; } .detaildown .down { font-size: 4rem; } .article-detail-box>div, .article-detail-box p { max-width: 100%; text-wrap: wrap; } .article-detail-box img { max-width: 100%; } } @media print { .page-top, .main-nav-mobile, .contact-section, .footer, .article-detail-footer,.article-author-time-box a { display: none !important; } .detail-box{width:auto;margin: auto;} }
+.article-detail-box p,.article-detail-box span{line-height: 2;} .article-detail-box{text-align: justify;}
+    </style>
+</head>
+
+<body>
+    <section class="page-top">
+        <!-- 顶部导航 -->
+        <div class="top-nav mobile-hide">
+            <div class="container">
+                <a href="https://hf.cas.cn/sbpy/yjsc/" class="logo-area">
+                    <img class="logo" src="../../../../../../images/2025-logo-yjsc.png" alt="2025-logo-yjsc.png" title="2025-logo-yjsc.png" />
+                </a>
+                <div class="top-nav-right">
+                    <a href="https://hf.cas.cn/sbpy/yjsc/">
+                        <img class="logo-zkd" src="../../../../../../images/2025-logo-zkd.png" alt="2025-logo-zkd.png" title="2025-logo-zkd.png" />
+                    </a>
+                    <a class="search-box"
+                        href="https://hf.cas.cn/sbpy/yjsc/qwjs_2024/index.html">
+                        <input type="text" placeholder="输入关键词搜索" class="search-input" />
+                        <button class="search-btn" type="submit">
+                            <img src="../../../../../../images/icon-search-white.png" alt="icon-search-white.png" title="icon-search-white.png" />
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="pc-hide top-mobile">
+            <a href="https://hf.cas.cn/sbpy/yjsc/" ><img class="logo" src="../../../../../../images/2025-mobile-school-tag.png" alt="2025-mobile-school-tag.png" title="2025-mobile-school-tag.png" /></a>
+            <div class="operation-box">
+                <div class="container">
+                    <a class="search-box"
+                        href="https://hf.cas.cn/sbpy/yjsc/qwjs_2024/index.html">
+                        <div class="input">点击搜索</div>
+                        <img class="search-icon" src="../../../../../../images/search-icon.png" alt="search-icon.png" title="search-icon.png" />
+                    </a>
+                    <div class="menu-box">
+                        <img class="menu-icon" src="../../../../../../images/menu-icon.png" alt="menu-icon.png" title="menu-icon.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 主导航 -->
+        <nav class="main-nav mobile-hide">
+            <div class="container container-nav">
+                <div class="nav-list">
+                    <div class="nav-item">
+                        <a class="label" href="https://hf.cas.cn/sbpy/yjsc/"
+                            ignoreapd="1">首页</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="label" href="https://hf.cas.cn/sbpy/yjsc/bmzz/202508/t20250819_7907031.html">部门职责</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="label" href="https://hf.cas.cn/sbpy/yjsc/jygk/"
+                            ignoreapd="1">教育概况</a>
+                        <div class="children-nav-list">
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/jygk/dsj/">大事记</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/jygk/xwpdwyh/">学位评定委员会</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/jygk/xkzywyh/">学科专业委员会</a>
+                            
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a class="label" href="https://hf.cas.cn/sbpy/yjsc/gzdt_1/"
+                            ignoreapd="1">工作动态</a>
+                    </div> 
+                    <div class="nav-item">
+                        <a class="label" href="https://hf.cas.cn/sbpy/yjsc/zs/"
+                            ignoreapd="1">招生</a>
+                        <div class="children-nav-list">
+                            <div class="children-nav-list-item">
+                                <a class="label"
+                                    href="https://hf.cas.cn/sbpy/yjsc/zs/zsxx/">招生信息</a>
+                                <div class="children-nav-sub-list">
+                                    
+                                        <a href="https://hf.cas.cn/sbpy/yjsc/zs/zsxx/zsxx_sszs/">硕士招生</a>
+                                    
+                                        <a href="https://hf.cas.cn/sbpy/yjsc/zs/zsxx/zsxx_bszs/">博士招生</a>
+                                    
+                                        <a href="https://yz.ustc.edu.cn/column/205?num=-1">历年分数线</a>
+                                    
+                                </div>
+                            </div>
+                            <a href="../../../zs_zsjz/">招生简章</a>
+                            <div class="children-nav-list-item">
+                                <a class="label"
+                                    href="https://hf.cas.cn/sbpy/yjsc/zs/zs_zsxc/">招生宣传</a>
+                                <div class="children-nav-sub-list">
+                                    
+                                        <a href="https://hf.cas.cn/sbpy/yjsc/zs/zs_zsxc/zsxc_dxsxly/">科研训练营</a>
+                                    
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a class="label" href="https://hf.cas.cn/sbpy/yjsc/py_1/"
+                            ignoreapd="1">培养</a>
+                        <div class="children-nav-list">
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/py_1/pyfa/">培养方案</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/py_1/ktzq/">开题中期</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/py_1/jzxj/">评奖评优</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/py_1/kcap/">课程管理</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/py_1/xmsb/">项目申报</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/py_1/kcapwdxz/">文档下载</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/py_1/fdydw/">辅导员队伍</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/py_1/xjgl/">学籍与教学管理</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/py_1/xfyxsdd/">学风与学术道德</a>
+                            
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a class="label" href="https://hf.cas.cn/sbpy/yjsc/xw_1/"
+                            ignoreapd="1">学位</a>
+                        <div class="children-nav-list">
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/xw_1/xwsy/">学位通知</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/xw_1/xwshy/">授予标准</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/xw_1/xwwdxz/">文档下载</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/xw_1/xwyxlw/">优秀论文</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/xw_1/xkjs/">学科建设</a>
+                            
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a class="label" href="https://hf.cas.cn/sbpy/yjsc/gzzd_2/"
+                            ignoreapd="1">规章制度</a>
+                        <div class="children-nav-list">
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/gzzd_2/zs/">招生</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/gzzd_2/py/">培养</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/gzzd_2/xj/">学籍</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/gzzd_2/xw/">学位</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/gzzd_2/pj/">评奖</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/gzzd_2/dagl/">档案管理</a>
+                            
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a class="label" href="https://hf.cas.cn/sbpy/yjsc/rcgl/"
+                            ignoreapd="1">事务指南</a>
+                        <div class="children-nav-list">
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/rcgl/rcgl_rxbd/">生活指南</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/rcgl/rcgl_ssgl/">宿舍管理</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/rcgl/rcgl_ybbx/">医保报销</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/rcgl/rcgl_bylx/">毕业离校</a>
+                            
+                                <a href="https://hf.cas.cn/sbpy/yjsc/rcgl/rcgl_yktxg/">一卡通相关</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <nav class="main-nav-mobile pc-hide">
+        <img class="menu-close" src="../../../../../../images/2024-menu-icon-close.png" alt="2024-menu-icon-close.png" title="2024-menu-icon-close.png" />
+        <ul class="mobile-nav-list">
+            <li class="mobile-nav-item"><a class="label"
+                    href="https://hf.cas.cn/sbpy/yjsc/" ignoreapd="1">首页</a></li>
+            <div class="mobile-nav-item">
+                <a class="label" href="https://hf.cas.cn/sbpy/yjsc/bmzz/202508/t20250819_7907031.html">部门职责</a>
+            </div>
+            <li class="mobile-nav-item">
+                <a class="label" href="https://hf.cas.cn/sbpy/yjsc/jygk/" ignoreapd="1">教育概况</a>
+                <div class="children-nav-list">
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/jygk/dsj/">大事记</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/jygk/xwpdwyh/">学位评定委员会</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/jygk/xkzywyh/">学科专业委员会</a>
+                    
+                </div>
+            </li>
+            <li class="mobile-nav-item"><a class="label" href="https://hf.cas.cn/sbpy/yjsc/gzdt_1/" ignoreapd="1">工作动态</a></li>
+            <li class="mobile-nav-item">
+                <a class="label" href="https://hf.cas.cn/sbpy/yjsc/zs/"
+                    ignoreapd="1">招生</a>
+                <div class="children-nav-list">
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/zs/zsxx/">招生信息</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/zs/zs_zsjz/">招生简章</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/zs/zs_zsxc/">招生宣传</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/zs/kcjh/">科创计划</a>
+                    
+                </div>
+            </li>
+            <li class="mobile-nav-item">
+                <a class="label" href="https://hf.cas.cn/sbpy/yjsc/py_1/"
+                    ignoreapd="1">培养</a>
+                <div class="children-nav-list">
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/py_1/pyfa/">培养方案</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/py_1/ktzq/">开题中期</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/py_1/jzxj/">评奖评优</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/py_1/kcap/">课程管理</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/py_1/xmsb/">项目申报</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/py_1/kcapwdxz/">文档下载</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/py_1/fdydw/">辅导员队伍</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/py_1/xjgl/">学籍与教学管理</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/py_1/xfyxsdd/">学风与学术道德</a>
+                    
+                </div>
+            </li>
+            <li class="mobile-nav-item">
+                <a class="label" href="https://hf.cas.cn/sbpy/yjsc/xw_1/"
+                    ignoreapd="1">学位</a>
+                <div class="children-nav-list">
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/xw_1/xwsy/">学位通知</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/xw_1/xwshy/">授予标准</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/xw_1/xwwdxz/">文档下载</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/xw_1/xwyxlw/">优秀论文</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/xw_1/xkjs/">学科建设</a>
+                    
+                </div>
+            </li>
+            <li class="mobile-nav-item">
+                <a class="label" href="https://hf.cas.cn/sbpy/yjsc/gzzd_2/"
+                    ignoreapd="1">规章制度</a>
+                <div class="children-nav-list">
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/gzzd_2/zs/">招生</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/gzzd_2/py/">培养</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/gzzd_2/xj/">学籍</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/gzzd_2/xw/">学位</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/gzzd_2/pj/">评奖</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/gzzd_2/dagl/">档案管理</a>
+                    
+                </div>
+            </li>
+            <div class="mobile-nav-item">
+                <a class="label" href="https://hf.cas.cn/sbpy/yjsc/rcgl/"
+                    ignoreapd="1">事务指南</a>
+                <div class="children-nav-list">
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/rcgl/rcgl_rxbd/">生活指南</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/rcgl/rcgl_ssgl/">宿舍管理</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/rcgl/rcgl_ybbx/">医保报销</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/rcgl/rcgl_bylx/">毕业离校</a>
+                    
+                        <a href="https://hf.cas.cn/sbpy/yjsc/rcgl/rcgl_yktxg/">一卡通相关</a>
+                    
+                </div>
+            </div>
+        </ul>
+    </nav>
+    <section class="detail-box">
+        <div class="container">
+            <div class="crumb-box">
+                <a href="../../../../">首页</a>
+                &nbsp;&gt;&nbsp;<a href="../../../" title="招生" class="CurrChnlCls">招生</a>&nbsp;&gt;&nbsp;<a href="../../" title="招生信息" class="CurrChnlCls">招生信息</a>&nbsp;&gt;&nbsp;<a href="../" title="硕士招生" class="CurrChnlCls">硕士招生</a>
+            </div>
+            <div class="article-title-box" style="white-space: normal">
+                中国科学技术大学研究生院科学岛分院2025年工程管理专业硕士（MEM）研究生招生复试办法
+            </div>
+            <div class="article-author-time-box">
+                <div class="author-box">作者: <span>
+                </div>
+                <div class="article-detail-time">
+                    2025-03-18
+                </div>
+                <a href="javascript: window.print();">【打印】</a>
+                <a href="javascript: window.close();">【关闭】</a>
+            </div>
+            <div class="article-detail-box">
+                <div class="trs_editor_view TRS_UEDITOR trs_paper_default trs_word"><p style="font-size: 16px; line-height: 1.5em;"><a name="_Toc29434" style="font-family: arial, helvetica, sans-serif; font-size: 16px;"><span data-index="9" style="font-family: arial, helvetica, sans-serif; font-size: 16px;"><strong>一、原则</strong></span></a></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="font-family: arial, helvetica, sans-serif; font-size: 16px;">（一）根据《中国科学技术大学2025年硕士研究生招生复试工作章程》，加大研究生的入学复试权重，实行"差额复试"。凡拟录取的考生均须参加复试，复试按"公平"和"公正"的原则，德、智、体全面衡量。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="font-family: arial, helvetica, sans-serif; font-size: 16px;">（二）硕士研究生招生考试由初试和复试两部分组成。初试由教育部统一组织，复试由中国科学技术大学研究生院科学岛分院（以下简称“科学岛分院”）组织。复试是研究生招生工作中的一项重要环节，考生必须通过复试，且复试成绩合格者方可参加按总成绩计算的方法，从高分到低分择优录取。复试的重点是考察学生掌握本科阶段知识的广度和深度、综合素质和能力，考核其是否符合硕士研究生的培养要求。</span></p><p style="font-size: 16px; line-height: 1.5em;"><span data-index="9" style="font-family: arial, helvetica, sans-serif; font-size: 16px;"><strong>二、复试的分数线及复试名单</strong></span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="font-family: arial, helvetica, sans-serif; font-size: 16px;">（一）复试分数线由科学岛分院根据中国科学技术大学2025年硕士研究生进入复试初试成绩基本要求、复试人数与招生计划数之比约为1.4:1，以及各专业达线考生的具体情况划定。复试分数线包括初试总成绩分数线和单科成绩分数线。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="font-family: arial, helvetica, sans-serif; font-size: 16px;">（二）同时达到总成绩分数线和单科成绩分数线的考生具有参加复试资格。参加复试考生的名单公布在科学岛分院（中国科学院合肥物质科学研究院研究生处）的网页上。</span></p><p style="font-size: 16px; line-height: 1.5em;"><span data-index="9" style="font-family: arial, helvetica, sans-serif; font-size: 16px;"><strong>三、复试时间安排</strong></span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="font-family: arial, helvetica, sans-serif; font-size: 16px;">学校复试录取工作拟主要安排两个阶段：</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="font-family: arial, helvetica, sans-serif; font-size: 16px;">第一阶段（3月21日-4月上旬）：完成复试、调剂录取工作； </span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="font-family: arial, helvetica, sans-serif; font-size: 16px;">第二阶段（录取新生入学后三个月内）：按教育部规定对所有考生进行全面复查。复查不合格的，取消学籍；情节严重的，移交有关部门调查处理。</span></p><p style="font-size: 16px; line-height: 1.5em;"><span data-index="9" style="font-family: arial, helvetica, sans-serif; font-size: 16px;"><strong>四、复试形式、内容和要求</strong></span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">（一）3月21号，科学岛分院开展2025年度非全日制工程管理硕士研究生招生复试工作。复试专家组和相关工作人员在8:30之前到相应的考场就坐并准备就绪，全体考生在工作人员的指引下在会议室外候场，并根据工作人员的安排依次复试。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">（二）<a name="_Hlk193122388">复试内容</a></span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">复试内容包括背景评分和综合面试。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">1、背景评分</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">背景成绩由背景审核专家根据考生《2025级MEM入学面试申请表》及附件，背景评分满分100分。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">2、综合面试内容</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">综合面试主要考察考生专业素质和综合素质两个方面。面试内容包括思想品德、英语应用能力、专业知识、心理素质和综合能力。面试题现场随机抽取，满分200分。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">复试过程分A、B两个环节同时进行,A环节负责考核考生业务（专业）知识（满分100分），B环节负责考核考生英语听力和口语测试（满分50分）、思想政治品德考核（满分50分）。每位考生要分别参加A环节和B环节考核。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">A环节：组长指令考生用中文做自我介绍，时间为2分钟（可以使用PPT）。接着考察学生的专业知识。业务（专业）知识测试是考查考生的基础知识是否扎实，考生对本科专业知识掌握的深度和广度（包括对所报考学科前沿知识和研究动态的了解情况及解决问题的能力、应变反应和表达能力），本人所从事工作的具体情况，以及分析问题和解决问题的潜力和创造力。专业知识测试时间一般为10分钟。专业知识测试满分为100分。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">B环节：复试小组首先考察考生的英语能力。考生从英语试题库中随机抽取一篇专业英文短文，准备1分钟，进行现场大声读一遍，然后进行翻译。英语能力测试满分50分。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">接着进行思想政治品德考核，考生从试题库中随机抽取题目，主要考查考生的政治态度、思想品德、工作学习态度、团队合作精神、科研道德及遵纪守法等方面的基本素质思想政治品德。思想政治品德考核满分为50分。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">B环节复试测试时间一般为10分钟，B组复试满分为100分。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">（三）所有考察结束后，由复试专家组组长告诉学生复试结束。</span></p><p style="font-size: 16px; line-height: 1.5em;"><span data-index="9" style="font-family: arial, helvetica, sans-serif; font-size: 16px;"><strong>五、复试成绩统计和拟录取</strong></span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">录取工作坚持"德智体全面衡量、择优录取、公平公正、保证质量、宁缺勿滥"的原则。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">思想政治品德考核成绩低于30分或新生入学体检结果为"不合格"的考生，不予录取。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">复试结束后，将思想政治品德考核成绩≥30分的考生初试成绩和复试成绩累加后，得出考生最终成绩。考生最终成绩满分为100分。科学岛分院按照最终成绩从高分到低分择优录取。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">复试成绩=（背景（满分100分）+面试（满分200分））÷3。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">录取成绩由初试成绩50%和复试成绩50%两部分组成。录取成绩=（初试总分÷3+复试成绩）÷2。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">对不符合报考条件，或在初试和复试中有严重违纪、舞弊情况的考生，经核实后，一律不予录取。</span></p><p style="font-size: 16px; line-height: 1.5em;"><span data-index="9" style="font-family: arial, helvetica, sans-serif; font-size: 16px;"><strong>六、复试时需携带的材料</strong></span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">（一）准考证和有效身份证件（身份证、护照或军官证）原件。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">（二）身份证、毕业证、学位证原件及复印件1份，贴照片并已填写个人信息的2025级MEM入学面试申请表及附件。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">（三）大学成绩单（需盖有所在学校教务部门公章，若为复印件须加盖档案所在单位人事部门或人才市场部门公章，同等学力考生提供专科成绩单及本科课程进修成绩单。）</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">备注：检录时按顺序现场装订材料:1.《信息简表》（现场发放）;2.身份证复印件；3.毕业证复印件；4.学位证复印件；5.大学成绩单;6.诚信复试承诺书（现场发放,签名须手写,标注项目名称+准考证号后四位）。</span></p><p style="text-indent: 32px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;"> </span></p><p style="text-align: right; text-indent: 60px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">中国科学技术大学研究生院科学岛分院</span></p><p style="text-align: right; text-indent: 60px; font-size: 16px; line-height: 1.5em;"><span data-index="9" style="line-height: 107%; font-family: arial, helvetica, sans-serif; font-size: 16px;">2025年3月18日</span></p><p style="font-size: 16px;"><br/></p></div>
+            </div>
+            <div class="article-detail-footer">
+                <a class="prev left"
+                    href="./t20250322_7563412.html">上一篇</a>
+                <a class="next right"
+                    href="./t20250318_7560374.html">下一篇</a>
+            </div>
+            <div class="detaildown">
+                <dl id="_appcon">
+                    <div class="flex" style="display: flex;">
+                        <dt>&nbsp;</dt>
+                        <dd class="down">附件下载：</dd>
+                    </div>
+                    <dd>
+                        <ul id="_applist"></ul>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </section>
+    <!-- 联系我们 -->
+    <div class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-title">联系我们</h3>
+                    <div class="contact-text">
+                        <p class="contact-subtitle">
+                            <img src="../../../../../../images/address-icon.png" alt="" />
+                            <span>地址：</span>
+                        </p>
+                                                <p class="contact-value">安徽省合肥市蜀山湖路350号合肥物质院2号楼</p>
+
+                    </div>
+                </div>
+
+                <div class="follow-wrap">
+                    <h3 class="contact-title">关注我们</h3>
+                    <div class="qrcode-box">
+                        <div class="qrcode-item">
+                            <img src="../../../../../../images/科学岛研究生在线官方公众号.png" alt="" />
+                            <span>科学岛研究生在线<br />官方公众号</span>
+                        </div>
+                        <div class="qrcode-item">
+                            <img src="../../../../../../images/科学岛研究生在线官方视频号.png" alt="" />
+                            <span>科学岛研究生在线<br />官方视频号</span>
+                        </div>
+                        <div class="qrcode-item">
+                            <img src="../../../../../../images/科学岛研究生在线官方抖音号.png" alt="" />
+                            <span>科学岛研究生在线<br />官方抖音号</span>
+                        </div>
+                        <div class="qrcode-item">
+                            <img src="../../../../../../images/合肥物质院-研究生官方B站号.png" alt="" />
+                            <span>合肥物质院-研究生<br />官方B站号</span>
+                        </div>
+                        <div class="qrcode-item">
+                            <img src="../../../../../../images/科学岛研究生在线官方小程序.png" alt="" />
+                            <span>科学岛研究生在线<br />官方小程序</span>
+                        </div>
+                        <div class="qrcode-item">
+                            <img src="../../../../../../images/科学岛研究生会公众号.png" alt="" />
+                            <span>科学岛研究生会<br />公众号</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <div class="footer">
+        <div class="container">
+            <p id="copyright">&copy; 1996 - <span id="currentYear"></span> 中国科学院合肥物质科学研究院 版权所有 <a href="https://beian.miit.gov.cn" target="_blank">皖ICP备05001008号-1</a></p>
+        </div>
+    </div>
+
+<!-- 其他js逻辑 -->
+<script>
+    $(function () {
+        // 动态更新当前年份
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        let isShow = false;
+        // 手机端菜单-start
+        $(".menu-box").click(function () {
+            if (!isShow) {
+                $(".menu-close").fadeIn("slow");
+                $(".main-nav-mobile").css("transform", "translateY(0)");
+                isShow = true;
+            } else {
+                $(".main-nav-mobile").css("transform", "translateY(-100%)");
+                isShow = false;
+            }
+        });
+        $(".menu-close").click(function () {
+            $(this).fadeOut("slow");
+            $(".main-nav-mobile").css("transform", "translateY(-100%)");
+            isShow = false;
+        });
+        // 手机端菜单-end
+
+        // 检查 author-box 中的 span 是否为空，如果为空则隐藏 author-box
+        const authorBox = document.querySelector(".author-box");
+        if (authorBox) {
+            const authorSpan = authorBox.querySelector("span");
+            if (!authorSpan || authorSpan.textContent.trim() === "") {
+                authorBox.style.display = "none";
+            }
+        }
+
+        // 公示时间检查：先判断是否在"公示公开"页面，如果是则执行
+        const isCurrPageGsgk = () => {
+            const currChnlEl = document.querySelector(".crumb-box .CurrChnlCls");
+            return currChnlEl && currChnlEl.textContent.includes("公示公开");
+        };
+
+        if (isCurrPageGsgk()) {
+            // 提取日期、拼接 data-time 的时分秒，若晚于当前时间则标记（支持多个公示块）
+            const parseDateFromText = text => {
+                const compact = text.match(/(\d{4})(\d{2})(\d{2})/);
+                if (compact) return [Number(compact[1]), Number(compact[2]), Number(compact[3])];
+                const dotted = text.match(/(\d{4})\.(\d{1,2})\.(\d{1,2})/);
+                if (dotted) return [Number(dotted[1]), Number(dotted[2]), Number(dotted[3])];
+                const dated = text.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+                if (dated) return [Number(dated[1]), Number(dated[2]), Number(dated[3])];
+                const dash1 = text.match(/(\d{4})-(\d{1,2})-(\d{1,2})/);
+                if (dash1) return [Number(dash1[1]), Number(dash1[2]), Number(dash1[3])];
+                const dash2 = text.match(/(\d{4})-(\d{2})-(\d{2})/);
+                if (dash2) return [Number(dash2[1]), Number(dash2[2]), Number(dash2[3])];
+                return null;
+            };
+
+            const titleEl = document.querySelector(".article-title-box");
+            const timeEl = document.querySelector(".article-detail-time");
+            
+            if (titleEl && timeEl) {
+                const timeAttr = timeEl.textContent || "";
+                const hhmmss = (timeAttr.match(/(\d{2}:\d{2}:\d{2})/) || ["23:59:59"])[0];
+                const originalText = titleEl.textContent.trim();
+
+                console.log("Checking 公示时间 for:", originalText, "with timeAttr:", timeAttr);
+
+                if (!originalText.startsWith("[公示已结束]")) {
+                    const parts = parseDateFromText(originalText);
+                    if (parts) {
+                        const [y, m, d] = parts;
+                        const [h, min, s] = hhmmss.split(":").map(Number);
+                        const combined = new Date(y, m - 1, d, h, min, s);
+                        if (combined.getTime() < Date.now()) {
+                            titleEl.textContent = "[公示已结束] " + originalText;
+                        }
+                    }
+                }
+            }
+        }
+    });
+</script>
+<script>
+    $(function () {
+        //文档来源
+        if ($("#_source").html() == "") {
+            $("#_sourcecon").hide();
+        } else {
+            //截取历史数据包含ncode:
+            if ($("#_source").html()?.indexOf("nocode:") == 0) {
+                $("#_source").html($("#_source").html().substr(7));
+            }
+        }
+        if ($("#_author").html() == "") {
+            $("#_authorcon").hide();
+        }
+
+        //处理历史数据图片不居中
+        $("#_content")
+            .find("p")
+            .each(function () {
+                if ($(this).attr("align") == "center") {
+                    $(this).css("text-align", "center");
+                }
+            });
+        //处理图片align=right，不居右，添加style
+        $("#_content")
+            .find("p")
+            .each(function () {
+                if ($(this).attr("align") == "right") {
+                    $(this).css("text-align", "right");
+                }
+            });
+
+        //图片自适应
+        var _uagent = navigator.userAgent;
+        if (
+            _uagent.match(
+                /(iPhone|iPod|iPad|Android|ios|webOS|Windows Phone|BlackBerry)/i
+            )
+        ) {
+            $("#_content")
+                .find("img")
+                .each(function () {
+                    $(this).css("width", "100%");
+                });
+        }
+
+        //上下
+        if ($("#_pre_next_con").find("a.left").attr("href") == "") {
+            $("#_pre_next_con").find("a.left").hide();
+        }
+        if ($("#_pre_next_con").find("a.right").attr("href") == "") {
+            $("#_pre_next_con").find("a.right").hide();
+        }
+        if (
+            $("#_pre_next_con").find("a.left").attr("href") == "" &&
+            $("#_pre_next_con").find("a.right").attr("href") == ""
+        ) {
+            $("#_pre_next_con").hide();
+        }
+        //附件
+        var appLinkArr = new Array(); //附件路径
+        var appLinkStr =
+            '';
+        appLinkArr = appLinkStr.split("|");
+        var appDescArr = new Array(); //附件名称
+        var appDescStr =
+            '';
+        appDescArr = appDescStr.split("|");
+        if (appLinkArr[0] != "" && appDescArr[0] != "") {
+            var appHtml = "";
+            $.each(appLinkArr, function (i, str) {
+                if (str.indexOf("doc") != -1) {
+                    appHtml +=
+                        '<li><a href="' +
+                        str +
+                        '"><i class="fa fa-file-word-o" aria-hidden="true"></i>&nbsp;&nbsp;' +
+                        appDescArr[i] +
+                        "</a></li>";
+                }
+                if (str.indexOf("xls") != -1) {
+                    appHtml +=
+                        '<li><a href="' +
+                        str +
+                        '"><i class="fa fa-file-excel-o" aria-hidden="true"></i>&nbsp;&nbsp;' +
+                        appDescArr[i] +
+                        "</a></li>";
+                }
+                if (str.indexOf("ppt") != -1) {
+                    appHtml +=
+                        '<li><a href="' +
+                        str +
+                        '"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>&nbsp;&nbsp;' +
+                        appDescArr[i] +
+                        "</a></li>";
+                }
+                if (str.indexOf("pdf") != -1) {
+                    appHtml +=
+                        '<li><a href="' +
+                        str +
+                        '"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;&nbsp;' +
+                        appDescArr[i] +
+                        "</a></li>";
+                }
+                if (str.indexOf("txt") != -1) {
+                    appHtml +=
+                        '<li><a href="' +
+                        str +
+                        '"><i class="fa fa-file-text-o" aria-hidden="true"></i>&nbsp;&nbsp;' +
+                        appDescArr[i] +
+                        "</a></li>";
+                }
+                if (str.indexOf("rar") != -1 || str.indexOf("zip") != -1) {
+                    appHtml +=
+                        '<li><a href="' +
+                        str +
+                        '"><i class="fa fa-file-archive-o" aria-hidden="true"></i>&nbsp;&nbsp;' +
+                        appDescArr[i] +
+                        "</a></li>";
+                }
+                if (str.indexOf("jpg") != -1) {
+                    appHtml +=
+                        '<li><a href="' +
+                        str +
+                        '"><i class="fa fa-file-image-o" aria-hidden="true"></i>&nbsp;&nbsp;' +
+                        appDescArr[i] +
+                        "</a></li>";
+                }
+            });
+            $("#_applist").html(appHtml);
+        } else {
+            $("#_appcon").hide();
+        }
+    });
+</script>
+</body>
+
+</html>

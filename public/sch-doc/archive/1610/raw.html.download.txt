@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=1200">
+    <title>关于调整南京工业大学2026年硕士研究生招生考试初试部分业务课二考试科目的通知-南京工业大学研究生招生网</title><META Name="keywords" Content="南京工业大学研究生招生网,通知公告,关于,调整,南京工业大学,南京,工业大学,工业大,工业,业大,大学,2026,硕士研究生,硕士,研究生,研究,招生,考试,初试,部分,分业,业务,科目,目的,通知" />
+<META Name="description" Content="为方便广大考生提前做好2026年硕士研究生招生考试（初试）准备，根据上级部门相关政策和我校实际情况，现将我校2026年硕士研究生招生考试初试部分业务课二考试科目调整情况公告如下:学院专业原业务课二调整后科目计算机与信息工程学院（人工智能学院）081200计算机科学与技术828数据结构与操作系统408计算机学科专业基础085400 电子信息828数据结构与操作系统817信号系统与数字电路联合培养（盐城师范学院）085400 电子信息828..." />
+
+    <link rel="stylesheet" type="text/css" href="../../style/common.css" />
+    <link rel="stylesheet" type="text/css" href="../../style/article.css">
+    <script type="text/javascript" src="../../js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../../js/jquery.SuperSlide.js"></script> <!-- 导航菜单 -->
+    <script type="text/javascript" src="../../js/footer.js"></script>
+    <script type="text/javascript">
+    
+        function y2k(number)
+        {
+            return (number < 1000) ? number + 1900 : number;
+        }
+        function dispdate()
+        {
+            var now = new Date();
+            var dd = now.getDate() , mt = now.getMonth() + 1 , yy = y2k(now.getYear()) , weekVal = now.getDay();
+            if (weekVal==0)
+                msg1="星期日";
+            else if (weekVal==1)
+            msg1="星期一"; 
+            else if (weekVal==2)
+                msg1="星期二";
+            else if (weekVal==3)
+            msg1="星期三";
+            else if (weekVal==4)
+            msg1="星期四";
+            else if (weekVal==5)
+            msg1="星期五";
+            else if (weekVal==6)
+            msg1="星期六";
+            document.write(yy+"年"+mt+"月"+dd+"日 "+msg1);
+        }
+        var flasher = false
+        function updateTime()
+        {
+            var now = new Date();
+            var theHour = now.getHours();
+            var theMin = now.getMinutes();
+            var theSec = now.getSeconds();
+            if (theHour<10)
+            {
+                theHour="0"+theHour
+            }
+            if(theMin<10)
+            {
+                theMin="0"+theMin
+            }
+            if(theSec<10)
+            {
+                theSec="0"+theSec
+            }
+            var theTime = theHour + ":" + theMin + ":" + theSec;
+            flasher = !flasher;
+            document.getElementById("spanTime").innerHTML = theTime; 
+            // recursively call this function every second to keep timer going
+            timerID = setTimeout("updateTime()",1000)
+        } 
+    </script>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230776447565352574103080004 -->
+<link rel="stylesheet" type="text/css" href="../../article.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1021,'/article.jsp',1521,1816331650)</script>
+</head>
+
+<body>
+    <div>
+        <div id="header-line"></div>
+        <div id="header">
+            <div id="header-logo">
+                
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="../../index.htm" title="研究生招生网"><img src="../../images/zslogo2.png" width="737" height="80" border="0" alt="研究生招生网" title="研究生招生网"></a>
+            </div>
+            <script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode1015159').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey1015159").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey1015159").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1015159").value = base64.encode(document.getElementById("lucenenewssearchkey1015159").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1015159"));
+        return true;
+    } 
+</script>
+<form action="../../search.jsp?wbtreeid=1021" method="post" id="au1a" name="au1a" onsubmit="return _nl_ys_check()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkey1015159" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype1015159" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope1015159" name="searchScope" value="0">
+   <div id="search" class="clearfix fr">
+      <input name="showkeycode" id="showkeycode1015159" class="text" type="text" />
+      <input class="button" type="image" src="../../images/icon_search.png" align="absmiddle" style="cursor: hand">
+    </div>
+</form>
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+
+        </div>
+        <div id="nav">
+            <div class="wrap clearfix">
+                <ul>
+        <li class="nLi"><a href="../../index.htm">网站首页</a></li>
+      <li class="firstmenu nLi">
+        <a href="../../sszs.htm">硕士招生</a>
+            <ul class="secmenu clearfix">
+                  <li class="secul"><a href="../../sszs/tzgg.htm">通知公告</a></li>
+                  <li class="secul"><a href="../../sszs/gs.htm">公示</a></li>
+                  <li class="secul"><a href="../../sszs/zsjz.htm">招生简章</a></li>
+                  <li class="secul"><a href="../../sszs/zyml.htm">专业目录</a></li>
+            </ul>
+      </li>
+      <li class="firstmenu nLi">
+        <a href="../../bszs.htm">博士招生</a>
+            <ul class="secmenu clearfix">
+                  <li class="secul"><a href="../../bszs/tzgg.htm">通知公告</a></li>
+                  <li class="secul"><a href="../../bszs/gs.htm">公示</a></li>
+                  <li class="secul"><a href="../../bszs/zsjz.htm">招生简章</a></li>
+                  <li class="secul"><a href="../../bszs/zyml.htm">专业目录</a></li>
+            </ul>
+      </li>
+      <li class="firstmenu nLi">
+        <a href="../../cjwt.htm">常见问题</a>
+      </li>
+      <li class="firstmenu nLi">
+        <a href="../../lxfs.htm">联系方式</a>
+      </li>
+</ul>
+                <div id="nav-date"><script type="text/javascript">dispdate();</script></div>
+            </div>
+        </div>
+    </div>
+    <div id="content" class="clearfix">
+        <div class="photo">
+            <!-- <img src="images/photo.png"> -->
+        </div>
+        <div class="wrap clearfix">
+            <div id="sidebar">
+                <div class="title bgColor">硕士招生</div>
+                <ul>
+            <li class="borderColor">
+            <a href="../../sszs/tzgg.htm">
+                通知公告 <img src="../../images/off.png">
+            </a>
+        </li>
+        <li class="borderColor">
+            <a href="../../sszs/gs.htm">
+                公示 <img src="../../images/off.png">
+            </a>
+        </li>
+        <li class="borderColor">
+            <a href="../../sszs/zsjz.htm">
+                招生简章 <img src="../../images/off.png">
+            </a>
+        </li>
+        <li class="borderColor">
+            <a href="../../sszs/zyml.htm">
+                专业目录 <img src="../../images/off.png">
+            </a>
+        </li>
+</ul>
+            </div>
+            <div id="mainRight">
+                
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname"><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script>
+<div class="title">关于调整南京工业大学2026年硕士研究生招生考试初试部分业务课二考试科目的通知</div>
+<div class="time">
+    <ul class="clearfix">
+        <li>阅读次数：<script>_showDynClicks("wbnews", 1816331650, 1521)</script></li>
+        <li>发布时间：2025-03-07</li>
+        <li>更新时间：2025-03-07</li>
+    </ul>
+</div>
+<div class="txt">
+<div id="vsb_content"><div class="v_news_content">
+<p style="text-align:center;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:37px;line-height:21px"><br></p><p style="text-indent: 37px;line-height: 21px"><span style="font-family: 宋体, SimSun; letter-spacing: 0px; font-size: 18px;">为方便广大考生提前做好2026年硕士研究生招生考试（初试）准备，根据上级部门相关政策和我校实际情况，现将我校2026年硕士研究生招生考试初试部分业务课二考试<span style="font-family: 宋体, SimSun; letter-spacing: 0px; text-indent: 37px; text-wrap-mode: wrap;">科</span>目调整情况公告如下:</span></p><div align="center"><table cellspacing="0" width="747"><tbody><tr class="firstRow" style="height:53px"><td width="157" valign="center" nowrap style="padding: 0px 7px; border-width: 1px; border-style: solid; border-color: rgb(0, 0, 0);"><p style="text-align:center;vertical-align:middle"><strong><span style="font-size: 16px">学院</span></strong></p></td><td width="184" valign="center" nowrap style="padding: 0px 7px; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);"><p style="text-align:center;vertical-align:middle"><strong><span style="font-size: 16px">专业</span></strong></p></td><td width="189" valign="center" nowrap style="padding: 0px 7px; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);"><p style="text-align:center;vertical-align:middle"><strong><span style="font-size: 16px">原业务课二</span></strong></p></td><td width="217" valign="center" nowrap style="padding: 0px 7px; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);"><p style="text-align:center;vertical-align:middle"><strong><span style="font-size: 16px">调整后科目</span></strong></p></td></tr><tr style="height:53px"><td width="157" valign="center" rowspan="2" style="padding: 0px 7px; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);"><p style="text-align:center;vertical-align:middle"><span style="font-size: 15px">计算机与信息工程学院</span></p><p style="text-align:center;vertical-align:middle"><span style="font-size: 15px">（人工智能学院）</span></p></td><td width="184" valign="center" nowrap style="padding: 0px 7px; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);"><p style="text-align:center;vertical-align:middle"><span style="font-size: 15px">081200计算机科学与技术</span></p></td><td width="189" valign="center" nowrap style="padding: 0px 7px; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);"><p style="text-align:center;vertical-align:middle"><span style="font-size: 15px">828数据结构与操作系统</span></p></td><td width="217" valign="center" nowrap rowspan="3" style="padding: 0px 7px; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);"><p style="text-align:center;vertical-align:middle"><span style="font-size: 15px">408计算机学科专业基础</span></p></td></tr><tr style="height:53px"><td width="184" valign="center" nowrap style="padding: 0px 7px; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);"><p style="text-align:center;vertical-align:middle"><span style="font-size: 15px">085400 电子信息</span></p></td><td width="189" valign="center" style="padding: 0px 7px; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);"><p style="text-align:center;vertical-align:middle"><span style="font-size: 15px">828数据结构与操作系统</span></p><p style="text-align:center;vertical-align:middle"><span style="font-size: 15px">817信号系统与数字电路</span></p></td></tr><tr style="height:53px"><td width="157" valign="center" style="padding: 0px 7px; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);"><p style="text-align:center;vertical-align:middle"><span style="font-size: 15px">联合培养</span></p><p style="text-align:center;vertical-align:middle"><span style="font-size: 15px">（盐城师范学院）</span></p></td><td width="184" valign="center" nowrap style="padding: 0px 7px; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);"><p style="text-align:center;vertical-align:middle"><span style="font-size: 15px">085400 电子信息</span></p></td><td width="189" valign="center" nowrap style="padding: 0px 7px; border-width: 1px; border-style: solid; border-color: rgb(51, 51, 51);"><p style="text-align:center;vertical-align:middle"><span style="font-size: 15px">828数据结构与操作系统</span></p></td></tr></tbody></table></div><p style="text-align:justify;text-indent:40px;text-justify:inter-ideograph;vertical-align:middle"><span style="font-family: 宋体, SimSun; letter-spacing: 0px; font-size: 18px;">计算机与信息工程学院（人工智能学院）085400电子信息的“05电子与通信工程”方向拟安排在085402通信工程（含宽带网络、移动通信等）专业招生，业务课二考试<span style="font-family: 宋体, SimSun; letter-spacing: 0px; text-align: justify; text-indent: 40px; text-wrap-mode: wrap;">科</span>目为817信号系统与数字电路。</span></p><p style="margin-top: 0;margin-right: 0;margin-bottom: 0;text-indent: 40px;line-height: 21px"><span style="font-family: 宋体, SimSun; letter-spacing: 0px; font-size: 18px;">其他招生专业、方向设置、考试科目如有调整，以南京工业<span style="letter-spacing: 0px; font-size: 18px; font-family: 宋体;">大学2026年硕士研究生招生专业目录公布为准。</span></span></p><p style="text-indent: 37px;line-height: 21px"><span style="font-family: 宋体, SimSun; letter-spacing: 0px; font-size: 18px;">请广大考生知悉并积极备考，及时关注南京工业大学研究生招生信息网。</span></p><p style="text-align:right;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:0;line-height:21px"><span style="font-family: 宋体, SimSun; letter-spacing: 0px; font-size: 18px;">南京工业大学研究生院</span></p><p style="text-align:right;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;text-indent:0;line-height:21px"><span style="font-family: 宋体, SimSun; letter-spacing: 0px; font-size: 18px;">2025年3月7日</span></p><p><br></p>
+</div></div>
+</div>
+</form>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="clearfix">
+        <div class="wrap">
+            <div class="copyright fl">
+                <!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>Copyright © 2021 南京工业大学研究生招生网 版权所有</p><p>地址：江苏省南京市浦口区浦珠南路30号</p><p>邮编：211816</p><p><br /></p>
+            </div>
+            <div class="copyright-line fl" style="display:none;"></div>
+            <div class="footer-link-box fl" style="display:none;">
+                <script language="javascript" src="/system/resource/js/openlink.js"></script><select class="footer-link" id="zsxy">
+    <option value="">--招生学院链接--</option>
+              
+            <option value="http://cces.njtech.edu.cn/">安全科学与工程学院</option>
+        <option value="http://hj.njtech.edu.cn/">环境科学与工程学院</option>
+        <option value="http://cly.njtech.edu.cn/">材料科学与工程学院</option>
+        <option value="http://hgy.njtech.edu.cn/">化工学院</option>
+        <option value="http://chem.njtech.edu.cn/">化学与分子工程学院</option>
+        <option value="http://eecs.njtech.edu.cn/">电气工程与控制科学学院</option>
+        <option value="http://mech.njtech.edu.cn/">机械与动力工程学院</option>
+        <option value="http://ny.njtech.edu.cn/">能源科学与工程学院</option>
+        <option value="http://arch.njtech.edu.cn/">建筑学院</option>
+        <option value="http://art.njtech.edu.cn/">艺术设计学院</option>
+        <option value="http://jgy.njtech.edu.cn/">经济与管理学院</option>
+        <option value="http://fzxy.njtech.edu.cn/">法政学院</option>
+        <option value="http://zjy.njtech.edu.cn/">马克思主义学院</option>
+        <option value="http://english.njtech.edu.cn/">外国语言文学学院</option>
+        <option value="http://life-phar.njtech.edu.cn/">生物与制药工程学院</option>
+        <option value="http://spy.njtech.edu.cn/">食品与轻工学院</option>
+        <option value="http://pharm.njtech.edu.cn/">药学院</option>
+        <option value="http://cise.njtech.edu.cn/">计算机科学与技术学院</option>
+        <option value="http://lxy.njtech.edu.cn/">数理科学学院</option>
+        <option value="http://iam.njtech.edu.cn/">先进材料研究院</option>
+        <option value="http://cge.njtech.edu.cn/">测绘科学与技术学院</option>
+        <option value="http://csjsxy.njtech.edu.cn/">城市建设学院</option>
+        <option value="http://trans.njtech.edu.cn/">交通运输工程学院</option>
+        <option value="http://cce.njtech.edu.cn/">土木工程学院</option>
+        <option value="http://tyxy.njtech.edu.cn/">体育学院</option>
+</select>
+        
+                <select class="footer-link" id="xwlj">
+    <option value="">--校外链接--</option>
+              
+            <option value="https://www.nju.edu.cn">南京大学</option>
+</select>
+            </div>
+            <div class="erweima clearfix fr">
+                <div class="txt fl">
+                    <p>请扫描二维码</p>
+                    <p>关注官方微信</p>
+                </div>
+                <div class="pic fl">
+                            <img src="../../images/1.jpg">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        //导航栏----开始
+        $("#nav .wrap ul").slide({
+            type: "menu",
+            titCell: ".nLi",
+            targetCell: ".secmenu",
+            effect: "slideDown",
+            delayTime: 300,
+            triggerTime: 0,
+            returnDefault: true
+        });//导航栏----结束
+        
+         $('#zsxy').change(function () {
+            var val = $(this).val();
+            window.open(val)
+          }); 
+          
+          $('#xwlj').change(function () {
+            var val = $(this).val();
+            window.open(val)
+          });
+    </script>
+</body>
+
+</html>

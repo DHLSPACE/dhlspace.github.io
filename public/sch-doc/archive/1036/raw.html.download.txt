@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>北京师范大学研究生招生网</title>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="author" content="Beijing Normal University" /> 
+        <meta name="description" content="北京师范大学是教育部直属重点大学，是一所以教师教育、教育科学和文理基础学科为主要特色的著名学府。学校的前身是1902年创立的京师大学堂师范馆，1908年改称京师优级师范学堂，独立设校。1912年改名为北京高等师范学校。1923年更名为北京师范大学，成为中国历史上第一所师范大学。1931年、1952年北平女子师范大学、辅仁大学先后并入北京师范大学。" />
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?e85d7e3fab5d4d96143892e9384d8146";
+                var s = document.getElementsByTagName("script")[0]; 
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+        <script src="/content/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="/content/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+        <script src="/content/ajax/libs/linq.js/2.2.0.2/jquery.linq.min.js"></script>
+        <script src="/content/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
+        <script src="/scripts/dengdu/dengdu.js"></script>
+        <script src="/scripts/dengdu/dengdu.bootstrap.js"></script>
+        <link href="/content/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/content/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/scripts/miniui/themes/icons.css" rel="stylesheet" />
+        <link href="/scripts/miniui/themes/default/miniui.css" rel="stylesheet" />
+        <link href="/scripts/miniui/themes/metro-white/skin.css?v=20201109" rel="stylesheet" />
+        <link href="/scripts/areas/core/atom.css?v=20201109" rel="stylesheet" />
+        <link href="/scripts/areas/core/area.css?v=20201109" rel="stylesheet" />
+        <link href="/scripts/areas/core/xlarge-mode.css?v=20201109" rel="stylesheet" />
+        
+        <link href="/content/script/flexslider.min.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]><script src="/content/script/html5shiv.min.js"></script><script src="/content/script/respond.min.js"></script><![endif]-->
+        <style type="text/css">
+            body {
+                font-family: "微软雅黑";
+            }
+            #header{
+                padding-top:20px;
+                padding-bottom:15px;
+                background-color:#004EA2;
+            }
+            #footer{
+                text-align:center;
+                background-color:#004EA2;
+                color:white;
+                height:60px;
+                line-height:60px;
+                margin-top: 20px;
+            }
+            #nav{
+                margin-bottom:0px;                
+            }
+            #nav a{
+                font-size:16px;
+            }
+            #content{
+                margin-top:20px;
+            }
+            .sidebar{
+                background-color: #f3f9fc;
+                padding:20px 0px 20px 0px;
+            }
+            .sidebar span {
+                width:100%;
+                display:block;
+                text-align: center;
+                margin-top:5px;
+            }
+            .sidebar .morelinks{                
+                color: #BF2501;
+                font-size: 16px;                
+            }
+
+            .flexslider {
+                border:0;
+                margin-bottom:0px; 
+            }
+            .flex-control-nav {
+                display:none;
+            }
+            .article-list {
+                margin-top:10px;
+            }
+            .article-list .boxtitle {
+                border-bottom: 1px solid #c9c9c9;
+                padding-bottom: 10px;
+                margin-bottom:10px;
+            }
+            .article-list .boxtitle .title{
+                font-size: 20px;
+                color: #141414;
+                font-weight: bold;
+            }
+            .article-list .boxtitle .more{
+                position: absolute;
+                right:20px;
+                color:#a9a9a9;
+            }
+            .article-list .boxlist{
+                margin-left:10px;
+            }
+            .article-list .boxlist ul{
+                list-style:none;
+                margin:0;
+                padding:0;
+            }
+            .article-list .boxlist ul li{
+                margin-top:10px;
+            }
+            .article-list .boxcontent{
+                margin-top:20px;
+            }
+            .article-list .boxpager{
+                border-top: 1px solid #c9c9c9;
+                margin-top:10px;
+                padding-top:10px;
+                color:#999;
+            }
+            .my-breadcrumb {
+                margin-top:10px;
+                color:#999;
+            }
+            .my-breadcrumb a {
+                color:#999;
+            }
+            td {
+                padding: 5px 2px 5px 2px;
+            }
+            td p {
+                /* margin: 5px 2px 5px 2px; */
+                margin: 0px;
+            }
+            .container {
+                max-width: 1200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <a href="/" style="font-size:2em; color:white;"><img src="/content/style/yz-logo.png" alt="北京师范大学" /></a>
+                    </div>
+                    <div class="col-md-3">
+                        <form name="dataForm" action="/search" method="post" style="margin-top:5px;">
+                            <div class="input-group">                                
+                                <input type="text" name="pattern" class="form-control" placeholder="搜索关键字">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="nav" class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">首页</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="/list/master" class="dropdown-toggle" data-hover="dropdown">硕士生招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="/list/master_board">最新消息</a></li>
+                                <li><a href="/list/master_brochure">招生简章</a></li>
+                                <li><a href="/list/master_info">历年数据</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="/list/doctor" class="dropdown-toggle" data-hover="dropdown">博士生招生 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="/list/doctor_board">最新消息</a></li>
+                                <li><a href="/list/doctor_brochure">招生简章</a></li>
+                                <li><a href="/list/doctor_info">历年数据</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/list/gat">港澳台招生</a></li>
+                        <li><a href="https://admission-is.bnu.edu.cn/" target="_blank">留学生招生</a></li>
+                        <li><a href="/list/open">信息公开</a></li>
+                        <li><a href="/list/faq">常见问题</a></li>
+                        <li><a href="/list/contact">联系我们</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="navbar navbar-bg hidden-md hidden-lg">
+            <div class="container">
+                <div class="row">
+                    <ul class="nav">
+                        <li class="col-sm-4 col-xs-6"><a href="/list/master">硕士生招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/doctor">博士生招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/gat">港澳台招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/foreign">留学生招生</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/open">信息公开</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/faq">常见问题</a></li>
+                        <li class="col-sm-4 col-xs-6"><a href="/list/contact">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="content" class="container">
+            <div class="row">
+                <div class="col-sm-10">
+    <div class="article-list">
+        <div class="boxtitle">
+            <span class="title" style="font-size:30px;">招生简章</span>
+            <div class="my-breadcrumb">
+                当前位置：<a href="/">首页</a> 
+                <a href="/list/master">&raquo;  硕士生招生</a>
+                <a href="/list/master_brochure">&raquo;  招生简章</a>
+                &raquo;
+                详细页
+            </div>
+        </div>        
+        <div class="boxcontent">
+            <h4 class="text-center strong">
+                <strong>北京师范大学2026年硕士研究生招生简章</strong>
+            </h4>
+            <div class="text-center text-muted">发布时间：2025-10-09　<span>阅读 272253 次</span></div>
+            <div class="article-content" style="margin-top:10px;">
+                <p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	北京师范大学是教育部直属重点大学，是一所以教师教育、教育科学和文理基础学科为主要特色的著名学府，是国家“<span>985</span>工程”和“<span>211</span>工程”重点建设高校，<span>2017</span>年进入国家“世界一流大学”建设<span>A</span>类名单，<span>2022</span>年<span>12</span>个学科入选第二轮“双一流”建设学科，入选学科数量位居全国高校前列。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	北京师范大学学科综合实力位居全国高校前列。我校为首批<span>20</span>所学位授权自主审核单位之一。根据全国第四轮学科评估结果，我校教育学、心理学、中国语言文学、中国史、戏剧与影视学、地理学<span>6</span>个一级学科获评<span>A+</span>，<span>2</span>个一级学科获评<span>A</span>，<span>7</span>个一级学科获评<span>A-</span>，获评<span>A+</span>学科数量居全国高校第六位。
+</p>
+<p style="margin-left:0cm;text-indent:24.1pt;background:white;">
+	<b>一、招生人数</b> 
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	我校硕士研究生招生始终坚持“全面衡量、择优录取、确保质量、宁缺毋滥”的原则。我校<span>2026</span>年拟招收硕士研究生<span>5200</span>余人，招生专业目录中各院（系）、各专业所列招生人数仅供参考，且包含拟接收推荐免试生人数，最终招生总人数以教育部正式下达的招生计划文件为准，录取阶段可能会根据生源情况及考试成绩等进行适当调整。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	我校少数民族高层次骨干人才计划、援藏计划和退役大学生士兵计划等属于专项计划，面向部分专业招生，详见附件<span>1</span>。
+</p>
+<p style="margin-left:0cm;text-indent:24.1pt;background:white;">
+	<b>二、<a name="undefined"></a>报考条件</b> 
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（一）报名参加全国硕士研究生招生考试的人员，须符合下列条件：
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	1.中华人民共和国公民。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	2.拥护中国共产党的领导，品德良好，遵纪守法。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	3.身体健康状况符合国家和我校规定的体检要求。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	4.考生学业水平必须符合下列条件之一：
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（<span>1</span>）国家承认学历的应届本科毕业生（含普通高校、成人高校、普通高校举办的成人高等学历教育等应届本科毕业生）及自学考试和网络教育届时可毕业本科生。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（<span>2</span>）具有国家承认的大学本科毕业学历的人员。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（<span>3</span>）获得国家承认的高职高专毕业学历后满<span>2</span>年（从毕业后到录取当年入学前）或<span>2</span>年以上的人员，以及国家承认学历的本科结业生，须同时满足以下三个条件，可按本科毕业同等学力身份报考。条件为：①修完大学本科相关专业全部必修课程；②在所报考专业领域的学术期刊上以第一作者发表过两篇（含）以上论文；③报考专业与所学专业相同或相近。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（<span>4</span>）已获硕士、博士研究生学历或学位的人员。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（二）报名参加以下专业学位全国硕士研究生招生考试的，按下列规定执行。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	1.报名参加法律（非法学）专业学位研究生招生考试的人员，须符合下列条件：
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（<span>1</span>）符合“二、报考条件”第（一）条中的各项要求。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（<span>2</span>）报考前所学专业为非法学专业。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	2.报名参加法律（法学）专业学位硕士研究生招生考试的人员，须符合下列条件：
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（<span>1</span>）符合“二、报考条件”第（一）条中的各项要求。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（<span>2</span>）报考前所学专业为法学专业（获得法学第二学士学位的人员可报考）。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	3.报名参加工商管理、公共管理和工程管理专业学位硕士研究生招生考试的人员，须符合下列条件：
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（<span>1</span>）符合“二、报考条件”第（一）条中第<span>1</span>、<span>2</span>、<span>3</span>各项的要求。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（<span>2</span>）本科毕业后有三年以上（含三年）工作经验的人员；或获得国家承认的高职高专毕业学历或本科结业并有五年以上（含五年）工作经验的，按本科毕业同等学力身份报考的人员；或获得硕士、博士研究生学历或学位后有两年以上（含两年）工作经验的人员。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	4.报名参加教育硕士中的教育管理专业学位硕士研究生招生考试的人员，须符合下列条件：
+</p>
+<p style="margin-left:0cm;text-indent:24.1pt;background:white;">
+	（<span>1</span>）符合“二、报考条件”第（一）条中第<span>1</span>、<span>2</span>、<span>3</span>各项的要求。
+</p>
+<p style="margin-left:0cm;text-indent:24.1pt;background:white;">
+	（<span>2</span>）大学本科毕业后有三年以上（含三年）工作经验的人员；或获得国家承认的高职高专毕业学历或大学本科结业并有五年以上（含五年）工作经验的人员，还须同时满足以下三个条件，可按本科毕业同等学力身份报考，条件为：①修完大学本科相关专业全部必修课程；②在所报考专业领域的学术期刊上以第一作者发表过两篇以上（含）论文；③报考专业与所学专业相同或相近；或获得硕士、博士研究生学历或学位后有两年以上（含两年）工作经验的人员。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	5.报名专业学位硕士研究生招生考试的人员，须符合我校招生专业目录和招生说明中的特殊要求。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	现役军人报考硕士研究生，还应遵守军队相关部门要求。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	在读研究生报考须在报名前征得所在培养单位同意。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	6.考生应在报名前仔细核对本人是否符合报考条件（包括学校和报考院系、专业、方向发布的报考条件），因不符合报考条件产生的相关后果由考生本人承担。
+</p>
+<p style="margin-left:0cm;text-indent:24.1pt;background:white;">
+	<b>三、报名</b> 
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	【说明：网上报名时须如实、准确地填写信息，报名信息经考生确认后一律不作修改，因考生填写错误产生的相关后果由考生本人承担。凡不符合报考条件或弄虚作假者，不予录取。】
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	报名包括网上报名和网上确认两个阶段，缺一不可。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（一）网上报名
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	1.网上报名时间为<span>2025</span>年<span>10</span>月<span>16</span>日—<span>27</span>日（每天<span>9:00-22:00</span>）。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	网上预报名时间为<span>2025</span>年<span>10</span>月<span>10</span>日—<span>13</span>日（每天<span>9:00-22:00</span>）。预报名信息为网报有效信息。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	2.考生应在规定时间登录 “中国研究生招生信息网”（<span>https://yz.chsi.com.cn</span>）和“北京师范大学研究生招生网”（<span>https://yz.bnu.edu.cn</span>）浏览报考须知，按教育部、省级教育招生考试机构、报考点以及北京师范大学的网上公告要求报名。考生对报名信息要进行认真核对和确认，逾期不得修改报名信息，因考生信息填写错误引起的一切后果由考生本人自行承担。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	3.网报期间将对考生学历（学籍）信息进行网上校验，考生可上网查看学历（学籍）校验结果。考生也可在报名前或报名期间自行登录“中国高等教育学生信息网”（网址：<span>https://www.chsi.com.cn</span>）查询本人学历（学籍）信息。未能通过学历（学籍）网上校验的考生应在网上确认前完成学历（学籍）核验。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（二）网上确认
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	所有考生均应当在规定时间内进行网上确认，逾期不再补办。全国各报考点的确认时间等信息由各省级教育招生考试机构根据国家招生工作安排、本地区报考组织情况自行确定并公布，请考生密切关注“中国研究生招生信息网”并及时查看报考点关于网上确认的通知。
+</p>
+<p style="margin-left:0cm;text-indent:24.1pt;background:white;">
+	<b>四、考试</b> 
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	考试分初试和复试两个阶段。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（一）初试
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	1.初试时间：<span>2025</span>年<span>12</span>月<span>20</span>日至<span>12</span>月<span>21</span>日（每天上午<span>8:30-11:30</span>，下午<span>14:00-17:00</span>）。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	初试具体地点由报考点安排。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	2.初试科目详见招生专业目录，初试方式均为笔试。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	3.准考证请于考前十天左右从中国研究生招生信息网下载。考生凭准考证及有效居民身份证参加初试和复试。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（二）复试
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	1.符合报考条件的考生，达到我校自主划定复试分数线，具有复试资格。复试大约安排在<span>2026</span>年<span>3</span>月中旬，具体时间将在北京师范大学研究生招生网公布。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	2.复试内容采取面试、专业笔试、外国语听力及口语测试、实验操作等其一或多种组合，进一步考查考生的专业基础、综合分析能力等。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	3.实行差额复试，差额比例一般不低于<span>120%</span>，合格生源比例不足的，按实际合格生源数组织复试。具体差额复试比例，以及初试和复试成绩权重等由各院（系）根据本学科专业特点及生源情况在复试前确定。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	4.以同等学力参加复试的考生，在复试中须加试至少两门与报考专业相关的本科主干课程。加试方式为笔试，加试科目与初试科目不同。加试不合格者不予录取。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	5.学历（学籍）信息核验有问题的考生，复试时须提供学历（学籍）认证报告，以供核验。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	6.复试不合格考生不予录取。
+</p>
+<p style="margin-left:0cm;text-indent:24.1pt;background:white;">
+	<b>五、录取与调剂</b> 
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	1.我校根据考生初试和复试成绩，结合其平时学习成绩<span>/</span>工作业绩、思想政治表现等因素确定录取名单。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	录取信息中的就业方式分为非定向就业和定向就业两种。北京校区和珠海校区的非定向就业硕士研究生，须将人事档案转入北京师范大学（地址为北京市海淀区新街口外大街<span>19</span>号），自愿选择是否将户口迁入北京师范大学（地址为北京市海淀区新街口外大街<span>19</span>号）。定向就业硕士研究生的人事档案、户口均不迁入北京师范大学。一经录取后，不得变更录取信息中的就业方式。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	定向就业的硕士研究生均须在被录取前与招生单位、用人单位分别签订定向就业协议。考生需自行处理与工作或学习单位因考试录取而产生的所有问题。如果因此造成不能复试或录取，我校不承担责任。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	学习方式分为全日制和非全日制两种。除单独考试外，学术学位硕士研究生均为全日制。专业学位硕士研究生学习形式详见附件<span>2</span>。全日制硕士研究生在基本修业年限内全脱产在校学习。非全日制硕士研究生在学校规定的修业年限内采取多种方式和灵活时间进行非脱产学习。我校非全日制硕士研究生仅招收在职定向就业人员。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	应届本科毕业生及自学考试和网络教育届时可毕业本科生考生，在录取当年入学前须取得国家承认的国（境）内高校本科毕业证书或教育部留学服务中心出具的《国（境）外学历学位认证书》。录取当年入学前未取得相关证书的，其录取资格无效。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	体检在新生入学时统一进行。体检不合格者，取消入学资格。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	任何时候发现弄虚作假者，我校将取消其录取资格，已入学的取消学籍，责任由考生自负。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	2.未被我校拟录取的考生，达到教育部规定的复试基本要求，可以联系其他招生单位进行调剂复试及录取。我校不向调入单位提供自命题科目试卷等相关材料。
+</p>
+<p style="margin-left:0cm;text-indent:24.1pt;background:white;">
+	<b>六、学费、学制和培养</b> 
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	1.所有硕士研究生均需缴纳学费。学术学位硕士研究生学制<span>3</span>年，学费标准为<span>0.8</span>万元<span>/</span>生<span>/</span>学年，每学年第一学期开学报到时缴纳，分三学年缴纳。专业学位硕士研究生学制和学费标准见附件<span>2</span>。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	2.北京校区和珠海校区硕士研究生学籍均归属于北京师范大学。
+</p>
+<p style="margin-left:0cm;text-indent:24.1pt;background:white;">
+	<b>七、住宿</b> 
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	在学制规定年限内，培养地点在北京校区的全日制非定向学术学位硕士研究生由学校在北京安排住宿；培养地点在北京的专业学位和定向学术学位硕士研究生不解决住宿；培养地点在珠海的全日制硕士研究生，由学校在珠海安排住宿；“少数民族高层次骨干人才计划”、“退役大学生士兵计划”和“援藏计划”等部分专项计划硕士研究生，由学校安排住宿。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	其中物理与天文学院在北京校区培养的全日制非定向学术学位硕士研究生，学校将在海淀校园和昌平校园育荣园区统筹安排住宿；环境学院和水科学研究院在北京校区培养的非定向全日制学术学位硕士研究生，学校将在昌平校园育荣园区安排住宿；人工智能学院在北京校区培养的非定向全日制学术学位硕士研究生，学校将在昌平校园安排住宿。
+</p>
+<p style="margin-left:0cm;text-indent:24.1pt;background:white;">
+	<b>八、</b><b>出国培养和硕博连读</b> 
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	1.我校实施国家留学基金委“国家建设高水平大学公派研究生项目”等国家公派项目，在学校重点建设的学科领域，每年选拔在读研究生进行联合培养或攻读学位。详情请登录我校教务部（研究生院）网站查询。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	2.成绩优秀、科研能力突出的学术学位硕士研究生可申请硕博连读，考核合格后即可在规定时间进入博士阶段学习。
+</p>
+<p style="margin-left:0cm;text-indent:24.1pt;background:white;">
+	<b>九、其他</b> 
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	1.我校研究生招生信息均在网上公开发布。推免生接收、报名、初试成绩、分数线、复试安排、拟录取名单等均可在北京师范大学研究生招生网（<span>https://yz.bnu.edu.cn</span>）查询，请及时关注。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	2.我校不举办任何形式的考前辅导班。招生办公室不提供往年考研试题，不出售参考书或办理邮购业务。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	3.若教育部在<span>2026</span>招生年度出台新的研究生招生政策，我校将做相应调整并予以公布。
+</p>
+<p style="margin-left:0cm;text-indent:23.5pt;background:white;">
+	4.联系方式：
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（<span>1</span>）北京师范大学招生办公室
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	电话：（<span>010</span>）<span>58808156</span> 
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	招生咨询邮箱：<span>yanzh@bnu.edu.cn</span> 
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	办公地点：北京市海淀区新街口外大街<span>19</span>号北京师范大学主楼<span>A</span>区<span>103</span>室
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（<span>2</span>）通讯地址：北京师范大学招生办公室，邮政编码：<span>100875</span>。
+</p>
+<p style="margin-left:24.0pt;background:white;">
+	（<span>3</span>）北京师范大学各院（系）联系方式<span><a href="http://yz.bnu.edu.cn/detail/d145d708"><span>请点击此处查询</span></a></span>。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（<span>4</span>）北京师范大学研究生招生监督邮箱：<span>yanzhjd@bnu.edu.cn</span>。
+</p>
+<p style="margin-left:0cm;text-indent:24.0pt;background:white;">
+	（<span>5</span>）北京师范大学查号台：（<span>010</span>）<span>58806183</span>。
+</p>
+
+                <div>
+                    <hr/>
+                    <p>
+                        <strong>附件列表</strong>
+                    </p>
+                    <ol>
+                        <li><a target="_blank" href="/core/ucontent/fmfile/dd_article_attachment?attname=opath&amp;attvalue=/2025/20251009-092628-247133-a4b518.pdf&amp;name=2026年专项计划说明"><span>2026年专项计划说明</span></a></li>
+                        <li><a target="_blank" href="/core/ucontent/fmfile/dd_article_attachment?attname=opath&amp;attvalue=/2026/20260310-101706-609808-69d957.pdf&amp;name=2026年专业学位硕士学习方式、学制学费一览表"><span>2026年专业学位硕士学习方式、学制学费一览表</span></a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                <div class="col-md-2 col-sm-12">
+                    <div class="sidebar" style="min-height: 300px;">
+                        <div class="col-md-12 col-sm-4 nopadding"> 
+                            <span class="morelinks">常用链接</span>
+                            <span><a href="http://www.bnu.edu.cn" target="_blank">学校主页</a></span>
+                            <span><a href="http://jwb.bnu.edu.cn/" target="_blank">教务部</a></span>
+                            <span><a href="http://www.bnu.edu.cn/kxyj/" target="_blank">科学研究</a></span>
+                            <span><a href="https://yz.bnu.edu.cn/content/dsfc/index_dsfc.html" target="_blank">导师风采</a></span>
+                            <span><a href="http://www.bnu.edu.cn/xbyx/" target="_blank">学部院系</a></span>
+                            <span><a href="http://www.bnu.edu.cn/zzjg/" target="_blank">组织机构</a></span>
+
+                            <div style="text-align:center; margin-top: 20px;">
+                                <img src="/content/style/wx_jsyz.jpg" style="width: 100%;">
+                                微信公众号
+                            </div>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>	
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            &copy; 版权所有 北京师范大学　地址：北京市新街口外大街19号　邮编：100875
+        </div>
+        <div class="text-center small" style="display:none;">
+
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="/content/script/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="/content/script/bootstrap-hover-dropdown.min.js"></script>
+        <script src="/content/script/jquery.flexslider-min.js"></script>
+        <script src="/content/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/scripts/miniui/miniui.js"></script>    
+        <script id="seajsid" type="text/javascript" src="/scripts/seajs/sea.js"></script>
+        <script type="text/javascript" src="/scripts/seajs/seajs-css.js"></script>
+        <script type="text/javascript" src="/scripts/areas/core/config.js?v=41"></script>
+        <script type="text/javascript" src="/scripts/areas/core/core.miniui.js?v=41"></script>
+        <script>
+            // Can also be used with $(document).ready()
+            $(document).ready(function(){
+                $('.flexslider').flexslider({
+                    animation: "slide",
+                    slideshowSpeed: 10000
+                    //controlsContainer: ".flex-container"
+                });
+
+            });
+        </script>
+    </body>
+</html>

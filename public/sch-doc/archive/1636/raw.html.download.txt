@@ -1,0 +1,307 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=1280">
+    <title>通知公告-研究生院</title><META Name="keywords" Content="研究生院,通知公告" />
+
+    <link rel="stylesheet" type="text/css" href="../css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/list.css">
+    <script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.SuperSlide.js"></script> <!-- 导航菜单 -->
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230776447565352574103080004 -->
+<link rel="stylesheet" type="text/css" href="../list.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1032,'/list.jsp',-1,2017989541)</script>
+</head>
+<body>
+    <div class="header">
+        <div class="wrap clearfix">
+            <div class="logo fl">
+                
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="../index.htm" title="研究生院"><img src="../images/yjslogo18.png" width="520" height="68" border="0" alt="研究生院" title="研究生院"></a>
+            </div>
+            <script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode1045092').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey1045092").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey1045092").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1045092").value = base64.encode(document.getElementById("lucenenewssearchkey1045092").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1045092"));
+        return true;
+    } 
+</script>
+<form action="../search.jsp?wbtreeid=1032" method="post" id="au1a" name="au1a" onsubmit="return _nl_ys_check()" style="display: inline">
+    <input type="hidden" id="lucenenewssearchkey1045092" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype1045092" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope1045092" name="searchScope" value="0">
+    <div class="search clearfix fr">
+        <input class="text" type="text" name="showkeycode" id="showkeycode1045092">
+        <input class="button" type="image" src="../images/icon_search.png" align="absmiddle" style="cursor: hand">
+    </div>
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+
+        </div>
+    </div>
+    <div class="nav">
+        <div class="wrap clearfix">
+            <ul id="webmenu" class="first-menu clearfix">
+        <li><a href="../index.htm">网站首页</a></li>
+        <li><a href="../bmgk.htm">部门概况</a>
+                <ul class="second-menu">
+                        <li><a href="../bmgk/yjsyjj.htm">研究生院简介</a>
+                        </li>
+                        <li><a href="../bmgk/bmld.htm">部门领导</a>
+                        </li>
+                        <li><a href="../bmgk/gzzz.htm">工作职责</a>
+                        </li>
+                        <li><a href="../bmgk/lxwm.htm">联系我们</a>
+                        </li>
+                </ul>
+        </li>
+        <li><a href="https://gra.njtech.edu.cn/zsw/" target="_blank">招生工作</a>
+        </li>
+        <li><a href="../szjy.htm">思政教育</a>
+                <ul class="second-menu">
+                        <li><a href="../szjy/tzgg.htm">通知公告</a>
+                        </li>
+                        <li><a href="../szjy/szdt.htm">思政动态</a>
+                        </li>
+                        <li><a href="../szjy/glgd.htm">管理规定</a>
+                        </li>
+                        <li><a href="../szjy/xgxz.htm">相关下载</a>
+                        </li>
+                </ul>
+        </li>
+        <li><a href="../pygz.htm">培养工作</a>
+                <ul class="second-menu">
+                        <li><a href="../pygz/tzgg.htm">通知公告</a>
+                        </li>
+                        <li><a href="../pygz/glgd.htm">管理规定</a>
+                        </li>
+                        <li><a href="../pygz/pyfa.htm">培养方案</a>
+                        </li>
+                        <li><a href="../pygz/jyfx.htm">经验分享</a>
+                        </li>
+                        <li><a href="../pygz/kbap.htm">课表安排</a>
+                        </li>
+                        <li><a href="../pygz/xgxz.htm">相关下载</a>
+                        </li>
+                </ul>
+        </li>
+        <li><a href="../xwgz.htm">学位工作</a>
+                <ul class="second-menu">
+                        <li><a href="../xwgz/tzgg.htm">通知公告</a>
+                        </li>
+                        <li><a href="../xwgz/xwgl.htm">学位管理</a>
+                        </li>
+                        <li><a href="../xwgz/dsgl.htm">导师管理</a>
+                        </li>
+                        <li><a href="../xwgz/xgxz.htm">相关下载</a>
+                        </li>
+                </ul>
+        </li>
+        <li><a href="../jygz.htm">就业工作</a>
+                <ul class="second-menu">
+                        <li><a href="../jygz/tzgg.htm">通知公告</a>
+                        </li>
+                        <li><a href="../jygz/glgd.htm">管理规定</a>
+                        </li>
+                        <li><a href="../jygz/jytb.htm">就业填报</a>
+                        </li>
+                        <li><a href="../jygz/jyzd.htm">就业指导</a>
+                        </li>
+                        <li><a href="../jygz/jyfw.htm">就业服务</a>
+                        </li>
+                </ul>
+        </li>
+        <li><a href="../zljs.htm">质量建设</a>
+                <ul class="second-menu">
+                        <li><a href="../zljs/tzgg.htm">通知公告</a>
+                        </li>
+                        <li><a href="../zljs/xwsqd.htm">学位授权点</a>
+                        </li>
+                        <li><a href="../zljs/zdxk.htm">重点学科</a>
+                        </li>
+                </ul>
+        </li>
+        <li><a href="../zgzx.htm">卓工专项</a>
+                <ul class="second-menu">
+                        <li><a href="../zgzx/tzgg.htm">通知公告</a>
+                        </li>
+                        <li><a href="../zgzx/glgd.htm">管理规定</a>
+                        </li>
+                        <li><a href="../zgzx/xwdt.htm">新闻动态</a>
+                        </li>
+                </ul>
+        </li>
+        <li><a href="../xfjs.htm">学风建设</a>
+        </li>
+        <li><a href="../bszn.htm">办事指南</a>
+        </li>
+</ul>
+        </div>
+    </div>
+    <div class="photo"></div>
+    <div class="content wrap clearfix">
+        <div class="sidebar">
+            <div class="title bg_color">网站首页</div>
+            <ul>
+            <li class="border_color">
+            <a href="tpxw.htm">
+                图片新闻 <img src="../images/off.png">
+            </a>
+        </li>
+        <li class="border_color">
+            <a href="tzgg.htm" class="current">
+                通知公告 <img src="../images/off.png">
+            </a>
+        </li>
+        <li class="border_color">
+            <a href="xwdt.htm">
+                新闻动态 <img src="../images/off.png">
+            </a>
+        </li>
+        <li class="border_color">
+            <a href="szjy.htm">
+                思政教育 <img src="../images/off.png">
+            </a>
+        </li>
+        <li class="border_color">
+            <a href="pygz.htm">
+                培养工作 <img src="../images/off.png">
+            </a>
+        </li>
+        <li class="border_color">
+            <a href="xwgz.htm">
+                学位工作 <img src="../images/off.png">
+            </a>
+        </li>
+        <li class="border_color">
+            <a href="jygz.htm">
+                就业工作 <img src="../images/off.png">
+            </a>
+        </li>
+</ul>
+        </div>
+        <div class="mainRight">
+            <div class="title">
+                通知公告 <span class="location">
+    当前位置: 
+                        <a href="../index.htm">网站首页</a>
+                &gt;
+                <a href="tzgg.htm">通知公告</a>
+</span>
+            </div>
+            <div class="list">
+                
+
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><ul>
+            <li>
+            <a href="../info/1032/8438.htm">关于做好 2026 年江苏省产业教授年报和考核工作的通知</a>
+            <span class="date">2026-09-16</span>
+        </li>
+        <li>
+            <a href="../info/1032/8436.htm">关于开展2026年江苏省研究生导师类产业教授（兼职）选聘工作的通知</a>
+            <span class="date">2026-09-15</span>
+        </li>
+        <li>
+            <a href="https://jwc.njtech.edu.cn/info/1157/6912.htm">关于 2026 年下半年全国大学英语四、六级考试报名的通知</a>
+            <span class="date">2026-09-11</span>
+        </li>
+        <li>
+            <a href="../info/1032/8420.htm">关于2026年12月拟毕业研究生学位论文（实践成果）相似度检测和评阅工作的通知</a>
+            <span class="date">2026-09-11</span>
+        </li>
+        <li>
+            <a href="../info/1032/8442.htm">关于做好2026年研究生国家奖学金评审工作的通知</a>
+            <span class="date">2026-09-20</span>
+        </li>
+        <li>
+            <a href="../info/1032/8429.htm">关于开展2027届毕业研究生就业指导培训工作的通知</a>
+            <span class="date">2026-09-14</span>
+        </li>
+        <li>
+            <a href="../info/1032/8415.htm">关于开展2026-2027学年研究生勤工助学选聘工作的通知</a>
+            <span class="date">2026-09-08</span>
+        </li>
+        <li>
+            <a href="../info/1032/8416.htm">关于2027届毕业研究生就业推荐表注册、发放的通知</a>
+            <span class="date">2026-09-08</span>
+        </li>
+        <li>
+            <a href="../info/1032/8410.htm">关于做好2026级研究生无固定工资收入认定工作的通知</a>
+            <span class="date">2026-09-06</span>
+        </li>
+        <li>
+            <a href="../info/1032/8405.htm">关于做好2027届毕业研究生生源数据上报的通知</a>
+            <span class="date">2026-09-03</span>
+        </li>
+        <li>
+            <a href="../info/1032/8403.htm">关于公布2026年南京工业大学“双高协同”专项  研究生工作站及产业教授（研究生导师类）名单的通知</a>
+            <span class="date">2026-09-03</span>
+        </li>
+        <li>
+            <a href="../info/1032/8397.htm">2026年下半年全国大学英语四六级考试研究生预报名通知</a>
+            <span class="date">2026-09-02</span>
+        </li>
+        <li>
+            <a href="../info/1032/8390.htm">关于做好2027届毕业研究生一次性求职补贴发放工作的通知</a>
+            <span class="date">2026-09-01</span>
+        </li>
+        <li>
+            <a href="../info/1032/8386.htm">关于举办2026年大学生“AI+信息素养”大赛的通知</a>
+            <span class="date">2026-08-28</span>
+        </li>
+        <li>
+            <a href="../info/1032/8384.htm">关于做好2026-2027学年秋季学期研究生教材选用相关工作的通知</a>
+            <span class="date">2026-08-28</span>
+        </li>
+</ul>
+<div style="margin-top:30px;text-align:center;">
+    <link rel="stylesheet" Content-type="text/css" href="/system/resource/css/pagedown/sys.css"><div class="pb_sys_common pb_sys_normal pb_sys_style1" style="margin-top:10px;text-align:center;"><span class="p_t">共1295条</span> <span class="p_pages"><span class="p_first_d p_fun_d">首页</span><span class="p_prev_d p_fun_d">上页</span><span class="p_no_d">1</span><span class="p_no"><a href="tzgg/86.htm">2</a></span><span class="p_no"><a href="tzgg/85.htm">3</a></span><span class="p_no"><a href="tzgg/84.htm">4</a></span><span class="p_no"><a href="tzgg/83.htm">5</a></span><span class="p_dot">...</span><span class="p_no"><a href="tzgg/1.htm">87</a></span><span class="p_next p_fun"><a href="tzgg/86.htm">下页</a></span><span class="p_last p_fun"><a href="tzgg/1.htm">尾页</a></span></span></div>
+</div><script>_showDynClickBatch(['dynclicks_u7_8438','dynclicks_u7_8436','dynclicks_u7_8424','dynclicks_u7_8420','dynclicks_u7_8442','dynclicks_u7_8429','dynclicks_u7_8415','dynclicks_u7_8416','dynclicks_u7_8410','dynclicks_u7_8405','dynclicks_u7_8403','dynclicks_u7_8397','dynclicks_u7_8390','dynclicks_u7_8386','dynclicks_u7_8384'],[8438,8436,8424,8420,8442,8429,8415,8416,8410,8405,8403,8397,8390,8386,8384],"wbnews", 2017989541)</script>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="wrap clearfix">
+            <div class="copyright fl">
+                <!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>版权所有 © 2024 南京工业大学研究生院 All Rights Reserved.&nbsp;</p><p>地址：南京市江北新区浦珠南路30号&nbsp;</p><p>邮编：211816</p>
+            </div>
+            <div class="qrcode fr">
+                        <div class="qrcode_box">
+        <img src="../images/yjszs.jpeg">
+        <div class="explain">南工研究生招生</div>
+    </div>
+    <div class="qrcode_box">
+        <img src="../images/ngyjs.jpeg">
+        <div class="explain">南工研究生</div>
+    </div>
+    <div class="qrcode_box">
+        <img src="../images/yjsjy.jpeg">
+        <div class="explain">南工研究生就业</div>
+    </div>
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/common.js"></script> 
+</body>
+</html>

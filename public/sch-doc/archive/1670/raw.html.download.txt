@@ -1,0 +1,1889 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="dfiles/44035/template/kejidaxue/static/css/slick.css" rel="stylesheet">
+    <link href="dfiles/44035/template/kejidaxue/static/css/slick-theme.css" rel="stylesheet">
+    <link href="dfiles/44035/template/kejidaxue/static/css/hover.css" rel="stylesheet">
+    <link href="dfiles/44035/template/kejidaxue/static/css/publict.css" rel="stylesheet">
+    <link href="dfiles/44035/template/kejidaxue/static/css/index.css" rel="stylesheet">
+    <link href="dfiles/44035/template/kejidaxue/static/css/media.css" rel="stylesheet">
+    <script src="dfiles/44035/template/kejidaxue/static/js/jquery.min.js"></script>
+    <script src="dfiles/44035/template/kejidaxue/static/js/slick.js"></script>
+    <script src="dfiles/44035/template/kejidaxue/static/js/slick.min.js"></script>
+    <script src="dfiles/44035/template/kejidaxue/static/js/public.js"></script>
+    <link href="dfiles/44035/template/kejidaxue/static/css/swiper-3.4.2.min.css" rel="stylesheet" type="text/css">
+    <script src="dfiles/44035/template/kejidaxue/static/js/swiper-3.4.2.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <title>信息学院</title><META Name="keywords" Content="信息学院，中哈信息工程学院" />
+
+
+    <style>
+.swiper {
+      width: 100%;
+      height: 100%;
+      position:relative;
+      overflow: hidden;}
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;}
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;}
+.ban2 a:hover img {
+    transform: scale(1);}
+        .head:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 290px;
+    background: url(dfiles/11460/2023sygb/images/h-mask.jpg) no-repeat top center;}
+        .express {
+    margin-top: 30px;}
+
+ .express-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;}
+
+ .express-list .li {
+width: 48%;
+    margin: 1%;
+    color: red;
+    text-align-last: center;
+    padding: 4%;
+    border: 1px solid #004cda;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #004cda), color-stop(100, #009dcd));
+    background-image: -webkit-linear-gradient(left, #004cda 0%, #009dcd 100%);
+    background-image: linear-gradient(to right, #17a2b8 0%, #023a86 100%);}
+
+ 
+  a {
+    color: #ffffff;
+    text-align: center;}
+
+ .express-list .li img {
+    width: 30px;
+    margin-right: 10px;}
+
+   .niua{
+            color: #fff;}
+        .product-section {
+    padding-bottom: 50px;
+    position: relative;
+    background: url(dfiles/44035/static/images/productbase-features-bag.jpg) no-repeat;
+    background-size: cover
+;}
+.product-title {
+    padding: 50px 10px 30px;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    color: #252b3a;
+    text-align: center;
+    color: #ffffff
+;}
+.product-wrapper {
+    max-width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative
+;}
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1
+;}
+.product-features .product-body {
+    margin: 0px 25px
+;}
+.product-features .product-body:after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: url(dfiles/44035/static/images/productbase-features-model.jpg) no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 0
+;}
+
+.features-item {
+    position: relative;
+    float: left
+;}
+.features-slide .features-item>* {
+    text-align: center
+;}
+.features-item h3 {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    opacity: 0.7;
+    transition: all 0.1s
+;}
+.features-item i {
+    position: absolute;
+    width: 75%;
+    height: 33px;
+    background: url(dfiles/44035/static/images/productbase-features-timeline.jpg) no-repeat;
+    background-size: contain;
+    background-position: right center;
+    left: -25%;
+    margin-left: 10px;
+    top: 35px;
+    z-index: 3
+;}
+.features-item .features-info {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 53px;
+    transition: all 0.3s;
+    border-radius: 2px
+;}
+.features-item .features-info .features-info-i {
+    font-size: 14px;
+    color: #A0A2A8;
+    line-height: 22px;
+    margin-bottom: 10px
+;}
+.features-item .features-info .features-info-s {
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+    overflow: hidden
+;}
+.features-item.dark i {
+    background: url(dfiles/44035/static/images/productbase-features-timeline-dark.jpg) no-repeat;
+    background-size: contain;
+    background-position: right center
+;}
+/*鼠标悬浮效果*/
+.features-item:hover h3 {
+    font-size: 22px;
+    line-height: 28px;
+    opacity: 0.9
+;}
+.features-item:hover i {
+    width: 75%;
+    margin-left: 13px;
+    background: url(dfiles/44035/static/images/productbase-features-timeline-hover.jpg) no-repeat;
+    background-size: contain;
+    background-position: right center
+;}
+.features-item:hover a {
+    background: url(dfiles/44035/static/images/productbase-features-info.jpg) no-repeat;
+    background-size: 100% 100%
+;}
+/*左右按钮*/
+.product-features .swiper-button-prev {
+    width: 30px;
+    height: 40%;
+    left: -15px;
+    top: 60%;
+    background: none
+;}
+.product-features .swiper-button-prev:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 15px;
+    height: 30px;
+    background: url(dfiles/44035/static/images/productbase-features-left.jpg) no-repeat;
+    background-size: 100% 100%;
+    top: 50%;
+    margin-top: -15px;
+    left: 50%;
+    margin-left: -7px
+;}
+.product-features .swiper-button-next {
+    width: 30px;
+    height: 40%;
+    right: -15px;
+    top: 60%;
+    background: none
+;}
+.product-features .swiper-button-next:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 15px;
+    height: 30px;
+    background: url(dfiles/44035/static/images/productbase-features-right.jpg) no-repeat;
+    background-size: 100% 100%;
+    top: 50%;
+    margin-top: -15px;
+    left: 50%;
+    margin-left: -7px
+;}
+
+        @media (min-width:701px) {
+            .kejidx {
+                width: 50%;
+                float: left;}
+            
+            .xkunb{
+        width: 60%;float: left;padding-left: 3%;}
+    .xkuna{
+        width: 40%;float: left;}
+        }
+
+        @media (max-width: 700px) {
+            .fot-laa{display:none;}
+            .kejidx {
+                width: 100%;}
+            .tops{display: none;}
+        }
+        .info {
+    font-size: 0.875rem;}
+
+ .info p {
+    padding: 7px 0 7px 0px;
+    font-size: 0.975rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+
+.jzxx-txt .p1 {
+    color: #fff;}
+
+.jzxx-txt .p2 {
+    color: #fff;}
+
+.jzxx-txt .p3 {
+    color: #fff;
+    background: url(dfiles/44035/static/images/jzxx-ico31.jpg) left center no-repeat;}
+
+.jzxx-txt:hover {
+    color: #fff;
+    border-top: 2px solid #cdb99b;
+    background: url(dfiles/44035/static/images/jzxx-bg.jpg) right bottom no-repeat;
+    background-size: cover;}
+
+.jzxx-txt :hover .niua .info {
+   color: #fff !important;}
+
+
+
+.jzxx-txt :hover .p1 {
+    color: #fff;
+    background: url(dfiles/44035/static/images/jzxx-ico12.jpg) left center no-repeat;}
+
+.jzxx-txt :hover .p2 {
+    color: #fff;
+    background: url(dfiles/44035/static/images/jzxx-ico22.jpg) left center no-repeat;}
+
+.jzxx-txt :hover .p3 {
+    color: #fff;
+    background: url(dfiles/44035/static/images/jzxx-ico32.jpg) left center no-repeat;}
+
+
+.wdtop {
+
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;}
+
+.tops {
+    position: absolute;
+    z-index: 9999;
+    width: 100%;}
+
+.top-links {
+    float: right;
+    margin-right: 2%;
+    margin-top: 8px;
+    position: relative;
+    text-align: right;}
+
+.top-links li {
+    float: left;
+    padding-left: 20px;
+    margin-right: 20px;}
+
+.top-links a {
+    font-size: 0.875rem;
+    color: #fff;}
+
+.top-links span {
+    float: right;
+    color: #fff;}
+
+.top-links .link1 {
+    background: url(dfiles/11209/images/top-link-ico1.jpg) left center no-repeat;}
+
+.top-links .link2 {
+    background: url(dfiles/11209/images/top-link-ico1.jpg) left center no-repeat;}
+
+.top-links .link3 {
+    background: url(dfiles/11209/images/top-link-ico1.jpg) left center no-repeat;}
+
+.top-links .link4 {
+    background: url(dfiles/11209/images/top-link-ico1.jpg) left center no-repeat;}
+
+.top-links .link5 {
+    background: url(dfiles/44035/static/images/top-link-ico5.jpg) left center no-repeat;}
+
+.top-links a:hover {
+    color: #fff;}
+.search-btn {
+    float: right;
+    cursor: pointer;}
+
+.search-btn img {
+    vertical-align: middle;}
+
+.search-box {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;}
+
+.search-box .search {
+    height: 45px;
+    line-height: 45px;
+    width: 550px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    max-width: 90%;
+    transform: translate(-50%, -50%);}
+
+.search-box .text {
+    width: calc(100% - 40px);
+    padding: 0 10px;
+    line-height: 42px;
+    height: 42px;
+    background: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5) inset;
+    color: #fff;
+    font-size: 14px;
+    float: left;}
+
+.search-box .sub {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    float: right;}
+
+.search-box .close {
+    font-size: 40px;
+    font-family: icon;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+    color: #fff;}
+
+.search-box.showdiv {
+    opacity: 1;
+    visibility: visible;}
+    </style>
+    <style>
+    .rty{float: right;
+    margin-top: 4px;
+    padding-right: 3%;}
+    .search{
+  padding-left: 10px;
+    float: right;
+    background: #fdfdfd29;
+    border-radius: 10px;}
+.input_1{
+     float: left;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff !important;
+    margin-top: 5px;
+    padding-left: 10px;}
+.input_2{
+margin-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 3px;}
+@media (min-width: 770px) {
+    .xianshi {
+          width: 33.3%;
+    float: left;
+    padding-right: 2%;}
+    .xianshis{
+        display: block; 
+        width: 33.33%;
+        float: left;}
+}
+@media (max-width: 768px) {
+    .xianshi {
+        
+          width: 100%;
+    float: left;}
+    .xianshis{
+        display: block; 
+        width: 100%;
+    float: right;}
+}
+</style>
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307b78465551525742000000054655 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc|pad"></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1999506397)</script>
+</head>
+
+<body>
+   <div class="tops">
+  <div class="wdtop"><script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode1093754').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey1093754").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey1093754").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1093754").value = base64.encode(document.getElementById("lucenenewssearchkey1093754").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1093754"));
+        return true;
+    } 
+</script>
+
+  <div class="wdtop">
+      <!-- 搜索框 -->
+<style>
+    .search{
+    padding-left: 10px;
+    float: right;
+    background: #fdfdfd29;
+    border-radius: 10px;}
+.input_1{
+     float: left;
+    background: transparent;
+    color: #fff !important;}
+.input_2{
+    margin-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 3px;}
+</style>
+      <!-- 搜索框 -->
+    
+         <form action="search.jsp?wbtreeid=1001" method="post" id="au0a" name="au0a" onsubmit="return _nl_ys_check()" style="float: right;    margin-top: 4px;    padding-right: 3%;">
+     <div class="search">  
+            <input type="hidden" id="lucenenewssearchkey1093754" name="lucenenewssearchkey" value=""><input type="hidden" id="_lucenesearchtype1093754" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope1093754" name="searchScope" value="0">
+           
+               <input name="showkeycode" id="showkeycode1093754" class="input_1" type="text" placeholder="请输入搜索词" onblur="if(this.value==''){this.value='请输入搜索词';$(this).css({color:'#fff'})}" onfocus="if(this.value=='请输入搜索词'){this.value='';$(this).css({color:'#fff'})}" value="请输入搜索词" style="color:#fff">
+              <button type="submit" value="Submit" class="btn-search input_2" title="搜索" style="background: transparent;cursor: pointer;">
+ <img src="/images/search.png" width="14px" height="14px" alt="" id="btnSearch1" />
+              </button>
+          </div>
+
+           </form>
+          
+      <ul class="top-links">
+
+        
+<li class="link1">
+          <a href="https://www.qust.edu.cn/" target="_blank" onclick="_addDynClicks(&quot;wburl&quot;, 1828791678, 79249)">科大官网</a>
+</li>
+        
+<li class="link3"><a href="https://gmjsj.qust.edu.cn/" target="_blank" onclick="_addDynClicks(&quot;wburl&quot;, 1828791678, 79252)">高密计算机系</a></li>
+      
+<li class="link4"><a href="https://xx.qust.edu.cn/" target="_blank" onclick="_addDynClicks(&quot;wburl&quot;, 1828791678, 79253)">旧版网站</a></li>
+      
+</ul>
+  </div><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+</div>
+</div>
+<div class="head">
+
+  <div class="pxmenu">
+      <div class="logo">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 332，66 -->
+<img src="images/1710160501352217.png" width="302" height="66" border="0" alt="信息学院（新网站）" title="信息学院（新网站）"></div>
+      <div class="nav">
+          <ul>                                  <li>
+                  <a href="index.htm" title="首页">首页</a>
+                  </li>
+<li>
+                <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="xygk1/xyjj.htm" title="学院概况">学院概况</a>
+                  
+          
+                                    <ul>
+                                     <li><a href="xygk1/xyjj.htm" title="学院简介">学院简介</a></li>
+                                     <li><a href="xygk1/xyld.htm" title="学院领导">学院领导</a></li>
+                                     <li><a href="xygk1/jgsz.htm" title="机构设置">机构设置</a></li>
+                                     <li><a href="xygk1/lrld.htm" title="历任领导">历任领导</a></li>
+                                     <li><a href="xygk1/fzlc.htm" title="发展历程">发展历程</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1092" title="院务公开">院务公开</a></li>
+                                 
+                                           
+                  </ul>
+                                </li>
+<li>
+                <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1045" title="新闻中心">新闻中心</a>
+                  
+          
+                                    <ul>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1046" title="学院新闻">学院新闻</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1047" title="通知公告">通知公告</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1049" title="学术新闻">学术新闻</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1050" title="学术前沿">学术前沿</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1051" title="学术报告">学术报告</a></li>
+                                 
+                                           
+                  </ul>
+                                </li>
+<li>
+                <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="dangji.jsp?urltype=tree.TreeTempUrl&wbtreeid=1037" title="党群工作">党群工作</a>
+                  
+          
+                                    <ul>
+                                     <li><a href="dangji.jsp?urltype=tree.TreeTempUrl&wbtreeid=1037" title="组织建设">组织建设</a></li>
+                                     <li><a href="dangji.jsp?urltype=tree.TreeTempUrl&wbtreeid=1038" title="理论学习">理论学习</a></li>
+                                     <li><a href="dangji.jsp?urltype=tree.TreeTempUrl&wbtreeid=1039" title="职工之家">职工之家</a></li>
+                                     <li><a href="dangji.jsp?urltype=tree.TreeTempUrl&wbtreeid=1093" title="党务公开">党务公开</a></li>
+                                     <li><a href="http://10.10.66.2:5173" title="党员信息管理">党员信息管理</a></li>
+                                 
+                                           
+                  </ul>
+                                </li>
+<li>
+                <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="szdw_1/gjjrc.htm" title="师资队伍">师资队伍</a>
+                  
+          
+                                    <ul>
+                                     <li><a href="szdw_1/gjjrc.htm" title="国家级人才">国家级人才</a></li>
+                                     <li><a href="szdw_1/sbjrc.htm" title="省部级人才">省部级人才</a></li>
+                                     <li><a href="szdw_1/bssds.htm" title="博士生导师">博士生导师</a></li>
+                                     <li><a href="szdw_1/sssds.htm" title="硕士生导师">硕士生导师</a></li>
+                                     <li><a href="szdw_1/jzjs.htm" title="兼职教授">兼职教授</a></li>
+                                     <li><a href="szdw_1/wpds.htm" title="外聘导师">外聘导师</a></li>
+                                     <li><a href="rclist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1044" title="人才引进">人才引进</a></li>
+                                     <li><a href="szdw_1/bksz.htm" title="本科师资">本科师资</a></li>
+                                 
+                                           
+                  </ul>
+                                </li>
+<li>
+                <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1030" title="科学研究">科学研究</a>
+                  
+          
+                                    <ul>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1030" title="科研平台">科研平台</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1031" title="科研团队">科研团队</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1032" title="科研成果">科研成果</a></li>
+                                 
+                                           
+                  </ul>
+                                </li>
+<li>
+                <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="jyjx_1/bkszy.htm" title="教育教学">教育教学</a>
+                  
+          
+                                    <ul>
+                                     <li><a href="jyjx_1/bkszy.htm" title="本科生专业">本科生专业</a></li>
+                                     <li><a href="jyjx_1/bkpyfa.htm" title="本科培养方案">本科培养方案</a></li>
+                                     <li><a href="jyjx_1/yjszy.htm" title="研究生专业">研究生专业</a></li>
+                                     <li><a href="jyjx_1/jxpt.htm" title="教学平台">教学平台</a></li>
+                                     <li><a href="jyjx_1/jxcg.htm" title="教学成果">教学成果</a></li>
+                                     <li><a href="jyjx_1/xzzhuan_qu.htm" title="下载专区">下载专区</a></li>
+                                 
+                                           
+                  </ul>
+                                </li>
+<li>
+                <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1022" title="学团工作">学团工作</a>
+                  
+          
+                                    <ul>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1022" title="学团活动">学团活动</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1023" title="创新创业">创新创业</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1024" title="学子风采">学子风采</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1025" title="下载专区">下载专区</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1070" title="学团公告">学团公告</a></li>
+                                 
+                                           
+                  </ul>
+                                </li>
+<li>
+                <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1019" title="招生就业">招生就业</a>
+                  
+          
+                                    <ul>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1019" title="本科生招生">本科生招生</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1020" title="研究生招生">研究生招生</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1021" title="就业信息">就业信息</a></li>
+                                 
+                                           
+                  </ul>
+                                </li>
+<li>
+                <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1016" title="校友之家">校友之家</a>
+                  
+          
+                                    <ul>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1071" title="校友组织">校友组织</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1016" title="校友活动">校友活动</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1017" title="校友风采">校友风采</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1018" title="e+基金">e+基金</a></li>
+                                     <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1133" title="历届毕业校友合照">历届毕业校友合照</a></li>
+                                 
+                                           
+                  </ul>
+                                </li>
+<li>
+                <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="zhxy/xyjj.htm" title="中哈信息工程学院" style="color:red; font-weight:bold;">中哈信息工程学院</a>
+                  
+          
+                                    <ul>
+                                     <li><a href="zhxy/xyjj.htm" title="学院简介">学院简介</a></li>
+                                     <li><a href="zhxy/jsjkxyjszy.htm" title="计算机科学与技术专业">计算机科学与技术专业</a></li>
+                                     <li><a href="zhxy/txgczy.htm" title="通信工程专业">通信工程专业</a></li>
+                                     <li><a href="zhxy/xxgczyj.htm" title="信息工程专业">信息工程专业</a></li>
+                                     <li><a href="zhxy/rjgcsszy.htm" title="软件工程硕士专业">软件工程硕士专业</a></li>
+                                 
+                                           
+                  </ul>
+                                </li>
+      
+</ul>
+      </div>
+      <div class="clear">   
+   
+   
+   
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script> 
+    
+<DIV id="adu3" width="159" style="Z-index:10;LEFT: 0px; POSITION: absolute; TOP: 0px"> 
+<iframe frameborder="0" src="about:blank" style="position:absolute;Z-index:-1;width:100%;height:100%;top:0;left:0;scrolling:no;filter:progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0)"></iframe>
+    <TABLE cellspacing="0" cellpadding="0" border="0">   
+    <TBODY>   
+   
+        <TR align="center">   
+            <TD align="left"><A href="info/1046/6020.htm" target="_blank" title="" onclick="_addDynClicks('wbimage',1999506397,1026464)"><img src="images/zhonghazhaoshengtouming.png" width="100" height="100" border="0"></A></TD> 
+        </TR>
+   
+        <TR>   
+            <TD align="right" style="padding-top:1px"><table border="0" cellpadding="10" cellspacing="0"><tr><td style="background-color:#f5f5f5;padding:1px"><a href="javascript:showimagecloseu3();" class="closestyle1183296">关闭</a></td></tr></table></TD> 
+        </TR>   
+   
+   
+    </TBODY> 
+    </TABLE> 
+</DIV>
+  
+<SCRIPT>   
+function showimagecloseu3()   
+{   
+    var obju3=document.getElementById("adu3");   
+    obju3.style.display = 'none';   
+};   
+//水平             //上下    
+   
+var xu3 = 0;yu3 = 0;   
+   
+var xinu3 = true; yinu3 = true;   
+var stepu3 = 1;   
+   
+var delayu3 = 88;   
+ 
+var obju3=document.getElementById("adu3");
+var bdyu3 = document.body;  
+    if (document.compatMode && document.compatMode != "BackCompat")
+        bdyu3 = document.documentElement;
+    else
+        bdyu3 = document.body;
+function floatADu3()
+{
+    var bdy_scrollTop = document.body.scrollTop | document.documentElement.scrollTop;
+    var Lu3=Tu3=0;   
+    var Ru3= bdyu3.clientWidth-obju3.offsetWidth;  
+    var Bu3 = bdyu3.clientHeight-obju3.offsetHeight; 
+    obju3.style.left = xu3 + bdyu3.scrollLeft+"px";   
+    obju3.style.top = yu3 + bdy_scrollTop+"px";   
+    xu3 = xu3 + stepu3*(xinu3?1:-1);    
+    if(xu3 < Lu3) 
+    { 
+        xinu3 = true;
+        xu3 = Lu3;
+    }  
+    if(xu3 > Ru3)
+    { 
+        xinu3 = false; 
+        xu3 = Ru3;
+    }  
+    yu3 = yu3 + stepu3*(yinu3?1:-1);    
+    if(yu3 < Tu3) 
+    { 
+        yinu3 = true; 
+        yu3 = Tu3; 
+    }
+    if(yu3 > Bu3) 
+    { 
+        yinu3 = false; 
+        yu3 = Bu3; 
+    }
+} 
+var itlu3;
+if(window.navigator.userAgent.indexOf("MSIE")>=1)
+{
+    window.attachEvent('onload', adftu3);
+}
+else
+{
+    window.addEventListener('load',adftu3, false);
+}
+function adftu3()
+{
+    itlu3 = setInterval("floatADu3()", delayu3);   
+}
+    obju3.onmouseover=function(){clearInterval(itlu3);};   
+    obju3.onmouseout=function(){itlu3=setInterval("floatADu3()", delayu3)};      
+   
+</SCRIPT></div>
+  </div>
+</div>
+<!-- 移动端导航 -->
+<div class="top1">
+  <div class="wap wap-menu"><img class="menu" alt="" src="dfiles/44035/template/kejidaxue/static/picture/menu.jpg">
+      <img class="close-menu" alt="" src="dfiles/44035/template/kejidaxue/static/picture/close.jpg"></div>
+</div>
+<div class="wap m-head">
+  <div class="m-logo"><!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+      <a title="信息科学技术学院（改版）" href="">
+          <img alt="" src="https://xk.qust.edu.cn/images/1710160501352217.png" style="width: 60%; float: left;">
+      </a></div>
+  <div class="m-nav">
+
+      <ul>        
+                                  <li>
+                  <a href="index.htm" title="首页">首页</a>
+                  </li>
+       <li>
+              <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="xygk1/xyjj.htm" title="学院概况">学院概况</a>
+           
+              <span></span>
+               <ul>
+         <li><a href="xygk1/xyjj.htm" title="学院简介">学院简介</a></li>
+         <li><a href="xygk1/xyld.htm" title="学院领导">学院领导</a></li>
+         <li><a href="xygk1/jgsz.htm" title="机构设置">机构设置</a></li>
+         <li><a href="xygk1/lrld.htm" title="历任领导">历任领导</a></li>
+         <li><a href="xygk1/fzlc.htm" title="发展历程">发展历程</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1092" title="院务公开">院务公开</a></li>
+                                   
+              </ul>
+                        </li>
+       <li>
+              <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1045" title="新闻中心">新闻中心</a>
+           
+              <span></span>
+               <ul>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1046" title="学院新闻">学院新闻</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1047" title="通知公告">通知公告</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1049" title="学术新闻">学术新闻</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1050" title="学术前沿">学术前沿</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1051" title="学术报告">学术报告</a></li>
+                                   
+              </ul>
+                        </li>
+       <li>
+              <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="dangji.jsp?urltype=tree.TreeTempUrl&wbtreeid=1037" title="党群工作">党群工作</a>
+           
+              <span></span>
+               <ul>
+         <li><a href="dangji.jsp?urltype=tree.TreeTempUrl&wbtreeid=1037" title="组织建设">组织建设</a></li>
+         <li><a href="dangji.jsp?urltype=tree.TreeTempUrl&wbtreeid=1038" title="理论学习">理论学习</a></li>
+         <li><a href="dangji.jsp?urltype=tree.TreeTempUrl&wbtreeid=1039" title="职工之家">职工之家</a></li>
+         <li><a href="dangji.jsp?urltype=tree.TreeTempUrl&wbtreeid=1093" title="党务公开">党务公开</a></li>
+         <li><a href="http://10.10.66.2:5173" title="党员信息管理">党员信息管理</a></li>
+                                   
+              </ul>
+                        </li>
+       <li>
+              <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="szdw_1/gjjrc.htm" title="师资队伍">师资队伍</a>
+           
+              <span></span>
+               <ul>
+         <li><a href="szdw_1/gjjrc.htm" title="国家级人才">国家级人才</a></li>
+         <li><a href="szdw_1/sbjrc.htm" title="省部级人才">省部级人才</a></li>
+         <li><a href="szdw_1/bssds.htm" title="博士生导师">博士生导师</a></li>
+         <li><a href="szdw_1/sssds.htm" title="硕士生导师">硕士生导师</a></li>
+         <li><a href="szdw_1/jzjs.htm" title="兼职教授">兼职教授</a></li>
+         <li><a href="szdw_1/wpds.htm" title="外聘导师">外聘导师</a></li>
+         <li><a href="rclist.jsp?urltype=tree.TreeTempUrl&wbtreeid=1044" title="人才引进">人才引进</a></li>
+         <li><a href="szdw_1/bksz.htm" title="本科师资">本科师资</a></li>
+                                   
+              </ul>
+                        </li>
+       <li>
+              <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1030" title="科学研究">科学研究</a>
+           
+              <span></span>
+               <ul>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1030" title="科研平台">科研平台</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1031" title="科研团队">科研团队</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1032" title="科研成果">科研成果</a></li>
+                                   
+              </ul>
+                        </li>
+       <li>
+              <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="jyjx_1/bkszy.htm" title="教育教学">教育教学</a>
+           
+              <span></span>
+               <ul>
+         <li><a href="jyjx_1/bkszy.htm" title="本科生专业">本科生专业</a></li>
+         <li><a href="jyjx_1/bkpyfa.htm" title="本科培养方案">本科培养方案</a></li>
+         <li><a href="jyjx_1/yjszy.htm" title="研究生专业">研究生专业</a></li>
+         <li><a href="jyjx_1/jxpt.htm" title="教学平台">教学平台</a></li>
+         <li><a href="jyjx_1/jxcg.htm" title="教学成果">教学成果</a></li>
+         <li><a href="jyjx_1/xzzhuan_qu.htm" title="下载专区">下载专区</a></li>
+                                   
+              </ul>
+                        </li>
+       <li>
+              <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1022" title="学团工作">学团工作</a>
+           
+              <span></span>
+               <ul>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1022" title="学团活动">学团活动</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1023" title="创新创业">创新创业</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1024" title="学子风采">学子风采</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1025" title="下载专区">下载专区</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1070" title="学团公告">学团公告</a></li>
+                                   
+              </ul>
+                        </li>
+       <li>
+              <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1019" title="招生就业">招生就业</a>
+           
+              <span></span>
+               <ul>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1019" title="本科生招生">本科生招生</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1020" title="研究生招生">研究生招生</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1021" title="就业信息">就业信息</a></li>
+                                   
+              </ul>
+                        </li>
+       <li>
+              <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1016" title="校友之家">校友之家</a>
+           
+              <span></span>
+               <ul>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1071" title="校友组织">校友组织</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1016" title="校友活动">校友活动</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1017" title="校友风采">校友风采</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1018" title="e+基金">e+基金</a></li>
+         <li><a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1133" title="历届毕业校友合照">历届毕业校友合照</a></li>
+                                   
+              </ul>
+                        </li>
+       <li>
+              <!-- 关键：判断如果是第11个菜单，加红色加粗样式 -->
+               <a href="zhxy/xyjj.htm" title="中哈信息工程学院" style="color:red; font-weight:bold;">中哈信息工程学院</a>
+           
+              <span></span>
+               <ul>
+         <li><a href="zhxy/xyjj.htm" title="学院简介">学院简介</a></li>
+         <li><a href="zhxy/jsjkxyjszy.htm" title="计算机科学与技术专业">计算机科学与技术专业</a></li>
+         <li><a href="zhxy/txgczy.htm" title="通信工程专业">通信工程专业</a></li>
+         <li><a href="zhxy/xxgczyj.htm" title="信息工程专业">信息工程专业</a></li>
+         <li><a href="zhxy/rjgcsszy.htm" title="软件工程硕士专业">软件工程硕士专业</a></li>
+                                   
+              </ul>
+                        </li>
+          
+</ul>
+      <div style="margin: 0px auto; text-align: center; padding-top: 3%;">
+          <div class="gz  " style="margin: 0px auto; text-align: center;">
+              <img width="30%" alt="" src="dfiles/44035/upload/image/20200122/1579664875173112.jpg" style="margin: 0px auto;">
+          </div>
+          <p style="color: rgb(255, 255, 255);">学院微信公众号</p>
+          </div>
+  </div>
+</div>
+    <div>
+    <div class="banner">    <div class="swiper bannerswiper">
+                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                        <img alt="" src="images/lunbotuzhongha.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img alt="" src="images/fd63aeb4-ff48-4cb3-b32d-852e432ab30a.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img alt="" src="images/jisuanjixueke1.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img alt="" src="images/zhutijiaoyu.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img alt="" src="images/xin6.png">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+            </div></div>
+      </div>  
+    <div class="index" style="margin-top: 10px;">
+    <div class="sec1">
+            <div class="px1400">
+           
+                <div class="s1-left">
+                 
+                    <div class="ban1"><script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><ul>
+<li>
+<a href="info/1046/5973.htm" title="计算机科学与技术学科“十五五”规划建设研讨会召开">
+           <div class="pic">
+               <img src="/__local/E/C3/20/DFF4A1E1A8C0811D904C8A8A674_37AAA174_E89A9.png" alt="">
+           </div>
+     <div class="text">
+         <p>计算机科学与技术学科“十五五”规划建设研讨会召开</p>
+         <span>2026-05-17</span>
+     </div>
+</a>
+</li>                                                                           
+<li>
+<a href="info/1046/5976.htm" title="中国计算机学会“走进高校”活动在青科大信息学院举办">
+           <div class="pic">
+               <img src="/__local/4/03/28/4AA1320FC6F1E38F135FB562085_51175C79_10DC12.png" alt="">
+           </div>
+     <div class="text">
+         <p>中国计算机学会“走进高校”活动在青科大信息学院举办</p>
+         <span>2026-05-17</span>
+     </div>
+</a>
+</li>                                                                           
+<li>
+<a href="info/1046/5962.htm" title="信息学院在学校2026年运动会上斩获佳绩">
+           <div class="pic">
+               <img src="/__local/C/A1/8A/F3D1752B50041E66CC32C6D6D5F_88954A40_17AEEB.png" alt="">
+           </div>
+     <div class="text">
+         <p>信息学院在学校2026年运动会上斩获佳绩</p>
+         <span>2026-05-08</span>
+     </div>
+</a>
+</li>                                                                           
+</ul>
+<script>_showDynClickBatch(['dynclicks_u6_5973','dynclicks_u6_5976','dynclicks_u6_5962'],[5973,5976,5962],"wbnews", 1999506397)</script>
+</div>
+                
+                </div>
+                <ul class="s1-right">
+
+                    <div class="kejidx"> <div class="top2">
+                        <div style="padding-bottom: 2%;margin-left: 2%;width: 141px;/* border-bottom: 5px solid #1a459b">
+                            <h2 style="    border-bottom: 5px solid #1a459b;"> <img src="dfiles/44035/upload/image/20240126/xinwenzixun.png" style="margin-bottom:-6%;">
+                             <span>
+                        学院新闻
+                        </span>
+                           </h2>
+                        </div>
+                        <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1046" target=""> <img src="images/mores.png" /> </a>
+                        <div class="clear"></div>
+                    </div>
+                        
+                        
+                        
+                                                
+<li>
+                            <a href="info/1046/6119.htm" title="信息学院、中哈信息工程学院开展2026年秋季学期“开学第一课”系列活动">
+                                <p>信息学院、中哈信息工程学院开展2026年秋季学期“开学第一课”系列活动</p>
+                                <span>2026-09-17</span>
+                            </a>
+                        </li>
+                          
+                                                
+<li>
+                            <a href="info/1046/6122.htm" title="信息学院举办研究生会素质能力提升培训">
+                                <p>信息学院举办研究生会素质能力提升培训</p>
+                                <span>2026-09-17</span>
+                            </a>
+                        </li>
+                          
+                                                
+<li>
+                            <a href="info/1046/6121.htm" title="信息学院举行“求思得·名师堂”论坛之“无线联邦学习中的用户调度与资源分配”学术报告会">
+                                <p>信息学院举行“求思得·名师堂”论坛之“无线联邦学习中的用户调度与资源分配”学术报告会</p>
+                                <span>2026-09-15</span>
+                            </a>
+                        </li>
+                          
+                                                
+<li>
+                            <a href="info/1046/6120.htm" title="信息学院党委理论学习中心组进行集体学习">
+                                <p>信息学院党委理论学习中心组进行集体学习</p>
+                                <span>2026-09-14</span>
+                            </a>
+                        </li>
+                          
+                                                
+<li>
+                            <a href="info/1046/6109.htm" title="学院在2026年教师节庆祝大会中获多项表彰">
+                                <p>学院在2026年教师节庆祝大会中获多项表彰</p>
+                                <span>2026-09-10</span>
+                            </a>
+                        </li>
+                          
+                                                
+<script>_showDynClickBatch(['dynclicks_u7_6119','dynclicks_u7_6122','dynclicks_u7_6121','dynclicks_u7_6120','dynclicks_u7_6109'],[6119,6122,6121,6120,6109],"wbnews", 1999506397)</script>
+</div>
+                    <div class="kejidx">       <div class="top2">
+                        <div style="padding-bottom: 2%;margin-left: 2%;width: 141px;/* border-bottom: 5px solid #1a459b">
+                            <h2 style="    border-bottom: 5px solid #1a459b;"> <img src="dfiles/44035/upload/image/20240126/tongzhigonggao.png" style="margin-bottom:-3%;">
+                             <span>
+                        通知公告
+                        </span>
+                           </h2>
+                        </div>
+                        <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1047" target=""> <img src="images/mores.png" /> </a>
+                        <div class="clear"></div>
+                    </div>
+                                                          
+<li>
+                            <a href="info/1047/6084.htm" title="青岛科技大学2026年信息科学技术学院（中哈信息工程学院）硕士研究生招生面试录取工作方案（第二批）">
+                                <p style="color:#000000;">青岛科技大学2026年信息科学技术学院（中哈信息工程学院）硕士研究生招生面试录取工作方案（第二批）</p>
+                                <span>2026-08-22</span>
+                            </a>
+                        </li>
+                          
+                                                
+<li>
+                            <a href="info/1047/6068.htm" title="青岛科技大学2026年信息科学技术学院（中哈信息工程学院）硕士研究生招生面试录取工作方案">
+                                <p>青岛科技大学2026年信息科学技术学院（中哈信息工程学院）硕士研究生招生面试录取工作方案</p>
+                                <span>2026-08-05</span>
+                            </a>
+                        </li>
+                          
+                                                
+<li>
+                            <a href="info/1047/6034.htm" title="【海报】青岛科技大学中哈信息工程学院硕士学位招生简章">
+                                <p style="font-weight:bold;color:#000000;">【海报】青岛科技大学中哈信息工程学院硕士学位招生简章</p>
+                                <span>2026-07-06</span>
+                            </a>
+                        </li>
+                          
+                                                
+<li>
+                            <a href="info/1047/6024.htm" title="关于2026-2027学年第1学期教材选用征订情况的公示">
+                                <p>关于2026-2027学年第1学期教材选用征订情况的公示</p>
+                                <span>2026-06-30</span>
+                            </a>
+                        </li>
+                          
+                                                
+<li>
+                            <a href="info/1047/5998.htm" title="中国高校计算机大赛——移动应用创新赛竞赛通知（2026 年）">
+                                <p>中国高校计算机大赛——移动应用创新赛竞赛通知（2026 年）</p>
+                                <span>2026-06-04</span>
+                            </a>
+                        </li>
+                          
+                                                
+<script>_showDynClickBatch(['dynclicks_u8_6084','dynclicks_u8_6068','dynclicks_u8_6034','dynclicks_u8_6024','dynclicks_u8_5998'],[6084,6068,6034,6024,5998],"wbnews", 1999506397)</script>
+</div>
+                    <div class="clear"></div>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="sec2">
+            <div class="px1400">
+            
+                <div class="sec2-list">
+                      <ul class="s1-right xianshi" style="padding-left: 0px;"><div class="">
+                        <div style="padding-bottom: 2%;margin-left: 2%;            width: 141px;                 border-bottom: 5px solid #1a459b;">
+
+    <h2> <img src="dfiles/44035/upload/image/20240126/xueshuxinwen1.png" style="margin-bottom:-3%;">
+                             <span>
+                           学术新闻
+                        </span>
+                           </h2>
+                            
+
+                    </div>
+
+                    <div style="float:right;margin-top: -7%;magin-top: -7%">                   
+                    <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1049" target=""> 
+                    <img src="images/mores.png">
+                     </a>
+                        <div class="clear"></div>   
+                           </div>
+                                
+<li>
+                            <a href="info/1049/5937.htm" title="信息科学技术学院王玲玲副教授团队在人工智能安全领域取得新进展">
+                                <p>信息科学技术学院王玲玲副教授团队在人工智能安全领域取得新进展</p>
+                                <span>2026-04-24</span>
+                            </a>
+                        </li>
+                                  
+<li>
+                            <a href="info/1049/5910.htm" title="自然语言处理团队论文被ACL2026录用">
+                                <p>自然语言处理团队论文被ACL2026录用</p>
+                                <span>2026-04-07</span>
+                            </a>
+                        </li>
+                                  
+<li>
+                            <a href="info/1049/5831.htm" title="南京理工大学李泽超教授辅导国家自然科学基金申报">
+                                <p>南京理工大学李泽超教授辅导国家自然科学基金申报</p>
+                                <span>2026-01-10</span>
+                            </a>
+                        </li>
+                                  
+<li>
+                            <a href="info/1049/5832.htm" title="北京理工大学邢成文教授开展国家自然科学基金申报专题指导">
+                                <p>北京理工大学邢成文教授开展国家自然科学基金申报专题指导</p>
+                                <span>2025-12-25</span>
+                            </a>
+                        </li>
+                                  
+<li>
+                            <a href="info/1049/5830.htm" title="信息学院举行“求思得”论坛之“无盲区无畸变全景视频注视点收集与学习方法”学术报告会">
+                                <p>信息学院举行“求思得”论坛之“无盲区无畸变全景视频注视点收集与学习方法”学术报告会</p>
+                                <span>2025-12-19</span>
+                            </a>
+                        </li>
+                                  
+                    </div>
+
+                    <div class="clear"></div><script>_showDynClickBatch(['dynclicks_u9_5937','dynclicks_u9_5910','dynclicks_u9_5831','dynclicks_u9_5832','dynclicks_u9_5830'],[5937,5910,5831,5832,5830],"wbnews", 1999506397)</script>
+</ul>
+                  <ul class="s1-right xianshi" style="padding-left: 0px;"><div class="">
+                        <div style="padding-bottom: 2%;margin-left: 2%;            width: 141px;                 border-bottom: 5px solid #1a459b;">
+
+    <h2> <img src="dfiles/44035/upload/image/20240126/xueshuqianyan.png" style="margin-bottom:-3%;">
+                             <span>
+                         学术前沿
+                        </span>
+                           </h2>
+                            
+
+                    </div>
+
+                    <div style="float:right;margin-top: -7%;magin-top: -7%">                   
+                    <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1050" target="">
+                     <img src="images/mores.png"> </a>
+                        <div class="clear"></div>   
+                           </div>                            
+                                               
+<li>
+                            <a href="info/1050/6106.htm" title="学术报告 | 密码学：过去，现在和未来">
+                                <p>学术报告 | 密码学：过去，现在和未来</p>
+                                <span>2026-09-07</span>
+                            </a>
+                        </li>
+                          
+                                                
+<li>
+                            <a href="info/1050/6065.htm" title="学术报告 | 视频编码与理解及生成">
+                                <p>学术报告 | 视频编码与理解及生成</p>
+                                <span>2026-07-28</span>
+                            </a>
+                        </li>
+                          
+                                                
+<li>
+                            <a href="info/1050/6049.htm" title="学术报告 | 面向新兴网络应用的空芯光纤技术">
+                                <p>学术报告 | 面向新兴网络应用的空芯光纤技术</p>
+                                <span>2026-07-15</span>
+                            </a>
+                        </li>
+                          
+                                                
+<li>
+                            <a href="info/1050/5968.htm" title="CCF-MM走进青岛科技大学信息学院">
+                                <p>CCF-MM走进青岛科技大学信息学院</p>
+                                <span>2026-05-15</span>
+                            </a>
+                        </li>
+                          
+                                                
+<li>
+                            <a href="info/1050/5833.htm" title="学术报告|服务智能调度">
+                                <p>学术报告|服务智能调度</p>
+                                <span>2026-01-14</span>
+                            </a>
+                        </li>
+                          
+                                                
+
+                    </div>
+
+                    <div class="clear"></div><script>_showDynClickBatch(['dynclicks_u10_6106','dynclicks_u10_6065','dynclicks_u10_6049','dynclicks_u10_5968','dynclicks_u10_5833'],[6106,6065,6049,5968,5833],"wbnews", 1999506397)</script>
+</ul>
+                    <ul class="dt-list2 xianshis">             
+                       
+          <div class="top2">
+                        <div style="padding-bottom: 2%;margin-left: 3%;width: 151px;/* border-bottom: 5px solid #1a459b">
+                            <h2 style="    border-bottom: 5px solid #1a459b;"> <img src="dfiles/44035/upload/image/20240126/xueshubaogao.png" style="margin-bottom:-3%;">
+                             <span>
+                        学术报告
+                        </span>
+                           </h2>
+                        </div>
+                        <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1051" target=""> <img src="images/mores.png" /> </a>
+                        <div class="clear"></div>
+                    </div>
+                                          
+                        <li style="width:100%;">
+                           
+                          <div class="pic hvr-wobble-vertical">
+                            <img src="/__local/2/A8/54/66021610A35BAA2B5F91AEC3BA6_84A0B1FC_33651.jpeg" alt="" style="width: 100%;">
+                        </div>
+                            <a href="info/1051/6110.htm" class="jzxx-txt" title="颜松远教授应邀为学院师生作学术报告" style="background: #1a459b;">
+                                <div style="overflow: hidden;                                border-bottom: dashed 1px #eeeeee;                                padding-bottom: 15px;">
+                                   
+                                    <p class="niua">颜松远教授应邀为学院师生作学术报告</p>
+                                </div>
+
+                                      <span class="xq" style="color:#fff;">详情</span>
+                                <div class="clear"></div>
+                            </a>
+                        </li>
+                        <div class="clear"></div><script>_showDynClickBatch(['dynclicks_u11_6110'],[6110],"wbnews", 1999506397)</script>
+</ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="sec3">
+            <div class="px1400">
+
+                <div class="s3-left xianshi"> <div class="top2">
+                        <div style="padding-bottom: 2%;margin-left: 2%;width: 141px;/* border-bottom: 5px solid #1a459b">
+                            <h2 style="    border-bottom: 5px solid #1a459b;"> <img src="dfiles/44035/upload/image/20240126/xuetuanhuodong.png" style="margin-bottom:-3%;">
+                             <span>
+                        学团活动
+                        </span>
+                           </h2>
+                        </div>
+                        <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1022" target=""> <img src="images/mores.png" /> </a>
+                        <div class="clear"></div>
+                    </div>          
+                    
+                    <ul class="s1-right2">
+                                                
+<li>
+                            <a href="info/1022/6116.htm" title="信息科学技术学院举办第七届研究生会骨干民主推荐会">
+                                <p>信息科学技术学院举办第七届研究生会骨干民主推荐会</p>
+                                <span>2026-09-11</span>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1022/6114.htm" title="信息学院顺利开展第二十三届学生会骨干民主推荐会">
+                                <p>信息学院顺利开展第二十三届学生会骨干民主推荐会</p>
+                                <span>2026-09-08</span>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1022/6113.htm" title="信息学院开展2026级研究生新生入学教育大会">
+                                <p>信息学院开展2026级研究生新生入学教育大会</p>
+                                <span>2026-09-08</span>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1022/6096.htm" title="循迹海岸星火·砥砺青春担当——信息学院党史学习教育实践团走进市北区青岛党史纪念馆">
+                                <p>循迹海岸星火·砥砺青春担当——信息学院党史学习教育实践团走进市北区青岛党史纪念馆</p>
+                                <span>2026-08-31</span>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1022/6092.htm" title="暑期社会实践基层服务践行篇 | 信息科学技术学院惜粟 “橡” 风宣讲团赴青岛崂山区开展勤俭主题线下宣讲">
+                                <p>暑期社会实践基层服务践行篇 | 信息科学技术学院惜粟 “橡” 风宣讲团赴青岛崂山区开展勤俭主题线下宣讲</p>
+                                <span>2026-08-29</span>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1022/6090.htm" title="暑期社会实践爱国主义教育实践篇｜信息科学技术学院“红色坐标·青岛记忆”实践团赴青岛中共党史纪念馆开展党史学习活动">
+                                <p>暑期社会实践爱国主义教育实践篇｜信息科学技术学院“红色坐标·青岛记忆”实践团赴青岛中共党史纪念馆开展党史学习活动</p>
+                                <span>2026-08-24</span>
+                            </a>
+                        </li>
+                                                
+<div class="clear">
+</div>
+</ul><script>_showDynClickBatch(['dynclicks_u12_6116','dynclicks_u12_6114','dynclicks_u12_6113','dynclicks_u12_6096','dynclicks_u12_6092','dynclicks_u12_6090'],[6116,6114,6113,6096,6092,6090],"wbnews", 1999506397)</script>
+</div>
+               
+               <div class="s3-left xianshi"> <div class="top2">
+                        <div style="padding-bottom: 2%;margin-left: 2%;width: 141px;/* border-bottom: 5px solid #1a459b">
+                            <h2 style="    border-bottom: 5px solid #1a459b;"> <img src="dfiles/44035/upload/image/20240126/xuetuanhuodong.png" style="margin-bottom:-3%;">
+                             <span>
+                        学团公告
+                        </span>
+                           </h2>
+                        </div>
+                        <a href="list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1070" target=""> <img src="images/mores.png" /> </a>
+                        <div class="clear"></div>
+                    </div>          
+                    
+                    <ul class="s1-right2">
+                                                
+<li>
+                            <a href="info/1070/5913.htm" title="信息学院2025年度“信院好班长”考核答辩结果公示">
+                                <p>信息学院2025年度“信院好班长”考核答辩结果公示</p>
+                                <span>2026年04月08日</span>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1070/5313.htm" title="信息学院学生公寓检查情况通报">
+                                <p>信息学院学生公寓检查情况通报</p>
+                                <span>2025年04月17日</span>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1070/5308.htm" title="信息学院学生公寓检查情况通报（4月10日）">
+                                <p>信息学院学生公寓检查情况通报（4月10日）</p>
+                                <span>2025年04月15日</span>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1070/4627.htm" title="2024年校级“标杆宿舍”“优秀舍长”评选结果">
+                                <p>2024年校级“标杆宿舍”“优秀舍长”评选结果</p>
+                                <span>2024年05月28日</span>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1070/4599.htm" title="关于规范图灵学舍管理的通知">
+                                <p>关于规范图灵学舍管理的通知</p>
+                                <span>2024年05月27日</span>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1070/4628.htm" title="2024年5月校级学生公寓安全卫生秩序大检查情况通报">
+                                <p>2024年5月校级学生公寓安全卫生秩序大检查情况通报</p>
+                                <span>2024年05月17日</span>
+                            </a>
+                        </li>
+                                                
+<div class="clear"></div>
+</ul><script>_showDynClickBatch(['dynclicks_u13_5913','dynclicks_u13_5313','dynclicks_u13_5308','dynclicks_u13_4627','dynclicks_u13_4599','dynclicks_u13_4628'],[5913,5313,5308,4627,4599,4628],"wbnews", 1999506397)</script>
+</div>
+               
+               
+               <div class="s3-left xianshi" style="padding-right: 0%;"><div class="top2">
+                         <div style="padding-bottom: 2%;margin-left: 2%;width: 141px;/* border-bottom: 5px solid #1a459b">
+                            <h2 style="border-bottom: 5px solid #1a459b;"><img src="dfiles/44035/upload/image/20240126/xuetuanhuodong.png" style="margin-bottom:-3%;">
+                             <span>校友风采</span></h2>
+                        </div>
+                       <!-- <a href="#" target=""> <img src="https://www.qust.edu.cn/2023sygb/images/mores.png"> </a> -->
+                        <div class="clear"></div>
+                    </div>
+                    <div style="padding-bottom: 3%;">
+                       
+                        </div>
+                       
+                                            <div class="ban1">
+                                            <ul>
+<li>
+<a href="info/1017/4986.htm" title="学长风采|2000届计算机应用专业校友——马伏龙">
+           <div class="pic">
+               <img src="/__local/9/69/C9/3F056A50D3D5A6198F0EC514300_0F404C88_44F97.png" alt="">
+           </div>
+     <div class="text">
+         <p>学长风采|2000届计算机应用专业校友——马伏龙</p>
+         <span>2024-09-23</span>
+     </div>
+</a>
+</li>                                                                           
+<li>
+<a href="info/1017/4984.htm" title="学长风采|2004届计算机科学与技术专业校友——宋传磊">
+           <div class="pic">
+               <img src="/__local/D/74/99/9B88106A8DECA06E5B366AD5DE2_232A5B7B_E1AAA.png" alt="">
+           </div>
+     <div class="text">
+         <p>学长风采|2004届计算机科学与技术专业校友——宋传磊</p>
+         <span>2024-09-23</span>
+     </div>
+</a>
+</li>                                                                           
+<li>
+<a href="info/1017/4981.htm" title="学长风采|2006届信息工程专业校友——李延柱">
+           <div class="pic">
+               <img src="/__local/E/20/39/D27D05DF4896A0B246D59A58565_861F0557_11EEE6.png" alt="">
+           </div>
+     <div class="text">
+         <p>学长风采|2006届信息工程专业校友——李延柱</p>
+         <span>2024-09-23</span>
+     </div>
+</a>
+</li>                                                                           
+</ul>
+                                            </div>
+
+<script>_showDynClickBatch(['dynclicks_u14_4986','dynclicks_u14_4984','dynclicks_u14_4981'],[4986,4984,4981],"wbnews", 1999506397)</script>
+</div>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+                <div class="s3-right">
+                    <div style="width: 100%;">
+
+                    
+                    
+                    
+                    </div>
+                  
+
+                    <div class="clear"></div>
+                  
+                </div>
+                <div class="clear"></div>
+
+            </div>
+        </div>
+        <div class="sec4">
+            <div class="px1400">
+            <div class="top2">
+                        <div style="padding-bottom: 2%;margin-left: 2%;width: 141px;/* border-bottom: 5px solid #1a459b">
+                            <h2 style="    border-bottom: 5px solid #1a459b;"> <img src="dfiles/44035/upload/image/20240126/shiziduiwu.png" style="margin-bottom:-3%;">
+                             <span>
+                    师资队伍
+                        </span>
+                           </h2>
+                        </div>
+                        <a href="szdw_1/gjjrc.htm" target=""> <img src="images/mores.png"> </a>
+                        <div class="clear"></div>
+                    </div>
+ 
+                <div class="ban2"><ul>
+                                                
+<li>
+                            <a href="info/1041/4688.htm" title="王景景" style="padding:1%;">
+                                <!-- <div class="ban2-list pic"> -->
+                                   
+                                    <img src="/__local/E/44/40/AE7C9B1D506171308301A8A0537_5881C621_1DBCF.png" alt="" style="width:100%;height:296px;">
+                               
+                                <p>王景景</p>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1041/5866.htm" title="颜舒琳" style="padding:1%;">
+                                <!-- <div class="ban2-list pic"> -->
+                                   
+                                    <img src="/__local/7/7E/A0/551BCA189A79C461C0C7FC06021_63559753_12DA8.png" alt="" style="width:100%;height:296px;">
+                               
+                                <p>颜舒琳</p>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1041/1281.htm" title="杨星海" style="padding:1%;">
+                                <!-- <div class="ban2-list pic"> -->
+                                   
+                                    <img src="/__local/F/02/C8/758AF7CA851DC1E154FB8A96867_81F2E9D8_2551.jpg" alt="" style="width:100%;height:296px;">
+                               
+                                <p>杨星海</p>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1041/1516.htm" title="胡强" style="padding:1%;">
+                                <!-- <div class="ban2-list pic"> -->
+                                   
+                                    <img src="/__local/B/74/0A/DBF236986F7FDDE8BAB1C463641_0BD671ED_90B5.jpg" alt="" style="width:100%;height:296px;">
+                               
+                                <p>胡强</p>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1041/1517.htm" title="程远志" style="padding:1%;">
+                                <!-- <div class="ban2-list pic"> -->
+                                   
+                                    <img src="/__local/9/52/82/F1D2BC4983D313E849F42FDBAF7_D9B9C566_2D74.jpg" alt="" style="width:100%;height:296px;">
+                               
+                                <p>程远志</p>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1041/4744.htm" title="宋波" style="padding:1%;">
+                                <!-- <div class="ban2-list pic"> -->
+                                   
+                                    <img src="/__local/D/76/7C/0B541E0EBEC2CF1E8E353A8B9D1_486C58AE_2545.jpg" alt="" style="width:100%;height:296px;">
+                               
+                                <p>宋波</p>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1041/1282.htm" title="陶冶" style="padding:1%;">
+                                <!-- <div class="ban2-list pic"> -->
+                                   
+                                    <img src="/__local/8/EA/78/C464D605C1FB1B6AA9866DC1CDC_1EFCBD1C_13000.jpg" alt="" style="width:100%;height:296px;">
+                               
+                                <p>陶冶</p>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1041/4918.htm" title="胡乃平" style="padding:1%;">
+                                <!-- <div class="ban2-list pic"> -->
+                                   
+                                    <img src="/__local/5/D2/B9/1B9AD70E105FD5EFE29CBF3BB98_8E98CC28_16C5B.png" alt="" style="width:100%;height:296px;">
+                               
+                                <p>胡乃平</p>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1041/4691.htm" title="周艳平" style="padding:1%;">
+                                <!-- <div class="ban2-list pic"> -->
+                                   
+                                    <img src="/__local/B/40/A7/EC759ABF70F0A97B1806E43FC03_27B347DD_6A963.png" alt="" style="width:100%;height:296px;">
+                               
+                                <p>周艳平</p>
+                            </a>
+                        </li>
+                                                
+<li>
+                            <a href="info/1041/4703.htm" title="段利亚" style="padding:1%;">
+                                <!-- <div class="ban2-list pic"> -->
+                                   
+                                    <img src="/__local/4/AF/EE/454136E7B0121258614924A3E94_BC30E6BC_1972F.png" alt="" style="width:100%;height:296px;">
+                               
+                                <p>段利亚</p>
+                            </a>
+                        </li>
+                                                
+</ul>
+                    <!--script >_showDynClickBatch(['dynclicks_u12_1148', 'dynclicks_u12_1147', 'dynclicks_u12_1180', 'dynclicks_u12_1181', 'dynclicks_u12_1182', 'dynclicks_u12_1085', 'dynclicks_u12_1161', 'dynclicks_u12_1146', 'dynclicks_u12_1303', 'dynclicks_u12_1083', 'dynclicks_u12_1084', 'dynclicks_u12_1165', 'dynclicks_u12_1082', 'dynclicks_u12_1081', 'dynclicks_u12_1078', 'dynclicks_u12_1169', 'dynclicks_u12_1211', 'dynclicks_u12_1207', 'dynclicks_u12_1305', 'dynclicks_u12_1304'], [1148, 1147, 1180, 1181, 1182, 1085, 1161, 1146, 1303, 1083, 1084, 1165, 1082, 1081, 1078, 1169, 1211, 1207, 1305, 1304], "wbnews", 1950452003)</script--><script>_showDynClickBatch(['dynclicks_u15_4688','dynclicks_u15_5866','dynclicks_u15_1281','dynclicks_u15_1516','dynclicks_u15_1517','dynclicks_u15_4744','dynclicks_u15_1282','dynclicks_u15_4918','dynclicks_u15_4691','dynclicks_u15_4703'],[4688,5866,1281,1516,1517,4744,1282,4918,4691,4703],"wbnews", 1999506397)</script>
+</div>
+            </div>
+        </div></div>
+    <div class="footer"><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<div class="px1400"><div class="fot-l"><div style="text-align: center;"><img src="images/dibulogo.png" style="width: 169px;height: auto;" /></div></div><div class="fot-l"><div class="ct"><h2>联系方式</h2><p><span>电话：0532-88959036</span></p><p><span><a href="mailto:xinxi@qust.edu.cn" style="text-align: left; color: rgb(255, 255, 255);">邮箱：xinxi@qust.edu.cn</a></span></p><p><span>地址：山东省青岛市崂山区松岭路99号青岛科技大学（崂山校区）</span></p></div></div><div class="fot-r"><div class="gz" style="margin: 0px auto; text-align: center;width: 250px;height: auto;"><img width="60%" alt="" src="dfiles/44035/upload/image/20200122/1579664875173112.jpg" style="margin: 0px auto;" /> &nbsp;<span>学院微信公众号</span> &nbsp;</div><div class="clear"></div></div><div class="clear"></div><p style="text-align: center;color: #fff;"><span>版权所有：青岛科技大学信息科学技术学院©2024 </span></p></div></div>
+
+
+
+    <script>
+        $(function () {
+            var swiper = new Swiper(".bannerswiper", {
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false,
+                },
+                loop: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                el: ".swiper-pagination",
+                clickable :true,
+              },
+            });
+            $('.ban1>ul').slick({
+                dots: false,
+                arrows: true,
+                autoplay: true,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+            $('.ban2>ul').slick({
+                dots: false,
+                arrows: true,
+                autoplay: true,
+                slidesToShow: 6,
+                slidesToScroll: 6,
+                responsive: [{
+                    breakpoint: 1025,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 4
+                    }
+                }, {
+                    breakpoint: 769,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    }
+                }, {
+                    breakpoint: 641,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                }, {
+                    breakpoint: 481,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+            $('.ban3>ul').slick({
+                dots: false,
+                arrows: true,
+                autoplay: false,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                responsive: [{
+                    breakpoint: 769,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 621,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 481,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }]
+            });
+
+
+        });
+        $(".s1-lb-tit>h2").click(function () {
+            var i = $(this).index();
+            $(this).addClass("on").siblings().removeClass("on");
+            $(".sec2-list>ul").eq(i).stop().fadeIn().siblings().hide();
+            $(".more-links>a").eq(i).stop().fadeIn().siblings().hide();
+
+        });
+        // 视频播放
+        $('body').on('click', '.js-play', function () {
+            var $this = $(this),
+                myVideo = $('#myVideo')[0];
+
+            myVideo.addEventListener('canplay', (function () {
+                $(myVideo).attr('controls', true);
+                myVideo.play();
+                $this.siblings('.name').hide();
+                $this.hide();
+            })());
+            return false;
+        });   
+    </script>
+    <!--升级提示-->
+    <style type="text/css">
+        #browser-modal {
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            text-align: center;
+            color: #303233;
+            position: fixed;
+            z-index: 99999999999999999999999;
+            display: none;}
+
+        #browser-modal .browser-modal-cover {
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #111;
+            opacity: .9;
+            z-index: -1;}
+
+        #browser-modal .browser-content {
+            width: 700px;
+            margin-top: 120px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 80px;
+            padding-top: 30px;
+            background-color: #fff;
+            border-radius: 5px;}
+
+        #browser-modal .browser-content .browser-dpc-logo img {
+            height: 62px;
+            margin: 45px auto 30px;}
+
+        #browser-modal .browser-content .browser-text-title {
+            text-transform: uppercase;
+            font-size: 24px;}
+
+        #browser-modal .browser-content .browser-text-desc {
+            margin-top: 30px;
+            margin-bottom: 40px;
+            font-size: 14px;}
+
+        #browser-modal .browser-content .browser-list {
+            width: 600px;
+            margin: 40px auto;
+            height: 130px;}
+
+        #browser-modal .browser-content .browser-item {
+            float: left;
+            width: 150px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;}
+
+        #browser-modal .browser-content .browser-item .iconfont {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            font-size: 80px;
+            line-height: 80px;
+            margin-bottom: 30px;}
+
+        #browser-modal .browser-content .browser-item a {
+            color: #921041;
+            cursor: pointer;
+            display: block;}
+
+        #browser-modal .browser-content .browser-item a img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100px;
+            width: 100px;
+            height: 100px;}
+
+        #browser-modal .browser-content .browser-item a h4 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: 700;}
+
+        .fixedok .banner {
+            opacity: 0;}
+
+        #browser-modal .browser-content .browser-item .iconchrome {
+            background: url(dfiles/44035/template/kejidaxue/static/images/bro.jpg) no-repeat 0 0;}
+
+        #browser-modal .browser-content .browser-item .iconfirefox {
+            background: url(dfiles/44035/template/kejidaxue/static/images/bro.jpg) no-repeat 0 -100px;}
+
+        #browser-modal .browser-content .browser-item .iconopera {
+            background: url(dfiles/44035/template/kejidaxue/static/images/bro.jpg) no-repeat 0 -200px;}
+
+        #browser-modal .browser-content .browser-item .iconEdge {
+            background: url(dfiles/44035/template/kejidaxue/static/images/bro.jpg) no-repeat 0 -300px;}
+    </style>
+    <div id="browser-modal">
+        <div class="browser-modal-cover"></div>
+        <div class="browser-content">
+            <div class="browser-text">
+
+                <h3 class="browser-text-title">请升级浏览器版本</h3>
+                <p class="browser-text-desc">
+                    你正在使用旧版本浏览器。请升级浏览器以获得更好的体验。
+                </p>
+            </div>
+            <div class="browser-list">
+                <div class="browser-item">
+                    <a href="https://www.google.cn/intl/zh-CN/chrome/" target="_blank">
+                        <div class="iconfont iconchrome">
+                        </div>
+                        <h4>Chrome</h4>
+                    </a>
+                </div>
+                <div class="browser-item">
+                    <a href="http://www.firefox.com.cn/" target="_blank">
+                        <div class="iconfont iconfirefox">
+                        </div>
+                        <h4>Firefox</h4>
+                    </a>
+                </div>
+                <div class="browser-item">
+                    <a href="https://www.opera.com/zh-cn" target="_blank">
+                        <div class="iconfont iconopera">
+                        </div>
+                        <h4>Opera</h4>
+                    </a>
+                </div>
+                <div class="browser-item">
+                    <a href="https://www.microsoft.com/zh-cn/edge" target="_blank">
+                        <div class="iconfont iconEdge">
+                        </div>
+                        <h4>Edge</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script>
+            if (navigator.appName == "Microsoft Internet Explorer" && parseInt(navigator.appVersion.split(";")[1].replace(/[ ]/g, "").replace("MSIE", "")) < 9) {
+                document.getElementById('browser-modal').style.display = 'block';
+                console.log("您的浏览器版本过低，请使用IE10以上版本");
+            }
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en"  class="webplus-page"  >
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="format-detection" content="telephone=no">
+    <title>华南理工大学2026年攻读博士学位研究生第二次招生通知</title>
+
+    
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/sudy-jquery-autoload.js" jquery-src="/_js/jquery-1.x.min.js" sudy-wp-context="" sudy-wp-siteId="544"></script>
+<script language="javascript" src="/_js/jquery-migrate.min.js"></script>
+<script language="javascript" src="/_js2/loadStyle.js" sys-path="/_upload/site/1/style/1/1.css"  site-path="/_upload/site/02/20/544/style/985/985.css" ></script>
+<script language="javascript" src="/_js2/grayscale.js"   ></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<link rel="stylesheet" href="/_upload/tpl/0d/0c/3340/template3340/./css/swiper.min.css">
+    <link rel="stylesheet" href="/_upload/tpl/0d/0c/3340/template3340/./lib/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/_upload/tpl/0d/0c/3340/template3340/./css/commom.css">
+    <link rel="stylesheet" href="/_upload/tpl/0d/0c/3340/template3340/./css/news_info_noside.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <!-- PC端头部 -->
+
+            <div class="h_logo center_area">
+                <div class="logo fl">
+                    <a href="/main.htm"></a>
+                </div>
+                <div class="maintop fr">
+                    <div class="search_links">
+                        <a href="https://www.scut.edu.cn/new/main.htm"  target="_blank">华工主页</a><span></span> <a href="https://sso.scut.edu.cn/cas/login"target="_blank" class="jiaogong">教工门户</a><span></span>
+<a href="http://www2.scut.edu.cn/graduate/ " target="_blank">研究生院</a>
+                      <form class="search_div"
+                            action="/_web/_search/api/search/new.rst?locale=zh_CN&request_locale=zh_CN&_p=YXM9NTQ0JnQ9MzM0MCZkPTEyNDM0JnA9MiZmPTMwMTA1Jm09TiY_"
+                            method="POST" target="_blank"
+                            onsubmit="if ($('#keyword').val() === '请输入关键字') { $('#keyword').val(''); }">
+
+                            <input id="keyword" name="keyword" class="keyword" type="text" value="请输入关键字"
+                                onfocus="if (this.value === '请输入关键字') { this.value = ''; }"
+                                onblur="if (this.value === '') { this.value = '请输入关键字'; }">
+                            <button type="submit" class="search_btn">
+                                <img src="/_upload/tpl/0d/0c/3340/template3340/./images/search.png" alt="">
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+            <div frag="面板1">
+                <div frag="窗口1">
+                    
+
+                        <div class="menu">
+
+
+                            
+                            <ul data-nav-aside='{"title":"导航","index":0}' class="clearfix center_area">
+                                
+                                <li class="nav-item {栏目级别}">
+                                    <a class="MenuBarItemSubmenu " href="/main.htm" target="_self">首页</a>
+                                    
+                                </li>
+                                
+                                <li class="nav-item {栏目级别}">
+                                    <a class="MenuBarItemSubmenu " href="/zsxx/list.htm" target="_self">招生信息</a>
+                                    
+                                    <ul>
+                                        
+                                        <li>
+                                            <a href="/sszs/list.htm" target="_self">硕士招生</a>
+                                            
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="/bszs/list.htm" target="_self">博士招生</a>
+                                            
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="/gatzs/list.htm" target="_self">港澳台招生</a>
+                                            
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="/zxjh/list.htm" target="_self">专项计划</a>
+                                            
+                                        </li>
+                                        
+                                    </ul>
+                                    
+                                </li>
+                                
+                                <li class="nav-item {栏目级别}">
+                                    <a class="MenuBarItemSubmenu " href="/zsjz/list.htm" target="_self">招生简章</a>
+                                    
+                                    <ul>
+                                        
+                                        <li>
+                                            <a href="/sszs_30381/list.htm" target="_self">硕士招生</a>
+                                            
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="/bszs_30382/list.htm" target="_self">博士招生</a>
+                                            
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="/gatzs_30383/list.htm" target="_self">港澳台招生</a>
+                                            
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="/zxjh_30384/list.htm" target="_self">专项计划</a>
+                                            
+                                        </li>
+                                        
+                                    </ul>
+                                    
+                                </li>
+                                
+                                <li class="nav-item {栏目级别}">
+                                    <a class="MenuBarItemSubmenu " href="https://yanzhao.scut.edu.cn/" target="_self">招生系统</a>
+                                    
+                                    <ul>
+                                        
+                                        <li>
+                                            <a href="https://yanzhao.scut.edu.cn/Open/Master/signin.aspx" target="_self">硕士招生系统</a>
+                                            
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="https://yanzhao.scut.edu.cn/open/master/cjsignin.aspx" target="_self">硕士初试成绩查询</a>
+                                            
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="https://yanzhao.scut.edu.cn/MasterTm/Signin.aspx" target="_self">预推免系统</a>
+                                            
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="https://yanzhao.scut.edu.cn/Doctor/signin.aspx" target="_self">博士招生复试系统</a>
+                                            
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="https://yanzhao.scut.edu.cn/DoctorLd/signin.aspx" target="_blank">硕博连读博士报名...</a>
+                                            
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="https://yanzhao.scut.edu.cn/DoctorKh/signin.aspx" target="_blank">申请考核博士报名...</a>
+                                            
+                                        </li>
+                                        
+                                    </ul>
+                                    
+                                </li>
+                                
+                                <li class="nav-item {栏目级别}">
+                                    <a class="MenuBarItemSubmenu " href=" https://yanzhao.scut.edu.cn/open/TutorList.aspx" target="_self">导师简介</a>
+                                    
+                                    <ul>
+                                        
+                                        <li>
+                                            <a href=" https://yanzhao.scut.edu.cn/open/TutorList.aspx" target="_self">硕士生导师</a>
+                                            
+                                        </li>
+                                        
+                                        <li>
+                                            <a href=" https://yanzhao.scut.edu.cn/open/TutorList.aspx" target="_self">博士生导师</a>
+                                            
+                                        </li>
+                                        
+                                    </ul>
+                                    
+                                </li>
+                                
+                                <li class="nav-item {栏目级别}">
+                                    <a class="MenuBarItemSubmenu " href="/lxxx/list.htm" target="_self">联系信息</a>
+                                    
+                                </li>
+                                
+                            </ul>
+                            
+
+                        </div>
+
+                    
+                </div>
+            </div>
+
+      <!-- 移动端menu头部 -->
+
+      <div class="open"><span></span></div>
+        
+      <div frag="面板2">
+          <div frag="窗口2">
+            
+      <div class="p_menu">
+        <div class="close clearfix"><span></span></div>
+
+
+              
+              <ul data-nav-aside='{"title":"导航","index":0}' class="clearfix center_area">
+                
+                <li class="nav-item {栏目级别}">
+                  <a class="MenuBarItemSubmenu " href="/main.htm" target="_self">首页</a>
+                  
+                </li>
+                
+                <li class="nav-item {栏目级别}">
+                  <a class="MenuBarItemSubmenu " href="/zsxx/list.htm" target="_self">招生信息</a>
+                  
+                  <ul>
+                    
+                    <li>
+                      <a href="/sszs/list.htm" target="_self">硕士招生</a>
+                      
+                    </li>
+                    
+                    <li>
+                      <a href="/bszs/list.htm" target="_self">博士招生</a>
+                      
+                    </li>
+                    
+                    <li>
+                      <a href="/gatzs/list.htm" target="_self">港澳台招生</a>
+                      
+                    </li>
+                    
+                    <li>
+                      <a href="/zxjh/list.htm" target="_self">专项计划</a>
+                      
+                    </li>
+                    
+                  </ul>
+                  
+                </li>
+                
+                <li class="nav-item {栏目级别}">
+                  <a class="MenuBarItemSubmenu " href="/zsjz/list.htm" target="_self">招生简章</a>
+                  
+                  <ul>
+                    
+                    <li>
+                      <a href="/sszs_30381/list.htm" target="_self">硕士招生</a>
+                      
+                    </li>
+                    
+                    <li>
+                      <a href="/bszs_30382/list.htm" target="_self">博士招生</a>
+                      
+                    </li>
+                    
+                    <li>
+                      <a href="/gatzs_30383/list.htm" target="_self">港澳台招生</a>
+                      
+                    </li>
+                    
+                    <li>
+                      <a href="/zxjh_30384/list.htm" target="_self">专项计划</a>
+                      
+                    </li>
+                    
+                  </ul>
+                  
+                </li>
+                
+                <li class="nav-item {栏目级别}">
+                  <a class="MenuBarItemSubmenu " href="https://yanzhao.scut.edu.cn/" target="_self">招生系统</a>
+                  
+                  <ul>
+                    
+                    <li>
+                      <a href="https://yanzhao.scut.edu.cn/Open/Master/signin.aspx" target="_self">硕士招生系统</a>
+                      
+                    </li>
+                    
+                    <li>
+                      <a href="https://yanzhao.scut.edu.cn/open/master/cjsignin.aspx" target="_self">硕士初试成绩查询</a>
+                      
+                    </li>
+                    
+                    <li>
+                      <a href="https://yanzhao.scut.edu.cn/MasterTm/Signin.aspx" target="_self">预推免系统</a>
+                      
+                    </li>
+                    
+                    <li>
+                      <a href="https://yanzhao.scut.edu.cn/Doctor/signin.aspx" target="_self">博士招生复试系统</a>
+                      
+                    </li>
+                    
+                    <li>
+                      <a href="https://yanzhao.scut.edu.cn/DoctorLd/signin.aspx" target="_blank">硕博连读博士报名...</a>
+                      
+                    </li>
+                    
+                    <li>
+                      <a href="https://yanzhao.scut.edu.cn/DoctorKh/signin.aspx" target="_blank">申请考核博士报名...</a>
+                      
+                    </li>
+                    
+                  </ul>
+                  
+                </li>
+                
+                <li class="nav-item {栏目级别}">
+                  <a class="MenuBarItemSubmenu " href=" https://yanzhao.scut.edu.cn/open/TutorList.aspx" target="_self">导师简介</a>
+                  
+                  <ul>
+                    
+                    <li>
+                      <a href=" https://yanzhao.scut.edu.cn/open/TutorList.aspx" target="_self">硕士生导师</a>
+                      
+                    </li>
+                    
+                    <li>
+                      <a href=" https://yanzhao.scut.edu.cn/open/TutorList.aspx" target="_self">博士生导师</a>
+                      
+                    </li>
+                    
+                  </ul>
+                  
+                </li>
+                
+                <li class="nav-item {栏目级别}">
+                  <a class="MenuBarItemSubmenu " href="/lxxx/list.htm" target="_self">联系信息</a>
+                  
+                </li>
+                
+              </ul>
+              
+
+
+
+      
+      </div>
+
+      
+          </div>
+        </div>
+
+        </div>
+
+    </header>
+
+       <div class="mask"></div>
+
+
+   <section>
+    <div class="top_banner">
+      <div class="top_bg"></div>
+    </div>
+
+    <div class="list_container">
+      <div class="center_area clearfix">
+        <div class="list-right">
+          <div class="main_list">
+            <div class="big_content">
+
+              <div frag="面板31">
+                <div frag="窗口31">
+                                      <div>
+                      <div class="content_title">华南理工大学2026年攻读博士学位研究生第二次招生通知</div>
+                      <div class="content_info">
+                        <img src="/_upload/tpl/0d/0c/3340/template3340/images/author.png">发布管理员
+                        <img src="/_upload/tpl/0d/0c/3340/template3340/images/time.png">2026-04-28
+                        <img src="/_upload/tpl/0d/0c/3340/template3340/images/see.png"><span class="WP_VisitCount" url="/_visitcountdisplay?siteId=544&type=3&articleId=625528">54501</span>
+                      </div>
+                      <div class="content_txt defaultart"><div class='wp_articlecontent'><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;"><span style="text-indent:2em;">各位考生：</span><br /></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;">我校2026年攻读博士学位研究生第二次招生报考工作即将开始，现将有关事项通知如下：</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;"><strong><span style="font-size:18px;">一、招生计划</span></strong></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;">各院系招生计划见附件1。</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;">部分院系招生计划会因科研经费博士及其他专项计划等下达情况有所增加，考生可及时关注院系招生计划附件信息更新或咨询意向报考导师。</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;">“对口支援西部地区高校定向培养研究生计划”等部分专项计划按照教育部下达计划数及相关高校推荐名单执行。</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;"><strong><span style="font-size:18px;">二、生源范围及选拔方式</span></strong></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;">主要面向我校全日制在校硕士研究生以硕博连读方式选拔，硕博连读生源不足时接受考生以申请考核制方式报考（第一次已报考但未录取的考生可再次报考）。</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;"><strong><span style="font-size:18px;">三、招生程序</span></strong></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;"><strong><span style="font-size:18px;">1.报考</span></strong></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;"><span style="font-size:18px;">考生报考前应与所报考导师取得联系，了解导师科研方向与招生计划情况，并征询导师意见。考生经报考导师同意后，在5月12日24:00前将本人简历及学术成果一览表（附件2）发至意向报考导师邮箱和院系联系人邮箱，并完成在中国研究生招生信息网报名（</span><a href="http://yz.chsi.com.cn/" target="_self" sudyfile-attr="{'title':'只支持选中一个链接时生效'}" style="font-size:18px;text-decoration:underline;"><span style="font-size:18px;">http://yz.chsi.com.cn/</span></a><span style="font-size:18px;">）。</span></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;"><span style="font-size:18px;">考生须符合《华南理工大学2026年攻读博士学位研究生招生章程》报考条件（</span><a href="https://yz.scut.edu.cn/2025/1020/c30108a606073/page.htm" target="_self" sudyfile-attr="{'title':'只支持选中一个链接时生效'}" style="font-size:18px;text-decoration:underline;"><span style="font-size:18px;">https://yz.scut.edu.cn/2025/1020/c30108a606073/page.htm</span></a><span style="font-size:18px;">）以及各院系申请考核制实施细则（</span><a href="https://yanzhao.scut.edu.cn/Doctor/SqkhfaOpen.aspx" target="_self" sudyfile-attr="{'title':'只支持选中一个链接时生效'}" style="font-size:18px;text-decoration:underline;"><span style="font-size:18px;">https://yanzhao.scut.edu.cn/Doctor/SqkhfaOpen.aspx</span></a><span style="font-size:18px;">）中所列申请要求或研究生院发布的硕博连读选拔报考要求（</span><a href="https://www2.scut.edu.cn/graduate/2025/1022/c14562a606392/page.htm" target="_self" sudyfile-attr="{'title':'只支持选中一个链接时生效'}" style="font-size:18px;text-decoration:underline;"><span style="font-size:18px;">https://www2.scut.edu.cn/graduate/2025/1022/c14562a606392/page.htm</span></a><span style="font-size:18px;">）。</span></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;">考生报考前须认真阅读附件3相关内容，在中国研究生招生信息网填写报信息时均选择导师组，在华南理工大学研究生招生系统确认时选择实际报考导师。</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;"><strong><span style="font-size:18px;">2.资格审核</span></strong></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;">招生院系根据报考条件和导师意见，结合考生学术科研条件，对考生进行资格初审，审核不通过者不予参加材料评审和综合考核（复试）。</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;"><strong><span style="font-size:18px;">3.报考确认及缴费</span></strong></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;"><span style="font-size:18px;">5月13-15日，资格初审通过考生登录华南理工大学研究生招生系统（</span><a href="https://yanzhao.scut.edu.cn/" target="_self" sudyfile-attr="{'title':'只支持选中一个链接时生效'}" style="font-size:18px;text-decoration:underline;"><span style="font-size:18px;">https://yanzhao.scut.edu.cn/</span></a><span style="font-size:18px;">）确认报考信息并提交相应资料。</span></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;">学历审核结论为不通过的考生需在规定时间内提供相应补充材料，否则报考资格无效。网上确认通过的考生可在我校研究生招生系统缴交报考费。</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;">网上缴费成功后，考生须根据报考指引要求将申请材料在5月18日前（以寄送邮戳为准）寄（送）申请院系，如通过邮寄方式必须使用邮政特快专递（EMS）。考生可在学校研究生招生系统查询报考材料是否已被接收。已参加第一次报考的考生，经二次报考院系同意可采用之前报考材料，无需再次邮寄。</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;"><strong><span style="font-size:18px;">4.资格复审及材料评审</span></strong></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;">5月18日起，院系对考生进行资格复审并组织专家对考生在招生系统内提交的学习成绩、学术科研成果、参与各类研究实践情况、硕士论文、获奖以及研究计划等方面电子版材料进行综合评审。对考生第一次报考专业与第二次报考专业相同或相近，材料评审标准一致的，经院系讨论决定是否采用第一次材料评审成绩。</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;"><strong><span style="font-size:18px;">5.复试及录取</span></strong></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;">院系根据招生计划数按照相应比例确定复试名单，硕博连读考生资格审核通过则直接进入复试名单。对于已参加第一次招考且复试合格的考生，院系可决定是否采用考生第一次复试成绩。</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;">复试录取原则详见各院系网站公布的二次招生复试录取工作方案。</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;"><strong><span style="font-size:18px;">四、其他</span></strong></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;">1.报考信息和递交材料弄虚作假者，一经查实，即按有关规定取消报考资格、录取资格或学籍。</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;">2.招生各环节的时间安排，请考生及时关注招生学院（系）的相关通知。</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;font-size:18px;">&nbsp;</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;text-align:right;font-size:18px;">研究生招生办公室</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;text-align:right;font-size:18px;">2026年4月25日</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">附件1：各院系招生计划（招生学院及学院计划<span style="color:#ff0000;">陆续更新</span>）</p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/f72d097a-acb7-4101-8a76-f290e2a23c04.docx" sudyfile-attr="{'title':'101-机械与汽车工程学院 .docx'}">101-机械与汽车工程学院 .docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/7c1b1cdc-a632-490b-96f7-ee19bffab7ed.docx" sudyfile-attr="{'title':'102-建筑学院.docx'}">102-建筑学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/59e7d008-19d5-4e73-bace-b72a4ce05eab.docx" sudyfile-attr="{'title':'103-土木与交通学院.docx'}">103-土木与交通学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/4657d3f3-c0f0-4f77-b660-247c2028a2c0.docx" sudyfile-attr="{'title':'104-电子与信息学院.docx'}">104-电子与信息学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/0c2ca013-8852-4761-a036-f8e75e22a7ff.docx" sudyfile-attr="{'title':'105-电力学院.docx'}">105-电力学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/ddf1156b-19e3-41bd-9ff4-42998d9749cf.docx" sudyfile-attr="{'title':'106-自动化科学与工程学院.docx'}">106-自动化科学与工程学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/bea457be-9131-4872-a15e-9781947e0299.docx" sudyfile-attr="{'title':'107-材料科学与工程学院.docx'}">107-材料科学与工程学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/59fed8b7-f5ca-49f2-99ab-0aa000bb8e92.docx" sudyfile-attr="{'title':'108-化学与化工学院.docx'}">108-化学与化工学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/590c3e72-9c78-4206-b60f-2f18bddc9efb.docx" sudyfile-attr="{'title':'109-食品科学与工程学院.docx'}">109-食品科学与工程学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/9a89120c-6718-424d-875d-df0dea1e5663.docx" sudyfile-attr="{'title':'110-轻工科学与工程学院.docx'}">110-轻工科学与工程学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/5b424cd8-3b2f-4a4a-9781-453cee18c943.docx" sudyfile-attr="{'title':'111-数学学院.docx'}">111-数学学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/257f882c-5571-4dcb-9bad-ea1172c230b6.docx" sudyfile-attr="{'title':'112-物理与光电学院.docx'}">112-物理与光电学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/433699a2-4b6d-4a77-91b1-56b0521a9c71.docx" sudyfile-attr="{'title':'113-马克思主义学院.docx'}">113-马克思主义学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/12d3c04f-89db-4c85-b55e-1a57266fe689.docx" sudyfile-attr="{'title':'114-工商管理学院.docx'}">114-工商管理学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/c675c42e-c83d-4be3-ba81-c00fb29f3822.docx" sudyfile-attr="{'title':'116-公共管理学院.docx'}">116-公共管理学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/964bfb4e-15ce-48d0-8b12-a428202357d9.docx" sudyfile-attr="{'title':'201-计算机科学与工程学院.docx'}">201-计算机科学与工程学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/96bd457b-a1af-49d5-8705-08a82fc4aa80.docx" sudyfile-attr="{'title':'202-软件学院.docx'}">202-软件学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/60a13819-8e07-44d0-9452-732e2788e930.docx" sudyfile-attr="{'title':'203-环境科学与工程学院.docx'}">203-环境科学与工程学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/6bcf5966-ec09-4b10-b6f6-c76f6fbc4792.docx" sudyfile-attr="{'title':'204-生物科学与工程学院.docx'}">204-生物科学与工程学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/5f021c79-a888-4bd0-8be7-db5edf99d892.docx" sudyfile-attr="{'title':'206-新闻与传播学院.docx'}">206-新闻与传播学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/47c3409a-90bc-46a2-b9e1-31178f46ccb4.docx" sudyfile-attr="{'title':'207-法学院.docx'}">207-法学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/1f1092a1-9356-402f-914a-f2ab7dbfae48.docx" sudyfile-attr="{'title':'210-医学院.docx'}">210-医学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/b706afd8-149e-448a-b3a7-86344425189c.docx" sudyfile-attr="{'title':'211-旅游管理系.docx'}">211-旅游管理系.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/b9b38282-d49c-4383-ad6c-0a7e98b105a6.docx" sudyfile-attr="{'title':'212-电子商务系.docx'}">212-电子商务系.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/6f170fef-3e7e-40c7-a54d-3b10d4765750.docx" sudyfile-attr="{'title':'301-吴贤铭智能工程学院.docx'}">301-吴贤铭智能工程学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/0fed54c4-7fe8-474c-925f-94c130850763.docx" sudyfile-attr="{'title':'302-生物医学科学与工程学院.docx'}">302-生物医学科学与工程学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/eb54e869-8978-47ab-8226-d4d069c6d987.docx" sudyfile-attr="{'title':'303-微电子学院.docx'}">303-微电子学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/2a1b303e-0e58-4165-940c-2f441123dcce.docx" sudyfile-attr="{'title':'304-前沿软物质学院.docx'}">304-前沿软物质学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/ede31aa5-1a72-4e93-a676-a19212cf2e12.docx" sudyfile-attr="{'title':'305-未来技术学院.docx'}">305-未来技术学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/81aabf25-7186-4061-b008-27628cae604a.docx" sudyfile-attr="{'title':'306-海洋科学与工程学院.docx'}">306-海洋科学与工程学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/15efb31d-d2a2-4801-bd67-f56b0104f8d7.docx" sudyfile-attr="{'title':'307-集成电路学院.docx'}">307-集成电路学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="font-size:16px;line-height:1.75em;">&nbsp; &nbsp; &nbsp;<img src="/_ueditor/themes/default/images/icon_doc.gif" isupload="true" /><a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/d43e4eea-f11d-4a74-a714-48d812a04ecc.docx" sudyfile-attr="{'title':'401-国家卓越工程师学院.docx'}">401-国家卓越工程师学院.docx</a></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;"><span style="font-size:16px;line-height:1.75em;">附件2：<a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/757f137c-cfb9-4f1a-b158-cd552f5ef09e.xlsx" sudyfile-attr="{'title':'附件2：学术成果一览表.xlsx'}">学术成果一览表.xlsx</a></span></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;"><span style="font-size:16px;line-height:1.75em;">附件3：<a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/0086fa09-d101-4a41-a7cb-84c293638836.pdf" sudyfile-attr="{'title':'附件3：华南理工大学2026年博士研究生招生报考指引.pdf'}">华南理工大学2026年博士研究生招生报考指引.pdf</a></span></p><p class="p_text_indent_2 wp_editor_art_paste_p" style="line-height:1.75em;"><span style="font-size:16px;line-height:1.75em;">附件4：<a href="/_upload/article/files/ae/64/da73a1eb415096277fde043cd558/b5ff0970-d47c-4cef-84a6-e1f08991d5d8.doc" sudyfile-attr="{'title':'附件4：报考华南理工大学博士研究生专家推荐信.doc'}">报考华南理工大学博士研究生专家推荐信.doc</a></span></p><p><br /></p></div></div>
+                    </div>
+
+                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <footer class="clearfix">
+    <div frag="面板09">
+      <div frag="窗口09">
+                  <div class="footer center_area clearfix">
+
+
+
+            
+            <ul>
+
+              
+              <li>
+
+                <a href="/zsxx/list.htm" target="_blank">招生信息</a>
+                
+                <ul>
+                  
+                  <li>
+
+                    <a href="/sszs/list.htm" target="_blank">硕士招生</a>
+                    
+                  </li>
+                  
+                  <li>
+
+                    <a href="/bszs/list.htm" target="_blank">博士招生</a>
+                    
+                  </li>
+                  
+                  <li>
+
+                    <a href="/gatzs/list.htm" target="_blank">港澳台招生</a>
+                    
+                  </li>
+                  
+                  <li>
+
+                    <a href="/zxjh/list.htm" target="_blank">专项计划</a>
+                    
+                  </li>
+                  
+
+                </ul>
+                
+              </li>
+              
+              <li>
+
+                <a href="/zsjz/list.htm" target="_blank">招生简章</a>
+                
+                <ul>
+                  
+                  <li>
+
+                    <a href="/sszs_30381/list.htm" target="_blank">硕士招生</a>
+                    
+                  </li>
+                  
+                  <li>
+
+                    <a href="/bszs_30382/list.htm" target="_blank">博士招生</a>
+                    
+                  </li>
+                  
+                  <li>
+
+                    <a href="/gatzs_30383/list.htm" target="_blank">港澳台招生</a>
+                    
+                  </li>
+                  
+                  <li>
+
+                    <a href="/zxjh_30384/list.htm" target="_blank">专项计划</a>
+                    
+                  </li>
+                  
+
+                </ul>
+                
+              </li>
+              
+              <li>
+
+                <a href="https://yanzhao.scut.edu.cn/" target="_blank">招生系统</a>
+                
+                <ul>
+                  
+                  <li>
+
+                    <a href="https://yanzhao.scut.edu.cn/Open/Master/signin.aspx" target="_blank">硕士招生系统</a>
+                    
+                  </li>
+                  
+                  <li>
+
+                    <a href="https://yanzhao.scut.edu.cn/open/master/cjsignin.aspx" target="_blank">硕士初试成绩查询</a>
+                    
+                  </li>
+                  
+                  <li>
+
+                    <a href="https://yanzhao.scut.edu.cn/MasterTm/Signin.aspx" target="_blank">预推免系统</a>
+                    
+                  </li>
+                  
+                  <li>
+
+                    <a href="https://yanzhao.scut.edu.cn/Doctor/signin.aspx" target="_blank">博士招生复试系统</a>
+                    
+                  </li>
+                  
+                  <li>
+
+                    <a href="https://yanzhao.scut.edu.cn/DoctorLd/signin.aspx" target="_blank">硕博连读博士报名...</a>
+                    
+                  </li>
+                  
+                  <li>
+
+                    <a href="https://yanzhao.scut.edu.cn/DoctorKh/signin.aspx" target="_blank">申请考核博士报名...</a>
+                    
+                  </li>
+                  
+
+                </ul>
+                
+              </li>
+              
+              <li>
+
+                <a href=" https://yanzhao.scut.edu.cn/open/TutorList.aspx" target="_blank">导师简介</a>
+                
+                <ul>
+                  
+                  <li>
+
+                    <a href=" https://yanzhao.scut.edu.cn/open/TutorList.aspx" target="_blank">硕士生导师</a>
+                    
+                  </li>
+                  
+                  <li>
+
+                    <a href=" https://yanzhao.scut.edu.cn/open/TutorList.aspx" target="_blank">博士生导师</a>
+                    
+                  </li>
+                  
+
+                </ul>
+                
+              </li>
+              
+              <li>
+
+                <a href="/cylj/list.htm" target="_blank">常用链接</a>
+                
+                <ul>
+                  
+                  <li>
+
+                    <a href="https://yz.chsi.com.cn/" target="_blank">研招网</a>
+                    
+                  </li>
+                  
+                  <li>
+
+                    <a href="https://www.chsi.com.cn/" target="_blank">学信网</a>
+                    
+                  </li>
+                  
+                  <li>
+
+                    <a href="http://eea.gd.gov.cn/" target="_blank">广东省考试院</a>
+                    
+                  </li>
+                  
+                  <li>
+
+                    <a href="http://www.cdgdc.edu.cn/" target="_blank">学位网</a>
+                    
+                  </li>
+                  
+
+                </ul>
+                
+              </li>
+              
+
+            </ul>
+            
+
+
+            <div class="f_right">
+              <div class="right_1">
+                <img src="/_upload/tpl/0d/0c/3340/template3340/./images/weixin1.png" alt="">
+                <div class="right_text">
+                  <p>研究生招生</p>
+                </div>
+              </div>
+
+              <div class="right_2">
+                <img src="/_upload/tpl/0d/0c/3340/template3340/./images/weixin2.png" alt="">
+                <div class="right_text">
+                  <p>研究生教育</p>
+                </div>
+              </div>
+              <div class="info">
+                <p>电话：020-87113401</p>
+                <p>邮箱：adyzb@scut.edu.cn</p>
+                <!--<p>传真：020-87112151</p>-->
+                <p>地址：广东省广州市天河区五山华南理工大学<br>   笃行楼（2号楼）北座102室</p>
+              </div>
+
+            </div>
+          </div>
+        
+      </div>
+    </div>
+    <div class="copy">
+      <p>Copyright© 2021 华南理工大学研究生招生网 All Rights Reserved</p>
+      <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备05084312号</a>
+    </div>
+  </footer>
+
+    <!-- <script src="/_upload/tpl/0d/0c/3340/template3340/./js/jquery-1.11.1.min.js"></script> -->
+    <script src="/_upload/tpl/0d/0c/3340/template3340/./js/swiper.min.js"></script>
+    <script src="/_upload/tpl/0d/0c/3340/template3340/./js/commom.js"></script>
+    <script src="/_upload/tpl/0d/0c/3340/template3340/./js/main.js"></script>
+</body>
+
+</html>
+ <img src="/_visitcount?siteId=544&type=3&articleId=625528" style="display:none" width="0" height="0"/>

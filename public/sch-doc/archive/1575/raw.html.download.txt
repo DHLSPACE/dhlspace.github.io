@@ -1,0 +1,228 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="/resource/home/css/home.css?v=E921633487812330" rel="stylesheet" type="text/css" />
+    
+    <script src="/resource/master/js/jquery-3.5.1.js"></script>
+    <script src="/resource/home/js/jquery.min.js"></script>
+
+    <!--[if !IE]> -->
+    <script type="text/javascript">
+        window.jQuery || document.write("<script src='/resource/master/js/jquery-3.5.1.js'>"+"<"+"/script>");
+    </script>
+    <!--[if !IE]> -->
+    <!--[if IE]-->
+    <script type="text/javascript">
+        window.jQuery || document.write("<script src='/resource/master/js/jquery-3.5.1.js'>"+"<"+"/script>");
+    </script>
+    <!--[if IE]-->
+    <script src="/resource/master/js/jquery-migrate.js"></script>
+
+
+
+<!-- ace settings handler -->
+<script src="/resource/master/js/ace-extra.js"></script>
+
+<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+<!--[if lte IE 8]-->
+<script src="/resource/master/js/html5shiv.js"></script>
+<script src="/resource/master/js/respond.js"></script>
+<!--[endif]-->
+
+
+
+<!-- <![endif]-->
+
+
+
+<!--[endif]-->
+<script type="text/javascript">
+    if('ontouchstart' in document.documentElement) document.write("<script src='/resource/master/js/jquery.mobile.custom.js'>"+"<"+"/script>");
+</script>
+
+<script src="/resource/master/js/bootstrap.js"></script>
+<script src="/resource/master/js/ace/elements.scroller.js"></script>
+<script src="/resource/master/js/ace/elements.colorpicker.js"></script>
+<script src="/resource/master/js/ace/elements.fileinput.js"></script>
+<script src="/resource/master/js/ace/elements.typeahead.js"></script>
+<script src="/resource/master/js/ace/elements.wysiwyg.js"></script>
+<script src="/resource/master/js/ace/elements.spinner.js"></script>
+<script src="/resource/master/js/ace/elements.treeview.js"></script>
+<script src="/resource/master/js/ace/elements.wizard.js"></script>
+<script src="/resource/master/js/ace/elements.aside.js"></script>
+<script src="/resource/master/js/ace/ace.js"></script>
+<script src="/resource/master/js/ace/ace.ajax-content.js"></script>
+<script src="/resource/master/js/ace/ace.touch-drag.js"></script>
+<script src="/resource/master/js/ace/ace.sidebar.js"></script>
+<script src="/resource/master/js/ace/ace.sidebar-scroll-1.js"></script>
+<script src="/resource/master/js/ace/ace.submenu-hover.js"></script>
+<script src="/resource/master/js/ace/ace.widget-box.js"></script>
+<script src="/resource/master/js/ace/ace.settings.js"></script>
+<script src="/resource/master/js/ace/ace.settings-rtl.js"></script>
+<script src="/resource/master/js/ace/ace.settings-skin.js"></script>
+<script src="/resource/master/js/ace/ace.widget-on-reload.js"></script>
+<script src="/resource/master/js/ace/ace.searchbox-autocomplete.js"></script>
+<script src="/resource/master/js/sdyinc_master.js"></script>
+<script src="/resource/home/js/jquery.base64.js"></script>
+    <link rel="stylesheet" href="/resource/home/js/plugins/artdialog/css/ui-dialog.css">
+<script src="/resource/home/js/plugins/artdialog/dialog-min.js"></script>
+<script src="/resource/home/js/plugins/artdialog/dialog-plus-min.js"></script>
+    <script src="/resource/home/js/jquery.SuperSlide.2.1.1.js"></script>
+    <title>北京化工大学</title>
+    <link rel="shortcut icon" href="/uploads/5cc7108806.png">
+</head>
+<script>
+    jQuery(document).ready(function($) {
+        $(".en").hide();
+        $(".fre").hide();
+        $('#language').hover(function() {
+            $(this).find(".en").show();
+            $(this).find(".fre").show();
+        }, function() {
+            setTimeout(function () {
+                $("#language").find(".en").hide();
+                $("#language").find(".fre").hide();
+            }, 1000);
+        });
+        jQuery("#superslide").slide({trigger:"click",autoPlay:false,effect:"left"});
+    });
+
+</script>
+
+<body class="s-body clearfix" style="background: url('/resource/home/images/index/home_bg.jpg') no-repeat center;background-size: cover;
+        background-attachment: fixed;width: 100%;height: 100%;position: fixed;top: 0;left: 0;right: 0;bottom: 0;">
+<div class="s-top">
+    <div class="language fr" id="language">
+        <a href="/cn/index" class="cn" style="background:#6eb141 url(/resource/home/images/index/cn.png) no-repeat 10px center ;">中文</a>
+        <a href="/en/index" class="en" style="background:#6eb141 url(/resource/home/images/index/eng.png) no-repeat 10px center;" >ENGLISH</a>
+        <a href="/fre/index" class="fre" style="background:#6eb141 url(/resource/home/images/index/french.png) no-repeat 10px center;" >Français</a>
+
+    </div>
+            <a class="register fr" href="/cn/student/register">REGISTER</a>
+        <a class="login fr" href="/cn/student/login">LOGIN</a>
+    </div>
+
+<style type="text/css">
+    .s-cont {width: 1060px;}
+    .s-col1 .apply dt, .s-col3 dt, .s-col2 dt{ padding: 10px 15px 0 30px; }
+    .s-col1 .apply dd h1, .s-col3 dd h1, .s-col2 dd h1 { font-size: 28px; text-align: left; }
+    .s-col1 .apply dd h3, .s-col3 dd h3, .s-col2 dd h3 { font-size: 20px; padding-left: 90px; margin-top: 10px;text-align: left;  }
+    .s-col1 .apply { padding-top: 90px; }
+    li.fl.s-col2,li.fl.s-col3 { width: 350px; }
+    .s-col2 .accommodation, .s-col2 .airport { width: 350px; padding-top: 60px; }
+    .s-col3 .progress { width: 350px; }
+</style>
+<div class="s-cont">
+    <ul class="s-column3 clearfix">
+        <li class="fl s-col1">
+                            <a target="_blank" href="/" class="s-logo"><img src="https://study.buct.edu.cn/file/read?path=281bf1a6f5.png&expire=1789966948&sign=81540eb0f8b18b506a187062eed90c2c" alt="Logo" style="width: 260px; height: 60px;"></a>
+            
+            <div class="apply">
+                <a href="/cn/student/apply/index">
+                    <dl>
+                        <dt class="fl"><img src="/resource/home/images/index/apply.png"></dt>
+                        <dd><h1>Online Application</h1></dd>
+                        <dd><h3>在线申请</h3></dd>
+                    </dl>
+                </a>
+                <a href="/cn/user_guide/index"><button class="s-btn">USER MANUAL/使用指南</button></a>
+            </div>
+        </li>
+        <li class="fl s-col2">
+            <div class="accommodation">
+                <a href="/cn/student/apply_accommodation">
+                    <dl>
+                        <dt class="fl"><img src="/resource/home/images/index/home.png" alt=""></dt>
+                        <dd><h1>Accommodation Reservation</h1></dd>
+                        <dd><h3>住宿预订</h3></dd>
+                    </dl>
+                </a>
+            </div>
+            <div class="airport">
+                    <dl>
+                        <dt class="fl"><img src="/resource/home/images/index/oline.png" alt=""></dt>
+                        <a href="/cn/student/pick_up/index" target="_blank">
+                            <dd><h1>Pick-up Service</h1></dd>
+                        </a>
+                        <a href="/cn/student/pick_up/index" target="_blank">
+                            <dd><h3>接机服务</h3></dd>
+                        </a>
+                    </dl>
+            </div>
+        </li>
+        <li class="fl s-col3">
+            <div class="progress">
+                <a href="/cn/student/index">
+                    <dl>
+                        <dt class="fl"><img src="/resource/home/images/index/top2.png"></dt>
+                        <dd><h1>Tracking Progress</h1></dd>
+                        <dd><h3>申请跟进</h3></dd>
+                    </dl>
+                </a>
+            </div>
+                            <div class="news" id="superslide">
+                    <div class="tempWrap" style="overflow:hidden; position:relative; width:238px">
+                        <div class="bd" style="width: 714px; left: -476px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
+                                                            <dl class="news_font" style="float: left; width: 238px;">
+                                    <dt style="font-size: 45px;">2025-11-19</dt>
+                                    <dd>
+                                        <h2>
+                                            <a href="https://mp.weixin.qq.com/s/8NxcKualNcREyrMjGUzsZA">
+                                                2026年 北京化工大学国际学生研究生项目招生简章                                            </a>
+                                        </h2>
+                                    </dd>
+                                    <dd class="font_gray">
+                                                                            </dd>
+                                </dl>
+                                                            <dl class="news_font" style="float: left; width: 238px;">
+                                    <dt style="font-size: 45px;">2025-11-19</dt>
+                                    <dd>
+                                        <h2>
+                                            <a href="https://mp.weixin.qq.com/s/ruODBHPP2Hr23PZL0X45bA">
+                                                2026年 北京化工大学国际学生本科生招生简章                                            </a>
+                                        </h2>
+                                    </dd>
+                                    <dd class="font_gray">
+                                                                            </dd>
+                                </dl>
+                                                            <dl class="news_font" style="float: left; width: 238px;">
+                                    <dt style="font-size: 45px;">2024-11-25</dt>
+                                    <dd>
+                                        <h2>
+                                            <a href="https://en-sie.buct.edu.cn/4201/list.htm">
+                                                2026年 北京化工大学国际学生研究生项目招生简章                                            </a>
+                                        </h2>
+                                    </dd>
+                                    <dd class="font_gray">
+                                                                            </dd>
+                                </dl>
+                                                            <dl class="news_font" style="float: left; width: 238px;">
+                                    <dt style="font-size: 45px;">2024-11-25</dt>
+                                    <dd>
+                                        <h2>
+                                            <a href="https://en-sie.buct.edu.cn/4199/list.htm">
+                                                2026年 北京化工大学国际学生本科生招生简章                                            </a>
+                                        </h2>
+                                    </dd>
+                                    <dd class="font_gray">
+                                                                            </dd>
+                                </dl>
+                                                    </div>
+                    </div>
+
+                                            <div class="qh clearfix">
+                            <div class="prev"></div>
+                            <div class="next"></div>
+                        </div>
+                                    </div>
+                    </li>
+
+    </ul>
+</div>
+<div class="s-bottom">
+    <p style="color:#A7A7A7"><a href='http://icp.chinaz.com/' target='_blank' style='color:#000;'></a> &nbsp;&nbsp; 技术支持：<a target="_blank" style="color:#F38C07" href="https://www.cucas.cn?from=BUCT_apply_sys">CUCAS</a></p>
+</div>
+</body>
+</html>

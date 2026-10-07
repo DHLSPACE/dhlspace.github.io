@@ -1,0 +1,984 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="webplus-main"  >
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>化学与化工学院</title>
+    
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/sudy-jquery-autoload.js" jquery-src="/_js/jquery-1.9.1.min.js" sudy-wp-context="" sudy-wp-siteId="38"></script>
+<script language="javascript" src="/_js/jquery-migrate.min.js"></script>
+<script language="javascript" src="/_js2/loadStyle.js" sys-path="/_upload/site/1/style/1/1.css"  site-path="/_upload/site/00/26/38/style/122/122.css" ></script>
+<script language="javascript" src="/_js2/grayscale.js"   ></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<link rel="stylesheet" href="/_upload/tpl/06/8a/1674/template1674/resources/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/_upload/tpl/06/8a/1674/template1674/resources/css/idangerous.swiper.css" />
+    <link rel="stylesheet" href="/_upload/tpl/06/8a/1674/template1674/resources/font-awesome-4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="/_upload/tpl/06/8a/1674/template1674/resources/css/bootstrap_table.css" />
+    <link rel="stylesheet" href="/_upload/tpl/06/8a/1674/template1674/resources/css/index.css" />
+</head>
+
+<body>
+    <div class="head">
+        <div class="centerArea">
+            <div class="head_logo">
+                <div class="logo"> <a href="/ce/_t1674/main.htm"><img src="/_upload/tpl/06/8a/1674/template1674/resources/images/dark_2x.png" height="67px" /></a> </div>
+                <div class="search">
+                    <div class="search_top"> <a href="https://www.scut.edu.cn/new/">华工首页</a> <a href="http://www2.scut.edu.cn/ce_en/">English</a> </div>
+                    <div class="clear_both"></div>
+                    <div class="search_bottom">
+                        <form method="post" action="/_web/search/doSearch.do?locale=zh_CN&amp;request_locale=zh_CN&amp;_p=YXM9MzgmdD0xNjc0JmQ9NTE2OSZwPTEmbT1OJg__"> <input class="searchValue" target="_blank" value="搜索" name="keyword" id="keyword"> <button type="submit" value="" class="formSubmit" id="formSubmit" name="btnsearch"><i class="fa fa-search"></i></button> </form>
+                    </div>
+                </div>
+            </div>
+            <div class="nav" frag="面板1">
+                <div frag="窗口1">
+                    
+                        
+                        <ul class="navul">
+                            
+                            <li class="{栏目级别} "> <a href="http://www2.scut.edu.cn/ce/main.htm" target="_self">首页</a>
+                                
+                            </li>
+                            
+                            <li class="{栏目级别} "> <a href="/ce/2415/list.htm" target="_self">学院概况</a>
+                                
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/2416/list.htm" target="_self">学院简介</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/xkjs/list.htm" target="_self">学科建设</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/2419/list.htm" target="_self">机构设置</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/2417/list.htm" target="_self">现任领导</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/2418/list.htm" target="_self">学院办公室</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/17561/list.htm" target="_self">院务公开</a>
+                                        
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/18429/list.htm" target="_self">规章制度</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                                    </li>
+                                    
+                                    <li> <a href="/ce/lxwm/list.htm" target="_self">联系我们</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </li>
+                            
+                            <li class="{栏目级别} "> <a href="/ce/2421/list.htm" target="_self">师资队伍</a>
+                                
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/2421/list.htm" target="_self">教授（研究员）</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/2422/list.htm" target="_self">副教授（副研、高工）</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/2424/list.htm" target="_self">讲师（助理研究员）</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/2425/list.htm" target="_self">实验团队教师</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </li>
+                            
+                            <li class="{栏目级别} "> <a href="/ce/17076/list.htm" target="_self">平台建设</a>
+                                
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/17076/list.htm" target="_self">重点实验室</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/gczx/list.htm" target="_self">工程中心</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/2481/list.htm" target="_self">大型仪器设备简介</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="https://yqgx.scut.edu.cn/eqmgrb/login" target="_self">共享平台仪器预约</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/xnfz/list.htm" target="_self">虚拟仿真</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/2480/list.htm" target="_self">实验室规章制度</a>
+                                        
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/gdsrldcjszdsys/list.htm" target="_self">广东省燃料电池技术重点实验室</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/crqhygcjnjybzdsys/list.htm" target="_self">传热强化与过程节能教育部重点实验室</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                                    </li>
+                                    
+                                    <li> <a href="/ce/sysaq/list.htm" target="_self">实验室安全管理</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </li>
+                            
+                            <li class="{栏目级别} "> <a href="/ce/2482/list.htm" target="_self">科学研究</a>
+                                
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/2488/list.htm" target="_self">研究方向</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/18507/list.htm" target="_self">科研合作</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/18504/list.htm" target="_self">办事指南</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/18498/list.htm" target="_self">下载专区</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </li>
+                            
+                            <li class="{栏目级别} "> <a href="/ce/17564/list.htm" target="_self">本科教育</a>
+                                
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/18439/list.htm" target="_self">专业介绍</a>
+                                        
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/hxlwqjjhwb/list.htm" target="_self">化学类“强基计划”班</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/hxlbjb/list.htm" target="_self">化学类拔尖班</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/yyhx_31848/list.htm" target="_self">应用化学</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/hxgcygy_31849/list.htm" target="_self">化学工程与工艺</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/zygc_31850/list.htm" target="_self">制药工程</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/nyhxgc_31851/list.htm" target="_self">能源化学工程</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                                    </li>
+                                    
+                                    <li> <a href="/ce/pyjh/list.htm" target="_self">培养计划</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="http://www2.scut.edu.cn/ce/bkstz/list.htm" target="_self">考试安排</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="https://sso.scut.edu.cn/cas//login?service=http%3A%2F%2Fxsjw2018.jw.scut.edu.cn%2Fsso%2Fdriotlogin" target="_self">学期课表</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="http://jw2018.jw.scut.edu.cn" target="_self">教务管理系统</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="http://admission.scut.edu.cn/" target="_self">招生信息</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="http://jw.scut.edu.cn/zhinan/cms/category/index.do?id=ff8080816a53cdc0016a53eee1bd0009" target="_self">下载区</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="http://jw.scut.edu.cn/zhinan/cms/index.do" target="_self">学校教务处</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </li>
+                            
+                            <li class="{栏目级别} "> <a href="/ce/17565/list.htm" target="_self">研究生教育</a>
+                                
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="https://www2.scut.edu.cn/graduate/" target="_self">教学管理</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/yjszs/list.htm" target="_self">研究生招生</a>
+                                        
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/ssszs/list.htm" target="_self">硕士生招生</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/bsszs/list.htm" target="_self">博士生招生</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                                    </li>
+                                    
+                                    <li> <a href="/ce/2452/list.htm" target="_self">导师风采</a>
+                                        
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="https://yanzhao.scut.edu.cn/open/TutorList.aspx" target="_self">博士生导师</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="https://yanzhao.scut.edu.cn/open/TutorList.aspx" target="_self">硕士生导师</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                                    </li>
+                                    
+                                    <li> <a href="/ce/18444/list.htm" target="_self">国际交流</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/18446/list.htm" target="_self">下载区</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/18447/list.htm" target="_self">联系我们</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </li>
+                            
+                            <li class="{栏目级别} "> <a href="/ce/2469/list.htm" target="_self">招聘就业</a>
+                                
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/2474/list.htm" target="_self">就业信息公告</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/2470/list.htm" target="_self">就业指导</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="https://jyzx.scut.edu.cn/" target="_self">学校就业在线</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/18460/list.htm" target="_self">下载区</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/18461/list.htm" target="_self">联系我们</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </li>
+                            
+                            <li class="{栏目级别} "> <a href="http://www2.scut.edu.cn/ce/sxzzhsdsfjszl/list.htm" target="_self">党群天地</a>
+                                
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/sxzzhsdsfjszl/list.htm" target="_self">思想政治和师德师风建设专栏</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/djdt/list.htm" target="_self">党建动态</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/tzgg/list.htm" target="_self">通知公告</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/zzjg/list.htm" target="_self">组织机构</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="http://dangjian.people.com.cn/GB/136058/427510/index.html" target="_self">党章党规</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="http://dangjian.people.com.cn/GB/136058/426539/index.html" target="_self">发展党员工作流程</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </li>
+                            
+                            <li class="{栏目级别} "> <a href="/ce/17567/list.htm" target="_self">校园生活</a>
+                                
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="http://www2.scut.edu.cn/ce/xsh/list.htm" target="_self">学生组织</a>
+                                        
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/xsh/list.htm" target="_self">学生会</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/yjsh/list.htm" target="_self">研究生会</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/ygd/list.htm" target="_self">义工队</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                                    </li>
+                                    
+                                    <li> <a href="/ce/qgdxshgaqsjds/list.htm" target="_self">全国大学生化工安全设计大赛</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </li>
+                            
+                            <li class="{栏目级别} "> <a href="/ce/18483/list.htm" target="_self">诚招英才</a>
+                                
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/18483/list.htm" target="_self">人才招聘公告</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/18484/list.htm" target="_self">招聘流程、待遇及应聘方式等</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/18485/list.htm" target="_self">联系我们</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </li>
+                            
+                            <li class="{栏目级别} "> <a href="/ce/2499/list.htm" target="_self">校友之家</a>
+                                
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/2499/list.htm" target="_self">机构设置</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/2500/list.htm" target="_self">校友动态</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/xyhd/list.htm" target="_self">元素之光</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/18486/list.htm" target="_self">捐赠指南</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/18487/list.htm" target="_self">捐赠鸣谢</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </li>
+                            
+                            <li class="{栏目级别} "> <a href="/ce/2502/list.htm" target="_self">办事指南</a>
+                                
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/zzgz/list.htm" target="_self">党务</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/sysaqglzd/list.htm" target="_self">学生工作</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/2503/list.htm" target="_self">本科生教学</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/18488/list.htm" target="_self">研究生教学</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/18489/list.htm" target="_self">科学研究</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/18490/list.htm" target="_self">人事工作</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/sysgl/list.htm" target="_self">实验室管理</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/zcsb/list.htm" target="_self">资产设备</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/xzq/list.htm" target="_self">下载区</a>
+                                        
+                                <ul class="nav_contain">
+                                    
+                                    <li> <a href="/ce/jzg/list.htm" target="_self">教职工</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/bks/list.htm" target="_self">本科生</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/yjs/list.htm" target="_self">研究生</a>
+                                        
+                                    </li>
+                                    
+                                    <li> <a href="/ce/sysaqglzd_32882/list.htm" target="_self">实验室安全管理制度</a>
+                                        
+                                    </li>
+                                    
+                                </ul>
+                                
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </li>
+                            
+                        </ul>
+                        
+                    
+                </div>
+            </div>
+            <div class="clear_both"></div>
+        </div>
+    </div>
+    <div frag="面板13">
+        <div frag="窗口13">
+            <div id="wp_news_w13"> 
+
+                <div class="swiper-container swiper-container1">
+                    <div class="swiper-wrapper">
+                        
+                        <div class="swiper-slide  slide-style" style="background: url(/_upload/article/images/c7/d8/ae10f0974199ac8f3a8eadc4d460/79fe8bf7-3399-4ee4-80a8-867e419eace0.jpg) no-repeat center;cursor:pointer;" onclick="javascript:window.location.href='https://www.12371.cn/zqzjg/'"></div>
+                        
+                        <div class="swiper-slide  slide-style" style="background: url(/_upload/article/images/5d/e1/044df4184298a66ee185daab740f/0746817b-0282-451e-855e-e22699267062.jpg) no-repeat center;cursor:pointer;" onclick="javascript:window.location.href='https://mp.weixin.qq.com/s/iWyGIJVEukl47cacBjjeeA'"></div>
+                        
+                    </div>
+                    <div class="pagination"> <span class="swiper-pagination-switch swiper-active-switch"></span> <span class="swiper-pagination-switch"></span> <span class="swiper-pagination-switch"></span> <span class="swiper-pagination-switch"></span> </div>
+                </div>
+            </div> 
+
+        </div>
+    </div>
+    <div class="main">
+        <div class="centerArea">
+            <div class="main_left">
+                <div frag="面板14">
+                    <div frag="窗口14">
+                        <div id="wp_news_w14"> 
+
+                            <div class="swiper-container swiper3">
+                                <div class="newImgcontainer2 swiper-wrapper">
+                                    
+                                    <div class="slide swiper-slide" style="background: url(/_upload/article/images/be/6c/2870e0dc43c5a87feb8a6ac42d44/cb5c1e95-e7f7-4d8c-addd-6c340f66bc68.jpg) no-repeat center;background-size: 100% auto;"> <a href='/ce/2026/0829/c2518a633947/page.htm' target='_blank' title='第五届全国高校化学反应工程教学及学科发展研讨会在华南理工大学圆满举行'><img src='/_upload/article/images/be/6c/2870e0dc43c5a87feb8a6ac42d44/cb5c1e95-e7f7-4d8c-addd-6c340f66bc68.jpg' width='640' /></a> <div class="title"><a href='/ce/2026/0829/c2518a633947/page.htm' target='_blank' title='第五届全国高校化学反应工程教学及学科发展研讨会在华南理工大学圆满举行'>第五届全国高校化学反应工程教学及学科发展研讨会在华南理工大学圆满举行</a></div>
+                                    </div>
+                                    
+                                    <div class="slide swiper-slide" style="background: url(/_upload/article/images/6c/a6/63b9b20045e09bb21f4ac738008c/d3a2b96d-3471-481a-8a54-367ef91e2da8.png) no-repeat center;background-size: 100% auto;"> <a href='/ce/2026/0715/c2518a632463/page.htm' target='_blank' title='览讯集团向华南理工大学化学与化工学院捐赠教育基金'><img src='/_upload/article/images/6c/a6/63b9b20045e09bb21f4ac738008c/d3a2b96d-3471-481a-8a54-367ef91e2da8.png' width='640' /></a> <div class="title"><a href='/ce/2026/0715/c2518a632463/page.htm' target='_blank' title='览讯集团向华南理工大学化学与化工学院捐赠教育基金'>览讯集团向华南理工大学化学与化工学院捐赠教育基金</a></div>
+                                    </div>
+                                    
+                                    <div class="slide swiper-slide" style="background: url(/_upload/article/images/6a/c5/a5ef06e24dcc87775996908a5215/6471e025-6ac1-482b-b465-04454497d975.jpg) no-repeat center;background-size: 100% auto;"> <a href='/ce/2026/0716/c2518a632483/page.htm' target='_blank' title='2023级化学拔尖基地班与化学强基计划班赴香港访学交流项目圆满完成'><img src='/_upload/article/images/6a/c5/a5ef06e24dcc87775996908a5215/6471e025-6ac1-482b-b465-04454497d975.jpg' width='640' /></a> <div class="title"><a href='/ce/2026/0716/c2518a632483/page.htm' target='_blank' title='2023级化学拔尖基地班与化学强基计划班赴香港访学交流项目圆满完成'>2023级化学拔尖基地班与化学强基计划班赴香港访学交流项目圆满完成</a></div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div> 
+
+                    </div>
+                </div>
+                <div class="highlights" frag="面板2">
+                    <div frag="窗口2">
+                        <div class="highlights-head"> <span frag="标题">学院要闻</span>
+                            <div frag="按钮" type="更多" style="display: inline">
+                                <a href="/ce/xyyw/list.htm" class="w2_more"><div class="more_text" frag="按钮内容" style="display: inline">更多+</div></a>
+                            </div>
+                        </div>
+                        <div class="highlights-content">
+                            <div id="wp_news_w2"> 
+
+                                <ul>
+                                    
+                                    <li> <span>2026-09-18</span> <a href='/ce/2026/0828/c17094a633859/page.htm' target='_blank' title='第九届全国“互联网+化学反应工程”课模设计大赛颁奖典礼圆满举行'>第九届全国“互联网+化学反应工程”课模设计大赛颁奖...</a> </li>
+                                    
+                                    <li> <span>2026-09-18</span> <a href='/ce/2026/0911/c17094a635123/page.htm' target='_blank' title='迎新筑梦 聚力启航——化学与化工学院2026级新生开学典礼暨新生入学教育圆满举行'>迎新筑梦 聚力启航——化学与化工学院2026级新生开学典...</a> </li>
+                                    
+                                    <li> <span>2026-09-07</span> <a href='/ce/2026/0907/c17094a634546/page.htm' target='_blank' title='关于举办华南理工大学“海外优青论坛” 化学与化工学院分论坛的通知'>关于举办华南理工大学“海外优青论坛” 化学与化工学...</a> </li>
+                                    
+                                    <li> <span>2026-08-29</span> <a href='/ce/2026/0829/c17094a633947/page.htm' target='_blank' title='第五届全国高校化学反应工程教学及学科发展研讨会在华南理工大学圆满举行'>第五届全国高校化学反应工程教学及学科发展研讨会在华...</a> </li>
+                                    
+                                    <li> <span>2026-07-22</span> <a href='/ce/2026/0715/c17094a632463/page.htm' target='_blank' title='览讯集团向华南理工大学化学与化工学院捐赠教育基金'>览讯集团向华南理工大学化学与化工学院捐赠教育基金</a> </li>
+                                    
+                                    <li> <span>2026-07-22</span> <a href='/ce/2026/0716/c17094a632483/page.htm' target='_blank' title='2023级化学拔尖基地班与化学强基计划班赴香港访学交流项目圆满完成'>2023级化学拔尖基地班与化学强基计划班赴香港访学交流...</a> </li>
+                                    
+                                    <li> <span>2026-07-14</span> <a href='/ce/2026/0714/c17094a632315/page.htm' target='_blank' title='深访校友叙情谊 校企协同促创新 —— 我校走访深圳信立泰药业股份有限公司拜访廖清清校友'>深访校友叙情谊 校企协同促创新 —— 我校走访深圳信立...</a> </li>
+                                    
+                                    <li> <span>2026-07-10</span> <a href='/ce/2026/0710/c17094a631862/page.htm' target='_blank' title='薪火相传，化梦同行！化学与化工学院新老党员共庆七一'>薪火相传，化梦同行！化学与化工学院新老党员共庆七一</a> </li>
+                                    
+                                </ul>
+                            </div> 
+
+                        </div>
+                    </div>
+                </div>
+                <div class="official">
+                    <div class="tabNameList">
+                        <div class="block first">
+                            <div class="tabBtn active_btn"></div>
+                            <div class="tabName Tab active" style="display: block;">公务通知</div>
+                        </div>
+                        <div class="block">
+                            <div class="tabBtn"></div>
+                            <div class="tabName Tab">教务通知</div>
+                        </div>
+                        <div class="block">
+                            <div class="tabBtn"></div>
+                            <div class="tabName Tab">学术通知</div>
+                        </div>
+                    </div>
+                    <div class="tabLink"> <a href="/ce/2511/list.htm" class="active_a">更多+</a> <a href="/ce/2512/list.htm">更多+</a> <a href="/ce/2513/list.htm">更多+</a> </div>
+                    <div class="clear_both"></div>
+                    <div class="tab_list" frag="面板3">
+                        <div class="tab active_tab" frag="窗口3"><div id="wp_news_w3"> 
+
+                            <div flag="窗口内容">
+                                <ul>
+                                    
+                                    <li> <span>2026-09-14</span> <a href='/ce/2026/0914/c2511a635311/page.htm' target='_blank' title='关于公示2025-2026学年度青年教师专职辅导员工作学院考核结果的通知'>关于公示2025-2026学年度青年教师专职辅导员工作学院...</a> </li>
+                                    
+                                    <li> <span>2026-09-14</span> <a href='/ce/2026/0914/c2511a635186/page.htm' target='_blank' title='关于2026年中国科协青年科技人才培育工程博士生专项计划的公示'>关于2026年中国科协青年科技人才培育工程博士生专项计...</a> </li>
+                                    
+                                    <li> <span>2026-07-20</span> <a href='/ce/2026/0720/c2511a632752/page.htm' target='_blank' title='2026年暑期学院行政轮休值班安排（7.21-8.27）'>2026年暑期学院行政轮休值班安排（7.21-8.27）</a> </li>
+                                    
+                                    <li> <span>2026-07-17</span> <a href='/ce/2026/0717/c2511a632645/page.htm' target='_blank' title='关于公示2026年研究生导师招生资格审核结果的通知'>关于公示2026年研究生导师招生资格审核结果的通知</a> </li>
+                                    
+                                    <li> <span>2026-06-24</span> <a href='/ce/2026/0624/c2511a630774/page.htm' target='_blank' title='关于公示2025-2026学年度本科生班主任工作学院考核结果的通知'>关于公示2025-2026学年度本科生班主任工作学院考核结...</a> </li>
+                                    
+                                    <li> <span>2026-06-15</span> <a href='/ce/2026/0615/c2511a630020/page.htm' target='_blank' title='关于拟聘用刘文博等人的公示'>关于拟聘用刘文博等人的公示</a> </li>
+                                    
+                                    <li> <span>2026-05-28</span> <a href='/ce/2026/0528/c2511a628148/page.htm' target='_blank' title='化学与化工学院关于公示2026年研究生导师申请名单的通知'>化学与化工学院关于公示2026年研究生导师申请名单的通...</a> </li>
+                                    
+                                    <li> <span>2026-04-30</span> <a href='/ce/2026/0430/c2511a625959/page.htm' target='_blank' title='2026年“五一”国际劳动节假期学院值班安排'>2026年“五一”国际劳动节假期学院值班安排</a> </li>
+                                    
+                                </ul>
+                            </div>
+                        </div> 
+</div>
+                        <div class="tab" frag="窗口44"><div id="wp_news_w44"> 
+
+                            <div flag="窗口内容">
+                                <ul>
+                                    
+                                    <li> <span>2026-03-17</span> <a href='/ce/2026/0317/c2512a620480/page.htm' target='_blank' title='关于公示2026年校级本科教研教改项目的通知'>关于公示2026年校级本科教研教改项目的通知</a> </li>
+                                    
+                                    <li> <span>2025-03-10</span> <a href='/ce/2025/0310/c2512a580475/page.htm' target='_blank' title='2024级硕士生第二学期课表'>2024级硕士生第二学期课表</a> </li>
+                                    
+                                    <li> <span>2025-03-07</span> <a href='/ce/2025/0307/c2512a580341/page.htm' target='_blank' title='关于公示2025年校级本科教研教改项目的通知'>关于公示2025年校级本科教研教改项目的通知</a> </li>
+                                    
+                                    <li> <span>2024-09-05</span> <a href='/ce/2024/0905/c2512a561147/page.htm' target='_blank' title='2024级硕士生第一学期课表'>2024级硕士生第一学期课表</a> </li>
+                                    
+                                    <li> <span>2024-05-07</span> <a href='/ce/2024/0507/c2512a546101/page.htm' target='_blank' title='化学与化工学院接收2024年本科生自主转专业面试通知'>化学与化工学院接收2024年本科生自主转专业面试通知</a> </li>
+                                    
+                                    <li> <span>2024-04-23</span> <a href='/ce/2024/0423/c2512a542741/page.htm' target='_blank' title='关于公示2024年校级本科教研教改项目的通知'>关于公示2024年校级本科教研教改项目的通知</a> </li>
+                                    
+                                    <li> <span>2024-04-16</span> <a href='/ce/2024/0416/c2512a542098/page.htm' target='_blank' title='华南理工大学化学与化工学院接收2024年本科生自主转专业工作方案'>华南理工大学化学与化工学院接收2024年本科生自主转专业工作方案</a> </li>
+                                    
+                                    <li> <span>2023-04-19</span> <a href='/ce/2023/0419/c2512a498633/page.htm' target='_blank' title='华南理工大学化学与化工学院接收2023年本科生自主转专业工作方案'>华南理工大学化学与化工学院接收2023年本科生自主转专业工作方案</a> </li>
+                                    
+                                </ul>
+                            </div>
+                        </div> 
+</div>
+                        <div class="tab" frag="窗口55"><div id="wp_news_w55"> 
+
+                            <div flag="窗口内容">
+                                <ul>
+                                    
+                                    <li> <span>2026-09-11</span> <a href='/ce/2026/0911/c2513a635040/page.htm' target='_blank' title='东南大学马隆龙教授：可持续生物航油研究进展'>东南大学马隆龙教授：可持续生物航油研究进展</a> </li>
+                                    
+                                    <li> <span>2026-09-07</span> <a href='/ce/2026/0907/c2513a634532/page.htm' target='_blank' title='香港理工大学马凯凯教授：具有生化防护功能的MOF/纤维复合材料的设计和应用'>香港理工大学马凯凯教授：具有生化防护功能的MOF/纤维...</a> </li>
+                                    
+                                    <li> <span>2026-08-27</span> <a href='/ce/2026/0827/c2513a633803/page.htm' target='_blank' title='香港城市大学Steven Wang教授：Drops of Innovation: Bringing Physics to Sustainable Chemical Engineering'>香港城市大学Steven Wang教授：Drops of Innovation: ...</a> </li>
+                                    
+                                    <li> <span>2026-08-20</span> <a href='/ce/2026/0820/c2513a633595/page.htm' target='_blank' title='比利时哈塞尔特大学（Hasselt University杨年俊教授：金刚石化学（Diamond Chemistry）'>比利时哈塞尔特大学（Hasselt University杨年俊教授：...</a> </li>
+                                    
+                                    <li> <span>2026-08-19</span> <a href='/ce/2026/0819/c2513a633575/page.htm' target='_blank' title='香港城市大学刘彬教授：Probing CO2 Reduction Chemistry over Model Single Atom Catalyst under Operando Condition'>香港城市大学刘彬教授：Probing CO2 Reduction Chemis...</a> </li>
+                                    
+                                    <li> <span>2026-08-09</span> <a href='/ce/2026/0809/c2513a633356/page.htm' target='_blank' title='关于举办俄亥俄州立大学许康教授学术报告的通知'>关于举办俄亥俄州立大学许康教授学术报告的通知</a> </li>
+                                    
+                                    <li> <span>2026-07-30</span> <a href='/ce/2026/0730/c2513a633170/page.htm' target='_blank' title='清华大学陈翔副研究员：人工智能设计锂电池电解液'>清华大学陈翔副研究员：人工智能设计锂电池电解液</a> </li>
+                                    
+                                    <li> <span>2026-07-16</span> <a href='/ce/2026/0716/c2513a632482/page.htm' target='_blank' title='东南大学张春阳教授：单分子检测在生物医学中的应用研究'>东南大学张春阳教授：单分子检测在生物医学中的应用研...</a> </li>
+                                    
+                                </ul>
+                            </div>
+                        </div> 
+</div>
+                    </div>
+                </div>
+                <div class="undergraduate">
+                    <div class="tabNameList">
+                        <div class="block first">
+                            <div class="tabBtn active_btn"></div>
+                            <div class="tabName Tab active" style="display: block;">本科生通知</div>
+                        </div>
+                        <div class="block">
+                            <div class="tabBtn"></div>
+                            <div class="tabName Tab">研究生通知</div>
+                        </div>
+                    </div>
+                    <div class="tabLink"> <a href="/ce/_t1674/bkstz/list.htm" class="active_a">更多+</a> <a href="/ce/_t1674/yjstz/list.htm">更多+</a> </div>
+                    <div class="clear_both"></div>
+                    <div class="tab_list" frag="面板4">
+                        <div class="tab active_tab" frag="窗口66"><div id="wp_news_w66"> 
+
+                            <div flag="窗口内容">
+                                <ul>
+                                    
+                                    <li> <span>2026-09-18</span> <a href='/ce/2026/0918/c17099a635826/page.htm' target='_blank' title='关于做好2025-2026学年度本科生社会捐赠奖学金评审工作的通知'>关于做好2025-2026学年度本科生社会捐赠奖学金评审工...</a> </li>
+                                    
+                                    <li> <span>2026-09-18</span> <a href='/ce/2026/0918/c17099a635813/page.htm' target='_blank' title='关于做好2025-2026学年本科生国家奖学金、国家励志奖学金评审工作的通知'>关于做好2025-2026学年本科生国家奖学金、国家励志奖...</a> </li>
+                                    
+                                    <li> <span>2026-09-15</span> <a href='/ce/2026/0915/c17099a635323/page.htm' target='_blank' title='化学与化工学院关于公示2026-2027-1学期结业换证拟毕业和拟授予学士学位名单的通知'>化学与化工学院关于公示2026-2027-1学期结业换证拟毕...</a> </li>
+                                    
+                                    <li> <span>2026-09-10</span> <a href='/ce/2026/0910/c17099a634983/page.htm' target='_blank' title='化学与化工学院2027年推荐免试研究生已通过审核和答辩的学术专长及社会服务名单公示'>化学与化工学院2027年推荐免试研究生已通过审核和答辩...</a> </li>
+                                    
+                                    <li> <span>2026-09-10</span> <a href='/ce/2026/0910/c17099a634933/page.htm' target='_blank' title='2026-2027-1学期 化学与化工学院 本科专业课重补考安排'>2026-2027-1学期 化学与化工学院 本科专业课重补考安...</a> </li>
+                                    
+                                    <li> <span>2026-09-03</span> <a href='/ce/2026/0903/c17099a634329/page.htm' target='_blank' title='关于开展2026学年家庭经济困难本科生认定工作的通知'>关于开展2026学年家庭经济困难本科生认定工作的通知</a> </li>
+                                    
+                                    <li> <span>2026-08-31</span> <a href='/ce/2026/0831/c17099a634024/page.htm' target='_blank' title='化学与化工学院关于2026-2027学年第一学期开学第一天第一节上课情况的通报'>化学与化工学院关于2026-2027学年第一学期开学第一天...</a> </li>
+                                    
+                                    <li> <span>2026-08-21</span> <a href='/ce/2026/0821/c17099a633628/page.htm' target='_blank' title='2023级化学类（拔尖基地班）学生综合评价排序名单重新公示'>2023级化学类（拔尖基地班）学生综合评价排序名单重新...</a> </li>
+                                    
+                                </ul>
+                            </div>
+                        </div> 
+</div>
+                        <div class="tab" frag="窗口77"><div id="wp_news_w77"> 
+
+                            <div flag="窗口内容">
+                                <ul>
+                                    
+                                    <li> <span>2026-09-18</span> <a href='/ce/2026/0917/c17100a635724/page.htm' target='_blank' title='关于开展2026年博士研究生国家奖学金评审工作的通知'>关于开展2026年博士研究生国家奖学金评审工作的通知</a> </li>
+                                    
+                                    <li> <span>2026-09-18</span> <a href='/ce/2026/0917/c17100a635725/page.htm' target='_blank' title='关于开展2026年硕士研究生国家奖学金评审工作的通知'>关于开展2026年硕士研究生国家奖学金评审工作的通知</a> </li>
+                                    
+                                    <li> <span>2026-09-02</span> <a href='/ce/2026/0902/c17100a634248/page.htm' target='_blank' title='2026年中国科协青年科技人才培育工程博士生专项计划拟推荐候选人公示通知'>2026年中国科协青年科技人才培育工程博士生专项计划拟...</a> </li>
+                                    
+                                    <li> <span>2026-07-07</span> <a href='/ce/2026/0707/c17100a631658/page.htm' target='_blank' title='化学与化工学院工程博士毕业生资格审核通过名单公示'>化学与化工学院工程博士毕业生资格审核通过名单公示</a> </li>
+                                    
+                                    <li> <span>2026-07-01</span> <a href='/ce/2026/0701/c17100a631220/page.htm' target='_blank' title='化学与化工学院关于评选2026年“化院先锋”优秀学生骨干的通知'>化学与化工学院关于评选2026年“化院先锋”优秀学生骨...</a> </li>
+                                    
+                                    <li> <span>2026-06-10</span> <a href='/ce/2026/0609/c17100a629235/page.htm' target='_blank' title='关于2025年度学院学生学科科技竞赛资助的公示'>关于2025年度学院学生学科科技竞赛资助的公示</a> </li>
+                                    
+                                    <li> <span>2026-05-26</span> <a href='/ce/2026/0526/c17100a627945/page.htm' target='_blank' title='关于申报2025年度学院学生学科科技竞赛资助的通知'>关于申报2025年度学院学生学科科技竞赛资助的通知</a> </li>
+                                    
+                                    <li> <span>2026-05-18</span> <a href='/ce/2026/0518/c17100a627114/page.htm' target='_blank' title='关于印发《化学与化工学院博士生国家奖学金暨校长奖学金评选办法（2026 年修订）》  等三个文件的通知'>关于印发《化学与化工学院博士生国家奖学金暨校长奖学...</a> </li>
+                                    
+                                </ul>
+                            </div>
+                        </div> 
+</div>
+                    </div>
+                </div>
+                <div class="clear_both"></div>
+            </div>
+            <div class="main_right">
+                <div class="right_top" frag="面板5">
+                    <div frag="窗口5">
+                        <div>
+                            <div id="wp_news_w5"> 
+
+                                <ul>
+                                    
+                                    <li> <a href='http://www2.scut.edu.cn/ce/sxzzhsdsfjszl/list.htm' target='_blank' title='思想政治和师德师风建设专栏'><img src='/_upload/article/images/88/3a/602a7f91457abacd18be9f6653be/c33ce4de-e876-4c83-b7d3-f7b2f556330b.jpg' width='640' /></a> </li>
+                                    
+                                    <li> <a href='/_redirect?siteId=38&columnId=17119&articleId=271135' target='_blank' title='师德师风监督举报'><img src='/_upload/article/images/51/61/b70e8a8341ea81949a7833e7a8ec/0f0dd63d-2064-4d6b-80e1-d24a89ceebd7.png' width='640' /></a> </li>
+                                    
+                                </ul>
+                            </div> 
+
+                        </div>
+                    </div>
+                </div>
+                <div class="right_middle" frag="面板6">
+                    <div frag="窗口6">
+                        <div class="highlights-head"> <span class="title" frag="标题">重点实验室</span>
+                            <div frag="按钮" type="更多" style="display: inline">
+                                <a href="/ce/17076/list.htm" class="w6_more"><div class="more_text" frag="按钮内容" style="display: inline">更多+</div></a>
+                            </div>
+                        </div>
+                        <div>
+                            <div id="wp_news_w6"> 
+
+                                <ul>
+                                    
+                                    <li>
+                                        <div class="img-wrap"> <a href='/_redirect?siteId=38&columnId=17076&articleId=271144' target='_blank' title='热质传递与低碳转化教育部重点实验室'><img src='/_upload/article/images/ef/01/2761662d45f596b7a1be1cd50e2e/5ce0f9e3-5775-484f-a1de-eb1aac9defca.png' width='640' /></a> </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <div class="img-wrap"> <a href='/_redirect?siteId=38&columnId=17076&articleId=271140' target='_blank' title='广东省功能分子工程重点实验室'><img src='/_upload/article/images/af/98/44ce8746400badfa950d387783e7/80b55cd2-e936-49bc-9c88-57794a0a43d2.png' width='640' /></a> </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <div class="img-wrap"> <a href='/ce/2018/0620/c17076a271143/page.htm' target='_blank' title='广东省绿色化学产品技术重点实验室'><img src='/_upload/article/images/17/b3/35372fba490f8c88f255da09d10b/4db8e24d-18f2-4406-ad2b-801f1ec7e509.jpg' width='640' /></a> </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <div class="img-wrap"> <a href='/_redirect?siteId=38&columnId=17076&articleId=271141' target='_blank' title='广东省燃料电池技术重点实验室'><img src='/_upload/article/images/2a/9b/4f1cc553428a9349887bb03ac397/3a41d09a-7f1a-4aaa-b77d-e7204da8a591.png' width='640' /></a> </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div> 
+
+                        </div>
+                    </div>
+                </div>
+                <div class="right_bottom">
+                    <div class="recruit"> <a href="/ce/_t1674/17126/list.htm"><img src="/_upload/tpl/06/8a/1674/template1674/resources/images/recruit_2x.png" width="240px" height="65px" /></a> <a href="/ce/zsjz/list.htm" class="font">招生简章</a> </div>
+                    <div class="science"> <a href="/ce/_t1674/17127/list.htm"><img src="/_upload/tpl/06/8a/1674/template1674/resources/images/science_2x.png" width="240px" height="65px" /></a> <a href="/ce/_t1674/17127/list.htm" class="font">学科资料</a> </div>
+                    <div class="employment"> <a href="/ce/_t1674/17128/list.htm"><img src="/_upload/tpl/06/8a/1674/template1674/resources/images/employment_2x.png" width="240px" height="65px" /></a> <a href="http://www2.scut.edu.cn/ce/2470/list.htm" class="font">就业指导</a> </div>
+                </div>
+            </div>
+            <div class="clear_both"></div>
+            <div class="main_bottom" frag="面板7">
+                <div frag="窗口7">
+                    <div class="highlights-head"> <span class="title" frag="标题">科研团队</span>
+                        <div frag="按钮" type="更多" style="display: inline">
+                            <a href="/ce/2526/list.htm" class="w7_more"><div class="more_text" frag="按钮内容" style="display: inline">更多+</div></a>
+                        </div>
+                    </div>
+                    <div class="bottom_content">
+                        <div id="wp_news_w7"> 
+
+                            <div class="swiper-container swiper_ky">
+                                <div class="swiper-wrapper">
+                                    
+                                    <div class="swiper-slide">
+                                        <div class="img-wrap"> <a href='http://www2.scut.edu.cn/cgce/' target='_blank' title='绿色催化与能源中心'><img src='/_upload/article/images/7a/b4/481716aa4f1b942c7916f62617ee/24a92e23-ebe0-44f9-8003-0c058e85f7a6.png' width='640' /></a> </div> <a href='http://www2.scut.edu.cn/cgce/' target='_blank' title='绿色催化与能源中心'>绿色催化与能源中心</a>
+                                    </div>
+                                    
+                                    <div class="swiper-slide">
+                                        <div class="img-wrap"> <a href='/ce/2017/0324/c2526a160174/page.htm' target='_blank' title='膜科学与能源材料研究组'><img src='/_upload/article/images/e0/38/e36fb9bb4ca48c63ee43684e71f8/7fe55e44-4493-4abd-919d-4fd5de11f9bb.jpg' width='640' /></a> </div> <a href='/ce/2017/0324/c2526a160174/page.htm' target='_blank' title='膜科学与能源材料研究组'>膜科学与能源材料研究组</a>
+                                    </div>
+                                    
+                                    <div class="swiper-slide">
+                                        <div class="img-wrap"> <a href='http://www2.scut.edu.cn/zhu/' target='_blank' title='Alkyne Chemistry Laboratory'><img src='/_upload/article/images/65/be/2cdd6a8a402c997b9a6e3e026728/98e1237a-fed4-458d-9499-f2c0f6de816c.jpg' width='640' /></a> </div> <a href='http://www2.scut.edu.cn/zhu/' target='_blank' title='Alkyne Chemistry Laboratory'>Alkyne Chemistry Laboratory</a>
+                                    </div>
+                                    
+                                    <div class="swiper-slide">
+                                        <div class="img-wrap"> <a href='/ce/2013/0304/c2526a61180/page.htm' target='_blank' title='过程系统工程研究中心'><img src='/_upload/article/images/0c/bc/45570dc04e358749c4e4939d20fc/c98f9d70-7ff5-4998-80b2-84cb4a328500.jpg' width='640' /></a> </div> <a href='/ce/2013/0304/c2526a61180/page.htm' target='_blank' title='过程系统工程研究中心'>过程系统工程研究中心</a>
+                                    </div>
+                                    
+                                    <div class="swiper-slide">
+                                        <div class="img-wrap"> <a href='/ce/2013/0304/c2526a61190/page.htm' target='_blank' title='绿色化学研究中心'><img src='/_upload/article/images/5d/27/f334bdac474993e95ab5fa687a11/e53c0114-54f6-4e23-92ab-0a119efeec43.jpg' width='640' /></a> </div> <a href='/ce/2013/0304/c2526a61190/page.htm' target='_blank' title='绿色化学研究中心'>绿色化学研究中心</a>
+                                    </div>
+                                    
+                                    <div class="swiper-slide">
+                                        <div class="img-wrap"> <a href='http://www2.scut.edu.cn/hydratech/main.htm' target='_blank' title='天然气技术研究所'><img src='/_upload/article/images/f0/de/c3b9cbff4dcd85c084386f7ab5c7/eac36f41-6cb8-466a-8de4-6da6ee58703e.jpg' width='640' /></a> </div> <a href='http://www2.scut.edu.cn/hydratech/main.htm' target='_blank' title='天然气技术研究所'>天然气技术研究所</a>
+                                    </div>
+                                    
+                                </div>
+                                <div class="swiper-button-next swiper-button"> <span class="fa fa-angle-right"></span> </div>
+                                <div class="swiper-button-prev swiper-button"> <span class="fa fa-angle-left"></span> </div>
+                            </div>
+                        </div> 
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear_both"></div>
+    <div class="footer">
+        <div class="centerArea">
+            <div class="footer_left"> <span>地址：中国 广州 华南理工大学逸夫工程馆 联系电话：+86-20-87112053</span> <span>Copyright © <span class="nowyear">2016</span> 华南理工大学化学与化工学院 <a href="https://beian.miit.gov.cn" target="_blank">粤ICP备05084312号</a></span> </div>
+            <div class="item"> <a href="javascript:void(0);" class="link_logo  wechat fa fa-wechat">
+                    <div class="QR_code-wrap">
+                        <div class="QR_code"></div> <span class="angle"></span>
+                    </div>
+                </a> </div>
+            <div class="footer_right" frag="面板8">
+                <div class="btn-group dropup" frag="窗口8">
+                    <div id="wp_news_w8"> 
+ <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> 学院开发团队 <span class="caret"></span> </button>
+                        <ul class="dropdown-menu" role="menu">
+                            
+                            <li> <a href='http://www2.scut.edu.cn/cgce/' target='_blank' title='绿色催化与能源中心'>绿色催化与能源中心</a> </li>
+                            
+                            <li> <a href='/ce/2017/0324/c2526a160174/page.htm' target='_blank' title='膜科学与能源材料研究组'>膜科学与能源材料研究组</a> </li>
+                            
+                            <li> <a href='http://www2.scut.edu.cn/zhu/' target='_blank' title='Alkyne Chemistry Laboratory'>Alkyne Chemistry Laboratory</a> </li>
+                            
+                            <li> <a href='/ce/2013/0304/c2526a61180/page.htm' target='_blank' title='过程系统工程研究中心'>过程系统工程研究中心</a> </li>
+                            
+                            <li> <a href='/ce/2013/0304/c2526a61190/page.htm' target='_blank' title='绿色化学研究中心'>绿色化学研究中心</a> </li>
+                            
+                            <li> <a href='http://www2.scut.edu.cn/hydratech/main.htm' target='_blank' title='天然气技术研究所'>天然气技术研究所</a> </li>
+                            
+                        </ul>
+                    </div> 
+
+                </div>
+                <div class="btn-group dropup" frag="窗口9">
+                    <!-- No Data -->
+                </div>
+            </div>
+            <div class="clear_both"></div>
+        </div>
+    </div>
+    <script src="/_upload/tpl/06/8a/1674/template1674/resources/js/idangerous.swiper.js"></script>
+    <script src="/_upload/tpl/06/8a/1674/template1674/resources/js/bootstrap.min.js"></script>
+    <script src="/_upload/tpl/06/8a/1674/template1674/resources/js/pictureProcessing.js"></script>
+    <script src="/_upload/tpl/06/8a/1674/template1674/resources/js/main.js"></script>
+    <script>
+        $(window).load(function() {
+            //首页轮番图
+            var mySwiper = new Swiper('.swiper-container1', {
+                pagination: '.pagination',
+                autoplay: 5000,
+                loop: true,
+                paginationClickable: true,
+                autoplayDisableOnInteraction: false
+            });
+            //选项卡
+            $('.official .tabNameList .tabName').mouseenter(function() {
+                var index = $('.official .tabNameList .tabName').index(this);
+                $('.official .tabNameList .tabBtn').removeClass('active_btn');
+                $(this).prev().addClass('active_btn');
+                $('.official .tabNameList .tabName').removeClass('active');
+                $(this).addClass('active');
+                $('.official .tabLink a').removeClass('active_a');
+                $('.official .tabLink').children('a').eq(index).addClass('active_a');
+                $('.official .tab_list .tab').removeClass('active_tab');
+                $('.official .tab_list').children(".tab").eq(index).addClass('active_tab');
+            });
+            $('.undergraduate .tabNameList .tabName').mouseenter(function() {
+                var index = $('.undergraduate .tabNameList .tabName').index(this);
+                $('.undergraduate .tabNameList .tabBtn').removeClass('active_btn');
+                $(this).prev().addClass('active_btn');
+                $('.undergraduate .tabNameList .tabName').removeClass('active');
+                $(this).addClass('active');
+                $('.undergraduate .tabLink a').removeClass('active_a');
+                $('.undergraduate .tabLink').children('a').eq(index).addClass('active_a');
+                $('.undergraduate .tab_list .tab').removeClass('active_tab');
+                $('.undergraduate .tab_list').children(".tab").eq(index).addClass('active_tab');
+            });
+        })
+    </script>
+    <script>
+        $(window).load(function() {
+            var container1 = '.main .main_bottom .bottom_content div>a:first-child';
+            var selector1 = '.main .main_bottom .bottom_content div>a:first-child>img';
+            PictureProcessing.cutting(selector1, container1, 216, 144);
+            var mySwiper_ky = new Swiper('.swiper_ky', {
+                autoplay: 3000, //可选选项，自动滑动
+                loop: true, //可选选项，开启循环
+                slidesPerView: 5,
+                prevButton: '.swiper-button-prev',
+                nextButton: '.swiper-button-next',
+            })
+            $(".swiper-button-next").click(function() {
+                mySwiper_ky.swipeNext();
+            });
+            $(".swiper-button-prev").click(function() {
+                mySwiper_ky.swipePrev();
+            });
+            $('.main .main_bottom .bottom_content #wp_news_w7>div.swiper_ky').hover(function() {
+                mySwiper_ky.stopAutoplay();
+            }, function() {
+                mySwiper_ky.startAutoplay();
+            })
+            var mySwiper_3 = $('.swiper3').swiper({
+                loop: true,
+                autoplay: 3000
+                //其他设置
+            });
+            var container2 = '.main .main_left .newImgcontainer2 .slide>a';
+            var selector2 = '.main .main_left .newImgcontainer2 .slide>a img';
+            PictureProcessing.cutting(selector2, container2, 420, 296);
+        });
+    </script>
+</body>
+
+</html>
+ <img src="/_visitcount?siteId=38&type=1&columnId=2413" style="display:none" width="0" height="0"/>

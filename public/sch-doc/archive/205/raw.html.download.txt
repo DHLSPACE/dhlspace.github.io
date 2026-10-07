@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>北京大学研究生招生网</title>		
+		<link rel="stylesheet" type="text/css" href="../../../../../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../../../../../css/share.css"/>
+		<link rel="stylesheet" href="../../../../../css/twostage.css" />
+		<link rel="stylesheet" href="../../../../../css/layout.css">
+		<script src="../../../../../js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../../../../js/common.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+
+<!--top start -->
+<script>
+function search_onclick(){
+document.searchForm.submit();
+}
+function msearch_onclick(){
+document.msearchForm.submit();
+}
+</script>
+			<div class="header">
+				<div class="headermain clearfix">
+					<div class="headerlogo fl" >
+						<a href="../../../../../index.htm"><img src="../../../../../images/headlogo.png"/></a>
+					</div>
+					<div class="comshow fr">
+						<div class="search fr"><img src="../../../../../images/searchbtn.png"/></div>
+						<div class="searchHover">
+							<form id="searchForm" name="searchForm" action="/cms/search/searchResults.jsp" method="post" target="_blank" accept-charset="utf-8" onsubmit="document.charset='utf-8'" class="search-form">
+								<input name="siteID" value="3" type="hidden"/>
+								<input class="searchInp" type="text" name="query" id="" value="" placeholder="输入关键字" />
+								<div class="searchsearch"><img src="../../../../../images/search_search.png"/ onclick="search_onclick();"></div>
+							</form>
+						</div>
+						<ul class="nav fr">
+							<li><a href="../../../../../index.htm">首页</a></li>
+																																													<li><a href="../../../../sszs/index.htm" >招生信息</a>
+												<ul class="nav_list">
+																											<li><a href="../../../../sszs/index.htm">硕士招生</a></li>
+																											<li><a href="../../../../bszs/index.htm">博士招生</a></li>
+																											<li><a href="../../../../gatzs/index.htm">港澳台招生</a></li>
+																											<li><a href="../../../../lxszs/index.htm">留学生招生</a></li>
+																									</ul>   
+											</li>  
+																																																																								<li><a href="../../../../../xxgk/xxgkssbm/index.htm" >信息公开</a>
+												<ul class="nav_list">
+																											<li><a href="../../../../../xxgk/xxgkssbm/index.htm">硕士招生公示</a></li>
+																											<li><a href="../../../../../xxgk/xxgkbsbm/index.htm">博士招生公示</a></li>
+																									</ul>   
+											</li>  
+																																																																								<li><a href="../../../../../xly/index.htm"  class="">夏令营</a></li> 
+																																																																								<li><a href="https://admission.pku.edu.cn/applications/" target="_blank">网上报名</a></li>
+											<!--<li><a href="../../../../../wsbm/index.htm"  class="">网上报名</a></li>-->
+																																																																								<li><a href="../../../../../lxxx/lxzb/index.htm" >联系信息</a>
+												<ul class="nav_list">
+																											<li><a href="../../../../../lxxx/lxzb/index.htm">联系招办</a></li>
+																											<li><a href="../../../../../lxxx/lxyx/index.htm">联系院系</a></li>
+																									</ul>   
+											</li>  
+																																								</ul>
+					</div>
+					<div class="menubtn fr"><img src="../../../../../images/menu_icon.png"/></div>
+				</div>
+			</div>
+			<div class="m-menu">
+				<div class="top-box">
+					<div class="fl stt">
+						<form id="msearchForm" name="msearchForm" action="/cms/search/searchResults.jsp" method="post" target="_blank" accept-charset="utf-8" onsubmit="document.charset='utf-8'" class="search-form">
+							<input name="siteID" value="3" type="hidden"/>
+							<input type="text" class="m-search" name="query" id="" value="SEARCH" />
+							<div class="m-searchbtn">
+								<img src="../../../../../images/m-searchbtn.png" onclick="msearch_onclick();"/>
+							</div>
+						</form>
+					</div>
+					<span class="fr close"></span>
+				</div>
+				<div class="list-wrap">
+					<ul>
+						<li>
+							<span class="col-box clearfix">
+								<a href="../../../../../index.htm"  class="active"><span class="tit">首页</span></a>
+							</span>
+						</li>
+																																								<li>
+											<span class="col-box clearfix">
+												<span class="fl tit"><a href="../../../../sszs/index.htm"  class="">招生信息</a></span>
+												<span class="fr point"></span>
+											</span>
+										</li>
+																																																																<li>
+											<span class="col-box clearfix">
+												<span class="fl tit"><a href="../../../../../xxgk/xxgkssbm/index.htm"  class="">信息公开</a></span>
+												<span class="fr point"></span>
+											</span>
+										</li>
+																																																						<li>
+																					<a class="col-box" href="../../../../../xly/index.htm"><span class="tit">夏令营</span></a>
+																			</li>
+																																													<li>
+																					<a class="col-box" href="https://admission.pku.edu.cn/applications/" target="_blank"><span class="tit">网上报名</span></a>
+											<!--<a class="col-box" href="../../../../../wsbm/index.htm"><span class="tit">网上报名</span></a>-->
+																			</li>
+																																																							<li>
+											<span class="col-box clearfix">
+												<span class="fl tit"><a href="../../../../../lxxx/lxzb/index.htm"  class="">联系信息</a></span>
+												<span class="fr point"></span>
+											</span>
+										</li>
+																																			</ul>
+				</div>
+				<div class="sec-list">
+					<div class="boxs">
+					</div>							
+																		<div class="boxs">
+								<span class="return-first"><p>招生信息</p></span>
+								<ul>
+																			<li><a href="../../../../sszs/index.htm">硕士招生</a></li>
+																			<li><a href="../../../index.htm">博士招生</a></li>
+																			<li><a href="../../../../gatzs/index.htm">港澳台招生</a></li>
+																			<li><a href="../../../../lxszs/index.htm">留学生招生</a></li>
+																	</ul>
+							</div>
+																								<div class="boxs">
+								<span class="return-first"><p>信息公开</p></span>
+								<ul>
+																			<li><a href="../../../../../xxgk/xxgkssbm/index.htm">硕士招生公示</a></li>
+																			<li><a href="../../../../../xxgk/xxgkbsbm/index.htm">博士招生公示</a></li>
+																	</ul>
+							</div>
+																								<div class="boxs">
+							</div>							
+																								<div class="boxs">
+							</div>							
+																								<div class="boxs">
+								<span class="return-first"><p>联系信息</p></span>
+								<ul>
+																			<li><a href="../../../../../lxxx/lxzb/index.htm">联系招办</a></li>
+																			<li><a href="../../../../../lxxx/lxyx/index.htm">联系院系</a></li>
+																	</ul>
+							</div>
+															</div>
+			</div>
+<!--top end-->
+			<div class="main_wrap">
+				<div class="twostage_banner">
+					<img src="../../../../../images/twostage_banner3.jpg"/>
+					<p class="twostage_tiao"></p>
+				</div>
+				<div class="twostage_cont clearfix">
+					<div class="twostage_title fl">
+						<p class="twostage_title_C">招生目录</p>
+						<p class="twostage_title_E">硕士</p>
+					</div>
+					<!--<div class="twostage_position fr">
+						<a href="javascript:;" class="fl position_m"></a>
+						<a href="$cms.getUrl("专业目录")" class="fl">专业目录</a>
+						<a href="$cms.getUrl($curChannel)" class="fl">$curChannel.title</a>
+					</div>-->
+				</div>
+				<div class="teacherDetailContain">
+					<div class="teacherListContain clearfix">
+						<div class="zyml_cont">
+							<div class="zyml_cont_mk">
+								<div class="zyml_mk_title mk_col1">
+									<div class="zyml_title_cont clearfix">
+										<span class="zyml_title_bg1 fl"><img src="../../../../../images/zyml_a11.jpg"/></span>
+										<h4 class="zyml_title_txt fl back_col1">理学部</h4>
+										<span class="zyml_title_bg2 fl"><img src="../../../../../images/zyml_a12.jpg"/></span>
+									</div>
+									<ul class="zyml_cont_list clearfix">
+										<li class="fl"><a href="./zsml_ss_yx_00001.pdf" target="_blank">数学科学学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00004.pdf" target="_blank">物理学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00126.pdf" target="_blank">城市与环境学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00012.pdf" target="_blank">地球与空间科学学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00016.pdf" target="_blank">心理与认知科学学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00195.pdf" target="_blank">建筑与景观设计学院</a></li>
+									</ul>
+								</div>
+								<div class="zyml_mk_title mk_col2">
+									<div class="zyml_title_cont clearfix">
+										<span class="zyml_title_bg1 fl"><img src="../../../../../images/zyml_a21.jpg"/></span>
+										<h4 class="zyml_title_txt fl back_col2">信息科学与技术学部</h4>
+										<span class="zyml_title_bg2 fl"><img src="../../../../../images/zyml_a22.jpg"/></span>
+									</div>
+									<ul class="zyml_cont_list clearfix">
+										<li class="fl"><a href="./zsml_ss_yx_00107.pdf" target="_blank">电子学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00101.pdf" target="_blank">计算机学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00100.pdf" target="_blank">集成电路学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00106.pdf" target="_blank">智能学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00017.pdf" target="_blank">软件与微电子学院</a></li>
+									</ul>
+								</div>
+								<div class="zyml_mk_title mk_col3">
+									<div class="zyml_title_cont clearfix">
+										<span class="zyml_title_bg1 fl"><img src="../../../../../images/zyml_a31.jpg"/></span>
+										<h4 class="zyml_title_txt fl back_col3">工学部</h4>
+										<span class="zyml_title_bg2 fl"><img src="../../../../../images/zyml_a32.jpg"/></span>
+									</div>
+									<ul class="zyml_cont_list clearfix">
+										<li class="fl"><a href="./zsml_ss_yx_00003.pdf" target="_blank">力学与工程科学学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00240.pdf" target="_blank">先进制造与机器人学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00127.pdf" target="_blank">环境科学与工程学院</a></li>
+									</ul>
+								</div>
+								<div class="zyml_mk_title mk_col4">
+									<div class="zyml_title_cont clearfix">
+										<span class="zyml_title_bg1 fl"><img src="../../../../../images/zyml_a41.jpg"/></span>
+										<h4 class="zyml_title_txt fl back_col4">人文学部</h4>
+										<span class="zyml_title_bg2 fl"><img src="../../../../../images/zyml_a42.jpg"/></span>
+									</div>
+									<ul class="zyml_cont_list clearfix">
+										<li class="fl"><a href="./zsml_ss_yx_00020.pdf" target="_blank">中国语言文学系</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00021.pdf" target="_blank">历史学系</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00022.pdf" target="_blank">考古文博学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00023.pdf" target="_blank">哲学系（宗教学系）</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00039.pdf" target="_blank">外国语学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00043.pdf" target="_blank">艺术学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00044.pdf" target="_blank">对外汉语教育学院</a></li>
+									</ul>
+								</div>
+								<div class="zyml_mk_title mk_col1">
+									<div class="zyml_title_cont clearfix">
+										<span class="zyml_title_bg1 fl"><img src="../../../../../images/zyml_a11.jpg"/></span>
+										<h4 class="zyml_title_txt fl back_col1">社会科学学部</h4>
+										<span class="zyml_title_bg2 fl"><img src="../../../../../images/zyml_a12.jpg"/></span>
+									</div>
+									<ul class="zyml_cont_list clearfix">
+										<li class="fl"><a href="./zsml_ss_yx_00024.pdf" target="_blank">国际关系学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00029.pdf" target="_blank">法学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00030.pdf" target="_blank">信息管理系</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00031.pdf" target="_blank">社会学系</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00032.pdf" target="_blank">政府管理学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00040.pdf" target="_blank">马克思主义学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00067.pdf" target="_blank">教育学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00018.pdf" target="_blank">新闻与传播学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00041.pdf" target="_blank">体育教研部</a></li>
+									</ul>
+								</div>
+								<div class="zyml_mk_title mk_col2">
+									<div class="zyml_title_cont clearfix">
+										<span class="zyml_title_bg1 fl"><img src="../../../../../images/zyml_a21.jpg"/></span>
+										<h4 class="zyml_title_txt fl back_col2">经济与管理学部</h4>
+										<span class="zyml_title_bg2 fl"><img src="../../../../../images/zyml_a22.jpg"/></span>
+									</div>
+									<ul class="zyml_cont_list clearfix">
+										<li class="fl"><a href="./zsml_ss_yx_00025.pdf" target="_blank">经济学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00028.pdf" target="_blank">光华管理学院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00068.pdf" target="_blank">人口研究所</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00062.pdf" target="_blank">国家发展研究院</a></li>
+									</ul>
+								</div>
+								<div class="zyml_mk_title mk_col3">
+									<div class="zyml_title_cont clearfix">
+										<span class="zyml_title_bg1 fl"><img src="../../../../../images/zyml_a31.jpg"/></span>
+										<h4 class="zyml_title_txt fl back_col3">跨学科类</h4>
+										<span class="zyml_title_bg2 fl"><img src="../../../../../images/zyml_a32.jpg"/></span>
+									</div>
+									<ul class="zyml_cont_list clearfix">
+										<li class="fl"><a href="./zsml_ss_yx_00084.pdf" target="_blank">前沿交叉学科研究院</a></li>
+									</ul>
+								</div>
+								<div class="zyml_mk_title mk_col4">
+									<div class="zyml_title_cont clearfix">
+										<span class="zyml_title_bg1 fl"><img src="../../../../../images/zyml_a41.jpg"/></span>
+										<h4 class="zyml_title_txt fl back_col4">研究机构</h4>
+										<span class="zyml_title_bg2 fl"><img src="../../../../../images/zyml_a42.jpg"/></span>
+									</div>
+									<ul class="zyml_cont_list clearfix">
+										<li class="fl"><a href="./zsml_ss_yx_00221.pdf" target="_blank">习近平新时代中国特色社会主义思想研究院</a></li>
+										<li class="fl"><a href="./zsml_ss_yx_00206.pdf" target="_blank">新媒体研究院</a></li>
+									</ul>
+								</div>
+								<div class="zyml_mk_title mk_col1">
+									<div class="zyml_title_cont clearfix">
+										<span class="zyml_title_bg1 fl"><img src="../../../../../images/zyml_a11.jpg"/></span>
+										<h4 class="zyml_title_txt fl back_col1">深圳研究生院</h4>
+										<span class="zyml_title_bg2 fl"><img src="../../../../../images/zyml_a12.jpg"/></span>
+									</div>
+									<ul class="zyml_cont_list clearfix">
+										<li class="fl"><a href="./zsml_ss_yx_00047.pdf" target="_blank">深圳研究生院</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>	
+			
+<!--foot start -->			
+<script>
+function relatedlinks_onchange(){
+	var obj=document.getElementById('relatedlinks');
+	var index=obj.selectedIndex; //序号，取当前选中选项的序号
+	var val = obj.options[index].value;
+	window.location.href = val;
+}
+</script>
+			<div class="zsxxw_foot">
+					<div class="zsxxw_foot_cont clearfix">
+						<div class="zsxxw_foot_l fl">
+							<div class="fl">
+								<p>地址：北京大学新太阳学生中心5楼</p>
+								<p>咨询电话：010-62751354    监督电话：010-62756913</p>
+								<p>Copyright © 2003-2025 北京大学研究生院</p>
+							</div>
+							<div class="fr">
+								<div class="zsccw_select">
+									<select id="relatedlinks" name="relatedlinks" onchange="relatedlinks_onchange();">
+										<option value="请选择">请选择</option>
+										<option value="http://www.pku.edu.cn">北京大学</option>
+										<option value="http://grs.pku.edu.cn">北京大学研究生院</option>
+										<option value="http://yz.chsi.com.cn">中国研究生招生信息网</option>
+									</select>
+									<!--<input type="submit" name="" id="" value="" />-->
+								</div>
+								
+								<nav class="social">
+									<span class="fl">分享到：</span>
+									<ul>
+										<li><a href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));" class="facebook">facebook</a></li>
+										<li><a href="javascript: void(window.open('http://twitter.com/home/?status='.concat(encodeURIComponent(document.title)) .concat(' ') .concat(encodeURIComponent(location.href))));" class="twitter">twitter</a></li>
+										<li><a href="javascript:(function(){window.open('http://v.t.sina.com.cn/share/share.php?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href)+'&source=bookmark','_blank');})()" class="weibo">weibo</a></li>
+										<li>
+											<script type="text/javascript">
+											(function(){
+												var p = {
+													url:location.href, /*获取URL，可加上来自分享到QQ标识，方便统计*/
+													title:document.title, /*分享标题(可选)*/
+													desc:'', /*分享理由(风格应模拟用户对话),支持多分享语随机展现（使用|分隔）*/
+													summary:'', /*分享摘要(可选)*/
+													site:'' /*分享来源(可选) 如：QQ分享*/
+												};
+												var s = [];
+												for(var i in p){
+													s.push(i + '=' + encodeURIComponent(p[i]||''));
+												}
+												document.write(['<a class="qq" href="http://connect.qq.com/widget/shareqq/index.html?',s.join('&'),'" target="_blank">分享到QQ</a>'].join(''));
+											})();
+											</script>
+											<!--<script src="../../../../../js/loader.js" widget="shareqq" charset="utf-8"></script>-->
+										</li>
+										<script src="../../../../../js/qrcode.js" type="text/javascript" charset="utf-8"></script>
+										<li>
+											<script>
+												function CreateQRCode(){     
+													var qrcode = new QRCode(document.getElementById("qrcode"), {
+														width : 96,//设置宽高
+														height : 96
+													});
+													qrcode.makeCode(document.URL);
+													document.getElementById("qrcode").style.display="block";    
+												}
+											</script>
+											<a href="javascript:CreateQRCode();" class="weixin">weixin</a>
+										</li>
+									</ul>
+								</nav>
+								<div id="qrcode" style="display: none; right:15px; bottom: 15px;position:fixed;" onclick="javascript:this.style.display='none';"></div>     
+							</div>
+						</div>
+						<div class="zsxxw_foot_r fr">
+							<div class="foot_ewm fl">
+								<dl class="zsxxw_foot_ewm">
+									<dt><img width="60" src="../../../../../images/lxxx_ewm.jpg"/></dt>
+									<dd>本站二维码</dd>
+								</dl>
+							</div>
+							<div class="zsxxw_foot_link fr">
+								<a href="#">关于本站</a><br />
+							</div>
+						</div>
+					</div>
+				</div>		
+<!--foot start -->
+
+		
+	</body>	
+</html>

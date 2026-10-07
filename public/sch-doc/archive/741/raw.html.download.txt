@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta name="SiteName" content="中国科学院成都生物研究所">
+<meta name="SiteDomain" content="//cib.cas.cn/">
+<meta name="SiteIDCode" content="">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<!-- 网站描述 -->
+<meta name="keywords" content="中国科学院成都生物研究所,成都生物研究所,中国科学院,生物资源,水资源">
+<meta name="author" content="中国科学院,中国科学院计算机网络信息中心">
+<meta name="description" content="成都生物所始终坚持面向世界科技前沿、面向国家重大需求、面向国民经济主战场、面向人民生命健康，致力于生物多样性保育与生态环境建设、生物资源高效可持续利用、食品-人类健康-水资源安全中的科学前沿问题和重大技术瓶颈，开展基础性、战略性和前瞻性科学研究、技术研发与集成。为国家经济建设、生态文明建设，为乡村振兴战略、“一带一路”倡议、长江上游生态屏障建设，提供科学基础、技术支撑与决策依据，为建设世界科技强国以及富强民主文明和谐美丽中国贡献力量。">
+<meta name="robots" content="index,follow">
+<meta name="application-name" content="中国科学院成都生物研究所,成都生物研究所,中国科学院">
+<!-- css相关引入 -->
+<link href="//cib.cas.cn/images/cib_ico.png" rel="icon" type="image/png">
+<link href="//cib.cas.cn/images/cdsws_bootstrap.min.css" rel="stylesheet">
+<!-- 该字体文件确认是否使用，如果未用就无需引入 -->
+<link href="//api.cas.cn/lib/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- 字体动画，IE9及以上显示 -->
+<link href="//cib.cas.cn/images/cdsws_animate_cas.css" rel="stylesheet">
+<link href="//cib.cas.cn/images/cdsws_swiper.min.css" rel="stylesheet">
+<link href="//cib.cas.cn/images/common_cdsws_2024.css" rel="stylesheet">
+<link href="//cib.cas.cn/images/style_cdsws_20241011.css?v=202410111022" rel="stylesheet">
+<!-- js文件引入 -->
+<!--[if lt IE 9]>
+<script src="//api.cas.cn/lib/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="//api.cas.cn/lib/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    <title>2027年“卓越计划”直博生、推免生专项----中国科学院成都生物研究所</title>
+</head>
+<body class="body">
+<!--header-start-->
+<div class="nav-wrap"></div>
+    <div class="header-wrap">
+        <div class="header-tool">
+            <div class="container">
+                <ul class="head-tool">
+                    <li><a href="https://cib.arp.cn/" target="_blank">ARP</a></li>
+                    <li><a href="https://newoa.arp.cn" target="_blank">内网</a></li>
+                    <li><a href="https://mail.cstnet.cn/" target="_blank">邮箱</a></li>
+                    <li><a href="http://cib.cas.cn/jjs" target="_blank">信访举报</a></li>
+                    <li><a href="http://english.cib.cas.cn/" target="_blank">English</a></li>
+                    <li><a href="https://www.cas.cn/" target="_blank">中国科学院</a></li>
+                    <li class="search-trigger"></li>
+					<a class="toggle">
+						<span></span>
+					</a>
+                </ul>
+            </div>
+        </div>
+        <div class="header-logo">
+			<!-- 检索 -->
+            <div class="top-search">
+                <div class="container">
+                    <form name="searchform" action="//cib.cas.cn/../../qwjs/index.html" method="get" target="_top">
+                        <div class="search-cont">
+                            <input type="text" id="searchword" class="s-inp h18" placeholder="搜索" />
+                            <input type="submit" name="" value="" class="s-btn" id="sub-pc" />
+                            <input type="hidden" name="keyword" value="" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container">
+                <div class="header-wrap">
+                    <div class="logo fix">
+                        <a href="https://cib.cas.cn/" target="_top" class="db">
+                            <img src="//cib.cas.cn/images/cdsws_logo.png" alt="logo" />
+                        </a>
+                    </div>
+                    <div class="header-des">
+                        <div class="index-header-swiper">
+                            
+                                <div class="header-swiper-img-box">
+                                    <span class="img-boxs">
+                                        <img src="//cib.cas.cn/../../qwjs/202408/W020240909405351000059.png" alt="以奋斗者为本" />
+                                    </span>
+                                </div>
+                            
+                                <div class="header-swiper-img-box">
+                                    <span class="img-boxs">
+                                        <img src="//cib.cas.cn/../../qwjs/202408/W020240911637800399063.png" alt="抢占科技制高点" />
+                                    </span>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default bootsnav">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+                    <li class="active"><a href="https://cib.cas.cn/" target="_top">首 页</a></li>
+                    <li class="dropdown pc-menu">
+                        <a href="//cib.cas.cn/../../jggk/" class="dropdown-toggle" data-toggle="dropdown">机构概况</a>
+                        <ul class="dropdown-menu special-nav">
+                           <div class="special-wrap">
+                                <div class="row">
+                                    <div class="col-md-4 jg-first">
+                                        <h3 class="special-tit">
+                                            <span class="h20 b"><a href="//cib.cas.cn/../../jggk/skjj/" target="_top">所况简介</a></span>
+                                        </h3>
+                                        <div class="jg-con-box mt30">
+                                            
+                                                <div class="img-box">
+                                                    <img src="//cib.cas.cn/../../jggk/skjj/202409/W020240914350672351171.png" alt="中国科学院成都生物研究所简介" />
+                                                </div>
+                                                <div class="special-des mt30">中国科学院成都生物研究所成立于1958年，是以一级学科建所的中国科学院直属事业单位。建所以来，成都生物所始终坚持面向世界科技前沿、面向国家重大需求、面向国民经济主战场、面向人民生命健康，围绕生物多样性保护、生态环境修复、生物资源利用等国家重大战略需求，开展基础性、战略性和前瞻性科学研究、技术研发与集成。获得了包括国家科学技术奖等在内的300余项科研成果，为我国生物资源利用、长江上游生态环境建设和生物多样性保护做出了重要贡献，以“地奥心血康”为代表的众多科技成果成功实现产业化，有力地推动了国家和地方社会经济发展。</div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 jg-first">
+                                        <h3 class="special-tit">
+                                            <span class="h20 b"><a href="//cib.cas.cn/../../jggk/szzc/" target="_top">所长致辞</a></span>
+                                        </h3>
+                                        <div class="zc-con-box mt30">
+                                            
+                                                <div class="special-des">岁序更替，华章日新。在这辞旧迎新的美好时刻，我们谨代表中国科学院成都生物研究所党政领导班子，向辛勤耕耘的全所职工和学生，向心系发展的离退休老同志，以及所有关心支持我所事业的朋友们，致以最诚挚的感谢和最美好的新春祝福！</div>
+                                                <div class="img-box">
+                                                    <img src="//cib.cas.cn/../../jggk/szzc/202602/W020260215835147508023_ORIGIN.jpg" />
+                                                </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 lr-first">
+                                        <div class="lr-first-box fix">
+                                            
+                                                <h3 class="special-tit">
+                                                    <span class="h20 b"><a href="../../jggk/xrld/" target="_top">现任领导</a></span>
+                                                </h3>
+                                            
+                                                <h3 class="special-tit">
+                                                    <span class="h20 b"><a href="../../jggk/lrld/" target="_top">历任领导</a></span>
+                                                </h3>
+                                            
+                                                <h3 class="special-tit">
+                                                    <span class="h20 b"><a href="../../jggk/xswyh/" target="_top">学术委员会</a></span>
+                                                </h3>
+                                            
+                                                <h3 class="special-tit">
+                                                    <span class="h20 b"><a href="../../jggk/xwwyh/" target="_top">学位委员会</a></span>
+                                                </h3>
+                                            
+                                                <h3 class="special-tit">
+                                                    <span class="h20 b"><a href="../../jggk/lsyg/" target="_top">历史沿革</a></span>
+                                                </h3>
+                                            
+                                                <h3 class="special-tit">
+                                                    <span class="h20 b"><a href="../../jggk/dlwz/" target="_top">地理位置</a></span>
+                                                </h3>
+                                            
+                                                <h3 class="special-tit">
+                                                    <span class="h20 b"><a href="../../jggk/video/" target="_top">宣传片</a></span>
+                                                </h3>
+                                            
+                                                <h3 class="special-tit">
+                                                    <span class="h20 b"><a href="../../jggk/yqfm/" target="_top">园区风貌</a></span>
+                                                </h3>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 xr-first mt20">
+                                        <h3 class="special-tit">
+                                            <span class="h20 b"><a href="//cib.cas.cn/../../jggk/xrld/" target="_top">现任领导</a></span>
+                                        </h3>
+                                        <div class="xr-con-box">
+                                            
+                                                <div class="special-des mt20">
+                                                    <p>所      长：李家堂</p>
+<p>党委书记、副所长：刘刚君</p>
+<p>纪委书记：李铁牛</p>
+<p>副 所 长：王涛</p>
+<p>所务委员：蒋海波、李东、尹华军</p>
+                                                </div>
+                                                <div class="img-box">
+                                                    <img src="//cib.cas.cn/../../jggk/xrld/202408/W020240813382418423252.png" alt="现任领导" />
+                                                </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                           </div>
+                        </ul>
+                    </li>
+                    <li class="dropdown pc-menu">
+                        <a href="//cib.cas.cn/../../zzjg/" class="dropdown-toggle" data-toggle="dropdown">组织机构</a>
+                        <ul class="dropdown-menu special-nav">
+                            <div class="special-wrap">
+                                 <div class="row">
+                                    <div class="col-md-8 kybm-special">
+                                         <h3 class="special-tit">
+                                             <span class="h20 b"><a href="//cib.cas.cn/../../zzjg/kybm/" target="_top">科研部门</a></span>
+                                         </h3>
+                                         <ul class="rowkybm-item">
+                                            <div class="col-md-4">
+                                                <div class="kybm-list" style="width: 100%;">
+                                                    <h4 class="h18 b"><a href="//cib.cas.cn/../../zzjg/kybm/" target="_top">所级研究机构</a></h4>
+                                                    
+                                                        <a class="img-box db mt20 rel" href="//cib.cas.cn/../../zzjg/kybm/swdyxbhzx/" target="_top">
+                                                            <img src="//cib.cas.cn/../../zzjg/kybm/swdyxbhzx/images/P020240918537590391477.png" alt="生物多样性保护中心" />
+                                                            <span class="abs b text-center" style="width: 100%;color: #fff;font-size: 16px;top: 50%;left: 50%;transform: translate(-50%,-50%);">生物多样性保护中心</span>
+                                                        </a>
+                                                    
+                                                        <a class="img-box db mt20 rel" href="//cib.cas.cn/../../zzjg/kybm/sthjxfzx/" target="_top">
+                                                            <img src="//cib.cas.cn/../../zzjg/kybm/sthjxfzx/images/P020240918537669288743.png" alt="生态环境修复中心" />
+                                                            <span class="abs b text-center" style="width: 100%;color: #fff;font-size: 16px;top: 50%;left: 50%;transform: translate(-50%,-50%);">生态环境修复中心</span>
+                                                        </a>
+                                                    
+                                                        <a class="img-box db mt20 rel" href="//cib.cas.cn/../../zzjg/kybm/swzylyzx/" target="_top">
+                                                            <img src="//cib.cas.cn/../../zzjg/kybm/swzylyzx/images/P020240918537720417221.png" alt="生物资源利用中心" />
+                                                            <span class="abs b text-center" style="width: 100%;color: #fff;font-size: 16px;top: 50%;left: 50%;transform: translate(-50%,-50%);">生物资源利用中心</span>
+                                                        </a>
+                                                    
+                                                </div>
+                                            </div>
+                                            <li class="col-md-8">
+                                                <div class="row">
+                                                    <div class="col-md-7">
+                                                        <div class="kybm-list">
+                                                            <h4 class="h18 b"><a href="//cib.cas.cn/../../zzjg/kybm/sbjzdsys/" target="_top">省部级研究平台</a></h4>
+                                                            <div class="kybm-a">
+                                                                
+                                                                    <a href="//cib.cas.cn/../../zzjg/kybm/sbjzdsys/202603/t20260330_8179053.html" title="青藏高原生物多样性保护国家林业和草原局重点实验室" class="db">青藏高原生物多样性保护国家林业和草原局重点实验室</a>
+                                                                
+                                                                    <a href="//cib.cas.cn/../../zzjg/kybm/sbjzdsys/202408/t20240807_7253383.html" title="农业微生物制剂四川省重点实验室" class="db">农业微生物制剂四川省重点实验室</a>
+                                                                
+                                                                    <a href="//cib.cas.cn/../../zzjg/kybm/sbjzdsys/202408/t20240807_7253382.html" title="山地生态恢复与生物多样性保护四川省重点实验室" class="db">山地生态恢复与生物多样性保护四川省重点实验室</a>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <div class="kybm-list">
+                                                            <h4 class="h18 b"><a href="//cib.cas.cn/../../zzjg/kybm/gjszdsys/" target="_top">国家级研究平台</a></h4>
+                                                            <div class="kybm-a">
+                                                                
+                                                                <a href="//cib.cas.cn//ccbrl/" title="中-克“一带一路”联合实验室（筹）" class="db">中-克“一带一路”联合实验室（筹）</a>
+                                                                  
+                                                                
+                                                                <a href="//cib.cas.cn/../../zzjg/kybm/gjszdsys/202409/t20240911_7343933.html" title="国家天然药物工程技术研究中心" class="db">国家天然药物工程技术研究中心</a>
+                                                                  
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </li>
+                                         </ul>
+                                     </div>
+                                     <li class="col-md-4">
+                                        <div class="row">
+                                            <div class="glbm-item col-md-8" style="display: block;">
+                                                <h3 class="special-tit">
+                                                    <span class="h20 b"><a href="//cib.cas.cn/../../zzjg/glbm/" target="_top">管理部门</a></span>
+                                                </h3>
+                                                <div class="glbm-list fix" style="margin-top: 25px;">
+                                                    
+                                                        <div class="kybm-list" style="width: 50%;">
+                                                            <h4 class="h18 b">
+                                                                <span class="h18 b"><a href="//cib.cas.cn/../../zzjg/glbm/zhbgs/" target="_top">综合办公室</a></span>
+                                                            </h4>
+                                                        </div>
+                                                    
+                                                        <div class="kybm-list" style="width: 50%;">
+                                                            <h4 class="h18 b">
+                                                                <span class="h18 b"><a href="//cib.cas.cn/../../zzjg/glbm/dwbgs/" target="_top">党委办公室</a></span>
+                                                            </h4>
+                                                        </div>
+                                                    
+                                                        <div class="kybm-list" style="width: 50%;">
+                                                            <h4 class="h18 b">
+                                                                <span class="h18 b"><a href="//cib.cas.cn/../../zzjg/glbm/kjfzc/" target="_top">科技发展处</a></span>
+                                                            </h4>
+                                                        </div>
+                                                    
+                                                        <div class="kybm-list" style="width: 50%;">
+                                                            <h4 class="h18 b">
+                                                                <span class="h18 b"><a href="//cib.cas.cn/../../zzjg/glbm/kjhzc/" target="_top">科技合作处</a></span>
+                                                            </h4>
+                                                        </div>
+                                                    
+                                                        <div class="kybm-list" style="width: 50%;">
+                                                            <h4 class="h18 b">
+                                                                <span class="h18 b"><a href="//cib.cas.cn/../../zzjg/glbm/rsrcc/" target="_top">人事人才处</a></span>
+                                                            </h4>
+                                                        </div>
+                                                    
+                                                        <div class="kybm-list" style="width: 50%;">
+                                                            <h4 class="h18 b">
+                                                                <span class="h18 b"><a href="//cib.cas.cn/../../zzjg/glbm/jyc/" target="_top">教育处</a></span>
+                                                            </h4>
+                                                        </div>
+                                                    
+                                                        <div class="kybm-list" style="width: 50%;">
+                                                            <h4 class="h18 b">
+                                                                <span class="h18 b"><a href="//cib.cas.cn/../../zzjg/glbm/cwzcc/" target="_top">财务资产处</a></span>
+                                                            </h4>
+                                                        </div>
+                                                    
+                                                        <div class="kybm-list" style="width: 50%;">
+                                                            <h4 class="h18 b">
+                                                                <span class="h18 b"><a href="//cib.cas.cn/../../zzjg/glbm/hqglc/" target="_top">后勤管理处</a></span>
+                                                            </h4>
+                                                        </div>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="zcbm-item col-md-4">
+                                                <h3 class="special-tit">
+                                                    <span class="h20 b"><a href="//cib.cas.cn/../../zzjg/zcbm/" target="_top">支撑系统</a></span>
+                                                </h3>
+                                                <div class="glbm-list fix" style="display: block;">
+                                                    
+                                                        <div class="kybm-list" style="width: 100%;margin-bottom: 30px;">
+                                                            <h4 class="h18 b">
+                                                                <span class="h18 b"><a href="//cib.cas.cn/../../zzjg/zcbm/ggjszx/" target="_top">公共技术中心</a></span>
+                                                            </h4>
+                                                        </div>
+                                                    
+                                                        <div class="kybm-list" style="width: 100%;margin-bottom: 30px;">
+                                                            <h4 class="h18 b">
+                                                                <span class="h18 b"><a href="//cib.cas.cn/../../zzjg/zcbm/bbg/" target="_top">标本馆</a></span>
+                                                            </h4>
+                                                        </div>
+                                                    
+                                                        <div class="kybm-list" style="width: 100%;margin-bottom: 30px;">
+                                                            <h4 class="h18 b">
+                                                                <span class="h18 b"><a href="//cib.cas.cn/../../zzjg/zcbm/ywtz/" target="_top">野外台站</a></span>
+                                                            </h4>
+                                                        </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                 </div>
+                            </div>
+                         </ul>
+                    </li>
+                    <li class="dropdown pc-menu">
+						<a href="//cib.cas.cn/../../kycg/" class="dropdown-toggle" data-toggle="dropdown">科研成果</a>
+						<ul class="dropdown-menu special-nav">
+                            <div class="special-wrap">
+								<div class="yjs-con-box yjs-con-boxs row">
+                                    
+                                        <div class="col-md-5ths">
+                                            <a href="//cib.cas.cn/../../kycg/hj/">
+                                                <img src="//cib.cas.cn/../../kycg/hj/images/P020240813497329496930.png" alt="获奖" />
+                                                <span>获奖</span>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="col-md-5ths">
+                                            <a href="//cib.cas.cn/../../kycg/lw/">
+                                                <img src="//cib.cas.cn/../../kycg/lw/images/P020240813497428010934.png" alt="论文" />
+                                                <span>论文</span>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="col-md-5ths">
+                                            <a href="//cib.cas.cn/../../kycg/zz/">
+                                                <img src="//cib.cas.cn/../../kycg/zz/images/P020240813497501128090.png" alt="专著" />
+                                                <span>专著</span>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="col-md-5ths">
+                                            <a href="//cib.cas.cn/../../kycg/zl/">
+                                                <img src="//cib.cas.cn/../../kycg/zl/images/P020240813497592360577.png" alt="专利" />
+                                                <span>专利</span>
+                                            </a>
+                                        </div>
+                                    
+                                        <div class="col-md-5ths">
+                                            <a href="//cib.cas.cn/../../kycg/xwpz/">
+                                                <img src="//cib.cas.cn/../../kycg/xwpz/images/P020240813497678733463.png" alt="新物(品)种" />
+                                                <span>新物(品)种</span>
+                                            </a>
+                                        </div>
+                                    
+								</div>
+                            </div>
+                        </ul>
+					</li>
+                    <li class="dropdown pc-menu">
+						<a href="//cib.cas.cn/../../rcdw/" class="dropdown-toggle" data-toggle="dropdown">人才队伍</a>
+						<ul class="dropdown-menu special-nav">
+                            <div class="special-wrap">
+                                <div class="row">
+                                    <div class="col-md-4 jg-first">
+                                        <h3 class="special-tit">
+                                             <span class="h20 b"><a href="//cib.cas.cn/../../rcdw/rcgk/">人才概况</a></span>
+                                        </h3>
+                                        
+                                            <div class="jg-con-box mt30">
+                                                <div class="special-des mt30">成都生物所现有在职职工300余人，其中高级专业技术人员近150人，博士生导师37人。拥有国家级人才5人、中国科学院引才计划9人、关键技术人才4人、四川省学术技术带头人10人、天府峨眉计划14人、青城计划10人、四川省杰出青年科技人才3人。研究所拥有生物学博士后科研流动站，现有在站博士后研究人员近60人。</div>
+                                            </div>
+                                        
+                                    </div>
+									<div class="col-md-4 jg-first">
+                                        <h3 class="special-tit">
+                                             <span class="h20 b"><a href="//cib.cas.cn/../../rcdw/rczp/">人才招聘</a></span>
+                                        </h3>
+                                        <div class="zs-con-box mt30">
+                                           
+                                                <div><a href="//cib.cas.cn/../../rcdw/rczp/zhuli/202607/t20260713_8246799.html" title="【劳务派遣人员招聘】抗衰老与粮食替代资源开发利用创新团队科研助理招聘启事" target="_blank" class="overfloat-dot">【劳务派遣人员招聘】抗衰老与粮食替代资源开发利用创新团队科研助理招聘启事</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../rcdw/rczp/zhuli/202606/t20260623_8232338.html" title="【劳务派遣人员招聘】微生物电合成与转化团队招聘启事" target="_blank" class="overfloat-dot">【劳务派遣人员招聘】微生物电合成与转化团队招聘启事</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../rcdw/rczp/tezhuboshihou/202606/t20260608_8218553.html" title="天然产物结构与免疫调控创新团队特别研究助理、博士后招聘启事（药物设计、人工智能方向）" target="_blank" class="overfloat-dot">天然产物结构与免疫调控创新团队特别研究助理、博士后招聘启事（药物设计、人工智能方向）</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../rcdw/rczp/zhuli/202606/t20260602_8212507.html" title="【编制外招聘】中国科学院成都生物研究所西南山地植物多样性格局与保护创新团队编制外科研助理招聘启事" target="_blank" class="overfloat-dot">【编制外招聘】中国科学院成都生物研究所西南山地植物多样性格局与保护创新团队编制外科研助理招聘启事</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../rcdw/rczp/zhuli/202605/t20260521_8207709.html" title="【劳务派遣人员招聘】西南山地植物多样性格局与保护创新团队编制外科研助理招聘启事" target="_blank" class="overfloat-dot">【劳务派遣人员招聘】西南山地植物多样性格局与保护创新团队编制外科研助理招聘启事</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../rcdw/rczp/tezhuboshihou/202604/t20260430_8195180.html" title="中国科学院成都生物研究所蛇类多样性保护与利用创新团队招聘启事" target="_blank" class="overfloat-dot">中国科学院成都生物研究所蛇类多样性保护与利用创新团队招聘启事</a></div>
+                                            
+                                        </div>
+                                    </div>
+									<div class="col-md-4 jg-first">
+                                        <div class="glbm-item glbm-items">
+											<h3 class="special-tit">
+												<span class="h20 b"><a href="//cib.cas.cn/../../rcdw/"></a>科研人员</span>
+											</h3>
+											<div class="glbm-list mt30 fix">
+                                                
+                                                    <div class="kybm-list">
+                                                        <h4 class="h18 b"><a href="//cib.cas.cn/../../rcdw/lyys/">两院院士</a></h4>
+                                                    </div>
+                                                
+                                                    <div class="kybm-list">
+                                                        <h4 class="h18 b"><a href="//cib.cas.cn/../../rcdw/gjjrc/">国家级人才</a></h4>
+                                                    </div>
+                                                
+                                                    <div class="kybm-list">
+                                                        <h4 class="h18 b"><a href="//cib.cas.cn/../../rcdw/yjy/">研究员</a></h4>
+                                                    </div>
+                                                
+                                                    <div class="kybm-list">
+                                                        <h4 class="h18 b"><a href="//cib.cas.cn/../../rcdw/fyjy/">副研究员</a></h4>
+                                                    </div>
+                                                
+                                                    <div class="kybm-list">
+                                                        <h4 class="h18 b"><a href="//cib.cas.cn/../../rcdw/tpyjgw/">特聘研究岗位</a></h4>
+                                                    </div>
+                                                
+                                                    <div class="kybm-list">
+                                                        <h4 class="h18 b"><a href="//cib.cas.cn/../../rcdw/qnyjy/">青年研究员</a></h4>
+                                                    </div>
+                                                
+                                                    <div class="kybm-list">
+                                                        <h4 class="h18 b"><a href="//cib.cas.cn/../../rcdw/qnfyjy/">青年副研究员</a></h4>
+                                                    </div>
+                                                
+                                                    <div class="kybm-list">
+                                                        <h4 class="h18 b"><a href="//cib.cas.cn/../../rcdw/xbzg/">西部之光</a></h4>
+                                                    </div>
+                                                
+                                                    <div class="kybm-list">
+                                                        <h4 class="h18 b"><a href="//cib.cas.cn/../../rcdw/qncxcjh/">青年创新促进会</a></h4>
+                                                    </div>
+                                                
+                                                    <div class="kybm-list">
+                                                        <h4 class="h18 b"><a href="//cib.cas.cn/../../rcdw/rczp/">人才招聘</a></h4>
+                                                    </div>
+                                                
+											</div>
+										</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+					</li>
+                    <!-- <li><a href="//cib.cas.cn/../../cgzh/">成果转化</a></li> -->
+                    <li class="dropdown pc-menu">
+                        <a href="//cib.cas.cn/../../yjsjy/" class="dropdown-toggle" data-toggle="dropdown">研究生教育</a>
+                        <ul class="dropdown-menu special-nav">
+                            <div class="special-wrap">
+                                <div class="row">
+                                    <div class="col-md-4 jg-first">
+                                        <h3 class="special-tit">
+                                             <span class="h20 b"><a href="//cib.cas.cn/../../yjsjy/">介绍</a></span>
+                                        </h3>
+                                        
+                                            <div class="jg-con-box mt30">
+                                                <div class="special-des mt30">成都生物所拥有植物学、动物学、微生物学、生态学、环境科学、药物化学、药理学等7个博士学位培养点，有植物学、动物学、微生物学、生态学、环境科学、药物化学、药理学等7个学术型硕士学位培养点，有生物技术与工程、制药工程等2个专业型硕士学位培养点，现有在学博士和硕士研究生500余人。
+<a href="/yjsjy/zspy/dsjs/202408/t20240807_7257545.html" style="color: rgb(11, 119, 205);">查看详细招生专业及导师介绍。</a></div>
+                                            </div>
+                                        
+                                    </div>
+									<div class="col-md-4 jg-first">
+                                        <h3 class="special-tit">
+                                             <span class="h20 b"><a href="//cib.cas.cn/../../yjsjy/zspy/">招生简章</a></span>
+                                        </h3>
+                                        <div class="zs-con-box mt30">
+                                            
+                                                <div><a href="//cib.cas.cn/../../yjsjy/zspy/sszs/202608/t20260821_8263231.html" target="_blank" title="2027年接收推荐免试硕士研究生及直博生实施细则" class="overfloat-dot">2027年接收推荐免试硕士研究生及直博生实施细则</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../yjsjy/zspy/bszs/202607/t20260715_8249178.html" target="_blank" title="2027年博士研究生招生指标计划情况" class="overfloat-dot">2027年博士研究生招生指标计划情况</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../yjsjy/zspy/sszs/202606/t20260625_8233495.html" target="_blank" title="2027年“卓越计划”直博生、推免生专项" class="overfloat-dot">2027年“卓越计划”直博生、推免生专项</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../yjsjy/zspy/sszs/202606/t20260625_8233487.html" target="_blank" title="2027年硕士研究生招生指标计划情况" class="overfloat-dot">2027年硕士研究生招生指标计划情况</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../xwdt/tzgg/tzgg/202605/t20260529_8211041.html" target="_blank" title="2026年博士研究生招生拟录取名单公示" class="overfloat-dot">2026年博士研究生招生拟录取名单公示</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../yjsjy/zspy/sszs/202604/t20260416_8186596.html" target="_blank" title="2026年硕士研究生招生拟录取名单公示（第二批）" class="overfloat-dot">2026年硕士研究生招生拟录取名单公示（第二批）</a></div>
+                                            
+                                        </div>
+                                    </div>
+									<div class="col-md-4 jg-first">
+                                        <div class="yjs-con-box row">
+                                            
+                                                <div class="col-md-6">
+                                                    <a href="//cib.cas.cn/../../yjsjy/wdxz1/">
+                                                        <img src="//cib.cas.cn/../../yjsjy/wdxz1/images/P020240813516272384591.png" alt="学位管理" />
+                                                        <span>学位管理</span>
+                                                    </a>
+                                                </div>
+                                            
+                                                <div class="col-md-6">
+                                                    <a href="//cib.cas.cn/../../yjsjy/pygl/">
+                                                        <img src="//cib.cas.cn/../../yjsjy/pygl/images/P020240813516079158713.png" alt="培养管理" />
+                                                        <span>培养管理</span>
+                                                    </a>
+                                                </div>
+                                            
+                                                <div class="col-md-6">
+                                                    <a href="//cib.cas.cn/../../yjsjy/xuegong/">
+                                                        <img src="//cib.cas.cn/../../yjsjy/xuegong/images/P020240813516539100131.png" alt="学工管理" />
+                                                        <span>学工管理</span>
+                                                    </a>
+                                                </div>
+                                            
+                                                <div class="col-md-6">
+                                                    <a href="//cib.cas.cn/../../yjsjy/byjy/">
+                                                        <img src="//cib.cas.cn/../../yjsjy/byjy/images/P020240813516457857806.png" alt="就业及校友" />
+                                                        <span>就业及校友</span>
+                                                    </a>
+                                                </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li><a href="//cib.cas.cn/../../dangjian/">党建文化</a></li>
+                    <li class="dropdown pc-menu">
+						<a href="//cib.cas.cn/../../xsqk/" class="dropdown-toggle" data-toggle="dropdown">学术期刊</a>
+						<ul class="dropdown-menu special-nav">
+                            <div class="special-wrap">
+                                <div class="row">
+                                    
+                                    <div class="col-md-6 jg-first" style="margin-bottom: 40px;">
+                                        <h3 class="special-tit">
+                                             <span class="h20 b">New Biology</span>
+                                        </h3>
+                                        <a href="//cib.cas.cn/../../xsqk/202605/t20260514_8200791.html" target="_blank" class="sx-con-box mt30">
+											<img src="//cib.cas.cn/../../xsqk/202605/W020260514363913762486_ORIGIN.jpg" alt="New Biology" />
+                                            <div class="special-des">New Biology（《新生物学》）创刊于2026年，由中国科学院主管、中国科学院成都生物研究所主办、科学出版社出版。New Biology是一本英文生物学综合性期刊，将面向全球、采用开放获取（Open Access）模式出版，以生物学新兴前沿、跨学科交叉融合为特色，秉持前沿引领、开放包容、学术为本的办刊理念，刊发原创研究、综述评论、前沿快讯、方法观点等高质量学术成果。</div>
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="col-md-6 jg-first" style="margin-bottom: 40px;">
+                                        <h3 class="special-tit">
+                                             <span class="h20 b">Asian Herpetological Research</span>
+                                        </h3>
+                                        <a href="//cib.cas.cn/../../xsqk/202408/t20240818_7276996.html" target="_blank" class="sx-con-box mt30">
+											<img src="//cib.cas.cn/../../xsqk/202408/W020240818703854242040.png" alt="Asian Herpetological Research" />
+                                            <div class="special-des">Asian Herpetological Research《亚洲两栖爬行动物研究》（英文版）创刊于2010年，依托中国科学院成都生物研究所为第一主办单位，科学出版社为第二主办单位和出版单位。作为国际化的两栖爬行动物学专刊，期刊被SCI、Scopus、CSCD、WJCI和JST等数据库收录。期刊采用ScholarOne Manuscript在线投审稿系统和科学出版社SciEngine出版平台，支持Gold Open Aceess（金色开放获取），录用后即时在线出版。</div>
+                                        </a>
+                                    </div>
+                                    
+                                    <div class="col-md-6 jg-first" style="margin-bottom: 40px;">
+                                        <h3 class="special-tit">
+                                             <span class="h20 b">应用与环境生物学报</span>
+                                        </h3>
+                                        <a href="//cib.cas.cn/../../xsqk/202408/t20240818_7276997.html" target="_blank" class="sx-con-box mt30">
+											<img src="//cib.cas.cn/../../xsqk/202408/W020260514383655710935_ORIGIN.jpg" alt="应用与环境生物学报" />
+                                            <div class="special-des">《应用与环境生物学报》创刊于1995年，由中国科学院主管、中国科学院成都生物研究所主办、科学出版社出版，是国内外公开发行的应用生物学和环境生物学核心刊物；位列全国期刊生物类Q1区，入选环境科学领域高质量科技期刊分级目录，为CSCD核心期刊、中国科技核心期刊、北大中文核心期刊，被WJCI和Scopus、CA、BA、CSA、ZR、AJ、JST等国际重要数据库收录，历获中国期刊方阵双效期刊、中国农业期刊金犁奖学术类一等奖、中国精品科技期刊、中国国际影响力优秀学术期刊和天府卓越科技期刊、川渝一流期刊等荣誉。</div>
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </ul>
+					</li>
+                    <li class="dropdown pc-menu">
+						<a href="//cib.cas.cn/../../kxcb/" class="dropdown-toggle" data-toggle="dropdown">科学传播</a>
+                        <ul class="dropdown-menu special-nav">
+                            <div class="special-wrap">
+                                <div class="row">
+									<div class="col-md-4 jg-first">
+                                        <h3 class="special-tit">
+                                             <span class="h20 b"><a href="//cib.cas.cn/../../kxcb/kpdt/">科普动态</a></span>
+                                        </h3>
+                                        <div class="zs-con-box mt30">
+                                            
+                                                <div><a href="//cib.cas.cn/../../kxcb/kpdt/202604/t20260407_8181888.html" title="茂县生态站开展“在岷江上游，解构森林修复40年密码”主题科普活动" target="_blank" class="overfloat-dot">茂县生态站开展“在岷江上游，解构森林修复40年密码”主题科普活动</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../xwdt/zhxw/202411/t20241112_7438731.html" title="成都生物所作品入选中国科学院优秀科普微视频作品<br/>" target="_blank" class="overfloat-dot">成都生物所作品入选中国科学院优秀科普微视频作品<br/></a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../xwdt/zhxw/202408/t20240807_7246310.html" title="成都市中小学教师走进茂县生态站开展科普体验活动" target="_blank" class="overfloat-dot">成都市中小学教师走进茂县生态站开展科普体验活动</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../xwdt/zhxw/202408/t20240807_7246308.html" title="成都生物所承办东部新区学生启志中心自然教育科普活动" target="_blank" class="overfloat-dot">成都生物所承办东部新区学生启志中心自然教育科普活动</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../xwdt/zhxw/202408/t20240807_7246266.html" title="成都生物所两部作品入选全国优秀科普微视频作品" target="_blank" class="overfloat-dot">成都生物所两部作品入选全国优秀科普微视频作品</a></div>
+                                            
+                                        </div>
+                                    </div>
+									<div class="col-md-4 jg-first">
+                                        <h3 class="special-tit">
+                                             <span class="h20 b"><a href="//cib.cas.cn/../../kxcb/kpwz/">科普文章</a></span>
+                                        </h3>
+                                        <div class="zs-con-box mt30">
+											
+                                                <div><a href="//cib.cas.cn/../../kxcb/kpwz/bsyc/202408/t20240807_7258713.html" title="你知道你放生的龟有多凶残吗？" target="_blank" class="overfloat-dot">你知道你放生的龟有多凶残吗？</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../kxcb/kpwz/jxwz/202408/t20240807_7258738.html" title="水熊虫“干尸”死而复生" target="_blank" class="overfloat-dot">水熊虫“干尸”死而复生</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../kxcb/kpwz/jxwz/202408/t20240807_7258737.html" title="肠道菌群失调引起自闭症？" target="_blank" class="overfloat-dot">肠道菌群失调引起自闭症？</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../kxcb/kpwz/jxwz/202408/t20240807_7258736.html" title="臭氧：这个“透明杀手”有点狠" target="_blank" class="overfloat-dot">臭氧：这个“透明杀手”有点狠</a></div>
+                                            
+                                                <div><a href="//cib.cas.cn/../../kxcb/kpwz/bsyc/202408/t20240807_7258712.html" title="泰坦尼克不仅仅留下了爱情童话<br>--巨型冰山在海洋碳循环发挥重要作用" target="_blank" class="overfloat-dot">泰坦尼克不仅仅留下了爱情童话<br>--巨型冰山在海洋碳循环发挥重要作用</a></div>
+                                            
+                                        </div>
+                                    </div>
+									<div class="col-md-4 jg-first">
+                                        <h3 class="special-tit">
+                                             <span class="h20 b"><a href="//cib.cas.cn/../../kxcb/shipin/">科普视频</a></span>
+                                        </h3>
+                                        <div class="sp-con-box mt30 row row-20">
+                                            
+                                                <div class="col-20 col-md-6">
+                                                    <a href="//cib.cas.cn/../../kxcb/shipin/202506/t20250616_7869672.html" title="中国科学院的蛙踪蛇影" target="_blank">
+                                                        <div class="img-box">
+                                                            <img src="//cib.cas.cn/../../kxcb/shipin/202506/W020250616402907522661_ORIGIN.png" alt="中国科学院的蛙踪蛇影" />
+                                                        </div>
+                                                        <div class="sp-tit overfloat-dot-2">中国科学院的蛙踪蛇影</div>
+                                                    </a>
+                                                </div>
+                                            
+                                                <div class="col-20 col-md-6">
+                                                    <a href="//cib.cas.cn/../../kxcb/shipin/202506/t20250616_7869666.html" title="从活动板房到国家级平台 ——档案中的茂县生态站" target="_blank">
+                                                        <div class="img-box">
+                                                            <img src="//cib.cas.cn/../../kxcb/shipin/202506/W020250616398198563135_ORIGIN.jpg" alt="从活动板房到国家级平台 ——档案中的茂县生态站" />
+                                                        </div>
+                                                        <div class="sp-tit overfloat-dot-2">从活动板房到国家级平台 ——档案中的茂县生态站</div>
+                                                    </a>
+                                                </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+					</li>
+                    <li class="dropdown pc-menu">
+						<a href="//cib.cas.cn/../../xxgk/" class="dropdown-toggle" data-toggle="dropdown">信息公开</a>
+						<ul class="dropdown-menu special-nav">
+                            <div class="special-wrap">
+                                <div class="row">
+                                    
+                                        <div class="col-md-4 gk-box">
+                                            <h3 class="special-tit">
+                                                <span class="h20 b"><a href="//cib.cas.cn/../../xxgk/xxgkml/">信息公开目录</a></span>
+                                            </h3>
+                                        </div>
+                                    
+                                        <div class="col-md-4 gk-box">
+                                            <h3 class="special-tit">
+                                                <span class="h20 b"><a href="//cib.cas.cn/../../xxgk/xxgkgd/">信息公开规定</a></span>
+                                            </h3>
+                                        </div>
+                                    
+                                        <div class="col-md-4 gk-box">
+                                            <h3 class="special-tit">
+                                                <span class="h20 b"><a href="//cib.cas.cn/../../xxgk/xxgkzn/">信息公开指南</a></span>
+                                            </h3>
+                                        </div>
+                                    
+                                        <div class="col-md-4 gk-box">
+                                            <h3 class="special-tit">
+                                                <span class="h20 b"><a href="//cib.cas.cn/../../xxgk/ysqgk/">依申请公开</a></span>
+                                            </h3>
+                                        </div>
+                                    
+                                        <div class="col-md-4 gk-box">
+                                            <h3 class="special-tit">
+                                                <span class="h20 b"><a href="//cib.cas.cn/../../xxgk/xxgkndbg/">信息公开年度报告</a></span>
+                                            </h3>
+                                        </div>
+                                    
+                                        <div class="col-md-4 gk-box">
+                                            <h3 class="special-tit">
+                                                <span class="h20 b"><a href="//cib.cas.cn/../../xxgk/xxgklxfs/">信息公开联系方式</a></span>
+                                            </h3>
+                                        </div>
+                                    
+                                </div>
+                            </div>
+                        </ul>
+					</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	<div class="wrapper ph-nav">
+		<nav id="main-nav">
+		  <ul>
+			<li><a href="https://cib.cas.cn/">首 页</a></li>
+			<li><a href="//cib.cas.cn/../../jggk/">机构概况</a>
+			  <ul>
+                
+                    <li>
+                        <a ignoreapd="1" href="//cib.cas.cn/../../jggk/skjj/" target="_top">所况简介</a>
+                    </li>
+                
+                    <li>
+                        <a ignoreapd="1" href="//cib.cas.cn/../../jggk/szzc/" target="_top">所长致辞</a>
+                    </li>
+                
+                    <li>
+                        <a ignoreapd="1" href="//cib.cas.cn/../../jggk/xrld/" target="_top">现任领导</a>
+                    </li>
+                
+                    <li>
+                        <a ignoreapd="1" href="//cib.cas.cn/../../jggk/lrld/" target="_top">历任领导</a>
+                    </li>
+                
+                    <li>
+                        <a ignoreapd="1" href="//cib.cas.cn/../../jggk/xswyh/" target="_top">学术委员会</a>
+                    </li>
+                
+                    <li>
+                        <a ignoreapd="1" href="//cib.cas.cn/../../jggk/xwwyh/" target="_top">学位委员会</a>
+                    </li>
+                
+                    <li>
+                        <a ignoreapd="1" href="//cib.cas.cn/../../jggk/lsyg/" target="_top">历史沿革</a>
+                    </li>
+                
+                    <li>
+                        <a ignoreapd="1" href="//cib.cas.cn/../../jggk/dlwz/" target="_top">地理位置</a>
+                    </li>
+                
+                    <li>
+                        <a ignoreapd="1" href="//cib.cas.cn/../../jggk/video/" target="_top">宣传片</a>
+                    </li>
+                
+                    <li>
+                        <a ignoreapd="1" href="//cib.cas.cn/../../jggk/yqfm/" target="_top">园区风貌</a>
+                    </li>
+                
+			  </ul>
+			</li>
+            <li><a href="//cib.cas.cn/../../zzjg/">组织机构</a>
+                <ul>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../zzjg/kybm/" target="_top">科研部门</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../zzjg/glbm/" target="_top">管理部门</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../zzjg/zcbm/" target="_top">支撑系统</a>
+                      </li>
+                  
+                </ul>
+            </li>
+            <li><a href="//cib.cas.cn/../../kycg/">科研成果</a>
+                <ul>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../kycg/hj/" target="_top">获奖</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../kycg/lw/" target="_top">论文</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../kycg/zz/" target="_top">专著</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../kycg/zl/" target="_top">专利</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../kycg/xwpz/" target="_top">新物(品)种</a>
+                      </li>
+                  
+                </ul>
+            </li>
+            <li><a href="//cib.cas.cn/../../rcdw/">人才队伍</a>
+                <ul>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../rcdw/rcgk/" target="_top">人才概况</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../rcdw/lyys/" target="_top">两院院士</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../rcdw/gjjrc/" target="_top">国家级人才</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../rcdw/yjy/" target="_top">研究员</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../rcdw/fyjy/" target="_top">副研究员</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../rcdw/tpyjgw/" target="_top">特聘研究岗位</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../rcdw/qnyjy/" target="_top">青年研究员</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../rcdw/qnfyjy/" target="_top">青年副研究员</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../rcdw/xbzg/" target="_top">西部之光</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../rcdw/qncxcjh/" target="_top">青年创新促进会</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../rcdw/rczp/" target="_top">人才招聘</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../rcdw/bshpy/" target="_top">博士后培养</a>
+                      </li>
+                  
+                </ul>
+            </li>
+            <!-- <li><a href="//cib.cas.cn/../../cgzh/">成果转化</a>
+                <ul>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../cgzh/tzgg/" target="_top">通知公告</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../cgzh/gzdt/" target="_top">工作动态</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../cgzh/gzzd/" target="_top">规章制度</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../cgzh/cgzh/" target="_top">成果转化</a>
+                      </li>
+                  
+                </ul>
+            </li> -->
+            <li><a href="//cib.cas.cn/../../yjsjy/">研究生教育</a>
+                <ul>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../yjsjy/zspy/" target="_top">招生信息</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../yjsjy/wdxz1/" target="_top">学位管理</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../yjsjy/pygl/" target="_top">培养管理</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../yjsjy/xuegong/" target="_top">学工管理</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../yjsjy/byjy/" target="_top">就业及校友</a>
+                      </li>
+                  
+                </ul>
+            </li>
+            <li><a href="//cib.cas.cn/../../dangjian/">党建文化</a>
+                <ul>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../dangjian/jigou/" target="_top">组织机构</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../dangjian/gzdt_103589/" target="_top">动态要闻</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../dangjian/gzdt/" target="_top">基层党建</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../dangjian/quntuan/" target="_top">群团工作</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../dangjian/lianzheng/" target="_top">党风廉政</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../dangjian/wenhua/" target="_top">创新文化</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../dangjian/zhinan/" target="_top">工作指南</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../dangjian/kexuejia/" target="_top">弘扬科学家精神</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../dangjian/xuexi/" target="_top">学习云平台</a>
+                      </li>
+                  
+                </ul>
+            </li>
+            <li><a href="//cib.cas.cn/../../xsqk/">学术期刊</a></li>
+            <li><a href="//cib.cas.cn/../../kxcb/">科学传播</a>
+                <ul>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../kxcb/kpdt/" target="_top">科普动态</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../kxcb/kpwz/" target="_top">科普文章</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../kxcb/kxtp/" target="_top">科学图片</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../kxcb/shipin/" target="_top">科普视频</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../kxcb/kpcg/" target="_top">科普场馆</a>
+                      </li>
+                  
+                </ul>
+            </li>
+            <li><a href="//cib.cas.cn/../../xxgk/">信息公开</a>
+                <ul>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../xxgk/xxgkml/" target="_top">信息公开目录</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../xxgk/xxgkgd/" target="_top">信息公开规定</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../xxgk/xxgkzn/" target="_top">信息公开指南</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../xxgk/ysqgk/" target="_top">依申请公开</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../xxgk/xxgkndbg/" target="_top">信息公开年度报告</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../xxgk/xxgklxfs/" target="_top">信息公开联系方式</a>
+                      </li>
+                  
+                      <li>
+                          <a ignoreapd="1" href="//cib.cas.cn/../../xxgk/yujuesuan/" target="_top">部门预决算部门</a>
+                      </li>
+                  
+                </ul>
+            </li>
+		  </ul>
+		</nav>
+	  </div>
+    <div class="menu-box-empty"></div>
+</div>
+<!--header-end-->
+<!--header-end-->
+<!-- main-start -->
+<div class="main">
+    <div class="container">
+        <div class="main-other">
+            <div class="public-box fix">
+                <!-- 左侧菜单 -->
+                <div class="aside-item">
+    <h3>
+       <span class="h32 b">招生信息</span>
+    </h3>
+    <ul class="aside-list">
+        
+            <li class=""><a ignoreapd="1" href="../../dsjs/">招生专业及导师介绍</a></li>
+        
+            <li class=""><a ignoreapd="1" href="../../bszs/">博士招生</a></li>
+        
+            <li class=""><a ignoreapd="1" href="../">硕士招生</a></li>
+        
+            <li class=""><a ignoreapd="1" href="../../dxsxly/">大学生夏令营</a></li>
+        
+            <li class=""><a ignoreapd="1" href="../../zsjj/">大学生科创计划</a></li>
+        
+            <li class=""><a ignoreapd="1" href="../../lqxx/">联合培养及本科生实习</a></li>
+        
+    </ul>
+</div>
+                <!-- 右侧内容 -->
+                <div class="ti-ma">
+                    <div class="bread-item">
+                        <a href="../../../../" title="&lt;span class='home'&gt;&lt;/span&gt;" class="CurrChnlCls"><span class='home'></span></a>&nbsp;<a href="../../../" title="研究生教育" class="CurrChnlCls">研究生教育</a>&nbsp;<a href="../../" title="招生信息" class="CurrChnlCls">招生信息</a>&nbsp;<a href="../" title="硕士招生" class="CurrChnlCls">硕士招生</a>
+                    </div>
+                    <div class="detail-box mt30">
+                        <h3 class="tit h26">
+                            <span>2027年“卓越计划”直博生、推免生专项</span>
+                            <div class="info">
+                                
+                                    
+                                
+                                
+                                    
+                                
+                                <span class="time">时间：2026-06-25</span>
+                            </div>
+                        </h3>
+                    </div>
+                    <div class="detail">
+                        <div class="trs_editor_view TRS_UEDITOR trs_paper_default trs_word"><p style="text-indent: 2em;">为促进科教融合，培养具备科研潜力的优秀创新人才，成都生物所2027年将继续实施“卓越计划”直博生、推免生专项（以下简称卓越计划）。</p><p style="text-indent: 2em;"> </p><p style="text-indent: 2em;"><strong>一、卓越计划支持措施</strong></p><p style="text-indent: 2em;">卓越计划支持措施含奖学金资助、科研启动基金、国际会议资助、就业绿色通道等综合保障措施。</p><p style="text-indent: 2em;">1.卓越计划直博生奖学金</p><p style="text-indent: 2em;">A类3万元/年，B类2万元/年，入学后以生活补助的形式按月发放。</p><p style="text-indent: 2em;">2.卓越计划硕士生奖学金</p><p style="text-indent: 2em;">A类1.5万元/年，B类1万元/年，入学后以生活补助的形式按月发放。</p><p style="text-indent: 2em;">3.研究生科研启动基金</p><p style="text-indent: 2em;">获卓越计划A类奖学金支持者匹配科研启动基金（博士5万元，硕士3万元）；获卓越计划B类奖学金支持，可申请科研启动基金，根据评选结果，研究所提供3-5万元科研启动基金。</p><p style="text-indent: 2em;">4.国际会议资助</p><p style="text-indent: 2em;">在研究所学习期间，资助参加国际会议2-3次，其中1次由研究所资助，其他由导师课题经费资助。</p><p style="text-indent: 2em;">5.就业绿色通道</p><p style="text-indent: 2em;">毕业后优先留所作为特别研究助理或者博士后。</p><p style="text-indent: 2em;"> </p><p style="text-indent: 2em;"><strong>二、申请条件</strong></p><p style="text-indent: 2em;">需同时满足以下条件。在SCI、核心期刊等发表论文、获得省部级及以上竞赛奖项者优先。</p><p style="text-indent: 2em;">1.全国重点高校优秀应届本科毕业生；</p><p style="text-indent: 2em;">2.具有推荐免试资格（或者预推免资格）；</p><p style="text-indent: 2em;">3.通过英语六级≥430分（或同等水平：托福考试成绩在75分（含）以上；雅思考试成绩在6.0分（含）以上；参加“全国外语水平考试 (WSK)”，英语（PETS5）考试成绩在50分（含）以上。）</p><p style="text-indent: 2em;"> </p><p style="text-indent: 2em;"><strong>三、学科专业及导师</strong></p><p style="text-indent: 2em;">专项计划可申报我所以下学科专业及导师：</p><p> </p><div><div><div style="overflow-x: auto; width: 100%; text-align: center;"><div class="ue_table" style="overflow-x: auto;"><table align="center" border="1" cellpadding="0" cellspacing="0" style="width: 75%; border-collapse: collapse; min-width: 800px; margin: auto;">
+<tbody>
+<tr class="firstRow">
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="90">
+<p>学科专业</p></td>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="241">
+<p>博士招生</p></td>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="369">
+<p>硕士招生</p></td></tr>
+<tr>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="90">
+<p>植物学</p></td>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="241">
+<p>樊小莉 李海腾   龙海 王涛 徐波 张韬</p></td>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="369">
+<p>樊小莉 冯波 王涛 徐波</p></td></tr>
+<tr>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="90">
+<p>动物学</p></td>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="241">
+<p>陈有华 胡军华 李家堂 齐银 王斌</p></td>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="369">
+<p>方光战 胡军华 李家堂 王斌 朱未</p></td></tr>
+<tr style=";height:84px">
+<td height="84" style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="90">
+<p>微生物学</p>
+<p>环境科学</p></td>
+<td height="84" style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="241">
+<p>李东 谭周亮 闫志英 占国强 汪婧婷</p></td>
+<td height="84" style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="369">
+<p>谭周亮 陶勇 闫志英 张施琪 朱晓宇</p></td></tr>
+<tr>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="90">
+<p>生态学</p></td>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="241">
+<p>戴强 何奕忻 李芳兰   卢涛 庞学勇</p>
+<p>孙庚 唐波 尹春英 尹华军</p></td>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="369">
+<p>戴强 何奕忻 廖梓延 刘建亮 庞学勇</p>
+<p>孙庚 尹春英 张林 尹华军</p></td></tr>
+<tr>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="90">
+<p>药物化学</p></td>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="241">
+<p>马小锋 夏兵 周燕</p></td>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="369">
+<p>马小锋 夏兵</p></td></tr>
+<tr>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="90">
+<p>生物与医药</p></td>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="241">
+<p>以上博导均可</p></td>
+<td style="border: 1px solid black; padding: 8px; text-align: center; white-space: nowrap;" width="369">
+<p>一、生物技术与工程：</p>
+<p>①动物生物技术：陈有华</p>
+<p>②环境微生物工程：邓放 罗倚坪 吕青阳 舒丹 谢翼飞</p>
+<p>③生态工程：高永恒 类延宝 王明强 薛丹 唐波 尹华军</p>
+<p>④植物生物技术：李俏</p>
+<p>二、制药工程：王飞</p></td></tr></tbody></table></div></div></div></div><p style="text-indent: 2em;">备注：导师联系方式可查看以下链接：<a data-needdownload="false" data-needparse="false" href="http://cib.cas.cn/yjsjy/zspy/" needdownload="false" style="color: rgb(11, 119, 205);" target="_blank">http://cib.cas.cn/yjsjy/zspy/</a></p><p style="text-indent: 2em;"> </p><p style="text-indent: 2em;"><strong>四、申请流程</strong></p><p style="text-indent: 2em;"><strong>1. 申请人提交报名材料</strong></p><p style="text-indent: 2em;">申请人将以下材料整理成一个PDF文件发送到yzb@cib.ac.cn及意向导师邮箱。邮件标题为“2027卓越计划申请+拟申请专业+意向导师+申请人姓名+手机号”</p><p style="text-indent: 2em;">①《申请人简历及自述》(附件1)。</p><p style="text-indent: 2em;">②身份资料：身份证、学生证；</p><p style="text-indent: 2em;">③本科成绩单和专业排名证明（需加盖教务处或学院公章）；</p><p style="text-indent: 2em;">④英语水平证明材料（如四六级成绩单等）；</p><p style="text-indent: 2em;">⑤其他证明材料（包括已发表论文或出版物扫描件、专利授权证明、各类奖励证书扫描件等）；</p><p style="text-indent: 2em;">注：所有资料应页面字迹清晰可见；申请者应保证申请时所提交的所有材料真实有效。申请人不需要寄送纸质版申请材料来我所。</p><p style="text-indent: 2em;"><strong>第一批次截止日期：</strong>2026年7月20日，通过预审的同学，将获得我所2026年大学生夏令营直通入营机会，来所参与课题实习，与导师面对面沟通交流。</p><p style="text-indent: 2em;"><strong>第二批次截止日期：</strong>2026年9月10日。</p><p style="text-indent: 2em;"><strong>2.申请人联系意向导师，取得《导师推荐意向表》</strong></p><p style="text-indent: 2em;">申请人需提前了解意向导师研究方向，与导师充分沟通交流，明确研究规划，并获得导师签字的《导师推荐意向表》（附件2）。</p><p style="text-indent: 2em;"><strong>3.卓越计划奖学金评审</strong></p><p style="text-indent: 2em;">获得《导师推荐意向表》的申请人，进入奖学金考核评审环节。此环节由5名学科专家组成评审组，重点考察候选人的科研潜力和创新思维，根据学生综合表现，评审申请人奖学金等次。</p><p style="text-indent: 2em;">此环节申请人需做PPT报告，时间不超过8分钟：内容包括但不限于以下方面：个人简介，如教育背景、学习表现，参与的科研活动情况、成果、获奖等；未来的科研设想、研究计划等。</p><p style="text-indent: 2em;"><strong>评审时间：</strong></p><p style="text-indent: 2em;"><strong>第一批次：</strong>2026年7月24日左右（夏令营期间）</p><p style="text-indent: 2em;"><strong>第二批次：</strong>2026年9月24日左右</p><p style="text-indent: 2em;"> </p><p style="text-indent: 2em;"><strong>五、中期考核及评估</strong></p><p style="text-indent: 2em;">卓越计划奖学金入选者，需参加奖学金中期考核评估，（与研究生中期考核同步，硕士生在第5学期，直博生在第9学期），对奖学金中期考核未达标者，取消后续奖学金支持。</p><p style="text-indent: 2em;"> </p><p style="text-indent: 2em;"><strong>六、联系方式</strong></p><p style="text-indent: 2em;">联系人：张老师  官老师</p><p style="text-indent: 2em;">联系部门：中国科学院成都生物研究所 教育处</p><p style="text-indent: 2em;">咨询电话：028-82890953</p><p style="text-indent: 2em;">电子邮件：yzb@cib.ac.cn</p><p style="text-indent: 2em;">通讯地址：四川省成都市天府新区群贤南街23号</p><p style="text-indent: 2em;">邮编：610213</p><p><br/></p></div>
+                   <p>&nbsp; </p>
+                    </div>
+                    <div class="wrap-appendix mt50">
+                        <div class="title-appendix">附件：</div>
+                        <ul></ul>
+                    </div>
+                    <ul class="next-list">
+                        
+                        
+                            <li class="next"><a href="./t20260625_8233487.html" >下一篇：2027年硕士研究生招生指标计划情况</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- main-end -->
+<div class="footer">
+    <div class="container">
+        <div class="footer-wrap">
+            <a href="https://www.cas.cn/" target="_blank" class="foot-logo">
+                <img src="//cib.cas.cn/images/cdsws_cas_logo.png" alt="中国科学院" />
+            </a>
+            <div class="footer-copy">
+                <p class="h16">中国科学院成都生物研究所 版权所有</p>
+                <p><a class="h16" href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备05005370号-1</a></p>
+            </div>
+            <div class="footer-info">
+                <p class="h16">电话：028-82890289&nbsp;&nbsp;&nbsp;传真：028-82890288</p>
+                <p class="h16">Email：swsb@cib.ac.cn</p>
+                <p class="h16">地址：四川省成都市天府新区群贤南街23号&nbsp;&nbsp;&nbsp;邮政编码：610213</p>
+            </div>
+            <div class="footer-work">
+                <div class="work">
+                    <!-- 事业单位 -->
+                    <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='https://dcs.conac.cn/js/33/000/0000/60431631/CA330000000604316310004.js' type='text/javascript'%3E%3C/script%3E"));</script>
+                </div>
+                <div class="wx_code">
+                    <span>官方微信</span>
+                    <img src="//cib.cas.cn/images/cdsws01.jpg" alt="官方微信" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- js文件引入 -->
+<script src="//cib.cas.cn/images/cdsws_jquery.min_cas.js" type="text/javascript"></script>
+<script src="//cib.cas.cn/images/cdsws_bootstrap.min.js" type="text/javascript"></script>
+<script src="//cib.cas.cn/images/cdsws_swiper.min.js" type="text/javascript"></script>
+<script src="//cib.cas.cn/images/web_common_cdsws_2024.js" type="text/javascript"></script>
+<script>
+$(document).ready(function(){
+	    var hr,wi
+	    $(".navbar-nav >li").each(function(){
+	       	hr=$(this).children('a').attr("href").split('/');
+	       	wi=window.document.location.pathname.split('/')[1];
+	       	if (hr.indexOf(wi) != -1) {
+			  $(this).addClass('active').siblings('li').removeClass('active')
+			}
+	        if(wi == ''){
+	            $(".navbar-nav >li").eq(0).addClass('active').siblings('li').removeClass('active')    
+	        }
+	    });
+	});
+var currText = 0;
+var texts = $('.index-header-swiper .header-swiper-img-box');
+var element = texts.eq(currText);
+element.fadeIn(1000);
+
+setInterval(function(){
+    currText++;
+    if(currText > texts.length-1) currText = 0;
+    element.fadeOut(1000);
+    setTimeout(function(){  
+        element = texts.eq(currText);
+        element.stop(true,true)
+        element.fadeIn(1000);
+    },1000);
+},5000);
+	// 手机端导航
+	(function ($) {
+	  var $nav = $('#main-nav');
+	  var $toggle = $('.toggle');
+	  var defaultData = {
+		maxWidth: false,
+		customToggle: $toggle,
+		navTitle: '<img src="//cib.cas.cn/images/cdsws_logo.png" alt="成都生物研究所" />',
+		levelTitles: true,
+		// 叠加  overlap   扩展   expand  显示全部  false
+		levelOpen: 'overlap',
+		// 左边显示还是右边显示
+		side: 'left',
+	  };
+
+	  // we'll store our temp stuff here
+	  var $clone = null;
+	  var data = {};
+	  // calling like this only for demo purposes
+	  const initNav = function (conf) {
+		if ($clone) {
+		  // clear previous instance
+		  $clone.remove();
+		}
+		// remove old toggle click event
+		$toggle.off('click');
+		// make new copy
+		$clone = $nav.clone();
+		// remember data
+		$.extend(data, conf)
+		// call the plugin
+		$clone.hcMobileNav($.extend({}, defaultData, data));
+	  }
+	  // run first demo
+	  initNav({});
+	  $('.actions').find('a').on('click', function (e) {
+		e.preventDefault();
+		var $this = $(this).addClass('active');
+		var $siblings = $this.parent().siblings().children('a').removeClass('active');
+		initNav(eval('(' + $this.data('demo') + ')'));
+	  });
+	})(jQuery);
+	function isValid(str){
+	  if(str.indexOf('&') != -1 || str.indexOf('<') != -1 || str.indexOf('>') != -1 || str.indexOf('\'') != -1
+	    || str.indexOf('\\') != -1 || str.indexOf('/') != -1 || str.indexOf('"') != -1 
+	    || str.indexOf('%') != -1 || str.indexOf('#') != -1){
+	    return false;
+	  }
+	  return true;
+	}
+	$(function(){
+	  	$('#sub-pc').click(function(){
+		    var searchword = $.trim($('#searchword').val());
+		  	if(searchword == "" || searchword == "请输入关键字" || !isValid(searchword)){
+		    	alert("请输入关键词后再进行提交。");
+		      	return false;
+		  	}
+		  	$('input[name="keyword"]').val(encodeURI(searchword));
+		  	$('form[name="searchform"]').submit();
+		});
+	})
+</script>
+<script>
+    var sLoca='首页|研究生教育|招生信息|硕士招生';
+    var oUlColumn2Jq=$('.aside-list');
+    var aAColumn2Jq=$('a', oUlColumn2Jq);
+
+    aAColumn2Jq.each(function(){
+      var sColumn2Jq=$(this).text();
+
+      if(sLoca.indexOf(sColumn2Jq)!=-1){
+        $(this).parent().addClass('active');
+      }
+    });
+    $(function(){
+        var appLinkArr = new Array(); //附件路径
+        var appLinkStr = './P020260625519703049414.doc|./P020260625519703354333.doc';
+        appLinkArr = appLinkStr.split('|');
+        var appDescArr = new Array(); //附件名称
+        var appDescStr = '附件1. 申请人简历及自述 .doc|附件2. 卓越计划-导师推荐意向表.doc';
+        appDescArr = appDescStr.split('|');
+        if(appLinkArr[0] != '' && appDescArr[0] != ''){
+            var appHtml = "";
+            $.each(appLinkArr, function(i, str) {
+                if(str.indexOf('doc') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-word-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+                if(str.indexOf('xls') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-excel-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+                if(str.indexOf('ppt') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+                if(str.indexOf('pdf') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+                if(str.indexOf('txt') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-text-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+                if(str.indexOf('rar') != -1 || str.indexOf('zip') != -1){
+                    appHtml += '<li><a href="' + str + '"><i class="fa fa-file-archive-o" aria-hidden="true"></i>' + appDescArr[i] + '</a></li>';
+                }
+            });
+            $(".wrap-appendix ul").html(appHtml);
+        }else{
+            $(".wrap-appendix").hide();
+        }
+    })
+</script>
+</body>
+</html>

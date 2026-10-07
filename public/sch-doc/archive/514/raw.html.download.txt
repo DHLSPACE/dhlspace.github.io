@@ -1,0 +1,1576 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+     
+ 
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+               <!--
+                                                               (0 0)
+                                           +=============oOO====(_)================+
+                                           |   Powered By wanhu - www.wanhu.com.cn |
+                                           |   Tel:400-888-0035  020-85575672      |
+                                           |   Creation:2026.09.17                 |
+                                           |   ezEip v5.3.0(0649)                  |
+                                           +==========================oOO==========+
+                                                              |__|__|
+                                                               || ||
+                                                              ooO Ooo
+                                        -->                                        
+<meta name="Author" content="万户网络设计制作" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="/editor/editor.css" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript" src="/cn/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/cn/js/a.whir.search.js"></script>
+<script type="text/javascript" src="/cn/js/a.whir.menu.js"></script>
+<link rel="stylesheet" type="text/css" href="/cn/css/responsive.css" />
+<link rel="stylesheet" type="text/css" href="/cn/css/style.css" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/cn/js/html5shiv.v3.72.min.js"></script>
+<![endif]-->
+
+
+
+    <script type="text/javascript" src="/cn/js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="/cn/js/carousel.min.2.3.4.js"></script>
+    <script type="text/javascript" src="/cn/js/jquery.slick.js"></script>
+    <link rel="stylesheet" type="text/css" href="/cn/css/jquery.slick.css" />
+</head>
+
+<body>
+    <!--top start-->
+     
+ 
+<!--Top002633 star-->
+<div class="Top002633">
+  <div class="auto auto_1200 box1">
+    <div class="top_menu">
+      <dl>
+        <dd class="reg"><a><i><div id="dateTime"></div></i></a></dd>
+        
+        <dd class="member"><a href='http://www.sinano.cas.cn/' target="_blank"><i>所网站</i></a></dd>
+          
+        <dd class="btn_search"><a href="javascript:void(0);"></a></dd>
+      </dl>
+      <div class="clear"></div>
+    </div>
+    <div class="search">
+      <input type="text" class="text" id="TopKey" value="" >
+      <a id="TopBtn" class="btn" href="javascript:void(0);"><span class="glyphicon glyphicon-search"></span></a> 
+    </div>
+  </div>
+
+  <div class="header-top auto auto_1200">
+    <div class="logo"><a href='/index.aspx'>
+    
+    <img src="/uploadfiles/2023/10/th_20231017165256886.png?56CU56m25omALeaVmeiCsuWkhOeFp+eJhy5wbmc="><img src="/uploadfiles/image/Top002633_logo2.png?VG9wMDAyNjMzX2xvZ28yLnBuZw==">
+      
+    </a></div>
+    <dl class="header-right">
+      <dd id="open_menu"><i></i></dd>
+    </dl>
+  </div>
+  
+  <div class="header-bottom">
+    <header class="header auto auto_1200">
+      <nav class="header-menu sub-vertical clearfix sub-slideDown" >
+        <ul class="ul clearfix">
+          <li id="m1"><em><a href='/index.aspx'>首 页</a></em></li>
+          <li id="m2"><em><a href='/AboutTheCollege/index.aspx'>部门概况</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/AboutTheCollege/index.aspx\">学院简介</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/AboutTheCollege/index.aspx?parent'>学院简介</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/CollegeLeaders/index.aspx\">学院领导</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/CollegeLeaders/index.aspx?parent'>学院领导</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/JobFunctions/list.aspx\">岗位职能</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/JobFunctions/list.aspx?parent'>岗位职能</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/ContactUs/index.aspx\">联系我们</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/ContactUs/index.aspx?parent'>联系我们</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m10"><em><a href='/DisciplineSettings/index.aspx'>招生</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DisciplineSettings/index.aspx\">学科设置</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DisciplineSettings/index.aspx?parent'>学科设置</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/AdmissionsOverview/index.aspx\">招生概况</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/AdmissionsOverview/index.aspx?parent'>招生概况</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Master/list.aspx\">硕士招生</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Master/list.aspx?parent'>硕士招生</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/sions/list.aspx\">博士招生</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/sions/list.aspx?parent'>博士招生</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Students/list.aspx\">留学生</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Students/list.aspx?parent'>留学生</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m17"><em><a href='/TrainingPrograms/list.aspx'>培养</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/TrainingPrograms/list.aspx\">培养方案</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/TrainingPrograms/list.aspx?parent'>培养方案</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/AwardWinners/index.aspx\">奖学金</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/AwardWinners/index.aspx?parent'>奖学金</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/StudentStatusManagement/list.aspx\">学籍管理</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/StudentStatusManagement/list.aspx?parent'>学籍管理</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m21"><em><a href='/DegreeSub-Committee/index.aspx'>学位</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DegreeSub-Committee/index.aspx\">学位分委员会</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DegreeSub-Committee/index.aspx?parent'>学位分委员会</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DegreeApplicationProcess/index.aspx\">学位申请流程</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DegreeApplicationProcess/index.aspx?parent'>学位申请流程</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/DegreeGrant/list.aspx\">学位授予</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/DegreeGrant/list.aspx?parent'>学位授予</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/ThesisDefense/list.aspx\">日程安排</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/ThesisDefense/list.aspx?parent'>日程安排</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m27"><em><a href='/Employ/list.aspx'>毕业与就业</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Employ/list.aspx\">就业资讯</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Employ/list.aspx?parent'>就业资讯</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Job-huntingPlatform/list.aspx\">求职平台</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Job-huntingPlatform/list.aspx?parent'>求职平台</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/EmploymentPolicy/list.aspx\">就业政策</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/EmploymentPolicy/list.aspx?parent'>就业政策</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/GraduateNotice/list.aspx\">毕业生通知</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/GraduateNotice/list.aspx?parent'>毕业生通知</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m26"><em><a href='/Postdoctoral/list.aspx'>科研进展</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m32"><em><a href='/GraduateAssociation/index.aspx'>研究生活动</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/GraduateAssociation/index.aspx\">研究生会</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/GraduateAssociation/index.aspx?parent'>研究生会</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/Societies/index.aspx\">社团</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/Societies/index.aspx?parent'>社团</a></dt>
+                            
+                    <!--<script>
+        if ('True'=="True")
+        document.write("<dt><a href=\"/ColorfulActivities/list.aspx\">风采展示</a></dt>");
+    </script>-->
+                        
+                                <dt><a href='/ColorfulActivities/list.aspx?parent'>风采展示</a></dt>
+                            
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m37"><em><a href='/Regulations/list.aspx'>规章制度</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          <li id="m38"><em><a href='/DownloadCenter/list.aspx?lcid=5'>下载中心</a></em>
+            <div class="sub">
+              <div class="sub-menu">
+                <dl>
+                    
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=5'>学生入所</a></dt>
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=4'>学生管理</a></dt>
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=2'>常用证明</a></dt>
+                  <dt><a href='/DownloadCenter/list.aspx?lcid=1'>毕业离所</a></dt>
+                  
+                </dl>
+              </div>
+            </div>
+          </li>
+          
+        </ul>
+      </nav>
+
+    </header>
+  </div>
+  <script type="text/javascript">
+      
+      var m='1'
+          
+	  
+	  
+          //搜索打开
+          $(".Top002633 .btn_search").click(function(e) {
+          $(".Top002633 .search").show(300);
+      });
+      $(".Top002633 .search").bind("mouseleave",function(){
+          $(this).hide(300);
+      })
+	  
+	  
+      $("#TopBtn").jqSearch({
+          TxtVal: "关键字搜索",
+          KeyTxt1: "输入关键词搜索！",
+          KeyTxt2: "输入的关键词字数不要过多！",
+          KeyTxt3: "您输入的内容存在特殊字符！",
+          KeyId: "TopKey", //输入框id
+          KeyUrl: "/Search/list.aspx", //跳转链接
+          KeyHref: "key", //链接传值
+          Static: false //是否静态站
+      });
+	  
+      function dateTime(){
+          var time=new Date();
+          var week;
+          switch (time.getDay()){       //time.getDay()获取后显示1~7阿拉伯数字
+          case 1: week="星期一"; break;
+          case 2: week="星期二"; break;
+          case 3: week="星期三"; break;
+          case 4: week="星期四"; break;
+          case 5: week="星期五"; break;
+          case 6: week="星期六"; break;
+          default: week="星期天";
+          }
+          var year=time.getFullYear();
+          var month=time.getMonth();
+          var date=time.getDate();
+          document.getElementById("dateTime").innerHTML = year+"-"+(month+1)+"-"+date+"  "+week;
+      }
+      setInterval(dateTime,1000);     //每隔1秒显示一次
+  </script> 
+</div>
+<!--Top002633 end--> 
+
+
+    <!--top end-->
+
+    <!--Banner001751开始-->
+    <div class="Banner001751">
+        <ul class="ul">
+            
+                
+                    <li style="background-image:url(/uploadfiles/2026/07/20260722203543236.jpg?5aSn5ZCI54WnMV/lia/mnKwxOTIwLTUwMC5qcGc=);" class="has-video">
+                        <img src="/uploadfiles/2026/07/20260722203720347.png?5aSn5ZCI54WnMl/lia/mnKwxMDAwLTUwMC5wbmc=">
+                        <video src="/uploadfiles/"   id="video" preload="auto" muted autoplay></video>
+                    </li>
+                
+            
+            
+                <li style="background-image:url(/uploadfiles/2026/07/20260722203543236.jpg?5aSn5ZCI54WnMV/lia/mnKwxOTIwLTUwMC5qcGc=);"><a href='https://mp.weixin.qq.com/s/hZHhoQnXR_pStpIrROl7vg' target="_blank"></a><img src="/uploadfiles/2026/07/20260722203720347.png?5aSn5ZCI54WnMl/lia/mnKwxMDAwLTUwMC5wbmc="></li>
+            
+                <li style="background-image:url(/uploadfiles/2024/12/20241219132723228.png?55Sf5ZG95LmL6ZKlICgxKS5wbmc=);"><a href='https://mp.weixin.qq.com/s/W6qqjO9oUchuDikLw2t-Aw' target="_blank"></a><img src="/uploadfiles/2024/12/20241219131317591.jpg?5bCB6Z2i6aaW5Zu+LTEwMDAtNTAwLmpwZw=="></li>
+            
+                <li style="background-image:url(/uploadfiles/2023/10/20231017154633140.png?5a6j5Lyg54mHLnBuZw==);"><a href='http://yjsb.sinano.ac.cn/NewsCentre/info.aspx?itemid=1361' target="_blank"></a><img src="/uploadfiles/2023/10/20231017154636823.png?5a6j5Lyg54mHLnBuZw=="></li>
+            
+                <li style="background-image:url(/uploadfiles/2025/06/20250623114126881.jpg?5aSn5ZCI5b2xX+WJr+acrDMtQmFubmVyLmpwZw==);"><a href='https://sinano.cas.cn/news/zhxw/202506/t20250619_7872291.html' target="_blank"></a><img src="/uploadfiles/2025/06/20250623114222793.jpg?5aSn5ZCI5b2xX+WJr+acrDQtYmFubmVyMi5qcGc="></li>
+            
+                <li style="background-image:url(/uploadfiles/2020/11/th_20201120174346359.jpg?5ZCI5b2xMu+8iOWcqOaYjuaciOWdoe+8iV/lia/mnKwuanBn);"><a href='http://yjsb.sinano.ac.cn/NewsCentre/info.aspx?itemid=984' target="_blank"></a><img src="/uploadfiles/2020/11/th_20201120174456718.jpg?5ZCI5b2xMe+8iOWcqOadpem5pOS6reS4i++8iV/lia/mnKw5LmpwZw=="></li>
+            
+                <li style="background-image:url(/uploadfiles/2020/11/th_20201120165931796.jpg?5p2O546lM1/lia/mnKwuanBn);"><a href='http://yjsb.sinano.ac.cn/NewsCentre/info.aspx?itemid=940' target="_blank"></a><img src="/uploadfiles/2020/11/th_20201120170039656.jpg?5p2O546lMV/lia/mnKwyLmpwZw=="></li>
+            
+                <li style="background-image:url(/uploadfiles/2021/06/20210624144339891.jpg?56eR5pWZ6J6N5ZCIMV/lia/mnKwuanBn);"><a href='http://yjsb.sinano.ac.cn/NewsCentre/info.aspx?itemid=1055' target="_blank"></a><img src="/uploadfiles/2021/06/20210624144624691.jpg?5ZCI5b2xSU1HXzg4NjVf5Ymv5pysLmpwZw=="></li>
+            
+                <li style="background-image:url(/uploadfiles/2020/03/th_20200310100411873.jpg?QmFubmVyMy3ljaHmi4lvay5qcGc=);"><a href='http://nj.gzwhir.com/zgkxys201910159541/ColorfulActivities/info.aspx?itemid=832' target="_blank"></a><img src="/uploadfiles/2020/04/20200408113902190.jpg?5aSa5b2p5rS75Yqo4oCU5Y2h5ouJb2tf5omL5py656uvLmpwZw=="></li>
+            
+        </ul>
+        <script>
+            $(document).ready(function() {
+                $(".Banner001751 .ul").slick({speed: 1000,autoplaySpeed: 4000, dots:true,autoplay: true,fade: true});
+                if($(".Banner001751 .ul").find("li").eq(0).hasClass("has-video")){
+				   var id=$(".Banner001751 .ul").find("li").eq(0).find("video").attr("id")
+			       var fvideo=document.getElementById(id)
+				   fvideo.play();
+                   $(".Banner001751 .ul").slick("slickPause");
+				   fvideo.addEventListener("ended",function(){
+                    $(".Banner001751 .ul").slick("slickNext");
+				   });
+		        }
+                main.on('afterChange', function(event, slick, currentSlide, nextSlide){
+                    if($(window).width()>1025){
+                        var vm=$(".Banner001751 .ul").find("li.slick-slide")
+                        if(vm.find("video").length>=1){
+                            vm.find("video")[0].pause()
+                            $(".Banner001751 .ul").slick("slickPlay");
+                        }
+                        if(vm.eq(currentSlide).hasClass("has-video")){
+                            var numID=vm.eq(currentSlide).find("video").attr("id")
+                            var myvideo=document.getElementById(numID)
+                            myvideo.play();
+                            $(".Banner001751 .ul").slick("slickPause");
+                            myvideo.addEventListener("ended",function(){
+                                $(".Banner001751 .ul").slick("slickNext");
+                            });
+                        }
+                        }
+                });
+            });
+        </script>
+    </div>
+    <!--Banner001751结束-->
+
+    <!--网页主体部分 开始-->
+    <section class="content">
+        <!--Floor001283开始-->
+        <div class="Floor001283">
+            <div class="auto auto_1200 clearfix">
+                <section class="box_1">
+                    <h1 class="title">
+                        <a href='/NewsCentre/list.aspx'>更多</a>
+                        <b>新闻中心</b>
+                    </h1>
+                    <ul class="ul">
+                        
+                                <ol>
+                                    <a href='/NewsCentre/info.aspx?itemid=1681' class="pic" style="background-image:url(/uploadfiles/2026/07/20260724000443610.png?5Zu+54mHM1/lia/mnKwucG5n);"><img src="/uploadfiles/2026/07/20260724000443610.png?5Zu+54mHM1/lia/mnKwucG5n" /></a>
+                                    <div>
+                                        <h5><a href='/NewsCentre/info.aspx?itemid=1681'>苏州纳米所成功举办2026年研究生新生入所教育</a></h5>
+                                        <p class="dot3">7月21日，苏州纳米所成功举办2026年研究生新生入所教育，近300名新入所研究生参加培训。所长陈春英院士、党委副书记、副所长郑企雨出席，开幕式由教育处处长潘婷婷主持。</p>
+                                    </div>
+                                </ol>
+                            
+                            <li>
+                                <time>2026-07-22</time>
+                                <a href='https://mp.weixin.qq.com/s/hZHhoQnXR_pStpIrROl7vg' class="dot">纳微筑梦·科创启航 | 中国科学院苏州纳米所第一届科学营活动圆满结束</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-05-28</time>
+                                <a href='https://mp.weixin.qq.com/s/u2JchxPTr4iJh-DABxuV3w' class="dot">「躬耕·领航」青年导师能力建设座谈会成功举办</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-05-13</time>
+                                <a href='/NewsCentre/info.aspx?itemid=1657' class="dot">苏州纳米所举办第十八届五四青年学术交流会</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-05-11</time>
+                                <a href='' class="dot">苏州纳米所开展第二期兼职辅导员培训</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-02-14</time>
+                                <a href='/NewsCentre/info.aspx?itemid=1626' class="dot">情暖新春，爱伴研途——苏州纳米所组织春节留所学生慰问活动</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-01-23</time>
+                                <a href='https://mp.weixin.qq.com/s/YRZImHBHW-1ZHEJHCqEAew' class="dot">聚力纳新，逐趣暖冬 | 2026年纳young·趣味运动会热力启程</a>
+                            </li>
+                        
+                    </ul>
+                </section>
+
+                <section class="box_2">
+                    <h1 class="title">
+                        <a href='/NoticeAnn/list.aspx'>更多</a>
+                        <b>通知公告</b>
+                    </h1>
+                    <ul class="ul">
+                        
+                            <ol>
+                                <time><b>03</b>2026-07</time>
+                                <h5><a href='/NoticeAnn/info.aspx?itemid=1678' class="dot">DJI 大疆 2027“拓疆者”校园招聘全面开启！</a></h5>
+                                <p class="dot2">DJI 大疆 2027“拓疆者”校园招聘全面开启！</p>
+                            </ol>
+                        
+                        
+                            <li>
+                                <time>2026-07-03</time>
+                                <a href='/NoticeAnn/info.aspx?itemid=1678' class="dot">DJI 大疆 2027“拓疆者”校园招聘全面开启！</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-06-29</time>
+                                <a href='/NoticeAnn/info.aspx?itemid=1676' class="dot">就业信息 | 首期“实习苏州”全球交流营活动活动来了！</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-06-03</time>
+                                <a href='https://yz.ustc.edu.cn/static/upload/article/file/1780392646554/f9729907d37f4edf8984cb7e03f7e014.pdf' class="dot">中国科学技术大学 2027 研考初试科目调整通告</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-04-16</time>
+                                <a href='/NoticeAnn/info.aspx?itemid=1643' class="dot">2026年中科大纳米技术与纳米仿生学院（苏州纳米所）公开招考博士研究生综合考核安排通知</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-04-03</time>
+                                <a href='/NoticeAnn/info.aspx?itemid=1638' class="dot">2026年中科大纳米技术与纳米仿生学院（苏州纳米所）工程博士申请考核制普通招考通告</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-04-03</time>
+                                <a href='/NoticeAnn/info.aspx?itemid=1637' class="dot">2026年中科大纳米技术与纳米仿生学院（苏州纳米所）硕转博招生公告</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-03-24</time>
+                                <a href='https://gradschool.ustc.edu.cn/article/3461' class="dot">关于做好2026年度中国科学技术大学“中国科学院优秀博士学位论文”初选校内推荐工作的通知</a>
+                            </li>
+                        
+                    </ul>
+                </section>
+                <section class="box_3">
+                    <h1 class="title"><b>栏目导航</b></h1>
+                    <ul class="ul clearfix">
+                        
+                            <li><a href='http://yjsb.sinano.ac.cn/Doctor/list.aspx' class="dot"><i style="background-image:url(/uploadfiles/image/Floor001865-ico1.png?Rmxvb3IwMDE4NjUtaWNvMS5wbmc=);"></i>导师队伍</a></li>
+                        
+                            <li><a href='http://yjsb.sinano.ac.cn/SummerCamp/list.aspx' class="dot"><i style="background-image:url(/uploadfiles/image/Floor001865-ico2.png?Rmxvb3IwMDE4NjUtaWNvMi5wbmc=);"></i>夏令营</a></li>
+                        
+                            <li><a href='http://yjsb.sinano.ac.cn/AwardWinners/index.aspx' class="dot"><i style="background-image:url(/uploadfiles/image/Floor001865-ico3.png?Rmxvb3IwMDE4NjUtaWNvMy5wbmc=);"></i>奖助学金</a></li>
+                        
+                            <li><a href='http://yjsb.sinano.ac.cn/May4thYouthExchange/list.aspx' class="dot"><i style="background-image:url(/uploadfiles/image/Floor001865-ico4.png?Rmxvb3IwMDE4NjUtaWNvNC5wbmc=);"></i>五四青年学术交流会</a></li>
+                        
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <!--Floor001283结束-->
+
+        <!--Floor001284开始-->
+        <div class="Floor001284">
+            <div class="auto auto_1200 clearfix">
+                <section class="box_1">
+                    <h1 class="title"><a href='/Master/list.aspx'>更多</a><b>招生信息</b></h1>
+                    <ul class="ul">
+                        
+                            <li>
+                                <time>2026-06-03</time>
+                                <a href='https://yz.ustc.edu.cn/static/upload/article/file/1780392646554/f9729907d37f4edf8984cb7e03f7e014.pdf' class="dot">中国科学技术大学 2027 研考初试科目调整通告</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-04-16</time>
+                                <a href='/sions/info.aspx?itemid=1642' class="dot">2026年公开招考博士研究生入围考生名单公示</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-04-16</time>
+                                <a href='/sions/info.aspx?itemid=1644' class="dot">2026年中科大纳米技术与纳米仿生学院（苏州纳米所）公开招考博士研究生综合考核安排通知</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-04-03</time>
+                                <a href='/sions/info.aspx?itemid=1639' class="dot">2026年中科大纳米技术与纳米仿生学院（苏州纳米所）硕转博招生公告</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-04-03</time>
+                                <a href='/sions/info.aspx?itemid=1640' class="dot">2026年中科大纳米技术与纳米仿生学院（苏州纳米所）工程博士申请考核制普通招考通告</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-03-19</time>
+                                <a href='/Master/info.aspx?itemid=1629' class="dot">中国科学技术大学纳米技术与纳米仿生学院（苏州纳米所） 2026年硕士研究生招生复试工作方案</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-03-19</time>
+                                <a href='/Master/info.aspx?itemid=1630' class="dot">中国科学技术大学纳米技术与纳米仿生学院（苏州纳米所）2026年硕士研究生招生复试日程安排</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-03-19</time>
+                                <a href='/Master/info.aspx?itemid=1633' class="dot">中国科大纳米技术与纳米仿生学院（苏州纳米所）关于公布2026年硕士研究生招生考试复试分数线及复试名单的通知</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-01-27</time>
+                                <a href='/sions/info.aspx?itemid=1616' class="dot">中国科学技术大学纳米技术与纳米仿生学院（苏州纳米所）2026年博士学位研究生招生公告</a>
+                            </li>
+                        
+                    </ul>
+                </section>
+
+                <section class="box_2">
+                    <h1 class="title"><a href='/Employ/list.aspx'>更多</a><b>就业信息</b></h1>
+                    <ul class="ul">
+                        
+                            <li>
+                                <time>2026-07-03</time>
+                                <a href='/Employ/info.aspx?itemid=1679' class="dot">DJI 大疆 2027“拓疆者”校园招聘全面开启！</a>
+                            </li>
+                        
+                            <li>
+                                <time>2026-06-29</time>
+                                <a href='/Employ/info.aspx?itemid=1677' class="dot">就业信息 | 首期“实习苏州”全球交流营活动活动来了！</a>
+                            </li>
+                        
+                            <li>
+                                <time>2022-09-07</time>
+                                <a href='/Employ/info.aspx?itemid=1235' class="dot">激光芯片第一股、上市公司苏州长光华芯光电技术股份有限公司专场招聘会</a>
+                            </li>
+                        
+                            <li>
+                                <time>2022-09-07</time>
+                                <a href='/Employ/info.aspx?itemid=1236' class="dot">安徽光智科技有限公司2023届校园招聘会</a>
+                            </li>
+                        
+                            <li>
+                                <time>2022-09-07</time>
+                                <a href='/Employ/info.aspx?itemid=1237' class="dot">“芯”征程 · 新未来——上海新微半导体有限公司 2023届校园招聘会</a>
+                            </li>
+                        
+                            <li>
+                                <time>2022-08-30</time>
+                                <a href='/Employ/info.aspx?itemid=1231' class="dot">校招行程 | 青春有梦，“芯”动三安—苏州纳米所校招行程预告</a>
+                            </li>
+                        
+                            <li>
+                                <time>2022-08-30</time>
+                                <a href='/Employ/info.aspx?itemid=1232' class="dot">中国电科五十五所2023届校园招聘正式启动暨空中宣讲会重磅来袭</a>
+                            </li>
+                        
+                            <li>
+                                <time>2022-03-25</time>
+                                <a href='/Employ/info.aspx?itemid=1180' class="dot">苏州纳米所-苏州高新区2022年春季联合线上招聘会</a>
+                            </li>
+                        
+                            <li>
+                                <time>2022-02-28</time>
+                                <a href='/Employ/info.aspx?itemid=1158' class="dot">西湖大学校级公共实验平台诚聘技术支撑人员</a>
+                            </li>
+                        
+                    </ul>
+                </section>
+                <section class="box_3">
+                    <h1 class="title"><b>信息门户</b></h1>
+                    <ul class="ul clearfix">
+                        
+                            <li><a href='https://yjs1.ustc.edu.cn' class="dot" target="_blank"><i style="background-image:url(/uploadfiles/image/Floor001866-ico1.png?Rmxvb3IwMDE4NjYtaWNvMS5wbmc=);"></i>研究生综合服务平台</a></li>
+                        
+                            <li><a href='https://xsxwsq.ustc.edu.cn/login' class="dot" target="_blank"><i style="background-image:url(/uploadfiles/image/Floor001866-ico5.png?Rmxvb3IwMDE4NjYtaWNvNS5wbmc=);"></i>学位申请系统</a></li>
+                        
+                            <li><a href='http://dslx.ustc.edu.cn/' class="dot" target="_blank"><i style="background-image:url(/uploadfiles/image/Floor001866-ico2.png?Rmxvb3IwMDE4NjYtaWNvMi5wbmc=);"></i>导师遴选系统</a></li>
+                        
+                            <li><a href='https://xly.ustc.edu.cn/' class="dot" target="_blank"><i style="background-image:url(/uploadfiles/image/Floor001866-ico3.png?Rmxvb3IwMDE4NjYtaWNvMy5wbmc=);"></i>夏令营报名系统</a></li>
+                        
+                            <li><a href='http://xspt.ustc.edu.cn' class="dot" target="_blank"><i style="background-image:url(/uploadfiles/image/Floor001866-ico4.png?Rmxvb3IwMDE4NjYtaWNvNC5wbmc=);"></i>博士报名系统</a></li>
+                        
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <!--Floor001284结束-->
+
+        <!--Floor000364 star-->
+        <div class="Floor000364">
+            <div class="auto auto_1200">
+                <h1 class="title">
+                    <a href='/ColorfulActivities/list.aspx'>更多</a>
+                    <b>风采展示</b>
+                </h1>
+                <div class="owl-carousel">
+                    
+                        <div class="item">
+                            <a href='https://mp.weixin.qq.com/s/mhHKNc583oLGU1r9aytjEA'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2025/04/20250415092641037.png?56eR56CU6K6w5b2V5bGV56S65rS75YqoX+WJr+acrC5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">精彩回顾 | 苏州纳米所首届“纳思·科研记录展示”活动成功举办</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='https://mp.weixin.qq.com/s/yNwSNKgA1HvIGJxstKg28w'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2025/03/20250326101312583.png?5Lul54ix5rWH54GM77yM5b+D54G15byA6IqxX+WJr+acrC5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">以爱浇灌，心灵开花 | 2025年度心理普查进行中</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='https://mp.weixin.qq.com/s/wtaQuxVD8JDxxzp7d0LMEQ'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2025/03/20250314175219076.png?MjAyNeW5tOS4ieWFq+Wmh+Wls+iKguS4u+mimOa0u+WKqOeyvuW9qeWbnumhvl/lia/mnKwucG5n);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">纳young·指尖韶华，妙造春光 | 2025年三八妇女节主题活动精彩回顾</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='https://mp.weixin.qq.com/s/gOfvOeWb_fMFY-kj598CvQ'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2025/02/20250217091102360.png?MjAyNeW5tOaYpeiKguebm+aZr+WFieW9seWxlV/lia/mnKwucG5n);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">“纳young・金蛇送福”邀您共赏2025年春节盛景光影展！</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='https://mp.weixin.qq.com/s/XR18ULTcudeKe6uXwuWXZw'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2025/01/th_20250103091813439.png?MjAyNeWFg+aXpuWwj+W6meS8mi5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">纳young·福满新春，欢乐游园会 2025年“元旦小庙会”活动圆满结束</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='https://mp.weixin.qq.com/s/gP0JSewO4EyyfHGj2JZNhw'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2024/12/th_20241225114118303.png?MjAyNOWGrOiHs+a0u+WKqDIucG5n);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">纳young·情暖冬至，聚香满园 | 2024年冬至主题活动精彩回顾</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='https://mp.weixin.qq.com/s/EjW2DwKSI2mGbUaH4XInTw'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2024/12/20241220164452542.png?MjAyNOi/kOWKqOS8ml/lia/mnKwyLnBuZw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">“青春飞扬，趣味起航”——苏州纳米所2024年纳young·冬季趣味运动会精彩回顾</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='https://mp.weixin.qq.com/s/5xwaMnBN2zMH6ABrT1JuFw'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2024/12/th_20241212134211430.png?MjAyNOW5tOeni+a4uC5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">拾秋之旅，美好相遇！2024年苏州纳米所秋游活动精彩纷呈</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='https://mp.weixin.qq.com/s/az0dlEAlxYRovr8SWVio9w'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2024/12/th_20241212125249461.png?MjAyNOiLj+W3nue6s+exs+aJgOKAnOi/juaWsOadr+KAnS5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">2024年苏州纳米所研究生羽毛球大赛圆满落</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='https://mp.weixin.qq.com/s/_eGrNI4AbhPlwk4hOu-ssQ'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2024/12/th_20241212133733676.png?MjAyNOi/juaWsOadr+evrueQg+i1m+W+ruS/oemmluWbvi5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">2024年苏州纳米所“踔厉奋发，燃情苏纳”迎新杯篮球赛圆满落幕</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='https://mp.weixin.qq.com/s/Zap_LIsoTggxYzGZcqsR9Q'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2024/12/th_20241216112508869.png?MjAyNOW5tOWbveW6hua0u+WKqC5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">七十五载盛世华诞，同心共筑新篇章——国庆活动精彩纷呈</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='https://mp.weixin.qq.com/s/ucocBZvML9WZ-W9xqrb05w'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2024/10/th_20241015103622655.png?MjAyNOW5tOaWsOeUn+evrueQg+i1m+W8gOW5lSAoMSlf5Ymv5pysLnBuZw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">2024年苏州纳米所“踔厉奋发，燃情苏纳”迎新杯篮球赛开赛啦</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1508'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2024/10/th_20241015101609932.png?MjAyNOW5tOaVmeW4iOiKguS4reeni+iKgua0u+WKqOaWsOmXu1/lia/mnKwucG5n);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">桃李满园纳米辉，师恩如月共此时 | 2024年教师节•中秋节系列活动</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1495'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2024/07/20240729110630642.jpg?5ZCI5b2xX+WJr+acrDIuanBn);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">苏州纳米所举行2024届研究生毕业典礼暨学位授予仪式</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1392'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2023/11/th_20231116092632731.jpg?MTNf5Ymv5pysLmpwZw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">“东山漫游·共享橘味秋光” ——记2023年苏州纳米所秋游活动</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1312'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2023/04/th_20230420182333811.png?MjAyM+W5tOaYpea4uC3lkIjlvbEyX+WJr+acrC5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">春意正当时，不负好时光 | 记2023年苏州纳米所研究生“约会春天”主题春游活动</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1277'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2023/03/th_20230316152503214.jpg?572R56uZ5bCB6Z2iLmpwZw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">燃运动热情，展青春活力｜苏州纳米所趣味运动会精彩回顾</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1255'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/11/th_20221109150956543.jpg?5bCB6Z2iMi5qcGc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">“激扬青春，燃情苏纳”迎新杯篮球赛顺利闭幕</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1219'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/06/th_20220623132448235.jpg?5Y2a5aOr5oqb5bi9X+WJr+acrF/lia/mnKwuanBn);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">2022届研究生毕业典礼——青春不息，未来可期</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1151'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/th_20220119160523996.jpg?5pyx5q+F5pWPLkpQRw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">优秀研究生导师特辑 | 朱毅敏：秉医者仁心，释师者恒心</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1147'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220113144523402.jpg?5omA6YeMLei1teW/l+WIml/lia/mnKwuanBn);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">优秀研究生导师特辑 | 赵志刚：因材施教，融合发展</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1129'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220111105906762.jpg?5p2O5omA6K6y5bqnX+WJr+acrC5qcGc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">优秀研究生导师特辑 | 李清文：用叶的温暖，守护花的盛开</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1132'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220111143801090.jpg?5b6Q56eRX+WJr+acrC5qcGc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">优秀研究生导师特辑 | 徐科：立德树人，奋进担当</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1133'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220111145158637.jpg?5bSU5LmJX+WJr+acrC5qcGc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">优秀研究生导师特辑 | 崔义：春风化雨，润物无声</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1134'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220111145920809.jpg?6ZmG5Lmm6b6ZX+WJr+acrC5qcGc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">优秀研究生导师特辑 | 陆书龙：以人为本，因材施教</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1135'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220111151523949.jpg?6ams5piM5pyfLmpwZw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">优秀研究生导师特辑 | 马昌期：温润儒雅，博学勤励</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1136'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220111160249715.jpg?6KO05LuB5Yab5aSE6ZW/5Y+R6KiAX+WJr+acrC5qcGc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">优秀研究生导师特辑 | 裴仁军：潜心教育，筑梦成长</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1137'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220111161335465.png?56em5Y2OX+WJr+acrC5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">优秀研究生导师特辑 | 秦华：以育人之心，逐星辰之旅</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1138'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220111162204809.jpg?5omA6YeMLeWtmemSsV/lia/mnKwuanBn);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">优秀研究生导师特辑 | 孙钱：潜心科研，亦师亦友</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1139'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220111163443793.jpg?5omA6YeMLeabvuS4reaYjl/lia/mnKwuanBn);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">优秀研究生导师特辑 | 曾中明：以身作则，严谨治学</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1140'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220111164354465.png?5byg5YevX+WJr+acrC5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">优秀研究生导师特辑 | 张凯：教授有方，雨润芳华</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1141'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220111165905762.jpg?5omA6YeMLeW8oOePvV/lia/mnKwuanBn);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">优秀研究生导师特辑 | 张珽：天道酬勤，知行合一</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1142'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220111171146324.jpg?5byg5a2m5ZCMX+WJr+acrC5qcGc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">优秀研究生导师特辑 | 张学同：严中有爱，爱而有方</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1143'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220111172804574.png?5byg5pm65YabX+WJr+acrC5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">优秀研究生导师特辑 | 张智军：用匠心守护初心</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1144'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220111174404637.png?5p2c5piO5piO5bCB6Z2iX+WJr+acrC5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">学子风采 | 中科院院长特别奖获得者杜明明：乘风而起，厚积薄发</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1145'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2022/01/20220111174310668.png?6b6Z5Yab5Y2O5bCB6Z2iX+WJr+acrC5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">学子风采 | 中科院院长优秀奖获得者龙军华：奋斗的青春最美丽</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1113'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2021/11/th_20211102090404594.png?5ZCI5b2xLnBuZw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">秋高气爽，正青春！——2021年苏州纳米所迎新杯篮球赛总决赛暨闭幕式圆满落幕</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1112'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2021/10/th_20211028174123671.png?5byA55CDLnBuZw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">秋高气爽，正青春！——2021年苏州纳米所迎新杯篮球赛正式开赛</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1085'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2021/06/th_20210624085427976.jpg?5aSn5ZCI54WnX+WJr+acrDJf5Ymv5pysLmpwZw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">苏州纳米所举行2021届研究生毕业典礼暨学位授予仪式</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1082'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2021/06/th_20210620144904974.png?5ouU5rKzMl/lia/mnKwucG5n);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">在苏中科院联合拔河大赛顺利举办</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1052'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2021/04/th_20210428101030247.png?5Zu+54mHNC5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">暖春四月，不负好时光</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1046'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2021/04/th_20210416091822914.png?54us5aKF5rmW5YGl6Lqr6LeRNl/lia/mnKwxLnBuZw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">和春天的约会|SINANO 2021独墅湖迎春跑顺利举行</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=1026'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2021/03/th_20210325113839354.jpg?NC5qcGc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">踏地寻春——记2021年摄影协会春日活动</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=988'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2020/11/th_20201126152841796.jpg?MTYwNjM3NTE4MCgxKS5qcGc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">苏州纳米所研究生参观信达生物制药（苏州）有限公司</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=989'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2020/11/th_20201126155333312.jpg?MjIuanBn);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">研究生学业压力的破解与应对”专题心理讲座</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=985'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2020/11/th_20201120172605656.jpg?RFNDXzEzNDlf5Ymv5pysLmpwZw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">记2020年纳米所秋游活动|我和秋天有个约会</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=950'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2020/11/20201112140418625.jpg?5b6u5L+h5Zu+54mHXzIwMjAxMTEyMTM1NzU0LmpwZw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">记2020年中国科大体育运动大会</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=943'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2020/11/th_20201109111053218.jpg?MTExLmpwZw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">苏州纳米所健身中心运行启动仪式</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=944'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2020/11/th_20201109105856781.png?MS5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">2020年纳米所“迎新杯”篮球争霸赛落下帷幕</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=913'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2020/06/th_20200604150121984.jpg?MjAwMuW5tOaWh+WMluihq+W+gembhueov1/lia/mnKwuanBn);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">2020年毕业季文化衫创意征集</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=945'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2020/03/th_20200318161339977.jpg?56CU56m25omAX+WJr+acrC5qcGc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">全民战“疫”  青春担当</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=832'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2020/03/th_20200310105317277.jpg?5aSa5b2p5rS75Yqo4oCU5Y2h5ouJb2suanBn);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">风华正茂、谁与争锋——记苏州纳米所2019“若水之声”歌唱比赛</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=831'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2019/12/th_20191224113309395.jpg?aW1hZ2VfZ2FsbGVyeS5qcGc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">苏州纳米所举办研究生系列报告会|“以梦为马，莫负韶华”专题心理讲座</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=830'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/image/PicList002256-img.jpg?UGljTGlzdDAwMjI1Ni1pbWcuanBn);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">南京分院庆祝中科院建院70周年卡拉OK大赛苏州纳米所预选赛顺利举办</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=829'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/image/PicList002256-img2.jpg?UGljTGlzdDAwMjI1Ni1pbWcyLmpwZw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">苏州纳米所举办研究生系列报告会之刘忠范院士的“刘言扉语——从科学研究的ABC说起”</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=828'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/image/PicList002256-img3.jpg?UGljTGlzdDAwMjI1Ni1pbWczLmpwZw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">苏州纳米所第二届“迎新杯”研究生篮球赛开赛</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=827'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/image/PicList002256-img4.jpg?UGljTGlzdDAwMjI1Ni1pbWc0LmpwZw==);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">“喜迎中秋，感谢师恩”主题活动</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=826'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2020/03/th_20200310135538038.jpg?5oqb56S85bi9ICgxKV/lia/mnKwuanBn);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">苏州纳米所举行2019届研究生毕业典礼暨学位授予仪式</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                        <div class="item">
+                            <a href='/ColorfulActivities/info.aspx?itemid=193'></a>
+                            <dl>
+                                <dt>
+                                    <figure class="Ispic" style="background-image:url(/uploadfiles/2020/03/th_20200310140129564.png?MS5wbmc=);"></figure>
+                                </dt>
+                                <dd>
+                                    <h2 class="dot">春日无限好—2019纳米所春游活动侧记</h2>
+                                </dd>
+                            </dl>
+                        </div>
+                    
+                </div>
+            </div>
+            <script>
+                $('.Floor000364 .owl-carousel').owlCarousel({
+                    loop: true,
+                    dots: false,
+                    autoplay: true,
+                    responsiveClass: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            margin: 0,
+                        },
+                        400: {
+                            margin: 15,
+                            items: 2
+                        },
+                        700: {
+                            margin: 20,
+                            items: 3
+                        },
+                        1000: {
+                            margin: 26,
+                            items: 4
+                        }
+                    }
+                })
+            </script>
+        </div>
+        <!--Floor000364 end-->
+
+        <!--Floor001743开始-->
+        <div class="Floor001743">
+            <div class="auto auto_1200">
+                <h1 class="title"><a href='/Links/list.aspx'>更多</a><b>
+                        友情链接
+                    </b></h1>
+                <div class="list"></div>
+                <div class="copy" style="display:none;">
+                    <ul class="ul">
+                        
+                            <li><a href='http://www.sinano.cas.cn' target="_blank"><img src="/uploadfiles/2024/07/20240708130438390.png?5omA5b69X+WJr+acrC5wbmc=" /></a></li>
+                        
+                            <li><a href='http://www.shu.edu.cn' target="_blank"><img src="/uploadfiles/image/Floor001743-img4.jpg?Rmxvb3IwMDE3NDMtaW1nNC5qcGc=" /></a></li>
+                        
+                            <li><a href='http://www.shanghaitech.edu.cn' target="_blank"><img src="/uploadfiles/image/Floor001743-img3.jpg?Rmxvb3IwMDE3NDMtaW1nMy5qcGc=" /></a></li>
+                        
+                            <li><a href='https://www.ustc.edu.cn' target="_blank"><img src="/uploadfiles/image/Floor001743-img2.jpg?Rmxvb3IwMDE3NDMtaW1nMi5qcGc=" /></a></li>
+                        
+                            <li><a href='http://www.cas.cn' target="_blank"><img src="/uploadfiles/image/Floor001743-img1.jpg?Rmxvb3IwMDE3NDMtaW1nMS5qcGc=" /></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(function($) {
+                $(window).on("resize", function(e) {
+                    var w_Floor001743 = $(window).width()
+                    if (w_Floor001743 <= 1000) {
+                        if (w_Floor001743 <= 640) {
+                            if (w_Floor001743 <= 375) {
+                                Floor001743(1)
+                            } else {
+                                Floor001743(2)
+                            }
+                        } else {
+                            Floor001743(4)
+                        }
+                    } else {
+                        Floor001743(5)
+                    }
+                }).trigger("resize");
+            });
+
+            function Floor001743(num) {
+                var html_Floor001743 = $(".Floor001743 .copy").html()
+                $(".Floor001743 .list").html(html_Floor001743);
+                $('.Floor001743 .list ul').bxSlider({
+                    slideWidth: 400,
+                    auto: true,
+                    pager: false,
+                    minSlides: num,
+                    maxSlides: num,
+                    nextText: '<span class="glyphicon glyphicon-menu-right"></span>',
+                    prevText: '<span class="glyphicon glyphicon-menu-left"></span>'
+                });
+            }
+        </script>
+        <!--Floor001743结束-->
+    </section>
+    <!--网页主体部分 结束-->
+
+    <!--底部 开始-->
+     
+ 
+<!--Bottom001879开始-->
+<div class="Bottom001879">
+  <div class="auto auto_1200 clearfix">
+    
+    <figure> <img src="/uploadfiles/2020/02/th_20200226154748992.jpg?5LqM57u056CBLmpwZw==">扫一扫关注我们</figure>
+      
+    <footer>
+      <ul class="ul clearfix">
+       <li><a href='/AboutTheCollege/index.aspx'>部门概况</a></li>
+       <li><a href='/DisciplineSettings/index.aspx'>招生</a></li>
+       <li><a href='/TrainingPrograms/list.aspx'>培养</a></li>
+       <li><a href='/DegreeSub-Committee/index.aspx'>学位</a></li>
+       <li><a href='/Employ/list.aspx'>毕业与就业</a></li>
+       <li><a href='/Postdoctoral/list.aspx'>科研进展</a></li>
+       <li><a href='/GraduateAssociation/index.aspx'>研究生活动</a></li>
+       <li><a href='/Regulations/list.aspx'>规章制度</a></li>
+       <li><a href='/DownloadCenter/list.aspx?lcid=5'>下载中心</a></li>
+             
+      </ul>
+      <section>
+        <dl class="bdsharebuttonbox">
+          <dt class="wx"><a title="分享到微信" data-cmd="weixin" target="_blank" class="bshare-weixin bds_weixin" href="javascript:void(0);"></a></dt>
+          <dt class="sina"><a title="分享到新浪微博" data-cmd="tsina" target="_blank" class="bshare-sinaminiblog bds_tsina" href="javascript:void(0);"></a></dt>
+        </dl>
+        <a href='/Doctor/list.aspx'>导师队伍</a><i>|</i>
+        <a href='/SummerCamp/list.aspx'>夏令营</a><i>|</i>
+        <a href='/AwardWinners/index.aspx'>奖助学金</a><i>|</i>
+        <a href='/May4thYouthExchange/list.aspx'>五四青年交流会</a>
+        
+        <p>
+        Copyright © 2019 中国科学院苏州纳米技术与纳米仿生研究所 Inc. All rights reserved.
+		
+        <a href="http://www.beian.miit.gov.cn/" target="_blank">苏ICP备10220403号</a>
+        
+        </p>
+      </section>
+    </footer>
+  </div>
+</div>
+<!--Bottom001879结束-->
+
+
+<script type="text/javascript">
+//整站无图处理
+$.each($("img"), function (i, n) {
+$(n).on('error', function () { n.src = '/uploadfiles/nopic.jpg'; }); n.src = n.src; });
+
+//分享
+with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=' + ~(-new Date() / 36e5)];
+</script> 
+
+    <!--底部 结束-->
+</body>
+
+</html>

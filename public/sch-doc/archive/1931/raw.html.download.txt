@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible"></meta>
+			<link href="../../images/toubu2019.css" rel="stylesheet" type="text/css" />
+			<script type="text/javascript" src="../../images/jQuery.1.9.1_zwb016.js"></script>
+		<title>中国科学院合肥物质科学研究院</title>
+<script src="../../images/20170720swfobject_modified.js" type="text/javascript"></script>
+		<style>
+				/*.head_navs{background:#ebf0f5;opacity: 1;filter:alpha(opacity= 100)\9;}*/
+				.banner{background:#fff;opacity: 1;filter:alpha(opacity= 100)\9;overflow: hidden;}
+					.slideBox .hd ul li{background:#474847;}
+		.head_nav{height:110px}
+
+		.banner_rlia{display:inline-block;float:right;width:95px;height:44px;text-align:center;line-height:44px;font-size:14px;border-right:none;color:#999;}
+		.banner_rlib{padding-left:5px;font-size:14px;}
+
+
+		.head_navrp{margin-top:25px}
+
+		.add a:hover{color:#ea0000;}
+		.slideBox .bd ul li p{left:0px;background:url(f_bg_zwb016.png);opacity: 1;filter:alpha(opacity= 100)\9;filter: progid:dximagetransform.microsoft.alphaimageloader(src='alpha.png');}
+		.picScroll-left .bd ul li img{width:190px;height:40px;}
+		.picScroll-left .hd ul{line-height:0px;width:100px}
+
+		.footer_ac{border-right:1px solid #92cfee;}
+		.footer_a1{margin-left: 18px;margin-top: 16px;}
+		.footer_ac{width: 740px;border-right: 1px solid #92cfee;padding-left:10px;padding-top: 5px;padding-bottom: 5px;padding-right: 16px;margin-top:0px;}
+		.footer_ac a{margin-left:0px;margin-right:0px;}
+
+		li{vertical-align:top/bottom;}
+.i_newslibrb{overflow:hidden;height:46px;}
+.i_newsli .i_newsra1{font-size:14px;}
+.head_navm li.po{position:relative;}
+.head_navsa{width:800px;text-align:left;}
+.i_newsli .i_newsra{margin-right:19px;}
+.news_title{padding-left:30px;padding-right:30px;}
+.h-bg{height:50px;background:#fff;position:absolute;top:47px;left:0px;width:100%;}
+	.head_navs{z-index: 2;}.j-nav{z-index:5}.head_navrp{width:515px;}
+				</style>
+
+	</head>
+	<body style="background-color:#dbf1fd;background-image:url(../../images/bg_zwb016.jpg);background-repeat: no-repeat;background-position: center top;">
+
+<div class="header">
+  <div class="head">
+    <div class="head_m"><span class="head_l" style="width:266px;">
+			<a href="//www.hf.cas.cn/" style="color:#fe0000;">中文版</a><em>|</em>
+      <a target="_blank" href="//english.hf.cas.cn/">English</a><em>|</em>
+       <a target="_blank" href="//www.cas.cn/">中国科学院</a>
+
+		</span>
+      <!-- <span class="head_c">今天是：2015年8月18日 星期二&nbsp;" 天气预报：合肥  <img src="../../images/sun_zwb016.png" />      29℃~21℃ </span> -->
+
+      <span class="head_c" style="width:550px;">
+        <script>
+           tmpDate = new Date();
+           date = tmpDate.getDate();
+           month = tmpDate.getMonth() + 1 ;
+           year = tmpDate.getYear();
+           year = tmpDate.getYear();
+           year = year>1900 ? year : year+1900;
+           document.write("今天是："+"&nbsp;&nbsp;"+year + "年" + month + "月" + date + "日&nbsp;&nbsp;&nbsp;&nbsp;");
+
+           myArray = new Array(6);
+           myArray[0] = "星期日"
+           myArray[1] = "星期一"
+           myArray[2] = "星期二"
+           myArray[3] = "星期三"
+           myArray[4] = "星期四"
+           myArray[5] = "星期五"
+           myArray[6] = "星期六"
+           weekday = tmpDate.getDay();
+           document.write(myArray[weekday])
+        </script>&nbsp;&nbsp; 天气预报：
+      <iframe width="268" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="https://i.tianqi.com/index.php?c=code&id=34&icon=1&py=hefei&num=3"></iframe>
+    </span>
+
+
+
+
+    </div>
+  </div>
+  <div class="head_nav">
+    <div class="head_navl"><a href="//www.hf.cas.cn/"><img src="../../images/logol_zwb016b.png" /></a></div>
+    <div class="head_navrp">
+<img src="../../images/h_txt_v2.png" />
+			<script type="text/javascript">
+				$(function(){
+
+					$("ul.head_navm li").each(function(){
+						$(this).children("span.head_navsa").children("em:last").remove();
+					});
+				});
+			</script>
+
+				</div>
+  </div>
+</div>
+<div class="j-nav">
+	<div class="j-navm cf2">
+      <ul class="head_navm">
+		<li menu="首页" class=""><a href="//www.hf.cas.cn/">首页</a></li>
+        <li menu="单位概况" class="po"><a target="_blank" href="../../dwgk/">单位概况</a>
+        <span class="head_navs head_navsa c_hide">
+
+          
+
+            <a target="_blank" href="../../dwgk/skjj/">
+            单位简介</a>
+            <em>|</em>
+
+          
+
+            <a target="_blank" href="../../dwgk/zzjg/">
+            组织机构</a>
+            <em>|</em>
+
+          
+
+            <a target="_blank" href="../../dwgk/dwmb/">
+            使命定位</a>
+            <em>|</em>
+
+          
+
+            <a target="_blank" href="../../dwgk/xrld/">
+            现任领导</a>
+            <em>|</em>
+
+          
+
+            <a target="_blank" href="../../dwgk/lrld/">
+            历任领导</a>
+            <em>|</em>
+
+          
+
+            <a target="_blank" href="../../dwgk/zlzxwyh/">
+            战略咨询委员会</a>
+            <em>|</em>
+
+          
+
+            <a target="_blank" href="../../dwgk/xswyh2018/">
+            学术委员会</a>
+            <em>|</em>
+
+          
+
+            <a target="_blank" href="../../dwgk/lsyg/">
+            历史沿革</a>
+            <em>|</em>
+
+          
+
+            <a target="_blank" href="../../dwgk/dlwz/">
+            联系我们</a>
+            <em>|</em>
+
+          
+
+            <a target="_blank" href="http://www.hfcas.ac.cn/cxwh/try.htm">
+            园区风景</a>
+            <em>|</em>
+
+          
+ 
+      <!-- 
+          <a href="#">单位简介</a><em>|</em>
+          <a href="#">科研机构  </a><em>|</em>
+          <a href="#">领导班子</a><em>|</em>
+          <a href="#">历史沿革</a><em>|</em>
+          <a href="#"> 联系我们</a> -->
+          </span><div class="h-bg c_hide">
+          </div>
+      </li>
+
+ <li menu="机构设置" class="po"><a target="_blank" href="../../jgsz2018/">机构设置</a>
+          <span class="head_navs head_navsa c_hide">
+            
+
+              <a target="_blank" href="../../jgsz2018/zzjg1/">
+              组织机构</a>
+              <em>|</em>
+
+            
+
+              <a target="_blank" href="../../jgsz2018/kyjz/">
+              科研单元</a>
+              <em>|</em>
+
+            
+
+              <a target="_blank" href="../../jgsz2018/glbm/">
+              职能处室</a>
+              <em>|</em>
+
+            
+
+              <a target="_blank" href="../../jgsz2018/zsjg2020/">
+              直属机构</a>
+              <em>|</em>
+
+            
+
+          </span>
+        </li>
+
+ <li menu="科学研究" class="po"><a target="_blank" href="../../kxyanj/">科学研究</a>
+          <span class="head_navs head_navsa c_hide">
+            
+
+              <a target="_blank" href="../../kxyanj/kyfx/">
+              科研方向</a>
+              <em>|</em>
+
+            
+
+              <a target="_blank" href="../../kxyanj/kypt/">
+              科研平台</a>
+              <em>|</em>
+
+            
+
+              <a target="_blank" href="../../kxyanj/cgjl/">
+              成果奖励</a>
+              <em>|</em>
+
+            
+
+              <a target="_blank" href="../../kxyanj/lw/">
+              论文</a>
+              <em>|</em>
+
+            
+
+              <a target="_blank" href="../../kxyanj/zl/">
+              专利专著</a>
+              <em>|</em>
+
+            
+
+          </span>
+        </li>
+
+
+        <li menu="人才队伍" class="po"><a target="_blank" href="../../rsrc/">人才队伍</a>
+        <span class="head_navs head_navsa c_hide">
+
+          
+
+            <a target="_blank" href="../../rsrc/ztqk/">
+            总体情况</a>
+            <em>|</em>
+
+          
+
+            <a target="_blank" href="https://www.hf.cas.cn/rjc/rcdw/lyys/">
+            两院院士</a>
+            <em>|</em>
+
+          
+
+            <a target="_blank" href="../../rsrc/lyys2018/">
+            两院院士</a>
+            <em>|</em>
+
+          
+
+          </span></li>
+
+
+        <li menu="合作交流" class="po"><a target="_blank" href="../../hzjl/">合作交流</a>
+          <span class="head_navs head_navsa c_hide">
+            
+
+              <a target="_blank" href="../../hzjl/cgjs/">
+              院地合作</a>
+              <em>|</em>
+
+            
+
+              <a target="_blank" href="../../hzjl/gjhz2018/">
+              国际合作</a>
+              <em>|</em>
+
+            
+
+          </span>
+        </li>
+
+
+        <li menu="研究生培养" class="po"><a target="_blank" href="http://hf.cas.cn/sbpy/yjsc/">研究生培养</a>
+         <!--
+          <span class="head_navs head_navsa c_hide">
+
+            
+
+              <a target="_blank" href="../../sbpy/yjsc/">
+              研究生处-新-2024</a>
+              <em>|</em>
+
+            
+
+          </span>
+ 
+        -->
+  
+      </li>
+
+        <li menu="党群文化" class="po"><a target="_blank" href="//www.hf.cas.cn/djwh/kxddj/">党群文化</a></li>
+
+        <li menu="科学普及" class="po"><a target="_blank" href="http://kjg.hfcas.ac.cn/">科学普及</a>
+          <span class="head_navs head_navsa c_hide" style="text-align:right;right:0px;left:none;">
+
+            
+
+              <a target="_blank" href="../../kxcb/kpdt/">
+              科普动态</a>
+              <em>|</em>
+
+            
+
+              <a target="_blank" href="../../kxcb/xdkjg/">
+              现代科技馆</a>
+              <em>|</em>
+
+            
+
+          </span>
+        </li>
+       <li menu="信息公开 "class="po"><a target="_blank" href="../../xxgk/">信息公开</a>
+          <span class="head_navs head_navsa c_hide" style="text-align:right;right:0px;left:none;width:840px;">
+
+             
+
+              <a target="_blank" href="../../xxgk/xxgksy/">
+              信息公开目录</a>
+              <em>|</em>
+
+            
+
+              <a target="_blank" href="../../xxgk/xxgk1/">
+              信息公开规定</a>
+              <em>|</em>
+
+            
+
+              <a target="_blank" href="../../xxgk/xxgkzn/">
+              信息公开指南</a>
+              <em>|</em>
+
+            
+
+              <a target="_blank" href="../../xxgk/xxgksq/">
+              依申请公开</a>
+              <em>|</em>
+
+            
+
+              <a target="_blank" href="../../xxgk/xxgk3/">
+              信息公开年度报告</a>
+              <em>|</em>
+
+            
+
+              <a target="_blank" href="../../xxgk/xxgklxfs/">
+              信息公开联系方式</a>
+              <em>|</em>
+
+            
+
+              <a target="_blank" href="../../xxgk/xxgk12/">
+              信息公开目录</a>
+              <em>|</em>
+
+            
+
+          </span>
+        </li>
+
+      </ul>
+<div class="h-bg c_hide">
+          </div>
+       <span class="d-res rounds">
+       	<FORM name="searchform" action="//www.hf.cas.cn/hfcassearch" method="get" target="_blank" onSubmit="return search_check()" style="margin:0px;">
+		<input type="hidden" name="keyword" id="keywords" value="" />
+
+      <span class="rounds head_r">
+				<!-- <input placeholder="请输入关键字" class="head_ra" /> -->
+				<input style="color:#aaa;" id="iptSword" onfocus="javascript:if(this.value=='请输入关键字') this.value=''" onblur="javascript:if(this.value=='') this.value='请输入关键字'" value="请输入关键字" type="text" class="head_ra" />
+				<input type="submit" value="" class="head_rb" />
+			</span>
+
+			<script type="text/javascript">
+			function escapeTrs(str){//转义trs关键字
+				var arr = new Array("\\\\","!","@","#","\\$","\%","\\^","\&","\\*","\\(","\\)","\\_","\\+","\-","\=","\\{","\\}","\\|","\\[","\\]",";","'",":","\"","\<","\>","\\?","\,","\\.","\/");
+
+				for(var i=0;i<arr.length;i++){
+				 var re = new RegExp(arr[i],"img");
+				 str = str.replace(re, '\\' + arr[i]);
+				}
+
+				return str;
+			}
+			function dealKeywords(sword, relation)
+			{
+				var sTemp = "";
+				var swordtemp = "";
+				var sArray;
+
+				if(sword.indexOf("*")<0&&sword.indexOf("+")<0&&sword.indexOf(")")<0&&sword.indexOf("(")<0&&sword.indexOf("\\")<0)
+				{
+					sword = escapeTrs(sword);
+					//不含trs关键字
+					sArray = sword.split(" ");//输入框空格处理,空格表示 relation 关系
+					for(var i=0; i<sArray.length;i++)
+					{
+						sTemp = sArray[i].replace(/^\s+|\s+$/g,"");//去掉sword前后空格
+						if(sTemp!="")
+						{
+							swordtemp += "'"+ sTemp + "' "+relation+" ";/*加上''符号,处理trs带运算符的检索词报错的问题*/
+						}
+					}
+					if(swordtemp.lastIndexOf(" "+relation+" ")!=-1)//去掉relation结尾
+					{
+						swordtemp = swordtemp.substring(0,swordtemp.length-relation.length-2);
+					}
+				}
+
+				else//包含trs关键字
+				{
+					 if(sword.indexOf("\\")!=-1){
+					 	var re = new RegExp("\\\\","img");
+				 		sword = sword.replace(re, '\\\\');
+					 }
+					 swordtemp = "'"+sword+"'";
+				}
+				return swordtemp;
+			}
+
+			function search_check() {
+				var sword =document.getElementById("iptSword").value.replace(/^\s+|\s+$/g,"");
+
+				if (sword=='' || sword=='请输入关键字') {
+					alert('请请输入关键字!');
+					return false;
+				} else {
+					document.searchform.keywords.value = encodeURI(document.getElementById("iptSword").value);//传参前进行编码
+					document.searchform.submit();
+				}
+			}
+			</script>
+			</FORM>
+       </span>
+    </div>
+  </div>
+
+
+<script>
+			$(".head_navm li.po").mouseover(function(){
+				$(this).children(".head_navs").removeClass("c_hide");
+$(".h-bg").removeClass("c_hide");
+				$(this).mouseout(function(){
+					$(this).children(".head_navs").addClass("c_hide");
+$(".h-bg").addClass("c_hide");
+				});
+			});
+		</script>
+<script type="text/javascript">
+$(function(){
+
+  var menu = '通知通告';
+  var pmenu = '首页信息';
+  if(pmenu!=''){
+    $("ul.head_navm li[menu="+pmenu+"]").addClass('head_navron').siblings("li").removeClass('head_navron');
+  }else if(menu!=''&&(menu=='走进科学岛'||menu=='科研与交流'||menu=='人才队伍'||menu=='招生培养'||menu=='党群文化'||menu=='科学普及')){
+    $("ul.head_navm li[menu="+menu+"]").addClass('head_navron').siblings("li").removeClass('head_navron');
+  }else{
+     //$("ul.head_navm li:first").addClass('head_navron').siblings("li").removeClass('head_navron');
+  }
+
+
+});
+</script>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
+<style>
+						.text_main{margin-top:-20px;}
+						.text_main img{max-width:858px;}
+						.text_pos{border-bottom:1px solid #92cfee;}
+</style>
+
+		<div class="text cf2">
+
+			<ul class="text_l">
+
+  <li class="text_li" style="display:none;">
+    <a href="../">
+    首页信息<i>+</i></a></li>
+
+  
+
+    <li menu="近期要闻" class="text_lia" style="display:none;">
+      <a href="../jqyw/">
+      近期要闻
+    </a></li>
+
+  
+
+    <li menu="科研进展" class="text_lia" style="display:none;">
+      <a href="../kyjz/">
+      科研进展
+    </a></li>
+
+  
+
+    <li menu="精选新闻" class="text_lia" style="display:none;">
+      <a href="../jxxw/">
+      精选新闻
+    </a></li>
+
+  
+
+    <li menu="科技合作平台" class="text_lia" style="display:none;">
+      <a href="../cgzl/">
+      科技合作平台
+    </a></li>
+
+  
+
+    <li menu="通知通告" class="text_lia" style="display:none;">
+      <a href="./">
+      通知通告
+    </a></li>
+
+  
+
+    <li menu="学术交流" class="text_lia" style="display:none;">
+      <a href="../xsjl/">
+      学术交流
+    </a></li>
+
+  
+
+    <li menu="内部信息" class="text_lia" style="display:none;">
+      <a href="../nbxx/">
+      内部信息
+    </a></li>
+
+  
+
+    <li menu="公示信息" class="text_lia" style="display:none;">
+      <a href="../gsxx2020/">
+      公示信息
+    </a></li>
+
+  
+
+  
+</ul>
+<script type="text/javascript">
+$(function(){
+
+  var menu = '通知通告';
+  var pmenu = '首页信息';
+  // alert(menu);
+  if(pmenu=='合肥研究院2016'){
+    var a = "./";
+    $("ul.text_l li.text_lia").remove();
+    $("ul.text_l").append('<li class="text_lia text_liaon"><a href="'+a+'">'+menu+'</a></li>');
+    $("ul.text_l li.text_li").html('<a href="'+a+'">'+menu+'<i>+</i></a>').show();
+  }else{
+    $("ul.text_l li.text_lia[menu='"+menu+"']").addClass('text_liaon').siblings("li.text_lia").removeClass('text_liaon');
+    $("ul.text_l li.text_li").show();
+    $("ul.text_l li.text_lia").show();
+  }
+
+});
+</script>
+
+			<div class="text_r">
+				<div class="text_ra">
+					<span class="text_pos">你现在的位置：
+  <!-- <a href="http://www.hf.cas.cn">首页 </a>/
+  <a href="../">首页信息   </a>/
+  <i> 通知通告</i> -->
+  <a href="../../" title="首页" class="CurrChnlCls">首页</a><samp class='china'> / </samp><a href="../" title="首页信息" class="CurrChnlCls">首页信息</a><samp class='china'> / </samp><a href="./" title="通知通告" class="CurrChnlCls">通知通告</a>
+</span>
+
+					<div class="text_main">
+						<img src="../../images/text-pic_zwb016.jpg" style="display:none" />
+						<ul class="txtli">
+							
+
+								<li><a href="https://hf.cas.cn/zncs/jsc/tzgg/202309/t20230927_6887495.html" target="_blank">
+									<span>关于2023年中秋国庆期间持续抓好纠“四风”树新风工作的通知</span>
+									<i>2023-09-27</i></a>
+								</li>
+
+							
+
+								<li><a href="https://www.hf.cas.cn/sbpy/yjsc/tzgg/202309/t20230928_6888524.html" target="_blank">
+									<span>第八期中国科学院合肥物质科学研究院“大学生创新实践训练计划”申报通知</span>
+									<i>2023-09-28</i></a>
+								</li>
+
+							
+
+								<li><a href="https://www.hf.cas.cn/zncs/zcc/tzgg/202309/t20230926_6887280.html" target="_blank">
+									<span>关于加强中国科学院合肥物质科学研究院园区规划管理的通知</span>
+									<i>2023-09-27</i></a>
+								</li>
+
+							
+
+								<li><a href="https://www.hf.cas.cn/sbpy/yjsc/py_1/jzxj/202309/t20230926_6887166.html" target="_blank">
+									<span>关于开展2023年度研究生国家奖学金初选工作的通知</span>
+									<i>2023-09-27</i></a>
+								</li>
+
+							
+
+								<li><a href="./202309/t20230926_6887083.html" target="_blank">
+									<span>关于2023年中秋节国庆节放假安排的通知</span>
+									<i>2023-09-26</i></a>
+								</li>
+
+							
+
+								<li><a href="./202309/t20230925_6886835.html" target="_blank">
+									<span>关于举办“学习二十大  奋进新征程”科学岛金秋男子篮球赛的通知</span>
+									<i>2023-09-25</i></a>
+								</li>
+
+							
+
+								<li><a href="./202309/t20230925_6886834.html" target="_blank">
+									<span>关于举办“学习二十大  奋进新征程”科学岛金秋气排球赛的通知</span>
+									<i>2023-09-25</i></a>
+								</li>
+
+							
+
+								<li><a href="http://home.hfcas.ac.cn/a/houqinfuwu/jizifangzhuanti/2023/0925/4282.html" target="_blank">
+									<span>关于科学岛部分场所停电的通知</span>
+									<i>2023-09-25</i></a>
+								</li>
+
+							
+
+								<li><a href="https://www.hf.cas.cn/lmjx/glbm/kyghc/kyc_kyghc/kyc_tzggz/202309/t20230922_6885193.html" target="_blank">
+									<span>国家自然科学基金委项目申报通知（2023年9月)</span>
+									<i>2023-09-23</i></a>
+								</li>
+
+							
+
+								<li><a href="https://www.hf.cas.cn/kfc/kfcxwzx/kfctzgg/202309/t20230922_6885235.html" target="_blank">
+									<span>关于委托征集并开展科技成果概念验证工作的通知</span>
+									<i>2023-09-23</i></a>
+								</li>
+
+							
+
+								<li><a href="https://www.hf.cas.cn/rjc/gzdt/tzgg/202309/t20230922_6885198.html" target="_blank">
+									<span>关于组织申报2023年特别研究助理资助项目的通知</span>
+									<i>2023-09-22</i></a>
+								</li>
+
+							
+
+								<li><a href="https://www.hf.cas.cn/kfc/kfcxwzx/kfctzgg/202309/t20230921_6884309.html" target="_blank">
+									<span>关于征集2023中国创新创业成果交易会参展成果项目的通知</span>
+									<i>2023-09-21</i></a>
+								</li>
+
+							
+
+								<li><a href="https://www.hf.cas.cn/zcbm/fwzx/wjzx/202309/t20230920_6883604.html" target="_blank">
+									<span>2024年度城乡居民参保缴费须知</span>
+									<i>2023-09-20</i></a>
+								</li>
+
+							
+
+								<li><a href="http://home.hfcas.ac.cn/a/yanjiushengjiaoyu/2023/0919/4269.html?1695107657=" target="_blank">
+									<span>合肥物质院关于2023年专业学位研究生实践导师遴选结果的通知</span>
+									<i>2023-09-20</i></a>
+								</li>
+
+							
+
+								<li><a href="./202309/t20230915_6881082.html" target="_blank">
+									<span>关于开展2023年羽毛球培训的通知</span>
+									<i>2023-09-15</i></a>
+								</li>
+
+							
+							<!-- <li><a href="#"><span>两外国学者到安光所开展学术交流</span><i>2015-06-13</i></a></li>
+							<li><a href="#"><span>新加坡国立大学刘小钢教授做客智能所创新论坛</span><i>2015-06-12</i></a></li>
+							<li><a href="#"><span>美国辛辛那提大学黄永顺博士访问等离子体所</span><i>2015-02-03</i></a></li>
+							<li><a href="#"><span>哥伦比亚大学郝玉峰博士做客固体所青年论坛</span><i>2015-01-30</i></a></li>
+							<li><a href="#"><span>等离子体所与普林斯顿等离子体物理实验室成立CFETR关键部件联合工作组</span><i>2015-01-27</i></a></li> -->
+						</ul>
+						<script type="text/javascript">
+							$(function(){
+								$(".txtli li:nth-child(5n+5)").each(function(){
+									$(this).after("<br/>");
+								});
+							});
+						</script>
+						<!-- <ul class="txtli">
+							<li><a href="#"><span>两外国学者到安光所开展学术交流</span><i>2015-06-13</i></a></li>
+							<li><a href="#"><span>新加坡国立大学刘小钢教授做客智能所创新论坛</span><i>2015-06-12</i></a></li>
+							<li><a href="#"><span>美国辛辛那提大学黄永顺博士访问等离子体所</span><i>2015-02-03</i></a></li>
+							<li><a href="#"><span>哥伦比亚大学郝玉峰博士做客固体所青年论坛</span><i>2015-01-30</i></a></li>
+							<li><a href="#"><span>等离子体所与普林斯顿等离子体物理实验室成立CFETR关键部件联合工作组</span><i>2015-01-27</i></a></li>
+						</ul>
+
+						<ul class="txtli">
+							<li><a href="#"><span>两外国学者到安光所开展学术交流</span><i>2015-06-13</i></a></li>
+							<li><a href="#"><span>新加坡国立大学刘小钢教授做客智能所创新论坛</span><i>2015-06-12</i></a></li>
+							<li><a href="#"><span>美国辛辛那提大学黄永顺博士访问等离子体所</span><i>2015-02-03</i></a></li>
+							<li><a href="#"><span>哥伦比亚大学郝玉峰博士做客固体所青年论坛</span><i>2015-01-30</i></a></li>
+							<li><a href="#"><span>等离子体所与普林斯顿等离子体物理实验室成立CFETR关键部件联合工作组</span><i>2015-01-27</i></a></li>
+						</ul> -->
+					</div>
+
+					 <!-- <div class="page">
+						 <a href="#" class="page_a">
+							 <span>上一页</span>
+						 </a>
+							 <a href="#" class="page_b pageon">1</a>
+							 <a href="#" class="page_b">2</a>
+							 <a href="#" class="page_c">....</a>
+							 <a href="#" class="page_d">
+								 <span>下一页</span></a>
+						</div> -->
+
+					<style>
+.pagel{float: right;width:auto;height:auto;margin-right:20px;clear:both; text-align:center;
+	padding:3em 0; line-height:2em;font-size: 12px;color:#777;}
+.pagel select,.pagel option{color:#777;}
+.pagel a{padding-left:8px;padding-right:8px;line-height:27px;display: inline-block;
+	border:1px solid #dddddd;margin-right: 8px;float:left;}
+.pagel a:not(.point):hover{background:#0b4da2;color:#fff;}
+.pagela{background:#f2f2f2;}
+.pagela.on{background:#0b4da2;color:#fff;}
+
+a.pageal,a.pagedl{    width: 70px;
+    height: 27px;
+    border: 1px solid #ddd;
+    background: #f2f2f2;
+    display: inline-block;
+    line-height: 27px;
+	padding:0;}
+a.point,a.point:hover{background: #fff;border: none;}
+.spanal{display: inline-block;width:100%;height:100%;text-indent: 23px;text-align: left;}
+.spandl{display: inline-block;width:100%;height:100%;text-indent: 10px;text-align: left;}
+
+
+</style>
+
+<div class="pagel">
+
+<script type="text/javascript">
+var currentPage = 0;//所在页从0开始
+var prevPage = currentPage-1;//prev
+var nextPage = currentPage+1;//next
+var countPage = 67;//共多少页
+
+function select_page(page){
+// alert(page);
+// page = parseInt(page);
+if(page=='1'){
+	window.location.href="./";
+}else{
+	window.location.href="./index_"+(page-1)+".html";
+}
+
+
+}
+if(countPage>1){
+
+	document.write('<span style="float:left;">共'+countPage+'页&nbsp;跳到第&nbsp;<select name="text" onchange="select_page(this.value)">');
+	var str_op = '';
+	str_op+='<option value="'+(currentPage+1)+'">'+(currentPage+1)+'</option>';
+	for(var i=1;i<=countPage;i++){
+		str_op+='<option value="'+i+'">'+i+'</option>';
+	}
+	document.write(str_op+'</select>&nbsp;页&nbsp;&nbsp;&nbsp;&nbsp;</span>');
+
+
+
+  //设置prev代码
+  if(currentPage>1)
+
+	// document.write("<a class=\"pagela\" href=\"index.html\">首页</a>"+"<a class=\"pageal\" href=\"index"+"_" + prevPage + "."+"html\"><span class=\"spanal\">上一页</span></a>");
+		document.write("<a class=\"pageal\" href=\"index"+"_" + prevPage + "."+"html\"><span class=\"spanal\">上一页</span></a>");
+  else if(currentPage==1)
+
+	// document.write("<a class=\"pagela\" href=\"index.html\">首页</a>"+'<a class=\"pageal\" class=\"pageal\" href=\"index.html\"><span class=\"spanal\">上一页</span></a>');
+	document.write('<a class=\"pageal\" class=\"pageal\" href=\"index.html\"><span class=\"spanal\">上一页</span></a>');
+
+  //循环
+  var num = 3;
+  for(var i=0+(currentPage-1-(currentPage-1)%num) ; i<=(num+(currentPage-1-(currentPage-1)%num))&&(i<countPage) ; i++){
+    if(currentPage==i)
+      document.write('<a class="on pagela" href="#">'+(i+1)+"</a>");
+    else if(i==0)
+
+	  document.write("<a class=\"pagela\" href=\"index.html\">"+(i+1)+"</a>");
+    else
+
+	  document.write("<a class=\"pagela\" href=\"index"+"_" + i + "."+"html\">"+(i+1)+"</a>");
+  }
+
+  //设置next代码
+  if(currentPage!=(countPage-1)){
+		// if(currentPage<(countPage-num)){
+		// 	document.write("<a class=\"pagela point\" href=\"javascript:;\">"+' .... '+"</a>");
+		// 	document.write("<a class=\"pagela\" href=\"index_" + (countPage-1) + ".html\">"+countPage+"</a>");
+		// }
+
+		//  document.write("<a class=\"pagedl\" href=\"index"+"_" + nextPage + "."+"html\"><span class=\"spandl\">下一页</span></a>"+"<a class=\"pagela\" href=\"index_" + (countPage-1) + ".html\">尾页</a>");
+		 document.write("<a class=\"pagedl\" href=\"index"+"_" + nextPage + "."+"html\"><span class=\"spandl\">下一页</span></a>");
+	}
+
+
+
+  // else
+	//
+	//  document.write("<a class=\"pagedl\" href='javascript:;'>下一页</a>");
+
+}
+
+</script>
+
+
+
+</div>
+<!--end页码-->
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="footer">
+  <ul class="footer_a cf2">
+    <li class="footer_a1">子站</li>
+    <li class="footer_ac">
+      <span class="footer_ack">
+
+       
+
+         <a target="_blank" href="../../lmjx/zkydag/">
+           档案馆（演示用）
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://home.hfcas.ac.cn">
+           内部信息
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://www.hfcas.ac.cn/yzbgs/">
+           院办
+         </a> ｜
+
+       
+
+         <a target="_blank" href="https://hf.cas.cn/djwh/kxddj/">
+           党办
+         </a> ｜
+
+       
+
+         <a target="_blank" href="https://hf.cas.cn/zncs/jsc/">
+           监审处
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://www.hf.cas.cn/rjc/">
+           人事处
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://www.hf.cas.cn/czc/">
+           财务处
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://www.hf.cas.cn/zncs/zcc/">
+           资产处
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://www.hf.cas.cn/lmjx/glbm/kyghc/kyc_kyghc/">
+           科研处
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://www.hf.cas.cn/zncs/gjszlc/">
+           高技术处
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://www.hf.cas.cn/gjhzc/">
+           国际合作处
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://www.hf.cas.cn/kfc/">
+           科发处
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://www.hf.cas.cn/zncs/kxzxc/">
+           科学中心处
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://www.hf.cas.cn/sbpy/yjsc/">
+           研究生处
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://www.hf.cas.cn/zncs/aqbmc/">
+           安全保密处
+         </a> ｜
+
+       
+
+         <a target="_blank" href="https://hf.cas.cn/xxzx/">
+           信息中心
+         </a> ｜
+
+       
+
+         <a target="_blank" href="https://www.hf.cas.cn/jlyjczx/">
+           计量检测中心
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://www.hf.cas.cn/zcbm/fwzx/">
+           服务中心
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://kjg.hfcas.ac.cn/">
+           合肥现代科技馆
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://kdfzkxd.hfcas.ac.cn/">
+           附属学校
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://www.hf.cas.cn/lmjx/glbm/rsjyc/ltxgz/">
+           离退休
+         </a> ｜
+
+       
+
+         <a target="_blank" href="http://school.hf.cas.cn">
+           科院附中
+         </a> ｜
+
+       
+     </span>
+   </li>
+
+    <li class="footer_ar">
+      <input type="text" placeholder="友情链接" class="footer_ar1" value="友情链接" readonly="readonly" style="color:#333;width:232px;" />
+      <input type="button" class="footer_ar2" style="float:right;" />
+
+      <div class="link_xia c_hide">
+
+        
+
+          <a target="_blank" href="http://www.nsfc.gov.cn/">
+            国家自然科学基金委
+          </a>
+        
+
+          <a target="_blank" href="http://www.most.gov.cn/">
+            科学技术部
+          </a>
+        
+
+          <a target="_blank" href="https://www.ndrc.gov.cn/">
+            国家发展和改革委员会
+          </a>
+        
+
+      </div>
+
+    </li>
+  </ul>
+
+  <ul class="footer_d">
+
+    <li class="footer_dc">
+      <span class="footer_dc1"><a href="#">版权保护</a>  |
+      <a href="#">隐私与安全</a>  |
+      <a target="_blank" href="../../wzdt/">网站地图</a>  |
+      <a href="#">常见问题</a>  |
+      <a target="_blank" href="../../dwgk/dlwz/">联系我们</a>
+      </span>
+<span>Copyright &copy; 2016 hfcas.ac.cn All Rights Reserved  中国科学院合肥物质科学研究院 版权所有 <a href="https://beian.miit.gov.cn/">皖ICP备05001008号-1</a> </span>
+<span>地址：安徽省合肥市蜀山湖路350号1110信箱    邮编：230031电话：0551-65591245 电邮： <a href="mailto:yzxx@hfcas.ac.cn">yzxx@hfcas.ac.cn</a> </span>
+</li>
+    <li class="footer_dr" style="width:76px;">
+
+      <a href="#">
+<img src="../../images/qrcode_zwb016.jpg" class="footer_dr2" />
+</a>
+    </li>
+<li class="footer-ddm footer_dr1" style="width:56px;float:right;margin-top:34px;"><a href="//bszs.conac.cn/sitename?method=show&id=0B50DBB8167434C4E053022819ACAE24 
+" target="_blank"><img id="imgConac" src="../../images/blue.png" data-bd-imgshare-binded="1" vspace="0" hspace="0" border="0" /></a></li>
+
+  </ul>
+</div>
+
+<div class="erwi"><span class="guanbi">关闭</span><a href="#">
+<img src="../../images/qrcode_zwb016.jpg" />
+  <p class="erwi_txt">扫一扫</p></a></div>
+<style>
+	.erwi{width:100px;position:fixed;top:50%;right:2px;margin-top:-70px;overflow: hidden;}
+	.erwi img{width:100px;}
+	.erwi_txt{width:100px;padding:5px 0;text-align: center;background:#fff;}
+	.guanbi{display:inline-block;width:40px;height:20px;background:#fff;font-family:"微软雅黑";font-size:12px;text-align: center;line-height:20px;position:relative;float:right;cursor:pointer;}
+</style>
+<script type="text/javascript">
+$(function(){
+  $(".guanbi").click(function(){
+    $(".erwi").fadeOut();
+  });
+});
+
+</script>
+
+		<script type="text/javascript" src="../../images/jquery.SuperSlide.2.1.1_zwb016.js"></script>
+		<script type="text/javascript">
+		jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});
+		</script>
+		<script>
+			$(".head_navm li.po").mouseover(function(){
+				$(this).children(".head_navs").removeClass("c_hide");
+$(".h-bg").removeClass("c_hide");
+				$(this).mouseout(function(){
+					$(this).children(".head_navs").addClass("c_hide");
+$(".h-bg").addClass("c_hide");
+				});
+			});
+		</script>
+		<script>jQuery(".picScroll-left").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true});</script>
+		<script>
+		$(".footer_ar2").click(function(){
+			$(this).parent().children(".link_xia").toggleClass("c_hide");
+			$(".link_xia a").click(function(){
+				$(this).parent(".link_xia").addClass("c_hide");
+			});
+		});
+		</script>
+		<script>
+		$(".footer_ab").click(function(){
+			$(this).parents().children().children(".footer_ack").toggleClass("footer_acka")
+		});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,361 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>招生简章</title>
+    
+<link type="text/css" href="/_css/_system/system.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/1/style/1/1.css" rel="stylesheet"/>
+<link type="text/css" href="/_upload/site/00/4b/75/style/54/54.css" rel="stylesheet"/>
+<link type="text/css" href="/_js/_portletPlugs/sudyNavi/css/sudyNav.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/datepicker/css/datepicker.css" rel="stylesheet" />
+<link type="text/css" href="/_js/_portletPlugs/simpleNews/css/simplenews.css" rel="stylesheet" />
+
+<script language="javascript" src="/_js/jquery.min.js" sudy-wp-context="" sudy-wp-siteId="75"></script>
+<script language="javascript" src="/_js/jquery.sudy.wp.visitcount.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/sudyNavi/jquery.sudyNav.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/jquery.datepicker.js"></script>
+<script type="text/javascript" src="/_js/_portletPlugs/datepicker/js/datepicker_lang_HK.js"></script>
+<link href="/_upload/tpl/04/ef/1263/template1263/htmlRes/css.css" rel="stylesheet" type="text/css" />
+    <link href="/_upload/tpl/04/ef/1263/template1263/htmlRes/nav.css" rel="stylesheet" type="text/css" />
+    <link href="/_upload/tpl/04/ef/1263/template1263/htmlRes/left_nav.css" rel="stylesheet" type="text/css" /> 
+    <script>
+            $(function(){
+               $(".nav_menu-item").eq(0).addClass("active");
+            });
+          </script>
+    <script type="text/javascript">
+        $(function () {
+            $(".subNav").click(function () {
+                $(this).toggleClass("currentDd").siblings(".subNav").removeClass("currentDd")
+                $(this).toggleClass("currentDt").siblings(".subNav").removeClass("currentDt")
+
+                // 修改数字控制速度， slideUp(500)控制卷起速度
+                $(this).next(".navContent").slideToggle(500).siblings(".navContent").slideUp(500);
+            })
+        })
+    </script>
+
+</head>
+
+<body>
+    <div style="background-color:#004da1; height:90px;">
+        <!--头部-->
+        <div class="w1200">
+            <div class="header">
+
+                <div class="top_logo fl">
+                    <a href="http://www.grs.zju.edu.cn/yjszs/main.htm">
+                        <img src="/_upload/tpl/04/ef/1263/template1263/htmlRes/logo.png" />
+                    </a>
+                </div>
+                <div class="r_con fr">
+                        <div class="nav_class fl" frag="窗口2">
+                                
+                                  <ul class="nav_menu">
+                                    
+                                      <li class="nav_menu-item">
+                                          <a class="t" href="http://www.grs.zju.edu.cn/yjszs/main.htm">首页</a>
+                                        
+                                      </li>
+                                    
+                                      <li class="nav_menu-item">
+                                          <a class="t" href="/yjszs/28465/list.htm">招生信息</a>
+                                        
+                                          <ul class="nav_submenu">
+                                             
+                                              <li class="nav_submenu-item">
+                                                  <a href="/yjszs/28470/list.htm">硕士招生</a>
+                                              </li>
+                                             
+                                              <li class="nav_submenu-item">
+                                                  <a href="/yjszs/28471/list.htm">博士招生</a>
+                                              </li>
+                                             
+                                              <li class="nav_submenu-item">
+                                                  <a href="/yjszs/28472/list.htm">港澳台招生</a>
+                                              </li>
+                                             
+                                              <li class="nav_submenu-item">
+                                                  <a href="http://iczu.zju.edu.cn/admissions/">国际学生招生</a>
+                                              </li>
+                                             
+                                              <li class="nav_submenu-item">
+                                                  <a href="/yjszs/28474/list.htm">夏令营</a>
+                                              </li>
+                                             	 
+                                          </ul>
+                                        
+                                      </li>
+                                    
+                                      <li class="nav_menu-item">
+                                          <a class="t" href="http://www.grs.zju.edu.cn/yjszs/28475/list.htm">学校资源</a>
+                                        
+                                          <ul class="nav_submenu">
+                                             
+                                              <li class="nav_submenu-item">
+                                                  <a href="http://rd.zju.edu.cn/main.htm">研究平台</a>
+                                              </li>
+                                             
+                                              <li class="nav_submenu-item">
+                                                  <a href="https://person.zju.edu.cn/index/">导师介绍</a>
+                                              </li>
+                                             
+                                              <li class="nav_submenu-item">
+                                                  <a href="http://www.grs.zju.edu.cn/yjsjxj/list.htm">奖助政策</a>
+                                              </li>
+                                             
+                                              <li class="nav_submenu-item">
+                                                  <a href="http://www.grs.zju.edu.cn/ygcgwjw/list.htm">国际交流</a>
+                                              </li>
+                                             	 
+                                          </ul>
+                                        
+                                      </li>
+                                    
+                                      <li class="nav_menu-item">
+                                          <a class="t" href="/yjszs/28467/list.htm">各类统计</a>
+                                        
+                                          <ul class="nav_submenu">
+                                             
+                                              <li class="nav_submenu-item">
+                                                  <a href="/yjszs/28489/list.htm">历年分数线</a>
+                                              </li>
+                                             
+                                              <li class="nav_submenu-item">
+                                                  <a href="/yjszs/28490/list.htm">历年报录比</a>
+                                              </li>
+                                             
+                                              <li class="nav_submenu-item">
+                                                  <a href="/yjszs/28491/list.htm">其他统计</a>
+                                              </li>
+                                             	 
+                                          </ul>
+                                        
+                                      </li>
+                                    
+                                      <li class="nav_menu-item">
+                                          <a class="t" href="/yjszs/28468/list.htm">联系我们</a>
+                                        
+                                      </li>
+                                    
+                                  </ul>
+                                 
+                                  <div class="clear"></div>
+                              </div>
+                    <div class="lan fl">
+                        <a href="http://www.grs.zju.edu.cn/grsen/main.htm">EN</a>
+                    </div>
+                    <!--搜索-->
+                    <div class="box-down fr" frag="窗口3">						<form id="form1" name="form1" action="/_web/_search/api/search/new.rst?locale=zh_CN&request_locale=zh_CN&_p=YXM9NzUmdD0xMjYzJmQ9NTE3NCZwPTImZj0yNzI5Jm09U04mfGJubkNvbHVtblZpcnR1YWxOYW1lPTI3Mjkm" method="post">
+							<div class="search-box"> 
+								<input type="text" name="keyword" class="ss_in" id="kw_qbzc" placeholder="搜索" onfocus="if(this.value=='搜索'){this.value=''}"
+								 onblur="if(this.value==''){this.value='搜索'}" /> 
+								<input class="serach-btn" name="submit" type="submit" value="" /> 
+								<div class="clearfix"></div>
+							</div>
+						</form>
+					</div>
+                    <!--搜索-->
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--头部-->
+    </div>
+    <!--banner-->
+    <div class="n_banner" style="background:url(/_upload/tpl/04/ef/1263/template1263/htmlRes/ny_bg.jpg) no-repeat center top ; height:390px;  "></div>
+    <!--banner-->
+
+    <!--主体-->
+    <div class="bg2">
+        <div class="content">
+            <!--左侧-->
+            <div class="leftside">
+                    <div class="side">
+
+                            <div class="nav_title" frag="窗口12" portletmode="simpleColumnAttri"><p class="wzlm">招生简章</p>
+                                <p class="en_title">Admission</p></div>
+                            <div class="subNavBox" frag="窗口15" portletmode="simpleColumnList">                              
+                               <ul>
+                                   
+                               </ul>
+                                
+                            </div>
+                        </div>
+                <div class="clear"></div>
+            </div> 
+            <div class="news_list">
+
+                <div class="r_wz">
+                    <div class="wz" frag="窗口16" portletmode="simpleColumnAttri">
+                        <a href="/yjszs/main.htm" target="_self">首页</a><span class='possplit'>&nbsp;&nbsp;</span><a href="/yjszs/28504/list.htm" target="_self">招生简章</a>
+                    </div>
+                </div>
+
+                <div class="common-list-main" frag="窗口17" portletmode="simpleList"><div id="wp_news_w17"> 
+ 
+                    <ul class="common-news-list">
+                       
+                        <li>
+                            <a href='/yjszs/2023/1012/c28504a2811749/page.htm' target='_blank' title='各学院（系）2024年博士研究生招生简章汇总'>各学院（系）2024年博士研究生招生简章汇总</a>
+                            <span class="date">2023-10-12</span>
+                        </li>
+                       
+                        <li>
+                            <a href='http://yjsy.zju.edu.cn/public/custom/enrolmentSystem?zsnf=2024&type=pb' target='_blank' title='2024年浙江大学普通招考博士研究生招生专业目录'>2024年浙江大学普通招考博士研究生招生专业目录</a>
+                            <span class="date">2023-09-22</span>
+                        </li>
+                       
+                        <li>
+                            <a href='https://yjsy.zju.edu.cn/open/zsss/ZsssTksList?zsnf=2024' target='_blank' title='2024年硕士研究生招生专业目录（统考生）'>2024年硕士研究生招生专业目录（统考生）</a>
+                            <span class="date">2023-09-21</span>
+                        </li>
+                       
+                        <li>
+                            <a href='https://yjsy.zju.edu.cn/open/zsss/ZsssMssList?zsnf=2024' target='_blank' title='2024年硕士研究生招生专业目录（免试生）'>2024年硕士研究生招生专业目录（免试生）</a>
+                            <span class="date">2023-09-21</span>
+                        </li>
+                       
+                        <li>
+                            <a href='/yjszs/2023/0921/c28504a2805331/page.htm' target='_blank' title='浙江大学2024年博士研究生招生简章'>浙江大学2024年博士研究生招生简章</a>
+                            <span class="date">2023-09-21</span>
+                        </li>
+                       
+                        <li>
+                            <a href='/yjszs/2023/0920/c28504a2804471/page.htm' target='_blank' title='浙江大学2024年硕士研究生招生简章'>浙江大学2024年硕士研究生招生简章</a>
+                            <span class="date">2023-09-20</span>
+                        </li>
+                       
+                        <li>
+                            <a href='http://yjsy.zju.edu.cn/public/custom/enrolmentSystem?zsnf=2023&type=pb' target='_blank' title='2023年浙江大学博士研究生招生专业目录'>2023年浙江大学博士研究生招生专业目录</a>
+                            <span class="date">2022-10-10</span>
+                        </li>
+                       
+                        <li>
+                            <a href='/yjszs/2022/0930/c28504a2638527/page.htm' target='_blank' title='各学院（系）2023年博士研究生招生简章汇总'>各学院（系）2023年博士研究生招生简章汇总</a>
+                            <span class="date">2022-09-30</span>
+                        </li>
+                       
+                        <li>
+                            <a href='/yjszs/2022/0921/c28504a2633922/page.htm' target='_blank' title='浙江大学2023年博士研究生招生简章'>浙江大学2023年博士研究生招生简章</a>
+                            <span class="date">2022-09-21</span>
+                        </li>
+                       
+                        <li>
+                            <a href='http://grs.zju.edu.cn/ssszs/studentZsml.htm' target='_blank' title='2023年浙江大学硕士研究生招生专业目录'>2023年浙江大学硕士研究生招生专业目录</a>
+                            <span class="date">2022-09-15</span>
+                        </li>
+                       
+                        <li>
+                            <a href='/yjszs/2022/0915/c28504a2631931/page.htm' target='_blank' title='浙江大学2023年硕士研究生招生简章'>浙江大学2023年硕士研究生招生简章</a>
+                            <span class="date">2022-09-15</span>
+                        </li>
+                       
+                        <li>
+                            <a href='/yjszs/2021/0823/c28504a2415909/page.htm' target='_blank' title='2022年多学科交叉博士研究生培养专项计划招生简章'>2022年多学科交叉博士研究生培养专项计划招生简章</a>
+                            <span class="date">2021-08-23</span>
+                        </li>
+                       
+                        <li>
+                            <a href='/yjszs/2021/0807/c28504a2414511/page.htm' target='_blank' title='浙江大学关于2022年接收外校推荐免试研究生工作安排的通知'>浙江大学关于2022年接收外校推荐免试研究生工作安排的通知</a>
+                            <span class="date">2021-08-06</span>
+                        </li>
+                       
+                    </ul>  
+                </div> 
+
+ <div id="wp_paging_w17"> 
+<ul class="wp_paging clearfix"> 
+     <li class="pages_count"> 
+         <span class="per_page">每页&nbsp;<em class="per_count">14</em>&nbsp;记录&nbsp;</span> 
+         <span class="all_count">总共&nbsp;<em class="all_count">27</em>&nbsp;记录&nbsp;</span> 
+     </li> 
+     <li class="page_nav"> 
+         <a class="first" href="/yjszs/28504/list1.htm" target="_self"><span>第一页</span></a> 
+         <a class="prev" href="/yjszs/28504/list1.htm" target="_self"><span>&lt;&lt;上一页</span></a> 
+         <a class="next" href="javascript:void(0);" target="_self"><span>下一页&gt;&gt;</span></a> 
+         <a class="last" href="javascript:void(0);" target="_self"><span>尾页</span></a> 
+     </li> 
+     <li class="page_jump"> 
+         <span class="pages">页码&nbsp;<em class="curr_page">2</em>/<em class="all_pages">2</em></span> 
+         <span><input class="pageNum" type="text" /><input type="hidden" class="currPageURL" value=""></span></span> 
+         <span><a class="pagingJump" href="javascript:void(0);" target="_self">跳转到&nbsp;</a></span> 
+     </li> 
+</ul> 
+</div> 
+<script type="text/javascript"> 
+     $().ready(function() { 
+         $("#wp_paging_w17 .pagingJump").click(function() { 
+             var pageNum = $("#wp_paging_w17 .pageNum").val(); 
+             if (pageNum === "") { alert('请输入页码！'); return; } 
+             if (isNaN(pageNum) || pageNum <= 0 || pageNum > 2) { alert('请输入正确页码！'); return; } 
+             var reg = new RegExp("/list", "g"); 
+             var url = "/yjszs/28504/list.htm"; 
+             window.location.href = url.replace(reg, "/list" + pageNum); 
+         }); 
+     }); 
+</script> 
+</div> 
+            </div>
+ 
+            <div class="clear"></div>
+        </div>
+    </div>
+ 
+    <div class="foot">
+        <div class="w1200">
+            <div class="left_con fl">
+                <a href="http://www.grs.zju.edu.cn/yjszs/main.htm">
+                    <img src="/_upload/tpl/04/ef/1263/template1263/htmlRes/logo_bot.jpg" />
+                </a>
+                <p>浙江省杭州市余杭塘路866号 浙江大学紫金港校区研究生教育综合楼7楼
+                    <br/> 联系电话：0571-87951349&nbsp;&nbsp; &nbsp; &nbsp;邮箱：yjsy-zsb@zju.edu.cn
+                    <br/> 版权所有：2007-2010 浙江大学研究生院&nbsp; &nbsp;
+                    <a href="https://webplus.zju.edu.cn" style="color:#fff;">管理登录</a>
+                </p>
+
+            </div>
+            <div class="middle_con fl">
+                <p>友情链接</p>
+                <ul frag="窗口18"><div id="wp_news_w18"> 
+
+                  
+                    <li>
+                        <a href='http://www.grs.zju.edu.cn/' target='_blank' title='研究生院'>研究生院</a>
+                    </li>
+                  
+                    <li>
+                        <a href='https://pi.zju.edu.cn/' target='_blank' title='工程师学院'>工程师学院</a>
+                    </li>
+                  
+                    <li>
+                        <a href='http://iczu.zju.edu.cn/' target='_blank' title='国际教育学院'>国际教育学院</a>
+                    </li>
+                  
+                </div> 
+</ul>
+            </div>
+            <div class="right_con fr" style="width:229px">
+                <img src="/_upload/tpl/04/ef/1263/template1263/htmlRes/07-1533996348-131608.png" width="117" height="114" />
+                <div class="wei">
+                    <p>
+                        <a href="/main.htm">旧版招生网入口</a>
+                    </p>
+                    <span style="font-size: 12px;display:none;">
+                        <br /> 您是第
+                        <span class="spana" frag="窗口22"></span>位访问者&nbsp;</span> 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+var lxwm = $(".wzlm").text();
+if(lxwm == '联系我们'){
+    $(".en_title").remove();
+}
+</script>
+</html>
+ <img src="/_visitcount?siteId=75&type=2&columnId=28504" style="display:none" width="0" height="0"/>

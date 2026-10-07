@@ -1,0 +1,1686 @@
+    <!DOCTYPE html>
+    <html lang="zh" translate="no">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+
+            <meta name="keywords" content="中国科技大学研招在线，研究生招生">
+            <meta name="description" content="中国科技大学研招在线网站"/>
+        <title>中国科学技术大学-研究生招生在线</title>
+        <link rel="stylesheet" href="/static/css/bootstrap.css">
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+
+        <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico"/>
+        <link rel="stylesheet" href="/static/css/index.css?t=240905">
+        <link rel="stylesheet" href="/static/css/zsxc.css">
+        <link rel="stylesheet" href="/static/css/EnrollmentGuide.css?v=20250419"/>
+        <script src="/static/js/html5.min.js"></script>
+        <script src="/static/js/jquery/jquery-v1.10.2.min.js"></script>
+        <script src="/static/js/jQuery.mini.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/common.js"></script>
+
+        <script src="/static/js/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="/static/css/swiper-bundle.min.css">
+        <script src="/static/js/qrcode.js"></script>
+        <style>
+        </style>
+    </head>
+    </head>
+    <body>
+    <style type="text/css">
+        /*.swiper{*/
+        /*    --swiper-theme-color: rgba(0,0,0,0);*/
+        /*    --swiper-pagination-color: #fff;!* 两种都可以 *!*/
+        /*}*/
+        .swiper-pagination-bullet {
+            width: 10px;
+            height: 10px;
+            border: 2px #fff solid;
+            background-color: transparent;
+            opacity: var(--swiper-pagination-bullet-inactive-opacity, .8)
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: transparent;
+            width: 50px;
+            height: 10px;
+            border: 2px #fff solid;
+            border-radius: 20px;
+        }
+    </style>
+    <div style="display: none" class="box box1">
+        <nav id="nav">
+            <div class="header" id="had">
+                <div class="nav-w nav-box" id="nav-box">
+                    <!--               <div id="imgLogo" class="logoImg">-->
+
+                    <!--               </div>-->
+                    <img src="/static/images/logo1.png" class="logoImg" id="img1">
+                    <img src="/static/images/logo1.png" class="logoImg" id="img2" style="display: none">
+
+                    <div id="listSy" class="list-nav">
+                        <div class="nav-txt navs" onclick="handleClick()">
+                            首页
+                        </div>
+                                        <div class="nav-txt navs"
+                                        >
+
+                                            <p target="_self"
+                                                        onclick="window.open('/column/new/1/174?sourceType=0&navigationId=140&num=0','_self')"
+
+                                            >招生宣传</p>
+                                            <ul id="open0" class="xl-mune" style="display: none">
+                                                        <li target="_blank"
+                                                            onclick="window.open('/redirect/url?redirectUrl=https://www.ustc.edu.cn/yxjs.htm&type=0&sourceType=0&categoryId=157&articleId=','_blank')">院系介绍</li>
+                                                        <li target="_blank"
+                                                            onclick="window.open('/redirect/url?redirectUrl=https://gradschool.ustc.edu.cn/column/174&type=0&sourceType=0&categoryId=158&articleId=','_blank')">导师队伍</li>
+                                                        <li target="_blank"
+                                                            onclick="window.open('/redirect/url?redirectUrl=https://ustc.gleamoe.com/videos/&type=0&sourceType=0&categoryId=159&articleId=','_blank')">宣传视频</li>
+                                            </ul>
+                                        </div>
+                                        <div class="nav-txt navs"
+                                        >
+
+                                            <p target="_self"
+                                                        onclick="window.open('/column/176?sourceType=0&navigationId=141&num=1','_self')"
+                                            >招生信息</p>
+                                            <ul id="open1" class="xl-mune" style="display: none">
+                                                        <li target="_blank"
+                                                            onclick="window.open('/column/176?sourceType=0&navigationId=142&num=1','_blank')">硕士招生</li>
+                                                        <li target="_self"
+                                                            onclick="window.open('/column/177?sourceType=0&navigationId=143&num=1','_self')">博士招生</li>
+                                                        <li target="_blank"
+                                                            onclick="window.open('/column/195?sourceType=0&navigationId=144&num=1','_blank')">港澳台招生</li>
+                                                        <li target="_blank"
+                                                            onclick="window.open('/column/202?sourceType=0&navigationId=148&num=1','_blank')">推免专栏</li>
+                                            </ul>
+                                        </div>
+                                        <div class="nav-txt navs"
+                                        >
+
+                                            <p target="_self"
+                                                        onclick="window.open('/column/new/2/179?sourceType=0&navigationId=145&num=2','_self')"
+
+                                            >招生简章</p>
+                                            <ul id="open2" class="xl-mune" style="display: none">
+                                                        <li target="_self"
+                                                            onclick="window.open('/column/183?sourceType=0&navigationId=146&num=2','_self')">硕士招生简章</li>
+                                                        <li target="_self"
+                                                            onclick="window.open('/column/184?sourceType=0&navigationId=147&num=2','_self')">博士招生简章</li>
+                                            </ul>
+                                        </div>
+                                        <div class="nav-txt navs"
+                                             target="_blank"
+                                             onclick="window.open('/redirect/url?redirectUrl=https://xspt.ustc.edu.cn/logon&type=0&sourceType=0&categoryId=156&articleId=','_blank')"
+                                        >研究生报考服务系统</div>
+                                        <div class="nav-txt navs"
+                                             target="_blank"
+                                                    onclick="window.open('/column/187?sourceType=0&navigationId=150&num=4','_blank')"
+                                        >文档下载</div>
+
+                    </div>
+
+                    <div class="ipt-Box">
+                        <div id="input-box" class="input-box">
+                            <input id="search" value="" class="search" placeholder="请输入关键词检索"><i
+                                    class="glyphicon glyphicon-search icon-search" onclick="toSearch()"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </nav>
+
+
+        <!--        <hr>-->
+        <!--        轮播图-->
+        <div class="Shuffling-figure">
+            <div class="swiper" style="height:660px">
+                <div class="swiper-wrapper">
+
+                            <div class="swiper-slide"
+
+
+                            >
+                                <img style="width: 100%;height: 660px;"
+                                     src=" /static/upload/slide/432b10b34ea54e8986976614b4ce1e26.jpg"
+                                     alt="">
+                            </div>
+                            <div class="swiper-slide"
+
+
+                            >
+                                <img style="width: 100%;height: 660px;"
+                                     src=" /static/upload/slide/8f8a3061a75541c1ade47a317f87c2fa.jpg"
+                                     alt="">
+                            </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div><!--左箭头。如果放置在swiper外面，需要自定义样式。-->
+                <div class="swiper-button-next"></div><!--右箭头。如果放置在swiper外面，需要自定义样式。-->
+            </div>
+
+            <div class="introduce">
+                <div class="top-txt">
+                    欢迎报考中国科大
+                </div>
+                <div class="content-txt"> 四十余年中国科大研究生教育，秉承“红专并进、理实交融”的校训精神，已然并将继续书写一幅我国科技和教育史上最壮丽的诗篇</div>
+            </div>
+        </div>
+        <!--        公告新闻-->
+        <div class="announcement-box">
+            <div id="myDIV" class="w announcementFlex myDIV">
+                <div class="announcement-list">
+                    <div class="new-announcement"><span class="title">通知公告</span> <span
+                                class="notice">Notice</span><span class="more"><a
+                                    href="/column/182?num=-1">More</a></span>
+                    </div>
+                    <div class="Img-List-box">
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/article/2850/182?num=-1','_blank')"
+                                >
+                                    <div class="img">
+                                        <span class="p1">09.03</span>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="span" title="中国科学技术大学2027年推免生接收办法">
+                                            中国科学技术大学2027年推免生接收办法
+                                    </div>
+                                </div>
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/article/2849/182?num=-1','_blank')"
+                                >
+                                    <div class="img">
+                                        <span class="p1">09.03</span>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="span" title="中国科学技术大学2027年推免生推荐办法">
+                                            中国科学技术大学2027年推免生推荐办法
+                                    </div>
+                                </div>
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/article/2848/182?num=-1','_blank')"
+                                >
+                                    <div class="img">
+                                        <span class="p1">09.03</span>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="span" title="中国科学技术大学2027年工程硕博士培养改革专项推免生预选拔招生简章">
+                                            中国科学技术大学2027年工程硕博士培养改革专项推免生预选拔...
+                                    </div>
+                                </div>
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/redirect/url?redirectUrl=https://www.eitech.edu.cn/2026/0831/c457a9443/page.htm&type=1&sourceType=1&categoryId=182&articleId=2846','_blank')"
+
+                                >
+                                    <div class="img">
+                                        <span class="p1">08.31</span>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="span" title="中国科学技术大学与宁波东方理工大学2027年招收免试直博生预推免办法">
+                                            中国科学技术大学与宁波东方理工大学2027年招收免试直博生预...
+                                    </div>
+                                </div>
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/redirect/url?redirectUrl=https://giec.cas.cn/yjsjy2016/zs2016/sszsxx/202607/t20260729_8256860.html&type=1&sourceType=1&categoryId=182&articleId=2845','_blank')"
+
+                                >
+                                    <div class="img">
+                                        <span class="p1">07.29</span>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="span" title="能源科学与技术学院（广州能源所）关于2027年暂停招收地质学（070900）专业硕士研究生的通告">
+                                            能源科学与技术学院（广州能源所）关于2027年暂停招收地质学...
+                                    </div>
+                                </div>
+
+                    </div>
+                </div>
+                <div class="announcement-list announcement-list1">
+                    <div class="new-announcement"><span class="title">新闻动态</span> <span
+                                class="notice">News</span><span
+                                class="more"><a href="/column/181?num=-1">More</a></span>
+                    </div>
+                    <div class="Img-List-box">
+
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/article/2847/181?num=-1','_blank')"
+
+                                >
+                                    <div class="img img2">
+                                        <span class="p1">09.01  </span>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="span"
+                                         title="我校召开2027年推免工作布置会议">                                             我校召开2027年推免工作布置会议
+                                        </div>
+                                </div>
+
+
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/article/2827/181?num=-1','_blank')"
+
+                                >
+                                    <div class="img img2">
+                                        <span class="p1">03.18  </span>
+                                        <span>2026</span>
+                                    </div>
+                                    <div class="span"
+                                         title="我校召开2026年研究生招生复试工作会议">                                             我校召开2026年研究生招生复试工作会议
+                                        </div>
+                                </div>
+
+
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/redirect/url?redirectUrl=https://news.ustc.edu.cn/info/1055/93544.htm&type=1&sourceType=1&categoryId=181&articleId=2817','_blank')"
+                                >
+                                    <div class="img img2">
+                                        <span class="p1">12.22  </span>
+                                        <span>2025</span>
+                                    </div>
+                                    <div class="span"
+                                         title="中国科大考点2026年全国硕士研究生招生考试顺利举行">                                             中国科大考点2026年全国硕士研究生招生考试顺利举行
+                                        </div>
+                                </div>
+
+
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/article/2806/181?num=-1','_blank')"
+
+                                >
+                                    <div class="img img2">
+                                        <span class="p1">10.23  </span>
+                                        <span>2025</span>
+                                    </div>
+                                    <div class="span"
+                                         title="我校召开2026年硕士研究生招生考试命题工作布置暨命题安全培训会"> 
+                                            我校召开2026年硕士研究生招生考试命题工作布置暨命题安全培...
+</div>
+                                </div>
+
+
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/article/2794/181?num=-1','_blank')"
+
+                                >
+                                    <div class="img img2">
+                                        <span class="p1">09.01  </span>
+                                        <span>2025</span>
+                                    </div>
+                                    <div class="span"
+                                         title="我校召开2026年推免工作布置会议">                                             我校召开2026年推免工作布置会议
+                                        </div>
+                                </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--            招生通道-->
+        <div class="channel-box">
+            <div class="title-zs">
+                <div class="t1">招生信息</div>
+                <div class="t2">Admissions</div>
+            </div>
+            <div class="w myDIV">
+                <img src="/static/images/channel-oooo_12.jpg" alt=""
+                     onclick="window.open('/column/176?num=')">
+                <img style="float: right" src="/static/images/channel-oooo_14.jpg" alt=""
+                     onclick="window.open('/column/177?num=')">
+            </div>
+        </div>
+
+        <div class="big-bg">
+            <!--            走近科大-->
+            <div class="ka-box w myDIV">
+                <div class="go-school">
+                    <div class="kd-title">
+                        <div class="ka-t1">走近科大</div>
+                        <div class="ka-t2">Into the school</div>
+                    </div>
+                    <div class="kd-introduce-box">
+                        <div class="kd-introduce">
+                            <p style="line-height: 2;"><span style="font-family: 微软雅黑; font-size: 18px;">目前学校现有34个一级学科(含交叉学科)博士学位授予点，4个一级学科硕士学位授予点;7个博士专业学位授予点，15个硕士专业学位授予点。在国家公布的&ldquo;双一流&rdquo;建设名单中，学校入选一流大学建设高校(A类)，数学、物理学、化学、天文学、地球物理学、生物学、科学技术史、材料科学与工程、计算机科学与技术、核科学与技术、安全科学与工程共11个学科入选一流建设学科。学校有8个一级学科国家重点学科、4个独立的二级学科国家重点学科、2个国家重点(培育)学科、18个安徽省一级重点学科。</span><br /><span style="font-size: 18px; font-family: 微软雅黑;">&nbsp; &nbsp; &nbsp; &nbsp;通过学科基地的重点建设，中国科学技术大学形成了龙头学科与支撑学科、传统学科与前沿学科、 基础学科与应用学科并存、互长的良性学科生态环境，为高水平的研究生教育奠定了坚实的基础。</span></p>
+<p style="line-height: 2;">&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-nav">
+                    <div class="right-nav-box">
+                        <div class="positioning1">
+                            <div class="img-positioning"></div>
+                        </div>
+                        <div class="positioning2 positioning-common"
+                             onclick="window.open('https://gradschool.ustc.edu.cn/column/174')">
+                            <img class="icon-jlt" src="/static/images/icon-jlt_01.png" alt="">
+                            <div class="name-icon">导师队伍</div>
+                        </div>
+                        <div class="positioning3 positioning-common" onclick="window.open('https://www.ustc.edu.cn/yxjs.htm')">
+                            <img class="icon-jlt" src="/static/images/icon-jlt_02.png" alt="">
+                            <div class="name-icon">院系介绍</div>
+                        </div>
+                        <div class="positioning4 positioning-common" onclick="window.open('http://qybx.ustc.edu.cn/')">
+                            <img class="icon-jlt" src="/static/images/icon-jlt_03.png" alt="">
+                            <div class="name-icon">所系结合</div>
+                        </div>
+                        <div class="positioning5 positioning-common" onclick="window.open('https://xspt.ustc.edu.cn/logon')">
+                            <img class="icon-jlt" src="/static/images/icon-jlt_04.png" alt="">
+                            <div class="name-icon">预面试</div>
+                        </div>
+                        <div class="positioning6 positioning-common" onclick="window.open('https://xspt.ustc.edu.cn/')">
+                            <img class="icon-jlt" src="./static/images/icon-jlt_05.png" alt="">
+                            <div class="name-icon">研究生报考服务系统</div>
+                        </div>
+                        <div class="positioning7 positioning-common"
+                             onclick="window.open('https://ustc.gleamoe.com/videos/ ')">
+                            <img class="icon-jlt" src="/static/images/icon-jlt_05.png" alt="">
+                            <div class="name-icon">宣传视频</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="english"></div>
+            </div>
+            <!--            政策法规    文档下载-->
+            <div class="policy-box w myDIV">
+                <div class="policy common-sty">
+                    <div class="policy-title"><span class="title">政策法规</span> <span class="notice">Rules</span>
+                        <span class="more"><a
+                                    href="/column/190?num=">More</a></span>
+                    </div>
+
+                    <div class="list-box-sty">
+                                    <div class="policyList"
+                                         target="_blank"
+                                                onclick="window.open('/redirect/url?redirectUrl=https://yz.chsi.com.cn/kyzx/jybzc/202109/20210903/2105941509.html&type=1&sourceType=1&categoryId=190&articleId=1700','_blank')"
+                                         title="2022年全国硕士研究生招生工作管理规定"
+                                    >
+                                        <div class="icon"></div>
+                                        <div class="data-list">
+                                            <div class="p1">03</div>
+                                            <div class="span">2021-09</div>
+                                        </div>
+                                        <div class="message">
+                                                2022年全国硕士研究生招生工作管理规定
+                                        </div>
+                                    </div>
+                                    <div class="policyList"
+                                         target="_blank"
+                                                onclick="window.open('/redirect/url?redirectUrl=https://www.spp.gov.cn/spp/xwfbh/wsfbh/201909/t20190903_430901.shtml&type=1&sourceType=1&categoryId=190&articleId=1702','_blank')"
+                                         title="关于办理组织考试作弊等刑事案件适用法律若干问题的解释"
+                                    >
+                                        <div class="icon"></div>
+                                        <div class="data-list">
+                                            <div class="p1">03</div>
+                                            <div class="span">2019-09</div>
+                                        </div>
+                                        <div class="message">
+                                                关于办理组织考试作弊等刑事案件适用法律若...
+                                        </div>
+                                    </div>
+                                    <div class="policyList"
+                                         target="_blank"
+                                                onclick="window.open('/article/1704/190?num=','_blank')"
+                                         title="中华人民共和国刑法修正案（九）节选"
+                                    >
+                                        <div class="icon"></div>
+                                        <div class="data-list">
+                                            <div class="p1">17</div>
+                                            <div class="span">2018-12</div>
+                                        </div>
+                                        <div class="message">
+                                                中华人民共和国刑法修正案（九）节选
+                                        </div>
+                                    </div>
+                    </div>
+                </div>
+                <div class="file common-sty">
+                    <div class="policy-title">
+
+                        <span class="title title1">文档下载</span>
+                        <span class="notice notice1">Download</span><span class="more  more1">
+
+                                        <a href="/column/189?num=4">More</a>
+
+                            </span></div>
+                    <div class="list-box-sty2">
+
+                                <div class="policyList2"
+                                     target="_blank"
+                                            onclick="window.open(' /redirect/url?redirectUrl=/static/upload/article/file/1782703315753/99b5b672965a43c5bc5ef31e5a81c5a9.doc&type=1&sourceType=1&categoryId=189&articleId=2841','_blank')"
+                                     title="科研经费博士研究生培养协议书"
+                                >
+                                    <div class="icon"></div>
+                                    <div class="message">
+                                            科研经费博士研究生培养协议书
+                                    </div>
+                                    <img src="/static/images/xz.png"
+                                         style="width: 20px;height:20px;margin-top: -10px;cursor:pointer">
+                                </div>
+
+                                <div class="policyList2"
+                                     target="_blank"
+                                            onclick="window.open(' /redirect/url?redirectUrl=/static/upload/article/file/1775029026555/b2a013ac06e24a30bd3bbc449a27876a.pdf&type=1&sourceType=1&categoryId=189&articleId=2830','_blank')"
+                                     title="教育部安徽高等研究院2026年校企联合人才培养和科研攻关项目专项计划介绍【学生层面】"
+                                >
+                                    <div class="icon"></div>
+                                    <div class="message">
+                                            教育部安徽高等研究院2026年校企联合人才培养和科...
+                                    </div>
+                                    <img src="/static/images/xz.png"
+                                         style="width: 20px;height:20px;margin-top: -10px;cursor:pointer">
+                                </div>
+
+                                <div class="policyList2"
+                                     target="_blank"
+                                            onclick="window.open(' /redirect/url?redirectUrl=/static/upload/article/file/1774234213838/2b0afa87977042bb996a252c7d48ebdb.docx&type=1&sourceType=1&categoryId=189&articleId=2823','_blank')"
+                                     title="教育部安徽高等研究院专项拟录取全日制学生：需签署《知情告知书》"
+                                >
+                                    <div class="icon"></div>
+                                    <div class="message">
+                                            教育部安徽高等研究院专项拟录取全日制学生：需签署《...
+                                    </div>
+                                    <img src="/static/images/xz.png"
+                                         style="width: 20px;height:20px;margin-top: -10px;cursor:pointer">
+                                </div>
+
+                                <div class="policyList2"
+                                     target="_blank"
+                                            onclick="window.open(' /redirect/url?redirectUrl=/static/upload/article/file/1769253530759/764614f0e2b141799d0d589a4349107d.doc&type=1&sourceType=1&categoryId=189&articleId=2820','_blank')"
+                                     title="“硕博连读”生硕士培养院系转出意见表"
+                                >
+                                    <div class="icon"></div>
+                                    <div class="message">
+                                            “硕博连读”生硕士培养院系转出意见表
+                                    </div>
+                                    <img src="/static/images/xz.png"
+                                         style="width: 20px;height:20px;margin-top: -10px;cursor:pointer">
+                                </div>
+
+                                <div class="policyList2"
+                                     target="_blank"
+                                            onclick="window.open(' /redirect/url?redirectUrl=/static/upload/article/file/1765245838337/d6ab22207cfa426091f04daab6de4506.docx&type=1&sourceType=1&categoryId=189&articleId=2811','_blank')"
+                                     title="北京中关村学院、上海创智学院、深圳河套学院拟录取学生：需签署《导师同意函》"
+                                >
+                                    <div class="icon"></div>
+                                    <div class="message">
+                                            北京中关村学院、上海创智学院、深圳河套学院拟录取学...
+                                    </div>
+                                    <img src="/static/images/xz.png"
+                                         style="width: 20px;height:20px;margin-top: -10px;cursor:pointer">
+                                </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="score w myDIV">
+                <div style="display: flex;justify-content: space-between;position: relative;bottom: -125px;">
+                </div>
+            </div>
+        </div>
+        <!--            底部-->
+        <div class="footer">
+            <div class="w myDIV footer-box">
+                <div class="footer-logo">
+                    <img class="mg-btm" src="/static/images/logo1.png" alt="">
+                    <p class="footnotes-txt">地址：安徽合肥金寨路96号 &nbsp; &nbsp; &nbsp;
+                        邮编：230026</p>
+                    <p class="footnotes-txt">TEL：+86-551-63600532、63602925 &nbsp; &nbsp; &nbsp; </p>
+                    <p class="footnotes-txt"> E-mail：yzb@ustc.edu.cn</p>
+                </div>
+                <div class="Qr-code">
+                    <!--                        <div class="Qr-code-wx Qr-code-w">-->
+                    <!--                            <img src="./images/weixin.jpg" alt="">-->
+                    <!--                            <div class="Qr-code-txt">微信二维码</div>-->
+                    <!--                        </div>-->
+                    <!--                        <div class="Qr-code-w">-->
+                    <!--                            <img src="./images/weibo.jpg" alt="">-->
+                    <!--                            <div class="Qr-code-txt">微博二维码</div>-->
+                    <!--                        </div>-->
+                    <div style="display: flex;align-items: center;justify-content: space-between">
+                        <div class="footer-yjy" onclick="window.open('https://yz1.ustc.edu.cn/')">旧版主页</div>
+                        <div class="footer-yjy" onclick="window.open('http://gradschool.ustc.edu.cn/')">研究生院主页</div>
+                    </div>
+                    <div class="icon-footer">
+                        <div id="Moveout1" class="elves-figure1 elves-figure-common"
+                             onclick="window.open('https://weibo.com/ustcyz')"
+                        ></div>
+                        <div id="Moveout2" class="elves-figure4 elves-figure-common"
+                             onclick="window.open('https://m.bilibili.com/space/562490465')"
+                        ></div>
+                        <div id="Moveout3" class="elves-figure3 elves-figure-common" onmouseover="Moveoutsover3()"
+                             onmouseout="MoveoutSout3()"></div>
+                        <div id="Moveout4" class="elves-figure2 elves-figure-common"
+                             onclick="window.open('https://www.douyin.com/user/MS4wLjABAAAAwZ97_gHcoklP83O1z3HgziajZ5x5hDoP0PyTbsvaMOs')"
+                        ></div>
+                    </div>
+                    <img id="content" style="display:none;" class="qr-code-ewm">
+                    <p class="copyright"> copyright © 2007-2022 中国科学技术大学研究生院 校学位办 All Rights Reserved  </p>
+                </div>
+            </div>
+        </div>
+        <!--返回顶部-->
+        <div id="returnTop" class="ReturnTop" onclick="topFunction()"></div>
+    </div>
+    <div class="box box2">
+        <!--        头部导航-->
+        <div class="header">
+            <div class="nav-box">
+                <!--               <div id="imgLogo" class="logoImg">-->
+
+                <!--               </div>-->
+                <img src="/static/images/logo1.png" class="logoImg">
+                <img src="/static/images/logo1.png" class="logoImg" style="display: none">
+                <div class="right-ydd">
+                    <div class="mnu-bigMax"><span onclick="ShowHidden2()" class="glyphicon glyphicon-search"
+                                                  aria-hidden="true"></span><a onclick="ShowHidden1()"><span
+                                    class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>菜单</a></div>
+                </div>
+            </div>
+            <!--            搜索-->
+            <div id="mobile6" style="display: none" class="input-box">
+                <div style="display: flex;align-items: center;height: 2.75rem;">
+                    <input id="search1" class="search" value=""
+                           placeholder="请输入关键词检索"><span
+                            onclick="toSearch1()">搜索</span></div>
+            </div>
+            <!--            移动端导航-->
+            <div id="mobile1" style="display: none" class="list-nav">
+                <div class="nav-txt2" onclick="window.open('/','_self')">
+                    首页
+                </div>
+                            <div id="navTxtShow140" class="nav-txt2" onmousemove="styStyle()"
+                                 onmouseout="normalImg()">
+                                <p id="pShow140"
+                                   style="display: flex;width: 100%;justify-content: space-between"
+                                > <span style="flex:1" 
+                                            onclick="window.open('/column/new/1/174?sourceType=0&navigationId=140','_self')"
+
+>招生宣传</span>
+                                    <span id="icon1140" style="display: none" class="icon-zdy icon1"
+                                          onclick="ShowHidden00(1)">
+                                        <img src="/static/images/xs1.png"
+                                             style="width:1rem;height:1rem;margin-right: .2rem">
+                                    </span>
+                                    <span id="icon2140" class="icon-zdy icon2" onclick="ShowHidden00(0)">
+                                        <img src="/static/images/xx.png"
+                                             style="width:1rem;height:1rem;margin-right: .2rem">
+                                    </span>
+                                </p>
+                                <ul class="pps" id="ulShow140"
+                                    style="display: none ;list-style: none;padding: 0 1.25rem;" class="xl-mune">
+
+                                            <li
+                                                    onclick="window.open('/redirect/url?redirectUrl=https://www.ustc.edu.cn/yxjs.htm&type=0&sourceType=0&categoryId=157&articleId=','_blank')"
+                                            >院系介绍</li>
+
+                                            <li
+                                                    onclick="window.open('/redirect/url?redirectUrl=https://gradschool.ustc.edu.cn/column/174&type=0&sourceType=0&categoryId=158&articleId=','_blank')"
+                                            >导师队伍</li>
+
+                                            <li
+                                                    onclick="window.open('/redirect/url?redirectUrl=https://ustc.gleamoe.com/videos/&type=0&sourceType=0&categoryId=159&articleId=','_blank')"
+                                            >宣传视频</li>
+                                </ul>
+                            </div>
+                            <div id="navTxtShow141" class="nav-txt2" onmousemove="styStyle()"
+                                 onmouseout="normalImg()">
+                                <p id="pShow141"
+                                   style="display: flex;width: 100%;justify-content: space-between"
+                                > <span style="flex:1"                                         onclick="window.open('/column/176?sourceType=0&navigationId=141','_self')"
+
+                                            >招生信息</span>
+                                    <span id="icon1141" style="display: none" class="icon-zdy icon1"
+                                          onclick="ShowHidden00(1)">
+                                        <img src="/static/images/xs1.png"
+                                             style="width:1rem;height:1rem;margin-right: .2rem">
+                                    </span>
+                                    <span id="icon2141" class="icon-zdy icon2" onclick="ShowHidden00(0)">
+                                        <img src="/static/images/xx.png"
+                                             style="width:1rem;height:1rem;margin-right: .2rem">
+                                    </span>
+                                </p>
+                                <ul class="pps" id="ulShow141"
+                                    style="display: none ;list-style: none;padding: 0 1.25rem;" class="xl-mune">
+                                            <li
+                                                    onclick="window.open('/column/176?sourceType=0&navigationId=142','_blank')"
+                                            >硕士招生</li>
+                                            <li
+                                                    onclick="window.open('/column/177?sourceType=0&navigationId=143','_self')"
+                                            >博士招生</li>
+                                            <li
+                                                    onclick="window.open('/column/195?sourceType=0&navigationId=144','_blank')"
+                                            >港澳台招生</li>
+                                            <li
+                                                    onclick="window.open('/column/202?sourceType=0&navigationId=148','_blank')"
+                                            >推免专栏</li>
+                                </ul>
+                            </div>
+                            <div id="navTxtShow145" class="nav-txt2" onmousemove="styStyle()"
+                                 onmouseout="normalImg()">
+                                <p id="pShow145"
+                                   style="display: flex;width: 100%;justify-content: space-between"
+                                > <span style="flex:1"                                         onclick="window.open('/column/new/2/179?sourceType=0&navigationId=145','_self')"
+
+>招生简章</span>
+                                    <span id="icon1145" style="display: none" class="icon-zdy icon1"
+                                          onclick="ShowHidden00(1)">
+                                        <img src="/static/images/xs1.png"
+                                             style="width:1rem;height:1rem;margin-right: .2rem">
+                                    </span>
+                                    <span id="icon2145" class="icon-zdy icon2" onclick="ShowHidden00(0)">
+                                        <img src="/static/images/xx.png"
+                                             style="width:1rem;height:1rem;margin-right: .2rem">
+                                    </span>
+                                </p>
+                                <ul class="pps" id="ulShow145"
+                                    style="display: none ;list-style: none;padding: 0 1.25rem;" class="xl-mune">
+                                            <li
+                                                    onclick="window.open('/column/183?sourceType=0&navigationId=146','_self')"
+                                            >硕士招生简章</li>
+                                            <li
+                                                    onclick="window.open('/column/184?sourceType=0&navigationId=147','_self')"
+                                            >博士招生简章</li>
+                                </ul>
+                            </div>
+                                <div class="nav-txt2"
+                                     style="list-style: none"
+                                     onclick="window.open('/redirect/url?redirectUrl=https://xspt.ustc.edu.cn/logon&type=0&sourceType=0&categoryId=156&articleId=','_blank')"
+
+                                >研究生报考服务系统</div>
+                                <div class="nav-txt2"
+
+                                            onclick="window.open('/column/187?sourceType=0&navigationId=150','_blank')"
+                                >文档下载</div>
+
+            </div>
+        </div>
+        <!--        <hr>-->
+        <!--        轮播图-->
+        <div class="Shuffling-figure" style="height: 11.5rem">
+            <div class="swiper" style="height: 11.5rem">
+                <div class="swiper-wrapper">
+                            <div class="swiper-slide"
+                                        onclick="window.open('/column/','')"
+
+                            >
+                                <img style="width: 100%;height: 11.5rem;object-fit: cover"
+                                     src=" /static/upload/slide/432b10b34ea54e8986976614b4ce1e26.jpg"
+                                     alt="">
+                            </div>
+                            <div class="swiper-slide"
+                                        onclick="window.open('/column/','')"
+
+                            >
+                                <img style="width: 100%;height: 11.5rem;object-fit: cover"
+                                     src=" /static/upload/slide/8f8a3061a75541c1ade47a317f87c2fa.jpg"
+                                     alt="">
+                            </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+        <!--        公告新闻-->
+        <div class="announcement-box">
+            <div class="w announcementFlex myDIV">
+                <div class="announcement-list">
+                    <div class="new-announcement"><span class="title">通知公告</span> <span
+                                class="notice">Notice</span><span class="more"><a
+                                    href="/column/182">More</a></span></div>
+                    <div class="Img-List-box">
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/article/2850/182','_blank')"
+                                >
+                                    <div class="img">
+                                        <span class="pp">09.03</span>
+                                        <span class="pp1">2026</span>
+                                    </div>
+                                    <div class="span">
+                                            中国科学技术大学2027年推免生接收办法
+                                    </div>
+                                </div>
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/article/2849/182','_blank')"
+                                >
+                                    <div class="img">
+                                        <span class="pp">09.03</span>
+                                        <span class="pp1">2026</span>
+                                    </div>
+                                    <div class="span">
+                                            中国科学技术大学2027年推免生推荐办法
+                                    </div>
+                                </div>
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/article/2848/182','_blank')"
+                                >
+                                    <div class="img">
+                                        <span class="pp">09.03</span>
+                                        <span class="pp1">2026</span>
+                                    </div>
+                                    <div class="span">
+                                            中国科学技术大学2027年工程硕博士培养改革专项推免生预选拔...
+                                    </div>
+                                </div>
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/redirect/url?redirectUrl=https://www.eitech.edu.cn/2026/0831/c457a9443/page.htm&type=1&sourceType=1&categoryId=182&articleId=2846','_blank')"
+                                >
+                                    <div class="img">
+                                        <span class="pp">08.31</span>
+                                        <span class="pp1">2026</span>
+                                    </div>
+                                    <div class="span">
+                                            中国科学技术大学与宁波东方理工大学2027年招收免试直博生预...
+                                    </div>
+                                </div>
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/redirect/url?redirectUrl=https://giec.cas.cn/yjsjy2016/zs2016/sszsxx/202607/t20260729_8256860.html&type=1&sourceType=1&categoryId=182&articleId=2845','_blank')"
+                                >
+                                    <div class="img">
+                                        <span class="pp">07.29</span>
+                                        <span class="pp1">2026</span>
+                                    </div>
+                                    <div class="span">
+                                            能源科学与技术学院（广州能源所）关于2027年暂停招收地质学...
+                                    </div>
+                                </div>
+
+                    </div>
+                </div>
+                <div class="announcement-list announcement-list1">
+                    <div class="new-announcement"><span class="title">新闻动态</span> <span
+                                class="notice">News</span><span
+                                class="more"><a href="/column/181">More</a></span></div>
+                    <div class="Img-List-box">
+
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/article/2847/181','_blank')"
+                                >
+                                    <div class="img img2">
+                                        <span class="pp">09.01  </span>
+                                        <span class="pp1">2026</span>
+                                    </div>
+                                    <div class="span">                                             我校召开2027年推免工作布置会议
+                                        </div>
+                                </div>
+
+
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/article/2827/181','_blank')"
+                                >
+                                    <div class="img img2">
+                                        <span class="pp">03.18  </span>
+                                        <span class="pp1">2026</span>
+                                    </div>
+                                    <div class="span">                                             我校召开2026年研究生招生复试工作会议
+                                        </div>
+                                </div>
+
+
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/redirect/url?redirectUrl=https://news.ustc.edu.cn/info/1055/93544.htm&type=1&sourceType=1&categoryId=181&articleId=2817','_blank')"
+                                >
+                                    <div class="img img2">
+                                        <span class="pp">12.22  </span>
+                                        <span class="pp1">2025</span>
+                                    </div>
+                                    <div class="span">                                             中国科大考点2026年全国硕士研究生招生考试顺利举行
+                                        </div>
+                                </div>
+
+
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/article/2806/181','_blank')"
+                                >
+                                    <div class="img img2">
+                                        <span class="pp">10.23  </span>
+                                        <span class="pp1">2025</span>
+                                    </div>
+                                    <div class="span"> 
+                                            我校召开2026年硕士研究生招生考试命题工作布置暨命题安全培...
+</div>
+                                </div>
+
+
+                                <div class="list"
+                                     target="_blank"
+                                            onclick="window.open('/article/2794/181','_blank')"
+                                >
+                                    <div class="img img2">
+                                        <span class="pp">09.01  </span>
+                                        <span class="pp1">2025</span>
+                                    </div>
+                                    <div class="span">                                             我校召开2026年推免工作布置会议
+                                        </div>
+                                </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--            招生通道-->
+        <div class="channel-box">
+            <div class="title-zs">
+                <div class="t1">招生信息</div>
+                <div class="t2">Admissions</div>
+            </div>
+            <div class="w myDIV">
+                <img src="/static/images/channel-oooo_12.jpg" alt=""
+                     onclick="window.open('/column/176')">
+                <img style="float: right" src="/static/images/channel-oooo_14.jpg" alt=""
+                     onclick="window.open('/column/177')">
+            </div>
+        </div>
+
+        <div class="big-bg-000">
+            <!--            走近科大-->
+            <div class="ka-box w myDIV">
+                <div class="go-school">
+                    <div class="kd-title">
+                        <div class="ka-t1">走近科大</div>
+                        <div class="ka-t2">Into the school</div>
+                    </div>
+                    <div class="kd-introduce-box">
+                        <div class="kd-introduce">
+                            <p style="line-height: 2;"><span style="font-family: 微软雅黑; font-size: 18px;">目前学校现有34个一级学科(含交叉学科)博士学位授予点，4个一级学科硕士学位授予点;7个博士专业学位授予点，15个硕士专业学位授予点。在国家公布的&ldquo;双一流&rdquo;建设名单中，学校入选一流大学建设高校(A类)，数学、物理学、化学、天文学、地球物理学、生物学、科学技术史、材料科学与工程、计算机科学与技术、核科学与技术、安全科学与工程共11个学科入选一流建设学科。学校有8个一级学科国家重点学科、4个独立的二级学科国家重点学科、2个国家重点(培育)学科、18个安徽省一级重点学科。</span><br /><span style="font-size: 18px; font-family: 微软雅黑;">&nbsp; &nbsp; &nbsp; &nbsp;通过学科基地的重点建设，中国科学技术大学形成了龙头学科与支撑学科、传统学科与前沿学科、 基础学科与应用学科并存、互长的良性学科生态环境，为高水平的研究生教育奠定了坚实的基础。</span></p>
+<p style="line-height: 2;">&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-nav">
+                    <div class="right-nav-box">
+                        <div class="positioning1">
+                            <div class="img-positioning"></div>
+                        </div>
+                        <div class="positioning2 positioning-common"
+                             onclick="window.open('https://gradschool.ustc.edu.cn/column/174')">
+                            <img class="icon-jlt" src="/static/images/icon-jlt_01.png" alt="">
+                            <div class="name-icon">导师队伍</div>
+                        </div>
+                        <div class="positioning3 positioning-common" onclick="window.open('https://www.ustc.edu.cn/yxjs.htm')">
+                            <img class="icon-jlt" src="/static/images/icon-jlt_02.png" alt="">
+                            <div class="name-icon">院系介绍</div>
+                        </div>
+                        <div class="positioning4 positioning-common" onclick="window.open('http://qybx.ustc.edu.cn/')">
+                            <img class="icon-jlt" src="/static/images/icon-jlt_03.png" alt="">
+                            <div class="name-icon">所系结合</div>
+                        </div>
+                        <div class="positioning5 positioning-common" onclick="window.open('https://xspt.ustc.edu.cn/logon')">
+                            <img class="icon-jlt" src="/static/images/icon-jlt_04.png" alt="">
+                            <div class="name-icon">预面试</div>
+                        </div>
+                        <div class="positioning6 positioning-common" onclick="window.open('https://xspt.ustc.edu.cn/')">
+                            <img class="icon-jlt" src="./static/images/icon-jlt_05.png" alt="">
+                            <div class="name-icon">研究生报考服务系统</div>
+                        </div>
+                        <div class="positioning7 positioning-common"
+                             onclick="window.open('https://ustc.gleamoe.com/videos/')">
+                            <img class="icon-jlt" src="/static/images/icon-jlt_05.png" alt="">
+                            <div class="name-icon">宣传视频</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="english"></div>
+            </div>
+            <!--            政策法规    文件喜爱在-->
+            <div class="policy-box w myDIV">
+                <div class="policy common-sty">
+                    <div class="policy-title"><span class="title">政策法规</span> <span class="notice">Rules</span><span
+                                class="more"><a href="/column/190">More</a></span></div>
+                    <div class="list-box-sty">
+                                    <div class="policyList"
+                                         target="_blank"
+                                                onclick="window.open('/redirect/url?redirectUrl=https://yz.chsi.com.cn/kyzx/jybzc/202109/20210903/2105941509.html&type=1&sourceType=1&categoryId=190&articleId=1700','_blank')"
+                                         title="2022年全国硕士研究生招生工作管理规定"
+                                    >
+                                        <div class="icon"></div>
+                                        <div class="data-list">
+                                            <div class="p1">03</div>
+                                            <div class="span">2021-09</div>
+                                        </div>
+                                        <div class="message">
+                                                2022年全国硕士研究生招生工作管理规定
+                                        </div>
+                                    </div>
+                                    <div class="policyList"
+                                         target="_blank"
+                                                onclick="window.open('/redirect/url?redirectUrl=https://www.spp.gov.cn/spp/xwfbh/wsfbh/201909/t20190903_430901.shtml&type=1&sourceType=1&categoryId=190&articleId=1702','_blank')"
+                                         title="关于办理组织考试作弊等刑事案件适用法律若干问题的解释"
+                                    >
+                                        <div class="icon"></div>
+                                        <div class="data-list">
+                                            <div class="p1">03</div>
+                                            <div class="span">2019-09</div>
+                                        </div>
+                                        <div class="message">
+                                                关于办理组织考试作弊等刑事案件适用法律若...
+                                        </div>
+                                    </div>
+                                    <div class="policyList"
+                                         target="_blank"
+                                                onclick="window.open('/article/1704/190','_blank')"
+                                         title="中华人民共和国刑法修正案（九）节选"
+                                    >
+                                        <div class="icon"></div>
+                                        <div class="data-list">
+                                            <div class="p1">17</div>
+                                            <div class="span">2018-12</div>
+                                        </div>
+                                        <div class="message">
+                                                中华人民共和国刑法修正案（九）节选
+                                        </div>
+                                    </div>
+
+                    </div>
+                </div>
+                <div class="file common-sty">
+                    <img class="img" src="../static/images/wjxz-pic.png" alt="">
+                    <div class="policy-title">
+
+                        <span class="title title1">文档下载</span>
+                        <span class="notice notice1">Download</span><span class="more  more1">
+                                             <a href="/column/189">More</a>
+                            </span></div>
+                    <div class="list-box-sty2">
+
+                                <div class="policyList2"
+                                     target="_blank"
+                                            onclick="window.open('/redirect/url?redirectUrl=/static/upload/article/file/1782703315753/99b5b672965a43c5bc5ef31e5a81c5a9.doc&type=1&sourceType=1&categoryId=189&articleId=2841','_blank')"
+                                     title="科研经费博士研究生培养协议书"
+                                >
+                                    <div class="icon"></div>
+                                    <div class="message">
+                                            科研经费博士研究生培养协议书
+                                    </div>
+                                    <img class="xz" src="../static/img/xiazai.png">
+                                </div>
+
+                                <div class="policyList2"
+                                     target="_blank"
+                                            onclick="window.open('/redirect/url?redirectUrl=/static/upload/article/file/1775029026555/b2a013ac06e24a30bd3bbc449a27876a.pdf&type=1&sourceType=1&categoryId=189&articleId=2830','_blank')"
+                                     title="教育部安徽高等研究院2026年校企联合人才培养和科研攻关项目专项计划介绍【学生层面】"
+                                >
+                                    <div class="icon"></div>
+                                    <div class="message">
+                                            教育部安徽高等研究院2026年校企联合人才培养和科...
+                                    </div>
+                                    <img class="xz" src="../static/img/xiazai.png">
+                                </div>
+
+                                <div class="policyList2"
+                                     target="_blank"
+                                            onclick="window.open('/redirect/url?redirectUrl=/static/upload/article/file/1774234213838/2b0afa87977042bb996a252c7d48ebdb.docx&type=1&sourceType=1&categoryId=189&articleId=2823','_blank')"
+                                     title="教育部安徽高等研究院专项拟录取全日制学生：需签署《知情告知书》"
+                                >
+                                    <div class="icon"></div>
+                                    <div class="message">
+                                            教育部安徽高等研究院专项拟录取全日制学生：需签署《...
+                                    </div>
+                                    <img class="xz" src="../static/img/xiazai.png">
+                                </div>
+
+                                <div class="policyList2"
+                                     target="_blank"
+                                            onclick="window.open('/redirect/url?redirectUrl=/static/upload/article/file/1769253530759/764614f0e2b141799d0d589a4349107d.doc&type=1&sourceType=1&categoryId=189&articleId=2820','_blank')"
+                                     title="“硕博连读”生硕士培养院系转出意见表"
+                                >
+                                    <div class="icon"></div>
+                                    <div class="message">
+                                            “硕博连读”生硕士培养院系转出意见表
+                                    </div>
+                                    <img class="xz" src="../static/img/xiazai.png">
+                                </div>
+
+                                <div class="policyList2"
+                                     target="_blank"
+                                            onclick="window.open('/redirect/url?redirectUrl=/static/upload/article/file/1765245838337/d6ab22207cfa426091f04daab6de4506.docx&type=1&sourceType=1&categoryId=189&articleId=2811','_blank')"
+                                     title="北京中关村学院、上海创智学院、深圳河套学院拟录取学生：需签署《导师同意函》"
+                                >
+                                    <div class="icon"></div>
+                                    <div class="message">
+                                            北京中关村学院、上海创智学院、深圳河套学院拟录取学...
+                                    </div>
+                                    <img class="xz" src="../static/img/xiazai.png">
+                                </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="score">
+            </div>
+        </div>
+        <div id="qr" style="position: relative; display: none" onclick="changeClose()">
+            <div class="fixde">
+                <img id="qrone" style="margin-top:35vh;width: 5.9rem; " class="qr-code-ewm">
+            </div>
+        </div>
+        <!--            底部-->
+        <div class="footer footer000">
+            <div class=" footer-box">
+                <div class="footer-logo">
+                    <img class="mg-btm" src="/static/images/logo1.png" alt="">
+                </div>
+                <div class="Qr-code">
+                    <div>
+                        <div style="margin-bottom: 5px" class="footer-yjy"
+                             onclick="window.open('https://yz1.ustc.edu.cn/')">旧版主页
+                        </div>
+                        <div class="footer-yjy" onclick="window.open('http://gradschool.ustc.edu.cn/')">研究生院主页</div>
+                    </div>
+                    <div class="icon-footer">
+                        <div class=" elves-figure-common"
+                             onclick="window.open('https://m.weibo.cn/u/2680554825?jumpfrom=weibocom')">
+                            <img class="elves-figure333" src="/static/images/icon-pic-xxxxx_1.png" alt="">
+                        </div>
+                        <div class=" elves-figure-common"
+                             onclick="window.open('https://m.bilibili.com/space/562490465')">
+                            <img class="elves-figure333" src="/static/images/icon-pic-xxxxx_2.png" alt="">
+                        </div>
+                        <div class=" elves-figure-common" onclick="changeOpen(1)">
+                            <img class="elves-figure333" src="/static/images/icon-pic-xxxxx_3.png" alt="">
+                        </div>
+                        <div class=" elves-figure-common" onclick="changeOpen(2)">
+                            <img class="elves-figure333" src="/static/images/icon-pic-xxxxx_4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="footnotes-txt">地址：安徽合肥金寨路96号 &nbsp;&nbsp;<span
+                            class="span1">E-mail：yzb@ustc.edu.cn</span>
+                </div>
+                <div class="footnotes-txt" style="margin-bottom: .75rem">TEL：+86-551-63600532、63602925&nbsp;&nbsp;<span
+                            class="span1">邮编：230026</span></div>
+                <div class="copyright"> copyright © 2007-2022 中国科学技术大学研究生院 校学位办 All Rights Reserved</div>
+            </div>
+        </div>
+        <script>
+        </script>
+    </div>
+    <script id="eda_bar_script" src="https://answer.eol.cn/school/pc/school4312.js"></script>
+    </body>
+    <script>
+        (function ($) {
+            var InitPage = {};
+            // 导航菜单下拉
+            InitPage.navSlide = function () {
+                var navItem = $('#nav').find('.nav-txt');
+
+                navItem.hover(function () {
+                    $(this).find('ul')
+                        .stop(true, true)
+                        .slideDown('fast', 'linear');
+                }, function () {
+                    $(this).find('ul')
+                        .stop(true, true)
+                        .slideUp('fast', 'linear');
+                });
+
+                return this
+            };
+
+            InitPage.init = function () {
+                this.navSlide()
+                    .initLink();
+            };
+
+            InitPage.initLink = function () {
+                $('body').on('click', '*[data-link]', function (e) {
+                    e.stopPropagation();
+                    var url = $(this).attr('data-link');
+                    if (!!url) {
+                        if ($(this).attr('target') === '_blank') {
+                            window.open(url, '_blank');
+                        } else {
+                            location.href = url;
+                        }
+                    }
+                });
+                return this
+            };
+
+            InitPage.init();
+        })(jQuery);
+
+        (function ($) {
+            var InitPage = {};
+            // 导航菜单下拉
+            InitPage.navSlide = function () {
+                var navItem = $('#mobile1').find('.nav-txt');
+
+                navItem.hover(function () {
+                    $(this).find('ul')
+                        .stop(true, true)
+                        .slideDown('fast', 'linear');
+                }, function () {
+                    $(this).find('ul')
+                        .stop(true, true)
+                        .slideUp('fast', 'linear');
+                });
+
+                return this
+            };
+
+            InitPage.init = function () {
+                this.navSlide()
+                    .initLink();
+            };
+
+            InitPage.initLink = function () {
+                $('body').on('click', '*[data-link]', function (e) {
+                    e.stopPropagation();
+                    var url = $(this).attr('data-link');
+                    if (!!url) {
+                        if ($(this).attr('target') === '_blank') {
+                            window.open(url, '_blank');
+                        } else {
+                            location.href = url;
+                        }
+                    }
+                });
+                return this
+            };
+
+            InitPage.init();
+        })(jQuery);
+
+
+        function linkUrl(link, categoryId) {
+            let url = encodeURIComponent(encodeURIComponent(link))
+            console.log(url)
+            window.open('/redirect/url?redirectUrl=' + url + '&type=0&sourceType=1&categoryId=' + categoryId + '&articleId=')
+        }
+
+        //提示框
+        function disp_alert() {
+            alert("网站建设中")
+        }
+
+        var ctx = "";
+        $("#search").keypress(function (e) {
+            if (e.which == 13) {
+                toSearch();
+            }
+        });
+
+        function toSearch() {
+            var words = document.getElementById("search").value;
+            console.log(words)
+            window.location.href = "/search?keyword=" + encodeURI(words)
+        }
+
+        $("#search1").keypress(function (e) {
+            if (e.which == 13) {
+                toSearch1();
+            }
+        });
+
+        function toSearch1() {
+            var words = document.getElementById("search1").value;
+            window.location.href = "/search?keyword=" + encodeURI(words)
+        }
+
+        // 导航栏下拉
+        function styStyle() {
+            var xlcd = document.getElementById("xlcd")
+            if (xlcd != null) {
+                xlcd.style.display = "block"
+            }
+
+        }
+
+        function normalImg() {
+            var xlcd = document.getElementById("xlcd")
+            if (xlcd != null) {
+                xlcd.style.display = "none"
+            }
+        }
+
+        // 底部二维码
+        /* var Moveout1 = document.getElementById("Moveout1");
+         var Moveout2 = document.getElementById("Moveout2");*/
+        var Moveout3 = document.getElementById("Moveout3");
+        var Moveout4 = document.getElementById("Moveout4");
+        var content = document.getElementById("content");
+
+        //鼠标移入显示
+        Moveout3.onmouseover = function () {
+            content.style.left = "145px";
+            content.src = '/static/images/ma1.png'
+            content.style.display = "block";
+        }
+
+        function Moveoutsover3() {
+            content.style.display = "block";
+        }
+
+        //鼠标移出隐藏
+        Moveout3.onmouseout = function () {
+            content.style.display = "none";
+        }
+
+        function MoveoutSout3() {
+            content.style.display = "none";
+        }
+
+        //分享到微信的二维码
+        var path = document.location.href;
+        var picture = $("#qrcode").qrcode({
+            text: path, //设置二维码内容
+            render: "canvas", //设置渲染方式
+            width: 100, //设置宽度,默认生成的二维码大小是 256×256
+            height: 100, //设置高度
+            typeNumber: -1, //计算模式
+            background: "#ffffff", //背景颜色
+            foreground: "#000000" //前景颜色
+        });
+
+        // 底部二维码
+        var Moveout6 = document.getElementById("Moveout6");
+        var qrcode = document.getElementById("qrcode");
+        //鼠标移入显示
+        if (Moveout6 != null) {
+            Moveout6.onmouseover = function () {
+                /*qrcode.style.left = "-15px";
+                qrcode.style.background = "url(\"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                /static/images/Qr-code-ewm-000.png\")"*/
+                qrcode.style.display = 'flex'
+                qrcode.style.justifyContent = 'center'
+                qrcode.style.alignItems = 'center'
+                qrcode.style.width = '120px'
+                qrcode.style.height = '120px'
+                qrcode.style.backgroundColor = '#fff'
+                qrcode.style.boxShadow = '0 2px 4px 0px #dfe1ea'
+                qrcode.style.border = '5px'
+                console.log(1);
+
+            }
+
+            function Moveoutsover6() {
+                qrcode.style.display = "block";
+            }
+
+            //鼠标移出隐藏
+            Moveout6.onmouseout = function () {
+                qrcode.style.display = "none";
+            }
+
+            function MoveoutSout6() {
+                qrcode.style.display = "none";
+            }
+        }
+
+
+
+        // 监听页面的滚动事件，导航栏切换
+        // window.addEventListener("scroll", function (e) {
+        // var mychar = document.getElementById("had");
+        // var mychar1 = document.getElementById("listSy")
+        // // 获取滚动的百分比
+        // // https://stackoverflow.com/questions/2387136/cross-browser-method-to-determine-vertical-scroll-percentage-in-javascript/2387222#2387222
+        // var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+        // if (scrollPercentage > 0.05) {
+        //     mychar.style.height = "90px";
+        //     mychar.style.position = "fixed";
+        //     mychar1.style.lineHeight = "80px"
+        // } else {
+        //     mychar.style.height = "120px";
+        //     mychar.style.position = "relative";
+        //     mychar1.style.lineHeight = "70px"
+        // }
+        // });
+
+        if (window.location.pathname == '/') {
+            var arr = document.getElementsByClassName('navs')
+            var num = 0
+            arr[num].style.color = '#ffd87a'
+            arr[num].style.fontWeight = 'bold'
+            arr[num].style.borderTop = '5px solid #ffd87a'
+            arr[num].style.backgroundColor = '#5b96ee'
+        }
+
+        function GetQueryString(name) {
+            let reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)')
+            let r = window.location.search.substr(1).match(reg) // search,查询？后面的参数，并匹配正则
+            if (r != null) {
+                return unescape(r[2])
+            }
+            return null
+        }
+
+        $(document).ready(function () {
+            //执行代码
+            var arr = document.getElementsByClassName('navs')
+            var num;
+            if (GetQueryString('num')) {
+                num = +GetQueryString('num') + 1
+                arr[num].style.color = '#ffd87a'
+                arr[num].style.fontWeight = 'bold'
+                arr[num].style.borderTop = '5px solid #ffd87a'
+                arr[num].style.backgroundColor = '#5b96ee'
+            }
+        })
+    </script>
+    <script type="text/javascript">
+        function handleClick() {
+            var ctx = ""
+            console.log(ctx);
+            var url = ctx + '/?num=-1'
+            window.open(url, '_self')
+            var arr = document.getElementsByClassName('navs')
+            var num = 0
+            arr[num].style.color = '#ffd87a'
+            arr[num].style.fontWeight = 'bold'
+            arr[num].style.borderTop = '5px solid #ffd87a'
+            arr[num].style.backgroundColor = '#5b96ee'
+        }
+
+        function changeOpen(type) {
+            var qr = document.getElementById("qr");
+            var qrone = document.getElementById("qrone");
+            if (qr != null) {
+                if (qr.style.display == "none") {
+                    qr.style.display = "block";
+                } else {
+                    qr.style.display = "none"
+                }
+                if (type == 1) {
+                    qrone.src = '/static/images/ma1.png'
+                } else {
+                    qrone.src = '/static/images/douyin.png'
+                }
+            }
+
+        }
+
+        function changeClose() {
+            var qr = document.getElementById("qr");
+            if (qr != null) {
+                qr.style.display = "none"
+            }
+        }
+
+        // 导航栏下拉
+        function styStyle1(id, num) {
+            for (var i = 0; i < num + 1; i++) {
+                var open = document.getElementById("open" + i)
+                if (open != null) {
+                    if (id == i) {
+
+                        open.style.display = "block"
+
+                    } else {
+                        open.style.display = "none"
+
+                    }
+                }
+            }
+        }
+
+        function normalImg1(id) {
+            var open = document.getElementById("open" + id)
+            if (open != null) {
+                open.style.display = "none"
+            }
+
+        }
+    </script>
+    <script>
+
+        // 招生信息展开列表
+        let tabStaly = true
+
+
+        function openTop(columnId, child, topIndex) {
+
+            var xs2 = document.getElementById("xs2");
+            var show3 = document.getElementById("show3")
+            var show4 = document.getElementById("show4")
+            var show1 = document.getElementById("click12" + columnId)
+            var xs1 = document.getElementById("xs1" + columnId);
+            var show2 = document.getElementById("an123" + columnId)
+
+
+            // 点击第一次 => 显示
+            if (tabStaly) {
+                tabStaly = false
+                show2.style.display = "block";
+                xs1.style.display = "block"
+                xs2.style.display = "none"
+                show1.classList.add("hoverActive");
+                show3.classList.remove("hoverActive");
+                show4.classList.remove("hoverActive");
+            } else {
+                tabStaly = true
+                show2.style.display = "none"
+                xs1.style.display = "block"
+                xs2.style.display = "none"
+                show1.classList.add("hoverActive");
+                show3.classList.remove("hoverActive");
+                show4.classList.remove("hoverActive");
+
+            }
+            if (child != null) {
+                if (child.type == 3) {
+                    window.open(child.link, "_blank")
+                } else {
+                    window.open("/column/" + child.id + "?num=" + topIndex, "_self")
+                }
+            }
+
+        }
+
+
+        // 展开博士招生
+        let tabStaly4 = true
+
+        function ShowHidden4(childId) {
+            var mobile4 = document.getElementById("mobile4" + childId);
+            var li2 = document.getElementsByClassName("li2" + childId)[0]
+            if (tabStaly4) {
+                var icon21 = document.getElementById("icon21" + childId)
+                var icon22 = document.getElementById("icon22" + childId)
+                tabStaly4 = false
+                mobile4.style.display = "block";
+                //li2.style.position = "inherit";
+                //li2.style.paddingLeft = "40rem"
+                li2.style.margin = "0";
+                li2.style.padding = "0 .75rem"
+                li2.style.background = "#eff7ff"
+                //li2.style.paddingRight = "40rem"
+                icon21.style.display = "none"
+                icon22.style.display = "block"
+            } else {
+                var icon22 = document.getElementById("icon22" + childId)
+                tabStaly4 = true
+                mobile4.style.display = "none";
+                //li2.style.position = "relative";
+                li2.style.padding = "0 .75rem"
+                //li2.style.margin = "0 40rem";
+                li2.style.background = "none"
+                icon22.style.display = "none"
+                var icon21 = document.getElementById("icon21" + childId)
+                icon21.style.display = "block"
+            }
+        }
+
+
+        // 展开招生信息列表
+        let tabStaly3 = true
+
+        function ShowHidden3() {
+            var iconZdys = document.getElementsByClassName("icon-zdys")[0]
+            var iconZdys1 = document.getElementsByClassName("icon-zdys1")[0]
+            var mobile3 = document.getElementById("mobile3");
+            var rightFloat = document.getElementsByClassName("right-float")[0]
+            if (tabStaly3) {
+                tabStaly3 = false
+                mobile3.style.display = "block"
+                rightFloat.style.color = "#6ba1f3"
+                iconZdys.style.display = "none"
+                iconZdys1.style.display = "block"
+            } else {
+                tabStaly3 = true
+                mobile3.style.display = "none";
+                rightFloat.style.color = "#9fa0a2"
+                iconZdys.style.display = "block"
+                iconZdys1.style.display = "none"
+            }
+        }
+
+        // 移动端搜索框
+        let tabStaly6 = true
+
+        function ShowHidden2() {
+            var mobile6 = document.getElementById("mobile6")
+            if (mobile6.style.display == "block") {
+                mobile6.style.display = "none"
+            } else {
+                mobile6.style.display = "block"
+            }
+        }
+
+        // 移动端菜单显示隐藏
+        let tabStaly1 = true
+
+        function ShowHidden1() {
+            var mobile1 = document.getElementById("mobile1")
+            var oVideo = document.getElementById('video')
+            if (tabStaly1) {
+                tabStaly1 = false
+                mobile1.style.display = "block"
+                if (oVideo) {
+                    var divClass = document.getElementById('divClass')
+                    divClass.style.display = "block"
+                    divClass.style.height = +oVideo.scrollHeight + 'px'
+                    oVideo.style.display = "none"
+                }
+            } else {
+                tabStaly1 = true
+                mobile1.style.display = "none"
+                if (oVideo) {
+                    var divClass = document.getElementById('divClass')
+                    oVideo.style.display = "block"
+                    divClass.style.display = "none"
+                }
+            }
+        }
+
+        var type1 = 0
+
+        function ShowHidden00(type) {
+            console.log(33)
+            type1 = type
+        }
+
+        $('.icon-zdy').on('click', function () {
+            console.log(type1);
+            if (!type1) {
+                $(this).parent().parent('.nav-txt2').addClass("pshowss").siblings().removeClass("pshowss");
+            } else {
+                $(this).parent().parent('.nav-txt2').removeClass("pshowss")
+            }
+        })
+
+    </script>
+    <script>
+        var mySwiper = new Swiper('.swiper', {
+            autoplay: true,//可选选项，自动滑动
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        })
+        // 轮播图
+        // var mySwiper1 = new Swiper('.swiper', {
+        //     direction: 'horizontal', // 水平切换选项
+        //     loop: true, // 循环模式选项
+        //     // 如果需要分页器
+        //     pagination: {
+        //         el: '.swiper-pagination',
+        //     },
+        //     //自动轮播
+        //     autoplay: {
+        //
+        //         delay: 5000,
+        //
+        //         disableOnInteraction: false,
+        //
+        //     },
+        //     // // 如果需要前进后退按钮
+        //     // navigation: {
+        //     //     nextEl: '.swiper-button-next',
+        //     //     prevEl: '.swiper-button-prev',
+        //     // },
+        //     //
+        //     // 如果需要滚动条
+        //     scrollbar: {
+        //         el: '.swiper-scrollbar',
+        //     },
+        // })
+    </script>
+
+    </html>

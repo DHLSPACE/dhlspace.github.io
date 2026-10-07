@@ -1,0 +1,959 @@
+﻿<!DOCTYPE html>
+
+
+<!--[if IE 7 ]>
+<html class="ie7"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>2026年-武汉大学研究生院</title><meta name="pageType" content="2">
+<meta name="pageTitle" content="2026年">
+
+
+<META Name="SiteName" Content="武汉大学研究生院" />
+<META Name="SiteDomain" Content="gs.whu.edu.cn" />
+<META Name="ColumnName" Content="2026年" />
+
+    
+    <meta name="description" content="" />
+    <link href="../../css/bootstrap.css" rel="stylesheet">
+    <!--轮播图样式以及设置-->
+    <link href="../../js/royalslider/css/royalslider.css" rel="stylesheet">
+    <script src="../../js/jquery-1.9.1.min.js"></script>
+    <script src="../../js/royalslider/js/jquery.royalslider.min.js"></script>
+    <!--轮播图样式以及设置结束-->
+    <script src="../../js/main.js"></script>
+    <link href="../../css/main.css" rel="stylesheet">
+    <link href="../../css/moblie.css" rel="stylesheet">
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230747f475750515742000300014351 -->
+<link rel="stylesheet" type="text/css" href="../../list3.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(2521,'/list3.jsp',-1,1602338758)</script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="container">
+                <a href="../../index.htm" class="logo"><img src="../../images/logo.png"></a>
+                <div class="header-link">
+                    <div class="container">
+        
+                        <ul class="clearfix top-link"><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script>
+<li>
+    <a href="https://www.whu.edu.cn/" target="_blank"> 武大主页</a>
+</li>                 
+<li>
+    <a href="mailto:yjsy@whu.edu.cn" target="_blank"> 院长信箱</a>
+</li>                 
+</ul>
+        
+                        <div class="change">
+
+                            <a href="https://en.whu.edu.cn/graduate/" target="_blank" style="color:#b2cdf0;">English</a>
+                        
+
+</div>
+        
+                        <div class="search">
+                            <img src="../../images/search-anliu2.png" class="search_anliu">
+                            <div class="search1"><!-- 3.1.3版本 -->
+
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script><script language="javascript" src="/system/resource/vue/vue.js"></script><script language="javascript" src="/system/resource/vue/bluebird.min.js"></script><script language="javascript" src="/system/resource/vue/axios.js"></script><script language="javascript" src="/system/resource/vue/polyfill.js"></script><script language="javascript" src="/system/resource/vue/token.js"></script><LINK href="/system/resource/vue/static/element/index.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/vue/static/element/index.js"></script><script language="javascript" src="/system/resource/vue/static/public.js"></script><script language="javascript" src="/system/resource/openapp/search/js/containsHtmlTags.js"></script><script language="javascript" src="/system/resource/openapp/search/layui/layui.js"></script><style>
+    #appu2 .qwss{
+        width: 74%;
+    padding-left: 2%;
+    height: 32px;
+    background: #fff;
+    border: 2px solid #0d2b58;
+    outline: none;float: left;}
+    #appu2 .tj{
+        width: 26%;
+    height: 32px;
+    background: #0d2b58;
+    vertical-align: bottom;
+    color: #fff;
+    font-size: 16px;
+    outline: none;}
+</style>
+<div id="divu2"></div>
+<script type="text/html" id="htmlu2">
+    <div id="appu2">
+        <div v-if="!isError">
+            <input type="text" class="qwss" placeholder="全文搜索" autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit">
+            <input class="tj" name="submit_button" type="button" value="提交" v-on:click="onSubmit()"/>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu2").html($("#htmlu2").text());
+</script>
+<script>
+    var appOwner = "1602338758";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu2",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script>
+
+<script>
+   var appElementu2 = document.querySelector("#appu2");
+   if (appElementu2 && appElementu2.__vue__) {
+
+   } else {
+      $("#divu2").html($("#htmlu2").text());
+      var appOwner = "1602338758";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou2 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu2(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu2();
+        }
+      };
+
+      function onSubmitu2(e) {
+        queryInfou2.query.keyWord= $("#appu2  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou2.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+</script></div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            
+        </div>
+    </div>
+
+    <!--  网站导航开始 -->
+    <div class="nav">
+        <div class="container">
+
+            <ul class="daohang clearfix">
+                    <li>
+        <a href="../../index.htm">首页</a>
+     </li>
+    <li>
+        <a href="../../jgjj/fzgk.htm">机构简介</a>
+        <ul class="submenu">
+                 <li><a href="../../jgjj/fzgk.htm">发展概况</a></li>
+                 <li><a href="../../jgjj/xrld.htm">现任领导</a></li>
+                 <li><a href="../../jgjj/jgzn.htm">机构职能</a></li>
+                 <li><a href="../../jgjj/lxfs.htm">联系方式</a></li>
+        </ul>
+     </li>
+    <li>
+        <a href="../sszs/zsjz.htm">招生工作</a>
+        <ul class="submenu">
+                 <li><a href="../sszs/a2026n.htm">硕士招生</a></li>
+                 <li class="active"><a href="a2026n.htm">博士招生</a></li>
+                 <li><a href="../gatzs.htm">港澳台招生</a></li>
+        </ul>
+     </li>
+    <li>
+        <a href="../../pygz/xjgl.htm">培养工作</a>
+        <ul class="submenu">
+                 <li><a href="../../pygz/xjgl.htm">学籍管理</a></li>
+                 <li><a href="../../pygz/jxgl.htm">教学管理</a></li>
+                 <li><a href="../../pygz/xsky.htm">学术科研</a></li>
+                 <li><a href="https://oir.whu.edu.cn/gzzd/xshwxxgl.htm">国际交流</a></li>
+                 <li><a href="../../pygz/zyxwpy.htm">专业学位培养</a></li>
+                 <li><a href="../../pygz/cjwtjd.htm">常见问题解答</a></li>
+        </ul>
+     </li>
+    <li>
+        <a href="../../xwgz/xwsqd.htm">学位工作</a>
+        <ul class="submenu">
+                 <li><a href="../../xwgz/xwsqd.htm">学位授权点</a></li>
+                 <li><a href="../../xwgz/dsdw.htm">导师队伍</a></li>
+                 <li><a href="../../xwgz/xwsy.htm">学位授予</a></li>
+                 <li><a href="../../xwgz/zyxw.htm">专业学位</a></li>
+        </ul>
+     </li>
+    <li>
+        <a href="../../zlyzyxw/xwdpg.htm">质量与专业学位</a>
+        <ul class="submenu">
+                 <li><a href="../../zlyzyxw/xwdpg.htm">学位点评估</a></li>
+                 <li><a href="../../zlyzyxw/lwcj.htm">论文抽检</a></li>
+                 <li><a href="../../zlyzyxw/jxpj.htm">绩效评价</a></li>
+                 <li><a href="../../zlyzyxw/zljk.htm">质量监控</a></li>
+                 <li><a href="../../zlyzyxw/zyfzgz.htm">职业发展跟踪</a></li>
+                 <li><a href="../../zlyzyxw/yjsjyfzzlbg.htm">研究生教育发展质量报告</a></li>
+                 <li><a href="../../zlyzyxw/xwsqdjsbg.htm">学位授权点建设报告</a></li>
+        </ul>
+     </li>
+    <li>
+        <a href="../../zfjs/zfjswj.htm">作风建设</a>
+        <ul class="submenu">
+                 <li><a href="../../zfjs/zfjswj.htm">作风建设文件</a></li>
+                 <li><a href="../../zfjs/gzzd.htm">规章制度</a></li>
+                 <li><a href="../../zfjs/bslc.htm">办事流程</a></li>
+                 <li><a href="../../zfjs/fwckgwrysz.htm">服务窗口岗位人员设置</a></li>
+                 <li><a href="../../zfjs/tsfs.htm">投诉方式</a></li>
+                 <li><a href="../../zfjs/gzxzcymd1.htm">工作小组成员名单</a></li>
+        </ul>
+     </li>
+    <li>
+        <a href="../../djgz1.htm">党建工作</a>
+     </li>
+    <li>
+        <a href="../../xzzq/zs.htm">下载专区</a>
+        <ul class="submenu">
+                 <li><a href="../../xzzq/zs.htm">招生</a></li>
+                 <li><a href="../../xzzq/peiyang.htm">培养</a></li>
+                 <li><a href="../../xzzq/xw.htm">学位</a></li>
+                 <li><a href="../../xzzq/zh.htm">综合</a></li>
+                 <li><a href="../../xzzq/zlyzyxw.htm">质量与专业学位</a></li>
+        </ul>
+     </li>
+
+            </ul>
+
+        </div>
+    </div>
+    <!--  网站导航结束 -->
+
+
+    <!--网页轮播图开始-->
+    <div class="banner-box" style="background-color: #fff;">
+        <div class=" index-banner container">
+            <img src="../../images/banner_shadow.png" class="banner_shadow">
+            <div class="sliderContainer fullWidth clearfix">
+
+                <div id="full-width-slider" class="royalSlider heroSlider rsMinW">
+    <div class="rsContent">
+        <a href="../../images/0506.jpg" title="">
+            <img class="rsImg" src="../../images/0506.jpg" alt="" />
+        </a>
+    </div>
+
+    <div class="rsContent">
+        <a href="../../images/ddl.png" title="">
+            <img class="rsImg" src="../../images/ddl.png" alt="" />
+        </a>
+    </div>
+
+    <div class="rsContent">
+        <a href="" title="">
+            <img class="rsImg" src="../../images/banner5.jpg" alt="" />
+        </a>
+    </div>
+
+</div>
+            </div>
+        </div>
+    </div>
+    <!--网页轮播图结束-->
+
+
+    <!--内容开始-->
+
+    <div class="gray-content">
+        <div class="container clearfix">
+
+            <div class="container-content clearfix">
+
+
+                <div class="left-box col-md-3 col-sm-3 col-xs-12 ">
+                    <div class="left-nav">
+                        <h3>
+招生工作</h3>
+                        <ul><li>
+    <a href="../sszs/a2026n.htm"> 硕士招生</a>
+    <ul>
+        <li><a href="../sszs/a2027n.htm">2027年</a></li>
+        <li><a href="../sszs/a2026n.htm">2026年</a></li>
+        <li><a href="../sszs/2025n.htm">2025年</a></li>
+        <li><a href="../sszs/s2024n.htm">2024年</a></li>
+        <li><a href="../sszs/s2023n.htm">2023年</a></li>
+        <li><a href="../sszs/s2022n.htm">2022年</a></li>
+    </ul>
+</li>
+                            
+<li class="active">
+    <a href="a2026n.htm"> 博士招生</a>
+    <ul>
+        <li><a href="a2027n.htm">2027年</a></li>
+        <li class="active"><a href="a2026n.htm">2026年</a></li>
+        <li><a href="2025n.htm">2025年</a></li>
+        <li><a href="b2024n.htm">2024年</a></li>
+        <li><a href="b2023n.htm">2023年</a></li>
+        <li><a href="b2022n.htm">2022年</a></li>
+    </ul>
+</li>
+                            
+<li>
+    <a href="../gatzs.htm"> 港澳台招生</a>
+</li>
+                            
+</ul>
+                    </div>
+
+
+                </div>
+
+                <div class="right-box col-md-9 col-sm-9 col-xs-12">
+                    <div class="right-list">
+                        <div class="column">
+                            <h3>
+2026年</h3>
+                            <div class="location">        <a href="../../index.htm">首页</a> &nbsp;>&nbsp;
+        <a href="../sszs/zsjz.htm">招生工作</a> &nbsp;>&nbsp;
+        <a href="a2026n.htm">博士招生</a> &nbsp;>&nbsp;
+        <a href="a2026n.htm">2026年</a>
+</div>
+                        </div>
+                        <div class="list"><script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><ul>
+
+                                
+<li id="line_u9_0">
+                                    <a href="https://wdyz.whu.edu.cn/info/1008/7923.htm">
+                                        <p>武汉大学关于做好2026年“援疆师资博士计划”“对口支援部省合建高校计划”招生工作的通知</p>
+                                        <span>2026-05-14</span>
+                                    </a>
+                                </li>
+
+                                
+    <span id="section_u9_0" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+<li id="line_u9_1">
+                                    <a href="https://wdyz.whu.edu.cn/info/1031/7903.htm">
+                                        <p>武汉大学2026年招收攻读博士学位研究生报名公告(第三批次普通招考)</p>
+                                        <span>2026-05-14</span>
+                                    </a>
+                                </li>
+
+                                
+    <span id="section_u9_1" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+<li id="line_u9_2">
+                                    <a href="https://wdyz.whu.edu.cn/info/1008/7713.htm">
+                                        <p>武汉大学2026年第二批次博士外语水平考试公告</p>
+                                        <span>2026-04-10</span>
+                                    </a>
+                                </li>
+
+                                
+    <span id="section_u9_2" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+<li id="line_u9_3">
+                                    <a href="https://wdyz.whu.edu.cn/info/1008/7703.htm">
+                                        <p>武汉大学2026年“少数民族高层次骨干人才计划”招收攻读博士学位研究生简章</p>
+                                        <span>2026-03-27</span>
+                                    </a>
+                                </li>
+
+                                
+    <span id="section_u9_3" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+<li id="line_u9_4">
+                                    <a href="https://wdyz.whu.edu.cn/info/1008/7693.htm">
+                                        <p>武汉大学2026年招收高校思想政治理论课教师在职攻读博士学位研究生简章</p>
+                                        <span>2026-03-27</span>
+                                    </a>
+                                </li>
+
+                                
+    <span id="section_u9_4" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+<li id="line_u9_5">
+                                    <a href="https://wdyz.whu.edu.cn/info/1008/7683.htm">
+                                        <p>武汉大学2026年招收高校思想政治工作骨干在职攻读博士学位研究生简章</p>
+                                        <span>2026-03-27</span>
+                                    </a>
+                                </li>
+
+                                
+    <span id="section_u9_5" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+<li id="line_u9_6">
+                                    <a href="https://wdyz.whu.edu.cn/info/1008/7623.htm">
+                                        <p>武汉大学2026年招收攻读博士学位研究生报名公告(第二批次普通招考)</p>
+                                        <span>2026-03-19</span>
+                                    </a>
+                                </li>
+
+                                
+    <span id="section_u9_6" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+<li id="line_u9_7">
+                                    <a href="https://wdyz.whu.edu.cn/info/1008/7533.htm">
+                                        <p>各培养单位2026年普通招考选拔博士研究生实施细则</p>
+                                        <span>2025-12-31</span>
+                                    </a>
+                                </li>
+
+                                
+    <span id="section_u9_7" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+<li id="line_u9_8">
+                                    <a href="https://wdyz.whu.edu.cn/info/1031/7493.htm">
+                                        <p>武汉大学2026年博士外语水平考试公告（第一批次）</p>
+                                        <span>2025-12-15</span>
+                                    </a>
+                                </li>
+
+                                
+    <span id="section_u9_8" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+<li id="line_u9_9">
+                                    <a href="https://wdyz.whu.edu.cn/info/1008/7383.htm">
+                                        <p>武汉大学2026年招收攻读博士学位研究生报名公告(第一批次)</p>
+                                        <span>2025-11-24</span>
+                                    </a>
+                                </li>
+
+                                
+    <span id="section_u9_9" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+<li id="line_u9_10">
+                                    <a href="https://wdyz.whu.edu.cn/info/1008/7423.htm">
+                                        <p>各培养单位可招收2026年博士研究生的指导教师名单</p>
+                                        <span>2025-11-24</span>
+                                    </a>
+                                </li>
+
+                                
+    <span id="section_u9_10" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+<li id="line_u9_11">
+                                    <a href="https://wdyz.whu.edu.cn/info/1008/7353.htm">
+                                        <p>武汉大学2026年招收攻读博士学位研究生章程</p>
+                                        <span>2025-11-24</span>
+                                    </a>
+                                </li>
+
+                                
+    <span id="section_u9_11" style="display:none;"><hr style="height:1px;border:none;border-top:1px dashed #CCCCCC;"></span>
+</ul>
+
+<script>_showDynClickBatch(['dynclicks_u9_107701','dynclicks_u9_107691','dynclicks_u9_107431','dynclicks_u9_107291','dynclicks_u9_107261','dynclicks_u9_107251','dynclicks_u9_107201','dynclicks_u9_106821','dynclicks_u9_106661','dynclicks_u9_106531','dynclicks_u9_106521','dynclicks_u9_106101'],[107701,107691,107431,107291,107261,107251,107201,106821,106661,106531,106521,106101],"wbnews", 1602338758)</script></div>
+                        <div class="list-mulu">
+                        <h2>武汉大学各培养单位博士招生目录</h2><p style="color:#f50a0a">（专业目录上外语水平考试科目为1000 无表示：该专业只招收硕博连读或直博生不对外公开招考. )</p>
+                        <ul>
+
+                                
+<li id="line_u10_0">
+                                    <a href="../../info/2541/106511.htm">
+                                        <p>102外国语言文学学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_1">
+                                    <a href="../../info/2541/106501.htm">
+                                        <p>103新闻与传播学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_2">
+                                    <a href="../../info/2541/106491.htm">
+                                        <p>104信息管理学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_3">
+                                    <a href="../../info/2541/106481.htm">
+                                        <p>105经济与管理学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_4">
+                                    <a href="../../info/2541/106471.htm">
+                                        <p>106法学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_5">
+                                    <a href="../../info/2541/106461.htm">
+                                        <p>111文学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_6">
+                                    <a href="../../info/2541/106451.htm">
+                                        <p>112历史学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_7">
+                                    <a href="../../info/2541/106441.htm">
+                                        <p>113哲学学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_8">
+                                    <a href="../../info/2541/106431.htm">
+                                        <p>114艺术学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_9">
+                                    <a href="../../info/2541/106421.htm">
+                                        <p>115政治与公共管理学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_10">
+                                    <a href="../../info/2541/106411.htm">
+                                        <p>117社会学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_11">
+                                    <a href="../../info/2541/106401.htm">
+                                        <p>118马克思主义学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_12">
+                                    <a href="../../info/2541/106391.htm">
+                                        <p>201数学与统计学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_13">
+                                    <a href="../../info/2541/106381.htm">
+                                        <p>202物理科学与技术学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_14">
+                                    <a href="../../info/2541/106371.htm">
+                                        <p>203化学与分子科学学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_15">
+                                    <a href="../../info/2541/106361.htm">
+                                        <p>204生命科学学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_16">
+                                    <a href="../../info/2541/106351.htm">
+                                        <p>205资源与环境科学学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_17">
+                                    <a href="../../info/2541/106341.htm">
+                                        <p>206水利水电学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_18">
+                                    <a href="../../info/2541/106331.htm">
+                                        <p>207电气与自动化学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_19">
+                                    <a href="../../info/2541/106321.htm">
+                                        <p>208动力与机械学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_20">
+                                    <a href="../../info/2541/106311.htm">
+                                        <p>209城市设计学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_21">
+                                    <a href="../../info/2541/106301.htm">
+                                        <p>210土木建筑工程学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_22">
+                                    <a href="../../info/2541/106291.htm">
+                                        <p>211计算机学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_23">
+                                    <a href="../../info/2541/106281.htm">
+                                        <p>212电子信息学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_24">
+                                    <a href="../../info/2541/106271.htm">
+                                        <p>213遥感信息工程学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_25">
+                                    <a href="../../info/2541/106261.htm">
+                                        <p>214测绘学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_26">
+                                    <a href="../../info/2541/106251.htm">
+                                        <p>221国家网络安全学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_27">
+                                    <a href="../../info/2541/106241.htm">
+                                        <p>222人工智能学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_28">
+                                    <a href="../../info/2541/106231.htm">
+                                        <p>225地球与空间科学技术学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_29">
+                                    <a href="../../info/2541/106221.htm">
+                                        <p>226机器人学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_30">
+                                    <a href="../../info/2541/106211.htm">
+                                        <p>227集成电路学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_31">
+                                    <a href="../../info/2541/106201.htm">
+                                        <p>301泰康医学院（基础医学院）(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_32">
+                                    <a href="../../info/2541/106191.htm">
+                                        <p>302第一临床学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_33">
+                                    <a href="../../info/2541/106181.htm">
+                                        <p>303第二临床学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_34">
+                                    <a href="../../info/2541/106171.htm">
+                                        <p>304口腔医学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_35">
+                                    <a href="../../info/2541/106161.htm">
+                                        <p>305公共卫生学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_36">
+                                    <a href="../../info/2541/106151.htm">
+                                        <p>306药学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_37">
+                                    <a href="../../info/2541/106141.htm">
+                                        <p>307护理学院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_38">
+                                    <a href="../../info/2541/106131.htm">
+                                        <p>619测绘遥感信息工程全国重点实验室(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+<li id="line_u10_39">
+                                    <a href="../../info/2541/106121.htm">
+                                        <p>656前沿交叉学科研究院(2026年度)</p>
+                                        <span>></span>
+                                    </a>
+                                </li>
+
+                                
+</ul>
+
+                            <!-- <div class="pagebar" style="text-align:center;">
+                             <span class="p_pages"><span class="p_first_d p_fun_d">首页</span><span class="p_prev_d p_fun_d">上页</span><span class="p_no_d">1</span><span class="p_next_d p_fun_d">下页</span><span class="p_last_d p_fun_d">尾页</span></span>
+                            </div> --><script>_showDynClickBatch(['dynclicks_u10_106511','dynclicks_u10_106501','dynclicks_u10_106491','dynclicks_u10_106481','dynclicks_u10_106471','dynclicks_u10_106461','dynclicks_u10_106451','dynclicks_u10_106441','dynclicks_u10_106431','dynclicks_u10_106421','dynclicks_u10_106411','dynclicks_u10_106401','dynclicks_u10_106391','dynclicks_u10_106381','dynclicks_u10_106371','dynclicks_u10_106361','dynclicks_u10_106351','dynclicks_u10_106341','dynclicks_u10_106331','dynclicks_u10_106321','dynclicks_u10_106311','dynclicks_u10_106301','dynclicks_u10_106291','dynclicks_u10_106281','dynclicks_u10_106271','dynclicks_u10_106261','dynclicks_u10_106251','dynclicks_u10_106241','dynclicks_u10_106231','dynclicks_u10_106221','dynclicks_u10_106211','dynclicks_u10_106201','dynclicks_u10_106191','dynclicks_u10_106181','dynclicks_u10_106171','dynclicks_u10_106161','dynclicks_u10_106151','dynclicks_u10_106141','dynclicks_u10_106131','dynclicks_u10_106121'],[106511,106501,106491,106481,106471,106461,106451,106441,106431,106421,106411,106401,106391,106381,106371,106361,106351,106341,106331,106321,106311,106301,106291,106281,106271,106261,106251,106241,106231,106221,106211,106201,106191,106181,106171,106161,106151,106141,106131,106121],"wbnews", 1602338758)</script></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--内容结束-->
+
+    <!--底部开始-->
+    <div class="footer">
+
+        <div class="container clearfix">
+
+            <div class="footer-left">
+                    
+<a href="../../index.htm"><img src="../../images/bottom-logo.png"></a>
+
+
+            </div>
+
+            <div class="footer-about">
+                <ul>
+    <li><a href="../../jgjj/fzgk.htm">机构简介</a></li>             
+    <li><a href="../sszs/zsjz.htm">招生工作</a></li>             
+    <li><a href="../../pygz/xjgl.htm">培养工作</a></li>             
+    <li><a href="../../xwgz/xwsqd.htm">学位工作</a></li>             
+</ul>
+                <ul>
+    <li><a href="../../zlyzyxw/xwdpg.htm">质量与专业学位</a></li>             
+    <li><a href="../../zfjs/zfjswj.htm">作风建设</a></li>             
+    <li><a href="&lt;span style='color:red;font-size:9pt'&gt;转换链接错误&lt;/span&gt;">党建工作</a></li>             
+    <li><a href="../../xzzq/zs.htm">下载专区</a></li>             
+</ul>
+            </div>
+
+            <div class="footer-right"><h4>关注我们：</h4>
+<div class="code">
+    <p class="codehover"><img src="../../images/wechat.png"></p>
+    <div class="ewmbox"><img src="images/code.jpg" width="120"></div>
+</div>
+
+<div class="sina"><a href=""><img src="../../images/sina.png"></a></div>
+
+<select onchange="window.location=this.value;">
+<option value="">友情链接</option>                   
+<option value="http://www.moe.gov.cn/s78/A22/">国务院学位办</option>
+                    
+<option value="http://www.chinadegrees.cn/">学位网</option>
+                    
+<option value="https://www.chsi.com.cn/">学信网</option>
+                    
+<option value="https://www.csc.edu.cn/">国家留学网</option>
+                    
+<option value="http://my.whu.edu.cn">信息门户</option>
+                    
+<option value="http://ygb.whu.edu.cn/">研工部</option>
+                    
+<option value="http://uc.whu.edu.cn/">本科生院</option>
+                    
+<option value="http://xsjy.whu.edu.cn/">就业指导中心</option>
+                    
+<option value="https://www.lib.whu.edu.cn/">图书馆</option>
+                    
+</select></div>
+
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>Copyright © 2019 武汉大学研究生院 - 鄂ICP备1201700804号-1</p>
+                <p class="visit">访问次数统计：<script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="../../_dwr/util.js"></script><script language="javascript" src="../../_dwr/interface/PageCounterDWR.js"></script><span id="a247722" name="a247722"></span>   
+
+<script>
+function getvisittimea247722()
+{       
+    PageCounterDWR.getVisittime('1602338758','2521','TOTAL_COUNTER','0','6',callbackdataa247722)
+}
+function callbackdataa247722(data)
+{
+    document.getElementById("a247722").innerHTML = data; 
+}
+getvisittimea247722();
+</script>人</p>
+            </div>
+        </div>
+    </div>
+
+    <!--底部结束-->
+</body>
+
+</html>

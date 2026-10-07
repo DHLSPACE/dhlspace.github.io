@@ -1,0 +1,939 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>电子信息与自动化学院</title>
+	<script src="../../js/jquery-1.12.1.min.js"></script>
+	<script src="../../js/index.js"></script>
+</head>
+<body>
+
+
+<STYLE type="text/css">
+	body,div,p,h1,h4,h5,ul,li,ol {margin:0;padding:0;	}
+	
+	h1 {font-size: 2em;	}
+	.lftMod .list li a,.rgtMod .list li a{display:block;width:205px;overflow:hidden;padding-left:6px;}
+	.ctMod .list li a{display:block;width:205px;overflow:hidden;padding-left:6px;}
+	.lftCon{ width:205px;float:left;padding-left:6px;}
+	.head{ color:#ffffff;font-weight:bold;text-indent: 2em;overflow:hidden;display: block;font-size:14px;padding-bottom:3px;}
+	list{ color:#fff;}
+	
+	ul,li,ol {	list-style: none;	}
+	
+	a {
+		font-size: 13px;
+		color:#064161;
+		text-decoration: none;
+	}
+	
+	a:hover{
+		font-size: 13px;
+		color:#3399cc;
+		text-decoration: none;
+	}
+	
+	body {
+		font-family: proxima-nova,"Microsoft YaHei",Helvetica,Arial,sans-serif;
+		font-size: 14px;
+		color:#333;
+		position: relative;
+		background: #f7f7f7;
+	}
+	.date {
+		font-size: 13px;
+		color:#000;
+	}
+	
+	.font13 {
+		font-size: 13px;
+		color:#fff;
+	}
+	.wznr {
+		font-size: 14px;
+		color:#000;
+		line-height:25.5px;
+	}
+	
+	.white {
+		background: #fff;
+	}
+	
+	.container {
+		position: relative;
+		width: 1061px;
+		margin:0 auto;
+	}
+	
+	.wrapper1 {
+		width:985px;
+		margin:0 auto;	
+	}
+	
+	.clear {	clear: both;	}
+	
+	.logo1 {
+		width:100%;
+		height:120px;
+		padding-top: 0px;
+		background: #fff;
+	}
+	.logo1 .top1 {
+		width:1061px;
+		margin:0 auto;
+		height:120px;
+		background: url(../../images/logo.jpg) no-repeat 0 0;
+	}
+	
+	.logo2 {
+		width:100%;
+		height:300px;
+		padding-top: 0px;
+		background: #fff;
+	}
+	.logo2 .banner1 {
+		width:1003px;
+		margin:0 auto;
+		height:232px;
+	}
+	.logo2 .banner2 {
+		width:1024px;
+		margin:0 auto;
+		height:300px;
+	}
+	
+	.top {
+		position: relative;
+		width: 100%;
+		height:40px;
+		z-index: 100;
+		background: #fff;
+	}
+	
+	.top .navLists {
+		width:100%;
+		height:40px;
+		/*background: #39528a;*/
+		background: #c1ae8d;
+		margin:0 auto;
+		z-index:100;
+	}
+	.wrapper {
+		background: #c1ae8d;
+		width:1061px;
+		margin:0 auto;
+	}
+	
+	.navLists .nav {
+		position: relative;
+		display: block;
+		float: left;
+		height: 35px;
+		line-height:33px;
+		text-align: center;
+		font-size: 16px;
+		font-weight: bold;
+		/*color:#064161;*/
+		color:#39528a;
+		z-index:100;
+	}
+	
+	.navLists .nav a {
+		font-size: 16px;
+		color:#39528a;
+	}
+	
+	.navLists .nav .subnavs {
+		display: none;
+		position: absolute;
+		left: 0;
+		line-height:33px;
+		font-weight:normal;
+		top:35px;
+		width:140px;
+		z-index:100;	
+	}
+	.navLists .subnavs a {
+		font-size: 14px;
+		color:#39528a;
+	}
+	
+	.navLists .nav .subnavs .subnav {
+		width:140px;
+		height:100%;
+		background: #c1ae8d;
+		z-index:100;
+	}
+	
+	.main {
+		position: relative;            
+		top:-5px;
+		width:100%;
+		margin:0 auto;
+		height:315px;
+
+		background: url(../../images/bannerbg.jpg) repeat-x;
+	}
+	
+	.main1 {
+		background: #f7f7f7;
+		width:1061px;
+		margin:0 auto;
+	}
+	
+	.content {
+		width:1061px;
+		margin-right: 0px;
+		margin-top: 0px;
+		background: #f7f7f7;
+	}
+	.main2 {
+		background: #fff;
+		width:1061px;
+		margin:0 auto;
+		min-height:535px;
+	}
+	.main3 {
+		background: #f7f7f7;
+		width:1061px;
+		margin:0 auto;
+		min-height:650px;
+	}
+	
+	.main .banner {
+		background: #f7f7f7;
+		position: relative;
+		margin：0 auto;
+		left: 50%;
+		margin-left: -530px;
+		margin-top: 2px;
+		width:1061px;
+		height:305px;
+		overflow: hidden;
+	}
+	
+	.main .banner .slides {
+		width:1061px;
+		margin-top: 6px;
+	}
+	
+	.main .banner .slides li {
+		display: none;
+		width: 1061px;
+		float: center;
+	}
+	.main .banner .slides li.active {
+		display: block;
+	}
+	
+	.main .banner .slides li img {
+		margin-top: 3px;
+		width: 1061px;
+		height:300px;
+	}
+	
+	.banner .slidesController {
+		position: absolute;
+		right:26px;
+		bottom: 5px;
+		z-index: 99;
+	}
+	
+	.banner .slidesController li {
+		display: inline-block;
+		width: 9px;
+		height:9px;
+		margin:0 4px;
+		border:1px solid #d1d1d1;
+		border-radius: 20px;
+		cursor: pointer;
+	}
+	
+	.banner .slidesController li.active {
+		background: #ff5b0b;
+		border-color: #ff5b0b;
+	}
+	
+	.cen  {
+		background: #fff;
+		margin-top: -10px;
+		width:100%;
+		height: 25px;
+	}
+	
+	.cen1 {
+		background: #f7f7f7;
+		width:100%;
+		height: 50px;
+	}
+	
+	.content .block {
+		float:left;
+	}
+	
+	.block .title {
+		width:100%;
+		height: 22px;
+		margin-bottom: 23px;
+		border-bottom: 3px solid #f3842b;
+		line-height: 22px;
+	}
+	
+	.block .title .caption {
+		display: inline-block;
+		height: 100%;
+	}
+	
+	.block .title .more {
+		display: inline-block;
+		float: right;
+		height: 22px;
+		line-height: 22px;
+		color:#979797;
+		font-size: 12px;
+	}
+	
+	.content .news {
+		margin-right: 15px;
+		width:370px;
+	}
+	
+	.news .title .caption {
+		width:193px;
+	}
+	
+	.content .notice {
+		width: 397px;
+	}
+	
+	.notice .title .caption {
+		width:140px;
+	}
+	
+	.news img {
+		margin-bottom: 5px;
+	}
+	
+	.block .links .link {
+		width:100%;
+		margin-bottom: 8px;
+		font-size: 12px;
+		color: #454545;
+		list-style: disc inside;
+	}
+	
+	.block .links .link a {
+		color: #000;
+	}
+	
+	.block .links .link .date {
+		float: right;
+	}
+	
+	.agency {
+		margin-top: 43px;
+	}
+	
+	.agency a img {
+	border:0 none;
+	}
+	
+	.agency .experiment,.agency .mba {
+		float:left;
+		margin-right: 2px;
+	}
+
+	.sidebar .side-nav {
+		display: block;
+		width:100%;
+		height:30px;
+		line-height: 30px;
+		color:#fff;
+		font-size: 14px;
+		text-align: center;
+		font-weight: bold;
+	}
+	
+	.bottom  {
+		width:100%;
+		height:130px;
+		/*background: #39528a;*/
+		background: #c1ae8d;
+	}
+
+	.bottom .footer {
+		width:1061px;
+		margin:0 auto;
+		height:130px;
+		text-align: center;
+		/*background: #3e78c2;*/
+		background: url(../../images/bbg.jpg) repeat-x;
+		color:#39528a;
+	}
+	
+	/*article*/
+	.articlebg{
+		width:100%;
+	}
+	
+	.c_title {
+		FONT-SIZE: 15px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, 宋体
+	}
+	
+	.c_content {
+		FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, 宋体
+	}
+	.wenzi {
+		font-size: 13px;
+		FONT-FAMILY: Verdana, Arial, 宋体;
+		line-height: 24px;
+		color: #000;
+	}
+	
+	.article {
+		width:990px;
+		margin:0 auto 45px auto;
+	}
+	
+	.article .left {
+		float: left;
+		margin-right: 27px;
+	}
+	
+	.article .left .survey {
+		width:270px;
+		height:210px;
+		margin-top: 48px;
+	}
+	
+	.survey .header {
+		width:100%;
+		height:20px;
+		line-height: 20px;
+		background: #3aadba;
+		color: #fff;
+		font-size: 13px;
+	}
+	
+	.survey .header p {
+		padding-left: 17px;
+	}
+	
+	.survey .body {
+		width:100%;
+		height:160px;
+		background: #f6fbfb;
+	}
+	
+	.survey .body ul {
+		padding:10px 17px;
+	}
+	
+	.survey .body .line {
+		width:100%;
+		height:30px;
+		border-bottom: 1px solid #e7ecec;
+		color:#3aadba;
+		font-size: 12px;
+		line-height: 30px;
+		background-image: url(../../images/arrow2.png);
+		background-repeat: no-repeat;
+		background-position-x:216px;
+		background-position-y:center;
+	}
+	
+	.survey .body .line.active {
+		background-image: url(../../images/arrow.png);
+	}
+	
+	.survey .body .line a {
+		display: block;
+		width:100%;
+		height:100%;
+		color:#3aadba;
+	}
+	
+	.article .left .notice {
+		width:270px;
+		height:230px;
+		border-bottom: 3px solid #f3842b;
+		list-style: none;
+		color: #454545;
+	}
+	
+	.rightc {
+		float: center;
+		width: 950px;
+	}
+	
+	.rightc .location {
+		width:100%;
+		height:48px;
+		font-size: 13px;
+		color: #ffffff;
+		line-height: 48px;
+	}
+	
+	.rightc .location a {
+		color:#6a6a6a;
+	}
+	
+	.rightc .substance {
+		width:100%;
+		min-height:100%;
+		border:1px solid #c2c2c2;
+	}
+	
+	.rightc .substance .outer {
+		padding:15px 27px 0 27px;
+	}
+	
+	.rightc.substance .title {
+		line-height: 48px;
+		margin-bottom: 18px;
+		text-align: center;
+		font-size: 17px;
+		color: #6f6f6f;
+		letter-spacing: 13px;
+		font-weight: normal;
+	}
+	
+	.rightc .substance .release-date {
+		width:100%;
+		height: 22px;
+		margin-bottom: 20px;
+		line-height: 25px;
+		text-align: center;
+		font-size: 13px;
+		color:#6a6a6a;
+		background: #efefef;
+	}
+	
+	.rightc .substance .text p {
+		line-height: 26px;
+		margin-bottom: 24px;
+		font-size: 13px;
+		color: #393939;
+		text-indent: 26px;
+	}
+	
+	.right {
+		float: left;
+		width: 1040px;
+		min-height:550px;
+	}
+	
+	.right .location {
+		width:100%;
+		height:48px;
+		font-size: 12px;
+		color: #6a6a6a;
+		line-height: 48px;
+	}
+	
+	.right .location a {
+		color:#6a6a6a;
+	}
+	
+	.right .substance {
+		width:100%;
+		min-height:500px;
+		background: #ffffff;
+		border:1px solid #c2c2c2;
+	}
+	
+	.right .substance .outer {
+		padding:15px 20px 0 20px;
+	}
+	
+	.alinks{
+		color:#3aadba;
+	}
+	
+	.right .substance .title {
+		margin-bottom: 18px;
+		text-align: center;
+		font-size: 18px;
+		color: #6f6f6f;
+		letter-spacing: 12px;
+		font-weight: normal;
+	}
+	
+	.right .substance .release-date {
+		width:100%;
+		height: 22px;
+		margin-bottom: 20px;
+		line-height: 22px;
+		text-align: center;
+		font-size: 13px;
+		color:#6a6a6a;
+		background: #efefef;
+	}
+	
+	.right .substance .text p {
+		line-height: 25px;
+		margin-bottom: 24px;
+		font-size: 13px;
+		color: #393939;
+		text-indent: 26px;
+	}
+	
+	.header  .search {
+		float:left;
+		margin:35px 200px 10px 600px;
+		width:130px;
+		height:26px;
+		position: relative;
+	}
+	
+	.header  .gh {
+		float:left;
+		margin:10px 110px 10px 915px;
+		width:80px;
+		height:25px;
+		position: relative;
+	}
+	
+	.header  .gh1 {
+		float:left;
+		margin:-50px 60px  10px 920px;
+		width:60px;
+		height:25px;
+		position: relative;
+	}
+	
+	.header {
+		width:1061px;
+		margin:0 auto;
+		height: 118px;
+	}
+	.search-bar {
+		float: right;
+		margin-top: 10px;
+		padding-left:-10px;
+	}
+	
+	.input {
+		float: left;
+		width: 190px;
+		height: 25px;
+		border: 1px solid #dcdcdc;
+		line-height: 25px;
+		font-size: 10px;
+	}
+	
+	.input>span {
+		display: inline-block;
+		float: left;
+		padding:0px  0px  0px -15px;
+		border-right: 1px solid #dcdcdc;
+		font-size: 10px;
+		color: #5d5d5d;
+	}
+	
+	.input>input {
+		float: right;;
+		width: 130px;
+		height: 23px;
+		border:0;
+	}
+	
+	.search-btn {
+		display: inline-block;
+		width: 27px;
+		height: 27px;
+		border:0;
+		background: url(../../images/btn.jpg) no-repeat 0 0;
+	}
+	
+	.menu {
+		FONT-FAMILY: verdana, arial, sans-serif; WIDTH: 288px; POSITION: relative; MARGIN-LEFT: 220px; MARGIN-top: 15px; Z-INDEX: 100; 
+	}
+	.menu UL {
+		LIST-STYLE-TYPE: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+	}
+	.menu UL LI {
+		HEIGHT: 30px; WIDTH: 288px; BACKGROUND-IMAGE: url(../../images/yqlj.png); BACKGROUND-REPEAT: no-repeat; POSITION: relative; BACKGROUND-POSITION: left center; MARGIN-RIGHT: 1px
+	}
+	.menu UL LI A {
+		FONT-SIZE: 11px; TEXT-DECORATION: none; HEIGHT: 30px; WIDTH: 288px; COLOR: #333; TEXT-ALIGN: left; DISPLAY: block; LINE-HEIGHT: 24px; TEXT-INDENT: 10px
+	}
+	.menu UL LI A:visited {
+		FONT-SIZE: 11px; TEXT-DECORATION: none; HEIGHT: 30px; WIDTH: 288px; COLOR: #333; TEXT-ALIGN: left; DISPLAY: block; LINE-HEIGHT: 24px; TEXT-INDENT: 10px
+	}
+	TABLE {
+		BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+	}
+	.menu UL LI UL {
+		POSITION: absolute; PADDING-BOTTOM: 20px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 20px; LEFT: -20px; Z-INDEX: 100; DISPLAY: none; TOP: 25px; PADDING-RIGHT: 30px
+	}
+	.menu UL LI:hover A {
+		BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; COLOR: #000; BORDER-LEFT: 0px
+	}
+	.menu UL LI A:hover {
+		BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; COLOR: #000; BORDER-LEFT: 0px
+	}
+	.menu UL LI:hover UL {
+		DISPLAY: block
+	}
+	.menu UL LI A:hover UL {
+		DISPLAY: block
+	}
+	.menu UL LI:hover UL LI {
+		OVERFLOW: auto; HEIGHT: 200px; WIDTH: 288px; BACKGROUND: #666666;COLOR: #000; BORDER-LEFT: #7a7a7a 1px solid
+	}
+	.menu UL LI A:hover UL LI {
+		OVERFLOW: auto; HEIGHT: 200px; WIDTH: 288px; BACKGROUND: #666666;COLOR: #000; BORDER-LEFT: #7a7a7a 1px solid
+	}
+	* HTML .menu UL LI A:hover UL LI {
+		WIDTH: 287px
+	}
+	.menu UL LI:hover UL LI A {
+		TEXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 270px; BACKGROUND: #363636; BORDER-BOTTOM: 0px; FLOAT: left; COLOR: #aaa; TEXT-ALIGN: left; BORDER-LEFT: 0px; DISPLAY: block; TEXT-INDENT: 10px
+	}
+	.menu UL LI A:hover UL LI A {
+		TEXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 270px; BACKGROUND: #363636; BORDER-BOTTOM: 0px; FLOAT: left; COLOR: #aaa; TEXT-ALIGN: left; BORDER-LEFT: 0px; DISPLAY: block; TEXT-INDENT: 10px
+	}
+	.menu UL LI:hover UL LI A:hover {
+		TEXT-DECORATION: none; BACKGROUND: #222; COLOR: #fff
+	}
+	.menu UL LI A:hover UL LI A:hover {
+		TEXT-DECORATION: none; BACKGROUND: #222; COLOR: #fff
+	}
+	.menu .fengge {
+		MARGIN-BOTTOM: 15px
+	}
+	.menu UL LI A:hover UL {
+		VISIBILITY: visible
+	}
+	
+	.menu1 {
+		FONT-FAMILY: verdana, arial, sans-serif; WIDTH: 288px; MARGIN-LEFT: 550px; MARGIN-top: -48px; Z-INDEX: 101; 
+	}
+	.menu1 UL {
+		LIST-STYLE-TYPE: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+	}
+	.menu1 UL LI {
+		HEIGHT: 30px; WIDTH: 288px; BACKGROUND-IMAGE: url(../../images/yqlj.png); BACKGROUND-REPEAT: no-repeat; POSITION: relative; BACKGROUND-POSITION: left center; MARGIN-RIGHT: 1px
+	}
+	.menu1 UL LI A {
+		FONT-SIZE: 11px; TEXT-DECORATION: none; HEIGHT: 30px; WIDTH: 288px; COLOR: #333; TEXT-ALIGN: left; DISPLAY: block; LINE-HEIGHT: 24px; TEXT-INDENT: 10px
+	}
+	.menu1 UL LI A:visited {
+		FONT-SIZE: 11px; TEXT-DECORATION: none; HEIGHT: 30px; WIDTH: 288px; COLOR: #333; TEXT-ALIGN: left; DISPLAY: block; LINE-HEIGHT: 24px; TEXT-INDENT: 10px
+	}
+	TABLE {
+		BORDER-COLLAPSE: collapse; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+	}
+	.menu1 UL LI UL {
+		POSITION: absolute; PADDING-BOTTOM: 20px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: 20px; LEFT: -20px; Z-INDEX: 100; DISPLAY: none; TOP: 25px; PADDING-RIGHT: 30px
+	}
+	.menu1 UL LI:hover A {
+		BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; COLOR: #000; BORDER-LEFT: 0px
+	}
+	.menu1 UL LI A:hover {
+		BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; COLOR: #000; BORDER-LEFT: 0px
+	}
+	.menu1 UL LI:hover UL {
+		DISPLAY: block
+	}
+	.menu1 UL LI A:hover UL {
+		DISPLAY: block
+	}
+	.menu1 UL LI:hover UL LI {
+		OVERFLOW: auto; HEIGHT: 200px; WIDTH: 288px; BACKGROUND: #666666; COLOR: #000; BORDER-LEFT: #7a7a7a 1px solid
+	}
+	.menu1 UL LI A:hover UL LI {
+		OVERFLOW: auto; HEIGHT: 200px; WIDTH: 288px; BACKGROUND: #666666; COLOR: #000; BORDER-LEFT: #7a7a7a 1px solid
+	}
+	* HTML .menu1 UL LI A:hover UL LI {
+		WIDTH: 287px
+	}
+	.menu1 UL LI:hover UL LI A {
+		TEXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 270px; BACKGROUND: #363636; BORDER-BOTTOM: 0px; FLOAT: left; COLOR: #aaa; TEXT-ALIGN: left; BORDER-LEFT: 0px; DISPLAY: block; TEXT-INDENT: 10px
+	}
+	.menu1 UL LI A:hover UL LI A {
+		TEXT-DECORATION: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 270px; BACKGROUND: #363636; BORDER-BOTTOM: 0px; FLOAT: left; COLOR: #aaa; TEXT-ALIGN: left; BORDER-LEFT: 0px; DISPLAY: block; TEXT-INDENT: 10px
+	}
+	.menu1 UL LI:hover UL LI A:hover {
+		TEXT-DECORATION: none; BACKGROUND: #222; COLOR: #fff
+	}
+	.menu1 UL LI A:hover UL LI A:hover {
+		TEXT-DECORATION: none; BACKGROUND: #222; COLOR: #fff
+	}
+	.menu1 .fengge {
+		MARGIN-BOTTOM: 15px
+	}
+	.menu1 UL LI A:hover UL {
+		VISIBILITY: visible
+	}
+
+	#Marquee_x {
+		width: 1059px; overflow: hidden
+	}
+	#Marquee_x ul li {
+		line-height: 25px; float: left; overflow: hidden
+	}
+	#Marquee_x ul li div {
+		line-height: 25px; float: left; overflow: hidden
+	}
+	#Marquee_x ul li div {
+		line-height: 25px; width: 192px; float: left; height: 143px; overflow: hidden
+	}
+	#Marquee_x ul li div img {
+		border-bottom: #dadada 1px solid; border-left: #dadada 1px solid; width: 194px; display: block; height: 145px; border-top: #dadada 1px solid; border-right: #dadada 1px solid
+	}
+	#Marquee_x ul li div span {
+		display: block
+	}
+</style>
+
+<div class="logo1">			
+<div class="top1">
+<a href="../../">
+<div class="header">
+</div>
+</a>
+</div>
+</div>
+
+<div class="top">
+
+<div class="navLists">
+<div class="wrapper">
+
+<ul>
+	<li class="nav"><a href="../../">学院首页</a>&nbsp;|&nbsp;</li>
+	<li class="nav">
+		<a href="#">学院简介</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="../../xyjj/101107.htm">学院简介</a></li>
+			<li class="subnav"><a href="../../xyjj/8f7d6f6b45114485b3256f3bc3b3cdd9.htm">历史沿革</a></li>
+			<li class="subnav"><a href="../../xyjj/101108.htm">机构设置</a></li>
+		</ul>
+	</li>
+	<li class="nav">
+		<a href="#">新闻公告</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="../../xwgg/xyxw/">新闻动态</a></li>
+			<li class="subnav"><a href="../../xwgg/tzgg/">通知公告</a></li>
+		</ul>
+	</li>
+	<li class="nav">
+		<a href="#">本科教育</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="../../bkjy/zyjs/">专业介绍</a></li>
+			<li class="subnav"><a href="../../bkjy/pyfa/">培养方案</a></li>
+		</ul>
+	</li>
+	<li class="nav">
+		<a href="#">研究生教育</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="../../yjsjy/yjszy/">专业介绍</a></li>
+			<li class="subnav"><a href="../../yjsjy/101428.htm">导师简介</a></li>
+		</ul>
+	</li>
+	<li class="nav"><a href="../../szdw/101430.htm">师资队伍</a>&nbsp;|&nbsp;</li>
+	<li class="nav">
+		<a href="#">学院党建</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="../../xydj/djgz/">党建工作</a></li>
+			<li class="subnav"><a href="../../xydj/xfzx/">先锋在线</a></li>
+			<li class="subnav"><a href="../../xydj/ggwgz/">关工委工作</a></li>
+		</ul>
+	</li>
+	<li class="nav">
+		<a href="#">电信清风</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="../../dxqf/jwgz/">纪委工作</a></li>
+			<li class="subnav"><a href="../../dxqf/lzkt/">廉政课堂</a></li>
+			<li class="subnav"><a href="../../dxqf/jsjy/">警示教育</a></li>
+			<li class="subnav"><a href="../../dxqf/llsy/">理论视野</a></li>
+		</ul>
+	</li>
+	<li class="nav">
+		<a href="#">学生工作</a>&nbsp;|&nbsp;
+		<ul class="subnavs">
+			<li class="subnav"><a href="../../xsgz/jgsz/">机构设置</a></li>
+			<li class="subnav"><a href="../../xsgz/xsfc/">学生风采</a></li>
+			<li class="subnav"><a href="../../xsgz/pjpy/">评奖评优</a></li>
+		</ul>
+	</li>
+	<li class="nav"><a href="/wdxz/jxgzwd/">文档下载</a>&nbsp;|&nbsp;</li>
+	<li class="nav"><a href="https://zdh.tust.edu.cn/en/">ENGLISH</a></li>
+</ul>
+</div>
+</div>
+</div><div class="main3">
+<div class="container">
+<table width="96%" border="0" cellspacing="0" cellpadding="0" align="center" >
+<tr><td>
+<br /><p class="location"><font style="color:#000">您现在的位置： 首页 >>  新闻公告 >>  通知公告 >> </font></p>
+<br /><br />
+<div  class="c_title">
+	<h2 align="center"><span>电子信息与自动化学院关于教师节期间廉洁自律的工作提醒</span></h2>
+</div>
+<center>
+</center>
+<div  class="c_title">
+<h3 align="center"><span style="font-family:方正兰亭黑; size:14px"></span></h3><br />
+</div>
+<center>
+</center>
+<div  class="date1" align="center">   发布日期：2026-09-10 </div>
+ <hr class="hr" />
+<div  class="wznr"> <font color="#000000"> <html>
+ <head></head>
+ <body>
+  <div style="-aw-headerfooter-type:header-primary">
+   <p style="margin-top:0pt; margin-bottom:0pt; text-align:justify; widows:0; orphans:0; font-size:10.5pt"><span style="font-family:Calibri; -aw-import:ignore"> </span></p>
+  </div>
+  <p style="margin-top: 0pt; margin-bottom: 0pt; text-align: left; line-height: 28pt;"><span style="font-family: 方正仿宋_GBK; font-size: 16pt; text-align: justify;">全院全体教职工、党员干部：</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">值此第四十二个教师节来临之际，学院向辛勤耕耘在教学、科研、管理一线的全体教职员工致以节日的问候和崇高的敬意！教师节是弘扬尊师重教风尚的重要节日，也是检验师德师风、严守廉洁从教的关键节点。为严格落实学校《关于进一步加强教师节期间廉洁自律工作的通知》精神，持续筑牢师德师风防线，涵养风清气正的育人环境，现就我院教师节期间廉洁过节有关要求提醒如下：</span></p>
+  <p style="margin-top:0pt; margin-left:31.9pt; margin-bottom:0pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">一、</span><span style="font-family:方正仿宋_GBK; font-size:16pt">提高思想认识，筑牢师德思想根基</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">全体教职工要深入学习习近平总书记关于教师队伍建设、师德师风建设的重要论述，牢记“教师要成为大先生，做学生为学、为事、为人的示范”的殷切嘱托，深刻践行教育家精神，牢固树立师德师风是评价教师队伍素质第一标准的理念，把廉洁从教内化于心、外化于行，坚守为党育人、为国育才初心使命。</span></p>
+  <p style="margin-top:0pt; margin-left:31.9pt; margin-bottom:0pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">二、</span><span style="font-family:方正仿宋_GBK; font-size:16pt">严守纪律底线，严格落实“八个严禁”</span></p>
+  <p style="margin-top:0pt; margin-left:31.9pt; margin-bottom:0pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family: 方正仿宋_GBK; font-size: 16pt; text-indent: 32pt;">全体党员干部及教职工要绷紧纪律规矩之弦，恪守新时代高校教师职业行为准则，自觉抵制节日歪风陋习，坚决做到：</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">1. 严禁以任何方式索要或接受学生及家长赠送的礼品、礼金、电子红包、购物卡、有价证券等财物，杜绝快递寄送等隐形变异方式收礼；</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">2. 严禁通过家委会、家长群等渠道向家长收取、摊派与教师节相关的费用，或要求家长提供各类私人服务；</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">3. 严禁接受学生及家长安排的宴请、旅游、健身、娱乐等活动，不得由家长报销应由个人承担的各类费用；</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">4. 严禁以辅导、补课等名义向学生收取费用，不得利用教师身份向学生及家长推销教辅资料、商业保险及其他商品谋取私利；</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">5. 严禁组织、参与有偿补课或违规兼职取酬；</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">6. 严禁借教师节之机违规发放津贴、补贴、奖金或实物；</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">7. 严禁公款购买赠送节礼、公款吃喝、公款旅游或组织高消费娱乐活动；</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">8. 严禁发生利用职务之便谋取不正当利益的其他行为。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">对教师节期间发生的各类违规违纪行为，坚持发现一起、上报一起，坚决依规依纪处置。</span></p>
+  <p style="margin-top:0pt; margin-left:31.9pt; margin-bottom:0pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">三、</span><span style="font-family:方正仿宋_GBK; font-size:16pt">压实责任传导，做实廉洁教育提醒</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">学院将同步统筹做好新生入学、中秋、国庆等重要节点廉洁教育。各系</span><span style="font-family:方正仿宋_GBK; font-size:16pt">、</span><span style="font-family:方正仿宋_GBK; font-size:16pt">部门</span><span style="font-family:方正仿宋_GBK; font-size:16pt">要做好纪律要求的传达到位，组织教职工学习中央八项规定及其实施细则精神、《新时代高校教师职业行为十项准则》以及学校各项制度规定，把廉洁自律要求落实到每一位教职工。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt">希望全院教职工坚守高尚师德，严守廉洁从教底线，共同维护学院清正、文明、纯粹的育人氛围，度过一个风清气正、文明简朴的教师节。</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:176pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt; -aw-import:ignore"> </span></p>
+  <p style="margin-top: 0pt; margin-left: 223.5pt; margin-bottom: 0pt; text-indent: -16pt; text-align: right; line-height: 28pt;"><span style="font-family:方正仿宋_GBK; font-size:16pt">电子信息</span><span style="font-family:方正仿宋_GBK; font-size:16pt">与</span><span style="font-family:方正仿宋_GBK; font-size:16pt">自动化学院</span><br><span style="font-family:方正仿宋_GBK; font-size:16pt">2026 年 9 月 10 日</span></p>
+  <p style="margin-top:0pt; margin-bottom:0pt; text-indent:32pt; text-align:justify; line-height:28pt; widows:0; orphans:0"><span style="font-family:方正仿宋_GBK; font-size:16pt; -aw-import:ignore"> </span></p>
+  <div style="-aw-headerfooter-type:footer-primary">
+   <p style="margin-top:0pt; margin-bottom:0pt; text-align:justify; widows:0; orphans:0; font-size:10.5pt"><span style="font-family:Calibri; -aw-import:ignore"> </span></p>
+  </div>
+ </body>
+</html> <br />
+ </div>
+</div>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>	
+
+</div>
+</div>
+
+
+<div class="bottom">
+<div class="footer">
+<br>
+天津科技大学电子信息与自动化学院版权所有<br>
+联系电话：022-60600771<br>
+管理员信箱：e_auto@tust.edu.cn<br>
+津科备02号<br>
+</div>
+</div>
+
+</body></html>

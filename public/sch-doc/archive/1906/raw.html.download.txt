@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+	<title>中国科学院宁波材料技术与工程研究所2024年招收攻读硕士学位研究生简章 - 中国科学院大学宁波材料工程学院 - ncmte.nimte.ac.cn</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+    <link rel="stylesheet" href="/template/ncmte.nimte.ac.cn/css/common.css">
+    <style>
+        .home {
+            width: 100%;
+        }
+        .home .banner {
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+        .home .banner img {
+            vertical-align: middle;
+            object-fit: cover;
+            width: 100%;
+        }
+        .home .main {
+            width: 100%;
+            margin-bottom: 70px;
+        }
+        .home .main .content {
+            width: 90%;
+            max-width: 1400px;
+            margin: 30px auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .home .main .content .lCon {
+            width: 278px;
+        }
+        .home .main .content .lCon .lNav {
+            width: 100%;
+            background: #17497A;
+            border-radius: 10px;
+            padding-bottom: 60px;
+        }
+        .home .main .content .lCon .lNav .pic0 {
+            padding: 30px 0;
+            color: white;
+            font-size: 26px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        .home .main .content .lCon .lNav .menu {
+            margin-top: 30px;
+        }
+        .home .main .content .lCon .lNav .menu a {
+            padding: 10px 5%;
+            color: #333333;
+            transition: all 600ms;
+            width: 80%;
+            margin: 0 auto;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .home .main .content .lCon .lNav .menu a span {
+            width: 10px;
+            height: 10px;
+            background: #FFFFFF;
+            transform: rotate(45deg);
+            margin: 0 13px;
+        }
+        .home .main .content .lCon .lNav .menu a p {
+            font-size: 18px;
+            letter-spacing: 2px;
+            color: white;
+        }
+        .home .main .content .lCon .lNav .menu a:hover {
+            background-color: #E09B1A;
+            color: white;
+        }
+        .home .main .content .lCon .lNav .menu .active {
+            background-color: #E09B1A;
+            color: white;
+        }
+        .home .main .content .rCon {
+            width: calc(95% - 278px);
+        }
+        .home .main .content .rCon .links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #C2C2C2;
+            padding-bottom: 20px;
+        }
+        .home .main .content .rCon .links .p1 {
+            color: #E09B1A;
+            font-size: 26px;
+        }
+        .home .main .content .rCon .links .p2 {
+            font-size: 16px;
+        }
+        .home .main .content .rCon .links .p2 a {
+            color: #666;
+            transition: all 600ms;
+        }
+        .home .main .content .rCon .links .p2 a:hover {
+            color: #E09B1A;
+        }
+        .home .main .content .rCon .links .p2 span {
+            color: #E09B1A;
+        }
+        .home .main .content .rCon .nr {
+            margin: 0 0 30px 0;
+        }
+        .home .main .content .rCon .nr .t1 {
+            font-size: 22px;
+            border-bottom: 1px solid #E7E7E7;
+            padding: 15px 0;
+            color: #E09B1A;
+        }
+        .home .main .content .rCon .nr .time {
+            margin: 10px 0;
+            color: #999999;
+        }
+        .home .main .content .rCon .nr .html {
+            color: #060001;
+            line-height: 2.5;
+            margin-bottom: 20px;
+        }
+        .home .main .content .rCon .nr .html p {
+            margin: 16px 0 0 0;
+        }
+        .home .main .content .rCon .nr .html img {
+            max-width: 100%;
+            object-fit: contain;
+        }
+        .home .main .content .rCon .nr .pager {
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid #E7E7E7;
+            padding-top: 15px;
+        }
+        .home .main .content .rCon .nr .pager a {
+            color: #999999;
+            transition: all 600ms;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            width: calc(48% - 40px);
+        }
+        .home .main .content .rCon .nr .pager a:last-child{
+            text-align: right;
+        }
+        .home .main .content .rCon .nr .pager a:hover {
+            color: #E09B1A;
+        }
+        .home .main .content .rCon .nr .pager .c {
+            color: #E09B1A;
+            width: 80px;
+            text-align: center;
+        }
+		.html a{color:#3264b8;}
+		.teacher{border-top:1px #c1c1c1 solid;border-left:1px #c1c1c1 solid;}
+		.teacher a{color:#5c5c5c;}
+		.teacher th,
+		.teacher td{font-size:12px;border-right:1px #c1c1c1 solid;border-bottom:1px #c1c1c1 solid;font-size:12px;padding:1px 5px;}
+		.teacher th{font-weight:bold;background:#ececec url(https://www.nimte.ac.cn/images/pagerbg.gif) center top repeat-x;}
+		.teacher td a{width:68px;height:20px;line-height:20px;display:block;float:left;margin:3px 3px;text-align:center;border-radius:3px;background:#f1f1f1;text-decoration:none;}
+		.teacher td a:hover{background:#96c2ff;}
+		.tbl{border-top:1px #c1c1c1 solid;border-left:1px #c1c1c1 solid;}
+		.tbl th,
+		.tbl td{font-size:12px;border-right:1px #c1c1c1 solid;border-bottom:1px #c1c1c1 solid;font-size:12px;padding:1px 5px;}
+		.tbl th{font-weight:bold;background:url(https://www.nimte.ac.cn/images/pagerbg.gif) center top repeat-x;}
+
+        @media screen and (max-width: 1300px) {
+            .home .main {
+                margin-bottom: 0;
+            }
+            .home .main .content {
+                max-width: 90%;
+                margin: 15px auto;
+            }
+        }
+        @media screen and (max-width: 1200px) {
+            .home .banner img {
+                height: 300px;
+            }
+            .home .main {
+                margin-bottom: 0;
+            }
+            .home .main .content {
+                max-width: 90%;
+                margin: 15px auto;
+            }
+            .home .main .content .lCon {
+                display: none;
+            }
+            .home .main .content .rCon {
+                width: 100%;
+            }
+            .home .main .content .rCon .links {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .home .main .content .rCon .links .p1 {
+                font-size: 20px;
+            }
+            .home .main .content .rCon .links .p2 {
+                margin-top: 5px;
+                font-size: 16px;
+            }
+            .home .main .content .rCon .nr {
+                margin: 0px 0 15px 0;
+            }
+            .home .main .content .rCon .nr .t1 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="home" >
+
+    <div class="header">
+    <div class="dom1">
+        <div class="plogo">
+            <img src="/template/ncmte.nimte.ac.cn/images/ncmte.png" alt="">
+        </div>
+        <div class="dc">
+            <p>
+            <form method="get" action="/">
+                <input type="hidden" name="m" value="_search" />
+                <input type="text" name="keywords" style="height:22px;border:0;font-size:14px;color:#fff;background:#29639f;width:150px;padding:1px 5px;" /><input type="submit" value="GO" style="height:23px;font-size:13px;padding:2px 3px;color:#fff;border:0;background:#235b96">
+            </form>
+            </p>
+            <div class="links">
+                <a href="https://iam.nimte.ac.cn/" target="_blank">内网</a>
+                <span>|</span>
+                <a href="https://mail.cstnet.cn" target="_blank">邮箱登录</a>
+                <span>|</span>
+                <a href="/sitemap.html">园区导航</a>
+                <span>|</span>
+                <a href="/contact.html">联系我们</a>
+                <span>|</span>
+                <a href="https://www.nimte.ac.cn" target="_blank">宁波材料所</a>
+            </div>
+        </div>
+    </div>
+    <div class="dom2">
+        <a href="/" class="logo">
+            <img  src="/template/ncmte.nimte.ac.cn/images/mlogo.png" alt="">
+        </a>
+        <div class="r">
+            <div class="links">
+                <div  class="item active">
+                    <a class="a1" href="/" data-page="/">首 页</a>
+                </div>
+				                <div class="item">
+					                    <a class="a1" data-page="/intro.html">学院概况</a>
+                    <div class="aList">
+												<a href="/about.html">学院简介</a>
+												<a href="/leader.html">领导介绍</a>
+												<a href="/contact.html">联系我们</a>
+												<a href="/videos.html">研途映像</a>
+						                    </div>
+					                </div>
+				                <div class="item">
+					                    <a class="a1" data-page="/discipline.html">学科建设</a>
+                    <div class="aList">
+												<a href="/major.html">学科设置</a>
+												<a href="/subjects.html">学科简介</a>
+												<a href="/review.html">学科评估</a>
+						                    </div>
+					                </div>
+				                <div class="item">
+					                    <a class="a1" data-page="/supervisor.html">导师队伍</a>
+                    <div class="aList">
+												<a href="/direction.html">方向及导师介绍</a>
+												<a href="/instructors.html">研究生辅导员</a>
+												<a href="/ikae.html">导师风采</a>
+												<a href="/acquaintance.html">导师赋能</a>
+						                    </div>
+					                </div>
+				                <div class="item">
+					                    <a class="a1" data-page="/enroll.html">招生工作</a>
+                    <div class="aList">
+												<a href="/zhaosheng.html">招生概况</a>
+												<a href="/masterenroll.html">国科大硕士招生</a>
+												<a href="/doctoralenroll.html">国科大博士招生</a>
+												<a href="/joint.html">合培生招生</a>
+												<a href="/kejiaoronghexueyuancailiaosuoyuningbodaxuelianpei.html">科教融合学院(材料所与宁波大学联培)</a>
+						                    </div>
+					                </div>
+				                <div class="item">
+					                    <a class="a1" data-page="/education.html">培养管理</a>
+                    <div class="aList">
+												<a href="/department.html">培养部门</a>
+												<a href="/plain.html">培养方案</a>
+												<a href="/schoolroll.html">学籍管理</a>
+												<a href="/awards.html">评奖评优</a>
+												<a href="/courses.html">课程建设</a>
+												<a href="/excellent.html">材梓佳仁</a>
+												<a href="/punishment.html">通报处分</a>
+						                    </div>
+					                </div>
+				                <div class="item">
+					                    <a class="a1" data-page="/degree.html">学位管理</a>
+                    <div class="aList">
+												<a href="/xuewei.html">学位机构</a>
+												<a href="/conferment.html">学位授予</a>
+												<a href="/degreeflow.html">学位工作流程</a>
+						                    </div>
+					                </div>
+				                <div class="item">
+					                    <a class="a1" data-page="/graduation.html">毕业就业</a>
+                    <div class="aList">
+												<a href="/jobs.html">就业信息</a>
+												<a href="/commencement.html">毕业生通知</a>
+												<a href="/usefullwebsite.html">就业服务</a>
+												<a href="/tongji.html">就业分析</a>
+												<a href="/alumnus.html">优秀校友</a>
+						                    </div>
+					                </div>
+				                <div class="item">
+										<a class="a1" href="/rules.html" data-page="/rules.html">规章制度</a>
+					                </div>
+				            </div>
+        </div>
+    </div>
+    <div class="navbox">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</div>
+
+    <div id="luxy">
+    <!--        首页banner-->
+    <div class="banner" >
+       <img srcset="/template/ncmte.nimte.ac.cn/images/banner-admission.jpg 1075w, /template/ncmte.nimte.ac.cn/images/banner-admission.jpg">
+    </div>
+
+    <div class="main">
+        <div class="content">
+            <div class="lCon">
+                <div class="lNav">
+                    <div class="pic0">
+                        <p>招生概况</p>
+                    </div>
+                    <div class="menu">
+                       	                        <a href="/zhaosheng.html" class="active">
+                            <span></span>
+                            <p>招生概况</p>
+                        </a>
+						                        <a href="/masterenroll.html" >
+                            <span></span>
+                            <p>国科大硕士招生</p>
+                        </a>
+						                        <a href="/doctoralenroll.html" >
+                            <span></span>
+                            <p>国科大博士招生</p>
+                        </a>
+						                        <a href="/joint.html" >
+                            <span></span>
+                            <p>合培生招生</p>
+                        </a>
+						                        <a href="/kejiaoronghexueyuancailiaosuoyuningbodaxuelianpei.html" >
+                            <span></span>
+                            <p>科教融合学院(材料所与宁波大学联培)</p>
+                        </a>
+						                    </div>
+                </div>
+            </div>
+            <div class="rCon">
+
+             <div class="nr">
+                 <div class="t1">
+                    中国科学院宁波材料技术与工程研究所2024年招收攻读硕士学位研究生简章
+                 </div>
+                 <div class="time">
+                     <!--发布：-->    日期：2023-09-18
+                 </div>
+                 <div class="html">
+                    <p>&nbsp; &nbsp; &nbsp; &nbsp;中国科学院宁波材料技术与工程研究所（简称宁波材料所）成立于2004年，是由中国科学院、浙江省、宁波市三方共建的浙江省首家中国科学院直属科研机构。下设新材料、先进制造、新能源及医学工程四大研究领域。目前全所布局了磁电功能材料与器件、海洋新材料与应用技术、高性能纤维与复合材料、绿色化学与生物基高分子材料、新能源材料与系统技术、光电信息材料与器件、生物医学材料与技术、先进制造技术与装备八大研究方向。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;中国科学院大学宁波材料工程学院是中国科学院大学直属二级学院，以宁波材料所为依托，与中国科学院大学校本部具有相同的人才培养标准和质量。以小规模、有特色、国际化为办学理念，以科教产融合，多学科交叉、多元化培养为办学方向，为国家培养高层次人才。学院已于2022年9月正式运行，致力于培养和输送新材料领域具有国际视野的创新、创业复合型科技人才，促进区域经济发展。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;2024年我所计划在材料物理与化学、材料加工工程、高分子化学与物理、有机化学、物理化学、机械制造及其自动化、机械电子工程、生物医学工程、材料与化工和机械等10个专业招收硕士研究生103名（实际招生人数以当年度国科大下达数为准），其中拟接收推荐免试硕士研究生30名左右（实际招生人数以教育部系统录取数为准）。</p>
+
+<p align="left">&nbsp; &nbsp; &nbsp; &nbsp;一、<strong>专业目录</strong></p>
+
+<p style="text-align: center;"><strong><img alt="" src="/uploadfiles/site8/202309/20230918031253-4176253318.png" style="width: 500px; height: 639px;" /></strong></p>
+
+<p style="text-align: center;"><strong><img alt="" src="/uploadfiles/site8/202309/20230918031311-6119892355.png" style="width: 500px; height: 528px;" /></strong></p>
+
+<p>&nbsp;</p>
+
+<p align="left"><strong>&nbsp; &nbsp; &nbsp; &nbsp;二、招生问答</strong></p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;欢迎广大考生报考我所2024年硕士研究生，现将有关情况问答如下：</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;（一）、如何报考你所</strong><strong>2024</strong><strong>年硕士研究生？</strong></p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;答：</strong>考生报名前应仔细核查本人是否符合国科大和我所的报考条件。在准考、复试和录取等招生阶段将分别进行报考资格审查，凡不符合报考条件的考生将不予准考、复试和录取，相关后果由考生本人承担。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;2024年参加全国硕士研究生入学统一考试的考生，报考时一律采取网上报名方式。考生在网上报名时所选择的报名点和参加考试的考点应一致。应届本科毕业生应选择就读学校所在地省级教育招生考试机构指定的报考点办理网上报名和网上确认手续；其他考生应选择户籍或工作所在地省级教育招生考试机构指定的就近报考点办理网上报名和网上确认手续。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;报名包括网上报名和网上确认两个阶段。考生在网上报名后，还需网上确认网报信息并采集本人照片图像等相关电子信息，同时按规定缴纳报考费。</p>
+
+<p>　　<strong>第一阶段：网上报名</strong></p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;报名</strong><strong>时间：</strong>2023年10月8日至10月25日，每天9:00&mdash;22:00，逾期不再补报，也不得修改报名信息。</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;预报名时间：</strong>2023年9月24日至9月27日, 每天9:00&mdash;22:00。预报名期间填写的信息有效，正式报名期间无需重复填写，但可以随时修改完善。</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;报名网址：</strong>中国研究生招生信息网（https://yz.chsi.com.cn或https://yz.chsi.cn）。报名前请务必提前浏览报考须知，并按教育部、省级教育招生机构、报考点以及中国科学院大学的网上公告要求报名。</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;我所考生报考招生单位所在地区应选择</strong><strong>&ldquo;</strong><strong>北京</strong><strong>&rdquo;</strong><strong>，招生单位栏中选择</strong><strong>&ldquo;</strong><strong>（</strong><strong>14430</strong><strong>）中国科学院大学</strong><strong>&rdquo;</strong><strong>，在院系所名称栏中选择</strong><strong>&ldquo;</strong><strong>（</strong><strong>174</strong><strong>）宁波材料技术与工程研究所</strong><strong>&rdquo;</strong><strong>，之后选择报考专业等报考信息。</strong></p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;报考少数民族高层次骨干人才计划的考生，在报考前需填写全国统一的《2024年少数民族高层次骨干人才计划考生登记表》，并经原籍所在省、自治区、直辖市教育厅（教委）民教处（高教处）审核盖章同意。然后到选择的报考点所在地省级教育考试主管部门领取网报校验码，方可进行网上报名。报名时间和方式与全国普通硕士研究生相同。网上报名系统中&ldquo;专项计划&rdquo;栏目应选择&ldquo;少数民族骨干计划&rdquo;。</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;特别提醒：</strong>考生登录网上报名主页后，请务必认真阅读报名过程中弹出的重要公告信息。在网上报名期间，考生可自行修改自己的网报信息。凡未按公告要求报名，网报信息误填、错填或填报虚假信息，错过网报时间、缴费时间、网上确认时间、考试时间等所造成的一切后果，由考生本人承担。<strong>请考生必须牢记自己网报时的用户名和密码，网上打印准考证、网上调剂等均需使用此用户名登录。</strong></p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;第二阶段：网上确认</strong>　</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;确认时间：</strong>所有考生须认真查看网报时填报的报考点发布的网上确认相关公告，确认的时间以各报考点公告为准，在所选择报考点规定的时间内按时参加网上确认，逾期不再补办。　　</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;确认手续：</strong>考生网上确认须提供本人居民身份证、学历学位证书（应届本科毕业生持学生证）等材料及网上报名编号，按照报考点公告要求办理网上确认手续。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;报考少数民族高层次骨干人才计划的考生，须在确认时出示经所在省、自治区、直辖市教育厅（教委）民教处（高教处）审核盖章同意的《报考2024年少数民族高层次骨干人才计划硕士研究生考生登记表》。确认结束后须立即将该登记表直接寄送至<strong>宁波材料所研究生处</strong>。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;报考退役大学生士兵专项计划的考生，确认时应提供本人《入伍批准书》和《退出现役证》，依各报考点公告为准。</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;特别提醒：</strong> 网上确认后的考生报名信息在准考资格审核、初试、复试及录取阶段一律不作修改。因考生填写错误引起的一切后果由其自行承担。</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;（二）、</strong><strong>报考你所硕士研究生须满足哪些条件？</strong>&nbsp;</p>
+
+<p>　　<strong>答：</strong>报名参加硕士研究生全国统一考试（含学术型硕士和全日制专业学位硕士），须符合下列条件：</p>
+
+<p style="margin-left:21.25pt;">1、中华人民共和国公民。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;2、拥护中国共产党的领导，具有正确的政治方向，热爱祖国，愿意为社会主义现代化建设服务，遵纪守法，品行端正。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;3、身体健康状况符合国家规定的体检标准。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;4、考生的学业水平必须符合下列条件之一：</p>
+
+<p>　　 （1）国家承认学历的应届本科毕业生（含普通高校、成人高校、普通高校举办的成人高等学历教育等应届本科毕业生。2024年9月1日前须取得国家承认的本科毕业证书或教育部留学服务中心出具的《国（境）外学历学位认证书》）及自学考试和网络教育届时可毕业本科生；</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;（2）已取得国家承认的大学本科毕业学历的人员；</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;（3）已获硕士、博士学位的人员；</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;（4）达到与大学本科毕业生同等学力的人员。以下考生按本科毕业同等学力身份报考，且需符合我所根据培养目标提出的具体学业要求：</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;① 国家承认的高职高专毕业学历后满2年（从高职高专毕业到2024年9月1日）或2年以上；</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;② 国家承认学历的本科结业生；</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;同等学力身份报考还需具备的条件：已取得报考专业大学本科8门及以上主干课程的合格成绩。</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;注：</strong>我所可接受符合少数民族高层次骨干人才专项计划报考条件和符合退役大学生士兵专项计划报考条件的考生报考，报考条件、生源范围及招生对象、资格审核等按照教育部相关政策执行。</p>
+
+<p>　　<strong>（</strong><strong>三）、</strong> <strong>能否简要介绍硕士研究生入学考试初试情况？是否提供以往的复习试题？</strong></p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;答：</strong>考生应当在教育部统一规定的时间内，凭网报用户名和密码登录中国研究生招生信息网（http://yz.chsi.com.cn或http://yz.chsi.cn）自行下载打印《准考证》。《准考证》使用A4幅面白纸打印，正、反两面在使用期间不得涂改或书写。考生凭下载打印的《准考证》及有效居民身份证件参加初试和复试。</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;初试时间</strong>: 2023年12月23日至24日。考试时间以北京时间为准，上午8:30-11:30，下午14:00-17:00，不在该规定日期举行的研究生入学考试，国家一律不予承认。</p>
+
+<p>　　<strong>初试科目为</strong><strong>4</strong><strong>门：</strong>思想政治理论、英语、业务课一、业务课二，初试方式均为笔试。每门科目的考试时间为3小时。其中思想政治理论、英语一、数学一、数学二使用全国统一命题，其余考试科目由中国科学院大学统一命题。</p>
+
+<p>　　思想政治理论、英语满分100分，基础课和专业基础课满分150分。</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;相关复习资料：</strong></p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 考生可在中国科学院大学招生信息网-&ldquo;硕士招生&rdquo;-&ldquo;考试大纲&rdquo;栏目查阅有关复习参考信息（<a href="http://admission.ucas.ac.cn/info/KaoshiDagang/28257ae0-ef1c-4d1e-8823-5b1b557016e0">http://admission.ucas.ac.cn/info/KaoshiDagang/28257ae0-ef1c-4d1e-8823-5b1b557016e0</a> ）。中国科学院大学提供历年考试真题（<a href="http://admission.ucas.ac.cn/ShowArticle/news/fd47c18f-ea5e-4f7e-82c7-38c2d808a9b8">http://admission.ucas.ac.cn/ShowArticle/news/fd47c18f-ea5e-4f7e-82c7-38c2d808a9b8</a> ），且真题仅供参考。</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;除以上复习资料以外，我所概不对外提供任何其他资料，考生请勿来电来信索要。</strong></p>
+
+<p>　　<strong>（</strong><strong>四）、初试总分要达到多少分才能参加复试？</strong></p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;答：</strong>考生初试成绩通过中国科学院大学招生信息网（http://admission.ucas.edu.cn）查询。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;由于中国科学院为非自主划线招生单位，院内各培养单位都将以教育部制定的复试基本要求、录取原则及中国科学院大学招生工作的有关规定，结合报考情况、招生名额、考生志愿，划定具体复试分数线。</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;我所历年招生录取数据统计，</strong>详见：https://graduate.nimte.ac.cn/view-3357.html</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;（</strong><strong>五）、你所如何组织考生复试？</strong>&nbsp;</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;答：</strong>全国硕士研究生招生考试初试成绩基本要求（即国家线）公布后，我所将公布本所各招生专业的具体分数线并通知符合要求的考生来所参加复试，复试采取差额复试。复试一般安排在3月中下旬。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;推免生、直博生的复试见《2024年接收推荐免试硕士生及直博生规程》相关规定。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;统考考生的复试主要以面试形式进行。内容主要包括综合能力测评、专业知识考核、英语水平测试、体检和政审。具体内容如下：</p>
+
+<p>　　<strong>1</strong><strong>、综合能力测评。</strong>每位考生向复试小组作5-8分钟情况介绍，主要介绍个人基本情况、课程学习情况、参加课程实验和科研实习情况等；主要考查考生的政治态度、思想品德、人生观、价值观、工作学习态度、团队合作精神、科研道德及遵纪守法等方面的基本情况；</p>
+
+<p>　　<strong>2</strong><strong>、专业知识考核。</strong>重点考查考生对知识掌握的深度和广度，对知识灵活运用的程度等，了解考生从事科研工作的潜力和创造性；考核既要看学生历年的学习成绩，又要注重对学生学习能力、创新精神和其他特长等综合素质方面的考查；</p>
+
+<p>　　<strong>3</strong><strong>、英语水平测试。</strong>以翻译、阅读和听力等形式，进行专业和非专业的英语语言交流。主要考查考生听、说、读的能力及语言运用能力；</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;4</strong><strong>、体检和政审。</strong>体检在我所指定的二级甲等以上医院进行，标准参照教育部、卫生部、中国残联印发的《普通高等学校招生体检工作指导意见》（教学﹝2003﹞3号）。新生入学后需进行体检复查。思想政治品德考核（政审）或体检结果不合格者不得录取。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;复试成绩或面试成绩不及格（即低于百分制的60分）的考生，不予录取。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 对同等学力考生须在复试阶段加试至少两门与报考专业相关的本科主干课程（闭卷笔试），每门加试科目考试时间为3小时，满分为100分。加试科目不得与初试科目相同。加试的具体时间和地点由我所确定并通知考生。加试科目不及格（即低于60分）者不予录取。</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;（六）、考前需要提前联系导师吗？</strong></p>
+
+<p>&nbsp; &nbsp; &nbsp; 答：不需要特意提前联系导师，如考试成绩符合初试分数线，来所参加复试后再根据感兴趣的研究方向联系相关导师，进行沟通交流。</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;（</strong><strong>七）、如何报考你所推荐免试研究生？</strong></p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;答：</strong>推免考生须取得所在高校外推资格，占用所在高校外推指标。报考时，申请人须在&ldquo;全国推荐优秀应届本科毕业生免试攻读研究生信息公开暨管理服务系统&rdquo;（网址:http://yz.chsi.com.cn/tm）填报申请信息。在教育部&ldquo;推免服务系统&rdquo;中选择&ldquo;中国科学院大学&rdquo;（学校代码：14430），再选择院系&ldquo;宁波材料技术与工程研究所&rdquo;（院系代码：174）。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;推荐免试生须在教育部规定的时间内，通过教育部&ldquo;推免服务系统&rdquo;，及时与接收的培养单位完成网上报名与拟录取手续。教育部推免服务系统拟录取的推荐免试生不需进行网上确认，也不得再报名参加当年硕士研究生招生考试。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;具体报考事项请参见我所<strong>《</strong><strong>2024</strong><strong>年接收推荐免试硕士生及直博生规程》</strong>。</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;（八）、每年硕士招生人数及推免硕士接收比例的情况，推免人数包括夏令营推免的人数吗？</strong></p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;答：</strong>我所硕士招生指标预计103个（实际招生人数以当年度国科大下达数为准），其中拟接收推免硕士生30人左右（包括参加夏令营并通过面试考核且获得推免资格最终确认录取的同学），各专业（含学术型和全日制专业学位）均可接收推免硕士生。历年推免硕士生的具体招收人数，详见：https://graduate.nimte.ac.cn/view-3357.html</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;（</strong><strong>九）、你所硕士研究生学制为多少年？学费如何收取？录取后如何培养？</strong></p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp; 答：</strong>我所硕士研究生均为全日制，学制3年，硕博连读生、直博生学制5年。国家计划内全日制硕士研究生（含学术型和专业学位）的学费标准为：8000元/年&bull;生，按学年收取。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;硕士研究生、直博生第一学期主要在中国科学院大学进行课程学习（目前生物医学工程专业的学生须在国科大完成为期1年的课程学习）；第二学期返所后开展科研实习，进行文献调研、开题报告，参与实验；第3年（硕士）/第3-5年（硕博连读、直博生）进行实验数据分析和研究，撰写学位论文，开展论文送审和答辩。其中学术型硕士研究生可于第4学期申请硕博连读转博，并参加转博考核，考核通过者录取为硕博连读生。</p>
+
+<p>　<strong>　（</strong><strong>十）、全日制专业学位与学术型学位有哪些区别？</strong></p>
+
+<p>　　<strong>答：</strong>全日制专业学位硕士研究生与学术型硕士学位研究生一样，在我国高层次人才培养中具有同等重要的地位和作用，属同一培养层次的不同类型。这种学位类型不同于以往的非全日制专业学位硕士，它不要求实际工作经历，只需要通过全国研究生入学统一考试选拔录取，在导师指导下进行全日制脱产学习且具有学籍，毕业时达到培养要求者颁发硕士研究生毕业证和硕士专业学位证，双向选择联系就业并正常派遣。</p>
+
+<p>　　与学术型硕士生不同的是，全日制专业学位硕士生主要面向社会应用需求进行招生和培养，在培养过程中更加侧重于专业技术技能和应用实践能力的培养，我所专业学位研究生不能申请硕博连读，但可以以应届毕业生身份参加博士研究生公开招生入学考试（入学前需取得硕士学位证），我所统招博士报考已于2019年开始实行申请-考核制。</p>
+
+<p>　　<strong>（</strong><strong>十一）、报考你所研究生有哪些优惠条件？</strong></p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp;答：</strong>1、研究生结束中国科学院大学课程学习，返回研究所的路费由我所按一定标准给予一次性补助；</p>
+
+<p>　　2、研究生在读期间享有丰厚的奖助学金（不含学业奖，硕士研究生30000元/年，博士研究生45000元/年）；</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;3、学习科研表现优秀的在学研究生，还可以申请国家、中国科学院、上海分院、研究所设立的各类专项奖学金。</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp;4、研究生完成课程学习后在所学习期间，由所在导师课题组资助，研究生处统一安排住宿，并参照员工待遇提供工作日用餐补贴；</p>
+
+<p>　　5、研究生在课程学习阶段，按照国科大要求享受相应假期。完成课程学习后在所学习期间，每年享受探亲假30天，不含路途和法定公休假，总天数根据实际往返路程，最多不超过40天；</p>
+
+<p>　　6、研究生在所学习期间，因公出差，按照初级人员标准报销差旅费；</p>
+
+<p align="left">　　7、研究生在课程学习阶段，由教学单位负责办理医疗保险；在所工作期间，由研究生处统一办理宁波市城镇居民基本医疗保险，享受宁波市区学生医疗保险待遇。</p>
+
+<p align="left">　　<strong>（</strong><strong>十二）、是否还有其他需要说明的问题？</strong>&nbsp;</p>
+
+<p><strong>&nbsp; &nbsp; &nbsp; &nbsp; 答：</strong>1、对于考生申报虚假材料、考试作弊及其它违反招生规定的行为，按教育部《国家教育考试违规处理办法》进行严肃处理；</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 2、考生因报考研究生与原所在单位或委培、定向及服务合同单位产生的纠纷由考生自行处理。若因上述问题使我所无法调取考生档案，造成考生不能复试或无法被录取的后果，我所不承担责任；</p>
+
+<p>　　3、现役军人报考硕士生，按解放军总政治部的规定办理；</p>
+
+<p>　　4、为及时让考生在第一时间获得招生信息，我们将通过网页、邮件、电话、短信等多种途径与考生进行及时沟通、传递信息。请考生务必经常浏览我所网站、保持电话畅通、准确填写身份证号码、联系电话、通讯地址、邮政编码等，以免耽误考试各项进程。考生在报名系统已经确定的所有联系方式，不得中途更改。因为中途更改联系方式所造成的不良后果，均由考生本人负责；</p>
+
+<p>　　5、本次问答如与上级部门下达的招生规定相悖，则以上级部门的新规定为准。</p>
+
+<p align="left"><strong>&nbsp; &nbsp; &nbsp; &nbsp;三、联系方式</strong></p>
+
+<p align="left">&nbsp; &nbsp; &nbsp; &nbsp;地　　址：浙江省宁波市镇海区庄市大道319号</p>
+
+<p align="left">　　邮　　编：315201</p>
+
+<p align="left">　　网　　址：<a href="http://www.nimte.ac.cn/">http://www.nimte.ac.cn</a></p>
+
+<p align="left">　　职能部门：研究生处</p>
+
+<p align="left">&nbsp; &nbsp; &nbsp; &nbsp;联 系 人：李老师&nbsp;</p>
+
+<p align="left">&nbsp; &nbsp; &nbsp; &nbsp;电　　话：0574-87911122</p>
+
+<p align="left">　　传　　真：0574-87910728</p>
+
+<p align="left">　　E - mail：liyanhong@nimte.ac.cn&nbsp;</p>
+
+<p align="left">&nbsp;</p>
+
+<p align="left"><strong>&nbsp; &nbsp; &nbsp; &nbsp;欢迎有志于我国新材料、先进制造、新能源及医学工程领域研究的同学来所学习深造，施展才艺。</strong></p>
+
+                 </div>
+                 <div class="pager" style="display:none">
+                     <a href="">上一页：关于做好2022年研究生国...</a>
+                     <a href="/zhaosheng.html" class="c">返回列表</a>
+                     <a href="">下一页 ：关于做好2022年研究生国...</a>
+                 </div>
+             </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="foot">
+    <div class="dom1">
+        <div class="l">
+            <div class="pic">
+                <img src="/template/ncmte.nimte.ac.cn/images/logo.png" alt="">
+            </div>
+            <div class="links">
+                <a href="#">
+                    <img src="/template/ncmte.nimte.ac.cn/images/f1.png" alt="">
+                    <p>官方微信</p>
+                </a>
+                <a href="https://www.nimte.ac.cn/contact">
+                    <img src="/template/ncmte.nimte.ac.cn/images/f2.png" alt="">
+                    <p>所长信箱</p>
+                </a>
+                <a href="https://www.nimte.ac.cn/">
+                    <img src="/template/ncmte.nimte.ac.cn/images/f3.png" alt="">
+                    <p>材料所官网</p>
+                </a>
+            </div>
+        </div>
+        <div class="r">
+            <div class="links">
+                <a href="/">首页</a>
+								<a href="/intro.html">学院概况</a>
+								<a href="/discipline.html">学科建设</a>
+								<a href="/supervisor.html">导师队伍</a>
+								<a href="/enroll.html">招生工作</a>
+								<a href="/education.html">培养管理</a>
+								<a href="/degree.html">学位管理</a>
+								<a href="/graduation.html">毕业就业</a>
+								<a href="/rules.html">规章制度</a>
+				            </div>
+            <div class="chose">
+                <div class="item">
+                    <select>
+                        <option value="" style="color:black;">友情链接</option>
+                        <option value="https://www.nimtea.c.cn" style="color:black;">宁波材料所</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <select>
+                        <option value="" style="color:black;">快速链接</option>
+                        <option value="https://www.nimtea.c.cn" style="color:black;">宁波材料所</option>
+                    </select>
+                </div>
+                <div class="pics">
+                    <div class="pic">
+                        <img src="/template/ncmte.nimte.ac.cn/images/code1.jpg" alt="">
+                    </div>
+                    <div class="pic">
+                        <img src="/template/ncmte.nimte.ac.cn/images/code2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="l">
+            中国科学院宁波材料技术与工程研究所 © 2007- 2026 版权所有 <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备05023821号</a>
+        </div>
+        <div class="r">
+            <select>
+                <option value="" style="color:black;">中科院宁波材料所</option>
+                <option value="https://www.nimtea.c.cn" style="color:black;">宁波材料所</option>
+            </select>
+        </div>
+    </div>
+</div>
+    </div>
+
+
+
+</div>
+<script src="/template/ncmte.nimte.ac.cn/js/jquery-3.6.1.min.js" type="text/javascript"></script>
+<script src="/template/ncmte.nimte.ac.cn/js/luxy.js"></script>
+<script src="/template/ncmte.nimte.ac.cn/js/common.js"></script>
+<script src="/analytics.js"></script></body>
+</html>

@@ -1,0 +1,1048 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="author" content="rockhentai">
+	<title>天津科技大学招生信息网</title>
+	
+	<script src="../js/jquery-1.12.1.min.js"></script>
+
+<script src="../js/index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?be55e30b8185030aa5f1b793b667abd7";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+
+<STYLE type="text/css">
+body,div,p,h1,h4,h5,ul,li,ol {
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	font-size: 2em;
+}
+.lftMod .list li a,.rgtMod .list li a{display:block;width:280px;overflow:hidden;padding-left:20px;}
+.ctMod .list li a{display:block;width:280px;overflow:hidden;padding-left:30px;}
+.lftCon{ width:280px;float:left;padding-left:30px;}}
+.head{ color:#ffffff;font-weight:bold;text-indent: 2em;overflow:hidden;display: block;font-size:14px;padding-bottom:3px;}
+list{
+	color:#fff;}
+
+
+ul,li,ol {
+	list-style: none;
+}
+
+a {              font-size: 13px;
+                 color:#000;
+	text-decoration: none;
+}
+
+
+body {
+	font-family: proxima-nova,"Microsoft YaHei",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	color:#333;
+	position: relative;
+	background: #fff;
+}
+.date {        font-size: 13px;
+                 color:#000;
+	
+}
+.wznr {        font-size: 14px;
+                 color:#000;
+              line-height:26px;
+	
+}
+
+
+.font13{
+font-size: 13px;
+color:#fff;
+}
+.white {
+	background: #fff;
+}
+
+.container {position: relative;
+	width: 1100px;
+
+margin:0 auto;
+}
+
+
+.wrapper1 {
+	width:985px;
+                 margin:0 auto;	
+}
+
+.clear {
+	clear: both;
+}
+
+.top {
+	position: relative;
+	width: 100%;
+	height:148px;
+	z-index: 99;
+background: #fff;
+}
+
+
+.top .logo {
+	width:100%;
+	height:148px;
+	padding-top: 0px;
+	background: #fff;}
+
+.main {position: relative;            
+top:0px;
+	width:100%;
+	margin:0 auto;
+                 height:300px;
+background: #197caf;
+}
+
+.main1 {background: #fff;
+	width:1100px;
+	margin:0 auto;
+         min-height:950px;
+}
+.main2 {background: #fff;
+	width:1100px;
+	margin:0 auto;
+min-height:535px;
+}
+.main3 {background: #fff;
+	width:1100px;
+	margin:0 auto;
+                 min-height:570px;
+}
+
+.main .banner {
+	position: relative;
+                 margin：0 auto;
+
+ left: 50%;
+
+    margin-left: -550px;
+
+	width:1100px;
+	height:300px;
+	overflow: hidden;
+
+}
+
+.main .banner .slides {
+	width:1100px;
+
+background: #197caf;
+}
+
+.main .banner .slides li {
+	display: none;
+	width: 1100px;
+	float: center;
+background: #197caf;
+}
+.main .banner .slides li.active {
+	display: block;
+}
+
+.main .banner .slides li img {
+	width: 1100px;
+background: #197caf;
+}
+
+.banner .slidesController {
+	position: absolute;
+	right:26px;
+	bottom: 5px;
+	z-index: 99;
+}
+
+.banner .slidesController li {
+	display: inline-block;
+	width: 9px;
+	height:9px;
+	margin:0 4px;
+	border:1px solid #d1d1d1;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.banner .slidesController li.active {
+	background: #ff5b0b;
+	border-color: #ff5b0b;
+}
+
+.content {
+	float:left;
+	width:1100px;
+	margin-right: 0px;
+	margin-top: 0px;
+background: #fff;
+}
+
+.content .block {
+	float:left;
+	
+}
+
+.block .title {
+	width:100%;
+	height: 22px;
+	margin-bottom: 23px;
+	border-bottom: 3px solid #f3842b;
+	line-height: 22px;
+}
+
+.block .title .caption {
+	display: inline-block;
+	height: 100%;
+}
+
+.block .title .more {
+	display: inline-block;
+	float: right;
+	height: 22px;
+	line-height: 22px;
+	color:#979797;
+	font-size: 12px;
+}
+
+.content .news {
+	margin-right: 15px;
+	width:370px;
+}
+
+.news .title .caption {
+	width:193px;
+	
+}
+
+.content .notice {
+	width: 397px;
+}
+
+.notice .title .caption {
+	width:140px;
+	
+}
+
+.news img {
+	margin-bottom: 5px;
+}
+
+.block .links .link {
+	width:100%;
+	margin-bottom: 8px;
+	font-size: 12px;
+	color: #454545;
+	list-style: disc inside;
+}
+
+.block .links .link a {
+	color: #000;
+}
+
+.block .links .link .date {
+	float: right;
+}
+
+.agency {
+	margin-top: 43px;
+}
+
+.agency a img {
+		border:0 none;
+}
+
+.agency .experiment,.agency .mba {
+	float:left;
+	margin-right: 2px;
+}
+
+.sidebar {
+	float: left;
+	width: 165px;
+	height: 459px;
+	padding-top: 72px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 12px;
+	color:#fff;
+	background: url(/publish/jjyglxy/images/side_bg.jpg) no-repeat 0 0;
+}
+
+.sidebar .btn {
+	width:106px;
+	height:27px;
+	line-height: 27px;
+	margin:20px auto 10px auto;
+	background: url(/publish/jjyglxy/images/btn.png) no-repeat 0 0;
+}
+
+
+.sidebar .side-nav {
+	display: block;
+	width:100%;
+	height:30px;
+	line-height: 30px;
+	color:#fff;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.bottom  {
+	
+	width:100%;
+	height: 265px;
+background: url(../img/zsbbbg.png) repeat-x;
+
+}
+
+	
+
+
+.bottom .footer {
+	
+       width:1100px;
+	margin:0 auto;
+	height: 265px;
+	background: url(../img/zsbbottom.png) no-repeat 0 0;
+	text-align: center;
+	
+
+
+}
+
+.cen  {
+	
+	width:100%;
+	height: 25px;}
+
+/*article*/
+.articlebg{width:100%;
+background: url(/publish/baoyin/img/bbg.png) repeat-x;
+}
+
+.c_title {
+	FONT-SIZE: 15px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, 宋体
+}
+
+.c_content {
+	FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, 宋体
+}
+.wenzi {
+	font-size: 13px;
+        FONT-FAMILY: Verdana, Arial, 宋体;
+	line-height: 24px;
+	color: #000;
+}
+
+.article {
+	width:990px;
+	margin:0 auto 45px auto;
+
+}
+
+
+.article .left {
+	float: left;
+	margin-right: 27px;
+}
+
+.article .left .survey {
+	width:270px;
+	height:210px;
+	margin-top: 48px;
+}
+
+.survey .header {
+	width:100%;
+	height:20px;
+	line-height: 20px;
+	background: #3aadba;
+	color: #fff;
+	font-size: 13px;
+}
+
+.survey .header p {
+	padding-left: 17px;
+}
+
+.survey .body {
+	width:100%;
+	height:160px;
+	background: #f6fbfb;
+}
+
+.survey .body ul {
+	padding:10px 17px;
+}
+
+.survey .body .line {
+	width:100%;
+	height:30px;
+	border-bottom: 1px solid #e7ecec;
+	color:#3aadba;
+	font-size: 12px;
+	line-height: 30px;
+	background-image: url(/publish/jjyglxy/images/arrow2.png);
+	background-repeat: no-repeat;
+	background-position-x:216px;
+	background-position-y:center;
+}
+
+.survey .body .line.active {
+	background-image: url(/publish/jjyglxy/images/arrow.png);
+}
+
+.survey .body .line a {
+	display: block;
+	width:100%;
+	height:100%;
+	color:#3aadba;
+}
+
+.article .left .notice {
+                width:270px;
+	height:230px;
+	border-bottom: 3px solid #f3842b;
+	list-style: none;
+	color: #454545;
+}
+
+.rightc {
+	float: center;
+	width: 850px;
+margin-left: 6px;
+}
+
+.rightc .location {
+	width:100%;
+	height:48px;
+	font-size: 13px;
+	color: #ffffff;
+	line-height: 48px;
+}
+
+.rightc .location a {
+	color:#6a6a6a;
+}
+
+.rightc .substance {
+	width:100%;
+	min-height:550px;
+background: #ffffff;
+	border:1px solid #c8c8c8;
+margin:0px 25px 20px 0px;
+}
+
+.rightc .substance .outer {
+	padding:15px 10px 0 27px;
+}
+
+.rightc.substance .title {
+        line-height: 48px;
+	margin-bottom: 18px;
+	text-align: center;
+	font-size: 17px;
+	color: #6f6f6f;
+	letter-spacing: 13px;
+	font-weight: normal;
+}
+
+.rightc .substance .release-date {
+	width:100%;
+	height: 22px;
+	margin-bottom: 20px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 13px;
+	color:#6a6a6a;
+	background: #efefef;
+}
+
+.rightc .substance .text p {
+	line-height: 26px;
+	margin-bottom: 24px;
+	font-size: 13px;
+	color: #393939;
+	text-indent: 26px;
+}
+
+
+.right {
+	float: left;
+	width:742px;
+                 min-height:550px;
+margin-left: 8px;
+}
+
+.right .location {
+	width:100%;
+	height:48px;
+	font-size: 12px;
+	color: #6a6a6a;
+	line-height: 48px;
+}
+
+.right .location a {
+	color:#6a6a6a;
+}
+
+.right .substance {
+	width:100%;
+	min-height:550px;
+background: #ffffff;
+	border:1px solid #c8c8c8;
+margin:0px 25px 20px 0px;
+
+}
+
+.right .substance .outer {
+	padding:15px 10px 0 27px;
+}
+
+.alinks{
+
+	color:#3aadba;
+}
+
+
+.right .substance .title {
+	margin-bottom: 18px;
+	text-align: center;
+	font-size: 18px;
+	color: #6f6f6f;
+	letter-spacing: 12px;
+	font-weight: normal;
+}
+
+.right .substance .release-date {
+	width:100%;
+	height: 22px;
+	margin-bottom: 20px;
+	line-height: 22px;
+	text-align: center;
+	font-size: 13px;
+	color:#6a6a6a;
+	background: #efefef;
+}
+
+.right .substance .text p {
+	line-height: 25px;
+	margin-bottom: 24px;
+	font-size: 13px;
+	color: #393939;
+	text-indent: 26px;
+}
+
+.wrapper {
+	width:1200px;
+	margin:0 auto;
+}
+
+.header  .search {
+	float:left;
+	margin:22px 50px 10px 865px;
+	width:130px;
+	height:26px;
+
+	position: relative;
+	background: url(/publish/jsfzzx/img/search_bg.png) no-repeat;
+}
+
+
+.header .gh1 {
+	float:left;
+	margin:55px 50px 10px 530px;
+	width:780px;
+	height:70px;
+	position: relative;
+	
+}
+
+.gh1 .navLists {
+	width:780px;
+	height:35px;
+
+}
+
+.navLists .nav {
+	position: relative;
+	display: block;
+	float: left;
+	width: 79px;
+	height: 35px;
+line-height:33px;
+	
+	text-align: center;
+	font-size: 18px;
+font-weight: bold;
+	color:#717171;
+
+z-index:100;
+}
+.navLists .nav a {
+font-size: 15px;
+	color:#717171;
+}
+
+.navLists .nav .subnavs {
+	display: none;
+	position: absolute;
+	left: 0;
+line-height:33px;
+font-weight:normal;
+	top:35px;
+	width:130%;
+z-index:110;
+margin:0px 0px 0px -15px
+}
+.navLists .subnavs a {
+              font-size: 14px;
+	color:#fff;
+}
+
+.navLists .nav .subnavs .subnav {
+position: relative;
+z-index:100;
+	width:130%;
+	height:100%;
+	background: #197caf;
+margin:0px 0px 0px -15px
+
+}
+
+
+.header  .gh {
+	float:left;
+	margin:0px 0px 0px 0px;
+	
+	position: relative;
+	
+}
+.header {
+  width:1100px;
+margin:0 auto;
+  height: 148px;
+  background: url(../img/zsblogo.png) no-repeat 0 0;
+}
+ .header .search .search_input {
+overflow:hidden;display: block;
+	border:none;
+	width:120px;
+	height:26px;
+	background: none;
+	position:absolute;
+	padding-left: 10px;
+	padding-top: 4px;
+font-size: 12px;
+
+}
+
+ .header .search .search_icon {
+	width:25px;
+	height:25px;
+	display: block;
+        border-style :none;
+	background: url(/publish/jsfzzx/img/search_icon.png) no-repeat;
+	position:absolute;
+        color:#fff;
+	top:1px;
+	right:1px;
+}
+
+
+</style>
+
+<div class="top">
+			
+<div class="logo">
+			
+
+    <div class="header">
+
+	<div class="gh">
+
+</div>
+
+				<div class="gh1">
+<div class="navLists">
+				
+		
+					<ul>
+<li class="nav">
+<a href="../">&nbsp;&nbsp;&nbsp;&nbsp;首页 |</a>
+  
+</li>
+												<li class="nav">
+							<a href="#">科大纵览 |</a>
+					   <ul class="subnavs">
+								<li class="subnav">
+									<a href="../kdzl/xxgk/">学校概况</a>
+								</li>
+								<li class="subnav">
+									<a href="../kdzl/sbdsz/">硕博点设置</a>
+								</li>
+								<li class="subnav">
+									<a href="../kdzl/jzxj/">奖助学金</a>
+								</li>
+			
+			<li class="subnav">
+									<a href="http://gjjl.tust.edu.cn">国际交流</a>
+								</li>
+				
+				<li class="subnav">
+									<a href="../kdzl/sthd/">社团活动</a>
+								</li>
+				
+							</ul>	
+						
+						
+						</li>
+						
+					
+						
+						
+
+<li class="nav">
+							<a href="../zyjs/">专业介绍 |</a>
+                  
+						</li>
+
+
+						
+
+
+
+						<li class="nav">
+							<a href="#">报考指南 |</a>
+                            
+                             <ul class="subnavs">
+								<li class="subnav">
+									<a href="../bkzn/zszc/">招生政策</a>
+								</li>
+								<li class="subnav">
+									<a href="../bkzn/jhcx/">计划查询</a>
+								</li>
+								<li class="subnav">
+									<a href="../bkzn/wnlq/">往年录取</a>
+								</li>
+			
+			<li class="subnav">
+									<a href="../bkzn/xkkm/">选考科目</a>
+								</li>
+					
+							</ul>
+						</li>
+	
+
+<li class="nav">
+							<a href="#">专题招生 |</a>
+                                                 
+                                          
+                             <ul class="subnavs">
+								<li class="subnav">
+									<a href="../ztzs/yslzs/">艺术类招生</a>
+								</li>
+								<li class="subnav">
+									<a href="../ztzs/gspydd/">高水平运动队</a>
+								</li>
+								<li class="subnav">
+									<a href="../ztzs/gat/">港澳台</a>
+								</li>
+			                                 
+							
+				
+							</ul>
+						</li>
+
+
+
+<li class="nav">
+<a href="#">信息查询 |</a>
+        <ul class="subnavs">
+								<li class="subnav">
+									<a href="../xxcx/lqcx/">录取查询</a>
+								</li>
+								<li class="subnav">
+									<a href="../xxcx/lnfs/">历年分数</a>
+								</li>
+								
+			                                       
+				<li class="subnav">
+									<a href="../xxcx/wdxz/">文档下载</a>
+								</li>
+							</ul>
+</li>
+
+<li class="nav">
+<a href="../lxwm/">联系我们 |</a>
+  
+</li>
+
+
+					</ul>
+				</div>
+			</div>
+
+
+				</div>
+</div>
+			
+					</div>
+
+
+<div class="main">
+
+
+<div class="banner">
+				<ul class="slides">
+					<li class="active"> <a href="https://www.ccdi.gov.cn/specialn/esdzt/index.html" target="_blank"><img border ="0"  src="../img/banner5.jpg" alt="" /></a></li>
+	<!-- <li> <a href="https://flbook.com.cn/c/0WaVzv6L4o" target="_blank"><img border ="0"  src="../img/zsjy.jpg" alt="" /></a></li> -->
+<li><img src="../img/lb1.png" alt="" /></li>
+<li><img src="../img/lb4.png" alt="" /></li>
+<li><img src="../img/lb3.png" alt="" /></li>
+<li><img src="../img/lb2.png" alt="" /></li>
+				</ul>
+<ol class="slidesController">
+					<!-- <li class="active"></li>
+<li></li>
+					<li></li>
+                                                                                     <li></li>
+                                                                                     <li></li>
+					<li></li> -->
+				</ol>
+
+			</div>
+</div><div class="main2">
+<div class="container">
+	<table width="90%" border="0" cellspacing="0" cellpadding="0" align="center" >
+        <tr>
+          <td><br /><br />
+            <div  class="c_title">
+              <h2 align="center"><span>天津科技大学招生咨询QQ群汇总表</span></h2>
+            
+            </div>
+            <center>
+                          </center>
+            <div  class="c_title">
+              <h3 align="center"><span style="font-family:方正兰亭黑; size:14px"></span></h3><br />
+            </div>
+            <center>
+                          </center><br /> 
+             <div  class="wznr" align="center">   发布日期：2024-05-30 </div>
+ <hr class="hr" />
+            <div  class="wznr"> <font color="#000000"> <html>
+ <head></head>
+ <body>
+  <table align="center" cellspacing="0" cellpadding="0" data-sort="sortDisabled">
+   <colgroup>
+    <col width="246" style="width:247px" span="2">
+   </colgroup>
+   <tbody>
+    <tr height="43" class="firstRow" style="height:43px">
+     <td height="43" align="center" valign="middle" style="padding: 2px 3px; border: 1px solid rgb(0, 0, 0); word-break: break-all;" colspan="3" rowspan="1">天津科技大学招生咨询QQ群汇总表</td>
+    </tr>
+    <tr height="25" style="height:25px">
+     <td height="25" align="center" valign="middle" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">QQ群名</td>
+     <td align="center" valign="middle" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">群号</td>
+     <td colspan="1" rowspan="1" valign="middle" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px; word-break: break-all;" align="center">群二维码</td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（北京）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1049060366</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px; word-break: break-all;"><p><img src="../images/2023-06/c08aeb647e7e43de8cdb6eff5a250eab.png" title="c08aeb647e7e43de8cdb6eff5a250eab.png" alt="11天津科大招生（北京）.png"></p></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（天津）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1077974494</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/55f8997a445b4370ac92acb9e7a275bb.png" title="55f8997a445b4370ac92acb9e7a275bb.png" alt="12天津科大招生（天津）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（河北）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1078096353</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/b45a1583ee5c424aa74c60fc2dd8c4dd.png" title="b45a1583ee5c424aa74c60fc2dd8c4dd.png" alt="13天津科大招生（河北）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（山西）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1078124338</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/a27996c6b79f4220a38710d5eb0f1a78.png" title="a27996c6b79f4220a38710d5eb0f1a78.png" alt="14天津科大招生（山西）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（内蒙古）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">831667107</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/0f63a4cac9254680afc19104a0c23cf7.png" title="0f63a4cac9254680afc19104a0c23cf7.png" alt="15天津科大招生（内蒙古）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（辽宁）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1078129516</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/b4d0890ff10740b4aa3f6dc108ccd7cc.png" title="b4d0890ff10740b4aa3f6dc108ccd7cc.png" alt="21天津科大招生（辽宁）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（吉林）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1078134689</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px; word-break: break-all;"><img src="../images/2023-06/49c8c62a8bce4fc58bcda58b38923fe5.png" title="49c8c62a8bce4fc58bcda58b38923fe5.png" alt="22天津科大招生（吉林）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（黑龙江）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1078233595</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/fa4773ca608b4b6fb90a7a5531d57b39.png" title="fa4773ca608b4b6fb90a7a5531d57b39.png" alt="23天津科大招生（黑龙江）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（上海）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1078252604</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/3c171fc92d1f4dad868fdf1a353a65bb.png" title="3c171fc92d1f4dad868fdf1a353a65bb.png" alt="31天津科大招生（上海）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（江苏）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1021735220</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/32e71d7878944771a288350c723546d9.png" title="32e71d7878944771a288350c723546d9.png" alt="32天津科大招生（江苏）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（浙江）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1044875173</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/87e30607ce8946afa81c3677272dfd8d.png" title="87e30607ce8946afa81c3677272dfd8d.png" alt="33天津科大招生（浙江）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding: 2px 3px; border: 1px solid rgb(0, 0, 0); word-break: break-all;">天津科大招生（安徽）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1045081315</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/e99785a331a340b1adcecccf0e01836d.png" title="e99785a331a340b1adcecccf0e01836d.png" alt="34天津科大招生（安徽）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding: 2px 3px; border: 1px solid rgb(0, 0, 0); word-break: break-all;">天津科大招生（福建）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">812941070</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/a3795fdc899a4c938426d366abfd57b4.png" title="a3795fdc899a4c938426d366abfd57b4.png" alt="35天津科大招生（福建）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（江西）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1044614590</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )"><img src="../images/2023-06/f91a61b734d34da5b02b101a6ba768c7.png" title="f91a61b734d34da5b02b101a6ba768c7.png" alt="36天津科大招生（江西）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（山东）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">632150061</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px; word-break: break-all;"><img src="../images/2023-06/d1923f21a5e24d0299a0e52c5542769f.png" title="d1923f21a5e24d0299a0e52c5542769f.png" alt="37天津科大招生（山东）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（河南）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1045927323</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/b070fb0f78f44ff6b4028622959a7357.png" title="b070fb0f78f44ff6b4028622959a7357.png" alt="41天津科大招生（河南）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（湖北）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">977761080</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/c604480432634f27bd508d189a806bca.png" title="c604480432634f27bd508d189a806bca.png" alt="42天津科大招生（湖北）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（湖南）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1045363350</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/2cf32fdba2214afe8202cf6cd9c55303.png" title="2cf32fdba2214afe8202cf6cd9c55303.png" alt="43天津科大招生（湖南）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（广东）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1045577105</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/3e91459faccf4680becfd192655817d0.png" title="3e91459faccf4680becfd192655817d0.png" alt="44天津科大招生（广东）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（广西）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">975779697</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/3a31034287984f119776c1476c9246ca.png" title="3a31034287984f119776c1476c9246ca.png" alt="45天津科大招生（广西）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（海南）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">982422691</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/ca39ffc9f2da419f965b46404216bc3c.png" title="ca39ffc9f2da419f965b46404216bc3c.png" alt="46天津科大招生（海南）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（重庆）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1045619036</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/08ebf078a9b540ceacf7d0bf41821989.png" title="08ebf078a9b540ceacf7d0bf41821989.png" alt="50天津科大招生（重庆）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（四川）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">134662609</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/e4d933ba5a4d4fd3b385cdcda3d4b2e6.png" title="e4d933ba5a4d4fd3b385cdcda3d4b2e6.png" alt="51天津科大招生（四川）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（贵州）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">313948934</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/edb782dad39542078c4318e6790c5339.png" title="edb782dad39542078c4318e6790c5339.png" alt="52天津科大招生（贵州）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（云南）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">559413938</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/3d74e8fada6d4907b6e0f031388cdd8c.png" title="3d74e8fada6d4907b6e0f031388cdd8c.png" alt="53天津科大招生（云南）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（西藏）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">642478807</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/62a6165952474ff8ab8f7c4392bb7eaa.png" title="62a6165952474ff8ab8f7c4392bb7eaa.png" alt="54天津科大招生（西藏）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（陕西）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1046051849</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/358fb6f44fcd488481c73a7dc9b99ca2.png" title="358fb6f44fcd488481c73a7dc9b99ca2.png" alt="61天津科大招生（陕西）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（甘肃）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1045940706</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/4bfa910e2e5142e89979d6871b664799.png" title="4bfa910e2e5142e89979d6871b664799.png" alt="62天津科大招生（甘肃）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（青海）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1048835836</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/6fb2ce82cdf042e2a8629dc7cae1183e.png" title="6fb2ce82cdf042e2a8629dc7cae1183e.png" alt="63天津科大招生（青海）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（宁夏）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">785423223</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/6627b77f53304117b9881109aca5376f.png" title="6627b77f53304117b9881109aca5376f.png" alt="64天津科大招生（宁夏）.png"></td>
+    </tr>
+    <tr height="31" style="height:31px">
+     <td height="31" style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">天津科大招生（新疆）</td>
+     <td style="padding:2px 3px;border:1px solid rgb( 0 , 0 , 0 )">1048197365</td>
+     <td colspan="1" rowspan="1" valign="null" style="border-color: rgb(0, 0, 0); border-width: 1px; border-style: solid; padding: 2px 3px;"><img src="../images/2023-06/a09fdf57593d43c69095e791b9a1e263.png" title="a09fdf57593d43c69095e791b9a1e263.png" alt="65天津科大招生（新疆）.png"></td>
+    </tr>
+   </tbody>
+  </table>
+  <p><br></p>
+ </body>
+</html> <br />
+ </div>
+          </div>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+      </table>	
+
+</div>
+</div>
+
+
+
+
+<div class="bottom2">			
+		
+
+		</div>
+
+<div class="bottom">			<div class="footer">
+							</div>
+		</div>
+</body></html>

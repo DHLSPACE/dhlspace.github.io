@@ -1,0 +1,878 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML><HEAD><TITLE>西安交通大学研究生院</TITLE><META Name="keywords" Content="西安交通大学研究生院" />
+
+
+
+
+
+<META content="text/html; charset=UTF-8" http-equiv="Content-Type"><LINK rel="stylesheet" type="text/css" href="css/style.css"><script type="text/javascript" src="js/jquery.min.js"></script><script type="text/javascript" src="js/ddsmoothmenu.js"></script><script type="text/javascript" src="js/koala.min.js"></script><script type="text/javascript" src="js/terminator.min.js"></script><script>
+            <!--
+
+            function setTab(name, cursel, n) {
+
+                for(i = 1; i <= n; i++) {
+
+                    var menu = document.getElementById(name + i);
+
+                    var con = document.getElementById("con_" + name + "_" + i);
+
+                    menu.className = i == cursel ? "hover" : "";
+
+                    con.style.display = i == cursel ? "block" : "none";
+
+                }
+
+            }
+
+            //-->
+        </script></LINK>
+
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230697547545257544003060005 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1111,'/index.jsp',-1,1510757228)</script>
+</HEAD>
+<BODY>
+<DIV id="wrapper"><!--head start-->
+<DIV class="ycdh"></DIV>
+<HR>
+
+<HR>
+
+<DIV class="top">
+<DIV class="main clearfix">
+<DIV class="logo fl"><!--#begineditable clone="0" namechanged="0" order="0" ispublic="0" tagname="LOGO" viewid="215569" contentviewid="" contype="" stylesysid="" layout="" action="" name="LOGO"-->
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="index.htm" title="研究生院"><img src="images/logo.png" width="733" height="65" border="0" alt="研究生院" title="研究生院"></a><!--#endeditable--></DIV>
+<DIV class="topyc fr">
+<DIV class="toplj"><!--#begineditable clone="0" namechanged="0" order="1" ispublic="0" tagname="链接列表-top链接" viewid="215570" contentviewid="" contype="" stylesysid="" layout="" action="" name="链接列表-top链接"--><script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/openlink.js"></script><a href="http://gsen.xjtu.edu.cn" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1510757228, 45030)" style="padding-right: 0px;">English</a>
+
+<!--#endeditable--></DIV>
+<DIV class="sousuo"><!--#begineditable clone="0" namechanged="0" order="2" ispublic="0" tagname="全文检索" viewid="215571" contentviewid="" contype="" stylesysid="" layout="" action="" name="全文检索"--><script type="text/javascript">
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode215571').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkeyword215571").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkeyword215571").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkeyword215571").value = base64.encode(document.getElementById("lucenenewssearchkeyword215571").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode215571"));
+        return true;
+    } 
+</script>
+<form action="ssjgy.jsp?wbtreeid=1111" method="post" id="au2a" name="au2a" onsubmit="return _nl_ys_check()" style="display: inline">
+ <input type="hidden" id="lucenenewssearchkeyword215571" name="lucenenewssearchkeyword" value=""><input type="hidden" id="_lucenesearchtype215571" name="_lucenesearchtype" value="1"><input type="hidden" id="searchScope215571" name="searchScope" value="0">
+<input type="text" name="showkeycode" id="showkeycode215571" class="sou fl" value="请输入关键字" onfocus="if (value =='请输入关键字'){value =''};this.style.color='#fbfbfb';" onblur="if (value ==''){value='请输入关键字'};this.style.color='#fbfbfb';" style="vertical-align: middle; color: #fbfbfb;">
+							<input type="image" src="images/ssan.png" class="suo fr">
+</form><script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/formfunc.js"></script>
+<!--#endeditable--></DIV></DIV></DIV></DIV><!--nav开始--><A name="dhl"></A>
+<DIV class="nav">
+<DIV id="smoothmenu1" class="ddsmoothmenu"><!--#begineditable clone="0" namechanged="0" order="3" ispublic="0" tagname="网站导航" viewid="215572" contentviewid="" contype="" stylesysid="" layout="" action="" name="网站导航"--><ul>
+		<li>
+		<a href="index.htm" title="首页">首页</a>
+	</li>
+	<li class="dht"></li>
+	<li>
+		<a href="bmgk/bmjj.htm" title="部门概况">部门概况</a>
+		<ul>
+			<li>
+				<a href="bmgk/bmjj.htm" title="部门简介">部门简介</a>
+			</li>
+			<li>
+				<a href="bmgk/bmld.htm" title="部门领导">部门领导</a>
+			</li>
+			<li>
+				<a href="bmgk/gwzz.htm" title="岗位职责">岗位职责</a>
+			</li>
+			<li>
+				<a href="bmgk/gkdw.htm" title="挂靠单位">挂靠单位</a>
+			</li>
+		</ul>
+	</li>
+	<li class="dht"></li>
+	<li>
+		<a href="djgz.htm" title="党建工作">党建工作</a>
+		<ul>
+			<li>
+				<a href="djgz/zbjj.htm" title="支部简介">支部简介</a>
+			</li>
+			<li>
+				<a href="djgz/zbsh.htm" title="支部生活">支部生活</a>
+			</li>
+			<li>
+				<a href="djgz/xxyd.htm" title="学习园地">学习园地</a>
+			</li>
+		</ul>
+	</li>
+	<li class="dht"></li>
+	<li>
+		<a href="https://yz.xjtu.edu.cn/" target="_blank" title="招生工作">招生工作</a>
+	</li>
+	<li class="dht"></li>
+	<li>
+		<a href="pygz.htm" title="培养工作">培养工作</a>
+		<ul>
+			<li>
+				<a href="pygz/pyfa.htm" title="培养方案">培养方案</a>
+			</li>
+			<li>
+				<a href="pygz/jwgl.htm" title="教务管理">教务管理</a>
+			</li>
+			<li>
+				<a href="pygz/kctj.htm" title="课程推荐">课程推荐</a>
+			</li>
+			<li>
+				<a href="pygz/jxgg.htm" title="教学改革">教学改革</a>
+			</li>
+			<li>
+				<a href="pygz/sjjs.htm" title="实践竞赛">实践竞赛</a>
+			</li>
+			<li>
+				<a href="pygz/cxcy.htm" title="创新创业">创新创业</a>
+			</li>
+			<li>
+				<a href="pygz/gjjl.htm" title="国际交流">国际交流</a>
+			</li>
+			<li>
+				<a href="pygz/zlpj.htm" title="质量评价">质量评价</a>
+			</li>
+			<li>
+				<a href="pygz/kcsz.htm" title="课程思政">课程思政</a>
+			</li>
+			<li>
+				<a href="pygz/jcjs.htm" title="教材建设">教材建设</a>
+			</li>
+			<li>
+				<a href="pygz/tmlyr.htm" title="体美劳育人">体美劳育人</a>
+			</li>
+			<li>
+				<a href="pygz/zhsw.htm" title="综合事务">综合事务</a>
+			</li>
+			<li>
+				<a href="pygz/xsjxQ_A.htm" title="线上教学Q&amp;A">线上教学Q&amp;A</a>
+			</li>
+		</ul>
+	</li>
+	<li class="dht"></li>
+	<li>
+		<a href="gjjl/gjhzn.htm" title="国际交流">国际交流</a>
+		<ul>
+			<li>
+				<a href="gjjl/gjhzn.htm" title="国际化指南">国际化指南</a>
+			</li>
+			<li>
+				<a href="gjjl/gjlxjjwxm.htm" title="国家留学基金委项目">国家留学基金委项目</a>
+			</li>
+			<li>
+				<a href="gjjl/gspgjxshy.htm" title="高水平国际学术会议">高水平国际学术会议</a>
+			</li>
+			<li>
+				<a href="gjjl/dqcg_j_fxxm.htm" title="短期出国（境）访学项目">短期出国（境）访学项目</a>
+			</li>
+			<li>
+				<a href="gjjl/lhpysxwxm.htm" title="联合培养双学位项目">联合培养双学位项目</a>
+			</li>
+			<li>
+				<a href="gjjl/ylxzjxjh.htm" title="一流学者讲学计划">一流学者讲学计划</a>
+			</li>
+			<li>
+				<a href="gjjl/qtxm.htm" title="其他项目">其他项目</a>
+			</li>
+		</ul>
+	</li>
+	<li class="dht"></li>
+	<li>
+		<a href="xwgz.htm" title="学位工作">学位工作</a>
+		<ul>
+			<li>
+				<a href="xwgz/xwsy.htm" title="学位授予">学位授予</a>
+			</li>
+			<li>
+				<a href="xwgz/xwdjs.htm" title="学位点建设">学位点建设</a>
+			</li>
+			<li>
+				<a href="xwgz/dsdwjs.htm" title="导师队伍建设">导师队伍建设</a>
+			</li>
+		</ul>
+	</li>
+	<li class="dht"></li>
+	<li>
+		<a href="szgz.htm" title="思政工作">思政工作</a>
+		<ul>
+			<li>
+				<a href="szgz/yjsdj.htm" title="研究生党建">研究生党建</a>
+			</li>
+			<li>
+				<a href="szgz/szjy.htm" title="思政教育">思政教育</a>
+			</li>
+			<li>
+				<a href="szgz/dwjs.htm" title="队伍建设">队伍建设</a>
+			</li>
+			<li>
+				<a href="szgz/bzjl.htm" title="表彰奖励">表彰奖励</a>
+			</li>
+		</ul>
+	</li>
+	<li class="dht"></li>
+	<li>
+		<a href="xjjz.htm" title="学籍奖助">学籍奖助</a>
+		<ul>
+			<li>
+				<a href="xjjz/xjxl.htm" title="学籍学历">学籍学历</a>
+			</li>
+			<li>
+				<a href="xjjz/gjzxj.htm" title="国家助学金">国家助学金</a>
+			</li>
+			<li>
+				<a href="xjjz/xyjxj.htm" title="学业奖学金">学业奖学金</a>
+			</li>
+			<li>
+				<a href="xjjz/szyf.htm" title="三助一辅">三助一辅</a>
+			</li>
+			<li>
+				<a href="xjjz/gjjxj.htm" title="国家奖学金">国家奖学金</a>
+			</li>
+		</ul>
+	</li>
+	<li class="dht"></li>
+	<li>
+		<a href="zdylc.htm" title="制度与流程">制度与流程</a>
+		<ul>
+			<li>
+				<a href="zdylc/gzzd.htm" title="规章制度">规章制度</a>
+			</li>
+			<li>
+				<a href="zdylc/gzlc.htm" title="工作流程">工作流程</a>
+			</li>
+			<li>
+				<a href="zdylc/zlxz.htm" title="资料下载">资料下载</a>
+			</li>
+		</ul>
+	</li>
+	
+</ul><!--#endeditable--></DIV><script type="text/javascript">
+                    ddsmoothmenu.init({
+                        mainmenuid: "smoothmenu1", //menu DIV id
+                        orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+                        classname: 'ddsmoothmenu', //class added to menu's outer DIV
+                        //customtheme: ["#1c5a80", "#18374a"],
+                        contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+                    })
+                </script></DIV>
+<DIV class="sybanner"><!-- 代码 开始 -->
+<DIV id="fsD2" class="focus2"><!--#begineditable clone="0" namechanged="0" order="4" ispublic="0" tagname="图片列表-banner" viewid="215573" contentviewid="" contype="" stylesysid="" layout="" action="" name="图片列表-banner"-->    <div id="D2pic1" class="fPic2">
+		<div class="fcon2" style="display: none;">
+                        <a><img src="images/1200-320.png" style="opacity: 1"></a>
+	</div>
+	<div class="fcon2" style="display: none;">
+                        <a><img src="images/4e0b2a4fcf8600b4c664aa819b91a255.jpg" style="opacity: 1"></a>
+	</div>
+	<div class="fcon2" style="display: none;">
+                        <a><img src="images/1200-320.jpg" style="opacity: 1"></a>
+	</div>
+	<div class="fcon2" style="display: none;">
+                        <a><img src="images/105.png" style="opacity: 1"></a>
+	</div>
+</div>
+<div class="fbg2">
+	<div class="D2fBt" id="D2fBt">
+		<a href="javascript:void(0)" hidefocus="true" target="_self" class="current"><i>1</i></a>
+		<a href="javascript:void(0)" hidefocus="true" target="_self"><i>2</i></a>
+		<a href="javascript:void(0)" hidefocus="true" target="_self"><i>3</i></a>
+		<a href="javascript:void(0)" hidefocus="true" target="_self"><i>4</i></a>
+	</div>
+</div><!--#endeditable--><SPAN class="prev"></SPAN><SPAN class="next"></SPAN></DIV><script type="text/javascript">
+                    Qfast.add('widgets');
+                    Qfast(false, 'widgets', function() {
+                        K.tabs({
+                            id: 'fsD2', //焦点图包裹id  
+                            conId: "D2pic1", //** 大图域包裹id  
+                            tabId: "D2fBt",
+                            tabTn: "a",
+                            conCn: '.fcon2', //** 大图域配置class       
+                            auto: 1, //自动播放 1或0
+                            effect: 'fade', //效果配置
+                            eType: 'click', //** 鼠标事件
+                            pageBt: true, //是否有按钮切换页码
+                            bns: ['.prev', '.next'], //** 前后按钮配置class                          
+                            interval: 3000 //** 停顿时间  
+                        })
+                    })
+                </script><!-- 代码 结束 --></DIV><!--nav开始-->
+<DIV class="clearfix"></DIV><!--head end--><!--main start--><A name="tzxw"></A>
+<DIV class="main clearfix"><!--one开始-->
+<DIV class="main-one fl">
+<DIV class="tzgg clearfix">
+<DIV class="taggtit fl">通知公告 </DIV>
+<DIV class="tagggd fr"><A href="tzgg.htm">查看更多+</A> </DIV></DIV>
+<DIV class="news-qh">
+<UL class="clearfix">
+<LI id="two1" class="hover" onmousemove="setTab('two',1,6)"><SPAN>全部公告</SPAN> </LI>
+<LI id="two2" onmousemove="setTab('two',2,6)"><A href="tzgg/zsgz.htm">招生工作</A> </LI>
+<LI id="two3" onmousemove="setTab('two',3,6)"><A href="tzgg/pygz.htm">培养工作</A> </LI>
+<LI id="two4" onmousemove="setTab('two',4,6)"><A href="tzgg/gjjl.htm">国际交流</A> </LI>
+<LI id="two5" onmousemove="setTab('two',5,6)"><A href="tzgg/xwgz.htm">学位工作</A> </LI>
+<LI id="two6" onmousemove="setTab('two',6,6)" style="margin-right: 0px"><A href="tzgg/yggz.htm">研工工作</A> </LI></UL></DIV>
+<DIV class="news-list-cont">
+<DIV id="con_two_1" class="dbqh clearfix">
+<DIV class="qhyc"><!--#begineditable clone="0" namechanged="0" order="5" ispublic="0" tagname="标题列表-全部公告" viewid="215574" contentviewid="" contype="" stylesysid="" layout="" action="" name="标题列表-全部公告"--><ul class="clearfix">
+		<li>
+		<span class="time fr">2026-09-15</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11614.htm" title="关于开展2026年研究生精品课程评选工作的通知"><span style="color:red;">[置顶]</span>关于开展2026年研究生精品课程评选工作的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-15</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11621.htm" title="关于2026年国庆、中秋节放假调休及教学工作安排的通知"><span style="color:red;">[置顶]</span>关于2026年国庆、中秋节放假调休及教学工作安排的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-12</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11613.htm" title="关于2026年秋季学期本科生选修研究生课程的通知"><span style="color:red;">[置顶]</span>关于2026年秋季学期本科生选修研究生课程的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-12</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11612.htm" title="关于公布2026年秋季学期停开课程的通知"><span style="color:red;">[置顶]</span>关于公布2026年秋季学期停开课程的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-11</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11610.htm" title="2026年秋季学期国际留学生新生选课和老生改课/重修通知"><span style="color:red;">[置顶]</span>2026年秋季学期国际留学生新生选课和老生改课/重修通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-04</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11604.htm" title="2026年秋季学期同等学力、旁听生新生选课和老生改课/重修通知"><span style="color:red;">[置顶]</span>2026年秋季学期同等学力、旁听生新生选课和老生改课/重修...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-02</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11596.htm" title="2026年秋季学期体美劳研修通知"><span style="color:red;">[置顶]</span>2026年秋季学期体美劳研修通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-16</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11626.htm" title="关于组织申报2026年研究生优秀师生团队国际访学项目的通知">关于组织申报2026年研究生优秀师生团队国际访学项目的通...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-16</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11624.htm" title="关于2025-2026学年第二学期研究生教学“优秀研究生助教”评选工作的通知">关于2025-2026学年第二学期研究生教学“优秀研究生助教”...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-16</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11623.htm" title="【U6创新领军】关于申报2026年度西安交通大学创新领军人才培养项目(第二批)的通知">【U6创新领军】关于申报2026年度西安交通大学创新领军人...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-15</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11620.htm" title="2027年春季学期台湾地区高校交换生项目选拔通知">2027年春季学期台湾地区高校交换生项目选拔通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-14</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11618.htm" title="关于2026年“国优计划”遴选在读研究生的通知">关于2026年“国优计划”遴选在读研究生的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-14</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11616.htm" title="关于2026年下半年全国大学英语四、六级考试报名的通知">关于2026年下半年全国大学英语四、六级考试报名的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-11</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11611.htm" title="关于开展2026年陕西省学位与研究生教育研究项目开题工作的通知">关于开展2026年陕西省学位与研究生教育研究项目开题工作...</a>
+	</li>	
+</ul><script>_showDynClickBatch(['dynclicks_u5_11614','dynclicks_u5_11621','dynclicks_u5_11613','dynclicks_u5_11612','dynclicks_u5_11610','dynclicks_u5_11604','dynclicks_u5_11596','dynclicks_u5_11626','dynclicks_u5_11624','dynclicks_u5_11623','dynclicks_u5_11620','dynclicks_u5_11618','dynclicks_u5_11616','dynclicks_u5_11611'],[11614,11621,11613,11612,11610,11604,11596,11626,11624,11623,11620,11618,11616,11611],"wbnews", 1510757228)</script>
+<!--#endeditable--></DIV></DIV>
+<DIV id="con_two_2" class="dbqh clearfix" style="display: none">
+<DIV class="qhyc"><!--#begineditable clone="0" namechanged="0" order="6" ispublic="0" tagname="标题列表-招生工作" viewid="215585" contentviewid="" contype="" stylesysid="" layout="" action="" name="标题列表-招生工作"--><ul class="clearfix">
+		<li>
+		<span class="time fr">2026-06-26</span>
+		<a class="tzgglm" href="tzgg/zsgz.htm">招生工作</a>|<a class="tzggbt" href="info/1145/11515.htm" title="西安交通大学2026年硕士研究生录取通知书发放通知" style="color:#000000;">西安交通大学2026年硕士研究生录取通知书发放通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-02-26</span>
+		<a class="tzgglm" href="tzgg/zsgz.htm">招生工作</a>|<a class="tzggbt" href="info/1145/11290.htm" title="西安交通大学关于2026年硕士研究生招生考试初试成绩查询及相关事宜的通知" style="color:#030000;">西安交通大学关于2026年硕士研究生招生考试初试成绩查询...</a>
+	</li>	
+	<li>
+		<span class="time fr">2025-07-02</span>
+		<a class="tzgglm" href="tzgg/zsgz.htm">招生工作</a>|<a class="tzggbt" href="info/1145/10946.htm" title="西安交通大学2025年博士研究生录取通知书发放通知">西安交通大学2025年博士研究生录取通知书发放通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2025-03-13</span>
+		<a class="tzgglm" href="tzgg/zsgz.htm">招生工作</a>|<a class="tzggbt" href="info/1145/10670.htm" title="西安交通大学开展2025年硕士研究生复试综合素质测试的通知">西安交通大学开展2025年硕士研究生复试综合素质测试的通...</a>
+	</li>	
+	<li>
+		<span class="time fr">2024-10-07</span>
+		<a class="tzgglm" href="tzgg/zsgz.htm">招生工作</a>|<a class="tzggbt" href="info/1145/10363.htm" title="​2025年全国硕士研究生招生考试西安交通大学考点（考点代码:6111）网报公告" style="font-weight:bold;">​2025年全国硕士研究生招生考试西安交通大学考点（考点...</a>
+	</li>	
+	<li>
+		<span class="time fr">2024-10-07</span>
+		<a class="tzgglm" href="tzgg/zsgz.htm">招生工作</a>|<a class="tzggbt" href="info/1145/10362.htm" title="2025年全国硕士研究生招生考试西安交通大学（学校代码:10698）网报公告" style="font-weight:bold;">2025年全国硕士研究生招生考试西安交通大学（学校代码:10...</a>
+	</li>	
+	<li>
+		<span class="time fr">2024-07-05</span>
+		<a class="tzgglm" href="tzgg/zsgz.htm">招生工作</a>|<a class="tzggbt" href="info/1145/10264.htm" title="西安交通大学2024年博士研究生录取通知书发放通知">西安交通大学2024年博士研究生录取通知书发放通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2024-02-24</span>
+		<a class="tzgglm" href="tzgg/zsgz.htm">招生工作</a>|<a class="tzggbt" href="info/1145/10039.htm" title="西安交通大学关于2024年硕士研究生招生考试初试成绩查询及相关事宜的通知">西安交通大学关于2024年硕士研究生招生考试初试成绩查询...</a>
+	</li>	
+	<li>
+		<span class="time fr">2023-10-26</span>
+		<a class="tzgglm" href="tzgg/zsgz.htm">招生工作</a>|<a class="tzggbt" href="info/1145/9913.htm" title="西安交通大学考点（6111）2024年全国硕士研究生招生考试网上确认公告">西安交通大学考点（6111）2024年全国硕士研究生招生考试...</a>
+	</li>	
+	<li>
+		<span class="time fr">2023-09-29</span>
+		<a class="tzgglm" href="tzgg/zsgz.htm">招生工作</a>|<a class="tzggbt" href="info/1145/9885.htm" title="能动学院2024年工程硕博士专项推荐免试招生通知(第二轮)" style="font-weight:bold;color:#214dde;">能动学院2024年工程硕博士专项推荐免试招生通知(第二轮)</a>
+	</li>	
+	<li>
+		<span class="time fr">2023-09-11</span>
+		<a class="tzgglm" href="tzgg/zsgz.htm">招生工作</a>|<a class="tzggbt" href="info/1145/9876.htm" title="西安交通大学各学院（部、中心）2024年招收推荐免试研究生预报名通知" style="font-weight:bold;">西安交通大学各学院（部、中心）2024年招收推荐免试研究...</a>
+	</li>	
+	<li>
+		<span class="time fr">2023-02-19</span>
+		<a class="tzgglm" href="tzgg/zsgz.htm">招生工作</a>|<a class="tzggbt" href="info/1145/9584.htm" title="西安交通大学关于2023年硕士研究生招生考试初试成绩查询及相关事宜的通知" style="color:#000000;">西安交通大学关于2023年硕士研究生招生考试初试成绩查询...</a>
+	</li>	
+	<li>
+		<span class="time fr">2022-12-23</span>
+		<a class="tzgglm" href="tzgg/zsgz.htm">招生工作</a>|<a class="tzggbt" href="info/1145/9549.htm" title="【考场查询】西安交通大学考点2023年全国硕士研究生招生考场查询公告" style="color:#000000;">【考场查询】西安交通大学考点2023年全国硕士研究生招生...</a>
+	</li>	
+	<li>
+		<span class="time fr">2022-12-19</span>
+		<a class="tzgglm" href="tzgg/zsgz.htm">招生工作</a>|<a class="tzggbt" href="info/1145/9545.htm" title="2023年西安交通大学考点（6111）硕士研究生招生考试考生防疫与安全公告" style="color:#000000;">2023年西安交通大学考点（6111）硕士研究生招生考试考生...</a>
+	</li>	
+</ul><script>_showDynClickBatch(['dynclicks_u6_11515','dynclicks_u6_11290','dynclicks_u6_10946','dynclicks_u6_10670','dynclicks_u6_10363','dynclicks_u6_10362','dynclicks_u6_10264','dynclicks_u6_10039','dynclicks_u6_9913','dynclicks_u6_9885','dynclicks_u6_9876','dynclicks_u6_9584','dynclicks_u6_9549','dynclicks_u6_9545'],[11515,11290,10946,10670,10363,10362,10264,10039,9913,9885,9876,9584,9549,9545],"wbnews", 1510757228)</script>
+<!--#endeditable--></DIV></DIV>
+<DIV id="con_two_3" class="dbqh clearfix" style="display: none">
+<DIV class="qhyc"><!--#begineditable clone="0" namechanged="0" order="7" ispublic="0" tagname="标题列表-培养工作" viewid="215586" contentviewid="" contype="" stylesysid="" layout="" action="" name="标题列表-培养工作"--><ul class="clearfix">
+		<li>
+		<span class="time fr">2026-09-15</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11614.htm" title="关于开展2026年研究生精品课程评选工作的通知"><span style="color:red;">[置顶]</span>关于开展2026年研究生精品课程评选工作的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-15</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11621.htm" title="关于2026年国庆、中秋节放假调休及教学工作安排的通知"><span style="color:red;">[置顶]</span>关于2026年国庆、中秋节放假调休及教学工作安排的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-12</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11613.htm" title="关于2026年秋季学期本科生选修研究生课程的通知"><span style="color:red;">[置顶]</span>关于2026年秋季学期本科生选修研究生课程的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-12</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11612.htm" title="关于公布2026年秋季学期停开课程的通知"><span style="color:red;">[置顶]</span>关于公布2026年秋季学期停开课程的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-11</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11610.htm" title="2026年秋季学期国际留学生新生选课和老生改课/重修通知"><span style="color:red;">[置顶]</span>2026年秋季学期国际留学生新生选课和老生改课/重修通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-04</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11604.htm" title="2026年秋季学期同等学力、旁听生新生选课和老生改课/重修通知"><span style="color:red;">[置顶]</span>2026年秋季学期同等学力、旁听生新生选课和老生改课/重修...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-02</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11596.htm" title="2026年秋季学期体美劳研修通知"><span style="color:red;">[置顶]</span>2026年秋季学期体美劳研修通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-16</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11624.htm" title="关于2025-2026学年第二学期研究生教学“优秀研究生助教”评选工作的通知">关于2025-2026学年第二学期研究生教学“优秀研究生助教”...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-14</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11618.htm" title="关于2026年“国优计划”遴选在读研究生的通知">关于2026年“国优计划”遴选在读研究生的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-14</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11616.htm" title="关于2026年下半年全国大学英语四、六级考试报名的通知">关于2026年下半年全国大学英语四、六级考试报名的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-11</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11611.htm" title="关于开展2026年陕西省学位与研究生教育研究项目开题工作的通知">关于开展2026年陕西省学位与研究生教育研究项目开题工作...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-07</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11591.htm" title="关于做好2026-2027学年第一学期研究生助教工作的通知">关于做好2026-2027学年第一学期研究生助教工作的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-08-12</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11503.htm" title="关于选拔报名参加2026年第二十三届中国研究生数学建模竞赛的通知">关于选拔报名参加2026年第二十三届中国研究生数学建模竞...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-08-07</span>
+		<a class="tzgglm" href="tzgg/pygz.htm">培养工作</a>|<a class="tzggbt" href="info/1146/11587.htm" title="关于2026年西安交通大学储能教材基地教学改革专题研究项目立项评审结果的公示（研究生）">关于2026年西安交通大学储能教材基地教学改革专题研究项...</a>
+	</li>	
+</ul><script>_showDynClickBatch(['dynclicks_u7_11614','dynclicks_u7_11621','dynclicks_u7_11613','dynclicks_u7_11612','dynclicks_u7_11610','dynclicks_u7_11604','dynclicks_u7_11596','dynclicks_u7_11624','dynclicks_u7_11618','dynclicks_u7_11616','dynclicks_u7_11611','dynclicks_u7_11591','dynclicks_u7_11503','dynclicks_u7_11587'],[11614,11621,11613,11612,11610,11604,11596,11624,11618,11616,11611,11591,11503,11587],"wbnews", 1510757228)</script>
+<!--#endeditable--></DIV></DIV>
+<DIV id="con_two_4" class="dbqh clearfix" style="display: none">
+<DIV class="qhyc"><!--#begineditable clone="0" namechanged="0" order="8" ispublic="0" tagname="标题列表-国际交流" viewid="215587" contentviewid="" contype="" stylesysid="" layout="" action="" name="标题列表-国际交流"--><ul class="clearfix">
+		<li>
+		<span class="time fr">2026-09-16</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11626.htm" title="关于组织申报2026年研究生优秀师生团队国际访学项目的通知">关于组织申报2026年研究生优秀师生团队国际访学项目的通...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-16</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11623.htm" title="【U6创新领军】关于申报2026年度西安交通大学创新领军人才培养项目(第二批)的通知">【U6创新领军】关于申报2026年度西安交通大学创新领军人...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-15</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11620.htm" title="2027年春季学期台湾地区高校交换生项目选拔通知">2027年春季学期台湾地区高校交换生项目选拔通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-09-11</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11609.htm" title="国家留学基金委关于举办第十八届国际研究生奖学金信息说明会活动的通知">国家留学基金委关于举办第十八届国际研究生奖学金信息说...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-07-28</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11569.htm" title="【C2中外合作项目】丨通知：关于组织申报 2027 年国家留学基金委澳新加 19 所高校合作奖学金项目的通知">【C2中外合作项目】丨通知：关于组织申报 2027 年国家留...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-07-28</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11567.htm" title="【C3创新型项目】丨通知：关于做好2026年创新型人才国际合作培养项目（第三批）人员推荐工作的通知">【C3创新型项目】丨通知：关于做好2026年创新型人才国际...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-07-13</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11537.htm" title="【C2中外合作奖学金项目】丨通知：关于2027年国家公派出国留学美大地区中外合作奖学金项目政策宣讲会的通知">【C2中外合作奖学金项目】丨通知：关于2027年国家公派出...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-07-03</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11522.htm" title="【U2-2香港理工大学】丨公示：2026年西安交通大学-香港理工大学联合培养博士双学位项目计划录取名单">【U2-2香港理工大学】丨公示：2026年西安交通大学-香港理...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-06-12</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11494.htm" title="【U5短期访学】丨公示：2026年西安交通大学研究生短期出国（境）访学项目录取名单">【U5短期访学】丨公示：2026年西安交通大学研究生短期出...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-06-12</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11492.htm" title="【U6创新领军】丨公示：2026年西安交通大学创新领军项目录取名单">【U6创新领军】丨公示：2026年西安交通大学创新领军项目...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-06-02</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11470.htm" title="【U2-1香港城市大学】丨公示：2026年西安交通大学-香港城市大学联合培养博士双学位项目录取名单">【U2-1香港城市大学】丨公示：2026年西安交通大学-香港城...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-05-25</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11456.htm" title="【C3创新型项目】丨公示：2026创新型人才国际合作培养项目（第二批）预推荐名单">【C3创新型项目】丨公示：2026创新型人才国际合作培养项...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-05-21</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="info/1147/11452.htm" title="【一流学者】丨公示：关于公布“海外一流学者讲学计划”2026年春季立项课程名单的通知">【一流学者】丨公示：关于公布“海外一流学者讲学计划”2...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-04-29</span>
+		<a class="tzgglm" href="tzgg/gjjl.htm">国际交流</a>|<a class="tzggbt" href="content.jsp?urltype=news.NewsContentUrl&wbtreeid=1147&wbnewsid=11411" title="【U6创新领军】关于申报2026年度西安交通大学创新领军人才培养项目的通知">【U6创新领军】关于申报2026年度西安交通大学创新领军人...</a>
+	</li>	
+</ul><script>_showDynClickBatch(['dynclicks_u8_11626','dynclicks_u8_11623','dynclicks_u8_11620','dynclicks_u8_11609','dynclicks_u8_11569','dynclicks_u8_11567','dynclicks_u8_11537','dynclicks_u8_11522','dynclicks_u8_11494','dynclicks_u8_11492','dynclicks_u8_11470','dynclicks_u8_11456','dynclicks_u8_11452','dynclicks_u8_11411'],[11626,11623,11620,11609,11569,11567,11537,11522,11494,11492,11470,11456,11452,11411],"wbnews", 1510757228)</script>
+<!--#endeditable--></DIV></DIV>
+<DIV id="con_two_5" class="dbqh clearfix" style="display: none">
+<DIV class="qhyc"><!--#begineditable clone="0" namechanged="0" order="9" ispublic="0" tagname="标题列表-学位工作" viewid="215588" contentviewid="" contype="" stylesysid="" layout="" action="" name="标题列表-学位工作"--><ul class="clearfix">
+		<li>
+		<span class="time fr">2026-06-08</span>
+		<a class="tzgglm" href="tzgg/xwgz.htm">学位工作</a>|<a class="tzggbt" href="info/1148/11480.htm" title="2026年研究生教育青年优秀导师候选名单公示">2026年研究生教育青年优秀导师候选名单公示</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-05-25</span>
+		<a class="tzgglm" href="tzgg/xwgz.htm">学位工作</a>|<a class="tzggbt" href="info/1148/11457.htm" title="关于开展研究生导师资格、招生资格审核、认定工作的通知">关于开展研究生导师资格、招生资格审核、认定工作的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-05-21</span>
+		<a class="tzgglm" href="tzgg/xwgz.htm">学位工作</a>|<a class="tzggbt" href="info/1148/11450.htm" title="关于做好2026年西安交通大学优秀硕士学位论文评选工作的通知">关于做好2026年西安交通大学优秀硕士学位论文评选工作的...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-04-03</span>
+		<a class="tzgglm" href="tzgg/xwgz.htm">学位工作</a>|<a class="tzggbt" href="info/1148/11371.htm" title="关于做好2026年省级、校级优秀博士学位论文评选工作的通知">关于做好2026年省级、校级优秀博士学位论文评选工作的通...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-03-02</span>
+		<a class="tzgglm" href="tzgg/xwgz.htm">学位工作</a>|<a class="tzggbt" href="info/1148/11294.htm" title="2026年在职攻读专业学位论文匿名评审工作安排">2026年在职攻读专业学位论文匿名评审工作安排</a>
+	</li>	
+	<li>
+		<span class="time fr">2025-12-22</span>
+		<a class="tzgglm" href="tzgg/xwgz.htm">学位工作</a>|<a class="tzggbt" href="info/1148/11217.htm" title="2026年校学位评定委员会审议批准学位工作时间安排">2026年校学位评定委员会审议批准学位工作时间安排</a>
+	</li>	
+	<li>
+		<span class="time fr">2025-11-26</span>
+		<a class="tzgglm" href="tzgg/xwgz.htm">学位工作</a>|<a class="tzggbt" href="info/1148/11178.htm" title="关于2025年更新西安交通大学硕士、博士学位论文模板的通知">关于2025年更新西安交通大学硕士、博士学位论文模板的通...</a>
+	</li>	
+	<li>
+		<span class="time fr">2025-11-20</span>
+		<a class="tzgglm" href="tzgg/xwgz.htm">学位工作</a>|<a class="tzggbt" href="info/1148/11168.htm" title="关于2025年新增研究生指导教师培训情况及BRT测评后续安排的通知">关于2025年新增研究生指导教师培训情况及BRT测评后续安排...</a>
+	</li>	
+	<li>
+		<span class="time fr">2025-11-10</span>
+		<a class="tzgglm" href="tzgg/xwgz.htm">学位工作</a>|<a class="tzggbt" href="info/1148/11154.htm" title="关于开展新增研究生指导教师培训工作的通知">关于开展新增研究生指导教师培训工作的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2025-06-06</span>
+		<a class="tzgglm" href="tzgg/xwgz.htm">学位工作</a>|<a class="tzggbt" href="info/1148/10879.htm" title="关于开展研究生导师资格、招生资格审核、认定工作的通知">关于开展研究生导师资格、招生资格审核、认定工作的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2025-05-16</span>
+		<a class="tzgglm" href="tzgg/xwgz.htm">学位工作</a>|<a class="tzggbt" href="info/1148/10834.htm" title="关于做好2025年西安交通大学优秀硕士学位论文评选工作的通知">关于做好2025年西安交通大学优秀硕士学位论文评选工作的...</a>
+	</li>	
+	<li>
+		<span class="time fr">2025-04-11</span>
+		<a class="tzgglm" href="tzgg/xwgz.htm">学位工作</a>|<a class="tzggbt" href="info/1148/10753.htm" title="关于做好2025年省级、校级优秀博士学位论文评选工作的通知">关于做好2025年省级、校级优秀博士学位论文评选工作的通...</a>
+	</li>	
+	<li>
+		<span class="time fr">2025-03-18</span>
+		<a class="tzgglm" href="tzgg/xwgz.htm">学位工作</a>|<a class="tzggbt" href="info/1148/10680.htm" title="2025年在职攻读专业学位论文匿名评审工作安排">2025年在职攻读专业学位论文匿名评审工作安排</a>
+	</li>	
+	<li>
+		<span class="time fr">2025-02-21</span>
+		<a class="tzgglm" href="tzgg/xwgz.htm">学位工作</a>|<a class="tzggbt" href="info/1148/10633.htm" title="关于转发教育部办公厅《有关学科专业调整对应关系表》等的通知">关于转发教育部办公厅《有关学科专业调整对应关系表》等...</a>
+	</li>	
+</ul><script>_showDynClickBatch(['dynclicks_u9_11480','dynclicks_u9_11457','dynclicks_u9_11450','dynclicks_u9_11371','dynclicks_u9_11294','dynclicks_u9_11217','dynclicks_u9_11178','dynclicks_u9_11168','dynclicks_u9_11154','dynclicks_u9_10879','dynclicks_u9_10834','dynclicks_u9_10753','dynclicks_u9_10680','dynclicks_u9_10633'],[11480,11457,11450,11371,11294,11217,11178,11168,11154,10879,10834,10753,10680,10633],"wbnews", 1510757228)</script>
+<!--#endeditable--></DIV></DIV>
+<DIV id="con_two_6" class="dbqh clearfix" style="display: none">
+<DIV class="qhyc"><!--#begineditable clone="0" namechanged="0" order="10" ispublic="0" tagname="标题列表-研工工作" viewid="215589" contentviewid="" contype="" stylesysid="" layout="" action="" name="标题列表-研工工作"--><ul class="clearfix">
+		<li>
+		<span class="time fr">2026-09-04</span>
+		<a class="tzgglm" href="tzgg/yggz.htm">研工工作</a>|<a class="tzggbt" href="info/1149/11605.htm" title="关于做好2026年秋季学期研究生报到注册有关工作的通知">关于做好2026年秋季学期研究生报到注册有关工作的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-08-26</span>
+		<a class="tzgglm" href="tzgg/yggz.htm">研工工作</a>|<a class="tzggbt" href="info/1149/11590.htm" title="关于做好2026年第三批研究生毕（结）业信息填报工作的安排">关于做好2026年第三批研究生毕（结）业信息填报工作的安...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-06-22</span>
+		<a class="tzgglm" href="tzgg/yggz.htm">研工工作</a>|<a class="tzggbt" href="info/1149/11505.htm" title="关于做好2026年本校应届升学毕业生暑期行李寄存转运与临时住宿工作的通知">关于做好2026年本校应届升学毕业生暑期行李寄存转运与临...</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-04-30</span>
+		<a class="tzgglm" href="tzgg/yggz.htm">研工工作</a>|<a class="tzggbt" href="info/1149/11419.htm" title="关于博士生办理延长在校学习时间的通知">关于博士生办理延长在校学习时间的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2026-01-04</span>
+		<a class="tzgglm" href="tzgg/yggz.htm">研工工作</a>|<a class="tzggbt" href="info/1149/11235.htm" title="关于2026年预毕业研究生信息核对的通知">关于2026年预毕业研究生信息核对的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2025-03-18</span>
+		<a class="tzgglm" href="tzgg/yggz.htm">研工工作</a>|<a class="tzggbt" href="info/1149/10679.htm" title="关于举办第三届“我和我的交大”美文美图美拍作品征集活动的通知">关于举办第三届“我和我的交大”美文美图美拍作品征集活...</a>
+	</li>	
+	<li>
+		<span class="time fr">2022-04-02</span>
+		<a class="tzgglm" href="tzgg/yggz.htm">研工工作</a>|<a class="tzggbt" href="info/1149/8707.htm" title="关于开展2022年度研究生兼职辅导员选聘工作的通知">关于开展2022年度研究生兼职辅导员选聘工作的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2022-02-22</span>
+		<a class="tzgglm" href="tzgg/yggz.htm">研工工作</a>|<a class="tzggbt" href="info/1149/8642.htm" title="关于开展2021年度研究生兼职辅导员工作考核的通知">关于开展2021年度研究生兼职辅导员工作考核的通知</a>
+	</li>	
+	<li>
+		<span class="time fr">2022-02-10</span>
+		<a class="tzgglm" href="tzgg/yggz.htm">研工工作</a>|<a class="tzggbt" href="info/1149/8633.htm" title="2022年春季学期研究生返校须知">2022年春季学期研究生返校须知</a>
+	</li>	
+	<li>
+		<span class="time fr">2021-12-21</span>
+		<a class="tzgglm" href="tzgg/yggz.htm">研工工作</a>|<a class="tzggbt" href="info/1149/8578.htm" title="2021年第3期研究生辅导员沙龙成功举办">2021年第3期研究生辅导员沙龙成功举办</a>
+	</li>	
+	<li>
+		<span class="time fr">2021-08-23</span>
+		<a class="tzgglm" href="tzgg/yggz.htm">研工工作</a>|<a class="tzggbt" href="info/1149/8384.htm" title="2021年秋季学期研究生到校须知">2021年秋季学期研究生到校须知</a>
+	</li>	
+	<li>
+		<span class="time fr">2021-07-30</span>
+		<a class="tzgglm" href="tzgg/yggz.htm">研工工作</a>|<a class="tzggbt" href="info/1149/8357.htm" title="【我为师生办实事】学校全力做好入住创新港学生暑期行李寄存搬运工作">【我为师生办实事】学校全力做好入住创新港学生暑期行李...</a>
+	</li>	
+	<li>
+		<span class="time fr">2021-03-02</span>
+		<a class="tzgglm" href="tzgg/yggz.htm">研工工作</a>|<a class="tzggbt" href="info/1149/7744.htm" title="西安交通大学2021年度研究生兼职辅导员选聘公告">西安交通大学2021年度研究生兼职辅导员选聘公告</a>
+	</li>	
+	<li>
+		<span class="time fr">2020-05-14</span>
+		<a class="tzgglm" href="tzgg/yggz.htm">研工工作</a>|<a class="tzggbt" href="info/1149/6805.htm" title="关于开展居家期间拟聘研究生兼职辅导员个人工作总结的通知">关于开展居家期间拟聘研究生兼职辅导员个人工作总结的通知</a>
+	</li>	
+</ul><script>_showDynClickBatch(['dynclicks_u10_11605','dynclicks_u10_11590','dynclicks_u10_11505','dynclicks_u10_11419','dynclicks_u10_11235','dynclicks_u10_10679','dynclicks_u10_8707','dynclicks_u10_8642','dynclicks_u10_8633','dynclicks_u10_8578','dynclicks_u10_8384','dynclicks_u10_8357','dynclicks_u10_7744','dynclicks_u10_6805'],[11605,11590,11505,11419,11235,10679,8707,8642,8633,8578,8384,8357,7744,6805],"wbnews", 1510757228)</script>
+<!--#endeditable--></DIV></DIV></DIV></DIV><!--one结束--><!--two开始-->
+<DIV class="main-two fr">
+<DIV class="xwdt clearfix">
+<DIV class="xwdttit fl">新闻动态 </DIV>
+<DIV class="xwdtgd fr"><A href="xwdt.htm">查看更多+</A> </DIV></DIV>
+<DIV class="bhtpwz" style="position: relative"><!--#begineditable clone="0" namechanged="0" order="11" ispublic="0" tagname="变换图片文章" viewid="220868" contentviewid="" contype="" stylesysid="" layout="" action="" name="变换图片文章"-->
+<LINK href="/system/resource/style/component/news/list/imagechangenews.css" type="text/css" rel="stylesheet">
+<script language="javascript" src="/system/resource/js/news/imagechangenews.js"></script><script language="JavaScript">
+var u_u11_icn = new ImageChangeNews("u_u11_", 450, 260, 4, 2.0, true, false, false, true);
+
+//初始化图片, 并启动定时
+function u_u11_init_img()
+{
+
+    u_u11_icn.addimg("\/__local\/4\/39\/0B\/9B4ED24D9C229B8300E7387DB96_7EA180BE_992FF.png", "info\/1144\/11627.htm", "研究生院：聚焦课堂主阵地，严把质量开新局...", "");
+
+    u_u11_icn.addimg("https:\/\/news.xjtu.edu.cn\/__local\/5\/B6\/A9\/4A32A43DA62956999BEE78851D1_17A76DFD_68CCE.jpg", "info\/1144\/11606.htm", "交大学子在陕西省第十届研究生创新成果展中...", "");
+
+    u_u11_icn.addimg("\/__local\/B\/52\/D0\/95120BB5E731E3C04223491E75A_83B4ED8D_C89A.jpg", "info\/1144\/11592.htm", "双冠加冕！西安交大在两项全国研究生电子类...", "");
+
+    u_u11_icn.addimg("\/__local\/D\/92\/5A\/4EDF7C466A2EB05A7B5DB7DD2E5_1CA7A328_A5C1.jpg", "info\/1144\/11593.htm", "西安交大代表团赴吉尔吉斯斯坦推进中吉卓越...", "");
+
+    u_u11_icn.changeimg(0);
+}
+</script><table cellspacing="0" cellpadding="0" border="0" style="padding:0px margin:0px; border:0px">
+    <tr><td>
+        <div style="OVERFLOW: hidden;height:260px;width:450px">
+            <div id="u_u11_div" align="center" style="padding:0px;margin:0px;border:0px solid black;background-color:#000000;FILTER: progid:DXImageTransform.Microsoft.RevealTrans (duration=2.0,transition=23);height:260px;width:450px">
+                <div id="u_u11_imgdiv" style="padding:0px;border:0px;"><a id="u_u11_url" target="_blank"><img id="u_u11_pic" border="0" width="450" height="260" src="/system/resource/images/space.gif"></a></div>
+            </div>
+            <div style="filter:alpha(style=1,opacity=10,finishOpacity=80);width:450px;height:19px;text-align:right;top:-19px;position:relative;padding:0px;margin:0px;border:0px;">
+<a href="javascript:u_u11_icn.changeimg(0)" ; id="u_u11_selectNode0" class="imagechangenews_pnode" target="_self">1</a><a href="javascript:u_u11_icn.changeimg(1)" ; id="u_u11_selectNode1" class="imagechangenews_pnode" target="_self">2</a><a href="javascript:u_u11_icn.changeimg(2)" ; id="u_u11_selectNode2" class="imagechangenews_pnode" target="_self">3</a><a href="javascript:u_u11_icn.changeimg(3)" ; id="u_u11_selectNode3" class="imagechangenews_pnode" target="_self">4</a>
+            </div></div></td></tr>
+       
+    <tr><td height="25">
+        <div align="center" style="overflow:hidden;text-overflow:ellipsis;height:25px;width:450px;"><a target="_blank" class="titlestyle220868" id="u_u11_newstitle"></a></div>
+    </td></tr>
+<div align="left" display="none" style="overflow:hidden;text-overflow:ellipsis;height:0px;width:450px;padding-left:2px;padding-right:2px"><a target="_blank" class="summarystyle220868" id="u_u11_newssummary"></a></div>   
+</table><SCRIPT language="JavaScript">u_u11_init_img();</SCRIPT><!--#endeditable--></DIV>
+<DIV class="xwdtnr" style="margin-top: 10px"><!--#begineditable clone="0" namechanged="0" order="12" ispublic="0" tagname="标题列表-新闻动态" viewid="215575" contentviewid="" contype="" stylesysid="" layout="" action="" name="标题列表-新闻动态"--><ul>
+		
+	<li>
+		<a href="info/1144/11627.htm" title="研究生院：聚焦课堂主阵地，严把质量开新局，护航新学期 研究生教学有序运行">研究生院：聚焦课堂主阵地，严把质量开新局，护航...</a>
+	</li>
+
+	
+	<li>
+		<a href="info/1144/11606.htm" title="交大学子在陕西省第十届研究生创新成果展中获佳绩">交大学子在陕西省第十届研究生创新成果展中获佳绩</a>
+	</li>
+
+	
+	<li>
+		<a href="info/1144/11592.htm" title="双冠加冕！西安交大在两项全国研究生电子类竞赛中获历史最佳成绩">双冠加冕！西安交大在两项全国研究生电子类竞赛中...</a>
+	</li>
+
+	
+	<li>
+		<a href="info/1144/11593.htm" title="西安交大代表团赴吉尔吉斯斯坦推进中吉卓越工程师学院高质量共建">西安交大代表团赴吉尔吉斯斯坦推进中吉卓越工程师...</a>
+	</li>
+
+	
+	<li>
+		<a href="info/1144/11565.htm" title="西安交大举办2026年社会治理人才训练营">西安交大举办2026年社会治理人才训练营</a>
+	</li>
+
+	
+	<li>
+		<a href="info/1144/11564.htm" title="西安交通大学研究生“AI创新实践训练营”交出首批育人成绩单">西安交通大学研究生“AI创新实践训练营”交出首批...</a>
+	</li>
+
+	
+	<li>
+		<a href="info/1144/11554.htm" title="西安交大召开2026年第三次研究生教育管理月例会暨上半年研究生工作总结会">西安交大召开2026年第三次研究生教育管理月例会暨...</a>
+	</li>
+
+	
+	<li>
+		<a href="info/1144/11540.htm" title="西安交通大学参加第四届C9高校研究生教育会议">西安交通大学参加第四届C9高校研究生教育会议</a>
+	</li>
+
+</ul><script>_showDynClickBatch(['dynclicks_u12_11627','dynclicks_u12_11606','dynclicks_u12_11592','dynclicks_u12_11593','dynclicks_u12_11565','dynclicks_u12_11564','dynclicks_u12_11554','dynclicks_u12_11540'],[11627,11606,11592,11593,11565,11564,11554,11540],"wbnews", 1510757228)</script>
+<!--#endeditable--></DIV></DIV><!--two结束--></DIV><A name="ksdh"></A>
+<DIV class="main"><!--three开始-->
+<DIV class="main-three clearfix">
+<DIV class="ksdhtit">快速导航 </DIV>
+<DIV class="ksdhnr"><!--#begineditable clone="0" namechanged="0" order="13" ispublic="0" tagname="链接列表-快速导航" viewid="215576" contentviewid="" contype="" stylesysid="" layout="" action="" name="链接列表-快速导航"--><ul class="clearfix">
+        <li class="ksdhlj1">
+        <a href="https://gs.xjtu.edu.cn/yjsywxgxtrk.htm" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1510757228, 45036)">研究生教育相关系统入口
+        
+ <div style="margin:10px 20px 0px 20px; font-size:16px;">
+ 
+<table width="100%" border="0">
+  <tbody>
+
+    <tr style="height:30px;line-height: 30px;">
+      <td>研究生院信息管理系统</td>
+      <td>考勤系统</td>
+      <td>学科基础文献集系统</td>
+    </tr>
+    <tr style="height:30px;line-height: 30px;">
+      <td>迎新，注册，离校系统</td>
+      <td>评教系统</td>
+      <td>一网通办</td>
+    </tr>
+    <tr style="height:30px;line-height: 30px;">
+      <td>奖助金发放管理系统</td>
+      <td>思源学习空间</td>
+<td>外事服务系统</td>
+    </tr>
+ 
+  </tbody>
+</table>
+ 
+       </div>
+        
+        
+        </a>
+       
+    </li>
+    <li class="ksdhlj2">
+        <a href="http://gs.xjtu.edu.cn/info/1209/6175.htm?tdsourcetag=s_pctim_aiomsg" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1510757228, 45040)">学术不端行为举报</a>
+    </li>
+    <li class="ksdhlj3">
+        <a href="http://gs.xjtu.edu.cn/info/1192/5635.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1510757228, 45039)">立德树人专栏</a>
+    </li>
+    <li class="ksdhlj4">
+        <a href="http://gs.xjtu.edu.cn/pygz/sjjs.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1510757228, 45038)">研究生创新实践</a>
+    </li>
+    <li class="ksdhlj5">
+        <a href="pygz/xsjxQ_A.htm" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1510757228, 45332)">线上教学Q&amp;A</a>
+    </li>
+    <li class="ksdhlj6">
+        <a href="http://gs.xjtu.edu.cn/pygz/kcsz.htm" title="服务正在建设中" onclick="_addDynClicks(&#34;wburl&#34;, 1510757228, 45044)">课程思政</a>
+    </li>
+    <li class="ksdhlj7">
+        <a href="http://xgbg.xjtu.edu.cn/" title="新港报告" onclick="_addDynClicks(&#34;wburl&#34;, 1510757228, 45303)">新港报告</a>
+    </li>
+</ul><!--#endeditable--></DIV></DIV><!--three结束--></DIV><!--main end-->
+<DIV class="yqlj">
+<DIV class="main clearfix">
+<DIV class="yqljs fl">友情链接： </DIV>
+<DIV class="yqljx fl"><!--#begineditable clone="0" namechanged="0" order="14" ispublic="0" tagname="链接列表-友情链接" viewid="215577" contentviewid="" contype="" stylesysid="" layout="" action="" name="链接列表-友情链接"-->  <a href="http://www.xjtu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1510757228, 45031)">西安交通大学</a>
+  <a href="http://mail.xjtu.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1510757228, 45032)">西安交通大学邮件系统</a>
+  <a href="http://www.moe.gov.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1510757228, 45033)">中华人民共和国教育部</a>
+  <a href="http://www.snedu.gov.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1510757228, 45034)">陕西省教育厅</a>
+  <a href="http://www.cdgdc.edu.cn/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1510757228, 45035)">中国学位与研究生教育信息网</a>
+  <a href="http://www.moe.gov.cn/s78/A22/" target="_blank" title="" onclick="_addDynClicks(&#34;wburl&#34;, 1510757228, 45140)">教育部学位管理与研究生教育司</a>
+<!--#endeditable--></DIV></DIV></DIV><!--foot start-->
+<DIV class="foot">
+<DIV class="main clearfix">
+<DIV class="dbbq fl"><!--#begineditable clone="0" namechanged="0" order="15" ispublic="0" tagname="版权" viewid="215578" contentviewid="" contype="" stylesysid="" layout="" action="" name="版权"--><!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p><span style="font-size: 15px">地址：陕西省西安市咸宁西路28号 邮编：710049</span></p><p><span style="font-size: 15px">版权所有：西安交通大学 站点建设与维护： 网络信息中心 陕ICP备06008037号</span></p><!--#endeditable--></DIV>
+<DIV class="ewm fr"><!--#begineditable clone="0" namechanged="0" order="16" ispublic="0" tagname="图片列表-二维码" viewid="215579" contentviewid="" contype="" stylesysid="" layout="" action="" name="图片列表-二维码"-->    <ul class="clearfix">
+		<li class="ewm1">
+                        <img src="images/ewm1.png">
+		<p>西安交通大学研究生教育（微信）</p>
+	</li>
+	<li class="ewm2">
+                        <img src="images/ewm2.png">
+		<p>西安交通大学研招办（微信）</p>
+	</li>
+	<li class="ewm3">
+                        <img src="images/ewm3.png">
+		<p>西安交通大学研究生会（微信）</p>
+	</li>
+</ul><!--#endeditable--></DIV></DIV></DIV><!--foot end--></DIV>
+<STYLE>  
+    
+    .bhtpwz table tr td div:nth-child(2){ z-index:99;}
+     
+.titlestyle220868 {
+    font-size: 11pt;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    line-height: 220%;
+    position: absolute;
+    left:0;
+    bottom: 25px;
+    z-index: 1;
+    background: rgba(0,0,0,0.5);
+    width: 330px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 105px;}
+
+
+ 
+    </STYLE>
+
+
+</BODY></HTML>
