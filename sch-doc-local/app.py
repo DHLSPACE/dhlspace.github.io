@@ -163,12 +163,23 @@ class Handler(BaseHTTPRequestHandler):
         except Exception as exc:
             self.send({'error':str(exc)},400)
 
+    def reject_post(self,message):
+        # Unread small request bodies can reset the socket before Windows reads the 403.
+        try:
+            size=int(self.headers.get('Content-Length','0'))
+            if 0<size<=64*1024:
+                self.connection.settimeout(1)
+                self.rfile.read(size)
+        except (OSError,ValueError):
+            pass
+        return self.send({'error':message},403)
+
     def do_POST(self):
         if not self.allowed() or self.headers.get('X-App-Token')!=TOKEN:
-            return self.send({'error':'请求无效，请刷新本机页面'},403)
+            return self.reject_post('请求无效，请刷新本机页面')
         origin=self.headers.get('Origin')
         if origin and origin not in {f'http://127.0.0.1:{self.server.server_port}',f'http://localhost:{self.server.server_port}'}:
-            return self.send({'error':'不接受跨站请求'},403)
+            return self.reject_post('不接受跨站请求')
         try:
             size=int(self.headers.get('Content-Length','0'))
             if not 0<size<=35*1024*1024:
