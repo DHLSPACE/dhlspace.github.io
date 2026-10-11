@@ -114,12 +114,8 @@ $('#close-batch').onclick=()=>$('#batch-dialog').close();
 $('#batch-form').onsubmit=async e=>{e.preventDefault();e.submitter.disabled=true;try{const r=await post('archive-many',{source_id:Number($('#batch-source').value),urls:$('#batch-input').value.split(/\r?\n/).map(x=>x.trim()).filter(Boolean)});$('#batch-input').value='';$('#batch-result').textContent=`已加入 ${r.added} 个，跳过 ${r.duplicates} 个重复网址。关闭窗口后点击“继续归档队列”开始保存。`;await load()}catch(err){$('#batch-result').textContent=err.message}finally{e.submitter.disabled=false}};
 
 const workspaceRender=render;
-render=()=>{workspaceRender();if(!data)return;if(activeTab==='directory')renderDirectory();if(activeTab==='archives')renderLibrary();if(activeTab==='updates'&&$('#update-mode').value==='items'){
-  const q=$('#item-search').value.toLowerCase(),items=data.items.filter(e=>(e.title+e.published+school(e.source_id)).toLowerCase().includes(q));
-  $$('#updates-list .row').forEach((row,i)=>row.insertAdjacentHTML('beforeend',`<button class="queue-item" data-save-item="${items[i].id}">保存这条通知与附件</button>`));
-}};
-$('#update-mode').addEventListener('change',()=>render());
-$('#item-search').addEventListener('input',()=>render());
+render=()=>{workspaceRender();if(!data)return;if(activeTab==='directory')renderDirectory();if(activeTab==='archives')renderLibrary()};
+
 document.addEventListener('click',async e=>{const b=e.target.closest('button');if(!b||!data)return;try{
   const d=b.dataset;
   if(d.palette){[appearance.one,appearance.two]=palettes[d.palette];applyAppearance()}

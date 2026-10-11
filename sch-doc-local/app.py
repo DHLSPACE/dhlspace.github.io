@@ -6,6 +6,7 @@ import mimetypes
 import os
 import re
 import secrets
+import socket
 import threading
 import time
 import traceback
@@ -23,11 +24,24 @@ from snapshot_export import SnapshotJobs, pick_directory, save_destination
 from providers import Providers
 
 TOKEN=secrets.token_urlsafe(32)
+UI_VERSION=10
 STATE={'running':False,'message':'准备就绪','started':'','finished':''}
 LOCK=threading.Lock()
 STORE=None
 DISCOVERY=None
 SNAPSHOTS=None
+
+class ServerUpgradePending(RuntimeError):
+    """Keep a running collection/snapshot alive and open the UI on the spare port."""
+
+class LocalHTTPServer(ThreadingHTTPServer):
+    # Windows SO_REUSEADDR permits multiple active listeners on the same port.
+    allow_reuse_address=os.name!='nt'
+
+    def server_bind(self):
+        if os.name=='nt':
+            self.socket.setsockopt(socket.SOL_SOCKET,socket.SO_EXCLUSIVEADDRUSE,1)
+        super().server_bind()
 
 def update_progress(message):
     STATE['message']=message
@@ -87,7 +101,20 @@ class Handler(BaseHTTPRequestHandler):
                 data['institutions']=institutions(STORE)
                 return self.send(enrich(data, STORE.root))
             if path=='/api/health':
-                return self.send({'app':'graduate-archive','root':str(STORE.root),'version':9})
+                return self.send({'app':'graduate-archive','root':str(STORE.root),'version':9,'ui_version':UI_VERSION})
+            if path=='/api/revision':
+                # Inspect file metadata, not the full archive, for idle browser polling.
+                files=[STORE.db,Path(str(STORE.db)+'-wal')]
+                files.extend(STORE.root/'sources'/name for name in ['institutions.json','custom.json','catalog.json'])
+                revision=[]
+                for file in files:
+                    try:
+                        stat=file.stat()
+                        revision.append((file.name,stat.st_mtime_ns,stat.st_size))
+                    except FileNotFoundError:
+                        revision.append((file.name,0,0))
+                lease=bool(STORE.query("SELECT name FROM leases WHERE name='collector' AND expires>?",(time.time(),)))
+                return self.send({'revision':json.dumps([revision,STATE.copy(),lease],ensure_ascii=False)})
             if path=='/api/snapshot-status':
                 return self.send(SNAPSHOTS.status())
             if path=='/api/snapshot-guide':
@@ -127,6 +154,7 @@ class Handler(BaseHTTPRequestHandler):
             allowed.update({'/experience.js':'experience.js','/experience.css':'experience.css'})
             allowed.update({'/card-browser.js':'card-browser.js','/card-browser.css':'card-browser.css'})
             allowed.update({'/atlas-upgrade.js':'atlas-upgrade.js','/atlas-upgrade.css':'atlas-upgrade.css'})
+            allowed.update({'/admissions.js':'admissions.js','/admissions-model.js':'admissions-model.js','/admissions.css':'admissions.css'})
             if path in allowed:
                 p=ROOT/'static'/allowed[path]
                 ctype={'.html':'text/html','.css':'text/css','.js':'text/javascript'}[p.suffix]+'; charset=utf-8'
@@ -322,6 +350,66 @@ class Handler(BaseHTTPRequestHandler):
         except Exception as exc:
             self.send({'error':str(exc)},400)
 
+def open_local_server(root,port):
+    """Reuse a compatible instance, or gracefully replace this app's idle old instance."""
+    import urllib.error
+    import urllib.request
+    address=('127.0.0.1',port)
+    opener=urllib.request.build_opener(urllib.request.ProxyHandler({}))
+    url=f'http://127.0.0.1:{port}'
+    occupied=f'端口 {port} 被其他程序占用，请使用 python app.py --port 8766'
+    # There may be several old Windows listeners left by repeated launches.
+    for attempt in range(4):
+        try:
+            with opener.open(url+'/api/health',timeout=3) as response:
+                health=json.load(response)
+        except urllib.error.HTTPError as exc:
+            raise RuntimeError(occupied) from exc
+        except urllib.error.URLError:
+            try:
+                return LocalHTTPServer(address,Handler)
+            except OSError as exc:
+                if attempt:
+                    time.sleep(0.5)
+                    continue
+                raise RuntimeError(occupied) from exc
+        except Exception as exc:
+            raise RuntimeError(occupied) from exc
+        if not isinstance(health,dict) or health.get('app')!='graduate-archive' or health.get('root')!=str(root):
+            raise RuntimeError(occupied)
+        version=health.get('ui_version',0)
+        if isinstance(version,int) and version>=UI_VERSION:
+            return None
+        try:
+            with opener.open(url+'/api/state',timeout=30) as response:
+                state=json.load(response)
+            if state.get('job',{}).get('running'):
+                raise ServerUpgradePending('旧版正在采集，使用备用本机入口')
+            token=state.get('token')
+            if not token:
+                raise ValueError('无法验证旧服务，请从旧窗口退出助手后再次启动')
+            request=urllib.request.Request(url+'/api/stop',data=b'{}',headers={
+                'Content-Type':'application/json','X-App-Token':token},method='POST')
+            with opener.open(request,timeout=5) as response:
+                result=json.load(response)
+            if not result.get('ok'):
+                raise ValueError('旧服务未正常退出')
+        except ServerUpgradePending:
+            raise
+        except urllib.error.HTTPError as exc:
+            if exc.code==400:
+                try:
+                    error=json.load(exc).get('error','')
+                except Exception:
+                    error=''
+                if '正在进行' in error:
+                    raise ServerUpgradePending('旧版正在采集或保存快照，使用备用本机入口') from exc
+            raise RuntimeError('旧版助手暂时无法更新，请等待采集或快照完成后再次启动。'+str(exc)) from exc
+        except Exception as exc:
+            raise RuntimeError('旧版助手暂时无法更新，请等待采集或快照完成后再次启动。'+str(exc)) from exc
+        time.sleep(0.6)
+    raise RuntimeError('旧版助手尚未释放端口，请稍后再次启动')
+
 def main():
     global STORE,DISCOVERY,SNAPSHOTS
     parser=argparse.ArgumentParser(description='研招监控助手')
@@ -345,21 +433,18 @@ def main():
         finally:
             log.write_text('\n'.join(lines),encoding='utf-8')
         return
-    url=f'http://127.0.0.1:{args.port}'
     try:
-        server=ThreadingHTTPServer(('127.0.0.1',args.port),Handler)
-    except OSError:
-        import urllib.request
-        try:
-            op=urllib.request.build_opener(urllib.request.ProxyHandler({}))
-            data=json.load(op.open(url+'/api/health',timeout=2))
-            if data.get('app')=='graduate-archive' and data.get('root')==str(STORE.root):
-                if not args.no_browser:
-                    webbrowser.open(url)
-                return
-        except Exception:
-            pass
-        raise RuntimeError(f'端口 {args.port} 被其他程序占用，请使用 python app.py --port 8766')
+        server=open_local_server(STORE.root,args.port)
+    except ServerUpgradePending:
+        if args.port!=8765:
+            raise
+        args.port=8766
+        server=open_local_server(STORE.root,args.port)
+    url=f'http://127.0.0.1:{args.port}'
+    if server is None:
+        if not args.no_browser:
+            webbrowser.open(url)
+        return
     if not args.no_browser:
         threading.Timer(0.5,lambda:webbrowser.open(url)).start()
     server.serve_forever(poll_interval=0.4)

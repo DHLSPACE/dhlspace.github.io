@@ -79,8 +79,10 @@ render=()=>{experienceRender();if(!data)return;
 window.addEventListener('hashchange',()=>{const tab=location.hash.slice(1);if(titles[tab]&&activeTab!==tab)go(tab)});
 // Normalize legacy controls and newly rendered cards using the same SVG family.
 const controlGlyphs={'↗':'external','→':'right','›':'right','‹':'left','↓':'download','×':'close','−':'minus','☷':'list','▦':'grid','◉':'focus','☆':'star','★':'star','✓':'check'};
-function polishControls(){
-  for(const el of $$('button,a,summary,.directory-stats b')){
+function polishControls(scope=document){
+  const selector='button,a,summary,.directory-stats b';
+  const controls=[...(scope instanceof Element&&scope.matches(selector)?[scope]:[]),...scope.querySelectorAll(selector)];
+  for(const el of controls){
     const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),nodes=[];
     while(walker.nextNode())if(/[↗→›‹↓×−☷▦◉☆★✓]/u.test(walker.currentNode.textContent))nodes.push(walker.currentNode);
     for(const node of nodes){
@@ -97,7 +99,19 @@ function polishControls(){
   }
 }
 let polishQueued=false;
-new MutationObserver(()=>{if(polishQueued)return;polishQueued=true;requestAnimationFrame(()=>{polishQueued=false;polishControls()})}).observe(document.body,{childList:true,subtree:true});
+const polishRoots=new Set();
+new MutationObserver(records=>{
+  for(const record of records)for(const added of record.addedNodes){
+    const root=added.nodeType===Node.ELEMENT_NODE?added:added.parentElement;
+    if(root?.isConnected)polishRoots.add(root);
+  }
+  if(polishQueued||!polishRoots.size)return;
+  polishQueued=true;requestAnimationFrame(()=>{
+    polishQueued=false;
+    const roots=[...polishRoots].filter(root=>root.isConnected);polishRoots.clear();
+    for(const root of roots)if(!roots.some(other=>other!==root&&other.contains(root)))polishControls(root);
+  });
+}).observe(document.body,{childList:true,subtree:true});
 polishControls();
 // Keep the compact header reachable while a keyboard user is navigating it.
 $('#main-content').addEventListener('focus',()=>closeMobileFilters());
