@@ -1,0 +1,10 @@
+﻿来源名称,URL,支持信息与读取边界,获取日期,证据类型,原始缓存目录
+学院个人主页,https://chem.ncu.edu.cn/article.jsp?urltype=news.NewsContentUrl&wbnewsid=6111&wbtreeid=1411,博士导师、海外研究岗位、南昌任职；22条代表作卷页,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+2022年答辩公告,https://chem.ncu.edu.cn/xsdt/705c895fad1d494e9a1ebb156004d2d0.htm,答辩委员会委员身份,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+2014年Small代表作,https://pubmed.ncbi.nlm.nih.gov/24771557/,原始Wei Hong署名、长春应化所单位、作者顺序,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+2024年ACS Catalysis作者信息,https://pubs.acs.org/doi/10.1021/acscatal.4c02465,南昌大学Wei Hong与ORCID 0000-0003-2509-7614；与错配档案区分,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+2021年RSC补充信息,https://www.rsc.org/suppdata/d1/nj/d1nj02654b/d1nj02654b1.pdf,南洋理工阶段Wei Hong单位和通讯邮箱线索；本次读取网页索引摘要,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+OpenAlex错误导入作者档案,https://openalex.org/A5052999757,原始61条主要落在中山大学结构色网络；仅作为错配审计依据,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+OpenAlex补充候选作者档案,https://openalex.org/A5100644622,显示名Wei Liang Hong也有混合；已分页获取205条，不能整份采用,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+Crossref逐篇元数据,https://api.crossref.org/works/{DOI},每篇实际URL见主表及作者表；完整JSON保存本地；无ORCID保持空白,2026-10-21,出版社登记元数据,核验原始资料/crossref_*.json
+OpenAlex逐篇元数据,https://openalex.org/{WorkID},每篇实际URL见主表；作者合并、日期和OA链接仍可能出错,2026-10-21,聚合元数据线索,核验原始资料/openalex_*.json

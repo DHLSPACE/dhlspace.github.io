@@ -1,0 +1,14 @@
+﻿来源名称,URL,支持信息与读取边界,获取日期,证据类型,原始缓存目录
+学院个人主页,https://chem.ncu.edu.cn/article.jsp?urltype=news.NewsContentUrl&wbnewsid=7231&wbtreeid=1411,教育、任职、课程、课题组链接、代表作；网页日期2025-12-12,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+研究生院2026年新闻,https://yjsy.ncu.edu.cn/info/1011/46536.htm,2026-01-07会议以研究生院副院长身份出现；不是任职起始证明,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+中南大学2017年报告,https://ccce.csu.edu.cn/info/1088/1305.htm,较早官方简介写2015年入职，与现学院主页2016.06不同,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+2022年硕士答辩公告,https://chem.ncu.edu.cn/xsdt/705c895fad1d494e9a1ebb156004d2d0.htm,特定年度导师与答辩委员会证据；不代表当前组员名单,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+2020年JACS学校新闻,https://zhxy.ncu.edu.cn/old/xyxw/4584799ffd814792adfd79d7afaab431.blk.htm,王珺与张艳共同第一作者；不把所有末位作者当作通讯作者,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+2024年乙炔半加氢学校报道,https://kjy.ncu.edu.cn/jzqy/xmzs/1a3e666daabb4aa48000bf16835a90b7.htm,王珺共同通讯作者、串联电催化系统和评价指标,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+陈静雯主页,https://chem.ncu.edu.cn/article.jsp?urltype=news.NewsContentUrl&wbnewsid=5591&wbtreeid=1411,教师身份与研究方向,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+陈世霞主页,https://chem.ncu.edu.cn/article.jsp?urltype=news.NewsContentUrl&wbnewsid=5721&wbtreeid=1411,教师身份与研究方向,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+周珍宇主页,https://chem.ncu.edu.cn/article.jsp?urltype=news.NewsContentUrl&wbnewsid=11071&wbtreeid=1411,教师身份与研究方向,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+Nature Communications 2022,https://www.nature.com/articles/s41467-022-33271-3,作者单位、ORCID与气体分离研究,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+课题组网站入口,https://www.x-mol.com/groups/junwang_ncu,链接由学院主页给出；本次访问限流，未核实当前成员,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+Crossref逐篇元数据,https://api.crossref.org/works/{DOI},每篇实际URL见主表及作者表；完整JSON保存本地；无ORCID保持空白,2026-10-21,出版社登记元数据,核验原始资料/crossref_*.json
+OpenAlex逐篇元数据,https://openalex.org/{WorkID},每篇实际URL见主表；作者合并、日期和OA链接仍可能出错,2026-10-21,聚合元数据线索,核验原始资料/openalex_*.json

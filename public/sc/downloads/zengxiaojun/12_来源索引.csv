@@ -1,0 +1,11 @@
+﻿来源名称,URL,支持信息与读取边界,获取日期,证据类型,原始缓存目录
+化工学院中文主页,https://chem.ncu.edu.cn/article.jsp?urltype=news.NewsContentUrl&wbnewsid=10261&wbtreeid=1411,学位、导师链、教学、研究方向与课题组链接,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+药学院个人主页,https://yxy.ncu.edu.cn/info/1711/11771.htm,糖化学专业、联合培养年月、项目周期、代表作；职称与月份有差异,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+化工学院英文主页,https://chem.ncu.edu.cn/article_en.jsp?urltype=news.NewsContentUrl&wbnewsid=9451&wbtreeid=1581,职位译名与研究助理月份第三种版本,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+2018年氟点击公开全文,https://pmc.ncbi.nlm.nih.gov/articles/PMC6233894/,公开稿题名、18F应用、单位及致谢；在线年与卷期年不同,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+2022年Organic Letters,https://pubs.acs.org/doi/10.1021/acs.orglett.1c04317,南昌单位、ORCID与自由基接力摘要,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+2023年ACS Catalysis,https://pubs.acs.org/doi/10.1021/acscatal.2c05901,共同第一作者声明与作者单位,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+2026年ACS Catalysis,https://pubs.acs.org/doi/10.1021/acscatal.6c01703,作者ORCID、2026-06-18在线与07-03卷期日期,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+课题组网站入口,https://www.x-mol.com/groups/zeng_xiaojun,学院主页所列；本次未成功读取成员名册,2026-10-21,官方/出版社/作者档案；以注释区分,核验原始资料
+Crossref逐篇元数据,https://api.crossref.org/works/{DOI},每篇实际URL见主表及作者表；完整JSON保存本地；无ORCID保持空白,2026-10-21,出版社登记元数据,核验原始资料/crossref_*.json
+OpenAlex逐篇元数据,https://openalex.org/{WorkID},每篇实际URL见主表；作者合并、日期和OA链接仍可能出错,2026-10-21,聚合元数据线索,核验原始资料/openalex_*.json
