@@ -250,5 +250,61 @@
     "public": "downloads/zengxiaojun/12_来源索引.csv",
     "public_sha256": "0455c69f37a52a9af1588ab644f7f03c212343f6ffa45c049e8ea8cb3d1210e4",
     "rows": 10
+  },
+  {
+    "source": "dengqiang/整理结果_2026-10-20/01_邓强全部论文_按时间.csv",
+    "source_sha256": "b8d4dac1e91c785b5e00931bdbf51fc4a9d01d310dd826f716a7c3a9031cd63d",
+    "public": "downloads/dengqiang/01_邓强全部论文_按时间.csv",
+    "public_sha256": "a2d828b8573b5d1e8fa26de29f0ec96bc42b1043bf93dc31ef4f52caed61aa90",
+    "rows": 101
+  },
+  {
+    "source": "dengqiang/整理结果_2026-10-20/02_邓强第一作者论文_按时间.csv",
+    "source_sha256": "30248f409bc175f83d0709896f94f00009f73a03c4c4662a559fe58f37946967",
+    "public": "downloads/dengqiang/02_邓强第一作者论文_按时间.csv",
+    "public_sha256": "070c2408822cd52a1eda45265b2f333c67efa5ae6a8f8b936ff03b070f7b05a2",
+    "rows": 13
+  },
+  {
+    "source": "dengqiang/整理结果_2026-10-20/03_逐篇全部作者与ORCID.csv",
+    "source_sha256": "c6da4c660c9eb3073eb6cb20946bf74bb20f583111b7f36059788ce188f659fa",
+    "public": "downloads/dengqiang/03_逐篇全部作者与ORCID.csv",
+    "public_sha256": "495cf955d8c79393666dbf314bc7a151c1a85bb74594d56ed736699807334da2",
+    "rows": 835
+  },
+  {
+    "source": "dengqiang/整理结果_2026-10-20/04_教育教学与科研经历.csv",
+    "source_sha256": "83261bb9174b152dcf99603f00187805bbf822ca73bb7f00256a312c5b9795f1",
+    "public": "downloads/dengqiang/04_教育教学与科研经历.csv",
+    "public_sha256": "5d2b49e3f24d6060d04d293de55693d00b448c22795e66718281d67cf42684c3",
+    "rows": 13
+  },
+  {
+    "source": "dengqiang/整理结果_2026-10-20/05_课题组与合作网络追踪.csv",
+    "source_sha256": "550d67563fe7094b297ccd7ea30cc02bd8c35f796c494204c031898ee012f074",
+    "public": "downloads/dengqiang/05_课题组与合作网络追踪.csv",
+    "public_sha256": "156f902308d2ddf5c4307755079f3e7f4ead702f829b59abdfc95cbc9d8abba6",
+    "rows": 11
+  },
+  {
+    "source": "dengqiang/整理结果_2026-10-20/06_原始279条记录消歧审计.csv",
+    "source_sha256": "41244f39c7996da649fc3e4ce15ee01b75095dbcf3b2ef84453ed50ca9a5da88",
+    "public": "downloads/dengqiang/06_原始279条记录消歧审计.csv",
+    "public_sha256": "a0e0444d364209207fe7e5794cab3ccfcdfe7dc25a42d24e2a399c2eff016798",
+    "rows": 279
+  },
+  {
+    "source": "dengqiang/整理结果_2026-10-20/07_重复版本勘误与预印本.csv",
+    "source_sha256": "b81292de86a0dbe13e552bb65aa3564b68655e6ba89bf5d9ca9caa4d90d956a8",
+    "public": "downloads/dengqiang/07_重复版本勘误与预印本.csv",
+    "public_sha256": "8d3c4b76215939548a045016b9c9497db27f3fbc079bb9887091dbefb0e82971",
+    "rows": 7
+  },
+  {
+    "source": "dengqiang/整理结果_2026-10-20/08_年度研究主题变化.csv",
+    "source_sha256": "819f7a198c612abccd9d5016dd28476f1db09fce1c326e9e78a5fd9cb431e047",
+    "public": "downloads/dengqiang/08_年度研究主题变化.csv",
+    "public_sha256": "ea67c2c9a0211f2985019a9180bb615a4ed7a6f1e9873fd0ea2f7e53e8d15b42",
+    "rows": 13
   }
 ]

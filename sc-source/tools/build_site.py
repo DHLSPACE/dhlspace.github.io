@@ -11,6 +11,7 @@ import json
 import os
 import re
 import shutil
+from deng_adapter import load_deng
 
 PROJECT = Path(__file__).resolve().parents[1]
 ROOT = Path(os.environ.get('SC_ARCHIVE_ROOT', str(PROJECT.parent))).resolve()
@@ -20,6 +21,7 @@ CONFIG = {
     'hongwei': {'en': 'Wei Hong', 'field': '电催化与能源转化', 'question': '从纳米结构，到反应与器件', 'tags': ['微纳催化材料', 'CO₂电还原', '水电解'], 'color': 'blue', 'initial': '洪', 'wbid': '6111'},
     'wangqun': {'en': 'Jun Wang', 'field': '多孔材料与气体分离', 'question': '在孔道尺度，理解分子识别', 'tags': ['金属有机框架', '吸附分离', '孔环境工程'], 'color': 'teal', 'initial': '珺', 'wbid': '7231'},
     'zengxiaojun': {'en': 'Xiaojun Zeng', 'field': '有机氟化学与选择性合成', 'question': '用催化与自由基，构建新的化学键', 'tags': ['氟烷基化', '自由基反应', '选择性控制'], 'color': 'violet', 'initial': '曾', 'wbid': '10261'},
+    'dengqiang': {'en': 'Qiang Deng', 'field': '金属—酸协同催化与生物质转化', 'question': '让金属与酸位协同，控制反应路径', 'tags': ['界面氢活化', '生物质转化', '串联催化'], 'color': 'amber', 'initial': '邓', 'wbid': '11021'},
 }
 EMAIL = re.compile(r'[\w.%+\-]+@[\w.\-]+\.[A-Za-z]{2,}')
 PHONE = re.compile(r'(?i)(?:fax|tel(?:ephone)?|phone|mobile|传真|电话)\s*[.:：]?\s*\+?\d[\d\s().\-]{5,}\d')
@@ -98,12 +100,15 @@ def main():
         shutil.copyfile(PROJECT / 'src' / name, OUT / name)
     scholars, merged, manifest = [], {}, []
     for slug, meta in CONFIG.items():
-        src = ROOT / slug / ('整理结果_' + DATE)
-        raw = json.loads((src / '档案数据.json').read_text('utf-8-sig'))
+        adapted = load_deng(ROOT) if slug == 'dengqiang' else None
+        src = adapted['source'] if adapted else ROOT / slug / ('整理结果_' + DATE)
+        raw = adapted if adapted else json.loads((src / '档案数据.json').read_text('utf-8-sig'))
         tables = raw['tables']
-        report = sanitize((src / '人物研究与阅读建议.md').read_text('utf-8-sig'))
+        report = '' if adapted else sanitize((src / '人物研究与阅读建议.md').read_text('utf-8-sig'))
         sections = {m.group(1): m.group(2).strip() for m in re.finditer(r'^## ([^\n]+)\n(.*?)(?=^## |\Z)', report, re.M | re.S)}
-        scholar = {'id': slug, **meta, **raw['summary'], 'official': 'https://chem.ncu.edu.cn/article.jsp?urltype=news.NewsContentUrl&wbnewsid=' + meta['wbid'] + '&wbtreeid=1411', 'intro': sections['先理解这个人'].split('\n\n')[0], 'sections': {k: markdown(sections[k]) for k in ['研究方向随经历的变化', '实验经历应怎样理解', '数据消歧与来源差异']}, 'bio': tables['bio'], 'people': tables['people'], 'sources': tables['sources'], 'reading': [clean(r) for r in tables['reading']], 'network': tables['network'], 'annual': tables['annual'], 'downloads': []}
+        scholar = {'id': slug, **meta, **raw['summary'], 'official': 'https://chem.ncu.edu.cn/article.jsp?urltype=news.NewsContentUrl&wbnewsid=' + meta['wbid'] + '&wbtreeid=1411', 'intro': adapted['intro'] if adapted else sections['先理解这个人'].split('\n\n')[0], 'sections': adapted['sections'] if adapted else {k: markdown(sections[k]) for k in ['研究方向随经历的变化', '实验经历应怎样理解', '数据消歧与来源差异']}, 'bio': tables['bio'], 'people': tables['people'], 'sources': tables['sources'], 'reading': [clean(r) for r in tables['reading']], 'network': tables['network'], 'annual': tables['annual'], 'downloads': []}
+        if adapted:
+            scholar.update({'careerNotes': adapted['careerNotes'], 'reportSource': adapted['reportSource']})
         for paper in tables['papers']:
             key = paper['DOI'].lower().strip()
             if key not in merged:
@@ -130,14 +135,27 @@ def main():
                 writer.writerows(rows)
             scholar['downloads'].append({'name': f.stem, 'href': 'downloads/' + slug + '/' + f.name, 'rows': len(rows)})
             manifest.append({'source': str(f.relative_to(ROOT)).replace('\\', '/'), 'source_sha256': hashlib.sha256(f.read_bytes()).hexdigest(), 'public': str(target.relative_to(OUT)).replace('\\', '/'), 'public_sha256': hashlib.sha256(target.read_bytes()).hexdigest(), 'rows': len(rows)})
-        for source_name, public_name in [('人物研究与阅读建议.md', '人物研究与阅读建议.md'), ('阅读笔记/精读模板.md', '精读模板.md')]:
-            (folder / public_name).write_text(sanitize((src / source_name).read_text('utf-8-sig')), encoding='utf-8')
-        scholar['reportHref'] = 'downloads/' + slug + '/人物研究与阅读建议.md'
+        if adapted:
+            (folder / '人物研究与阅读建议.html').write_text(sanitize(adapted['report']), encoding='utf-8')
+            (folder / '精读模板.md').write_text(adapted['template'], encoding='utf-8')
+        else:
+            for source_name, public_name in [('人物研究与阅读建议.md', '人物研究与阅读建议.md'), ('阅读笔记/精读模板.md', '精读模板.md')]:
+                (folder / public_name).write_text(sanitize((src / source_name).read_text('utf-8-sig')), encoding='utf-8')
+        scholar['reportFormat'] = 'HTML' if adapted else 'Markdown'
+        scholar['reportHref'] = 'downloads/' + slug + ('/人物研究与阅读建议.html' if adapted else '/人物研究与阅读建议.md')
         scholar['templateHref'] = 'downloads/' + slug + '/精读模板.md'
         scholars.append(scholar)
-    cross = list(csv.DictReader((ROOT / ('三人及邓强_共同论文线索_' + DATE + '.csv')).open(encoding='utf-8-sig')))
-    (OUT / 'downloads' / '共同论文线索.csv').write_text(sanitize((ROOT / ('三人及邓强_共同论文线索_' + DATE + '.csv')).read_text('utf-8-sig')), encoding='utf-8-sig')
-    data = {'version': 1, 'asOf': DATE, 'scholars': scholars, 'papers': list(merged.values()), 'cross': cross, 'counts': {'scholars': 3, 'records': sum(s['papers'] for s in scholars), 'uniquePapers': len(merged), 'firstAuthor': sum(s['first_author'] for s in scholars), 'reading': sum(len(s['reading']) for s in scholars), 'evidence': {k: sum(s['evidence'].get(k, 0) for s in scholars) for k in 'ABC'}}, 'provenance': manifest}
+    cross = []
+    for index, left in enumerate(scholars):
+        for right in scholars[index + 1:]:
+            for doi, paper in sorted(merged.items()):
+                if left['id'] in paper['members'] and right['id'] in paper['members']:
+                    cross.append({'人物甲': left['name'], '人物乙': right['name'], '人物甲ID': left['id'], '人物乙ID': right['id'], 'DOI': doi, '排序日期_甲表口径': paper['records'][left['id']]['排序日期'], '英文题名': paper['title'], '中文题名_辅助译名': paper['zh'], 'DOI链接': paper['url'], '关系说明': '仅为两份整理清单的DOI交集，不代表导师或同组关系', '快照日期': left['name'] + ' ' + left['as_of'] + '；' + right['name'] + ' ' + right['as_of']})
+    with (OUT / 'downloads' / '共同论文线索.csv').open('w', encoding='utf-8-sig', newline='') as handle:
+        writer = csv.DictWriter(handle, fieldnames=list(cross[0]))
+        writer.writeheader()
+        writer.writerows(cross)
+    data = {'version': 2, 'asOf': DATE, 'scholars': scholars, 'papers': list(merged.values()), 'cross': cross, 'counts': {'scholars': len(scholars), 'records': sum(s['papers'] for s in scholars), 'uniquePapers': len(merged), 'firstAuthor': sum(s['first_author'] for s in scholars), 'reading': sum(len(s['reading']) for s in scholars), 'evidence': {k: sum(s['evidence'].get(k, 0) for s in scholars) for k in 'ABC'}}, 'provenance': manifest}
     data = sanitize(data)
     # Partition data scripts keep initial downloads small and each file reviewable.
     shell = {k: v for k, v in data.items() if k != 'papers'}

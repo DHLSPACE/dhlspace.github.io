@@ -40,7 +40,7 @@ const pages = ['/people','/papers','/reading','/network','/sources'];
 for (const s of context.SC_DATA.scholars) for (const tab of ['overview','career','papers','people','sources']) pages.push('/people/'+s.id+'/'+tab);
 for (const page of pages) assert(navigate(page).length > 100,page);
 assert(navigate('/unknown').includes('这份档案还没有建立'));
-navigate('/papers'); assert.equal(context.SC.filterPapers().length,287);
+navigate('/papers'); assert.equal(context.SC.filterPapers().length,320);
 for (const s of context.SC_DATA.scholars) {
   navigate('/papers?person='+s.id); assert.equal(context.SC.filterPapers().length,s.papers);
   navigate('/papers?person='+s.id+'&first=1');assert.equal(context.SC.filterPapers().length,s.first_author);
@@ -49,6 +49,13 @@ for (const s of context.SC_DATA.scholars) {
   assert(context.SC.filterPapers().every(p=>p.records[s.id]['归属证据'].startsWith('C') && p.records[s.id]['是否排名第一']==='是'));
 }
 navigate('/papers?q='+encodeURIComponent('曾小军'));assert.equal(context.SC.filterPapers().length,62);
+navigate('/papers?q='+encodeURIComponent('邓强'));assert.equal(context.SC.filterPapers().length,101);
+assert(navigate('/people/dengqiang').includes('2026-10-20'));
+assert(navigate('/people/dengqiang/career').includes('湘潭大学'));
+assert(navigate('/people/dengqiang/sources').includes('8 张 UTF-8'));
+assert(navigate('/reading?person=dengqiang').includes('H⁺–H⁻'));
+assert(navigate('/network').includes('href="#/people/dengqiang"'));
+assert(!main.innerHTML.includes('背景快照'));
 navigate('/papers?q=10.1002%2Fanie.202518909');assert.equal(context.SC.filterPapers().length,1);assert.equal(context.SC.filterPapers()[0].members.length,2);
 navigate('/papers?q=%3Cscript%3E');assert.equal(context.SC.filterPapers().length,0);assert(!main.innerHTML.includes('value="<script>'));
 navigate('/papers?year=2024');assert(context.SC.filterPapers().every(p=>Object.values(p.records).some(r=>r['排序年份']==='2024')));
