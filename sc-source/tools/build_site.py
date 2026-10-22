@@ -11,6 +11,7 @@ import json
 import os
 import re
 import shutil
+import sys
 from deng_adapter import load_deng
 
 PROJECT = Path(__file__).resolve().parents[1]
@@ -93,11 +94,25 @@ def clean(row):
     return {k: str(v) if k == '排序年份' else sanitize(v) for k, v in row.items() if k not in {'个人笔记', 'PDF本地路径', '阅读日期', '阅读状态', '下载状态', '补充信息状态'}}
 
 
+def finish_frontend(paper_count):
+    index = (OUT / 'index.html').read_text('utf-8')
+    scripts = '<script defer src="./assets/catalog.js"></script>\n' + '\n'.join(f'<script defer src="./assets/papers-{idx:02d}.js"></script>' for idx in range((paper_count+9)//10))
+    (OUT / 'index.html').write_text(index.replace('<!-- DATA_SCRIPTS -->', scripts), encoding='utf-8')
+    network = ROOT / 'scholar-network' / 'site'
+    if (network / 'index.html').is_file():
+        shutil.copytree(network, OUT / 'network', dirs_exist_ok=True)
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / 'assets').mkdir(exist_ok=True)
     for name in ['index.html', 'styles.css', 'app.js', 'favicon.svg']:
         shutil.copyfile(PROJECT / 'src' / name, OUT / name)
+    if '--frontend-only' in sys.argv:
+        snapshot = json.loads((OUT / 'downloads/research-data.json').read_text('utf-8'))
+        finish_frontend(snapshot['counts']['uniquePapers'])
+        print(json.dumps({'mode':'frontend-only','preserved_snapshot':snapshot['asOf'],'counts':snapshot['counts']},ensure_ascii=False))
+        return
     scholars, merged, manifest = [], {}, []
     for slug, meta in CONFIG.items():
         adapted = load_deng(ROOT) if slug == 'dengqiang' else None
@@ -167,9 +182,7 @@ def main():
         public_batch = [{**{k: v for k, v in p.items() if k != 'authorDetails'}, 'authorChunk': f'assets/authors-{idx//10:02d}.json'} for p in batch]
         chunk = json.dumps(public_batch, ensure_ascii=False, separators=(',', ':'))
         (OUT / 'assets' / f'papers-{idx//10:02d}.js').write_text('SC_DATA.papers.push(...' + chunk + ');\n', encoding='utf-8')
-    index = (OUT / 'index.html').read_text('utf-8')
-    scripts = '<script defer src="./assets/catalog.js"></script>\n' + '\n'.join(f'<script defer src="./assets/papers-{idx:02d}.js"></script>' for idx in range((len(merged)+9)//10))
-    (OUT / 'index.html').write_text(index.replace('<!-- DATA_SCRIPTS -->', scripts), encoding='utf-8')
+    finish_frontend(len(merged))
     # Full public JSON remains available without depending on the UI.
     (OUT / 'downloads' / 'research-data.json').write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     (OUT / 'downloads' / 'provenance.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')

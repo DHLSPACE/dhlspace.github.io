@@ -36,6 +36,7 @@ for (const file of ['catalog.js', ...fs.readdirSync(path.join(root,'assets')).fi
 vm.runInContext(fs.readFileSync(path.join(root,'app.js'),'utf8'),context,{filename:'app.js'});
 function navigate(hash) { context.location.hash='#'+hash;windowEvents.hashchange(); assert(!main.innerHTML.includes('undefined'),'undefined rendered at '+hash);return main.innerHTML; }
 assert(main.innerHTML.includes('循着论文'));
+assert(main.innerHTML.includes('href="./network/"'), 'scholar network is reachable from the home page');
 const pages = ['/people','/papers','/reading','/network','/sources'];
 for (const s of context.SC_DATA.scholars) for (const tab of ['overview','career','papers','people','sources']) pages.push('/people/'+s.id+'/'+tab);
 for (const page of pages) assert(navigate(page).length > 100,page);

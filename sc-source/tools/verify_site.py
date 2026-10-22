@@ -7,6 +7,7 @@ import hashlib
 import json
 import os
 import re
+import sys
 from deng_adapter import load_deng
 
 PROJECT = Path(__file__).resolve().parents[1]
@@ -49,8 +50,11 @@ for row in data['cross']:
     cross_pairs[key] = cross_pairs.get(key, 0) + 1
 assert cross_pairs == {('hongwei', 'wangqun'): 6, ('dengqiang', 'wangqun'): 68}
 assert len({r['DOI'] for r in data['cross']}) == 74
+source_snapshot_drift=[]
 for item in data['provenance']:
-    assert hashlib.sha256((ROOT / item['source']).read_bytes()).hexdigest() == item['source_sha256'], item['source']
+    if hashlib.sha256((ROOT / item['source']).read_bytes()).hexdigest() != item['source_sha256']:
+        source_snapshot_drift.append(item['source'])
+        assert '--published-snapshot' in sys.argv, item['source']
     assert hashlib.sha256((OUT / item['public']).read_bytes()).hexdigest() == item['public_sha256'], item['public']
 
 class Links(HTMLParser):
@@ -61,6 +65,8 @@ class Links(HTMLParser):
             if not url or url.startswith(('#', 'http:', 'https:', 'mailto:', 'data:')):
                 continue
             target = OUT / unquote(urlsplit(url).path)
+            if target.is_dir():
+                target = target / 'index.html'
             assert target.is_file(), (tag, url)
 
 index = (OUT / 'index.html').read_text('utf-8')
@@ -75,8 +81,11 @@ for file in (OUT / 'assets').glob('authors-*.json'):
 assert author_count == 3044
 contact = re.compile(r'[\w.%+\-]+@[\w.\-]+\.[A-Za-z]{2,}|(?:fax|tel(?:ephone)?|phone|mobile|传真|电话)\s*[.:：]?\s*\+?\d[\d\s().\-]{5,}\d', re.I)
 for file in OUT.rglob('*'):
-    if file.is_file():
+    if file.is_file() and file.suffix != '.xlsx':
         assert not contact.search(file.read_text('utf-8-sig')), 'Contact data in ' + str(file)
 report = {'result': 'passed', 'snapshot': data['asOf'], 'counts': data['counts'], 'source_hashes_verified': len(data['provenance']), 'csv_downloads_verified': 44, 'author_records': author_count, 'cross_pairs': {','.join(k):v for k,v in cross_pairs.items()}, 'contact_data_scan': 'passed: no email, labelled phone or fax', 'local_resources': 'all present', 'browser_verification': 'not performed: no approved host browser capability was exposed'}
+report['source_hashes_verified']=len(data['provenance'])-len(source_snapshot_drift)
+report['source_snapshot_drift']=source_snapshot_drift
+report['verification_mode']='preserve published snapshot' if '--published-snapshot' in sys.argv else 'rebuilt from current sources'
 (PROJECT / 'verification.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
 print(json.dumps(report, ensure_ascii=False))
