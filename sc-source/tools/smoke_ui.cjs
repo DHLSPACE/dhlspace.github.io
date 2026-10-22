@@ -70,5 +70,12 @@ async function click(action, id) { const button = new Element();button.dataset={
   assert.equal(JSON.parse(storage.get('sc-reading-v1'))[id].status,'已读完');await click('close-dialog');
   assert(!document.querySelector('#paper-dialog').open);
   const checked=context.SC.validateNotes({[id]:{saved:true,status:'invalid',note:'hello'},'unknown':{saved:true}});assert.equal(Object.keys(checked).length,1);assert.equal(checked[id].status,'未开始');
+  for (const count of [0, 9, 319]) {
+    const fallback = new Element('main');
+    const partial = vm.createContext({SC_DATA:{counts:{uniquePapers:320},papers:Array(count)},document:{querySelector:()=>fallback}});
+    vm.runInContext(fs.readFileSync(path.join(root,'app.js'),'utf8'),partial);
+    assert(fallback.innerHTML.includes('href="./network/"'), 'partial paper data keeps scholar directory reachable');
+    assert(fallback.innerHTML.includes('重新加载文献档案'));
+  }
   console.log(JSON.stringify({result:'passed',route_checks:pages.length+2,paper_filters:'person, first author, evidence, combined conditions, name, DOI, year, saved, escaped query',reading:'bookmark, note save, local persistence, invalid import keys',browser:false}));
 })().catch(err=>{console.error(err);process.exitCode=1;});

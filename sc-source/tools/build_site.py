@@ -96,9 +96,16 @@ def clean(row):
 
 def finish_frontend(paper_count):
     index = (OUT / 'index.html').read_text('utf-8')
+    network = ROOT / 'scholar-network' / 'site'
+    summary = network / 'downloads/catalog.json'
+    if summary.is_file():
+        counts = json.loads(summary.read_text('utf-8'))['counts']
+        entry = f'<a class="network-entry glass" href="./network/"><span class="network-entry-copy"><strong>学者与研究方向</strong><span>{int(counts["people"])} 位学者 · {int(counts["directions"])} 条细分方向 · 南昌大学、华南理工与相关学术网络</span></span><span class="network-entry-action">打开完整目录 ↗</span></a>'
+    else:
+        entry = '<a class="network-entry glass" href="./network/"><span class="network-entry-copy"><strong>学者与研究方向</strong><span>浏览人物目录、方向分类与学术关系</span></span><span class="network-entry-action">打开目录 ↗</span></a>'
+    index = index.replace('<!-- NETWORK_ENTRY -->', entry)
     scripts = '<script defer src="./assets/catalog.js"></script>\n' + '\n'.join(f'<script defer src="./assets/papers-{idx:02d}.js"></script>' for idx in range((paper_count+9)//10))
     (OUT / 'index.html').write_text(index.replace('<!-- DATA_SCRIPTS -->', scripts), encoding='utf-8')
-    network = ROOT / 'scholar-network' / 'site'
     if (network / 'index.html').is_file():
         shutil.copytree(network, OUT / 'network', dirs_exist_ok=True)
 

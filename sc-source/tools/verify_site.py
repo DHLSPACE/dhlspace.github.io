@@ -73,6 +73,14 @@ index = (OUT / 'index.html').read_text('utf-8')
 Links().feed(index)
 assert '<!-- DATA_SCRIPTS -->' not in index
 assert '<meta name="viewport"' in index and 'lang="zh-CN"' in index
+assert '<!-- NETWORK_ENTRY -->' not in index
+network_catalog=OUT/'network/downloads/catalog.json'
+if network_catalog.is_file():
+    network_counts=json.loads(network_catalog.read_text('utf-8'))['counts']
+    assert 'class="network-entry glass" href="./network/"' in index
+    assert f'{network_counts["people"]} 位学者' in index
+    assert f'{network_counts["directions"]} 条细分方向' in index
+    assert '正在展开四人文献档案' in index and '打开学者与方向目录' in index
 author_count = 0
 for file in (OUT / 'assets').glob('authors-*.json'):
     for doi, rows in json.loads(file.read_text('utf-8')).items():
