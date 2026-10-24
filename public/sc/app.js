@@ -203,20 +203,7 @@
     }
     if (!pairs.has(activePair)) activePair = pairs.keys().next().value;
     const current = pairs.get(activePair) || [];
-    const positions = {wangqun:[130,100,'#d4e9e1'],hongwei:[330,105,'#d5e6f1'],dengqiang:[220,245,'#efe4ce'],zengxiaojun:[455,245,'#e5def1']};
-    const edges = [...pairs.values()].map(rows => {
-      const row = rows[0], left = positions[row['人物甲ID']], right = positions[row['人物乙ID']];
-      if (!left || !right) return '';
-      const midX = (left[0]+right[0])/2, midY = (left[1]+right[1])/2-12;
-      return `<path d="M${left[0]} ${left[1]} ${right[0]} ${right[1]}" stroke="url(#netLine)" stroke-width="${rows.length > 10 ? 3 : 2}" fill="none"/><text x="${midX}" y="${midY}" text-anchor="middle" fill="#668b9a" font-size="9">${rows.length} 篇共同 DOI</text>`;
-    }).join('');
-    const nodes = D.scholars.map(s => {
-      const pos = positions[s.id]; if (!pos) return '';
-      const [x,y,tint] = pos;
-      return `<a href="#/people/${s.id}" class="network-node" aria-label="${s.name}研究档案"><circle cx="${x}" cy="${y}" r="31" fill="${tint}" stroke="#fff" stroke-width="2"/><circle cx="${x}" cy="${y}" r="38" fill="none" stroke="${tint}"/><text x="${x}" y="${y+55}" text-anchor="middle">${s.name}</text><text x="${x}" y="${y+69}" class="node-en" text-anchor="middle">${s.en}</text></a>`;
-    }).join('');
-    const description = [...pairs.entries()].map(([name,rows]) => name + '：' + rows.length + '篇共同DOI').join('；');
-    return `${pageHead('Follow the connections', '研究关联', '从共同 DOI 出发，观察多孔材料、气体转化与金属—酸催化之间的联系。四位研究者保留各自快照日期，人物关系需另据官方资料确认。')}<div class="atlas-grid"><section class="panel glass network-view"><svg viewBox="0 0 540 345" role="img" aria-label="${e(description)}"><defs><linearGradient id="netLine"><stop stop-color="#71aaa2"/><stop offset="1" stop-color="#8eaac6"/></linearGradient></defs>${edges}${nodes}</svg><p class="network-caption">连线：当前四份人物清单的 DOI 交集 · 点击人物可进入档案</p></section><section class="panel glass network-side"><div class="panel-heading"><h2>沿共同论文展开</h2><small>共 ${D.cross.length} 条成对交集线索</small></div><div class="prose"><p>王珺与洪卫的交集连接 CO₂ 电还原、醇氧化与乙炔半加氢。王珺与邓强的交集连接多孔材料、吸附与催化。曾小军的当前清单未找到与其余三位的共同 DOI；更完整资料可能改变结果。</p></div><div class="pair-list">${[...pairs.entries()].map(([key, rows]) => `<button class="pair-button ${key === activePair ? 'active' : ''}" data-action="network-pair" data-pair="${e(key)}"><span>${e(key)}<small style="display:block;font-size:8px;color:var(--quiet)">${e(rows[0]['快照日期'])}</small></span><strong>${rows.length}</strong></button>`).join('')}</div></section></div><div class="section-heading"><div><h2>${e(activePair)} <span>${current.length} 条共同论文线索</span></h2><p>仅为两份清单的 DOI 交集，保留各自归属证据。</p></div></div><div class="paper-list">${current.map(r => {
+    return `${pageHead('Follow the connections', '研究关联', '完整展示首批学者，沿明确的导师关系、共同署名和建议对照阅读展开。点击人物查看关联与来源。')}<div id="complete-scholar-graph"><p class="notice">关系图正在载入。若未显示，可<a href="./network/#relations">打开独立关系图</a>。</p></div><div class="section-heading"><div><h2>旧档案的共同论文</h2><p>下方按四份既有论文清单的 DOI 交集展开，保留各自快照和归属证据。</p></div></div><div class="pair-list">${[...pairs.entries()].map(([key, rows]) => `<button class="pair-button ${key === activePair ? 'active' : ''}" data-action="network-pair" data-pair="${e(key)}"><span>${e(key)}<small style="display:block;font-size:10px;color:var(--quiet)">${e(rows[0]['快照日期'])}</small></span><strong>${rows.length}</strong></button>`).join('')}</div><div class="section-heading"><div><h2>${e(activePair)} <span>${current.length} 条共同论文线索</span></h2><p>仅为两份清单的 DOI 交集，保留各自归属证据。</p></div></div><div class="paper-list">${current.map(r => {
       const p = papers.get(r.DOI.toLowerCase());
       return p ? paperRow(p, r['人物甲ID']) : '';
     }).join('')}</div><div class="section-heading"><div><h2>论文清单中的时间分布</h2><p>按排序年统计，包含 C 类记录与合作支线；不代表个人完整年发文量。</p></div></div><div class="topic-grid">${D.scholars.map(s => {
@@ -245,6 +232,7 @@
     else if (category === 'sources') main.innerHTML = sourcesPage();
     else if (category === 'network') main.innerHTML = networkPage();
     else main.innerHTML = '<div class="empty"><h2>这份档案还没有建立</h2><p>先回到当前研究者的资料。</p><a class="primary-button" style="margin-top:18px" href="#/people">查看人物档案 →</a></div>';
+    if (category === 'network') globalThis.SCNetworkGraph?.mount($('#complete-scholar-graph'), globalThis.SC_NETWORK);
     $('#page-label').textContent = label;
     document.title = label + ' · SC 人物研究知识库';
     renderResults();

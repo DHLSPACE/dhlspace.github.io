@@ -99,7 +99,14 @@ def finish_frontend(paper_count):
     network = ROOT / 'scholar-network' / 'site'
     summary = network / 'downloads/catalog.json'
     if summary.is_file():
-        counts = json.loads(summary.read_text('utf-8'))['counts']
+        catalog = json.loads(summary.read_text('utf-8'))
+        counts = catalog['counts']
+        graph = {key: catalog[key] for key in ['as_of', 'relations', 'sources']}
+        graph['people'] = [{**{key: p[key] for key in ['person_id', 'name_zh', 'name_en', 'institution']},
+                            'directions': [{key: d[key] for key in ['title', 'topic_name']} for d in p['directions']]}
+                           for p in catalog['people']]
+        encoded = json.dumps(graph, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
+        (OUT / 'assets/network-catalog.js').write_text('globalThis.SC_NETWORK=' + encoded + ';\n', encoding='utf-8')
         entry = f'<a class="network-entry glass" href="./network/"><span class="network-entry-copy"><strong>学者与研究方向</strong><span>{int(counts["people"])} 位学者 · {int(counts["directions"])} 条细分方向 · 南昌大学、华南理工与相关学术网络</span></span><span class="network-entry-action">打开完整目录 ↗</span></a>'
     else:
         entry = '<a class="network-entry glass" href="./network/"><span class="network-entry-copy"><strong>学者与研究方向</strong><span>浏览人物目录、方向分类与学术关系</span></span><span class="network-entry-action">打开目录 ↗</span></a>'
@@ -113,7 +120,7 @@ def finish_frontend(paper_count):
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / 'assets').mkdir(exist_ok=True)
-    for name in ['index.html', 'styles.css', 'app.js', 'favicon.svg']:
+    for name in ['index.html', 'styles.css', 'app.js', 'favicon.svg', 'network-graph.js', 'network-graph.css']:
         shutil.copyfile(PROJECT / 'src' / name, OUT / name)
     if '--frontend-only' in sys.argv:
         snapshot = json.loads((OUT / 'downloads/research-data.json').read_text('utf-8'))
