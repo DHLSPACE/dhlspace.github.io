@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101315">
+  <meta name="description" content="个人 Codex 额度探针：查看用量、额度重置倒计时与历史趋势。">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css">
+  <title>Codex 用量探针 · 162383.xyz</title>
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <a class="brand" href="/"><span class="brand-mark">16·</span><span>162383<span class="muted">.xyz</span></span></a>
+    <div class="nav-label">WORKSPACE</div>
+    <a class="nav-item selected" href="/si/" aria-current="page"><span aria-hidden="true">◉</span> 用量探针 <span class="nav-count">01</span></a>
+    <a class="nav-item" href="https://chatgpt.com/codex/settings/usage" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">↗</span> 官方额度页面</a>
+    <a class="nav-item" href="https://github.com/DHLSPACE/dhlspace.github.io/tree/main/public/si" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">⌘</span> 项目源码</a>
+    <div class="sidebar-bottom"><span class="tiny-dot"></span> PERSONAL OBSERVABILITY<br><span class="muted">一个轻量的个人监控面板。</span></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><div><span class="muted">工作台</span><span class="slash">/</span>Codex 用量探针</div><span class="top-right"><span class="tiny-dot"></span><span id="clock">本地时间</span></span></header>
+    <main>
+      <div class="page-heading"><div><div class="eyebrow">CODEX TELEMETRY <span>/ 01</span></div><h1>Codex 用量探针<span class="heading-dot">.</span></h1><p class="lead">还剩多少，何时重置，一眼看清。</p></div><div class="actions"><button class="button secondary" id="refresh">↻ 刷新</button><button class="button primary" id="connect">＋ 接入探针</button></div></div>
+      <div class="status-strip"><div class="status-left"><span class="status-badge" id="status" role="status">● 等待接入</span><span class="separator"></span><span id="plan">套餐 —</span><span class="separator"></span><span id="updated">尚未收到数据</span></div><div class="source-label" id="source-label">GITHUB · JSON</div></div>
+      <div class="notice" id="notice" role="status" hidden></div>
+      <section class="quota-grid" aria-label="额度概览" id="quota-cards"></section>
+      <div class="middle-grid">
+        <section class="panel trend-panel"><div class="panel-heading"><div><h2>额度使用趋势</h2><p>已用比例 · 最近 24 小时</p></div><div class="legend"><span><i class="legend-primary"></i>主窗口</span><span><i class="legend-secondary"></i>次窗口</span></div></div><div class="chart" id="chart"></div><div class="chart-footer"><span>重置前后的数据分段显示</span><span id="history-count">0 个采样点</span></div></section>
+        <section class="panel reset-panel"><div class="panel-heading"><div><h2>下一次重置</h2><p>Codex 返回的重置时间</p></div><span class="small-icon" aria-hidden="true">◷</span></div><div class="reset-window" id="reset-window">等待额度数据</div><div class="countdown" id="countdown">—<span> : </span>—<span> : </span>—</div><div class="reset-date" id="reset-date">接入后显示本地时间与倒计时</div><div class="reset-note"><span aria-hidden="true">↳</span><span id="reset-note">倒计时结束后，等待新采样确认重置。</span></div></section>
+      </div>
+      <section class="panel windows-panel"><div class="panel-heading"><div><h2>额度窗口</h2><p>各窗口独立计量，任一额度耗尽都可能影响使用。</p></div><span class="table-tag">LIVE SNAPSHOT</span></div><div class="table-scroll"><table><thead><tr><th>额度窗口</th><th>已使用</th><th>剩余</th><th>重置时间 <span class="muted">/ 本地</span></th><th>消耗速度 <span class="muted">/ 近 1 小时</span></th></tr></thead><tbody id="windows"></tbody></table></div></section>
+      <section class="setup-banner" id="setup-banner"><div class="setup-icon" aria-hidden="true">⌁</div><div><h2>让你的 Codex，拥有一个探针。</h2><p>在已登录 Codex 的电脑或 VPS 上启动采集，额度统计会自动出现在这里。</p></div><button class="button secondary" id="setup-more">查看接入方式 ↗</button></section>
+      <div class="bottom-links"><span>数据只包含额度统计 · 无登录令牌与对话内容</span><button class="text-button" id="demo">体验演示数据 ↗</button></div>
+      <details class="references"><summary>数据说明与开源参考</summary><div>
+        <p>探针使用官方 Codex CLI 的 <code>account/rateLimits/read</code>，仅读取额度，不发起模型任务。重置时间来自 <code>resetsAt</code>；耗尽预估根据近一小时同一重置窗口的用量变化线性计算，至少需要 15 分钟采样，不代表保证可用时间。</p>
+        <p><a href="https://github.com/steipete/CodexBar" target="_blank" rel="noopener noreferrer">CodexBar</a>：桌面菜单栏额度监控。<a href="https://github.com/manuelsh/codex-monitor" target="_blank" rel="noopener noreferrer">Codex Monitor</a>：本机用量与任务仪表盘。<a href="https://github.com/en4ble1337/codex-usage-monitor" target="_blank" rel="noopener noreferrer">Codex Usage Monitor</a>：本机探针与静态网页的架构参考。<a href="https://github.com/CableZa/codex-self-hosted-web-monitor" target="_blank" rel="noopener noreferrer">Self-Hosted Web Monitor</a>：偏重本地会话与 credits 统计。</p>
+        <p>页面与探针为本站独立实现。GitHub Pages 和 raw 数据可能有缓存；页面每 60 秒读取快照，探针默认每 5 分钟采集。超过 3 个采样周期（至少 15 分钟）标记过期。页面不推测固定的每日或每周重置日。</p>
+      </div></details>
+      <footer><span>162383.xyz <span class="muted">/ Codex Monitor</span></span><span class="muted">Built for a little more visibility.</span></footer>
+    </main>
+  </div>
+</div>
+<dialog id="setup-dialog" aria-labelledby="setup-title">
+  <div class="dialog-heading"><div><div class="eyebrow">CONNECT YOUR PROBE</div><h2 id="setup-title">接入你的 Codex</h2></div><button class="icon-button" id="close-dialog" aria-label="关闭">×</button></div>
+  <p class="dialog-lead">在已登录 Codex 的设备上运行。支持 Windows、macOS 和 Linux，需要 Node.js 22+ 与 GitHub CLI。</p>
+  <ol class="steps">
+    <li><strong>确认 Codex 和 GitHub CLI 已登录</strong><pre><code>codex login
+gh auth login</code></pre></li>
+    <li><strong>下载本站仓库并启动探针</strong><div class="code-wrap"><pre><code id="command">git clone --depth 1 https://github.com/DHLSPACE/dhlspace.github.io.git
+cd dhlspace.github.io
+node public/si/probe.mjs --publish</code></pre><button class="copy-button" id="copy">复制</button></div><p class="hint">保持终端运行；每 5 分钟上传到本站独立的 si-data 分支。停止采集按 Ctrl+C。使用 API Key 的账户可能没有订阅额度窗口。</p></li>
+    <li><strong>回来查看，无需在网页填任何令牌</strong><p class="hint">需要本站仓库的写入权限。上传的额度百分比、套餐、时间及历史会公开；不会上传邮箱、账号 ID、密钥或对话。</p></li>
+  </ol>
+  <details class="advanced"><summary>本地查看 / 自定义数据源</summary>
+    <p class="hint">仅采集到本地：<code>node public/si/probe.mjs --once</code>，然后导入生成的 <code>.si/status.json</code>。不会上传内容。</p>
+    <label class="field-label" for="source">公开 HTTPS 快照地址</label><div class="source-form"><input id="source" type="url" placeholder="https://…/status.json" autocomplete="off"><button class="button secondary" id="save-source">保存</button></div>
+    <p class="hint">需支持跨域读取；地址只保存在此浏览器。不要填含有令牌的地址。</p>
+    <div class="import-actions"><label class="button secondary file-button">导入本地快照<input id="import-file" type="file" accept="application/json,.json"></label><button class="text-button" id="reset-source">恢复本站数据源</button></div>
+  </details>
+  <p id="setup-feedback" role="status" class="hint"></p>
+  <a class="readme-link" href="https://github.com/DHLSPACE/dhlspace.github.io/blob/main/public/si/README.md" target="_blank" rel="noopener noreferrer">完整文档、开机启动和故障排查 ↗</a>
+</dialog>
+<script type="module" src="./app.mjs"></script>
+</body>
+</html>
