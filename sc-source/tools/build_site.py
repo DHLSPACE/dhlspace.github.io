@@ -122,6 +122,10 @@ def main():
     (OUT / 'assets').mkdir(exist_ok=True)
     for name in ['index.html', 'styles.css', 'app.js', 'favicon.svg', 'network-graph.js', 'network-graph.css']:
         shutil.copyfile(PROJECT / 'src' / name, OUT / name)
+    # Preserve independently maintained lab modules in every build.
+    lab_module = PROJECT / 'modules' / 'bimetallic'
+    if lab_module.is_dir():
+        shutil.copytree(lab_module, OUT / 'lab' / 'bimetallic', dirs_exist_ok=True, ignore=shutil.ignore_patterns('README.md'))
     if '--frontend-only' in sys.argv:
         snapshot = json.loads((OUT / 'downloads/research-data.json').read_text('utf-8'))
         finish_frontend(snapshot['counts']['uniquePapers'])
@@ -206,3 +210,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

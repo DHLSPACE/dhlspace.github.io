@@ -79,3 +79,13 @@ node sc-source/tools/smoke_ui.cjs
 `tools/deng_adapter.py` 将既有8张CSV与 `dengqiang/report_body.html` 适配为统一网站数据，保留2026-10-20原核验日期、101条论文和13条排名第一记录。全部内容仍来自原档，未声称重新检索或完成个人全集。原档5条官方代表作映射A；51条Crossref作者ORCID及单位/合作链支持映射B；9条仅Crossref单位支持与36条OpenAlex单位/合作链支持保守映射C。每条原始归属说明保留。
 
 网页的五篇起步阅读由原有阅读线索收敛为综述、2015酸催化、2021 Co–N、2022 MAX与2025开放代表作；原主表的完整阅读建议仍可下载。原报告中实验方法、个人贡献限制、任职日期差异与导师待核事项完整保留。邓强人物介绍提供HTML下载，其余三位沿用Markdown。所有人物间共同DOI由四份清单重新计算，界面人数、阅读数量、数据表数按实际数据生成。
+
+
+
+## 双金属实验学习模块（2026-10-28）
+
+新增独立入口 `/sc/lab/bimetallic/`，源文件位于 `sc-source/modules/bimetallic/`，发布副本位于 `public/sc/lab/bimetallic/`。学习模块通过无 `allow-same-origin` 的沙箱 iframe 与 SC 人物文库隔离，使用独立存储命名空间与限制网络请求的 CSP。隔离不等于保密：仓库与网站仍为公开；个人笔记只通过下载导出，不提交仓库。
+
+保留原指南知识内容，新增用户提供的 PdCl₂/Co(NO₃)₂·6H₂O/SiO₂ 准备与加料记录、约2:1名义金属原子比及两种质量百分数基准。未加入未知后处理、反应条件或结果。公开版省略未核实的研究生履历。
+
+仅更新模块时执行 `python3 sc-source/tools/sync_lab_module.py`。完整或 `--frontend-only` 构建也会复制该模块，不依赖人物数据重建。已有 Pages workflow 自动发布整个 `public/sc/`，不需要改动部署流程。

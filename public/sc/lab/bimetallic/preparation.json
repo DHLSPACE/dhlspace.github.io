@@ -1,0 +1,63 @@
+{
+  "recorded_at": "2026-10-28",
+  "experiment_date": null,
+  "title": "Pd–Co/SiO2 前驱体制备：溶解与顺序滴加",
+  "stage": "仅记录至先加 Co 溶液、再加 Pd 溶液；未提供后续处理",
+  "user_record": "准备工作：\nSiO2 1.000 g （放入有搅拌子的烧杯，待用）\nPdCl2 0.0500 g +15ml水+2-3滴盐酸，将混合液超声至PdCl2溶解\nCo(NO3)2·6H2O 0.0410 g+20ml水\n将两个混合溶液逐滴加入含sio2的烧杯（先滴加co的混合液再加pd）",
+  "inputs": {
+    "SiO2_g": 1.0,
+    "PdCl2_g": 0.05,
+    "Pd_water_mL": 15,
+    "HCl_drops": "2–3",
+    "HCl_concentration": null,
+    "Co_NO3_2_6H2O_g": 0.041,
+    "Co_water_mL": 20
+  },
+  "addition_order": [
+    "Co(NO3)2·6H2O 水溶液",
+    "PdCl2 水/盐酸溶液"
+  ],
+  "pending": [
+    "SiO2等级与预处理",
+    "盐酸浓度与实际加入体积",
+    "超声时长与温度",
+    "滴加速率与搅拌条件",
+    "后续老化、干燥、焙烧、还原等是否进行及各自SOP",
+    "反应底物、产物和分析方法",
+    "实际负载量、物相与活性位结构"
+  ],
+  "calculation_assumptions": [
+    "PdCl2按无水化学式计算",
+    "Co(NO3)2·6H2O按六水合物计算",
+    "试剂按100%纯度近似；实际按批次COA修正",
+    "名义投料不代表实际负载量、合金组成或还原率"
+  ],
+  "molar_masses_g_per_mol": {
+    "Pd": 106.42,
+    "Co": 58.933,
+    "PdCl2": 177.32,
+    "Co_NO3_2_6H2O": 291.03
+  },
+  "sources": [
+    "https://ciaaw.org/abridged-atomic-weights.htm",
+    "https://pubchem.ncbi.nlm.nih.gov/compound/24821",
+    "https://www.sigmaaldrich.com/US/en/product/aldrich/283606"
+  ],
+  "calculated": {
+    "Pd_mmol": 0.28197608842770133,
+    "Co_mmol": 0.14087894718757518,
+    "Pd_to_Co_atomic_ratio": 2.0015488052466806,
+    "Pd_mg": 30.007895330475975,
+    "Co_mg": 8.30241899460537,
+    "support_basis_percent": {
+      "Pd": 3.0007895330475978,
+      "Co": 0.830241899460537,
+      "total_metals": 3.831031432508135
+    },
+    "ideal_metal_plus_support_basis_percent": {
+      "Pd": 2.890070041342274,
+      "Co": 0.7996086410835741,
+      "total_metals": 3.6896786824258485
+    }
+  }
+}
