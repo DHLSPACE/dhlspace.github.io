@@ -28,6 +28,7 @@ jobs:
           cp -R html-2d-svg-subagent _site/
           cp -R public/sch-doc _site/sch-doc
           cp -R public/sc _site/sc
+          cp -R Bks _site/Bks
           cp -R date-invite _site/date-invite
           cp -R public/legacy-assets _site/legacy-assets
           cp public/favicon.svg _site/favicon.svg
