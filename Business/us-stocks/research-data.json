@@ -1,0 +1,504 @@
+{
+  "title": "Neverless、Firstrade、嘉信与美股资金线路",
+  "checked": "2026-11-04",
+  "reference_fx": {
+    "date": "2026-11-03",
+    "base": "EUR",
+    "USD": 1.1179,
+    "GBP": 0.83358,
+    "CNY": 7.459,
+    "HKD": 8.771,
+    "SGD": 1.4322,
+    "AUD": 1.6007
+  },
+  "sources": [
+    {
+      "id": "01",
+      "title": "Neverless — 国际版客户协议",
+      "url": "https://neverless.com/legal/terms",
+      "scope": "主体、地区限制、股票衍生合约、法币转 EMT",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "02",
+      "title": "Neverless — EEA 客户协议（2026-10-09）",
+      "url": "https://neverless.com/es-eea/legal/terms",
+      "scope": "欧洲版主体与股份权益；地区版本不可混用",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "03",
+      "title": "Latvijas Banka — Boku Securities SIA",
+      "url": "https://www.bank.lv/en/financial-market-participant-register/market-participants/boku-securities-sia",
+      "scope": "证券投资服务许可证与注册号",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "04",
+      "title": "Latvijas Banka — Neverless SIA",
+      "url": "https://www.bank.lv/en/financial-market-participant-register/market-participants/neverless-sia",
+      "scope": "MiCA 加密服务及支付机构许可",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "05",
+      "title": "Neverless — EEA 投资者保护制度",
+      "url": "https://neverless.com/es-eea/legal/general_information_on_the_investor_protection_system",
+      "scope": "Boku 符合条件的投资者赔偿，最高 20,000 欧元",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "06",
+      "title": "Neverless — 股票产品介绍",
+      "url": "https://neverless.com/stocks",
+      "scope": "营销说明、底层股份与交易时段",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "07",
+      "title": "Neverless — 国际版费用",
+      "url": "https://neverless.com/pricing",
+      "scope": "零显性交易费、Apple Pay、币种及其他费用",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "08",
+      "title": "Neverless — EEA 费用",
+      "url": "https://neverless.com/es-eea/pricing",
+      "scope": "地区版费用及欧元门槛",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "09",
+      "title": "Neverless — 英国入口",
+      "url": "https://neverless.com/en-gb",
+      "scope": "尚未正式推出、候补名单",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "10",
+      "title": "Neverless — 官方下载",
+      "url": "https://neverless.com/download",
+      "scope": "移动端及 macOS；未确认 Windows 原生端",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "11",
+      "title": "Firstrade — 国际开户资格（2026-05-07）",
+      "url": "https://help.firstrade.info/en/articles/9268315-can-i-open-an-international-account",
+      "scope": "27 个居住地、个人账户、证件、零最低存款",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "12",
+      "title": "FINRA BrokerCheck — Firstrade Securities",
+      "url": "https://brokercheck.finra.org/firm/summary/16843",
+      "scope": "CRD 16843、主体背景和披露查询",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "13",
+      "title": "Firstrade — 账户保护",
+      "url": "https://www.firstrade.com/support/security-center/account-protection",
+      "scope": "Firstrade、Apex 与 SIPC 关系",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "14",
+      "title": "Firstrade — 交易费用",
+      "url": "https://www.firstrade.com/trading/pricing",
+      "scope": "股票、ETF、期权及监管相关收费",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "15",
+      "title": "Firstrade — 特别服务费用",
+      "url": "https://www.firstrade.com/trading/pricing/special-services",
+      "scope": "ACH、电汇、ACAT、ADR",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "16",
+      "title": "Firstrade — 国际电汇指引",
+      "url": "https://help.firstrade.info/en/articles/9253216-international-wire-instructions",
+      "scope": "同名、FFC、USD、拒收金融科技平台电汇",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "17",
+      "title": "Firstrade — Wise 的 ACH 绑定专页",
+      "url": "https://help.firstrade.info/en/articles/10223598-how-do-i-link-a-wise-account-for-ach-transfer",
+      "scope": "官方存在 Wise 经 Plaid 绑定 USD 的流程；页面日期 2024-12-02",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "18",
+      "title": "Firstrade — 通用 ACH 绑定（2026-06-08）",
+      "url": "https://help.firstrade.info/en/articles/9253196-how-do-i-link-a-bank-account-for-an-ach-transfer",
+      "scope": "美国银行账户、姓名、绑定与服务限制",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "19",
+      "title": "Firstrade — 当前资金页面",
+      "url": "https://www.firstrade.com/support/funding",
+      "scope": "现行入金方式与限制",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "20",
+      "title": "Firstrade — 旧站资金页（冲突证据）",
+      "url": "https://www-origin.firstrade.com/content/en-us/customerservice/fundaccount",
+      "scope": "旧域名曾把 Wise 列入排除项；不能忽略版本差异",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "21",
+      "title": "Firstrade — 融资利率",
+      "url": "https://www.firstrade.com/trading/margin-loans",
+      "scope": "浮动融资成本；小额档不是免费资金",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "22",
+      "title": "Firstrade — 移动交易入门",
+      "url": "https://help.firstrade.info/en/articles/15771131-getting-started-with-mobile-trading",
+      "scope": "iPhone 与官方应用入口",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "23",
+      "title": "FINRA — Charles Schwab & Co. 公司报告",
+      "url": "https://files.brokercheck.finra.org/firm/firm_5393.pdf",
+      "scope": "CRD 5393、证券经纪主体及披露",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "24",
+      "title": "Schwab — 国际账户开户入口",
+      "url": "https://international.schwab.com/open-account-intro",
+      "scope": "真实居住地、各地证件与动态开户审核",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "25",
+      "title": "Schwab — 个人投资者定价指南",
+      "url": "https://www.schwab.com/legal/schwab-pricing-guide-for-individual-investors",
+      "scope": "账户类别、普通账户 FX 最高 3%、电汇、转仓",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "26",
+      "title": "Schwab International — 交易费用",
+      "url": "https://international.schwab.com/trading",
+      "scope": "在线美国上市股票零佣金及期权每张 0.65 美元",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "27",
+      "title": "Schwab International — 入金指南",
+      "url": "https://international.schwab.com/content/how-to-fund-your-account",
+      "scope": "USD 电汇、收款银行、券商归集及最终受益账户",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "28",
+      "title": "Schwab International — 交易平台",
+      "url": "https://international.schwab.com/online-trading-platforms",
+      "scope": "网页、Schwab Mobile、thinkorswim",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "29",
+      "title": "Schwab — 英国网站",
+      "url": "https://www.schwab.co.uk/",
+      "scope": "英国专属业务入口；美国账户与当地服务应分别识别",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "30",
+      "title": "Schwab — 香港网站",
+      "url": "https://www.schwab.com.hk/",
+      "scope": "香港业务入口与本地披露",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "31",
+      "title": "Schwab — 新加坡网站",
+      "url": "https://www.schwab.com.sg/",
+      "scope": "仅向符合条件的认可投资者提供相关服务",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "32",
+      "title": "SIPC — 保护什么",
+      "url": "https://www.sipc.org/for-investors/what-sipc-protects",
+      "scope": "50 万美元含现金 25 万；非市场保本；非美国居民也可受保护",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "33",
+      "title": "SEC — Section 31 费率公告 2026-2",
+      "url": "https://www.sec.gov/rules-regulations/fee-rate-advisories/2026-2",
+      "scope": "2026-04-04 起每百万美元 20.60 美元",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "34",
+      "title": "Federal Register — FINRA 2026 年第四季 TAF 暂停",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-23/html/2026-19392.htm",
+      "scope": "2026-10-01 至 12-31 会员 TAF 费率暂为零",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "35",
+      "title": "ECB — 外汇参考汇率",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "scope": "读取时最新日期为 2026-11-03；参考值并非成交价",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "36",
+      "title": "Wise — USD 账户资料资格",
+      "url": "https://wise.com/help/articles/2810318/can-i-get-usd-account-details",
+      "scope": "账户所在地区与实际已启用功能",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "37",
+      "title": "Wise — USD 收款方式及费用",
+      "url": "https://wise.com/help/articles/2827506/how-do-i-receive-money-with-my-usd-account-details",
+      "scope": "ACH 收款与 wire/SWIFT 收款不同；后者 6.11 美元",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "38",
+      "title": "Wise — 不兼容账户与支付",
+      "url": "https://wise.com/help/articles/2932118/incompatible-accounts-and-payments",
+      "scope": "加密平台支付限制；不可当作任意加密出入金桥",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "39",
+      "title": "Wise — CNY 汇款指南",
+      "url": "https://wise.com/help/articles/2955298/guide-to-cny-transfers",
+      "scope": "人民币汇出资格与工作、纳税条件；不等于大陆居民自由购汇通道",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "40",
+      "title": "iFAST Global Bank — 费用表",
+      "url": "https://www.ifastgb.com/en/fees",
+      "scope": "GBP FPS、EUR SEPA、USD SWIFT 与换汇情境",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "41",
+      "title": "SAFE 天津 — 个人外汇问答（2026-07-06）",
+      "url": "https://www.safe.gov.cn/tianjin/2026/0706/3085.html",
+      "scope": "每年等值 5 万美元便利化额度与真实用途",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "42",
+      "title": "SAFE 上海 — 个人购汇用途说明",
+      "url": "https://www.safe.gov.cn/shanghai/2019/1213/1198.html",
+      "scope": "个人购付汇不得用于境外证券投资等未开放资本项目；旧文需与现行规定一起读",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "43",
+      "title": "政府转载 — 银发〔2026〕42 号",
+      "url": "https://www.szns.gov.cn/ztzl/ffjzxsjb/zcfg/content/post_12958317.html",
+      "scope": "2026 年虚拟货币及现实世界资产代币化相关风险政策",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "44",
+      "title": "IRS — 中美所得税协定文本",
+      "url": "https://www.irs.gov/pub/irs-trty/china.pdf",
+      "scope": "股息条款及协定资格；不能只按国籍套用",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "45",
+      "title": "IRS — Publication 901",
+      "url": "https://www.irs.gov/publications/p901",
+      "scope": "美国税收协定摘要；中国协定地域适用差异",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "46",
+      "title": "个人经验：Wise / Firstrade 线路（2026-09）",
+      "url": "https://note.com/daradarabiyori/n/ne6a984cd6434?hl=en",
+      "scope": "社区案例，仅说明个人曾尝试，不能证明当前普遍可用",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "47",
+      "title": "Reddit：Schwab International 欧元入金讨论（2026-01）",
+      "url": "https://www.reddit.com/r/Schwab/comments/1qooy74/deposit_euros_directly_on_schwab_international/",
+      "scope": "社区案例，不可替代正式报价与开户资格",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "48",
+      "title": "Schwab — 外币电汇路由说明",
+      "url": "https://client.schwab.com/public/file/SERVICE-FORMS-ROUTING-AU-DI-FOREIGNCURRENCY",
+      "scope": "普通 USD 账户外币自动兑换；须以登录后版本为准",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "49",
+      "title": "Schwab — Schwab Global Account 市场及定价",
+      "url": "https://www.schwab.com/resource/global-account-markets-and-pricing",
+      "scope": "独立产品的换汇阶梯，不能直接套到普通国际账户",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "50",
+      "title": "Neverless — EEA 风险披露",
+      "url": "https://neverless.com/es-eea/legal/risk-disclosure",
+      "scope": "金融工具、加密资产与市场风险",
+      "checked": "2026-11-04"
+    },
+    {
+      "id": "51",
+      "title": "SEC — T+1 结算问答",
+      "url": "https://www.sec.gov/exams/educationhelpguidesfaqs/t1-faq",
+      "scope": "多数相关证券的 T+1 结算及例外；可提现还受其他限制",
+      "checked": "2026-11-04"
+    }
+  ],
+  "routes": [
+    {
+      "id": "R1",
+      "name": "已有同名 iFAST USD → Firstrade",
+      "status": "supported",
+      "label": "官方通道已描述；账户级审核",
+      "chain": "iFAST 同名 USD 余额 → USD SWIFT → Apex 指定收款银行归集账户 → FFC 到 Firstrade 证券账户 → 买入证券",
+      "checks": "从 Firstrade 登录后取得国际 wire 指示；汇出人姓名匹配，填收款对象、账号、SWIFT 及最终入账姓名和券商账号。本文不保存银行账号模板。",
+      "cost": "iFAST 同币种 USD outward SWIFT 标准费 18 美元；Firstrade 入账费 0；中间行及汇出费用实际扣法另计。",
+      "risk": "SWIFT 可能有多家中间行；FFC 缺失可造成延迟或退回。银行有跨境付款功能，不代表每一笔券商用途都会获准。",
+      "refs": [
+        "16",
+        "40"
+      ]
+    },
+    {
+      "id": "R2",
+      "name": "已有同名 iFAST USD → 嘉信",
+      "status": "supported",
+      "label": "官方通道已描述；账户级审核",
+      "chain": "iFAST 同名 USD → USD SWIFT → 嘉信指定银行 / 嘉信归集账户 → FFC 到个人证券账户 → 买入证券",
+      "checks": "使用国际账户登录后的 wire 指示及自己的账号；核对券商收款人和最终个人受益账户不是同一个字段。",
+      "cost": "已知 iFAST 标准费 18 美元；嘉信一般 incoming wire 0；中间行扣款未知。",
+      "risk": "不同货币、银行和账号版本可能不同；不能把网上旧账号当永久有效说明。",
+      "refs": [
+        "27",
+        "25",
+        "40"
+      ]
+    },
+    {
+      "id": "R3",
+      "name": "已启用 Wise USD → Firstrade ACH",
+      "status": "conditional",
+      "label": "有官方专页；需确认你的账户可绑定",
+      "chain": "同名 Wise 已启用的 USD 本地资料 → Firstrade 内银行绑定 / Plaid → ACH 授权扣款 → Firstrade USD 余额 → 买入证券",
+      "checks": "确认 Wise 对你的真实居住地开放 USD 本地资料与相应扣款能力；只在官方应用的合规授权流程连接；确认 Firstrade 当前界面可选 Wise。小额验证及持有期按提示处理。",
+      "cost": "Firstrade ACH 标准费 0；不据此推定 Wise 的所有付款、换汇或绑定收费为零；有换汇时另计报价。",
+      "risk": "专页日期为 2024-12-02；旧站排除 Wise、当前通用页和专页并存，因此不能保证所有客户成功。ACH 与 USD wire 不是一条线路。",
+      "refs": [
+        "17",
+        "18",
+        "19",
+        "20",
+        "36"
+      ]
+    },
+    {
+      "id": "R4",
+      "name": "Wise → Firstrade 国际 wire",
+      "status": "blocked",
+      "label": "官方电汇规则不接受",
+      "chain": "Wise 汇款 → Firstrade / Apex 国际电汇收款端：不要按可用线路实施",
+      "checks": "即便 Wise 技术上允许填写该收款人，收款券商仍可拒绝。不要把收款机构改名、隐瞒资金来源或改用第三人规避。",
+      "cost": "可能产生汇出、退汇和中间行成本。",
+      "risk": "官方明确拒收相关金融科技平台电汇；R3 的 ACH 专页不适用于本路线。",
+      "refs": [
+        "16",
+        "17"
+      ]
+    },
+    {
+      "id": "R5",
+      "name": "iFAST GBP → Wise GBP → USD → Firstrade ACH",
+      "status": "conditional",
+      "label": "分段研究可行性；组合未获统一保证",
+      "chain": "同名 iFAST GBP → GBP FPS → 同名 Wise GBP → Wise 换 USD → R3 的 ACH → Firstrade",
+      "checks": "分别验证 iFAST 的 FPS、Wise GBP 接收、换汇和 USD 功能、Firstrade Wise ACH 绑定与用途。每段都通过才能组成路线。",
+      "cost": "iFAST GBP 本地转账标准费 0；Wise 换汇及付款报价另计；Firstrade ACH 0。要与 iFAST 直接换汇后汇出比较净到账。",
+      "risk": "多一次托管与审核；GBP 余额、费表、账户名字与币种选择都可能改变结果。",
+      "refs": [
+        "40",
+        "36",
+        "17"
+      ]
+    },
+    {
+      "id": "R6",
+      "name": "Wise USD → 嘉信 ACH / wire",
+      "status": "conditional",
+      "label": "没有对所有国际客户通用的 Wise 专属保证",
+      "chain": "同名 Wise USD → 嘉信允许的外部账户绑定或有效入金指示 → 嘉信个人账户",
+      "checks": "让嘉信确认你的账户版本接受的 ACH push / pull 或支付机构发起 wire；让 Wise 确认收款对象。不要把某个社区用户成功当作自己的入金批准。",
+      "cost": "ACH 与 wire 分别报价；若先用 USD SWIFT 注入 Wise，Wise 接收该类付款通常另收 6.11 美元。",
+      "risk": "收款来源显示方式、同名判断、退回、持有期和账号变更；资料不足时，优先研究已明确描述的银行 wire。",
+      "refs": [
+        "27",
+        "37",
+        "47"
+      ]
+    },
+    {
+      "id": "R7",
+      "name": "加密平台 → Neverless → 股票敞口",
+      "status": "unknown",
+      "label": "只作合资格地区的产品结构说明；非大陆默认方案",
+      "chain": "允许服务你居住地的加密平台 → 支持链和代币转账 → Neverless → 兑换 / 下单 → 地区协议对应的金融工具",
+      "checks": "先查所有主体与居住地准入；再查资产、网络、地址、最低额、Travel Rule 和资金来源。国际版最终为股票衍生合约，EEA 另看 Boku。",
+      "cost": "原平台提币费、网络 gas、代币换汇或交易价差、可能的支付费与出金费；0 平台入金费不覆盖这些。",
+      "risk": "错链、脱锚、冻结、对手方与地区合规。Wise 有加密支付限制，不能任意插入本链。",
+      "refs": [
+        "01",
+        "02",
+        "38",
+        "43"
+      ]
+    },
+    {
+      "id": "R8",
+      "name": "Firstrade ↔ 嘉信：证券转仓",
+      "status": "conditional",
+      "label": "接受相同资产且账户匹配时研究 ACATS",
+      "chain": "原券商可转证券 / 现金 → 在接收券商发起 ACATS → 原券商释放 → 接收券商持仓",
+      "checks": "账户所有人和类型、资产可接收性、待结算订单、借款与可付转出费；碎股及某些证券可能需出售或另处理。",
+      "cost": "Firstrade 全转 75 / 部分 55；嘉信全转 50 / 部分 0，按实际方向及减免核实。",
+      "risk": "股票头寸转移不等于从银行汇钱；Neverless 国际版合约不可用此方法转成 Firstrade 原股。",
+      "refs": [
+        "15",
+        "25",
+        "01"
+      ]
+    }
+  ],
+  "scope": "现金证券入门研究；明确区分地区协议、金融工具、准入和支付通道",
+  "unknowns": [
+    "Neverless 大陆等非 EEA 地区正面准入",
+    "Neverless 国际版底层证券经纪商及保护穿透",
+    "Neverless USD wire 与 Windows 端",
+    "嘉信完整国际国家清单及 Wise 账户级接受性",
+    "个人实时 FX、税务与付款批准"
+  ]
+}
