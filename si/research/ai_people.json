@@ -1,0 +1,149 @@
+{
+  "as_of": "2026-11-05",
+  "title": "AI 公司公开人员、职能与流动快照",
+  "scope_note": "以下为公开任命、领导页与招聘页面可证明的职能地图，不是完整员工名单或内部汇报组织图。任命公告不一定等于已经到岗；没有公开人数的部门不估算人数。",
+  "case": {
+    "person": "Cat Wu",
+    "from": "Anthropic，Claude Code 产品管理",
+    "to": "OpenAI，核心产品的产品管理",
+    "announcement_date": "2026-11-05",
+    "status": "用户提供的一手截图显示本人宣布将加入 OpenAI；当日媒体报道交叉印证；原 X 页面抓取 403",
+    "evidence": ["user_screenshot", "S01", "S02", "S03"],
+    "limits": "不能从入职公告推断其工作州、是否签订竞业协议、是否被豁免、是否有花园假或具体离职/到岗日期。截图中的‘将加入’也不证明次日已上班。",
+    "lesson": "Cat 是产品管理负责人；Boris Cherny 是技术建设者。PM 迁移涉及产品方向、用户需求、商业化与协调能力，并不等于搬走模型权重或公司代码。"
+  },
+  "openai": {
+    "governance": "OpenAI Foundation 控制 OpenAI Group PBC；董事会治理与员工管理层是不同层次。",
+    "source": "S04",
+    "people": [
+      {"name":"Sam Altman","role":"CEO","evidence":["S04","S05"],"status":"公开在任"},
+      {"name":"Greg Brockman","role":"Co-Founder & President","evidence":["S06","S11"],"status":"公开在任"},
+      {"name":"Jakub Pachocki","role":"Chief Scientist","evidence":["S07","S08"],"status":"公开在任"},
+      {"name":"Mark Chen","role":"Chief Research Officer","evidence":["S09","S10"],"status":"公开在任"},
+      {"name":"Fidji Simo","role":"CEO of Applications","evidence":["S05","S12"],"status":"公开在任"},
+      {"name":"Vijaye Raji","role":"CTO of Applications","evidence":["S13"],"status":"2025 年公告任命；本次未找到后续变动公告"},
+      {"name":"Sarah Friar","role":"CFO","evidence":["S14","S15"],"status":"2026 年官方活动确认"},
+      {"name":"Arvind KC","role":"Chief People Officer","evidence":["S12"],"status":"2026-02-24 任命；替代旧资料中的 Julia Villagra"},
+      {"name":"Dali Rajic","role":"Chief Revenue Officer","evidence":["S11"],"status":"2026-08-13 宣布加入；接替 Denise Dresser"},
+      {"name":"Chris Lehane","role":"Chief Global Affairs Officer","evidence":["S16"],"status":"2026-09-09 官方署名确认；不可据旧资料继续认定兼任传播负责人"},
+      {"name":"Jill Hazelbaker","role":"Chief Corporate Affairs Officer","evidence":["S06"],"status":"2026-11-03 宣布将加入；具体到岗日未披露"},
+      {"name":"Thibault ‘Tibo’ Sottiaux","role":"Head of Codex / Member of Technical Staff","evidence":["S17"],"status":"2026 年官方活动资料确认；最新核心产品汇报线仅媒体报道"},
+      {"name":"Nick Turley","role":"VP & Head of ChatGPT（公告所载职衔）","evidence":["S18"],"status":"2025 年官方公告；2026 年媒体报道涉及职责调整，不能把历史职衔当完整现行汇报线"},
+      {"name":"Cat Wu","role":"核心产品产品管理负责人","evidence":["user_screenshot","S01"],"status":"2026-11-05 宣布将加入"}
+    ],
+    "historical_corrections": [
+      {"name":"Brad Lightcap","correction":"2025 年 COO 公告不能用作当前名单。2026-08-11 Axios 报道离开公司；该新闻仅用于提示过期，不据此补造接任 COO。","evidence":["S19"]},
+      {"name":"Kevin Weil","correction":"2024 年 CPO 任命属于历史记录。2026 年官方活动页面称 VP, OpenAI for Science。","evidence":["S14","S20"]},
+      {"name":"Julia Villagra","correction":"2025 年 Chief People Officer 任命已被 2026 年 Arvind KC 任命更新。","evidence":["S09","S12"]}
+    ]
+  },
+  "anthropic": {
+    "governance": "Anthropic PBC 的股东与 Long-Term Benefit Trust 参与董事选举；治理安排不等同于部门负责人名单。",
+    "source": "S21",
+    "leadership_source": "S22",
+    "people": [
+      {"name":"Dario Amodei","role":"Co-Founder & CEO"},
+      {"name":"Daniela Amodei","role":"Co-Founder & President"},
+      {"name":"Tom Brown","role":"Co-Founder & Chief Compute Officer"},
+      {"name":"Jack Clark","role":"Co-Founder & Head of Public Benefit"},
+      {"name":"Jared Kaplan","role":"Co-Founder & Chief Science Officer"},
+      {"name":"Sam McCandlish","role":"Co-Founder & Chief Architect"},
+      {"name":"Chris Olah","role":"Co-Founder & Interpretability Research Lead"},
+      {"name":"Mariano-Florentino ‘Tino’ Cuéllar","role":"Chief Global Affairs Officer"},
+      {"name":"Sasha de Marigny","role":"Chief Brand and Communications Officer"},
+      {"name":"Brian Israel","role":"Chief Legal Officer"},
+      {"name":"Rahul Patil","role":"CTO"},
+      {"name":"Hannah Pritchett","role":"Chief People Officer"},
+      {"name":"Krishna Rao","role":"CFO"},
+      {"name":"Paul Smith","role":"Chief Commercial Officer"},
+      {"name":"Ami Vora","role":"Chief Product Officer"}
+    ],
+    "other_public_roles": [
+      {"name":"Mike Krieger","role":"Labs，与 Ben Mann 共建实验性产品","evidence":["S23"],"note":"2024 CPO 职衔为历史；2026-01-13 公告已调整"},
+      {"name":"Jan Leike","role":"仍在 Anthropic 开展新项目；前 Alignment 团队负责人","evidence":["S24"],"note":"本人网页称至 2026 年初领导 Alignment；不可继续写为现任该团队负责人"},
+      {"name":"Boris Cherny","role":"Member of Technical Staff / Claude Code 建设者（活动所载）","evidence":["S03"],"note":"只保留官方活动页面可证明的历史身份，不据此认定现行职级"}
+    ]
+  },
+  "function_map": [
+    {"function":"预训练 Pretraining","work":"以大规模数据训练基础模型；研究数据、训练稳定性、算力效率。","evidence":["S25","S26"],"note":"研究员设计方法，研究工程师将方法变成可靠的大规模实验；边界常重叠。"},
+    {"function":"后训练 Post-training / RL","work":"通过微调、反馈与强化学习改善推理、指令遵循和工具使用。","evidence":["S25","S26"],"note":"不是产品经理调整几个提示词即可替代的独立研究与工程体系。"},
+    {"function":"对齐、可解释性与评估 Alignment / Interpretability / Evals","work":"研究行为是否符合目标、模型内部机制和能力风险；与产品安全有交叉。","evidence":["S24","S26"],"note":"不要把所有安全工作合并成一个部门；理论对齐、滥用防护、网络安全是不同问题。"},
+    {"function":"算力、训练与推理基础设施 Compute / Infrastructure / Inference","work":"数据中心、加速器、网络、分布式训练和在线服务可靠性。","evidence":["S27","S26"],"note":"AI 公司同时需要电力、机械、电气、建设等工程人才；与化工背景的过程系统思维也存在交集。"},
+    {"function":"产品管理、设计与产品工程 Product Management / Design / Engineering","work":"PM 确定用户与问题、优先级和成功指标；设计负责交互；工程负责落地。","evidence":["S05","S13","S23"],"note":"三类角色协作；Head of Product、CPO 与具体产品 PM 不在同一层级。"},
+    {"function":"销售与商业化 Sales / Go-to-market","work":"客户获取、企业合同、渠道伙伴与行业落地。","evidence":["S11","S22","S26"],"note":"收入负责人、销售和客户成功不等于基础模型研究。"},
+    {"function":"技术成功、客户成功与支持 Technical Success / Customer Success / Support","work":"部署集成与技术建议；推动客户持续获得价值；排查账户、产品与 API 问题。","evidence":["S28","S26"],"note":"用户说的‘服务部’可以分别对应这三类，不能只画一个客服框。"},
+    {"function":"政策、法务、安全与公司运营 Policy / Legal / Security / Operations","work":"监管沟通、合同与知识产权、组织安全、财务、人力和招聘。","evidence":["S06","S12","S16","S21","S22"],"note":"董事会、法务和政策团队职责不同，不能互相替代。"}
+  ],
+  "product_map": [
+    {"company":"OpenAI","entry":"ChatGPT；Business / Enterprise / Education；Codex；API Platform","reader_note":"终端应用、组织套餐和开发者 API 是不同交付方式；产品清单会更新，长期知识库保留入口链接而不固化易过期型号。","evidence":["S04","S25"]},
+    {"company":"Anthropic","entry":"Claude 应用；Claude Code；Claude Platform/API；Cowork 等代理体验；MCP/Skills 生态","reader_note":"MCP 是连接模型与工具/数据的协议，不是一种模型；Labs 孵化实验产品，Product 负责扩展成熟体验。","evidence":["S21","S23","S26"]}
+  ],
+  "movement_timeline": [
+    {"date":"2021","person":"Dario / Daniela Amodei 等联合创始团队","from":"OpenAI 背景研究与运营团队","to":"创办 Anthropic","kind":"创业分流","evidence":["S29","S30"],"confidence":"高；成立年份与创始名单官方可核，离开动机不以传闻定论"},
+    {"date":"2024-03-19","person":"Mustafa Suleyman、Karén Simonyan 与部分 Inflection 团队","from":"Inflection","to":"Microsoft AI","kind":"团队招聘并伴随商业安排","evidence":["S31"],"confidence":"高；微软官方公告"},
+    {"date":"2024-05-14 / 2024-06","person":"Ilya Sutskever","from":"OpenAI Chief Scientist","to":"创办 Safe Superintelligence (SSI)","kind":"创业分流","evidence":["S07","S32","S33"],"confidence":"高；离职与 SSI 身份官方证据；成立日不在此填精确日"},
+    {"date":"2024-05","person":"Jan Leike","from":"OpenAI Superalignment","to":"Anthropic","kind":"研究转职","evidence":["S24","S34"],"confidence":"高；本人现行履历确认先后关系，2024-05-28 宣布日由当时报导交叉印证"},
+    {"date":"2024-08 / 2025-02","person":"John Schulman","from":"OpenAI → Anthropic","to":"Thinking Machines Lab","kind":"连续研究转职","evidence":["S35","S36","S37"],"confidence":"高；X 公告镜像与当时公司回应报道、TML 官方署名论文互证；不能说至今仍在 Anthropic"},
+    {"date":"2024-08-02","person":"Noam Shazeer、Daniel De Freitas 及部分研究团队","from":"Character.AI","to":"Google","kind":"人才加入 + 非独家技术许可","evidence":["S38"],"confidence":"高；Reuters 转述公司公告，当前未取得可读取的一手公告；不可写成 Google 全资收购 Character.AI"},
+    {"date":"2025-02","person":"Mira Murati 与研究工程团队","from":"OpenAI 等背景","to":"Thinking Machines Lab","kind":"创业分流","evidence":["S39","S40"],"confidence":"高；公司 2026 年公告确认 Mira 为 cofounder & CEO；成立月由当时报道交叉印证"},
+    {"date":"2025-06-12","person":"Alexandr Wang","from":"Scale AI","to":"Meta","kind":"人才加入 + 少数股权投资","evidence":["S41"],"confidence":"高；Scale 官方公告；Scale 宣称继续独立，不能写成 Meta 全资收购"},
+    {"date":"2026-11-05","person":"Cat Wu","from":"Anthropic","to":"OpenAI","kind":"产品负责人转职","evidence":["user_screenshot","S01","S03"],"confidence":"本人截图与当日媒体互证；公开私有合同与具体到岗日未知"}
+  ],
+  "interpretation": [
+    "个人转职、创业、团队招聘、技术许可与股权收购是不同交易；看到几名创始人加入另一家公司，不足以推出整家公司已被收购。",
+    "人才流动可传播一般经验、研究品味和组织方法；特定训练数据、模型权重、源代码、客户秘密是否受保护，属于另一条法律判断线。",
+    "某员工入职竞争者说明一项公开职业变动发生了，不证明竞业协议不存在，也不证明所有美国州允许同样安排。",
+    "公司注册于 Delaware 不等于所有员工适用 Delaware 雇佣法；公开总部地点也不能替代该员工实际工作地。",
+    "不以单个离职事件判断谁‘赢了’：应同时观察双向流动、岗位类型、时间窗口、研究成果和产品落地。"
+  ],
+  "update_rules": [
+    "为人物记录 name / employer / role / announcement_date / start_date / end_date / verified_at / source_url / evidence_level；未知字段留空。",
+    "现任名单优先读取官方现行领导页，再用新任命公告更新；论文致谢和旧活动页只能证明当时身份。",
+    "‘will join’保持将加入状态；不要自动改成已到岗。媒体报道与本人公告使用不同证据标签。",
+    "保留历史职位；新页面覆盖当前状态，但不删除过去的时间线。",
+    "本次为人工核验快照；页面不会自动追踪人事变化。"
+  ],
+  "sources": [
+    {"id":"S01","title":"Cat Wu joins OpenAI from Anthropic","url":"https://www.businessinsider.com/cat-wu-joins-openai-from-anthropic-product-lead-coup-2026-11","date":"2026-11-05","type":"reporting","ref":"turn5news9","wordlim":100},
+    {"id":"S02","title":"用户给定 Tibo 转帖原址（抓取 403）","url":"https://x.com/thsottiaux/status/2118138648214585591","date":"2026-11-05","type":"unretrieved_primary","ref":"turn5view0"},
+    {"id":"S03","title":"Anthropic: Claude Code Live 官方活动","url":"https://resources.anthropic.com/webinar/claude-code-live","date":null,"type":"primary_historical","ref":"turn30search3"},
+    {"id":"S04","title":"OpenAI: Our structure","url":"https://openai.com/our-structure/","date":null,"type":"primary_current","ref":"turn5view2"},
+    {"id":"S05","title":"OpenAI: Leadership expansion with Fidji Simo","url":"https://openai.com/index/leadership-expansion-with-fidji-simo/","date":"2025-05-07","type":"primary","ref":"turn5search0"},
+    {"id":"S06","title":"OpenAI: Jill Hazelbaker appointed","url":"https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer/","date":"2026-11-03","type":"primary","ref":"turn10search0"},
+    {"id":"S07","title":"OpenAI: Jakub Pachocki announced Chief Scientist","url":"https://openai.com/index/jakub-pachocki-announced-as-chief-scientist/","date":"2024-05-14","type":"primary","ref":"turn7search0"},
+    {"id":"S08","title":"OpenAI: An Alien Mind, Jakub Pachocki","url":"https://openai.com/index/an-alien-mind/","date":"2026-09-06","type":"primary","ref":"turn7search1"},
+    {"id":"S09","title":"OpenAI: Leadership updates March 2025","url":"https://openai.com/index/leadership-updates-march-2025/","date":"2025-03-24","type":"primary_historical","ref":"turn7search2"},
+    {"id":"S10","title":"OpenAI Forum: Mark Chen and Terence Tao","url":"https://forum.openai.com/public/videos/event-replay-terence-tao-and-mark-chen-on-ai-and-mathematical-discovery-2026-03-11","date":"2026-03-04","type":"primary","ref":"turn7search3"},
+    {"id":"S11","title":"OpenAI: Dali Rajic appointed CRO","url":"https://openai.com/index/dali-rajic-chief-revenue-officer/","date":"2026-08-13","type":"primary","ref":"turn27search0"},
+    {"id":"S12","title":"OpenAI: Arvind KC appointed CPO","url":"https://openai.com/index/arvind-kc-chief-people-officer/","date":"2026-02-24","type":"primary","ref":"turn27view2"},
+    {"id":"S13","title":"OpenAI: Vijaye Raji CTO of Applications","url":"https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig/","date":null,"type":"primary","ref":"turn5search1"},
+    {"id":"S14","title":"OpenAI welcomes CFO and CPO","url":"https://openai.com/index/openai-welcomes-cfo-cpo/","date":"2024-06-10","type":"primary_historical","ref":"turn11search2"},
+    {"id":"S15","title":"OpenAI Forum: CFO Sarah Friar","url":"https://forum.openai.com/en/public/events/openais-cfo-presents-the-future-of-finance-with-university-of-californias-chief-investment-officer-c9x9nn0lx0","date":null,"type":"primary","ref":"turn11search3"},
+    {"id":"S16","title":"OpenAI: AI policy window","url":"https://openai.com/index/ai-policy-window/","date":"2026-09-09","type":"primary","ref":"turn27search7"},
+    {"id":"S17","title":"OpenAI Forum: Codex is for Everyone, Tibo Sottiaux","url":"https://forum.openai.com/en/public/events/codex-is-for-everyone-why-codex-matters-beyond-code-fa40puy7wi","date":null,"type":"primary","ref":"turn30search0"},
+    {"id":"S18","title":"OpenAI acquires Software Applications Incorporated","url":"https://openai.com/index/openai-acquires-software-applications-incorporated/","date":null,"type":"primary_historical","ref":"turn30search2"},
+    {"id":"S19","title":"Axios: Brad Lightcap is leaving","url":"https://www.axios.com/2026/08/11/openai-executive-brad-lightcap-is-leaving","date":"2026-08-11","type":"reporting","ref":"turn10search3","wordlim":25},
+    {"id":"S20","title":"OpenAI Forum: Kevin Weil, VP OpenAI for Science","url":"https://forum.openai.com/en/public/events/hybrid-event-understanding-animals-ai-helps-scientists-interpret-language-across-species-s3dgmg67a2","date":null,"type":"primary","ref":"turn11search5"},
+    {"id":"S21","title":"Anthropic: Company","url":"https://www.anthropic.com/company","date":null,"type":"primary_current","ref":"turn5view1"},
+    {"id":"S22","title":"Anthropic: Leadership","url":"https://www.anthropic.com/company/leadership","date":null,"type":"primary_current","ref":"turn7view0","wordlim":200},
+    {"id":"S23","title":"Anthropic: Introducing Labs","url":"https://www.anthropic.com/news/introducing-anthropic-labs","date":"2026-01-13","type":"primary","ref":"turn7view1"},
+    {"id":"S24","title":"Jan Leike: personal biography","url":"https://jan.leike.name/","date":null,"type":"primary_current","ref":"turn26search3"},
+    {"id":"S25","title":"OpenAI: Careers search","url":"https://openai.com/careers/search/","date":null,"type":"primary_current","ref":"turn28view0"},
+    {"id":"S26","title":"Anthropic: Jobs","url":"https://www.anthropic.com/careers/jobs","date":null,"type":"primary_current","ref":"turn28view1"},
+    {"id":"S27","title":"OpenAI: Data Center Design Manager","url":"https://openai.com/careers/data-center-design-manager-us-remote/","date":null,"type":"primary_current","ref":"turn27search6"},
+    {"id":"S28","title":"OpenAI: Technical Program Manager Support Delivery","url":"https://openai.com/careers/technical-program-manager-support-delivery-san-francisco/","date":null,"type":"primary_current","ref":"turn28search3"},
+    {"id":"S29","title":"Anthropic raises Series A","url":"https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems","date":"2021-05-28","type":"primary","ref":"turn15search2"},
+    {"id":"S30","title":"Anthropic raises Series B","url":"https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai","date":null,"type":"primary","ref":"turn15search1"},
+    {"id":"S31","title":"Microsoft: Mustafa Suleyman and Karen Simonyan join","url":"https://blogs.microsoft.com/blog/2024/03/19/mustafa-suleyman-deepmind-and-inflection-co-founder-joins-microsoft-to-lead-copilot/","date":"2024-03-19","type":"primary","ref":"turn18search0"},
+    {"id":"S32","title":"SSI: Company","url":"https://ssi.inc/","date":null,"type":"primary_current","ref":"turn15search7"},
+    {"id":"S33","title":"SSI: Updates","url":"https://ssi.inc/updates","date":"2025-07-03","type":"primary","ref":"turn15search8"},
+    {"id":"S34","title":"Axios: Jan Leike joins Anthropic","url":"https://www.axios.com/2024/05/28/openai-safety-lead-joins-anthropic","date":"2024-05-28","type":"reporting","ref":"turn20search2","wordlim":25},
+    {"id":"S35","title":"John Schulman departure announcement, preserved X post","url":"https://threadreaderapp.com/thread/1820610863499509855.html","date":"2024-08-06","type":"primary_mirror","ref":"turn20search0"},
+    {"id":"S36","title":"Reuters: Schulman leaves Anthropic","url":"https://www.investing.com/news/stock-market-news/john-schulman-leaves-ai-startup-anthropic-3852503","date":"2025-02-06","type":"reporting_company_response","ref":"turn20search21"},
+    {"id":"S37","title":"Thinking Machines: LoRA without Regret, John Schulman","url":"https://thinkingmachines.ai/blog/lora/","date":"2025-09-29","type":"primary","ref":"turn15search6"},
+    {"id":"S38","title":"Reuters: Character.AI Google licensing deal","url":"https://www.inc.com/reuters/characterai-signs-licensing-deal-with-google.html","date":"2024-08-02","type":"reporting_company_response","ref":"turn23search2"},
+    {"id":"S39","title":"Thinking Machines: NVIDIA partnership, Mira Murati CEO","url":"https://thinkingmachines.ai/news/nvidia-partnership/","date":"2026-03-10","type":"primary","ref":"turn23search4"},
+    {"id":"S40","title":"Reuters: Thinking Machines launch","url":"https://www.investing.com/news/stock-market-news/former-openai-technology-chief-mira-muratis-ai-startup-taps-top-researchers-from-competitors-3875339","date":"2025-02-18","type":"reporting_company_response","ref":"turn20search12"},
+    {"id":"S41","title":"Scale: Alexandr Wang joins Meta","url":"https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution","date":"2025-06-12","type":"primary","ref":"turn26search1"}
+  ]
+}

@@ -1,0 +1,1013 @@
+{
+  "as_of": "2026-11-05",
+  "scope": "50州+DC；普通私营部门离职后竞业的入门定位，非各职业/各历史合同的穷尽审查",
+  "method": "逐州法条/政府说明/原始判决建立索引；旧判例用于一般框架，检索日不是判例日期；未发现全面禁令不等于任何条款可执行。部分官方页面不可抓取，另附法条镜像并标注。",
+  "categories": {
+    "ban": "普通雇佣竞业原则禁止",
+    "limited": "有法定门槛、岗位、形式或期限条件",
+    "reasonableness": "主要依合理性与合法利益审查",
+    "broad_exceptions": "广泛禁止，但管理层等重要例外"
+  },
+  "states": [
+    {
+      "code": "AL",
+      "state_en": "Alabama",
+      "state_zh": "阿拉巴马",
+      "category": "reasonableness",
+      "rule": "允许保护合法商业利益的合理雇员竞业；期限不超过2年有合理性推定。",
+      "caveat": "§8-1-190文字上先禁再列例外，不能仅看开头就列为全面禁止州。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Ala. Code §§8-1-190—197",
+          "url": "https://alison.legislature.state.al.us/code-of-alabama?section=8-1-190",
+          "ref": "turn21search0",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "AK",
+      "state_en": "Alaska",
+      "state_zh": "阿拉斯加",
+      "category": "reasonableness",
+      "rule": "普通法合理性审查；善意制定的过宽条款可由法院缩限。",
+      "caveat": "是否有足够对价、范围与雇主利益须逐案判断。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Data Management, Inc. v. Greene, 757 P.2d 62 (Alaska 1988)",
+          "url": "https://law.justia.com/cases/alaska/supreme-court/1988/s-2333-1.html",
+          "ref": "turn29search0",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "AZ",
+      "state_en": "Arizona",
+      "state_zh": "亚利桑那",
+      "category": "reasonableness",
+      "rule": "竞业须合理且服务于可保护利益；法院仅可删除可分割过宽文字，不能任意重写。",
+      "caveat": "医生、广播等岗位另查特殊规则；Farber是医生案，公共利益权重很高。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Valley Medical Specialists v. Farber (Ariz. 1999)",
+          "url": "https://www.azcourts.gov/Portals/0/23/pdf1999/cv970488.pdf",
+          "ref": "turn29search5",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "AR",
+      "state_en": "Arkansas",
+      "state_zh": "阿肯色",
+      "category": "reasonableness",
+      "rule": "§4-75-101允许保护商业利益且时间、范围合理的雇员竞业；2年为可反驳合理推定，法院须依法缩限过宽条款。",
+      "caveat": "2025 Act232禁止限制医生执业的竞业，不能把医生禁令扩展为全体AI员工禁令。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Ark. Code §4-75-101",
+          "url": "https://law.justia.com/codes/arkansas/title-4/subtitle-6/chapter-75/subchapter-1/section-4-75-101/",
+          "ref": "turn21search3",
+          "kind": "primary"
+        },
+        {
+          "title": "Arkansas Act 232 of 2025",
+          "url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2FACT232.pdf",
+          "ref": "turn21search9",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "CA",
+      "state_en": "California",
+      "state_zh": "加利福尼亚",
+      "category": "ban",
+      "rule": "普通雇佣关系离职后竞业原则无效；签字、任职高级或高薪本身不构成例外。",
+      "caveat": "企业出售、合伙等法定例外另论；保密及商业秘密责任仍在。BPC16600不是“竞业补偿到位就可执行”。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Cal. Bus. & Prof. Code §16600",
+          "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16600.&lawCode=BPC",
+          "ref": "turn4view0",
+          "kind": "primary"
+        },
+        {
+          "title": "§16600法条正文镜像；官方页面抓取403",
+          "url": "https://law.justia.com/codes/california/code-bpc/division-7/part-2/chapter-1/section-16600/",
+          "ref": "turn2search0",
+          "kind": "primary_mirror"
+        }
+      ]
+    },
+    {
+      "code": "CO",
+      "state_en": "Colorado",
+      "state_zh": "科罗拉多",
+      "category": "limited",
+      "rule": "普通竞业原则禁止；高薪且为保护商业秘密、范围必要者才可能有效，并须独立书面通知。2026高薪门槛$130,014。",
+      "caveat": "招揽客户条款另用高薪门槛60%；签署与执行时薪酬、通知时点、2025医护修法均需另核。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "C.R.S. §8-2-113，2026州法汇编",
+          "url": "https://olls.info/crs/crs2026-title-08.htm",
+          "ref": "turn9search0",
+          "kind": "primary"
+        },
+        {
+          "title": "2026 COMPS & PAYCALC official INFO #1",
+          "url": "https://cdle.colorado.gov/sites/cdle/files/info_%231_2026_comps_%26_paycalc_orders_12.18.25.pdf",
+          "ref": "turn9search7",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "CT",
+      "state_en": "Connecticut",
+      "state_zh": "康涅狄格",
+      "category": "reasonableness",
+      "rule": "一般采用普通法合理性审查：期限、地区、雇主利益、员工谋生与公众利益。",
+      "caveat": "2026 HB5492属于立法提案检索项，不能以bill analysis写明的拟生效日当作已立法；医生等有专法。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Scott v. General Iron & Welding Co., 171 Conn.132 (1976)",
+          "url": "https://law.justia.com/cases/connecticut/supreme-court/1976/171-conn-132-2.html",
+          "ref": "turn29search1",
+          "kind": "primary"
+        },
+        {
+          "title": "2026 HB5492 bill status",
+          "url": "https://prdext3.cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?bill_num=HB5492&selBillType=Bill",
+          "ref": "turn42search3",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "DE",
+      "state_en": "Delaware",
+      "state_zh": "特拉华",
+      "category": "reasonableness",
+      "rule": "一般可执行合理竞业，但法院可拒绝修补过宽、谈判与对价失衡的条款。",
+      "caveat": "在特拉华注册并不自动使外州工作员工适用特拉华法；LLC股权内夹带条款也受实质审查。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Sunder Energy, LLC v. Jackson (Del. Dec.10,2024)",
+          "url": "https://law.justia.com/cases/delaware/supreme-court/2024/455-2023.html",
+          "ref": "turn29search2",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "DC",
+      "state_en": "District of Columbia",
+      "state_zh": "哥伦比亚特区（非州）",
+      "category": "limited",
+      "rule": "2026通常禁止低于$162,164年薪者竞业；符合高薪定义者仍须书面范围、地区、提前14日通知，普通期限不超过365日。",
+      "caveat": "医学专科人员门槛$270,274、期限最多730日；旧协议日期及主要工作地另核。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "DC DOES 2026 Ban on Non-Compete Clauses notice",
+          "url": "https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/2026%20Ban%20on%20Non-Compete%20Clauses_0.pdf",
+          "ref": "turn6search7",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "FL",
+      "state_en": "Florida",
+      "state_zh": "佛罗里达",
+      "category": "reasonableness",
+      "rule": "§542.335通常允许保护合法商业利益的合理竞业；2025 CHOICE Act另为符合定义的高薪人员提供更强执行机制。",
+      "caveat": "CHOICE可达4年；工资须超过相关县年平均工资2倍且满足其他定义、通知等条件。普通§542.335并无统一薪资门槛。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Fla. Stat. Ch.542 (2026), §§542.335,542.41—45",
+          "url": "https://www.flsenate.gov/Laws/Statutes/2026/Chapter542/All",
+          "ref": "turn16view1",
+          "kind": "primary"
+        },
+        {
+          "title": "Fla.Stat.§542.43 covered employee/agreement definitions",
+          "url": "https://www.flsenate.gov/Laws/Statutes/2026/542.43",
+          "ref": "turn48search5",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "GA",
+      "state_en": "Georgia",
+      "state_zh": "佐治亚",
+      "category": "limited",
+      "rule": "书面合理竞业可针对销售、管理、关键员工或专业人员等法定岗位。",
+      "caveat": "不是任何普通员工都能被离职后竞业约束；法院可缩限但不能增加原有限制。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "O.C.G.A. §13-8-53",
+          "url": "https://www.legis.ga.gov/api/document/docs/default-source/joint-features-document-library/t13-%28v11%29-pdf.pdf",
+          "ref": "turn21search10",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "HI",
+      "state_en": "Hawaii",
+      "state_zh": "夏威夷",
+      "category": "limited",
+      "rule": "对法定technology business员工，竞业和挖同事型nonsolicit条款原则无效。",
+      "caveat": "技术企业按主要收入来源定义；一般企业及商业秘密例外另审，不能把全州都说成全面禁止。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Haw. Rev. Stat. §480-4(d)",
+          "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0480/HRS_0480-0004.htm",
+          "ref": "turn25search4",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "ID",
+      "state_en": "Idaho",
+      "state_zh": "爱达荷",
+      "category": "limited",
+      "rule": "关键员工/关键独立承包人可签合理书面竞业；18个月以内有合理性推定，超过须额外对价。",
+      "caveat": "最高薪5%为关键员工的可反驳推定，不是统一美元收入门槛。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Idaho Code §§44-2701,44-2704",
+          "url": "https://law.justia.com/codes/idaho/title-44/chapter-27/section-44-2704/",
+          "ref": "turn21search7",
+          "kind": "primary"
+        },
+        {
+          "title": "§44-2701法条正文镜像",
+          "url": "https://law.justia.com/codes/idaho/title-44/chapter-27/section-44-2701/",
+          "ref": "turn21search6",
+          "kind": "primary_mirror"
+        }
+      ]
+    },
+    {
+      "code": "IL",
+      "state_en": "Illinois",
+      "state_zh": "伊利诺伊",
+      "category": "limited",
+      "rule": "2026须年收入超过$75,000才可订竞业，且须足够对价、合法利益、合理范围及书面告知咨询律师、14日审阅。",
+      "caveat": "2027-01-01门槛升至$80,000；招揽客户/同事另有更低门槛；2年任职或其他足够对价不是全国通例。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Illinois Freedom to Work Act, 820 ILCS90",
+          "url": "https://www.ilga.gov/documents/legislation/ilcs/documents/082000900K10.htm",
+          "ref": "turn12search0",
+          "kind": "primary"
+        },
+        {
+          "title": "820 ILCS90 full act; §§15/20 information and consideration",
+          "url": "https://ilga.gov/Legislation/ILCS/Articles?ActID=3737&ChapterID=68&Print=True",
+          "ref": "turn48search0",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "IN",
+      "state_en": "Indiana",
+      "state_zh": "印第安纳",
+      "category": "reasonableness",
+      "rule": "合理性审查；法院可删除可分割过宽文字，但不得添加新词重写条款。",
+      "caveat": "合同写“法院可修改”也不能扩大法院的blue-pencil权限；医护另有专项限制。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Heraeus Medical, LLC v. Zimmer, Inc. (Ind.2019)",
+          "url": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=axcOT1sdD3L0ru8H7QFgOTgwCrBSAL-hZqcd3hqNJDcLJEXSc402qN73OQgnyl3J0",
+          "ref": "turn31search3",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "IA",
+      "state_en": "Iowa",
+      "state_zh": "艾奥瓦",
+      "category": "reasonableness",
+      "rule": "一般按雇主保护必要性、员工权利、公众利益三要素审查，举证责任在雇主。",
+      "caveat": "2026 HF2254针对University of Iowa Hospitals and Clinics特定医护合同另设禁止，非全州普通员工禁令。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Iowa Court of Appeals: noncompete三要素判决",
+          "url": "https://www.iowacourts.gov/courtcases/15906/embed/CourtAppealsOpinion",
+          "ref": "turn31search4",
+          "kind": "primary"
+        },
+        {
+          "title": "2026 Iowa Acts Ch.1173 (HF2254)",
+          "url": "https://www.legis.iowa.gov/docs/publications/iactc/91.2/CH1173.pdf",
+          "ref": "turn42search9",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "KS",
+      "state_en": "Kansas",
+      "state_zh": "堪萨斯",
+      "category": "reasonableness",
+      "rule": "普通雇员竞业仍重合理性及公共利益；2025 SB241/2026§50-163强化若干nonsolicit和对过宽条款的修正机制。",
+      "caveat": "nonsolicit法定执行推定不等于一切禁止去竞争对手的条款都自动有效；2026 HB2650未成法。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "K.S.A. §50-163 (2026)；Weber/Ristow判例",
+          "url": "https://www.kslegislature.gov/b2023_24/laws/050_000_0000_chapter/050_001_0000_article/050_001_0063_section/050_001_0063_k/",
+          "ref": "turn40search7",
+          "kind": "primary"
+        },
+        {
+          "title": "Allen, Gibbs & Houlik v.Ristow (Kan.App.2004)",
+          "url": "https://law.justia.com/cases/kansas/court-of-appeals/2004/90879.html",
+          "ref": "turn31search1",
+          "kind": "primary"
+        },
+        {
+          "title": "2026 HB2650 status: Died",
+          "url": "https://www.kslegislature.gov/b2025_26/bills/HB2650/",
+          "ref": "turn40search6",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "KY",
+      "state_en": "Kentucky",
+      "state_zh": "肯塔基",
+      "category": "reasonableness",
+      "rule": "一般须合理限制及足够对价；仅让已任职多年员工补签而不提供新利益，可能欠缺对价。",
+      "caveat": "Creech案属具体事实判断，不能概括成所有继续雇佣一律无对价。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Creech, Inc. v. Brown (Ky.2014)",
+          "url": "https://law.justia.com/cases/kentucky/supreme-court/2014/2012-sc-000651-dg.html",
+          "ref": "turn31search2",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "LA",
+      "state_en": "Louisiana",
+      "state_zh": "路易斯安那",
+      "category": "limited",
+      "rule": "§23:921在法定例外内允许雇员竞业；通常须明确列出雇主实际经营的parish/municipality，离职后不超过2年。",
+      "caveat": "2026 Act150另禁实习生/学徒竞业；合同中外州法/法院条款亦有特别限制。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "La.R.S.23:921",
+          "url": "https://www.legis.la.gov/Legis/Law.aspx?d=84015",
+          "ref": "turn22search0",
+          "kind": "primary"
+        },
+        {
+          "title": "2026 Act150 (HB315)",
+          "url": "https://legis.la.gov/Legis/ViewDocument.aspx?d=1475140",
+          "ref": "turn22search4",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "ME",
+      "state_en": "Maine",
+      "state_zh": "缅因",
+      "category": "limited",
+      "rule": "≤联邦个人贫困线400%收入者不得签竞业；其他也须必要且合理，并提前3个工作日交协议。",
+      "caveat": "通常入职1年或签后6个月取较晚才生效；2026医护修法及2027法条分支需按日期读。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "26 M.R.S.§599-A，含2026更新",
+          "url": "https://www.legis.maine.gov/legis/statutes/26/title26sec599-A.html",
+          "ref": "turn12search3",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "MD",
+      "state_en": "Maryland",
+      "state_zh": "马里兰",
+      "category": "limited",
+      "rule": "收入≤州最低工资150%的员工，限制到同类企业工作或自营的条款无效。",
+      "caveat": "直接诊疗的持照医护≤$350,000及兽医等另有禁止/限期规则；客户名单保密另论。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Md.Lab.& Empl.§3-716",
+          "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gle&section=3-716",
+          "ref": "turn33search2",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "MA",
+      "state_en": "Massachusetts",
+      "state_zh": "马萨诸塞",
+      "category": "limited",
+      "rule": "符合§24L的合理竞业通常最多12个月，须书面、提前通知、咨询律师权利，及garden leave或双方另约对价。",
+      "caveat": "加班不豁免员工、学生实习、≤18岁、无因解雇/裁员等不得执行；法定garden leave为既往最高基础工资至少50%，但有替代对价。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Mass.Gen.Laws ch.149 §24L",
+          "url": "https://malegislature.gov/Laws/GeneralLaws/Parti/Titlexxi/Chapter149/Section24L",
+          "ref": "turn6search4",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "MI",
+      "state_en": "Michigan",
+      "state_zh": "密歇根",
+      "category": "reasonableness",
+      "rule": "§445.774a允许保护合理竞争利益、且时间/地域/工作类型合理的竞业；法院可缩限。",
+      "caveat": "禁止法案的提出与立法分析不是现行法。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "MCL445.774a",
+          "url": "https://archive.legislature.mi.gov/documents/mcl/pdf/mcl-445-774a.pdf",
+          "ref": "turn19search5",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "MN",
+      "state_en": "Minnesota",
+      "state_zh": "明尼苏达",
+      "category": "ban",
+      "rule": "2023-07-01起订立的雇佣竞业原则无效，包括独立承包人。",
+      "caveat": "旧协议不是一律追溯无效；售企/解散例外，NDA与nonsolicit不属该条定义。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Minn.Stat.§181.988",
+          "url": "https://www.revisor.mn.gov/statutes/cite/181.988",
+          "ref": "turn2search4",
+          "kind": "primary"
+        },
+        {
+          "title": "2023 MN Session Law Ch53 Article6 effective date",
+          "url": "https://www.revisor.mn.gov/laws/2023/0/53/laws.11.42.0",
+          "ref": "turn48search3",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "MS",
+      "state_en": "Mississippi",
+      "state_zh": "密西西比",
+      "category": "reasonableness",
+      "rule": "普通法合理性和衡平审查；无因解除等事实可能使竞业不能执行。",
+      "caveat": "Empiregas/Bain否定具体无因解雇后的执行，不能不读合同就假定有效。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Empiregas, Inc.of Kosciusko v.Bain,599 So.2d971 (Miss.1992)",
+          "url": "https://law.justia.com/cases/mississippi/supreme-court/1992/89-ca-0059-1.html",
+          "ref": "turn34search0",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "MO",
+      "state_en": "Missouri",
+      "state_zh": "密苏里",
+      "category": "reasonableness",
+      "rule": "通常允许保护商业秘密或客户关系的合理竞业；过宽客户限制可经法院缩限。",
+      "caveat": "单独员工nonsolicit还有§431.202，不可把它直接等同于所有竞业。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Whelan Security Co.v.Kennebrew, SC92291 (Mo.2012)",
+          "url": "https://www.courts.mo.gov/file/OSummary_SC92291.pdf",
+          "ref": "turn33search7",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "MT",
+      "state_en": "Montana",
+      "state_zh": "蒙大拿",
+      "category": "reasonableness",
+      "rule": "§28-2-703禁止绝对职业限制；判例对部分限制（如服务旧客户的合理付费义务）做合理性审查。",
+      "caveat": "虽法条措辞近似CA，也不能简单列为全面禁止州；2026医生禁令另查。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "MCA§28-2-703；Junkermier v.Alborn,2016 MT218",
+          "url": "https://mca.legmt.gov/bills/mca/title_0280/chapter_0020/part_0070/section_0030/0280-0020-0070-0030.html",
+          "ref": "turn25search0",
+          "kind": "primary"
+        },
+        {
+          "title": "Junkermier v.Alborn,2016 MT218",
+          "url": "https://law.justia.com/cases/montana/supreme-court/2016/da-15-0605.html",
+          "ref": "turn39search0",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "NE",
+      "state_en": "Nebraska",
+      "state_zh": "内布拉斯加",
+      "category": "reasonableness",
+      "rule": "只保护免受不公平竞争的合法利益；限制须必要合理，法院一般不会替雇主重写过宽竞业。",
+      "caveat": "单纯防止普通竞争、限制员工已赚取资金用途不足以构成合法利益。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Gaver v.Schneider’s O.K.Tire Co.,289 Neb.491 (2014)",
+          "url": "https://law.justia.com/cases/nebraska/supreme-court/2014/s-13-1014.html",
+          "ref": "turn34search1",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "NV",
+      "state_en": "Nevada",
+      "state_zh": "内华达",
+      "category": "limited",
+      "rule": "仅按小时工资付薪者不得适用竞业；其他须有价值对价且必要合理、不造成过分困难。",
+      "caveat": "裁员/重组时通常仅在继续给付工资福利等补偿期间可执行；客户主动跟随受到保护。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "NRS613.195",
+          "url": "https://www.leg.state.nv.us/division/legal/lawlibrary/NRS/NRS-613.html",
+          "ref": "turn22search1",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "NH",
+      "state_en": "New Hampshire",
+      "state_zh": "新罕布什尔",
+      "category": "limited",
+      "rule": "小时工资≤联邦最低工资200%者，离职后竞业无效；新员工须接受offer前收到竞业文本。",
+      "caveat": "联邦最低工资变化会影响门槛；高于门槛仍需普通法合理性审查。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "RSA275:70、275:70-a",
+          "url": "https://gc.nh.gov/rsa/html/xxiii/275/275-70-a.htm",
+          "ref": "turn12search5",
+          "kind": "primary"
+        },
+        {
+          "title": "RSA275:70 offer前披露",
+          "url": "https://www.gc.nh.gov/rsa/html/XXIII/275/275-70.htm",
+          "ref": "turn43view2",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "NJ",
+      "state_en": "New Jersey",
+      "state_zh": "新泽西",
+      "category": "reasonableness",
+      "rule": "普通法要求保护雇主合法利益、不对员工造成过分困难、不伤害公众；可部分执行。",
+      "caveat": "全面禁止提案不等于现行禁止；本表按Solari合理性框架。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Solari Industries, Inc.v.Malady,55 N.J.571 (1970)",
+          "url": "https://law.justia.com/cases/new-jersey/supreme-court/1970/55-n-j-571-0.html",
+          "ref": "turn35search0",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "NM",
+      "state_en": "New Mexico",
+      "state_zh": "新墨西哥",
+      "category": "reasonableness",
+      "rule": "一般普通雇佣竞业适用合理性与公共利益审查。",
+      "caveat": "医护非竞业专法已改变历史医生案例适用；不得拿1966医生结果直接处理现行医护合同。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Lovelace Clinic v.Murphy,76 N.M.645 (1966)，一般原则历史来源",
+          "url": "https://law.justia.com/cases/new-mexico/supreme-court/1966/8048-0.html",
+          "ref": "turn35search1",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "NY",
+      "state_en": "New York",
+      "state_zh": "纽约",
+      "category": "reasonableness",
+      "rule": "一般允许保护合法利益且范围合理、不造成过分困难、不损害公众的竞业。",
+      "caveat": "2026 S9759通过州参议院，但检索日仍在Assembly委员会，不能说已全面禁止。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "New York Attorney General noncompete guidance",
+          "url": "https://ag.ny.gov/resources/individuals/workers-rights/noncompete-agreements",
+          "ref": "turn19search4",
+          "kind": "primary"
+        },
+        {
+          "title": "S9759官方状态",
+          "url": "https://www.nysenate.gov/legislation/bills/2025/S9759",
+          "ref": "turn43view0",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "NC",
+      "state_en": "North Carolina",
+      "state_zh": "北卡罗来纳",
+      "category": "reasonableness",
+      "rule": "须书面签署并具备有效对价、合理范围、合法利益；法院可删可分割文字，但不能依合同授权重写。",
+      "caveat": "入职后补签是否有新对价非常重要；售企与雇佣的审查强度不同。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "N.C.G.S.§75-4；Beverage Systems (N.C.2016)",
+          "url": "https://house.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_75/GS_75-4.html",
+          "ref": "turn35search2",
+          "kind": "primary"
+        },
+        {
+          "title": "Beverage Systems v.Associated Beverage Repair (N.C.2016)",
+          "url": "https://law.justia.com/cases/north-carolina/supreme-court/2016/316a14.html",
+          "ref": "turn36search3",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "ND",
+      "state_en": "North Dakota",
+      "state_zh": "北达科他",
+      "category": "ban",
+      "rule": "§9-08-06原则否定限制合法职业、行业、业务的合同。",
+      "caveat": "商业出售商誉、解散等法定例外另论；商业秘密法律仍保护。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "N.D.Cent.Code§9-08-06",
+          "url": "https://ndlegis.gov/cencode/t09c08.pdf",
+          "ref": "turn47view1",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "OH",
+      "state_en": "Ohio",
+      "state_zh": "俄亥俄",
+      "category": "reasonableness",
+      "rule": "Raimonde框架要求限制不超过雇主保护所需、不造成过分困难、不损害公众；可按个案修正。",
+      "caveat": "有期限或地域条款本身不保证合理；普通技能经验与商业秘密区分。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Kross Acquisition Co.v.Groundworks Ohio (Ohio App.2024)，引用Raimonde",
+          "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2024/c-230272.html",
+          "ref": "turn36search0",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "OK",
+      "state_en": "Oklahoma",
+      "state_zh": "俄克拉何马",
+      "category": "ban",
+      "rule": "§15-219A允许离职员工到相同或类似行业工作；相冲突竞业无效。",
+      "caveat": "直接招揽原雇主既有客户有特别限制；出售业务等另论。不要把禁竞业理解成允许带走客户名单。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "15 O.S.§219A",
+          "url": "https://law.justia.com/codes/oklahoma/title-15/section-15-219a/",
+          "ref": "turn2search5",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "OR",
+      "state_en": "Oregon",
+      "state_zh": "俄勒冈",
+      "category": "limited",
+      "rule": "一般须exempt薪资身份、2026离职年薪及佣金超过$119,541、提前通知/真实晋升、合法利益及离职后30日副本；最长12个月。",
+      "caveat": "雇主按法定比例继续支付可豁免部分身份/收入条件；2022前协议与医护另有不同。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Oregon BOLI Noncompetition Agreements / ORS653.295",
+          "url": "https://www.oregon.gov/boli/employers/Pages/noncompetition-agreements.aspx",
+          "ref": "turn9search2",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "PA",
+      "state_en": "Pennsylvania",
+      "state_zh": "宾夕法尼亚",
+      "category": "reasonableness",
+      "rule": "合理且有足够对价的竞业可执行；入职后才订立且开始时未就条款达成合意者，可能须新对价。",
+      "caveat": "2025-01-01生效的Act74对特定医护另有限制，不是普通AI员工全面禁令。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Rullex Co.v.Tel-Stream (Pa.2020)",
+          "url": "https://www.pacourts.us/assets/opinions/Supreme/out/j-11-2020mo%20-%20104455503102849192.pdf",
+          "ref": "turn38search7",
+          "kind": "primary"
+        },
+        {
+          "title": "Pennsylvania 2024 Act74",
+          "url": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?ActNum=0074.&SessInd=0&SessYr=2024&txtType=PDF",
+          "ref": "turn19search7",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "RI",
+      "state_en": "Rhode Island",
+      "state_zh": "罗得岛",
+      "category": "limited",
+      "rule": "FLSA非豁免员工、在校实习生、≤18岁者及≤个人贫困线250%收入者，不得执行竞业。",
+      "caveat": "其他员工仍需普通法合理性；NDA与nonsolicit在此法定义外。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "R.I.Gen.Laws§§28-59-2、28-59-3",
+          "url": "https://webserver.rilegislature.gov/statutes/title28/28-59/28-59-3.HTM",
+          "ref": "turn12search6",
+          "kind": "primary"
+        },
+        {
+          "title": "§28-59-2 definitions",
+          "url": "https://webserver.rilegislature.gov/statutes/title28/28-59/28-59-2.HTM",
+          "ref": "turn12search7",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "SC",
+      "state_en": "South Carolina",
+      "state_zh": "南卡罗来纳",
+      "category": "reasonableness",
+      "rule": "雇主合法利益、时间地域合理、员工谋生、公共政策及对价均须满足；条款从严解释。",
+      "caveat": "不要假定法院会替雇主全面重写过宽条款；保密和发明归属与竞业另审。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Milliken & Co.v.Morin,SC Court of Appeals opinion4610",
+          "url": "https://www.sccourts.org/media/opinions/HTMLFiles/COA/4610.htm",
+          "ref": "turn36search4",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "SD",
+      "state_en": "South Dakota",
+      "state_zh": "南达科他",
+      "category": "limited",
+      "rule": "§53-9-11允许符合地区与经营条件的竞业，离职后期限不超过2年。",
+      "caveat": "2026法及§53-9-11.2对医护/社区服务另设例外。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "S.D.Codified Laws§53-9-11",
+          "url": "https://sdlegislature.gov/Statutes/53-9-11",
+          "ref": "turn25search2",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "TN",
+      "state_en": "Tennessee",
+      "state_zh": "田纳西",
+      "category": "limited",
+      "rule": "2026-07-01生效新法禁止向年化薪酬低于$70,000的员工要求或执行竞业；员工/承包人2年以内期限有可反驳合理性推定。",
+      "caveat": "高薪不表示条款自动有效；新法适用协议/程序日期应读Public Chapter934，NDA与nonsolicit另论。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "2026 Tenn.Pub.Acts Ch.934 (HB1034) official history & adopted amendment summary",
+          "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB1034&ga=114",
+          "ref": "turn43view1",
+          "kind": "primary"
+        },
+        {
+          "title": "Public Chapter934原文PDF（抓取403；可人工下载）",
+          "url": "https://publications.tnsosfiles.com/acts/114/pub/pc0934.pdf",
+          "ref": "turn41view0",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "TX",
+      "state_en": "Texas",
+      "state_zh": "得克萨斯",
+      "category": "reasonableness",
+      "rule": "§15.50允许附属于其他可执行协议、且时间/地域/活动范围合理、不过度保护商誉或商业利益的竞业。",
+      "caveat": "2025-09-01医护修法仅针对医生、护士、牙医、PA等；不要误说得州2025起全面禁止竞业。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Tex.Bus.& Com.Code§15.50；2025 SB1318",
+          "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01318F.htm",
+          "ref": "turn14search3",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "UT",
+      "state_en": "Utah",
+      "state_zh": "犹他",
+      "category": "limited",
+      "rule": "普通员工离职后竞业最长1年，且仍须满足普通法；超期无效。",
+      "caveat": "2026-05-06新法新增医疗和兽医等专门禁令/例外；真实离职和售企协议另审。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Utah Code§34-51-201 (effective2026-05-06)",
+          "url": "https://le.utah.gov/xcode/Title34/Chapter51/C34-51-S201_2026050620260506.pdf",
+          "ref": "turn41view1",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "VT",
+      "state_en": "Vermont",
+      "state_zh": "佛蒙特",
+      "category": "reasonableness",
+      "rule": "一般采用合理性及公共利益审查；继续at-will雇佣可构成对价。",
+      "caveat": "继续雇佣能否作为对价各州不同，不能把Vermont规则套全国。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Summits7,Inc.v.Kelly,2005 VT97",
+          "url": "https://law.justia.com/cases/vermont/supreme-court/2005/2004-242op.html",
+          "ref": "turn38search1",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "VA",
+      "state_en": "Virginia",
+      "state_zh": "弗吉尼亚",
+      "category": "limited",
+      "rule": "低工资员工及FLSA加班保护员工不得竞业；2026平均周薪门槛为$1,507.01。2026-07-01起无因解雇又未给离职金/其他款项者不可执行。",
+      "caveat": "医护新增禁止；薪酬主要来自销售佣金、奖励等有定义例外；高薪一般还需严格合理性审查。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Va.Code§40.1-28.7:8 (2026)",
+          "url": "https://law.lis.virginia.gov/vacode/title40.1/chapter4/section40.1-28.7%3A8/",
+          "ref": "turn14search0",
+          "kind": "primary"
+        },
+        {
+          "title": "DOLI 2026 weekly wage notice",
+          "url": "https://doli.virginia.gov/2026/01/06/notice-of-the-average-weekly-wage-for-2026/",
+          "ref": "turn44search2",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "WA",
+      "state_en": "Washington",
+      "state_zh": "华盛顿",
+      "category": "limited",
+      "rule": "2026员工须年收入>$126,858.83、独立承包人>$317,147.09才可能竞业；另须通知、对价、合理期限等。",
+      "caveat": "2026 ESHB1155已通过，但全面禁止要到2027-06-30生效；当下不能提前套用。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "RCW49.62；WA L&I 2026 thresholds",
+          "url": "https://www.lni.wa.gov/workers-rights/workplace-policies/non-compete-agreements",
+          "ref": "turn6search0",
+          "kind": "primary"
+        },
+        {
+          "title": "ESHB1155,Ch149 Laws2026; effective2027-06-30",
+          "url": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Session%20Laws/House/1155-S.SL.pdf",
+          "ref": "turn4view1",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "WV",
+      "state_en": "West Virginia",
+      "state_zh": "西弗吉尼亚",
+      "category": "reasonableness",
+      "rule": "雇主须先证明条款表面合理且有可保护利益；员工可说明不需限制、需缩限或投资已收回。",
+      "caveat": "明显过宽、仅为吓阻员工的条款应无效，医师等另有专法。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Reddy v.Community Health Foundation,171 W.Va.368 (1982)",
+          "url": "https://law.justia.com/cases/west-virginia/supreme-court/1982/15453-4.html",
+          "ref": "turn38search3",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "code": "WI",
+      "state_en": "Wisconsin",
+      "state_zh": "威斯康星",
+      "category": "reasonableness",
+      "rule": "§103.465仅允许为保护雇主合理必要的限制；不可分割条款如不合理，合理部分也可能不能保留。",
+      "caveat": "不能假定法院会像某些州那样重写救活过宽条款。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Wis.Stat.§103.465",
+          "url": "https://docs.legis.wisconsin.gov/statutes/statutes/103/465",
+          "ref": "turn41view2",
+          "kind": "primary"
+        },
+        {
+          "title": "法条及判例注释镜像；官方抓取超时",
+          "url": "https://law.justia.com/codes/wisconsin/chapter-103/section-103-465/",
+          "ref": "turn22search2",
+          "kind": "primary_mirror"
+        }
+      ]
+    },
+    {
+      "code": "WY",
+      "state_en": "Wyoming",
+      "state_zh": "怀俄明",
+      "category": "broad_exceptions",
+      "rule": "2025-07-01起新订竞业广泛禁止，但高管、管理人员及其专业支持人员等有重要例外。",
+      "caveat": "另有售企、商业秘密及按比例返还搬迁/教育/培训费例外；不是与加州完全相同的全体员工禁止。",
+      "verified_date": "2026-11-05",
+      "sources": [
+        {
+          "title": "Wyo.Stat.§1-23-108",
+          "url": "https://wyoleg.gov/statutes/compress/title01.pdf",
+          "ref": "turn16view2",
+          "kind": "primary"
+        }
+      ]
+    }
+  ],
+  "verification_note": "检索日仅表示本次查阅时间；旧判例用于一般原则索引，不等于2026新判决或穷尽所有职业、历史合同及判例。"
+}

@@ -1,0 +1,3128 @@
+{
+  "version": "1.0",
+  "verified_on": "2026-11-05",
+  "scope": "美国 50 州 + 华盛顿特区；普通雇员离职后竞业限制为主。职业、企业出售、合伙关系与特定合同另有例外。",
+  "core": {
+    "title": "人才为什么能流动？",
+    "subtitle": "美国竞业限制、硅谷制度与 AI 公司组织",
+    "verified_on": "2026-11-05",
+    "scope": "美国 50 州 + 华盛顿特区；普通雇员离职后竞业限制为主。职业、企业出售、合伙关系与特定合同另有例外。",
+    "sources": [
+      {
+        "id": "F01",
+        "title": "FTC：Noncompete Rule 当前状态",
+        "url": "https://www.ftc.gov/legal-library/browse/rules/noncompete-rule",
+        "type": "联邦监管机构",
+        "date": "动态页面",
+        "notes": "全国规则不生效、不可执行；不要只读旧的规则摘要。"
+      },
+      {
+        "id": "F02",
+        "title": "Federal Register：删除 16 CFR Part 910",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-02-12/pdf/2026-02866.pdf",
+        "type": "联邦正式规则",
+        "date": "2026-02-12",
+        "notes": "91 FR 6507，2026-02866；将已被撤销的竞业规则从 CFR 删除。"
+      },
+      {
+        "id": "F03",
+        "title": "加州总检察长：劳动者流动权利",
+        "url": "https://oag.ca.gov/node/593373",
+        "type": "州政府解释",
+        "date": "2024-10-15",
+        "notes": "BPC §§16600、16600.1、16600.5 与 SB699 / AB1076。"
+      },
+      {
+        "id": "F04",
+        "title": "加州 BPC §16600 原文",
+        "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16600.&lawCode=BPC",
+        "type": "州法入口",
+        "date": "现行法入口",
+        "notes": "官方站自动读取遇 403；核心结论由总检察长页面交叉核实。"
+      },
+      {
+        "id": "F05",
+        "title": "加州 Labor Code §925",
+        "url": "https://law.justia.com/codes/california/code-lab/division-2/part-3/chapter-1/section-925/",
+        "type": "州法转载",
+        "date": "2025 编纂版",
+        "notes": "主要居住并工作于加州的雇员、选法与管辖条款；独立律师协商例外。"
+      },
+      {
+        "id": "F06",
+        "title": "18 USC §1839：商业秘密定义",
+        "url": "https://uscode.house.gov/us/usc/119-118/t18/s1839/",
+        "type": "联邦法原文",
+        "date": "现行编纂入口",
+        "notes": "合理保密措施、秘密带来的独立经济价值。"
+      },
+      {
+        "id": "F07",
+        "title": "18 USC §1836：商业秘密民事救济",
+        "url": "https://uscode.house.gov/us/usc/119-124/t18/s1836/",
+        "type": "联邦法原文",
+        "date": "涵盖至 2026-10-15 法律",
+        "notes": "禁令、损害赔偿；就业限制须有受威胁侵占的证据，不能只因员工知道秘密。"
+      },
+      {
+        "id": "F08",
+        "title": "第九巡回法院：Trade Secret — Defined",
+        "url": "https://www3.ce9.uscourts.gov/jury-instructions/node/727",
+        "type": "法院示范陪审团指引",
+        "date": "动态页面",
+        "notes": "一般个人技能、才能与能力并非商业秘密；记忆中的事实仍可能满足秘密要件。"
+      },
+      {
+        "id": "F09",
+        "title": "DOJ / FTC：劳动市场反垄断指引",
+        "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/p251201antitrustguidelinesbusinessactivitiesaffectingworkers2025.pdf",
+        "type": "联邦执法指引",
+        "date": "2025-01",
+        "notes": "企业之间的工资合谋与不挖人协议，与员工合同中的限制应区分。指引不是新的联邦竞业禁令。"
+      },
+      {
+        "id": "F10",
+        "title": "DOJ：六家科技公司不招揽协议和解",
+        "url": "https://www.justice.gov/archives/opa/pr/justice-department-requires-six-high-tech-companies-stop-entering-anticompetitive-employee",
+        "type": "联邦执法案例",
+        "date": "2010-09-24",
+        "notes": "Adobe、Apple、Google、Intel、Intuit、Pixar。历史个案，不证明今天的 AI 公司有相同行为。"
+      },
+      {
+        "id": "F11",
+        "title": "FTC：Rollins 竞业限制最终同意令",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-pest-control-noncompete-matter",
+        "type": "联邦执法案例",
+        "date": "2026-06",
+        "notes": "全国普遍规则撤销后，针对特定公司的执法仍存在。"
+      },
+      {
+        "id": "E01",
+        "title": "Johnson / Lavetti / Lipsitz：劳动市场与流动限制",
+        "url": "https://www.nber.org/papers/w31929",
+        "type": "原始研究工作论文",
+        "date": "2024-12 修订",
+        "notes": "研究发现较强竞业可执行性降低收入与工作流动；不是每个员工的因果预测。"
+      },
+      {
+        "id": "E02",
+        "title": "Johnson / Lipsitz / Pei：创新、发明人流动与竞业限制",
+        "url": "https://www.nber.org/papers/w31487",
+        "type": "原始研究工作论文",
+        "date": "2024-12 修订",
+        "notes": "跨州法律变化研究；讨论研发投入、人才流动、专利与知识扩散。"
+      },
+      {
+        "id": "E03",
+        "title": "费城联储：Michigan experiment 与创业活动",
+        "url": "https://www.philadelphiafed.org/the-economy/regional-economics/do-non-compete-covenants-influence-state-startup-activity-evidence-from-michigan-experiment",
+        "type": "原始研究工作论文",
+        "date": "2021-07",
+        "notes": "未发现创业进入率下降的有力支持，部分就业指标反而上升；提醒不能用单一故事替代研究。"
+      },
+      {
+        "id": "H01",
+        "title": "Computer History Museum：Fairchildren",
+        "url": "https://computerhistory.org/fairchildren/",
+        "type": "博物馆历史资料",
+        "date": "历史资料",
+        "notes": "1957 年 Fairchild 及 1960 年代半导体创业谱系；并非竞业法因果检验。"
+      },
+      {
+        "id": "C01",
+        "title": "人社部：企业实施竞业限制合规指引",
+        "url": "https://app.www.gov.cn/govdata/gov/202509/13/536638/article.html",
+        "type": "中国政府指引",
+        "date": "2025-09-04 印发",
+        "notes": "为比较理解提供参照；政策指引与法律、司法解释层级不同。"
+      },
+      {
+        "id": "C02",
+        "title": "最高法：劳动争议司法解释（二）第13—15条",
+        "url": "https://www.ssf.gov.cn/portal/rootfiles/2025/09/01/1758444945387751-1758444945395746.pdf",
+        "type": "司法解释原文转载",
+        "date": "2025",
+        "notes": "未接触保密事项、比例性、在职竞业与违反有效限制的责任。"
+      }
+    ],
+    "glossary": [
+      [
+        "Non-compete / NCA",
+        "竞业限制／不竞争约定",
+        "离职后不得加入竞争者或自行开展竞争业务；各州有效性不同。"
+      ],
+      [
+        "Restrictive covenant",
+        "限制性契约",
+        "总称，可包括竞业、禁止招揽等；不能看到这个标题就认定整份协议无效。"
+      ],
+      [
+        "NDA / Confidentiality",
+        "保密协议／保密义务",
+        "限制披露或使用特定信息。有效的保密义务通常可以在跳槽后延续；过宽条款也可能被审查。"
+      ],
+      [
+        "Trade secret",
+        "商业秘密",
+        "信息须具有因秘密产生的经济价值，并采取合理保密措施；不是公司声称秘密就必然成立。"
+      ],
+      [
+        "Misappropriation",
+        "不当获取、使用或披露／侵占",
+        "保护的是秘密，不是把员工拥有的一切知识都据为己有。记住秘密也不意味着有权拿去使用。"
+      ],
+      [
+        "Non-solicitation",
+        "禁止招揽",
+        "通常针对客户或员工；必须看州法与具体文字，不自动等同可执行的 NDA。"
+      ],
+      [
+        "No-poach / No-hire",
+        "企业之间不挖人／不雇用协议",
+        "竞争雇主之间限制招聘的约定，可能产生反垄断责任；不同于员工向雇主作出的承诺。"
+      ],
+      [
+        "Garden leave",
+        "花园假期／带薪通知期",
+        "员工在通知期内仍受雇但离开业务；与离职后无薪禁业不同，各州也可能专门规制。"
+      ],
+      [
+        "Consideration",
+        "合同对价",
+        "交换承诺所获得的法律价值。新工作、额外利益、继续雇用是否足够，要看州法和签约时点。"
+      ],
+      [
+        "Legitimate business interest",
+        "合法商业利益",
+        "商业秘密、特定客户关系等可能被保护；单纯不希望竞争通常不够。"
+      ],
+      [
+        "Choice of law / Forum",
+        "法律选择／法院或仲裁地",
+        "选哪州法、在哪里解决争议是两个问题；公司注册地也不必然决定适用法。"
+      ],
+      [
+        "Void / Unenforceable / Voidable",
+        "无效／不可执行／可撤销",
+        "结论与救济不同，须读法条。签署、有效、可执行、实际能拿到禁令是不同层次。"
+      ],
+      [
+        "Blue pencil / Reformation",
+        "删改／司法限缩修订",
+        "有些州允许删去或改窄过宽条款，有些州拒绝替雇主重写。"
+      ],
+      [
+        "TRO / Injunction",
+        "临时限制令／禁令",
+        "争议可能先影响入职，再决定最终责任；是否有权申请与法院是否准许并不相同。"
+      ],
+      [
+        "At-will employment",
+        "任意雇佣",
+        "通常可由双方终止雇用的基线，受法定例外约束；不自动消灭离职后的有效义务。"
+      ],
+      [
+        "Vesting / Clawback",
+        "股权归属／追索返还",
+        "未归属股权流失、奖金返还可能影响跳槽成本；不一定是禁业，也不能保证所有设计合法。"
+      ],
+      [
+        "IP assignment / Patent",
+        "知识产权转让／专利",
+        "成果归属、使用专利与能否换雇主是不同问题；不能用竞业失效推导专利可以自由使用。"
+      ],
+      [
+        "Pre-training / Post-training",
+        "预训练／后训练",
+        "前者建立基础模型能力，后者通过指令、偏好、强化学习等改善可用性与行为。"
+      ],
+      [
+        "Alignment / Safety / Security",
+        "对齐／安全性／安全防护",
+        "分别关注目标与行为、风险评估与防护、系统和信息的攻击防御；在公司内部会交叉但不完全等同。"
+      ],
+      [
+        "PM / Engineering / GTM",
+        "产品管理／工程／商业推广",
+        "PM 决定用户问题和优先级；工程实现与运行；GTM 包括销售、市场、方案与客户成功。"
+      ],
+      [
+        "PBC / Nonprofit / Board",
+        "公益公司／非营利机构／董事会",
+        "法律形式、控制与监督机制，不能从一个组织称谓直接推断产品线或员工汇报关系。"
+      ]
+    ]
+  },
+  "state_laws": {
+    "as_of": "2026-11-05",
+    "scope": "50州+DC；普通私营部门离职后竞业的入门定位，非各职业/各历史合同的穷尽审查",
+    "method": "逐州法条/政府说明/原始判决建立索引；旧判例用于一般框架，检索日不是判例日期；未发现全面禁令不等于任何条款可执行。部分官方页面不可抓取，另附法条镜像并标注。",
+    "categories": {
+      "ban": "普通雇佣竞业原则禁止",
+      "limited": "有法定门槛、岗位、形式或期限条件",
+      "reasonableness": "主要依合理性与合法利益审查",
+      "broad_exceptions": "广泛禁止，但管理层等重要例外"
+    },
+    "states": [
+      {
+        "code": "AL",
+        "state_en": "Alabama",
+        "state_zh": "阿拉巴马",
+        "category": "reasonableness",
+        "rule": "允许保护合法商业利益的合理雇员竞业；期限不超过2年有合理性推定。",
+        "caveat": "§8-1-190文字上先禁再列例外，不能仅看开头就列为全面禁止州。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Ala. Code §§8-1-190—197",
+            "url": "https://alison.legislature.state.al.us/code-of-alabama?section=8-1-190",
+            "kind": "primary",
+            "id": "LAL1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "AK",
+        "state_en": "Alaska",
+        "state_zh": "阿拉斯加",
+        "category": "reasonableness",
+        "rule": "普通法合理性审查；善意制定的过宽条款可由法院缩限。",
+        "caveat": "是否有足够对价、范围与雇主利益须逐案判断。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Data Management, Inc. v. Greene, 757 P.2d 62 (Alaska 1988)",
+            "url": "https://law.justia.com/cases/alaska/supreme-court/1988/s-2333-1.html",
+            "kind": "primary",
+            "id": "LAK1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "AZ",
+        "state_en": "Arizona",
+        "state_zh": "亚利桑那",
+        "category": "reasonableness",
+        "rule": "竞业须合理且服务于可保护利益；法院仅可删除可分割过宽文字，不能任意重写。",
+        "caveat": "医生、广播等岗位另查特殊规则；Farber是医生案，公共利益权重很高。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Valley Medical Specialists v. Farber (Ariz. 1999)",
+            "url": "https://www.azcourts.gov/Portals/0/23/pdf1999/cv970488.pdf",
+            "kind": "primary",
+            "id": "LAZ1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "AR",
+        "state_en": "Arkansas",
+        "state_zh": "阿肯色",
+        "category": "reasonableness",
+        "rule": "§4-75-101允许保护商业利益且时间、范围合理的雇员竞业；2年为可反驳合理推定，法院须依法缩限过宽条款。",
+        "caveat": "2025 Act232禁止限制医生执业的竞业，不能把医生禁令扩展为全体AI员工禁令。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Ark. Code §4-75-101",
+            "url": "https://law.justia.com/codes/arkansas/title-4/subtitle-6/chapter-75/subchapter-1/section-4-75-101/",
+            "kind": "primary",
+            "id": "LAR1"
+          },
+          {
+            "title": "Arkansas Act 232 of 2025",
+            "url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2FACT232.pdf",
+            "kind": "primary",
+            "id": "LAR2"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "CA",
+        "state_en": "California",
+        "state_zh": "加利福尼亚",
+        "category": "ban",
+        "rule": "普通雇佣关系离职后竞业原则无效；签字、任职高级或高薪本身不构成例外。",
+        "caveat": "企业出售、合伙等法定例外另论；保密及商业秘密责任仍在。BPC16600不是“竞业补偿到位就可执行”。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Cal. Bus. & Prof. Code §16600",
+            "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16600.&lawCode=BPC",
+            "kind": "primary",
+            "id": "LCA1"
+          },
+          {
+            "title": "§16600法条正文镜像；官方页面抓取403",
+            "url": "https://law.justia.com/codes/california/code-bpc/division-7/part-2/chapter-1/section-16600/",
+            "kind": "primary_mirror",
+            "id": "LCA2"
+          }
+        ],
+        "aliases": "加州 加利福尼亚州"
+      },
+      {
+        "code": "CO",
+        "state_en": "Colorado",
+        "state_zh": "科罗拉多",
+        "category": "limited",
+        "rule": "普通竞业原则禁止；高薪且为保护商业秘密、范围必要者才可能有效，并须独立书面通知。2026高薪门槛$130,014。",
+        "caveat": "招揽客户条款另用高薪门槛60%；签署与执行时薪酬、通知时点、2025医护修法均需另核。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "C.R.S. §8-2-113，2026州法汇编",
+            "url": "https://olls.info/crs/crs2026-title-08.htm",
+            "kind": "primary",
+            "id": "LCO1"
+          },
+          {
+            "title": "2026 COMPS & PAYCALC official INFO #1",
+            "url": "https://cdle.colorado.gov/sites/cdle/files/info_%231_2026_comps_%26_paycalc_orders_12.18.25.pdf",
+            "kind": "primary",
+            "id": "LCO2"
+          }
+        ],
+        "aliases": "科州 科罗拉多州"
+      },
+      {
+        "code": "CT",
+        "state_en": "Connecticut",
+        "state_zh": "康涅狄格",
+        "category": "reasonableness",
+        "rule": "一般采用普通法合理性审查：期限、地区、雇主利益、员工谋生与公众利益。",
+        "caveat": "2026 HB5492属于立法提案检索项，不能以bill analysis写明的拟生效日当作已立法；医生等有专法。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Scott v. General Iron & Welding Co., 171 Conn.132 (1976)",
+            "url": "https://law.justia.com/cases/connecticut/supreme-court/1976/171-conn-132-2.html",
+            "kind": "primary",
+            "id": "LCT1"
+          },
+          {
+            "title": "2026 HB5492 bill status",
+            "url": "https://prdext3.cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?bill_num=HB5492&selBillType=Bill",
+            "kind": "primary",
+            "id": "LCT2"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "DE",
+        "state_en": "Delaware",
+        "state_zh": "特拉华",
+        "category": "reasonableness",
+        "rule": "一般可执行合理竞业，但法院可拒绝修补过宽、谈判与对价失衡的条款。",
+        "caveat": "在特拉华注册并不自动使外州工作员工适用特拉华法；LLC股权内夹带条款也受实质审查。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Sunder Energy, LLC v. Jackson (Del. Dec.10,2024)",
+            "url": "https://law.justia.com/cases/delaware/supreme-court/2024/455-2023.html",
+            "kind": "primary",
+            "id": "LDE1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "DC",
+        "state_en": "District of Columbia",
+        "state_zh": "哥伦比亚特区（非州）",
+        "category": "limited",
+        "rule": "2026通常禁止低于$162,164年薪者竞业；符合高薪定义者仍须书面范围、地区、提前14日通知，普通期限不超过365日。",
+        "caveat": "医学专科人员门槛$270,274、期限最多730日；旧协议日期及主要工作地另核。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "DC DOES 2026 Ban on Non-Compete Clauses notice",
+            "url": "https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/2026%20Ban%20on%20Non-Compete%20Clauses_0.pdf",
+            "kind": "primary",
+            "id": "LDC1"
+          }
+        ],
+        "aliases": "华盛顿特区 华府"
+      },
+      {
+        "code": "FL",
+        "state_en": "Florida",
+        "state_zh": "佛罗里达",
+        "category": "reasonableness",
+        "rule": "§542.335通常允许保护合法商业利益的合理竞业；2025 CHOICE Act另为符合定义的高薪人员提供更强执行机制。",
+        "caveat": "CHOICE可达4年；工资须超过相关县年平均工资2倍且满足其他定义、通知等条件。普通§542.335并无统一薪资门槛。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Fla. Stat. Ch.542 (2026), §§542.335,542.41—45",
+            "url": "https://www.flsenate.gov/Laws/Statutes/2026/Chapter542/All",
+            "kind": "primary",
+            "id": "LFL1"
+          },
+          {
+            "title": "Fla.Stat.§542.43 covered employee/agreement definitions",
+            "url": "https://www.flsenate.gov/Laws/Statutes/2026/542.43",
+            "kind": "primary",
+            "id": "LFL2"
+          }
+        ],
+        "aliases": "佛州 佛罗里达州"
+      },
+      {
+        "code": "GA",
+        "state_en": "Georgia",
+        "state_zh": "佐治亚",
+        "category": "limited",
+        "rule": "书面合理竞业可针对销售、管理、关键员工或专业人员等法定岗位。",
+        "caveat": "不是任何普通员工都能被离职后竞业约束；法院可缩限但不能增加原有限制。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "O.C.G.A. §13-8-53",
+            "url": "https://www.legis.ga.gov/api/document/docs/default-source/joint-features-document-library/t13-%28v11%29-pdf.pdf",
+            "kind": "primary",
+            "id": "LGA1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "HI",
+        "state_en": "Hawaii",
+        "state_zh": "夏威夷",
+        "category": "limited",
+        "rule": "对法定technology business员工，竞业和挖同事型nonsolicit条款原则无效。",
+        "caveat": "技术企业按主要收入来源定义；一般企业及商业秘密例外另审，不能把全州都说成全面禁止。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Haw. Rev. Stat. §480-4(d)",
+            "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0480/HRS_0480-0004.htm",
+            "kind": "primary",
+            "id": "LHI1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "ID",
+        "state_en": "Idaho",
+        "state_zh": "爱达荷",
+        "category": "limited",
+        "rule": "关键员工/关键独立承包人可签合理书面竞业；18个月以内有合理性推定，超过须额外对价。",
+        "caveat": "最高薪5%为关键员工的可反驳推定，不是统一美元收入门槛。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Idaho Code §§44-2701,44-2704",
+            "url": "https://law.justia.com/codes/idaho/title-44/chapter-27/section-44-2704/",
+            "kind": "primary",
+            "id": "LID1"
+          },
+          {
+            "title": "§44-2701法条正文镜像",
+            "url": "https://law.justia.com/codes/idaho/title-44/chapter-27/section-44-2701/",
+            "kind": "primary_mirror",
+            "id": "LID2"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "IL",
+        "state_en": "Illinois",
+        "state_zh": "伊利诺伊",
+        "category": "limited",
+        "rule": "2026须年收入超过$75,000才可订竞业，且须足够对价、合法利益、合理范围及书面告知咨询律师、14日审阅。",
+        "caveat": "2027-01-01门槛升至$80,000；招揽客户/同事另有更低门槛；2年任职或其他足够对价不是全国通例。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Illinois Freedom to Work Act, 820 ILCS90",
+            "url": "https://www.ilga.gov/documents/legislation/ilcs/documents/082000900K10.htm",
+            "kind": "primary",
+            "id": "LIL1"
+          },
+          {
+            "title": "820 ILCS90 full act; §§15/20 information and consideration",
+            "url": "https://ilga.gov/Legislation/ILCS/Articles?ActID=3737&ChapterID=68&Print=True",
+            "kind": "primary",
+            "id": "LIL2"
+          }
+        ],
+        "aliases": "伊州 伊利诺伊州"
+      },
+      {
+        "code": "IN",
+        "state_en": "Indiana",
+        "state_zh": "印第安纳",
+        "category": "reasonableness",
+        "rule": "合理性审查；法院可删除可分割过宽文字，但不得添加新词重写条款。",
+        "caveat": "合同写“法院可修改”也不能扩大法院的blue-pencil权限；医护另有专项限制。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Heraeus Medical, LLC v. Zimmer, Inc. (Ind.2019)",
+            "url": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=axcOT1sdD3L0ru8H7QFgOTgwCrBSAL-hZqcd3hqNJDcLJEXSc402qN73OQgnyl3J0",
+            "kind": "primary",
+            "id": "LIN1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "IA",
+        "state_en": "Iowa",
+        "state_zh": "艾奥瓦",
+        "category": "reasonableness",
+        "rule": "一般按雇主保护必要性、员工权利、公众利益三要素审查，举证责任在雇主。",
+        "caveat": "2026 HF2254针对University of Iowa Hospitals and Clinics特定医护合同另设禁止，非全州普通员工禁令。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Iowa Court of Appeals: noncompete三要素判决",
+            "url": "https://www.iowacourts.gov/courtcases/15906/embed/CourtAppealsOpinion",
+            "kind": "primary",
+            "id": "LIA1"
+          },
+          {
+            "title": "2026 Iowa Acts Ch.1173 (HF2254)",
+            "url": "https://www.legis.iowa.gov/docs/publications/iactc/91.2/CH1173.pdf",
+            "kind": "primary",
+            "id": "LIA2"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "KS",
+        "state_en": "Kansas",
+        "state_zh": "堪萨斯",
+        "category": "reasonableness",
+        "rule": "普通雇员竞业仍重合理性及公共利益；2025 SB241/2026§50-163强化若干nonsolicit和对过宽条款的修正机制。",
+        "caveat": "nonsolicit法定执行推定不等于一切禁止去竞争对手的条款都自动有效；2026 HB2650未成法。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "K.S.A. §50-163 (2026)；Weber/Ristow判例",
+            "url": "https://www.kslegislature.gov/b2023_24/laws/050_000_0000_chapter/050_001_0000_article/050_001_0063_section/050_001_0063_k/",
+            "kind": "primary",
+            "id": "LKS1"
+          },
+          {
+            "title": "Allen, Gibbs & Houlik v.Ristow (Kan.App.2004)",
+            "url": "https://law.justia.com/cases/kansas/court-of-appeals/2004/90879.html",
+            "kind": "primary",
+            "id": "LKS2"
+          },
+          {
+            "title": "2026 HB2650 status: Died",
+            "url": "https://www.kslegislature.gov/b2025_26/bills/HB2650/",
+            "kind": "primary",
+            "id": "LKS3"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "KY",
+        "state_en": "Kentucky",
+        "state_zh": "肯塔基",
+        "category": "reasonableness",
+        "rule": "一般须合理限制及足够对价；仅让已任职多年员工补签而不提供新利益，可能欠缺对价。",
+        "caveat": "Creech案属具体事实判断，不能概括成所有继续雇佣一律无对价。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Creech, Inc. v. Brown (Ky.2014)",
+            "url": "https://law.justia.com/cases/kentucky/supreme-court/2014/2012-sc-000651-dg.html",
+            "kind": "primary",
+            "id": "LKY1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "LA",
+        "state_en": "Louisiana",
+        "state_zh": "路易斯安那",
+        "category": "limited",
+        "rule": "§23:921在法定例外内允许雇员竞业；通常须明确列出雇主实际经营的parish/municipality，离职后不超过2年。",
+        "caveat": "2026 Act150另禁实习生/学徒竞业；合同中外州法/法院条款亦有特别限制。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "La.R.S.23:921",
+            "url": "https://www.legis.la.gov/Legis/Law.aspx?d=84015",
+            "kind": "primary",
+            "id": "LLA1"
+          },
+          {
+            "title": "2026 Act150 (HB315)",
+            "url": "https://legis.la.gov/Legis/ViewDocument.aspx?d=1475140",
+            "kind": "primary",
+            "id": "LLA2"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "ME",
+        "state_en": "Maine",
+        "state_zh": "缅因",
+        "category": "limited",
+        "rule": "≤联邦个人贫困线400%收入者不得签竞业；其他也须必要且合理，并提前3个工作日交协议。",
+        "caveat": "通常入职1年或签后6个月取较晚才生效；2026医护修法及2027法条分支需按日期读。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "26 M.R.S.§599-A，含2026更新",
+            "url": "https://www.legis.maine.gov/legis/statutes/26/title26sec599-A.html",
+            "kind": "primary",
+            "id": "LME1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "MD",
+        "state_en": "Maryland",
+        "state_zh": "马里兰",
+        "category": "limited",
+        "rule": "收入≤州最低工资150%的员工，限制到同类企业工作或自营的条款无效。",
+        "caveat": "直接诊疗的持照医护≤$350,000及兽医等另有禁止/限期规则；客户名单保密另论。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Md.Lab.& Empl.§3-716",
+            "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gle&section=3-716",
+            "kind": "primary",
+            "id": "LMD1"
+          }
+        ],
+        "aliases": "马州 马里兰州"
+      },
+      {
+        "code": "MA",
+        "state_en": "Massachusetts",
+        "state_zh": "马萨诸塞",
+        "category": "limited",
+        "rule": "符合§24L的合理竞业通常最多12个月，须书面、提前通知、咨询律师权利，及garden leave或双方另约对价。",
+        "caveat": "加班不豁免员工、学生实习、≤18岁、无因解雇/裁员等不得执行；法定garden leave为既往最高基础工资至少50%，但有替代对价。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Mass.Gen.Laws ch.149 §24L",
+            "url": "https://malegislature.gov/Laws/GeneralLaws/Parti/Titlexxi/Chapter149/Section24L",
+            "kind": "primary",
+            "id": "LMA1"
+          }
+        ],
+        "aliases": "麻省 马萨诸塞州"
+      },
+      {
+        "code": "MI",
+        "state_en": "Michigan",
+        "state_zh": "密歇根",
+        "category": "reasonableness",
+        "rule": "§445.774a允许保护合理竞争利益、且时间/地域/工作类型合理的竞业；法院可缩限。",
+        "caveat": "禁止法案的提出与立法分析不是现行法。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "MCL445.774a",
+            "url": "https://archive.legislature.mi.gov/documents/mcl/pdf/mcl-445-774a.pdf",
+            "kind": "primary",
+            "id": "LMI1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "MN",
+        "state_en": "Minnesota",
+        "state_zh": "明尼苏达",
+        "category": "ban",
+        "rule": "2023-07-01起订立的雇佣竞业原则无效，包括独立承包人。",
+        "caveat": "旧协议不是一律追溯无效；售企/解散例外，NDA与nonsolicit不属该条定义。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Minn.Stat.§181.988",
+            "url": "https://www.revisor.mn.gov/statutes/cite/181.988",
+            "kind": "primary",
+            "id": "LMN1"
+          },
+          {
+            "title": "2023 MN Session Law Ch53 Article6 effective date",
+            "url": "https://www.revisor.mn.gov/laws/2023/0/53/laws.11.42.0",
+            "kind": "primary",
+            "id": "LMN2"
+          }
+        ],
+        "aliases": "明州 明尼苏达州"
+      },
+      {
+        "code": "MS",
+        "state_en": "Mississippi",
+        "state_zh": "密西西比",
+        "category": "reasonableness",
+        "rule": "普通法合理性和衡平审查；无因解除等事实可能使竞业不能执行。",
+        "caveat": "Empiregas/Bain否定具体无因解雇后的执行，不能不读合同就假定有效。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Empiregas, Inc.of Kosciusko v.Bain,599 So.2d971 (Miss.1992)",
+            "url": "https://law.justia.com/cases/mississippi/supreme-court/1992/89-ca-0059-1.html",
+            "kind": "primary",
+            "id": "LMS1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "MO",
+        "state_en": "Missouri",
+        "state_zh": "密苏里",
+        "category": "reasonableness",
+        "rule": "通常允许保护商业秘密或客户关系的合理竞业；过宽客户限制可经法院缩限。",
+        "caveat": "单独员工nonsolicit还有§431.202，不可把它直接等同于所有竞业。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Whelan Security Co.v.Kennebrew, SC92291 (Mo.2012)",
+            "url": "https://www.courts.mo.gov/file/OSummary_SC92291.pdf",
+            "kind": "primary",
+            "id": "LMO1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "MT",
+        "state_en": "Montana",
+        "state_zh": "蒙大拿",
+        "category": "reasonableness",
+        "rule": "§28-2-703禁止绝对职业限制；判例对部分限制（如服务旧客户的合理付费义务）做合理性审查。",
+        "caveat": "虽法条措辞近似CA，也不能简单列为全面禁止州；2026医生禁令另查。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "MCA§28-2-703；Junkermier v.Alborn,2016 MT218",
+            "url": "https://mca.legmt.gov/bills/mca/title_0280/chapter_0020/part_0070/section_0030/0280-0020-0070-0030.html",
+            "kind": "primary",
+            "id": "LMT1"
+          },
+          {
+            "title": "Junkermier v.Alborn,2016 MT218",
+            "url": "https://law.justia.com/cases/montana/supreme-court/2016/da-15-0605.html",
+            "kind": "primary",
+            "id": "LMT2"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "NE",
+        "state_en": "Nebraska",
+        "state_zh": "内布拉斯加",
+        "category": "reasonableness",
+        "rule": "只保护免受不公平竞争的合法利益；限制须必要合理，法院一般不会替雇主重写过宽竞业。",
+        "caveat": "单纯防止普通竞争、限制员工已赚取资金用途不足以构成合法利益。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Gaver v.Schneider’s O.K.Tire Co.,289 Neb.491 (2014)",
+            "url": "https://law.justia.com/cases/nebraska/supreme-court/2014/s-13-1014.html",
+            "kind": "primary",
+            "id": "LNE1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "NV",
+        "state_en": "Nevada",
+        "state_zh": "内华达",
+        "category": "limited",
+        "rule": "仅按小时工资付薪者不得适用竞业；其他须有价值对价且必要合理、不造成过分困难。",
+        "caveat": "裁员/重组时通常仅在继续给付工资福利等补偿期间可执行；客户主动跟随受到保护。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "NRS613.195",
+            "url": "https://www.leg.state.nv.us/division/legal/lawlibrary/NRS/NRS-613.html",
+            "kind": "primary",
+            "id": "LNV1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "NH",
+        "state_en": "New Hampshire",
+        "state_zh": "新罕布什尔",
+        "category": "limited",
+        "rule": "小时工资≤联邦最低工资200%者，离职后竞业无效；新员工须接受offer前收到竞业文本。",
+        "caveat": "联邦最低工资变化会影响门槛；高于门槛仍需普通法合理性审查。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "RSA275:70、275:70-a",
+            "url": "https://gc.nh.gov/rsa/html/xxiii/275/275-70-a.htm",
+            "kind": "primary",
+            "id": "LNH1"
+          },
+          {
+            "title": "RSA275:70 offer前披露",
+            "url": "https://www.gc.nh.gov/rsa/html/XXIII/275/275-70.htm",
+            "kind": "primary",
+            "id": "LNH2"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "NJ",
+        "state_en": "New Jersey",
+        "state_zh": "新泽西",
+        "category": "reasonableness",
+        "rule": "普通法要求保护雇主合法利益、不对员工造成过分困难、不伤害公众；可部分执行。",
+        "caveat": "全面禁止提案不等于现行禁止；本表按Solari合理性框架。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Solari Industries, Inc.v.Malady,55 N.J.571 (1970)",
+            "url": "https://law.justia.com/cases/new-jersey/supreme-court/1970/55-n-j-571-0.html",
+            "kind": "primary",
+            "id": "LNJ1"
+          }
+        ],
+        "aliases": "新泽西州 新州"
+      },
+      {
+        "code": "NM",
+        "state_en": "New Mexico",
+        "state_zh": "新墨西哥",
+        "category": "reasonableness",
+        "rule": "一般普通雇佣竞业适用合理性与公共利益审查。",
+        "caveat": "医护非竞业专法已改变历史医生案例适用；不得拿1966医生结果直接处理现行医护合同。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Lovelace Clinic v.Murphy,76 N.M.645 (1966)，一般原则历史来源",
+            "url": "https://law.justia.com/cases/new-mexico/supreme-court/1966/8048-0.html",
+            "kind": "primary",
+            "id": "LNM1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "NY",
+        "state_en": "New York",
+        "state_zh": "纽约",
+        "category": "reasonableness",
+        "rule": "一般允许保护合法利益且范围合理、不造成过分困难、不损害公众的竞业。",
+        "caveat": "2026 S9759通过州参议院，但检索日仍在Assembly委员会，不能说已全面禁止。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "New York Attorney General noncompete guidance",
+            "url": "https://ag.ny.gov/resources/individuals/workers-rights/noncompete-agreements",
+            "kind": "primary",
+            "id": "LNY1"
+          },
+          {
+            "title": "S9759官方状态",
+            "url": "https://www.nysenate.gov/legislation/bills/2025/S9759",
+            "kind": "primary",
+            "id": "LNY2"
+          }
+        ],
+        "aliases": "纽约州 纽约"
+      },
+      {
+        "code": "NC",
+        "state_en": "North Carolina",
+        "state_zh": "北卡罗来纳",
+        "category": "reasonableness",
+        "rule": "须书面签署并具备有效对价、合理范围、合法利益；法院可删可分割文字，但不能依合同授权重写。",
+        "caveat": "入职后补签是否有新对价非常重要；售企与雇佣的审查强度不同。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "N.C.G.S.§75-4；Beverage Systems (N.C.2016)",
+            "url": "https://house.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_75/GS_75-4.html",
+            "kind": "primary",
+            "id": "LNC1"
+          },
+          {
+            "title": "Beverage Systems v.Associated Beverage Repair (N.C.2016)",
+            "url": "https://law.justia.com/cases/north-carolina/supreme-court/2016/316a14.html",
+            "kind": "primary",
+            "id": "LNC2"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "ND",
+        "state_en": "North Dakota",
+        "state_zh": "北达科他",
+        "category": "ban",
+        "rule": "§9-08-06原则否定限制合法职业、行业、业务的合同。",
+        "caveat": "商业出售商誉、解散等法定例外另论；商业秘密法律仍保护。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "N.D.Cent.Code§9-08-06",
+            "url": "https://ndlegis.gov/cencode/t09c08.pdf",
+            "kind": "primary",
+            "id": "LND1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "OH",
+        "state_en": "Ohio",
+        "state_zh": "俄亥俄",
+        "category": "reasonableness",
+        "rule": "Raimonde框架要求限制不超过雇主保护所需、不造成过分困难、不损害公众；可按个案修正。",
+        "caveat": "有期限或地域条款本身不保证合理；普通技能经验与商业秘密区分。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Kross Acquisition Co.v.Groundworks Ohio (Ohio App.2024)，引用Raimonde",
+            "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2024/c-230272.html",
+            "kind": "primary",
+            "id": "LOH1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "OK",
+        "state_en": "Oklahoma",
+        "state_zh": "俄克拉何马",
+        "category": "ban",
+        "rule": "§15-219A允许离职员工到相同或类似行业工作；相冲突竞业无效。",
+        "caveat": "直接招揽原雇主既有客户有特别限制；出售业务等另论。不要把禁竞业理解成允许带走客户名单。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "15 O.S.§219A",
+            "url": "https://law.justia.com/codes/oklahoma/title-15/section-15-219a/",
+            "kind": "primary",
+            "id": "LOK1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "OR",
+        "state_en": "Oregon",
+        "state_zh": "俄勒冈",
+        "category": "limited",
+        "rule": "一般须exempt薪资身份、2026离职年薪及佣金超过$119,541、提前通知/真实晋升、合法利益及离职后30日副本；最长12个月。",
+        "caveat": "雇主按法定比例继续支付可豁免部分身份/收入条件；2022前协议与医护另有不同。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Oregon BOLI Noncompetition Agreements / ORS653.295",
+            "url": "https://www.oregon.gov/boli/employers/Pages/noncompetition-agreements.aspx",
+            "kind": "primary",
+            "id": "LOR1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "PA",
+        "state_en": "Pennsylvania",
+        "state_zh": "宾夕法尼亚",
+        "category": "reasonableness",
+        "rule": "合理且有足够对价的竞业可执行；入职后才订立且开始时未就条款达成合意者，可能须新对价。",
+        "caveat": "2025-01-01生效的Act74对特定医护另有限制，不是普通AI员工全面禁令。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Rullex Co.v.Tel-Stream (Pa.2020)",
+            "url": "https://www.pacourts.us/assets/opinions/Supreme/out/j-11-2020mo%20-%20104455503102849192.pdf",
+            "kind": "primary",
+            "id": "LPA1"
+          },
+          {
+            "title": "Pennsylvania 2024 Act74",
+            "url": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?ActNum=0074.&SessInd=0&SessYr=2024&txtType=PDF",
+            "kind": "primary",
+            "id": "LPA2"
+          }
+        ],
+        "aliases": "宾州 宾夕法尼亚州"
+      },
+      {
+        "code": "RI",
+        "state_en": "Rhode Island",
+        "state_zh": "罗得岛",
+        "category": "limited",
+        "rule": "FLSA非豁免员工、在校实习生、≤18岁者及≤个人贫困线250%收入者，不得执行竞业。",
+        "caveat": "其他员工仍需普通法合理性；NDA与nonsolicit在此法定义外。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "R.I.Gen.Laws§§28-59-2、28-59-3",
+            "url": "https://webserver.rilegislature.gov/statutes/title28/28-59/28-59-3.HTM",
+            "kind": "primary",
+            "id": "LRI1"
+          },
+          {
+            "title": "§28-59-2 definitions",
+            "url": "https://webserver.rilegislature.gov/statutes/title28/28-59/28-59-2.HTM",
+            "kind": "primary",
+            "id": "LRI2"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "SC",
+        "state_en": "South Carolina",
+        "state_zh": "南卡罗来纳",
+        "category": "reasonableness",
+        "rule": "雇主合法利益、时间地域合理、员工谋生、公共政策及对价均须满足；条款从严解释。",
+        "caveat": "不要假定法院会替雇主全面重写过宽条款；保密和发明归属与竞业另审。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Milliken & Co.v.Morin,SC Court of Appeals opinion4610",
+            "url": "https://www.sccourts.org/media/opinions/HTMLFiles/COA/4610.htm",
+            "kind": "primary",
+            "id": "LSC1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "SD",
+        "state_en": "South Dakota",
+        "state_zh": "南达科他",
+        "category": "limited",
+        "rule": "§53-9-11允许符合地区与经营条件的竞业，离职后期限不超过2年。",
+        "caveat": "2026法及§53-9-11.2对医护/社区服务另设例外。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "S.D.Codified Laws§53-9-11",
+            "url": "https://sdlegislature.gov/Statutes/53-9-11",
+            "kind": "primary",
+            "id": "LSD1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "TN",
+        "state_en": "Tennessee",
+        "state_zh": "田纳西",
+        "category": "limited",
+        "rule": "2026-07-01生效新法禁止向年化薪酬低于$70,000的员工要求或执行竞业；员工/承包人2年以内期限有可反驳合理性推定。",
+        "caveat": "高薪不表示条款自动有效；新法适用协议/程序日期应读Public Chapter934，NDA与nonsolicit另论。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "2026 Tenn.Pub.Acts Ch.934 (HB1034) official history & adopted amendment summary",
+            "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB1034&ga=114",
+            "kind": "primary",
+            "id": "LTN1"
+          },
+          {
+            "title": "Public Chapter934原文PDF（抓取403；可人工下载）",
+            "url": "https://publications.tnsosfiles.com/acts/114/pub/pc0934.pdf",
+            "kind": "primary",
+            "id": "LTN2"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "TX",
+        "state_en": "Texas",
+        "state_zh": "得克萨斯",
+        "category": "reasonableness",
+        "rule": "§15.50允许附属于其他可执行协议、且时间/地域/活动范围合理、不过度保护商誉或商业利益的竞业。",
+        "caveat": "2025-09-01医护修法仅针对医生、护士、牙医、PA等；不要误说得州2025起全面禁止竞业。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Tex.Bus.& Com.Code§15.50；2025 SB1318",
+            "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01318F.htm",
+            "kind": "primary",
+            "id": "LTX1"
+          }
+        ],
+        "aliases": "德州 得州 德克萨斯州 得克萨斯州"
+      },
+      {
+        "code": "UT",
+        "state_en": "Utah",
+        "state_zh": "犹他",
+        "category": "limited",
+        "rule": "普通员工离职后竞业最长1年，且仍须满足普通法；超期无效。",
+        "caveat": "2026-05-06新法新增医疗和兽医等专门禁令/例外；真实离职和售企协议另审。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Utah Code§34-51-201 (effective2026-05-06)",
+            "url": "https://le.utah.gov/xcode/Title34/Chapter51/C34-51-S201_2026050620260506.pdf",
+            "kind": "primary",
+            "id": "LUT1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "VT",
+        "state_en": "Vermont",
+        "state_zh": "佛蒙特",
+        "category": "reasonableness",
+        "rule": "一般采用合理性及公共利益审查；继续at-will雇佣可构成对价。",
+        "caveat": "继续雇佣能否作为对价各州不同，不能把Vermont规则套全国。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Summits7,Inc.v.Kelly,2005 VT97",
+            "url": "https://law.justia.com/cases/vermont/supreme-court/2005/2004-242op.html",
+            "kind": "primary",
+            "id": "LVT1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "VA",
+        "state_en": "Virginia",
+        "state_zh": "弗吉尼亚",
+        "category": "limited",
+        "rule": "低工资员工及FLSA加班保护员工不得竞业；2026平均周薪门槛为$1,507.01。2026-07-01起无因解雇又未给离职金/其他款项者不可执行。",
+        "caveat": "医护新增禁止；薪酬主要来自销售佣金、奖励等有定义例外；高薪一般还需严格合理性审查。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Va.Code§40.1-28.7:8 (2026)",
+            "url": "https://law.lis.virginia.gov/vacode/title40.1/chapter4/section40.1-28.7%3A8/",
+            "kind": "primary",
+            "id": "LVA1"
+          },
+          {
+            "title": "DOLI 2026 weekly wage notice",
+            "url": "https://doli.virginia.gov/2026/01/06/notice-of-the-average-weekly-wage-for-2026/",
+            "kind": "primary",
+            "id": "LVA2"
+          }
+        ],
+        "aliases": "弗州 弗吉尼亚州"
+      },
+      {
+        "code": "WA",
+        "state_en": "Washington",
+        "state_zh": "华盛顿",
+        "category": "limited",
+        "rule": "2026员工须年收入>$126,858.83、独立承包人>$317,147.09才可能竞业；另须通知、对价、合理期限等。",
+        "caveat": "2026 ESHB1155已通过，但全面禁止要到2027-06-30生效；当下不能提前套用。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "RCW49.62；WA L&I 2026 thresholds",
+            "url": "https://www.lni.wa.gov/workers-rights/workplace-policies/non-compete-agreements",
+            "kind": "primary",
+            "id": "LWA1"
+          },
+          {
+            "title": "ESHB1155,Ch149 Laws2026; effective2027-06-30",
+            "url": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Session%20Laws/House/1155-S.SL.pdf",
+            "kind": "primary",
+            "id": "LWA2"
+          }
+        ],
+        "aliases": "华州 华盛顿州"
+      },
+      {
+        "code": "WV",
+        "state_en": "West Virginia",
+        "state_zh": "西弗吉尼亚",
+        "category": "reasonableness",
+        "rule": "雇主须先证明条款表面合理且有可保护利益；员工可说明不需限制、需缩限或投资已收回。",
+        "caveat": "明显过宽、仅为吓阻员工的条款应无效，医师等另有专法。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Reddy v.Community Health Foundation,171 W.Va.368 (1982)",
+            "url": "https://law.justia.com/cases/west-virginia/supreme-court/1982/15453-4.html",
+            "kind": "primary",
+            "id": "LWV1"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "WI",
+        "state_en": "Wisconsin",
+        "state_zh": "威斯康星",
+        "category": "reasonableness",
+        "rule": "§103.465仅允许为保护雇主合理必要的限制；不可分割条款如不合理，合理部分也可能不能保留。",
+        "caveat": "不能假定法院会像某些州那样重写救活过宽条款。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Wis.Stat.§103.465",
+            "url": "https://docs.legis.wisconsin.gov/statutes/statutes/103/465",
+            "kind": "primary",
+            "id": "LWI1"
+          },
+          {
+            "title": "法条及判例注释镜像；官方抓取超时",
+            "url": "https://law.justia.com/codes/wisconsin/chapter-103/section-103-465/",
+            "kind": "primary_mirror",
+            "id": "LWI2"
+          }
+        ],
+        "aliases": ""
+      },
+      {
+        "code": "WY",
+        "state_en": "Wyoming",
+        "state_zh": "怀俄明",
+        "category": "broad_exceptions",
+        "rule": "2025-07-01起新订竞业广泛禁止，但高管、管理人员及其专业支持人员等有重要例外。",
+        "caveat": "另有售企、商业秘密及按比例返还搬迁/教育/培训费例外；不是与加州完全相同的全体员工禁止。",
+        "verified_date": "2026-11-05",
+        "sources": [
+          {
+            "title": "Wyo.Stat.§1-23-108",
+            "url": "https://wyoleg.gov/statutes/compress/title01.pdf",
+            "kind": "primary",
+            "id": "LWY1"
+          }
+        ],
+        "aliases": ""
+      }
+    ],
+    "verification_note": "检索日仅表示本次查阅时间；旧判例用于一般原则索引，不等于2026新判决或穷尽所有职业、历史合同及判例。"
+  },
+  "ai_people": {
+    "as_of": "2026-11-05",
+    "title": "AI 公司公开人员、职能与流动快照",
+    "scope_note": "以下为公开任命、领导页与招聘页面可证明的职能地图，不是完整员工名单或内部汇报组织图。任命公告不一定等于已经到岗；没有公开人数的部门不估算人数。",
+    "case": {
+      "person": "Cat Wu",
+      "from": "Anthropic，Claude Code 产品管理",
+      "to": "OpenAI，核心产品的产品管理",
+      "announcement_date": "2026-11-05",
+      "status": "用户提供的一手截图显示本人宣布将加入 OpenAI；当日媒体报道交叉印证；原 X 页面抓取 403",
+      "evidence": [
+        "user_screenshot",
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "limits": "不能从入职公告推断其工作州、是否签订竞业协议、是否被豁免、是否有花园假或具体离职/到岗日期。截图中的‘将加入’也不证明次日已上班。",
+      "lesson": "Cat 是产品管理负责人；Boris Cherny 是技术建设者。PM 迁移涉及产品方向、用户需求、商业化与协调能力，并不等于搬走模型权重或公司代码。"
+    },
+    "openai": {
+      "governance": "OpenAI Foundation 控制 OpenAI Group PBC；董事会治理与员工管理层是不同层次。",
+      "source": "S04",
+      "people": [
+        {
+          "name": "Sam Altman",
+          "role": "CEO",
+          "evidence": [
+            "S04",
+            "S05"
+          ],
+          "status": "公开在任"
+        },
+        {
+          "name": "Greg Brockman",
+          "role": "Co-Founder & President",
+          "evidence": [
+            "S06",
+            "S11"
+          ],
+          "status": "公开在任"
+        },
+        {
+          "name": "Jakub Pachocki",
+          "role": "Chief Scientist",
+          "evidence": [
+            "S07",
+            "S08"
+          ],
+          "status": "公开在任"
+        },
+        {
+          "name": "Mark Chen",
+          "role": "Chief Research Officer",
+          "evidence": [
+            "S09",
+            "S10"
+          ],
+          "status": "公开在任"
+        },
+        {
+          "name": "Fidji Simo",
+          "role": "CEO of Applications",
+          "evidence": [
+            "S05",
+            "S12"
+          ],
+          "status": "公开在任"
+        },
+        {
+          "name": "Vijaye Raji",
+          "role": "CTO of Applications",
+          "evidence": [
+            "S13"
+          ],
+          "status": "2025 年公告任命；本次未找到后续变动公告"
+        },
+        {
+          "name": "Sarah Friar",
+          "role": "CFO",
+          "evidence": [
+            "S14",
+            "S15"
+          ],
+          "status": "2026 年官方活动确认"
+        },
+        {
+          "name": "Arvind KC",
+          "role": "Chief People Officer",
+          "evidence": [
+            "S12"
+          ],
+          "status": "2026-02-24 任命；替代旧资料中的 Julia Villagra"
+        },
+        {
+          "name": "Dali Rajic",
+          "role": "Chief Revenue Officer",
+          "evidence": [
+            "S11"
+          ],
+          "status": "2026-08-13 宣布加入；接替 Denise Dresser"
+        },
+        {
+          "name": "Chris Lehane",
+          "role": "Chief Global Affairs Officer",
+          "evidence": [
+            "S16"
+          ],
+          "status": "2026-09-09 官方署名确认；不可据旧资料继续认定兼任传播负责人"
+        },
+        {
+          "name": "Jill Hazelbaker",
+          "role": "Chief Corporate Affairs Officer",
+          "evidence": [
+            "S06"
+          ],
+          "status": "2026-11-03 宣布将加入；具体到岗日未披露"
+        },
+        {
+          "name": "Thibault ‘Tibo’ Sottiaux",
+          "role": "Head of Codex / Member of Technical Staff",
+          "evidence": [
+            "S17"
+          ],
+          "status": "2026 年官方活动资料确认；最新核心产品汇报线仅媒体报道"
+        },
+        {
+          "name": "Nick Turley",
+          "role": "VP & Head of ChatGPT（公告所载职衔）",
+          "evidence": [
+            "S18"
+          ],
+          "status": "2025 年官方公告；2026 年媒体报道涉及职责调整，不能把历史职衔当完整现行汇报线"
+        },
+        {
+          "name": "Cat Wu",
+          "role": "核心产品产品管理负责人",
+          "evidence": [
+            "user_screenshot",
+            "S01"
+          ],
+          "status": "2026-11-05 宣布将加入"
+        }
+      ],
+      "historical_corrections": [
+        {
+          "name": "Brad Lightcap",
+          "correction": "2025 年 COO 公告不能用作当前名单。2026-08-11 Axios 报道离开公司；该新闻仅用于提示过期，不据此补造接任 COO。",
+          "evidence": [
+            "S19"
+          ]
+        },
+        {
+          "name": "Kevin Weil",
+          "correction": "2024 年 CPO 任命属于历史记录。2026 年官方活动页面称 VP, OpenAI for Science。",
+          "evidence": [
+            "S14",
+            "S20"
+          ]
+        },
+        {
+          "name": "Julia Villagra",
+          "correction": "2025 年 Chief People Officer 任命已被 2026 年 Arvind KC 任命更新。",
+          "evidence": [
+            "S09",
+            "S12"
+          ]
+        }
+      ]
+    },
+    "anthropic": {
+      "governance": "Anthropic PBC 的股东与 Long-Term Benefit Trust 参与董事选举；治理安排不等同于部门负责人名单。",
+      "source": "S21",
+      "leadership_source": "S22",
+      "people": [
+        {
+          "name": "Dario Amodei",
+          "role": "Co-Founder & CEO"
+        },
+        {
+          "name": "Daniela Amodei",
+          "role": "Co-Founder & President"
+        },
+        {
+          "name": "Tom Brown",
+          "role": "Co-Founder & Chief Compute Officer"
+        },
+        {
+          "name": "Jack Clark",
+          "role": "Co-Founder & Head of Public Benefit"
+        },
+        {
+          "name": "Jared Kaplan",
+          "role": "Co-Founder & Chief Science Officer"
+        },
+        {
+          "name": "Sam McCandlish",
+          "role": "Co-Founder & Chief Architect"
+        },
+        {
+          "name": "Chris Olah",
+          "role": "Co-Founder & Interpretability Research Lead"
+        },
+        {
+          "name": "Mariano-Florentino ‘Tino’ Cuéllar",
+          "role": "Chief Global Affairs Officer"
+        },
+        {
+          "name": "Sasha de Marigny",
+          "role": "Chief Brand and Communications Officer"
+        },
+        {
+          "name": "Brian Israel",
+          "role": "Chief Legal Officer"
+        },
+        {
+          "name": "Rahul Patil",
+          "role": "CTO"
+        },
+        {
+          "name": "Hannah Pritchett",
+          "role": "Chief People Officer"
+        },
+        {
+          "name": "Krishna Rao",
+          "role": "CFO"
+        },
+        {
+          "name": "Paul Smith",
+          "role": "Chief Commercial Officer"
+        },
+        {
+          "name": "Ami Vora",
+          "role": "Chief Product Officer"
+        }
+      ],
+      "other_public_roles": [
+        {
+          "name": "Mike Krieger",
+          "role": "Labs，与 Ben Mann 共建实验性产品",
+          "evidence": [
+            "S23"
+          ],
+          "note": "2024 CPO 职衔为历史；2026-01-13 公告已调整"
+        },
+        {
+          "name": "Jan Leike",
+          "role": "仍在 Anthropic 开展新项目；前 Alignment 团队负责人",
+          "evidence": [
+            "S24"
+          ],
+          "note": "本人网页称至 2026 年初领导 Alignment；不可继续写为现任该团队负责人"
+        },
+        {
+          "name": "Boris Cherny",
+          "role": "Member of Technical Staff / Claude Code 建设者（活动所载）",
+          "evidence": [
+            "S03"
+          ],
+          "note": "只保留官方活动页面可证明的历史身份，不据此认定现行职级"
+        }
+      ]
+    },
+    "function_map": [
+      {
+        "function": "预训练 Pretraining",
+        "work": "以大规模数据训练基础模型；研究数据、训练稳定性、算力效率。",
+        "evidence": [
+          "S25",
+          "S26"
+        ],
+        "note": "研究员设计方法，研究工程师将方法变成可靠的大规模实验；边界常重叠。"
+      },
+      {
+        "function": "后训练 Post-training / RL",
+        "work": "通过微调、反馈与强化学习改善推理、指令遵循和工具使用。",
+        "evidence": [
+          "S25",
+          "S26"
+        ],
+        "note": "不是产品经理调整几个提示词即可替代的独立研究与工程体系。"
+      },
+      {
+        "function": "对齐、可解释性与评估 Alignment / Interpretability / Evals",
+        "work": "研究行为是否符合目标、模型内部机制和能力风险；与产品安全有交叉。",
+        "evidence": [
+          "S24",
+          "S26"
+        ],
+        "note": "不要把所有安全工作合并成一个部门；理论对齐、滥用防护、网络安全是不同问题。"
+      },
+      {
+        "function": "算力、训练与推理基础设施 Compute / Infrastructure / Inference",
+        "work": "数据中心、加速器、网络、分布式训练和在线服务可靠性。",
+        "evidence": [
+          "S27",
+          "S26"
+        ],
+        "note": "AI 公司同时需要电力、机械、电气、建设等工程人才；与化工背景的过程系统思维也存在交集。"
+      },
+      {
+        "function": "产品管理、设计与产品工程 Product Management / Design / Engineering",
+        "work": "PM 确定用户与问题、优先级和成功指标；设计负责交互；工程负责落地。",
+        "evidence": [
+          "S05",
+          "S13",
+          "S23"
+        ],
+        "note": "三类角色协作；Head of Product、CPO 与具体产品 PM 不在同一层级。"
+      },
+      {
+        "function": "销售与商业化 Sales / Go-to-market",
+        "work": "客户获取、企业合同、渠道伙伴与行业落地。",
+        "evidence": [
+          "S11",
+          "S22",
+          "S26"
+        ],
+        "note": "收入负责人、销售和客户成功不等于基础模型研究。"
+      },
+      {
+        "function": "技术成功、客户成功与支持 Technical Success / Customer Success / Support",
+        "work": "部署集成与技术建议；推动客户持续获得价值；排查账户、产品与 API 问题。",
+        "evidence": [
+          "S28",
+          "S26"
+        ],
+        "note": "用户说的‘服务部’可以分别对应这三类，不能只画一个客服框。"
+      },
+      {
+        "function": "政策、法务、安全与公司运营 Policy / Legal / Security / Operations",
+        "work": "监管沟通、合同与知识产权、组织安全、财务、人力和招聘。",
+        "evidence": [
+          "S06",
+          "S12",
+          "S16",
+          "S21",
+          "S22"
+        ],
+        "note": "董事会、法务和政策团队职责不同，不能互相替代。"
+      }
+    ],
+    "product_map": [
+      {
+        "company": "OpenAI",
+        "entry": "ChatGPT；Business / Enterprise / Education；Codex；API Platform",
+        "reader_note": "终端应用、组织套餐和开发者 API 是不同交付方式；产品清单会更新，长期知识库保留入口链接而不固化易过期型号。",
+        "evidence": [
+          "S04",
+          "S25"
+        ]
+      },
+      {
+        "company": "Anthropic",
+        "entry": "Claude 应用；Claude Code；Claude Platform/API；Cowork 等代理体验；MCP/Skills 生态",
+        "reader_note": "MCP 是连接模型与工具/数据的协议，不是一种模型；Labs 孵化实验产品，Product 负责扩展成熟体验。",
+        "evidence": [
+          "S21",
+          "S23",
+          "S26"
+        ]
+      }
+    ],
+    "movement_timeline": [
+      {
+        "date": "2021",
+        "person": "Dario / Daniela Amodei 等联合创始团队",
+        "from": "OpenAI 背景研究与运营团队",
+        "to": "创办 Anthropic",
+        "kind": "创业分流",
+        "evidence": [
+          "S29",
+          "S30"
+        ],
+        "confidence": "高；成立年份与创始名单官方可核，离开动机不以传闻定论"
+      },
+      {
+        "date": "2024-03-19",
+        "person": "Mustafa Suleyman、Karén Simonyan 与部分 Inflection 团队",
+        "from": "Inflection",
+        "to": "Microsoft AI",
+        "kind": "团队招聘并伴随商业安排",
+        "evidence": [
+          "S31"
+        ],
+        "confidence": "高；微软官方公告"
+      },
+      {
+        "date": "2024-05-14 / 2024-06",
+        "person": "Ilya Sutskever",
+        "from": "OpenAI Chief Scientist",
+        "to": "创办 Safe Superintelligence (SSI)",
+        "kind": "创业分流",
+        "evidence": [
+          "S07",
+          "S32",
+          "S33"
+        ],
+        "confidence": "高；离职与 SSI 身份官方证据；成立日不在此填精确日"
+      },
+      {
+        "date": "2024-05",
+        "person": "Jan Leike",
+        "from": "OpenAI Superalignment",
+        "to": "Anthropic",
+        "kind": "研究转职",
+        "evidence": [
+          "S24",
+          "S34"
+        ],
+        "confidence": "高；本人现行履历确认先后关系，2024-05-28 宣布日由当时报导交叉印证"
+      },
+      {
+        "date": "2024-08 / 2025-02",
+        "person": "John Schulman",
+        "from": "OpenAI → Anthropic",
+        "to": "Thinking Machines Lab",
+        "kind": "连续研究转职",
+        "evidence": [
+          "S35",
+          "S36",
+          "S37"
+        ],
+        "confidence": "高；X 公告镜像与当时公司回应报道、TML 官方署名论文互证；不能说至今仍在 Anthropic"
+      },
+      {
+        "date": "2024-08-02",
+        "person": "Noam Shazeer、Daniel De Freitas 及部分研究团队",
+        "from": "Character.AI",
+        "to": "Google",
+        "kind": "人才加入 + 非独家技术许可",
+        "evidence": [
+          "S38"
+        ],
+        "confidence": "高；Reuters 转述公司公告，当前未取得可读取的一手公告；不可写成 Google 全资收购 Character.AI"
+      },
+      {
+        "date": "2025-02",
+        "person": "Mira Murati 与研究工程团队",
+        "from": "OpenAI 等背景",
+        "to": "Thinking Machines Lab",
+        "kind": "创业分流",
+        "evidence": [
+          "S39",
+          "S40"
+        ],
+        "confidence": "高；公司 2026 年公告确认 Mira 为 cofounder & CEO；成立月由当时报道交叉印证"
+      },
+      {
+        "date": "2025-06-12",
+        "person": "Alexandr Wang",
+        "from": "Scale AI",
+        "to": "Meta",
+        "kind": "人才加入 + 少数股权投资",
+        "evidence": [
+          "S41"
+        ],
+        "confidence": "高；Scale 官方公告；Scale 宣称继续独立，不能写成 Meta 全资收购"
+      },
+      {
+        "date": "2026-11-05",
+        "person": "Cat Wu",
+        "from": "Anthropic",
+        "to": "OpenAI",
+        "kind": "产品负责人转职",
+        "evidence": [
+          "user_screenshot",
+          "S01",
+          "S03"
+        ],
+        "confidence": "本人截图与当日媒体互证；公开私有合同与具体到岗日未知"
+      }
+    ],
+    "interpretation": [
+      "个人转职、创业、团队招聘、技术许可与股权收购是不同交易；看到几名创始人加入另一家公司，不足以推出整家公司已被收购。",
+      "人才流动可传播一般经验、研究品味和组织方法；特定训练数据、模型权重、源代码、客户秘密是否受保护，属于另一条法律判断线。",
+      "某员工入职竞争者说明一项公开职业变动发生了，不证明竞业协议不存在，也不证明所有美国州允许同样安排。",
+      "公司注册于 Delaware 不等于所有员工适用 Delaware 雇佣法；公开总部地点也不能替代该员工实际工作地。",
+      "不以单个离职事件判断谁‘赢了’：应同时观察双向流动、岗位类型、时间窗口、研究成果和产品落地。"
+    ],
+    "update_rules": [
+      "为人物记录 name / employer / role / announcement_date / start_date / end_date / verified_at / source_url / evidence_level；未知字段留空。",
+      "现任名单优先读取官方现行领导页，再用新任命公告更新；论文致谢和旧活动页只能证明当时身份。",
+      "‘will join’保持将加入状态；不要自动改成已到岗。媒体报道与本人公告使用不同证据标签。",
+      "保留历史职位；新页面覆盖当前状态，但不删除过去的时间线。",
+      "本次为人工核验快照；页面不会自动追踪人事变化。"
+    ],
+    "sources": [
+      {
+        "id": "S01",
+        "title": "Cat Wu joins OpenAI from Anthropic",
+        "url": "https://www.businessinsider.com/cat-wu-joins-openai-from-anthropic-product-lead-coup-2026-11",
+        "date": "2026-11-05",
+        "type": "reporting"
+      },
+      {
+        "id": "S02",
+        "title": "用户给定 Tibo 转帖原址（抓取 403）",
+        "url": "https://x.com/thsottiaux/status/2118138648214585591",
+        "date": "2026-11-05",
+        "type": "unretrieved_primary"
+      },
+      {
+        "id": "S03",
+        "title": "Anthropic: Claude Code Live 官方活动",
+        "url": "https://resources.anthropic.com/webinar/claude-code-live",
+        "date": null,
+        "type": "primary_historical"
+      },
+      {
+        "id": "S04",
+        "title": "OpenAI: Our structure",
+        "url": "https://openai.com/our-structure/",
+        "date": null,
+        "type": "primary_current"
+      },
+      {
+        "id": "S05",
+        "title": "OpenAI: Leadership expansion with Fidji Simo",
+        "url": "https://openai.com/index/leadership-expansion-with-fidji-simo/",
+        "date": "2025-05-07",
+        "type": "primary"
+      },
+      {
+        "id": "S06",
+        "title": "OpenAI: Jill Hazelbaker appointed",
+        "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer/",
+        "date": "2026-11-03",
+        "type": "primary"
+      },
+      {
+        "id": "S07",
+        "title": "OpenAI: Jakub Pachocki announced Chief Scientist",
+        "url": "https://openai.com/index/jakub-pachocki-announced-as-chief-scientist/",
+        "date": "2024-05-14",
+        "type": "primary"
+      },
+      {
+        "id": "S08",
+        "title": "OpenAI: An Alien Mind, Jakub Pachocki",
+        "url": "https://openai.com/index/an-alien-mind/",
+        "date": "2026-09-06",
+        "type": "primary"
+      },
+      {
+        "id": "S09",
+        "title": "OpenAI: Leadership updates March 2025",
+        "url": "https://openai.com/index/leadership-updates-march-2025/",
+        "date": "2025-03-24",
+        "type": "primary_historical"
+      },
+      {
+        "id": "S10",
+        "title": "OpenAI Forum: Mark Chen and Terence Tao",
+        "url": "https://forum.openai.com/public/videos/event-replay-terence-tao-and-mark-chen-on-ai-and-mathematical-discovery-2026-03-11",
+        "date": "2026-03-04",
+        "type": "primary"
+      },
+      {
+        "id": "S11",
+        "title": "OpenAI: Dali Rajic appointed CRO",
+        "url": "https://openai.com/index/dali-rajic-chief-revenue-officer/",
+        "date": "2026-08-13",
+        "type": "primary"
+      },
+      {
+        "id": "S12",
+        "title": "OpenAI: Arvind KC appointed CPO",
+        "url": "https://openai.com/index/arvind-kc-chief-people-officer/",
+        "date": "2026-02-24",
+        "type": "primary"
+      },
+      {
+        "id": "S13",
+        "title": "OpenAI: Vijaye Raji CTO of Applications",
+        "url": "https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig/",
+        "date": null,
+        "type": "primary"
+      },
+      {
+        "id": "S14",
+        "title": "OpenAI welcomes CFO and CPO",
+        "url": "https://openai.com/index/openai-welcomes-cfo-cpo/",
+        "date": "2024-06-10",
+        "type": "primary_historical"
+      },
+      {
+        "id": "S15",
+        "title": "OpenAI Forum: CFO Sarah Friar",
+        "url": "https://forum.openai.com/en/public/events/openais-cfo-presents-the-future-of-finance-with-university-of-californias-chief-investment-officer-c9x9nn0lx0",
+        "date": null,
+        "type": "primary"
+      },
+      {
+        "id": "S16",
+        "title": "OpenAI: AI policy window",
+        "url": "https://openai.com/index/ai-policy-window/",
+        "date": "2026-09-09",
+        "type": "primary"
+      },
+      {
+        "id": "S17",
+        "title": "OpenAI Forum: Codex is for Everyone, Tibo Sottiaux",
+        "url": "https://forum.openai.com/en/public/events/codex-is-for-everyone-why-codex-matters-beyond-code-fa40puy7wi",
+        "date": null,
+        "type": "primary"
+      },
+      {
+        "id": "S18",
+        "title": "OpenAI acquires Software Applications Incorporated",
+        "url": "https://openai.com/index/openai-acquires-software-applications-incorporated/",
+        "date": null,
+        "type": "primary_historical"
+      },
+      {
+        "id": "S19",
+        "title": "Axios: Brad Lightcap is leaving",
+        "url": "https://www.axios.com/2026/08/11/openai-executive-brad-lightcap-is-leaving",
+        "date": "2026-08-11",
+        "type": "reporting"
+      },
+      {
+        "id": "S20",
+        "title": "OpenAI Forum: Kevin Weil, VP OpenAI for Science",
+        "url": "https://forum.openai.com/en/public/events/hybrid-event-understanding-animals-ai-helps-scientists-interpret-language-across-species-s3dgmg67a2",
+        "date": null,
+        "type": "primary"
+      },
+      {
+        "id": "S21",
+        "title": "Anthropic: Company",
+        "url": "https://www.anthropic.com/company",
+        "date": null,
+        "type": "primary_current"
+      },
+      {
+        "id": "S22",
+        "title": "Anthropic: Leadership",
+        "url": "https://www.anthropic.com/company/leadership",
+        "date": null,
+        "type": "primary_current"
+      },
+      {
+        "id": "S23",
+        "title": "Anthropic: Introducing Labs",
+        "url": "https://www.anthropic.com/news/introducing-anthropic-labs",
+        "date": "2026-01-13",
+        "type": "primary"
+      },
+      {
+        "id": "S24",
+        "title": "Jan Leike: personal biography",
+        "url": "https://jan.leike.name/",
+        "date": null,
+        "type": "primary_current"
+      },
+      {
+        "id": "S25",
+        "title": "OpenAI: Careers search",
+        "url": "https://openai.com/careers/search/",
+        "date": null,
+        "type": "primary_current"
+      },
+      {
+        "id": "S26",
+        "title": "Anthropic: Jobs",
+        "url": "https://www.anthropic.com/careers/jobs",
+        "date": null,
+        "type": "primary_current"
+      },
+      {
+        "id": "S27",
+        "title": "OpenAI: Data Center Design Manager",
+        "url": "https://openai.com/careers/data-center-design-manager-us-remote/",
+        "date": null,
+        "type": "primary_current"
+      },
+      {
+        "id": "S28",
+        "title": "OpenAI: Technical Program Manager Support Delivery",
+        "url": "https://openai.com/careers/technical-program-manager-support-delivery-san-francisco/",
+        "date": null,
+        "type": "primary_current"
+      },
+      {
+        "id": "S29",
+        "title": "Anthropic raises Series A",
+        "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+        "date": "2021-05-28",
+        "type": "primary"
+      },
+      {
+        "id": "S30",
+        "title": "Anthropic raises Series B",
+        "url": "https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai",
+        "date": null,
+        "type": "primary"
+      },
+      {
+        "id": "S31",
+        "title": "Microsoft: Mustafa Suleyman and Karen Simonyan join",
+        "url": "https://blogs.microsoft.com/blog/2024/03/19/mustafa-suleyman-deepmind-and-inflection-co-founder-joins-microsoft-to-lead-copilot/",
+        "date": "2024-03-19",
+        "type": "primary"
+      },
+      {
+        "id": "S32",
+        "title": "SSI: Company",
+        "url": "https://ssi.inc/",
+        "date": null,
+        "type": "primary_current"
+      },
+      {
+        "id": "S33",
+        "title": "SSI: Updates",
+        "url": "https://ssi.inc/updates",
+        "date": "2025-07-03",
+        "type": "primary"
+      },
+      {
+        "id": "S34",
+        "title": "Axios: Jan Leike joins Anthropic",
+        "url": "https://www.axios.com/2024/05/28/openai-safety-lead-joins-anthropic",
+        "date": "2024-05-28",
+        "type": "reporting"
+      },
+      {
+        "id": "S35",
+        "title": "John Schulman departure announcement, preserved X post",
+        "url": "https://threadreaderapp.com/thread/1820610863499509855.html",
+        "date": "2024-08-06",
+        "type": "primary_mirror"
+      },
+      {
+        "id": "S36",
+        "title": "Reuters: Schulman leaves Anthropic",
+        "url": "https://www.investing.com/news/stock-market-news/john-schulman-leaves-ai-startup-anthropic-3852503",
+        "date": "2025-02-06",
+        "type": "reporting_company_response"
+      },
+      {
+        "id": "S37",
+        "title": "Thinking Machines: LoRA without Regret, John Schulman",
+        "url": "https://thinkingmachines.ai/blog/lora/",
+        "date": "2025-09-29",
+        "type": "primary"
+      },
+      {
+        "id": "S38",
+        "title": "Reuters: Character.AI Google licensing deal",
+        "url": "https://www.inc.com/reuters/characterai-signs-licensing-deal-with-google.html",
+        "date": "2024-08-02",
+        "type": "reporting_company_response"
+      },
+      {
+        "id": "S39",
+        "title": "Thinking Machines: NVIDIA partnership, Mira Murati CEO",
+        "url": "https://thinkingmachines.ai/news/nvidia-partnership/",
+        "date": "2026-03-10",
+        "type": "primary"
+      },
+      {
+        "id": "S40",
+        "title": "Reuters: Thinking Machines launch",
+        "url": "https://www.investing.com/news/stock-market-news/former-openai-technology-chief-mira-muratis-ai-startup-taps-top-researchers-from-competitors-3875339",
+        "date": "2025-02-18",
+        "type": "reporting_company_response"
+      },
+      {
+        "id": "S41",
+        "title": "Scale: Alexandr Wang joins Meta",
+        "url": "https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution",
+        "date": "2025-06-12",
+        "type": "primary"
+      }
+    ]
+  },
+  "source_register": [
+    {
+      "id": "F01",
+      "title": "FTC：Noncompete Rule 当前状态",
+      "url": "https://www.ftc.gov/legal-library/browse/rules/noncompete-rule",
+      "type": "联邦监管机构",
+      "date": "动态页面",
+      "notes": "全国规则不生效、不可执行；不要只读旧的规则摘要。"
+    },
+    {
+      "id": "F02",
+      "title": "Federal Register：删除 16 CFR Part 910",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-02-12/pdf/2026-02866.pdf",
+      "type": "联邦正式规则",
+      "date": "2026-02-12",
+      "notes": "91 FR 6507，2026-02866；将已被撤销的竞业规则从 CFR 删除。"
+    },
+    {
+      "id": "F03",
+      "title": "加州总检察长：劳动者流动权利",
+      "url": "https://oag.ca.gov/node/593373",
+      "type": "州政府解释",
+      "date": "2024-10-15",
+      "notes": "BPC §§16600、16600.1、16600.5 与 SB699 / AB1076。"
+    },
+    {
+      "id": "F04",
+      "title": "加州 BPC §16600 原文",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16600.&lawCode=BPC",
+      "type": "州法入口",
+      "date": "现行法入口",
+      "notes": "官方站自动读取遇 403；核心结论由总检察长页面交叉核实。"
+    },
+    {
+      "id": "F05",
+      "title": "加州 Labor Code §925",
+      "url": "https://law.justia.com/codes/california/code-lab/division-2/part-3/chapter-1/section-925/",
+      "type": "州法转载",
+      "date": "2025 编纂版",
+      "notes": "主要居住并工作于加州的雇员、选法与管辖条款；独立律师协商例外。"
+    },
+    {
+      "id": "F06",
+      "title": "18 USC §1839：商业秘密定义",
+      "url": "https://uscode.house.gov/us/usc/119-118/t18/s1839/",
+      "type": "联邦法原文",
+      "date": "现行编纂入口",
+      "notes": "合理保密措施、秘密带来的独立经济价值。"
+    },
+    {
+      "id": "F07",
+      "title": "18 USC §1836：商业秘密民事救济",
+      "url": "https://uscode.house.gov/us/usc/119-124/t18/s1836/",
+      "type": "联邦法原文",
+      "date": "涵盖至 2026-10-15 法律",
+      "notes": "禁令、损害赔偿；就业限制须有受威胁侵占的证据，不能只因员工知道秘密。"
+    },
+    {
+      "id": "F08",
+      "title": "第九巡回法院：Trade Secret — Defined",
+      "url": "https://www3.ce9.uscourts.gov/jury-instructions/node/727",
+      "type": "法院示范陪审团指引",
+      "date": "动态页面",
+      "notes": "一般个人技能、才能与能力并非商业秘密；记忆中的事实仍可能满足秘密要件。"
+    },
+    {
+      "id": "F09",
+      "title": "DOJ / FTC：劳动市场反垄断指引",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/p251201antitrustguidelinesbusinessactivitiesaffectingworkers2025.pdf",
+      "type": "联邦执法指引",
+      "date": "2025-01",
+      "notes": "企业之间的工资合谋与不挖人协议，与员工合同中的限制应区分。指引不是新的联邦竞业禁令。"
+    },
+    {
+      "id": "F10",
+      "title": "DOJ：六家科技公司不招揽协议和解",
+      "url": "https://www.justice.gov/archives/opa/pr/justice-department-requires-six-high-tech-companies-stop-entering-anticompetitive-employee",
+      "type": "联邦执法案例",
+      "date": "2010-09-24",
+      "notes": "Adobe、Apple、Google、Intel、Intuit、Pixar。历史个案，不证明今天的 AI 公司有相同行为。"
+    },
+    {
+      "id": "F11",
+      "title": "FTC：Rollins 竞业限制最终同意令",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-approves-final-consent-order-pest-control-noncompete-matter",
+      "type": "联邦执法案例",
+      "date": "2026-06",
+      "notes": "全国普遍规则撤销后，针对特定公司的执法仍存在。"
+    },
+    {
+      "id": "E01",
+      "title": "Johnson / Lavetti / Lipsitz：劳动市场与流动限制",
+      "url": "https://www.nber.org/papers/w31929",
+      "type": "原始研究工作论文",
+      "date": "2024-12 修订",
+      "notes": "研究发现较强竞业可执行性降低收入与工作流动；不是每个员工的因果预测。"
+    },
+    {
+      "id": "E02",
+      "title": "Johnson / Lipsitz / Pei：创新、发明人流动与竞业限制",
+      "url": "https://www.nber.org/papers/w31487",
+      "type": "原始研究工作论文",
+      "date": "2024-12 修订",
+      "notes": "跨州法律变化研究；讨论研发投入、人才流动、专利与知识扩散。"
+    },
+    {
+      "id": "E03",
+      "title": "费城联储：Michigan experiment 与创业活动",
+      "url": "https://www.philadelphiafed.org/the-economy/regional-economics/do-non-compete-covenants-influence-state-startup-activity-evidence-from-michigan-experiment",
+      "type": "原始研究工作论文",
+      "date": "2021-07",
+      "notes": "未发现创业进入率下降的有力支持，部分就业指标反而上升；提醒不能用单一故事替代研究。"
+    },
+    {
+      "id": "H01",
+      "title": "Computer History Museum：Fairchildren",
+      "url": "https://computerhistory.org/fairchildren/",
+      "type": "博物馆历史资料",
+      "date": "历史资料",
+      "notes": "1957 年 Fairchild 及 1960 年代半导体创业谱系；并非竞业法因果检验。"
+    },
+    {
+      "id": "C01",
+      "title": "人社部：企业实施竞业限制合规指引",
+      "url": "https://app.www.gov.cn/govdata/gov/202509/13/536638/article.html",
+      "type": "中国政府指引",
+      "date": "2025-09-04 印发",
+      "notes": "为比较理解提供参照；政策指引与法律、司法解释层级不同。"
+    },
+    {
+      "id": "C02",
+      "title": "最高法：劳动争议司法解释（二）第13—15条",
+      "url": "https://www.ssf.gov.cn/portal/rootfiles/2025/09/01/1758444945387751-1758444945395746.pdf",
+      "type": "司法解释原文转载",
+      "date": "2025",
+      "notes": "未接触保密事项、比例性、在职竞业与违反有效限制的责任。"
+    },
+    {
+      "id": "S01",
+      "title": "Cat Wu joins OpenAI from Anthropic",
+      "url": "https://www.businessinsider.com/cat-wu-joins-openai-from-anthropic-product-lead-coup-2026-11",
+      "date": "2026-11-05",
+      "type": "reporting"
+    },
+    {
+      "id": "S02",
+      "title": "用户给定 Tibo 转帖原址（抓取 403）",
+      "url": "https://x.com/thsottiaux/status/2118138648214585591",
+      "date": "2026-11-05",
+      "type": "unretrieved_primary"
+    },
+    {
+      "id": "S03",
+      "title": "Anthropic: Claude Code Live 官方活动",
+      "url": "https://resources.anthropic.com/webinar/claude-code-live",
+      "date": null,
+      "type": "primary_historical"
+    },
+    {
+      "id": "S04",
+      "title": "OpenAI: Our structure",
+      "url": "https://openai.com/our-structure/",
+      "date": null,
+      "type": "primary_current"
+    },
+    {
+      "id": "S05",
+      "title": "OpenAI: Leadership expansion with Fidji Simo",
+      "url": "https://openai.com/index/leadership-expansion-with-fidji-simo/",
+      "date": "2025-05-07",
+      "type": "primary"
+    },
+    {
+      "id": "S06",
+      "title": "OpenAI: Jill Hazelbaker appointed",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer/",
+      "date": "2026-11-03",
+      "type": "primary"
+    },
+    {
+      "id": "S07",
+      "title": "OpenAI: Jakub Pachocki announced Chief Scientist",
+      "url": "https://openai.com/index/jakub-pachocki-announced-as-chief-scientist/",
+      "date": "2024-05-14",
+      "type": "primary"
+    },
+    {
+      "id": "S08",
+      "title": "OpenAI: An Alien Mind, Jakub Pachocki",
+      "url": "https://openai.com/index/an-alien-mind/",
+      "date": "2026-09-06",
+      "type": "primary"
+    },
+    {
+      "id": "S09",
+      "title": "OpenAI: Leadership updates March 2025",
+      "url": "https://openai.com/index/leadership-updates-march-2025/",
+      "date": "2025-03-24",
+      "type": "primary_historical"
+    },
+    {
+      "id": "S10",
+      "title": "OpenAI Forum: Mark Chen and Terence Tao",
+      "url": "https://forum.openai.com/public/videos/event-replay-terence-tao-and-mark-chen-on-ai-and-mathematical-discovery-2026-03-11",
+      "date": "2026-03-04",
+      "type": "primary"
+    },
+    {
+      "id": "S11",
+      "title": "OpenAI: Dali Rajic appointed CRO",
+      "url": "https://openai.com/index/dali-rajic-chief-revenue-officer/",
+      "date": "2026-08-13",
+      "type": "primary"
+    },
+    {
+      "id": "S12",
+      "title": "OpenAI: Arvind KC appointed CPO",
+      "url": "https://openai.com/index/arvind-kc-chief-people-officer/",
+      "date": "2026-02-24",
+      "type": "primary"
+    },
+    {
+      "id": "S13",
+      "title": "OpenAI: Vijaye Raji CTO of Applications",
+      "url": "https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig/",
+      "date": null,
+      "type": "primary"
+    },
+    {
+      "id": "S14",
+      "title": "OpenAI welcomes CFO and CPO",
+      "url": "https://openai.com/index/openai-welcomes-cfo-cpo/",
+      "date": "2024-06-10",
+      "type": "primary_historical"
+    },
+    {
+      "id": "S15",
+      "title": "OpenAI Forum: CFO Sarah Friar",
+      "url": "https://forum.openai.com/en/public/events/openais-cfo-presents-the-future-of-finance-with-university-of-californias-chief-investment-officer-c9x9nn0lx0",
+      "date": null,
+      "type": "primary"
+    },
+    {
+      "id": "S16",
+      "title": "OpenAI: AI policy window",
+      "url": "https://openai.com/index/ai-policy-window/",
+      "date": "2026-09-09",
+      "type": "primary"
+    },
+    {
+      "id": "S17",
+      "title": "OpenAI Forum: Codex is for Everyone, Tibo Sottiaux",
+      "url": "https://forum.openai.com/en/public/events/codex-is-for-everyone-why-codex-matters-beyond-code-fa40puy7wi",
+      "date": null,
+      "type": "primary"
+    },
+    {
+      "id": "S18",
+      "title": "OpenAI acquires Software Applications Incorporated",
+      "url": "https://openai.com/index/openai-acquires-software-applications-incorporated/",
+      "date": null,
+      "type": "primary_historical"
+    },
+    {
+      "id": "S19",
+      "title": "Axios: Brad Lightcap is leaving",
+      "url": "https://www.axios.com/2026/08/11/openai-executive-brad-lightcap-is-leaving",
+      "date": "2026-08-11",
+      "type": "reporting"
+    },
+    {
+      "id": "S20",
+      "title": "OpenAI Forum: Kevin Weil, VP OpenAI for Science",
+      "url": "https://forum.openai.com/en/public/events/hybrid-event-understanding-animals-ai-helps-scientists-interpret-language-across-species-s3dgmg67a2",
+      "date": null,
+      "type": "primary"
+    },
+    {
+      "id": "S21",
+      "title": "Anthropic: Company",
+      "url": "https://www.anthropic.com/company",
+      "date": null,
+      "type": "primary_current"
+    },
+    {
+      "id": "S22",
+      "title": "Anthropic: Leadership",
+      "url": "https://www.anthropic.com/company/leadership",
+      "date": null,
+      "type": "primary_current"
+    },
+    {
+      "id": "S23",
+      "title": "Anthropic: Introducing Labs",
+      "url": "https://www.anthropic.com/news/introducing-anthropic-labs",
+      "date": "2026-01-13",
+      "type": "primary"
+    },
+    {
+      "id": "S24",
+      "title": "Jan Leike: personal biography",
+      "url": "https://jan.leike.name/",
+      "date": null,
+      "type": "primary_current"
+    },
+    {
+      "id": "S25",
+      "title": "OpenAI: Careers search",
+      "url": "https://openai.com/careers/search/",
+      "date": null,
+      "type": "primary_current"
+    },
+    {
+      "id": "S26",
+      "title": "Anthropic: Jobs",
+      "url": "https://www.anthropic.com/careers/jobs",
+      "date": null,
+      "type": "primary_current"
+    },
+    {
+      "id": "S27",
+      "title": "OpenAI: Data Center Design Manager",
+      "url": "https://openai.com/careers/data-center-design-manager-us-remote/",
+      "date": null,
+      "type": "primary_current"
+    },
+    {
+      "id": "S28",
+      "title": "OpenAI: Technical Program Manager Support Delivery",
+      "url": "https://openai.com/careers/technical-program-manager-support-delivery-san-francisco/",
+      "date": null,
+      "type": "primary_current"
+    },
+    {
+      "id": "S29",
+      "title": "Anthropic raises Series A",
+      "url": "https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems",
+      "date": "2021-05-28",
+      "type": "primary"
+    },
+    {
+      "id": "S30",
+      "title": "Anthropic raises Series B",
+      "url": "https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai",
+      "date": null,
+      "type": "primary"
+    },
+    {
+      "id": "S31",
+      "title": "Microsoft: Mustafa Suleyman and Karen Simonyan join",
+      "url": "https://blogs.microsoft.com/blog/2024/03/19/mustafa-suleyman-deepmind-and-inflection-co-founder-joins-microsoft-to-lead-copilot/",
+      "date": "2024-03-19",
+      "type": "primary"
+    },
+    {
+      "id": "S32",
+      "title": "SSI: Company",
+      "url": "https://ssi.inc/",
+      "date": null,
+      "type": "primary_current"
+    },
+    {
+      "id": "S33",
+      "title": "SSI: Updates",
+      "url": "https://ssi.inc/updates",
+      "date": "2025-07-03",
+      "type": "primary"
+    },
+    {
+      "id": "S34",
+      "title": "Axios: Jan Leike joins Anthropic",
+      "url": "https://www.axios.com/2024/05/28/openai-safety-lead-joins-anthropic",
+      "date": "2024-05-28",
+      "type": "reporting"
+    },
+    {
+      "id": "S35",
+      "title": "John Schulman departure announcement, preserved X post",
+      "url": "https://threadreaderapp.com/thread/1820610863499509855.html",
+      "date": "2024-08-06",
+      "type": "primary_mirror"
+    },
+    {
+      "id": "S36",
+      "title": "Reuters: Schulman leaves Anthropic",
+      "url": "https://www.investing.com/news/stock-market-news/john-schulman-leaves-ai-startup-anthropic-3852503",
+      "date": "2025-02-06",
+      "type": "reporting_company_response"
+    },
+    {
+      "id": "S37",
+      "title": "Thinking Machines: LoRA without Regret, John Schulman",
+      "url": "https://thinkingmachines.ai/blog/lora/",
+      "date": "2025-09-29",
+      "type": "primary"
+    },
+    {
+      "id": "S38",
+      "title": "Reuters: Character.AI Google licensing deal",
+      "url": "https://www.inc.com/reuters/characterai-signs-licensing-deal-with-google.html",
+      "date": "2024-08-02",
+      "type": "reporting_company_response"
+    },
+    {
+      "id": "S39",
+      "title": "Thinking Machines: NVIDIA partnership, Mira Murati CEO",
+      "url": "https://thinkingmachines.ai/news/nvidia-partnership/",
+      "date": "2026-03-10",
+      "type": "primary"
+    },
+    {
+      "id": "S40",
+      "title": "Reuters: Thinking Machines launch",
+      "url": "https://www.investing.com/news/stock-market-news/former-openai-technology-chief-mira-muratis-ai-startup-taps-top-researchers-from-competitors-3875339",
+      "date": "2025-02-18",
+      "type": "reporting_company_response"
+    },
+    {
+      "id": "S41",
+      "title": "Scale: Alexandr Wang joins Meta",
+      "url": "https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution",
+      "date": "2025-06-12",
+      "type": "primary"
+    },
+    {
+      "title": "Ala. Code §§8-1-190—197",
+      "url": "https://alison.legislature.state.al.us/code-of-alabama?section=8-1-190",
+      "kind": "primary",
+      "id": "LAL1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Data Management, Inc. v. Greene, 757 P.2d 62 (Alaska 1988)",
+      "url": "https://law.justia.com/cases/alaska/supreme-court/1988/s-2333-1.html",
+      "kind": "primary",
+      "id": "LAK1",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Valley Medical Specialists v. Farber (Ariz. 1999)",
+      "url": "https://www.azcourts.gov/Portals/0/23/pdf1999/cv970488.pdf",
+      "kind": "primary",
+      "id": "LAZ1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Ark. Code §4-75-101",
+      "url": "https://law.justia.com/codes/arkansas/title-4/subtitle-6/chapter-75/subchapter-1/section-4-75-101/",
+      "kind": "primary",
+      "id": "LAR1",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Arkansas Act 232 of 2025",
+      "url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2FACT232.pdf",
+      "kind": "primary",
+      "id": "LAR2",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Cal. Bus. & Prof. Code §16600",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=16600.&lawCode=BPC",
+      "kind": "primary",
+      "id": "LCA1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "§16600法条正文镜像；官方页面抓取403",
+      "url": "https://law.justia.com/codes/california/code-bpc/division-7/part-2/chapter-1/section-16600/",
+      "kind": "primary_mirror",
+      "id": "LCA2",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "C.R.S. §8-2-113，2026州法汇编",
+      "url": "https://olls.info/crs/crs2026-title-08.htm",
+      "kind": "primary",
+      "id": "LCO1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "2026 COMPS & PAYCALC official INFO #1",
+      "url": "https://cdle.colorado.gov/sites/cdle/files/info_%231_2026_comps_%26_paycalc_orders_12.18.25.pdf",
+      "kind": "primary",
+      "id": "LCO2",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Scott v. General Iron & Welding Co., 171 Conn.132 (1976)",
+      "url": "https://law.justia.com/cases/connecticut/supreme-court/1976/171-conn-132-2.html",
+      "kind": "primary",
+      "id": "LCT1",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "2026 HB5492 bill status",
+      "url": "https://prdext3.cga.ct.gov/asp/CGABillStatus/cgabillstatus.asp?bill_num=HB5492&selBillType=Bill",
+      "kind": "primary",
+      "id": "LCT2",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Sunder Energy, LLC v. Jackson (Del. Dec.10,2024)",
+      "url": "https://law.justia.com/cases/delaware/supreme-court/2024/455-2023.html",
+      "kind": "primary",
+      "id": "LDE1",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "DC DOES 2026 Ban on Non-Compete Clauses notice",
+      "url": "https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/2026%20Ban%20on%20Non-Compete%20Clauses_0.pdf",
+      "kind": "primary",
+      "id": "LDC1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Fla. Stat. Ch.542 (2026), §§542.335,542.41—45",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2026/Chapter542/All",
+      "kind": "primary",
+      "id": "LFL1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Fla.Stat.§542.43 covered employee/agreement definitions",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2026/542.43",
+      "kind": "primary",
+      "id": "LFL2",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "O.C.G.A. §13-8-53",
+      "url": "https://www.legis.ga.gov/api/document/docs/default-source/joint-features-document-library/t13-%28v11%29-pdf.pdf",
+      "kind": "primary",
+      "id": "LGA1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Haw. Rev. Stat. §480-4(d)",
+      "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0480/HRS_0480-0004.htm",
+      "kind": "primary",
+      "id": "LHI1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Idaho Code §§44-2701,44-2704",
+      "url": "https://law.justia.com/codes/idaho/title-44/chapter-27/section-44-2704/",
+      "kind": "primary",
+      "id": "LID1",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "§44-2701法条正文镜像",
+      "url": "https://law.justia.com/codes/idaho/title-44/chapter-27/section-44-2701/",
+      "kind": "primary_mirror",
+      "id": "LID2",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Illinois Freedom to Work Act, 820 ILCS90",
+      "url": "https://www.ilga.gov/documents/legislation/ilcs/documents/082000900K10.htm",
+      "kind": "primary",
+      "id": "LIL1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "820 ILCS90 full act; §§15/20 information and consideration",
+      "url": "https://ilga.gov/Legislation/ILCS/Articles?ActID=3737&ChapterID=68&Print=True",
+      "kind": "primary",
+      "id": "LIL2",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Heraeus Medical, LLC v. Zimmer, Inc. (Ind.2019)",
+      "url": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=axcOT1sdD3L0ru8H7QFgOTgwCrBSAL-hZqcd3hqNJDcLJEXSc402qN73OQgnyl3J0",
+      "kind": "primary",
+      "id": "LIN1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Iowa Court of Appeals: noncompete三要素判决",
+      "url": "https://www.iowacourts.gov/courtcases/15906/embed/CourtAppealsOpinion",
+      "kind": "primary",
+      "id": "LIA1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "2026 Iowa Acts Ch.1173 (HF2254)",
+      "url": "https://www.legis.iowa.gov/docs/publications/iactc/91.2/CH1173.pdf",
+      "kind": "primary",
+      "id": "LIA2",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "K.S.A. §50-163 (2026)；Weber/Ristow判例",
+      "url": "https://www.kslegislature.gov/b2023_24/laws/050_000_0000_chapter/050_001_0000_article/050_001_0063_section/050_001_0063_k/",
+      "kind": "primary",
+      "id": "LKS1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Allen, Gibbs & Houlik v.Ristow (Kan.App.2004)",
+      "url": "https://law.justia.com/cases/kansas/court-of-appeals/2004/90879.html",
+      "kind": "primary",
+      "id": "LKS2",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "2026 HB2650 status: Died",
+      "url": "https://www.kslegislature.gov/b2025_26/bills/HB2650/",
+      "kind": "primary",
+      "id": "LKS3",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Creech, Inc. v. Brown (Ky.2014)",
+      "url": "https://law.justia.com/cases/kentucky/supreme-court/2014/2012-sc-000651-dg.html",
+      "kind": "primary",
+      "id": "LKY1",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "La.R.S.23:921",
+      "url": "https://www.legis.la.gov/Legis/Law.aspx?d=84015",
+      "kind": "primary",
+      "id": "LLA1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "2026 Act150 (HB315)",
+      "url": "https://legis.la.gov/Legis/ViewDocument.aspx?d=1475140",
+      "kind": "primary",
+      "id": "LLA2",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "26 M.R.S.§599-A，含2026更新",
+      "url": "https://www.legis.maine.gov/legis/statutes/26/title26sec599-A.html",
+      "kind": "primary",
+      "id": "LME1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Md.Lab.& Empl.§3-716",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gle&section=3-716",
+      "kind": "primary",
+      "id": "LMD1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Mass.Gen.Laws ch.149 §24L",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/Parti/Titlexxi/Chapter149/Section24L",
+      "kind": "primary",
+      "id": "LMA1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "MCL445.774a",
+      "url": "https://archive.legislature.mi.gov/documents/mcl/pdf/mcl-445-774a.pdf",
+      "kind": "primary",
+      "id": "LMI1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Minn.Stat.§181.988",
+      "url": "https://www.revisor.mn.gov/statutes/cite/181.988",
+      "kind": "primary",
+      "id": "LMN1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "2023 MN Session Law Ch53 Article6 effective date",
+      "url": "https://www.revisor.mn.gov/laws/2023/0/53/laws.11.42.0",
+      "kind": "primary",
+      "id": "LMN2",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Empiregas, Inc.of Kosciusko v.Bain,599 So.2d971 (Miss.1992)",
+      "url": "https://law.justia.com/cases/mississippi/supreme-court/1992/89-ca-0059-1.html",
+      "kind": "primary",
+      "id": "LMS1",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Whelan Security Co.v.Kennebrew, SC92291 (Mo.2012)",
+      "url": "https://www.courts.mo.gov/file/OSummary_SC92291.pdf",
+      "kind": "primary",
+      "id": "LMO1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "MCA§28-2-703；Junkermier v.Alborn,2016 MT218",
+      "url": "https://mca.legmt.gov/bills/mca/title_0280/chapter_0020/part_0070/section_0030/0280-0020-0070-0030.html",
+      "kind": "primary",
+      "id": "LMT1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Junkermier v.Alborn,2016 MT218",
+      "url": "https://law.justia.com/cases/montana/supreme-court/2016/da-15-0605.html",
+      "kind": "primary",
+      "id": "LMT2",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Gaver v.Schneider’s O.K.Tire Co.,289 Neb.491 (2014)",
+      "url": "https://law.justia.com/cases/nebraska/supreme-court/2014/s-13-1014.html",
+      "kind": "primary",
+      "id": "LNE1",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "NRS613.195",
+      "url": "https://www.leg.state.nv.us/division/legal/lawlibrary/NRS/NRS-613.html",
+      "kind": "primary",
+      "id": "LNV1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "RSA275:70、275:70-a",
+      "url": "https://gc.nh.gov/rsa/html/xxiii/275/275-70-a.htm",
+      "kind": "primary",
+      "id": "LNH1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "RSA275:70 offer前披露",
+      "url": "https://www.gc.nh.gov/rsa/html/XXIII/275/275-70.htm",
+      "kind": "primary",
+      "id": "LNH2",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Solari Industries, Inc.v.Malady,55 N.J.571 (1970)",
+      "url": "https://law.justia.com/cases/new-jersey/supreme-court/1970/55-n-j-571-0.html",
+      "kind": "primary",
+      "id": "LNJ1",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Lovelace Clinic v.Murphy,76 N.M.645 (1966)，一般原则历史来源",
+      "url": "https://law.justia.com/cases/new-mexico/supreme-court/1966/8048-0.html",
+      "kind": "primary",
+      "id": "LNM1",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "New York Attorney General noncompete guidance",
+      "url": "https://ag.ny.gov/resources/individuals/workers-rights/noncompete-agreements",
+      "kind": "primary",
+      "id": "LNY1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "S9759官方状态",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S9759",
+      "kind": "primary",
+      "id": "LNY2",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "N.C.G.S.§75-4；Beverage Systems (N.C.2016)",
+      "url": "https://house.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_75/GS_75-4.html",
+      "kind": "primary",
+      "id": "LNC1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Beverage Systems v.Associated Beverage Repair (N.C.2016)",
+      "url": "https://law.justia.com/cases/north-carolina/supreme-court/2016/316a14.html",
+      "kind": "primary",
+      "id": "LNC2",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "N.D.Cent.Code§9-08-06",
+      "url": "https://ndlegis.gov/cencode/t09c08.pdf",
+      "kind": "primary",
+      "id": "LND1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Kross Acquisition Co.v.Groundworks Ohio (Ohio App.2024)，引用Raimonde",
+      "url": "https://law.justia.com/cases/ohio/first-district-court-of-appeals/2024/c-230272.html",
+      "kind": "primary",
+      "id": "LOH1",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "15 O.S.§219A",
+      "url": "https://law.justia.com/codes/oklahoma/title-15/section-15-219a/",
+      "kind": "primary",
+      "id": "LOK1",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Oregon BOLI Noncompetition Agreements / ORS653.295",
+      "url": "https://www.oregon.gov/boli/employers/Pages/noncompetition-agreements.aspx",
+      "kind": "primary",
+      "id": "LOR1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Rullex Co.v.Tel-Stream (Pa.2020)",
+      "url": "https://www.pacourts.us/assets/opinions/Supreme/out/j-11-2020mo%20-%20104455503102849192.pdf",
+      "kind": "primary",
+      "id": "LPA1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Pennsylvania 2024 Act74",
+      "url": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?ActNum=0074.&SessInd=0&SessYr=2024&txtType=PDF",
+      "kind": "primary",
+      "id": "LPA2",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "R.I.Gen.Laws§§28-59-2、28-59-3",
+      "url": "https://webserver.rilegislature.gov/statutes/title28/28-59/28-59-3.HTM",
+      "kind": "primary",
+      "id": "LRI1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "§28-59-2 definitions",
+      "url": "https://webserver.rilegislature.gov/statutes/title28/28-59/28-59-2.HTM",
+      "kind": "primary",
+      "id": "LRI2",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Milliken & Co.v.Morin,SC Court of Appeals opinion4610",
+      "url": "https://www.sccourts.org/media/opinions/HTMLFiles/COA/4610.htm",
+      "kind": "primary",
+      "id": "LSC1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "S.D.Codified Laws§53-9-11",
+      "url": "https://sdlegislature.gov/Statutes/53-9-11",
+      "kind": "primary",
+      "id": "LSD1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "2026 Tenn.Pub.Acts Ch.934 (HB1034) official history & adopted amendment summary",
+      "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB1034&ga=114",
+      "kind": "primary",
+      "id": "LTN1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Public Chapter934原文PDF（抓取403；可人工下载）",
+      "url": "https://publications.tnsosfiles.com/acts/114/pub/pc0934.pdf",
+      "kind": "primary",
+      "id": "LTN2",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Tex.Bus.& Com.Code§15.50；2025 SB1318",
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01318F.htm",
+      "kind": "primary",
+      "id": "LTX1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Utah Code§34-51-201 (effective2026-05-06)",
+      "url": "https://le.utah.gov/xcode/Title34/Chapter51/C34-51-S201_2026050620260506.pdf",
+      "kind": "primary",
+      "id": "LUT1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Summits7,Inc.v.Kelly,2005 VT97",
+      "url": "https://law.justia.com/cases/vermont/supreme-court/2005/2004-242op.html",
+      "kind": "primary",
+      "id": "LVT1",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Va.Code§40.1-28.7:8 (2026)",
+      "url": "https://law.lis.virginia.gov/vacode/title40.1/chapter4/section40.1-28.7%3A8/",
+      "kind": "primary",
+      "id": "LVA1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "DOLI 2026 weekly wage notice",
+      "url": "https://doli.virginia.gov/2026/01/06/notice-of-the-average-weekly-wage-for-2026/",
+      "kind": "primary",
+      "id": "LVA2",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "RCW49.62；WA L&I 2026 thresholds",
+      "url": "https://www.lni.wa.gov/workers-rights/workplace-policies/non-compete-agreements",
+      "kind": "primary",
+      "id": "LWA1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "ESHB1155,Ch149 Laws2026; effective2027-06-30",
+      "url": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Session%20Laws/House/1155-S.SL.pdf",
+      "kind": "primary",
+      "id": "LWA2",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Reddy v.Community Health Foundation,171 W.Va.368 (1982)",
+      "url": "https://law.justia.com/cases/west-virginia/supreme-court/1982/15453-4.html",
+      "kind": "primary",
+      "id": "LWV1",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Wis.Stat.§103.465",
+      "url": "https://docs.legis.wisconsin.gov/statutes/statutes/103/465",
+      "kind": "primary",
+      "id": "LWI1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "法条及判例注释镜像；官方抓取超时",
+      "url": "https://law.justia.com/codes/wisconsin/chapter-103/section-103-465/",
+      "kind": "primary_mirror",
+      "id": "LWI2",
+      "type": "原始法条／判决的第三方转载",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "title": "Wyo.Stat.§1-23-108",
+      "url": "https://wyoleg.gov/statutes/compress/title01.pdf",
+      "kind": "primary",
+      "id": "LWY1",
+      "type": "州法／政府说明／原始判例",
+      "date": "发布日期见标题；核验 2026-11-05"
+    },
+    {
+      "id": "U01",
+      "title": "用户提供的 Cat / Tibo 截图",
+      "url": "",
+      "type": "用户提供的一手材料",
+      "date": "2026-11-05 接收",
+      "notes": "截图不公开转载；原 X 链接见 S02，抓取受限。"
+    },
+    {
+      "id": "CA26A",
+      "title": "加州州长 2026-09-30 签署清单（含 AB1697）",
+      "url": "https://www.gov.ca.gov/2026/09/30/governor-newsom-issues-legislative-update-9-30-2026/",
+      "type": "州政府签署确认",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "CA26B",
+      "title": "AB1697 Chapter 889 正文镜像",
+      "url": "https://legiscan.com/CA/text/AB1697/id/3461237",
+      "type": "已签署州法正文镜像",
+      "date": "2026-09-30",
+      "notes": "与州长签署清单交叉核对；将 §16608 合同日期修改至 2027-01-01。"
+    }
+  ]
+}
